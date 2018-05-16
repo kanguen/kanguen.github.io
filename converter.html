@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!--5ETOOLS_VERSION-->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Stat Block Converter - 5etools</title>
+
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="favicon.png">
+
+	<script type="text/javascript" src="lib/js-cookie.js"></script>
+	<script type="text/javascript" src="js/styleswitch.js"></script>
+	<script type="text/javascript" src="js/navigation.js"></script>
+
+	<style>
+		.inputArea {
+			width: 100%;
+			height: 75vh;
+		}
+
+		.outputArea {
+			width: 100%;
+			height: 75vh;
+		}
+
+		.select-inline{
+			display: inline-block;
+			width: initial;
+		}
+	</style>
+</head>
+
+<body>
+<div class="viewport-wrapper">
+	<header class="hidden-xs hidden-sm">
+		<div class="container">
+
+			<h1>Stat Block Converter</h1>
+			<p>Input stat block on left, hit parse, copy JSON from right.</p>
+		</div>
+	</header>
+	<nav class="container" id="navigation">
+		<ul class="nav nav-pills" id="navbar">
+		</ul>
+	</nav>
+	<main class="bodyContent view-col-wrapper">
+
+		<div class="view-col">
+			<h3>Statblock
+				<button id="parsestatblock" class="btn">Parse</button>
+				<button id="parsestatblockadd" class="btn">Parse and Add</button>
+				<select class="form-control select-inline" id="parse_mode">
+					<option value="txt">Parse as Text</option>
+					<option value="md" selected>Parse as Markdown</option>
+				</select>
+			</h3>
+			<pre id="statblock" class="inputArea">
+___
+>## Lich
+>*Medium undead, any evil alignment*
+>___
+>- **Armor Class** 17
+>- **Hit Points** 135 (18d8 + 54)
+>- **Speed** 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|11 (+0)|16 (+3)|16 (+3)|20 (+5)|14 (+2)|16 (+3)|
+>___
+>- **Saving Throws** Con +10, Int +12, Wis +9
+>- **Skills** Arcana +18, History +12, Insight +9, Perception +9
+>- **Damage Resistances** cold, lightning, necrotic
+>- **Damage Immunities** poison, bludgeoning, piercing, and slashing from nonmagical weapons
+>- **Condition Immunities** charmed, exhaustion, frightened, paralyzed, poisoned
+>- **Senses** truesight 120 ft., passive Perception 19
+>- **Languages** Common plus up to five other languages
+>- **Challenge** 21 (33000 XP)
+>___
+>***Legendary Resistance (3/Day).*** If the lich fails a saving throw, it can choose to succeed instead.
+>
+>***Rejuvenation.*** If it has a phylactery, a destroyed lich gains a new body in 1d10 days, regaining all its hit points and becoming active again. The new body appears within 5 feet of the phylactery.
+>
+>***Spellcasting.*** The lich is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 20, +12 to hit with spell attacks). The lich has the following wizard spells prepared:
+>
+>• Cantrips (at will): mage hand, prestidigitation, ray of frost
+>• 1st level (4 slots): detect magic, magic missile, shield, thunderwave
+>• 2nd level (3 slots): detect thoughts, invisibility, Melf's acid arrow, mirror image
+>• 3rd level (3 slots): animate dead, counterspell, dispel magic, fireball
+>• 4th level (3 slots): blight, dimension door
+>• 5th level (3 slots): cloudkill, scrying
+>• 6th level (1 slot): disintegrate, globe of invulnerability
+>• 7th level (1 slot): finger of death, plane shift
+>• 8th level (1 slot): dominate monster, power word stun
+>• 9th level (1 slot): power word kill
+>
+>***Turn Resistance.*** The lich has advantage on saving throws against any effect that turns undead.
+>
+>### Actions
+>***Paralyzing Touch.*** Melee Spell Attack: +12 to hit, reach 5 ft., one creature. Hit: 10 (3d6) cold damage. The target must succeed on a DC 18 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+>
+>### Legendary Actions
+>The lich can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The lich regains spent legendary actions at the start of its turn.
+>
+>***Cantrip.*** The lich casts a cantrip.
+>
+>***Paralyzing Touch (Costs 2 Actions).*** The lich uses its Paralyzing Touch.
+>
+>***Frightening Gaze (Costs 2 Actions).*** The lich fixes its gaze on one creature it can see within 10 feet of it. The target must succeed on a DC 18 Wisdom saving throw against this magic or become frightened for 1 minute. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to the lich's gaze for the next 24 hours.
+>
+>***Disrupt Life (Costs 3 Actions).*** Each living creature within 20 feet of the lich must make a DC 18 Constitution saving throw against this magic, taking 21 (6d6) necrotic damage on a failed save, or half as much damage on a successful one.
+>
+>
+			</pre>
+			<select id="source" class="form-control select-inline"></select>
+			<input type="text" id="customsourcein" placeholder="Custom source">
+			<button id="addsource" class="btn btn-sm">Save</button>
+			<br>
+			<small>This parser is <em>very</em> particular about its input. Use at your own risk.</small>
+		</div>
+
+		<div class="view-col">
+			<h3>Output</h3>
+			<textarea id="jsonoutput" readonly class="outputArea"></textarea>
+		</div>
+	</main>
+
+	<!--5ETOOLS_SCRIPT_ANCHOR-->
+	<script type="text/javascript" src="js/utils.js"></script>
+	<script type="text/javascript" src="js/omnisearch.js"></script>
+	<script type="text/javascript" src="js/entryrender.js"></script>
+	<script type="text/javascript" src="js/converter.js"></script>
+	<script type="text/javascript" src="lib/list.js"></script>
+	<script type="text/javascript" src="lib/jquery.js"></script>
+	<script type="text/javascript" src="lib/bootstrap.js"></script>
+	<script type="text/javascript" src="lib/elasticlunr.js"></script>
+	<script type="text/javascript" src="lib/ace.js"></script>
+</div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+{
+	"$schema": "http://json-schema.org/draft-06/schema#",
+	"version": "1.0.0",
+	"type": "object",
+	"properties": {
+		"background": {
+			"type": "array",
+			"uniqueItems": true,
+			"items": {
+				"type": "object",
+				"properties": {
+					"name": {
+						"type": "string"
+					},
+					"source": {
+						"type": "string"
+					},
+					"page": {
+						"type": "integer"
+					},
+					"skillProficiencies": {
+						"type": "string"
+					},
+					"entries": {
+						"type": "array",
+						"items": {
+							"$ref": "/Entry"
+						}
+					}
+				},
+				"required": [
+					"name",
+					"source",
+					"skillProficiencies",
+					"entries"
+				],
+				"additionalProperties": false
+			}
+		}
+	},
+	"required": [
+		"background"
+	],
+	"additionalProperties": false
+}

@@ -1,0 +1,45 @@
+{
+	"$schema": "http://json-schema.org/draft-06/schema#",
+	"version": "1.0.0",
+	"title": "RulesArray",
+
+	"type": "object",
+	"properties": {
+		"variantrule": {
+			"type": "array",
+			"items": {"$ref": "#/definitions/variantrule"}
+		}
+	},
+	"additionalProperties": false,
+	"required": ["variantrule"],
+	"definitions": {
+		"variantrule": {
+			"properties": {
+				"name": {
+					"type": "string"
+				},
+				"type": {
+					"type": "string"
+				},
+				"entries": {
+					"type": "array",
+					"items": {
+						"$ref": "/Entry"
+					}
+				},
+				"source": {
+					"type": "string"
+				},
+				"page": {
+					"type": "integer"
+				}
+			},
+			"required": [
+				"name",
+				"entries",
+				"source"
+			],
+			"additionalProperties": false
+		}
+	}
+}

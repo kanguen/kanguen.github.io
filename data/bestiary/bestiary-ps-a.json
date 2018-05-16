@@ -1,0 +1,214 @@
+{
+	"monster": [
+		{
+			"source": "PSA",
+			"page": 32,
+			"name": "Criosphinx",
+			"size": "L",
+			"type": "monstrosity",
+			"alignment": [
+				"N"
+			],
+			"ac": "18 (natural armor)",
+			"hp": {
+				"average": 228,
+				"formula": "24d10+96"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 60
+			},
+			"str": 18,
+			"dex": 15,
+			"con": 18,
+			"int": 16,
+			"wis": 16,
+			"cha": 16,
+			"skill": {
+				"arcana": "+8",
+				"history": "+8",
+				"perception": "+8",
+				"religion": "+8"
+			},
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from"
+				}
+			],
+			"immune": [
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened"
+			],
+			"senses": "truesight 120 ft.",
+			"passive": 18,
+			"languages": "understands Common, Sphinx",
+			"cr": "13",
+			"trait": [
+				{
+					"name": "Inscrutable",
+					"entries": [
+						"The sphinx is immune to any effect that would sense its emotions or read its thoughts, as well as any divination spell that it refuses. Wisdom (Insight) checks made to ascertain the sphinx's intentions or sincerity have disadvantage."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The sphinx's weapon attacks are magical."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The sphinx makes a ram attack and two claw attacks."
+					]
+				},
+				{
+					"name": "Ram",
+					"entries": [
+						"Melee Weapon Attack: {@hit +9} to hit, reach 5 ft., one target. Hit: 17 ({@dice 3d8+4}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"Melee Weapon Attack: {@hit +9} to hit, reach 5 ft., one target. Hit: 13 ({@dice 2d8+4}) slashing damage."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Ram Attack",
+					"entries": [
+						"The sphinx makes one ram attack."
+					]
+				},
+				{
+					"name": "Teleport (Costs 2 Actions)",
+					"entries": [
+						"The sphinx magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see."
+					]
+				}
+			]
+		},
+		{
+			"source": "PSA",
+			"page": 36,
+			"name": "Manticore, Heart-Piercer",
+			"size": "L",
+			"type": "monstrosity",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": "15 (natural armor)",
+			"hp": {
+				"average": 136,
+				"formula": "16d10+48"
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 19,
+			"dex": 14,
+			"con": 16,
+			"int": 5,
+			"wis": 12,
+			"cha": 6,
+			"skill": {
+				"perception": "+4"
+			},
+			"senses": "darkvision 60 ft.",
+			"passive": 14,
+			"cr": "5",
+			"trait": [],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The manticore makes two attacks, one with its bite and one with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"Melee Weapon Attack: {@hit +7} to hit, reach 5 ft., one target. Hit: 11 ({@dice 2d6+4}) piercing damage."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"Melee Weapon Attack: {@hit +7} to hit, reach 5 ft., one target. Hit: 13 ({@dice 2d8+4}) slashing damage."
+					]
+				},
+				{
+					"name": "Stinger",
+					"entries": [
+						"Melee Weapon Attack: {@hit +7} to hit, reach 10 ft., one target. Hit: 11 ({@dice 2d6+4}) piercing damage. The target must make a DC 14 Constitution saving throw, taking 24 ({@dice 7d6}) poison damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			]
+		},
+		{
+			"source": "PSA",
+			"page": 37,
+			"name": "Serpopard",
+			"size": "L",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": "12",
+			"hp": {
+				"average": 52,
+				"formula": "7d10+14"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 18,
+			"dex": 14,
+			"con": 15,
+			"int": 3,
+			"wis": 12,
+			"cha": 8,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+6"
+			},
+			"passive": 13,
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The serpopard has advantage on Wisdom (Perception) checks that rely on smell."
+					]
+				},
+				{
+					"name": "Pounce",
+					"entries": [
+						"If the serpopard moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the serpopard can make one bite attack against it as a bonus action."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"Melee Weapon Attack: {@hit +6} to hit, reach 5 ft., one target. Hit: 9 ({@dice 1d10+4}) piercing damage, and the target must make a DC 14 Constitution saving throw, taking 10 ({@dice 3d6}) poison damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			]
+		}
+	]
+}

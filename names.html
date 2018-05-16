@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!--5ETOOLS_VERSION-->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Names - 5etools</title>
+
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="favicon.png">
+
+	<script type="text/javascript" src="lib/js-cookie.js"></script>
+	<script type="text/javascript" src="js/styleswitch.js"></script>
+	<script type="text/javascript" src="js/navigation.js"></script>
+	<style>
+		#listcontainer > ul > li {
+			max-height: initial;
+		}
+
+		ul.list li:hover {
+			background: inherit;
+		}
+
+		ul.list li:active {
+			color: inherit;
+		}
+
+		ul.list a:hover {
+			background: lightgrey;
+		}
+
+		ul {
+			margin-left: 0;
+			padding-left: 0;
+		}
+
+		ul.list li {
+			max-height: none;
+		}
+
+		span.name {
+			user-select: none;
+			font-weight: bold;
+			font-size: 1.2em;
+		}
+
+		ul.names > li {
+			border-bottom: none;
+			margin-bottom: 5px;
+		}
+
+		ul.names > li > ul > li:last-child {
+			border-bottom: none;
+		}
+
+		#listcontainer {
+			flex: 3;
+		}
+
+		#tablecontainer {
+			flex: 7;
+			display: flex;
+			flex-direction: column;
+		}
+
+		#contentwrapper {
+			overflow-y: auto;
+		}
+
+		.search-box {
+			flex-shrink: 0;
+			margin-bottom: 5px;
+		}
+
+		.rolltable {
+			display: flex;
+		}
+	</style>
+</head>
+
+<body>
+<div class="viewport-wrapper">
+	<header class="hidden-xs hidden-sm">
+		<div class="container">
+			<h1>Names</h1>
+			<p>Choose a race and a type, then roll the d100!</p>
+		</div>
+	</header>
+	<nav class="container" id="navigation">
+		<ul class="nav nav-pills" id="navbar">
+		</ul>
+	</nav>
+	<div class="container view-col-wrapper">
+		<div class="view-col" id="listcontainer">
+			<div class="input-group search-box">
+				<input type="search" id="search" class="search form-control" placeholder="Find race...">
+				<span class="input-group-btn">
+						<button class="btn btn-default reset" id="reset" type="button">Reset</button>
+					</span>
+			</div>
+
+			<ul class="list names">
+				<!-- populate with JS -->
+			</ul>
+		</div>
+
+		<div class="view-col" id="tablecontainer">
+			<div class="rolltable" id="contentwrapper">
+				<table id="pagecontent" class="stats">
+					<!-- populate with JS -->
+				</table>
+			</div>
+		</div>
+	</div>
+</div>    <!--5ETOOLS_SCRIPT_ANCHOR-->
+<script type="text/javascript" src="js/utils.js"></script>
+<script type="text/javascript" src="js/omnisearch.js"></script>
+<script type="text/javascript" src="js/entryrender.js"></script>
+<script type="text/javascript" src="js/history.js"></script>
+<script type="text/javascript" src="js/names.js"></script>
+<script type="text/javascript" src="lib/list.js"></script>
+<script type="text/javascript" src="lib/jquery.js"></script>
+<script type="text/javascript" src="lib/bootstrap.js"></script>
+<script type="text/javascript" src="lib/elasticlunr.js"></script>
+</body>
+
+</html>

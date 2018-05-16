@@ -1,0 +1,1983 @@
+{
+	"adventure": [
+		{
+			"name": "Lost Mines of Phandelver",
+			"id": "LMoP",
+			"contents": [
+				{
+					"name": "Introduction",
+					"headers": [
+						"Running the Adventure",
+						"Background",
+						"Overview",
+						"Adventure Hook",
+						"The Forgotten Realms"
+					]
+				},
+				{
+					"name": "Goblin Arrows",
+					"headers": [
+						"Goblin Ambush",
+						"Cragmaw Hideout"
+					],
+					"ordinal": {
+						"type": "part",
+						"identifier": 1
+					}
+				},
+				{
+					"name": "Phandalin",
+					"headers": [
+						"Encounters in Phandalin",
+						"Important NPCs",
+						"Town Description",
+						"Redbrand Ruffians",
+						"Redbrand Hideout"
+					],
+					"ordinal": {
+						"type": "part",
+						"identifier": 2
+					}
+				},
+				{
+					"name": "The Spider's Web",
+					"headers": [
+						"Triboar Trail",
+						"Conyberry and Agatha's Lair",
+						"Old Owl Well",
+						"Ruins of Thundertree",
+						"Wyvern Tor",
+						"Cragmaw Castle"
+					],
+					"ordinal": {
+						"type": "part",
+						"identifier": 3
+					}
+				},
+				{
+					"name": "Wave Echo Cave",
+					"headers": [
+						"Character Level",
+						"Experience Point Awards",
+						"Wandering Monsters",
+						"General Features",
+						"Keyed Encounters",
+						"Conclusion"
+					],
+					"ordinal": {
+						"type": "part",
+						"identifier": 4
+					}
+				}
+			],
+			"level": {
+				"start": 1,
+				"end": 5
+			},
+			"published": "2014-07-15",
+			"storyline": "Starter Set"
+		},
+		{
+			"name": "Hoard of the Dragon Queen",
+			"id": "HotDQ",
+			"contents": [
+				{
+					"name": "Introduction",
+					"headers": [
+						"Background",
+						"Overview"
+					]
+				},
+				{
+					"name": "Greenest in Flames",
+					"headers": [
+						"Character Hooks",
+						"The Approach",
+						"General Features",
+						"Wandering Encounters",
+						"Missions"
+					],
+					"ordinal": {
+						"type": "episode",
+						"identifier": 1
+					}
+				},
+				{
+					"name": "Raiders' Camp",
+					"headers": [
+						"Tracking the Raiders",
+						"The Camp",
+						"Rewards"
+					],
+					"ordinal": {
+						"type": "episode",
+						"identifier": 2
+					}
+				},
+				{
+					"name": "Dragon Hatchery",
+					"headers": [
+						"Rewards"
+					],
+					"ordinal": {
+						"type": "episode",
+						"identifier": 3
+					}
+				},
+				{
+					"name": "On the Road",
+					"headers": [
+						"Elturel",
+						"Baldur's Gate",
+						"Fellow Travelers",
+						"Life on the Road",
+						"Random Road Events",
+						"Planned Road Events"
+					],
+					"ordinal": {
+						"type": "episode",
+						"identifier": 4
+					}
+				},
+				{
+					"name": "Construction Ahead",
+					"headers": [
+						"Waterdeep",
+						"Northbound, Again",
+						"Carnath Roadhouse",
+						"Tracking the Load",
+						"Grudge Match"
+					],
+					"ordinal": {
+						"type": "episode",
+						"identifier": 5
+					}
+				},
+				{
+					"name": "Castle Naerytar",
+					"headers": [
+						"Traveling to the Castle",
+						"Castle Naerytar",
+						"Squaring Off Against the Cult of the Dragon",
+						"Approaching Castle Naerytar",
+						"Outside Castle Naerytar",
+						"Inside Castle Naerytar",
+						"Ground Floor",
+						"Second Floor",
+						"Third Floor",
+						"Beneath the Castle",
+						"Rewards"
+					],
+					"ordinal": {
+						"type": "episode",
+						"identifier": 6
+					}
+				},
+				{
+					"name": "Hunting Lodge",
+					"headers": [
+						"General Features",
+						"Important Nonplayer Characters",
+						"Through the Gate",
+						"Outside the Lodge",
+						"Lodge Ground Floor",
+						"Lodge Upper Floor",
+						"Traveling to Parnast"
+					],
+					"ordinal": {
+						"type": "episode",
+						"identifier": 7
+					}
+				},
+				{
+					"name": "Castle in the Clouds",
+					"headers": [
+						"1. Village of Parnast",
+						"2. The Golden Tankard",
+						"3. The Stable",
+						"4. Shrine of Axes",
+						"5. Village Well and Square",
+						"Skyreach Castle",
+						"6. Main Gate",
+						"6A. Gateway and Golems",
+						"6B. Gate Towers",
+						"7. Lower Courtyard",
+						"8. Stables",
+						"9. Cultist Barracks",
+						"10. Stone Giants' Chamber",
+						"11. Rezmir's Chamber",
+						"12. Red Wizards' Room",
+						"13. Storeroom",
+						"14. Guest Chamber",
+						"15. Kitchen",
+						"16. Upper Courtyard",
+						"17. High Blue Tower",
+						"18. Crumbling Tower",
+						"19. Steering Tower",
+						"20. Ogre Barracks",
+						"21. Esclarotta's Tomb",
+						"22. Cloud Giant Tower",
+						"23. Giant Guest Chambers",
+						"24. Servant Barracks",
+						"Main Vault",
+						"Concluding the Adventure"
+					],
+					"ordinal": {
+						"type": "episode",
+						"identifier": 8
+					}
+				}
+			],
+			"level": {
+				"start": 1,
+				"end": 7
+			},
+			"published": "2014-08-19",
+			"storyline": "Tyranny of Dragons"
+		},
+		{
+			"name": "Rise of Tiamat",
+			"id": "RoT",
+			"contents": [
+				{
+					"name": "Tyranny of Dragons",
+					"headers": [
+						"Introduction",
+						"Background",
+						"Overview",
+						"Outline of Episodes",
+						"Adventure Hooks",
+						"Additional Encounters",
+						"Running the Adventure",
+						"Villains",
+						"Allies"
+					]
+				},
+				{
+					"name": "Council of Waterdeep",
+					"headers": [
+						"Starting the Adventure",
+						"Back in Waterdeep",
+						"Gathering Allies",
+						"Sessions of the Council",
+						"Scoring the Sessions"
+					],
+					"ordinal": {
+						"type": "episode",
+						"identifier": 1
+					}
+				},
+				{
+					"name": "The Sea of Moving Ice",
+					"headers": [
+						"The Sea of Moving Ice",
+						"Oyaviggaton",
+						"Ice Caves",
+						"Arauthator's Lair",
+						"Developments",
+						"Leaving Oyaviggaton",
+						"Arauthator's Treasure",
+						"Conclusion"
+					],
+					"ordinal": {
+						"type": "episode",
+						"identifier": 2
+					}
+				},
+				{
+					"name": "Death to the Wyrmspeakers",
+					"headers": [
+						"Varram the White",
+						"Tomb of Diderius",
+						"Ss'tck'al",
+						"Conclusion"
+					],
+					"ordinal": {
+						"type": "episode",
+						"identifier": 3
+					}
+				},
+				{
+					"name": "Neronvain",
+					"headers": [
+						"The Misty Forest",
+						"Neronvain's Stronghold",
+						"Conclusion"
+					],
+					"ordinal": {
+						"type": "episode",
+						"identifier": 4
+					}
+				},
+				{
+					"name": "The Cult Strikes Back",
+					"headers": [
+						"First Attack",
+						"Second Attack",
+						"Third Attack",
+						"Sequence of Events"
+					],
+					"ordinal": {
+						"type": "episode",
+						"identifier": 5
+					}
+				},
+				{
+					"name": "Metallic Dragons, Arise",
+					"headers": [
+						"Unlikely Ambassadors",
+						"Council of Dragons",
+						"Conclusion"
+					],
+					"ordinal": {
+						"type": "episode",
+						"identifier": 6
+					}
+				},
+				{
+					"name": "Xonthal's Tower",
+					"headers": [
+						"The Maze",
+						"The Tower",
+						"Dungeon",
+						"Exiting Xonthal's Tower",
+						"Conclusion"
+					],
+					"ordinal": {
+						"type": "episode",
+						"identifier": 7
+					}
+				},
+				{
+					"name": "Mission to Thay",
+					"headers": [
+						"The Enemy of My Enemy",
+						"Conclusion"
+					],
+					"ordinal": {
+						"type": "episode",
+						"identifier": 8
+					}
+				},
+				{
+					"name": "Tiamat's Return",
+					"headers": [
+						"The Well of Dragons",
+						"Tiamat's Temple",
+						"Enemies and Allies",
+						"Victory or Defeat"
+					],
+					"ordinal": {
+						"type": "episode",
+						"identifier": 9
+					}
+				}
+			],
+			"level": {
+				"start": 8,
+				"end": 15
+			},
+			"published": "2014-11-04",
+			"storyline": "Tyranny of Dragons"
+		},
+		{
+			"name": "Princes of the Apocalypse",
+			"id": "PotA",
+			"contents": [
+				{
+					"name": "Rise of Elemental Evil",
+					"headers": [
+						"Using This Book",
+						"Adventure Background",
+						"Adventure Synopsis",
+						"Elemental Cults",
+						"Cult of the Black Earth",
+						"Cult of the Crushing Wave",
+						"Cult of the Eternal Flame",
+						"Cult of the Howling Hatred",
+						"Running the Adventure",
+						"Adventure Hooks",
+						"Factions",
+						"Starting the Adventure",
+						"Preparing for Play",
+						"Using Monster References",
+						"Using the Side Treks"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 1
+					}
+				},
+				{
+					"name": "The Dessarin Valley",
+					"headers": [
+						"History",
+						"Current Events",
+						"Red Larch",
+						"Important Red Larchers",
+						"The Believers",
+						"Adventure in Red Larch",
+						"Rumors of Evil",
+						"Red Larch Locations",
+						"Exploring the Valley",
+						"Travel",
+						"Random Encounters",
+						"Valley Sites",
+						"The Uthgardt Tribes"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 2
+					}
+				},
+				{
+					"name": "Secret of the Sumber Hills",
+					"headers": [
+						"The Missing Delegation",
+						"Early Investigations",
+						"Cult Reprisals",
+						"Feathergale Spire",
+						"Knights' Quest",
+						"Sighing Valley",
+						"Rivergard Keep",
+						"Sacred Stone Monastery",
+						"Scarlet Moon Hall"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 3
+					}
+				},
+				{
+					"name": "Air, Earth, Fire, Water",
+					"headers": [
+						"Rooting Out Evil",
+						"Cult Retaliation",
+						"Temple of Howling Hatred",
+						"Temple of the Crushing Wave",
+						"Temple of Black Earth",
+						"Temple of Eternal Flame"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 4
+					}
+				},
+				{
+					"name": "Temple of the Elder Elemental Eye",
+					"headers": [
+						"Wrath of the Elements",
+						"Fighting the Prophets",
+						"Saving the Delegates",
+						"Fane of the Eye",
+						"The Howling Caves",
+						"The Plunging Torrents",
+						"The Black Geode",
+						"The Weeping Colossus",
+						"Concluding the Campaign"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 5
+					}
+				},
+				{
+					"name": "Alarums and Excursion",
+					"headers": [
+						"Trouble in Red Larch",
+						"Into the Wilderness",
+						"Necromancer's Cave",
+						"Tomb of Moving Stones",
+						"Side Treks",
+						"New Management",
+						"Iceshield Orcs",
+						"The Long Road",
+						"Curse of the Fire Witch",
+						"Vale of Dancing Waters",
+						"Dark Dealings in Yartar",
+						"Rundreth Manor",
+						"Halls of the Hunting Axe"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 6
+					}
+				}
+			],
+			"level": {
+				"start": 1,
+				"end": 15
+			},
+			"published": "2015-04-07",
+			"storyline": "Elemental Evil"
+		},
+		{
+			"name": "Out of the Abyss",
+			"id": "OotA",
+			"contents": [
+				{
+					"name": "Prisoners of the Drow",
+					"headers": [
+						"Escape!",
+						"The Adventure Begins",
+						"In the Slave Pen",
+						"The Drow",
+						"Velkynvelve",
+						"Means of Escape",
+						"Leaving Velkynvelve",
+						"XP Awards"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 1
+					}
+				},
+				{
+					"name": "Into Darkness",
+					"headers": [
+						"Where to Go?",
+						"Underdark Travel",
+						"Equipment",
+						"Madness",
+						"Death",
+						"Fungi of the Underdark",
+						"Narrating the Journey",
+						"Drow Pursuit",
+						"Random Encounters",
+						"Summarizing Travel",
+						"Set Encounters",
+						"The Silken Paths",
+						"Hook Horror Hunt",
+						"The Oozing Temple",
+						"Lost Tomb of Khaem"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 2
+					}
+				},
+				{
+					"name": "The Darklake",
+					"headers": [
+						"Traversing the Darklake",
+						"Random Encounter",
+						"Sloobludop",
+						"XP Awards"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 3
+					}
+				},
+				{
+					"name": "Gracklstugh",
+					"headers": [
+						"Going to Gracklstugh",
+						"Gracklstugh",
+						"Darklake District",
+						"Laduguer's Furrow",
+						"West Cleft & East Cleft Districts",
+						"Halls of Sacred Scrolls",
+						"Cairngorm Cavern",
+						"Themberchaud's Lair",
+						"Whorlstone Tunnels",
+						"Leaving Gracklstugh",
+						"Hold of the Deepking"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 4
+					}
+				},
+				{
+					"name": "Neverlight Grove",
+					"headers": [
+						"Going to Neverlight Grove",
+						"Arriving at the Grove",
+						"Neverlight Grove",
+						"Yggmorgus",
+						"Leaving Neverlight Grove"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 5
+					}
+				},
+				{
+					"name": "Blingdenstone",
+					"headers": [
+						"Going to Blingdenstone",
+						"Blingdenstone Outskirts",
+						"Outer Blingdenstone",
+						"Inner Blingdenstone",
+						"Rockblight",
+						"Goldwhisker Warrens",
+						"The Pudding Court",
+						"Battle for Blingdenstone",
+						"Leaving Blingdenstone"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 6
+					}
+				},
+				{
+					"name": "Escape from the Underdark",
+					"headers": [
+						"The Way Out",
+						"Bidding Farewell",
+						"Confronting the Drow",
+						"Further Adventures"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 7
+					}
+				},
+				{
+					"name": "Audience in Gauntlgrym",
+					"headers": [
+						"Summoned by Bruenor",
+						"Gauntlgrym",
+						"Events in Gauntlgrym",
+						"Forging an Alliance",
+						"The Way Ahead"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 8
+					}
+				},
+				{
+					"name": "Mantol-Derith",
+					"headers": [
+						"Fraz-Urb'luu's Gem",
+						"Reaching Mantol-Derith",
+						"Mantol-Derith",
+						"Leaving Mantol-Derith"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 9
+					}
+				},
+				{
+					"name": "Descent into the Depths",
+					"headers": [
+						"Fellow Travelers",
+						"In Command",
+						"Random Events",
+						"Underdark Outposts",
+						"Retracing Steps"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 10
+					}
+				},
+				{
+					"name": "Gravenhollow",
+					"headers": [
+						"Going to Gravenhollow",
+						"The Stone Library",
+						"The Enemy of Our Enemy",
+						"Stonespeaker Crystals",
+						"Returning to Vizeran",
+						"Leaving Gravenhollow"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 11
+					}
+				},
+				{
+					"name": "The Tower of Vengeance",
+					"headers": [
+						"Reaching the Tower",
+						"Araj: Vizeran's Tower"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 12
+					}
+				},
+				{
+					"name": "The Wormwrithings",
+					"headers": [
+						"The Worm Tunnels",
+						"Troglodyte Lair",
+						"Voice in the Dark",
+						"Worm Nursery",
+						"The Dark Hunters",
+						"The Vast Oblivium"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 13
+					}
+				},
+				{
+					"name": "The Labyrinth",
+					"headers": [
+						"Labyrinth Encounters",
+						"Adamantine Tower",
+						"Spiral of the Horned King",
+						"Filthriddens",
+						"March to Nowhere",
+						"Yeenoghu's Hunt",
+						"Gallery of Angels",
+						"The Maze Engine"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 14
+					}
+				},
+				{
+					"name": "The City of Spiders",
+					"headers": [
+						"Goals",
+						"Going to Menzoberranzan",
+						"Menzoberranzan",
+						"City Locations",
+						"Unexpected Allies",
+						"Private Meetings",
+						"A Change of Heart",
+						"Sorcere",
+						"Developments"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 15
+					}
+				},
+				{
+					"name": "The Fetid Wedding",
+					"headers": [
+						"Wedding Invitation",
+						"Myconid March",
+						"Araumycos",
+						"Enter the Groom",
+						"Into the Gray Dream",
+						"Let Them Speak Now...",
+						"Fighting the Faceless Lord",
+						"Victory or Defeat",
+						"Developments"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 16
+					}
+				},
+				{
+					"name": "Against the Demon Lords",
+					"headers": [
+						"Readying the Plan",
+						"Enacting the Plan",
+						"Rage of Demons",
+						"Against Demogorgon",
+						"Loose Threads"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 17
+					}
+				}
+			],
+			"level": {
+				"start": 1,
+				"end": 15
+			},
+			"published": "2015-09-15",
+			"storyline": "Rage of Demons"
+		},
+		{
+			"name": "Curse of Strahd",
+			"id": "CoS",
+			"contents": [
+				{
+					"name": "Introduction",
+					"headers": [
+						"Running the Adventure",
+						"A Classic Retold",
+						"Marks of Horror"
+					]
+				},
+				{
+					"name": "Into the Mists",
+					"headers": [
+						"Strahd von Zarovich",
+						"Fortunes of Ravenloft",
+						"Using Regular Playing Cards",
+						"Adventure Hooks"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 1
+					}
+				},
+				{
+					"name": "The Lands of Barovia",
+					"headers": [
+						"Lay of the Land",
+						"Alterations to Magic",
+						"Barovians",
+						"Barovian Names",
+						"Barovian Lore",
+						"Vistani",
+						"Random Encounters",
+						"Strahd's Spies",
+						"Areas of Barovia",
+						"The Lands of Barovia: Common Features"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 2
+					}
+				},
+				{
+					"name": "The Village of Barovia",
+					"headers": [
+						"Approaching the Village",
+						"Areas of the Village",
+						"Special Events"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 3
+					}
+				},
+				{
+					"name": "Castle Ravenloft",
+					"headers": [
+						"Random Encounters",
+						"Walls of Ravenloft",
+						"Main Floor",
+						"Court of the Count",
+						"Rooms of Weeping",
+						"Spires of Ravenloft",
+						"Larders of Ill Omen",
+						"Dungeon and Catacombs"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 4
+					}
+				},
+				{
+					"name": "The Town of Vallaki",
+					"headers": [
+						"Approaching the Town",
+						"Areas of Vallaki",
+						"Special Events"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 5
+					}
+				},
+				{
+					"name": "Old Bonegrinder",
+					"headers": [
+						"Approaching the Windmill",
+						"Areas of the Windmill",
+						"The Megaliths"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 6
+					}
+				},
+				{
+					"name": "Argynvostholt",
+					"headers": [
+						"The Order of the Silver Dragon",
+						"Revenants of Barovia",
+						"Approaching the Mansion",
+						"Areas of Argynvostholt",
+						"Special Events"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 7
+					}
+				},
+				{
+					"name": "The Village of Krezk",
+					"headers": [
+						"Areas of Krezk",
+						"Areas of the Abbey",
+						"Special Events"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 8
+					}
+				},
+				{
+					"name": "Tsolenka Pass",
+					"headers": [
+						"Areas of the Pass",
+						"Special Events"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 9
+					}
+				},
+				{
+					"name": "The Ruins of Berez",
+					"headers": [
+						"Approaching the Ruins",
+						"Areas of Berez",
+						"Special Events"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 10
+					}
+				},
+				{
+					"name": "Van Richten's Tower",
+					"headers": [
+						"Approaching the Tower",
+						"Areas of the Tower",
+						"Special Events"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 11
+					}
+				},
+				{
+					"name": "The Wizard of Wines",
+					"headers": [
+						"Approaching the Vineyard",
+						"Approaching the Winery",
+						"Areas of the Winery",
+						"Special Events"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 12
+					}
+				},
+				{
+					"name": "The Amber Temple",
+					"headers": [
+						"Extreme Cold",
+						"Areas of the Temple",
+						"Amber Sarcophagi",
+						"Special Events"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 13
+					}
+				},
+				{
+					"name": "Yester Hill",
+					"headers": [
+						"Areas of the Hill",
+						"Special Events"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 14
+					}
+				},
+				{
+					"name": "Werewolf Den",
+					"headers": [
+						"Travel through the Mists",
+						"Areas of the Den",
+						"Special Events"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 15
+					}
+				},
+				{
+					"name": "Epilogue",
+					"headers": [
+						"Strahd Prevails",
+						"Strahd Dies"
+					]
+				},
+				{
+					"name": "Death House",
+					"headers": [
+
+					],
+					"ordinal": {
+						"type": "appendix",
+						"identifier": "B"
+					}
+				},
+				{
+					"name": "Treasures",
+					"headers": [
+
+					],
+					"ordinal": {
+						"type": "appendix",
+						"identifier": "C"
+					}
+				},
+				{
+					"name": "Monsters and NPCs",
+					"headers": [
+
+					],
+					"ordinal": {
+						"type": "appendix",
+						"identifier": "D"
+					}
+				}
+			],
+			"level": {
+				"start": 1,
+				"end": 10
+			},
+			"published": "2016-03-15",
+			"storyline": "Curse of Strahd"
+		},
+		{
+			"name": "Storm King's Thunder",
+			"id": "SKT",
+			"contents": [
+				{
+					"name": "The Adventure",
+					"headers": [
+						"Dramatis Personae"
+					]
+				},
+				{
+					"name": "Introduction",
+					"headers": [
+						"Adventure Background",
+						"The Ordning",
+						"King Hekaton and His Daughters",
+						"Iymrith",
+						"The Giant Lords",
+						"Creating New Giant Lords",
+						"Factions of the North",
+						"Running the Adventure",
+						"Tendays and the Roll of Years",
+						"Adventure Synopsis",
+						"Deadly Encounters",
+						"Treasure"
+					]
+				},
+				{
+					"name": "A Great Upheaval",
+					"headers": [
+						"Nightstone",
+						"Nightstone: General Features",
+						"The Nandars of Nightstone",
+						"Dripping Caves",
+						"Dripping Caves: General Features",
+						"Morak's Quest",
+						"Tower of Zephyros",
+						"Unfriendly Skies"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 1
+					}
+				},
+				{
+					"name": "Rumblings",
+					"headers": [
+						"Special NPCs",
+						"Bryn Shander",
+						"Goldenfields",
+						"Triboar"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 2
+					}
+				},
+				{
+					"name": "The Savage Frontier",
+					"headers": [
+						"Peoples of the North",
+						"Civilized Folk",
+						"Northlanders",
+						"Reghed Barbarians",
+						"Uthgardt Barbarians",
+						"Orcs and Half-Orcs",
+						"Shield Dwarves",
+						"Elves",
+						"Halflings",
+						"Random Wilderness Encounters",
+						"Locations of the North",
+						"Amphail",
+						"Anauroch",
+						"Ardeep Forest",
+						"Arn Forest",
+						"Ascore",
+						"Aurilssbarg",
+						"Bargewright Inn",
+						"Beliard",
+						"Beorunna's Well",
+						"Black Road",
+						"Blackford Road",
+						"Bryn Shander",
+						"Cairn Road",
+						"Calling Horns",
+						"Carnath Roadhouse",
+						"Citadel Adbar",
+						"Citadel Felbarr",
+						"Coldwood",
+						"Crags",
+						"Daggerford",
+						"Dawn Pass",
+						"Deadsnows",
+						"Deadstone Cleft",
+						"Delimbiyr Road",
+						"Delimbiyr Vale",
+						"Dessarin Hills",
+						"Dessarin Road",
+						"Dessarin Valley",
+						"Druarwood",
+						"Everlund",
+						"Evermoor Way",
+						"Evermoors",
+						"Eye of the All-Father",
+						"Fallen Lands",
+						"Far Forest",
+						"Fell Pass",
+						"Fireshear",
+						"Flint Rock",
+						"Forgotten Forest",
+						"Fork Road",
+						"Forlorn Hills",
+						"Frost Hills",
+						"Gauntlgrym",
+						"Glimmerwood",
+						"Goldenfields",
+						"Grandfather Tree",
+						"Graypeak Mountains",
+						"Grayvale",
+						"Grayvale Run",
+						"Great Worm Cavern",
+						"Griffon's Nest",
+						"Grudd Haug",
+						"Gundarlun",
+						"Gundbarg",
+						"Hawk's Nest",
+						"Helm's Hold",
+						"High Forest",
+						"High Moor",
+						"High Road",
+						"Hundelstone",
+						"Ice Peak",
+						"Ice Mountains and Ice Spires",
+						"Iceshield Lands",
+						"Icewind Dale",
+						"Iron Road",
+						"Iron Trail",
+						"Ironmaster",
+						"Ironslag",
+						"Iymrith's Lair",
+						"Jalanthar",
+						"Julkoun",
+						"Jundar's Pass",
+						"Kheldell",
+						"Kheldell Path",
+						"Klauthen Vale",
+						"Korinn Archipelago",
+						"Kryptgarden Forest",
+						"Leilon",
+						"Lizard Marsh",
+						"Llorkh",
+						"Lonely Moor",
+						"Long Road",
+						"Longsaddle",
+						"Lost Peaks",
+						"Loudwater",
+						"Lurkwood",
+						"Luskan",
+						"Maelstrom",
+						"Mere of Dead Men",
+						"Mines of Mirabar",
+						"Mirabar",
+						"Misty Forest",
+						"Mithral Hall",
+						"Moonwood",
+						"Morgur's Mound",
+						"Mornbryn's Shield",
+						"Nesmé",
+						"Nether Mountains",
+						"Neverwinter",
+						"Neverwinter Wood",
+						"Newfort",
+						"Nightstone",
+						"Noanar's Hold",
+						"Northern Means",
+						"Northfurrow",
+						"Olostin's Hold",
+						"One Stone",
+						"Orlbar",
+						"Parnast",
+						"Phandalin",
+						"Port Llast",
+						"Purple Rocks",
+						"Rassalantar",
+						"Rauvin Mountains",
+						"Rauvin Road",
+						"Raven Rock",
+						"Red Larch",
+						"Red Rocks",
+						"Reghed Glacier",
+						"Rivermoot",
+						"Ruathym",
+						"Sea of Moving Ice",
+						"Secomber",
+						"Shadowtop Cathedral",
+						"Shining Falls",
+						"Shining White",
+						"Silver Marches",
+						"Silverwood",
+						"Silverymoon",
+						"Silverymoon Pass",
+						"Southwood",
+						"Spine of the World",
+						"Star Mounts",
+						"Starmetal Hills",
+						"Stone Bridge",
+						"Stone Stand",
+						"Stone Trail",
+						"Sumber Hills",
+						"Sundabar",
+						"Surbrin Hills",
+						"Surbrin Trail",
+						"Svardborg",
+						"Sword Mountains",
+						"Ten Trail",
+						"Thornhold",
+						"Trade Way",
+						"Triboar",
+						"Triboar Trail",
+						"Tuern",
+						"Turnstone Pass",
+						"Uluvin",
+						"Uttersea",
+						"Valley of Khedrun",
+						"Vordrorn Forest",
+						"Waterdeep",
+						"Way Inn",
+						"Weathercote Forest",
+						"Westbridge",
+						"Westwood",
+						"Whalebones",
+						"Womford",
+						"Xantharl's Keep",
+						"Yartar",
+						"Zelbross",
+						"Zymorven Hall",
+						"Featured Encounters",
+						"Old Tower",
+						"Inner Circles",
+						"Harshnag"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 3
+					}
+				},
+				{
+					"name": "The Chosen Path",
+					"headers": [
+						"Journey to the Eye",
+						"Eye of the All-Father",
+						"Eye of the All-Father: General Features",
+						"Words of the Oracle",
+						"Hekaton's Conchs",
+						"Airship of a Cult",
+						"Encounter with Iymrith",
+						"Troubleshooting"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 4
+					}
+				},
+				{
+					"name": "Den of the Hill Giants",
+					"headers": [
+						"Hill Giants",
+						"Grudd Haug",
+						"Grudd Haug: General Features"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 5
+					}
+				},
+				{
+					"name": "Canyon of the Stone Giants",
+					"headers": [
+						"Stone Giants",
+						"Deadstone Cleft",
+						"Deadstone Cleft: General Features"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 6
+					}
+				},
+				{
+					"name": "Berg of the Frost Giants",
+					"headers": [
+						"Frost Giants",
+						"Svardborg",
+						"Svardborg: General Features",
+						"The Krigvind"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 7
+					}
+				},
+				{
+					"name": "Forge of the Fire Giants",
+					"headers": [
+						"Fire Giants",
+						"Ironslag",
+						"Ironslag: General Features",
+						"Slaves of the Yakfolk",
+						"Special Delivery"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 8
+					}
+				},
+				{
+					"name": "Castle of the Cloud Giants",
+					"headers": [
+						"Cloud Giants",
+						"Lyn Armaal",
+						"Lyn Armaal: General Features",
+						"1. Audience Chamber",
+						"2. Workshop and Meeting Room",
+						"3. Guest Room",
+						"4. Armory",
+						"5. Barracks",
+						"6. Aft Battery",
+						"7. Griffon Aviary",
+						"8. Dungeon",
+						"9. Cloud Stair",
+						"10. Gatehouse",
+						"11. Main Gate",
+						"12. Servants' Quarters",
+						"13. Kitchen",
+						"14. Castellan's Quarters",
+						"15. Stores",
+						"16. Port Battery",
+						"17. Rampart",
+						"18. Starboard Battery",
+						"19. Gallery",
+						"20. Thullen's Bedroom",
+						"21. Library",
+						"22. Nursery",
+						"23. Playroom",
+						"24. Guard Room",
+						"25. Lounge",
+						"26. Port Lawn",
+						"27. Starboard Lawn",
+						"28. Greenhouse",
+						"29. High Lawn",
+						"30. Navigation Dome",
+						"31. Hall of Masks",
+						"32. Study",
+						"33. Master Bedchamber",
+						"Conquering the Castle"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 9
+					}
+				},
+				{
+					"name": "Hold of the Storm Giants",
+					"headers": [
+						"Storm Giants",
+						"Maelstrom",
+						"Maelstrom: General Features"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 10
+					}
+				},
+				{
+					"name": "Caught in the Tentacles",
+					"headers": [
+						"The Golden Goose",
+						"The Grand Dame",
+						"The Hunt for Hekaton",
+						"The Morkoth",
+						"The Kraken Cometh",
+						"Back to Maelstrom?"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 11
+					}
+				},
+				{
+					"name": "Doom of the Desert",
+					"headers": [
+						"Finding Iymrith",
+						"Harshnag Returns!",
+						"Iymrith's Lair",
+						"Iymrith's Lair: General Features",
+						"Adventure Conclusion"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 12
+					}
+				},
+				{
+					"name": "Linked Adventures",
+					"headers": [
+						"Lost Mine of Phandelver",
+						"Hoard of the Dragon Queen",
+						"Princes of the Apocalypse",
+						"Using the Elemental Cults",
+						"Out of the Abyss"
+
+					],
+					"ordinal": {
+						"type": "appendix",
+						"identifier": "A"
+					}
+				},
+				{
+					"name": "Magic Items",
+					"headers": [
+						"Ruling Scepters of Shanatar"
+					],
+					"ordinal": {
+						"type": "appendix",
+						"identifier": "B"
+					}
+				},
+				{
+					"name": "Creatures",
+					"headers": [
+						"Crag Cat",
+						"Hulking Crab",
+						"Iymrith the Dragon",
+						"Maegera the Dawn Titan",
+						"Purple Wormling",
+						"Tressym",
+						"Uthgardt Shaman",
+						"Uthgardt Shaman Tribal Spells",
+						"Yakfolk (Yikaria)",
+						"New Giant Options"
+					],
+					"ordinal": {
+						"type": "appendix",
+						"identifier": "C"
+					}
+				},
+				{
+					"name": "Special NPCs",
+					"ordinal": {
+						"type": "appendix",
+						"identifier": "D"
+					}
+				}
+			],
+			"level": {
+				"start": 1,
+				"end": 11
+			},
+			"published": "2016-09-06",
+			"storyline": "Storm King's Thunder"
+		},
+		{
+			"name": "Tales from the Yawning Portal: Against the Giants",
+			"id": "TftYP-AtG",
+			"contents": [
+				{
+					"name": "Preface",
+					"headers": [
+						"Using This Book",
+						"The Yawning Portal",
+						"Against the Giants"
+					]
+				},
+				{
+					"name": "Steading of the Hill Giant Chief",
+					"headers": [
+						"Introduction",
+						"Upper Works: General Features",
+						"Maps"
+					]
+				},
+				{
+					"name": "The Glacial Rift of the Frost Giant Jarl",
+					"headers": [
+						"Introduction",
+						"Upper Level General Features",
+						"Maps"
+					]
+				},
+				{
+					"name": "Hall of the Fire Giant King",
+					"headers": [
+						"Introduction",
+						"Entrance Level: General Features",
+						"Maps"
+					]
+				}
+			],
+			"level": {
+				"start": 11,
+				"end": 14
+			},
+			"published": "2017-03-24",
+			"storyline": "Tales from the Yawning Portal"
+		},
+		{
+			"name": "Tales from the Yawning Portal: Dead in Thay",
+			"id": "TftYP-DiT",
+			"contents": [
+				{
+					"name": "Preface",
+					"headers": [
+						"Using This Book",
+						"The Yawning Portal",
+						"Dead In Thay",
+						"Random Encounters"
+					]
+				},
+				{
+					"name": "Introduction"
+				},
+				{
+					"name": "Fiendish Arena"
+				},
+				{
+					"name": "Vermin Halls"
+				},
+				{
+					"name": "Temples of Despair"
+				},
+				{
+					"name": "Lake of Madness"
+				},
+				{
+					"name": "Forest of Illusion"
+				},
+				{
+					"name": "Augmentation Chambers"
+				},
+				{
+					"name": "Pools of Devotion"
+				},
+				{
+					"name": "Flesh Golem Mortuaries"
+				},
+				{
+					"name": "Shrines of Binding"
+				},
+				{
+					"name": "Entering the Vault"
+				},
+				{
+					"name": "Aftermath"
+				}
+			],
+			"level": {
+				"start": 9,
+				"end": 11
+			},
+			"published": "2017-03-24",
+			"storyline": "Tales from the Yawning Portal"
+		},
+		{
+			"name": "Tales from the Yawning Portal: The Forge of Fury",
+			"id": "TftYP-TFoF",
+			"contents": [
+				{
+					"name": "Preface",
+					"headers": [
+						"Using This Book",
+						"The Yawning Portal",
+						"The Forge of Fury"
+					]
+				},
+				{
+					"name": "Approaching Khundrukar",
+					"headers": [
+						"The Stone Tooth"
+					]
+				},
+				{
+					"name": "Khundrukar",
+					"headers": [
+						"The Mountain Door"
+					]
+				},
+				{
+					"name": "The Glitterhame"
+				},
+				{
+					"name": "The Sinkhole"
+				},
+				{
+					"name": "The Foundry"
+				},
+				{
+					"name": "The Black Lake"
+				}
+			],
+			"level": {
+				"start": 3,
+				"end": 5
+			},
+			"published": "2017-03-24",
+			"storyline": "Tales from the Yawning Portal"
+		},
+		{
+			"name": "Tales from the Yawning Portal: The Hidden Shrine of Tamoachan",
+			"id": "TftYP-THSoT",
+			"contents": [
+				{
+					"name": "Preface",
+					"headers": [
+						"Using This Book",
+						"The Yawning Portal",
+						"The Hidden Shrine of Tamoachan"
+					]
+				},
+				{
+					"name": "The Vault of Chicomoztoc"
+				},
+				{
+					"name": "Ramp"
+				},
+				{
+					"name": "Dragon Breath"
+				},
+				{
+					"name": "Hound of the Bat"
+				},
+				{
+					"name": "Temple Grounds"
+				}
+			],
+			"level": {
+				"start": 5,
+				"end": 8
+			},
+			"published": "2017-03-24",
+			"storyline": "Tales from the Yawning Portal"
+		},
+		{
+			"name": "Tales from the Yawning Portal: The Sunless Citadel",
+			"id": "TftYP-TSC",
+			"contents": [
+				{
+					"name": "Preface",
+					"headers": [
+						"Using This Book",
+						"The Yawning Portal",
+						"The Sunless Citadel"
+					]
+				},
+				{
+					"name": "Sunless Citadel Overview",
+					"headers": [
+						"The Citadel",
+						"1. Ledge",
+						"2. Switchback Stairs",
+						"3. Crumbled Courtyard",
+						"4. Tower Shell",
+						"5. Secret Pocket",
+						"6. Old Approach",
+						"7. Gallery of Forlorn Notes",
+						"8. Pressure Plate",
+						"9. Dragon Riddle",
+						"10. Honor Guard",
+						"11. Secret Room",
+						"12. Tomb of a Failed Dragonpriest",
+						"13. Empty Room",
+						"14. Enchanted Water Cache",
+						"15. Dragon Cell",
+						"16. Kobold Guardroom",
+						"17. Dragon Chow",
+						"18. Prison",
+						"19. Hall of Dragons",
+						"20. Kobold Colony",
+						"21. Dragon Throne",
+						"22. Larder",
+						"23. Underdark Access",
+						"24. Trapped Access",
+						"25. Empty Chamber",
+						"26. Dry Fountain",
+						"27. Sanctuary",
+						"28. Infested Cells",
+						"29. Disabled Traps",
+						"30. Mama Rat",
+						"31. Caltrop Hall",
+						"32. Goblin Gate",
+						"33. Practice Range",
+						"34. Goblin Stockade",
+						"35. Trapped Corridor",
+						"36. Goblin Bandits",
+						"37. Trophy Room",
+						"38. Goblin Pantry",
+						"39. Dragon Haze",
+						"40. Goblinville",
+						"41. Hall of the Goblin Chief"
+					]
+				},
+				{
+					"name": "Locations on the Grove Level",
+					"headers": [
+						"Aftermath"
+					]
+				}
+			],
+			"level": {
+				"start": 1,
+				"end": 3
+			},
+			"published": "2017-03-24",
+			"storyline": "Tales from the Yawning Portal"
+		},
+		{
+			"name": "Tales from the Yawning Portal: Tomb of Horrors",
+			"id": "TftYP-ToH",
+			"contents": [
+				{
+					"name": "Preface",
+					"headers": [
+						"Using This Book",
+						"The Yawning Portal",
+						"Tomb of Horrors"
+					]
+				},
+				{
+					"name": "Tomb of Horrors",
+					"headers": [
+						"1. False Entrance Tunnel",
+						"2. False Entrance Tunnel",
+						"3. Entrance to the Tomb of Horrors",
+						"4. Fresco of the Wizardly Work Room",
+						"5. The Arch of Mist",
+						"6. The Face of the Great Green Devil",
+						"7. The Forsaken Prison",
+						"8. Gargoyle Lair",
+						"9. Complex of Secret Doors",
+						"10. Great Hall of Spheres",
+						"11. The Three-Armed Statue",
+						"12. Trapped False Doors",
+						"13. Chamber of Three Chests",
+						"14. Chapel of Evil",
+						"15. Stone Gate",
+						"16. Locked Oaken Door",
+						"17. Magical Secret Door",
+						"18. Corridor Protected by Fear Gas",
+						"19. Laboratory and Mummy Preparation Room",
+						"20. Huge Pit Filled with Spikes",
+						"21. The Agitated Chamber",
+						"22. The Cavern of Gold and Silver Mists",
+						"23. False/True Door",
+						"24. Adamantine Door",
+						"25. Pillared Throne Room",
+						"26. Small Room with a Door of Electric Blue",
+						"27. The Portal of Scintillating Violet",
+						"28. The Wondrous Foyer",
+						"29. The Valves of Mithral",
+						"30. False Treasure Room",
+						"31. One-Way Doors",
+						"32. Secret Door",
+						"33. The Crypt of Acererak the Demilich"
+					]
+				}
+			],
+			"level": {
+				"custom": "Higher level"
+			},
+			"published": "2017-03-24",
+			"storyline": "Tales from the Yawning Portal"
+		},
+		{
+			"name": "Tales from the Yawning Portal: White Plume Mountain",
+			"id": "TftYP-WPM",
+			"contents": [
+				{
+					"name": "Preface",
+					"headers": [
+						"Using This Book",
+						"The Yawning Portal",
+						"White Plume Mountain"
+					]
+				},
+				{
+					"name": "White Plume Mountain",
+					"headers": [
+						"1. Spiral Staircase",
+						"2. Riddling Guardian",
+						"3. Hidden Slime",
+						"4. Glass Globes",
+						"5. Numbered Golems",
+						"6. Turnstile",
+						"7. Geysers and Chains",
+						"8. Coffin",
+						"9. Pool and Drain",
+						"10. Deceptively Deep Room",
+						"11. Spinning Cylinder",
+						"12. Burket's Guardpost",
+						"13. Snarla's Sanctum",
+						"14. Flood Doors",
+						"15. Boiling Lake",
+						"16. Blow Hole",
+						"17. The Boiling Bubble",
+						"18. Hall Pit",
+						"19. Metal-Heating Corridor",
+						"20. Ghoul Ambushers",
+						"21. Stairs Up",
+						"22. Frictionless Trap",
+						"23. Floating Stream",
+						"24. Sir Bluto's Guardpost",
+						"25. Magical Secret Doors",
+						"26. Terraced Aquarium",
+						"27. Luxurious Prison"
+					]
+				}
+			],
+			"level": {
+				"start": 8,
+				"end": 9
+			},
+			"published": "2017-03-24",
+			"storyline": "Tales from the Yawning Portal"
+		},
+		{
+			"name": "Tomb of Annihilation",
+			"id": "ToA",
+			"contents": [
+				{
+					"name": "Dramatis Personae",
+					"headers": [
+						"Introduction",
+						"Story Overview",
+						"Running the Adventure",
+						"Starting the Adventure",
+						"Welcome to Chult"
+					]
+				},
+				{
+					"name": "Port Nyanzaru",
+					"headers": [
+						"Arrival",
+						"Side Quests",
+						"Locations in the City",
+						"City Denizens",
+						"Merchant Prince's Villa",
+						"Factions and Their Representatives",
+						"Things to Do"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 1
+					}
+				},
+				{
+					"name": "The Land of Chult",
+					"headers": [
+						"The Expedition Begins",
+						"Locations in Chult"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 2
+					}
+				},
+				{
+					"name": "Dwellers of the Forbidden City",
+					"headers": [
+						"Omu",
+						"Locations in the City"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 3
+					}
+				},
+				{
+					"name": "Fane of the Night Serpent",
+					"headers": [
+						"Schemes of the Yuan-ti",
+						"Getting Inside",
+						"Locations in the Temple"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 4
+					}
+				},
+				{
+					"name": "Tomb of the Nine Gods",
+					"headers": [
+						"History of the Tomb",
+						"Exploring the Tomb",
+						"Spirits of the Nine Trickster Gods",
+						"Level 1: Rotten Halls",
+						"Level 2: Dungeon of Deception",
+						"Level 3: Vault of Reflection",
+						"Level 4: Chambers of Horror",
+						"Level 5: Gears of Hate",
+						"Level 6: Cradle of the Death God",
+						"Conclusion"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 5
+					}
+				},
+				{
+					"name": "Random Encounters",
+					"headers": [
+						"Port Nyanzaru Encounters",
+						"Wilderness Encounters",
+						"Omu Encounters"
+					],
+					"ordinal": {
+						"type": "appendix",
+						"identifier": "B"
+					}
+				},
+				{
+					"name": "Discoveries",
+					"headers": [
+						"Flora and Fauna",
+						"Magic Items"
+					],
+					"ordinal": {
+						"type": "appendix",
+						"identifier": "C"
+					}
+				}
+			],
+			"level": {
+				"start": 1,
+				"end": 11
+			},
+			"published": "2017-09-19",
+			"storyline": "Tomb of Annihilation"
+		}
+	]
+}
