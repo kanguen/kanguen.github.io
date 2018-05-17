@@ -12674,25 +12674,26 @@
 			"classFeatures": [
 				[
 					{
-						"name": "Unarmored Defense",
+						"name": "Zırhsız Savunma",
 						"entries": [
-							"Beginning at 1st level, while you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Wisdom modifier."
+							"Birinci seviyede başlayarak zırh giymez ve kalkan kullanmaz iken senin için AC 10 + Dexterity bonusun + Wisdom bonusun olur.""
 						]
 					},
 					{
-						"name": "Martial Arts",
+						"name": "Dövüş Sanatları",
 						"entries": [
-							"Your practice of martial arts gives you mastery of combat styles that use unarmed strikes and monk weapons, which are shortswords and any simple melee weapons that don't have the two-handed or heavy property.",
-							"You gain the following benefits while you are unarmed or wielding only monk weapons and you aren't wearing armor or wielding a shield.",
+							"Senin dövüş sanatları uzmanlığın silahsız dövüş ve keşiş silahları ile savaşabilmeni sağlar. Keşiş silahları, kısa kılıçlar ve ağır yada çift elli özelliklerini taşımayan tüm basit silahlardır.",
+							"Zırh giymez, kalkan kullanmaz ve keşiş silahları kullanır yada silahsız dövüşürken şu özelliklere sahip olursun." ",
 							{
 								"type": "list",
 								"items": [
-									"You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes and monk weapons.",
-									"You can roll a d4 in place of the normal damage of your unarmed strike or monk weapon. This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk table.",
-									"When you use the Attack action with an unarmed strike or a monk weapon on your turn, you can make one unarmed strike as a bonus action. For example, if you take the Attack action and attack with a quarterstaff, you can also make an unarmed strike as a bonus action, assuming you haven't already taken a bonus action this turn."
+									"Keşiş silahları ve silahsız dövüş için saldırı ve hasar zarlarında Strength yerine Dexterity kullanabilirsin. You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes and monk weapons.kullanabilirsin."s
+,
+									"Keşiş silahların ve dövüş sanatları hasarın için normal hasar zarının yerine d4 kullanabilirsin. Bu zar seviyen arttıkça dövüş sanatları(Martial Arts) tablosunda görüleceği üzere artar."",
+									"Kendi sıranda keşiş silahları yada silahsız saldırı ile Saldırı eylemini gerçekleştirdiğinde, bonus eylem olarak bir silahsız saldırı yapabilirsin. "
 								]
-							},
-							"Certain monasteries use specialized forms of the monk weapons. For example, you might use a club that is two lengths of wood connected by a short chain (called a nunchaku) or a sickle with a shorter, straighter blade (called a kama)."
+						
+							
 						]
 					}
 				],
@@ -34386,4 +34387,3 @@
 			]
 		}
 	]
-}
