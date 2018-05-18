@@ -12703,7 +12703,7 @@
 							"İkinci seviyeden itibaren, eğitimin ki enerjisini kullanmanı mümkün kılar. Senin bu enerjiye erişimin ki puanları ile temsil edilir. Senin keşiş seviyen bu puanların sayısını belirler, bu sayı tabloda Ki sütununda görülebilir.",
 							"Bu puanları harcayıp farklı ki özelliklerini kullanabilirsin. Bu tip özelliklerden 3 tanesini bilerek başlarsın: Darbe Yağmuru, Sabırlı Savunma, Rüzgarın Adımı. Bu sınıfta seviye atladıkça yeni ki özellikleri eklenir.",
 							"Bir ki puanını harcadığında, kısa veya uzun dinlenme gerçekleştirene kadar bir daha mevcut olmaz. Bu dinlenmenin sonunda tüm ki puanların yenilenir. Ki puanlarını yenilemek için bu dinlenme sırasında en az 30 dakikayı meditasyonda geçirmen gerekir.",
-							"Some of your ki features require your target to make a saving throw to resist the feature's effects. The saving throw DC is calculated as follows:",
+							"Bazı ki özelliklerin hedefinin direnmek için kurtulma zarı atmasını gerektirir. Bunlar için kurtulma zarı DC'si şu şekilde hsaplanır:",
 							{
 								"type": "abilityDc",
 								"name": "Ki",
@@ -12744,60 +12744,60 @@
 				],
 				[
 					{
-						"name": "Deflect Missiles",
+						"name": "Misilleri Saptır",
 						"entries": [
-							"Starting at 3rd level, you can use your reaction to deflect or catch the missile when you are hit by a ranged weapon attack. When you do so, the damage you take from the attack is reduced by 1d10 + your Dexterity modifier + your monk level.",
-							"If you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in one hand and you have at least one hand free. If you catch a missile in this way, you can spend 1 ki point to make a ranged attack (range 20/60 feet) with the weapon or piece of ammunition you just caught, as part of the same reaction. You make this attack with proficiency, regardless of your weapon proficiencies, and the missile counts as a monk weapon for the attack."
+							"Üçüncü seviyeden itibaren reaksiyonunu kullanarak sana vuracak olan bir menzilli silah saldırısının misilini saptırabilir yada yakalayabilirsin. Bunu yaptığında sana gelecek hasarı 1d10 + Dexterity bonusun + keşiş seviyen kadar düşürürsün.",
+							"Eğer hasar sıfıra düşerse gelen misili, misilin tek elle tutulabilecek küçüklükte olması şartıyla yakalayabilirisin. Eğer bu şekilde misili yakalarsan bir ki puanı harcayarak aynı reaksiyonun bir parçası olarak menzilli silah saldırısı (menzil 20/60) yapabilirsin. Bu saldırıyı silah uzmanlıklarını gözetmeksizin uzmanlıkla yaparsın ve misil bu saldırı için keşiş silahı kabul edilir."
 						]
 					},
 					{
-						"name": "Monastic Tradition",
+						"name": "Keşiş Geleneği",
 						"entries": [
-							"When you reach 3rd level, you commit yourself to a monastic tradition, chosen from the list of available traditions. Your tradition grants you features at 3rd level and again at 6th, 11th, and 17th level."
+							"Üçüncü seviyeye eriştiğinde kendini mevcut listeden bir keşiş geleneğine adarsın. Bu gelenek sana 3, 6, 11 ve 17. seviyelerde ek özellikler kazandırır."
 						],
 						"gainSubclassFeature": true
 					}
 				],
 				[
 					{
-						"name": "Ability Score Improvement",
+						"name": "Beceri Skoru Gelişimi",
 						"entries": [
-							"When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-							"If your DM allows the use of feats, you may instead take a feat."
+							"Dördüncü seviyeye eriştiğinde bir beceri skorunu 2 yada 2 ayrı beceri skorunu birer yükseltebilirsin. Bu özellik ile bir beceri skorunu 20'nin üzerine çıkaramazsın.",
+							"Eğer DM'in izin veriyorsa, beceri skoru yerine bir feat seçebilirsin."
 						]
 					},
 					{
-						"name": "Slow Fall",
+						"name": "Yavaş Düşüş",
 						"entries": [
-							"Beginning at 4th level, you can use your reaction when you fall to reduce any falling damage you take by an amount equal to five times your monk level."
+							"Dördüncü seviyeden itibaren düşerken reaksiyonunu kullanarak düşme hasarını keşiş seviyenin 5 katı kadar azaltabilirsin."
 						]
 					}
 				],
 				[
 					{
-						"name": "Extra Attack",
+						"name": "Extra Saldırı",
 						"entries": [
-							"Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn."
+							"Beşinci seviyeden itibaren kendi sıranda Saldırı eylemini kullandığında 1 yerine 2 kere saldırabilirsin."
 						]
 					},
 					{
-						"name": "Stunning Strike",
+						"name": "Sersemleten Darbe",
 						"entries": [
-							"Starting at 5th level, you can interfere with the flow of ki in an opponent's body. When you hit another creature with a melee weapon attack, you can spend 1 ki point to attempt a stunning strike. The target must succeed on a Constitution saving throw or be {@condition stunned} until the end of your next turn."
+							"Beşinci seviyeden itibaren rakibin bedenindeki ki akışına müdahale edebilirsin. Başka bir varlığa yakın dövüş saldırısı ile vurunca, 1 ki puanı harcayarak sersemleten bir darbe vurmayı deneyebilirsin. Hedef Constitution kurtulma zarında başarılı olmalı yada senin bir sonraki sıranın sonuna kadar sersemler."
 						]
 					}
 				],
 				[
 					{
-						"name": "Ki-Empowered Strikes",
+						"name": "Ki Etkili Vuruşlar",
 						"entries": [
-							"Starting at 6th level, your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+							"Altıncı seviyeden itibaren silahsız saldırıların, büyüsüz hasar bağışıklığı ve direncini aşmak adına büyülü sayılır."
 						]
 					},
 					{
-						"name": "Monastic Tradition feature",
+						"name": "Keşiş Geleneği Özelliği",
 						"entries": [
-							"At 6th level, you gain one feature granted by your Monastic Tradition."
+							"Altıncı seviyede, keşiş geleneğinin sunduğu bir özelliği kazanırsın."
 						],
 						"gainSubclassFeature": true
 					}
