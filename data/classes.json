@@ -12676,23 +12676,23 @@
 					{
 						"name": "Zırhsız Savunma",
 						"entries": [
-							"Beginning at 1st level, while you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Wisdom modifier."
+							"Birinci seviyeden itibaren zırhsız ve kalkan kullanmazken karakterinin AC'si 10 + dexterity bonusun + wisdom bonusun olur."
 						]
 					},
 					{
-						"name": "Martial Arts",
+						"name": "Dövüş Sanatları",
 						"entries": [
-							"Your practice of martial arts gives you mastery of combat styles that use unarmed strikes and monk weapons, which are shortswords and any simple melee weapons that don't have the two-handed or heavy property.",
-							"You gain the following benefits while you are unarmed or wielding only monk weapons and you aren't wearing armor or wielding a shield.",
+							"Dövüş sanatları eğitimin sana keşiş silahları ve silahsız saldırılarda uzmanlık kazandırır. Keşiş silahları kısa kılıçlar ve ağır yada çift elli özelliğini taşımayan tüm basit silahlardır.",
+							"Zırh ve kalkan kullanmıyorken ve sadece keşiş silahları kuşanırken yada silahsızken şu özellikleri kazanırsın.",
 							{
 								"type": "list",
 								"items": [
-									"You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes and monk weapons.",
-									"You can roll a d4 in place of the normal damage of your unarmed strike or monk weapon. This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk table.",
-									"When you use the Attack action with an unarmed strike or a monk weapon on your turn, you can make one unarmed strike as a bonus action. For example, if you take the Attack action and attack with a quarterstaff, you can also make an unarmed strike as a bonus action, assuming you haven't already taken a bonus action this turn."
+									"Keşiş silahları ve silahsız saldırılarının saldırı ve hasar zarları için Strength yerine Dexterity kullanabilirsin.",
+									"Keşiş silahları yada silahsız saldırılarının hasar zarı için normal zar yerine d4 kullanabilirsin.Bu zar sen keşiş seviyeleri kazandıkça tabloda Dövüş Sanatları sütununda görüldüğü üzere yükselir.",
+									"Kendi sıranda Saldırı eylemini gerçekleştirip keşiş silahları ile yada silahsız saldırı yaparsan bonus eylem olarak bir silahsız saldırı daha yapabilirsin."
 								]
 							},
-							"Certain monasteries use specialized forms of the monk weapons. For example, you might use a club that is two lengths of wood connected by a short chain (called a nunchaku) or a sickle with a shorter, straighter blade (called a kama)."
+							"Bazı manastırlar farklı silah uzmanlıklarına sahiptir. Örneğin nunchaku yada kama kullanılabilir. Bu tip silahların hasarı için dövüş sanatları zarı kullanılır."
 						]
 					}
 				],
@@ -12700,9 +12700,9 @@
 					{
 						"name": "Ki",
 						"entries": [
-							"Starting at 2nd level, your training allows you to harness the mystic energy of ki. Your access to this energy is represented by a number of ki points. Your monk level determines the number of points you have, as shown in the Ki Points column of the Monk table.",
-							"You can spend these points to fuel various ki features. You start knowing three such features: Flurry of Blows, Patient Defense, and Step of the Wind. You learn more ki features as you gain levels in this class.",
-							"When you spend a ki point, it is unavailable until you finish a short or long rest, at the end of which you draw all of your expended ki back into yourself. You must spend at least 30 minutes of the rest meditating to regain your ki points.",
+							"İkinci seviyeden itibaren, eğitimin ki enerjisini kullanmanı mümkün kılar. Senin bu enerjiye erişimin ki puanları ile temsil edilir. Senin keşiş seviyen bu puanların sayısını belirler, bu sayı tabloda Ki sütununda görülebilir.",
+							"Bu puanları harcayıp farklı ki özelliklerini kullanabilirsin. Bu tip özelliklerden 3 tanesini bilerek başlarsın: Darbe Yağmuru, Sabırlı Savunma, Rüzgarın Adımı. Bu sınıfta seviye atladıkça yeni ki özellikleri eklenir.",
+							"Bir ki puanını harcadığında, kısa veya uzun dinlenme gerçekleştirene kadar bir daha mevcut olmaz. Bu dinlenmenin sonunda tüm ki puanların yenilenir. Ki puanlarını yenilemek için bu dinlenme sırasında en az 30 dakikayı meditasyonda geçirmen gerekir.",
 							"Some of your ki features require your target to make a saving throw to resist the feature's effects. The saving throw DC is calculated as follows:",
 							{
 								"type": "abilityDc",
@@ -12713,32 +12713,32 @@
 							},
 							{
 								"type": "entries",
-								"name": "Flurry of Blows",
+								"name": "Darbe Yağmuru",
 								"entries": [
-									"Immediately after you take the Attack action on your turn, you can spend 1 ki point to make two unarmed strikes as a bonus action."
+									"Kendi sıranda Saldırı eylemini gerçekleştirmenin hemen ardından bir ki puanı harcayıp bonus eylem olarak 2 silahsız saldırı yapabilirsin."
 								]
 							},
 							{
 								"type": "entries",
-								"name": "Patient Defense",
+								"name": "Sabırlı Savunma",
 								"entries": [
-									"You can spend 1 ki point to take the Dodge action as a bonus action on your turn."
+									"Kendi sıranda 1 ki puanı harcayarak Savunma eylemini bonus eylem olarak kullanabilirsin."
 								]
 							},
 							{
 								"type": "entries",
-								"name": "Step of the Wind",
+								"name": "Rüzgarın Adımı",
 								"entries": [
-									"You can spend 1 ki point to take the Disengage or Dash action as a bonus action on your turn, and your jump distance is doubled for the turn."
+									"Kendi sıranda 1 ki puanı harcayarak Ayrılma yada Depar Atma eylemlerini bonus eylem olarak kullanabilirsin ve bu sıra boyunca zıplama mesafen ikiye katlanır."
 								]
 							}
 						]
 					},
 					{
-						"name": "Unarmored Movement",
+						"name": "Zırhsız Hareket",
 						"entries": [
-							"Starting at 2nd level, your speed increases by 10 feet while you are not wearing armor or wielding a shield. This bonus increases when you reach certain monk levels, as shown in the Monk table.",
-							"At 9th level, you gain the ability to move along vertical surfaces and across liquids on your turn without falling during the move."
+							"İkinci seviyeden itibaren, zırhsız ve kalkansız iken hızın 10 feet artar. Bu bonus sen belirli keşiş seviyelerine ulaştıkça tabloda görülebileceği üzere yükselir.",
+							"Dokuzuncu seviyede, kendi sıranda düşmeden dikey yüzeylerde ve sıvıların üzerinde hareket etme yeteneğini kazanırsın."
 						]
 					}
 				],
