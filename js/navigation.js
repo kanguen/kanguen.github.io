@@ -33,58 +33,58 @@ function currentPage () {
 }
 
 function navigation () {
-	LI('navbar', '5etools.html', 'Home');
+	LI('navbar', 'index.html', 'Anasayfa');
 
 	LIDropdown('navbar', 'rules', 'dropdown');
-	A('rules', 'ruleOption', 'dropdown-toggle', 'dropdown', '#', 'button', 'true', 'false', "Rules <span class='caret'></span>");
+	A('rules', 'ruleOption', 'dropdown-toggle', 'dropdown', '#', 'button', 'true', 'false', "Kurallar <span class='caret'></span>");
 	UL('rules', 'ul_rules', 'dropdown-menu');
-	LI('ul_rules', 'quickreference.html', 'Quick Reference');
-	LI('ul_rules', 'variantrules.html', 'Variant Rules');
+	LI('ul_rules', 'quickreference.html', 'Hızlı Referans');
+	LI('ul_rules', 'variantrules.html', 'Varyant Kurallar');
 	LIDivider('ul_rules');
 	LI('ul_rules', 'book.html', "Dungeon Master's Guide", "DMG");
 	LI('ul_rules', 'book.html', "Monster Manual", "MM");
 	LI('ul_rules', 'book.html', "Player's Handbook", "PHB");
 
 	LIDropdown('navbar', 'players', 'dropdown');
-	A('players', 'playerOption', 'dropdown-toggle', 'dropdown', '#', 'button', 'true', 'false', "Player Options <span class='caret'></span>");
+	A('players', 'playerOption', 'dropdown-toggle', 'dropdown', '#', 'button', 'true', 'false', "Oyuncu Seçenekleri <span class='caret'></span>");
 	UL('players', 'ul_players', 'dropdown-menu');
-	LI('ul_players', 'classes.html', 'Classes');
-	LI('ul_players', 'backgrounds.html', 'Backgrounds');
-	LI('ul_players', 'feats.html', 'Feats');
-	LI('ul_players', 'invocations.html', 'Invocations');
-	LI('ul_players', 'races.html', 'Races');
-	LI('ul_players', 'lifegen.html', 'This Is Your Life');
-	LI('ul_players', 'names.html', 'Names');
+	LI('ul_players', 'classes.html', 'Sınıflar');
+	LI('ul_players', 'backgrounds.html', 'Arka Planlar');
+	LI('ul_players', 'feats.html', 'Featler');
+	LI('ul_players', 'invocations.html', 'Yakarışlar');
+	LI('ul_players', 'races.html', 'Irklar');
+	LI('ul_players', 'lifegen.html', 'Hayatın Bu');
+	LI('ul_players', 'names.html', 'İsimler');
 
 	LIDropdown('navbar', 'dms', 'dropdown');
-	A('dms', 'dmOption', 'dropdown-toggle', 'dropdown', '#', 'button', 'true', 'false', "DM Tools <span class='caret'></span>");
+	A('dms', 'dmOption', 'dropdown-toggle', 'dropdown', '#', 'button', 'true', 'false', "DM Araçları <span class='caret'></span>");
 	UL('dms', 'ul_dms', 'dropdown-menu');
-	LI('ul_dms', 'adventures.html', 'Adventures');
-	LI('ul_dms', 'crcalculator.html', 'CR Calculator');
-	LI('ul_dms', 'cultsboons.html', 'Cults & Demonic Boons');
-	LISpecial('ul_dms', 'https://kobold.club', 'Encounter Builder', '_blank', 'We could literally never build something better than Kobold Fight Club');
-	LI('ul_dms', 'encountergen.html', 'Encounter Generator');
-	LI('ul_dms', 'lootgen.html', 'Loot Generator');
-	LI('ul_dms', 'objects.html', 'Objects');
-	LI('ul_dms', 'trapshazards.html', 'Traps & Hazards');
+	LI('ul_dms', 'adventures.html', 'Maceralar');
+	LI('ul_dms', 'crcalculator.html', 'CR Hesaplayıcı');
+	LI('ul_dms', 'cultsboons.html', 'Kültler ve Şeytani Lütuflar');
+	LISpecial('ul_dms', 'https://kobold.club', 'Karşılaşma Yaratıcı', '_blank', 'Kobold Fight Club olabilecek en iyisi.');
+	LI('ul_dms', 'encountergen.html', 'Karşılaşma Üretici');
+	LI('ul_dms', 'lootgen.html', 'Ganimet Üretici');
+	LI('ul_dms', 'objects.html', 'Nesneler');
+	LI('ul_dms', 'trapshazards.html', 'Tuzaklar ve Tehlikeler');
 
 	LIDropdown('navbar', 'references', 'dropdown');
-	A('references', 'references', 'dropdown-toggle', 'dropdown', '#', 'button', 'true', 'false', "References <span class='caret'></span>");
+	A('references', 'references', 'dropdown-toggle', 'dropdown', '#', 'button', 'true', 'false', "Referanslar <span class='caret'></span>");
 	UL('references', 'ul_references', 'dropdown-menu');
-	LI('ul_references', 'bestiary.html', 'Bestiary');
-	LI('ul_references', 'conditions.html', 'Conditions');
-	LI('ul_references', 'deities.html', 'Deities');
-	LI('ul_references', 'items.html', 'Items');
-	LI('ul_references', 'rewards.html', 'Other Rewards');
-	LI('ul_references', 'psionics.html', 'Psionics');
-	LI('ul_references', 'spells.html', 'Spells');
+	LI('ul_references', 'bestiary.html', 'Yaratık Ansiklopedisi');
+	LI('ul_references', 'conditions.html', 'Koşullar');
+	LI('ul_references', 'deities.html', 'Tanrılar');
+	LI('ul_references', 'items.html', 'Nesneler');
+	LI('ul_references', 'rewards.html', 'Diğer Ödüller');
+	LI('ul_references', 'psionics.html', 'Psionikler');
+	LI('ul_references', 'spells.html', 'Büyüler');
 
 	LI('navbar', 'statgen.html', 'Statgen');
 
 	LIDropdown('navbar', 'utils', 'dropdown');
-	A('utils', 'utils', 'dropdown-toggle', 'dropdown', '#', 'button', 'true', 'false', "Utilities <span class='caret'></span>");
+	A('utils', 'utils', 'dropdown-toggle', 'dropdown', '#', 'button', 'true', 'false', "Yardımcı Uygulamalar <span class='caret'></span>");
 	UL('utils', 'ul_utils', 'dropdown-menu');
-	LI('ul_utils', 'blacklist.html', 'Content Blacklist');
+	LI('ul_utils', 'blacklist.html', 'İçerik Karalistesi');
 	LI('ul_utils', 'converter.html', 'Stat Block to JSON');
 	LI('ul_utils', 'demo.html', 'Renderer Demo');
 	LI('ul_utils', 'roll20.html', 'Roll20 Script Help');
@@ -205,7 +205,7 @@ function navigation () {
 		a.href = a_href;
 		a.className = a_class;
 		a.setAttribute('onclick', a_onclick);
-		a.innerHTML = styleSwitcher.getActiveStyleSheet() === StyleSwitcher.STYLE_DAY ? "Night Mode" : "Day Mode";
+		a.innerHTML = styleSwitcher.getActiveStyleSheet() === StyleSwitcher.STYLE_DAY ? "Gece Modu" : "Gün Modu";
 
 		const li = document.createElement('li');
 		li.id = li_id;
