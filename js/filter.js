@@ -126,7 +126,7 @@ class FilterBox {
 			const $buttonWrapper = $(`<div id="filter-toggle-btn"/>`);
 			$buttonWrapper.addClass(FilterBox.CLS_INPUT_GROUP_BUTTON);
 
-			const $filterButton = $(`<button class="btn btn-default dropdown-toggle" data-toggle="dropdown">Filter <span class="caret"></span></button>`);
+			const $filterButton = $(`<button class="btn btn-default dropdown-toggle" data-toggle="dropdown">Filtre <span class="caret"></span></button>`);
 			$buttonWrapper.append($filterButton);
 			return $buttonWrapper;
 		}
