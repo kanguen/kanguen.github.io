@@ -12301,7 +12301,7 @@
 			"fluffPage": 27
 		},
 		{
-			"name": "Monk",
+			"name": "Keşiş",
 			"source": "PHB",
 			"hd": {
 				"number": 1,
@@ -12703,7 +12703,7 @@
 							"İkinci seviyeden itibaren, eğitimin ki enerjisini kullanmanı mümkün kılar. Senin bu enerjiye erişimin ki puanları ile temsil edilir. Senin keşiş seviyen bu puanların sayısını belirler, bu sayı tabloda Ki sütununda görülebilir.",
 							"Bu puanları harcayıp farklı ki özelliklerini kullanabilirsin. Bu tip özelliklerden 3 tanesini bilerek başlarsın: Darbe Yağmuru, Sabırlı Savunma, Rüzgarın Adımı. Bu sınıfta seviye atladıkça yeni ki özellikleri eklenir.",
 							"Bir ki puanını harcadığında, kısa veya uzun dinlenme gerçekleştirene kadar bir daha mevcut olmaz. Bu dinlenmenin sonunda tüm ki puanların yenilenir. Ki puanlarını yenilemek için bu dinlenme sırasında en az 30 dakikayı meditasyonda geçirmen gerekir.",
-							"Bazı ki özelliklerin hedefinin direnmek için kurtulma zarı atmasını gerektirir. Bunlar için kurtulma zarı DC'si şu şekilde hsaplanır:",
+							"Bazı ki özelliklerin hedefinin direnmek için kurtulma zarı atmasını gerektirir. Bunlar için kurtulma zarı DC'si şu şekilde hesaplanır:",
 							{
 								"type": "abilityDc",
 								"name": "Ki",
@@ -12737,7 +12737,7 @@
 					{
 						"name": "Zırhsız Hareket",
 						"entries": [
-							"İkinci seviyeden itibaren, zırhsız ve kalkansız iken hızın 10 feet artar. Bu bonus sen belirli keşiş seviyelerine ulaştıkça tabloda görülebileceği üzere yükselir.",
+							"2. seviyeden itibaren, zırhsız ve kalkansız iken hızın 10 feet artar. Bu bonus sen belirli keşiş seviyelerine ulaştıkça tabloda görülebileceği üzere yükselir.",
 							"Dokuzuncu seviyede, kendi sıranda düşmeden dikey yüzeylerde ve sıvıların üzerinde hareket etme yeteneğini kazanırsın."
 						]
 					}
@@ -12746,30 +12746,30 @@
 					{
 						"name": "Misilleri Saptır",
 						"entries": [
-							"Üçüncü seviyeden itibaren reaksiyonunu kullanarak sana vuracak olan bir menzilli silah saldırısının misilini saptırabilir yada yakalayabilirsin. Bunu yaptığında sana gelecek hasarı 1d10 + Dexterity bonusun + keşiş seviyen kadar düşürürsün.",
+							"3. seviyeden itibaren reaksiyonunu kullanarak sana vuracak olan bir menzilli silah saldırısının misilini saptırabilir yada yakalayabilirsin. Bunu yaptığında sana gelecek hasarı 1d10 + Dexterity bonusun + keşiş seviyen kadar düşürürsün.",
 							"Eğer hasar sıfıra düşerse gelen misili, misilin tek elle tutulabilecek küçüklükte olması şartıyla yakalayabilirisin. Eğer bu şekilde misili yakalarsan bir ki puanı harcayarak aynı reaksiyonun bir parçası olarak menzilli silah saldırısı (menzil 20/60) yapabilirsin. Bu saldırıyı silah uzmanlıklarını gözetmeksizin uzmanlıkla yaparsın ve misil bu saldırı için keşiş silahı kabul edilir."
 						]
 					},
 					{
 						"name": "Keşiş Geleneği",
 						"entries": [
-							"Üçüncü seviyeye eriştiğinde kendini mevcut listeden bir keşiş geleneğine adarsın. Bu gelenek sana 3, 6, 11 ve 17. seviyelerde ek özellikler kazandırır."
+							"3. seviyeye eriştiğinde kendini mevcut listeden bir keşiş geleneğine adarsın. Bu gelenek sana 3, 6, 11 ve 17. seviyelerde ek özellikler kazandırır."
 						],
 						"gainSubclassFeature": true
 					}
 				],
 				[
 					{
-						"name": "Beceri Skoru Gelişimi",
+						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
-							"Dördüncü seviyeye eriştiğinde bir beceri skorunu 2 yada 2 ayrı beceri skorunu birer yükseltebilirsin. Bu özellik ile bir beceri skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, beceri skoru yerine bir feat seçebilirsin."
+							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
 						]
 					},
 					{
 						"name": "Yavaş Düşüş",
 						"entries": [
-							"Dördüncü seviyeden itibaren düşerken reaksiyonunu kullanarak düşme hasarını keşiş seviyenin 5 katı kadar azaltabilirsin."
+							"4. seviyeden itibaren düşerken reaksiyonunu kullanarak düşme hasarını keşiş seviyenin 5 katı kadar azaltabilirsin."
 						]
 					}
 				],
@@ -12777,13 +12777,13 @@
 					{
 						"name": "Extra Saldırı",
 						"entries": [
-							"Beşinci seviyeden itibaren kendi sıranda Saldırı eylemini kullandığında 1 yerine 2 kere saldırabilirsin."
+							"5. seviyeden itibaren kendi sıranda Saldırı eylemini kullandığında 1 yerine 2 kere saldırabilirsin."
 						]
 					},
 					{
 						"name": "Sersemleten Darbe",
 						"entries": [
-							"Beşinci seviyeden itibaren rakibin bedenindeki ki akışına müdahale edebilirsin. Başka bir varlığa yakın dövüş saldırısı ile vurunca, 1 ki puanı harcayarak sersemleten bir darbe vurmayı deneyebilirsin. Hedef Constitution kurtulma zarında başarılı olmalı yada senin bir sonraki sıranın sonuna kadar sersemler."
+							"5. seviyeden itibaren rakibin bedenindeki ki akışına müdahale edebilirsin. Başka bir varlığa yakın dövüş saldırısı ile vurunca, 1 ki puanı harcayarak sersemleten bir darbe vurmayı deneyebilirsin. Hedef Constitution kurtulma zarında başarılı olmalı yada senin bir sonraki sıranın sonuna kadar sersemler."
 						]
 					}
 				],
@@ -12791,145 +12791,145 @@
 					{
 						"name": "Ki Etkili Vuruşlar",
 						"entries": [
-							"Altıncı seviyeden itibaren silahsız saldırıların, büyüsüz hasar bağışıklığı ve direncini aşmak adına büyülü sayılır."
+							"6. seviyeden itibaren silahsız saldırıların, büyüsüz hasar bağışıklığı ve direncini aşmak adına büyülü sayılır."
 						]
 					},
 					{
 						"name": "Keşiş Geleneği Özelliği",
 						"entries": [
-							"Altıncı seviyede, keşiş geleneğinin sunduğu bir özelliği kazanırsın."
+							"6. seviyede, keşiş geleneğinin sunduğu bir özelliği kazanırsın."
 						],
 						"gainSubclassFeature": true
 					}
 				],
 				[
 					{
-						"name": "Evasion",
+						"name": "Kaçınma",
 						"entries": [
-							"At 7th level, your instinctive agility lets you dodge out of the way of certain area effects, such as a blue dragon's lightning breath or a {@spell fireball} spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
+							"7. seviyede içgüdüsel çevikliğin bazı alan etkilerinden kurtulmanı sağlar. Buna örnek olarak bir mavi ejderhanın yıldırım nefesi yada (@spell fireball) büyüsü verilebilir. Sana yarı hasar almak için Dexterity kurtulma zarı atmanı gerektirecek bir etkiye maruz kaldığında; eğer başarılı olursan hiç hasar almazsın ve başarısız olduğunda sadece yarı hasarı alırsın. "
 						]
 					},
 					{
-						"name": "Stillness of Mind",
+						"name": "Zihnin Durgunluğu",
 						"entries": [
-							"Starting at 7th level, you can use your action to end one effect on yourself that is causing you to be {@condition charmed} or {@condition frightened}."
+							"7. seviyeden itibaren sıranda eylemini kullanarak seni etkileyen bir {@condition charmed} veya {@condition frightened} koşulunu kaldırabilirsin."
 						]
 					}
 				],
 				[
 					{
-						"name": "Ability Score Improvement",
+						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
-							"When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-							"If your DM allows the use of feats, you may instead take a feat."
+							"8. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
 						]
 					}
 				],
 				[
 					{
-						"name": "Unarmored Movement improvement",
+						"name": "Zırhsız Hareket Gelişimi",
 						"entries": [
-							"At 9th level, you gain the ability to move along vertical surfaces and across liquids on your turn without falling during the move."
+							"9. seviyede, dikey yüzeylerde ve sıvı yüzeyinde düşmeden hareket etme yeteneğini kazanırsın."
 						]
 					}
 				],
 				[
 					{
-						"name": "Purity of Body",
+						"name": "Bedenin Saflığı",
 						"entries": [
-							"At 10th level, your mastery of the ki flowing through you makes you immune to disease and poison."
+							"10. seviyede, bedenindeki ki akışına hakimiyetin sayesinde zehir ve hastalığa bağışıklık kazanırsın."
 						]
 					}
 				],
 				[
 					{
-						"name": "Monastic Tradition feature",
+						"name": "Keşiş Geleneği Özelliği",
 						"entries": [
-							"At 11th level, you gain one feature granted by your Monastic Tradition."
+							"11. seviyede, keşiş özelliğinin sunduğu bir özelliği kazanırsın."
 						],
 						"gainSubclassFeature": true
 					}
 				],
 				[
 					{
-						"name": "Ability Score Improvement",
+						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
-							"When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-							"If your DM allows the use of feats, you may instead take a feat."
+							"12. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
 						]
 					}
 				],
 				[
 					{
-						"name": "Tongue of the Sun and Moon",
+						"name": "Güneş ve Ayın Dili",
 						"entries": [
-							"Starting at 13th level, you learn to touch the ki of other minds so that you understand all spoken languages. Moreover, any creature that can understand a language can understand what you say."
+							"13. seviyede, diğerlerinin zihninin ki akışına dokunmayı öğrenirsin ve tüm konuşulan dilleri anlayabilirsin.Dahası, herhangi bir dili anlayabilen tüm varlıklar senin dediğini anlayabilir."
 						]
 					}
 				],
 				[
 					{
-						"name": "Diamond Soul",
+						"name": "Elmas ruh",
 						"entries": [
-							"Beginning at 14th level, your mastery of ki grants you proficiency in all saving throws.",
-							"Additionally, whenever you make a saving throw and fail, you can spend 1 ki point to reroll it and take the second result."
+							"14. seviyeden itibaren, ki akışına hakimiyetin tüm kurtulma zarlarında sana uzmanlık verir.",
+							"Ek olarak, bir kurtulma zarı atıp başarısız olduğunda 1 ki puanı harcayıp bu zarı yeniden atarak ikinci sonucu kullanabilirsin."
 						]
 					}
 				],
 				[
 					{
-						"name": "Timeless Body",
+						"name": "Zamansız Beden",
 						"entries": [
-							"At 15th level, your ki sustains you so that you suffer none of the frailty of old age, and you can't be aged magically. You can still die of old age, however. In addition, you no longer need food or water."
+							"15. seviyede, bedenindeki ki akışı seni hayatta tutmaya yeterli olur ve artık yeme içme ihtiyacı duymazsın. Yaşlılığın verdiği zayıflık seni etkilemez ve büyülü bir şekilde yaşlandırılamazsın. Buna rağmen hala yaşlılıktan ölebilirsin."
 						]
 					}
 				],
 				[
 					{
-						"name": "Ability Score Improvement",
+						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
-							"When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-							"If your DM allows the use of feats, you may instead take a feat."
+							"16. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
 						]
 					}
 				],
 				[
 					{
-						"name": "Monastic Tradition feature",
+						"name": "Keşiş Geleneği Özelliği",
 						"entries": [
-							"At 17th level, you gain one feature granted by your Monastic Tradition."
+							"17. seviyede keşiş geleneğinin sunduğu bir özellik kazanırsın."
 						],
 						"gainSubclassFeature": true
 					}
 				],
 				[
 					{
-						"name": "Empty Body",
+						"name": "Boş Beden",
 						"entries": [
-							"Beginning at 18th level, you can use your action to spend 4 ki points to become {@condition invisible} for 1 minute. During that time, you also have resistance to all damage but force damage.",
-							"Additionally, you can spend 8 ki points to cast the {@spell astral projection} spell, without needing material components. When you do so, you can't take any other creatures with you."
+							"18. seviyeden itibaren eylemini kullanıp 4 ki puanı harcayarak 1 dakika için görünmez olabilirsin. Bu süre içinde güç hasarı dışında tüm hasar tiplerine direncin olur.",
+							"Ek olarak, 8 ki puanı harcayıp materyal bileşenlere ihtiyaç duymadan {@spell astral projection} büyüsünü kullanabilirsin. Bunu yaptığında yanına başka varlıkları alamazsın."
 						]
 					}
 				],
 				[
 					{
-						"name": "Ability Score Improvement",
+						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
-							"When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-							"If your DM allows the use of feats, you may instead take a feat."
+							"19. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
 						]
 					}
 				],
 				[
 					{
-						"name": "Perfect Soul",
+						"name": "Kusursuz Ruh",
 						"entries": [
-							"At 20th level, when you roll for initiative and have no ki points remaining, you regain 4 ki points."
+							"20. seviyede öncelik zarı attığında hiç ki puanın yoksa 4 ki puanı ile başlarsın."
 						]
 					}
 				]
 			],
-			"subclassTitle": "Monastic Tradition",
+			"subclassTitle": "Keşiş Geleneği",
 			"subclasses": [
 				{
 					"name": "Way of Shadow",
@@ -13665,30 +13665,30 @@
 					"shortName": "Kensei v2 (UA)"
 				},
 				{
-					"name": "Way of Tranquility (UA)",
+					"name": "Huzur Yolu (UA)",
 					"subclassFeatures": [
 						[
 							{
-								"name": "Way of Tranquility",
+								"name": "Huzur Yolu",
 								"entries": [
-									"Monks of the Way of Tranquility see violence as a last resort. They use diplomacy, mercy, and understanding to resolve conflicts. If pushed, though, they are capable warriors who can bring an end to the unjust or cruel folk who refuse to listen to reason. When adventuring, these monks make excellent diplomats. They are also skilled in the healing arts, and can preserve their allies in the face of daunting foes.",
+									"Huzur Yolu keşişleri şiddeti son çare olarak görür. Diplomasi, merhamet ve hoşgörü kullanarak çatışmaları çözerler. Zorda kaldıklarında, huzuru bozmaya çalışan zalim ve adaletsiz kişileri cezalandırabilecek kabiliyetli savaşçılardır. Maceralarda bu keşişler mükemmel diplomatlar olurlar. Aynı zamanda şifa sanatlarında da yeteneklidirler ve çetin rakiplerin karşısında dostlarını koruyabilirler.",
 									{
 										"type": "entries",
-										"name": "Path of Tranquility",
+										"name": "Huzur yolu",
 										"entries": [
-											"When you choose this tradition at 3rd level, you can become an island of calm in even the most chaotic of situations. With this feature, you can cast the {@spell sanctuary} spell on yourself, no material component required, and it lasts up to 8 hours. Its saving throw DC equals 8 + your proficiency bonus + your Wisdom modifier. A creature that succeeds on the save is immune to this effect for 1 hour.",
-											"Once you cast the spell in this way, you can't do so again for 1 minute."
+											"3. seviyede bu yolu seçtiğinde en karışık durumlarda bile sakinliğini koruyabilirsin. Bu özellikle birlikte @spell sanctuary} büyüsünü kendi üzerinde bonus eylem olarak kullanabilirsin. Materyal bileşen gerektirmez ve 8 saate kadar sürer. Kurtulma zarı DC'si 8 + uzmanlık bonusun + Wisdom bonusun olur. Bu büyüye karşı kurtulma zarında başarılı olan bir varlık 1 saat boyunca büyüyü görmezden gelir.",
+											"Bu büyüyü kullandığında bir dakika boyunca bir daha kullanamazsın."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Healing Hands",
+										"name": "Şifalı Eller",
 										"entries": [
-											"Your mystical touch can heal wounds. Starting at 3rd level, you have a pool of magical healing power that replenishes when you take a long rest. With that pool, you can restore a total number of hit points equal to your monk level × 10.",
-											"As an action, you can touch a creature and draw power from the pool to restore a number of hit points to that creature, up to the maximum amount remaining in the pool.",
-											"Instead of healing the creature, you can expend 5 hit points from your pool of healing to cure the target of one disease or neutralize one poison affecting it. You can cure multiple diseases and neutralize multiple poisons with a single use of Healing Hands, expending hit points separately for each one.",
-											"When you use your Flurry of Blows, you can replace one of the unarmed strikes with a use of this feature.",
-											"This feature has no effect on undead and constructs."
+											"Senin mistik dokunuşun yaraları iyileştirebilir. 3. seviyeden itibaren, uzun dinlenme ile yenilenen bir büyülü iyileştirme puanı havuzun olur. Bu havuzdan keşiş seviyen × 10 HP iyileştirebilirsin.",
+											"Eylem olarak bir varlığa dokunup bu havuzdan güç çekerek, havuzdaki maximum HP puanına kadar iyileştirebilirsin.",
+											"Varlığı iyileştirmek yerine bu havuzdan 5 puan harcayıp hedefi bir hastalıktan yada zehirden arındırabilirsin. Yeterli puanın olduğu sürece tek kullanımda birden çok etkiden arındırabilirsin.",
+											"Darbe Yağmurunu kullandığında silahsız saldırılarından birinin yerine Şifalı Eller özelliğini kullanabilirsin.",
+											"Bu özelliğin yaşayan ölülerde ve yapılmış varlıklarda*construct* bir etkisi yoktur."
 										]
 									}
 								]
@@ -13699,10 +13699,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Emissary of Peace",
+										"name": "Barış Elçisi",
 										"entries": [
-											"At 6th level, you gain the ability to diffuse violent situations. Whenever you make a Charisma check to calm violent emotions or to counsel peace, you have advantage on the roll. You must make this entreaty in good faith; it doesn't apply if proficiency in the Deception or Intimidation skill applies to your check.",
-											"You also gain proficiency in the Performance or Persuasion skill (choose one)."
+											"6. seviyede şiddetli durumları yatıştırma yeteneğini kazanırsın. Şiddetli duyguları yatıştırmak yada barış öğütlemek için yaptığın tüm Charisma zarlarında avantajın vardır. Bunları iyi niyetle yapmalısın, eğer Aldatma yada Gözdağı Verme zarları bu duruma uyuyorsa bu avantaj uygulanmaz.",
+											"Aynı zamanda İkna yada Performans becerilerinden birinde uzmanlık kazanırsın."
 										]
 									}
 								]
@@ -13713,10 +13713,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Douse the Flames of War",
+										"name": "Şavaş Ateşini Söndür",
 										"entries": [
-											"At 11th level, you gain the ability to temporarily extinguish a creature's violent impulses. As an action, you can touch a creature, and it must make a Wisdom saving throw with a DC equal to 8 + your proficiency bonus + your Wisdom modifier. The target automatically succeeds if it's missing any of its hit points. If the target fails the save, it can't attack for 1 minute. During that time, it also can't cast spells that deal damage or that force someone to make a saving throw.",
-											"This effect ends if the target is attacked, takes damage, or is forced to make a saving throw or if the target witnesses any of those things happening to its allies."
+											"11. seviyede bir varlığın şiddet isteğini geçici olarak yatıştırma yeteneğini kazanırsın. Eylem olarak bir varlığa dokunup onu Wisdom kurtulma zarı atmaya zorlayabilirsin. Eğer hedefin HP'si eksikse buna otomatikman direnir. Eğer hedef zarda başarısız olursa 1 dakika boyunca saldırı yapamaz. Bu süre boyunca hasar veren yada birini kurtulma zarı atmaya zorlayan büyülerde kullanamaz.",
+											"Bu etki eğer hedefe saldırılırsa, hedef hasar alırsa, kurtulma zarı atmaya zorlanırsa yada bunların dostlarının başına geldiğine şahit olursa anında biter."
 										]
 									}
 								]
@@ -13727,10 +13727,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Anger of a Gentle Soul",
+										"name": "Nazik Ruhun Öfkesi",
 										"entries": [
-											"At 17th level, you gain the ability to visit vengeance on someone who fells others. If you see a creature reduce another creature to 0 hit points, you can use your reaction to grant yourself a bonus to all damage rolls against the aggressor until the end of your next turn. The bonus equals your monk level.",
-											"Once you use this ability, you can't use it again until you finish a short or long rest."
+											"17. seviyede diğerlerini deviren birinden intikam alma yeteneğini kazanırsın. Eğer bir varlığın başka bir varlığı 0 HP'ye düşürdüğünü görürsen, reaksiyonunu kullanarak bir sonraki sıranın sonuna kadar saldırgana karşı tüm hasar zarlarına keşiş seviyen kadar bonus hasar eklersin.",
+											"Bu yeteneği kullanınca bir kısa yada uzun dinlenme yapana kadar bir daha kullanamazsın."
 										]
 									}
 								]
@@ -13738,7 +13738,7 @@
 						]
 					],
 					"source": "UAMonk",
-					"shortName": "Tranquility (UA)"
+					"shortName": "Huzur (UA)"
 				},
 				{
 					"name": "Way of the Drunken Master (UA)",
