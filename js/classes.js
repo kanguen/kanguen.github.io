@@ -409,8 +409,8 @@ function loadhash (id) {
 	subclassPillWrapper.find("span").remove();
 
 	// show/hide class features pill
-	makeGenericTogglePill("Class Features", CLSS_CLASS_FEATURES_ACTIVE, ID_CLASS_FEATURES_TOGGLE, HASH_HIDE_FEATURES, true, "Toggle class features");
-	if (curClass.fluff) makeGenericTogglePill("Detail Info", CLSS_FLUFF_ACTIVE, ID_FLUFF_TOGGLE, HASH_SHOW_FLUFF, false, `Toggle class detail information (Source: Xanathar's Guide to Everything, page ${curClass.fluffPage})`);
+	makeGenericTogglePill("Sınıf Özellikleri", CLSS_CLASS_FEATURES_ACTIVE, ID_CLASS_FEATURES_TOGGLE, HASH_HIDE_FEATURES, true, "Sınıf özelliklerini göster/sakla");
+	if (curClass.fluff) makeGenericTogglePill("Detay Bilgisi", CLSS_FLUFF_ACTIVE, ID_FLUFF_TOGGLE, HASH_SHOW_FLUFF, false, `Sınıf detay bilgilerini göster/sakla (Kaynak: Xanathar's Guide to Everything, sayfa ${curClass.fluffPage})`);
 
 	// show/hide UA/other sources
 	makeSourceCyclePill();
@@ -431,7 +431,7 @@ function loadhash (id) {
 		if (subclassIsFreshUa(subClasses[i])) styleClasses.push(CLSS_FRESH_UA);
 		if (BrewUtil.hasSourceJson(cleanScSource(subClasses[i].source))) styleClasses.push(CLSS_HOMEBREW_SOURCE);
 		const pillText = hasBeenReprinted(subClasses[i].shortName, subClasses[i].source) ? `${subClasses[i].shortName} (${Parser.sourceJsonToAbv(subClasses[i].source)})` : subClasses[i].shortName;
-		const pill = $(`<span class="${styleClasses.join(" ")}" ${ATB_DATA_SC}="${subClasses[i].name}" ${ATB_DATA_SRC}="${cleanScSource(subClasses[i].source)}" title="Source: ${Parser.sourceJsonToFull(subClasses[i].source)}"><span>${pillText}</span></span>`);
+		const pill = $(`<span class="${styleClasses.join(" ")}" ${ATB_DATA_SC}="${subClasses[i].name}" ${ATB_DATA_SRC}="${cleanScSource(subClasses[i].source)}" title="Kaynak: ${Parser.sourceJsonToFull(subClasses[i].source)}"><span>${pillText}</span></span>`);
 		pill.click(function () {
 			handleSubclassClick($(this).hasClass(CLSS_ACTIVE), subClasses[i].name, cleanScSource(subClasses[i].source));
 		});
@@ -443,7 +443,7 @@ function loadhash (id) {
 	loadsub([]);
 
 	function makeSourceCyclePill () {
-		const $pill = $(`<span title="Cycle through source types" id="${ID_OTHER_SOURCES_TOGGLE}" data-state="0" style="min-width: 8em;"><span>${STRS_SOURCE_STATES[0]}</span></span>`);
+		const $pill = $(`<span title="Kaynak tiplerini değiştir" id="${ID_OTHER_SOURCES_TOGGLE}" data-state="0" style="min-width: 8em;"><span>${STRS_SOURCE_STATES[0]}</span></span>`);
 		subclassPillWrapper.append($pill);
 		$pill.click(() => {
 			let state = Number($pill.attr("data-state"));
@@ -995,7 +995,7 @@ const ClassBookView = {
 			const styles = getSubclassStyles(sc);
 			const $pill = $(`.sc-pill[data-subclass="${sc.name}"][data-source="${sc.source}"]`);
 
-			const $scToggle = $(`<span class="pnl-link active ${styles.join(" ")}" title="Source: ${Parser.sourceJsonToFull(sc.source)}" data-i="${i}" data-bk-subclass="${sc.name}" data-bk-source="${sc.source}">${name}</span>`).on("click", () => {
+			const $scToggle = $(`<span class="pnl-link active ${styles.join(" ")}" title="Kaynak: ${Parser.sourceJsonToFull(sc.source)}" data-i="${i}" data-bk-subclass="${sc.name}" data-bk-source="${sc.source}">${name}</span>`).on("click", () => {
 				ClassBookView.tglSc($bkTbl, $scToggle, i);
 				$pill.click();
 			});
