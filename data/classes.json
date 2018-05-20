@@ -12644,30 +12644,30 @@
 			],
 			"startingProficiencies": {
 				"weapons": [
-					"simple",
-					"shortswords"
+					"basit",
+					"kısa kılıçlar"
 				],
 				"tools": [
-					"any one type of artisan's tools or any one musical instrument of your choice"
+					"bir tip zanaatkar aracı yada seçeceğin bir müzikal alet"
 				],
 				"skills": {
 					"choose": 2,
 					"from": [
-						"Acrobatics",
-						"Athletics",
-						"History",
-						"Insight",
-						"Religion",
-						"Stealth"
+						"Akrobasi",
+						"Atletik",
+						"Tarih",
+						"Sezgi",
+						"Din",
+						"Gizlenme"
 					]
 				}
 			},
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) a shortsword or (b) any simple weapon",
-					"(a) a dungeoneer's pack or (b) an explorer's pack",
-					"10 darts"
+					"(a) bir kısa kılıç yada (b) herhangi bir basit silah",
+					"(a) bir zindancının paketi yada (b) bir kaşifin paketi",
+					"10 tane dart"
 				],
 				"goldAlternative": "5d4"
 			},

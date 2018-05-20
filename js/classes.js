@@ -21,11 +21,11 @@ const ID_CLASS_FEATURES_TOGGLE = "cf-toggle";
 const ID_FLUFF_TOGGLE = "fluff-toggle";
 const ID_OTHER_SOURCES_TOGGLE = "os-toggle";
 
-const STR_PROF_NONE = "none";
+const STR_PROF_NONE = "Hiçbiri";
 const STR_SOURCES_OFFICIAL = "0";
 const STR_SOURCES_MIXED = "1";
 const STR_SOURCES_ALL = "2";
-const STRS_SOURCE_STATES = ["Official Sources", "Most Recent", "All Sources"];
+const STRS_SOURCE_STATES = ["Resmi Kaynaklar", "En Güncel", "Tüm Kaynaklar"];
 
 const ATB_DATA_FEATURE_LINK = "data-flink";
 const ATB_DATA_FEATURE_ID = "data-flink-id";
@@ -266,8 +266,8 @@ function loadhash (id) {
 	// hit dice and HP
 	const hdEntry = {toRoll: [curClass.hd], rollable: true};
 	$("td#hp div#hitdice span").html(EntryRenderer.getEntryDice(hdEntry, "Hit die"));
-	$("td#hp div#hp1stlevel span").html(curClass.hd.faces + " + your Constitution modifier");
-	$("td#hp div#hphigherlevels span").html(`${EntryRenderer.getEntryDice(hdEntry, "Hit die")} (or ${(curClass.hd.faces / 2 + 1)}) + your Constitution modifier per ${curClass.name} level after 1st`);
+	$("td#hp div#hp1stlevel span").html(curClass.hd.faces + " + Constitution bonusun");
+	$("td#hp div#hphigherlevels span").html(`${EntryRenderer.getEntryDice(hdEntry, "Hit die")} (yada ${(curClass.hd.faces / 2 + 1)}) + Constitution bonusun, birinciden sonraki her ${curClass.name} seviyesi için geçerli olur.`);
 
 	// save proficiency
 	$("td#prof div#saves span").html(curClass.proficiency.map(p => Parser.attAbvToFull(p)).join(", "));
@@ -275,21 +275,21 @@ function loadhash (id) {
 	// starting proficiencies
 	const sProfs = curClass.startingProficiencies;
 	const profSel = $("td#prof");
-	profSel.find("div#armor span").html(sProfs.armor === undefined ? STR_PROF_NONE : sProfs.armor.map(a => a === "light" || a === "medium" || a === "heavy" ? a + " armor" : a).join(", "));
-	profSel.find("div#weapons span").html(sProfs.weapons === undefined ? STR_PROF_NONE : sProfs.weapons.map(w => w === "simple" || w === "martial" ? w + " weapons" : w).join(", "));
+	profSel.find("div#armor span").html(sProfs.armor === undefined ? STR_PROF_NONE : sProfs.armor.map(a => a === "hafif" || a === "orta" || a === "ağır" ? a + " zırh" : a).join(", "));
+	profSel.find("div#weapons span").html(sProfs.weapons === undefined ? STR_PROF_NONE : sProfs.weapons.map(w => w === "basit" || w === "askeri" ? w + " silahlar" : w).join(", "));
 	profSel.find("div#tools span").html(sProfs.tools === undefined ? STR_PROF_NONE : sProfs.tools.join(", "));
 	profSel.find("div#skills span").html(sProfs.skills === undefined ? STR_PROF_NONE : getSkillProfString(sProfs.skills));
 
 	function getSkillProfString (skills) {
-		const numString = Parser.numberToString(skills.choose);
-		return skills.from.length === 18 ? `Choose any ${numString}.` : `Choose ${numString} from ${CollectionUtil.joinConjunct(skills.from, ", ", ", and ")}.`
+		const numString = (skills.choose);
+		return skills.from.length === 18 ? `Hepsinden ${numString} tane seç.` : `Bunlardan ${numString} tanesini seç: ${CollectionUtil.joinConjunct(skills.from, ", ", ", ve ")}.`
 	}
 
 	// starting equipment
 	const sEquip = curClass.startingEquipment;
-	const fromBackground = sEquip.additionalFromBackground ? "<p>You start with the following items, plus anything provided by your background.</p>" : "";
+	const fromBackground = sEquip.additionalFromBackground ? "<p>Arka planından gelenler ile birlikte bu nesnelerle başlarsın.</p>" : "";
 	const defList = sEquip.default.length === 0 ? "" : `<ul><li>${sEquip.default.join("</li><li>")}</ul>`;
-	const goldAlt = sEquip.goldAlternative === undefined ? "" : `<p>Alternatively, you may start with ${sEquip.goldAlternative} gp to buy your own equipment.</p>`;
+	const goldAlt = sEquip.goldAlternative === undefined ? "" : `<p>Alternatif olarak, ${sEquip.goldAlternative} gp ile başlayıp kendi ekipmanını alabilirsin.</p>`;
 	$("#equipment").find("div").html(`${fromBackground}${defList}${goldAlt}`);
 
 	// FEATURE TABLE ===================================================================================================
@@ -873,7 +873,7 @@ function loadsub (sub) {
 
 function initCompareMode () {
 	subclassComparisonView = new BookModeView(
-		"compview", $(`#btn-comparemode`), "Please select some subclasses first",
+		"compview", $(`#btn-comparemode`), "Önce birkaç altsınıf seçmelisin.",
 		($tbl) => {
 			const renderStack = [];
 			const numScLvls = curClass.subclasses[0].subclassFeatures.length;

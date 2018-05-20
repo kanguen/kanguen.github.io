@@ -1,5 +1,5 @@
 const Omnisearch = {
-	_PLACEHOLDER_TEXT: "Search everywhere...",
+	_PLACEHOLDER_TEXT: "Heryeri ara...",
 	_searchIndex: null,
 	_onFirstLoad: null,
 	_loadingSearch: false,
@@ -9,7 +9,7 @@ const Omnisearch = {
 		const $nav = $(`#navbar`);
 		$nav.append(`
 			<div class="input-group" id="wrp-omnisearch-input">
-				<input id="omnisearch-input" class="form-control" placeholder="${Omnisearch._PLACEHOLDER_TEXT}" title="Disclaimer: unlikely to search everywhere. Use with caution.">
+				<input id="omnisearch-input" class="form-control" placeholder="${Omnisearch._PLACEHOLDER_TEXT}" title="Muhtemelen heryeri aramayacak, dikkatli kullanın.">
 				<div class="input-group-btn">
 					<button class="btn btn-default" id="omnisearch-submit" ><span class="glyphicon glyphicon-search"></span></button>
 				</div>
