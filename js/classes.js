@@ -410,7 +410,7 @@ function loadhash (id) {
 
 	// show/hide class features pill
 	makeGenericTogglePill("Sınıf Özellikleri", CLSS_CLASS_FEATURES_ACTIVE, ID_CLASS_FEATURES_TOGGLE, HASH_HIDE_FEATURES, true, "Sınıf özelliklerini göster/sakla");
-	if (curClass.fluff) makeGenericTogglePill("Detay Bilgisi", CLSS_FLUFF_ACTIVE, ID_FLUFF_TOGGLE, HASH_SHOW_FLUFF, false, `Sınıf detay bilgilerini göster/sakla (Kaynak: Xanathar's Guide to Everything, sayfa ${curClass.fluffPage})`);
+	if (curClass.fluff) makeGenericTogglePill("Detaylı Bilgi", CLSS_FLUFF_ACTIVE, ID_FLUFF_TOGGLE, HASH_SHOW_FLUFF, false, `Sınıf detay bilgilerini göster/sakla (Kaynak: Xanathar's Guide to Everything, sayfa ${curClass.fluffPage})`);
 
 	// show/hide UA/other sources
 	makeSourceCyclePill();

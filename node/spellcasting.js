@@ -69,7 +69,7 @@ function parseSpellcasting (monsterName, trait, contentsIndex) {
 		} else if (thisLine.startsWith("Constant: ")) {
 			doneHeader = true;
 			spellcastingEntry.constant = thisLine.substring(9).split(", ").map(i => parseSpell(i));
-		} else if (thisLine.startsWith("At will: ")) {
+		} else if (thisLine.startsWith("At Will: ")) {
 			doneHeader = true;
 			spellcastingEntry.will = thisLine.substring(9).split(", ").map(i => parseSpell(i));
 		} else if (thisLine.includes("Cantrip")) {
