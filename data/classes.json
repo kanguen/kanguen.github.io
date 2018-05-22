@@ -27126,151 +27126,151 @@
 			"classTableGroups": [
 				{
 					"colLabels": [
-						"{@filter Cantrips Known|spells|level=0|class=Warlock}",
-						"Spells Known",
-						"Spell Slots",
-						"Slot Level",
-						"Invocations Known"
+						"{@filter Bilinen Cantripler|spells|level=0|class=Warlock}",
+						"Bilinen Büyüler",
+						"Büyü Yuvaları",
+						"Yuva Seviyesi",
+						"Bilinen Yakarışlar"
 					],
 					"rows": [
 						[
 							2,
 							2,
 							1,
-							"{@filter 1st|spells|level=1|class=Warlock}",
+							"{@filter 1.|spells|level=1|class=Warlock}",
 							0
 						],
 						[
 							2,
 							3,
 							2,
-							"{@filter 1st|spells|level=1|class=Warlock}",
+							"{@filter 1.|spells|level=1|class=Warlock}",
 							2
 						],
 						[
 							2,
 							4,
 							2,
-							"{@filter 2nd|spells|level=2|class=Warlock}",
+							"{@filter 2.|spells|level=2|class=Warlock}",
 							2
 						],
 						[
 							3,
 							5,
 							2,
-							"{@filter 2nd|spells|level=2|class=Warlock}",
+							"{@filter 2.|spells|level=2|class=Warlock}",
 							2
 						],
 						[
 							3,
 							6,
 							2,
-							"{@filter 3rd|spells|level=3|class=Warlock}",
+							"{@filter 3.|spells|level=3|class=Warlock}",
 							3
 						],
 						[
 							3,
 							7,
 							2,
-							"{@filter 3rd|spells|level=3|class=Warlock}",
+							"{@filter 3.|spells|level=3|class=Warlock}",
 							3
 						],
 						[
 							3,
 							8,
 							2,
-							"{@filter 4th|spells|level=4|class=Warlock}",
+							"{@filter 4.|spells|level=4|class=Warlock}",
 							4
 						],
 						[
 							3,
 							9,
 							2,
-							"{@filter 4th|spells|level=4|class=Warlock}",
+							"{@filter 4.|spells|level=4|class=Warlock}",
 							4
 						],
 						[
 							3,
 							10,
 							2,
-							"{@filter 5th|spells|level=5|class=Warlock}",
+							"{@filter 5.|spells|level=5|class=Warlock}",
 							5
 						],
 						[
 							4,
 							10,
 							2,
-							"{@filter 5th|spells|level=5|class=Warlock}",
+							"{@filter 5.|spells|level=5|class=Warlock}",
 							5
 						],
 						[
 							4,
 							11,
 							3,
-							"{@filter 5th|spells|level=5|class=Warlock}",
+							"{@filter 5.|spells|level=5|class=Warlock}",
 							5
 						],
 						[
 							4,
 							11,
 							3,
-							"{@filter 5th|spells|level=5|class=Warlock}",
+							"{@filter 5.|spells|level=5|class=Warlock}",
 							6
 						],
 						[
 							4,
 							12,
 							3,
-							"{@filter 5th|spells|level=5|class=Warlock}",
+							"{@filter 5.|spells|level=5|class=Warlock}",
 							6
 						],
 						[
 							4,
 							12,
 							3,
-							"{@filter 5th|spells|level=5|class=Warlock}",
+							"{@filter 5.|spells|level=5|class=Warlock}",
 							6
 						],
 						[
 							4,
 							13,
 							3,
-							"{@filter 5th|spells|level=5|class=Warlock}",
+							"{@filter 5.|spells|level=5|class=Warlock}",
 							7
 						],
 						[
 							4,
 							13,
 							3,
-							"{@filter 5th|spells|level=5|class=Warlock}",
+							"{@filter 5.|spells|level=5|class=Warlock}",
 							7
 						],
 						[
 							4,
 							14,
 							4,
-							"{@filter 5th|spells|level=5|class=Warlock}",
+							"{@filter 5.|spells|level=5|class=Warlock}",
 							7
 						],
 						[
 							4,
 							14,
 							4,
-							"{@filter 5th|spells|level=5|class=Warlock}",
+							"{@filter 5.|spells|level=5|class=Warlock}",
 							8
 						],
 						[
 							4,
 							15,
 							4,
-							"{@filter 5th|spells|level=5|class=Warlock}",
+							"{@filter 5.|spells|level=5|class=Warlock}",
 							8
 						],
 						[
 							4,
 							15,
 							4,
-							"{@filter 5th|spells|level=5|class=Warlock}",
+							"{@filter 5.|spells|level=5|class=Warlock}",
 							8
 						]
 					]
@@ -27278,69 +27278,69 @@
 			],
 			"startingProficiencies": {
 				"armor": [
-					"light"
+					"hafif"
 				],
 				"weapons": [
-					"simple"
+					"basit"
 				],
 				"skills": {
 					"choose": 2,
 					"from": [
 						"Arcana",
-						"Deception",
-						"History",
-						"Intimidation",
-						"Investigation",
-						"Nature",
-						"Religion"
+						"Aldatma",
+						"Tarih",
+						"Gözdağı Verme",
+						"İnceleme",
+						"Doğa",
+						"Din"
 					]
 				}
 			},
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) a light crossbow and 20 bolts or (b) any simple weapon",
-					"(a) a component pouch or (b) an arcane focus",
-					"(a) a scholar's pack or (b) a dungeoneer's pack",
-					"Leather armor, any simple weapon, and two daggers"
+					"(a) hafif arbalet ve 20 kısa ok veya (b) herhangi bir basit silah",
+					"(a) bir bileşen kesesi or (b) bir arcane odağı",
+					"(a) bir bilgenin paketi or (b) bir zindancının paketi",
+					"Deri zırh, herhangi bir basit silah, ve 2 hançer"
 				],
 				"goldAlternative": "4d4 × 10"
 			},
 			"classFeatures": [
 				[
 					{
-						"name": "Pact Magic",
+						"name": "Ahit Büyüsü",
 						"entries": [
-							"Your arcane research and the magic bestowed on you by your patron have given you facility with spells. See chapter 10 for the general rules of spellcasting and chapter 11 for the warlock spell list.",
+							"Efendin tarafından sana bahşedilmiş arcane araştırmalar ve güç senin büyü yapmanı sağlar. Büyü yapmanın genel kuraları için 10. kısma ve Warlock büyü listesi için 11. kısma bakabilirsin.",
 							{
 								"type": "entries",
-								"name": "Cantrips",
+								"name": "Cantripler",
 								"entries": [
-									"You know two cantrips of your choice from the warlock spell list. You learn additional warlock cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Warlock table."
+									"Warlock büyü listesinden seçeceğin 2 cantrip biliyorsun. Warlock tablosunun Bilinen Cantripler sütununda görülebileceği üzere üst seviyelerde ek cantripler öğrenirsin."
 								]
 							},
 							{
 								"type": "entries",
-								"name": "Spell Slots",
+								"name": "Büyü Yuvaları",
 								"entries": [
-									"The Warlock table shows how many spell slots you have. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.",
-									"For example, when you are 5th level, you have two 3rd-level spell slots. To cast the 1st-level spell {@spell thunderwave}, you must spend one of those slots, and you cast it as a 3rd-level spell."
+									"Warlock tablosu kaç tane büyü yuvan olduğunu gösterir. Tablo bu yuvaların kaçıncı seviye olduğunu da gösterir, tüm yuvaların aynı seviyedir. 1. seviye ve üzeri bir warlock büyüsü kullanmak için bir büyü yuvası harcaman gerekir. Harcanan büyü yuvaların kısa veya uzun dinlenme sonrası yenilenir.",
+									"Örneğin, sen 5. seviyeyken 2 adet 3. seviye büyü yuvan olur. 1. seviye büyüsü {@spell thunderwave} kullanmak için bu yuvalardan biri harcanır ve büyü 3. seviyede kullanılır."
 								]
 							},
 							{
 								"type": "entries",
-								"name": "Spells Known of 1st Level and Higher",
+								"name": "1. Seviye ve Üzeri Bilinen Büyüler",
 								"entries": [
-									"At 1st level, you know two 1st-level spells of your choice from the warlock spell list.",
-									"The Spells Known column of the Warlock table shows when you learn more warlock spells of your choice of 1st level and higher. A spell you choose must be of a level no higher than what's shown in the table's Slot Level column for your level. When you reach 6th level, for example, you learn a new warlock spell, which can be 1st, 2nd, or 3rd level.",
-									"Additionally, when you gain a level in this class, you can choose one of the warlock spells you know and replace it with another spell from the warlock spell list, which also must be of a level for which you have spell slots."
+									"1. seviyede, warlock büyü listesinden seçeceğin 2 adet 1. seviye büyü bilirsin.",
+									"Warlock tablosunun Bilinen Büyüler sütunu ileride ne zaman warlock büyü listesinden yeni büyüler seçebileceğini gösterir. Seçeceğin büyünün seviyesi tabloda Yuva Seviyesi sütununda senin seviyen için görülen sayıdan yüksek olamaz. Örneğin 6. seviyeye ulaştığında, yeni bir warlock büyüsü öğrenirsin ve bu 1,2 yada 3. seviyeden olabilir.",
+									"Ek olarak, bu sınıfta bir seviye atladığında bildiğin bir warlock büyüsünü yeni bir warlock büyüsü ile değiştirebilirsin. Büyü seçim kuralları burada da geçerlidir."
 								]
 							},
 							{
 								"type": "entries",
-								"name": "Spellcasting Ability",
+								"name": "Büyü Yapma Yeteneği",
 								"entries": [
-									"Charisma is your spellcasting ability for your warlock spells, so you use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.",
+									"Warlock büyüleri için kullanacağın yetenek skoru Charisma'dır ve ne zaman bir büyü büyü yapma yeteneğinden bahsederse Charisma bonusunu kullanırsın. Aynı zamanda, warlock büyülerinin kurtulma zarı zorluk seviyesini(DC) belirlerken, saldırı ve hasar zarlarında Charisma bonusun kullanılır.",
 									{
 										"type": "abilityDc",
 										"name": "Spell",
@@ -27359,38 +27359,38 @@
 							},
 							{
 								"type": "entries",
-								"name": "Spellcasting Focus",
+								"name": "Büyü Yapma Odağı",
 								"entries": [
-									"You can use an arcane focus (found in chapter 5) as a spellcasting focus for your warlock spells."
+									"Warlock büyülerini kullanabilmek için arcane odak (5. kısımda bulunabilir) kullanabilirsin."
 								]
 							}
 						]
 					},
 					{
-						"name": "Otherworldly Patron",
+						"name": "Dünyadışı Efendi",
 						"entries": [
-							"At 1st level, you have struck a bargain with an otherworldly being chosen from the list of available patrons. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level."
+							"1. seviyede mevcut efendiler listesinden seçeceğin bir dünyadışı varlık ile anlaşma yaparsın. Bu seçimin sana 1, 6, 10 ve 14. seviyelerde özellikler kazandırır."
 						],
 						"gainSubclassFeature": true
 					}
 				],
 				[
 					{
-						"name": "Eldritch Invocations",
+						"name": "Eldritch Yakarışları",
 						"entries": [
-							"In your study of occult lore, you have unearthed eldritch invocations, fragments of forbidden knowledge that imbue you with an abiding magical ability.",
-							"At 2nd level, you gain two eldritch invocations of your choice. Your invocation options are detailed at the end of the class description. When you gain certain warlock levels, you gain additional invocations of your choice.",
-							"Additionally, when you gain a level in this class, you can choose one of the invocations you know and replace it with another invocation that you could learn at that level.",
-							"A level prerequisite in an invocation refers to warlock level, not character level.",
+							"Doğaüstü bilgileri araştırmalarında eldritch yakarışlarını keşfettin. Bunlar sana büyülü yetenekler veren yasaklı bilgilerin parçacıklarıdır.",
+							"2. seviyede seçeceğin 2 eldritch yakarışı öğrenirsin. Yakarış seçeneklerin sınıf tanımının altında detaylı bir şekilde verilmiştir. Belirli warlock seviyelerine ulaştığında seçeceğin ek yakarışlar öğrenirsin.",
+							"Ek olarak, bu sınıfta bir seviye atladığında bildiğin bir yakarışı o seviyede seçebileceğin başka bir yakarış ile değiştirebilirsin.",
+							"Bir yakarıştaki seviye gereksinimi warlock seviyesini kasteder, karakter seviyesini değil.",
 							{
 								"type": "options",
 								"entries": [
 									{
 										"type": "invocation",
-										"name": "Agonizing Blast",
+										"name": "Istıraplı Patlama",
 										"prerequisite": "{@spell eldritch blast} cantrip",
 										"entries": [
-											"When you cast {@spell eldritch blast}, add your Charisma modifier to the damage it deals on a hit."
+											"{@spell eldritch blast} büyüsünü kullandığında, hasarına Charisma bonusunu ekleyebilirsin."
 										]
 									},
 									{
@@ -28234,35 +28234,35 @@
 				],
 				[
 					{
-						"name": "Pact Boon",
+						"name": "Ahit Lütfu",
 						"entries": [
-							"At 3rd level, your otherworldly patron bestows a gift upon you for your loyal service. You gain one of the following features of your choice.",
+							"3. seviyede dünyadışı efendin sana sadakatin için bir ödül bahşeder. Bu seçeneklerden birini kazanırsın.",
 							{
 								"type": "options",
 								"entries": [
 									{
 										"type": "patron",
-										"name": "Pact of the Chain",
+										"name": "Zincirin Ahdi",
 										"entries": [
-											"You learn the {@spell find familiar} spell and can cast it as a ritual. The spell doesn't count against your number of spells known.",
-											"When you cast the spell, you can choose one of the normal forms for your familiar or one of the following special forms: {@creature imp}, {@creature pseudodragon}, {@creature quasit}, or {@creature sprite}.",
-											"Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to use its reaction to make one attack of its own."
+											"{@spell find familiar} büyüsünü öğrenirsin ve onu ritüel olarak kullanabilirsin. Bu büyü bildiğin büyüler sayısını etkilemez.",
+											"Bu büyüyü kullandığında hizmetçin için normal formların yanında şu özel formlardan birini de seçebilirsin: {@creature imp}, {@creature pseudodragon}, {@creature quasit}, yada {@creature sprite}.",
+											"Ek olarak, Saldırı eylemini kullandığında bir saldırından vazgeçip hizmetçinin reaksiyonunu kullanarak bir saldırı yapmasını sağlayabilirsin."
 										]
 									},
 									{
 										"type": "patron",
-										"name": "Pact of the Blade",
+										"name": "Kılıcın Ahdi",
 										"entries": [
-											"You can use your action to create a pact weapon in your empty hand. You can choose the form that this melee weapon takes each time you create it (see chapter 5 for weapon options). You are proficient with it while you wield it. This weapon counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.",
-											"Your pact weapon disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the weapon (no action required), or if you die.",
-											"You can transform one magic weapon into your pact weapon by performing a special ritual while you hold the weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. You can then dismiss the weapon, shunting it into an extradimensional space, and it appears whenever you create your pact weapon thereafter. You can't affect an artifact or a sentient weapon in this way. The weapon ceases being your pact weapon if you die, if you perform the 1-hour ritual on a different weapon, or if you use a 1-hour ritual to break your bond to it. The weapon appears at your feet if it is in the extradimensional space when the bond breaks."
+											"Eylemini kullanarak boş elinde ahit silahını yaratabilirsin. Her yaratışında bu silahın formunu (silah seçenekleri için 5. kısma bakabilirsin) seçebilirsin. Kullandığın sürece bu silah ile uzmanlığın vardır. Büyüsüz hasara karşı direnç ve bağışıklığı geçmek adına bu silah büyülü sayılır.",
+											"Ahit silahın eğer senden 5 feet uzakta 1 dakika yada fazla geçirirse kaybolur. Bu özelliği yeniden kullandığında, öldüğünde yada silahı azlettiğinde (eylem gerektirmez) de silah kaybolur.",
+											"Büyülü bir silahı özel bir ritüel gerçekleştirerek kendi ahit silahına dönüştürebilirsin. Bu ritüeli 1 saat süresince yaparsın ve kısa dinlenme sırasında yapılabilir. İstediğinde silahı azledip farklı bir boyutta tutabilirsin ve ahit silahını yarattığında yeniden belirir. Artefakt yada bilinçli bir silahı bu şekilde etkileyemezsin. Eğer ölürsen, 1 saatlik ritüeli farklı bir silahla yaparsan yada bağı bozmak için 1 saatlik bir ritüeli yaparsan ahit silahın olmayı bırakır. Bağ bozulduğunda hala farklı bir boyuttaysa silah ayağının dibinde belirir."
 										]
 									},
 									{
 										"type": "patron",
-										"name": "Pact of the Tome",
+										"name": "Yazıtın Ahdi",
 										"entries": [
-											"Your patron gives you a grimoire called a Book of Shadows. When you gain this feature, choose three cantrips from any class's spell list. The cantrips do not need to be from the same spell list. While the book is on your person, you can cast those cantrips at will. They don't count against your number of cantrips known. Any cantrip you cast with this feature is considered a warlock cantrip for you. If you lose your Book of Shadows, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous book. The book turns to ash when you die."
+											"Efendin sana Gölgeler Kitabı adında bir büyü kitabı verir. Bu özelliği kazandığında herhangi bir sınıfın büyü listesinden 3 adet cantrip seç. Bu cantripler aynı büyü listesinden olmak zorunda değil. Büyü kitabı üzerinde olduğu sürece bu cantripleri istediğin zaman kullanabilirsin. Bildiğin cantripler sayısını etkilemez. Bu şekilde kullandığın tüm cantripler senin için warlock cantripi sayılır. Eğer gölgeler Kitabını kaybedersen 1 saatlik bir seremoni ile efendinden yenisini alabilirsin. Bu seremoni kısa yada uzun dinlenme sırasında yapılabilir ve bir önceki kitabı yok eder. Öldüğünde kitap küle dönüşür."
 										]
 									},
 									{
@@ -28288,19 +28288,19 @@
 				],
 				[
 					{
-						"name": "Ability Score Improvement",
+						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
-							"When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-							"If your DM allows the use of feats, you may instead take a feat."
+							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
 						]
 					}
 				],
 				[],
 				[
 					{
-						"name": "Otherworldly Patron feature",
+						"name": "Dünyadışı Efendi Özelliği",
 						"entries": [
-							"At 6th level, you gain a feature granted by your Otherworldly Patron."
+							"6. seviyede Dünyadışı Efendinin sunduğu bir özelliği kazanırsın."
 						],
 						"gainSubclassFeature": true
 					}
@@ -28308,30 +28308,30 @@
 				[],
 				[
 					{
-						"name": "Ability Score Improvement",
+						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
-							"When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-							"If your DM allows the use of feats, you may instead take a feat."
+							"8. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
 						]
 					}
 				],
 				[],
 				[
 					{
-						"name": "Otherworldly Patron feature",
+						"name": "Dünyadışı Efendi Özelliği",
 						"entries": [
-							"At 10th level, you gain a feature granted by your Otherworldly Patron."
+							"10. seviyede Dünyadışı Efendinin sunduğu bir özelliği kazanırsın."
 						],
 						"gainSubclassFeature": true
 					}
 				],
 				[
 					{
-						"name": "Mystic Arcanum (6th level)",
+						"name": "Mistik Sır (6. seviye)",
 						"entries": [
-							"At 11th level, your patron bestows upon you a magical secret called an arcanum. Choose one {@filter 6th-level spell from the warlock spell list|spells|level=6|class=Warlock} as this arcanum.",
-							"You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again.",
-							"At higher levels, you gain more warlock spells of your choice that can be cast in this way: one 7th-level spell at 13th level, one 8th-level spell at 15th level, and one 9th-level spell at 17th level. You regain all uses of your Mystic Arcanum when you finish a long rest."
+							"11. seviyede efendin sana bir büyülü sır bahşeder. Warlock büyü listesinden bir {@filter 6. seviye büyü|spells|level=6|class=Warlock} seç, bu senin mistik sırrın olur.",
+							"Sır büyünü bir kere büyü yuvası harcamadan kullanabilirsin. Yeniden kullanabilmek için uzun dinlenme bitirmen gerekir.",
+							"Üst seviyelerde bu şekilde kullanılabilecek yeni warlock büyüleri seçersin; 13. warlock seviyesinde bir 7. seviye büyü, 15. warlock seviyesinde bir 8. seviye büyü, ve 17. warlock seviyesinde bir 9. seviye büyü. Mistik sırlarının kullanımını geri kazanmak için uzun dinlenme bitirmen gerekir."
 						]
 					}
 				],
@@ -28339,25 +28339,25 @@
 					{
 						"name": "Ability Score Improvement",
 						"entries": [
-							"When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-							"If your DM allows the use of feats, you may instead take a feat."
+							"12. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
 						]
 					}
 				],
 				[
 					{
-						"name": "Mystic Arcanum (7th level)",
+						"name": "Mistik Sır (7. seviye)",
 						"entries": [
-							"At 13th level, your patron bestows upon you a magical secret called an arcanum. Choose one {@filter 7th-level spell from the warlock spell list|spells|level=7|class=Warlock} as this arcanum.",
-							"You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again."
+							"13. seviyede efendin sana bir büyülü sır bahşeder. Warlock büyü listesinden bir {@filter 7. seviye büyü|spells|level=7|class=Warlock} seç, bu senin mistik sırrın olur.",
+							"Sır büyünü bir kere büyü yuvası harcamadan kullanabilirsin. Yeniden kullanabilmek için uzun dinlenme bitirmen gerekir."
 						]
 					}
 				],
 				[
 					{
-						"name": "Otherworldly Patron feature",
+						"name": "Dünyadışı Efendi Özelliği",
 						"entries": [
-							"At 14th level, you gain a feature granted by your Otherworldly Patron."
+							"14. seviyede Dünyadışı Efendinin sunduğu bir özelliği kazanırsın."
 						],
 						"gainSubclassFeature": true
 					}
@@ -28366,17 +28366,17 @@
 					{
 						"name": "Mystic Arcanum (8th level)",
 						"entries": [
-							"At 15th level, your patron bestows upon you a magical secret called an arcanum. Choose one {@filter 8th-level spell from the warlock spell list|spells|level=8|class=Warlock} as this arcanum.",
-							"You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again."
+							"15. seviyede efendin sana bir büyülü sır bahşeder. Warlock büyü listesinden bir {@filter 8. seviye büyü|spells|level=8|class=Warlock} seç, bu senin mistik sırrın olur.",
+							"Sır büyünü bir kere büyü yuvası harcamadan kullanabilirsin. Yeniden kullanabilmek için uzun dinlenme bitirmen gerekir."
 						]
 					}
 				],
 				[
 					{
-						"name": "Ability Score Improvement",
+						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
-							"When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-							"If your DM allows the use of feats, you may instead take a feat."
+							"16. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
 						]
 					}
 				],
@@ -28384,45 +28384,45 @@
 					{
 						"name": "Mystic Arcanum (9th level)",
 						"entries": [
-							"At 17th level, your patron bestows upon you a magical secret called an arcanum. Choose one {@filter 9th-level spell from the warlock spell list|spells|level=9|class=Warlock} as this arcanum.",
-							"You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again."
+							"17. seviyede efendin sana bir büyülü sır bahşeder. Warlock büyü listesinden bir {@filter 9. seviye büyü|spells|level=9|class=Warlock} seç, bu senin mistik sırrın olur.",
+							"Sır büyünü bir kere büyü yuvası harcamadan kullanabilirsin. Yeniden kullanabilmek için uzun dinlenme bitirmen gerekir."
 						]
 					}
 				],
 				[],
 				[
 					{
-						"name": "Ability Score Improvement",
+						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
-							"When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-							"If your DM allows the use of feats, you may instead take a feat."
+							"19. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
 						]
 					}
 				],
 				[
 					{
-						"name": "Eldritch Master",
+						"name": "Eldritch Üstadı",
 						"entries": [
-							"At 20th level, you can draw on your inner reserve of mystical power while entreating your patron to regain expended spell slots. You can spend 1 minute entreating your patron for aid to regain all your expended spell slots from your Pact Magic feature. Once you regain spell slots with this feature, you must finish a long rest before you can do so again."
+							"20. seviyede efendine yalvararak içindeki mistik güç rezervine ulaşıp büyü yuvalarını yenileyebilirsin. 1 dakika efendine yardım için yalvararak Ahit Büyüsü özelliği ile kazandığın tüm büyü yuvalarını yenilersin. Bu özelliği yeniden kullanabilmek için uzun dinlenme bitirmen gerekir."
 						]
 					}
 				]
 			],
-			"subclassTitle": "Otherworldly Patron",
+			"subclassTitle": "Dünyadışı Efendi",
 			"subclasses": [
 				{
 					"name": "The Archfey",
 					"subclassFeatures": [
 						[
 							{
-								"name": "The Archfey",
+								"name": "Baş Fey",
 								"entries": [
-									"Your patron is a lord or lady of the fey, a creature of legend who holds secrets that were forgotten before the mortal races were born. This being's motivations are often inscrutable, and sometimes whimsical, and might involve a striving for greater magical power or the settling of age-old grudges. Beings of this sort include the Prince of Frost; the Queen of Air and Darkness, ruler of the Gloaming Court; Titania of the Summer Court; her consort Oberon, the Green Lord; Hyrsam, the Prince of Fools; and ancient hags.",
+									"Efendin bir fey lord yada leydisidir, ölümlü ırklar doğmadan öncesinin sırlarını tutan bir efsanevi varlık. Bu varlığın amacı genellikle esrarengiz, bazen garip, ve bazen de çağlar öncesinden kalma garezleri çözmek için daha fazla güç isteğidir. Bu varlıkların arasında; Buz Prensi, Hava ve Karanlığın Kraliçesi, Gün Sarayının hükümdarı, Yaz Sarayından Titania ve onun eşi Yeşil Lord Oberon, Ahmaklar Prensi Hyrsam, ve kadim cadılar sayılabilir.",
 									{
 										"type": "entries",
-										"name": "Expanded Spell List",
+										"name": "Genişletilmiş Büyü Listesi",
 										"entries": [
-											"The Archfey lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+											"Baş Fey The Archfey lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
 											{
 												"type": "table",
 												"caption": "Archfey Expanded Spells",
