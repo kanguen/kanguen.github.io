@@ -1,7 +1,7 @@
 ﻿{
 	"class": [
 		{
-			"name": "Barbarian",
+			"name": "Barbar",
 			"source": "PHB",
 			"hd": {
 				"number": 1,
@@ -14,8 +14,8 @@
 			"classTableGroups": [
 				{
 					"colLabels": [
-						"Rages",
-						"Rage Damage"
+						"Öfke",
+						"Öfke Hasarı"
 					],
 					"rows": [
 						[
@@ -163,254 +163,254 @@
 			],
 			"startingProficiencies": {
 				"armor": [
-					"light",
-					"medium",
-					"shields"
+					"hafif",
+					"orta",
+					"kalkanlar"
 				],
 				"weapons": [
-					"simple",
-					"martial"
+					"basit",
+					"askeri"
 				],
 				"skills": {
 					"choose": 2,
 					"from": [
-						"Animal Handling",
-						"Athletics",
-						"Intimidation",
-						"Nature",
-						"Perception",
-						"Survival"
+						"Hayvan İdaresi",
+						"Atletizm",
+						"Korkutma",
+						"Doğa",
+						"Algılama",
+						"Hayatta Kalma"
 					]
 				}
 			},
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) a greataxe or (b) any martial melee weapon",
-					"(a) two handaxes or (b) any simple weapon",
-					"An explorer's pack, and four javelins"
+					"(a) bir büyük balta yada (b) herhangi bir askeri yakın dövüş silahı",
+					"(a) iki el baltası yada (b) herhangi bir basit silah",
+					"Bir kaşif paketi, ve dört cirit"
 				],
 				"goldAlternative": "2d4 × 10"
 			},
 			"classFeatures": [
 				[
 					{
-						"name": "Rage",
+						"name": "Öfke",
 						"entries": [
-							"In battle, you fight with primal ferocity. On your turn, you can enter a rage as a bonus action.",
-							"While raging, you gain the following benefits if you aren't wearing heavy armor:",
+							"Savaşta ilkel bir vahşilik ile savaşırsın. Sıranda bonus eylem olarak Öfke puanlarından birini kullanıp öfke nöbetine girebilirsin.",
+							"Öfkeliyken, ağır zırh giymediğin sürece şu özellikleri kazanırsın:",
 							{
 								"type": "list",
 								"items": [
-									"You have advantage on Strength checks and Strength saving throws.",
-									"When you make a melee weapon attack using Strength, you gain a +2 bonus to the damage roll. This bonus increases as you level.",
-									"You have resistance to bludgeoning, piercing, and slashing damage."
+									"Kuvvet yetenek ve kurtulma zarlarında avantajın olur.",
+									"Kuvvet kullanarak yaptığın yakın dövüş saldırılarında, hasar zarına +2 bonus eklersin. Bu bonus sen seviye atladıkça artar.",
+									"Ezici, delici ve kesici hasara direncin olur."
 								]
 							},
-							"If you are able to cast spells, you can't cast them or concentrate on them while raging.",
-							"Your rage lasts for 1 minute. It ends early if you are knocked {@condition unconscious} or if your turn ends and you haven't attacked a hostile creature since your last turn or taken damage since then. You can also end your rage on your turn as a bonus action.",
-							"Once you have raged the maximum number of times for your barbarian level, you must finish a long rest before you can rage again. You may rage 2 times at 1st level, 3 at 3rd, 4 at 6th, 5 at 12th, and 6 at 17th."
+							"Eğer büyü yapabiliyorsan, öfkeliyken büyü kullanamazsın yada onlara konsantre olamazsın.",
+							"Öfken 1 dakika sürer. Bir önceki sırandan beri düşman bir varlığa saldırmadan yada hiç hasar almadan sıranı bitirirsen öfken erken biter. Eğer bilinçsiz kalırsan bu da öfkeni erken bitirir. Bonus eylem olarak öfkeni erken bitirebilirsin.",
+							"Barbar seviyene göre bulunan tüm Öfke puanlarını kullandığında, bunları yenilemek için uzun dinlenme bitirmen gerekir. Öfke puanların 1. seviyede 2, 3.de 3, 6.da 4, 12.de 5 ve 17.de 6'dır."
 						]
 					},
 					{
-						"name": "Unarmored Defense",
+						"name": "Zırhsız Savunma",
 						"entries": [
-							"While you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Constitution modifier. You can use a shield and still gain this benefit."
+							"Herhangi bir zırh giymiyorken, 10 + Dayanıklılık bonusu + Çeviklik bonusun kadar AC'ye sahip olursun. Kalkan kullanıp hala bu özelliği kazanabilirsin."
 						]
 					}
 				],
 				[
 					{
-						"name": "Danger Sense",
+						"name": "Tehlike Hissi",
 						"entries": [
-							"At 2nd level, you gain an uncanny sense of when things nearby aren't as they should be, giving you an edge when you dodge away from danger. You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can't be {@condition blinded}, {@condition deafened}, or {@condition incapacitated}."
-						]
-					},
-					{
-						"name": "Reckless Attack",
-						"entries": [
-							"Starting at 2nd level, you can throw aside all concern for defense to attack with fierce desperation. When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn."
-						]
-					}
-				],
-				[
-					{
-						"name": "Primal Path",
-						"entries": [
-							"At 3rd level, you choose a path that shapes the nature of your rage from the list of available paths. Your choice grants you features at 3rd level and again at 6th, 10th, and 14th levels."
-						],
-						"gainSubclassFeature": true
-					}
-				],
-				[
-					{
-						"name": "Ability Score Improvement",
-						"entries": [
-							"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-							"If your DM allows the use of feats, you may instead take a feat."
-						]
-					}
-				],
-				[
-					{
-						"name": "Extra Attack",
-						"entries": [
-							"Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn."
+							"2. seviyede çevrendeki şeylerin olması gerektiği gibi olmadığını farketmek için anlaşılmaz bir his kazanırsın ve bu tehlikeden kaçınmak için sana üstünlük verir. Görebildiğin etkilere karşı(büyü ve tuzaklar gibi) Çeviklik kurtulma zarlarında avantajın olur. Bu özelliği kazanmak için kör, sağır yada bilinçsiz olamazsın."
 						]
 					},
 					{
-						"name": "Fast Movement",
+						"name": "Pervasız Saldırı",
 						"entries": [
-							"Starting at 5th level, your speed increases by 10 feet while you aren't wearing heavy armor."
+							"2. seviyeden itibaren, tüm savunma kaygısını bir yana bırakıp vahşi bir çaresizlikle saldırabilirsin. Sıranda ilk saldırını yaparken, pervasızca saldırmayı seçebilirsin. Bunu yapman sıran boyunca sana Kuvvet kullanan saldırı zarlarında avantaj verir ama sana yapılan saldırılar da bir sonraki sıranın sonuna kadar avantajla yapılır."
 						]
 					}
 				],
 				[
 					{
-						"name": "Path Feature",
+						"name": "İlkel Yol",
 						"entries": [
-							"At 6th level, you gain a feature from your Primal Path."
+							"3. seviyede, mevcut yollar listesinden seçeceğin bir yol ile öfkenin doğasını değiştirirsin. Seçimin sana 3. seviyede, 6'da, 10'da ve 14. seviyelerde yeni özellikler kazandırır."
 						],
 						"gainSubclassFeature": true
 					}
 				],
 				[
 					{
-						"name": "Feral Instinct",
+						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
-							"By 7th level, your instincts are so honed that you have advantage on initiative rolls.",
-							"Additionally, if you are surprised at the beginning of combat and aren't {@condition incapacitated}, you can act normally on your first turn, but only if you enter your rage before doing anything else on that turn."
+							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
 						]
 					}
 				],
 				[
 					{
-						"name": "Ability Score Improvement",
+						"name": "Extra Saldırı",
 						"entries": [
-							"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-							"If your DM uses the optional Feats, you can instead take a feat."
+							"5. seviyeden itibaren sıranda Saldırı eylemini gerçekleştirdiğinde 1 yerine 2 kere saldırabilirsin."
+						]
+					},
+					{
+						"name": "Hızlı Hareket",
+						"entries": [
+							"5. seviyeden itibaren, ağır zırh giymediğin sürece hızın 10 feet artar."
 						]
 					}
 				],
 				[
 					{
-						"name": "Brutal Critical (1 die)",
+						"name": "Yol Özelliği",
 						"entries": [
-							"Beginning at 9th level, you can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee attack.",
-							"This increases to two additional dice at 13th level and three additional dice at 17th level."
-						]
-					}
-				],
-				[
-					{
-						"name": "Path feature",
-						"entries": [
-							"At 10th level, you gain a feature from your Primal Path."
+							"6. seviyede seçtiğin İlkel Yol sana bir özellik ekler."
 						],
 						"gainSubclassFeature": true
 					}
 				],
 				[
 					{
-						"name": "Relentless Rage",
+						"name": "Vahşi İçgüdü",
 						"entries": [
-							"Starting at 11th level, your rage can keep you fighting despite grievous wounds. If you drop to 0 hit points while you're raging and don't die outright, you can make a DC 10 Constitution saving throw. If you succeed, you drop to 1 hit point instead.",
-							"Each time you use this feature after the first, the DC increases by 5. When you finish a short or long rest, the DC resets to 10."
+							"7. seviyeden itibaren artık içgüdülerin öylesine gelişmiştir ki öncelik zarlarında avantajın olur.",
+							"Ek olarak, eğer savaşın başında sürprize uğradıysan ve etkisiz halde değilsen, ilk olarak öfkelenmek şartıyla o sırayı normal kullanabilirsin."
 						]
 					}
 				],
 				[
 					{
-						"name": "Ability Score Improvement",
+						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
-							"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-							"If your DM uses the optional Feats, you can instead take a feat."
+							"8. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
 						]
 					}
 				],
 				[
 					{
-						"name": "Brutal Critical (2 dice)",
+						"name": "Acımasız Kritik (1 zar)",
 						"entries": [
-							"You now roll two additional weapon damage dice when determining the extra damage for a critical hit with a melee attack."
+							"9. seviyeden itibaren yakın dövüş saldırılarında kritik hasarını belirlerken, silahın hasar zarından fazladan 1 tane daha eklenir.",
+							"Bu 13. seviyede 2 fazladan zara, 17. seviyede 3 fazladan zara yükselir."
 						]
 					}
 				],
 				[
 					{
-						"name": "Path feature",
+						"name": "Yol Özelliği",
 						"entries": [
-							"At 14th level, you gain a feature from your Primal Path."
+							"6. seviyede seçtiğin ilkel Yol sana bir özellik ekler."
 						],
 						"gainSubclassFeature": true
 					}
 				],
 				[
 					{
-						"name": "Persistent Rage",
+						"name": "Amansız Öfke",
 						"entries": [
-							"Beginning at 15th level, your rage is so fierce that it ends early only if you fall {@condition unconscious} or if you choose to end it."
+							"11. seviyeden itibaren, ölümcül yaralara rağmen öfken seni savaşta tutar. Eğer öfkeliyken 0 HP'ye düşersen ve doğrudan ölmezsen DC 10 Dayanıklılık zarı atabilirsin. Eğer başarılı olursan 1 HP'ye düşersin.",
+							"Birinciden sonra bu özelliği her kullanışında DC 5 artar. Kısa yada uzun dinlenme bitirdiğinde DC 10'a döner."
 						]
 					}
 				],
 				[
 					{
-						"name": "Ability Score Improvement",
+						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
-							"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-							"If your DM uses the optional Feats, you can instead take a feat."
+							"12. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
 						]
 					}
 				],
 				[
 					{
-						"name": "Brutal Critical (3 dice)",
+						"name": "Acımasız Kritik (2 zar)",
 						"entries": [
-							"You now roll three additional weapon damage dice when determining the extra damage for a critical hit with a melee attack."
+							"Artık yakın dövüş saldırılarında kritik hasarını belirlerken, silahın hasar zarından fazladan 2 tane daha eklenir."
 						]
 					}
 				],
 				[
 					{
-						"name": "Indomitable Might",
+						"name": "Yol Özelliği",
 						"entries": [
-							"Beginning at 18th level, if your total for a Strength check is less than your Strength score, you can use that score in place of the total."
+							"14. seviyede seçtiğin İlkel Yol sana bir özellik ekler."
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[
+					{
+						"name": "Kalıcı Öfke",
+						"entries": [
+							"15. seviyeden itibaren öfken öyle vahşidir ki sadece bilinçisiz düşersen yada sen bitirmeyi seçersen biter."
 						]
 					}
 				],
 				[
 					{
-						"name": "Ability Score Improvement",
+						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
-							"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-							"If your DM uses the optional Feats, you can instead take a feat."
+							"16. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
 						]
 					}
 				],
 				[
 					{
-						"name": "Primal Champion",
+						"name": "Acımasız Kritik (3 zar)",
 						"entries": [
-							"At 20th level, you embody the power of the wilds. Your Strength and Constitution scores increase by 4. Your maximum for those scores is now 24."
+							"Artık yakın dövüş saldırılarında kritik hasarını belirlerken, silahın hasar zarından fazladan 1 tane daha eklenir."
+						]
+					}
+				],
+				[
+					{
+						"name": "Yılmaz Kuvvet",
+						"entries": [
+							"18. seviyeden itibaren, eğer Kuvvet zar sonucun Kuvvet skorundan düşükse, zar sonucu yerine Kuvvet skorunu kullanabilirsin."
+						]
+					}
+				],
+				[
+					{
+						"name": "Yetenek Skoru Gelişimi",
+						"entries": [
+							"19. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+						]
+					}
+				],
+				[
+					{
+						"name": "İlkel Şampiyon",
+						"entries": [
+							"20. seviyede yabani gücü simgelersin. Kuvvet ve Dayanıklılık skorların ve maximumları 4'er yükselir."
 						]
 					}
 				]
 			],
-			"subclassTitle": "Primal Path",
+			"subclassTitle": "İlkel Yol",
 			"subclasses": [
 				{
-					"name": "Path of the Berserker",
+					"name": "Berserker'ın Yolu",
 					"subclassFeatures": [
 						[
 							{
-								"name": "Path of the Berserker",
+								"name": "Berserker'ın Yolu",
 								"entries": [
-									"For some barbarians, rage is a means to an end\u2014that end being violence. The Path of the Berserker is a path of untrammeled fury, slick with blood. As you enter the berserker's rage, you thrill in the chaos of battle, heedless of your own health or well-being.",
+									"Bazı barbarlar için öfke sadece şiddet için bir araçtır. Berserker'ın Yolu, kanla kaplı kontrolsüz öfkenin yoludur. Berserker'ın öfkesine kapıldığında, kendi sağlığını umursamadan savaşın kaosu ile heyecanlanırsın.",
 									{
 										"type": "entries",
-										"name": "Frenzy",
+										"name": "Çıldırma",
 										"entries": [
-											"Starting when you choose this path at 3rd level, you can go into a frenzy when you rage. If you do so, for the duration of your rage you can make a single melee weapon attack as a bonus action on each of your turns after this one. When your rage ends, you suffer one level of {@condition exhaustion}."
+											"Bu yolu 3. seviyede seçmenden itibaren, öfkelendiğinde çıldırabilirsin. Eğer çıldırırsan, bu sırandan sonraki tüm sıralarında bonus eylem olarak bir yakın dövüş saldırısı yapabilirsin. Öfken bittiğinde 1 seviye bitkinlik puanı alırsın."
 										]
 									}
 								]
@@ -421,9 +421,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Mindless Rage",
+										"name": "Akılsız Öfke",
 										"entries": [
-											"Beginning at 6th level, you can't be {@condition charmed} or {@condition frightened} while raging. If you are {@condition charmed} or {@condition frightened} when you enter your rage, the effect is suspended for the duration of the rage."
+											"6. seviyeden itibaren, öfkeliyken korkutulamazsın yada zihnin kontrol edilemez. Eğer öfke başlarken bu etkiler altındaysan, öfke sırasında bu etkiler bastırılır."
 										]
 									}
 								]
@@ -434,10 +434,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Intimidating Presence",
+										"name": "Korkutucu Görünüş",
 										"entries": [
-											"Beginning at 10th level, you can use your action to frighten someone with your menacing presence. When you do so, choose one creature that you can see within 30 feet of you. If the creature can see or hear you, it must succeed on a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Charisma modifier) or be {@condition frightened} of you until the end of your next turn. On subsequent turns, you can use your action to extend the duration of this effect on the {@condition frightened} creature until the end of your next turn. This effect ends if the creature ends its turn out of line of sight or more than 60 feet away from you.",
-											"If the creature succeeds on its saving throw, you can't use this feature on that creature again for 24 hours."
+											"10. seviyeden itibaren, eylemini kullanarak birini görünüşün ve varlığın ile korkutabilirsin. Yaptığında 30 feet içinde bir varlığı seç. Eğer bu varlık seni görebiliyor yada duyabiliyorsa Akıl kurtulma zarında (DC = 8 + uzmanlık bonusu + Karizma bonusu) başarılı olmalı yada bir sonraki sıranın sonuna kadar senden korkar. Bunu izleyen sıralarda eylemini kullanarak bu etkiyi bir sonraki sıranın sonuna kadar uzatabilirsin. Bu etki varlık artık seni göremezse yada senden 60 feet uzaklaşırsa biter.",
+											"Eğer varlık kurtulma zarında başarılı olursa bu özelliği aynı varlık üzerinde 24 saat boyunca kullanamazsın."
 										]
 									}
 								]
@@ -448,9 +448,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Retaliation",
+										"name": "İntikam",
 										"entries": [
-											"Starting at 14th level, when you take damage from a creature that is within 5 feet of you. you can use your reaction to make a melee weapon attack against that creature."
+											"14. seviyeden itibaren, eğer 5 feet yakınındaki bir varlıktan hasar alırsan, reaksiyonunu kullanıp o varlığa karşı bir yakın dövüş saldırısı yapabilirsin."
 										]
 									}
 								]
@@ -461,35 +461,35 @@
 					"shortName": "Berserker"
 				},
 				{
-					"name": "Path of the Totem Warrior",
+					"name": "Totem Savaşçısının Yolu",
 					"subclassFeatures": [
 						[
 							{
-								"name": "Path of the Totem Warrior",
+								"name": "Totem Savaşçısının Yolu",
 								"entries": [
-									"The Path of the Totem Warrior is a spiritual journey, as the barbarian accepts a spirit animal as guide, protector, and inspiration. In battle, your totem spirit fills you with supernatural might, adding magical fuel to your barbarian rage.",
-									"Most barbarian tribes consider a totem animal to be kin to a particular clan. In such cases, it is unusual for an individual to have more than one totem animal spirit, though exceptions exist.",
+									"Totem Savaşçısının Yolu sana ilham, koruyucu ve rehber olacak ruh hayvanını kabul etmen ile başlayacağın bir ruhsal yolculuktur. Savaşta totem ruhun seni doğaüstü güçle doldurup öfkene büyülü etkiler katar.",
+									"Çoğu barbar kabileleri bir totem hayvanının belirli bir klanın kanından olduğuna inanır. Bu tip durumlarda bir bireyin birden fazla totem hayvan ruhuna sahip olması alışılmadıktır.",
 									{
 										"type": "entries",
-										"name": "Spirit Seeker",
+										"name": "Ruh Arayıcı",
 										"entries": [
-											"Yours is a path that seeks attunement with the natural world, giving you a kinship with beasts. At 3rd level when you adopt this path, you gain the ability to cast the {@spell beast sense} and {@spell speak with animals} spells, but only as rituals, as described in chapter 10."
+											"Yolun doğa ile uyum arayışında olan ve sana hayvanlarla yakınlık sağlayan bir yoldur. 3. seviyede bu yolu seçtiğinde, {@spell beast sense} ve {@spell speak with animals} büyülerini sadece ritüel olarak kullanmayı öğrenirsin."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Totem Spirit",
+										"name": "Totem Ruhu",
 										"entries": [
-											"At 3rd level, when you adopt this path, you choose a totem spirit and gain its feature. You must make or acquire a physical totem object\u2014an amulet or similar adornment\u2014that incorporates fur or feathers, claws, teeth, or bones of the totem animal. At your option, you also gain minor physical attributes that are reminiscent of your totem spirit. For example, if you have a bear totem spirit, you might be unusually hairy and thick-skinned, or if your totem is the eagle, your eyes turn bright yellow.",
-											"Your totem animal might be an animal related to those listed here but more appropriate to your homeland. For example, you could choose a hawk or vulture in place of an eagle.",
+											"3. seviyede bu yolu seçtiğinde bir totem ruhu seçip onun özelliğini kazanırsın. Totem hayvanının tüy, diş, pençe yada kemiği gibi bedeninden parçası ile bir kolye yada benzeri takı yapmalısın, bu senin totem nesnen olur. Senin seçimine bağlı olarak totem ruhuna benzer fiziksel özellikler kazanabilirsin. Örneğin, ayı totem ruhun varsa alışılmadık bir şekilde kıllı veya sert derili olabilirsin, yada totemin kartalsa gözlerin parlak sarı renge dönebilir.",
+											"Totem hayvanın burada verilen seçeneklere yakın ama anavatanına daha uygun olabilir. Örneğin, kartal yerine şahin yada akbaba seçebilirsin.",
 											{
 												"type": "entries",
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Bear",
+														"name": "Ayı",
 														"entries": [
-															"While raging, you have resistance to all damage except psychic damage. The spirit of the bear makes you tough enough to stand up to any punishment."
+															"Öfkeliyken psişik hasar dışında tüm hasar tiplerine direncin olur. Ayının ruhu seni her türlü acıya karşı gelebilecek kadar güçlü kılar."
 														]
 													}
 												]
@@ -499,9 +499,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Eagle",
+														"name": "Kartal",
 														"entries": [
-															"While you're raging and aren't wearing heavy armor, other creatures have disadvantage on opportunity attack rolls against you, and you can use the Dash action as a bonus action on your turn. The spirit of the eagle makes you into a predator who can weave through the fray with ease."
+															"Öfkeliyken ve ağır zırh giymiyorken diğer varlıklar sana karşı yaptıkları fırsat saldırılarında dezavantajlı olurlar ve sen Depar eylemini bonus eylem olarak kullanabilirsin. Kartalın ruhu seni sahada rahatlıkla hareket edebilen bir yırtıcıya çevirir."
 														]
 													}
 												]
@@ -511,9 +511,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Elk",
+														"name": "Geyik",
 														"entries": [
-															"While you're raging and aren't wearing heaving armor, your walking speed increases by 15 feet. The spirit of the elk makes you extraordinarily swift."
+															"Öfkeliyken ve ağır zırh giymiyorken yürüme hızın 15 feet artar. Geyiğin ruhu sana sıradışı bir hız verir."
 														]
 													}
 												]
@@ -523,9 +523,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Tiger",
+														"name": "Kaplan",
 														"entries": [
-															"While raging, you can add 10 feet to your long jump distance and 3 feet to your high jump distance. The spirit of the tiger empowers your leaps."
+															"Öfkeliyken uzun atlama mesafene 10 feet, yüksek atlama mesafene 3 feet ekleyebilirsin. Kaplanın ruhu sıçrayışlarını güçlendirir."
 														]
 													}
 												]
@@ -535,9 +535,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Wolf",
+														"name": "Kurt",
 														"entries": [
-															"While you're raging, your friends have advantage on melee attack rolls against any creature within 5 feet of you that is hostile to you. The spirit of the wolf makes you a leader of hunters."
+															"Öfkeliyken 5 feet yakınındaki düşmanlara karşı dostlarının yapacağı yakın dövüş saldırıları avantajlı olur. Kurdun ruhu seni avcıların lideri yapar."
 														]
 													}
 												]
@@ -552,17 +552,17 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Aspect of the Beast",
+										"name": "Hayvan Yönü",
 										"entries": [
-											"At 6th level, you gain a magical benefit based on the totem animal of your choice. You can choose the same animal you selected at 3rd level or a different one.",
+											"6. seviyede seçtiğin bir totem hayvanının büyülü özelliğini kazanırsın. 3. seviyede seçtiğin aynı hayvanı yada farklı bir hayvanı seçebilirsin.",
 											{
 												"type": "entries",
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Bear",
+														"name": "Ayı",
 														"entries": [
-															"You gain the might of a bear. Your carrying capacity (including maximum load and maximum lift) is doubled, and you have advantage on Strength checks made to push, pull, lift, or break objects."
+															"Ayının gücünü kazanırsın. Taşıma kapasiten (maximum kaldırma ve yük de dahil) ikiye katlanır ve itme, çekme, kaldırma ve nesneleri kırmak için attığın Kuvvet zarlarında avantajın olur."
 														]
 													}
 												]
@@ -572,9 +572,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Eagle",
+														"name": "Kartal",
 														"entries": [
-															"You gain the eyesight of an eagle. You can see up to 1 mile away with no difficulty, able to discern even fine details as though looking at something no more than 100 feet away from you. Additionally, dim light doesn't impose disadvantage on your Wisdom (Perception) checks."
+															"Bir kartalın görüşüne sahip olursun. 1 mil uzaklığa kadar ve 100 feet uzaklıkta bir şeye bakıyormuş gibi küçük detayları sorunsuz görebilirsin. Ek olarak, loş ışık Akıl (Algılama) zarlarında dezavantaj vermez."
 														]
 													}
 												]
@@ -584,9 +584,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Elk",
+														"name": "Geyik",
 														"entries": [
-															"Whether mounted or on foot, your travel pace is doubled, as is the travel pace of up to ten companions while they're within 60 feet of you and you're not {@condition incapacitated}. The elk spirit helps you roam far and fast."
+															"Binekli yada ayakta farketmeksizin sen ve 60 feet yakınındaki 10 yoldaşının seyahat hızı ikiye katlanır. Geyik ruhu hızla uzakları keşfetmeni sağlar."
 														]
 													}
 												]
@@ -596,9 +596,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Tiger",
+														"name": "Kaplan",
 														"entries": [
-															"You gain proficiency in two skills from the following list: Athletics, Acrobatics, Stealth, and Survival. The cat spirit hones your survival instincts."
+															"Atletizm, Akrobasi, Gizlenme ve Hayatta Kalma becerilerinden ikisinde uzmanlık kazanırsın. Kaplan ruhu hayatta kalma içgüdülerini geliştirir."
 														]
 													}
 												]
@@ -608,9 +608,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Wolf",
+														"name": "Kurt",
 														"entries": [
-															"You gain the hunting sensibilities of a wolf. You can track other creatures while traveling at a fast pace, and you can move stealthily while traveling at a normal pace."
+															"Bir kurdun avlanma hislerini kazanırsın. Hızlı tempoda ilerlerken iz sürebilir, normal tempoda ilerlerken gizlenebilirsin."
 														]
 													}
 												]
@@ -625,9 +625,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Spirit Walker",
+										"name": "Ruh Gezen",
 										"entries": [
-											"At 10th level, you can cast the {@spell commune with nature} spell, but only as a ritual. When you do so, a spiritual version of one of the animals you chose for Totem Spirit or Aspect of the Beast appears to you to convey the information you seek."
+											"10. seviyede {@spell commune with nature} büyüsünü ritüel olarak kullanabilirsin. Kullandığında, aradığın bilgiyi sana aktarmak için seçtiğin totem hayvanlarından birinin ruhu gelir."
 										]
 									}
 								]
@@ -638,17 +638,17 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Totemic Attunement",
+										"name": "Totem Uyumu",
 										"entries": [
-											"At 14th level, you gain a magical benefit based on a totem animal of your choice. You can choose the same animal you selected previously or a different one.",
+											"14. seviyede seçtiğin bir totem hayvanının büyülü özelliğini kazanırsın. Daha önce seçtiğin aynı hayvanı yada farklı birini seçebilirsin.",
 											{
 												"type": "entries",
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Bear",
+														"name": "Ayı",
 														"entries": [
-															"While you're raging, any creature within 5 feet of you that's hostile to you has disadvantage on attack rolls against targets other than you or another character with this feature. An enemy is immune to this effect if it can't see or hear you or if it can't be {@condition frightened}."
+															"Öfkeliyken 5 feet yakınında olan bir düşman, sen yada bu özelliğe sahip başka biri dışındaki tüm varlıklara yaptığı saldırılarda dezavantajı vardır. Eğer düşman seni göremiyor yada duyamıyorsa, veya korkma durumuna bağışıklığı varsa bu özellikten etkilenmez."
 														]
 													}
 												]
@@ -658,9 +658,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Eagle",
+														"name": "Kartal",
 														"entries": [
-															"While raging, you have a flying speed equal to your current walking speed. This benefit works only in short bursts; you fall if you end your turn in the air and nothing else is holding you aloft."
+															"Öfkeliyken yürüme hızına eşit uçma hızı kazanırsın. Bu özellik sadece kısa hamlelerde etkilidir; eğer sıranı seni başka birşey havada tutmazken bitirirsen düşersin."
 														]
 													}
 												]
@@ -670,9 +670,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Elk",
+														"name": "Geyik",
 														"entries": [
-															"While raging, you can use a bonus action during your move to pass through the space of a Large or smaller creature. That creature must succeed on a Strength saving throw (DC 8 + your Strength bonus + your proficiency bonus) or be knocked {@condition prone} and take bludgeoning damage equal to 1d12 + your strength modifier."
+															"Öfkeliyken bonus eylemini kullanarak Büyük yada daha küçük bir varlığın alanından geçebilirsin. O varlık Kuvvet kurtulma zarında (DC = 8 + Kuvvet bonusu + uzmanlık bonusu) başarılı olur yada yere düşer ve 1d12 + Kuvvet bonusu ezici hasar alır."
 														]
 													}
 												]
@@ -682,9 +682,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Tiger",
+														"name": "Kaplan",
 														"entries": [
-															"While you're raging, if you move at least 20 feet in a straight line toward a Large or smaller target right before making a melee weapon attack against it, you can use a bonus action to make an additional melee weapon attack against it."
+															"Öfkeliyken, eğer Büyük yada daha küçük bir hedefe doğru düz bir hizada en az 20 feet gidip yakın dövüş saldırısı yaparsan, bonus eylem olarak bir tane daha yakın dövüş saldırısı yapabilirsin."
 														]
 													}
 												]
@@ -694,9 +694,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Wolf",
+														"name": "Kurt",
 														"entries": [
-															"While you're raging, you can use a bonus action on your turn to knock a Large or smaller creature {@condition prone} when you hit it with melee weapon attack."
+															"Öfkeliyken Büyük yada daha küçük bir varlığa yakın dövüş saldırısı ile vurduğunda bonus eylemini kullanarak yere düşürebilirsin."
 														]
 													}
 												]
@@ -708,7 +708,7 @@
 						]
 					],
 					"source": "PHB",
-					"shortName": "Totem Warrior"
+					"shortName": "Totem Savaşçısı"
 				},
 				{
 					"name": "Path of the Battlerager",

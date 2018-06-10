@@ -282,7 +282,7 @@ function loadhash (id) {
 
 	function getSkillProfString (skills) {
 		const numString = (skills.choose);
-		return skills.from.length === 18 ? `Hepsinden ${numString} tane seç.` : `Bunlardan ${numString} tanesini seç: ${CollectionUtil.joinConjunct(skills.from, ", ", ", ve ")}.`
+		return skills.from.length === 18 ? `Tümü arasından ${numString} tane seç.` : `Bunlardan ${numString} tanesini seç: ${CollectionUtil.joinConjunct(skills.from, ", ", ", ve ")}.`
 	}
 
 	// starting equipment
