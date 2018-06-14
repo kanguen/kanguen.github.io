@@ -38,8 +38,8 @@ function navigation () {
 	LIDropdown('navbar', 'rules', 'dropdown');
 	A('rules', 'ruleOption', 'dropdown-toggle', 'dropdown', '#', 'button', 'true', 'false', "Kurallar <span class='caret'></span>");
 	UL('rules', 'ul_rules', 'dropdown-menu');
-	LI('ul_rules', 'quickreference.html', 'Hızlı Referans');
-	LI('ul_rules', 'variantrules.html', 'Varyant Kurallar');
+	LI('ul_rules', 'quickreference.html', 'Çabuk Referans');
+	LI('ul_rules', 'variantrules.html', 'Alternatif Kurallar');
 	LIDivider('ul_rules');
 	LI('ul_rules', 'book.html', "Dungeon Master's Guide", "DMG");
 	LI('ul_rules', 'book.html', "Monster Manual", "MM");
@@ -49,7 +49,7 @@ function navigation () {
 	A('players', 'playerOption', 'dropdown-toggle', 'dropdown', '#', 'button', 'true', 'false', "Oyuncu Seçenekleri <span class='caret'></span>");
 	UL('players', 'ul_players', 'dropdown-menu');
 	LI('ul_players', 'classes.html', 'Sınıflar');
-	LI('ul_players', 'backgrounds.html', 'Arka Planlar');
+	LI('ul_players', 'backgrounds.html', 'Karakter Geçmişleri');
 	LI('ul_players', 'feats.html', 'Featler');
 	LI('ul_players', 'invocations.html', 'Yakarışlar');
 	LI('ul_players', 'races.html', 'Irklar');
@@ -65,16 +65,16 @@ function navigation () {
 	LISpecial('ul_dms', 'https://kobold.club', 'Karşılaşma Yaratıcı', '_blank', 'Kobold Fight Club olabilecek en iyisi.');
 	LI('ul_dms', 'encountergen.html', 'Karşılaşma Üretici');
 	LI('ul_dms', 'lootgen.html', 'Ganimet Üretici');
-	LI('ul_dms', 'objects.html', 'Nesneler');
+	LI('ul_dms', 'objects.html', 'Eşyalar');
 	LI('ul_dms', 'trapshazards.html', 'Tuzaklar ve Tehlikeler');
 
 	LIDropdown('navbar', 'references', 'dropdown');
 	A('references', 'references', 'dropdown-toggle', 'dropdown', '#', 'button', 'true', 'false', "Referanslar <span class='caret'></span>");
 	UL('references', 'ul_references', 'dropdown-menu');
 	LI('ul_references', 'bestiary.html', 'Yaratık Ansiklopedisi');
-	LI('ul_references', 'conditions.html', 'Koşullar');
+	LI('ul_references', 'conditions.html', 'Durumlar');
 	LI('ul_references', 'deities.html', 'Tanrılar');
-	LI('ul_references', 'items.html', 'Nesneler');
+	LI('ul_references', 'items.html', 'Eşyalar');
 	LI('ul_references', 'rewards.html', 'Diğer Ödüller');
 	LI('ul_references', 'psionics.html', 'Psionikler');
 	LI('ul_references', 'spells.html', 'Büyüler');

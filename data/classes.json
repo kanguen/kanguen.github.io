@@ -3409,7 +3409,7 @@
 			"fluffPage": 12
 		},
 		{
-			"name": "Cleric",
+			"name": "Rahip",
 			"source": "PHB",
 			"hd": {
 				"number": 1,
@@ -3422,7 +3422,7 @@
 			"classTableGroups": [
 				{
 					"colLabels": [
-						"{@filter Cantrips Known|spells|level=0|class=Cleric}"
+						"{@filter Bilinen Cantripler|spells|level=0|class=Cleric}"
 					],
 					"rows": [
 						[
@@ -3488,17 +3488,17 @@
 					]
 				},
 				{
-					"title": "Spell Slots per Spell Level",
+					"title": "Büyü Seviyesi Başına Büyü Yuvaları",
 					"colLabels": [
-						"{@filter 1st|spells|level=1|class=Cleric}",
-						"{@filter 2nd|spells|level=2|class=Cleric}",
-						"{@filter 3rd|spells|level=3|class=Cleric}",
-						"{@filter 4th|spells|level=4|class=Cleric}",
-						"{@filter 5th|spells|level=5|class=Cleric}",
-						"{@filter 6th|spells|level=6|class=Cleric}",
-						"{@filter 7th|spells|level=7|class=Cleric}",
-						"{@filter 8th|spells|level=8|class=Cleric}",
-						"{@filter 9th|spells|level=9|class=Cleric}"
+						"{@filter 1.|spells|level=1|class=Cleric}",
+						"{@filter 2.|spells|level=2|class=Cleric}",
+						"{@filter 3.|spells|level=3|class=Cleric}",
+						"{@filter 4.|spells|level=4|class=Cleric}",
+						"{@filter 5.|spells|level=5|class=Cleric}",
+						"{@filter 6.|spells|level=6|class=Cleric}",
+						"{@filter 7.|spells|level=7|class=Cleric}",
+						"{@filter 8.|spells|level=8|class=Cleric}",
+						"{@filter 9.|spells|level=9|class=Cleric}"
 					],
 					"rows": [
 						[
@@ -3726,63 +3726,63 @@
 			],
 			"startingProficiencies": {
 				"armor": [
-					"light",
-					"medium",
-					"shields"
+					"hafif",
+					"orta",
+					"kalkanlar"
 				],
 				"weapons": [
-					"simple"
+					"basit"
 				],
 				"skills": {
 					"choose": 2,
 					"from": [
-						"History",
-						"Insight",
-						"Medicine",
-						"Persuasion",
-						"Religion"
+						"Tarih",
+						"Sezgi",
+						"Tıp",
+						"İkna Etme",
+						"Din"
 					]
 				}
 			},
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) a mace or (b) a warhammer (if proficient)",
-					"(a) scale mail, (b) leather armor, or (c) chain mail (if proficient)",
-					"(a) a light crossbow and 20 bolts or (b) any simple weapon",
-					"(a) a priest's pack or (b) an explorer's pack",
-					"A shield and a holy symbol"
+					"(a) bir gürz yada (b) bir savaş çekici (eğer uzmansa)",
+					"(a) bir pullu zırh, (b) bir deri zırh, yada (c) bir zincir zırh (eğer uzmansa)",
+					"(a) bir hafif arbalet ve 20 kısa ok yada (b) herhangi bir basit silah",
+					"(a) bir rahibin paketi yada (b) bir kaşifin paketi",
+					"Bir kalkan ve bir kutsal sembol"
 				],
 				"goldAlternative": "5d4 × 10"
 			},
 			"classFeatures": [
 				[
 					{
-						"name": "Spellcasting",
+						"name": "Büyü Yapma",
 						"entries": [
-							"As a conduit for divine power, you can cast cleric spells. See chapter 10 for the general rules of spellcasting and chapter 11 for a selection of cleric spells.",
+							"Kutsal güce aracı olarak rahip büyülerini kullanabilirsin. Büyü yapmanın genel kuralları için 10. kısım, rahip büyü listesi için 11. kısma bakabilirsin.",
 							{
 								"type": "entries",
-								"name": "Cantrips",
+								"name": "Cantripler",
 								"entries": [
-									"At 1st level, you know three cantrips of your choice from the cleric spell list. You learn additional cleric cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Cleric table."
+									"1. seviyede rahip büyü listesinden seçeceğin 3 tane cantripi bilirsin. Rahip tablosunun Cantripler sütununda görülebileceği gibi rahip seviyeleri atladıkça yeni cantripler öğrenirsin."
 								]
 							},
 							{
 								"type": "entries",
-								"name": "Preparing and Casting Spells",
+								"name": "Büyüleri Hazırlama ve Kullanma",
 								"entries": [
-									"The Cleric table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
-									"You prepare the list of cleric spells that are available for you to cast, choosing from the cleric spell list. When you do so, choose a number of cleric spells equal to your Wisdom modifier + your cleric level (minimum of one spell). The spells must be of a level for which you have spell slots.",
-									"For example, if you are a 3rd-level cleric, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell {@spell cure wounds}, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.",
-									"You can change your list of prepared spells when you finish a long rest. Preparing a new list of cleric spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list."
+									"Rahip tablosu 1. seviye ve üzeri büyülerini kullanmak için kaç tane büyü yuvan olduğunu gösterir. Bu büyülerden birini kullanmak için, büyünün seviyesi yada üzeri bir büyü yuvası harcaman gerekir. Uzun dinlenme sonrası tüm büyü yuvaların yenilenir.",
+									"Rahip büyü listesinde mevcut olan büyülerden seçip kendine bir liste hazırlarsın. Bunu yaparken rahip seviyen + Akıl bonusun kadar büyü hazırlarsın (en az 1). Büyüler sahip olduğun büyü yuvalarına uygun seviyede olmalı.",
+									"Örneğin 3. seviye bir rahip olarak 4 adet 1. seviye büyü yuvan ve 2 adet 2. seviye büyü yuvan olur. 16 Akıl ile hazırladığın büyü listesi 6 adet 1 ve 2. seviye karışık büyü içerir. Eğer 1. seviye büyüsü {@spell cure wounds} hazırlarsan, bunu 1. yada 2. seviye büyü yuvanı kullanarak kullanabilirsin. Büyüyü kullanman onu hazırladığın listeden kaldırmaz.",
+									"Hazırladığın büyü listesini uzun dinlenme bitirdiğinde değiştirebilirsin. Yeni rahip büyü listesi hazırlama zamanı dua ve meditasyon ile geçer, her büyü seviyesi için en az 1 dakika olacak şekilde."
 								]
 							},
 							{
 								"type": "entries",
-								"name": "Spellcasting Ability",
+								"name": "Büyü Yapma Yeteneği",
 								"entries": [
-									"Wisdom is your spellcasting ability for your cleric spells. The power of your spells comes from your devotion to your deity. You use your Wisdom whenever a cleric spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a cleric spell you cast and when making an attack roll with one.",
+									"Rahip büyülerin için kullanacağın büyü yapma yeteneği Akıldır. Büyülerinin gücü tanrına bağlılığından gelir. Ne zaman bir rahip büyüsü büyü yapma yeteneğinden bahsederse Akıl yeteneğini kullanırsın. Ek olarak, büyülerinle saldırı yaparken ve kurtulma zarı DC'sini belirlerken de Akıl bonusun kullanılır.",
 									{
 										"type": "abilityDc",
 										"name": "Spell",
@@ -3801,30 +3801,30 @@
 							},
 							{
 								"type": "entries",
-								"name": "Ritual Casting",
+								"name": "Ritüel Büyü Yapma",
 								"entries": [
-									"You can cast a cleric spell as a ritual if that spell has the ritual tag and you have the spell prepared."
+									"Eğer bir büyü ritüel etiketine sahipse ve sen o büyüyü hazırladıysan, büyü ritüel olarak kullanılabilir."
 								]
 							},
 							{
 								"type": "entries",
-								"name": "Spellcasting Focus",
+								"name": "Büyü Yapma Odağı",
 								"entries": [
-									"You can use a holy symbol (found in chapter 5) as a spellcasting focus for your cleric spells."
+									"Rahip büyülerin için gereken büyü yapma odağı olarak kutsal sembolünü kullanabilirsin."
 								]
 							}
 						]
 					},
 					{
-						"name": "Divine Domain",
+						"name": "Kutsal Alan",
 						"entries": [
-							"Choose one domain related to your deity from the list of available domains. Each domain is detailed in their own feature, and each one provides examples of gods associated with it. Your choice grants you domain spells and other features when you choose it at 1st level. It also grants you additional ways to use Channel Divinity when you gain that feature at 2nd level, and additional benefits at 6th, 8th, and 17th levels.",
+							"Mevcut alanlar listesinden tanrına uygun olan bir alan seç. Her alan kendi detaylarını verir ve onunla ilgili tanrı örnekleri sunar. 1. seviyede yaptığın seçimin sana alan büyüleri ve diğer özellikler verir. Sana aynı zamanda 2. seviyede Kutsal Yönlendirme için farklı kullanımlar ve 6,8 ve 17. seviyelerde ek özellikler verir.",
 							{
 								"type": "entries",
-								"name": "Domain Spells",
+								"name": "Alan Büyüleri",
 								"entries": [
-									"Each domain has a list of spells\u2014its domain spells\u2014that you gain at the cleric levels noted in the domain description. Once you gain a domain spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day.",
-									"If you have a domain spell that doesn't appear on the cleric spell list, the spell is nonetheless a cleric spell for you."
+									"Her alanın açıklamasında belirtildiği üzere, belirli seviyelerde verdiği rahip büyüleri vardır. Bir alan büyüsünü aldığında o sende daima hazırlanmış bir şekilde kalır ve günlük hazırlayabileceğin büyü sayısını etkilemez.",
+									"Eğer bir alan büyün rahip büyü listesinde yer almıyorsa o senin için yinede rahip büyüsü sayılır."
 								]
 							}
 						],
@@ -3833,26 +3833,26 @@
 				],
 				[
 					{
-						"name": "Channel Divinity (1/rest)",
+						"name": "Kutsal Yönlendirme (1/dinlenme)",
 						"entries": [
-							"At 2nd level, you gain the ability to channel divine energy directly from your deity, using that energy to fuel magical effects. You start with two such effects: Turn Undead and an effect determined by your domain. Some domains grant you additional effects as you advance in levels, as noted in the domain description.",
-							"When you use your Channel Divinity, you choose which effect to create. You must then finish a short or long rest to use your Channel Divinity again.",
-							"Some Channel Divinity effects require saving throws. When you use such an effect from this class, the DC equals your cleric spell save DC.",
-							"Beginning at 6th level, you can use your Channel Divinity twice between rests, and beginning at 18th level, you can use it three times between rests. When you finish a short or long rest, you regain your expended uses.",
+							"2. seviyede tanrının gücünü doğrudan yönlendirme yeteneğini kazanırsın ve bu enerjiyi çeşitli büyülü etkiler için kullanırsın. 2 tip etki ile başlarsın: Yaşayan Ölüleri Kov ve alanının sana verdiği bir etki. Bazı alanlar ileriki seviyelerde fazladan etkiler verebilir.",
+							"Kutsal Yönlendirmeyi kullandığında hangi etkiyi yaratmak istediğini sen seçersin. Kutsal Yönlendirmeyi yeniden kullanabilmek için kısa yada uzun dinlenme bitirmen gerekir.",
+							"Bazı Kutsal Yönlendirme etkileri kurtulma zarı gerektirir. Bu sınıftan bu tip bir etkiyi kullandığında DC, rahip büyü kurtulma zarı DC'sine eşittir.",
+							"6. seviyeden itibaren Kutsal Yönlendirmeyi dinlenmeler arası 2 kere kullanmaya başlarsın ve bu 18. seviyede 3 kereye çıkar. Kısa yada uzun dinlenme bitirdiğinde harcanmış kullanımları geri kazanırsın.",
 							{
 								"type": "entries",
-								"name": "Turn Undead",
+								"name": "Yaşayan Ölüleri Kov",
 								"entries": [
-									"As an action, you present your holy symbol and speak a prayer censuring the undead. Each undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.",
-									"A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action."
+									"Eylem olarak kutsal sembolünü öne çıkarır ve yaşayan ölüleri kınayan bir dua okursun. 30 feet yakınında seni gören veya duyan tüm yaşayan ölüler Akıl kurtulma zarı atar. Eğer varlık kurtulma zarında başarısız olursa 1 dakikalığına yada hasar alana dek kovulmuş olur.",
+									"Kovulmuş bir varlık sırasını senden olabildiğince uzaklaşmak için kullanır ve isteyerek senin 30 feet yakınına gelemez. Reaksiyon da kullanamaz. Eylemi için sadece Depar kullanabilir yada onun hareket etmesini engelleyen bir etkiden kurtulmaya çalışır. Eğer kaçabilecek yeri yoksa Kaçınma eylemini kullanır."
 								]
 							}
 						]
 					},
 					{
-						"name": "Divine Domain feature",
+						"name": "Kutsal Alan Özelliği",
 						"entries": [
-							"At 2nd level, you gain a feature from your Divine Domain."
+							"2. seviyede Kutsal Alanından bir özellik eklenir."
 						],
 						"gainSubclassFeature": true
 					}
@@ -3860,32 +3860,32 @@
 				[],
 				[
 					{
-						"name": "Ability Score Improvement",
+						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
-							"When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-							"If your DM allows the use of feats, you may instead take a feat."
+							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
 						]
 					}
 				],
 				[
 					{
-						"name": "Destroy Undead (CR 1/2)",
+						"name": "Yaşayan Ölüleri Yok Et (CR 1/2)",
 						"entries": [
-							"Starting at 5th level, when an undead of CR 1/2 or lower fails its saving throw against your Turn Undead feature, the creature is instantly destroyed."
+							"5. seviyeden itibaren CR 1/2 veya altında kalan bir yaşayan ölü, sen Yaşayan Ölüleri Kov özelliğini kullandığında Akıl kurtulma zarında başarısız olursa anında yok olur."
 						]
 					}
 				],
 				[
 					{
-						"name": "Channel Divinity (2/rest)",
+						"name": "Kutsal Yönlendirme (2/dinlenme)",
 						"entries": [
-							"Beginning at 6th level, you can use your Channel Divinity twice between rests."
+							"6. seviyeden itibaren Kutsal Yönlendirme özelliğini dinlenmeler arasında 2 kere kullanabilirsin."
 						]
 					},
 					{
-						"name": "Divine Domain feature",
+						"name": "Kutsal Alan Özelliği",
 						"entries": [
-							"At 6th level, you gain a feature from your Divine Domain."
+							"6. seviyede Kutsal Alanından bir özellik kazanırsın."
 						],
 						"gainSubclassFeature": true
 					}
@@ -3893,22 +3893,22 @@
 				[],
 				[
 					{
-						"name": "Ability Score Improvement",
+						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
-							"When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-							"If your DM allows the use of feats, you may instead take a feat."
+							"8. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
 						]
 					},
 					{
-						"name": "Destroy Undead (CR 1)",
+						"name": "Yaşayan Ölüleri Yok Et (CR 1)",
 						"entries": [
-							"Starting at 8th level, when an undead of CR 1 or lower fails its saving throw against your Turn Undead feature, the creature is instantly destroyed."
+							"8. seviyeden itibaren CR 1 veya altında kalan bir yaşayan ölü, sen Yaşayan Ölüleri Kov özelliğini kullandığında Akıl kurtulma zarında başarısız olursa anında yok olur."
 						]
 					},
 					{
-						"name": "Divine Domain feature",
+						"name": "Kutsal Alan Özelliği",
 						"entries": [
-							"At 8th level, you gain a feature from your Divine Domain."
+							"8. seviyede Kutsal Alanından bir özellik kazanırsın."
 						],
 						"gainSubclassFeature": true
 					}
@@ -3916,109 +3916,109 @@
 				[],
 				[
 					{
-						"name": "Divine Intervention",
+						"name": "Kutsal Müdahale",
 						"entries": [
-							"Beginning at 10th level, you can call on your deity to intervene on your behalf when your need is great.",
-							"Imploring your deity's aid requires you to use your action. Describe the assistance you seek, and roll percentile dice. If you roll a number equal to or lower than your cleric level, your deity intervenes. The DM chooses the nature of the intervention; the effect of any cleric spell or cleric domain spell would be appropriate. If your deity intervenes, you can't use this feature again for 7 days. Otherwise, you can use it again after you finish a long rest.",
-							"At 20th level, your call for intervention succeeds automatically, no roll required."
+							"10. seviyeden itibaren gerçekten ihtiyacın olduğunda tanrından müdahale etmesi için yardım isteyebilirsin.",
+							"Tanrının yardımı için yalvarmak senin eylemini kullanmanı gerektirir. İstediğin yardımı tanımla ve yüzdelik zar at. Eğer rahip seviyene eşit yada daha düşük attıysan tanrın müdahale eder. Bu müdahalenin yapısını DM belirler; herhangi bir rahip büyüsünün etkisi buna uygun olabilir. Eğer tanrın müdahale ederse bu özelliği 7 gün kullanamazsın. Etmezse uzun dinlenme sonrası yeniden kullanılabilir.",
+							"20. seviyede müdahale için yalvarışın otomatik olarak başarılı olur, zar gerektirmez."
 						]
 					}
 				],
 				[
 					{
-						"name": "Destroy Undead (CR 2)",
+						"name": "Yaşayan Ölüleri Yok Et (CR 2)",
 						"entries": [
-							"Starting at 11th level, when an undead of CR 2 or lower fails its saving throw against your Turn Undead feature, the creature is instantly destroyed."
+							"11. seviyeden itibaren CR 2 veya altında kalan bir yaşayan ölü, sen Yaşayan Ölüleri Kov özelliğini kullandığında Akıl kurtulma zarında başarısız olursa anında yok olur."
 						]
 					}
 				],
 				[
 					{
-						"name": "Ability Score Improvement",
+						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
-							"When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-							"If your DM allows the use of feats, you may instead take a feat."
-						]
-					}
-				],
-				[],
-				[
-					{
-						"name": "Destroy Undead (CR 3)",
-						"entries": [
-							"Starting at 14th level, when an undead of CR 3 or lower fails its saving throw against your Turn Undead feature, the creature is instantly destroyed."
+							"12. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
 						]
 					}
 				],
 				[],
 				[
 					{
-						"name": "Ability Score Improvement",
+						"name": "Yaşayan Ölüleri Yok Et (CR 3)",
 						"entries": [
-							"When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-							"If your DM allows the use of feats, you may instead take a feat."
+							"14. seviyeden itibaren CR 3 veya altında kalan bir yaşayan ölü, sen Yaşayan Ölüleri Kov özelliğini kullandığında Akıl kurtulma zarında başarısız olursa anında yok olur."
+						]
+					}
+				],
+				[],
+				[
+					{
+						"name": "Yetenek Skoru Gelişimi",
+						"entries": [
+							"16. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
 						]
 					}
 				],
 				[
 					{
-						"name": "Destroy Undead (CR 4)",
+						"name": "Yaşayan Ölüleri Yok Et (CR 4)",
 						"entries": [
-							"Starting at 17th level, when an undead of CR 4 or lower fails its saving throw against your Turn Undead feature, the creature is instantly destroyed."
+							"17. seviyeden itibaren CR 4 veya altında kalan bir yaşayan ölü, sen Yaşayan Ölüleri Kov özelliğini kullandığında Akıl kurtulma zarında başarısız olursa anında yok olur."
 						]
 					},
 					{
-						"name": "Divine Domain feature",
+						"name": "Kutsal Alan Özelliği",
 						"entries": [
-							"At 17th level, you gain a feature from your Divine Domain."
+							"17. seviyede Kutsal Alanından bir özellik kazanırsın."
 						],
 						"gainSubclassFeature": true
 					}
 				],
 				[
 					{
-						"name": "Channel Divinity (3/rest)",
+						"name": "Kutsal Yönlendirme (3/dinlenme)",
 						"entries": [
-							"Beginning at 18th level, you can use your Channel Divinity three times between rests."
+							"18. seviyeden itibaren Kutsal Yönlendirme özelliğini dinlenmeler arasında 3 kere kullanabilirsin."
 						]
 					}
 				],
 				[
 					{
-						"name": "Ability Score Improvement",
+						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
-							"When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-							"If your DM allows the use of feats, you may instead take a feat."
+							"19. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
 						]
 					}
 				],
 				[
 					{
-						"name": "Divine Intervention Improvement",
+						"name": "Kutsal Müdahale Gelişimi",
 						"entries": [
-							"At 20th level, your call for intervention succeeds automatically, no roll required."
+							"20. seviyede müdahale için yalvarışın otomatik olarak başarılı olur, zar gerektirmez."
 						]
 					}
 				]
 			],
-			"subclassTitle": "Divine Domain",
+			"subclassTitle": "Kutsal Alan",
 			"subclasses": [
 				{
-					"name": "Arcana Domain",
+					"name": "Arcana Alanı",
 					"subclassFeatures": [
 						[
 							{
-								"name": "Arcana Domain",
+								"name": "Arcana Alanı",
 								"entries": [
-									"Magic is an energy that suffuses the multiverse and that fuels both destruction and creation. Gods of the Arcana domain know the secrets and potential of magic intimately. For some of these gods, magical knowledge is a great responsibility that comes with a special understanding of the nature of reality. Other gods of Arcana see magic as pure power, to be used as its wielder sees fit.",
-									"The gods of this domain are often associated with knowledge, as learning and arcane power tend to go hand-in-hand. In the Realms, deities of this domain include Azuth and Mystra, as well as Corellon Larethian of the elven pantheon. In other worlds, this domain includes Hecate, Math Mathonwy, and Isis; the triple moon gods of Solinari, Lunitari, and Nuitari of Krynn; and Boccob, Vecna, and WeeJas of Greyhawk.",
-									"At each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.",
+									"Büyü çoklu evreni kaplayan ve yaratılışı da yıkımı da destekleyen bir enerjidir. Arcana tanrıları büyünün potansiyeli ve sırları ile yakından ilgilenirler ve bilirler. Bazı tanrılar için bu büyü bilgisi, gerçekliğin yapısını anlama ile gelen büyük bir sorumluluktur. Diğer tanrılar büyüyü saf güç olarak görürler, istedikleri gibi kullanabilecekleri bir araç.",
+									"Bu alanın tanrıları genellikle bilgi ile alakalıdırlar. Öğrenme ve arcane güç genellikle birlikte görülür. Unutulmuş Diyarlarda bu alanın tanrıları Azuth ve Mystra'yı içerir, elf panteonundan Corellon Larethian'da bu gruba dahildir. Diğer evrenlerde bu alan şu tanrıları içerir: Hecate, Math Mathonwy, ve Isis; Kyrnn'in üçlü ay tanrıları Solinari, Lunitari, ve Nuitari; ve Boccob, Vecna, ve Greyhawk'dan WeeJas.",
+									"Belirtilmiş rahip seviyelerinde, listelenmiş büyüler senin hazırlanmış büyülerine dahil olur. Günlük hazırlama limitine dahil olmazlar.",
 									{
 										"type": "table",
-										"caption": "Arcana Domain Spells",
+										"caption": "Arcana Alan Büyüleri",
 										"colLabels": [
-											"Cleric Level",
-											"Spells"
+											"Rahip Seviyesi",
+											"Büyüler"
 										],
 										"colStyles": [
 											"col-xs-3 text-align-center",
@@ -4049,9 +4049,9 @@
 									},
 									{
 										"type": "entries",
-										"name": "Arcane Initiate",
+										"name": "Arcane Üyesi",
 										"entries": [
-											"When you choose this domain at 1st level, you gain proficiency in the Arcana skill, and you gain two cantrips of your choice from the wizard spell list. For you, these cantrips count as cleric cantrips."
+											"1. seviyede bu alanı seçtiğinde Arcana becerisinde uzmanlık kazanırsın ve büyücü büyü listesinden 2 cantrip öğrenirsin. Senin için bunlar rahip cantripleri sayılır."
 										]
 									}
 								]
@@ -4062,18 +4062,18 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Channel Divinity: Arcane Abjuration",
+										"name": "Channel Divinity: Arcane Kovma",
 										"entries": [
-											"Starting at 2nd level, you can use your Channel Divinity to abjure otherworldly creatures",
-											"As an action, you present your holy symbol, and one celestial, elemental, fey, or fiend of your choice that is within 30 feet of you must make a Wisdom saving throw, provided that the creature can see or hear you. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.",
-											"A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly end its move in a space within 30 feet of you. It also can't take reactions. For its action, it can use use the Dash action or try to escape from an effect that prevents it form moving. If there's nowhere to move, then the creature can use the Dodge action.",
-											"After you reach 5th level, when a creature fails its saving throw against you Arcane Abjuration feature, the creature is banished for 1 minute (as in the {@spell banishment} spell, no concentration required) if it isn't on its plane of origin, and its challenge rating is at or below a certain threshold, as shown below.",
+											"2. seviyeden itibaren Kutsal Yönlendirmeni kullanarak dünyadışı varlıkları kovabilirsin.",
+											"Eylem olarak kutsal sembolünü öne çıkarırsın ve 30 feet yakınında olan ve seni görebilen yada duyabilen seçeceğin bir kutsal, elemental, fey yada zebani Akıl kurtulma zarı atar. Eğer varlık kurtulma zarında başarısız olursa 1 dakikalığına yada hasar alana dek kovulur.",
+											"Kovulmuş bir varlık sırasını senden olabildiğince uzaklaşmak için kullanır ve isteyerek 30 feet yakınına gelemez. Reaksiyon da kullanamz. Eylem olarak Depar kullanır veya hareket etmesini engelleyen bir etkiden kurtulmaya çalışır. Eğer kaçabileceği bir yer yoksa Kaçınma eylemini kullanır.",
+											"5. seviyeden sonra kendi boyutunda olmayan ve CR seviyesi aşağıda gösterilen seviyenin altında olan bir varlık bu özelliğe karşı kurtulma zarında başarısız olunca 1 dakikalığına sürgün edilir ({@spell banishment} büyüsü gibi, konsantrasyon gerekmez).",
 											{
 												"type": "table",
-												"caption": "Arcane Banishment",
+												"caption": "Arcane Sürgün",
 												"colLabels": [
-													"Cleric level",
-													"Banishes Creatures of CR..."
+													"Rahip Seviyesi",
+													"Bu CR seviyesi varlığı sürgün eder"
 												],
 												"colStyles": [
 													"col-xs-3 text-align-center",
@@ -4081,24 +4081,24 @@
 												],
 												"rows": [
 													[
-														"5th",
-														"1/2 or lower"
+														"5.",
+														"1/2 yada altı"
 													],
 													[
-														"8th",
-														"1 or lower"
+														"8.",
+														"1 yada altı"
 													],
 													[
-														"11th",
-														"2 or lower"
+														"11.",
+														"2 yada altı"
 													],
 													[
-														"14th",
-														"3 or lower"
+														"14.",
+														"3 yada altı"
 													],
 													[
-														"17th",
-														"4 or lower"
+														"17.",
+														"4 yada altı"
 													]
 												]
 											}
@@ -4112,9 +4112,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Spell Breaker",
+										"name": "Büyü Bozan",
 										"entries": [
-											"Starting at 6th level, when you restore hit points to an ally with a spell of 1st level or higher, you can also end one spell of your choice on that creature. The level of the spell you end must be equal to or lower than the level of the spell slot you use to cast the healing spell."
+											"6. seviyeden itibaren bir dostuna 1. seviye ve üzeri bir büyü ile HP yenilediğinde, varlık üzerindeki seçeceğin bir büyüyü de bitirebilirsin. Bitireceğin büyünün seviyesi, iyileştirmek için kullandığın büyü yuvasına eşit yada altında olmalı."
 										]
 									}
 								]
@@ -4125,9 +4125,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Potent Spellcasting",
+										"name": "Güçlü Büyü Yapma",
 										"entries": [
-											"Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip."
+											"8. seviyeden itibaren bir rahip cantripi ile vereceğin hasara Akıl bonusunu ekleyebilirsin."
 										]
 									}
 								]
@@ -4138,9 +4138,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Arcane Mastery",
+										"name": "Arcane Ustalık",
 										"entries": [
-											"At 17th level, you choose four spells from the Wizard spell list, one from each of the following levels: 6th, 7th, 8th, and 9th. You add them to your list of domain spells. Like your other domain spells, they are always prepared and count as cleric spells for you."
+											"17. seviyede Büyücü büyü listesinden her biri 6,7,8 ve 9. seviyelerden olmak üzere 4 büyü seçersin. Bunları alan büyüsü listene eklersin. Alan büyülerin gibi bunlar daima hazır olur ve senin için rahip büyüsü sayılır."
 										]
 									}
 								]
@@ -4277,20 +4277,20 @@
 					"shortName": "City (UA)"
 				},
 				{
-					"name": "Death Domain",
+					"name": "Ölüm Alanı",
 					"subclassFeatures": [
 						[
 							{
-								"name": "Death Domain",
+								"name": "Ölüm Alanı",
 								"entries": [
-									"The Death domain is concerned with the forces that cause death, as well as the negative energy that gives rise to undead creatures. Deities such as Chemosh, Myrkul, and WeeJas are patrons of necromancers, death knights, liches, mummy lords, and vampires. Gods of the Death domain also embody murder (Anubis, Bhaal, and Pyremius), pain (Iuz or Loviatar), disease or poison (Incabulos, Talona, or Morgion), and the underworld (Hades and Hel).",
-									"At each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.",
+									"Ölüm alanı ölüme yol açan güçler ve yaşayan ölüleri yaratan negatif enerji ile ilgilenir. Chemosh, Myrkul, ve WeeJas gibi tanrılar ölüm büyücüleri, ölüm şövalyeleri, lichler, mumya lordları, ve vampirlerin efendileri olurlar. Ölüm alanı tanrıları cinayet (Anubis, Bhaal, and Pyremius), acı (Iuz or Loviatar), hastalık yada zehir (Incabulos, Talona, or Morgion), ve yeraltını (Hades and Hel) simgelerler.",
+									"Belirtilen rahip seviyelerinde listelenen büyüleri hazırlanan büyülerine ekle. Bunlar hazırlayabileceğin büyü limitini etkilemez.",
 									{
 										"type": "table",
-										"caption": "Death Domain Spells",
+										"caption": "Ölüm Alan Büyüleri",
 										"colLabels": [
-											"Cleric Level",
-											"Spells"
+											"Rahip Seviyesi",
+											"Büyüler"
 										],
 										"colStyles": [
 											"col-xs-3 text-align-center",
@@ -4298,39 +4298,39 @@
 										],
 										"rows": [
 											[
-												"1st",
+												"1.",
 												"{@spell false life}, {@spell ray of sickness}"
 											],
 											[
-												"3rd",
+												"3.",
 												"{@spell blindness/deafness}, {@spell ray of enfeeblement}"
 											],
 											[
-												"5th",
+												"5.",
 												"{@spell animate dead}, {@spell vampiric touch}"
 											],
 											[
-												"7th",
+												"7.",
 												"{@spell blight}, {@spell death ward}"
 											],
 											[
-												"9th",
+												"9.",
 												"{@spell antilife shell}, {@spell cloudkill}"
 											]
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Bonus Proficiency",
+										"name": "Bonus Uzmanlık",
 										"entries": [
-											"When the cleric chooses this domain at 1st level, he or she gains proficiency with martial weapons."
+											"Rahip bu alanı 1. seviyede seçtiğinde askeri silahlarla uzmanlık kazanır."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Reaper",
+										"name": "Ruh Biçen",
 										"entries": [
-											"At 1st level, the cleric learns one necromancy cantrip of his or her choice from any spell list. When the cleric casts a necromancy cantrip that normally targets only one creature, the spell can instead target two creatures within range and within 5 feet of each other."
+											"1. seviyede rahip istediği büyü listesinden bir necromancy cantripi öğrenir. Rahip normalde sadece 1 varlığı hedef alan bir necromancy cantripi kullandığında, birbirine 5 ft uzaklıkta 2 varlığı hedef alabilir."
 										]
 									}
 								]
@@ -4341,10 +4341,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Channel Divinity: Touch of Death",
+										"name": "Kutsal Yönlendirme: Ölüm Dokunuşu",
 										"entries": [
-											"Starting at 2nd level, the cleric can use Channel Divinity to destroy another creature's life force by touch.",
-											"When the cleric hits a creature with a melee attack, the cleric can use Channel Divinity to deal extra necrotic damage to the target. The damage equals 5 + twice his or her cleric level."
+											"2. seviyeden itibaren rahip Kutsal Yönlendirmeyi kullanarak dokunuşuyla bir varlığın yaşam gücünü yok edebilir.",
+											"Rahip bir varlığa yakın dövüş saldırısı ile vurduğunda Kutsal Yönlendirmeyi kullanarak ekstra nekrotik hasar verebilir. Bu hasar 5 + rahip seviyesinin iki katıdır."
 										]
 									}
 								]
@@ -4355,9 +4355,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Inescapable Destruction",
+										"name": "Kaçışı Olmayan Yıkım",
 										"entries": [
-											"Starting at 6th level, the cleric's ability to channel negative energy becomes more potent. Necrotic damage dealt by the character's cleric spells and Channel Divinity options ignores resistance to necrotic damage."
+											"6. seviyeden itibaren rahibin negatif enerji yönlendirmesi güçlenir. Rahibin Kutsal Yönlendirme özelliği ve büyüleri ile verdiği nekrotik hasar, hedefin nekrotik direncini yoksayar."
 										]
 									}
 								]
@@ -4368,9 +4368,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Divine Strike",
+										"name": "Kutsal Darbe",
 										"entries": [
-											"At 8th level, the cleric gains the ability to infuse his or her weapon strikes with necrotic energy. Once on each of the cleric's turns when he or she hits a creature with a weapon attack, the cleric can cause the attack to deal an extra 1d8 necrotic damage to the target. When the cleric reaches 14th level, the extra damage increases to 2d8."
+											"8. seviyede rahip silah darbelerini nekrotik enerji ile güçlendirmeyi öğrenir. Rahip sırasında bir kere olmak üzere bir varlığa silah ile vurduğunda fazladan 1d8 nekrotik hasar verebilir. Rahip 14. seviyeye ulaştığında bu hasar 2d8'e çıkar."
 										]
 									}
 								]
@@ -4381,9 +4381,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Improved Reaper",
+										"name": "Gelişmiş Ruh Biçen",
 										"entries": [
-											"Starting at 17th level, when the cleric casts a Necromancy spell of 1st through 5th-level that targets only one creature, the spell can instead target two creatures within range and within 5 feet of each other. If the spell consumes its material components, the cleric must provide them for each target."
+											"17. seviyeden itibaren rahip 1 ile 5. seviye arası tek varlığı hedef alan bir Necromancy büyüsü kullandığında, birbirine 5 feet uzaklıkta iki varlığı hedef alabilir. Eğer büyü materyal bileşen harcıyorsa rahip her hedef için ayrıca harcar."
 										]
 									}
 								]
@@ -4391,23 +4391,23 @@
 						]
 					],
 					"source": "DMG",
-					"shortName": "Death"
+					"shortName": "Ölüm"
 				},
 				{
-					"name": "Knowledge Domain",
+					"name": "Bilgi Alanı",
 					"subclassFeatures": [
 						[
 							{
-								"name": "Knowledge Domain",
+								"name": "Bilgi Alanı",
 								"entries": [
-									"The gods of knowledge\u2014including Oghma, Boccob, Gilean, Aureon, and Thoth\u2014value learning and understanding above all. Some teach that knowledge is to be gathered and shared in libraries and universities, or promote the practical knowledge of craft and invention. Some deities hoard knowledge and keep its secrets to themselves. And some promise their followers that they will gain tremendous power if they unlock the secrets of the multiverse. Followers of these gods study esoteric lore, collect old tomes, delve into the secret places of the earth, and learn all they can. Some gods of knowledge promote the practical knowledge of craft and invention, including smith deities like Gond, Reorx, Onatar, Moradin, Hephaestus, and Goibhniu.",
-									"At each indicated cleric level, you add the listed spells to your spells prepared.",
+									"Oghma, Boccob, Gilean, Aureon, ve Thoth gibi bilgi tanrıları öğrenme ve anlamayı herşeyin üzerinde tutarlar. Bazıları bilginin toplanıp kütüphane ve üniversitelerde paylaşılmasını yada buluş ve zanaat gibi uygulanan bilgilerin yayılmasını öğütler. Bazı tanrılarsa bilgileri toplar ve sırlarını kendilerine saklarlar. Bazıları müritlerine çoklu evrenin sırlarını keşfederlerse inanılmaz güçlere sahip olacakları sözünü verir. Bu tanrıların müritleri nadir bilgileri kovalar, eski yazıtları toplar, dünyanın gizli yerlerine gider ve öğrenebilecekleri herşeyi öğrenirler.",
+									"Belirtilen rahip seviyelerinde bu büyüleri hazırlanmış büyü listene eklersin.",
 									{
 										"type": "table",
-										"caption": "Knowledge Domain Spells",
+										"caption": "bilgi Alanı Büyüleri",
 										"colLabels": [
-											"Cleric Level",
-											"Spells"
+											"Rahip Seviyesi",
+											"Büyüler"
 										],
 										"colStyles": [
 											"col-xs-3 text-align-center",
@@ -4415,33 +4415,33 @@
 										],
 										"rows": [
 											[
-												"1st",
+												"1.",
 												"{@spell command}, {@spell identify}"
 											],
 											[
-												"3rd",
+												"3.",
 												"{@spell augury}, {@spell suggestion}"
 											],
 											[
-												"5th",
+												"5.",
 												"{@spell nondetection}, {@spell speak with dead}"
 											],
 											[
-												"7th",
+												"7.",
 												"{@spell arcane eye}, {@spell confusion}"
 											],
 											[
-												"9th",
+												"9.",
 												"{@spell legend lore}, {@spell scrying}"
 											]
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Blessings of Knowledge",
+										"name": "Bilginin Kutsaması",
 										"entries": [
-											"At 1st level, you learn two languages of your choice. You also become proficient in your choice of two of the following skills: Arcana, History, Nature, or Religion.",
-											"Your proficiency bonus is doubled for any ability check you make that uses either of those skills."
+											"1. seviyede seçeceğin 2 dili öğrenirsin. Aynı zamanda Arcana, Tarih, Doğa veya Din becerilerinden ikisinde uzmanlık kazanırsın.",
+											"Bu beceriler ile attığın beceri zarlarında uzmanlık bonusunun iki katını eklersin."
 										]
 									}
 								]
@@ -4452,9 +4452,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Channel Divinity: Knowledge of the Ages",
+										"name": "Kutsal Yönlendirme: Çağların Bilgisi",
 										"entries": [
-											"Starting at 2nd level, you can use your Channel Divinity to tap into a divine well of knowledge. As an action, you choose one skill or tool. For 10 minutes, you have proficiency with the chosen skill or tool."
+											"2. seviyede Kutsal Yönlendirmeni kullanarak kutsal bilgi havuzuna ulaşabilirsin. Eylem olarak bir alet yada beceri seç. 10 dakikalığına seçilen beceri yada alet ile uzmanlığın olur."
 										]
 									}
 								]
@@ -4465,12 +4465,12 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Channel Divinity: Read Thoughts",
+										"name": "Kutsal Yönlendirme: Düşünceleri Oku",
 										"entries": [
-											"At 6th level, you can use your Channel Divinity to read a creature's thoughts. You can then use your access to the creature's mind to command it.",
-											"As an action, choose one creature that you can see within 60 feet of you. That creature must make a Wisdom saving throw. If the creature succeeds on the saving throw, you can't use this feature on it again until you finish a long rest.",
-											"If the creature fails its save, you can read its surface thoughts (those foremost in its mind, reflecting its current emotions and what it is actively thinking about) when it is within 60 feet of you. This effect lasts for 1 minute.",
-											"During that time, you can use your action to end this effect and cast the suggestion spell on the creature without expending a spell slot. The target automatically fails its saving throw against the spell."
+											"6. seviyede Kutsal Yönlendirmeni kullanarak bir varlığın düşüncelerini okuyabilirsin. Sonrasında varlığın zihnine erişimini kullanarak onu yönetebilirsin.",
+											"Eylem olarak 60 feet yakınında görebildiğin bir varlığı seç. Bu varlık Akıl kurtulma zarı atmalı. Eğer varlık kurtulma zarında başarılı olursa bu özelliği onun üzerinde uzun dinlenme bitirene kadar yeniden kullanamazsın.",
+											"Eğer varlık kurtulma zarında başarısız olursa 60 feet yakınında olduğu sürece onun yüzeysel düşüncelerini (zihninde en güncel olan, duygularını ve o anda ne düşündüğünü yansıtan) okuyabilirsin. Bu etki 1 dakika sürer.",
+											"Bu süre içinde eylemini kullanarak bu etkiyi bitirip {@spell suggestion} büyüsünü, büyü yuvası harcamadan o varlık üzerinde kullanabilirsin. Hedef otomatik olarak büyüye karşı kurtulma zarında başarısız olur."
 										]
 									}
 								]
@@ -4481,9 +4481,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Potent Spellcasting",
+										"name": "Güçlü Büyü Yapma",
 										"entries": [
-											"Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip."
+											"8. seviyeden itibaren rahip cantripleri ile verdiğin hasara Akıl bonusunu ekleyebilirsin."
 										]
 									}
 								]
@@ -4494,18 +4494,18 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Visions of the Past",
+										"name": "Geçmişten Görüler",
 										"entries": [
-											"Starting at 17th level, you can call up visions of the past that relate to an object you hold or your immediate surroundings. You spend at least 1 minute in meditation and prayer, then receive dreamlike, shadowy glimpses of recent events. You can meditate in this way for a number of minutes equal to your Wisdom score and must maintain concentration during that time, as if you were casting a spell.",
-											"Once you use this feature, you can't use it again until you finish a short or long rest.",
+											"17. seviyeden itibaren o anki çevren yada tuttuğun bir nesne ile alakalı geçmişten görüleri gözünde canlandırırsın. En az 1 dakika meditasyon ve duada geçirirsin ve sonrasında yakın olayları rüya gibi bulanık parçacıklar halinde görürsün. Bu şekilde Akıl bonusun kadar dakika meditasyon yapabilirsin ve tüm bu süre boyunca bir büyüde olduğu gibi konsantre olmalısın.",
+											"Bu özelliği kullandıktan sonra kısa yada uzun dinlenme bitirene kadar yeniden kullanamazsın.",
 											{
 												"type": "entries",
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Object Reading",
+														"name": "Nesne Okuma",
 														"entries": [
-															"Holding an object as you meditate, you can see visions of the object's previous owner. After meditating for 1 minute, you learn how the owner acquired and lost the object, as well as the most recent significant event involving the object and that owner. If the object was owned by another creature in the recent past (within a number of days equal to your Wisdom score), you can spend 1 additional minute for each owner to learn the same information about that creature."
+															"Meditasyonda bir nesne tutarak o nesnenin önceki sahibi hakkında görüler alırsın. 1 dakika meditasyondan sonra, eski sahibi nesneyi nasıl bulmuş ve kaybetmiş öğrenirsin. Aynı zamanda o nesne ve sahibi ile alakalı en yakın tarihteki önemli bir olayı da görürsün."
 														]
 													}
 												]
@@ -4515,9 +4515,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Area Reading",
+														"name": "Alan Okuma",
 														"entries": [
-															"As you meditate, you see visions of recent events in your immediate vicinity (a room, street, tunnel, clearing, or the like, up to a 50-foot cube), going back a number of days equal to your Wisdom score. For each minute you meditate, you learn about one significant event, beginning with the most recent. Significant events typically involve powerful emotions, such as battles and betrayals, marriages and murders, births and funerals. However, they might also include more mundane events that are nevertheless important in your current situation."
+															"Meditasyondayken yakın zamanda yakın çevrende (bir oda, sokak, tünel benzeri 50 feet küplük bir alan) olan olaylar hakkında görüler alırsın. Tarih olarak Akıl skorun kadar gün geri gidebilirsin. Her meditasyonda geçirdiğin dakika için en yakın tarihten başlayarak bir önemli olay öğrenirsin. Önemli olaylar genellikle savaşlar ve ihanetler, evlilikler ve cinayetler, doğumlar ve cenazeler gibi güçlü duyguları içerir. Bunun yanında, senin durumuna uygun olan çok daha sıradan olaylar da önemli sayılabilir."
 														]
 													}
 												]
@@ -4529,7 +4529,7 @@
 						]
 					],
 					"source": "PHB",
-					"shortName": "Knowledge"
+					"shortName": "Bilgi"
 				},
 				{
 					"name": "Knowledge Domain (PSA)",
@@ -4601,20 +4601,20 @@
 					"shortName": "Knowledge (PSA)"
 				},
 				{
-					"name": "Life Domain",
+					"name": "Yaşam Alanı",
 					"subclassFeatures": [
 						[
 							{
-								"name": "Life Domain",
+								"name": "Yaşam Alanı",
 								"entries": [
-									"The Life domain focuses on the vibrant positive energy\u2014one of the fundamental forces of the universe\u2014that sustains all life. The gods of life promote vitality and health through healing the sick and wounded, caring for those in need, and driving away the forces of death and undeath. Almost any non-evil deity can claim influence over this domain, particularly agricultural deities (such as Chauntea, Arawai, and Demeter), sun gods (such as Lathander, Pelor, and Re-Horakhty), gods of healing or endurance (such as Ilmater, Mishakal, Apollo, and Diancecht), and gods of home and community (such as Hestia, Hathor, and Boldrei).",
-									"At each indicated cleric level, you add the listed spells to your spells prepared.",
+									"Yaşam alanı tüm yaşamı destekleyen temel ve canlı pozitif enerji üzerinde yoğunlaşır. Yaşam tanrıları hasta ve yaralıları iyileştirerek, ihtiyaçta olanlara yardım ederek ve yaşayan ölüler ve ölümün güçlerini yok ederek sağlık ve canlılığı desteklerler. Neredeyse tüm kötü olmayan tanrılar bu alanda nüfuz sahibi olabilir, özellikle (Chauntea, Arawai, ve Demeter) gibi tarım tanrıları, (Lathander, Pelor, ve Re-Horakhty) gibi güneş tanrıları, (Ilmater, Mishakal, Apollo, ve Diancecht) gibi şifa ve direnç tanrıları, ve (Hestia, Hathor, and Boldrei) gibi ev ve toplum tanrıları bu alanda etkilidir.",
+									"Belirtilen rahip seviyelerinde bu büyüleri hazırlanmış büyüler listene eklersin.",
 									{
 										"type": "table",
-										"caption": "Life Domain Spells",
+										"caption": "Yaşam Alanı Büyüleri",
 										"colLabels": [
-											"Cleric Level",
-											"Spells"
+											"Rahip Seviyesi",
+											"Büyüler"
 										],
 										"colStyles": [
 											"col-xs-3 text-align-center",
@@ -4622,39 +4622,39 @@
 										],
 										"rows": [
 											[
-												"1st",
+												"1.",
 												"{@spell bless}, {@spell cure wounds}"
 											],
 											[
-												"3rd",
+												"3.",
 												"{@spell lesser restoration}, {@spell spiritual weapon}"
 											],
 											[
-												"5th",
+												"5.",
 												"{@spell beacon of hope}, {@spell revivify}"
 											],
 											[
-												"7th",
+												"7.",
 												"{@spell death ward}, {@spell guardian of faith}"
 											],
 											[
-												"9th",
+												"9.",
 												"{@spell mass cure wounds}, {@spell raise dead}"
 											]
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Bonus Proficiency",
+										"name": "Bonus Uzmanlık",
 										"entries": [
-											"When you choose this domain at 1st level, you gain proficiency with heavy armor."
+											"1. seviyede bu alanı seçtiğinde ağır zırhlarla uzmanlık kazanırsın."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Disciple of Life",
+										"name": "Yaşam Müridi",
 										"entries": [
-											"Also starting at 1st level, your healing spells are more effective. Whenever you use a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to 2 + the spell's level."
+											"1. seviyeden itibaren iyileştirme büyülerin daha etkili olur. 1. seviye ve üzeri bir büyü kullanıp bir varlığa HP yenilediğinde, varlık 2 + büyünün seviyesi kadar fazladan HP alır."
 										]
 									}
 								]
@@ -4665,10 +4665,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Channel Divinity: Preserve Life",
+										"name": "Kutsal Yönlendirme: Yaşamı Koru",
 										"entries": [
-											"Starting at 2nd level, you can use your Channel Divinity to heal the badly injured.",
-											"As an action, you present your holy symbol and evoke healing energy that can restore a number of hit points equal to five times your cleric level. Choose any creatures within 30 feet of you, and divide those hit points among them. This feature can restore a creature to no more than half of its hit point maximum. You can't use this feature on an undead or a construct."
+											"2. seviyeden itibaren Kutsal Yönlendirmeni kullanıp ciddi yaralıları iyileştirebilirsin.",
+											"Eylem olarak kutsal sembolünü öne çıkarıp rahip seviyenin beş katı kadar HP yenileyebilecek bir iyileştirme enerjisi ortaya çıkarırsın. 30 feet yakınında istediğin kadar varlığı seç ve o HP'leri aralarında istediğin gibi dağıt. Bu özellik bir varlığı maximum HP'sinin yarısından fazlasını yenileyemez. Bu özelliği bir yapı yada yaşayan ölü üzerinde kullanamazsın."
 										]
 									}
 								]
@@ -4679,9 +4679,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Blessed Healer",
+										"name": "Kutsanmış Şifacı",
 										"entries": [
-											"Beginning at 6th level, the healing spells you cast on others heal you as well. When you cast a spell of 1st level or higher that restores hit points to a creature other than you, you regain hit points equal to 2 + the spell's level."
+											"6. seviyeden itibaren diğerleri üzerinde kullandığın iyileştirme büyüleri seni de iyileştirir. 1. seviye ve üzeri, senden başka bir varlığa HP yenileyen bir büyü kullandığında sende 2 + büyünün seviyesi kadar HP yenilersin."
 										]
 									}
 								]
@@ -4692,9 +4692,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Divine Strike",
+										"name": "Kutsal Darbe",
 										"entries": [
-											"At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 radiant damage to the target. When you reach 14th level, the extra damage increases to 2d8."
+											"8. seviyede silah darbelerini kutsal enerji ile güçlendirmeyi öğrenirsin. Sıranda bir kere silah saldırısıyla bir varlığa vurduğunda fazladan 1d8 radyant hasar verebilirsin. 14. seviyeye eriştiğinde bu fazladan hasar 2d8'e çıkar."
 										]
 									}
 								]
@@ -4705,9 +4705,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Supreme Healing",
+										"name": "Üstün İyileştirme",
 										"entries": [
-											"Starting at 17th level, when you would normally roll one or more dice to restore hit points with a spell, you instead use the highest number possible for each die. For example, instead of restoring 2d6 hit points to a creature, you restore 12."
+											"17. seviyeden itibaren bir büyü ile HP yenilemek için normalde bir yada daha fazla zar atacağın durumlarda zar atmak yerine her zarın max sonucunu kullanırsın. Örneğin bir varlığa 2d6 HP yenilemek yerine 12 HP yenilersin."
 										]
 									}
 								]
@@ -4715,23 +4715,23 @@
 						]
 					],
 					"source": "PHB",
-					"shortName": "Life"
+					"shortName": "Yaşam"
 				},
 				{
-					"name": "Light Domain",
+					"name": "Işık Alanı",
 					"subclassFeatures": [
 						[
 							{
-								"name": "Light Domain",
+								"name": "Işık Alanı",
 								"entries": [
-									"Gods of light\u2014including Helm, Lathander, Pholtus, Branchala, the Silver Flame, Belenus, Apollo, and Re-Horakhty\u2014promote the ideals of rebirth and renewal, truth, vigilance, and beauty, often using the symbol of the sun. Some of these gods are portrayed as the sun itself or as a charioteer who guides the sun across the sky. Others are tireless sentinels whose eyes pierce every shadow and see through every deception. Some are deities of beauty and artistry, who teach that art is a vehicle for the soul's improvement. Clerics of a god of light are enlightened souls infused with radiance and the power of their gods' discerning vision, charged with chasing away lies and burning away darkness.",
-									"At each indicated cleric level, you add the listed spells to your spells prepared.",
+									"Helm, Lathander, Pholtus, Branchala, Belenus, Apollo, ve Re-Horakhty gibi ışık tanrıları, yeniden doğuş ve yenilenme, gerçek, uyanıklık ve güzelliği destekler ve genellikle güneş sembolünü kullanırlar. Bu tanrıların bazıları güneşin kendisi yada güneşi gökyüzünde taşıyan biniciler olarak tasvir edilirler. Diğerleri ise bakışları her gölgeyi delen ve tüm yalanların ardını gören yorulmak bilmeyen bekçilerdir. Bazıları sanat ve güzelliğin tanrıları olup sanatı ruhun gelişimi için bir araç olarak öğretirler. Işık tanrılarının rahipleri aydınlanmış ruhlardır. Tanrılarının verdiği güç ve ışık ile karanlık ve yalanlardan kurtulma ile görevlendirilmişlerdir.",
+									"Belirlenen rahip seviyelerinde bu büyüleri hazırlanmış büyü listene ekle.",
 									{
 										"type": "table",
-										"caption": "Light Domain Spells",
+										"caption": "Işık Alanı Büyüleri",
 										"colLabels": [
-											"Cleric Level",
-											"Spells"
+											"Rahip Seviyesi",
+											"Büyüler"
 										],
 										"colStyles": [
 											"col-xs-3 text-align-center",
@@ -4739,23 +4739,23 @@
 										],
 										"rows": [
 											[
-												"1st",
+												"1.",
 												"{@spell burning hands}, {@spell faerie fire}"
 											],
 											[
-												"3rd",
+												"3.",
 												"{@spell flaming sphere}, {@spell scorching ray}"
 											],
 											[
-												"5th",
+												"5.",
 												"{@spell daylight}, {@spell fireball}"
 											],
 											[
-												"7th",
+												"7.",
 												"{@spell guardian of faith}, {@spell wall of fire}"
 											],
 											[
-												"9th",
+												"9.",
 												"{@spell flame strike}, {@spell scrying}"
 											]
 										]
@@ -4764,15 +4764,15 @@
 										"type": "entries",
 										"name": "Bonus Cantrip",
 										"entries": [
-											"When you choose this domain at 1st level, you gain the light cantrip if you don't already know it."
+											"1. seviyede bu alanı seçtiğinde eğer zaten bilmiyorsan ışık cantripini öğrenirsin."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Warding Flare",
+										"name": "Koruyucu Işık",
 										"entries": [
-											"Also at 1st level, you can interpose divine light between yourself and an attacking enemy. When you are attacked by a creature within 30 feet of you that you can see, you can use your reaction to impose disadvantage on the attack roll, causing light to flare before the attacker before it hits or misses. An attacker that can't be {@condition blinded} is immune to this feature.",
-											"You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest."
+											"1. seviyede saldıran bir düşman ve kendi arana kutsal bir ışık yerleştirirsin. 30 feet yakınında ve görebildiğin bir varlık tarafından saldırıya uğradığında reaksiyonunu kullanıp saldırganın gözünün önünde bir ışık parlatarak o saldırıya dezavantaj verebilirsin. Körlük durumuna bağışıklığı olan bir saldırgan bu özellik tarafından etkilenmez.",
+											"Bu özelliği Akıl bonusun kadar (en az 1) kullanabilirsin. Uzun dinlenme bitirdiğinde tüm harcanmış kullanımlar yenilenir."
 										]
 									}
 								]
@@ -4783,10 +4783,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Channel Divinity: Radiance of the Dawn",
+										"name": "Kutsal Yönlendirme: Şafağın Görkemi",
 										"entries": [
-											"Starting at 2nd level, you can use your Channel Divinity to harness sunlight, banishing darkness and dealing radiant damage to your foes.",
-											"As an action, you present your holy symbol, and any magical darkness within 30 feet of you is dispelled. Additionally, each hostile creature within 30 feet of you must make a Constitution saving throw. A creature takes radiant damage equal to 2d10 + your cleric level on a failed saving throw, and half as much damage on a successful one. A creature that has total cover from you is not affected."
+											"2. seviyeden itibaren Kutsal Yönlendirmen ile güneş ışığını kullanıp karanlığı def eder ve düşmanlarına radyant hasar verirsin.",
+											"Eylem olarak kutsal sembolünü öne çıkarırsın ve 30 feet yakınındaki tüm büyülü karanlıklar yok olur. Ek olarak 30 feet yakınındaki tüm düşman varlıklar Dayanıklılık kurtulma zarı atar. Bir varlık eğer başarısız olursa 2d10 + rahip seviyen kadar radyant hasar alır, başarılı olursa bu hasar yarılanır. Sana karşı tam siperi olan bir varlık bundan etkilenmez."
 										]
 									}
 								]
@@ -4797,9 +4797,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Improved Flare",
+										"name": "Gelişmiş Işık",
 										"entries": [
-											"Starting at 6th level, you can also use your Warding Flare feature when a creature that you can see within 30 feet of you attacks a creature other than you."
+											"6. seviyeden itibaren Koruyucu Işık Özelliğini 30 feet yakınında görebildiğin bir varlık senden başka birine de saldırı yaptığında kullanabilirsin."
 										]
 									}
 								]
@@ -4810,9 +4810,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Potent Spellcasting",
+										"name": "Güçlü Büyü Yapma",
 										"entries": [
-											"Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip."
+											"8. seviyeden itibaren cleric cantripleri ile verdiğin hasara Akıl bonusunu eklersin."
 										]
 									}
 								]
@@ -4823,9 +4823,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Corona of Light",
+										"name": "Işık Tacı",
 										"entries": [
-											"Starting at 17th level, you can use your action to activate an aura of sunlight that lasts for 1 minute or until you dismiss it using another action. You emit bright light in a 60-foot radius and dim light 30 feet beyond that. Your enemies in the bright light have disadvantage on saving throws against any spell that deals fire or radiant damage."
+											"17. seviyeden itibaren eylemini kullanarak bir güneş ışığı aurası etkinleştirirsin. Bu aura 1 dakika sonunda yada sen başka bir eylem kullanarak söndürdüğünde biter. 60 feet çapında parlak ışık ve onun ötesinde 30 feet loş ışık yaymaya başlarsın. Parlak ışıkta olan düşmanların radyant yada ateş hasarı veren büyülere karşı attıkları kurtulma zarlarında dezavantajlı olurlar."
 										]
 									}
 								]
@@ -4833,23 +4833,23 @@
 						]
 					],
 					"source": "PHB",
-					"shortName": "Light"
+					"shortName": "Işık"
 				},
 				{
-					"name": "Nature Domain",
+					"name": "Doğa Alanı",
 					"subclassFeatures": [
 						[
 							{
-								"name": "Nature Domain",
+								"name": "Doğa Alanı",
 								"entries": [
-									"Gods of nature are as varied as the natural world itself, from inscrutable gods of the deep forests (such as Silvanus, Obad-Hai, Chislev, Balinor, and Pan) to friendly deities associated with particular springs and groves (such as Eldath). Druids revere nature as a whole and might serve one of these deities, practicing mysterious rites and reciting all-but-forgotten prayers in their own secret tongue. But many of these gods have clerics as well, champions who take a more active role in advancing the interests of a particular nature god. These clerics might hunt the evil monstrosities that despoil the woodlands, bless the harvest of the faithful, or wither the crops of those who anger their gods.",
-									"At each indicated cleric level, you add the listed spells to your spells prepared.",
+									"Doğanın tanrıları doğanın kendisi kadar çeşitlidirler. (Silvanus, Obad-Hai, Chislev, Balinor, ve Pan) gibi derin ormanlardan Eldath gibi belirli pınarlar ve koruluklarla bağdaştırılmış dostçul tanrılara kadar uzanır.Druidler doğaya tüm gücüyle tapıp bu tanrılardan birine gizemli ritüeller ve kendi dilleri dışında unutulmuş dualar ile hizmet ederler. Bu tanrıların çoğu rahiplere de sahiptir, bir doğa tanrısının gayelerini yerine getirmede daha aktif rol oynayan savaşçılar. Bu rahipler varlıklarıyla ormanları kirleten yaratıkları avlayabilir, inançlıların hasadını kutsayabilir, yada tanrılarını kızdıranların ekinini kurutabilirler.",
+									"Belirtilen rahip seviyelerinde bu büyüleri hazırlanmış büyü listene ekle.",
 									{
 										"type": "table",
-										"caption": "Nature Domain Spells",
+										"caption": "Doğa Alanı Büyüleri",
 										"colLabels": [
-											"Cleric Level",
-											"Spells"
+											"Rahip Seviyesi",
+											"Büyüler"
 										],
 										"colStyles": [
 											"col-xs-3 text-align-center",
@@ -4857,39 +4857,39 @@
 										],
 										"rows": [
 											[
-												"1st",
+												"1.",
 												"{@spell animal friendship}, {@spell speak with animals}"
 											],
 											[
-												"3rd",
+												"3.",
 												"{@spell barkskin}, {@spell spike growth}"
 											],
 											[
-												"5th",
+												"5.",
 												"{@spell plant growth}, {@spell wind wall}"
 											],
 											[
-												"7th",
+												"7.",
 												"{@spell dominate beast}, {@spell grasping vine}"
 											],
 											[
-												"9th",
+												"9.",
 												"{@spell insect plague}, {@spell tree stride}"
 											]
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Acolyte of Nature",
+										"name": "Doğanın Hizmetkarı",
 										"entries": [
-											"At 1st level, you learn one druid cantrip of your choice. You also gain proficiency in one of the following skills of your choice: Animal Handling, Nature, or Survival."
+											"1. seviyede seçeceğin bir druid cantripini öğrenirsin. Aynı zamanda Hayvan İdaresi, Doğa yada Hayatta Kalma becerilerinden birinde de uzmanlık kazanırsın."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Bonus Proficiency",
+										"name": "Bonus Uzmanlık",
 										"entries": [
-											"Also at 1st level, you gain proficiency with heavy armor."
+											"1. seviyede ağır zırhlarla uzmanlık kazanırsın."
 										]
 									}
 								]
@@ -4900,10 +4900,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Channel Divinity: Charm Animals and Plants",
+										"name": "Kutsal Yönlendirme: Hayvan ve Bitkileri Cezbet",
 										"entries": [
-											"Starting at 2nd level, you can use your Channel Divinity to charm animals and plants.",
-											"As an action, you present your holy symbol and invoke the name of your deity. Each beast or plant creature that can see you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is {@condition charmed} by you for 1 minute or until it takes damage. While it is {@condition charmed} by you, it is friendly to you and other creatures you designate."
+											"2. seviyeden itibaren Kutsal Yönlendirmeni hayvan ve bitkileri cezbetmek için kullanabilirsin.",
+											"Eylem olarak kutsal sembolünü öne çıkarıp tanrının adını anarsın. 30 feet yakınında seni görebilen tüm hayvan ve bitkiler Akıl kurtulma zarı atar. Eğer varlık kurtulma zarında başarısız olursa senin tarafından 1 dakikalığına yada hasar alıncaya dek cezbedilmiş olur. Cezbedilmişken sana ve belirlediğin varlıklara dosttur."
 										]
 									}
 								]
@@ -4914,9 +4914,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Dampen Elements",
+										"name": "Elementleri İndirge",
 										"entries": [
-											"Starting at 6th level, when you or a creature within 30 feet of you takes acid, cold, fire, lightning, or thunder damage, you can use your reaction to grant resistance to the creature against that instance of the damage."
+											"6. seviyeden itibaren sen veya 30 feet yakınındaki bir varlık asit, soğuk, ateş, yıldırım yada ses hasarı alırsa, reaksiyonunu kullanarak bu hasara karşı direnç verebilirsin."
 										]
 									}
 								]
@@ -4927,9 +4927,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Divine Strike",
+										"name": "Kutsal Darbe",
 										"entries": [
-											"At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 cold, fire, or lightning damage (your choice) to the target. When you reach 14th level, the extra damage increases to 2d8."
+											"8. seviyede silah saldırılarını kutsal enerji ile güçlendirmeyi öğrenirsin. Sıranda bir kereliğine silah saldırısıyla bir varlığa vurduğunda, o saldırının fazladan 1d8 soğuk, ateş yada yıldırım hasarı vermesini sağlarsın. 14. seviyeye eriştiğinde bu fazladan hasar 2d8'e çıkar."
 										]
 									}
 								]
@@ -4940,9 +4940,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Master of Nature",
+										"name": "Doğanın Üstadı",
 										"entries": [
-											"At 17th level, you gain the ability to command animals and plant creatures. While creatures are {@condition charmed} by your Charm Animals and Plants feature, you can take a bonus action on your turn to verbally command what each of those creatures will do on its next turn."
+											"17. seviyede hayvan ve bitki varlıklarını yönetme yetisine sahip olursun. Varlıklar senin Hayvan ve Bitkileri Cezbet özelliğin ile cezbedilmiş haldeyken, sıranda bonus eylem kullanıp her birinin ne yapması gerektiği bildiren sesli komutlar verebilirsin."
 										]
 									}
 								]
@@ -4950,23 +4950,23 @@
 						]
 					],
 					"source": "PHB",
-					"shortName": "Nature"
+					"shortName": "Doğa"
 				},
 				{
-					"name": "Tempest Domain",
+					"name": "Fırtına Alanı",
 					"subclassFeatures": [
 						[
 							{
-								"name": "Tempest Domain",
+								"name": "Fırtına Alanı",
 								"entries": [
-									"Gods whose portfolios include the Tempest domain\u2014including Talos, Umberlee, Kord, Zeboim, the Devourer, Zeus, and Thor\u2014govern storms, sea, and sky. They include gods of lightning and thunder, gods of earthquakes, some fire gods, and certain gods of violence, physical strength, and courage. In some pantheons, a god of this domain rules over other deities and is known for swift justice delivered by thunderbolts. In the pantheons of seafaring people, gods of this domain are ocean deities and the patrons of sailors. Tempest gods send their clerics to inspire fear in the common folk, either to keep those folk on the path of righteousness or to encourage them to offer sacrifices of propitiation to ward off divine wrath.",
-									"At each indicated cleric level, you add the listed spells to your spells prepared.",
+									"Talos, Umberlee, Kord, Zeboim, Zeus, ve Thor gibi fırtına alanına hükmeden tanrılar göğe, denize ve fırtınalara hükmederler. Şimşek ve yıldırım tanrıları, deprem tanrıları, bazı ateş tanrıları ve belirli güç, cesaret ve şiddet tanrıları bu alanda hükmederler. Bazı panteonlarda bu alanda hükmeden tanrılar yıldırımları ile seri adalet getirmeleri ile bilinirler. Denizci toplumların panteonlarında bunlar okyanus tanrıları ve denizcilerin efendileridir. Fırtına tanrıları rahiplerini halkta korku uyandırmak ve ya onları doğru yolda tutmak yada daha fazla kurban vermelerini sağlamak için gönderirler.",
+									"Belirtilen rahip seviyelerinde bu büyüleri hazırlanmış büyü listene ekle.",
 									{
 										"type": "table",
-										"caption": "Tempest Domain Spells",
+										"caption": "Fırtına Alanı Büyüleri",
 										"colLabels": [
-											"Cleric Level",
-											"Spells"
+											"Rahip Seviyesi",
+											"Büyüler"
 										],
 										"colStyles": [
 											"col-xs-3 text-align-center",
@@ -4974,40 +4974,40 @@
 										],
 										"rows": [
 											[
-												"1st",
+												"1.",
 												"{@spell fog cloud}, {@spell thunderwave}"
 											],
 											[
-												"3rd",
+												"3.",
 												"{@spell gust of wind}, {@spell shatter}"
 											],
 											[
-												"5th",
+												"5.",
 												"{@spell call lightning}, {@spell sleet storm}"
 											],
 											[
-												"7th",
+												"7.",
 												"{@spell control water}, {@spell ice storm}"
 											],
 											[
-												"9th",
+												"9.",
 												"{@spell destructive wave}, {@spell insect plague}"
 											]
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Bonus Proficiencies",
+										"name": "Bonus Uzmanlıklar",
 										"entries": [
-											"At 1st level, you gain proficiency with martial weapons and heavy armor."
+											"1. seviyede askeri silahlar ve ağır zırhlarla uzmanlık kazanırsın."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Wrath of the Storm",
+										"name": "Fırtınanın Hiddeti",
 										"entries": [
-											"Also at 1st level, you can thunderously rebuke attackers. When a creature within 5 feet of you that you can see hits you with an attack, you can use your reaction to cause the creature to make a Dexterity saving throw. The creature takes 2d8 lightning or thunder damage (your choice) on a failed saving throw, and half as much damage on a successful one.",
-											"You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest."
+											"1. seviyede saldırganlara gök gürültüsüyle karşılık verirsin. 5 feet yakınında görebildiğin bir varlık sana bir saldırıyla vurduğunda, reaksiyonunu kullanarak varlığı Çeviklik kurtulma zarı atmaya zorlayabilirsin. Varlık başarısız olursa 2d8 yıldırım yada ses hasarı alır, başarılı olursa bu hasar yarılanır.",
+											"Bu özelliği Akıl bonusun kadar (en az 1) kullanabilirsin. Tüm harcanan kullanımlar uzun dinlenme bitirdiğinde yenilenir."
 										]
 									}
 								]
@@ -5018,10 +5018,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Channel Divinity: Destructive Wrath",
+										"name": "Kutsal Yönlendirme: Yıkıcı Öfke",
 										"entries": [
-											"Starting at 2nd level, you can use your Channel Divinity to wield the power of the storm with unchecked ferocity.",
-											"When you roll lightning or thunder damage, you can use your Channel Divinity to deal maximum damage, instead of rolling."
+											"2. seviyeden itibaren Kutsal Yönlendirmen fırtınanın gücünü kontrolsüz bir şiddetle kullanmanı sağlar.",
+											"Yıldırım yada ses hasar zarı attığında, Kutsal Yönlendirmeni kullanıp max hasarı verebilirsin."
 										]
 									}
 								]
@@ -5032,9 +5032,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Thunderbolt Strike",
+										"name": "Yıldırım Darbe",
 										"entries": [
-											"At 6th level, when you deal lightning damage to a Large or smaller creature, you can also push it up to 10 feet away from you."
+											"6. seviyede Büyük yada daha küçük bir varlığa yıldırım hasarı verdiğinde, onu aynı zamanda senden uzağa 10 feet itebilirsin."
 										]
 									}
 								]
@@ -5045,9 +5045,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Divine Strike",
+										"name": "Kutsal Darbe",
 										"entries": [
-											"At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 thunder damage to the target. When you reach 14th level, the extra damage increases to 2d8."
+											"8. seviyede silah darbelerini kutsal enerji ile güçlendirmeyi öğrenirsin. Sıranda bir kereliğine bir varlığa silah saldırısı ile vurduğunda, saldırının fazladan 1d8 ses hasarı vermesini sağlayabilirsin. 14. seviyeye eriştiğinde bu fazladan hasar 2d8'e çıkar."
 										]
 									}
 								]
@@ -5058,9 +5058,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Stormborn",
+										"name": "Fırtınadoğan",
 										"entries": [
-											"At 17th level, you have a flying speed equal to your current walking speed whenever you are not underground or indoors."
+											"17. seviyede yeraltında yada kapalı bir yerde olmadığın sürece yürüme hızına eşit uçma hızın olur."
 										]
 									}
 								]
@@ -5068,23 +5068,23 @@
 						]
 					],
 					"source": "PHB",
-					"shortName": "Tempest"
+					"shortName": "Fırtına"
 				},
 				{
-					"name": "Trickery Domain",
+					"name": "Hile Alanı",
 					"subclassFeatures": [
 						[
 							{
-								"name": "Trickery Domain",
+								"name": "Hile Alanı",
 								"entries": [
-									"Gods of trickery\u2014such as Tymora, Beshaba, Olidammara, the Traveler, Garl Glittergold, and Loki\u2014are mischief-makers and instigators who stand as a constant challenge to the accepted order among both gods and mortals. They're patrons of thieves, scoundrels, gamblers, rebels, and liberators. Their clerics are a disruptive force in the world, puncturing pride, mocking tyrants, stealing from the rich, freeing captives, and flouting hollow traditions. They prefer subterfuge, pranks, deception, and theft rather than direct confrontation.",
-									"At each indicated cleric level, you add the listed spells to your spells prepared.",
+									"Tymora, Beshaba, Olidammara, Garl Glittergold, ve Loki gibi hile alanı tanrıları, ölümlüler ve tanrıların kabul ettiği düzende sorun yaratan kışkırtıcılar ve haylazlardır. Hırsızlar, kumarbazlar, düzenbazlar, isyancılar ve kurtarıcıların efendileridir. Onların rahipleri dünyada bir bozucu güçtür; kibiri deler, tiranlarla alay eder, zenginden çalar, esiri serbest bırakır ve kutsal geleneklerle eğlenirler. Doğrudan yüzleşme yerine hile, aldatma, hırsızlık ve şakaları tercih ederler.",
+									"belirli rahip seviyelerinde bu büyüleri hazırlanmış büyü listene ekle.",
 									{
 										"type": "table",
-										"caption": "Trickery Domain Spells",
+										"caption": "Hile Alan Büyüleri",
 										"colLabels": [
-											"Cleric Level",
-											"Spells"
+											"Rahip Seviyesi",
+											"Büyüler"
 										],
 										"colStyles": [
 											"col-xs-3 text-align-center",
@@ -5092,32 +5092,32 @@
 										],
 										"rows": [
 											[
-												"1st",
+												"1.",
 												"{@spell charm person}, {@spell disguise self}"
 											],
 											[
-												"3rd",
+												"3.",
 												"{@spell mirror image}, {@spell pass without trace}"
 											],
 											[
-												"5th",
+												"5.",
 												"{@spell blink}, {@spell dispel magic}"
 											],
 											[
-												"7th",
+												"7.",
 												"{@spell dimension door}, {@spell polymorph}"
 											],
 											[
-												"9th",
+												"9.",
 												"{@spell dominate person}, {@spell modify memory}"
 											]
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Blessing of the Trickster",
+										"name": "Hilebazın Kutsaması",
 										"entries": [
-											"Starting when you choose this domain at 1st level, you can use your action to touch a willing creature other than yourself to give it advantage on Dexterity (Stealth) checks. This blessing lasts for 1 hour or until you use this feature again."
+											"1. seviyede bu alanı seçmenden itibaren, eylem olarak senin dışında bir gönüllü varlığa dokunup ona Çeviklik (Gizlenme) zarlarında avantaj verebilirsin. Bu kutsama 1 saat yada bu özelliği yeniden kullanana dek sürer."
 										]
 									}
 								]
@@ -5128,11 +5128,11 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Channel Divinity: Invoke Duplicity",
+										"name": "Kutsal Yönlendirme: İkiyüzlülüğü Çağır",
 										"entries": [
-											"Starting at 2nd level, you can use your Channel Divinity to create an illusory duplicate of yourself.",
-											"As an action, you create a perfect illusion of yourself that lasts for 1 minute, or until you lose your concentration (as if you were concentrating on a spell). The illusion appears in an unoccupied space that you can see within 30 feet of you. As a bonus action on your turn, you can move the illusion up to 30 feet to a space you can see, but it must remain within 120 feet of you.",
-											"For the duration, you can cast spells as though you were in the illusion's space, but you must use your own senses. Additionally, when both you and your illusion are within 5 feet of a creature that can see the illusion, you have advantage on attack rolls against that creature, given how distracting the illusion is to the target."
+											"2. seviyeden itibaren Kutsal Yönlendirmeni kendinin bir illüzyon kopyasını yaratmak için kullanabilirsin.",
+											"Eylem olarak kendinin kusursuz bir illüzyonunu yaratırsın, bu 1 dakika yada sen konsantrasyonunu (bir büyüye konsantre olur gibi) kaybedene dek sürer. İllüzyon 30 feet yakınında görebildiğin boş bir karede ortaya çıkar. Sıranda bonus eylem olarak illüzyonu 30 feet'e kadar görebildiğin bir kareye ilerletebilirsin, ama daima 120 feet yakınında kalmalı.",
+											"Süresi boyunca illüzyonun karesindeymişçesine büyü yapabilirsin ama kendi duyularını kullanmalısın. Ek olarak, hem sen hem de illüzyonun, illüzyonu görebilen bir varlığın 5 feet yakınındayken o varlığa karşı yaptığın saldırılarda avantajın olur. Bunun sebebi illüzyonun varlık için dikkat dağıtıcı olmasıdır."
 										]
 									}
 								]
@@ -5143,10 +5143,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Channel Divinity: Cloak of Shadows",
+										"name": "Kutsal Yönlendirme: Gölge Pelerini",
 										"entries": [
-											"Starting at 6th level, you can use your Channel Divinity to vanish.",
-											"As an action, you become {@condition invisible} until the end of your next turn. You become visible if you attack or cast a spell."
+											"6. seviyeden itibaren Kutsal Yönlendirmeni ortadan kaybolmak için kullanabilirsin.",
+											"Eylem olarak bir sonraki sıranın sonuna kadar görünmez olursun. Saldırır yada büyü yaparsan görünür olursun."
 										]
 									}
 								]
@@ -5157,9 +5157,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Divine Strike",
+										"name": "Kutsal Darbe",
 										"entries": [
-											"At 8th level, you gain the ability to infuse your weapon strikes with poison\u2014a gift from your deity. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 poison damage to the target. When you reach 14th level, the extra damage increases to 2d8."
+											"8. seviyede silah darbelerini tanrından bir hediye olan zehir ile güçlendirebilirsin. Sıranda bir kereliğine bir varlığa silah saldırısıyla vurduğunda, saldırının fazladan 1d8 zehir hasarı vermesini sağlayabilirsin. 14. seviyeye eriştiğinde bu fazladan hasar 2d8'e çıkar."
 										]
 									}
 								]
@@ -5170,9 +5170,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Improved Duplicity",
+										"name": "Gelişmiş İkiyüzlülük",
 										"entries": [
-											"At 17th level, you can create up to four duplicates of yourself, instead of one, when you use Invoke Duplicity. As a bonus action on your turn, you can move any number of them up to 30 feet, to a maximum range of 120 feet."
+											"17. seviyede İkiyüzlülüğü Çağır özelliğini kullandığında bir yerine 4'e kadar kopyanı yaratabilirsin. Sıranda bonus eylem olarak istediğin kadarını 30 feet'e kadar hareket ettirebilirsin, ama daima 120 feet yakınında kalmalılar."
 										]
 									}
 								]
@@ -5180,23 +5180,23 @@
 						]
 					],
 					"source": "PHB",
-					"shortName": "Trickery"
+					"shortName": "Hile"
 				},
 				{
-					"name": "War Domain",
+					"name": "Savaş Alanı",
 					"subclassFeatures": [
 						[
 							{
-								"name": "War Domain",
+								"name": "Savaş Alanı",
 								"entries": [
-									"War has many manifestations. It can make heroes of ordinary people. It can be desperate and horrific, with acts of cruelty and cowardice eclipsing instances of excellence and courage. In either case, the gods of war watch over warriors and reward them for their great deeds. The clerics of such gods excel in battle, inspiring others to fight the good fight or offering acts of violence as prayers. Gods of war include champions of honor and chivalry (such as Torm, Heironeous, and Kiri-Jolith) as well as gods of destruction and pillage (such as Erythnul, the Fury, Gruumsh, and Ares) and gods of conquest and domination (such as Bane, Hextor, and Maglubiyet). Other war gods (such as Tempus, Nike, and Nuada) take a more neutral stance, promoting war in all its manifestations and supporting warriors in any circumstance.",
-									"At each indicated cleric level, add the listed spells to your spells prepared.",
+									"Savaş kendini bir çok yolla gösterir. Sıradan insanları kahraman yapabilir. Çevresinde cesaret ve zalimlik birbiri etrafında dönerken çaresiz ve korkunç olabilir. Her durumda savaş tanrıları bunları izler ve savaşçıları başarıları için ödüllendirir. Bu tanrıların rahipleri savaşta öne çıkarlar, diğerlerine savaşmaları için ilham verip şiddeti ibadet olarak sunarlar. (Torm, Heironeous, ve Kiri-Jolith) gibi cesaret ve onur, (Erythnul, Gruumsh, ve Ares) gibi yıkım ve yağma, (Bane, Hextor, ve Maglubiyet) gibi fetih ve üstünlük tanrıları bu alanda hükmeder.(Tempus, Nike, ve Nuada) gibi diğer savaş tanrıları daha tarafsız kalırlar, savaşı her yönüyle sevip savaşçıları her durumda desteklerler.",
+									"Belirtilen rahip seviyelerinde bu büyüleri hazırlanmış büyü listene ekle.",
 									{
 										"type": "table",
-										"caption": "War Domain Spells",
+										"caption": "Savaş Alanı Büyüleri",
 										"colLabels": [
-											"Cleric Level",
-											"Spells"
+											"Rahip Seviyesi",
+											"Büyüler"
 										],
 										"colStyles": [
 											"col-xs-3 text-align-center",
@@ -5204,39 +5204,39 @@
 										],
 										"rows": [
 											[
-												"1st",
+												"1.",
 												"{@spell divine favor}, {@spell shield of faith}"
 											],
 											[
-												"3rd",
+												"3.",
 												"{@spell magic weapon}, {@spell spiritual weapon}"
 											],
 											[
-												"5th",
+												"5.",
 												"{@spell crusader's mantle}, {@spell spirit guardians}"
 											],
 											[
-												"7th",
+												"7.",
 												"{@spell freedom of movement}, {@spell stoneskin}"
 											],
 											[
-												"9th",
+												"9.",
 												"{@spell flame strike}, {@spell hold monster}"
 											]
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Bonus Proficiencies",
+										"name": "Bonus Uzmanlıklar",
 										"entries": [
-											"At 1st level, you gain proficiency with martial weapons and heavy armor."
+											"1. seviyede askeri silahlar ve ağır zırhlarla uzmanlık kazanırsın."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "War Priest",
+										"name": "Savaş Rahibi",
 										"entries": [
-											"From 1st level, your god delivers bolts of inspiration to you while you are engaged in battle. When you use the Attack action, you can make one weapon attack as a bonus action. You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest."
+											"1. seviyeden itibaren sen savaşırken tanrın sana ilham kıvılcımları gönderir. Saldırı eylemini kullandığında bonus eylem olarak bir silahlı saldırı yapabilirsin. Bu özelliği Akıl bonusun kadar (en az 1) kullanabilirsin. Tüm harcanmış kullanımlar uzun dinlenme sonrası yenilenir."
 										]
 									}
 								]
@@ -5247,9 +5247,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Channel Divinity: Guided Strike",
+										"name": "Kutsal Yönlendirme: Güdümlü Darbe",
 										"entries": [
-											"Starting at 2nd level, you can use your Channel Divinity to strike with supernatural accuracy. When you make an attack roll, you can use your Channel Divinity to gain a +10 bonus to the roll. You make this choice after you see the roll, but before the DM says whether the attack hits or misses."
+											"2. seviyeden itibaren Kutsal Yönlendirmeni doğaüstü isabetle saldırmak için kullanabilirsin. Bir saldırı zarı attığında Kutsal Yönlendirmeni kullanıp zara +10 ekleyebilirsin. Bu seçimi zar sonucunu gördükten sonra ama DM saldırının vurup vurmadığını söylemeden yapabilirsin."
 										]
 									}
 								]
@@ -5260,9 +5260,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Channel Divinity: War God's Blessing",
+										"name": "Kutsal Yönlendirme: Savaş Tanrısının Kutsaması",
 										"entries": [
-											"At 6th level, when a creature within 30 feet of you makes an attack roll, you can use your reaction to grant that creature a +10 bonus to the roll, using your Channel Divinity. You make this choice after you see the roll, but before the DM says whether the attack hits or misses."
+											"6. seviyede 30 feet yakınındaki bir varlık saldırı zarı attığında, reaksiyonun ile Kutsal Yönlendirme kullanarak bu zara +10 ekleyebilirsin. Bu seçimi zar sonucunu gördükten sonra ama DM saldırının vurup vurmadığını söylemeden yapabilirsin."
 										]
 									}
 								]
@@ -5273,9 +5273,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Divine Strike",
+										"name": "Kutsal Darbe",
 										"entries": [
-											"At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 damage of the same type dealt by the weapon to the target. When you reach 14th level, the extra damage increases to 2d8."
+											"8. seviyede silah darbelerini kutsal enerji ile güçlendirmeyi öğrenirsin. Sıranda bir kereliğine bir varlığa silah saldırısıyla vurduğunda, fazladan 1d8 silahının verdiği hasar tipinden ekleyebilirsin. 14. seviyeye eriştiğinde bu fazladan hasar 2d8'e çıkar."
 										]
 									}
 								]
@@ -5286,9 +5286,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Avatar of Battle",
+										"name": "Savaş Avatarı",
 										"entries": [
-											"At 17th level, you gain resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons."
+											"17. seviyede büyüsüz silahlardan gelen ezici, delici ve kesici hasara direncin olur."
 										]
 									}
 								]
@@ -5296,7 +5296,7 @@
 						]
 					],
 					"source": "PHB",
-					"shortName": "War"
+					"shortName": "Savaş"
 				},
 				{
 					"name": "Forge Domain (UA)",
@@ -5426,20 +5426,20 @@
 					"shortName": "Forge (UA)"
 				},
 				{
-					"name": "Forge Domain",
+					"name": "Ocak Alanı",
 					"subclassFeatures": [
 						[
 							{
-								"name": "Forge Domain",
+								"name": "Ocak Alanı",
 								"entries": [
-									"The gods of the forge are patrons of artisans who work with metal, from a humble blacksmith who keeps a village in horseshoes and plow blades to the mighty elf artisan whose diamond-tipped arrows of mithral have felled demon lords. The gods of the forge teach that, with patience and hard work, even the most intractable metal can be transformed from a lump of ore to a beautifully wrought object. Clerics of these deities search for objects lost to the forces of darkness, liberate mines overrun by orcs, and uncover rare and wondrous materials necessary to create potent magic items. Followers of these gods take great pride in their work, and they are willing to craft and use heavy armor and powerful weapons to protect them. Deities of this domain include Gond, Reorx, Onatar, Moradin, Hephaestus, and Goibhniu.",
-									"At each indicated cleric level, add the listed spells to your spells prepared.",
+									"Ocak alanı tanrıları metal işleyen zanaatkarların efendileridir. Köyde nal ve saban döven mütevazi demirciden, elmas uçlu mithral okları şeytan efendilerini deviren elf üstada kadar yayılan hizmetkarları vardır. Ocağın tanrıları yeterince sabır ve sıkı çalışmayla, en zor işlenen metalin bile bir cevher yığınından göz kamaştıran bir esere dönüşebileceğini öğütler. Bu tanrıların rahipleri karanlık güçlerine düşmüş objeleri ararlar, orklar tarafından ele geçirilmiş madenleri temizlerler ve güçlü büyülü eşyalar yapmak için gereken nadir ve mükemmel materyalleri keşfederler. Bu tanrıların hizmetkarları zanaatları ile gurur duyarlar ve kendilerini koruyacak ağır zırh ve güçlü silahları dövmeye gönüllüdürler. Bu alanın tanrılarına örnekler şunlardır; Gond, Reorx, Onatar, Moradin, Hephaestus, ve Goibhniu.",
+									"Belirtilen rahip seviyelerinde bu büyüleri hazırlanmış büyü listene ekle.",
 									{
 										"type": "table",
-										"caption": "Forge Domain Spells",
+										"caption": "Ocak Alanı Büyüleri",
 										"colLabels": [
-											"Cleric Level",
-											"Spells"
+											"Rahip Seviyesi",
+											"Büyüler"
 										],
 										"colStyles": [
 											"col-xs-3 text-align-center",
@@ -5447,39 +5447,39 @@
 										],
 										"rows": [
 											[
-												"1st",
+												"1.",
 												"{@spell identify}, {@spell searing smite}"
 											],
 											[
-												"3rd",
+												"3.",
 												"{@spell heat metal}, {@spell magic weapon}"
 											],
 											[
-												"5th",
+												"5.",
 												"{@spell elemental weapon}, {@spell protection from energy}"
 											],
 											[
-												"7th",
+												"7.",
 												"{@spell fabricate}, {@spell wall of fire}"
 											],
 											[
-												"9th",
+												"9.",
 												"{@spell animate objects}, {@spell creation}"
 											]
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Bonus Proficiency",
+										"name": "Bonus Uzmanlık",
 										"entries": [
-											"When you choose this domain at 1st level, you gain proficiency with heavy armor and smith's tools."
+											"1. seviyede bu alanı seçince ağır zırhlarla ve demirci aletleriyle uzmanlık kazanırsın."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Blessing of the Forge",
+										"name": "Ocağın Kutsaması",
 										"entries": [
-											"At 1st level, you gain the ability to imbue magic into a weapon or armor. At the end of a long rest, you can touch one nonmagical object that is a suit of armor or a simple or martial weapon. Until the end of your next long rest or until you die, the object becomes a magic item, granting a +1 bonus to AC if it's armor or a +1 bonus to attack and damage rolls if it's a weapon.",
+											"1. seviyede silah ve zırhlara büyü aşılamayı öğrenirsin. Uzun dinlenme sonunda bir büyüsüz zırha, basit yada askeri bir silaha dokunursun. Sen ölene yada bir sonraki uzun dinlenmenin sonuna kadar bu nesne bir büyülü eşya olur ve eğer zırhsa AC'ye +1 bonus, eğer silahsa saldırı ve hasar zarlarına +1 bonus ekler.",
 											"Once you use this feature, you can't use it again until you finish a long rest."
 										]
 									}
@@ -5491,11 +5491,11 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Channel Divinity: Artisan's Blessing",
+										"name": "Kutsal Yönlendirme: Zanaatkarın Kutsaması",
 										"entries": [
-											"Starting at 2nd level, you can use your Channel Divinity to create simple items.",
-											"You conduct an hour-long ritual that crafts a nonmagical item that must include some metal: a simple or martial weapon, a suit of armor, ten pieces of ammunition, a set of tools, or another metal object (see chapter 5, \"Equipment,\" in the Player's Handbook for examples of these items). The creation is completed at the end of the hour, coalescing in an unoccupied space of your choice on a surface within 5 feet of you.",
-											"The thing you create can be something that is worth no more than 100 gp. As part of this ritual, you must lay out metal, which can include coins, with a value equal to the creation. The metal irretrievably coalesces and transforms into the creation at the ritual's end, magically forming even nonmetal parts of the creation. The ritual can create a duplicate of a nonmagical item that contains metal, such as a key, if you possess the original during the ritual."
+											"2. seviyeden itibaren Kutsal Yönlendirmeni basit eşyalar yaratmak için kullanabilirsin.",
+											"Bir saat süren bir ritüel ile büyüsüz ve içinde metal olan eşyalar yaratabilirsin. Örnek olarak; basit yada askeri bir silah, bir zırh seti, 10 adet ok, bir alet seti yada başka metal nesneler. Bu yaratış bir saatin sonunda gerçekleşir ve 5 feet yakınında boş bir yüzeyde şekil bulur.",
+											"Yarattığın şey 100 gp değerinin üzerinde olamaz. Bu ritüelin parçası olarak yarattığın eşyanın değerine eşit değerde metal koymalısın, metalik para da buna dahildir. Bu metal ritüel sonunda geri getirilemeyecek bir şekilde yeni formuna dönüşür ve eşyanın metal olmayan parçalarını bile büyülü bir şekilde dönüşerek oluşturur. Bu ritüel metal içeren büyüsüz bir eşyanın kopyasını oluşturmak için kullanılabilir, ritüel boyunca orijinal eşya seninle olduğu sürece bu mümkün olacaktır. Bunun en güzel örneği bir anahtardır."
 										]
 									}
 								]
@@ -5506,14 +5506,14 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Soul of the Forge",
+										"name": "Ocağın Ruhu",
 										"entries": [
-											"Starting at 6th level, your mastery of the forge grants you special abilities:",
+											"6. seviyeden itibaren ocaktaki ustalığın sana özel yetenekler kazandırır:",
 											{
 												"type": "list",
 												"items": [
-													"You gain resistance to fire damage.",
-													"While wearing heavy armor, you gain a +1 bonus to AC."
+													"Ateş hasarına direnç kazanırsın.",
+													"Ağır zırh giyerken AC'ne +1 bonus alırsın."
 												]
 											}
 										]
@@ -5526,9 +5526,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Divine Strike",
+										"name": "Kutsal Darbe",
 										"entries": [
-											"At 8th level, you gain the ability to infuse your weapon strikes with the fiery power of the forge. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 fire damage to the target. When you reach 14th level, the extra damage increases to 2d8."
+											"8. seviyede silah darbelerini ocağın alevli gücü ile güçlendirmeyi öğrenirsin. Sıranda bir kereliğine bir varlığa silah saldırısıyla vurduğunda, saldırının fazladan 1d8 ateş hasarı vermesini sağlayabilirsin. 14. seviyeye eriştiğinde bu fazladan hasar 2d8'e çıkar."
 										]
 									}
 								]
@@ -5539,14 +5539,14 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Saint of Forge and Fire",
+										"name": "Ocak ve Ateş Azizi",
 										"entries": [
-											"At 17th level, your blessed affinity with fire and metal becomes more powerful:",
+											"17. seviyede ateş ve metalle olan kutsal bağın daha da güçlenir:",
 											{
 												"type": "list",
 												"items": [
-													"You gain immunity to fire damage",
-													"While wearing heavy armor, you have resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks."
+													"Ateş hasarına bağışıklık kazanırsın.",
+													"Ağır zırh giyerken büyüsüz saldırılardan gelen ezici, delici ve kesici hasara direncin olur."
 												]
 											}
 										]
@@ -5556,7 +5556,7 @@
 						]
 					],
 					"source": "XGE",
-					"shortName": "Forge"
+					"shortName": "Ocak"
 				},
 				{
 					"name": "Grave Domain (UA)",
@@ -6273,19 +6273,19 @@
 					"shortName": "Zeal (PSA)"
 				},
 				{
-					"name": "Grave Domain",
+					"name": "Mezar Alanı",
 					"subclassFeatures": [
 						[
 							{
-								"name": "Grave Domain",
+								"name": "Mezar Alanı",
 								"entries": [
-									"Gods of the grave watch over the line between life and death. To these deities, death and the afterlife are a foundational part of the multiverse. To desecrate the peace of the dead is an abomination. Deities of the grave include Kelemvor, Wee Jas, the ancestral spirits of the Undying Court, Hades, Anubis, and Osiris. Followers of these deities seek to put wandering spirits to rest, destroy the undead, and ease the suffering of the dying. Their magic also allows them to stave off death for a time, particularly for a person who still has some great work to accomplish in the world. This is a delay of death, not a denial of it, for death will eventually get its due.",
+									"Mezarın tanrıları yaşam ve ölüm arasındaki çizgiyi gözetirler. Bu tanrılar için ölüm ve ahiret çoklu evrenin vazgeçilmez parçalarındandır. Ölümün huzurunu bozmak sapkınlıktır. Kelemvor, Wee Jas, Hades, Anubis, ve Osiris bu alanın tanrıları arasındadır. Bu tanrıların müritleri kaybolmuş ruhları huzura kavuşturmak, ölenlerin acısını dindirmek ve yaşayan ölüleri yok etmek ile ilgilenirler. Onların büyüsü aynı zamanda ölümü bir süreliğine geciktirmeyi de sağlar, özellikle bu dünyada daha yapacak işleri olan kişiler için. Bu sadece ölümü geciktirmedir, onu reddetme değil. Ölüm daima ölümlüyü bulacaktır.",
 									{
 										"type": "table",
-										"caption": " Domain Spells",
+										"caption": " Alan Büyüleri",
 										"colLabels": [
-											"Cleric Level",
-											"Spells"
+											"Rahip Seviyesi",
+											"Büyüler"
 										],
 										"colStyles": [
 											"col-xs-3 text-align-center",
@@ -6293,41 +6293,41 @@
 										],
 										"rows": [
 											[
-												"1st",
+												"1.",
 												"{@spell bane}, {@spell false life}"
 											],
 											[
-												"3rd",
+												"3.",
 												"{@spell gentle repose}, {@spell ray of enfeeblement}"
 											],
 											[
-												"5th",
+												"5.",
 												"{@spell revivify}, {@spell vampiric touch}"
 											],
 											[
-												"7th",
+												"7.",
 												"{@spell blight}, {@spell death ward}"
 											],
 											[
-												"9th",
+												"9.",
 												"{@spell antilife shell}, {@spell raise dead}"
 											]
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Circle of Mortality",
+										"name": "Fanilik Çemberi",
 										"entries": [
-											"At 1st level, you gain the ability to manipulate the line between life and death. When you would normally roll one or more dice to restore hit points with a spell to a creature at 0 hit points, you instead use the highest number possible for each die.",
-											"In addition, you learn the {@spell spare the dying} cantrip, which doesn't count against the number of cleric cantrips you know. For you, it has a range of 30 feet, and you can cast it as a bonus action."
+											"1. seviyede yaşam ve ölüm arasındaki çizgiyi kontrol etmeyi öğrenirsin. 0 HP'ye düşmüş bir varlığa HP yenileyecek bir büyü kullandığında, atacağın zarların maksimum değerlerini kullanabilirsin.",
+											"Ek olarak, {@spell spare the dying} cantripini öğrenirsin ve bu bildiğin rahip cantripleri sayısını etkilemez. Senin için bunun 30 feet menzili vardır ve bonus eylem olarak kullanabilirsin."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Eyes of the Grave",
+										"name": "Mezarın Gözleri",
 										"entries": [
-											"At 1st level, you gain the ability to occasionally sense the presence of the undead, whose existence is an insult to the natural cycle of life. As an action, you can open your awareness to magically detect undead. Until the end of your next turn, you know the location of any undead within 60 feet of you that isn't behind total cover and that isn't protected from divination magic. This sense doesn't tell you anything about a creature's capabilities or identity.",
-											"You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a long rest."
+											"1. seviyede, varlığı doğal yaşam döngüsüne hakaret olan yaşayan ölülerin varlığını hissetme yeteneğini kazanırsın. Eylem olarak farkındalığını büyülü bir şekilde artırıp yaşayan ölüleri tespit edersin. Sonraki sıranın sonuna kadar 60 feet yakınında tam siper arkasında olmayan ve divination büyülerine karşı koruması olmayan yaşayan ölülerin yerini bilirsin. Bu his sana varlığın gücü yada kimliği hakkında bilgi vermez.",
+											"Bu özelliği Akıl bonusun kadar (en az 1) kullanabilirsin. Tüm harcanmış kullanımlar uzun dinlenme sonrası yenilenir."
 										]
 									}
 								]
@@ -6338,10 +6338,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Channel Divinity: Path to the Grave",
+										"name": "Kutsal Yönlendirme: Mezara Giden Yol",
 										"entries": [
-											"Starting at 2nd level, you can use your Channel Divinity to mark another creature's life force for termination.",
-											"As an action, you choose one creature you can see within 30 feet of you, cursing it until the end of your next turn. The next time you or an ally of yours hits the cursed creature with an attack, the creature has vulnerability to all of that attack's damage, and then the curse ends."
+											"2. seviyeden itibaren Kutsal Yönlendirmeni kullanarak başka bir varlığın yaşam gücünü tükenmesi için işaretleyebilirsin.",
+											"Eylem olarak 30 feet yakınında görebildiğin bir varlığı seçip sonraki sıranın sonuna kadar lanetlersin. Senin veya bir dostunun yaptığı ilk saldırının tüm hasarına zayıflığı olur ve sonra lanet biter."
 										]
 									}
 								]
@@ -6352,10 +6352,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Sentinel at Death's Door",
+										"name": "Ölüm Kapısının Bekçisi",
 										"entries": [
-											"At 6th level, you gain the ability to impede death's progress. As a reaction when you or a creature you can see within 30 feet of you suffers a critical hit, you can turn that hit into a normal hit. Any effects triggered by a critical hit are canceled.",
-											"You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a long rest."
+											"6. seviyede ölümün ilerlemesini durdurma yeteneğin olur. Sen yada 30 feet yakınında görebildiğin başka bir varlık kritik bir saldırıya maruz kaldığında reaksiyonunu kullanarak bunu normal bir saldırıya çevirebilirsin. Kritik saldırı ile gelen bütün yan etkiler iptal olur.",
+											"Bu özelliği Akıl bonusun kadar (en az 1) kullanabilirsin. Tüm harcanmış kullanımlar uzun dinlenme sonrası yenilenir."
 										]
 									}
 								]
@@ -6366,9 +6366,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Potent Spellcasting",
+										"name": "Güçlü Büyü Yapma",
 										"entries": [
-											"Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip."
+											"8. seviyeden itibaren rahip cantripleri ile verdiğin hasara Akıl bonusunu ekleyebilirsin."
 										]
 									}
 								]
@@ -6379,9 +6379,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Keeper of Souls",
+										"name": "Ruh Muhafızı",
 										"entries": [
-											"Starting at 17th level, you can seize a trace of vitality from a parting soul and use it to heal the living. When an enemy you can see dies within 60 feet of you, you or one creature of your choice that is within 60 feet of you regains hit points equal to the enemy's number of Hit Dice. You can use this feature only if you aren't {@condition incapacitated}. Once you use it, you can't do so again until the start of your next turn."
+											"17. seviyeden itibaren, ayrılan bir ruhtan aldığın enerji ile yaşayanları iyileştirebilirsin. 60 feet yakınında görebildiğin bir düşman öldüğünde, sen yada 60 feet yakınında seçeceğin bir varlık düşmanın HD'si (Hit Dice) kadar HP yenilersin. Bu özelliği bilinçsizken kullanamazsın. Bunu kullandıktan sonra bir sonraki sıranın başına kadar bir daha kullanamazsın."
 										]
 									}
 								]
@@ -6389,7 +6389,7 @@
 						]
 					],
 					"source": "XGE",
-					"shortName": "Grave"
+					"shortName": "Mezar"
 				},
 				{
 					"name": "Order Domain (UA)",

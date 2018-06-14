@@ -287,7 +287,7 @@ function loadhash (id) {
 
 	// starting equipment
 	const sEquip = curClass.startingEquipment;
-	const fromBackground = sEquip.additionalFromBackground ? "<p>Arka planından gelenler ile birlikte bu nesnelerle başlarsın.</p>" : "";
+	const fromBackground = sEquip.additionalFromBackground ? "<p>Geçmişinden gelenler ile birlikte bu eşyalarla başlarsın.</p>" : "";
 	const defList = sEquip.default.length === 0 ? "" : `<ul><li>${sEquip.default.join("</li><li>")}</ul>`;
 	const goldAlt = sEquip.goldAlternative === undefined ? "" : `<p>Alternatif olarak, ${sEquip.goldAlternative} gp ile başlayıp kendi ekipmanını alabilirsin.</p>`;
 	$("#equipment").find("div").html(`${fromBackground}${defList}${goldAlt}`);
