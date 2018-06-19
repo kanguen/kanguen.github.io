@@ -96,12 +96,12 @@ RNG_TOUCH = "touch";
 UNT_FEET = "feet";
 UNT_MILES = "miles";
 
-ABIL_STR = "Strength";
-ABIL_DEX = "Dexterity";
-ABIL_CON = "Constitution";
-ABIL_INT = "Intelligence";
-ABIL_WIS = "Wisdom";
-ABIL_CHA = "Charisma";
+ABIL_STR = "Kuvvet";
+ABIL_DEX = "Çeviklik";
+ABIL_CON = "Dayanıklılık";
+ABIL_INT = "Zeka";
+ABIL_WIS = "Akıl";
+ABIL_CHA = "Karizma";
 ABIL_CH_ANY = "Choose Any";
 
 HOMEBREW_STORAGE = "HOMEBREW_STORAGE";

@@ -464,14 +464,14 @@ function loadhash (id) {
 	function buildStatsTab () {
 		$content.append(`
 		${EntryRenderer.utils.getBorderTr()}
-		<tr><th class="name" colspan="6">Name <span class="source" title="Source book">SRC</span></th></tr>
-		<tr><td id="sizetypealignment" colspan="6"><span id="size">Size</span> <span id="type">type</span>, <span id="alignment">alignment</span></td></tr>
+		<tr><th class="name" colspan="6">İsim <span class="source" title="Kaynak Kitap">SRC</span></th></tr>
+		<tr><td id="sizetypealignment" colspan="6"><span id="size">Boyut</span> <span id="type">type</span>, <span id="alignment">alignment</span></td></tr>
 		<tr><td class="divider" colspan="6"><div></div></td></tr>
-		<tr><td colspan="6"><strong>Armor Class</strong> <span id="ac">## (source)</span></td></tr>
-		<tr><td colspan="6"><strong>Hit Points</strong> <span id="hp">hp</span></td></tr>
-		<tr><td colspan="6"><strong>Speed</strong> <span id="speed">30 ft.</span></td></tr>
+		<tr><td colspan="6"><strong>Zırh - AC</strong> <span id="ac">## (source)</span></td></tr>
+		<tr><td colspan="6"><strong>Hit Puanları</strong> <span id="hp">hp</span></td></tr>
+		<tr><td colspan="6"><strong>Hız</strong> <span id="speed">30 ft.</span></td></tr>
 		<tr><td class="divider" colspan="6"><div></div></td></tr>
-		<tr id="abilitynames"><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr>
+		<tr id="abilitynames"><th>KVT</th><th>ÇVK</th><th>DYN</th><th>ZEK</th><th>AKL</th><th>KRZ</th></tr>
 		<tr id="abilityscores">
 			<td id="str">${EntryRenderer.getDefaultRenderer().renderEntry(`{@dice 1d20${Parser.getAbilityModifier(mon.str)}|${mon.str} (${Parser.getAbilityModifier(mon.str)})|Strength}`)}</td>
 			<td id="dex">${EntryRenderer.getDefaultRenderer().renderEntry(`{@dice 1d20${Parser.getAbilityModifier(mon.dex)}|${mon.dex} (${Parser.getAbilityModifier(mon.dex)})|Dexterity}`)}</td>
@@ -481,26 +481,26 @@ function loadhash (id) {
 			<td id="cha">${EntryRenderer.getDefaultRenderer().renderEntry(`{@dice 1d20${Parser.getAbilityModifier(mon.cha)}|${mon.cha} (${Parser.getAbilityModifier(mon.cha)})|Charisma}`)}</td>
 		</tr>
 		<tr><td class="divider" colspan="6"><div></div></td></tr>
-		<tr><td colspan="6"><strong>Saving Throws</strong> <span id="saves">Str +0</span></td></tr>
-		<tr><td colspan="6"><strong>Skills</strong> <span id="skills">Perception +0</span></td></tr>
-		<tr><td colspan="6"><strong>Damage Vulnerabilities</strong> <span id="dmgvuln">fire</span></td></tr>
-		<tr><td colspan="6"><strong>Damage Resistances</strong> <span id="dmgres">cold</span></td></tr>
-		<tr><td colspan="6"><strong>Damage Immunities</strong> <span id="dmgimm">lightning</span></td></tr>
-		<tr><td colspan="6"><strong>Condition Immunities</strong> <span id="conimm">exhaustion</span></td></tr>
-		<tr><td colspan="6"><strong>Senses</strong> <span id="senses">darkvision 30 ft.</span> passive Perception <span id="pp">10</span></td></tr>
-		<tr><td colspan="6"><strong>Languages</strong> <span id="languages">Common</span></td></tr>
-		<tr><td colspan="6"><strong>Challenge</strong> <span id="cr">1 (450 XP)</span></td></tr>
+		<tr><td colspan="6"><strong>Kurtulma Zarları</strong> <span id="saves">Str +0</span></td></tr>
+		<tr><td colspan="6"><strong>Beceriler</strong> <span id="skills">Perception +0</span></td></tr>
+		<tr><td colspan="6"><strong>Hasar Zayıflıkları</strong> <span id="dmgvuln">fire</span></td></tr>
+		<tr><td colspan="6"><strong>Hasar Dirençleri</strong> <span id="dmgres">cold</span></td></tr>
+		<tr><td colspan="6"><strong>Hasar Bağışıklıkları</strong> <span id="dmgimm">lightning</span></td></tr>
+		<tr><td colspan="6"><strong>Durum Bağışıklıkları</strong> <span id="conimm">exhaustion</span></td></tr>
+		<tr><td colspan="6"><strong>Duyular</strong> <span id="senses">darkvision 30 ft.</span> passive Perception <span id="pp">10</span></td></tr>
+		<tr><td colspan="6"><strong>Diller</strong> <span id="languages">Common</span></td></tr>
+		<tr><td colspan="6"><strong>Zorluk</strong> <span id="cr">1 (450 XP)</span></td></tr>
 		<tr id="traits"><td class="divider" colspan="6"><div></div></td></tr>
 		<tr class="trait"><td colspan="6"><span class="name">Trait.</span> <span class="content">Content.</span></td></tr>
-		<tr id="actions"><td colspan="6"><span>Actions</span></td></tr>
+		<tr id="actions"><td colspan="6"><span>Eylemler</span></td></tr>
 		<tr class="action"><td colspan="6"><span class="name">Action.</span> <span class="content">Content.</span></td></tr>
-		<tr id="reactions"><td colspan="6"><span>Reactions</span></td></tr>
+		<tr id="reactions"><td colspan="6"><span>Reaksiyonlar</span></td></tr>
 		<tr class="reaction"><td colspan="6"><span class="name">Reaction.</span> <span class="content">Content.</span></td></tr>
-		<tr id="legendaries"><td colspan="6"><span>Legendary Actions</span></td></tr>
+		<tr id="legendaries"><td colspan="6"><span>Efsanevi Eylemler</span></td></tr>
 		<tr class="legendary"><td colspan="6"><span class="name">Action.</span> <span class="content">Content.</span></td></tr>
-		<tr id="lairactions"><td colspan="6"><span>Lair Actions</span></td></tr>
+		<tr id="lairactions"><td colspan="6"><span>Yuva Eylemleri</span></td></tr>
 		<tr class="lairaction"><td colspan="6"><span class="name">Action.</span> <span class="content">Content.</span></td></tr>
-		<tr id="regionaleffects"><td colspan="6"><span>Regional Effects</span></td></tr>
+		<tr id="regionaleffects"><td colspan="6"><span>Bölgesel Etkiler</span></td></tr>
 		<tr class="regionaleffect"><td colspan="6"><span class="name">Effect.</span> <span class="content">Content.</span></td></tr>
 		<tr id="variants"></tr>
 		<tr id="source"></tr>

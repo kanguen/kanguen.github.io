@@ -12648,7 +12648,7 @@
 					"kısa kılıçlar"
 				],
 				"tools": [
-					"bir tip zanaatkar aracı yada seçeceğin bir müzikal alet"
+					"bir tip zanaatkar aleti yada seçeceğin bir müzikal alet"
 				],
 				"skills": {
 					"choose": 2,
@@ -12676,7 +12676,7 @@
 					{
 						"name": "Zırhsız Savunma",
 						"entries": [
-							"Birinci seviyeden itibaren zırhsız ve kalkan kullanmazken karakterinin AC'si 10 + dexterity bonusun + wisdom bonusun olur."
+							"1. seviyeden itibaren zırh ve kalkan kullanmıyorken karakterinin AC'si 10 + Çeviklik bonusun + Akıl bonusun olur."
 						]
 					},
 					{
@@ -12687,7 +12687,7 @@
 							{
 								"type": "list",
 								"items": [
-									"Keşiş silahları ve silahsız saldırılarının saldırı ve hasar zarları için Strength yerine Dexterity kullanabilirsin.",
+									"Keşiş silahları ve silahsız saldırılarının, saldırı ve hasar zarları için Kuvvet yerine Çeviklik kullanabilirsin.",
 									"Keşiş silahları yada silahsız saldırılarının hasar zarı için normal zar yerine d4 kullanabilirsin.Bu zar sen keşiş seviyeleri kazandıkça tabloda Dövüş Sanatları sütununda görüldüğü üzere yükselir.",
 									"Kendi sıranda Saldırı eylemini gerçekleştirip keşiş silahları ile yada silahsız saldırı yaparsan bonus eylem olarak bir silahsız saldırı daha yapabilirsin."
 								]
@@ -12737,8 +12737,8 @@
 					{
 						"name": "Zırhsız Hareket",
 						"entries": [
-							"2. seviyeden itibaren, zırhsız ve kalkansız iken hızın 10 feet artar. Bu bonus sen belirli keşiş seviyelerine ulaştıkça tabloda görülebileceği üzere yükselir.",
-							"Dokuzuncu seviyede, kendi sıranda düşmeden dikey yüzeylerde ve sıvıların üzerinde hareket etme yeteneğini kazanırsın."
+							"2. seviyeden itibaren, zırh ve kalkan kullanmıyorken hızın 10 feet artar. Bu bonus sen belirli keşiş seviyelerine ulaştıkça tabloda görülebileceği üzere yükselir.",
+							"9. seviyede, kendi sıranda düşmeden dikey yüzeylerde ve sıvıların üzerinde hareket etme yeteneğini kazanırsın."
 						]
 					}
 				],
@@ -12746,8 +12746,8 @@
 					{
 						"name": "Misilleri Saptır",
 						"entries": [
-							"3. seviyeden itibaren reaksiyonunu kullanarak sana vuracak olan bir menzilli silah saldırısının misilini saptırabilir yada yakalayabilirsin. Bunu yaptığında sana gelecek hasarı 1d10 + Dexterity bonusun + keşiş seviyen kadar düşürürsün.",
-							"Eğer hasar sıfıra düşerse gelen misili, misilin tek elle tutulabilecek küçüklükte olması şartıyla yakalayabilirisin. Eğer bu şekilde misili yakalarsan bir ki puanı harcayarak aynı reaksiyonun bir parçası olarak menzilli silah saldırısı (menzil 20/60) yapabilirsin. Bu saldırıyı silah uzmanlıklarını gözetmeksizin uzmanlıkla yaparsın ve misil bu saldırı için keşiş silahı kabul edilir."
+							"3. seviyeden itibaren reaksiyonunu kullanarak sana vuracak olan bir menzilli silah saldırısının misilini saptırabilir yada yakalayabilirsin. Bunu yaptığında sana gelecek hasarı 1d10 + çeviklik bonusun + keşiş seviyen kadar düşürürsün.",
+							"Eğer hasar sıfıra düşerse gelen misili, misilin tek elle tutulabilecek küçüklükte olması şartıyla yakalayabilirisin. Eğer bu şekilde misili yakalarsan bir ki puanı harcayıp aynı reaksiyonun bir parçası olarak menzilli silah saldırısı (menzil 20/60) yapabilirsin. Bu saldırıyı silah uzmanlıklarını gözetmeksizin uzmanlıkla yaparsın ve misil bu saldırı için keşiş silahı kabul edilir."
 						]
 					},
 					{
@@ -12783,7 +12783,7 @@
 					{
 						"name": "Sersemleten Darbe",
 						"entries": [
-							"5. seviyeden itibaren rakibin bedenindeki ki akışına müdahale edebilirsin. Başka bir varlığa yakın dövüş saldırısı ile vurunca, 1 ki puanı harcayarak sersemleten bir darbe vurmayı deneyebilirsin. Hedef Constitution kurtulma zarında başarılı olmalı yada senin bir sonraki sıranın sonuna kadar sersemler."
+							"5. seviyeden itibaren rakibin bedenindeki ki akışına müdahale edebilirsin. Başka bir varlığa yakın dövüş saldırısı ile vurunca, 1 ki puanı harcayarak sersemleten bir darbe vurmayı deneyebilirsin. Hedef Dayanıklılık kurtulma zarında başarılı olur yada senin bir sonraki sıranın sonuna kadar sersemler."
 						]
 					}
 				],
@@ -12791,7 +12791,7 @@
 					{
 						"name": "Ki Etkili Vuruşlar",
 						"entries": [
-							"6. seviyeden itibaren silahsız saldırıların, büyüsüz hasar bağışıklığı ve direncini aşmak adına büyülü sayılır."
+							"6. seviyeden itibaren silahsız saldırıların, büyüsüz hasar bağışıklığı ve direncini aşmak için büyülü sayılır."
 						]
 					},
 					{
@@ -12804,15 +12804,15 @@
 				],
 				[
 					{
-						"name": "Kaçınma",
+						"name": "Sıyrılma",
 						"entries": [
-							"7. seviyede içgüdüsel çevikliğin bazı alan etkilerinden kurtulmanı sağlar. Buna örnek olarak bir mavi ejderhanın yıldırım nefesi yada (@spell fireball) büyüsü verilebilir. Sana yarı hasar almak için Dexterity kurtulma zarı atmanı gerektirecek bir etkiye maruz kaldığında; eğer başarılı olursan hiç hasar almazsın ve başarısız olduğunda sadece yarı hasarı alırsın. "
+							"7. seviyede içgüdüsel çevikliğin bazı alan etkilerinden kurtulmanı sağlar. Buna örnek olarak bir mavi ejderhanın yıldırım nefesi yada (@spell fireball) büyüsü verilebilir. Sana yarı hasar almak için Çeviklik kurtulma zarı atmanı gerektirecek bir etkiye maruz kaldığında; eğer başarılı olursan hiç hasar almazsın ve başarısız olduğunda sadece yarı hasarı alırsın. "
 						]
 					},
 					{
 						"name": "Zihnin Durgunluğu",
 						"entries": [
-							"7. seviyeden itibaren sıranda eylemini kullanarak seni etkileyen bir {@condition charmed} veya {@condition frightened} koşulunu kaldırabilirsin."
+							"7. seviyeden itibaren sıranda eylemini kullanarak seni etkileyen bir cezbetme veya korkma durumunu kaldırabilirsin."
 						]
 					}
 				],
@@ -12863,7 +12863,7 @@
 					{
 						"name": "Güneş ve Ayın Dili",
 						"entries": [
-							"13. seviyede, diğerlerinin zihninin ki akışına dokunmayı öğrenirsin ve tüm konuşulan dilleri anlayabilirsin.Dahası, herhangi bir dili anlayabilen tüm varlıklar senin dediğini anlayabilir."
+							"13. seviyede, diğerlerinin zihninin ki akışına dokunmayı öğrenirsin ve tüm konuşulan dilleri anlayabilirsin. Dahası, herhangi bir dili anlayabilen tüm varlıklar senin dediğini anlayabilir."
 						]
 					}
 				],
@@ -12932,18 +12932,18 @@
 			"subclassTitle": "Keşiş Geleneği",
 			"subclasses": [
 				{
-					"name": "Way of Shadow",
+					"name": "Gölgenin Yolu",
 					"subclassFeatures": [
 						[
 							{
-								"name": "Way of Shadow",
+								"name": "Gölgenin Yolu",
 								"entries": [
-									"Monks of the Way of Shadow follow a tradition that values stealth and subterfuge. These monks might be called ninjas or shadowdancers, and they serve as spies and assassins. Sometimes the members of a ninja monastery are family members, forming a clan sworn to secrecy about their arts and missions. Other monasteries are more like thieves' guilds, hiring out their services to nobles, rich merchants, or anyone else who can pay their fees. Regardless of their methods, the heads of these monasteries expect the unquestioning obedience of their students.",
+									"Gölgenin Yolunu izleyen keşişler hile ve gizlenmeye önem veren bir geleneğe sahiptir. Bu keşişlere gölge dansçısı yada ninja denebilir ve genelde ajan yada suikastçi olarak hizmet ederler. Bazen bir ninja manastırının üyeleri aile bireyleri olur ve sanatları ve görevleri hakkında gizlilik yemini etmiş bir klan oluştururlar. Diğer manastırlar bir hırsız locasına benzeyebilir, hizmetlerini soylular, zengin tüccarlar yada ücretlerini ödeyebilecek herkese sunarlar. Metodları gözetmeksizin, bu manastırların başları öğrencilerinin sorgusuz itaatlerini beklerler.",
 									{
 										"type": "entries",
-										"name": "Shadow Arts",
+										"name": "Gölge Sanatları",
 										"entries": [
-											"You can use your ki to duplicate the effects of certain spells. As an action, you can spend 2 ki points to cast {@spell darkness}, {@spell darkvision}, {@spell pass without trace}, or {@spell silence}, without providing material components. Additionally, you gain the {@spell minor illusion} cantrip if you don't already know it."
+											"Ki enerjini kullanarak bazı büyülerin etkilerini oluşturabilirsin. Eylem olarak, 2 ki puanı harcayıp {@spell darkness}, {@spell darkvision}, {@spell pass without trace}, yada {@spell silence} büyülerini materyal bileşenler gerekmeden kullanabilirsin. Ek olarak, zaten bilmiyorsan {@spell minor illusion} cantripini öğrenirsin."
 										]
 									}
 								]
@@ -12954,9 +12954,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Shadow Step",
+										"name": "Gölge Adımı",
 										"entries": [
-											"You gain the ability to step from one shadow into another. When you are in dim light or darkness, as a bonus action you can teleport up to 60 feet to an unoccupied space you can see that is also in dim light or darkness. You then have advantage on the first melee attack you make before the end of the turn."
+											"Bir gölgeden diğerine adım atmayı öğrenirsin. Loş ışıkta yada karanlıktayken, bonus eylem olarak 60 feet ışınlanıp başka bir loş ışık yada karanlıktaki görebildiğin boş bir alanda belirirsin. Sıran bitene kadar ilk yapacağın yakın dövüş saldırısında avantajın olur."
 										]
 									}
 								]
@@ -12967,9 +12967,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Cloak of Shadows",
+										"name": "Gölgelerin Pelerini",
 										"entries": [
-											"By 11th level, you have learned to become one with the shadows. When you are in an area of dim light or darkness, you can use your action to become {@condition invisible}. You remain {@condition invisible} until you make an attack, cast a spell, or are in an area of bright light."
+											"11. seviyede gölgelerle bir bütün olmayı öğrenirsin. Loş ışık yada karanlıktayken eylemini kullanıp görünmez olabilirsin. Saldırı yapma, büyü kullanma yada aydınlıkta olma bu görünmezliği bozar."
 										]
 									}
 								]
@@ -12980,9 +12980,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Opportunist",
+										"name": "Fırsatçı",
 										"entries": [
-											"At 17th level, you can exploit a creature's momentary distraction when it is hit by an attack. Whenever a creature within 5 feet of you is hit by an attack made by a creature other than you, you can use your reaction to make a melee attack against that creature."
+											"17. seviyede, bir varlığın darbe aldığında yaşadığı anlık dikkat dağınıklığından faydalanmayı öğrenirsin. 5 feet yakınındaki bir varlık senin dışında bir varlık tarafından saldırıya maruz kaldığında, reaksiyonunu kullanıp o varlığa bir yakın dövüş saldırısı yapabilirsin."
 										]
 									}
 								]
@@ -12990,27 +12990,27 @@
 						]
 					],
 					"source": "PHB",
-					"shortName": "Shadow"
+					"shortName": "Gölge"
 				},
 				{
-					"name": "Way of the Open Hand",
+					"name": "Açık Elin Yolu",
 					"subclassFeatures": [
 						[
 							{
-								"name": "Way of the Open Hand",
+								"name": "Açık Elin Yolu",
 								"entries": [
-									"Monks of the Way of the Open Hand are the ultimate masters of martial arts combat, whether armed or unarmed. They learn techniques to push and trip their opponents, manipulate ki to heal damage to their bodies, and practice advanced meditation that can protect them from harm.",
+									"Açık Elin Yolunu izleyen keşişler, silahlı yada silahsız dövüş sanatlarının nihai ustalarıdır. Rakiplerini itme ve düşürme, bedenlerindeki hasarı iyileştirmek için ki enerjisini kontrol etme, ve onları hasardan koruyacak gelişmiş meditasyon tekniklerini öğrenirler.",
 									{
 										"type": "entries",
-										"name": "Open Hand Technique",
+										"name": "Açık El Tekniği",
 										"entries": [
-											"You can manipulate your enemy's ki when you harness your own. Whenever you hit a creature with one of the attacks granted by your Flurry of Blows, you can impose one of the following effects on that target.",
+											"Kendi ki enerjini kullandığında rakibininkini de kontrol edebilirsin. Darbe Yağmuru ile gelen saldırılardan biri ile rakibine vurduğunda şu etkilerden birine maruz bırakabilirsin:",
 											{
 												"type": "list",
 												"items": [
-													"It must succeed on a Dexterity saving throw or be knocked {@condition prone}.",
-													"It must make a Strength saving throw. If it fails, you can push it up to 15 feet away from you.",
-													"It can't take reactions until the end of your next turn."
+													"Çeviklik kurtulma zarında başarılı olur yada yere düşer.",
+													"Kuvvet kurtulma zarı atar. Eğer başarısız olursa senden 15 feet'e kadar ileri itebilirsin.",
+													"Sonraki sıranın sonuna kadar reaksiyon kullanamaz."
 												]
 											}
 										]
@@ -13023,9 +13023,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Wholeness of Body",
+										"name": "Bedenin Bütünlüğü",
 										"entries": [
-											"You gain the ability to heal yourself. As an action, you can regain hit points equal to three times your monk level. You must finish a long rest before you can use this feature again."
+											"Kendini iyileştirme özelliğini kazanırsın. Eylem olarak, keşiş seviyenin 3 katı kadar HP yenilersin. Bu özelliği yeniden kullanabilmek için uzun dinlenme bitirmen gerekir."
 										]
 									}
 								]
@@ -13036,11 +13036,11 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Tranquility",
+										"name": "Sükunet",
 										"entries": [
-											"Beginning at 11th level, you can enter a special meditation that surrounds you with an aura of peace. At the end of a long rest, you gain the effect of a {@spell sanctuary} spell that lasts until the start of your next long rest (the spell can end early as normal). The saving throw DC for the spell equals 8 + your Wisdom modifier + your proficiency bonus.",
-											"{@spell Sanctuary} gives this effect: You ward a creature within range against attack. Until the spell ends, any creature who targets the warded creature with an attack or a harmful spell must first make a Wisdom saving throw. On a failed save, the creature must choose a new target or lose the attack or spell. This spell doesn't protect the warded creature from area effects, such as the explosion of a {@spell fireball}.",
-											"If the warded creature makes an attack or casts a spell that affects an enemy creature, this spell ends."
+											"11. seviyeden itibaren seni huzur aurasıyla saran özel bir meditasyona girersin. Her uzun dinlenmenin sonunda bir sonraki uzun dinlenmenin başlangıcına kadar {@spell sanctuary} büyüsünün (büyü aynı durumlarda sona erer) etkisi altında olursun. Büyü için kurtulma zarı DC'si 8 + Akıl bonusun + uzmanlık bonusundur.",
+											"{@spell Sanctuary} büyüsü şu etkiyi verir: Bir varlığı saldırıya karşı koruma altına alırsın. Büyü bitene kadar, koruma altındaki varlığı bir saldırı yada zararlı bir büyü ile hedef alan tüm varlıklar önce Akıl kurtulma zarı atmalıdır. Başarısız olursa varlık yeni bir hedef seçer yada saldırı yada büyüyü kaybeder. Bu büyü varlığı alan etkilerine karşı koruyamaz, örneğin {@spell fireball} büyüsünün patlaması.",
+											"Eğer korunan varlık saldırırsa yada düşman bir varlığı etkileyen bir büyü kullanırsa büyü sona erer."
 										]
 									}
 								]
@@ -13051,10 +13051,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Quivering Palm",
+										"name": "Titreyen Avuç",
 										"entries": [
-											"You gain the ability to set up lethal vibrations in someone's body. When you hit a creature with an unarmed strike, you can spend 3 ki points to start these imperceptible vibrations, which last for a number of days equal to your monk level. The vibrations are harmless unless you use your action to end them. To do so, you and the target must be on the same plane of existence. When you use this action, the creature must make a Constitution saving throw. If it fails, it is reduced to 0 hit points. If it succeeds, it takes 10d10 necrotic damage.",
-											"You can have only one creature under the effect of this feature at a time. You can choose to end the vibrations harmlessly without using an action."
+											"Birinin vücudunda ölümcül titreşimler yaratmayı öğrenirsin. Bir varlığa silahsız saldırı ile vurduğunda 3 ki puanı harcayıp bu farkedilemeyen titreşimleri başlatırsın. Bunlar keşiş seviyene eşit gün kadar sürer. Bu titreşimler sen eylemini kullanıp onları bitirmediğin sürece zararsızdır. Bunu yapabilmek için hedef senle aynı boyutta olmalı. Bu eylemi kullandığında varlık Dayanıklılık kurtulma zarı atar. Eğer başarısız olursa 0 HP'ye düşer. Eğer başarılı olursa 10d10 nekrotik hasar alır.",
+											"Aynı anda sadece bir varlık bu etki altında olabilir. Bu titreşimleri zarar vermeden bitirebilirsin ve bu eylemini kullanmanı gerektirmez."
 										]
 									}
 								]
@@ -13062,35 +13062,35 @@
 						]
 					],
 					"source": "PHB",
-					"shortName": "Open Hand"
+					"shortName": "Açık El"
 				},
 				{
-					"name": "Way of the Four Elements",
+					"name": "Dört Elementin Yolu",
 					"subclassFeatures": [
 						[
 							{
-								"name": "Way of the Four Elements",
+								"name": "Dört Elementin Yolu",
 								"entries": [
-									"You follow a monastic tradition that teaches you to harness the elements. When you focus your ki, you can align yourself with the forces of creation and bend the four elements to your will, using them as an extension of your body. Some members of this tradition dedicate themselves to a single element, but others weave the elements together.",
-									"Many monks of this tradition tattoo their bodies with representations of their ki powers, commonly imagined as coiling dragons, but also as phoenixes, fish, plants, mountains, and cresting waves.",
+									"Elementleri kullanmanı sağlayan bir keşiş geleneğine bağlanırsın. Ki enerjini odakladığında yaratılışın güçleri ile uyum içine girer ve dört elementi sanki bedeninin bir uzantısıymış gibi iradenle yönetebilirsin. Bu geleneğin bazı üyeleri kendilerini belirli bir elemente adar, diğerleri ise hepsini kullanmayı tercih eder.",
+									"Bu geleneğin bir çok keşişi bedenlerini ki güçlerini temsil eden dövmelerle doldurur. Bu ejderhalar, anka kuşları, balıklar, bitkiler, dağlar yada dalgalar olarak şekil bulabilir.",
 									{
 										"type": "entries",
-										"name": "Disciple of the Elements",
+										"name": "Elementlerin Öğrencisi",
 										"entries": [
-											"You learn magical disciplines that harness the power of the four elements. A discipline requires you to spend ki points each time you use it.",
-											"You know the Elemental Attunement discipline and one other elemental discipline of your choice. You learn one additional elemental discipline of your choice at 6th, 11th, and 17th level.",
-											"Whenever you learn a new elemental discipline, you can also replace one elemental discipline that you already know with a different discipline.",
-											"Casting Elemental Spells. Some elemental disciplines allow you to cast spells. To cast one of these spells, you use its casting time and other rules, but you don't need to provide material components for it.",
-											"Once you reach 5th level in this class, you can spend additional ki points to increase the level of an elemental discipline spell that you cast, provided that the spell has an enhanced effect at a higher level, as {@spell burning hands} does. The spell's level increases by 1 for each additional ki point you spend. For example, if you are a 5th-level monk and use Sweeping Cinder Strike to cast {@spell burning hands}, you can spend 3 ki points to cast it as a 2nd-level spell (the discipline's base cost of 2 ki points plus 1).",
-											"The maximum number of ki points you can spend to cast a spell in this way (including its base ki point cost and any additional ki points you spend to increase its level) is determined by your monk level. At 5th level, you may spend up to 3 ki points; this increases to 4 ki points at 9th level, 5 at 13th level, and 6 at 17th level.",
+											"Dört elementin gücünü kontrol etmeni sağlayan büyülü disiplinler öğrenirsin. Bir disiplin onu her kullanışında ki puanı harcamanı gerektirir.",
+											"Elemental uyum ve seçeceğin farklı bir elemental disiplini bilirsin. 6, 11 ve 17. seviyelerde birer tane daha disiplin öğrenirsin.",
+											"Yeni bir elemental disiplin öğrendiğinde, bildiğin bir elemental disiplini de yenisi ile değiştirebilirsin.",
+											"Elemental büyüleri kullanma. Bazı elemental disiplinler büyü kullanmanı sağlar. Bu büyülerden birini kullanabilmek için onun kullanma zamanını ve diğer kurallarını kullanırsın ama materyal bileşenlere ihtiyaç duymazsın.",
+											"Bu sınıfta 5. seviyeye eriştiğinde fazladan ki puanı harcayıp disiplin büyüsünün seviyesini artırabilirsin. Büyünün üst seviyelerde gelişmiş etkisi olduğu varsayılır, {@spell burning hands} büyüsünde olduğu gibi. Harcadığın her fazladan ki puanı için büyünün seviyesi 1 artar. Örneğin, eğer sen 5. seviye bir keşişsen ve Yayılan Kor Darbesi ile {@spell burning hands} büyüsünü kullanırsan, 3 ki puanı (disiplinin temel 2 ki puanı + 1) harcayıp onu 2. seviye büyü olarak kullanabilirsin.",
+											"Bir büyüyü bu şekilde kullanırken kullanabileceğin maksimum ki puanı (temel ki puanı ve seviyesini artırmak için kullandığın fazlalık dahil) senin keşiş seviyen ile belirlenir. 5. seviyede 3 ki puanına kadar kullanabilirsin, bu 9. seviyede 4'e, 13. seviyede 5'e ve 17. seviyede 6'ya yükselir.",
 											{
 												"type": "entries",
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Breath of Winter (17th Level Required)",
+														"name": "Kış Nefesi (17. seviye gereklidir)",
 														"entries": [
-															"You can spend 6 ki points to cast cone of cold."
+															"6 ki puanı harcayıp {@spell cone of cold} büyüsünü kullanabilirsin."
 														]
 													}
 												]
@@ -13100,9 +13100,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Clench of the North Wind (6th Level Required)",
+														"name": "Kuzey Rüzgarının Tutuşu (6. seviye gereklidir)",
 														"entries": [
-															"You can spend 3 ki points to cast hold person."
+															"3 ki puanı harcayıp {@spell hold person} büyüsünü kullanabilirsin."
 														]
 													}
 												]
@@ -13112,16 +13112,16 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Elemental Attunement",
+														"name": "Elemental Uyum",
 														"entries": [
-															"You can use your action to briefly control elemental forces nearby, causing one of the following effects of your choice:",
+															"Eylemini kullanarak çevrendeki elemental güçleri kısa süreliğine kontrol edip şu etkilerden birini yaratırsın:",
 															{
 																"type": "list",
 																"items": [
-																	"Create a harmless, instantaneous sensory effect related to air, earth, fire, or water, such as a shower of sparks, a puff of wind, a spray of light mist, or a gentle rumbling of stone.",
-																	"Instantaneously light or snuff out a candle, a torch, or a small campfire.",
-																	"Chill or warm up to 1 pound of nonliving material for up to 1 hour.",
-																	"Cause earth, fire, water, or mist that can fit within a 1-foot cube to shape itself into a crude form you designate for 1 minute."
+																	"Hava, su, toprak yada ateş ile ilgili zararsız ve anlık bir duyusal etki yaratırsın. Bu etki parlayan kıvılcımlar, hafif rüzgar esintisi, bir sis spreyi yada hafifçe taşların sarsılması gibi olabilir.",
+																	"Anında bir mumu, meşaleyi yada küçük bir kamp ateşini yak yada söndür.",
+																	"1 saate kadar, 1 pound'luk yaşamayan materyali ısıt yada soğut.",
+																	"1 dakikalığına 1 foot'luk kübe sığacak kadar toprak, ateş, su veya sisi basit bir şekle sok."
 																]
 															}
 														]
@@ -13133,9 +13133,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Eternal Mountain Defense (17th Level Required)",
+														"name": "Ebedi Dağ Savunması (17. seviye gereklidir)",
 														"entries": [
-															"You can spend 5 ki points to cast {@spell stoneskin}, targeting yourself."
+															"5 ki puanı harcayıp {@spell stoneskin} büyüsünü kendini hedef alarak kullanabilirsin."
 														]
 													}
 												]
@@ -13145,9 +13145,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Fangs of the Fire Snake",
+														"name": "Ateş Yılanının Dişleri",
 														"entries": [
-															"When you use the Attack action on your turn, you can spend 1 ki point to cause tendrils of flame to stretch out from your fists and feet. Your reach with your unarmed strikes increases by 10 feet for that action, as well as the rest of the turn. A hit with such an attack deals fire damage instead of bludgeoning damage, and if you spend 1 ki point when the attack hits, it also deals an extra 1d10 fire damage."
+															"Sıranda Saldırı eylemini kullandığında 1 ki puanı harcayıp ellerinden ve ayaklarından alev filizleri çıkmasını sağlayabilirsin. O eylem ve sıranın devamı için silahsız saldırılarla menzilin 10 feet artar. Bu tip bir saldırıyla verilen hasar ezici yerine ateş hasarı verir ve saldırı vurduğunda 1 ki puanı harcarsan fazladan 1d10 ateş hasarı verirsin."
 														]
 													}
 												]
@@ -13157,9 +13157,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Fist of Four Thunders",
+														"name": "Dört Kasırga Yumruğu",
 														"entries": [
-															"You can spend 2 ki points to cast {@spell thunderwave}."
+															"2 ki puanı harcayıp {@spell thunderwave} büyüsünü kullanabilirsin."
 														]
 													}
 												]
@@ -13169,9 +13169,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Unbroken Air",
+														"name": "Kırılmaz Hava",
 														"entries": [
-															"You can create a blast of compressed air that strikes like a mighty fist. As an action, you can spend 2 ki points and choose a creature within 30 feet of you. That creature must make a Strength saving throw. On a failed save, the creature takes 3d10 bludgeoning damage, plus an extra 1d10 bludgeoning damage for each additional ki point you spend, and you can push the creature up to 20 feet away from you and knock it {@condition prone}. On a successful save, the creature takes half as much damage, and you don't push it or knock it {@condition prone}."
+															"Kuvvetli bir yumruk gibi vuran basınçlı bir hava patlaması yaratabilirsin. Eylem olarak 2 ki puanı harcayıp 30 feet yakınındaki bir varlığı seç. O varlık bir Kuvvet kurtulma zarı atmalı. Başarısız olursa varlık 3d10 ezici hasar alır (fazladan harcadığın her ki puanı için 1d10 ezici hasar eklenir) ve varlığı 20 feet'e kadar itip yere düşürebilirsin. Eğer kurtulma zarı başarılı olursa, varlık yarı hasar alır ve itme yada düşürme gerçekleşmez."
 														]
 													}
 												]
@@ -13181,9 +13181,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Flames of the Phoenix (11th Level Required)",
+														"name": "Ankanın Alevleri (11. seviye gereklidir)",
 														"entries": [
-															"You can spend 4 ki points to cast {@spell fireball}."
+															"4 ki puanı harcayıp {@spell fireball} büyüsünü kullanabilirsin."
 														]
 													}
 												]
@@ -13193,9 +13193,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Gong of the Summit (6th Level Required)",
+														"name": "Zirvenin Çanı (6. seviye gereklidir)",
 														"entries": [
-															"You can spend 3 ki points to cast shatter."
+															"3 ki puanı harcayıp {@spell shatter} büyüsünü kullanabilirsin."
 														]
 													}
 												]
@@ -13205,9 +13205,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Mist Stance (11th Level Required)",
+														"name": "Sis Duruşu (11. seviye gereklidir)",
 														"entries": [
-															"You can spend 4 ki points to cast gaseous form, targeting yourself."
+															"4 ki puanı harcayıp {@spell gaseous form} büyüsünü kendini hedef alarak kullanabilirsin."
 														]
 													}
 												]
@@ -13217,9 +13217,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Ride the Wind (11th Level Required)",
+														"name": "Rüzgarı Sür (11. seviye gereklidir)",
 														"entries": [
-															"You can spend 4 ki points to cast {@spell fly}, targeting yourself."
+															"4 ki puanı harcayıp {@spell fly} büyüsünü kendini hedef alarak kullanabilirsin."
 														]
 													}
 												]
@@ -13229,9 +13229,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "River of Hungry Flame (17th Level Required)",
+														"name": "Aç Alevin Nehri (17. seviye gereklidir)",
 														"entries": [
-															"You can spend 5 ki points to cast wall of fire."
+															"5 ki puanı harcayıp {@spell wall of fire} büyüsünü kullanabilirsin."
 														]
 													}
 												]
@@ -13241,9 +13241,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Rush of the Gale Spirits",
+														"name": "Rüzgar Ruhlarının Akışı",
 														"entries": [
-															"You can spend 2 ki points to cast gust of wind."
+															"2 ki puanı harcayıp {@spell gust of wind} büyüsünü kullanabilirsin."
 														]
 													}
 												]
@@ -13253,9 +13253,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Shape the Flowing River",
+														"name": "Akan Nehrin Şekli",
 														"entries": [
-															"As an action, you can spend 1 ki point to choose an area of ice or water no larger than 30 feet on a side within 120 feet of you. You can change water to ice within the area and vice versa, and you can reshape ice in the area in any manner you choose. You can raise or lower the ice's elevation, create or fill in a trench, erect or flatten a wall, or form a pillar. The extent of any such changes can't exceed half the area's largest dimension. For example, if you affect a 30-foot square, you can create a pillar up to 15 feet high. raise or lower the square's elevation by up to 15 feet, dig a trench up to 15 feet deep, and so on. You can't shape the ice to trap or injure a creature in the area."
+															"Eylem olarak 1 ki puanı harcayıp, bir yanı 30 feet'i geçmeyen ve 120 feet yakınında olan bir buz yada su alanını seç. Buzu suya çevirebilir yada tam tersini yapabilirsin ve buza istediğin şekli verebilirsin. Buzun yüksekliğini indirip kaldırabilir, hendek yaratıp doldurabilir, duvar dikip yıkabilir yada sütunlar yaratabilirsin. Bu değişiklikler alanın en uzun boyutunun yarısı kadar olabilir. Örneğin 30 feet'lik bir kareyi etkilersen, 15 feet yükseklikte bir sütun yaratabilirsin. Buzu alan içindeki bir varlığı hapsetmek yada incitmek için şekillendiremezsin."
 														]
 													}
 												]
@@ -13265,9 +13265,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Sweeping Cinder Strike",
+														"name": "Yayılan Kor Darbesi",
 														"entries": [
-															"You can spend 2 ki points to cast {@spell burning hands}."
+															"2 ki puanı harcayıp {@spell burning hands} büyüsünü kullanabilirsin."
 														]
 													}
 												]
@@ -13277,9 +13277,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Water Whip",
+														"name": "Su Kırbacı",
 														"entries": [
-															"You can spend 2 ki points as an action to create a whip of water that shoves and pulls a creature to unbalance it. A creature that you can see that is within 30 feet of you must make a Dexterity saving throw. On a failed save, the creature takes 3d10 bludgeoning damage, plus an extra 1d10 bludgeoning damage for each additional ki point you spend, and you can either knock it {@condition prone} or pull it up to 25 feet closer to you. On a successful save, the creature takes half as much damage, and you don't pull it or knock it {@condition prone}."
+															"Eylem olarak 2 ki puanı harcayıp bir varlığı itip çekerek dengesini bozan bir su kırbacı yaratırsın. 30 feet yakınında görebildiğin bir varlık Çeviklik kurtulma zarı atar. Başarısız olursa varlık 3d10 ezici hasar alır (fazladan harcadığın her ki puanı için 1d10 ezici hasar eklenir) ve onu yere düşürebilir yada kendine 25 feet'e kadar çekebilirsin. Başarılı olursa hasar yarılanır ve düşme yada çekme gerçekleşmez."
 														]
 													}
 												]
@@ -13289,9 +13289,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Wave of Rolling Earth (17th Level Required)",
+														"name": "Kayan Toprak Dalgası (17. seviye gereklidir)",
 														"entries": [
-															"You can spend 6 ki points to cast wall of stone."
+															"6 ki puanı harcayıp {@spell wall of stone} büyüsünü kullanabilirsin."
 														]
 													}
 												]
@@ -13306,10 +13306,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Extra Elemental Discipline",
+										"name": "Extra Elemental Disiplini",
 										"entries": [
-											"You learn one additional elemental discipline of your choice. You should know 2 elemental disciplines, as well as Elemental Attunement.",
-											"Whenever you learn a new elemental discipline, you can also replace one elemental discipline that you already know with a different discipline."
+											"Seçeceğin bir yeni elemental disiplini öğrenirsin. 2 elemental disiplin bilmeli ve Elemental Uyuma sahip olmalısın.",
+											"Yeni bir elemental disiplin öğrendiğinde, bildiğin bir elemental disiplini yeni bir disiplin ile değiştirebilirsin."
 										]
 									}
 								]
@@ -13320,10 +13320,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Extra Elemental Discipline",
+										"name": "Extra Elemental Disiplini",
 										"entries": [
-											"You learn one additional elemental discipline of your choice. You should know 3 elemental disciplines, as well as Elemental Attunement.",
-											"Whenever you learn a new elemental discipline, you can also replace one elemental discipline that you already know with a different discipline."
+											"Seçeceğin bir yeni elemental disiplini öğrenirsin. 3 elemental disiplin bilmeli ve Elemental Uyuma sahip olmalısın.",
+											"Yeni bir elemental disiplin öğrendiğinde, bildiğin bir elemental disiplini yeni bir disiplin ile değiştirebilirsin."
 										]
 									}
 								]
@@ -13334,10 +13334,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Extra Elemental Discipline",
+										"name": "Extra Elemental Disiplini",
 										"entries": [
-											"You learn one additional elemental discipline of your choice. You should know 4 elemental disciplines, as well as Elemental Attunement.",
-											"Whenever you learn a new elemental discipline, you can also replace one elemental discipline that you already know with a different discipline."
+											"Seçeceğin bir yeni elemental disiplini öğrenirsin. 4 elemental disiplin bilmeli ve Elemental Uyuma sahip olmalısın.",
+											"Yeni bir elemental disiplin öğrendiğinde, bildiğin bir elemental disiplini yeni bir disiplin ile değiştirebilirsin."
 										]
 									}
 								]
@@ -13345,7 +13345,7 @@
 						]
 					],
 					"source": "PHB",
-					"shortName": "Four Elements"
+					"shortName": "Dört Element"
 				},
 				{
 					"name": "Way of the Long Death",
@@ -17180,7 +17180,7 @@
 						"Sezgi",
 						"İnceleme",
 						"Doğa",
-						"Algı",
+						"Algılama",
 						"Gizlenme",
 						"Hayatta Kalma"
 					]
@@ -17202,8 +17202,8 @@
 						"name": "Kayrılan Düşman",
 						"entries": [
 							"1. seviyeden itibaren bir düşman tipini araştırmada, izlemede, avlamada ve hatta konuşmada belirgin bir deneyimin vardır.",
-							"Kayıracağın bir düşman tipi seç: anomaliler(aberrations), hayvanlar, ilahiler(celestials), yapılar(constructs), ejderhalar, elementaller, feyler, zebaniler(fiends), devler, canavarlar(monstrosities), balçıklar(oozes), bitkiler, yada yaşayan ölüler. Alternatif olarak, iki insansı ırkı (orklar ve gnoller gibi) kayrılan düşman olarak seçebilirsin.",
-							"Kayrılan düşmanını takip etmek için atacağın Wisdom(Hayatta kalma) zarlarında avantajın var ve onlar hakkında bilgi hatırlamak için atacağın Intelligence zarlarında da bu avantaj uygulanır.",
+							"Kayıracağın bir düşman tipi seç: anomaliler, hayvanlar, kutsallar, yapılar, ejderhalar, elementaller, feyler, zebaniler, devler, canavarlar, balçıklar, bitkiler, yada yaşayan ölüler. Alternatif olarak, iki insansı ırkı (orklar ve gnoller gibi) kayrılan düşman olarak seçebilirsin.",
+							"Kayrılan düşmanını takip etmek için atacağın Akıl(Hayatta kalma) zarlarında avantajın var ve onlar hakkında bilgi hatırlamak için atacağın Zeka zarlarında da bu avantaj uygulanır.",
 							"Bu özelliği kazandığında kayrılan düşmanının konuştuğu bir dili de öğrenirsin, eğer bir dil konuşuyorlarsa.",
 							"6. ve 14. seviyelerde fazladan bir kayrılan düşman ve ilgili bir dil daha seçersin. Seviye atladıkça bu seçimlerin maceralarında karşılaştığın varlıkları yansıtmalı."
 						]
@@ -17211,7 +17211,7 @@
 					{
 						"name": "Doğal Kaşif",
 						"entries": [
-							"Bir doğal çevreye özellikle yakınsın ve o çevrede seyahat etme ve hayatta kalma konusunda uzmansın. Bir kayrılan çevre seç: kutupsal, sahil, çöl, orman, çayır, dağ, bataklık, yada yeraltı(Underdark). Kayrılan çevrene ait bir Intelligence yada Wisdom zarı attığında eğer uzman olduğun bir beceri kullanırsan uzmanlık bonusun ikiye katlanır.",
+							"Bir doğal çevreye özellikle yakınsın ve o çevrede seyahat etme ve hayatta kalma konusunda uzmansın. Bir kayrılan çevre seç: kutupsal, sahil, çöl, orman, çayır, dağ, bataklık, yada yeraltı. Kayrılan çevrene ait bir Zeka yada Akıl zarı attığında eğer uzman olduğun bir beceri kullanırsan uzmanlık bonusun ikiye katlanır.",
 							"Kayrılan çevrende bir saatten fazla seyahat ediyorsan şu faydaları edinirsin:",
 							{
 								"type": "list",
@@ -17317,7 +17317,7 @@
 								"type": "entries",
 								"name": "Büyü Yapma Yeteneği",
 								"entries": [
-									"Kolcu büyülerini yapmak için Wisdom yeteneğini kullanırsın, çünkü senin büyün doğaya olan bağından gelir. Ne zaman bir büyü senin büyü yapma yeteneğinden bahsederse burada Wisdom yeteneğini kullanırsın. Bunun yanında bir kolcu büyüsünün kurtulma zarı DC'sini belirlerken yada bir büyülü saldırı yaparken hesaplamalar Wisdom bonusu kullanılarak yapılır.",
+									"Kolcu büyülerini yapmak için Akıl yeteneğini kullanırsın, çünkü senin büyün doğaya olan bağından gelir. Ne zaman bir büyü senin büyü yapma yeteneğinden bahsederse burada Akıl yeteneğini kullanırsın. Bunun yanında bir kolcu büyüsünün kurtulma zarı DC'sini belirlerken yada bir büyülü saldırı yaparken hesaplamalar Akıl bonusu kullanılarak yapılır.",
 									{
 										"type": "abilityDc",
 										"name": "Spell",
@@ -17348,7 +17348,7 @@
 					{
 						"name": "Kadim Farkındalık",
 						"entries": [
-							"3. seviyeden itibaren eylemini kullanıp bir büyü yuvası harcayarak farkındalığını çevrendeki bölgeye yoğunlaştırırsın. Harcadığın büyü yuvasının her seviyesi için bir dakika boyunca 1 mil yakınında (veya kayrılan çevrendeysen 6 mil) şu yaratık tiplerinin varlığını hissedersin: anomaliler(aberrations), ilahiler(celestials), ejderhalar, elementaller, feyler, zebaniler(fiends), ve yaşayan ölüler. Bu özellik varlığın yerini yada sayısını göstermez."
+							"3. seviyeden itibaren eylemini kullanıp bir büyü yuvası harcayarak farkındalığını çevrendeki bölgeye yoğunlaştırırsın. Harcadığın büyü yuvasının her seviyesi için bir dakika boyunca 1 mil yakınında (veya kayrılan çevrendeysen 6 mil) şu yaratık tiplerinin varlığını hissedersin: anomaliler, kutsallar, ejderhalar, elementaller, feyler, zebaniler, ve yaşayan ölüler. Bu özellik varlığın yerini yada sayısını göstermez."
 						]
 					}
 				],
@@ -17398,7 +17398,7 @@
 					{
 						"name": "Toprağın Adımı",
 						"entries": [
-							"8. seviyeden itibaren büyüsüz zorlu araziden geçmek sana extra hareket harcatmaz. Aynı zamanda büyüsüz bitkilerin içinden yavaşlamadan yada dikenli vb. olması durumunda hasar almadan geçebilirsin.",
+							"8. seviyeden itibaren büyüsüz zorlu araziden geçmek sana fazladan hareket harcatmaz. Aynı zamanda büyüsüz bitkilerin içinden yavaşlamadan yada dikenli vb. olması durumunda hasar almadan geçebilirsin.",
 							"Ek olarak büyü ile yaratılan yada hareketi kısıtlamak için kullanılan ({@spell entangle} gibi) bitkilerin etkilerine karşı kurtulma zarlarında avantajın vardır."
 						]
 					}
@@ -17409,7 +17409,7 @@
 						"name": "Göz Önünde Saklan",
 						"entries": [
 							"10. seviyeden itibaren 1 dakika harcayıp kendine bir kamuflaj yaratabilirsin. Çamur, toprak, bitki ve is gibi kamuflajını yaratacağın doğal materyallere erişimin olmalı.",
-							"Kamufle olurken kendini en az senin kadar uzun ve geniş bir ağaç yada duvar gibi bir yüzeye yaslayarak gizlenebilirsin. Hareketsiz durduğun sürece Dexterity (Gizlenme) zarlarına +10 bonus alırsın. Eylem yada reaksiyon gerçekleştirdiğinde veya hareket ettiğinde, bu bonusu alabilmek için yeniden kamufle olmalısın."
+							"Kamufle olurken kendini en az senin kadar uzun ve geniş bir ağaç yada duvar gibi bir yüzeye yaslayarak gizlenebilirsin. Hareketsiz durduğun sürece Çeviklik (Gizlenme) zarlarına +10 bonus alırsın. Eylem yada reaksiyon gerçekleştirdiğinde veya hareket ettiğinde, bu bonusu alabilmek için yeniden kamufle olmalısın."
 						]
 					},
 					{
@@ -17500,26 +17500,26 @@
 			"subclassTitle": "Kolcu Modeli",
 			"subclasses": [
 				{
-					"name": "Hunter",
+					"name": "Avcı",
 					"subclassFeatures": [
 						[
 							{
-								"name": "Hunter",
+								"name": "Avcı",
 								"entries": [
-									"Emulating the Hunter archetype means accepting your place as a bulwark between civilization and the terrors of the wilderness. As you walk the Hunter's path, you learn specialized techniques for fighting the threats you face, from rampaging ogres and hordes of orcs to towering giants and terrifying dragons.",
+									"Avcı modelini benimseme, medeniyet ve doğanın dehşeti arasında bir bariyer olarak yerini kabul etmek demektir. Avcının yolunu izlerken ork ordularından, yakıp yıkan devlere ve ejderlere kadar tüm yüzleştiğin tehditlerle savaşmak için uzmanlık isteyen teknikler öğrenirsin.",
 									{
 										"type": "entries",
-										"name": "Hunter's Prey",
+										"name": "Avcının Avı",
 										"entries": [
-											"At 3rd level, you gain one of the following features of your choice: Colossus Slayer, Giant Killer, or Horde Breaker.",
+											"3. seviyede şu özelliklerden birini kazanırsın: Cüsse Düşmanı, Dev Katili, yada Ordu Kıran.",
 											{
 												"type": "entries",
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Colossus Slayer",
+														"name": "Cüsse Düşmanı",
 														"entries": [
-															"Your tenacity can wear down the most potent foes. When you hit a creature with a weapon attack, the creature takes an extra 1d8 damage if it's below its hit point maximum. You can deal this extra damage only once per turn."
+															"Kararlılığın en dayanıklı düşmanları bile yıpratabilir. Bir varlığa silahlı saldırı ile vurduğunda, varlık maksimum HP'sinin altındaysa 1d8 fazladan hasar alır. Bu hasarı her sıranda sadece bir kere verebilirsin."
 														]
 													}
 												]
@@ -17529,9 +17529,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Giant Killer",
+														"name": "Dev Katili",
 														"entries": [
-															"When a Large or larger creature within 5 feet of you hits or misses you with an attack, you can use your reaction to attack that creature immediately after its attack, provided that you can see the creature."
+															"Büyük yada daha büyük bir varlık 5 feet yakınındayken sana bir saldırı ile vurursa yada ıskalarsa, reaksiyonunu kullanıp hemen o saldırının ardından varlığa bir saldırı yapabilirsin. Varlığı görebiliyorsan geçerlidir."
 														]
 													}
 												]
@@ -17541,9 +17541,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Horde Breaker",
+														"name": "Ordu Kıran",
 														"entries": [
-															"Once on each of your turns when you make a weapon attack, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target and within range of your weapon."
+															"Her sıranda bir kere olmak üzere silahlı saldırı yaptığında, silahının menzilinde ve hedefinin 5 feet yakınındaki başka bir varlığa da aynı silahla saldırı yapabilirsin."
 														]
 													}
 												]
@@ -17558,17 +17558,17 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Defensive Tactics",
+										"name": "Savunma Taktikleri",
 										"entries": [
-											"At 7th level, you gain one of the following features of your choice: Escape the Horde, Multiattack Defense, or Steel Will.",
+											"7. seviyede şu özelliklerden birini kazanırsın: Ordudan Kaç, Çoklu Saldırı Savunması, yada Çelik İrade",
 											{
 												"type": "entries",
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Escape the Horde",
+														"name": "Ordudan Kaç",
 														"entries": [
-															"Opportunity attacks against you are made with disadvantage."
+															"Sana yapılan fırsat saldırıları dezavantajlı olur."
 														]
 													}
 												]
@@ -17578,9 +17578,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Multiattack Defense",
+														"name": "Çoklu Saldırı Savunması",
 														"entries": [
-															"When a creature hits you with an attack, you gain a +4 bonus to AC against all subsequent attacks made by that creature for the rest of the turn."
+															"Bir varlık sana bir saldırı ile vurduğunda, o sıra boyunca aynı varlık tarafından yapılan diğer saldırılara karşı +4 AC kazanırsın."
 														]
 													}
 												]
@@ -17590,9 +17590,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Steel Will",
+														"name": "Çelik İrade",
 														"entries": [
-															"You have advantage on saving throws against being {@condition frightened}."
+															"Korkma durumuna karşı atacağın kurtulma zarlarında avantajın olur."
 														]
 													}
 												]
@@ -17607,17 +17607,17 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Multiattack",
+										"name": "Çoklu Saldırı",
 										"entries": [
-											"At 11th level, you gain one of the following features of your choice: Volley or Whirlwind Attack.",
+											"11. seviyede şu özelliklerden birini kazanırsın: Yaylım Ateşi yada Kasırga Saldırısı",
 											{
 												"type": "entries",
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Volley",
+														"name": "Yaylım Ateşi",
 														"entries": [
-															"You can use your action to make a ranged attack against any number of creatures within 10 feet of a point you can see within your weapon's range. You must have ammunition for each target, as normal, and you make a separate attack roll for each target."
+															"Eylem olarak, silahının menzilinde ve görebildiğin bir noktanın 10 feet çevresinde bulunan tüm varlıklara menzilli saldırı yapabilirsin. Her hedef için yeterli okun olmalı ve her hedef için ayrı saldırı zarı atmalısın."
 														]
 													}
 												]
@@ -17627,9 +17627,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Whirlwind Attack",
+														"name": "Kasırga Saldırısı",
 														"entries": [
-															"You can use your action to make a melee attack against any number of creatures within 5 feet of you, with a separate attack roll for each target."
+															"Eylemini kullanarak 5 feet yakınındaki tüm varlıklara karşı yakın dövüş saldırısı yapabilirsin. Her hedef için ayrı saldırı zarı atmalısın."
 														]
 													}
 												]
@@ -17644,17 +17644,17 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Superior Hunter's Defense",
+										"name": "Üstün Avcının Savunması",
 										"entries": [
-											"At 15th level, you gain one of the following features of your choice: Evasion, Stand Against the Tide, or Uncanny Dodge.",
+											"15. seviyede şu özelliklerden birini kazanırsın: Sıyrılma, Akıntıya Karşı Dur, Olağanüstü Kaçınma",
 											{
 												"type": "entries",
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Evasion",
+														"name": "Sıyrılma",
 														"entries": [
-															"You can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or a {@spell lightning bolt} spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
+															"{@spell Lightning bolt} büyüsü yada bir kırmızı ejderhanın nefesi gibi bazı alan saldırılarından çevik bir şekilde sıyrılırsın. Yarı hasarı almak için Çeviklik kurtulma zarı atmanı gerektiren bir etkiye maruz kaldığında, eğer başarılı olursan hiç hasar almazsın ve başarısız olursan sadece yarı hasarı alırsın."
 														]
 													}
 												]
@@ -17664,9 +17664,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Stand Against the Tide",
+														"name": "Akıntıya Karşı Dur",
 														"entries": [
-															"When a hostile creature misses you with a melee attack, you can use your reaction to force that creature to repeat the same attack against another creature (other than itself) of your choice."
+															"Düşman bir varlık seni bir yakın dövüş saldırısıyla ıskaladığında, reaksiyonunu kullanıp varlığın aynı saldırıyı başkasına (kendisi dışında) yapmaya zorlayabilirsin."
 														]
 													}
 												]
@@ -17676,9 +17676,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Uncanny Dodge",
+														"name": "Olağanüstü Kaçınma",
 														"entries": [
-															"When an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you."
+															"Görebildiğin bir saldırgan sana bir saldırı ile vurduğunda, reaksiyonunu kullanarak saldırının hasarını yarılayabilirsin."
 														]
 													}
 												]
@@ -17690,7 +17690,7 @@
 						]
 					],
 					"source": "PHB",
-					"shortName": "Hunter"
+					"shortName": "Avcı"
 				},
 				{
 					"name": "Hayvan Üstadı",
@@ -17704,7 +17704,7 @@
 										"type": "entries",
 										"name": "Kolcunun Yoldaşı",
 										"entries": [
-											"Maceralarında seninle seyahat edip yanında savaşmak için eğitilmiş bir hayvan yoldaş edinirsin. {@filter Orta boydan büyük olmayan ve zorluk seviyesi(CR) 1/4 veya altı olan bir hayvan|bestiary|cr=0;1/8;1/4|type=beast|size=f;d;t;s;m|miscellaneous=!swarm} seç. Uzmanlık bonusunu hayvanın AC'sine, saldırı ve hasar zarlarına, ayrıca hayvanın uzman olduğu kurtulma zarları ve becerilere ekle. Hayvanın azami HP'si, hangisi yüksek olacaksa ya normalidir yada kolcu seviyesinin 4 katıdır.",
+											"Maceralarında seninle seyahat edip yanında savaşmak için eğitilmiş bir hayvan yoldaş edinirsin. {@filter Orta boydan büyük olmayan ve zorluk seviyesi(CR) 1/4 veya altı olan bir hayvan|bestiary|cr=0;1/8;1/4|type=beast|size=f;d;t;s;m|miscellaneous=!swarm} seç. Uzmanlık bonusunu hayvanın AC'sine, saldırı ve hasar zarlarına, ayrıca hayvanın uzman olduğu kurtulma zarları ve becerilere ekle. Hayvanın maksimum HP'si, hangisi yüksek olacaksa ya normalidir yada kolcu seviyesinin 4 katıdır.",
 											"Hayvan komutlarını en iyi şekilde yerine getirmeye çalışır. Senin öncelik sıranı kullanır ama sen komut vermedikçe bir eylem gerçekleştirmez. Sıranda hayvana sesli komut vererek nereye gideceğini söyleyebilirsin, bu komut eylemini kullanmanı gerektirmez. Eylemini hayvana sesli komut vererek Saldırı, Depar Atma, Ayrılma, Kaçınma yada Yardım eylemlerinden birini kullandırabilirsin. Extra Saldırı özelliği geldikten sonra, hayvanına Saldırı komutunu verirsen sende bir saldırı yapabilirsin.",
 											"Eğer baygınsan yoldaşın kendi kendine hareket eder ve odağı seni ve kendisini korumak olur. Reaksiyonunu kullanmak için senin komutun gerekmez, fırsat saldırıları buna örnek olabilir.",
 											"Tüm varlıklar gibi kısa dinlenmede HD harcayarak iyileşebilir.",
