@@ -70,26 +70,26 @@ function parseAttack (name, text) {
 		var actiontext = text[i];
 		var action_desc = actiontext; // required for later reduction of information dump.
 		// attack parsing
-		if (actiontext.indexOf(" Attack:") > -1) {
+		if (actiontext.indexOf(" Saldırı:") > -1) {
 			var attacktype = "";
 			var attacktype2 = "";
-			if (actiontext.indexOf(" Weapon Attack:") > -1) {
-				attacktype = actiontext.split(" Weapon Attack:")[0];
-				attacktype2 = " Weapon Attack:";
-			} else if (actiontext.indexOf(" Spell Attack:") > -1) {
-				attacktype = actiontext.split(" Spell Attack:")[0];
-				attacktype2 = " Spell Attack:";
+			if (actiontext.indexOf(" Silah Saldırısı:") > -1) {
+				attacktype = actiontext.split(" Silah Saldırısı:")[0];
+				attacktype2 = " Silah Saldırısı:";
+			} else if (actiontext.indexOf(" Büyü Saldırısı:") > -1) {
+				attacktype = actiontext.split(" Büyü Saldırısı:")[0];
+				attacktype2 = " Büyü Saldırısı:";
 			}
 			var attackrange = "";
 			var rangetype = "";
-			if (attacktype.indexOf("Melee") > -1) {
+			if (attacktype.indexOf("Yakın Dövüş") > -1) {
 				attackrange = (actiontext.match(/reach (.*?),/) || ["", ""])[1];
-				rangetype = "Reach";
+				rangetype = "Erişim";
 			} else {
 				attackrange = (actiontext.match(/range (.*?),/) || ["", ""])[1];
-				rangetype = "Range";
+				rangetype = "Menzil";
 			}
-			var tohit = (actiontext.match(/\+(.*) to hit/) || ["", ""])[1];
+			var tohit = (actiontext.match(/\+(.*) vurmak için/) || ["", ""])[1];
 			var damage = "";
 			var damagetype = "";
 			var damage2 = "";
@@ -103,7 +103,7 @@ function parseAttack (name, text) {
 				damagetype = (damagesearches[2] != null) ? damagesearches[2].trim() : "";
 				damagesearches = damageregex.exec(actiontext);
 				if (damagesearches) {
-					onhit += " plus " + damagesearches[0];
+					onhit += " artı " + damagesearches[0];
 					damage2 = damagesearches[1];
 					damagetype2 = (damagesearches[2] != null) ? damagesearches[2].trim() : "";
 				}

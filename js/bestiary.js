@@ -487,8 +487,8 @@ function loadhash (id) {
 		<tr><td colspan="6"><strong>Hasar Dirençleri</strong> <span id="dmgres">cold</span></td></tr>
 		<tr><td colspan="6"><strong>Hasar Bağışıklıkları</strong> <span id="dmgimm">lightning</span></td></tr>
 		<tr><td colspan="6"><strong>Durum Bağışıklıkları</strong> <span id="conimm">exhaustion</span></td></tr>
-		<tr><td colspan="6"><strong>Duyular</strong> <span id="senses">darkvision 30 ft.</span> passive Perception <span id="pp">10</span></td></tr>
-		<tr><td colspan="6"><strong>Diller</strong> <span id="languages">Common</span></td></tr>
+		<tr><td colspan="6"><strong>Duyular</strong> <span id="senses">gece görüşü 30 ft.</span> pasif Algılama <span id="pp">10</span></td></tr>
+		<tr><td colspan="6"><strong>Diller</strong> <span id="languages">Ortak</span></td></tr>
 		<tr><td colspan="6"><strong>Zorluk</strong> <span id="cr">1 (450 XP)</span></td></tr>
 		<tr id="traits"><td class="divider" colspan="6"><div></div></td></tr>
 		<tr class="trait"><td colspan="6"><span class="name">Trait.</span> <span class="content">Content.</span></td></tr>

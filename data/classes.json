@@ -8690,7 +8690,7 @@
 			"fluffPage": 21
 		},
 		{
-			"name": "Fighter",
+			"name": "Savaşçı",
 			"source": "PHB",
 			"hd": {
 				"number": 1,
@@ -8704,13 +8704,13 @@
 				{
 					"subclasses": [
 						{
-							"name": "Eldritch Knight",
+							"name": "Eldritch Şövalyesi",
 							"source": "PHB"
 						}
 					],
 					"colLabels": [
-						"{@filter Cantrips Known|spells|level=0|subclass=Eldritch Knight}",
-						"Spells Known"
+						"{@filter Bilinen Cantripler|spells|level=0|subclass=Eldritch Knight}",
+						"Bilinen Büyüler"
 					],
 					"rows": [
 						[
@@ -8796,7 +8796,7 @@
 					]
 				},
 				{
-					"title": "Spell Slots per Spell Level",
+					"title": "Büyü Seviyesi Başına Büyü Slotları",
 					"subclasses": [
 						{
 							"name": "Eldritch Knight",
@@ -8804,10 +8804,10 @@
 						}
 					],
 					"colLabels": [
-						"{@filter 1st|spells|level=1|subclass=Eldritch Knight}",
-						"{@filter 2nd|spells|level=2|subclass=Eldritch Knight}",
-						"{@filter 3rd|spells|level=3|subclass=Eldritch Knight}",
-						"{@filter 4th|spells|level=4|subclass=Eldritch Knight}"
+						"{@filter 1.|spells|level=1|subclass=Eldritch Knight}",
+						"{@filter 2.|spells|level=2|subclass=Eldritch Knight}",
+						"{@filter 3.|spells|level=3|subclass=Eldritch Knight}",
+						"{@filter 4.|spells|level=4|subclass=Eldritch Knight}"
 					],
 					"rows": [
 						[
@@ -9050,112 +9050,91 @@
 			],
 			"startingProficiencies": {
 				"armor": [
-					"light",
-					"medium",
-					"heavy",
-					"shields"
+					"hafif",
+					"orta",
+					"ağır",
+					"kalkanlar"
 				],
 				"weapons": [
-					"simple",
-					"martial"
+					"basit",
+					"askeri"
 				],
 				"skills": {
 					"choose": 2,
 					"from": [
-						"Acrobatics",
-						"Animal Handling",
-						"Athletics",
-						"History",
-						"Insight",
-						"Intimidation",
-						"Perception",
-						"Survival"
+						"Akrobasi",
+						"Hayvan İdaresi",
+						"Atletizm",
+						"Tarih",
+						"Sezgi",
+						"Korkutma",
+						"Algılama",
+						"Hayatta Kalma"
 					]
 				}
 			},
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) chain mail or (b) leather, longbow, and 20 arrows",
-					"(a) a martial weapon and a shield or (b) two martial weapons",
-					"(a) a light crossbow and 20 bolts or (b) two handaxes",
-					"(a) a dungeoneer's pack or (b) an explorer's pack"
+					"(a) örme zırh yada (b) deri zırh, uzun yay, ve 20 ok",
+					"(a) bir askeri silah ve bir kalkan yada (b) iki askeri silah",
+					"(a) bir hafif arbalet ve 20 kısa ok yada (b) iki el baltası",
+					"(a) bir zindancının paketi yada (b) bir kaşifin paketi"
 				],
 				"goldAlternative": "5d4 × 10"
 			},
 			"classFeatures": [
 				[
 					{
-						"name": "Fighting Style",
+						"name": "Dövüş Stili",
 						"entries": [
-							"You adopt a particular style of fighting as your specialty. Choose a fighting style from the list of optional features. You can't take the same Fighting Style option more than once, even if you get to choose again.",
+							"Uzmanlığın olarak belirli bir dövüş stili seçersin. Mevcut listeden bir dövüş stili seç. Yeniden seçme fırsatın olsa da aynı stili bir kere daha seçemezsin.",
 							{
 								"type": "options",
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Archery",
+										"name": "Okçuluk",
 										"entries": [
-											"You gain a +2 bonus to attack rolls you make with ranged weapons."
+											"Menzilli silahlarla yaptığın saldırılarda zarına +2 bonus eklersin."
+										]
+									},
+									
+									{
+										"type": "entries",
+										"name": "Savunma",
+										"entries": [
+											"Zırh giydiğin sürece AC'ne +1 bonus eklersin."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Close Quarters Shooter",
+										"name": "Düello",
 										"entries": [
-											"When making a ranged attack while you are within 5 feet of a hostile creature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half cover and three-quarters cover against targets within 30 feet of you. You have a +1 bonus to attack rolls on ranged attacks."
-										],
-										"source": "UALightDarkUnderdark"
-									},
-									{
-										"type": "entries",
-										"name": "Defense",
-										"entries": [
-											"While you are wearing armor, you gain a +1 bonus to AC."
+											"Sadece bir elinde silah varken yaptığın saldırıların hasar zarlarına +2 eklersin."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Dueling",
+										"name": "Büyük Silahla Savaşma",
 										"entries": [
-											"When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon."
+											"İki elinle kullandığın bir yakın dövüş silahı ile yaptığın bir saldırının hasar zarında 1 yada 2 gelirse bu zarı yeniden atarak ikinci sonucu kullanabilirsin. Sonuç yeniden 1 yada 2 gelirse bunu kullanırsın, yeniden zar atılmaz. Bundan faydalanabilmek için silahın iki elli yada değişken özelliklerini taşıması gerekir."
 										]
 									},
+								
 									{
 										"type": "entries",
-										"name": "Great Weapon Fighting",
+										"name": "Koruma",
 										"entries": [
-											"When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit."
+											"Görebildiğin bir varlık senin dışında 5 feet yakınındaki başka bir varlığa saldırırsa reaksiyonunu kullanıp bu saldırıya dezavantaj verebilirsin. Bunun için kalkan kullanman gerekir."
 										]
 									},
+									
 									{
 										"type": "entries",
-										"name": "Mariner",
+										"name": "Çift Silahla Dövüşme",
 										"entries": [
-											"As long as you are not wearing heavy armor or using a shield, you have a swimming speed and a climbing speed equal to your normal speed, and you gain a +1 bonus to AC."
-										],
-										"source": "UAWaterborneAdventures"
-									},
-									{
-										"type": "entries",
-										"name": "Protection",
-										"entries": [
-											"When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Tunnel Fighter",
-										"entries": [
-											"As a bonus action, you can enter a defensive stance that lasts until the start of your next turn. While in your defensive stance, you can make opportunity attacks without using your reaction, and you can use your reaction to make a melee attack against a creature that moves more than 5 feet while within your reach."
-										],
-										"source": "UALightDarkUnderdark"
-									},
-									{
-										"type": "entries",
-										"name": "Two-Weapon Fighting",
-										"entries": [
-											"When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack."
+											"Çift silahla dövüşe girdiğinde ikincil saldırının hasar zarına yetenek bonusunu ekleyebilirsin."
 										]
 									}
 								]
@@ -9163,10 +9142,10 @@
 						]
 					},
 					{
-						"name": "Second Wind",
+						"name": "Soluklan",
 						"entries": [
-							"You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level.",
-							"Once you use this feature, you must finish a short or long rest before you can use it again."
+							"Seni hasardan korumak için kullandığın sınırlı bir güç havuzun var. Sıranda bonus eylem kullanarak 1d10 + savaşçı seviyen kadar HP yenileyebilirsin.",
+							"Bu özelliği kullanınca bir daha kısa yada uzun dinlenme bitirene kadar kullanamazsın."
 						]
 					}
 				],
@@ -17232,7 +17211,7 @@
 					{
 						"name": "Dövüş Stili",
 						"entries": [
-							"2. seviyede uzmanlığın olarak bir dövüş stilini seçersin. Şu seçeneklerden birini seç: Okçuluk, Savunma, Düello, Denizcilik, yada Çift Silahlı Dövüşme. Daha sonra yeniden seçme fırsatın olsa da bir dövüş stilini birden çok kez seçemezsin.",
+							"2. seviyede uzmanlığın olarak bir dövüş stilini seçersin. Şu seçeneklerden birini seç: Okçuluk, Savunma, Düello, yada Çift Silahlı Dövüşme. Daha sonra yeniden seçme fırsatın olsa da bir dövüş stilini birden çok kez seçemezsin.",
 							{
 								"type": "options",
 								"entries": [
@@ -17243,14 +17222,7 @@
 											"Menzilli silahlarla yaptığın saldırı zarlarına +2 bonus alırsın."
 										]
 									},
-									{
-										"type": "entries",
-										"name": "Yakın Mesafe Nişancısı",
-										"entries": [
-											"Bir düşmanın 5 feet yakınındayken yaptığın saldırılarda dezavantaj olmaz. Menzilli saldırıların 30 feet menzilindeki düşmanlarda yarım ve üç çeyrek siperi yoksayar. Menzilli saldırı zarlarında +1 bonusun olur."
-										],
-										"source": "UALightDarkUnderdark"
-									},
+									
 									{
 										"type": "entries",
 										"name": "Savunma",
@@ -17265,22 +17237,7 @@
 											"Sadece bir elinde silah varken yaptığın saldırılarda hasar zarlarına +2 bonus alırsın."
 										]
 									},
-									{
-										"type": "entries",
-										"name": "Denizcilik",
-										"entries": [
-											"Ağır zırh giymez ve kalkan kullanmazken, normal hızın kadar yüzme ve tırmanma hızın olur. Ayrıca AC'ne +1 bonus alırsın."
-										],
-										"source": "UAWaterborneAdventures"
-									},
-									{
-										"type": "entries",
-										"name": "Tünel Savaşçısı",
-										"entries": [
-											"Bonus eylem olarak diğer sıranın başlangıcına kadar savunma pozisyonu alırsın. Savunma pozisyonundayken fırsat saldırılarını reaksiyonunu kullanmadan yaparsın ve reaksiyonunu kullanarak menzilin içerisinde 5 feet'ten fazla hareket eden bir rakibe yakın dövüş saldırısı yapabilirsin."
-										],
-										"source": "UALightDarkUnderdark"
-									},
+									
 									{
 										"type": "entries",
 										"name": "Çift Silahlı Dövüşme",

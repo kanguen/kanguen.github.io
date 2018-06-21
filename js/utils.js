@@ -94,7 +94,7 @@ RNG_UNLIMITED_SAME_PLANE = "plane";
 RNG_TOUCH = "touch";
 
 UNT_FEET = "feet";
-UNT_MILES = "miles";
+UNT_MILES = "mil";
 
 ABIL_STR = "Kuvvet";
 ABIL_DEX = "Çeviklik";
@@ -102,7 +102,7 @@ ABIL_CON = "Dayanıklılık";
 ABIL_INT = "Zeka";
 ABIL_WIS = "Akıl";
 ABIL_CHA = "Karizma";
-ABIL_CH_ANY = "Choose Any";
+ABIL_CH_ANY = "Birini Seç";
 
 HOMEBREW_STORAGE = "HOMEBREW_STORAGE";
 EXCLUDES_STORAGE = "EXCLUDES_STORAGE";
@@ -228,13 +228,13 @@ RegExp.escape = function (string) {
 // TEXT COMBINING ======================================================================================================
 function utils_makeAttChoose (attList) {
 	if (attList.length === 1) {
-		return Parser.attAbvToFull(attList[0]) + " modifier";
+		return Parser.attAbvToFull(attList[0]) + " bonusu";
 	} else {
 		const attsTemp = [];
 		for (let i = 0; i < attList.length; ++i) {
 			attsTemp.push(Parser.attAbvToFull(attList[i]));
 		}
-		return attsTemp.join(" or ") + " modifier (your choice)";
+		return attsTemp.join(" yada ") + " bonusu (seçeceğin)";
 	}
 }
 
@@ -351,9 +351,9 @@ function utils_getAbilityData (abObj) {
 	}
 
 	function getNumberString (amount) {
-		if (amount === 1) return "one";
-		if (amount === 2) return "two";
-		if (amount === 3) return "three";
+		if (amount === 1) return "bir";
+		if (amount === 2) return "iki";
+		if (amount === 3) return "üç";
 		else return amount;
 	}
 }
@@ -422,7 +422,7 @@ Parser.getSpeedString = (it) => {
 		procSpeed("swim");
 		if (it.speed.choose) {
 			joiner = "; ";
-			stack.push(`${CollectionUtil.joinConjunct(it.speed.choose.from.sort(), ", ", ", or ")} ${it.speed.choose.amount} ft.${it.speed.choose.note ? ` ${it.speed.choose.note}` : ""}`);
+			stack.push(`${CollectionUtil.joinConjunct(it.speed.choose.from.sort(), ", ", ", yada ")} ${it.speed.choose.amount} ft.${it.speed.choose.note ? ` ${it.speed.choose.note}` : ""}`);
 		}
 		return stack.join(joiner);
 	} else {
@@ -716,7 +716,7 @@ Parser.spClassesToFull = function (classes, textOnly) {
 Parser.spMainClassesToFull = function (classes, textOnly) {
 	return classes.fromClassList
 		.sort((a, b) => SortUtil.ascSort(a.name, b.name))
-		.map(c => textOnly ? c.name : `<span title="Source: ${Parser.sourceJsonToFull(c.source)}">${c.name}</span>`)
+		.map(c => textOnly ? c.name : `<span title="Kaynak: ${Parser.sourceJsonToFull(c.source)}">${c.name}</span>`)
 		.join(", ");
 };
 
@@ -804,10 +804,10 @@ Parser.monImmResToFull = function (toParse) {
 			let stack = it.preNote ? `${it.preNote} ` : "";
 			if (it.immune) {
 				const toJoin = it.immune.map(nxt => toString(nxt, depth + 1));
-				stack += depth ? toJoin.join(maxDepth ? "; " : ", ") : CollectionUtil.joinConjunct(toJoin, ", ", " and ");
+				stack += depth ? toJoin.join(maxDepth ? "; " : ", ") : CollectionUtil.joinConjunct(toJoin, ", ", " ve ");
 			} else if (it.resist) {
 				const toJoin = it.resist.map(nxt => toString(nxt, depth + 1));
-				stack += depth ? toJoin.join(maxDepth ? "; " : ", ") : CollectionUtil.joinConjunct(toJoin, ", ", " and ");
+				stack += depth ? toJoin.join(maxDepth ? "; " : ", ") : CollectionUtil.joinConjunct(toJoin, ", ", " ve ");
 			}
 			if (it.note) stack += ` ${it.note}`;
 			return stack;
@@ -841,10 +841,10 @@ Parser.psiOrderToFull = (order) => {
 
 Parser.levelToFull = function (level) {
 	if (isNaN(level)) return "";
-	if (level === "2") return level + "nd";
-	if (level === "3") return level + "rd";
-	if (level === "1") return level + "st";
-	return level + "th";
+	if (level === "2") return level + ".";
+	if (level === "3") return level + ".";
+	if (level === "1") return level + ".";
+	return level + ".";
 };
 
 Parser.invoSpellToFull = function (spell) {
@@ -1079,43 +1079,43 @@ Parser.SP_SCHOOL_ABV_TO_SHORT[SKL_ABV_TRA] = "Trans.";
 Parser.SP_SCHOOL_ABV_TO_SHORT[SKL_ABV_CON] = "Conj.";
 
 Parser.ATB_ABV_TO_FULL = {
-	"str": "Strength",
-	"dex": "Dexterity",
-	"con": "Constitution",
-	"int": "Intelligence",
-	"wis": "Wisdom",
-	"cha": "Charisma"
+	"str": "Kuvvet",
+	"dex": "Çeviklik",
+	"con": "Dayanıklılık",
+	"int": "Zeka",
+	"wis": "Akıl",
+	"cha": "Karizma"
 };
 
-TP_ABERRATION = "aberration";
-TP_BEAST = "beast";
-TP_CELESTIAL = "celestial";
-TP_CONSTRUCT = "construct";
-TP_DRAGON = "dragon";
+TP_ABERRATION = "anomali";
+TP_BEAST = "hayvan";
+TP_CELESTIAL = "kutsal";
+TP_CONSTRUCT = "yapı";
+TP_DRAGON = "ejderha";
 TP_ELEMENTAL = "elemental";
 TP_FEY = "fey";
-TP_FIEND = "fiend";
-TP_GIANT = "giant";
-TP_HUMANOID = "humanoid";
-TP_MONSTROSITY = "monstrosity";
-TP_OOZE = "ooze";
-TP_PLANT = "plant";
-TP_UNDEAD = "undead";
+TP_FIEND = "zebani";
+TP_GIANT = "dev";
+TP_HUMANOID = "insansı";
+TP_MONSTROSITY = "canavar";
+TP_OOZE = "balçık";
+TP_PLANT = "bitki";
+TP_UNDEAD = "yaşayan ölü";
 Parser.MON_TYPE_TO_PLURAL = {};
-Parser.MON_TYPE_TO_PLURAL[TP_ABERRATION] = "aberrations";
-Parser.MON_TYPE_TO_PLURAL[TP_BEAST] = "beasts";
-Parser.MON_TYPE_TO_PLURAL[TP_CELESTIAL] = "celestials";
-Parser.MON_TYPE_TO_PLURAL[TP_CONSTRUCT] = "constructs";
-Parser.MON_TYPE_TO_PLURAL[TP_DRAGON] = "dragons";
-Parser.MON_TYPE_TO_PLURAL[TP_ELEMENTAL] = "elementals";
-Parser.MON_TYPE_TO_PLURAL[TP_FEY] = "fey";
-Parser.MON_TYPE_TO_PLURAL[TP_FIEND] = "fiends";
-Parser.MON_TYPE_TO_PLURAL[TP_GIANT] = "giants";
-Parser.MON_TYPE_TO_PLURAL[TP_HUMANOID] = "humanoids";
-Parser.MON_TYPE_TO_PLURAL[TP_MONSTROSITY] = "monstrosities";
-Parser.MON_TYPE_TO_PLURAL[TP_OOZE] = "oozes";
-Parser.MON_TYPE_TO_PLURAL[TP_PLANT] = "plants";
-Parser.MON_TYPE_TO_PLURAL[TP_UNDEAD] = "undead";
+Parser.MON_TYPE_TO_PLURAL[TP_ABERRATION] = "anomaliler";
+Parser.MON_TYPE_TO_PLURAL[TP_BEAST] = "hayvanlar";
+Parser.MON_TYPE_TO_PLURAL[TP_CELESTIAL] = "kutsallar";
+Parser.MON_TYPE_TO_PLURAL[TP_CONSTRUCT] = "yapılar";
+Parser.MON_TYPE_TO_PLURAL[TP_DRAGON] = "ejderler";
+Parser.MON_TYPE_TO_PLURAL[TP_ELEMENTAL] = "elementaller";
+Parser.MON_TYPE_TO_PLURAL[TP_FEY] = "feyler";
+Parser.MON_TYPE_TO_PLURAL[TP_FIEND] = "zebaniler";
+Parser.MON_TYPE_TO_PLURAL[TP_GIANT] = "devler";
+Parser.MON_TYPE_TO_PLURAL[TP_HUMANOID] = "insansılar";
+Parser.MON_TYPE_TO_PLURAL[TP_MONSTROSITY] = "canavarlar";
+Parser.MON_TYPE_TO_PLURAL[TP_OOZE] = "balçıklar";
+Parser.MON_TYPE_TO_PLURAL[TP_PLANT] = "bitkiler";
+Parser.MON_TYPE_TO_PLURAL[TP_UNDEAD] = "yaşayan ölüler";
 
 SZ_FINE = "F";
 SZ_DIMINUTIVE = "D";
@@ -1142,9 +1142,9 @@ Parser.SIZE_ABV_TO_FULL[SZ_VARIES] = "Varies";
 Parser.XP_CHART = [200, 450, 700, 1100, 1800, 2300, 2900, 3900, 5000, 5900, 7200, 8400, 10000, 11500, 13000, 15000, 18000, 20000, 22000, 25000, 30000, 41000, 50000, 62000, 75000, 90000, 105000, 102000, 135000, 155000];
 
 Parser.ARMOR_ABV_TO_FULL = {
-	"l.": "light",
-	"m.": "medium",
-	"h.": "heavy"
+	"l.": "hafif",
+	"m.": "orta",
+	"h.": "ağır"
 };
 
 SRC_CoS = "CoS";
@@ -1453,11 +1453,11 @@ Parser.ITEM_TYPE_JSON_TO_ABV = {
 };
 
 Parser.DMGTYPE_JSON_TO_FULL = {
-	"B": "bludgeoning",
-	"N": "necrotic",
-	"P": "piercing",
-	"R": "radiant",
-	"S": "slashing"
+	"B": "ezici",
+	"N": "nekrotik",
+	"P": "delici",
+	"R": "radyant",
+	"S": "kesici"
 };
 
 Parser.SKILL_JSON_TO_FULL = {
@@ -2191,7 +2191,7 @@ function defaultSourceSelFn (val) {
 
 function getAsiFilter (options) {
 	const baseOptions = {
-		header: "Ability Bonus",
+		header: "Yetenek Bonusu",
 		items: [
 			"str",
 			"dex",
