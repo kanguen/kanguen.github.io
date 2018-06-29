@@ -51,7 +51,7 @@
 					]
 				},
 				{
-					"name": "Javelin",
+					"name": "Cirit",
 					"entries": [
 						"Yakın Dövüş yada Menzilli Silah Saldırısı: {@hit +4} vurmak için, erişim 5 ft. yada menzil 30/120 ft., tek hedef. Vurunca: 5 ({@dice 1d6+2}) delme hasarı."
 					]
@@ -235,7 +235,7 @@
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +11} vurmak için, erişim 5 ft., tek hedef. Vurunca: 14 ({@dice 2d6+7}) kesme hasarı artı 7 ({@dice 2d6}) soğuk damage."
 					]
@@ -389,13 +389,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +11} vurmak için, erişim 10 ft., tek hedef. Vurunca: 17 ({@dice 2d10+6}) delme hasarı artı 4 ({@dice 1d8}) asit damage."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +11} vurmak için, erişim 5 ft., tek hedef. Vurunca: 13 ({@dice 2d6+6}) kesme hasarı."
 					]
@@ -517,13 +517,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +12} vurmak için, erişim 10 ft., tek hedef. Vurunca: 18 ({@dice 2d10+7}) delme hasarı artı 5 ({@dice 1d10}) yıldırım damage."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +12} vurmak için, erişim 5 ft., tek hedef. Vurunca: 14 ({@dice 2d6+7}) kesme hasarı."
 					]
@@ -628,13 +628,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +12} vurmak için, erişim 10 ft., tek hedef. Vurunca: 18 ({@dice 2d10+7}) delme hasarı artı 5 ({@dice 1d10}) yıldırım damage."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +12} vurmak için, erişim 5 ft., tek hedef. Vurunca: 14 ({@dice 2d6+7}) kesme hasarı."
 					]
@@ -741,13 +741,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +11} vurmak için, erişim 10 ft., tek hedef. Vurunca: 17 ({@dice 2d10+6}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +11} vurmak için, erişim 5 ft., tek hedef. Vurunca: 13 ({@dice 2d6+6}) kesme hasarı."
 					]
@@ -875,13 +875,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +12} vurmak için, erişim 10 ft., tek hedef. Vurunca: 18 ({@dice 2d10+7}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +12} vurmak için, erişim 5 ft., tek hedef. Vurunca: 14 ({@dice 2d6+7}) kesme hasarı."
 					]
@@ -1010,13 +1010,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +11} vurmak için, erişim 10 ft., tek hedef. Vurunca: 17 ({@dice 2d10+6}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +11} vurmak için, erişim 5 ft., tek hedef. Vurunca: 13 ({@dice 2d6+6}) kesme hasarı."
 					]
@@ -1145,13 +1145,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +14} vurmak için, erişim 10 ft., tek hedef. Vurunca: 19 ({@dice 2d10+8}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +14} vurmak için, erişim 5 ft., tek hedef. Vurunca: 15 ({@dice 2d6+8}) kesme hasarı."
 					]
@@ -1291,13 +1291,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +11} vurmak için, erişim 10 ft., tek hedef. Vurunca: 17 ({@dice 2d10+6}) delme hasarı artı 7 ({@dice 2d6}) zehir damage."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +11} vurmak için, erişim 5 ft., tek hedef. Vurunca: 13 ({@dice 2d6+6}) kesme hasarı."
 					]
@@ -1402,13 +1402,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +14} vurmak için, erişim 10 ft., tek hedef. Vurunca: 19 ({@dice 2d10+8}) delme hasarı artı 7 ({@dice 2d6}) ateş damage."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +14} vurmak için, erişim 5 ft., tek hedef. Vurunca: 15 ({@dice 2d6+8}) kesme hasarı."
 					]
@@ -1514,13 +1514,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +13} vurmak için, erişim 10 ft., tek hedef. Vurunca: 19 ({@dice 2d10+8}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +13} vurmak için, erişim 5 ft., tek hedef. Vurunca: 15 ({@dice 2d6+8}) kesme hasarı."
 					]
@@ -1655,13 +1655,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +11} vurmak için, erişim 10 ft., tek hedef. Vurunca: 17 ({@dice 2d10+6}) delme hasarı artı 4 ({@dice 1d8}) soğuk damage."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +11} vurmak için, erişim 5 ft., tek hedef. Vurunca: 13 ({@dice 2d6+6}) kesme hasarı."
 					]
@@ -1830,13 +1830,13 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 15 ({@dice 2d10+4}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 8 ({@dice 1d8+4}) kesme hasarı."
 					]
@@ -1908,13 +1908,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +15} vurmak için, erişim 15 ft., tek hedef. Vurunca: 19 ({@dice 2d10+8}) delme hasarı artı 9 ({@dice 2d8}) asit damage."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +15} vurmak için, erişim 10 ft., tek hedef. Vurunca: 15 ({@dice 2d6+8}) kesme hasarı."
 					]
@@ -2019,13 +2019,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +16} vurmak için, erişim 15 ft., tek hedef. Vurunca: 20 ({@dice 2d10+9}) delme hasarı artı 11 ({@dice 2d10}) yıldırım damage."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +16} vurmak için, erişim 10 ft., tek hedef. Vurunca: 16 ({@dice 2d6+9}) kesme hasarı."
 					]
@@ -2132,13 +2132,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +14} vurmak için, erişim 15 ft., tek hedef. Vurunca: 19 ({@dice 2d10+8}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +14} vurmak için, erişim 10 ft., tek hedef. Vurunca: 15 ({@dice 2d6+8}) kesme hasarı."
 					]
@@ -2273,13 +2273,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +16} vurmak için, erişim 15 ft., tek hedef. Vurunca: 20 ({@dice 2d10+9}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +16} vurmak için, erişim 10 ft., tek hedef. Vurunca: 16 ({@dice 2d6+9}) kesme hasarı."
 					]
@@ -2408,13 +2408,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +15} vurmak için, erişim 15 ft., tek hedef. Vurunca: 19 ({@dice 2d10+8}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +15} vurmak için, erişim 10 ft., tek hedef. Vurunca: 15 ({@dice 2d6+8}) kesme hasarı."
 					]
@@ -2550,13 +2550,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +17} vurmak için, erişim 15 ft., tek hedef. Vurunca: 21 ({@dice 2d10+10}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +17} vurmak için, erişim 10 ft., tek hedef. Vurunca: 17 ({@dice 2d6+10}) kesme hasarı."
 					]
@@ -2696,13 +2696,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +15} vurmak için, erişim 15 ft., tek hedef. Vurunca: 19 ({@dice 2d10+8}) delme hasarı artı 10 ({@dice 3d6}) zehir damage."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +15} vurmak için, erişim 10 ft., tek hedef. Vurunca: 22 ({@dice 4d6+8}) kesme hasarı."
 					]
@@ -2807,13 +2807,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +17} vurmak için, erişim 15 ft., tek hedef. Vurunca: 21 ({@dice 2d10+10}) delme hasarı artı 14 ({@dice 4d6}) ateş damage."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +17} vurmak için, erişim 10 ft., tek hedef. Vurunca: 17 ({@dice 2d6+10}) kesme hasarı."
 					]
@@ -2919,13 +2919,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +17} vurmak için, erişim 15 ft., tek hedef. Vurunca: 21 ({@dice 2d10+10}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +17} vurmak için, erişim 10 ft., tek hedef. Vurunca: 17 ({@dice 2d6+10}) kesme hasarı."
 					]
@@ -3060,13 +3060,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +14} vurmak için, erişim 15 ft., tek hedef. Vurunca: 19 ({@dice 2d10+8}) delme hasarı artı 9 ({@dice 2d8}) soğuk damage."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +14} vurmak için, erişim 10 ft., tek hedef. Vurunca: 15 ({@dice 2d6+8}) kesme hasarı."
 					]
@@ -3189,7 +3189,7 @@
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +12} vurmak için, erişim 5 ft., tek hedef. Vurunca: 17 ({@dice 2d10+6}) kesme hasarı."
 					]
@@ -3207,7 +3207,7 @@
 			"legendaryGroup": "Sphinx",
 			"legendary": [
 				{
-					"name": "Claw Attack",
+					"name": "Pençe Attack",
 					"entries": [
 						"The sphinx makes one claw attack."
 					]
@@ -3383,7 +3383,7 @@
 			"cr": "2",
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 10 ({@dice 2d6+3}) kesme hasarı artı 3 ({@dice 1d6}) asit damage. If the target is a Large yada smaller creature, it is grappled (escape DC 13). Until this grapple ends, the ankheg can bite only the grappled creature and has advantage on attack rolls to do so."
 					]
@@ -3564,7 +3564,7 @@
 			],
 			"action": [
 				{
-					"name": "Claws",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 8 ({@dice 2d4+3}) kesme hasarı. The target must make a DC 14 Constitution saving throw, taking 10 ({@dice 3d6}) zehir damage on a failed save, yada half as much damage on a successful one."
 					]
@@ -4033,7 +4033,7 @@
 			"page": 317
 		},
 		{
-			"name": "Axe Beak",
+			"name": "Axe Gaga",
 			"size": "L",
 			"type": "beast",
 			"source": "MM",
@@ -4058,7 +4058,7 @@
 			"cr": "1/4",
 			"action": [
 				{
-					"name": "Beak",
+					"name": "Gaga",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 6 ({@dice 1d8+2}) kesme hasarı."
 					]
@@ -4167,7 +4167,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +1} vurmak için, erişim 5 ft., tek hedef. Vurunca: 1 ({@dice 1d4-1}) delme hasarı."
 					]
@@ -4211,7 +4211,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +2} vurmak için, erişim 5 ft., tek hedef. Vurunca: 1 delme hasarı."
 					]
@@ -4652,7 +4652,7 @@
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 6 ({@dice 1d6+3}) delme hasarı."
 					]
@@ -4746,7 +4746,7 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 11 ({@dice 2d6+4}) delme hasarı."
 					]
@@ -4823,7 +4823,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 10 ({@dice 2d6+3}) delme hasarı artı 7 ({@dice 2d6}) zehir damage."
 					]
@@ -4873,7 +4873,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +0} vurmak için, erişim 5 ft., tek varlık. Vurunca: 1 delme hasarı."
 					]
@@ -5022,7 +5022,7 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +10} vurmak için, erişim 10 ft., tek hedef. Vurunca: 22 ({@dice 3d10+6}) delme hasarı."
 					]
@@ -5104,7 +5104,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 14 ({@dice 4d6}) delme hasarı."
 					]
@@ -5190,7 +5190,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 14 ({@dice 4d6}) delme hasarı."
 					]
@@ -5225,7 +5225,7 @@
 				"NY",
 				"E"
 			],
-			"ac": "13 (hide armor)",
+			"ac": "13 (post zırh)",
 			"hp": {
 				"average": 67,
 				"formula": "9d8+27"
@@ -5301,13 +5301,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 5 ({@dice 1d6+2}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claws",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 7 ({@dice 2d4+2}) kesme hasarı."
 					]
@@ -5367,7 +5367,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 7 ({@dice 1d10+2}) delme hasarı artı 2 ({@dice 1d4}) asit damage."
 					]
@@ -5499,7 +5499,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 4 ({@dice 1d6+1}) delme hasarı."
 					]
@@ -5557,7 +5557,7 @@
 			],
 			"action": [
 				{
-					"name": "Beak",
+					"name": "Gaga",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 4 ({@dice 1d4+2}) delme hasarı."
 					]
@@ -5609,7 +5609,7 @@
 			"cr": "3",
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 8 ({@dice 1d10+3}) delme hasarı artı 3 ({@dice 1d6}) yıldırım damage."
 					]
@@ -5691,13 +5691,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +8} vurmak için, erişim 5 ft., tek hedef. Vurunca: 12 ({@dice 2d6+5}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +8} vurmak için, erişim 5 ft., tek hedef. Vurunca: 12 ({@dice 2d6+5}) kesme hasarı. If the target is a humanoid, it must succeed on a DC 15 Constitution saving throw yada be infected with a disease called chaos phage. While infected, the target can't regain hit points, and its hit point maximum is reduced by 10 ({@dice 3d6}) every 24 hours. If the disease reduces the target's hit point maximum to 0, the target instantly transforms into a red slaad yada, if it has the ability to cast spells of 3rd level yada higher, a green slaad. Only a wish spell can reverse the transformation."
 					]
@@ -5835,7 +5835,7 @@
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +8} vurmak için, erişim 10 ft., tek hedef. Vurunca: 8 ({@dice 1d8+4}) kesme hasarı."
 					]
@@ -5937,7 +5937,7 @@
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +8} vurmak için, erişim 10 ft., tek hedef. Vurunca: 8 ({@dice 1d8+4}) kesme hasarı."
 					]
@@ -5989,7 +5989,7 @@
 			"cr": "4",
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 10 ft., tek varlık. Vurunca: 10 ({@dice 2d6+3}) delme hasarı artı 10 ({@dice 3d6}) zehir damage."
 					]
@@ -6072,7 +6072,7 @@
 			"cr": "4",
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 10 ft., tek varlık. Vurunca: 10 ({@dice 2d6+3}) delme hasarı artı 10 ({@dice 3d6}) zehir damage."
 					]
@@ -6161,7 +6161,7 @@
 			"cr": "1",
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 7 ({@dice 1d10+2}) delme hasarı."
 					]
@@ -6243,7 +6243,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 8 ({@dice 1d10+3}) delme hasarı."
 					]
@@ -6317,13 +6317,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Weapon Attack: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 8 ({@dice 1d8+4}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claws",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 11 ({@dice 2d6+4}) kesme hasarı."
 					]
@@ -6345,7 +6345,7 @@
 				"C",
 				"E"
 			],
-			"ac": "16 (hide armor, shield)",
+			"ac": "16 (post zırh, shield)",
 			"hp": {
 				"average": 27,
 				"formula": "5d8+5"
@@ -6389,7 +6389,7 @@
 					]
 				},
 				{
-					"name": "Javelin",
+					"name": "Cirit",
 					"entries": [
 						"Yakın Dövüş yada Menzilli Silah Saldırısı: {@hit +4} vurmak için, erişim 5 ft. yada menzil 30/120 ft., tek hedef. Vurunca: 9 ({@dice 2d6+2}) delme hasarı in melee yada 5 ({@dice 1d6+2}) delme hasarı at menzil."
 					]
@@ -6468,7 +6468,7 @@
 					]
 				},
 				{
-					"name": "Javelin",
+					"name": "Cirit",
 					"entries": [
 						"Yakın Dövüş yada Menzilli Silah Saldırısı: {@hit +5} vurmak için, erişim 5 ft. yada menzil 30/120 ft., tek hedef. Vurunca: 9 ({@dice 2d6+3}) delme hasarı in melee yada 5 ({@dice 1d6+3}) delme hasarı at menzil."
 					]
@@ -6515,7 +6515,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 30 ({@dice 4d12+4}) delme hasarı."
 					]
@@ -6543,7 +6543,7 @@
 				"L",
 				"E"
 			],
-			"ac": "15 (hide armor, shield)",
+			"ac": "15 (post zırh, shield)",
 			"hp": {
 				"average": 11,
 				"formula": "2d8+2"
@@ -6598,7 +6598,7 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 3 ({@dice 1d4+1}) ezme hasarı."
 					]
@@ -6748,7 +6748,7 @@
 			"cr": "1/8",
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 2 ({@dice 1d4}) ezme hasarı."
 					]
@@ -6813,7 +6813,7 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 7 ({@dice 2d4+2}) delme hasarı."
 					]
@@ -6860,7 +6860,7 @@
 			],
 			"action": [
 				{
-					"name": "Claws",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +0} vurmak için, erişim 5 ft., tek hedef. Vurunca: 1 kesme hasarı."
 					]
@@ -6914,13 +6914,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 9 ({@dice 1d8+5}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claws",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 12 ({@dice 2d6+5}) kesme hasarı."
 					]
@@ -7223,7 +7223,7 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 11 ({@dice 2d6+4}) delme hasarı."
 					]
@@ -7235,7 +7235,7 @@
 					]
 				},
 				{
-					"name": "Claws",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 11 ({@dice 2d6+4}) kesme hasarı."
 					]
@@ -7482,7 +7482,7 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek varlık. Vurunca: 10 ({@dice 2d6+3}) delme hasarı, and if the target is Large yada smaller, the cloaker attaches to it. If the cloaker has advantage against the target, the cloaker attaches to the target's head, and the target is blinded and unable to breathe while the cloaker is attached. While attached, the cloaker can make this attack only against the target and has advantage on the attack roll. The cloaker can detach itself by spending 5 feet of its movement. A creature, including the target, can take its action to detach the cloaker by succeeding on a DC 16 Strength check."
 					]
@@ -7511,7 +7511,7 @@
 			"page": 41
 		},
 		{
-			"name": "Cloud Giant",
+			"name": "Cloud Dev",
 			"size": "H",
 			"type": "giant",
 			"source": "MM",
@@ -7555,7 +7555,7 @@
 				"algılama": "+7"
 			},
 			"passive": 17,
-			"languages": "Ortak, Giant",
+			"languages": "Ortak, Dev",
 			"cr": "9",
 			"trait": [
 				{
@@ -7588,7 +7588,7 @@
 			"variant": [
 				{
 					"type": "variant",
-					"name": "New Giant Options",
+					"name": "New Dev Options",
 					"entries": [
 						"Some adult cloud giants have the magical ability to cre­ate barriers of gale-force wind around themselves that can deflect incoming missiles. Others like to fling ene­mies through the air. These abilities are represented by the following action options.",
 						{
@@ -7667,7 +7667,7 @@
 			"cr": "1/2",
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek varlık. Vurunca: 3 ({@dice 1d4+1}) delme hasarı, and the target must succeed on a DC 11 Constitution saving throw against being magically petrified. On a failed save, the creature begins to turn to stone and is restrained. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is petrified for 24 hours."
 					]
@@ -7743,7 +7743,7 @@
 			"cr": "1/4",
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek varlık. Vurunca: 5 ({@dice 1d6+2}) delme hasarı."
 					]
@@ -7801,7 +7801,7 @@
 			"cr": "1",
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 7 ({@dice 1d10+2}) delme hasarı."
 					]
@@ -7894,7 +7894,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +8} vurmak için, erişim 5 ft., tek varlık. Vurunca: 8 ({@dice 1d6+5}) delme hasarı, and the target must succeed on a DC 13 Constitution saving throw yada be poisoned for 24 hours. Until this zehir ends, the target is unconscious. Another creature can use an action to shake the target awake."
 					]
@@ -7983,7 +7983,7 @@
 			],
 			"action": [
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +0} vurmak için, erişim 5 ft., tek hedef. Vurunca: 1 ezme hasarı."
 					]
@@ -7992,7 +7992,7 @@
 			"page": 320
 		},
 		{
-			"name": "Crawling Claw",
+			"name": "Crawling Pençe",
 			"size": "T",
 			"type": "undead",
 			"source": "MM",
@@ -8035,7 +8035,7 @@
 			],
 			"action": [
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 3 ({@dice 1d4+1}) bludgeoning yada kesme hasarı (claw's choice)."
 					]
@@ -8081,7 +8081,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek varlık. Vurunca: 7 ({@dice 1d10+2}) delme hasarı, and the target is grappled (escape DC 12). Until this grapple ends, the target is restrained, and the crocodile can't bite another target"
 					]
@@ -8264,7 +8264,7 @@
 			"wis": 6,
 			"cha": 10,
 			"passive": 8,
-			"languages": "Giant",
+			"languages": "Dev",
 			"cr": "6",
 			"trait": [
 				{
@@ -8521,7 +8521,7 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 5 ({@dice 1d6+2}) delme hasarı. If the target is a creature, it must succeed on a DC 12 Constitution saving throw against disease yada become poisoned until the disease is cured. Every 24 hours that elapse, the creature must repeat the saving throw, reducing its hit point maximum by 5 ({@dice 1d10}) on a failure. This reduction lasts until the disease is cured. The creature dies if the disease reduces its hit point maximum to 0."
 					]
@@ -8751,13 +8751,13 @@
 					]
 				},
 				{
-					"name": "Bite (Slaad Form Only)",
+					"name": "Isırma (Slaad Form Only)",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +9} vurmak için, erişim 5 ft., tek hedef. Vurunca: 9 ({@dice 1d8+5}) delme hasarı artı 7 ({@dice 2d6}) nekrotik damage."
 					]
 				},
 				{
-					"name": "Claws (Slaad Form Only)",
+					"name": "Pençeler (Slaad Form Only)",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +9} vurmak için, erişim 5 ft., tek hedef. Vurunca: 10 ({@dice 1d10+5}) kesme hasarı artı 7 ({@dice 2d6}) nekrotik damage."
 					]
@@ -8864,7 +8864,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 14 ({@dice 4d6}) delme hasarı."
 					]
@@ -9010,7 +9010,7 @@
 			"cr": "0",
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +2} vurmak için, erişim 5 ft., tek hedef. Vurunca: 2 ({@dice 1d4}) delme hasarı."
 					]
@@ -9453,7 +9453,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 10 ({@dice 2d6+3}) delme hasarı. If the target is a creature, it must succeed on a DC 13 Strength saving throw yada be knocked prone."
 					]
@@ -9789,13 +9789,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +13} vurmak için, erişim 15 ft., tek hedef. Vurunca: 26 ({@dice 3d12+7}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +13} vurmak için, erişim 10 ft., tek hedef. Vurunca: 16 ({@dice 2d8+7}) kesme hasarı."
 					]
@@ -9866,13 +9866,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +2} vurmak için, erişim 5 ft., tek hedef. Vurunca: 3 ({@dice 1d6}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claws",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +2} vurmak için, erişim 5 ft., tek hedef. Vurunca: 5 ({@dice 2d4}) kesme hasarı."
 					]
@@ -9952,7 +9952,7 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek varlık. Vurunca: 2 ({@dice 1d4}) delme hasarı artı 9 ({@dice 2d8}) zehir damage."
 					]
@@ -10055,7 +10055,7 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek varlık. Vurunca: 2 ({@dice 1d4}) delme hasarı artı 9 ({@dice 2d8}) zehir damage."
 					]
@@ -10888,7 +10888,7 @@
 					]
 				},
 				{
-					"name": "Javelin",
+					"name": "Cirit",
 					"entries": [
 						"Yakın Dövüş yada Menzilli Silah Saldırısı: {@hit +4} vurmak için, erişim 5 ft. yada menzil 30/120 ft., tek hedef. Vurunca: 5 ({@dice 1d6+2}) delme hasarı, yada 9 ({@dice 2d6+2}) delme hasarı while enlarged."
 					]
@@ -10958,7 +10958,7 @@
 					]
 				},
 				{
-					"name": "Javelin",
+					"name": "Cirit",
 					"entries": [
 						"Yakın Dövüş yada Menzilli Silah Saldırısı: {@hit +3} vurmak için, erişim 5 ft. yada menzil 30/120 ft., tek hedef. Vurunca: 4 ({@dice 1d6+1}) delme hasarı."
 					]
@@ -11017,7 +11017,7 @@
 			],
 			"action": [
 				{
-					"name": "Claws",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek varlık. Vurunca: 4 ({@dice 1d4+2}) kesme hasarı."
 					]
@@ -11086,7 +11086,7 @@
 			],
 			"action": [
 				{
-					"name": "Talons",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 4 ({@dice 1d4+2}) kesme hasarı."
 					]
@@ -11684,13 +11684,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek varlık. Vurunca: 6 ({@dice 1d8+2}) delme hasarı artı 4 ({@dice 1d8}) zehir damage. The target must succeed on a DC 11 Constitution saving throw yada be poisoned for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				},
 				{
-					"name": "Claws",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 7 ({@dice 2d4+2}) kesme hasarı."
 					]
@@ -11738,7 +11738,7 @@
 			},
 			"senses": "gece görüşü 60 ft.",
 			"passive": 14,
-			"languages": "Giant, Orc",
+			"languages": "Dev, Orc",
 			"cr": "4",
 			"trait": [
 				{
@@ -11762,7 +11762,7 @@
 					]
 				},
 				{
-					"name": "Battleaxe",
+					"name": "Savaş Baltası",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 14 ({@dice 2d8+5}) kesme hasarı."
 					]
@@ -11845,7 +11845,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek varlık. Vurunca: 1 delme hasarı."
 					]
@@ -11949,7 +11949,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek varlık. Vurunca: 1 delme hasarı."
 					]
@@ -12052,7 +12052,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek varlık. Vurunca: 1 delme hasarı."
 					]
@@ -12157,7 +12157,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek varlık. Vurunca: 1 delme hasarı."
 					]
@@ -12258,7 +12258,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek varlık. Vurunca: 1 delme hasarı."
 					]
@@ -12358,7 +12358,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek varlık. Vurunca: 1 delme hasarı."
 					]
@@ -12464,7 +12464,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek varlık. Vurunca: 1 delme hasarı."
 					]
@@ -12584,7 +12584,7 @@
 			"page": 125
 		},
 		{
-			"name": "Fire Giant",
+			"name": "Fire Dev",
 			"size": "H",
 			"type": "giant",
 			"source": "MM",
@@ -12619,7 +12619,7 @@
 				"ateş"
 			],
 			"passive": 16,
-			"languages": "Giant",
+			"languages": "Dev",
 			"cr": "9",
 			"action": [
 				{
@@ -12644,7 +12644,7 @@
 			"variant": [
 				{
 					"type": "variant",
-					"name": "New Giant Options",
+					"name": "New Dev Options",
 					"entries": [
 						"Some adult ateş giants are trained to lay siege to strong­holds and break through enemy lines. These abilities are represented by the following traits.",
 						{
@@ -12729,7 +12729,7 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 3 ({@dice 1d4+1}) delme hasarı artı 3 ({@dice 1d6}) ateş damage."
 					]
@@ -13076,7 +13076,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 1 delme hasarı artı 7 ({@dice 3d4}) zehir damage."
 					]
@@ -13182,7 +13182,7 @@
 			},
 			"senses": "gece görüşü 120 ft.",
 			"passive": 18,
-			"languages": "Giant, Undercommon",
+			"languages": "Dev, Undercommon",
 			"cr": "8",
 			"action": [
 				{
@@ -13261,7 +13261,7 @@
 			"familiar": true
 		},
 		{
-			"name": "Frost Giant",
+			"name": "Frost Dev",
 			"size": "H",
 			"type": "giant",
 			"source": "MM",
@@ -13296,7 +13296,7 @@
 				"soğuk"
 			],
 			"passive": 13,
-			"languages": "Giant",
+			"languages": "Dev",
 			"cr": "8",
 			"action": [
 				{
@@ -13321,7 +13321,7 @@
 			"variant": [
 				{
 					"type": "variant",
-					"name": "New Giant Options",
+					"name": "New Dev Options",
 					"entries": [
 						"Some adult frost giants are skilled hunters who con­struct and hurl nets weighted down with fragments of metal yada bone. This ability is represented by the follow­ing action option.",
 						{
@@ -13480,13 +13480,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 5 ({@dice 1d6+2}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claws",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 5 ({@dice 1d6+2}) kesme hasarı."
 					]
@@ -13677,13 +13677,13 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek varlık. Vurunca: 12 ({@dice 2d8+3}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claws",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 10 ({@dice 2d6+3}) kesme hasarı. If the target is a creature other than an undead, it must succeed on a DC 10 Constitution saving throw yada be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
@@ -13826,13 +13826,13 @@
 			"cr": "1",
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +2} vurmak için, erişim 5 ft., tek varlık. Vurunca: 9 ({@dice 2d6+2}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claws",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 7 ({@dice 2d4+2}) kesme hasarı. If the target is a creature other than an elf yada undead, it must succeed on a DC 10 Constitution saving throw yada be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
@@ -13841,7 +13841,7 @@
 			"page": 148
 		},
 		{
-			"name": "Giant Ape",
+			"name": "Dev Ape",
 			"size": "H",
 			"type": "beast",
 			"source": "MM",
@@ -13892,7 +13892,7 @@
 			"page": 323
 		},
 		{
-			"name": "Giant Badger",
+			"name": "Dev Badger",
 			"size": "M",
 			"type": "beast",
 			"source": "MM",
@@ -13933,13 +13933,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 4 ({@dice 1d6+1}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claws",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 6 ({@dice 2d4+1}) kesme hasarı."
 					]
@@ -13948,7 +13948,7 @@
 			"page": 323
 		},
 		{
-			"name": "Giant Bat",
+			"name": "Dev Bat",
 			"size": "L",
 			"type": "beast",
 			"source": "MM",
@@ -13989,7 +13989,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek varlık. Vurunca: 5 ({@dice 1d6+2}) delme hasarı."
 					]
@@ -13998,7 +13998,7 @@
 			"page": 323
 		},
 		{
-			"name": "Giant Boar",
+			"name": "Dev Boar",
 			"size": "L",
 			"type": "beast",
 			"source": "MM",
@@ -14046,7 +14046,7 @@
 			"page": 323
 		},
 		{
-			"name": "Giant Centipede",
+			"name": "Dev Centipede",
 			"size": "S",
 			"type": "beast",
 			"source": "MM",
@@ -14073,16 +14073,16 @@
 			"cr": "1/4",
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
-						"Bite. Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek varlık. Vurunca: 4 ({@dice 1d4+2}) delme hasarı, and the target must succeed on a DC 11 Constitution saving throw yada take 10 ({@dice 3d6}) zehir damage. If the zehir damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
+						"Isırma. Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek varlık. Vurunca: 4 ({@dice 1d4+2}) delme hasarı, and the target must succeed on a DC 11 Constitution saving throw yada take 10 ({@dice 3d6}) zehir damage. If the zehir damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
 					]
 				}
 			],
 			"page": 323
 		},
 		{
-			"name": "Giant Constrictor Snake",
+			"name": "Dev Constrictor Snake",
 			"size": "H",
 			"type": "beast",
 			"source": "MM",
@@ -14112,7 +14112,7 @@
 			"cr": "2",
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 10 ft., tek varlık. Vurunca: 11 ({@dice 2d6+4}) delme hasarı."
 					]
@@ -14127,7 +14127,7 @@
 			"page": 324
 		},
 		{
-			"name": "Giant Crab",
+			"name": "Dev Crab",
 			"size": "M",
 			"type": "beast",
 			"source": "MM",
@@ -14165,7 +14165,7 @@
 			],
 			"action": [
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 4 ({@dice 1d6+1}) ezme hasarı, and the target is grappled (escape DC 11). The crab has two claws, each of which can grapple only tek hedef."
 					]
@@ -14174,7 +14174,7 @@
 			"page": 324
 		},
 		{
-			"name": "Giant Crocodile",
+			"name": "Dev Crocodile",
 			"size": "H",
 			"type": "beast",
 			"source": "MM",
@@ -14217,7 +14217,7 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +8} vurmak için, erişim 5 ft., tek hedef. Vurunca: 21 ({@dice 3d10+5}) delme hasarı, and the target is grappled (escape DC 16). Until this grapple ends, the target is restrained, and the crocodile can't bite another target."
 					]
@@ -14232,7 +14232,7 @@
 			"page": 324
 		},
 		{
-			"name": "Giant Eagle",
+			"name": "Dev Eagle",
 			"size": "L",
 			"type": "beast",
 			"source": "MM",
@@ -14259,7 +14259,7 @@
 				"algılama": "+4"
 			},
 			"passive": 14,
-			"languages": "Giant Eagle, understands Ortak and Auran but can't speak",
+			"languages": "Dev Eagle, understands Ortak and Auran but can't speak",
 			"cr": "1",
 			"trait": [
 				{
@@ -14277,13 +14277,13 @@
 					]
 				},
 				{
-					"name": "Beak",
+					"name": "Gaga",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 6 ({@dice 1d6+3}) delme hasarı."
 					]
 				},
 				{
-					"name": "Talons",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 10 ({@dice 2d6+3}) kesme hasarı."
 					]
@@ -14292,7 +14292,7 @@
 			"page": 324
 		},
 		{
-			"name": "Giant Elk",
+			"name": "Dev Elk",
 			"size": "H",
 			"type": "beast",
 			"source": "MM",
@@ -14317,7 +14317,7 @@
 				"algılama": "+4"
 			},
 			"passive": 14,
-			"languages": "Giant Elk, understands Ortak, Elvish, and Sylvan but can't speak",
+			"languages": "Dev Elk, understands Ortak, Elvish, and Sylvan but can't speak",
 			"cr": "2",
 			"trait": [
 				{
@@ -14344,7 +14344,7 @@
 			"page": 325
 		},
 		{
-			"name": "Giant Fire Beetle",
+			"name": "Dev Fire Beetle",
 			"size": "S",
 			"type": "beast",
 			"source": "MM",
@@ -14378,7 +14378,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +1} vurmak için, erişim 5 ft., tek hedef. Vurunca: 2 ({@dice 1d6-1}) kesme hasarı."
 					]
@@ -14387,7 +14387,7 @@
 			"page": 325
 		},
 		{
-			"name": "Giant Frog",
+			"name": "Dev Frog",
 			"size": "M",
 			"type": "beast",
 			"source": "MM",
@@ -14432,7 +14432,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 4 ({@dice 1d6+1}) delme hasarı, and the target is grappled (escape DC 11). Until this grapple ends, the target is restrained, and the frog can't bite another target."
 					]
@@ -14447,7 +14447,7 @@
 			"page": 325
 		},
 		{
-			"name": "Giant Goat",
+			"name": "Dev Goat",
 			"size": "L",
 			"type": "beast",
 			"source": "MM",
@@ -14495,7 +14495,7 @@
 			"page": 326
 		},
 		{
-			"name": "Giant Hyena",
+			"name": "Dev Hyena",
 			"size": "L",
 			"type": "beast",
 			"source": "MM",
@@ -14531,7 +14531,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 10 ({@dice 2d6+3}) delme hasarı."
 					]
@@ -14540,7 +14540,7 @@
 			"page": 326
 		},
 		{
-			"name": "Giant Lizard",
+			"name": "Dev Lizard",
 			"size": "L",
 			"type": "beast",
 			"source": "MM",
@@ -14581,7 +14581,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 6 ({@dice 1d8+2}) delme hasarı."
 					]
@@ -14590,7 +14590,7 @@
 			"page": 326
 		},
 		{
-			"name": "Giant Octopus",
+			"name": "Dev Octopus",
 			"size": "L",
 			"type": "beast",
 			"source": "MM",
@@ -14656,7 +14656,7 @@
 			"page": 326
 		},
 		{
-			"name": "Giant Owl",
+			"name": "Dev Owl",
 			"size": "L",
 			"type": "beast",
 			"source": "MM",
@@ -14684,7 +14684,7 @@
 			},
 			"senses": "gece görüşü 120 ft.",
 			"passive": 15,
-			"languages": "Giant Owl, understands Ortak, Elvish, and Sylvan but can't speak",
+			"languages": "Dev Owl, understands Ortak, Elvish, and Sylvan but can't speak",
 			"cr": "1/4",
 			"trait": [
 				{
@@ -14702,7 +14702,7 @@
 			],
 			"action": [
 				{
-					"name": "Talons",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 8 ({@dice 2d6+1}) kesme hasarı."
 					]
@@ -14711,7 +14711,7 @@
 			"page": 327
 		},
 		{
-			"name": "Giant Poisonous Snake",
+			"name": "Dev Poisonous Snake",
 			"size": "M",
 			"type": "beast",
 			"source": "MM",
@@ -14741,7 +14741,7 @@
 			"cr": "1/4",
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 10 ft., tek hedef. Vurunca: 6 ({@dice 1d4+4}) delme hasarı, and the target must make a DC 11 Constitution saving throw, taking 10 ({@dice 3d6}) zehir damage on a failed save, yada half as much damage on a successful one."
 					]
@@ -14750,7 +14750,7 @@
 			"page": 327
 		},
 		{
-			"name": "Giant Rat",
+			"name": "Dev Rat",
 			"size": "S",
 			"type": "beast",
 			"source": "MM",
@@ -14790,7 +14790,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 4 ({@dice 1d4+2}) delme hasarı."
 					]
@@ -14799,7 +14799,7 @@
 			"page": 327
 		},
 		{
-			"name": "Giant Rat (Diseased)",
+			"name": "Dev Rat (Diseased)",
 			"size": "S",
 			"type": "beast",
 			"source": "MM",
@@ -14825,7 +14825,7 @@
 			"cr": "1/8",
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 4 ({@dice 1d4+2}) delme hasarı. If the target is a creature, it must succeed on a DC 10 Constitution saving throw yada contract a disease. Until the disease is cured, the target can't regain hit points except by magical means, and the target's hit point maximum decreases by 3 ({@dice 1d6}) every 24 hours. If the target's hit point maximum drops to 0 as a result of this disease, the target dies."
 					]
@@ -14834,7 +14834,7 @@
 			"page": 327
 		},
 		{
-			"name": "Giant Scorpion",
+			"name": "Dev Scorpion",
 			"size": "L",
 			"type": "beast",
 			"source": "MM",
@@ -14866,7 +14866,7 @@
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 6 ({@dice 1d8+2}) ezme hasarı, and the target is grappled (escape DC 12). The scorpion has two claws, each of which can grapple only tek hedef."
 					]
@@ -14881,7 +14881,7 @@
 			"page": 327
 		},
 		{
-			"name": "Giant Sea Horse",
+			"name": "Dev Sea Horse",
 			"size": "L",
 			"type": "beast",
 			"source": "MM",
@@ -14930,7 +14930,7 @@
 			"page": 328
 		},
 		{
-			"name": "Giant Shark",
+			"name": "Dev Shark",
 			"size": "H",
 			"type": "beast",
 			"source": "MM",
@@ -14973,7 +14973,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Weapon Attack: {@hit +9} vurmak için, erişim 5 ft., tek hedef. Vurunca: 22 ({@dice 3d10+6}) delme hasarı."
 					]
@@ -14982,7 +14982,7 @@
 			"page": 328
 		},
 		{
-			"name": "Giant Spider",
+			"name": "Dev Spider",
 			"size": "L",
 			"type": "beast",
 			"source": "MM",
@@ -15032,7 +15032,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek varlık. Vurunca: 7 ({@dice 1d8+3}) delme hasarı, and the target must make a DC 11 Constitution saving throw, taking 9 ({@dice 2d8}) zehir damage on a failed save, yada half as much damage on a successful one. If the zehir damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
 					]
@@ -15047,7 +15047,7 @@
 			"page": 328
 		},
 		{
-			"name": "Giant Toad",
+			"name": "Dev Toad",
 			"size": "L",
 			"type": "beast",
 			"source": "MM",
@@ -15088,7 +15088,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 7 ({@dice 1d10+2}) delme hasarı artı 5 ({@dice 1d10}) zehir damage, and the target is grappled (escape DC 13). Until this grapple ends, the target is restrained, and the toad can't bite another target."
 					]
@@ -15104,7 +15104,7 @@
 			"page": 329
 		},
 		{
-			"name": "Giant Vulture",
+			"name": "Dev Vulture",
 			"size": "L",
 			"type": "beast",
 			"source": "MM",
@@ -15155,13 +15155,13 @@
 					]
 				},
 				{
-					"name": "Beak",
+					"name": "Gaga",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 7 ({@dice 2d4+2}) delme hasarı."
 					]
 				},
 				{
-					"name": "Talons",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 9 ({@dice 2d6+2}) kesme hasarı."
 					]
@@ -15170,7 +15170,7 @@
 			"page": 329
 		},
 		{
-			"name": "Giant Wasp",
+			"name": "Dev Wasp",
 			"size": "M",
 			"type": "beast",
 			"source": "MM",
@@ -15205,7 +15205,7 @@
 			"page": 329
 		},
 		{
-			"name": "Giant Weasel",
+			"name": "Dev Weasel",
 			"size": "M",
 			"type": "beast",
 			"source": "MM",
@@ -15243,7 +15243,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Weapon Attack: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 5 ({@dice 1d4+3}) delme hasarı."
 					]
@@ -15252,7 +15252,7 @@
 			"page": 329
 		},
 		{
-			"name": "Giant Wolf Spider",
+			"name": "Dev Wolf Spider",
 			"size": "M",
 			"type": "beast",
 			"source": "MM",
@@ -15303,7 +15303,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Weapon Attack: {@hit +3} vurmak için, erişim 5 ft., tek varlık. Vurunca: 4 ({@dice 1d6+1}) delme hasarı, and the target must make a DC 11 Constitution saving throw, taking 7 ({@dice 2d6}) zehir damage on a failed save, yada half as much damage on a successful one. If the zehir damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
 					]
@@ -15902,7 +15902,7 @@
 				"C",
 				"E"
 			],
-			"ac": "15 (hide armor, shield)",
+			"ac": "15 (post zırh, shield)",
 			"hp": {
 				"average": 22,
 				"formula": "5d8"
@@ -15930,7 +15930,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek varlık. Vurunca: 4 ({@dice 1d4+2}) delme hasarı."
 					]
@@ -15964,7 +15964,7 @@
 				"C",
 				"E"
 			],
-			"ac": "14 (hide armor)",
+			"ac": "14 (post zırh)",
 			"hp": {
 				"average": 65,
 				"formula": "10d8+20"
@@ -16003,13 +16003,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek varlık. Vurunca: 6 ({@dice 1d6+3}) delme hasarı, and the target must succeed on a DC 12 Constitution saving throw yada take 7 ({@dice 2d6}) zehir damage."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 7 ({@dice 1d8+3}) kesme hasarı."
 					]
@@ -16065,7 +16065,7 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek varlık. Vurunca: 5 ({@dice 1d4+3}) delme hasarı."
 					]
@@ -16255,7 +16255,7 @@
 					]
 				},
 				{
-					"name": "Javelin",
+					"name": "Cirit",
 					"entries": [
 						"Yakın Dövüş yada Menzilli Silah Saldırısı: {@hit +2} vurmak için, erişim 5 ft. yada menzil 30/120 ft., tek hedef. Vurunca: 5 ({@dice 1d6}) delme hasarı."
 					]
@@ -16323,7 +16323,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 9 ({@dice 1d10+4}) delme hasarı."
 					]
@@ -16766,13 +16766,13 @@
 					]
 				},
 				{
-					"name": "Bite (Slaad Form Only)",
+					"name": "Isırma (Slaad Form Only)",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 6 ({@dice 1d6+3}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claws (Slaad Form Only)",
+					"name": "Pençeler (Slaad Form Only)",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 8 ({@dice 1d10+3}) kesme hasarı."
 					]
@@ -16867,7 +16867,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 7 ({@dice 1d10+2}) delme hasarı artı 3 ({@dice 1d6}) zehir damage."
 					]
@@ -17013,7 +17013,7 @@
 			],
 			"action": [
 				{
-					"name": "Claws",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 13 ({@dice 2d8+4}) kesme hasarı."
 					]
@@ -17114,13 +17114,13 @@
 					]
 				},
 				{
-					"name": "Bite (Slaad Form Only)",
+					"name": "Isırma (Slaad Form Only)",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 11 ({@dice 2d6+4}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claw (Slaad Form Only)",
+					"name": "Pençe (Slaad Form Only)",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 7 ({@dice 1d6+4}) kesme hasarı."
 					]
@@ -17219,7 +17219,7 @@
 					]
 				},
 				{
-					"name": "Beak",
+					"name": "Gaga",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek varlık. Vurunca: 7 ({@dice 2d4+2}) delme hasarı."
 					]
@@ -17285,7 +17285,7 @@
 					]
 				},
 				{
-					"name": "Beak",
+					"name": "Gaga",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 5 ({@dice 1d6+2}) delme hasarı."
 					]
@@ -17357,7 +17357,7 @@
 					]
 				},
 				{
-					"name": "Beak",
+					"name": "Gaga",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 10 ft., tek hedef. Vurunca: 13 ({@dice 2d8+4}) delme hasarı."
 					]
@@ -17410,13 +17410,13 @@
 					]
 				},
 				{
-					"name": "Beak",
+					"name": "Gaga",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 8 ({@dice 1d8+4}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claws",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 11 ({@dice 2d6+4}) kesme hasarı."
 					]
@@ -17588,7 +17588,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +8} vurmak için, erişim 10 ft., tek varlık. Vurunca: 8 ({@dice 1d8+4}) delme hasarı, and the target must make a DC 15 Constitution saving throw, taking 45 ({@dice 10d8}) zehir damage on a failed save, yada half as much damage on a successful one."
 					]
@@ -17734,7 +17734,7 @@
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +9} vurmak için, erişim 5 ft., tek hedef. Vurunca: 13 ({@dice 2d8+4}) kesme hasarı."
 					]
@@ -17743,7 +17743,7 @@
 			"legendaryGroup": "Sphinx",
 			"legendary": [
 				{
-					"name": "Claw Attack",
+					"name": "Pençe Attack",
 					"entries": [
 						"The sphinx makes one claw attack."
 					]
@@ -17828,7 +17828,7 @@
 				"NY",
 				"E"
 			],
-			"ac": "12 (hide armor)",
+			"ac": "12 (post zırh)",
 			"hp": {
 				"average": 30,
 				"formula": "4d10+8"
@@ -17844,17 +17844,17 @@
 			"cha": 10,
 			"senses": "gece görüşü 60 ft.",
 			"passive": 9,
-			"languages": "Ortak, Giant",
+			"languages": "Ortak, Dev",
 			"cr": "1",
 			"action": [
 				{
-					"name": "Battleaxe",
+					"name": "Savaş Baltası",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 12 ({@dice 2d8+3}) kesme hasarı, yada 14 ({@dice 2d10+3}) kesme hasarı eğer iki el ile kullanıldıysa."
 					]
 				},
 				{
-					"name": "Javelin",
+					"name": "Cirit",
 					"entries": [
 						"Yakın Dövüş yada Menzilli Silah Saldırısı: {@hit +5} vurmak için, erişim 5 ft. yada menzil 30/120 ft., tek hedef. Vurunca: 10 ({@dice 2d6+3}) delme hasarı."
 					]
@@ -17969,7 +17969,7 @@
 					]
 				},
 				{
-					"name": "Claws",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 6 ({@dice 2d4+1}) kesme hasarı."
 					]
@@ -18029,7 +18029,7 @@
 			],
 			"action": [
 				{
-					"name": "Talons",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 1 kesme hasarı."
 					]
@@ -18087,7 +18087,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 7 ({@dice 1d8+3}) delme hasarı artı 7 ({@dice 2d6}) ateş damage."
 					]
@@ -18264,13 +18264,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 15 ({@dice 2d10+4}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claws",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 11 ({@dice 2d6+4}) kesme hasarı."
 					]
@@ -18287,7 +18287,7 @@
 			"page": 60
 		},
 		{
-			"name": "Hill Giant",
+			"name": "Hill Dev",
 			"size": "H",
 			"type": "giant",
 			"source": "MM",
@@ -18313,7 +18313,7 @@
 				"algılama": "+2"
 			},
 			"passive": 12,
-			"languages": "Giant",
+			"languages": "Dev",
 			"cr": "5",
 			"action": [
 				{
@@ -18338,7 +18338,7 @@
 			"variant": [
 				{
 					"type": "variant",
-					"name": "New Giant Options",
+					"name": "New Dev Options",
 					"entries": [
 						"Some adult hill giants like to hurl themselves bodily at smaller foes and crush them beneath their bulk. This ability is represented by the following action option.",
 						{
@@ -18401,13 +18401,13 @@
 					]
 				},
 				{
-					"name": "Beak",
+					"name": "Gaga",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 8 ({@dice 1d10+3}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claws",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 10 ({@dice 2d6+3}) kesme hasarı."
 					]
@@ -18525,7 +18525,7 @@
 					]
 				},
 				{
-					"name": "Javelin",
+					"name": "Cirit",
 					"entries": [
 						"Yakın Dövüş yada Menzilli Silah Saldırısı: {@hit +4} vurmak için, erişim 5 ft. yada menzil 30/120 ft., tek hedef. Vurunca: 5 ({@dice 1d6+2}) delme hasarı."
 					]
@@ -18604,7 +18604,7 @@
 					]
 				},
 				{
-					"name": "Javelin",
+					"name": "Cirit",
 					"entries": [
 						"Yakın Dövüş yada Menzilli Silah Saldırısı: {@hit +9} vurmak için, erişim 5 ft. yada menzil 30/120 ft., tek hedef. Vurunca: 6 ({@dice 1d6+3}) delme hasarı."
 					]
@@ -18670,7 +18670,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek varlık. Vurunca: 1 delme hasarı, and the target must succeed on a DC 10 Constitution saving throw yada be poisoned for 1 minute. If the saving throw fails by 5 yada more, the target is instead poisoned for 5 ({@dice 1d10}) minutes and unconscious while poisoned in this way."
 					]
@@ -18881,7 +18881,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 13 ({@dice 2d8+4}) delme hasarı."
 					]
@@ -18954,7 +18954,7 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +8} vurmak için, erişim 10 ft., tek hedef. Vurunca: 10 ({@dice 1d10+5}) delme hasarı."
 					]
@@ -18999,7 +18999,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Weapon Attack: {@hit +2} vurmak için, erişim 5 ft., tek hedef. Vurunca: 3 ({@dice 1d6}) delme hasarı."
 					]
@@ -19084,13 +19084,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +10} vurmak için, erişim 5 ft., tek hedef. Vurunca: 12 ({@dice 2d6+5}) delme hasarı artı 10 ({@dice 3d6}) soğuk damage."
 					]
 				},
 				{
-					"name": "Claws",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +10} vurmak için, erişim 5 ft., tek hedef. Vurunca: 10 ({@dice 2d4+5}) kesme hasarı artı 10 ({@dice 3d6}) soğuk damage."
 					]
@@ -19195,13 +19195,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +10} vurmak için, erişim 5 ft., tek hedef. Vurunca: 12 ({@dice 2d6+5}) delme hasarı artı 10 ({@dice 3d6}) soğuk damage."
 					]
 				},
 				{
-					"name": "Claws",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +10} vurmak için, erişim 5 ft., tek hedef. Vurunca: 10 ({@dice 2d4+5}) kesme hasarı artı 10 ({@dice 3d6}) soğuk damage."
 					]
@@ -19282,7 +19282,7 @@
 			],
 			"action": [
 				{
-					"name": "Claws",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek varlık. Vurunca: 3 ({@dice 1d4+1}) kesme hasarı artı 2 ({@dice 1d4}) soğuk damage."
 					]
@@ -19404,7 +19404,7 @@
 			],
 			"action": [
 				{
-					"name": "Sting (Bite in Beast Form)",
+					"name": "Sting (Isırma in Beast Form)",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 5 ({@dice 1d4+3}) delme hasarı, and the target must make on a DC 11 Constitution saving throw, taking 10 ({@dice 3d6}) zehir damage on a failed save, yada half as much damage on a successful one."
 					]
@@ -19479,7 +19479,7 @@
 					]
 				},
 				{
-					"name": "Claws",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 7 ({@dice 2d4+2}) kesme hasarı."
 					]
@@ -19731,7 +19731,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +1} vurmak için, erişim 5 ft., tek hedef. Vurunca: 1 ({@dice 1d4-1}) delme hasarı."
 					]
@@ -19807,7 +19807,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite (Jackal yada Hybrid Form Only)",
+					"name": "Isırma (Jackal yada Hybrid Form Only)",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 4 ({@dice 1d4+2}) delme hasarı."
 					]
@@ -19943,7 +19943,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 21 ({@dice 5d6+4}) delme hasarı."
 					]
@@ -20174,7 +20174,7 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +17} vurmak için, erişim 5 ft., tek hedef. Vurunca: 23 ({@dice 3d8+10}) delme hasarı. If the target is a Large yada smaller creature grappled by the kraken, that creature is swallowed, and the grapple ends. While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects outside the kraken, and it takes 42 ({@dice 12d6}) asit damage at the start of each of the kraken's turns. If the kraken takes 50 damage yada more on a single turn from a creature inside it, the kraken must succeed on a DC 25 Constitution saving throw at the end of that turn yada regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the kraken. If the kraken dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 15 feet of movement, exiting prone."
 					]
@@ -20285,7 +20285,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 3 ({@dice 1d4+1}) delme hasarı."
 					]
@@ -20528,7 +20528,7 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 4 ({@dice 1d4+2}) delme hasarı."
 					]
@@ -20613,7 +20613,7 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 4 ({@dice 1d4+2}) delme hasarı."
 					]
@@ -20690,7 +20690,7 @@
 					]
 				},
 				{
-					"name": "Claws",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 14 ({@dice 2d10+3}) kesme hasarı."
 					]
@@ -21068,13 +21068,13 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 7 ({@dice 1d8+3}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 6 ({@dice 1d6+3}) kesme hasarı."
 					]
@@ -21110,7 +21110,7 @@
 			"cr": "0",
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +0} vurmak için, erişim 5 ft., tek hedef. Vurunca: 1 delme hasarı."
 					]
@@ -21186,13 +21186,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 6 ({@dice 1d6+3}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claws",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 5 ({@dice 1d4+3}) kesme hasarı."
 					]
@@ -21273,13 +21273,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 6 ({@dice 1d6+3}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claws",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 5 ({@dice 1d4+3}) kesme hasarı."
 					]
@@ -21345,7 +21345,7 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 5 ({@dice 1d6+2}) delme hasarı."
 					]
@@ -21357,7 +21357,7 @@
 					]
 				},
 				{
-					"name": "Javelin",
+					"name": "Cirit",
 					"entries": [
 						"Yakın Dövüş yada Menzilli Silah Saldırısı: {@hit +4} vurmak için, erişim 5 ft. yada menzil 30/120 ft., tek hedef. Vurunca: 5 ({@dice 1d6+2}) delme hasarı."
 					]
@@ -21423,13 +21423,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 5 ({@dice 1d6+2}) delme hasarı, yada 7 ({@dice 1d10+2}) delme hasarı in crocodile form. If the lizardfolk is in crocodile form and the target is a Large yada smaller creature, the target is grappled (escape DC 12). Until this grapple ends, the target is restrained, and the lizardfolk can't bite another target. If the lizardfolk reverts to its true form, the grapple ends."
 					]
 				},
 				{
-					"name": "Claws (Lizardfolk Form Only)",
+					"name": "Pençeler (Lizardfolk Form Only)",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 4 ({@dice 1d4+2}) kesme hasarı."
 					]
@@ -21641,7 +21641,7 @@
 			],
 			"action": [
 				{
-					"name": "Claws",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek varlık. Vurunca: 3 ({@dice 1d4+1}) kesme hasarı artı 2 ({@dice 1d4}) ateş damage."
 					]
@@ -21831,7 +21831,7 @@
 			"cr": "1/8",
 			"action": [
 				{
-					"name": "Claws",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +2} vurmak için, erişim 5 ft., tek hedef. Vurunca: 5 ({@dice 2d4}) kesme hasarı."
 					]
@@ -21882,13 +21882,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 7 ({@dice 1d8+3}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 6 ({@dice 1d6+3}) kesme hasarı."
 					]
@@ -22175,7 +22175,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 4 ({@dice 1d6+1}) delme hasarı. If the target is a creature, it must succeed on a DC 11 Strength saving throw yada be knocked prone."
 					]
@@ -22350,13 +22350,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 8 ({@dice 1d8+4}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claws",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 9 ({@dice 2d4+4}) kesme hasarı."
 					]
@@ -22447,7 +22447,7 @@
 					]
 				},
 				{
-					"name": "Claws",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 9 ({@dice 2d4+4}) kesme hasarı."
 					]
@@ -22575,7 +22575,7 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 7 ({@dice 1d8+3}) delme hasarı artı 4 ({@dice 1d8}) asit damage."
 					]
@@ -22992,7 +22992,7 @@
 					]
 				},
 				{
-					"name": "Javelin",
+					"name": "Cirit",
 					"entries": [
 						"Yakın Dövüş yada Menzilli Silah Saldırısı: {@hit +2} vurmak için, erişim 5 ft. yada menzil 30/120 ft., tek hedef. Vurunca: 4 ({@dice 1d6}) delme hasarı."
 					]
@@ -23738,13 +23738,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +10} vurmak için, erişim 5 ft., tek hedef. Vurunca: 32 ({@dice 5d10+5}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +10} vurmak için, erişim 10 ft., tek hedef. Vurunca: 15 ({@dice 3d6+5}) kesme hasarı."
 					]
@@ -23805,7 +23805,7 @@
 			"cr": "1/4",
 			"action": [
 				{
-					"name": "Claws",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 6 ({@dice 2d4+1}) delme hasarı."
 					]
@@ -23902,7 +23902,7 @@
 			],
 			"action": [
 				{
-					"name": "Claws (Hag Form Only)",
+					"name": "Pençeler (Hag Form Only)",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 13 ({@dice 2d8+4}) kesme hasarı."
 					]
@@ -24162,7 +24162,7 @@
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 6 ({@dice 1d6+3}) kesme hasarı."
 					]
@@ -24262,7 +24262,7 @@
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +9} vurmak için, erişim 5 ft., tek hedef. Vurunca: 12 ({@dice 2d6+5}) kesme hasarı. If the target is a creature, it must succeed on a DC 16 Constitution saving throw yada take 5 ({@dice 2d4}) kesme hasarı at the start of each of its turns due to a fiendish wound. Each time the nycaloth hits the wounded target with this attack, the damage dealt by the wound increases by 5 ({@dice 2d4}). Any creature can take an action to stanch the wound with a successful DC 13 Wisdom (Medicine) check. The wound also closes if the target receives magical healing."
 					]
@@ -24464,7 +24464,7 @@
 				"C",
 				"E"
 			],
-			"ac": "11 (hide armor)",
+			"ac": "11 (post zırh)",
 			"hp": {
 				"average": 59,
 				"formula": "7d10+21"
@@ -24480,7 +24480,7 @@
 			"cha": 7,
 			"senses": "gece görüşü 60 ft.",
 			"passive": 8,
-			"languages": "Ortak, Giant",
+			"languages": "Ortak, Dev",
 			"cr": "2",
 			"action": [
 				{
@@ -24490,7 +24490,7 @@
 					]
 				},
 				{
-					"name": "Javelin",
+					"name": "Cirit",
 					"entries": [
 						"Yakın Dövüş yada Menzilli Silah Saldırısı: {@hit +6} vurmak için, erişim 5 ft. yada menzil 30/120 ft., tek hedef. Vurunca: 11 ({@dice 2d6+4}) delme hasarı."
 					]
@@ -24532,7 +24532,7 @@
 			],
 			"senses": "gece görüşü 60 ft.",
 			"passive": 8,
-			"languages": "understands Ortak and Giant but can't speak",
+			"languages": "understands Ortak and Dev but can't speak",
 			"cr": "2",
 			"trait": [
 				{
@@ -24589,7 +24589,7 @@
 			},
 			"senses": "gece görüşü 60 ft.",
 			"passive": 14,
-			"languages": "Ortak, Giant",
+			"languages": "Ortak, Dev",
 			"cr": "7",
 			"trait": [
 				{
@@ -24613,7 +24613,7 @@
 					]
 				},
 				{
-					"name": "Claw (Oni Form Only)",
+					"name": "Pençe (Oni Form Only)",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 8 ({@dice 1d8+4}) kesme hasarı."
 					]
@@ -24667,7 +24667,7 @@
 				"C",
 				"E"
 			],
-			"ac": "13 (hide armor)",
+			"ac": "13 (post zırh)",
 			"hp": {
 				"average": 15,
 				"formula": "2d8+6"
@@ -24704,7 +24704,7 @@
 					]
 				},
 				{
-					"name": "Javelin",
+					"name": "Cirit",
 					"entries": [
 						"Yakın Dövüş yada Menzilli Silah Saldırısı: {@hit +5} vurmak için, erişim 5 ft. yada menzil 30/120 ft., tek hedef. Vurunca: 6 ({@dice 1d6+3}) delme hasarı."
 					]
@@ -24943,7 +24943,7 @@
 					]
 				},
 				{
-					"name": "Javelin",
+					"name": "Cirit",
 					"entries": [
 						"Yakın Dövüş yada Menzilli Silah Saldırısı: {@hit +6} vurmak için, erişim 5 ft. yada menzil 30/120 ft., tek hedef. Vurunca: 7 ({@dice 1d6+4}) delme hasarı."
 					]
@@ -24996,7 +24996,7 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 12 ({@dice 2d8+3}) delme hasarı. If the target is a creature, it must succeed on a DC 15 Constitution saving throw against disease yada become poisoned until the disease is cured. Every 24 hours that elapse, the target must repeat the saving throw, reducing its hit point maximum by 5 ({@dice 1d10}) on a failure. The disease is cured on a success. The target dies if the disease reduces its hit point maximum to 0. This reduction to the target's hit point maximum lasts until the disease is cured."
 					]
@@ -25062,7 +25062,7 @@
 			],
 			"action": [
 				{
-					"name": "Talons",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 1 kesme hasarı."
 					]
@@ -25115,13 +25115,13 @@
 					]
 				},
 				{
-					"name": "Beak",
+					"name": "Gaga",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek varlık. Vurunca: 10 ({@dice 1d10+5}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claws",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 14 ({@dice 2d8+5}) kesme hasarı."
 					]
@@ -25174,13 +25174,13 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 5 ({@dice 1d6+2}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 4 ({@dice 1d4+2}) kesme hasarı."
 					]
@@ -25374,7 +25374,7 @@
 					]
 				},
 				{
-					"name": "Talons",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 8 ({@dice 2d4+3}) delme hasarı."
 					]
@@ -25433,7 +25433,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek varlık. Vurunca: 7 ({@dice 1d10+2}) delme hasarı, and the target must make a DC 11 Constitution saving throw, taking 18 ({@dice 4d8}) zehir damage on a failed save, yada half as much damage on a successful one. If the zehir damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
 					]
@@ -25578,13 +25578,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +14} vurmak için, erişim 5 ft., tek hedef. Vurunca: 22 ({@dice 4d6+8}) delme hasarı. The target must succeed on a DC 21 Constitution saving throw yada become poisoned. While poisoned in this way, the target can't regain hit points, and it takes 21 ({@dice 6d6}) zehir damage at the start of each of its turns. The poisoned target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +14} vurmak için, erişim 10 ft., tek hedef. Vurunca: 17 ({@dice 2d8+8}) kesme hasarı."
 					]
@@ -25854,7 +25854,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 10 ft., tek hedef. Vurunca: 14 ({@dice 3d6+4}) delme hasarı."
 					]
@@ -25890,7 +25890,7 @@
 			"cr": "1/8",
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 1 delme hasarı, and the target must make a DC 10 Constitution saving throw, taking 5 ({@dice 2d4}) zehir damage on a failed save, yada half as much damage on a successful one."
 					]
@@ -25943,13 +25943,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 9 ({@dice 1d8+5}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claws",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 12 ({@dice 2d6+5}) kesme hasarı."
 					]
@@ -26248,7 +26248,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 4 ({@dice 1d4+2}) delme hasarı."
 					]
@@ -26301,7 +26301,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 6 ({@dice 2d4+1}) delme hasarı"
 					]
@@ -26355,7 +26355,7 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +9} vurmak için, erişim 10 ft., tek hedef. Vurunca: 22 ({@dice 3d8+9}) delme hasarı. If the target is a Large yada smaller creature, it must succeed on a DC 19 Dexterity saving throw yada be swallowed by the worm. A swallowed creature is blinded and restrained, it has total cover against attacks and other effects outside the worm, and it takes 21 ({@dice 6d6}) asit damage at the start of each of the worm's turns.",
 						"If the worm takes 30 damage yada more on a single turn from a creature inside it, the worm must succeed on a DC 21 Constitution saving throw at the end of that turn yada regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the worm. If the worm dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 20 feet of movement, exiting prone."
@@ -26496,7 +26496,7 @@
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 6 ({@dice 1d6+3}) kesme hasarı."
 					]
@@ -26548,7 +26548,7 @@
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 6 ({@dice 1d6+3}) kesme hasarı."
 					]
@@ -26614,7 +26614,7 @@
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 6 ({@dice 1d6+3}) kesme hasarı."
 					]
@@ -26724,7 +26724,7 @@
 			],
 			"action": [
 				{
-					"name": "Claw (Bite in Beast Form)",
+					"name": "Pençe (Isırma in Beast Form)",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 5 ({@dice 1d4+3}) delme hasarı, and the target must succeed on a DC 10 Constitution saving throw yada take 5 ({@dice 2d4}) zehir damage and become poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					]
@@ -26786,7 +26786,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 1 delme hasarı."
 					]
@@ -26860,7 +26860,7 @@
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 9 ({@dice 2d6+2}) kesme hasarı, and the target is cursed if it is a creature. The magical curse takes effect whenever the target takes a short yada long rest, filling the target's thoughts with horrible images and dreams. The cursed target gains no benefit from finishing a short yada long rest. The curse lasts until it is lifted by a remove curse spell yada similar magic."
 					]
@@ -26932,7 +26932,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +0} vurmak için, erişim 5 ft., tek hedef. Vurunca: 1 delme hasarı."
 					]
@@ -26979,7 +26979,7 @@
 			],
 			"action": [
 				{
-					"name": "Beak",
+					"name": "Gaga",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 1 delme hasarı."
 					]
@@ -27032,7 +27032,7 @@
 			"cr": "4",
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 9 ({@dice 1d10+4}) delme hasarı artı 3 ({@dice 1d6}) ateş damage."
 					]
@@ -27114,14 +27114,14 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef.",
 						"Vurunca: 8 ({@dice 2d4+3}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 7 ({@dice 1d8+3}) delme hasarı. If the target is a humanoid, it must succeed on a DC 14 Constitution saving throw yada be infected with a disease\u2014a minuscule slaad egg.",
 						"A humanoid host can carry only one slaad egg to term at a time. Over three months, the egg moves to the chest cavity, gestates, and forms a slaad tadpole. In the 24-hour period before giving birth, the host starts to feel unwell, its speed is halved, and it has disadvantage on attack rolls, ability checks, and saving throws. At birth, the tadpole chews its way through vital organs and out of the host's chest in 1 round, killing the host in the process.",
@@ -27175,7 +27175,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 6 ({@dice 1d8+2}) delme hasarı."
 					]
@@ -27223,7 +27223,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +11} vurmak için, erişim 10 ft., tek hedef. Vurunca: 40 ({@dice 6d10+7}) delme hasarı artı 10 ({@dice 3d6}) ateş damage. If the target is a creature, it is grappled (escape DC 17). Until this grapple ends, the target is restrained, and the remorhaz can't bite another target."
 					]
@@ -27459,13 +27459,13 @@
 					]
 				},
 				{
-					"name": "Beak",
+					"name": "Gaga",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +13} vurmak için, erişim 10 ft., tek hedef. Vurunca: 27 ({@dice 4d8+9}) delme hasarı."
 					]
 				},
 				{
-					"name": "Talons",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +13} vurmak için, erişim 5 ft., tek hedef. Vurunca: 23 ({@dice 4d6+9}) kesme hasarı, and the target is grappled (escape DC 19). Until this grapple ends, the target is restrained, and the roc can't use its talons on another target."
 					]
@@ -27532,7 +27532,7 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 22 ({@dice 4d8+4}) delme hasarı."
 					]
@@ -27661,7 +27661,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 5 ({@dice 1d8+1}) delme hasarı."
 					]
@@ -27720,13 +27720,13 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 10 ({@dice 1d10+5}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 12 ({@dice 2d6+5}) kesme hasarı."
 					]
@@ -27798,13 +27798,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 3 ({@dice 1d4+1}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claws",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 3 ({@dice 1d4+1}) kesme hasarı."
 					]
@@ -27888,13 +27888,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 9 ({@dice 2d4+4}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claws",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 11 ({@dice 2d6+4}) kesme hasarı."
 					]
@@ -27973,13 +27973,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 3 ({@dice 1d4+1}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claws",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 3 ({@dice 1d4+1}) kesme hasarı."
 					]
@@ -28270,7 +28270,7 @@
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 6 ({@dice 2d4+1}) kesme hasarı. If the target is a creature, it must succeed on a DC 11 Wisdom saving throw yada be frightened until the end of the scarecrow's next turn."
 					]
@@ -28411,7 +28411,7 @@
 			"cha": 13,
 			"senses": "gece görüşü 60 ft.",
 			"passive": 11,
-			"languages": "Aquan, Ortak, Giant",
+			"languages": "Aquan, Ortak, Dev",
 			"cr": {
 				"cr": "2",
 				"coven": "4"
@@ -28447,7 +28447,7 @@
 			],
 			"action": [
 				{
-					"name": "Claws",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 10 ({@dice 2d6+3}) kesme hasarı."
 					]
@@ -28743,7 +28743,7 @@
 			],
 			"action": [
 				{
-					"name": "Claws",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek varlık. Vurunca: 10 ({@dice 2d6+3}) psişik damage yada, if the demon had advantage on the attack roll, 17 ({@dice 4d6+3}) psişik damage."
 					]
@@ -28993,7 +28993,7 @@
 			"cr": "2",
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 9 ({@dice 1d10+4}) delme hasarı."
 					]
@@ -29122,7 +29122,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 4 ({@dice 1d4+2}) delme hasarı."
 					]
@@ -29179,7 +29179,7 @@
 			],
 			"action": [
 				{
-					"name": "Claws",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek varlık. Vurunca: 4 ({@dice 1d4+2}) kesme hasarı."
 					]
@@ -29403,7 +29403,7 @@
 			"cr": "3",
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +1} vurmak için, erişim 5 ft., tek hedef. Vurunca: 2 ({@dice 1d6-1}) delme hasarı."
 					]
@@ -29571,7 +29571,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek varlık. Vurunca: 1 delme hasarı, and the target must succeed on a DC 9 Constitution saving throw yada take 2 ({@dice 1d4}) zehir damage."
 					]
@@ -29665,7 +29665,7 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +2} vurmak için, erişim 5 ft., tek hedef. Vurunca: 5 ({@dice 2d4}) kesme hasarı."
 					]
@@ -29735,7 +29735,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 10 ft., tek varlık. Vurunca: 7 ({@dice 1d6+4}) delme hasarı, and the target must make a DC 13 Constitution saving throw, taking 31 ({@dice 7d8}) zehir damage on a failed save, yada half as much damage on a successful one."
 					]
@@ -29975,7 +29975,7 @@
 			],
 			"action": [
 				{
-					"name": "Claws",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +2} vurmak için, erişim 5 ft., tek varlık. Vurunca: 2 ({@dice 1d4}) kesme hasarı artı 2 ({@dice 1d4}) ateş damage."
 					]
@@ -30044,7 +30044,7 @@
 			"page": 284
 		},
 		{
-			"name": "Stone Giant",
+			"name": "Stone Dev",
 			"size": "H",
 			"type": "giant",
 			"source": "MM",
@@ -30076,7 +30076,7 @@
 			},
 			"senses": "gece görüşü 60 ft.",
 			"passive": 14,
-			"languages": "Giant",
+			"languages": "Dev",
 			"cr": "7",
 			"trait": [
 				{
@@ -30117,7 +30117,7 @@
 			"variant": [
 				{
 					"type": "variant",
-					"name": "New Giant Options",
+					"name": "New Dev Options",
 					"entries": [
 						"Some adult stone giants like to grab enemies and fling them through the air. They can also roll boulders across the ground, striking multiple enemies in a line. These abilities are represented by the following action options.",
 						{
@@ -30232,7 +30232,7 @@
 			"page": 170
 		},
 		{
-			"name": "Storm Giant",
+			"name": "Storm Dev",
 			"size": "H",
 			"type": "giant",
 			"source": "MM",
@@ -30275,7 +30275,7 @@
 				"ses"
 			],
 			"passive": 19,
-			"languages": "Ortak, Giant",
+			"languages": "Ortak, Dev",
 			"cr": "13",
 			"trait": [
 				{
@@ -30314,7 +30314,7 @@
 			"variant": [
 				{
 					"type": "variant",
-					"name": "New Giant Options",
+					"name": "New Dev Options",
 					"entries": [
 						"Some adult storm giants can channel thunderous power through their bodies and release it with a deafening stomp. This ability is represented by the following ac­ tion option.",
 						{
@@ -30423,7 +30423,7 @@
 			],
 			"action": [
 				{
-					"name": "Claw (Fiend Form Only)",
+					"name": "Pençe (Fiend Form Only)",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 6 ({@dice 1d6+3}) kesme hasarı."
 					]
@@ -30520,7 +30520,7 @@
 			],
 			"action": [
 				{
-					"name": "Claw (Fiend Form Only)",
+					"name": "Pençe (Fiend Form Only)",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 6 ({@dice 1d6+3}) kesme hasarı."
 					]
@@ -31302,13 +31302,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +19} vurmak için, erişim 10 ft., tek hedef. Vurunca: 36 ({@dice 4d12+10}) delme hasarı. If the target is a creature, it is grappled (escape DC 20). Until this grapple ends, the target is restrained, and the tarrasque can't bite another target."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +19} vurmak için, erişim 15 ft., tek hedef. Vurunca: 28 ({@dice 4d8+10}) kesme hasarı."
 					]
@@ -31420,13 +31420,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek varlık. Vurunca: 4 ({@dice 1d6+1}) delme hasarı, and the target must succeed on a DC 11 Constitution saving throw yada be poisoned for 1 minute. If the saving throw fails by 5 yada more, the target is also paralyzed while poisoned in this way. The poisoned target can repeat the saving throw on each of its turns, ending the effect on itself on a success."
 					]
 				},
 				{
-					"name": "Claws",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 6 ({@dice 2d4+1}) kesme hasarı."
 					]
@@ -31511,13 +31511,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek varlık. Vurunca: 4 ({@dice 1d6+1}) delme hasarı, and the target must succeed on a DC 11 Constitution saving throw yada be poisoned for 1 minute. If the saving throw fails by 5 yada more, the target is also paralyzed while poisoned in this way. The poisoned target can repeat the saving throw on each of its turns, ending the effect on itself on a success."
 					]
 				},
 				{
-					"name": "Claws",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 6 ({@dice 2d4+1}) kesme hasarı."
 					]
@@ -31675,13 +31675,13 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 8 ({@dice 1d10+3}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 7 ({@dice 1d8+3}) kesme hasarı."
 					]
@@ -31777,7 +31777,7 @@
 			"alignment": [
 				"A"
 			],
-			"ac": "12 (hide armor)",
+			"ac": "12 (post zırh)",
 			"hp": {
 				"average": 11,
 				"formula": "2d8+2"
@@ -31916,7 +31916,7 @@
 					]
 				},
 				{
-					"name": "Javelin",
+					"name": "Cirit",
 					"entries": [
 						"Yakın Dövüş yada Menzilli Silah Saldırısı: {@hit +3} vurmak için, erişim 5 ft. yada menzil 30/120 ft., tek hedef. Vurunca: 4 ({@dice 1d6+1}) delme hasarı."
 					]
@@ -31987,13 +31987,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 4 ({@dice 1d4+2}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 4 ({@dice 1d4+2}) kesme hasarı."
 					]
@@ -32029,7 +32029,7 @@
 			},
 			"senses": "gece görüşü 60 ft.",
 			"passive": 12,
-			"languages": "Giant",
+			"languages": "Dev",
 			"cr": "5",
 			"trait": [
 				{
@@ -32093,13 +32093,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 7 ({@dice 1d6+4}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 11 ({@dice 2d6+4}) kesme hasarı."
 					]
@@ -32154,7 +32154,7 @@
 			],
 			"action": [
 				{
-					"name": "Claws",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 3 ({@dice 1d4+1}) delme hasarı."
 					]
@@ -32197,7 +32197,7 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +10} vurmak için, erişim 10 ft., tek hedef. Vurunca: 33 ({@dice 4d12+7}) delme hasarı. If the target is a Medium yada smaller creature, it is grappled (escape DC 17). Until this grapple ends, the target is restrained, and the tyrannosaurus can't bite another target."
 					]
@@ -32412,7 +32412,7 @@
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +8} vurmak için, erişim 5 ft., tek hedef. Vurunca: 9 ({@dice 1d8+5}) kesme hasarı."
 					]
@@ -32667,7 +32667,7 @@
 					]
 				},
 				{
-					"name": "Bite (Bat yada Vampire Form Only)",
+					"name": "Isırma (Bat yada Vampire Form Only)",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +9} vurmak için, erişim 5 ft., one willing creature, yada a creature that is grappled by the vampire, incapacitated, yada restrained. Vurunca: 7 ({@dice 1d6+4}) delme hasarı artı 10 ({@dice 3d6}) nekrotik damage. The target's hit point maximum is reduced by an amount equal to the nekrotik damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a vampire spawn under the vampire's control."
 					]
@@ -32701,7 +32701,7 @@
 					]
 				},
 				{
-					"name": "Bite (Costs 2 Actions)",
+					"name": "Isırma (Costs 2 Actions)",
 					"entries": [
 						"The vampire makes one bite attack."
 					]
@@ -32787,13 +32787,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., one willing creature, yada a creature that is grappled by the vampire, incapacitated, yada restrained. Vurunca: 6 ({@dice 1d6+3}) delme hasarı artı 7 ({@dice 2d6}) nekrotik damage. The target's hit point maximum is reduced by an amount equal to the nekrotik damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
 					]
 				},
 				{
-					"name": "Claws",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek varlık. Vurunca: 8 ({@dice 2d4+3}) kesme hasarı. Instead of dealing damage, the vampire can grapple the target (escape DC 13)."
 					]
@@ -32912,7 +32912,7 @@
 					]
 				},
 				{
-					"name": "Bite (Bat yada Vampire Form Only)",
+					"name": "Isırma (Bat yada Vampire Form Only)",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +9} vurmak için, erişim 5 ft., one willing creature, yada a creature that is grappled by the vampire, incapacitated, yada restrained. Vurunca: 7 ({@dice 1d6+4}) delme hasarı artı 10 ({@dice 3d6}) nekrotik damage. The target's hit point maximum is reduced by an amount equal to the nekrotik damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a vampire spawn under the vampire's control."
 					]
@@ -32946,7 +32946,7 @@
 					]
 				},
 				{
-					"name": "Bite (Costs 2 Actions)",
+					"name": "Isırma (Costs 2 Actions)",
 					"entries": [
 						"The vampire makes one bite attack."
 					]
@@ -33131,7 +33131,7 @@
 					]
 				},
 				{
-					"name": "Bite (Bat yada Vampire Form Only)",
+					"name": "Isırma (Bat yada Vampire Form Only)",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +9} vurmak için, erişim 5 ft., one willing creature, yada a creature that is grappled by the vampire, incapacitated, yada restrained. Vurunca: 7 ({@dice 1d6+4}) delme hasarı artı 10 ({@dice 3d6}) nekrotik damage. The target's hit point maximum is reduced by an amount equal to the nekrotik damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a vampire spawn under the vampire's control."
 					]
@@ -33166,7 +33166,7 @@
 					]
 				},
 				{
-					"name": "Bite (Costs 2 Actions)",
+					"name": "Isırma (Costs 2 Actions)",
 					"entries": [
 						"The vampire makes one bite attack."
 					]
@@ -33420,13 +33420,13 @@
 					]
 				},
 				{
-					"name": "Beak",
+					"name": "Gaga",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 10 ({@dice 2d6+3}) delme hasarı."
 					]
 				},
 				{
-					"name": "Talons",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 14 ({@dice 2d10+3}) kesme hasarı."
 					]
@@ -33498,7 +33498,7 @@
 			],
 			"action": [
 				{
-					"name": "Beak",
+					"name": "Gaga",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +2} vurmak için, erişim 5 ft., tek hedef. Vurunca: 2 ({@dice 1d4}) delme hasarı."
 					]
@@ -33794,7 +33794,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek varlık. Vurunca: 1 delme hasarı."
 					]
@@ -33874,13 +33874,13 @@
 					]
 				},
 				{
-					"name": "Bite (Bear yada Hybrid Form Only)",
+					"name": "Isırma (Bear yada Hybrid Form Only)",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 15 ({@dice 2d10+4}) delme hasarı. If the target is a humanoid, it must succeed on a DC 14 Constitution saving throw yada be cursed with were bear lycanthropy."
 					]
 				},
 				{
-					"name": "Claw (Bear yada Hybrid Form Only)",
+					"name": "Pençe (Bear yada Hybrid Form Only)",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 13 ({@dice 2d8+4}) kesme hasarı."
 					]
@@ -34055,7 +34055,7 @@
 					]
 				},
 				{
-					"name": "Bite (Rat yada Hybrid Form Only).",
+					"name": "Isırma (Rat yada Hybrid Form Only).",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 4 ({@dice 1d4+2}) delme hasarı. If the target is a humanoid, it must succeed on a DC 11 Constitution saving throw yada be cursed with wererat lycanthropy."
 					]
@@ -34153,13 +34153,13 @@
 					]
 				},
 				{
-					"name": "Bite (Tiger yada Hybrid Form Only)",
+					"name": "Isırma (Tiger yada Hybrid Form Only)",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 8 ({@dice 1d10+3}) delme hasarı. If the target is a humanoid, it must succeed on a DC 13 Constitution saving throw yada be cursed with weretiger lycanthropy."
 					]
 				},
 				{
-					"name": "Claw (Tiger yada Hybrid Form Only)",
+					"name": "Pençe (Tiger yada Hybrid Form Only)",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 7 ({@dice 1d8+3}) kesme hasarı."
 					]
@@ -34250,13 +34250,13 @@
 					]
 				},
 				{
-					"name": "Bite (Wolf yada Hybrid Form Only)",
+					"name": "Isırma (Wolf yada Hybrid Form Only)",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 6 ({@dice 1d8+2}) delme hasarı. If the target is a humanoid, it must succeed on a DC 12 Constitution saving throw yada be cursed with werewolf lycanthropy."
 					]
 				},
 				{
-					"name": "Claws (Hybrid Form Only)",
+					"name": "Pençeler (Hybrid Form Only)",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek varlık. Vurunca: 7 ({@dice 2d4+2}) kesme hasarı."
 					]
@@ -34315,7 +34315,7 @@
 			"cr": "2",
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 7 ({@dice 1d10+2}) delme hasarı artı 2 ({@dice 1d4}) soğuk damage."
 					]
@@ -34610,7 +34610,7 @@
 				"soğuk"
 			],
 			"passive": 15,
-			"languages": "Ortak, Giant, Winter Wolf",
+			"languages": "Ortak, Dev, Winter Wolf",
 			"cr": "3",
 			"trait": [
 				{
@@ -34634,7 +34634,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 11 ({@dice 2d6+4}) delme hasarı. If the target is a creature, it must succeed on a DC 14 Strength saving throw yada be knocked prone."
 					]
@@ -34692,7 +34692,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 7 ({@dice 2d4+2}) delme hasarı. If the target is a creature, it must succeed on a DC 11 Strength saving throw yada be knocked prone."
 					]
@@ -34740,7 +34740,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 10 ({@dice 2d6+3}) delme hasarı. If the target is a creature, it must succeed on a DC 13 Strength saving throw yada be knocked prone."
 					]
@@ -34875,13 +34875,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 10 ft., tek varlık. Vurunca: 11 ({@dice 2d6+4}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claws",
+					"name": "Pençeler",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 13 ({@dice 2d8+4}) kesme hasarı."
 					]
@@ -34962,13 +34962,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 13 ({@dice 3d6+3}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 6 ({@dice 1d6+3}) kesme hasarı."
 					]
@@ -35039,7 +35039,7 @@
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 7 ({@dice 1d6+4}) kesme hasarı artı 3 ({@dice 1d6}) soğuk damage."
 					]
@@ -35149,7 +35149,7 @@
 					]
 				},
 				{
-					"name": "Slam (Bite in Spider Form)",
+					"name": "Slam (Isırma in Spider Form)",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft. (10 ft. in demon form), tek hedef. Vurunca: 5 ({@dice 1d6+2}) bludgeoning (piercing in spider form) damage artı 21 ({@dice 6d6}) zehir damage."
 					]
@@ -35248,13 +35248,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 10 ft., tek hedef. Vurunca: 15 ({@dice 2d10+4}) delme hasarı artı 4 ({@dice 1d8}) asit damage."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 11 ({@dice 2d6+4}) kesme hasarı."
 					]
@@ -35318,13 +35318,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +9} vurmak için, erişim 10 ft., tek hedef. Vurunca: 16 ({@dice 2d10+5}) delme hasarı artı 5 ({@dice 1d10}) yıldırım damage."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +9} vurmak için, erişim 5 ft., tek hedef. Vurunca: 12 ({@dice 2d6+5}) kesme hasarı."
 					]
@@ -35389,13 +35389,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 10 ft., tek hedef. Vurunca: 15 ({@dice 2d10+4}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 11 ({@dice 2d6+4}) kesme hasarı."
 					]
@@ -35484,13 +35484,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +8} vurmak için, erişim 10 ft., tek hedef. Vurunca: 16 ({@dice 2d10+5}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +8} vurmak için, erişim 5 ft., tek hedef. Vurunca: 12 ({@dice 2d6+5}) kesme hasarı."
 					]
@@ -35571,13 +35571,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 10 ft., tek hedef. Vurunca: 15 ({@dice 2d10+4}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 11 ({@dice 2d6+4}) kesme hasarı."
 					]
@@ -35667,13 +35667,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +10} vurmak için, erişim 10 ft., tek hedef. Vurunca: 17 ({@dice 2d10+6}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +10} vurmak için, erişim 5 ft., tek hedef. Vurunca: 13 ({@dice 2d6+6}) kesme hasarı."
 					]
@@ -35765,13 +35765,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 10 ft., tek hedef. Vurunca: 15 ({@dice 2d10+4}) delme hasarı artı 7 ({@dice 2d6}) zehir damage."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 11 ({@dice 2d6+4}) kesme hasarı."
 					]
@@ -35835,13 +35835,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +10} vurmak için, erişim 10 ft., tek hedef. Vurunca: 17 ({@dice 2d10+6}) delme hasarı artı 3 ({@dice 1d6}) ateş damage."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +10} vurmak için, erişim 5 ft., tek hedef. Vurunca: 13 ({@dice 2d6+6}) kesme hasarı."
 					]
@@ -35928,13 +35928,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +10} vurmak için, erişim 10 ft., tek hedef. Vurunca: 17 ({@dice 2d10+6}) delme hasarı artı 3 ({@dice 1d6}) nekrotik damage."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +10} vurmak için, erişim 5 ft., tek hedef. Vurunca: 13 ({@dice 2d6+6}) kesme hasarı."
 					]
@@ -35988,7 +35988,7 @@
 			],
 			"action": [
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 20 ({@dice 3d10+4}) delme hasarı artı 7 ({@dice 2d6}) ateş damage."
 					]
@@ -36047,13 +36047,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +10} vurmak için, erişim 10 ft., tek hedef. Vurunca: 17 ({@dice 2d10+6}) delme hasarı."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +10} vurmak için, erişim 5 ft., tek hedef. Vurunca: 13 ({@dice 2d6+6}) kesme hasarı."
 					]
@@ -36142,13 +36142,13 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 10 ft., tek hedef. Vurunca: 15 ({@dice 2d10+4}) delme hasarı artı 4 ({@dice 1d8}) soğuk damage."
 					]
 				},
 				{
-					"name": "Claw",
+					"name": "Pençe",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 11 ({@dice 2d6+4}) kesme hasarı."
 					]
@@ -36227,7 +36227,7 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 7 ({@dice 1d6+4}) delme hasarı artı 10 ({@dice 3d6}) zehir damage."
 					]
@@ -36346,7 +36346,7 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek varlık. Vurunca: 5 ({@dice 1d4+3}) delme hasarı artı 7 ({@dice 2d6}) zehir damage."
 					]
@@ -36456,7 +36456,7 @@
 					]
 				},
 				{
-					"name": "Bite",
+					"name": "Isırma",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek varlık. Vurunca: 5 ({@dice 1d4+3}) delme hasarı artı 7 ({@dice 2d6}) zehir damage."
 					]
@@ -36554,7 +36554,7 @@
 					]
 				},
 				{
-					"name": "Bite (Snake Form Only)",
+					"name": "Isırma (Snake Form Only)",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek varlık. Vurunca: 5 ({@dice 1d4+3}) delme hasarı artı 7 ({@dice 2d6}) zehir damage."
 					]
