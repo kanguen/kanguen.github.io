@@ -27246,7 +27246,7 @@
 						"Arcana",
 						"Aldatma",
 						"Tarih",
-						"Gözdağı Verme",
+						"Korkutma",
 						"İnceleme",
 						"Doğa",
 						"Din"
@@ -27350,7 +27350,6 @@
 											"{@spell Eldritch blast} büyüsünü kullandığında, hasarına Karizma bonusunu ekleyebilirsin."
 										]
 									},
-									
 									{
 										"type": "invocation",
 										"name": "Gölgelerin Zırhı",
@@ -27366,7 +27365,6 @@
 											"{@spell Levitate} büyüsünü kendi üzerinde büyü yuvası yada materyal bileşen harcamadan istediğin zaman kullanabilirsin."
 										]
 									},
-									
 									{
 										"type": "invocation",
 										"name": "Hayvan Lisanı",
@@ -27398,7 +27396,6 @@
 											"Maceralarında diğer ritüel büyüleri de Gölgeler Kitabına ekleyebilirsin. Bu tip bir büyü bulduğunda eğer büyünün seviyesi senin warlock seviyenin yarısına eşitse (yukarı yuvarlanır) yada daha düşükse ve sen bunu kopyalayacak zamana sahipsen kitabına ekleyebilirsin. Büyünün her seviyesi için kopyalama süreci onu yazmak için gereken nadir mürekkepler için 50gp ve 2 saat alır."
 										]
 									},
-									
 									{
 										"type": "invocation",
 										"name": "Carceri'nin Zincirleri",
@@ -27407,7 +27404,6 @@
 											"{@spell Hold monster} büyüsünü bir kutsal, zebani yada elementali hedef alarak büyü yuvası yada materyal bileşen harcamadan istediğin zaman kullanabilirsin. Bu yakarışı aynı varlığın üzerinde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir."
 										]
 									},
-									
 									{
 										"type": "invocation",
 										"name": "Şeytanın Görüşü",
@@ -27430,7 +27426,6 @@
 											"{@spell Detect magic} büyüsünü kendi üzerinde büyü yuvası harcamadan istediğin zaman kullanabilirsin."
 										]
 									},
-									
 									{
 										"type": "invocation",
 										"name": "Eldritch Mızrağı",
@@ -27453,7 +27448,6 @@
 											"{@spell False life} büyüsünü kendi üzerinde 1. seviye olarak büyü yuvası yada materyal bileşen harcamadan istediğin zaman kullanabilirsin."
 										]
 									},
-									
 									{
 										"type": "invocation",
 										"name": "İki Zihnin Bakışı",
@@ -27461,7 +27455,6 @@
 											"Eylemini kullanarak gönüllü bir insansıya dokunup bir sonraki sıranın sonuna kadar onun duyularını kullanabilirsin. Bu varlık senle aynı boyutta olduğu sürece sonraki sıralarında eylemini kullanarak bu bağlantıyı sürdürebilirsin. Diğer varlığın duyuları ile algılarken, o varlığın sahip olduğu özel duyulardan faydalanabilirsin ve sen kendi çevrene karşı kör ve sağır olursun."
 										]
 									},
-									
 									{
 										"type": "invocation",
 										"name": "Can İçen",
@@ -27470,7 +27463,6 @@
 											"Bir varlığa senin ahit silahınla vurunca, varlık fazladan Karizma bonusun kadar (en az 1) nekrotik hasar alır."
 										]
 									},
-									
 									{
 										"type": "invocation",
 										"name": "Çok Yüzün Maskesi",
@@ -27509,7 +27501,6 @@
 											"{@spell Silent image} büyüsünü büyü yuvası yada materyal bileşen harcamadan istediğin zaman kullanabilirsin."
 										]
 									},
-									
 									{
 										"type": "invocation",
 										"name": "Gölgelerle Bir",
@@ -27526,7 +27517,6 @@
 											"{@spell Jump} büyüsünü kendi üzerinde büyü yuvası yada materyal bileşen harcamadan istediğin zaman kullanabilirsin."
 										]
 									},
-									
 									{
 										"type": "invocation",
 										"name": "İtici Patlama",
@@ -27543,7 +27533,6 @@
 											"{@spell Polymorph} büyüsünü bir kere warlock büyü yuvası harcayarak kullanabilirsin. Uzun dinlenme bitirene kadar bir daha kullanamazsın."
 										]
 									},
-									
 									{
 										"type": "invocation",
 										"name": "Kötü Alamet Sembolleri",
@@ -27552,7 +27541,6 @@
 											"{@spell Bestow curse} büyüsünü bir kere warlock büyü yuvası harcayarak kullanabilirsin. Uzun dinlenme bitirene kadar bir daha kullanamazsın."
 										]
 									},
-									
 									{
 										"type": "invocation",
 										"name": "Beş Kaderin Hırsızı",
@@ -27568,7 +27556,6 @@
 											"Sıranda Saldırı eylemini kullandığında ahit silahınla bir yerine iki kere saldırabilirsin."
 										]
 									},
-									
 									{
 										"type": "invocation",
 										"name": "Uzak Diyarların Görüleri",
@@ -27603,134 +27590,134 @@
 									},
 									{
 										"type": "invocation",
-										"name": "Aspect of the Moon",
-										"prerequisite": "Pact of the Tome feature",
+										"name": "Ayın Sureti",
+										"prerequisite": "Yazıtın Ahdi özelliği",
 										"entries": [
-											"You no longer need to sleep and can't be forced to sleep by any means. To gain the benefits of a long rest, you can spend all 8 hours doing light activity, such as reading your Book of Shadows and keeping watch."
+											"Artık uyku ihtiyacı duymazsın ve hiçbir şekilde uykuya zorlanamazsın. Uzun dinlenmeden faydalanmak için 8 saat boyunca nöbet tutma yada Gölgeler Kitabını okuma gibi hafif aktivite yapman yeterli olur."
 										],
 										"source": "XGE"
 									},
 									{
 										"type": "invocation",
-										"name": "Cloak of Flies",
-										"prerequisite": "5th level",
+										"name": "Sinekler Pelerini",
+										"prerequisite": "5. seviye",
 										"entries": [
-											"As a bonus action, you can surround yourself with a magical aura that looks like buzzing flies. The aura extends 5 feet from you in every direction, but not through total cover. It lasts until you're {@condition incapacitated} or you dismiss it as a bonus action.",
-											"The aura grants you advantage on Charisma (Intimidation) checks but disadvantage on all other Charisma checks. Any other creature that starts its turn in the aura takes poison damage equal to your Charisma modifier (minimum of 0 damage).",
-											"Once you use this invocation, you can't use it again until you finish a short or long rest."
+											"Bonus eylem olarak kendini uçuşan sinekler gibi görünen bir büyülü aura ile sarabilirsin. Aura her yöne doğru senden 5 feet uzaklığı kapsar ama tam siperin arkasına geçmez. Sen bilinçsiz hale gelene kadar yada bonus eylem olarak onu azledene kadar sürer.",
+											"Aura sana Karizma (Korkutma) zarlarında avantaj verir ama diğer tüm Karizma zarlarında dezavantajın olur. Sırasına bu aura içinde başlayan diğer tüm varlıklar senin Karizma bonusun kadar (en az 0) zehir hasarı alır.",
+											"Bu yakarışı kullandığında bir daha kısa yada uzun dinlenme bitirene kadar bir daha kullanamazsın."
 										],
 										"source": "XGE"
 									},
 									{
 										"type": "invocation",
-										"name": "Eldritch Smite",
-										"prerequisite": "5th level, Pact of the Blade feature",
+										"name": "Eldritch Çarpması",
+										"prerequisite": "5. seviye, Kılıcın Ahdi özelliği",
 										"entries": [
-											"Once per turn when you hit a creature with your pact weapon, you can expend a warlock spell slot to deal an extra 1d8 force damage to the target, plus another 1d8 per level of the spell slot, and you can knock the target {@condition prone} if it is Huge or smaller."
+											"Her sıranda bir kereliğine, bir varlığa ahit silahınla vurduğunda bir warlock büyü yuvası harcayıp hedefe 1d8 + büyü yuvasının her seviyesi için 1d8 fazladan güç hasarı verip, Huge yada daha küçükse yere düşürebilirsin."
 										],
 										"source": "XGE"
 									},
 									{
 										"type": "invocation",
-										"name": "Ghostly Gaze",
-										"prerequisite": "7th level",
+										"name": "Hayalet Bakışı",
+										"prerequisite": "7. seviye",
 										"entries": [
-											"As an action, you gain the ability to see through solid objects to a range of 30 feet. Within that range, you have darkvision if you don't already have it. This special sight lasts for 1 minute or until your concentration ends (as if you were concentrating on a spell). During that time, you perceive objects as ghostly, transparent images.",
-											"Once you use this invocation, you can't use it again until you finish a short or long rest."
+											"Eylem olarak, 30 feet yakınındaki katı maddelerin ardını görebilme yeteneğin olur. Eğer gece görüşün yoksa menzil içinde var sayılır. Bu özel görüş 1 dakika yada konsantrasyonun (bir büyüye konsantre olur gibi) bitene kadar sürer. Bu süre içinde nesneleri hayaletimsi, transparan bir şekilde görürsün.",
+											"Bu yakarışı kullandığında kısa yada uzun dinlenme bitirene kadar bir daha kullanamazsın."
 										],
 										"source": "XGE"
 									},
 									{
 										"type": "invocation",
-										"name": "Gift of the Depths",
-										"prerequisite": "5th level",
+										"name": "Derinlerin Armağanı",
+										"prerequisite": "5. seviye",
 										"entries": [
-											"You can breathe underwater, and you gain a swimming speed equal to your walking speed.",
-											"You can also cast {@spell water breathing} once without expending a spell slot. You regain the ability to do so when you finish a long rest."
+											"Su altında nefes alabilirsin ve yürüme hızına eşit yüzme hızın olur.",
+											"Aynı zamanda {@spell water breathing} büyüsünü bir kere büyü yuvası harcamadan kullanabilirsin. Uzun dinlenme sonrası bu özellik yenilenir."
 										],
 										"source": "XGE"
 									},
 									{
 										"type": "invocation",
-										"name": "Gift of the Ever-Living Ones",
-										"prerequisite": "Pact of the Chain feature",
+										"name": "Daimi Varolanların Armağanı",
+										"prerequisite": "Zincirin Ahdi özelliği",
 										"entries": [
-											"Whenever you regain hit points while your familiar is within 100 feet of you, treat any dice rolled to determine the hit points you regain as having rolled their maximum value for you."
+											"Hizmetkarın 100 feet yakınındayken her HP yenileyişinde bu zarların senin için maksimum değerlerini atmış olduğunu varsay."
 										],
 										"source": "XGE"
 									},
 									{
 										"type": "invocation",
-										"name": "Grasp of Hadar",
+										"name": "Hadar'ın Kavraması",
 										"prerequisite": "{@spell eldritch blast} cantrip",
 										"entries": [
-											"Once on each of your turns when you hit a creature with your {@spell eldritch blast}, you can move that creature in a straight line 10 feet closer to you."
+											"Her sıranda bir kereliğine, bir varlığa {@spell eldritch blast} büyün ile vurduğunda sana doğru düz bir şekilde 10 feet çekebilirsin."
 										],
 										"source": "XGE"
 									},
 									{
 										"type": "invocation",
-										"name": "Improved Pact Weapon",
-										"prerequisite": "Pact of the Blade feature",
+										"name": "Gelişmiş Ahit Silahı",
+										"prerequisite": "Kılıcın Ahdi özelliği",
 										"entries": [
-											"You can use any weapon you summon with your Pact of the Blade feature as a spellcasting focus for your warlock spells.",
-											"In addition, the weapon gains a +1 bonus to its attack and damage rolls, unless it is a magic weapon that already has a bonus to those rolls.",
-											"Finally, the weapon you conjure can be a shortbow, longbow, light crossbow, or heavy crossbow."
+											"Kılıcın Ahdi özelliği ile yarattığın tüm silahları warlock büyülerin için büyü yapma odağı olarak kullanabilirsin.",
+											"Ek olarak, bu silah zaten saldırı ve hasar zarlarına bonusu olan bir büyülü silah değilse bunlara +1 ekler.",
+											"Son olarak, yarattığın silah kısa yay, uzun yay, hafif arbalet yada ağır arbalet olabilir."
 										],
 										"source": "XGE"
 									},
 									{
 										"type": "invocation",
-										"name": "Lance of Lethargy",
+										"name": "Bezdiren Mızrak",
 										"prerequisite": "{@spell eldritch blast} cantrip",
 										"entries": [
-											"Once on each of your turns when you hit a creature with your {@spell eldritch blast}, you can reduce that creature's speed by 10 feet until the end of your next turn."
+											"Her sıranda bir kereliğine, bir varlığa {@spell eldritch blast} büyüsü ile vurduğunda bir sonraki sıranın sonuna kadar o varlığın hızını 10 feet düşürürsün."
 										],
 										"source": "XGE"
 									},
 									{
 										"type": "invocation",
-										"name": "Maddening Hex",
-										"prerequisite": "5th level, hex spell or a warlock feature that curses",
+										"name": "Çıldırtan Hex",
+										"prerequisite": "5. seviye, hex büyüsü yada lanetleyen bir warlock özelliği",
 										"entries": [
-											"As a bonus action, you cause a psychic disturbance around the target cursed by your hex spell or by a warlock feature of yours, such as Hexblade's Curse or Sign of Ill Omen. When you do so, you deal psychic damage to the cursed target and each creature of your choice that you can see within 5 feet of it. The psychic damage equals your Charisma modifier (minimum of 1 damage). To use this invocation, you must be able to see the cursed target, and it must be within 30 feet of you."
+											"Hex büyün, Hex Kılıcının Laneti yada Kötü Alamet Sembolleri gibi lanetleyen bir warlock özelliği kullandığında, bonus eylem olarak hedefin çevresinde psişik kargaşa yaratabilirsin. Bunu yaptığında lanetli hedefe ve onun 5 feet yakınındaki seçeceğin tüm varlıklara psişik hasar verebilirsin. Psişik hasar senin Karizma bonusun (en az 1 hasar) kadardır. Bu yakarışı kullanabilmek için lanetli hedefi görebilmeli ve onun 30 feet yakınında olmalısın."
 										],
 										"source": "XGE"
 									},
 									{
 										"type": "invocation",
-										"name": "Relentless Hex",
-										"prerequisite": "7th level, hex spell or a warlock feature that curses",
+										"name": "Amansız Hex",
+										"prerequisite": "7. seviye, hex büyüsü yada lanetleyen bir warlock özelliği",
 										"entries": [
-											"Your curse creates a temporary bond between you and your target. As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see within 5 feet of the target cursed by your hex spell or by a warlock feature of yours, such as Hexblade's Curse or Sign of Ill Omen. To teleport in this way, you must be able to see the cursed target."
+											"Lanetin hedef ve senin aranda geçici bir bağ oluşturur. Hex büyün, Hex Kılıcının Laneti yada Kötü Alamet Sembolleri gibi lanetleyen bir warlock özelliği kullandığında, bonus eylem olarak 30 feet'e kadar lanetli hedefin 5 feet yakınındaki görebildiğin boş bir alana ışınlanabilirsin. Bu şekilde ışınlanabilmek için lanetli hedefi görebilmen gerekir."
 										],
 										"source": "XGE"
 									},
 									{
 										"type": "invocation",
-										"name": "Shroud of Shadow",
-										"prerequisite": "15th level",
+										"name": "Gölge Örtüsü",
+										"prerequisite": "15. seviye",
 										"entries": [
-											"You can cast {@spell invisibility} büyüsünü büyü slotu harcamadan istediğin zaman kullanabilirsin."
+											"{@spell Invisibility} büyüsünü büyü yuvası harcamadan istediğin zaman kullanabilirsin."
 										],
 										"source": "XGE"
 									},
 									{
 										"type": "invocation",
-										"name": "Tomb of Levistus",
-										"prerequisite": "5th level",
+										"name": "Levistus'un Mezarı",
+										"prerequisite": "5. seviye",
 										"entries": [
-											"As a reaction when you take damage, you can entomb yourself in ice, which melts away at the end of your next turn. You gain 10 temporary hit points per warlock level, which take as much of the triggering damage as possible. Immediately after you take the damage, you gain vulnerability to fire damage, your speed is reduced to 0, and you are {@condition incapacitated}. These effects, including any remaining temporary hit points, all end when the ice melts.",
-											"Once you use this invocation, you can't use it again until you finish a short or long rest."
+											"Hasar aldığında reaksiyon olarak kendini bir sonraki sıranın sonunda eriyecek bir buz kütlesi ile kaplayabilirsin. Warlock seviyesi başına 10 geçici HP kazanırsın ve bu HP tetiklenen hasarın mümkün olan kısmını alır. Hasarı aldıktan hemen sonra ateş hasarına zayıflığın olur, hızın 0'a düşer ve etkisiz hale gelirsin. Bu etkiler, kalan geçici HP dahil olmak üzere buz eridiğinde biter.",
+											"Bu yakarışı kullandığında kısa yada uzun dinlenme bitirene kadar bir daha kullanamazsın."
 										],
 										"source": "XGE"
 									},
 									{
 										"type": "invocation",
-										"name": "Trickster's Escape",
-										"prerequisite": "7th level",
+										"name": "Hilekarın Kaçışı",
+										"prerequisite": "7. seviye",
 										"entries": [
-											"You can cast {@spell freedom of movement} once on yourself without expending a spell slot. You regain the ability to do so when you finish a long rest."
+											"{@spell Freedom of movement} büyüsünü bir kere kendi üzerinde büyü yuvası harcamadan kullanabilirsin. Uzun dinlenme bitirince bu özellik yenilenir."
 										],
 										"source": "XGE"
 									}
@@ -27751,7 +27738,7 @@
 										"type": "patron",
 										"name": "Zincirin Ahdi",
 										"entries": [
-											"{@spell find familiar} büyüsünü öğrenirsin ve onu ritüel olarak kullanabilirsin. Bu büyü bildiğin büyüler sayısını etkilemez.",
+											"{@spell Find familiar} büyüsünü öğrenirsin ve onu ritüel olarak kullanabilirsin. Bu büyü bildiğin büyüler sayısını etkilemez.",
 											"Bu büyüyü kullandığında hizmetkarın için normal formların yanında şu özel formlardan birini de seçebilirsin: {@creature imp}, {@creature pseudodragon}, {@creature quasit}, yada {@creature sprite}.",
 											"Ek olarak, Saldırı eylemini kullandığında bir saldırından vazgeçip hizmetkarının reaksiyonunu kullanarak bir saldırı yapmasını sağlayabilirsin."
 										]
@@ -27772,22 +27759,7 @@
 											"Efendin sana Gölgeler Kitabı adında bir büyü kitabı verir. Bu özelliği kazandığında herhangi bir sınıfın büyü listesinden 3 adet cantrip seç. Bu cantripler aynı büyü listesinden olmak zorunda değil. Büyü kitabı üzerinde olduğu sürece bu cantripleri istediğin zaman kullanabilirsin. Bildiğin cantripler sayısını etkilemez. Bu şekilde kullandığın tüm cantripler senin için warlock cantripi sayılır. Eğer gölgeler Kitabını kaybedersen 1 saatlik bir seremoni ile efendinden yenisini alabilirsin. Bu seremoni kısa yada uzun dinlenme sırasında yapılabilir ve bir önceki kitabı yok eder. Öldüğünde kitap küle dönüşür."
 										]
 									},
-									{
-										"type": "patron",
-										"name": "Pact of the Star Chain",
-										"entries": [
-											"At 3rd level, a character dedicated to the Seeker can select this option instead of one of the warlock's existing Pact Boon options.",
-											"The Seeker grants you a chain forged from starlight, decorated with seven gleaming motes of brightness. While the chain is on your person, you know the {@spell augury} spell and can cast it as a ritual. The spell doesn't count against your number of spells known.",
-											"Additionally, you can invoke the Seeker's power to gain advantage on an Intelligence check while you carry this item. Once you use this ability, you cannot use it again until you complete a short or long rest.",
-											"If you lose your Star Chain, you can perform a 1-­hour ceremony to receive a replacement from the Seeker. The ceremony can be performed during a short or long rest, and it destroys the previous chain. The chain disappears in a flash of light when you die.",
-											"The exact form of this item might be different depending on your patron. The Star Chain is inspired by the Greyhawk deity Celestian."
-										],
-										"source": "UATheFaithful",
-										"subclass": {
-											"name": "The Seeker (UA)",
-											"source": "UATheFaithful"
-										}
-									}
+									
 								]
 							}
 						]
@@ -27871,7 +27843,7 @@
 				],
 				[
 					{
-						"name": "Mystic Arcanum (8th level)",
+						"name": "Mistik Sır (8. seviye)",
 						"entries": [
 							"15. seviyede efendin sana bir büyülü sır bahşeder. Warlock büyü listesinden bir {@filter 8. seviye büyü|spells|level=8|class=Warlock} seç, bu senin mistik sırrın olur.",
 							"Sır büyünü bir kere büyü yuvası harcamadan kullanabilirsin. Yeniden kullanabilmek için uzun dinlenme bitirmen gerekir."
@@ -27889,14 +27861,13 @@
 				],
 				[
 					{
-						"name": "Mystic Arcanum (9th level)",
+						"name": "Mistik Sır (9. seviye)",
 						"entries": [
 							"17. seviyede efendin sana bir büyülü sır bahşeder. Warlock büyü listesinden bir {@filter 9. seviye büyü|spells|level=9|class=Warlock} seç, bu senin mistik sırrın olur.",
 							"Sır büyünü bir kere büyü yuvası harcamadan kullanabilirsin. Yeniden kullanabilmek için uzun dinlenme bitirmen gerekir."
 						]
 					}
 				],
-				[],
 				[
 					{
 						"name": "Yetenek Skoru Gelişimi",
@@ -27918,7 +27889,7 @@
 			"subclassTitle": "Dünyadışı Efendi",
 			"subclasses": [
 				{
-					"name": "The Archfey",
+					"name": "Baş Fey",
 					"subclassFeatures": [
 						[
 							{
@@ -27929,13 +27900,13 @@
 										"type": "entries",
 										"name": "Genişletilmiş Büyü Listesi",
 										"entries": [
-											"Baş Fey The Archfey lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+											"Baş Fey sana warlock büyülerini seçerken daha geniş bir yelpazeden seçmeni sağlar. Şu büyüler senin için warlock büyü listesine eklenir.",
 											{
 												"type": "table",
-												"caption": "Archfey Expanded Spells",
+												"caption": "Baş Fey Genişletilmiş Büyüleri",
 												"colLabels": [
-													"Spell Level",
-													"Spells"
+													"Büyü Seviyesi",
+													"Büyüler"
 												],
 												"colStyles": [
 													"col-xs-3 text-align-center",
@@ -27943,23 +27914,23 @@
 												],
 												"rows": [
 													[
-														"1st",
+														"1.",
 														"{@spell faerie fire}, {@spell sleep}"
 													],
 													[
-														"2nd",
+														"2.",
 														"{@spell calm emotions}, {@spell phantasmal force}"
 													],
 													[
-														"3rd",
+														"3.",
 														"{@spell blink}, {@spell plant growth}"
 													],
 													[
-														"4th",
+														"4.",
 														"{@spell dominate beast}, {@spell greater invisibility}"
 													],
 													[
-														"5th",
+														"5.",
 														"{@spell dominate person}, {@spell seeming}"
 													]
 												]
@@ -27968,10 +27939,10 @@
 									},
 									{
 										"type": "entries",
-										"name": "Fey Presence",
+										"name": "Fey Varlığı",
 										"entries": [
-											"Starting at 1st level, your patron bestows upon you the ability to project the beguiling and fearsome presence of the fey. As an action, you can cause each creature in a 10-foot cube originating from you to make a Wisdom saving throw against your warlock spell save DC. The creatures that fail their saving throws are all {@condition charmed} or {@condition frightened} by you (your choice) until the end of your next turn.",
-											"Once you use this feature, you can't use it again until you finish a short or long rest."
+											"1. seviyeden itibaren efendin sana aldatıcı ve korkutucu fey varlığını yansıtma yeteneğini bahşeder. Eylem olarak, senden başlayan 10 feet'lik bir kübün içindeki tüm varlıkların senin warlock büyü DC'ne karşı Akıl kurtulma zarı atmasını sağlayabilirsin. Başarısız olan varlıklar bir sonraki sıranın sonuna kadar seçimine göre ya cezbedilirler yada korkarlar.",
+											"Bu özelliği kullandığında kısa yada uzun dinlenme bitirene kadar bir daha kullanamazsın."
 										]
 									}
 								]
@@ -27982,10 +27953,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Misty Escape",
+										"name": "Puslu Kaçış",
 										"entries": [
-											"Starting at 6th level, you can vanish in a puff of mist in response to harm. When you take damage, you can use your reaction to turn {@condition invisible} and teleport up to 60 feet to an unoccupied space you can see. You remain {@condition invisible} until the start of your next turn or until you attack or cast a spell.",
-											"Once you use this feature, you can't use it again until you finish a short or long rest."
+											"6. seviyeden itibaren bir hasara karşılık olarak sis bulutunda yok olabilirsin. Hasar aldığında reaksiyonunu kullanarak görünmez olup 60 feet yakınında görebildiğin boş bir yere ışınlanabilirsin. Bir sonraki sıranın başına kadar yada saldırı veya büyü kullanana kadar görünmez kalırsın.",
+											"Bu özelliği kullandığında kısa yada uzun dinlenme bitirene kadar bir daha kullanamazsın."
 										]
 									}
 								]
@@ -27996,9 +27967,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Beguiling Defenses",
+										"name": "Aldatan Savunma",
 										"entries": [
-											"Beginning at 10th level, your patron teaches you how to turn the mind-affecting magic of your enemies against them. You are immune to being {@condition charmed}, and when another creature attempts to charm you, you can use your reaction to attempt to turn the charm back on that creature. The creature must succeed on a Wisdom saving throw against your warlock spell save DC or be {@condition charmed} by you for 1 minute or until the creature takes any damage."
+											"10. seviyede efendin sana düşmanlarının zihni etkileyen büyülerini onlara karşı çevirmeyi öğretir. Cezbetme durumuna bağışıklık kazanırsın ve başka bir varlık seni cezbetmeye çalıştığında reaksiyonunu kullanıp cezbetmeyi ona karşı kullanabilirsin. Varlık senin warlock büyü DC'ne karşı Akıl kurtulma zarı atar ve başarısız olursa 1 dakikalığına yada hasar alana kadar senin tarafından cezbedilmiş olur."
 										]
 									}
 								]
@@ -28009,11 +27980,11 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Dark Delirium",
+										"name": "Karanlık Hezeyan",
 										"entries": [
-											"Starting at 14th level, you can plunge a creature into an illusory realm. As an action, choose a creature that you can see within 60 feet of you. It must make a Wisdom saving throw against your warlock spell save DC. On a failed save, it is {@condition charmed} or {@condition frightened} by you (your choice) for 1 minute or until your concentration is broken (as if you are concentrating on a spell). This effect ends early if the creature takes any damage.",
-											"Until this illusion ends, the creature thinks it is lost in a misty realm, the appearance of which you choose. The creature can see and hear only itself, you, and the illusion.",
-											"You must finish a short or long rest before you can use this feature again."
+											"14. seviyeden itibaren bir varlığı hayali bir diyara gönderebilirsin. Eylem olarak 60 feet yakınında görebildiğin bir varlığı seç. Warlock büyü DC'ne karşı Akıl kurtulma zarı atmalı. Başarısız olursa 1 dakika boyunca yada senin konsantrasyonun (bir büyüye konsantre olur gibi) bozulana kadar seçimine göre senden korkar yada cezbedilir. Eğer varlık hasar alırsa bu etki erken biter.",
+											"Bu illüzyon bitene kadar varlık bir puslu diyarda kaybolduğunu düşünür, bunun görüntüsünü sen seçersin. Varlık sadece kendisini, seni ve illüzyonu görüp duyabilir.",
+											"Bu özelliği yeniden kullanabilmek için kısa yada uzun dinlenme bitirmen gerekir."
 										]
 									}
 								]
@@ -28021,27 +27992,27 @@
 						]
 					],
 					"source": "PHB",
-					"shortName": "Archfey"
+					"shortName": "Baş Fey"
 				},
 				{
-					"name": "The Fiend",
+					"name": "Zebani",
 					"subclassFeatures": [
 						[
 							{
-								"name": "The Fiend",
+								"name": "Zebani",
 								"entries": [
-									"You have made a pact with a fiend from the lower planes of existence, a being whose aims are evil, even if you strive against those aims. Such beings desire the corruption or destruction of all things, ultimately including you. Fiends powerful enough to forge a pact include demon lords such as Demogorgon, Orcus, Fraz'Urb-luu, and Baphomet; archdevils such as Asmodeus, Dispater, Mephistopheles, and Belial; pit fiends and balors that are especially mighty; and ultroloths and other lords of the yugoloths.",
+									"Sen buna karşı ol yada olma amacı kötülük olan, varoluşun alt boyutlarından bir zebani ile antlaştın. Bu tip varlıklar nihayetinde sende dahil olmak üzere herşeyin yozlaşması ve yok olmasını arzu ederler. Bir ahit bağı kuracak kadar güçlü zebaniler arasında Demogorgon, Orcus, Fraz'Urb-luu, ve Baphomet gibi iblis lordları; Asmodeus, Dispater, Mephistopheles, ve Belial gibi baş şeytanlar; özellikle güçlü pit fiend'ler ve balor'lar; ultroloth'lar ve yugoloth'ların diğer lordları sayılabilir.",
 									{
 										"type": "entries",
-										"name": "Expanded Spell List",
+										"name": "Genişletilmiş Büyü Listesi",
 										"entries": [
-											"The Fiend lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+											"Zebani sana warlock büyülerini daha geniş bir yelpazeden seçmeni sağlar. Şu büyüler senin için warlock büyü listesine eklenir.",
 											{
 												"type": "table",
-												"caption": "Fiend Expanded Spells",
+												"caption": "Zebani Genişletilmiş Büyüleri",
 												"colLabels": [
-													"Spell Level",
-													"Spells"
+													"Büyü Seviyesi",
+													"Büyüler"
 												],
 												"colStyles": [
 													"col-xs-3 text-align-center",
@@ -28049,23 +28020,23 @@
 												],
 												"rows": [
 													[
-														"1st",
+														"1.",
 														"{@spell burning hands}, {@spell command}"
 													],
 													[
-														"2nd",
+														"2.",
 														"{@spell blindness/deafness}, {@spell scorching ray}"
 													],
 													[
-														"3rd",
+														"3.",
 														"{@spell fireball}, {@spell stinking cloud}"
 													],
 													[
-														"4th",
+														"4.",
 														"{@spell fire shield}, {@spell wall of fire}"
 													],
 													[
-														"5th",
+														"5.",
 														"{@spell flame strike}, {@spell hallow}"
 													]
 												]
@@ -28074,9 +28045,9 @@
 									},
 									{
 										"type": "entries",
-										"name": "Dark One's Blessing",
+										"name": "Karanlık Olanın Kutsaması",
 										"entries": [
-											"Starting at 1st level, when you reduce a hostile creature to 0 hit points, you gain temporary hit points equal to your Charisma modifier + your warlock level (minimum of 1)."
+											"1. seviyeden itibaren bir düşman varlığı 0 HP'ye düşürdüğünde Karizma bonusun + warlock seviyen kadar (en az 1) geçici HP kazanırsın."
 										]
 									}
 								]
@@ -28087,10 +28058,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Dark One's Own Luck",
+										"name": "Karanlık Olanın Kendi Şansı",
 										"entries": [
-											"Starting at 6th level, you can call on your patron to alter fate in your favor. When you make an ability check or a saving throw, you can use this feature to add a d10 to your roll. You can do so after seeing the initial roll but before any of the roll's effects occur.",
-											"Once you use this feature, you can't use it again until you finish a short or long rest."
+											"6. seviyeden itibaren efendine kaderi senin çıkarına değiştirmesi için seslenebilirsin. Bir yetenek yada kurtulma zarı attığında bu özelliği kullanıp zara d10 ekleyebilirsin. Asıl zarı gördükten sonra kullanabilirsin ama sonuç açıklanmadan karar vermelisin.",
+											"Bu özelliği kullandığında kısa yada uzun dinlenme bitirene kadar bir daha kullanamazsın."
 										]
 									}
 								]
@@ -28101,9 +28072,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Fiendish Resilience",
+										"name": "Zebani Direnci",
 										"entries": [
-											"Starting at 10th level, you can choose one damage type when you finish a short or long rest. You gain resistance to that damage type until you choose a different one with this feature. Damage from magical weapons or silver weapons ignores this resistance."
+											"10. seviyeden itibaren kısa yada uzun dinlenme bitirdiğinde bir hasar tipi seçebilirsin. Bu özellik ile farklı bir tane seçene kadar o hasar tipine direncin olur. Büyülü yada gümüş silahlardan gelen hasar bu direnci yok sayar."
 										]
 									}
 								]
@@ -28114,11 +28085,11 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Hurl Through Hell",
+										"name": "Cehenneme Yolla",
 										"entries": [
-											"Starting at 14th level, when you hit a creature with an attack, you can use this feature to instantly transport the target through the lower planes. The creature disappears and hurtles through a nightmare landscape.",
-											"At the end of your next turn, the target returns to the space it previously occupied, or the nearest unoccupied space. If the target is not a fiend, it takes 10d10 psychic damage as it reels from its horrific experience.",
-											"Once you use this feature, you can't use it again until you finish a long rest."
+											"14. seviyeden itibaren bir varlığa vurduğunda bu özelliği kullanıp onu anında alt boyutlara yollayabilirsin. Varlık kaybolur ve kabus gibi bir diyardan geçer.",
+											"Bir sonraki sıranın sonunda hedef en son bulunduğu yere, yada orası doluysa en yakın boş alana döner. Eğer hedef bir zebani değilse yaşadığı kabus gibi deneyimden sonra 10d10 psişik hasar alır.",
+											"Bu özelliği kullandığında uzun dinlenme bitirene kadar bir daha kullanamazsın."
 										]
 									}
 								]
@@ -28126,28 +28097,27 @@
 						]
 					],
 					"source": "PHB",
-					"shortName": "Fiend"
+					"shortName": "Zebani"
 				},
 				{
-					"name": "Ghost in the Machine (UA)",
+					"name": "Kadim Olan",
 					"subclassFeatures": [
 						[
 							{
-								"name": "Ghost in the Machine",
+								"name": "Kadim Olan",
 								"entries": [
-									"You have made a bargain for power granted by an entity that you believe to be completely digital. Whether it is a rogue AI or the spirit of a deceased hacker, the Ghost in the Machine is capable of feats that defy explanation.",
+									"Efendin tüm gerçekliğin yapısına yabancı olan bir gizemli varlık. Uzak Diyardan, gerçekliğin ötesindeki yerden gelmiş olabilir yada sadece efsanelerden bilinen eski tanrılardan biri olabilir. Amaçları ölümlüler için anlaşılmazdır ve onun bilgisi öyle çok ve eskidir ki en büyük kütüphaneler bile onun tuttuğu sırların yanında bir hiç kalır. Kadim Olan senin varlığından haberdar olmayabilir yada seni umursamayabilir ama öğrendiğin sırlar ondan büyü çekebilmeni sağlar. Bu tip varlıkların arasında Ghaunadar, Pusudaki Cadı; Tharizdun, Zincirli Tanrı; Dendar, Gece Sürüngeni; Zargon, Geri Dönen; Ulu Cthulhu; ve diğer hayal edilemeyecek varlıklar sayılabilir.",
 									{
 										"type": "entries",
-										"name": "Expanded Spell List",
+										"name": "Genişletilmiş Büyü Listesi",
 										"entries": [
-											"The Ghost in the Machine lets you choose from an expanded list of spells when you learn a warlock spell. You gain the on/off cantrip, and the following new spells are added to the warlock spell list for you.",
-											"Spells marked with an asterisk can be found in Unearthed Arcana: Modern Magic.",
+											"Kadim olan sana warlock büyülerini daha geniş bir yelpazeden seçmeni sağlar. Şu büyüler senin için warlock büyü listesine eklenir.",
 											{
 												"type": "table",
-												"caption": "Ghost in the Machine Expanded Spells",
+												"caption": "Kadim Olan Genişletilmiş Büyüleri",
 												"colLabels": [
-													"Spell Level",
-													"Spells"
+													"Büyü Seviyesi",
+													"Büyüler"
 												],
 												"colStyles": [
 													"col-xs-3 text-align-center",
@@ -28155,135 +28125,23 @@
 												],
 												"rows": [
 													[
-														"1st",
-														"{@spell infallible relay (UA)|UAModernMagic|infallible relay}*, {@spell remote access (UA)|UAModernMagic|remote access}*"
-													],
-													[
-														"2nd",
-														"{@spell arcane hacking (UA)|UAModernMagic|arcane hacking}*, {@spell digital phantom (UA)|UAModernMagic|digital phantom}*"
-													],
-													[
-														"3rd",
-														"{@spell haywire (UA)|UAModernMagic|haywire}*, {@spell invisibility to cameras (UA)|UAModernMagic|invisibility to cameras}*"
-													],
-													[
-														"4th",
-														"{@spell conjure knowbot (UA)|UAModernMagic|conjure knowbot}*, {@spell system backdoor (UA)|UAModernMagic|system backdoor}*"
-													],
-													[
-														"5th",
-														"{@spell shutdown (UA)|UAModernMagic|shutdown}*, {@spell synchronicity (UA)|UAModernMagic|synchronicity}*"
-													]
-												]
-											}
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Bonus Proficiency",
-										"entries": [
-											"At 1st level, you gain proficiency with hacking tools."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Information Surge",
-										"entries": [
-											"At 1st level, you gain the ability to temporarily render computerized devices inoperable. As an action, you can target a computerized device within 30 feet of you. If the targeted device is held or otherwise actively used by a living creature, that creature must make an Intelligence saving throw against your spell save DC. On a failed save, the targeted device ceases to function until the end of your next turn. If the targeted device is not held or used by a creature, the DM makes a special saving throw for the device with disadvantage and a +0 modifier. Certain shielded devices might negate the disadvantage, at the DM's determination.",
-											"Once you use this feature, you can't use it again until you finish a short or long rest."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Wire Walk",
-										"entries": [
-											"Starting at 6th level, you gain the ability to travel short distances over electrical wires, data lines, or telephone cables. As a bonus action, you can touch a device or socket connected to a hardwired network and teleport along this network to another device or socket within your line of sight. Once you use this feature, you can't use it again until you finish a short or long rest."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Personal Encryption",
-										"entries": [
-											"Beginning at 10th level, you have learned to apply your innate knowledge of encryption to your thoughts, memories, and presence. You have advantage on saving throws against {@spell scrying}, thought detection, or any other method of magically learning your whereabouts or reading your thoughts. For any such effect that does not grant you a saving throw but which requires the creature targeting you to make an ability check, the check is made with disadvantage."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Technovirus",
-										"entries": [
-											"At 14th level, you gain the ability to infect a humanoid's body with living circuitry. You can use an action to make a melee attack against a humanoid creature using your spell attack modifier. The target must make a Constitution saving throw against your spell save DC as a techno-organic virus quickly spreads through its body. On a failed save, the target takes 8d10 psychic damage, or half as much damage on a successful one.",
-											"Additionally, if the target fails the saving throw, you can use an action to issue it a single command, as if you were casting the {@spell command} spell. The target makes its saving throw against your {@spell command} with disadvantage. You can issue this {@spell command} at any time while the target remains infected.",
-											"Once you use this feature, you can't use it again until you finish a long rest, at which point the target is cured of the technovirus. The infection can also be removed with a lesser restoration spell."
-										]
-									}
-								]
-							}
-						]
-					],
-					"source": "UAModernMagic",
-					"shortName": "Ghost in the Machine (UA)"
-				},
-				{
-					"name": "The Great Old One",
-					"subclassFeatures": [
-						[
-							{
-								"name": "The Great Old One",
-								"entries": [
-									"Your patron is a mysterious entity whose nature is utterly foreign to the fabric of reality. It might come from the Far Realm, the space beyond reality, or it could be one of the elder gods known only in legends. Its motives are incomprehensible to mortals, and its knowledge so immense and ancient that even the greatest libraries pale in comparison to the vast secrets it holds. The Great Old One might be unaware of your existence or entirely indifferent to you, but the secrets you have learned allow you to draw your magic from it. Entities of this type include Ghaunadar, called That Which Lurks; Tharizdun, the Chained God; Dendar, the Night Serpent; Zargon, the Returner; Great Cthulhu; and other unfathomable beings.",
-									{
-										"type": "entries",
-										"name": "Expanded Spell List",
-										"entries": [
-											"The Great Old One lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
-											{
-												"type": "table",
-												"caption": "Great Old One Expanded Spells",
-												"colLabels": [
-													"Spell Level",
-													"Spells"
-												],
-												"colStyles": [
-													"col-xs-3 text-align-center",
-													"col-xs-9"
-												],
-												"rows": [
-													[
-														"1st",
+														"1.",
 														"{@spell dissonant whispers}, {@spell Tasha's hideous laughter}"
 													],
 													[
-														"2nd",
+														"2.",
 														"{@spell detect thoughts}, {@spell phantasmal force}"
 													],
 													[
-														"3rd",
+														"3.",
 														"{@spell clairvoyance}, {@spell sending}"
 													],
 													[
-														"4th",
+														"4.",
 														"{@spell dominate beast}, {@spell Evard's black tentacles}"
 													],
 													[
-														"5th",
+														"5.",
 														"{@spell dominate person}, {@spell telekinesis}"
 													]
 												]
@@ -28292,9 +28150,9 @@
 									},
 									{
 										"type": "entries",
-										"name": "Awakened Mind",
+										"name": "Uyanmış Zihin",
 										"entries": [
-											"Starting at 1st level, your alien knowledge gives you the ability to touch the minds of other creatures. You can communicate telepathically with any creature you can see within 30 feet of you. You don't need to share a language with the creature for it to understand your telepathic utterances, but the creature must be able to understand at least one language."
+											"1. seviyeden itibaren senin farklı bilgilerin diğer varlıkların zihnine dokunmanı sağlar. 30 feet yakınında gördüğün tüm varlıklarla telepatik iletişime geçebilirsin. Senin telepatik iletişimini anlaması için varlıkla bir dil paylaşmanız gerekmez ama varlık en azından bir dili anlayabilir olmalıdır."
 										]
 									}
 								]
@@ -28305,10 +28163,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Entropic Ward",
+										"name": "Entropi Kalkanı",
 										"entries": [
-											"At 6th level, you learn to magically ward yourself against attack and to turn an enemy's failed strike into good luck for yourself. When a creature makes an attack roll against you, you can use your reaction to impose disadvantage on that roll. If the attack misses you, your next attack roll against the creature has advantage if you make it before the end of your next turn.",
-											"Once you use this feature, you can't use it again until you finish a short or long rest."
+											"6. seviyede saldırılara karşı kendini büyülü bir şekilde korumayı öğrenir ve düşmanının başarısız saldırısını kendine fırsat olarak çevirebilirsin. Bir varlık sana karşı saldırı zarı attığında reaksiyonunu kullanıp bu zara dezavantaj verebilirsin. Eğer saldırı seni ıskalarsa, o varlığa karşı bir sonraki sıranın sonuna kadar yapacağın ilk saldırı avantajlı olur.",
+											"Bu özelliği kullandığında kısa yada uzun dinlenme bitirene kadar bir daha kullanamazsın."
 										]
 									}
 								]
@@ -28319,9 +28177,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Thought Shield",
+										"name": "Düşünce Kalkanı",
 										"entries": [
-											"Starting at 10th level, your thoughts can't be read by telepathy or other means unless you allow it. You also have resistance to psychic damage, and whenever a creature deals psychic damage to you, that creature takes the same amount of damage that you do."
+											"10. seviyeden itibaren sen izin vermediğin sürece düşüncelerin telepati yada başka yöntemlerle okunamaz. Aynı zamanda psişik hasara direncin olur ve ne zaman bir varlık sana psişik hasar verirse o varlıkta senle aynı hasarı alır."
 										]
 									}
 								]
@@ -28332,10 +28190,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Create Thrall",
+										"name": "Köle Yarat",
 										"entries": [
-											"At 14th level, you gain the ability to infect a humanoid's mind with the alien magic of your patron. You can use your action to touch an {@condition incapacitated} humanoid. That creature is then {@condition charmed} by you until a {@spell remove curse} spell is cast on it, the {@condition charmed} condition is removed from it, or you use this feature again.",
-											"You can communicate telepathically with the {@condition charmed} creature as long as the two of you are on the same plane of existence."
+											"14. seviyede efendinin yabancı büyüsüyle bir insansının zihnine girmeyi öğrenirsin. Eylemini kullanarak etkisiz halde olan bir insansıya dokunursun. Bu varlık sen bu özelliği bir daha kullanana, üzerine {@spell remove curse} büyüsü kullanılana, yada cezbetme durumu üzerinden kaldırılana kadar senin cezbetme etkin altında kalır.",
+											"Cezbettiğin varlık ile aynı boyutta olduğun sürece telepatik iletişime geçebilirsin."
 										]
 									}
 								]
@@ -28343,7 +28201,7 @@
 						]
 					],
 					"source": "PHB",
-					"shortName": "Great Old One"
+					"shortName": "Kadim Olan"
 				},
 				{
 					"name": "The Undying",
@@ -28451,596 +28309,6 @@
 					],
 					"source": "SCAG",
 					"shortName": "Undying"
-				},
-				{
-					"name": "The Undying Light (UA)",
-					"subclassFeatures": [
-						[
-							{
-								"name": "The Undying Light",
-								"entries": [
-									"Your patron is not a specific entity, but the energy that radiates from the Positive Plane. Your pact allows you to experience the barest touch of the raw stuff of life that powers the multiverse. Anything more, and you would be instantly incinerated by its energy.",
-									"Contact with the Positive Plane causes subtle changes to your behavior and beliefs. You are driven to bring light to dark places, to annihilate undead creatures, and to protect all living things. At the same time, you crave the light and find total darkness a suffocating experience akin to drowning.",
-									"As an optional way to add more flavor to your character, you can pick from or roll on the following table of flaws associated with warlocks of the Undying Light.",
-									{
-										"type": "table",
-										"caption": "Undying Light Flaws",
-										"colLabels": [
-											"d6",
-											"Quirk"
-										],
-										"colStyles": [
-											"col-xs-1 text-align-center",
-											"col-xs-11"
-										],
-										"rows": [
-											[
-												"1",
-												"You are afraid of the dark, and must always have a light source at hand."
-											],
-											[
-												"2",
-												"You have a nervous compulsion to keep a bright light in even the barest shadow."
-											],
-											[
-												"3",
-												"You have a compulsion to enter and illuminate dark areas."
-											],
-											[
-												"4",
-												"You have an overwhelming hatred of undead creatures."
-											],
-											[
-												"5",
-												"You fidget and are irritable when you can't see the sun."
-											],
-											[
-												"6",
-												"In a dark area, you always carry a lit torch or lantern. Putting it down is an unbearable thought."
-											]
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Expanded Spell List",
-										"entries": [
-											"The Undying Light lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
-											{
-												"type": "table",
-												"caption": "Undying Light Expanded Spells",
-												"colLabels": [
-													"Spell Level",
-													"Spells"
-												],
-												"colStyles": [
-													"col-xs-3 text-align-center",
-													"col-xs-9"
-												],
-												"rows": [
-													[
-														"1st",
-														"{@spell burning hands}"
-													],
-													[
-														"2nd",
-														"{@spell flaming sphere}"
-													],
-													[
-														"3rd",
-														"{@spell daylight}"
-													],
-													[
-														"4th",
-														"{@spell fire shield}"
-													],
-													[
-														"5th",
-														"{@spell flame strike}"
-													]
-												]
-											}
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Radiant Soul",
-										"entries": [
-											"Starting at 1st level, your link to the Positive Plane allows you to serve as a conduit for radiant energy. You have resistance to radiant damage, and when you cast a spell that deals radiant damage or fire damage, you add your Charisma modifier to that damage. Additionally, you know the {@spell sacred flame} and {@spell light} cantrips and can cast them at will. They don't count against your number of cantrips known."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Searing Vengeance",
-										"entries": [
-											"Starting at 6th level, the radiant energy you channel allows you to overcome grievous injuries. When you would make a death saving throw, you can instead spring back to your feet with a burst of radiant energy. You immediately stand up (if you so choose), and you regain hit points equal to half your hit point maximum. All hostile creatures within 30 feet of you take 10 + your Charisma modifier radiant damage and are {@condition blinded} until the end of your turn.",
-											"Once you use this feature, you can't use it again until you finish a long rest."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Radiant Resilience",
-										"entries": [
-											"Starting at 10th level, you gain temporary hit points whenever you finish a long or short rest. These temporary hit points equal your warlock level + your Charisma modifier. Additionally, choose up to five creatures you can see at the end of your rest. Those creatures gain temporary hit points equal to half your warlock level + your Charisma modifier."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Healing Light",
-										"entries": [
-											"At 14th level, you gain the ability to channel the Undying Light to heal yourself and other creatures. As a bonus action, you can touch a creature and heal it. With each touch, a creature regains from 1d6 to 5d6 hit points (your choice). You have a total pool of 15d6 you can expend. Subtract the dice you use with each touch from that total.",
-											"You regain all expended dice from your pool when you finish a long rest."
-										]
-									}
-								]
-							}
-						]
-					],
-					"source": "UALightDarkUnderdark",
-					"shortName": "Undying Light (UA)"
-				},
-				{
-					"name": "The Celestial (UA)",
-					"subclassFeatures": [
-						[
-							{
-								"name": "The Celestial",
-								"entries": [
-									"Your patron is a powerful being of the Upper Planes. You have bound yourself to an ancient empyrean, solar, ki-rin, or unicorn or to another entity that resides in the planes of everlasting bliss. Your pact with that being allows you to experience the barest touch of the holy light that illuminates the multiverse.",
-									"Being connected to such power can cause changes in your behavior and beliefs. You might find yourself driven to annihilate the undead, to defeat fiends, and to protect the innocent. At times, your heart might also be filled with a longing for the celestial realm of your patron, a desire to wander that paradise for the rest of your days. But you know that your mission is among mortals for now and that your pact binds you to bring light to the dark places of the world.",
-									{
-										"type": "entries",
-										"name": "Expanded Spell List",
-										"entries": [
-											"The Celestial lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
-											{
-												"type": "table",
-												"caption": "Celestial Expanded Spells",
-												"colLabels": [
-													"Spell Level",
-													"Spells"
-												],
-												"colStyles": [
-													"col-xs-3 text-align-center",
-													"col-xs-9"
-												],
-												"rows": [
-													[
-														"1st",
-														"{@spell burning hands}, {@spell cure wounds}"
-													],
-													[
-														"2nd",
-														"{@spell flaming sphere}, {@spell lesser restoration}"
-													],
-													[
-														"3rd",
-														"{@spell daylight}, {@spell revivify}"
-													],
-													[
-														"4th",
-														"{@spell guardian of faith}, {@spell wall of fire}"
-													],
-													[
-														"5th",
-														"{@spell flame strike}, {@spell greater restoration}"
-													]
-												]
-											}
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Bonus Cantrips",
-										"entries": [
-											"At 1st level, you learn the {@spell sacred flame} and {@spell light} cantrips. They count as warlock cantrips for you, but they don't count against your number of cantrips known."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Healing Light",
-										"entries": [
-											"At 1st level, you gain the ability to channel celestial energy to heal wounds. You have a pool of d6s that you spend to fuel this healing. The number of dice in the pool equals 1 + your warlock level.",
-											"As a bonus action, you can touch a creature and heal it, spending dice from the pool. The maximum number of dice you can spend at once equals your Charisma modifier (minimum of one die). Roll the dice you spend, add them together, and restore a number of hit points equal to the total.",
-											"Your pool regains all expended dice when you finish a long rest."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Radiant Soul",
-										"entries": [
-											"Starting at 6th level, your link to the Celestial allows you to serve as a conduit for radiant energy. You have resistance to radiant damage, and when you cast a spell that deals radiant or fire damage, you add your Charisma modifier to that damage against one target of your choice."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Celestial Resilience",
-										"entries": [
-											"Starting at 10th level, you gain temporary hit points whenever you finish a short or long rest. These temporary hit points equal your warlock level + your Charisma modifier. Additionally, choose up to five creatures you can see at the end of the rest. Those creatures each gain temporary hit points equal to half your warlock level + your Charisma modifier."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Healing Light",
-										"entries": [
-											"Starting at 14th level, the radiant energy you channel allows you to overcome grievous injuries. When you have to make a death saving throw at the start of your turn, you can instead spring back to your feet with a burst of radiant energy. You regain hit points equal to half your hit point maximum, and then you stand up, if you so choose. Each creature of your choice that is within 30 feet of you takes radiant damage equal to 2d8 + your Charisma modifier, and it is {@condition blinded} until the end of the current turn.",
-											"Once you use this feature, you can't use it again until you finish a long rest."
-										]
-									}
-								]
-							}
-						]
-					],
-					"source": "UARevisedClassOptions",
-					"shortName": "Celestial (UA)"
-				},
-				{
-					"name": "The Seeker (UA)",
-					"subclassFeatures": [
-						[
-							{
-								"name": "The Seeker",
-								"entries": [
-									"Your patron is an inscrutable being who travels the Astral Plane in search of knowledge and secrets. In return for your patron's gifts, you wander the world seeking lore that you can share with the Seeker.",
-									"Your patron could be any deity or other powerful entity dedicated to knowledge or forgotten lore. Celestian is an ideal patron for a Greyhawk campaign, and was the inspiration for this concept. In the Forgotten Realms, your patron might be Azuth or Oghma. Aureon makes an excellent patron in Eberron, while in Krynn and the Dragonlance campaign setting, Gilean is a good match for the Seeker's role.",
-									{
-										"type": "entries",
-										"name": "Expanded Spell List",
-										"entries": [
-											"The Seeker lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
-											{
-												"type": "table",
-												"caption": "Seeker Expanded Spells",
-												"colLabels": [
-													"Spell Level",
-													"Spells"
-												],
-												"colStyles": [
-													"col-xs-3 text-align-center",
-													"col-xs-9"
-												],
-												"rows": [
-													[
-														"1st",
-														"{@spell feather fall}, {@spell jump}"
-													],
-													[
-														"2nd",
-														"{@spell levitate}, {@spell locate object}"
-													],
-													[
-														"3rd",
-														"{@spell clairvoyance}, {@spell sending}"
-													],
-													[
-														"4th",
-														"{@spell arcane eye}, {@spell locate creature}"
-													],
-													[
-														"5th",
-														"{@spell legend lore}, {@spell passwall}"
-													]
-												]
-											}
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Shielding Aurora",
-										"entries": [
-											"Starting at 1st level, you can invoke the Seeker's power to protect you from harm. As a bonus action, you create a whirling aurora of brilliant energy that swirls around you. Until the end of your next turn, you gain resistance to all damage, and if a hostile creature ends its turn within 10 feet of you, it takes radiant damage equal to your warlock level + your Charisma modifier.",
-											"Once you use this feature, you can't use it again until you finish a short or long rest."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Astral Refuge",
-										"entries": [
-											"At 6th level, you gain the ability to step into an astral refuge. As an action, you disappear from the world for a brief moment and enter the Astral Plane, taking advantage of its timeless nature. While in your astral refuge, you can take two actions to cast spells that target only you. After using those two actions, you return to the space you occupied and your turn ends."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Far Wanderer",
-										"entries": [
-											"At 10th level, you no longer need to breathe, and you gain resistance to fire damage and cold damage."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Astral Sequestration",
-										"entries": [
-											"Starting at 14th level, you gain the ability to sequester yourself and your allies on the Astral Plane.",
-											"By performing a special ritual over the course of 5 minutes, you shift yourself and up to ten willing creatures you can see to the Astral Plane. You and those creatures gain the benefits of a short rest while sequestered on the Astral Plane. You then return to the spaces you all occupied when you used this ability, with no time having passed in the world.",
-											"During this short rest, you and the creatures you sequester can make use of any options available during a rest that affect only you and the creatures you sequester.",
-											"Once you use this ability, you cannot use it again until you complete a long rest."
-										]
-									}
-								]
-							}
-						]
-					],
-					"source": "UATheFaithful",
-					"shortName": "Seeker (UA)"
-				},
-				{
-					"name": "The Raven Queen (UA)",
-					"subclassFeatures": [
-						[
-							{
-								"name": "The Raven Queen",
-								"entries": [
-									"You patron is the Raven Queen, a mysterious being who rules the Shadowfell from a palace of ice deep within that dread realm. The Raven Queen watches over the world, anticipating each creature's death and ensuring that it meets its end at the proscribed time and place. As the ruler of the Shadowfell, she dwells in a decayed, dark reflection of the world. Her ability to reach into the world is limited. Thus, she turns to mortal warlocks to serve her will. Warlocks sworn to the Raven Queen receive visions and whispers from her in their dreams, sending them on quests and warning them of impending dangers.",
-									"The Raven Queen's followers are expected to serve her will in the world. She concerns herself with ensuring that those fated to die pass from the world as expected, and bids her agents to defeat those who seek to cheat death through undeath or other imitations of immortality. She hates intelligent undead and expects her followers to strike them down, whereas mindless undead such as skeletons and zombies are little more than stumbling automatons in her eyes.",
-									{
-										"type": "entries",
-										"name": "Expanded Spell List",
-										"entries": [
-											"The Raven Queen lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
-											{
-												"type": "table",
-												"caption": "Raven Queen Expanded Spells",
-												"colLabels": [
-													"Spell Level",
-													"Spells"
-												],
-												"colStyles": [
-													"col-xs-3 text-align-center",
-													"col-xs-9"
-												],
-												"rows": [
-													[
-														"1st",
-														"{@spell false life}, {@spell sanctuary}"
-													],
-													[
-														"2nd",
-														"{@spell silence}, {@spell spiritual weapon}"
-													],
-													[
-														"3rd",
-														"{@spell feign death}, {@spell speak with dead}"
-													],
-													[
-														"4th",
-														"{@spell ice storm}, {@spell locate creature}"
-													],
-													[
-														"5th",
-														"{@spell commune}, {@spell cone of cold}"
-													]
-												]
-											}
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Sentinel Raven",
-										"entries": [
-											"Starting at 1st level, you gain the service of a spirit sent by the Raven Queen to watch over you. The spirit assumes the form and game statistics of a raven, and it always obeys your commands, which you can give telepathically while it is within 100 feet of you.",
-											"While the raven is perched on your shoulder, you gain darkvision with a range of 30 feet and a bonus to your passive Wisdom (Perception) score and to Wisdom (Perception) checks. The bonus equals your Charisma modifier. While perched on your shoulder, the raven can't be targeted by any attack or other harmful effect; only you can cast spells on it; it can't take damage; and it is {@condition incapacitated}.",
-											"You can see through the raven's eyes and hear what it hears while it is within 100 feet of you. In combat, you roll initiative for the raven and control how it acts. If it is slain by a creature, you gain advantage on all attack rolls against the killer for the next 24 hours.",
-											"The raven doesn't require sleep. While it is within 100 feet of you, it can awaken you from sleep as a bonus action. The raven vanishes when it dies, if you die, or if the two of you are separated by more than 5 miles.",
-											"At the end of a short or long rest, you can call the raven back to you\u2014no matter where it is or whether it died\u2014and it reappears within 5 feet of you."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Soul of the Raven",
-										"entries": [
-											"At 6th level, you gain the ability to merge with your raven spirit. As a bonus action when your raven is perched on your shoulder, your body merges with your raven's form. While merged, you become Tiny, you replace your speed with the raven's, and you can use your action only to Dash, Disengage, Dodge, Help, Hide, or Search. During this time, you gain the benefits of your raven being perched on your shoulder. As an action, you and the raven return to normal."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Raven's Shield",
-										"entries": [
-											"At 10th level, the Raven Queen grants you a protective blessing. You gain advantage on death saving throws, immunity to the {@condition frightened} condition, and resistance to necrotic damage."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Queen's Right Hand",
-										"entries": [
-											"Starting at 14th level, you can channel the Raven Queen's power to slay a creature. You can cast {@spell finger of death}. After you cast the spell with this feature, you can't do so again until you finish a long rest."
-										]
-									}
-								]
-							}
-						]
-					],
-					"source": "UAWarlockAndWizard",
-					"shortName": "Raven Queen (UA)"
-				},
-				{
-					"name": "The Hexblade (UA)",
-					"subclassFeatures": [
-						[
-							{
-								"name": "The Hexblade",
-								"entries": [
-									"You have made your pact with a powerful, sentient magic weapon carved from the stuff of the Shadowfell. The mighty sword Blackrazor is the most notable of these weapons, several of which have spread across the multiverse over the ages. These weapons grow stronger as they consume the life essence of their victims. The strongest of them can use their ties to the Shadowfell to offer power to mortals who serve them. The Raven Queen forged the first of these weapons. They, along with the hexblade warlocks, are another tool she can use to manipulate events in the Material Plane to her inscrutable ends.",
-									{
-										"type": "entries",
-										"name": "Expanded Spell List",
-										"entries": [
-											"The Hexblade lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
-											{
-												"type": "table",
-												"caption": "Hexblade Expanded Spells",
-												"colLabels": [
-													"Spell Level",
-													"Spells"
-												],
-												"colStyles": [
-													"col-xs-3 text-align-center",
-													"col-xs-9"
-												],
-												"rows": [
-													[
-														"1st",
-														"{@spell shield}, {@spell wrathful smite}"
-													],
-													[
-														"2nd",
-														"{@spell branding smite}, {@spell magic weapon}"
-													],
-													[
-														"3rd",
-														"{@spell blink}, {@spell elemental weapon}"
-													],
-													[
-														"4th",
-														"{@spell phantasmal killer}, {@spell staggering smite}"
-													],
-													[
-														"5th",
-														"{@spell cone of cold}, {@spell destructive wave}"
-													]
-												]
-											}
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Hex Warrior",
-										"entries": [
-											"At 1st level, you gain proficiency with medium armor, shields, and martial weapons. In addition, when attacking with a melee weapon that you are proficient with and that lacks the two-handed property, you can use your Charisma modifier, instead of Strength or Dexterity, for the attack and damage rolls."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Hexblade's Curse",
-										"entries": [
-											"Starting at 1st level, you gain the ability to place a baleful curse on an enemy. As a bonus action, choose one creature you can see within 30 feet of you. The target is cursed for 1 minute. Until the curse ends, you gain the following benefits:",
-											{
-												"type": "list",
-												"items": [
-													"You gain a bonus to damage rolls against the cursed target. The bonus equals your proficiency bonus.",
-													"Any attack roll you make against the cursed target is a critical hit on a roll of 19 or 20 on the d20.",
-													"If the cursed target dies, you regain hit points equal to your warlock level + your Charisma modifier."
-												]
-											},
-											"You can't use this feature again until you finish a short or long rest."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Shadow Hound",
-										"entries": [
-											"Starting at 6th level, your shadow can split from you and transform into a hound of pure darkness. Most of the time, your shadow hound masquerades as your normal shadow. As a bonus action, you can command it to magically slip into the shadow of a creature you can see within 60 feet of you. While the shadow hound is merged in this manner, the target can't gain the benefits of half cover or three-quarters cover against your attack rolls, and you know the distance and direction to the target even if it is hidden. The hound can't be seen by anyone but you and those with truesight, and it is unaffected by light. The target has a vague feeling of dread while the hound is present.",
-											"As a bonus action, you can command your shadow hound to return to you. It also automatically returns to you if you and the target are on different planes of existence, if you're {@condition incapacitated}, or if dispel magic, {@spell remove curse}, or similar magic is used on the target."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Armor of Hexes",
-										"entries": [
-											"At 10th level, your hex grows more powerful. If the target cursed by your Hexblade's Curse hits you with an attack roll, roll a d6. On a 4 or higher, the attack instead misses you."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Master of Hexes",
-										"entries": [
-											"Starting at 14th level, you can use your Hexblade's Curse again without resting, but when you apply it to a new target, the curse immediately ends on the previous target."
-										]
-									}
-								]
-							}
-						]
-					],
-					"source": "UAWarlockAndWizard",
-					"shortName": "Hexblade (UA)"
 				},
 				{
 					"name": "The Celestial",
@@ -29156,25 +28424,25 @@
 					"shortName": "Celestial"
 				},
 				{
-					"name": "The Hexblade",
+					"name": "Hex Kılıcı",
 					"subclassFeatures": [
 						[
 							{
-								"name": "The Hexblade",
+								"name": "Hex Kılıcı",
 								"entries": [
-									"You have made your pact with a mysterious entity from the Shadowfell\u2014a force that manifests in sentient magic weapons carved from the stuff of shadow. The mighty sword Blackrazor is the most notable of these weapons, which have been spread across the multiverse over the ages. The shadowy force behind these weapons can offer power to warlocks who form pacts with it. Many hexblade warlocks create weapons that emulate those formed in the Shadowfell. Others forgo such arms, content to weave the dark magic of that plane into their spellcasting.",
-									"Because the Raven Queen is known to have forged the first of these weapons, many sages speculate that she and the force are one and that the weapons, along with hexblade warlocks, are tools she uses to manipulate events on the Material Plane to her inscrutable ends.",
+									"Shadowfell, gölgelerden yontulmuş bilinçli silahların geldiği boyuttan bir gizemli varlık ile antlaştın. Efsanevi Blackrazor bu silahların en bilinenidir ve bu silahlar çağlar boyunca çoklu evrene yayılmıştır. Bu silahların ardındaki gölgelerin gücü onunla antlaşan warlocklara güç sunabilir. Çoğu hex kılıcı warlock'u Shadowfell'de yapılmış silahların formlarında silah yaratır. Diğerleri bu tip silahları hiçe sayar ve o boyutun karanlık gücünü büyülerine işler.",
+									"Bu silahların ilkini Kuzgun Kraliçenin dövdüğü bilindiği için, bir çok bilge bu silahlar ve sunulan gücün doğrudan Kuzgun Kraliçe'den geldiğini ve warlockların Materyal Boyutta kendi işlerini görmesi için kullandığı aletler olduğunu öne sürer.",
 									{
 										"type": "entries",
-										"name": "Expanded Spell List",
+										"name": "Genişletilmiş Büyü Listesi",
 										"entries": [
-											"The Hexblade lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+											"Hex Kılıcı sana warlock büyülerini daha geniş bir yelpazeden seçmeni sağlar. Şu büyüler senin için warlock büyü listesine eklenir.",
 											{
 												"type": "table",
-												"caption": "Hexblade Expanded Spells",
+												"caption": "Hex Kılıcı Genişletilmiş Büyüleri",
 												"colLabels": [
-													"Spell Level",
-													"Spells"
+													"Büyü Seviyesi",
+													"Büyüler"
 												],
 												"colStyles": [
 													"col-xs-3 text-align-center",
@@ -29182,23 +28450,23 @@
 												],
 												"rows": [
 													[
-														"1st",
+														"1.",
 														"{@spell shield}, {@spell wrathful smite}"
 													],
 													[
-														"2nd",
+														"2.",
 														"{@spell blur}, {@spell branding smite}"
 													],
 													[
-														"3rd",
+														"3.",
 														"{@spell blink}, {@spell elemental weapon}"
 													],
 													[
-														"4th",
+														"4.",
 														"{@spell phantasmal killer}, {@spell staggering smite}"
 													],
 													[
-														"5th",
+														"5.",
 														"{@spell banishing smite}, {@spell cone of cold}"
 													]
 												]
@@ -29207,26 +28475,26 @@
 									},
 									{
 										"type": "entries",
-										"name": "Hexblade's Curse",
+										"name": "Hex Kılıcının Laneti",
 										"entries": [
-											"Starting at 1st level, you gain the ability to place a baleful curse on someone. As a bonus action, choose one creature you can see within 30 feet of you. The target is cursed for 1 minute. The curse ends early if the target dies, you die, or you are {@condition incapacitated}. Until the curse ends, you gain the following benefits:",
+											"1. seviyeden itibaren birinin üzerine nefret dolu bir lanet yerleştirmeyi öğrenirsin. Bonus eylem olarak 30 feet yakınında görebildiğin bir varlık seç. Hedef 1 dakikalığına lanetlenir. Sen etkisiz hale gelirsen, ölürsen yada hedef ölürse lanet erken biter. Lanet bitene kadar şu etkileri kazanırsın:",
 											{
 												"type": "list",
 												"items": [
-													"You gain a bonus to damage rolls against the cursed target. The bonus equals your proficiency bonus.",
-													"Any attack roll you make against the cursed target is a critical hit on a roll of 19 or 20 on the d20.",
-													"If the cursed target dies, you regain hit points equal to your warlock level + your Charisma modifier (minimum of 1 hit point)."
+													"Lanetli hedefe karşı hasar zarlarına bonus eklenir. Bu bonus senin uzmanlık bonusundur.",
+													"Lanetli hedefe karşı yaptığın tüm saldırı zarlarında 19 ve 20 kritiktir.",
+													"Eğer lanetli hedef ölürse, warlock seviyen + Karizma bonusun (en az 1) kadar HP yenilersin."
 												]
 											},
-											"You can't use this feature again until you finish a short or long rest."
+											"Bu özelliği kısa yada uzun dinlenme bitirene kadar bir daha kullanamazsın."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Hex Warrior",
+										"name": "Hex Savaşçısı",
 										"entries": [
-											"At 1st level, you acquire the training necessary to effectively arm yourself for battle. You gain proficiency with medium armor, shields, and martial weapons.",
-											"The influence of your patron also allows you to mystically channel your will through a particular weapon. Whenever you finish a long rest, you can touch one weapon that you are proficient with and that lacks the two-handed property. When you attack with that weapon, you can use your Charisma modifier, instead of Strength or Dexterity, for the attack and damage rolls. This benefit lasts until you finish a long rest. If you later gain the Pact of the Blade feature, this benefit extends to every pact weapon you conjure with that feature, no matter the weapon's type."
+											"1. seviyede kendini savaş için yeterli duruma getirecek eğitimi alırsın. Orta zırhlar, kalkanlar ve askeri silahlarla uzmanlık kazanırsın.",
+											"Efendinin etkisi iradeni bir silah üzerinden mistik olarak yönlendirmeni sağlar. Ne zaman uzun dinlenme bitirirsen, iki elli özelliği olmayan ve uzman olduğun bir silaha dokunabilirsin. Bu silah ile saldırdığında, saldırı ve hasar zarları için Kuvvet yada Çeviklik yerine Karizma bonusunu kullanabilirsin. Bu özellik sen uzun dinlenme bitirene kadar sürer. Eğer sonra Kılıcın Ahdi özelliğini edinirsen, bu özellik silahın tipine bakmaksızın o şekilde yarattığın tüm silahlar için geçerli olur."
 										]
 									}
 								]
@@ -29237,11 +28505,11 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Accursed Specter",
+										"name": "Lanetli Specter",
 										"entries": [
-											"Starting at 6th level, you can curse the soul of a person you slay, temporarily binding it to your service. When you slay a humanoid, you can cause its spirit to rise from its corpse as a {@creature specter}, the statistics for which are in the Monster Manual. When the specter appears, it gains temporary hit points equal to half your warlock level. Roll initiative for the specter, which has its own turns. It obeys your verbal commands, and it gains a special bonus to its attack rolls equal to your Charisma modifier (minimum of +0).",
-											"The specter remains in your service until the end of your next long rest, at which point it vanishes to the afterlife.",
-											"Once you bind a specter with this feature, you can't use the feature again until you finish a long rest."
+											"6. seviyeden itibaren öldürdüğün bir kişinin ruhunu lanetleyip sana hizmet etmesi için geçici olarak bağlayabilirsin. Bir insansıyı öldürdüğünde ruhunun bedeninden bir {@creature specter} olarak çıkmasını sağlayabilirsin. Specter belirdiğinde senin warlock seviyenin yarısı kadar geçici HP kazanır. Specter için öncelik zarı at, kendi sıraları olur. Senin sözlü komutlarını dinler ve saldırı zarlarına senin Karizma bonusun kadar (en az 0) bonus eklenir.",
+											"Bir sonraki uzun dinlenme sonuna kadar specter hizmetinde kalır ve bu noktadan sonra yok olur.",
+											"Bu özellikle bir specter yarattıktan sonra bir daha uzun dinlenme bitirene kadar özelliği kullanamazsın."
 										]
 									}
 								]
@@ -29252,9 +28520,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Armor of Hexes",
+										"name": "Hexlerin Zırhı",
 										"entries": [
-											"At 10th level, your hex grows more powerful. If the target cursed by your Hexblade's Curse hits you with an attack roll, you can use your reaction to roll a d6. On a 4 or higher, the attack instead misses you, regardless of its roll."
+											"10. seviyede hexin daha da güçlenir. Eğer Hex Kılıcının Laneti ile lanetlenmiş bir hedef sana bir saldırı ile vurursa reaksiyonunu kullanıp d6 atabilirsin. 4 ve üzerinde saldırı asıl zarına bakmaksızın seni ıskalar."
 										]
 									}
 								]
@@ -29265,9 +28533,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Master of Hexes",
+										"name": "Hexlerin Üstadı",
 										"entries": [
-											"Starting at 14th level, you can spread your Hexblade's Curse from a slain creature to another creature. When the creature cursed by your Hexblade's Curse dies, you can apply the curse to a different creature you can see within 30 feet of you, provided you aren't {@condition incapacitated}. When you apply the curse in this way, you don't regain hit points from the death of the previously cursed creature."
+											"14. seviyeden itibaren Hex Kılıcının Lanetini öldürülen bir varlıktan diğerine taşımayı öğrenirsin. Hex Kılıcının Laneti ile lanetlenmiş bir varlık öldüğünde, bu laneti 30 feet yakınında görebildiğin başka bir varlığa aktarabilirsin. Etkisiz halde iken bunu yapamazsın. Laneti bu şekilde aktardığında, önceki varlığın ölümünden HP yenilemezsin."
 										]
 									}
 								]
@@ -29275,142 +28543,8 @@
 						]
 					],
 					"source": "XGE",
-					"shortName": "Hexblade"
+					"shortName": "Hex Kılıcı"
 				},
-				{
-					"name": "The Kraken (Livestream)",
-					"subclassFeatures": [
-						[
-							{
-								"name": "The Kraken (Livestream)",
-								"entries": [
-									"You made a pact with a Kraken somewhere in the world's ocean.",
-									{
-										"type": "entries",
-										"name": "Expanded Spell List",
-										"entries": [
-											"The Kraken lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
-											{
-												"type": "table",
-												"caption": "Kraken Patron Expanded Spells",
-												"colLabels": [
-													"Spell Level",
-													"Spells"
-												],
-												"colStyles": [
-													"col-xs-3 text-align-center",
-													"col-xs-9"
-												],
-												"rows": [
-													[
-														"1st",
-														"{@spell thunderwave}, {@spell create or destroy water}"
-													],
-													[
-														"2nd",
-														"{@spell augury}, {@spell gust of wind}"
-													],
-													[
-														"3rd",
-														"{@spell call lightning}, {@spell water breathing}"
-													],
-													[
-														"4th",
-														"{@spell evard's black tentacles}, {@spell control water}"
-													],
-													[
-														"5th",
-														"{@spell commune with nature}, {@spell cone of cold}"
-													]
-												]
-											}
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Grasp of the Kraken",
-										"entries": [
-											"Starting at 1st level, you gain the ability to call forth spectral tentacles that grab at your foes. As an action, pick a point that you can see within 60 ft. of you. A horde of grasping tendrils appears at that point. Creatures of your choice within 10 ft. of that point must make a Strength saving throw against your Warlock spell save DC. Creatures that fail their saving throws are {@condition grappled} for 1 minute or until you use this ability again. The spectral tentacle's Strength (Athletics) bonus is 2 + your proficiency bonus and its reach is 10 feet."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Inky Escape",
-										"entries": [
-											"At 6th level, you gain the ability to call upon your patron to escape from your foes. As a reaction when you take damage, you can cast {@spell darkness} centered on a point within 5 ft. of you. The spell lasts until the end of your next turn, and it has no effect on your vision.",
-											"Once you use this ability, you cannot use it until you complete a short or long rest."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Scion of the Depths",
-										"entries": [
-											"Starting at 10th level, your patron accepts you into his inner court of servitors. You gain the ability to breathe water, and a swim speed equal to your normal speed.",
-											"You gain immunity to lightning damage. When your immunity reduces damage from an effect to 0, as a reaction you can cause creatures of your choice that you can see within 30 ft. of you to take lightning damage equal to your Charisma modifier + your proficiency bonus."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Unleash the Kraken",
-										"entries": [
-											"At 14th level, you gain the ability to call upon your patron for aid. As an action, you open a portal at a point you can see within 30 ft. of you and choose one of the following effects."
-										]
-									},
-									{
-										"type": "entries",
-										"entries": [
-											{
-												"type": "entries",
-												"name": "Transport",
-												"entries": [
-													"You and up to 5 creatures of your choosing that you can see are grasped by tentacles that emerge from the portal. A second portal opens at a point of your choice within 100 miles that you have visited in the past 24 hours, depositing you and your chosen allies there."
-												]
-											}
-										]
-									},
-									{
-										"type": "entries",
-										"entries": [
-											{
-												"type": "entries",
-												"name": "Fury",
-												"entries": [
-													"The tentacles slam into your foes. Pick up to 5 creatures that you can see within 30 ft. of the portal. Those creatures must make Dexterity saving throws against your Warlock spell save DC.  Creatures that fail their saving throws take {@dice 10d6} bludgeoning damage and are {@condition restrained} for 1 minute. Creatures that succeed take half the bludgeoning damage and are not {@condition restrained}. On its turn, a {@condition restrained} creature can use its action to attempt a DC 15 Strength (Athletics) or Dexterity (Acrobatics) check to end its {@condition restrained} condition."
-												]
-											}
-										]
-									},
-									{
-										"type": "entries",
-										"entries": [
-											"Once you use this ability, you cannot use it until you complete a long rest."
-										]
-									}
-								]
-							}
-						]
-					],
-					"source": "Stream",
-					"shortName": "Kraken (Stream)"
-				}
 			],
 			"fluff": [
 				{

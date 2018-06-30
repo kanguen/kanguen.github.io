@@ -90,31 +90,6 @@ function onJsonLoad (data) {
 		listClass: "classes"
 	});
 
-	const invocFeature = data.class
-		.find(it => it.name === "Warlock" && it.source === SRC_PHB).classFeatures[1]
-		.find(f => f.name === "Eldritch Invocations");
-	if (invocFeature) {
-		const toRemove = invocFeature.entries.findIndex(it => it.type === "options");
-		const toSwitch = invocFeature.entries.findIndex(it => it.includes("Your invocation options are detailed at the end of the class description."));
-		if (toRemove !== -1 && toSwitch !== -1) {
-			invocFeature.entries[toSwitch] = {
-				type: "inlineBlock",
-				entries: [
-					"At 2nd level, you gain two eldritch invocations of your choice. See the ",
-					{
-						"type": "link",
-						"href": {
-							"type": "internal",
-							"path": "invocations.html"
-						},
-						"text": "Invocations page"
-					},
-					" for the list of available options. When you gain certain warlock levels, you gain additional invocations of your choice."
-				]
-			};
-			invocFeature.entries.splice(toRemove, 1);
-		}
-	}
 	addClassData(data);
 
 	BrewUtil.addBrewData(handleBrew);
@@ -275,7 +250,7 @@ function loadhash (id) {
 	// starting proficiencies
 	const sProfs = curClass.startingProficiencies;
 	const profSel = $("td#prof");
-	profSel.find("div#armor span").html(sProfs.armor === undefined ? STR_PROF_NONE : sProfs.armor.map(a => a === "hafif" || a === "orta" || a === "ağır" ? a + " zırh" : a).join(", "));
+	profSel.find("div#armor span").html(sProfs.armor === undefined ? STR_PROF_NONE : sProfs.armor.map(a => a === "hafif" || a === "orta" || a === "ağır" ? a + " zırhlar" : a).join(", "));
 	profSel.find("div#weapons span").html(sProfs.weapons === undefined ? STR_PROF_NONE : sProfs.weapons.map(w => w === "basit" || w === "askeri" ? w + " silahlar" : w).join(", "));
 	profSel.find("div#tools span").html(sProfs.tools === undefined ? STR_PROF_NONE : sProfs.tools.join(", "));
 	profSel.find("div#skills span").html(sProfs.skills === undefined ? STR_PROF_NONE : getSkillProfString(sProfs.skills));
