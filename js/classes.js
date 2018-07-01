@@ -89,7 +89,10 @@ function onJsonLoad (data) {
 		valueNames: ['name', 'source', 'uniqueid'],
 		listClass: "classes"
 	});
-
+const invocFeature = data.class
+		.find(it => it.name === "Warlock" && it.source === SRC_PHB).classFeatures[1]
+		.find(f => f.name === "Eldritch Yakarışları");
+		
 	addClassData(data);
 
 	BrewUtil.addBrewData(handleBrew);

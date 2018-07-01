@@ -3656,20 +3656,3 @@ ExcludeUtil = {
 };
 
 // LEGAL NOTICE ========================================================================================================
-if (!IS_ROLL20 && typeof window !== "undefined") {
-	// add an obnoxious banner
-	window.addEventListener("load", () => {
-		// FIXME is this something we want? If so, delete this
-		/* eslint-disable */
-		return;
-
-		if (!StorageUtil.isFake() && StorageUtil.get("seenLegal")) return;
-		const $wrpBanner = $(`<div id="legal-notice"><span>Don't go posting this shit to Reddit</span></div>`);
-		$(`<button class="btn btn-sm btn-default">Whatever, kid</button>`).on("click", () => {
-			StorageUtil.set("seenLegal", true);
-			$wrpBanner.remove();
-		}).appendTo($wrpBanner);
-		$(`body`).append($wrpBanner);
-		/* eslint-enable */
-	});
-}

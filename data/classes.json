@@ -27758,8 +27758,7 @@
 										"entries": [
 											"Efendin sana Gölgeler Kitabı adında bir büyü kitabı verir. Bu özelliği kazandığında herhangi bir sınıfın büyü listesinden 3 adet cantrip seç. Bu cantripler aynı büyü listesinden olmak zorunda değil. Büyü kitabı üzerinde olduğu sürece bu cantripleri istediğin zaman kullanabilirsin. Bildiğin cantripler sayısını etkilemez. Bu şekilde kullandığın tüm cantripler senin için warlock cantripi sayılır. Eğer gölgeler Kitabını kaybedersen 1 saatlik bir seremoni ile efendinden yenisini alabilirsin. Bu seremoni kısa yada uzun dinlenme sırasında yapılabilir ve bir önceki kitabı yok eder. Öldüğünde kitap küle dönüşür."
 										]
-									},
-									
+									}
 								]
 							}
 						]
@@ -27868,6 +27867,7 @@
 						]
 					}
 				],
+				[],
 				[
 					{
 						"name": "Yetenek Skoru Gelişimi",
@@ -28053,6 +28053,119 @@
 								]
 							}
 						],
+						{
+					"name": "Ghost in the Machine (UA)",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Ghost in the Machine",
+								"entries": [
+									"You have made a bargain for power granted by an entity that you believe to be completely digital. Whether it is a rogue AI or the spirit of a deceased hacker, the Ghost in the Machine is capable of feats that defy explanation.",
+									{
+										"type": "entries",
+										"name": "Expanded Spell List",
+										"entries": [
+											"The Ghost in the Machine lets you choose from an expanded list of spells when you learn a warlock spell. You gain the on/off cantrip, and the following new spells are added to the warlock spell list for you.",
+											"Spells marked with an asterisk can be found in Unearthed Arcana: Modern Magic.",
+											{
+												"type": "table",
+												"caption": "Ghost in the Machine Expanded Spells",
+												"colLabels": [
+													"Spell Level",
+													"Spells"
+												],
+												"colStyles": [
+													"col-xs-3 text-align-center",
+													"col-xs-9"
+												],
+												"rows": [
+													[
+														"1st",
+														"{@spell infallible relay (UA)|UAModernMagic|infallible relay}*, {@spell remote access (UA)|UAModernMagic|remote access}*"
+													],
+													[
+														"2nd",
+														"{@spell arcane hacking (UA)|UAModernMagic|arcane hacking}*, {@spell digital phantom (UA)|UAModernMagic|digital phantom}*"
+													],
+													[
+														"3rd",
+														"{@spell haywire (UA)|UAModernMagic|haywire}*, {@spell invisibility to cameras (UA)|UAModernMagic|invisibility to cameras}*"
+													],
+													[
+														"4th",
+														"{@spell conjure knowbot (UA)|UAModernMagic|conjure knowbot}*, {@spell system backdoor (UA)|UAModernMagic|system backdoor}*"
+													],
+													[
+														"5th",
+														"{@spell shutdown (UA)|UAModernMagic|shutdown}*, {@spell synchronicity (UA)|UAModernMagic|synchronicity}*"
+													]
+												]
+											}
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Bonus Proficiency",
+										"entries": [
+											"At 1st level, you gain proficiency with hacking tools."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Information Surge",
+										"entries": [
+											"At 1st level, you gain the ability to temporarily render computerized devices inoperable. As an action, you can target a computerized device within 30 feet of you. If the targeted device is held or otherwise actively used by a living creature, that creature must make an Intelligence saving throw against your spell save DC. On a failed save, the targeted device ceases to function until the end of your next turn. If the targeted device is not held or used by a creature, the DM makes a special saving throw for the device with disadvantage and a +0 modifier. Certain shielded devices might negate the disadvantage, at the DM's determination.",
+											"Once you use this feature, you can't use it again until you finish a short or long rest."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Wire Walk",
+										"entries": [
+											"Starting at 6th level, you gain the ability to travel short distances over electrical wires, data lines, or telephone cables. As a bonus action, you can touch a device or socket connected to a hardwired network and teleport along this network to another device or socket within your line of sight. Once you use this feature, you can't use it again until you finish a short or long rest."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Personal Encryption",
+										"entries": [
+											"Beginning at 10th level, you have learned to apply your innate knowledge of encryption to your thoughts, memories, and presence. You have advantage on saving throws against {@spell scrying}, thought detection, or any other method of magically learning your whereabouts or reading your thoughts. For any such effect that does not grant you a saving throw but which requires the creature targeting you to make an ability check, the check is made with disadvantage."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Technovirus",
+										"entries": [
+											"At 14th level, you gain the ability to infect a humanoid's body with living circuitry. You can use an action to make a melee attack against a humanoid creature using your spell attack modifier. The target must make a Constitution saving throw against your spell save DC as a techno-organic virus quickly spreads through its body. On a failed save, the target takes 8d10 psychic damage, or half as much damage on a successful one.",
+											"Additionally, if the target fails the saving throw, you can use an action to issue it a single command, as if you were casting the {@spell command} spell. The target makes its saving throw against your {@spell command} with disadvantage. You can issue this {@spell command} at any time while the target remains infected.",
+											"Once you use this feature, you can't use it again until you finish a long rest, at which point the target is cured of the technovirus. The infection can also be removed with a lesser restoration spell."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "UAModernMagic",
+					"shortName": "Ghost in the Machine (UA)"
+				},
 						[
 							{
 								"entries": [
@@ -28311,6 +28424,596 @@
 					"shortName": "Undying"
 				},
 				{
+					"name": "The Undying Light (UA)",
+					"subclassFeatures": [
+						[
+							{
+								"name": "The Undying Light",
+								"entries": [
+									"Your patron is not a specific entity, but the energy that radiates from the Positive Plane. Your pact allows you to experience the barest touch of the raw stuff of life that powers the multiverse. Anything more, and you would be instantly incinerated by its energy.",
+									"Contact with the Positive Plane causes subtle changes to your behavior and beliefs. You are driven to bring light to dark places, to annihilate undead creatures, and to protect all living things. At the same time, you crave the light and find total darkness a suffocating experience akin to drowning.",
+									"As an optional way to add more flavor to your character, you can pick from or roll on the following table of flaws associated with warlocks of the Undying Light.",
+									{
+										"type": "table",
+										"caption": "Undying Light Flaws",
+										"colLabels": [
+											"d6",
+											"Quirk"
+										],
+										"colStyles": [
+											"col-xs-1 text-align-center",
+											"col-xs-11"
+										],
+										"rows": [
+											[
+												"1",
+												"You are afraid of the dark, and must always have a light source at hand."
+											],
+											[
+												"2",
+												"You have a nervous compulsion to keep a bright light in even the barest shadow."
+											],
+											[
+												"3",
+												"You have a compulsion to enter and illuminate dark areas."
+											],
+											[
+												"4",
+												"You have an overwhelming hatred of undead creatures."
+											],
+											[
+												"5",
+												"You fidget and are irritable when you can't see the sun."
+											],
+											[
+												"6",
+												"In a dark area, you always carry a lit torch or lantern. Putting it down is an unbearable thought."
+											]
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Expanded Spell List",
+										"entries": [
+											"The Undying Light lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+											{
+												"type": "table",
+												"caption": "Undying Light Expanded Spells",
+												"colLabels": [
+													"Spell Level",
+													"Spells"
+												],
+												"colStyles": [
+													"col-xs-3 text-align-center",
+													"col-xs-9"
+												],
+												"rows": [
+													[
+														"1st",
+														"{@spell burning hands}"
+													],
+													[
+														"2nd",
+														"{@spell flaming sphere}"
+													],
+													[
+														"3rd",
+														"{@spell daylight}"
+													],
+													[
+														"4th",
+														"{@spell fire shield}"
+													],
+													[
+														"5th",
+														"{@spell flame strike}"
+													]
+												]
+											}
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Radiant Soul",
+										"entries": [
+											"Starting at 1st level, your link to the Positive Plane allows you to serve as a conduit for radiant energy. You have resistance to radiant damage, and when you cast a spell that deals radiant damage or fire damage, you add your Charisma modifier to that damage. Additionally, you know the {@spell sacred flame} and {@spell light} cantrips and can cast them at will. They don't count against your number of cantrips known."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Searing Vengeance",
+										"entries": [
+											"Starting at 6th level, the radiant energy you channel allows you to overcome grievous injuries. When you would make a death saving throw, you can instead spring back to your feet with a burst of radiant energy. You immediately stand up (if you so choose), and you regain hit points equal to half your hit point maximum. All hostile creatures within 30 feet of you take 10 + your Charisma modifier radiant damage and are {@condition blinded} until the end of your turn.",
+											"Once you use this feature, you can't use it again until you finish a long rest."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Radiant Resilience",
+										"entries": [
+											"Starting at 10th level, you gain temporary hit points whenever you finish a long or short rest. These temporary hit points equal your warlock level + your Charisma modifier. Additionally, choose up to five creatures you can see at the end of your rest. Those creatures gain temporary hit points equal to half your warlock level + your Charisma modifier."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Healing Light",
+										"entries": [
+											"At 14th level, you gain the ability to channel the Undying Light to heal yourself and other creatures. As a bonus action, you can touch a creature and heal it. With each touch, a creature regains from 1d6 to 5d6 hit points (your choice). You have a total pool of 15d6 you can expend. Subtract the dice you use with each touch from that total.",
+											"You regain all expended dice from your pool when you finish a long rest."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "UALightDarkUnderdark",
+					"shortName": "Undying Light (UA)"
+				},
+				{
+					"name": "The Celestial (UA)",
+					"subclassFeatures": [
+						[
+							{
+								"name": "The Celestial",
+								"entries": [
+									"Your patron is a powerful being of the Upper Planes. You have bound yourself to an ancient empyrean, solar, ki-rin, or unicorn or to another entity that resides in the planes of everlasting bliss. Your pact with that being allows you to experience the barest touch of the holy light that illuminates the multiverse.",
+									"Being connected to such power can cause changes in your behavior and beliefs. You might find yourself driven to annihilate the undead, to defeat fiends, and to protect the innocent. At times, your heart might also be filled with a longing for the celestial realm of your patron, a desire to wander that paradise for the rest of your days. But you know that your mission is among mortals for now and that your pact binds you to bring light to the dark places of the world.",
+									{
+										"type": "entries",
+										"name": "Expanded Spell List",
+										"entries": [
+											"The Celestial lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+											{
+												"type": "table",
+												"caption": "Celestial Expanded Spells",
+												"colLabels": [
+													"Spell Level",
+													"Spells"
+												],
+												"colStyles": [
+													"col-xs-3 text-align-center",
+													"col-xs-9"
+												],
+												"rows": [
+													[
+														"1st",
+														"{@spell burning hands}, {@spell cure wounds}"
+													],
+													[
+														"2nd",
+														"{@spell flaming sphere}, {@spell lesser restoration}"
+													],
+													[
+														"3rd",
+														"{@spell daylight}, {@spell revivify}"
+													],
+													[
+														"4th",
+														"{@spell guardian of faith}, {@spell wall of fire}"
+													],
+													[
+														"5th",
+														"{@spell flame strike}, {@spell greater restoration}"
+													]
+												]
+											}
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Bonus Cantrips",
+										"entries": [
+											"At 1st level, you learn the {@spell sacred flame} and {@spell light} cantrips. They count as warlock cantrips for you, but they don't count against your number of cantrips known."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Healing Light",
+										"entries": [
+											"At 1st level, you gain the ability to channel celestial energy to heal wounds. You have a pool of d6s that you spend to fuel this healing. The number of dice in the pool equals 1 + your warlock level.",
+											"As a bonus action, you can touch a creature and heal it, spending dice from the pool. The maximum number of dice you can spend at once equals your Charisma modifier (minimum of one die). Roll the dice you spend, add them together, and restore a number of hit points equal to the total.",
+											"Your pool regains all expended dice when you finish a long rest."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Radiant Soul",
+										"entries": [
+											"Starting at 6th level, your link to the Celestial allows you to serve as a conduit for radiant energy. You have resistance to radiant damage, and when you cast a spell that deals radiant or fire damage, you add your Charisma modifier to that damage against one target of your choice."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Celestial Resilience",
+										"entries": [
+											"Starting at 10th level, you gain temporary hit points whenever you finish a short or long rest. These temporary hit points equal your warlock level + your Charisma modifier. Additionally, choose up to five creatures you can see at the end of the rest. Those creatures each gain temporary hit points equal to half your warlock level + your Charisma modifier."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Healing Light",
+										"entries": [
+											"Starting at 14th level, the radiant energy you channel allows you to overcome grievous injuries. When you have to make a death saving throw at the start of your turn, you can instead spring back to your feet with a burst of radiant energy. You regain hit points equal to half your hit point maximum, and then you stand up, if you so choose. Each creature of your choice that is within 30 feet of you takes radiant damage equal to 2d8 + your Charisma modifier, and it is {@condition blinded} until the end of the current turn.",
+											"Once you use this feature, you can't use it again until you finish a long rest."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "UARevisedClassOptions",
+					"shortName": "Celestial (UA)"
+				},
+				{
+					"name": "The Seeker (UA)",
+					"subclassFeatures": [
+						[
+							{
+								"name": "The Seeker",
+								"entries": [
+									"Your patron is an inscrutable being who travels the Astral Plane in search of knowledge and secrets. In return for your patron's gifts, you wander the world seeking lore that you can share with the Seeker.",
+									"Your patron could be any deity or other powerful entity dedicated to knowledge or forgotten lore. Celestian is an ideal patron for a Greyhawk campaign, and was the inspiration for this concept. In the Forgotten Realms, your patron might be Azuth or Oghma. Aureon makes an excellent patron in Eberron, while in Krynn and the Dragonlance campaign setting, Gilean is a good match for the Seeker's role.",
+									{
+										"type": "entries",
+										"name": "Expanded Spell List",
+										"entries": [
+											"The Seeker lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+											{
+												"type": "table",
+												"caption": "Seeker Expanded Spells",
+												"colLabels": [
+													"Spell Level",
+													"Spells"
+												],
+												"colStyles": [
+													"col-xs-3 text-align-center",
+													"col-xs-9"
+												],
+												"rows": [
+													[
+														"1st",
+														"{@spell feather fall}, {@spell jump}"
+													],
+													[
+														"2nd",
+														"{@spell levitate}, {@spell locate object}"
+													],
+													[
+														"3rd",
+														"{@spell clairvoyance}, {@spell sending}"
+													],
+													[
+														"4th",
+														"{@spell arcane eye}, {@spell locate creature}"
+													],
+													[
+														"5th",
+														"{@spell legend lore}, {@spell passwall}"
+													]
+												]
+											}
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Shielding Aurora",
+										"entries": [
+											"Starting at 1st level, you can invoke the Seeker's power to protect you from harm. As a bonus action, you create a whirling aurora of brilliant energy that swirls around you. Until the end of your next turn, you gain resistance to all damage, and if a hostile creature ends its turn within 10 feet of you, it takes radiant damage equal to your warlock level + your Charisma modifier.",
+											"Once you use this feature, you can't use it again until you finish a short or long rest."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Astral Refuge",
+										"entries": [
+											"At 6th level, you gain the ability to step into an astral refuge. As an action, you disappear from the world for a brief moment and enter the Astral Plane, taking advantage of its timeless nature. While in your astral refuge, you can take two actions to cast spells that target only you. After using those two actions, you return to the space you occupied and your turn ends."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Far Wanderer",
+										"entries": [
+											"At 10th level, you no longer need to breathe, and you gain resistance to fire damage and cold damage."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Astral Sequestration",
+										"entries": [
+											"Starting at 14th level, you gain the ability to sequester yourself and your allies on the Astral Plane.",
+											"By performing a special ritual over the course of 5 minutes, you shift yourself and up to ten willing creatures you can see to the Astral Plane. You and those creatures gain the benefits of a short rest while sequestered on the Astral Plane. You then return to the spaces you all occupied when you used this ability, with no time having passed in the world.",
+											"During this short rest, you and the creatures you sequester can make use of any options available during a rest that affect only you and the creatures you sequester.",
+											"Once you use this ability, you cannot use it again until you complete a long rest."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "UATheFaithful",
+					"shortName": "Seeker (UA)"
+				},
+				{
+					"name": "The Raven Queen (UA)",
+					"subclassFeatures": [
+						[
+							{
+								"name": "The Raven Queen",
+								"entries": [
+									"You patron is the Raven Queen, a mysterious being who rules the Shadowfell from a palace of ice deep within that dread realm. The Raven Queen watches over the world, anticipating each creature's death and ensuring that it meets its end at the proscribed time and place. As the ruler of the Shadowfell, she dwells in a decayed, dark reflection of the world. Her ability to reach into the world is limited. Thus, she turns to mortal warlocks to serve her will. Warlocks sworn to the Raven Queen receive visions and whispers from her in their dreams, sending them on quests and warning them of impending dangers.",
+									"The Raven Queen's followers are expected to serve her will in the world. She concerns herself with ensuring that those fated to die pass from the world as expected, and bids her agents to defeat those who seek to cheat death through undeath or other imitations of immortality. She hates intelligent undead and expects her followers to strike them down, whereas mindless undead such as skeletons and zombies are little more than stumbling automatons in her eyes.",
+									{
+										"type": "entries",
+										"name": "Expanded Spell List",
+										"entries": [
+											"The Raven Queen lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+											{
+												"type": "table",
+												"caption": "Raven Queen Expanded Spells",
+												"colLabels": [
+													"Spell Level",
+													"Spells"
+												],
+												"colStyles": [
+													"col-xs-3 text-align-center",
+													"col-xs-9"
+												],
+												"rows": [
+													[
+														"1st",
+														"{@spell false life}, {@spell sanctuary}"
+													],
+													[
+														"2nd",
+														"{@spell silence}, {@spell spiritual weapon}"
+													],
+													[
+														"3rd",
+														"{@spell feign death}, {@spell speak with dead}"
+													],
+													[
+														"4th",
+														"{@spell ice storm}, {@spell locate creature}"
+													],
+													[
+														"5th",
+														"{@spell commune}, {@spell cone of cold}"
+													]
+												]
+											}
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Sentinel Raven",
+										"entries": [
+											"Starting at 1st level, you gain the service of a spirit sent by the Raven Queen to watch over you. The spirit assumes the form and game statistics of a raven, and it always obeys your commands, which you can give telepathically while it is within 100 feet of you.",
+											"While the raven is perched on your shoulder, you gain darkvision with a range of 30 feet and a bonus to your passive Wisdom (Perception) score and to Wisdom (Perception) checks. The bonus equals your Charisma modifier. While perched on your shoulder, the raven can't be targeted by any attack or other harmful effect; only you can cast spells on it; it can't take damage; and it is {@condition incapacitated}.",
+											"You can see through the raven's eyes and hear what it hears while it is within 100 feet of you. In combat, you roll initiative for the raven and control how it acts. If it is slain by a creature, you gain advantage on all attack rolls against the killer for the next 24 hours.",
+											"The raven doesn't require sleep. While it is within 100 feet of you, it can awaken you from sleep as a bonus action. The raven vanishes when it dies, if you die, or if the two of you are separated by more than 5 miles.",
+											"At the end of a short or long rest, you can call the raven back to you\u2014no matter where it is or whether it died\u2014and it reappears within 5 feet of you."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Soul of the Raven",
+										"entries": [
+											"At 6th level, you gain the ability to merge with your raven spirit. As a bonus action when your raven is perched on your shoulder, your body merges with your raven's form. While merged, you become Tiny, you replace your speed with the raven's, and you can use your action only to Dash, Disengage, Dodge, Help, Hide, or Search. During this time, you gain the benefits of your raven being perched on your shoulder. As an action, you and the raven return to normal."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Raven's Shield",
+										"entries": [
+											"At 10th level, the Raven Queen grants you a protective blessing. You gain advantage on death saving throws, immunity to the {@condition frightened} condition, and resistance to necrotic damage."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Queen's Right Hand",
+										"entries": [
+											"Starting at 14th level, you can channel the Raven Queen's power to slay a creature. You can cast {@spell finger of death}. After you cast the spell with this feature, you can't do so again until you finish a long rest."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "UAWarlockAndWizard",
+					"shortName": "Raven Queen (UA)"
+				},
+				{
+					"name": "The Hexblade (UA)",
+					"subclassFeatures": [
+						[
+							{
+								"name": "The Hexblade",
+								"entries": [
+									"You have made your pact with a powerful, sentient magic weapon carved from the stuff of the Shadowfell. The mighty sword Blackrazor is the most notable of these weapons, several of which have spread across the multiverse over the ages. These weapons grow stronger as they consume the life essence of their victims. The strongest of them can use their ties to the Shadowfell to offer power to mortals who serve them. The Raven Queen forged the first of these weapons. They, along with the hexblade warlocks, are another tool she can use to manipulate events in the Material Plane to her inscrutable ends.",
+									{
+										"type": "entries",
+										"name": "Expanded Spell List",
+										"entries": [
+											"The Hexblade lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+											{
+												"type": "table",
+												"caption": "Hexblade Expanded Spells",
+												"colLabels": [
+													"Spell Level",
+													"Spells"
+												],
+												"colStyles": [
+													"col-xs-3 text-align-center",
+													"col-xs-9"
+												],
+												"rows": [
+													[
+														"1st",
+														"{@spell shield}, {@spell wrathful smite}"
+													],
+													[
+														"2nd",
+														"{@spell branding smite}, {@spell magic weapon}"
+													],
+													[
+														"3rd",
+														"{@spell blink}, {@spell elemental weapon}"
+													],
+													[
+														"4th",
+														"{@spell phantasmal killer}, {@spell staggering smite}"
+													],
+													[
+														"5th",
+														"{@spell cone of cold}, {@spell destructive wave}"
+													]
+												]
+											}
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Hex Warrior",
+										"entries": [
+											"At 1st level, you gain proficiency with medium armor, shields, and martial weapons. In addition, when attacking with a melee weapon that you are proficient with and that lacks the two-handed property, you can use your Charisma modifier, instead of Strength or Dexterity, for the attack and damage rolls."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Hexblade's Curse",
+										"entries": [
+											"Starting at 1st level, you gain the ability to place a baleful curse on an enemy. As a bonus action, choose one creature you can see within 30 feet of you. The target is cursed for 1 minute. Until the curse ends, you gain the following benefits:",
+											{
+												"type": "list",
+												"items": [
+													"You gain a bonus to damage rolls against the cursed target. The bonus equals your proficiency bonus.",
+													"Any attack roll you make against the cursed target is a critical hit on a roll of 19 or 20 on the d20.",
+													"If the cursed target dies, you regain hit points equal to your warlock level + your Charisma modifier."
+												]
+											},
+											"You can't use this feature again until you finish a short or long rest."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Shadow Hound",
+										"entries": [
+											"Starting at 6th level, your shadow can split from you and transform into a hound of pure darkness. Most of the time, your shadow hound masquerades as your normal shadow. As a bonus action, you can command it to magically slip into the shadow of a creature you can see within 60 feet of you. While the shadow hound is merged in this manner, the target can't gain the benefits of half cover or three-quarters cover against your attack rolls, and you know the distance and direction to the target even if it is hidden. The hound can't be seen by anyone but you and those with truesight, and it is unaffected by light. The target has a vague feeling of dread while the hound is present.",
+											"As a bonus action, you can command your shadow hound to return to you. It also automatically returns to you if you and the target are on different planes of existence, if you're {@condition incapacitated}, or if dispel magic, {@spell remove curse}, or similar magic is used on the target."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Armor of Hexes",
+										"entries": [
+											"At 10th level, your hex grows more powerful. If the target cursed by your Hexblade's Curse hits you with an attack roll, roll a d6. On a 4 or higher, the attack instead misses you."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Master of Hexes",
+										"entries": [
+											"Starting at 14th level, you can use your Hexblade's Curse again without resting, but when you apply it to a new target, the curse immediately ends on the previous target."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "UAWarlockAndWizard",
+					"shortName": "Hexblade (UA)"
+				},
+				{
 					"name": "The Celestial",
 					"subclassFeatures": [
 						[
@@ -28545,6 +29248,140 @@
 					"source": "XGE",
 					"shortName": "Hex Kılıcı"
 				},
+				{
+					"name": "The Kraken (Livestream)",
+					"subclassFeatures": [
+						[
+							{
+								"name": "The Kraken (Livestream)",
+								"entries": [
+									"You made a pact with a Kraken somewhere in the world's ocean.",
+									{
+										"type": "entries",
+										"name": "Expanded Spell List",
+										"entries": [
+											"The Kraken lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+											{
+												"type": "table",
+												"caption": "Kraken Patron Expanded Spells",
+												"colLabels": [
+													"Spell Level",
+													"Spells"
+												],
+												"colStyles": [
+													"col-xs-3 text-align-center",
+													"col-xs-9"
+												],
+												"rows": [
+													[
+														"1st",
+														"{@spell thunderwave}, {@spell create or destroy water}"
+													],
+													[
+														"2nd",
+														"{@spell augury}, {@spell gust of wind}"
+													],
+													[
+														"3rd",
+														"{@spell call lightning}, {@spell water breathing}"
+													],
+													[
+														"4th",
+														"{@spell evard's black tentacles}, {@spell control water}"
+													],
+													[
+														"5th",
+														"{@spell commune with nature}, {@spell cone of cold}"
+													]
+												]
+											}
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Grasp of the Kraken",
+										"entries": [
+											"Starting at 1st level, you gain the ability to call forth spectral tentacles that grab at your foes. As an action, pick a point that you can see within 60 ft. of you. A horde of grasping tendrils appears at that point. Creatures of your choice within 10 ft. of that point must make a Strength saving throw against your Warlock spell save DC. Creatures that fail their saving throws are {@condition grappled} for 1 minute or until you use this ability again. The spectral tentacle's Strength (Athletics) bonus is 2 + your proficiency bonus and its reach is 10 feet."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Inky Escape",
+										"entries": [
+											"At 6th level, you gain the ability to call upon your patron to escape from your foes. As a reaction when you take damage, you can cast {@spell darkness} centered on a point within 5 ft. of you. The spell lasts until the end of your next turn, and it has no effect on your vision.",
+											"Once you use this ability, you cannot use it until you complete a short or long rest."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Scion of the Depths",
+										"entries": [
+											"Starting at 10th level, your patron accepts you into his inner court of servitors. You gain the ability to breathe water, and a swim speed equal to your normal speed.",
+											"You gain immunity to lightning damage. When your immunity reduces damage from an effect to 0, as a reaction you can cause creatures of your choice that you can see within 30 ft. of you to take lightning damage equal to your Charisma modifier + your proficiency bonus."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Unleash the Kraken",
+										"entries": [
+											"At 14th level, you gain the ability to call upon your patron for aid. As an action, you open a portal at a point you can see within 30 ft. of you and choose one of the following effects."
+										]
+									},
+									{
+										"type": "entries",
+										"entries": [
+											{
+												"type": "entries",
+												"name": "Transport",
+												"entries": [
+													"You and up to 5 creatures of your choosing that you can see are grasped by tentacles that emerge from the portal. A second portal opens at a point of your choice within 100 miles that you have visited in the past 24 hours, depositing you and your chosen allies there."
+												]
+											}
+										]
+									},
+									{
+										"type": "entries",
+										"entries": [
+											{
+												"type": "entries",
+												"name": "Fury",
+												"entries": [
+													"The tentacles slam into your foes. Pick up to 5 creatures that you can see within 30 ft. of the portal. Those creatures must make Dexterity saving throws against your Warlock spell save DC. Creatures that fail their saving throws take {@dice 10d6} bludgeoning damage and are {@condition restrained} for 1 minute. Creatures that succeed take half the bludgeoning damage and are not {@condition restrained}. On its turn, a {@condition restrained} creature can use its action to attempt a DC 15 Strength (Athletics) or Dexterity (Acrobatics) check to end its {@condition restrained} condition."
+												]
+											}
+										]
+									},
+									{
+										"type": "entries",
+										"entries": [
+											"Once you use this ability, you cannot use it until you complete a long rest."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "Stream",
+					"shortName": "Kraken (Stream)"
+				}
 			],
 			"fluff": [
 				{
