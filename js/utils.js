@@ -94,7 +94,7 @@ RNG_UNLIMITED_SAME_PLANE = "plane";
 RNG_TOUCH = "touch";
 
 UNT_FEET = "feet";
-UNT_MILES = "mil";
+UNT_MILES = "miles";
 
 ABIL_STR = "Kuvvet";
 ABIL_DEX = "Çeviklik";
@@ -294,7 +294,7 @@ function utils_getAbilityData (abObj) {
 					for (let j = 0; j < item.predefined.length; ++j) {
 						const subAbs = [];
 						handleAllAbilities(subAbs, item.predefined[j]);
-						outStack += subAbs.join(", ") + (j === item.predefined.length - 1 ? "" : " or ");
+						outStack += subAbs.join(", ") + (j === item.predefined.length - 1 ? "" : " yada ");
 					}
 				} else {
 					const allAbilities = item.from.length === 6;
@@ -416,10 +416,10 @@ Parser.getSpeedString = (it) => {
 	if (typeof it.speed === "object") {
 		let joiner = ", ";
 		if (it.speed.walk) stack.push(`${getVal(it.speed.walk)}ft.${getCond(it.speed.walk)}`);
-		procSpeed("burrow");
-		procSpeed("climb");
-		procSpeed("fly");
-		procSpeed("swim");
+		procSpeed("kazma");
+		procSpeed("tırmanma");
+		procSpeed("uçma");
+		procSpeed("yüzme");
 		if (it.speed.choose) {
 			joiner = "; ";
 			stack.push(`${CollectionUtil.joinConjunct(it.speed.choose.from.sort(), ", ", ", yada ")} ${it.speed.choose.amount} ft.${it.speed.choose.note ? ` ${it.speed.choose.note}` : ""}`);
@@ -627,7 +627,7 @@ Parser.getTimeToFull = function (time) {
 Parser.spRangeToFull = function (range) {
 	switch (range.type) {
 		case RNG_SPECIAL:
-			return "Special";
+			return "Özel";
 		case RNG_POINT:
 			return renderPoint();
 		case RNG_LINE:
@@ -643,8 +643,9 @@ Parser.spRangeToFull = function (range) {
 		const dist = range.distance;
 		switch (dist.type) {
 			case UNT_FEET:
+				return `${dist.amount} feet`
 			case UNT_MILES:
-				return `${dist.amount} ${dist.amount === 1 ? Parser.getSingletonUnit(dist.type) : dist.type}`;
+				return `${dist.amount} mil`;
 			case RNG_SELF:
 				return "Kendin";
 			case RNG_SIGHT:
@@ -660,14 +661,22 @@ Parser.spRangeToFull = function (range) {
 
 	function renderArea () {
 		const size = range.distance;
-		return `Self (${size.amount}-${Parser.getSingletonUnit(size.type)}${getAreaStyleStr()})`;
+		return `Kendin (${size.amount}-${Parser.getSingletonUnit(size.type)}${getAreaStyleStr()})`;
 
 		function getAreaStyleStr () {
 			switch (range.type) {
+				case RNG_LINE:
+					return "'luk hat"
+				case RNG_CUBE:
+					return "'luk küp"
+				case RNG_CONE:
+					return "'luk koni"
+				case RNG_RADIUS:
+					return " çapında";
 				case RNG_SPHERE:
-					return "-çapında";
+					return " çapında";
 				case RNG_HEMISPHERE:
-					return `-çapında ${range.type}`;
+					return ` çapında yarımküre`;
 				default:
 					return ` ${range.type}`
 			}
@@ -693,11 +702,11 @@ Parser.spDurationToFull = function (dur) {
 	return dur.map(d => {
 		switch (d.type) {
 			case "special":
-				return "Special";
+				return "Özel";
 			case "instant":
-				return `Instantaneous${d.condition ? ` (${d.condition})` : ""}`;
+				return `Anlık${d.condition ? ` (${d.condition})` : ""}`;
 			case "timed":
-				return `${d.concentration ? "Concentration, " : ""}${d.duration.upTo && d.concentration ? "u" : d.duration.upTo ? "U" : ""}${d.duration.upTo ? "p to " : ""}${d.duration.amount} ${d.duration.amount === 1 ? Parser.getSingletonUnit(d.duration.type) : d.duration.type}`;
+				return `${d.concentration ? "Konsantrasyon, " : ""}${d.duration.upTo && d.concentration ? "u" : d.duration.upTo ? "U" : ""}${d.duration.upTo ? "p to " : ""}${d.duration.amount} ${d.duration.amount === 1 ? Parser.getSingletonUnit(d.duration.type) : d.duration.type}`;
 			case "permanent":
 				if (d.ends) {
 					return `Until ${d.ends.map(m => m === "dispel" ? "dispelled" : m === "trigger" ? "triggered" : m === "discharge" ? "discharged" : undefined).join(" or ")}`
@@ -716,7 +725,7 @@ Parser.spClassesToFull = function (classes, textOnly) {
 Parser.spMainClassesToFull = function (classes, textOnly) {
 	return classes.fromClassList
 		.sort((a, b) => SortUtil.ascSort(a.name, b.name))
-		.map(c => textOnly ? c.name : `<span title="Kaynak: ${Parser.sourceJsonToFull(c.source)}">${c.name}</span>`)
+		.map(c => textOnly ? c.name : `<span title="Source: ${Parser.sourceJsonToFull(c.source)}">${c.name}</span>`)
 		.join(", ");
 };
 
@@ -1087,22 +1096,23 @@ Parser.ATB_ABV_TO_FULL = {
 	"cha": "Karizma"
 };
 
-TP_ABERRATION = "anomali";
-TP_BEAST = "hayvan";
-TP_CELESTIAL = "kutsal";
-TP_CONSTRUCT = "yapı";
-TP_DRAGON = "ejderha";
+TP_ABERRATION = "aberration";
+TP_BEAST = "beast";
+TP_CELESTIAL = "celestial";
+TP_CONSTRUCT = "construct";
+TP_DRAGON = "dragon";
 TP_ELEMENTAL = "elemental";
 TP_FEY = "fey";
-TP_FIEND = "zebani";
-TP_GIANT = "dev";
-TP_HUMANOID = "insansı";
-TP_MONSTROSITY = "canavar";
-TP_OOZE = "balçık";
-TP_PLANT = "bitki";
-TP_UNDEAD = "yaşayan ölü";
+TP_FIEND = "fiend";
+TP_GIANT = "giant";
+TP_HUMANOID = "humanoid";
+TP_MONSTROSITY = "monstrosity";
+TP_OOZE = "ooze";
+TP_PLANT = "plant";
+TP_UNDEAD = "undead";
+
 Parser.MON_TYPE_TO_PLURAL = {};
-Parser.MON_TYPE_TO_PLURAL[TP_ABERRATION] = "anomaliler";
+Parser.MON_TYPE_TO_PLURAL[TP_ABERRATION] = "aberasyonlar";
 Parser.MON_TYPE_TO_PLURAL[TP_BEAST] = "hayvanlar";
 Parser.MON_TYPE_TO_PLURAL[TP_CELESTIAL] = "kutsallar";
 Parser.MON_TYPE_TO_PLURAL[TP_CONSTRUCT] = "yapılar";
@@ -1130,13 +1140,13 @@ SZ_VARIES = "V";
 Parser.SIZE_ABV_TO_FULL = {};
 Parser.SIZE_ABV_TO_FULL[SZ_FINE] = "Fine";
 Parser.SIZE_ABV_TO_FULL[SZ_DIMINUTIVE] = "Diminutive";
-Parser.SIZE_ABV_TO_FULL[SZ_TINY] = "Tiny";
-Parser.SIZE_ABV_TO_FULL[SZ_SMALL] = "Small";
-Parser.SIZE_ABV_TO_FULL[SZ_MEDIUM] = "Medium";
-Parser.SIZE_ABV_TO_FULL[SZ_LARGE] = "Large";
-Parser.SIZE_ABV_TO_FULL[SZ_HUGE] = "Huge";
-Parser.SIZE_ABV_TO_FULL[SZ_GARGANTUAN] = "Gargantuan";
-Parser.SIZE_ABV_TO_FULL[SZ_COLOSSAL] = "Colossal";
+Parser.SIZE_ABV_TO_FULL[SZ_TINY] = "Minik";
+Parser.SIZE_ABV_TO_FULL[SZ_SMALL] = "Küçük";
+Parser.SIZE_ABV_TO_FULL[SZ_MEDIUM] = "Orta";
+Parser.SIZE_ABV_TO_FULL[SZ_LARGE] = "Büyük";
+Parser.SIZE_ABV_TO_FULL[SZ_HUGE] = "Dev";
+Parser.SIZE_ABV_TO_FULL[SZ_GARGANTUAN] = "Kocaman";
+Parser.SIZE_ABV_TO_FULL[SZ_COLOSSAL] = "Muazzam";
 Parser.SIZE_ABV_TO_FULL[SZ_VARIES] = "Varies";
 
 Parser.XP_CHART = [200, 450, 700, 1100, 1800, 2300, 2900, 3900, 5000, 5900, 7200, 8400, 10000, 11500, 13000, 15000, 18000, 20000, 22000, 25000, 30000, 41000, 50000, 62000, 75000, 90000, 105000, 102000, 135000, 155000];
@@ -1453,11 +1463,11 @@ Parser.ITEM_TYPE_JSON_TO_ABV = {
 };
 
 Parser.DMGTYPE_JSON_TO_FULL = {
-	"B": "ezici",
-	"N": "nekrotik",
-	"P": "delici",
-	"R": "radyant",
-	"S": "kesici"
+	"B": "bludgeoning",
+	"N": "necrotic",
+	"P": "piercing",
+	"R": "radiant",
+	"S": "slashing"
 };
 
 Parser.SKILL_JSON_TO_FULL = {
@@ -2191,7 +2201,7 @@ function defaultSourceSelFn (val) {
 
 function getAsiFilter (options) {
 	const baseOptions = {
-		header: "Yetenek Bonusu",
+		header: "Ability Bonus",
 		items: [
 			"str",
 			"dex",

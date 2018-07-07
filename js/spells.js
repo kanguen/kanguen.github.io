@@ -180,8 +180,8 @@ function getRangeType (range) {
 
 function getTblTimeStr (time) {
 	return (time.number === 1 && TO_HIDE_SINGLETON_TIMES.includes(time.unit))
-		? `${time.unit.uppercaseFirst()}${time.unit === TM_B_ACTION ? " acn." : ""}`
-		: `${time.number} ${time.unit === TM_B_ACTION ? "Bonus acn." : time.unit}${time.number > 1 ? "s" : ""}`.uppercaseFirst();
+		? `${time.unit.uppercaseFirst()}${time.unit === TM_B_ACTION ? " eyl." : ""}`
+		: `${time.number} ${time.unit === TM_B_ACTION ? "Bonus eyl." : time.unit}${time.number > 1 ? "s" : ""}`.uppercaseFirst();
 }
 
 function getTimeDisplay (timeUnit) {
