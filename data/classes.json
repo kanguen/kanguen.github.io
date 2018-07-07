@@ -1,4 +1,4 @@
-﻿{
+{
 	"class": [
 		{
 			"name": "Barbar",
@@ -24458,7 +24458,7 @@
 			"classTableGroups": [
 				{
 					"colLabels": [
-						"Sorcery Points"
+						"Sorcery Puanları"
 					],
 					"rows": [
 						[
@@ -24525,8 +24525,8 @@
 				},
 				{
 					"colLabels": [
-						"{@filter Cantrips Known|spells|level=0|class=Sorcerer}",
-						"Spells Known"
+						"{@filter Bilinen Cantripler|spells|level=0|class=Sorcerer}",
+						"Bilinen Büyüler"
 					],
 					"rows": [
 						[
@@ -24612,17 +24612,17 @@
 					]
 				},
 				{
-					"title": "Spell Slots per Spell Level",
+					"title": "Büyü Seviyesi Başına Büyü Yuvaları",
 					"colLabels": [
-						"{@filter 1st|spells|level=1|class=Sorcerer}",
-						"{@filter 2nd|spells|level=2|class=Sorcerer}",
-						"{@filter 3rd|spells|level=3|class=Sorcerer}",
-						"{@filter 4th|spells|level=4|class=Sorcerer}",
-						"{@filter 5th|spells|level=5|class=Sorcerer}",
-						"{@filter 6th|spells|level=6|class=Sorcerer}",
-						"{@filter 7th|spells|level=7|class=Sorcerer}",
-						"{@filter 8th|spells|level=8|class=Sorcerer}",
-						"{@filter 9th|spells|level=9|class=Sorcerer}"
+						"{@filter 1.|spells|level=1|class=Sorcerer}",
+						"{@filter 2.|spells|level=2|class=Sorcerer}",
+						"{@filter 3.|spells|level=3|class=Sorcerer}",
+						"{@filter 4.|spells|level=4|class=Sorcerer}",
+						"{@filter 5.|spells|level=5|class=Sorcerer}",
+						"{@filter 6.|spells|level=6|class=Sorcerer}",
+						"{@filter 7.|spells|level=7|class=Sorcerer}",
+						"{@filter 8.|spells|level=8|class=Sorcerer}",
+						"{@filter 9.|spells|level=9|class=Sorcerer}"
 					],
 					"rows": [
 						[
@@ -24850,79 +24850,79 @@
 			],
 			"startingProficiencies": {
 				"weapons": [
-					"daggers",
-					"darts",
-					"slings",
-					"quarterstaffs",
-					"light crossbows"
+					"hançerler",
+					"dartlar",
+					"sapanlar",
+					"asalar",
+					"hafif arbaletler"
 				],
 				"skills": {
 					"choose": 2,
 					"from": [
 						"Arcana",
-						"Deception",
-						"Insight",
-						"Intimidation",
-						"Persuasion",
-						"Religion"
+						"Aldatma",
+						"Sezgi",
+						"Korkutma",
+						"İkna Etme",
+						"Din"
 					]
 				}
 			},
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) a light crossbow and 20 bolts or (b) any simple weapon",
-					"(a) a component pouch or (b) an arcane focus",
-					"(a) a dungeoneer's pack or (b) an explorer's pack",
-					"Two daggers"
+					"(a) bir hafif arbalet ve 20 kısa ok veya (b) herhangi bir basit silah",
+					"(a) bir bileşen kesesi veya (b) bir arcane odak",
+					"(a) bir zindancının paketi veya (b) bir kaşifin paketi",
+					"İki hançer"
 				],
 				"goldAlternative": "3d4 × 10"
 			},
 			"classFeatures": [
 				[
 					{
-						"name": "Spellcasting",
+						"name": "Büyü Yapma",
 						"entries": [
-							"An event in your past, or in the life of a parent or ancestor, left an indelible mark on you, infusing you with arcane magic. This font of magic, whatever its origin, fuels your spells. See chapter 10 for the general rules of spellcasting and chapter 11 for the sorcerer spell list.",
+							"Geçmişinde yada bir atanın hayatında yaşanmış bir olay sende inanılmaz bir iz bıraktı ve seni arcane büyü ile doldurdu. Aslı ne olursa olsun bu büyü kaynağı büyülerini yapmanı sağlıyor.",
 							{
 								"type": "entries",
-								"name": "Cantrips",
+								"name": "Cantripler",
 								"entries": [
-									"At 1st level, you know four cantrips of your choice from the sorcerer spell list. You learn an additional sorcerer cantrip of your choice at 4th level and another at 10th level."
+									"1. seviyede sorcerer büyü listesinden 4 tane cantrip seçebilirsin. 4. ve 10. seviyelerde ek sorcerer cantripleri öğrenirsin."
 								]
 							},
 							{
 								"type": "entries",
-								"name": "Spell Slots",
+								"name": "Büyü Yuvaları",
 								"entries": [
-									"The Sorcerer table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these sorcerer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
-									"For example, if you know the 1st-level spell {@spell burning hands} and have a 1st-level and a 2nd-level spell slot available, you can cast {@spell burning hands} using either slot."
+									"Sorcerer tablosu 1. seviye ve üzeri büyülerini kullanmak için kaç adet büyü yuvan olduğunu gösterir. Bu sorcerer büyülerini kullanmak için büyünün seviyesi yada üzeri bir yuva harcamalısın. Tüm harcanmış büyü yuvalarını uzun dinlenme bitirdiğinde yenilersin.",
+									"Örneğin 1. seviye büyüsü {@spell burning hands} biliyorsan ve 1. ve 2. seviye büyü yuvan mevcutsa, {@spell burning hands} büyüsünü istediğin yuva ile kullanabilirsin."
 								]
 							},
 							{
 								"type": "entries",
-								"name": "Spells Known of 1st Level and Higher",
+								"name": "1. Seviye ve Üzeri Bilinen Büyüler",
 								"entries": [
-									"You know two 1st-level spells of your choice from the sorcerer spell list.",
-									"You learn an additional sorcerer spell of your choice at each level except 12th, 14th, 16th, 18th, 19th, and 20th. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.",
-									"Additionally, when you gain a level in this class, you can choose one of the sorcerer spells you know and replace it with another spell from the sorcerer spell list, which also must be of a level for which you have spell slots."
+									"Sorcerer listesinden seçeceğin 2 tane 1. seviye büyü biliyorsun.",
+									"12, 14, 16, 18, 19 ve 20. seviyeler dışında her seviyede ek bir büyü öğrenirsin. Bu büyülerin her biri sahip olduğun büyü yuvalarına uygun olmalıdır. Örneğin, bu sınıfta 3. seviyeye ulaştığında bir yeni 1. yada 2. seviye büyü öğrenebilirsin.",
+									"Ek olarak, bu sınıfta bir seviye atladığında, bildiğin bir sorcerer büyüsünü yine sorcerer büyü listesinden yenisi ile değiştirebilirsin. Yeni büyüde sahip olduğun büyü yuvalarına uygun olmalıdır."
 								]
 							},
 							{
 								"type": "entries",
-								"name": "Spellcasting Ability",
+								"name": "Büyü Yapma Yeteneği",
 								"entries": [
-									"Charisma is your spellcasting ability for your sorcerer spells, since the power of your magic relies on your ability to project your will into the world. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a sorcerer spell you cast and when making an attack roll with one.",
+									"Sorcerer büyülerin için büyü yapma yeteneğin Karizmadır. Çünkü büyü gücün iradeni dünyaya yansıtabilme yeteneğine bağlıdır. Ne zaman bir büyü, büyü yapma yeteneğinden bahsederse Karizmayı kullanırsın. Ek olarak, sorcerer büyülerinin kurtulma zarı DC'sini belirlerken ve onlarla saldırı yaparken Karizma bonusunu kullanırsın.",
 									{
 										"type": "abilityDc",
-										"name": "Spell",
+										"name": "Büyü",
 										"attributes": [
 											"cha"
 										]
 									},
 									{
 										"type": "abilityAttackMod",
-										"name": "Spell",
+										"name": "Büyü",
 										"attributes": [
 											"cha"
 										]
@@ -24931,50 +24931,50 @@
 							},
 							{
 							    "type": "entries",
-							    "name": "Spellcasting Focus",
+							    "name": "Büyü Yapma Odağı",
 							    "entries": [
-							        "You can use an arcane focus (found in chapter 5) as a spellcasting focus for your sorcerer spells."
+							        "Sorcerer büyülerin için gereken büyü yapma odağı olarak bir arcane odak kullanabilirsin."
 							    ]
 							}
 						]
 					},
 					{
-						"name": "Sorcerous Origin",
+						"name": "Sorcerer Aslı",
 						"entries": [
-							"Choose a sorcerous origin, which describes the source of your innate magical power, from the list of available origins",
-							"Your choice grants you features when you choose it at 1st level and again at 6th, 14th, and 18th level."
+							"Mevcut listeden bir sorcerer aslı seç, bu senin içinden gelen büyü gücünün kaynağını belirler.",
+							"Seçimin sana seçtiğin an 1. seviyede ve sonrasında 6, 14 ve 18. seviyelerde yeni özellikler ekler."
 						],
 						"gainSubclassFeature": true
 					}
 				],
 				[
 					{
-						"name": "Font of Magic",
+						"name": "Büyü Kaynağı",
 						"entries": [
-							"At 2nd level, you tap into a deep wellspring of magic within yourself. This wellspring is represented by sorcery points, which allow you to create a variety of magical effects",
+							"2. seviyede içindeki derin bir büyü kaynağına ulaşırsın. Bu kaynak sorcery puanları ile temsil edilir ve çeşitli büyülü etkiler yaratmanı sağlar.",
 							{
 								"type": "entries",
-								"name": "Sorcery Points",
+								"name": "Sorcery Puanları",
 								"entries": [
-									"You have 2 sorcery points, and you gain one additional point every time you level up, to a maximum of 20 at level 20. You can never have more sorcery points than shown on the table for your level. You regain all spent sorcery points when you finish a long rest."
+									"2 sorcery puanın vardır ve her seviye atladığında, 20. seviyede en fazla 20 olacak şekilde bir puan eklenir. Tabloda seviyen için gösterilenden fazla sorcery puanına asla sahip olamazsın. Harcanan tüm sorcery puanlarını uzun dinlenme bitirdiğinde yenilersin."
 								]
 							},
 							{
 								"type": "entries",
-								"name": "Flexible Casting",
+								"name": "Esnek Büyü Yapma",
 								"entries": [
-									"You can use your sorcery points to gain additional spell slots, or sacrifice spell slots to gain additional sorcery points. You learn other ways to use your sorcery points as you reach higher levels.",
+									"Sorcery puanlarını fazladan büyü yuvaları elde etmek için kullanabilir, yada büyü yuvalarını fazladan sorcery puanları için feda edebilirsin. Üst seviyelere ulaştıkça sorcery puanlarını farklı şekillerde kullanmayı öğrenirsin.",
 									{
 										"type": "entries",
-										"name": "Creating Spell Slots",
+										"name": "Büyü Yuvası Yaratma",
 										"entries": [
-											"You can transform unexpended sorcery points into one spell slot as a bonus action on your turn. The created spell slots vanish at the end of a long rest. The Creating Spell Slots table shows the cost of creating a spell slot of a given level. You can create spell slots no higher in level than 5th.",
+											"Harcanmamış sorcery puanlarını, sıranda bonus eylem olarak bir büyü yuvasına çevirebilirsin. Yarattığın büyü yuvası uzun dinlenme sonunda kaybolur. Büyü Yuvası Yaratma tablosu seviyesine göre yuvaların masrafını gösterir. 5. seviye üzeri büyü yuvası yaratamazsın.",
 											{
 												"type": "table",
-												"caption": "Creating Spell Slots",
+												"caption": "Büyü Yuvası Yaratma",
 												"colLabels": [
-													"Spell Slot Level",
-													"Sorcery Point Cost"
+													"Büyü Yuvası Seviyesi",
+													"Sorcery Puanı Masrafı"
 												],
 												"colStyles": [
 													"col-xs-6 text-align-center",
@@ -24982,23 +24982,23 @@
 												],
 												"rows": [
 													[
-														"1st",
+														"1.",
 														"2"
 													],
 													[
-														"2nd",
+														"2.",
 														"3"
 													],
 													[
-														"3rd",
+														"3.",
 														"5"
 													],
 													[
-														"4th",
+														"4.",
 														"6"
 													],
 													[
-														"5th",
+														"5.",
 														"7"
 													]
 												]
@@ -25007,9 +25007,9 @@
 									},
 									{
 										"type": "entries",
-										"name": "Converting a Spell Slot to Sorcery Points",
+										"name": "Bir Büyü Yuvasını Sorcery Puanlarına Çevirme",
 										"entries": [
-											"As a bonus action on your turn, you can expend one spell slot and gain a number of sorcery points equal to the slot's level."
+											"Sıranda bonus eylem olarak, bir büyü yuvasını harcayıp yuvanın seviyesi kadar sorcery puanına çevirebilirsin."
 										]
 									}
 								]
@@ -25019,69 +25019,69 @@
 				],
 				[
 					{
-						"name": "Metamagic",
+						"name": "Metabüyü",
 						"entries": [
-							"At 3rd level, you gain the ability to twist your spells to suit your needs. You gain two of the following Metamagic options of your choice. You gain another one at 10th and 17th level.",
-							"You can use only one Metamagic option on a spell when you cast it, unless otherwise noted.",
+							"3. seviyede ihtiyaçlarına göre büyülerini bükmeyi öğrenirsin. Metabüyü seçeneklerinden ikisini seçersin. 10 ve 17. seviyelerde birer tane daha seçebilirsin.",
+							"Aksi belirtilmediği sürece bir büyü üzerinde tek bir Metabüyü seçeneğini kullanabilirsin.",
 							{
 								"type": "options",
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Careful Spell",
+										"name": "Dikkatli Büyü",
 										"entries": [
-											"When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, you spend 1 sorcery point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell."
+											"Başka varlıklara kurtulma zarı attıran bir büyü kullandığında, bazı varlıkları büyünün tüm etkisinden koruyabilirsin. Bunu yapabilmek 1 sorcery puanı harcayıp için Karizma bonusuna (en az 1) kadar varlığı seçersin. Seçilen varlık otomatik olarak büyüye karşı atacağı kurtulma zarında başarılı olur."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Distant Spell",
+										"name": "Uzak Büyü",
 										"entries": [
-											"When you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range of the spell.",
-											"When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet."
+											"5 feet yada üzeri menzili olan bir büyü kullandığında, 1 sorcery puanı harcayarak büyünün menzilini ikiye katlayabilirsin.",
+											"Dokunma menzili olan bir büyü kullandığında, 1 sorcery puanı harcayarak büyünün menzilini 30 feet yapabilirsin."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Empowered Spell",
+										"name": "Güçlenmiş Büyü",
 										"entries": [
-											"When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use the new rolls.",
-											"You can use Empowered Spell even if you have already used a different Metamagic option during the casting of the spell."
+											"Bir büyü için hasar zarı attığında, 1 sorcery puanı harcayarak Karizma bonusuna (en az 1) kadar zarı yeniden atabilirsin. Yeni zarları kullanırsın.",
+											"Güçlenmiş Büyü seçeneğini başka bir Metabüyü kullanmış olsan bile kullanabilirsin."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Extended Spell",
+										"name": "Uzatılmış Büyü",
 										"entries": [
-											"When you cast a spell that has a duration of 1 minute or longer, you can spend 1 sorcery point to double its duration, to a maximum duration of 24 hours."
+											"1 dakika yada üzeri süresi olan bir büyü kullandığında, 1 sorcery puanı harcayarak en fazla 24 saat olacak şekilde süresini ikiye katlayabilirsin."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Heightened Spell",
+										"name": "Yükseltilmiş Büyü",
 										"entries": [
-											"When you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw made against the spell."
+											"Bir varlığı etksiine direnmek için kurtulma zarı atmaya zorlayan bir büyü kullandığında, 3 sorcery puanı harcayarak büyünün hedefi olan bir varlığa ilk atacağı kurtulma zarında dezavantaj verebilirsin."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Quickened Spell",
+										"name": "Hızlanmış Büyü",
 										"entries": [
-											"When you cast a spell that has a casting time of 1 action, you can spend 2 sorcery points to change the casting time to 1 bonus action for this casting."
+											"Kullanma süresi 1 eylem olan bir büyü kullandığında, 2 sorcery puanı harcayarak sadece bu kullanımlık olmak üzere kullanma süresini 1 bonus eyleme çevirebilirsin."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Subtle Spell",
+										"name": "Sinsi Büyü",
 										"entries": [
-											"When you cast a spell, you can spend 1 sorcery point to cast it without any somatic or verbal components."
+											"Bir büyü kullandığında, 1 sorcery puanı harcayarak büyüyü sözlü yada bedensel bileşenler olmadan kullanabilirsin."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Twinned Spell",
+										"name": "İkiz Büyü",
 										"entries": [
-											"When you cast a spell that doesn't have a range of self and is incapable of targeting more than one creature at the spell's current level, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip)."
+											"Menzili kendin olmayan ve kullanılan seviyede birden fazla varlığı hedef alamayan bir büyü kullandığında, büyünün seviyesi kadar sorcery puanı harcayarak aynı menzilde ikinci bir varlığı da etkileyebilirsin (cantripse 1 sorcery puanı)."
 										]
 									}
 								]
@@ -25101,9 +25101,9 @@
 				[],
 				[
 					{
-						"name": "Sorcerous Origin feature",
+						"name": "Sorcerer Aslı Özelliği",
 						"entries": [
-							"At 6th level, you gain a feature granted by your Sorcerous Origin."
+							"6. seviyede Sorcerer Aslı seçiminin sunduğu bir özellik kazanırsın."
 						],
 						"gainSubclassFeature": true
 					}
@@ -25113,63 +25113,63 @@
 					{
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
-							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
+							"8. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
 							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
 						]
 					}
 				],
 				[],
+				[
+					{
+						"name": "Metabüyü",
+						"entries": [
+							"10. seviyede ek bir Metabüyü seçeneği öğrenirsin."
+						]
+					}
+				],
+				[],
+				[
+					{
+						"name": "Yetenek Skoru Gelişimi",
+						"entries": [
+							"12. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+						]
+					}
+				],
+				[],
+				[
+					{
+						"name": "Sorcerer Aslı Özelliği",
+						"entries": [
+							"14. seviyede Sorcerer Aslı seçiminin sunduğu bir özellik kazanırsın."
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[],
+				[
+					{
+						"name": "Yetenek Skoru Gelişimi",
+						"entries": [
+							"16. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+						]
+					}
+				],
 				[
 					{
 						"name": "Metamagic",
 						"entries": [
-							"At 10th level, you learn an additional metamagic option."
-						]
-					}
-				],
-				[],
-				[
-					{
-						"name": "Yetenek Skoru Gelişimi",
-						"entries": [
-							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
-						]
-					}
-				],
-				[],
-				[
-					{
-						"name": "Sorcerous Origin feature",
-						"entries": [
-							"At 14th level, you gain a feature granted by your Sorcerous Origin."
-						],
-						"gainSubclassFeature": true
-					}
-				],
-				[],
-				[
-					{
-						"name": "Yetenek Skoru Gelişimi",
-						"entries": [
-							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"17. seviyede ek bir Metabüyü seçeneği öğrenirsin."
 						]
 					}
 				],
 				[
 					{
-						"name": "Metamagic",
+						"name": "Sorcerer Aslı Özelliği",
 						"entries": [
-							"At 17th level, you learn an additional metamagic option."
-						]
-					}
-				],
-				[
-					{
-						"name": "Sorcerous Origin feature",
-						"entries": [
-							"At 18th level, you gain a feature granted by your Sorcerous Origin."
+							"18. seviyede Sorcerer Aslı seçiminin sunduğu bir özellik kazanırsın."
 						],
 						"gainSubclassFeature": true
 					}
@@ -25178,41 +25178,41 @@
 					{
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
-							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
+							"19. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
 							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
 						]
 					}
 				],
 				[
 					{
-						"name": "Sorcerous Restoration",
+						"name": "Sorcerer Yenilemesi",
 						"entries": [
-							"At 20th level, you regain 4 expended sorcery points whenever you finish a short rest."
+							"20. seviyede kısa dinlenme bitirdiğinde 4 harcanmış sorcery puanını yenilersin."
 						]
 					}
 				]
 			],
-			"subclassTitle": "Sorcerous Origin",
+			"subclassTitle": "Sorcerer Aslı",
 			"subclasses": [
 				{
-					"name": "Draconic Bloodline",
+					"name": "Draconic Soy",
 					"subclassFeatures": [
 						[
 							{
-								"name": "Draconic Bloodline",
+								"name": "Draconic Soy",
 								"entries": [
-									"Your innate magic comes from draconic magic that was mingled with your blood or that of your ancestors. Most often, sorcerers with this origin trace their descent back to a mighty sorcerer of ancient times who made a bargain with a dragon or who might even have claimed a dragon parent. Some of these bloodlines are well established in the world, but most are obscure. Any given sorcerer could be the first of a new bloodline, as a result of a pact or some other exceptional circumstance.",
+									"İçindeki büyü gücün senin yada atalarından birinin kanına işlenmiş draconic büyüden gelir. Genellikle bu tip asıllı sorcerer'ların soyunda kadim zamanlarda bir ejderha ile anlaşma yapmış güçlü bir sorcerer yada doğrudan ejderhadan doğan bir kişi olur. Bu soyların bazıları dünyada iyi bilinir ama çoğu gizli yada kaybolmuştur. Yapılan bir anlaşma yada istisnai bir durum sonucu her sorcerer bir soyun ilki olabilir.",
 									{
 										"type": "entries",
-										"name": "Dragon Ancestor",
+										"name": "Ejderha Ata",
 										"entries": [
-											"At 1st level, you choose one type of dragon as your ancestor. The damage type associated with each dragon is used by features you gain later.",
+											"1. seviyede bir ejderha tipini atan olarak seçersin. Ejderha ile ilişkili hasar tipi daha sonra kazanacağın özellikler tarafından kullanılır.",
 											{
 												"type": "table",
-												"caption": "Draconic Ancestry",
+												"caption": "Draconic Soy",
 												"colLabels": [
-													"Dragon",
-													"Damage Type"
+													"Ejderha",
+													"Hasar Tipi"
 												],
 												"colStyles": [
 													"col-xs-6 text-align-center",
@@ -25220,56 +25220,56 @@
 												],
 												"rows": [
 													[
-														"Black",
-														"{@filter Acid|spells|damage type=acid}"
+														"Siyah",
+														"{@filter Asit|spells|damage type=acid}"
 													],
 													[
-														"Blue",
-														"{@filter Lightning|spells|damage type=lightning}"
+														"Mavi",
+														"{@filter Yıldırım|spells|damage type=lightning}"
 													],
 													[
-														"Brass",
-														"{@filter Fire|spells|damage type=fire}"
+														"Pirinç",
+														"{@filter Ateş|spells|damage type=fire}"
 													],
 													[
-														"Bronze",
-														"{@filter Lightning|spells|damage type=lightning}"
+														"Bronz",
+														"{@filter Yıldırım|spells|damage type=lightning}"
 													],
 													[
-														"Copper",
-														"{@filter Acid|spells|damage type=acid}"
+														"Bakır",
+														"{@filter Asit|spells|damage type=acid}"
 													],
 													[
-														"Gold",
-														"{@filter Fire|spells|damage type=fire}"
+														"Altın",
+														"{@filter Ateş|spells|damage type=fire}"
 													],
 													[
-														"Green",
-														"{@filter Poison|spells|damage type=poison}"
+														"Yeşil",
+														"{@filter Zehir|spells|damage type=poison}"
 													],
 													[
-														"Red",
-														"{@filter Fire|spells|damage type=fire}"
+														"Kırmızı",
+														"{@filter Ateş|spells|damage type=fire}"
 													],
 													[
-														"Silver",
-														"{@filter Cold|spells|damage type=cold}"
+														"Gümüş",
+														"{@filter Soğuk|spells|damage type=cold}"
 													],
 													[
-														"White",
-														"{@filter Cold|spells|damage type=cold}"
+														"Beyaz",
+														"{@filter Soğuk|spells|damage type=cold}"
 													]
 												]
 											},
-											"You can speak, read, and write Draconic. Additionally, whenever you make a Charisma check when interacting with dragons, your Proficiency bonus is doubled if it applies to the check."
+											"Draconic dilini konuşabilir, okuyabilir ve yazabilirsin. Ek olarak, ejderhalar ile iletişime geçerken attığın Karizma zarlarında eğer Uzmanlık bonusun uygulanıyorsa bu ikiye katlanır."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Draconic Resilience",
+										"name": "Draconic Direnç",
 										"entries": [
-											"As magic flows through your body, it causes physical traits of your dragon ancestors to emerge. At 1st level, your hit point maximum increases by 1 and increases by 1 again whenever you gain a level in this class.",
-											"Additionally, parts of your skin are covered by a thin sheen of dragon-like scales. When you aren't wearing armor, your AC equals 13 + your Dexterity modifier."
+											"Bedeninden büyü akarken ejderha atalarının fiziksel özelliklerinin ortaya çıkmasını sağlar. 1. seviyede HP maksimumun 1 artar ve bu sınıfta her seviye alışında 1 eklenir.",
+											"Ek olarak bedeninin bazı kısımları ejderimsi pullarla kaplıdır. Zırh giymediğin zamanlarda AC 13 + Çeviklik bonusun olur."
 										]
 									}
 								]
@@ -25280,10 +25280,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Elemental Affinity",
+										"name": "Elemental Yakınlık",
 										"entries": [
-											"Starting at 6th level, when you cast a spell that deals damage of the type associated with your draconic ancestry, add your Charisma modifier to one damage roll.",
-											"In addition, you can spend 1 sorcery point to gain resistance to that damage type for 1 hour."
+											"6. seviyeden itibaren, draconic soyunla ilişkili hasar tipinde hasar veren bir büyü kullandığında, Karizma bonusunu bir hasar zarına eklersin.",
+											"Ek olarak, 1 sorcery puanı harcayarak bu hasar tipine bir saatliğine direnç kazanabilirsin."
 										]
 									}
 								]
@@ -25294,10 +25294,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Dragon Wings",
+										"name": "Ejderha Kanatları",
 										"entries": [
-											"At 14th level, you gain the ability to sprout a pair of dragon wings from your back, gaining a flying speed equal to your current speed. You can create these wings as a bonus action on your turn. They last until you dismiss them as a bonus action on your turn.",
-											"You can't manifest your wings while wearing armor unless the armor is made to accommodate them, and clothing not made to accommodate your wings might be destroyed when you manifest them."
+											"14. seviyede, sırtından bir çift ejderha kanadı çıkarma yeteneğini kazanırsın ve normal hızın kadar uçma hızın olur. Bu kanatları sıranda bonus eylem olarak çıkarabilirsin. Sen onları sıranda bonus eylem olarak savana kadar kalırlar.",
+											"Eğer zırhın bu kanatlar için özel yapılmadıysa zırh giydiğin sürece kanatlarını çıkaramazsın. Ve kanatların için özel yapılmamış kıyafetler kanatlarını çıkardığında parçalanabilirler."
 										]
 									}
 								]
@@ -25308,9 +25308,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Draconic Presence",
+										"name": "Draconic Varoluş",
 										"entries": [
-											"Beginning at 18th level, you can channel the dread presence of your dragon ancestor, causing those around you to become awestruck or {@condition frightened}. As an action, you can spend 5 sorcery points to draw on this power and exude an aura of awe or fear (your choice) to a distance of 60 feet. For 1 minute or until you lose your concentration (as if you were casting a concentration spell), each hostile creature that starts its turn in this aura must succeed on a Wisdom saving throw or be {@condition charmed} (if you chose awe) or {@condition frightened} (if you chose fear) until the aura ends. A creature that succeeds on this saving throw is immune to your aura for 24 hours."
+											"18. seviyeden itibaren, ejderha atanın korkunç varlığını yönlendirerek ve çevrendekileri korkutabilir yada hayran bırakabilirsin. Eylem olarak 5 sorcery puanı harcayıp 60 feet çevrene hayranlık yada korku (senin seçimin) aurası yayabilirsin. Bu alan içindeki tüm düşman varlıklar Akıl kurtulma zarı atar ve eğer başarısız olurlarsa 1 dakika boyunca yada konsantrasyonunu kaybedene kadar (bir büyüye konsantre olur gibi) seçimine göre, ya cezbedilirler yada korkarlar. Kurtulma zarında başarılı olan bir varlık aurana 24 saat boyunca bağışıklık kazanır."
 										]
 									}
 								]

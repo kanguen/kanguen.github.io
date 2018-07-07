@@ -597,31 +597,31 @@ Parser.spSchoolAbvToShort = function (school) {
 
 Parser.spLevelToFull = function (level) {
 	if (level === 0) return STR_CANTRIP;
-	if (level === 1) return level + "st";
-	if (level === 2) return level + "nd";
-	if (level === 3) return level + "rd";
-	return level + "th";
+	if (level === 1) return level + ".";
+	if (level === 2) return level + ".";
+	if (level === 3) return level + ".";
+	return level + ".";
 };
 
 Parser.spMetaToFull = function (meta) {
 	// these tags are (so far) mutually independent, so we don't need to combine the text
-	if (meta && meta.ritual) return " (ritual)";
+	if (meta && meta.ritual) return " (ritüel)";
 	if (meta && meta.technomagic) return " (technomagic)";
 	return "";
 };
 
 Parser.spLevelSchoolMetaToFull = function (level, school, meta) {
-	const levelPart = level === 0 ? Parser.spLevelToFull(level).toLowerCase() : Parser.spLevelToFull(level) + "-level";
+	const levelPart = level === 0 ? Parser.spLevelToFull(level).toLowerCase() : Parser.spLevelToFull(level) + "seviye";
 	let levelSchoolStr = level === 0 ? `${Parser.spSchoolAbvToFull(school)} ${levelPart}` : `${levelPart} ${Parser.spSchoolAbvToFull(school).toLowerCase()}`;
 	return levelSchoolStr + Parser.spMetaToFull(meta);
 };
 
 Parser.spTimeListToFull = function (times) {
-	return times.map(t => `${Parser.getTimeToFull(t)}${t.condition ? `, ${EntryRenderer.getDefaultRenderer().renderEntry(t.condition)}` : ""}`).join(" or ");
+	return times.map(t => `${Parser.getTimeToFull(t)}${t.condition ? `, ${EntryRenderer.getDefaultRenderer().renderEntry(t.condition)}` : ""}`).join(" yada ");
 };
 
 Parser.getTimeToFull = function (time) {
-	return `${time.number} ${time.unit === "bonus" ? "bonus action" : time.unit}${time.number > 1 ? "s" : ""}`
+	return `${time.number} ${time.unit === "bonus" ? "bonus eylem" : time.unit}${time.number > 1 ? "s" : ""}`
 };
 
 Parser.spRangeToFull = function (range) {
@@ -646,15 +646,15 @@ Parser.spRangeToFull = function (range) {
 			case UNT_MILES:
 				return `${dist.amount} ${dist.amount === 1 ? Parser.getSingletonUnit(dist.type) : dist.type}`;
 			case RNG_SELF:
-				return "Self";
+				return "Kendin";
 			case RNG_SIGHT:
-				return "Sight";
+				return "Görüş";
 			case RNG_UNLIMITED:
-				return "Unlimited";
+				return "Sınırsız";
 			case RNG_UNLIMITED_SAME_PLANE:
-				return "Unlimited on the same plane";
+				return "Aynı boyutta sınırsız";
 			case RNG_TOUCH:
-				return "Touch";
+				return "Dokunma";
 		}
 	}
 
@@ -665,9 +665,9 @@ Parser.spRangeToFull = function (range) {
 		function getAreaStyleStr () {
 			switch (range.type) {
 				case RNG_SPHERE:
-					return "-radius";
+					return "-çapında";
 				case RNG_HEMISPHERE:
-					return `-radius ${range.type}`;
+					return `-çapında ${range.type}`;
 				default:
 					return ` ${range.type}`
 			}
