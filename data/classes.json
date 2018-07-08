@@ -12785,7 +12785,7 @@
 					{
 						"name": "Sıyrılma",
 						"entries": [
-							"7. seviyede içgüdüsel çevikliğin bazı alan etkilerinden kurtulmanı sağlar. Buna örnek olarak bir mavi ejderhanın yıldırım nefesi yada (@spell fireball) büyüsü verilebilir. Sana yarı hasar almak için Çeviklik kurtulma zarı atmanı gerektirecek bir etkiye maruz kaldığında; eğer başarılı olursan hiç hasar almazsın ve başarısız olduğunda sadece yarı hasarı alırsın. "
+							"7. seviyede içgüdüsel çevikliğin bazı alan etkilerinden kurtulmanı sağlar. Buna örnek olarak bir mavi ejderhanın yıldırım nefesi yada (@spell fireball) büyüsü verilebilir. Sana yarı hasar almak için Çeviklik kurtulma zarı atmanı gerektirecek bir etkiye maruz kaldığında; eğer başarılı olursan hiç hasar almazsın ve başarısız olduğunda sadece yarı hasarı alırsın."
 						]
 					},
 					{
@@ -14291,13 +14291,13 @@
 			],
 			"classTableGroups": [
 				{
-					"title": "Spell Slots per Spell Level",
+					"title": "Büyü Seviyesi Başına Büyü Yuvaları",
 					"colLabels": [
-						"{@filter 1st|spells|level=1|class=Paladin}",
-						"{@filter 2nd|spells|level=2|class=Paladin}",
-						"{@filter 3rd|spells|level=3|class=Paladin}",
-						"{@filter 4th|spells|level=4|class=Paladin}",
-						"{@filter 5th|spells|level=5|class=Paladin}"
+						"{@filter 1.|spells|level=1|class=Paladin}",
+						"{@filter 2.|spells|level=2|class=Paladin}",
+						"{@filter 3.|spells|level=3|class=Paladin}",
+						"{@filter 4.|spells|level=4|class=Paladin}",
+						"{@filter 5.|spells|level=5|class=Paladin}"
 					],
 					"rows": [
 						[
@@ -14445,155 +14445,131 @@
 			],
 			"startingProficiencies": {
 				"armor": [
-					"light",
-					"medium",
-					"heavy",
-					"shields"
+					"hafif",
+					"orta",
+					"ağır",
+					"kalkanlar"
 				],
 				"weapons": [
-					"simple",
-					"martial"
+					"basit",
+					"askeri"
 				],
 				"skills": {
 					"choose": 2,
 					"from": [
-						"Athletics",
-						"Insight",
-						"Intimidation",
-						"Medicine",
-						"Persuasion",
-						"Religion"
+						"Atletizm",
+						"Sezgi",
+						"Korkutma",
+						"Tıp",
+						"İkna Etme",
+						"Din"
 					]
 				}
 			},
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) a martial weapon and a shield or (b) two martial weapons",
-					"(a) five javelins or (b) any simple melee weapon",
-					"(a) a priest's pack or (b) an explorer's pack",
-					"Chain mail and a holy symbol"
+					"(a) bir askeri silah ve bir kalkan yada (b) iki askeri silah",
+					"(a) beş cirit yada (b) herhangi bir basit yakın dövüş silahı",
+					"(a) bir rahibin paketi yada (b) bir kaşifin paketi",
+					"Örme zorh ve bir kutsal sembol"
 				],
 				"goldAlternative": "5d4 × 10"
 			},
 			"classFeatures": [
 				[
 					{
-						"name": "Divine Sense",
+						"name": "Kutsal Duyu",
 						"entries": [
-							"The presence of strong evil registers on your senses like a noxious odor, and powerful good rings like heavenly music in your ears. As an action, you can open your awareness to detect such forces. Until the end of your next turn, you know the location of any celestial, fiend, or undead within 60 feet of you that is not behind total cover. You know the type (celestial, fiend, or undead) of any being whose presence you sense, but not its identity (the vampire Count Strahd von Zarovich, for instance). Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the {@spell hallow} spell.",
-							"You can use this feature a number of times equal to 1 + your Charisma modifier. When you finish a long rest, you regain all expended uses."
+							"Güçlü kötülüğün varlığı duyularına zehirli bir koku gibi gelir, güçlü bir iyilikse kulaklarında cennet müziği gibi çınlar. Eylem olarak farkındalığını açarak bu tip güçleri tespit edebilirsin. Bir sonraki sıranın sonuna kadar 60 feet yakınında ve tam siper arkasında olmayan tüm kutsal, zebani ve yaşayan ölülerin yerini bilirsin. Tespit ettiğin varlığın tipini (kutsal, zebani yada yaşayan ölü) bilirsin ama kimliğini (örneğin, vampir Kont Strahd von Zarovich) öğrenemezsin. Aynı çap içinde {@spell hallow} büyüsü ile etkilenmiş yerler gibi, kutsanmış yada kötülük ile kirletilmiş nesneler yada yerleri de tespit edersin.",
+							"Bu özelliği 1 + Karizma bonusun kadar kullanabilirsin. Uzun dinlenme bitirdiğinde tüm harcanmış kullanımlar yenilenir."
 						]
 					},
 					{
-						"name": "Lay on Hands",
+						"name": "Kutsal Dokunuş",
 						"entries": [
-							"Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you take a long rest. With that pool, you can restore a total number of hit points equal to your paladin level × 5.",
-							"As an action, you can touch a creature and draw power from the pool to restore a number of hit points to that creature, up to the maximum amount remaining in your pool.",
-							"Alternatively, you can expend 5 hit points from your pool of healing to cure the target of one disease or neutralize one poison affecting it. You can cure multiple diseases and neutralize multiple poisons with a single use of Lay on Hands, expending hit points separately for each one.",
-							"This feature has no effect on undead and constructs."
+							"Kutsanmış dokunuşun yaraları iyileştirebilir. Uzun dinlenme bitirdiğinde yenilenen bir şifa gücü havuzun var. Bu havuz ile paladin seviyen x 5 kadar HP yenileyebilirsin.",
+							"Eylem olarak bir varlığa dokunup bu havuzdan enerji çekerek, o varlığa havuzda kalan enerji maksimumuna kadar HP yenileyebilirsin.",
+							"Alternatif olarak, havuzdan 5 HP harcayıp hedefi etkileyen bir zehir yada hastalığı iyileştirebilirsin. Tek Kutsal Dokunuş kullanımı ile her biri için havuzundan ayrı HP harcayarak birden çok hastalığı yada zehri iyileştirebilirsin.",
+							"Bu özellik yaşayan ölüleri yada yapıları etkilemez."
 						]
 					}
 				],
 				[
 					{
-						"name": "Divine Smite",
+						"name": "Kutsal Çarpma",
 						"entries": [
-							"Starting at 2nd level, when you hit a creature with a melee weapon attack, you can expend one spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is 2d8 for a 1st-level spell slot, plus 1d8 for each spell level higher than 1st, to a maximum of 5d8. The damage increases by 1d8 if the target is an undead or a fiend."
+							"2. seviyeden itibaren bir varlığa yakın dövüş saldırısı ile vurduğunda, bir büyü yuvası harcayıp silahın hasarı yanında hedefe radyant hasar da verebilirsin. Bu fazladan hasar 1. seviye büyü yuvası için 2d8'dir. Birinciden yüksek tüm büyü yuvaları için seviye başı hasar 1d8 artarak en fazla 5d8'e yükselebilir. Eğer hedef bir yaşayan ölü yada zebani ise hasar 1d8 artar."
 						]
 					},
 					{
-						"name": "Fighting Style",
+						"name": "Dövüş Stili",
 						"entries": [
-							"You adopt a particular style of fighting as your specialty. Choose a fighting style from the list of optional features. You can't take the same Fighting Style option more than once, even if you get to choose again.",
+							"Uzmanlığın olarak belirli bir dövüş stilini benimsersin. Mevcut listeden bir dövüş stili seç. Yeniden seçme fırsatın olsa bile aynı dövüş stilini bir daha seçemezsin.",
 							{
 								"type": "options",
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Close Quarters Shooter",
+										"name": "Savunma",
 										"entries": [
-											"When making a ranged attack while you are within 5 feet of a hostile creature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half cover and three-quarters cover against targets within 30 feet of you. You have a +1 bonus to attack rolls on ranged attacks."
-										],
-										"source": "UALightDarkUnderdark"
-									},
-									{
-										"type": "entries",
-										"name": "Defense",
-										"entries": [
-											"While you are wearing armor, you gain a +1 bonus to AC."
+											"Zırh giyerken AC'ye +1 bonus alırsın."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Dueling",
+										"name": "Düello",
 										"entries": [
-											"When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon."
+											"Sadece bir elinde silah kullanırken o silahla yaptığın saldırıların hasar zarlarına +2 bonus eklersin."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Great Weapon Fighting",
+										"name": "Büyük Silahla Savaşma",
 										"entries": [
-											"When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll. The weapon must have the two-handed or versatile property for you to gain this benefit."
+											"İki elinle tuttuğun bir silahla attığın hasar zarında 1 yada 2 gelirse, o zarı yeniden atıp bu sonucu kullanabilirsin. Bu faydayı sağlayabilmek için silahta iki elli yada değişken özellikleri bulunmalıdır."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Mariner",
+										"name": "Koruma",
 										"entries": [
-											"As long as you are not wearing heavy armor or using a shield, you have a swimming speed and a climbing speed equal to your normal speed, and you gain a +1 bonus to AC."
-										],
-										"source": "UAWaterborneAdventures"
-									},
-									{
-										"type": "entries",
-										"name": "Protection",
-										"entries": [
-											"When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield."
+											"Bir varlık 5 feet yakınında senin dışında bir hedefe saldırınca reaksiyonunu kullanıp bu saldırıya dezavantaj verebilirsin. Bir kalkan kullanman gereklidir."
 										]
-									},
-									{
-										"type": "entries",
-										"name": "Tunnel Fighter",
-										"entries": [
-											"As a bonus action, you can enter a defensive stance that lasts until the start of your next turn. While in your defensive stance, you can make opportunity attacks without using your reaction, and you can use your reaction to make a melee attack against a creature that moves more than 5 feet while within your reach."
-										],
-										"source": "UALightDarkUnderdark"
 									}
 								]
 							}
 						]
 					},
 					{
-						"name": "Spellcasting",
+						"name": "Büyü Yapma",
 						"entries": [
-							"By 2nd level, you have learned to draw on divine magic through meditation and prayer to cast spells as a cleric does. See chapter 10 for the general rules of spellcasting and chapter 11 for the paladin spell list.",
+							"2. seviyede bir rahip gibi meditasyon ve dualarla kutsal büyü kullanmayı öğrenirsin.",
 							{
 								"type": "entries",
-								"name": "Preparing and Casting Spells",
+								"name": "Büyüleri Hazırlama ve Kullanma",
 								"entries": [
-									"The Paladin table shows how many spell slots you have to cast your spells. To cast one of your paladin spells of 1st level or higher, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
-									"You prepare the list of paladin spells that are available for you to cast, choosing from the paladin spell list. When you do so, choose a number of paladin spells equal to your Charisma modifier + half your paladin level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots.",
-									"For example, if you are a 5th-level paladin, you have four 1st-level and two 2nd-level spell slots. With a Charisma of 14, your list of prepared spells can include four spells of 1st or 2nd-level, in any combination. If you prepare the 1st-level spell {@spell cure wounds}, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.",
-									"You can change your list of prepared spells when you finish a long rest. Preparing a new list of paladin spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list."
+									"Paladin tablosu büyülerini kullanmak için ne kadar büyü yuvan olduğunu gösterir. 1. seviye ve üzeri paladin büyülerinden birini kullanabilmek için büyünün seviyesi yada üzeri bir büyü yuvası harcaman gerekir. Tüm harcanmış yuvaları uzun dinlenme bitirdiğinde yenilersin.",
+									"Paladin büyü listesinden mevcut olan büyülerini seçip hazırlarsın. Bunu yaptığında Karizma bonusun + paladin seviyenin yarısı (aşağı yuvarlanır) kadar büyü seçersin. Büyüler sahip olduğun büyü yuvalarına uygun olmalıdır.",
+									"Örneğin, eğer sen 5. seviye bir paladin isen 4 tane 1. seviye 2 tane 2. seviye büyü yuvan olur. 14 Karizma ile hazırlanmış büyüler listen 4 tane 1 ve 2. seviye büyü içerir, istediğin şekilde seçebilirsin. Eğer 1. seviye büyüsü {@spell cure wounds} hazırladıysan, bunu 1 yada 2. seviye büyü yuvası harcayarak kullanabilirsin. Büyüyü kullanmak bunu hazırlanmış büyüler listenden çıkarmaz.",
+									"Hazırlanmış büyüler listeni uzun dinlenme bitirdiğinde değiştirebilirsin. Yeni bir paladin büyüleri listesi hazırlama meditasyon ve dua ile zaman geçirmeni gerektirir: her büyü için büyü seviyesi başı en az 1 dakika."
 								]
 							},
 							{
 								"type": "entries",
-								"name": "Spellcasting Ability",
+								"name": "Büyü Yapma Yeteneği",
 								"entries": [
-									"Charisma is your spellcasting ability for your paladin spells, since their power derives from the strength of your convictions. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a paladin spell you cast and when making an attack roll with one.",
+									"Paladin büyülerin için büyü yapma yeteneğin Karizmadır. Çünkü büyü gücün inancının gücünden gelir. Ne zaman bir büyü, büyü yapma yeteneğinden bahsederse Karizma kullanırsın. Ek olarak, paladin büyülerinin kurtulma zarı DC'sini belirlerken ve bir büyü ile saldırı yaparken de Karizma bonusun kullanılır.",
 									{
 										"type": "abilityDc",
-										"name": "Spell",
+										"name": "Büyü",
 										"attributes": [
 											"cha"
 										]
 									},
 									{
 										"type": "abilityAttackMod",
-										"name": "Spell",
+										"name": "Büyü",
 										"attributes": [
 											"cha"
 										]
@@ -14602,9 +14578,9 @@
 							},
 							{
 								"type": "entries",
-								"name": "Spellcasting Focus",
+								"name": "Büyü Yapma Odağı",
 								"entries": [
-									"You can use a holy symbol (found in chapter 5) as a spellcasting focus for your paladin spells."
+									"Paladin büyülerin için büyü yapma odağı olarak kutsal sembolünü kullanabilirsin."
 								]
 							}
 						]
@@ -14612,38 +14588,38 @@
 				],
 				[
 					{
-						"name": "Divine Health",
+						"name": "Kutsal Sağlık",
 						"entries": [
-							"By 3rd level, the divine magic flowing through you makes you immune to disease."
+							"3. seviden itibaren içindeki kutsal büyü sana hastalıklara karşı bağışıklık verir."
 						]
 					},
 					{
-						"name": "Sacred Oath",
+						"name": "Kutsal Yemin",
 						"entries": [
-							"When you reach 3rd level, you swear the oath that binds you as a paladin forever. Up to this time you have been in a preparatory stage, committed to the path but not yet sworn to it. Now you choose from the list of available oaths.",
-							"Your choice grants you features at 3rd level and again at 7th, 15th, and 20th level. Those features include oath spells and the Channel Divinity feature.",
+							"3. seviyeye ulaştığında seni paladin olarak ebediyen bağlayacak bir yemin edersin. Bu zamana kadar hazırlık aşamasındaydın, yola bağlı ama daha yeminli değil. Mevcut yeminler listesinden bir yemin seç.",
+							"Seçimin sana 3, 7, 15 ve 20. seviyelerde özellikler kazandıracak. Bu özelliklere yemin büyüleri ve Kutsal Yönlendirme özelliği de dahil.",
 							{
-								"name": "Oath Spells",
+								"name": "Yemin Büyüleri",
 								"entries": [
-									"Each oath has a list of associated spells. You gain access to these spells at the leves specified in the oath description. Once you gain access to an oath spell, you always have it prepared. Oath spells don't count against the number of spells you can prepare each day.",
-									"If you gain an oath spell that doesn't appear on the paladin spell list, the spell is nonetheless a paladin spell for you."
+									"Her yemin onunla ilişkili bir büyü listesine sahiptir. Yemin tanımında verilen seviyelerde bu büyülere erişirsin. Bir yemin büyüsüne erişim sağladığında o daima kullanım için hazırdır. Yemin büyüleri günlük hazırlayabileceğin büyüler sayısına dahil değildir.",
+									"Eğer paladin büyü listesinde yer almayan bir yemin büyüsüne erişirsen, bu senin için paladin büyüsü sayılır."
 								]
 							},
 							{
-								"name": "Channel Divinity",
+								"name": "Kutsal Yönlendirme",
 								"entries": [
-									"Your oath allows you to channel divine energy to fuel magical effects. Each Channel Divinity option provided by your oath explains how to use it.",
-									"When you use your Channel Divinity, you choose which option to use. You must then finish a short or long rest to use your Channel Divinity again.",
-									"Some Channel Divinity effects require saving throws. When you use such an effect from this class, the DC equals your paladin spell save DC."
+									"Yeminin büyülü etkiler yaratacak şekilde kutsal enerjiyi yönlendirmeni sağlar. Yeminin tarafından sunulan her Kutsal Yönlendirme seçeneğinin açıklaması verilmiştir.",
+									"Kutsal Yönlendirmeni kullandığında hangi seçeneği kullanacağını seçebilirsin. Kutsal Yönlendirmeni yeniden kullanabilmek için kısa yada uzun dinlenme bitirmen gerekir.",
+									"Bazı Kutsal Yönlendirme etkileri kurtulma zarı gerektirir. Paladin sınıfından bu tip bir etki kullandığında kurtulma zarları için paladin büyü DC'sini kullanırsın."
 								]
 							},
 							{
-								"name": "Breaking Your Oath",
+								"name": "Yeminini Bozma",
 								"type": "inset",
 								"entries": [
-									"A paladin tries to hold to the highest standards of conduct, but even the most virtuous paladin is fallible. Sometimes the right path proves too demanding, sometimes a situation calls for the lesser of two evils, and sometimes the heat of emotion causes a paladin to transgress his or her oath.",
-									"A paladin who has broken a vow typically seeks absolution from a cleric who shares his or her faith or from another paladin of the same order. The paladin might spend an all-night vigil in prayer as a sign of penitence, or undertake a fast or similar act of self-denial. After a rite of confession and forgiveness, the paladin starts fresh.",
-									"If a paladin willfully violates his or her oath and shows no sign of repentance, the consequences can be more serious. At the DM's discretion, an impenitent paladin might be forced to abandon this class and adopt another, or perhaps to take the Oathbreaker paladin option that appears in the Dungeon Master's Guide."
+									"Bir paladin davranışlarında en yüksek standarda ulaşmaya çalışır ama en erdemli paladin bile yanılabilir. Bazen doğru yol çok zorlu olur, bazen bir durum iki kötüden birini seçmeni gerektirir, ve bazen de anlık parlama bir paladinin yeminini bozmasına sebep olabilir.",
+									"Genellikle yeminini bozan bir paladin kendi inancını paylaşan bir rahip yada paladinden af diler. Paladin tüm gece uyumayıp dua edebilir yada oruç gibi kendi iradesini güçlendirecek yollara başvurabilir. Bir itiraf ve bağışlanma töreni sonrası paladin sıfırdan başlar.",
+									"Eğer bir paladin kendi iradesi ile yeminini bozup herhangi bir pişmanlık göstermezse sonuçlar çok daha ciddi olabilir. DM'in takdirine kalmış olarak, paladin sınıfını bırakıp yeni sınıf seçebilir yada Dungeon Master's Guide kitabından Yeminbozan paladin seçeneğine dönebilir."
 								]
 							}
 						],
@@ -14669,18 +14645,18 @@
 				],
 				[
 					{
-						"name": "Aura of Protection",
+						"name": "Koruma Aurası",
 						"entries": [
-							"Starting at 6th level, whenever you or a friendly creature within 10 feet of you must make a saving throw, the creature gains a bonus to the saving throw equal to your Charisma modifier (with a minimum bonus of +1). You must be conscious to grant this bonus.",
-							"At 18th level, the range of this aura increases to 30 feet."
+							"1. seviyeden itibaren sen yada 10 feet yakınındaki bir dost varlık kurtulma zarı attığında senin Karizma bonusunu (en az 1) ekleyebilir. Bu bonusu verebilmek için bilinçli olman gerekir.",
+							"18. seviyede auranın menzili 30 feet'e çıkar."
 						]
 					}
 				],
 				[
 					{
-						"name": "Sacred Oath feature",
+						"name": "Kutsal Yemin Özelliği",
 						"entries": [
-							"At 7th level, you gain a feature granted to you by your Sacred Oath."
+							"7. seviyede Kutsal Yemininin sunduğu bir özellik kazanırsın."
 						],
 						"gainSubclassFeature": true
 					}
@@ -14689,7 +14665,7 @@
 					{
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
-							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
+							"8. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
 							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
 						]
 					}
@@ -14697,18 +14673,18 @@
 				[],
 				[
 					{
-						"name": "Aura of Courage",
+						"name": "Cesaret Aurası",
 						"entries": [
-							"Starting at 10th level, you and friendly creatures within 10 feet of you can't be {@condition frightened} while you are conscious.",
-							"At 18th level, the range of this aura increases to 30 feet."
+							"10. seviyeden itibaren sen ve 10 feet yakınındaki dost varlıklar sen bilinçli olduğun sürece korkutulamazlar.",
+							"18. seviyeden itibaren bu auranın menzili 30 feet'e çıkar."
 						]
 					}
 				],
 				[
 					{
-						"name": "Improved Divine Smite",
+						"name": "Gelişmiş Kutsal Çarpma",
 						"entries": [
-							"By 11th level, you are so suffused with righteous might that all your melee weapon strikes carry divine power with them. Whenever you hit a creature with a melee weapon, the creature takes an extra 1d8 radiant damage. If you also use your Divine Smite with an attack, you add this damage to the extra damage of your Divine Smite."
+							"11. seviyede o kadar erdemli güç ile dolusundur ki tüm yakın dövüş saldırıların kutsal güç taşır. Ne zaman bir varlığa yakın dövüş saldırısı ile vurursan, varlık fazladan 1d8 radyant hasar alır. Eğer bu saldırı ile Kutsal Çarpma da kullanırsan bu fazladan hasarı Kutsal Çarpma hasarına eklersin."
 						]
 					}
 				],
@@ -14716,7 +14692,7 @@
 					{
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
-							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
+							"12. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
 							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
 						]
 					}
@@ -14724,18 +14700,18 @@
 				[],
 				[
 					{
-						"name": "Cleansing Touch",
+						"name": "Temizleyen Dokunuş",
 						"entries": [
-							"Beginning at 14th level, you can use your action to end one spell on yourself or on one willing creature that you touch.",
-							"You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain expended uses when you finish a long rest."
+							"14. seviyeden itibaren eylemini kullanarak seni yada dokunduğun istekli bir varlığı etkileyen bir büyüyü sona erdirebilirsin.",
+							"Bu özelliği Karizma bonusun kadar (en az 1) kullanabilirsin. Tüm harcanan kullanımları uzun dinlenme sonrası yenilersin."
 						]
 					}
 				],
 				[
 					{
-						"name": "Sacred Oath feature",
+						"name": "Kutsal Yemin Özelliği",
 						"entries": [
-							"At 15th level, you gain a feature granted to you by your Sacred Oath."
+							"15. seviyede Kutsal Yemininin sunduğu bir özellik kazanırsın."
 						],
 						"gainSubclassFeature": true
 					}
@@ -14744,7 +14720,7 @@
 					{
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
-							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
+							"16. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
 							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
 						]
 					}
@@ -14752,9 +14728,9 @@
 				[],
 				[
 					{
-						"name": "Aura improvements",
+						"name": "Aura Gelişimi",
 						"entries": [
-							"At 18th level, the range of your Aura of Protection increases to 30 feet."
+							"18. seviyede Koruma Aurası ve Cesaret Aurasının menzili 30 feet'e çıkar."
 						]
 					}
 				],
@@ -14762,44 +14738,44 @@
 					{
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
-							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
+							"19. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
 							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
 						]
 					}
 				],
 				[
 					{
-						"name": "Sacred Oath feature",
+						"name": "Kutsal Yemin Özelliği",
 						"entries": [
-							"At 20th level, you gain a feature granted to you by your Sacred Oath."
+							"20. seviyede Kutsal Yemininin sunduğu bir özellik kazanırsın."
 						],
 						"gainSubclassFeature": true
 					}
 				]
 			],
-			"subclassTitle": "Sacred Oath",
+			"subclassTitle": "Kutsal Yemin",
 			"subclasses": [
 				{
-					"name": "Oath of the Ancients",
+					"name": "Kadimlerin Yemini",
 					"subclassFeatures": [
 						[
 							{
-								"name": "Oath of the Ancients",
+								"name": "Kadimlerin Yemini",
 								"entries": [
-									"The Oath of the Ancients is as old as the race of elves and the rituals of the druids. Sometimes called fey knights, green knights, or horned knights, paladins who swear this oath cast their lot with the side of the light in the cosmic struggle against darkness because they love the beautiful and life-giving things of the world, not necessarily because they believe in principles of honor, courage, and justice. They adorn their armor and clothing with images of growing things\u2014leaves, antlers, or flowers\u2014to reflect their commitment to preserving life and light in the world.",
+									"Kadimlerin Yemini elf ırkı yada druid ritüelleri kadar eskidir. Bazen fey şövalyeleri, yeşil şövalyeler yada boynuzlu şövalyeler diye adlandırılan bu yeminin paladinleri kendilerini karanlığa karşı verilen kozmik zavaşta ışığın yanında görürler. Bunun sebebi adalet, cesaret yada onur gibi prensiplere inançları olmayabilir, genellikle dünyadaki güzel ve yaşam veren şeylere duydukları sevgidir. Dünyadaki yaşam ve ışığı korumaya bağlılıklarını göstermek için zırh ve kıyafetlerini yapraklar, çiçekler yada boynuzlarla donatırlar.",
 									{
 										"type": "entries",
-										"name": "Tenets of the Ancients",
+										"name": "Kadimlerin Öğretileri",
 										"entries": [
-											"The tenets of the Oath of the Ancients have been preserved for uncounted centuries. This oath emphasizes the principles of good above any concerns of law or chaos. Its four central principles are simple.",
+											"Kadimlerin Yemininin öğretileri sayısız yüzyıllardır korunmuştur. Bu yemin düzen ve kaosu önemsemeksizin iyiliğin prensiplerini öne çıkarır. Dört temel prensipleri basittir.",
 											{
 												"type": "entries",
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Kindle the Light",
+														"name": "Işığı Parlat",
 														"entries": [
-															"Through your acts of mercy, kindness, and forgiveness, kindle the light of hope in the world, beating back despair."
+															"Nezaket, merhamet ve bağışlama ile dünyadaki umut ışığını parlat, çaresizliği uzaklaştır."
 														]
 													}
 												]
@@ -14809,9 +14785,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Shelter the Light",
+														"name": "Işığı Koru",
 														"entries": [
-															"Where there is good, beauty, love, and laughter in the world, stand against the wickedness that would swallow it. Where life flourishes, stand against the forces that would render it barren."
+															"Dünyada iyilik, güzellik, aşk ve kahkaha olan yerlerde onu yutmaya çalışacak kötülüğe karşı dur. Hayatın serpildiği yerlerde onu kurak kılacak güçlere karşı dur."
 														]
 													}
 												]
@@ -14821,9 +14797,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Preserve Your Own Light",
+														"name": "Kendi Işığını Koru",
 														"entries": [
-															"Delight in song and laughter, in beauty and art. If you allow the light to die in your own heart, you can't preserve it in the world."
+															"Şarkılar ve kahkahayla, güzellik ve sanatla haz bul. Eğer kendi kalbindeki ışığın sönmesine izin verirsen, onu dünyada koruyamazsın."
 														]
 													}
 												]
@@ -14833,9 +14809,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Be the Light",
+														"name": "Işığın Kendisi Ol",
 														"entries": [
-															"Be a glorious beacon for all who live in despair. Let the light of your joy and courage shine forth in all your deeds."
+															"Çaresizlikte yaşayanlar için görkemli bir fener ol. Tüm davranışlarında neşe ve cesaretin parlamasına izin ver."
 														]
 													}
 												]
@@ -14844,15 +14820,15 @@
 									},
 									{
 										"type": "entries",
-										"name": "Oath Spells",
+										"name": "Yemin Büyüleri",
 										"entries": [
-											"You gain oath spells at the paladin levels listed.",
+											"Belirtilen paladin seviyelerinde şu yemin büyülerini kazanırsın.",
 											{
 												"type": "table",
-												"caption": "Oath of the Ancients Spells",
+												"caption": "Kadimlerin Yemini Büyüleri",
 												"colLabels": [
-													"Paladin Level",
-													"Spells"
+													"Paladin Seviyesi",
+													"Büyüler"
 												],
 												"colStyles": [
 													"col-xs-3 text-align-center",
@@ -14860,23 +14836,23 @@
 												],
 												"rows": [
 													[
-														"3rd",
+														"3.",
 														"{@spell ensnaring strike}, {@spell speak with animals}"
 													],
 													[
-														"5th",
+														"5.",
 														"{@spell moonbeam}, {@spell misty step}"
 													],
 													[
-														"9th",
+														"9.",
 														"{@spell plant growth}, {@spell protection from energy}"
 													],
 													[
-														"13th",
+														"13.",
 														"{@spell ice storm}, {@spell stoneskin}"
 													],
 													[
-														"17th",
+														"17.",
 														"{@spell commune with nature}, {@spell tree stride}"
 													]
 												]
@@ -14885,18 +14861,18 @@
 									},
 									{
 										"type": "entries",
-										"name": "Channel Divinity: Nature's Wrath",
+										"name": "Kutsal Yönlendirme: Doğanın Öfkesi",
 										"entries": [
-											"You can use your Channel Divinity to invoke primeval forces to ensnare a foe. As an action, you can cause spectral vines to spring up and reach for a creature within 10 feet of you that you can see. The creature must succeed on a Strength or Dexterity saving throw (its choice) or be {@condition restrained}. While {@condition restrained} by the vines, the creature repeats the saving throw at the end of each of its turns. On a success, it frees itself and the vines vanish."
+											"Kutsal Yönlendirmeni kadim güçleri kullanarak bir düşmanı kıstırmak için kullanabilirsin. Eylem olarak 10 feet yakınında görebildiğin bir varlığın spektral sarmaşıklar ile sarılmasını sağlayabilirsin. Varlık bir Kuvvet yada Çeviklik kurtulma zarında (kendi seçimi) başarılı olur yada kısıtlanır. Sarmaşıklar ile kısıtlanmışken varlık her sırasının sonunda kurtulma zarını tekrarlar. Başarılı olursa özgür kalır ve sarmaşıklar kaybolur."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Channel Divinity: Turn the Faithless",
+										"name": "Kutsal Yönlendirme: İnançsızı Kov",
 										"entries": [
-											"You can use your Channel Divinity to utter ancient words that are painful for fey and fiends to hear. As an action, you present your holy symbol, and each fey or fiend within 30 feet of you that can hear you must make a Wisdom saving throw. On a failed save, the creature is turned for 1 minute or until it takes damage.",
-											"A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.",
-											"If the creature's true form is concealed by an illusion, shapeshifting, or other effect, that form is revealed while it is turned."
+											"Kutsal Yönlendirmeni kullanıp fey ve zebaniler için acı verici kadim sözler ssöyleyebilirsin. Eylem olarak kutsal sembolünü öne çıkarırsın ve 30 feet yakınında seni duyabilen tüm fey ve zebaniler Akıl kurtulma zarı atar. Başarısız olursa varlık 1 dakikalığına yada hasar alana kadar kovulmuş olur.",
+											"Kovulmuş bir varlık sırasını senden uzaklaşmak için kullanır ve kendi isteğiyle 30 feet yakınına gelemez. Reaksiyon da kullanamaz. Eylem olarak sadece Depar eylemini kullanır yada hareket etmesini engelleyen bir etkiden kurtulmaya çalışır. Eğer kaçabileceği bir yer yoksa varlık Kaçınma eylemini kullanır.",
+											"Eğer varlığın gerçek şekli bir illüzyon, şekil değiştirme yada diğer bir etki ile gizlenmişse kovulmuşken gerçek formu ortaya çıkar."
 										]
 									}
 								]
@@ -14907,10 +14883,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Aura of Warding",
+										"name": "Kalkan Aurası",
 										"entries": [
-											"Beginning at 7th level, ancient magic lies so heavily upon you that it forms an eldritch ward. You and friendly creatures within 10 feet of you have resistance to damage from spells.",
-											"At 18th level, the range of this aura increases to 30 feet."
+											"7. seviyeden itibaren kadim büyü üzerinde o kadar yoğundur ki bir eldritch kalkanı oluşturur. Sen ve 10 feet yakınındaki dost varlıklar büyülerden gelen hasara karşı direnç kazanır.",
+											"18. seviyede bu auranın menzili 30 feet'e çıkar."
 										]
 									}
 								]
@@ -14921,10 +14897,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Undying Sentinel",
+										"name": "Ölümsüz Bekçi",
 										"entries": [
-											"Starting at 15th level, when you are reduced to 0 hit points and are not killed outright, you can choose to drop to 1 hit point instead. Once you use this ability, you can't use it again until you finish a long rest.",
-											"Additionally, you suffer none of the drawbacks of old age, and you can't be aged magically."
+											"15. seviyeden itibaren ne zaman 0 HP'ye düşersen ve anında ölmezsen 1 HP'ye düşmeyi seçebilirsin. Bu özelliği kullandığında yeniden kullanabilmek için uzun dinlenme bitirmen gerekir.",
+											"Ek olarak, büyülü bir şekilde yaşlandırılamazsın ve yaşlılığın verdiği zorluklar seni etkilemez."
 										]
 									}
 								]
@@ -14935,19 +14911,19 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Elder Champion",
+										"name": "Yaşlı Şampiyon",
 										"entries": [
-											"At 20th level, you can assume the form of an ancient force of nature, taking on an appearance you choose. For example, your skin might turn green or take on a bark-like texture, your hair might become leafy or mosslike, or you might sprout antlers or a lion-like mane.",
-											"Using your action, you undergo a transformation. For 1 minute, you gain the following benefits:",
+											"20. seviyede seçeceğin bir görüntü ile doğanın kadim bir gücünün şeklini alabilirsin. Örneğin, tenin yeşile yada ağaç kabuğu gibi bir dokuya dönüşebilir, saçların yaprak yada yosun gibi olabilir, geyik gibi boynuzlar yada bir aslan gibi yele çıkarabilirsin.",
+											"Eylemini kullanarak bir değişimden geçersin. Bir dakikalığına şu özellikleri kazanırsın:",
 											{
 												"type": "list",
 												"items": [
-													"At the start of each of your turns, you regain 10 hit points.",
-													"Whenever you cast a paladin spell that has a casting time of 1 action, you can cast it using your bonus action instead.",
-													"Enemy creatures within 10 feet of you have disadvantage on saving throws against your paladin spells and Channel Divinity options."
+													"Her sıranın başında 10 HP yenilersin.",
+													"Kullanma süresi 1 eylem olan bir paladin büyüsü kullandığında bunu bonus eylem olarak kullanırsın.",
+													"10 feet yakınındaki düşman varlıklar senin paladin büyülerine ve Kutsal Yönlendirme seçeneklerine karşı attıkları kurtulma zarlarında dezavantajlı olurlar."
 												]
 											},
-											"Once you use this feature, you can't use it again until you finish a long rest."
+											"Bu özelliği kullandıktan sonra yeniden kullanabilmek için uzun dinlenme bitirmen gerekir."
 										]
 									}
 								]
@@ -14955,29 +14931,29 @@
 						]
 					],
 					"source": "PHB",
-					"shortName": "Ancients"
+					"shortName": "Kadimler"
 				},
 				{
-					"name": "Oath of Devotion",
+					"name": "Bağlılık Yemini",
 					"subclassFeatures": [
 						[
 							{
-								"name": "Oath of Devotion",
+								"name": "Bağlılık Yemini",
 								"entries": [
-									"The Oath of Devotion binds a paladin to the loftiest ideals of justice, virtue, and order. Sometimes called cavaliers, white knights, or holy warriors, these paladins meet the ideal of the knight in shining armor, acting with honor in pursuit of justice and the greater good. They hold themselves to the highest standards of conduct, and some, for better or worse, hold the rest of the world to the same standards. Many who swear this oath are devoted to gods of law and good and use their gods' tenets as the measure of their devotion. They hold angels\u2014the perfect servants of good\u2014as their ideals, and incorporate images of angelic wings into their helmets or coats of arms.",
+									"Bağlılık Yemini bir paladini en üst adalet, erdem ve düzen ideallerine bağlar. Bazen süvariler, beyaz şövalyeler yada kutsal savaşçılar diye adlandırılan bu paladinler; adalet ve iyilik peşinde koşan, daima onurlu davranan, parlak zırhlı şövalye idealine uygundur. Kendileri en iyi davranış standardına uymak için çabalarlar ve bazıları diğerlerinin de aynı standartta olması gerektiğini düşünür. Bu yemini edenlerin çoğu iyilik ve düzen tanrılarına bağlıdırlar ve tanrılarının öğretilerini bağlılıklarının ölçeği olarak görürler. Tanrıların kusursuz hizmetkarlarını, yani melekleri kendi idealleri olarak görürler ve zırhlarına yada miğferlerine melek kanatları sembolleri işlerler.",
 									{
 										"type": "entries",
-										"name": "Tenets of Devotion",
+										"name": "Bağlılık Öğretileri",
 										"entries": [
-											"Though the exact words and strictures of the Oath of Devotion vary, paladins of this oath share these tenets.",
+											"Söylenme şekilleri değişse de tüm Bağlılık Yemini paladinleri bu öğretileri paylaşırlar.",
 											{
 												"type": "entries",
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Honesty",
+														"name": "Dürüstlük",
 														"entries": [
-															"Don't lie or cheat. Let your word be your promise."
+															"Yalan söyleme ve hile yapma. Sözün yeminin olsun."
 														]
 													}
 												]
@@ -14987,9 +14963,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Courage",
+														"name": "Cesaret",
 														"entries": [
-															"Never fear to act, though caution is wise."
+															"Harekete geçmeye korkma, ama dikkatli olmak akıllıcadır."
 														]
 													}
 												]
@@ -14999,9 +14975,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Compassion",
+														"name": "Merhamet",
 														"entries": [
-															"Aid others, protect the weak, and punish those who threaten them. Show mercy to your foes, but temper it with wisdom."
+															"Diğerlerine yardım et, zayıfı koru ve onları tehdit edenleri cezalandır. Düşmanlarına merhamet göster, ama bunu akıllıca yap."
 														]
 													}
 												]
@@ -15011,9 +14987,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Honor",
+														"name": "Onur",
 														"entries": [
-															"Treat others with fairness, and let your honorable deeds be an example to them. Do as much good as possible while causing the least amount of harm."
+															"Diğerlerine adaletli davran, bırak onurlu işlerin onlara örnek olsun. En az zararı vererek en çok iyiliği yap."
 														]
 													}
 												]
@@ -15023,9 +14999,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Duty",
+														"name": "Görev",
 														"entries": [
-															"Be responsible for your actions and their consequences, protect those entrusted to your care, and obey those who have just authority over you."
+															"Eylemlerin ve sonuçları için sorumluluk al, senin güvencene verilenleri koru ve senin üzerinde otoritesi olanlara itaat et."
 														]
 													}
 												]
@@ -15034,15 +15010,15 @@
 									},
 									{
 										"type": "entries",
-										"name": "Oath Spells",
+										"name": "Yemin Büyüleri",
 										"entries": [
-											"You gain oath spells at the paladin levels listed.",
+											"Verilen paladin seviyelerinde bu yemin büyülerini öğrenirsin.",
 											{
 												"type": "table",
-												"caption": "Oath of Devotion Spells",
+												"caption": "Bağlılık Yemini Büyüleri",
 												"colLabels": [
-													"Paladin Level",
-													"Spells"
+													"Paladin Seviyesi",
+													"Büyüler"
 												],
 												"colStyles": [
 													"col-xs-3 text-align-center",
@@ -15050,23 +15026,23 @@
 												],
 												"rows": [
 													[
-														"3rd",
+														"3.",
 														"{@spell protection from evil and good}, {@spell sanctuary}"
 													],
 													[
-														"5th",
+														"5.",
 														"{@spell lesser restoration}, {@spell zone of truth}"
 													],
 													[
-														"9th",
+														"9.",
 														"{@spell beacon of hope}, {@spell dispel magic}"
 													],
 													[
-														"13th",
+														"13.",
 														"{@spell freedom of movement}, {@spell guardian of faith}"
 													],
 													[
-														"17th",
+														"17.",
 														"{@spell commune}, {@spell flame strike}"
 													]
 												]
@@ -15075,18 +15051,18 @@
 									},
 									{
 										"type": "entries",
-										"name": "Channel Divinity: Sacred Weapon",
+										"name": "Kutsal Yönlendirme: Kutsal Silah",
 										"entries": [
-											"As an action, you can imbue one weapon that you are holding with positive energy, using your Channel Divinity. For 1 minute, you add your Charisma modifier to attack rolls made with that weapon (with a minimum bonus of +1). The weapon also emits bright light in a 20-foot radius and dim light 20 feet beyond that. If the weapon is not already magical, it becomes magical for the duration.",
-											"You can end this effect on your turn as part of any other action. If you are no longer holding or carrying this weapon, or if you fall {@condition unconscious}, this effect ends."
+											"Kutsal Yönlendirmeni kullanıp, eylem olarak tuttuğun bir silahı pozitif enerji ile doldurabilirsin. 1 dakikalığına o silahla yapılan saldırı zarlarına Karizma bonusunu (en az 1) eklersin. Silah aynı zamanda 20 feet'e kadar parlak ışık, 20 feet daha loş ışık saçar. Eğer silah zaten büyülü değilse, bu süre boyunca büyülü sayılır.",
+											"Bu etkiyi sıranda herhangi bir eylemin parçası olarak bitirebilirsin. Eğer bu silahı tutmuyor yada taşımıyorsan, veya bilinçsiz kalırsan bu etki biter."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Channel Divinity: Turn the Unholy",
+										"name": "Kutsal Yönlendirme: Kutsal Olmayanı Kov",
 										"entries": [
-											"As an action, you present your holy symbol and speak a prayer censuring fiends and undead, using your Channel Divinity. Each fiend or undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes damage.",
-											"A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action."
+											"Kutsal Yönlendirmeni kullanıp eylem olarak kutsal sembolünü öne çıkarırsın, zebani ve yaşayan ölüleri kovan bir dua okursun. 30 feet yakınındaki seni görebilen yada duyabilen tüm zebani ve yaşayan ölüler Akıl kurtulma zarı atar. Eğer varlık zarda başarısız olursa 1 dakikalığına yada hasar alana kadar kovulur.",
+											"Kovulmuş bir varlık sırasını senden uzaklaşmak için kullanır ve kendi isteğiyle 30 feet yakınına gelemez. Reaksiyon da kullanamaz. Eylem olarak sadece Depar eylemini kullanır yada hareket etmesini engelleyen bir etkiden kurtulmaya çalışır. Eğer kaçabileceği bir yer yoksa varlık Kaçınma eylemini kullanır."
 										]
 									}
 								]
@@ -15097,10 +15073,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Aura of Devotion",
+										"name": "Bağlılık Aurası",
 										"entries": [
-											"Starting at 7th level, you and friendly creatures within 10 feet of you can't be {@condition charmed} while you are conscious.",
-											"At 18th level, the range of this aura increases to 30 feet."
+											"7. seviyeden itibaren sen ve 10 feet yakınındaki dost varlıklar sen bilinçli olduğun sürece cezbedilemezler.",
+											"18. seviyede bu auranın menzili 30 feet'e çıkar."
 										]
 									}
 								]
@@ -15111,9 +15087,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Purity of Spirit",
+										"name": "Ruhun Saflığı",
 										"entries": [
-											"Beginning at 15th level, you are always under the effects of a {@spell protection from evil and good} spell."
+											"15. seviyeden itibaren daima {@spell protection from evil and good} büyüsünün etkisi altında olursun."
 										]
 									}
 								]
@@ -15124,12 +15100,12 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Holy Nimbus",
+										"name": "Kutsal Bulut",
 										"entries": [
-											"At 20th level, as an action, you can emanate an aura of sunlight. For 1 minute, bright light shines from you in a 30-foot radius, and dim light shines 30 feet beyond that.",
-											"Whenever an enemy creature starts its turn in the bright light, the creature takes 10 radiant damage.",
-											"In addition, for the duration, you have advantage on saving throws against spells cast by fiends or undead.",
-											"Once you use this feature, you can't use it again until you finish a long rest."
+											"20. seviyede eylem olarak bir gün ışığı aurası yaratabilirsin. 1 dakika boyunca 30 feet çevrene parlak ışık saçarsın, 30 feet daha loş ışık saçılır.",
+											"Ne zaman bir düşman sırasına bu parlak ışık içinde başlarsa varlık 10 radyant hasar alır.",
+											"Ek olarak, süre boyunca yaşayan ölüler ve zebaniler tarafından yapılan büyülere karşı kurtulma zarlarında avantajın olur.",
+											"Bu özelliği kullandığında bir daha kullanabilmek için uzun dinlenme bitirmen gerekir."
 										]
 									}
 								]
@@ -15137,29 +15113,29 @@
 						]
 					],
 					"source": "PHB",
-					"shortName": "Devotion"
+					"shortName": "Bağlılık"
 				},
 				{
-					"name": "Oath of Vengeance",
+					"name": "İntikam Yemini",
 					"subclassFeatures": [
 						[
 							{
-								"name": "Oath of Vengeance",
+								"name": "İntikam Yemini",
 								"entries": [
-									"The Oath of Vengeance is a solemn commitment to punish those who have committed a grievous sin. When evil forces slaughter helpless villagers, when an entire people turns against the will of the gods, when a thieves' guild grows too violent and powerful, when a dragon rampages through the countryside - at times like these, paladins arise and swear an Oath of Vengeance to set right that which has gone wrong. To these paladins\u2014sometimes called avengers or dark knights\u2014their own purity is not as important as delivering justice.",
+									"İntikam Yemini ölümcül günah işleyenleri cezalandırmaya kendini adamaktır. Kötüler muhtaç köylüleri katlettiğinde, insanlar tanrıların iradesine karşı geldiklerinde, hırsız locası çok güçlendiğinde ve şiddet uyguladığında, bir ejderha kırsal bölgeleri mahvettiğinde, işte böyle zamanlarda paladinler ortaya çıkarak İntikam Yemini edip yanlışları düzeltirler. Bazen intikamcılar yada kara şövalyeler olarak bilinen bu paladinler için kendi saflıkları adalet sağlamaktan önemli değildir.",
 									{
 										"type": "entries",
-										"name": "Tenets of Vengeance",
+										"name": "İntikam Öğretileri",
 										"entries": [
-											"The tenets of the Oath of Vengeance vary by paladin, but all the tenets revolve around punishing wrongdoers by any means necessary. Paladins who uphold these tenets are willing to sacrifice even their own righteousness to mete out justice upon those who do evil, so the paladins are often neutral or lawful neutral in alignment. The core principles of the tenets are brutally simple.",
+											"İntikam Yemini öğretileri her paladin için farklıdır ama bu öğretilerin hepsi yanlış yapanları ne pahasına olursa olsun cezalandırmaya yöneliktir. Bu öğretilere uyan paladinler adaleti sağlamak için kendi erdemlerinden vazgeçebilirler. Bu sebeple intikamcı paladinler genellikle hizalarında nötr yada kanuni nötr olurlar. Öğretilerin temel prensipleri çok basittir.",
 											{
 												"type": "entries",
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Fight the Greater Evil",
+														"name": "Büyük Kötülükle Savaş",
 														"entries": [
-															"Faced with a choice of fighting my sworn foes or combating a lesser evil. I choose the greater evil."
+															"Eğer yeminli düşmanlarım ve daha küçük bir kötülük ile dövüşme arasında seçmem gerekirse. Ben büyük kötülüğü seçerim."
 														]
 													}
 												]
@@ -15169,9 +15145,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "No Mercy for the Wicked",
+														"name": "Günahkarlara Merhamet Yok",
 														"entries": [
-															"Ordinary foes might win my mercy, but my sworn enemies do not."
+															"Sıradan düşmanlar benim merhametimi kazanabilir, ama yeminli düşmanlarım asla."
 														]
 													}
 												]
@@ -15181,9 +15157,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "By Any Means Necessary",
+														"name": "Ne Gerekirse Gereksin",
 														"entries": [
-															"My qualms can't get in the way of exterminating my foes."
+															"Benim kaygılarım düşmanlarımı yok etmemin önüne geçemez."
 														]
 													}
 												]
@@ -15193,9 +15169,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Restitution",
+														"name": "İade",
 														"entries": [
-															"If my foes wreak ruin on the world, it is because I failed to stop them. I must help those harmed by their misdeeds."
+															"Eğer benim düşmanlarım dünyaya zarar verebildiyse, bu ben onları durduramadığım içindir. Onlardan zarar görenlere yardım etmeliyim."
 														]
 													}
 												]
@@ -15204,15 +15180,15 @@
 									},
 									{
 										"type": "entries",
-										"name": "Oath Spells",
+										"name": "Yemin Büyüleri",
 										"entries": [
-											"You gain oath spells at the paladin levels listed.",
+											"Verilen paladin seviyelerinde bu büyüleri öğrenirsin.",
 											{
 												"type": "table",
-												"caption": "Oath of Vengeance Spells",
+												"caption": "İntikam Yemini Büyüleri",
 												"colLabels": [
-													"Paladin Level",
-													"Spells"
+													"Paladin Seviyesi",
+													"Büyüler"
 												],
 												"colStyles": [
 													"col-xs-3 text-align-center",
@@ -15220,23 +15196,23 @@
 												],
 												"rows": [
 													[
-														"3rd",
+														"3.",
 														"{@spell bane}, {@spell hunter's mark}"
 													],
 													[
-														"5th",
+														"5.",
 														"{@spell hold person}, {@spell misty step}"
 													],
 													[
-														"9th",
+														"9.",
 														"{@spell haste}, {@spell protection from energy}"
 													],
 													[
-														"13th",
+														"13.",
 														"{@spell banishment}, {@spell dimension door}"
 													],
 													[
-														"17th",
+														"17.",
 														"{@spell hold monster}, {@spell scrying}"
 													]
 												]
@@ -15245,18 +15221,18 @@
 									},
 									{
 										"type": "entries",
-										"name": "Channel Divinity: Abjure Enemy",
+										"name": "Kutsal Yönlendirme: Düşmanı İnkar Et",
 										"entries": [
-											"As an action, you present your holy symbol and speak a prayer of denunciation, using your Channel Divinity. Choose one creature within 60 feet of you that you can see. That creature must make a Wisdom saving throw, unless it is immune to being {@condition frightened}. Fiends and undead have disadvantage on this saving throw.",
-											"On a failed save, the creature is {@condition frightened} for 1 minute or until it takes any damage. While {@condition frightened}, the creature's speed is 0, and it can't benefit from any bonus to its speed.",
-											"On a successful save, the creature's speed is halved for 1 minute or until the creature takes any damage."
+											"Kutsal Yönlendirmeni kullanıp eylem olarak kutsal sembolünü öne çıkarırsın ve düşmanı kınayan bir dua okursun. 60 feet yakınında görebildiğin bir varlık seç. Eğer o varlığın korkmaya bağışıklığı yoksa bir Akıl kurtulma zarı atmalı. Bu kurtulma zarında yaşayan ölüler ve zebanilerin dezavantajı olur.",
+											"Başarısız olursa varlık 1 dakikalığına yada hasar alana kadar korku durumunda olur. Korkmuşken varlığın hızı 0 olur ve hızına gelecek hiçbir bonustan faydalanamaz.",
+											"Başarılı olursa varlığın hızı 1 dakikalığına yada hasar alana kadar yarılanır."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Channel Divinity: Vow of Enmity",
+										"name": "Kutsal Yönlendirme: Düşmanlık Yemini",
 										"entries": [
-											"As a bonus action, you can utter a vow of enmity against a creature you can see within 10 feet of you, using your Channel Divinity. You gain advantage on attack rolls against the creature for 1 minute or until it drops to 0 hit points or falls {@condition unconscious}."
+											"Kutsal Yönlendirmeni kullanıp bonus eylem olarak 10 feet yakınında görebildiğin bir varlığa karşı düşmanlık yemini edebilirsin. O varlığa karşı 1 dakika boyunca yada 0 HP'ye düşene kadar yada bilinçsiz kalana kadar yapacağın tüm saldırılar avantajla olur."
 										]
 									}
 								]
@@ -15267,9 +15243,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Relentless Avenger",
+										"name": "Amansız İntikamcı",
 										"entries": [
-											"By 7th level, your supernatural focus helps you close off a foe's retreat. When you hit a creature with an opportunity attack, you can move up to half your speed immediately after the attack and as part of the same reaction. This movement doesn't provoke opportunity attacks."
+											"7. seviyede senin doğaüstü odağın düşmanın kaçışını engellemene yardımcı olur. Bir varlığa fırsat saldırısı ile vurduğunda, saldırıdan hemen sonra aynı reaksiyonun bir parçası olarak hareket hızının yarısı kadar gidebilirsin. Bu hareket fırsat saldırısı tetiklemez."
 										]
 									}
 								]
@@ -15280,9 +15256,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Soul of Vengeance",
+										"name": "İntikam Ruhu",
 										"entries": [
-											"Starting at 15th level, the authority with which you speak your Vow of Enmity gives you greater power over your foe. When a creature under the effect of your Vow of Enmity makes an attack, you can use your reaction to make a melee weapon attack against that creature if it is within range."
+											"15. seviyeden itibaren Düşmanlık Yeminini ettiğin otorite artık sana düşmanına karşı daha fazla güç verir. Düşmanlık Yemininin etkisi altında olan bir varlık saldırı yaptığında, eğer varlık menzilindeyse reaksiyonunu kullanıp ona karşı bir yakın dövüş saldırısı yapabilirsin."
 										]
 									}
 								]
@@ -15293,17 +15269,17 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Avenging Angel",
+										"name": "İntikam Meleği",
 										"entries": [
-											"At 20th level, you can assume the form of an angelic avenger. Using your action, you undergo a transformation. For 1 hour, you gain the following benefits:",
+											"20. seviyede bir intikam meleği şekline girebilirsin. Eylemini kullanarak bir değişimden geçersin. 1 saatliğine bu özellikleri kazanırsın:",
 											{
 												"type": "list",
 												"items": [
-													"Wings sprout from your back and grant you a flying speed of 60 feet.",
-													"You emanate an aura of menace in a 30-foot radius. The first time any enemy creature enters the aura or starts its turn there during a battle, the creature must succeed on a Wisdom saving throw or become {@condition frightened} of you for 1 minute or until it takes any damage. Attack rolls against the {@condition frightened} creature have advantage."
+													"Sırtından kanatlar çıkar ve sana 60 feet uçma hızı verir.",
+													"30 feet'lik çapta bir tehdit aurası oluşturursun. Bir düşman auraya ilk girdiğinde yada sırasına orada başladığında Akıl kurtulma zarı atar ve başarısız olursa senden 1 dakikalığına yada hasar alana kadar korkar. Korkmuş varlığa karşı yapılan saldırılar avantajlı olur."
 												]
 											},
-											"Once you use this feature, you can't use it again until you finish a long rest."
+											"Bu özelliği kullandığında bir daha kullanabilmek için uzun dinlenme bitirmen gerekir."
 										]
 									}
 								]
@@ -15311,7 +15287,7 @@
 						]
 					],
 					"source": "PHB",
-					"shortName": "Vengeance"
+					"shortName": "İntikam"
 				},
 				{
 					"name": "Oathbreaker",
@@ -22552,7 +22528,7 @@
 			"fluffPage": 40
 		},
 		{
-			"name": "Rogue",
+			"name": "Düzenbaz",
 			"source": "PHB",
 			"hd": {
 				"number": 1,
@@ -22565,7 +22541,7 @@
 			"classTableGroups": [
 				{
 					"colLabels": [
-						"Sneak Attack"
+						"Sinsi Saldırı"
 					],
 					"rows": [
 						[
@@ -22793,13 +22769,13 @@
 				{
 					"subclasses": [
 						{
-							"name": "Arcane Trickster",
+							"name": "Arcane Hilekar",
 							"source": "PHB"
 						}
 					],
 					"colLabels": [
-						"{@filter Cantrips Known|spells|level=0|subclass=Arcane Trickster}",
-						"Spells Known"
+						"{@filter Bilinen Cantripler|spells|level=0|subclass=Arcane Trickster}",
+						"Bilinen Büyüler"
 					],
 					"rows": [
 						[
@@ -22885,18 +22861,18 @@
 					]
 				},
 				{
-					"title": "Spell Slots per Spell Level",
+					"title": "Büyü Seviyesi Başına Büyü Yuvaları",
 					"subclasses": [
 						{
-							"name": "Arcane Trickster",
+							"name": "Arcane Hilekar",
 							"source": "PHB"
 						}
 					],
 					"colLabels": [
-						"{@filter 1st|spells|level=1|subclass=Arcane Trickster}",
-						"{@filter 2nd|spells|level=2|subclass=Arcane Trickster}",
-						"{@filter 3rd|spells|level=3|subclass=Arcane Trickster}",
-						"{@filter 4th|spells|level=4|subclass=Arcane Trickster}"
+						"{@filter 1.|spells|level=1|subclass=Arcane Trickster}",
+						"{@filter 2.|spells|level=2|subclass=Arcane Trickster}",
+						"{@filter 3.|spells|level=3|subclass=Arcane Trickster}",
+						"{@filter 4.|spells|level=4|subclass=Arcane Trickster}"
 					],
 					"rows": [
 						[
@@ -23024,83 +23000,83 @@
 			],
 			"startingProficiencies": {
 				"armor": [
-					"light"
+					"hafif"
 				],
 				"weapons": [
-					"simple",
-					"hand crossbows",
-					"longswords",
-					"rapiers",
-					"shortswords"
+					"basit",
+					"el arbaletleri",
+					"uzun kılıçlar",
+					"meçler",
+					"kısa kılıçlar"
 				],
 				"tools": [
-					"thieves' tools"
+					"hırsız aletleri"
 				],
 				"skills": {
 					"choose": 4,
 					"from": [
-						"Acrobatics",
-						"Athletics",
-						"Deception",
-						"Insight",
-						"Intimidation",
-						"Investigation",
-						"Perception",
-						"Performance",
-						"Persuasion",
-						"Sleight of Hand",
-						"Stealth"
+						"Akrobasi",
+						"Atletizm",
+						"Aldatma",
+						"Sezgi",
+						"Korkutma",
+						"İnceleme",
+						"Algılama",
+						"Performans",
+						"İkna Etme",
+						"El Çabukluğu",
+						"Gizlenme"
 					]
 				}
 			},
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) a rapier or (b) a shortsword",
-					"(a) a shortbow and quiver of 20 arrows or (b) a shortsword",
-					"(a) a burglar's pack, (b) a dungeoneer's pack, or (c) an explorer's pack",
-					"Leather armor, two daggers, and thieves' tools"
+					"(a) bir meç yada (b) bir kısa kılıç",
+					"(a) bir kısa yay ve 20 okluk sadak yada (b) bir kısa kılıç",
+					"(a) bir hırsızın paketi, (b) bir zindancının paketi, yada (c) bir kaşifin paketi",
+					"Deri zırh, iki hançer, ve hırsız aletleri"
 				],
 				"goldAlternative": "4d4 × 10"
 			},
 			"classFeatures": [
 				[
 					{
-						"name": "Expertise",
+						"name": "Ekspertiz",
 						"entries": [
-							"At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with thieves' tools. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.",
-							"At 6th level, you can choose two more of your proficiencies (in skills or with thieves' tools) to gain this benefit."
+							"1. seviyede iki beceri uzmanlığını seç yada bir beceri uzmanlığı ve hırsız aletlerini. Bu seçilenlerle atacağın zarlarda uzmanlık bonusun ikiye katlanır.",
+							"6. seviyede yine iki beceri uzmanlığını yada bir beceri uzmanlığı ve hırsız aletlerini bu özellik için seçebilirsin."
 						]
 					},
 					{
-						"name": "Sneak Attack",
+						"name": "Sinsi Saldırı",
 						"entries": [
-							"Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.",
-							"You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't {@condition incapacitated}, and you don't have disadvantage on the attack roll.",
-							"The amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue table."
+							"1. seviyeden itibaren düşmanın boşluklarını yakalayıp sinsice saldırmayı bilirsin. Her sıranda bir kere, eğer saldırıda avantajın varsa bir varlığa vurduğunda fazladan 1d6 hasar verebilirsin. Saldırı bir incelik silahı yada menzilli bir silah ile yapılmalı.",
+							"Eğer hedefin 5 feet yakınında başka bir düşman varsa (genellikle senin dostun) ve o düşman bilinçsiz değilse, senin de saldırıda dezavantajın yoksa Sinsi Saldırı için saldırıda avantaj gerekmez.",
+							"Bu sınıfta seviye atladıkça fazladan hasar miktarı Düzenbaz tablosunun Sinsi Saldırı sütununda görülebileceği üzere artar."
 						]
 					},
 					{
-						"name": "Thieves' Cant",
+						"name": "Hırsız Argosu",
 						"entries": [
-							"During your rogue training you learned thieves' cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thieves' cant understands such messages. It takes four times longer to convey such a message than it does to speak the same idea plainly.",
-							"In addition, you understand a set of secret signs and symbols used to convey short, simple messages, such as whether an area is dangerous or the territory of a thieves' guild, whether loot is nearby, or whether the people in an area are easy marks or will provide a safe house for thieves on the run."
+							"Eğitimin sırasında şive, jargon ve kod karışımı olan ve çok sıradan görünen konuşmalara gizli mesajlar saklayabildiğin hırsız argosunu öğrendin. Sadece başka hırsız argosunu bilen bir varlık bu gizli mesajları anlayabilir. Bir fikri açıkça konuşmaya oranla bu argoyla bilgi aktarımı 4 kat daha uzun sürer.",
+							"Ek olarak, bir alanın tehlikeli yada bir hırsız locasına ait olup olmadığı, yakında ganimet olup olmadığı, bir alandaki insanların hırsızlık için kolay hedef oldukları yada kaçan hırsızlara sığınak verecekleri gibi kısa mesajlar aktaran gizli sembolleri bilirsin."
 						]
 					}
 				],
 				[
 					{
-						"name": "Cunning Action",
+						"name": "Kurnaz Eylem",
 						"entries": [
-							"Starting at 2nd level, your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat. This action can be used only to take the Dash, Disengage, or Hide action."
+							"2. seviyeden itibaren çabuk düşünmen ve çevikliğin hızlı hareket edip faaliyete geçmeni sağlar. Savaşta her sıranda bir bonus eylem kullanabilirsin. Bu bonus eylem sadece Depar, Ayrılma ve Saklanma eylemleri için kullanılabilir."
 						]
 					}
 				],
 				[
 					{
-						"name": "Roguish Archetype",
+						"name": "Düzenbazlık Modeli",
 						"entries": [
-							"At 3rd level, you choose an archetype that you emulate in the exercise of your rogue abilities from the list of available archetypes. Your archetype choice grants you features at 3rd level and then again at 9th, 13th, and 17th level."
+							"3. seviyede mevcut listeden bir model seçip düzenbazlık yeteneklerini bu yönde geliştirmeye çalışırsın. Model seçimin sana 3, 9, 13 ve 17. seviyelerde yeni özellikler katar."
 						],
 						"gainSubclassFeature": true
 					}
@@ -23116,25 +23092,25 @@
 				],
 				[
 					{
-						"name": "Uncanny Dodge",
+						"name": "Olağanüstü Kaçınma",
 						"entries": [
-							"Starting at 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you."
+							"5. seviyeden itibaren görebildiğin bir saldırgan, bir saldırı ile sana vurursa reaksiyonunu kullanıp saldırının hasarını yarıya indirebilirsin."
 						]
 					}
 				],
 				[
 					{
-						"name": "Expertise",
+						"name": "Ekspertiz",
 						"entries": [
-							"At 6th level, you can choose two more of your proficiencies (in skills or with thieves' tools) to gain the benefit of Expertise."
+							"6. seviyede iki tane daha beceri uzmanlığını yada bir beceri uzmanlığı ve hırsız aletlerini Ekspertiz özelliği için seçebilirsin."
 						]
 					}
 				],
 				[
 					{
-						"name": "Evasion",
+						"name": "Sıyrılma",
 						"entries": [
-							"Beginning at 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or an {@spell ice storm} spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
+							"7. seviyede içgüdüsel çevikliğin bazı alan etkilerinden kurtulmanı sağlar. Buna örnek olarak bir mavi ejderhanın yıldırım nefesi yada (@spell fireball) büyüsü verilebilir. Sana yarı hasar almak için Çeviklik kurtulma zarı atmanı gerektirecek bir etkiye maruz kaldığında; eğer başarılı olursan hiç hasar almazsın ve başarısız olduğunda sadece yarı hasarı alırsın."
 						]
 					}
 				],
@@ -23142,16 +23118,16 @@
 					{
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
-							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
+							"8. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
 							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
 						]
 					}
 				],
 				[
 					{
-						"name": "Roguish Archetype feature",
+						"name": "Düzenbazlık Modeli Özelliği",
 						"entries": [
-							"At 9th level, you gain a feature granted by your Roguish Archetype."
+							"9. seviyede Düzenbazlık Modelinin sunduğu bir özellik kazanırsın."
 						],
 						"gainSubclassFeature": true
 					}
@@ -23160,16 +23136,16 @@
 					{
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
-							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
+							"10. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
 							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
 						]
 					}
 				],
 				[
 					{
-						"name": "Reliable Talent",
+						"name": "Güvenilir Beceri",
 						"entries": [
-							"By 11th level, you have refined your chosen skills until they approach perfection. Whenever you make an ability check that lets you add your proficiency bonus, you can treat a d20 roll of 9 or lower as a 10."
+							"11. seviyeye kadar seçilen becerilerini neredeyse kusursuz bir hale getirdin. Uzmanlık bonusunu ekleyebildiğin bir yetenek zarı attığında d20'lik zarda 9 ve altı sonuçları 10 kabul edersin."
 						]
 					}
 				],
@@ -23177,33 +23153,33 @@
 					{
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
-							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
+							"12. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
 							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
 						]
 					}
 				],
 				[
 					{
-						"name": "Roguish Archetype feature",
+						"name": "Düzenbazlık Modeli Özelliği",
 						"entries": [
-							"At 13th level, you gain a feature granted by your Roguish Archetype."
+							"13. seviyede Düzenbazlık Modelinin sunduğu bir özellik kazanırsın."
 						],
 						"gainSubclassFeature": true
 					}
 				],
 				[
 					{
-						"name": "Blindsense",
+						"name": "Körduyu",
 						"entries": [
-							"Starting at 14th level, if you are able to hear, you are aware of the location of any hidden or {@condition invisible} creature within 10 feet of you."
+							"14. seviyeden itibaren eğer duyabiliyorsan 10 feet yakınındaki gizli yada görünmez varlıkların yerini bilirsin."
 						]
 					}
 				],
 				[
 					{
-						"name": "Slippery Mind",
+						"name": "Kaygan Zihin",
 						"entries": [
-							"By 15th level, you have acquired greater mental strength. You gain proficiency in Wisdom saving throws."
+							"15. seviyeye gelene kadar çok daha güçlü bir zihin elde ettin. Akıl kurtulma zarlarında uzmanlık kazanırsın."
 						]
 					}
 				],
@@ -23211,25 +23187,25 @@
 					{
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
-							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
+							"16. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
 							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
 						]
 					}
 				],
 				[
 					{
-						"name": "Roguish Archetype feature",
+						"name": "Düzenbazlık Modeli Özelliği",
 						"entries": [
-							"At 17th level, you gain a feature granted by your Roguish Archetype."
+							"17. seviyede Düzenbazlık Modelinin sunduğu bir özellik kazanırsın."
 						],
 						"gainSubclassFeature": true
 					}
 				],
 				[
 					{
-						"name": "Elusive",
+						"name": "Kaçamak",
 						"entries": [
-							"Beginning at 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren't {@condition incapacitated}."
+							"18. seviyeden itibaren o kadar iyi sıyrılırsın ki saldırganlar sana karşı nadir olarak üstünlük sağlar. Bilinçsiz olmadığın sürece hiçbir saldırı sana karşı avantajlı olmaz."
 						]
 					}
 				],
@@ -23237,46 +23213,46 @@
 					{
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
-							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
+							"19. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
 							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
 						]
 					}
 				],
 				[
 					{
-						"name": "Stroke of Luck",
+						"name": "Şanslı Vuruş",
 						"entries": [
-							"At 20th level, you have an uncanny knack for succeeding when you need to. If your attack misses a target within range, you can turn the miss into a hit. Alternatively, if you fail an ability check, you can treat the d20 roll as a 20.",
-							"Once you use this feature, you can't use it again until you finish a short or long rest."
+							"20. seviyede gerektiğinde başarılı olmak için olağanüstü bir yatkınlığın olur. Eğer saldırın menzilindeki bir hedefi ıskalarsa bunu vuruşa çevirebilirsin. Alternatif olarak, eğer bir beceri zarında başarısız olursan d20'lik zarı 20 olarak kabul edebilirsin.",
+							"Bu özelliği kullandığında yeniden kullanabilmek için kısa yada uzun dinlenme bitirmen gerekir."
 						]
 					}
 				]
 			],
-			"subclassTitle": "Roguish Archetype",
+			"subclassTitle": "Düzenbazlık Modeli",
 			"subclasses": [
 				{
-					"name": "Arcane Trickster",
+					"name": "Arcane Hilekar",
 					"subclassFeatures": [
 						[
 							{
-								"name": "Arcane Trickster",
+								"name": "Arcane Hilekar",
 								"entries": [
-									"Some rogues enhance their fine-honed skills of stealth and agility with magic, learning tricks of enchantment and illusion. These rogues include pickpockets and burglars, but also pranksters, mischief-makers, and a significant number of adventurers.",
+									"Bazı düzenbazlar gizlenme ve çeviklik yeteneklerini cezbetme ve illüzyon büyüleri ile desteklerler. Bu düzenbazlar arasında yankesiciler ve hırsızlar dışında şakacılar, haylazlar ve büyük miktarda maceracılar da vardır.",
 									{
 										"type": "entries",
-										"name": "Mage Hand Legerdemain",
+										"name": "Büyücü Eli Çabukluğu",
 										"entries": [
-											"Starting at 3rd level, when you cast {@spell mage hand}, you can make the spectral hand {@condition invisible}, and you can perform the following additional tasks with it:",
+											"3. seviyeden itibaren {@spell mage hand} büyüsünü kullandığında spektral eli görünmez yapabilir ve bu ek işleri gerçekleştirebilirsin:",
 											{
 												"type": "list",
 												"items": [
-													"You can stow one object the hand is holding in a container worn or carried by another creature.",
-													"You can retrieve an object in a container worn or carried by another creature.",
-													"You can use thieves' tools to pick lock and disarm traps at range."
+													"Elin tuttuğu bir nesneyi başka bir varlığın tuttuğu yada taşıdığı bir kaba yerleştirebilirsin.",
+													"Başka bir varlığın tuttuğu yada taşıdığı kaptan bir nesnee alabilirsin.",
+													"Hırsız aletlerini kullanıp kilit açma yada tuzak kaldırmayı uzaktan yapabilirsin."
 												]
 											},
-											"You can perform one of these tasks without being noticed by a creature if you succeed on a Dexterity (Sleight of Hand) check contested by the creature's Wisdom (Perception) check.",
-											"In addition, you can use the bonus action granted by your Cunning Action to control the hand."
+											"Bunlardan birini eğer senin Çeviklik (El Çabukluğu) zarın diğer varlıkların Akıl (Algılama) zarından yüksek olursa farkedilmeden yapabilirsin.",
+											"Ek olarak, eli Kurnaz Eylem özelliği ile bonus eylem olarak kontrol edebilirsin."
 										]
 									},
 									{
