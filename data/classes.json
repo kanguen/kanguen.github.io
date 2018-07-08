@@ -25431,119 +25431,119 @@
 													],
 													[
 														"43-44",
-														"For the next minute, you can teleport up to 20 feet as a bonus action on each of your turns."
+														"Önündeki bir dakika boyunca her sıranda bonus eylem olarak 20 feet'e kadar ışınlanabilirsin."
 													],
 													[
 														"45-46",
-														"You cast {@spell levitate} on yourself."
+														"{@spell Levitate} büyüsünü kendi üzerinde kullanırsın."
 													],
 													[
 														"47-48",
-														"A unicorn controlled by the DM appears in a space within 5 feet of you, then disappears 1 minute later."
+														"DM tarafından kontrol edilen bir unicorn 5 feet yakınında boş bir alanda belirir ve 1 dakika sonra kaybolur."
 													],
 													[
 														"49-50",
-														"You can't speak for the next minute. Whenever you try, pink bubbles float out of your mouth."
+														"Önündeki bir dakika boyunca konuşamazsın. Her denemende ağzından pembe baloncuklar çıkar."
 													],
 													[
 														"51-52",
-														"A spectral shield hovers near you for the next minute, granting you a +2 bonus to AC and immunity to {@spell magic missile}."
+														"Önündeki bir dakika boyunca spektral bir kalkan çevrende döner ve sana +2 AC bonusu ve {@spell magic missile} büyüsüne bağışıklık verir."
 													],
 													[
 														"53-54",
-														"You are immune to being intoxicated by alcohol for the next 5d6 days."
+														"Önündeki 5d6 gün boyunca alkolden sarhoş olamazsın."
 													],
 													[
 														"55-56",
-														"Your hair falls out but grows back within 24 hours."
+														"Tüm saçın dökülür ama 24 saat sonra yeniden çıkar."
 													],
 													[
 														"57-58",
-														"For the next minute, any flammable object you touch that isn't being worn or carried by another creature bursts into flame."
+														"Önündeki bir dakika boyunca başkası tarafından giyilmeyen yada taşınmayan tüm yanıcı nesneler sen dokunduğunda alev alır."
 													],
 													[
 														"59-60",
-														"You regain your lowest-level expended spell slot."
+														"En düşük seviye harcanmış büyü yuvanı yenilersin."
 													],
 													[
 														"61-62",
-														"For the next minute, you must shout when you speak."
+														"Önündeki bir dakika boyunca konuşurken bağırmalısın."
 													],
 													[
 														"63-64",
-														"You cast {@spell fog cloud} centered on yourself."
+														"{@spell Fog cloud} büyüsünü kendi üzerinde merkezlenmiş bir şekilde kullanırsın."
 													],
 													[
 														"65-66",
-														"Up to three creatures you choose within 30 feet of you take 4d10 lightning damage."
+														"30 feet yakınında seçeceğin 3 taneye kadar varlık 4d10 yıldırım hasarı alır."
 													],
 													[
 														"67-68",
-														"You are {@condition frightened} by the nearest creature until the end of your next turn."
+														"Bir sonraki sıranın sonuna kadar en yakınındaki varlıktan korkarsın."
 													],
 													[
 														"69-70",
-														"Each creature within 30 feet of you becomes {@condition invisible} for the next minute. The invisibility ends on a creature when it attacks or casts a spell."
+														"30 feet yakınındaki tüm varlıklar önündeki bir dakika boyunca görünmez olur. Varlığın görünmezliği eğer saldırırsa yada büyü kullanırsa sona erer."
 													],
 													[
 														"71-72",
-														"You gain resistance to all damage for the next minute."
+														"Önündeki bir dakika boyunca tüm hasar tiplerine direnç kazanırsın."
 													],
 													[
 														"73-74",
-														"A random creature within 60 feet of you becomes poisoned for 1d4 hours."
+														"60 feet yakınındaki rastgele bir varlık 1d4 saatliğine zehirlenir."
 													],
 													[
 														"75-76",
-														"You glow with bright light in a 30-foot radius for the next minute. Any creature that ends its turn within 5 feet of you is {@condition blinded} until the end of its next turn."
+														"Önündeki bir dakika boyunca 30 feet çapında parlak ışık saçarsın. Sırasını senin 5 feet yakınında bitiren tüm varlıklar bir sonraki sırasının sonuna kadar kör olur."
 													],
 													[
 														"77-78",
-														"You cast {@spell polymorph} on yourself. If you fail the saving throw, you turn into a sheep for the spell's duration."
+														"{@spell Polymorph} büyüsünü kendi üzerinde kullanırsın. Eğer kurtulma zarında başarısız olursan büyünün süresi boyunca bir koyuna dönüşürsün."
 													],
 													[
 														"79-80",
-														"Illusory butterflies and flower petals flutter in the air within 10 feet of you for the next minute."
+														"Önündeki bir dakika boyunca illüzyon kelebekler ve çiçek yaprakları 10 feet çevrende uçuşur."
 													],
 													[
 														"81-82",
-														"You can take one additional action immediately."
+														"Anında fazladan bir eylem kullanabilirsin."
 													],
 													[
 														"83-84",
-														"Each creature within 30 feet of you takes 1d10 necrotic damage. You regain hit points equal to the sum of the necrotic damage dealt."
+														"30 feet yakınındaki tüm varlıklar 1d10 nekrotik hasar alır. Hasar toplamı kadar HP yenilersin."
 													],
 													[
 														"85-86",
-														"You cast {@spell mirror image}."
+														"{@spell Mirror image} büyüsünü kullanırsın."
 													],
 													[
 														"87-88",
-														"You cast {@spell fly} on a random creature within 60 feet of you."
+														"60 feet yakınındaki rastgele bir varlığın üzerinde {@spell fly} büyüsünü kullanırsın."
 													],
 													[
 														"89-90",
-														"You become {@condition invisible} for the next minute. During that time, other creatures can't hear you. The invisibility ends if you attack or cast a spell."
+														"Önündeki bir dakika boyunca görünmez olursun. Bu süre boyunca diğer varlıklar seni duyamaz. Eğer saldırı yaparsan yada büyü kullanırsan görünmezlik sona erer."
 													],
 													[
 														"91-92",
-														"If you die within the next minute, you immediately come back to life as if by the {@spell reincarnate} spell."
+														"Eğer önündeki bir dakika içinde ölürsen, {@spell reincarnate} büyüsü kullanılmış gibi anında hayata geri dönersin."
 													],
 													[
 														"93-94",
-														"Your size increases by one size category for the next minute."
+														"Önündeki bir dakika boyunca boyutun bir boyut kategorisi artar."
 													],
 													[
 														"95-96",
-														"You and all creatures within 30 feet of you gain vulnerability to piercing damage for the next minute."
+														"Önündeki bir dakika boyunca sen ve senin 30 feet yakınındaki tüm varlıklar delme hasarına zayıflık kazanır."
 													],
 													[
 														"97-98",
-														"You are surrounded by faint, ethereal music for the next minute."
+														"Önündeki bir dakika boyunca hafif ve ruhani bir müzik etrafını sarar."
 													],
 													[
 														"99-100",
-														"You regain all expended sorcery points."
+														"Harcanan tüm sorcery puanlarını yenilersin."
 													]
 												]
 											}
@@ -25551,10 +25551,10 @@
 									},
 									{
 										"type": "entries",
-										"name": "Tides of Chaos",
+										"name": "Kaos Dalgaları",
 										"entries": [
-											"Starting at 1st level, you can manipulate the forces of chance and chaos to gain advantage on one attack roll, ability check, or saving throw. Once you do so, you must finish a long rest before you can use this feature again.",
-											"Any time before you regain the use of this feature, the DM can have you roll on the Wild Magic Surge table immediately after you cast a sorcerer spell of 1st level or higher. You then regain the use of this feature."
+											"1. seviyeden itibaren şans ve kaos güçlerini kontrol edip bir saldırı, beceri yada kurtulma zarında kendine avantaj verebilirsin. Yaptığında bu özelliği yeniden kullanabilmek için uzun dinlenme bitirmen gerekir.",
+											"Bu özelliği geri kazanmadan önce 1. seviye ve üzeri bir sorcerer büyüsü kullandığında DM sana Vahşi Büyü Taşması tablosunda zar attırabilir. Sonrasında bu özelliği yeniden kullanabilirsin."
 										]
 									}
 								]
@@ -25565,9 +25565,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Bend Luck",
+										"name": "Şansı Bük",
 										"entries": [
-											"Starting at 6th level, you have the ability to twist fate using your wild magic. When another creature you can see makes an attack roll, an ability check, or a saving throw, you can use your reaction and spend 2 sorcery points to roll 1d4 and apply the number rolled as a bonus or penalty (your choice) to the creature's roll. You can do so after the creature rolls but before any effects of the roll occur."
+											"6. seviyeden itibaren vahşi büyünü kullanarak kaderi bükebilirsin. Görebildiğin başka bir varlık saldırı, beceri yada kurtulma zarı attığında reaksiyonunu kullanıp 2 sorcery puanı harcayarak 1d4 zar atıp bunu sonuca ekleyebilir yada çıkartabilirsin. Bunu varlık zarı attıktan sonra yapabilirsin ama sonuç açıklanmadan önce yapmalısın."
 										]
 									}
 								]
@@ -25578,9 +25578,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Controlled Chaos",
+										"name": "Kontrollü Kaos",
 										"entries": [
-											"At 14th level, you gain a modicum of control over the surges of your wild magic. Whenever you roll on the Wild Magic Surge table, you can roll twice and use either number."
+											"14. seviyede vahşi büyün üzerinde bir nevi kontrol elde edersin. Ne zaman Vahşi Büyü Taşması tablosunda zar atarsan, iki zar atıp istediğini kullanabilirsin."
 										]
 									}
 								]
@@ -25591,9 +25591,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Spell Bombardment",
+										"name": "Büyü Bombardımanı",
 										"entries": [
-											"Beginning at 18th level, the harmful energy of your spells intensifies. When you roll damage for a spell and roll the highest number possible on any of the dice, choose one of those dice, roll it again and add that roll to the damage. You can use the feature only once per turn."
+											"18. seviyeden itibaren büyülerinin zararlı enerjisi artar. Bir büyü için hasar zarı attığında, zar üzerinde maksimum sayıyı atarsan zarlardan birini seç ve onu yeniden atarak sonuca ekle. Bu özelliği her sıranda sadece bir kere kullanabilirsin."
 										]
 									}
 								]
@@ -25601,7 +25601,7 @@
 						]
 					],
 					"source": "PHB",
-					"shortName": "Wild "
+					"shortName": "Vahşi "
 				},
 				{
 					"name": "Favored Soul (UA)",
