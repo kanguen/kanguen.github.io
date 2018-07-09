@@ -6777,7 +6777,7 @@
 			"classTableGroups": [
 				{
 					"colLabels": [
-						"{@filter Cantrips Known|spells|level=0|class=Druid}"
+						"{@filter Bilinen Cantripler|spells|level=0|class=Druid}"
 					],
 					"rows": [
 						[
@@ -6843,17 +6843,17 @@
 					]
 				},
 				{
-					"title": "Spell Slots per Spell Level",
+					"title": "Büyü Seviyesi Başına Büyü Yuvaları",
 					"colLabels": [
-						"{@filter 1st|spells|level=1|class=Druid}",
-						"{@filter 2nd|spells|level=2|class=Druid}",
-						"{@filter 3rd|spells|level=3|class=Druid}",
-						"{@filter 4th|spells|level=4|class=Druid}",
-						"{@filter 5th|spells|level=5|class=Druid}",
-						"{@filter 6th|spells|level=6|class=Druid}",
-						"{@filter 7th|spells|level=7|class=Druid}",
-						"{@filter 8th|spells|level=8|class=Druid}",
-						"{@filter 9th|spells|level=9|class=Druid}"
+						"{@filter 1.|spells|level=1|class=Druid}",
+						"{@filter 2.|spells|level=2|class=Druid}",
+						"{@filter 3.|spells|level=3|class=Druid}",
+						"{@filter 4.|spells|level=4|class=Druid}",
+						"{@filter 5.|spells|level=5|class=Druid}",
+						"{@filter 6.|spells|level=6|class=Druid}",
+						"{@filter 7.|spells|level=7|class=Druid}",
+						"{@filter 8.|spells|level=8|class=Druid}",
+						"{@filter 9.|spells|level=9|class=Druid}"
 					],
 					"rows": [
 						[
@@ -7081,45 +7081,45 @@
 			],
 			"startingProficiencies": {
 				"armor": [
-					"light",
-					"medium",
-					"shields (druids will not wear armor or use shields made of metal)"
+					"hafif",
+					"orta",
+					"kalkanlar (druidler metalden yapılma zırh yada kalkan kullanmazlar)"
 				],
 				"weapons": [
-					"clubs",
-					"daggers",
-					"darts",
-					"javelins",
-					"maces",
-					"quarterstaffs",
-					"scimitars",
-					"sickles",
-					"slings",
-					"spears"
+					"sopalar",
+					"hançerler",
+					"dartlar",
+					"ciritler",
+					"gürzler",
+					"asalar",
+					"palalar",
+					"oraklar",
+					"sapanlar",
+					"mızraklar"
 				],
 				"tools": [
-					"herbalism kit"
+					"otacılık kiti"
 				],
 				"skills": {
 					"choose": 2,
 					"from": [
 						"Arcana",
-						"Animal Handling",
-						"Insight",
-						"Medicine",
-						"Nature",
-						"Perception",
-						"Religion",
-						"Survival"
+						"Hayvan İdaresi",
+						"Sezgi",
+						"Tıp",
+						"Doğa",
+						"Algılama",
+						"Din",
+						"Hayatta Kalma"
 					]
 				}
 			},
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) a wooden shield or (b) any simple weapon",
-					"(a) a scimitar or (b) any simple melee weapon",
-					"Leather armor, an explorer's pack, and a druidic focus"
+					"(a) bir ahşap kalkan yada (b) herhangi bir basit silah",
+					"(a) bir pala yada (b) herhangi bir basit silah",
+					"Deri zırh, bir kaşifin paketi, ve bir druid odağı"
 				],
 				"goldAlternative": "2d4 × 10"
 			},
@@ -7128,45 +7128,45 @@
 					{
 						"name": "Druidic",
 						"entries": [
-							"You know Druidic, the secret language of druids. You can speak the language and use it to leave hidden messages. You and others who know this language automatically spot such a message. Others spot the message's presence with a successful DC 15 Wisdom (Perception) check but can't decipher it without magic."
+							"Druidlerin gizli dili olan Druidic bilirsin. Dili konuşabilirsin ve onu kullanarak gizli mesajlar bırakabilirsin. Sen ve bu dili bilen diğerleri otomatik olarak bu tip mesajları farkederler. Diğerleri mesajın varlığını başarılı bir DC 15 Akıl (Algılama) zarı ile farkederler ama büyü olmadan anlamını çözemezler."
 						]
 					},
 					{
-						"name": "Spellcasting",
+						"name": "Büyü Yapma",
 						"entries": [
-							"Drawing on the divine essence of nature itself, you can cast spells to shape that essence to your will. See chapter 10 for the general rules of spellcasting and chapter 11 for the druid spell list.",
+							"Doğanın kutsal özünü kullanıp onu iradenle şekillendirerek büyü yapabilirsin.",
 							{
 								"type": "entries",
-								"name": "Cantrips",
+								"name": "Cantripler",
 								"entries": [
-									"At 1st level, you know two cantrips of your choice from the druid spell list. You learn additional druid cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Druid table."
+									"1. seviyede druid büyü listesinden seçeceğin 2 cantrip bilirsin. Druid tablosunun Bilinen Cantripler sütununda görebileceğin üzere üst seviyelerde fazladan druid cantripleri öğrenirsin."
 								]
 							},
 							{
 								"type": "entries",
-								"name": "Preparing and Casting Spells",
+								"name": "Büyüleri Hazırlama ve Kullanma",
 								"entries": [
-									"The Druid table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these druid spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
-									"You prepare the list of druid spells that are available for you to cast, choosing from the druid spell list. When you do so, choose a number of druid spells equal to your Wisdom modifier + your druid level (minimum of one spell). The spells must be of a level for which you have spell slots.",
-									"For example, if you are a 3rd-level druid, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell {@spell cure wounds}, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.",
-									"You can also change your list of prepared spells when you finish a long rest. Preparing a new list of druid spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list."
+									"Druid tablosu 1. seviye ve üzeri büyülerini kullanmak için ne kadar büyü yuvan olduğunu gösterir. Bu büyülerden birini kullanmak için büyünün seviyesi yada üzeri bir yuva harcaman gerekir. Tüm harcanan büyü yuvaları uzun dinlenme sonrası yenilenir.",
+									"Druid listesinden seçip senin kullanımına uygun olan büyüleri hazırlarsın. Bunu yaptığında Akıl bonusun + druid seviyen kadar (en az 1) druid büyüsünü seçersin. Büyüler sahip olduğun büyü yuvalarına uygun olmalıdır.",
+									"Örneğin, eğer sen bir 3. seviye druid isen dört tane 1. seviye iki tane 2. seviye büyü yuvan olur. 16 Akıl skoru ile hazırlayabileceğin büyü listesi istediğin kombinasyonda 6 adet 1. yada 2. seviye büyü içerir. Eğer 1. seviye büyüsü {@spell cure wounds} hazırlarsan, bunu 1. yada 2. seviye büyü yuvası harcayarak kullanabilirsin. Büyüyü kullanmak onu hazırlanmış büyüler listesinden çıkarmaz.",
+									"Hazırlanmış büyü listeni bir uzun dinlenme sonrası değiştirebilirsin. Yeni bir druid büyü listesi hazırlamak için dua ve meditasyonda zaman geçirmen gerekir: listedeki her büyü için büyü seviyesi başına en az 1 dakika."
 								]
 							},
 							{
 								"type": "entries",
-								"name": "Spellcasting Ability",
+								"name": "Büyü Yapma Yeteneği",
 								"entries": [
-									"Wisdom is your spellcasting ability for your druid spells, since your magic draws upon your devotion and attunement to nature. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a druid spell you cast and when making an attack roll with one.",
+									"Druid büyüleri için büyü yapma yeteneğin Akıldır çünkü senin büyün doğaya olan bağlılığın ve uyumundan gelir. Ne zaman bir büyü senin büyü yapma yeteneğinden bahsederse Akıl kullanırsın. Ek olarak druid büyülerinin kurtulma zarı DC'sini belirlerken ve onlarla saldırı yaparken de Akıl bonusunu kullanırsın.",
 									{
 										"type": "abilityDc",
-										"name": "Spell",
+										"name": "Büyü",
 										"attributes": [
 											"wis"
 										]
 									},
 									{
 										"type": "abilityAttackMod",
-										"name": "Spell",
+										"name": "Büyü",
 										"attributes": [
 											"wis"
 										]
@@ -7175,16 +7175,16 @@
 							},
 							{
 								"type": "entries",
-								"name": "Ritual Casting",
+								"name": "Ritüel Büyü Yapma",
 								"entries": [
-									"You can cast a druid spell as a ritual if that spell has the ritual tag and you have the spell prepared."
+									"Eğer bir druid büyüsü ritüel etiketine sahipse ve senin hazırlanmış büyülerin arasındaysa bunu ritüel olarak kullanabilirsin."
 								]
 							},
 							{
 								"type": "entries",
-								"name": "Spellcasting Focus",
+								"name": "Büyü Yapma Odağı",
 								"entries": [
-									"You can use a druidic focus (found in chapter 5) as a spellcasting focus for your druid spells"
+									"Druid büyülerin için büyü yapma odağı olarak druid odağı kullanabilirsin."
 								]
 							}
 						]
@@ -7192,18 +7192,18 @@
 				],
 				[
 					{
-						"name": "Wild Shape",
+						"name": "Yabani Şekil",
 						"entries": [
-							"Starting at 2nd level, you can use your action to magically assume the shape of a beast that you have seen before. You can use this feature twice. You regain expended uses when you finish a short or long rest.",
-							"Your druid level determines the beasts you can transform into, as shown in the Beast Shapes table. At 2nd level, for example, you can transform into any beast that has a challenge rating of 1/4 or lower that doesn't have a flying or swimming speed.",
+							"2. seviyeden itibaren eylemini kullanarak büyülü bir şekilde daha önce gördüğün bir hayvanın şeklini alabilirsin. Bu özelliği iki kere kullanabilirsin. Harcanan kullanımları kısa yada uzun dinlenme bitirdiğinde yenilersin.",
+							"Druid seviyen Hayvan Şekilleri tablosunda görüleceği üzere dönüşebileceğin hayvanları belirler. Örneğin, 2. seviyede zorluk seviyesi (CR) 1/4 yada daha düşük olan ve uçma yada yüzme hızı olmayan bir hayvana dönüşebilirsin.",
 							{
 								"type": "table",
-								"caption": "Beast Shapes",
+								"caption": "Hayvan Şekilleri",
 								"colLabels": [
-									"Level",
+									"Seviye",
 									"Max. CR",
-									"Limitations",
-									"Example"
+									"Sınırlamalar",
+									"Örnek"
 								],
 								"colStyles": [
 									"col-xs-2 text-align-center",
@@ -7213,43 +7213,43 @@
 								],
 								"rows": [
 									[
-										"{@filter 2nd|bestiary|cr=0;1/8;1/4|type=beast|speed=!fly;!swim|miscellaneous=!swarm}",
+										"{@filter 2.|bestiary|cr=0;1/8;1/4|type=beast|speed=!fly;!swim|miscellaneous=!swarm}",
 										"1/4",
-										"No flying or swimming speed",
-										"Wolf"
+										"Uçma yada yüzme hızı olamaz",
+										"Kurt"
 									],
 									[
-										"{@filter 4th|bestiary|cr=0;1/8;1/4;1/2|type=beast|speed=!fly|miscellaneous=!swarm}",
+										"{@filter 4.|bestiary|cr=0;1/8;1/4;1/2|type=beast|speed=!fly|miscellaneous=!swarm}",
 										"1/2",
-										"No flying speed",
-										"Crocodile"
+										"Uçma hızı olamaz",
+										"Timsah"
 									],
 									[
-										"{@filter 8th|bestiary|cr=0;1/8;1/4;1/2;1|type=beast|speed=null|miscellaneous=!swarm}",
+										"{@filter 8.|bestiary|cr=0;1/8;1/4;1/2;1|type=beast|speed=null|miscellaneous=!swarm}",
 										"1",
 										"\u2014",
-										"Giant eagle"
+										"Dev Kartal"
 									]
 								]
 							},
-							"You can stay in a beast shape for a number of hours equal to half your druid level (rounded down). You then revert to your normal form unless you expend another use of this feature. You can revert to your normal form earlier by using a bonus action on your turn. You automatically revert if you fall {@condition unconscious}, drop to 0 hit points, or die.",
-							"While you are transformed, the following rules apply:",
+							"Bir hayvan formunda druid seviyenin yarısı (alta yuvarlanır) kadar saat kalabilirsin. Sonrasında eğer bu özelliğin bir kullanımını daha harcamazsan eski formuna dönersin. Eski formuna istediğin zaman sıranda bonus eylem kullanarak dönebilirsin. Eğer bilinçsiz kalırsan, 0 HP'ye düşersen yada ölürsen otomatik olarak eski haline dönersin.",
+							"Dönüşmüşken bu kurallar geçerlidir:",
 							{
 								"type": "list",
 								"items": [
-									"Your game statistics are replaced by the statistics of the beast, but you retain your alignment, personality, and Intelligence, Wisdom, and Charisma scores. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the creature. If the creature has the same proficiency as you and the bonus in its stat block is higher than yours, use the creature's bonus instead of yours. If the creature has any legendary or lair actions, you can't use them.",
-									"When you transform, you assume the beast's hit points and Hit Dice. When you revert to your normal form, you return to the number of hit points you had before you transformed. However, if you revert as a result of dropping to 0 hit points, any excess damage carries over to your normal form. For example, if you take 10 damage in animal form and have only 1 hit point left, you revert and take 9 damage. As long as the excess damage doesn't reduce your normal form to 0 hit points, you aren't knocked {@condition unconscious}.",
-									"You can't cast spells, and your ability to speak or take any action that requires hands is limited to the capabilities of your beast form. Transforming doesn't break your concentration on a spell you've already cast, however, or prevent you from taking actions that are part of a spell, such as {@spell call lightning}, that you've already cast.",
-									"You retain the benefit of any features from your class, race, or other source and can use them if the new form is physically capable of doing so. However, you can't use any of your special senses, such as darkvision, unless your new form also has that sense.",
-									"You choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the DM decides whether it is practical for the new form to wear a piece of equipment, based on the creature's shape and size. Your equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with it. Equipment that merges with the form has no effect until you leave the form."
+									"Senin oyun istatistiklerin hayvanınkilerle değişir ama hala kişiliğin, hizan ve Zeka, Akıl ve Karizma skorların aynı kalır. Varlığınkileri eklemenin yanında kendi becerilerin ve kurtulma zarı uzmanlıkların da kalır. Eğer varlık senle aynı uzmanlığa sahipse ve onun stat bloğundaki bonus daha yüksekse, kendi bonusun yerine varlığınkini kullanabilirsin. Eğer varlık herhangi bir efsanevi yada yuva eylemine sahipse bunları kullanamazsın.",
+									"Dönüştüğünde hayvanın HP ve HD'sini kullanırsın. Eski formuna döndüğünde, dönüşmeden önceki HP sayısı ile devam edersin. Ama, eğer 0 HP'ye düşme sonucu eski formuna döndüysen fazlalık hasar normal formuna aktarılır. Örneğin, hayvan formunda 10 hasar aldın ve hayvan formunun sadece 1 HP'si kalmış, bu durumda eski formuna dönersin ve 9 hasar alırsın. Fazlalık hasar senin asıl formunu 0 HP'ye düşürmediği sürece bilinçsiz kalmazsın.",
+									"Büyü yapamazsın ve konuşman yada elle yapılacak tüm eylemlerin hayvan formu ile sınırlıdır. Dönüşmen daha önce kullandığın bir büyünün konsantrasyonunu bozmaz yada büyünün bir parçası olan eylemleri yapmanı engellemez, {@spell call lightning} büyüsü gibi.",
+									"Sınıfın, ırkın yada başka kaynaktan gelen özelliklerinden yeni formunda fiziksel olarak uygunsa faydalanabilirsin. Ama yeni formunda o duyuya sahip değilse, gece görüşü gibi duyulardan faydalanamazsın.",
+									"Dönüştüğünde ekipmanın yere mi düşecek, yeni formun ile mi birleşecek yada yeni formun tarafından mı kullanılacak sen seçersin. Ekipmanın normal olarak işler ama yeni formunun o ekipmanı kullanması uygun mu diye DM karar verir. Ekipmanın yeni forma uymak için şekil yada boyut değiştirmez ve yeni formun kullanamayacağı ekipman ya yere düşer yada yeni form ile birleşir. Formunla birleşen ekipman sen eski haline dönene dek bir etki göstermez."
 								]
 							}
 						]
 					},
 					{
-						"name": "Druid Circle",
+						"name": "Druid Çemberi",
 						"entries": [
-							"At 2nd level, you choose to identify with a circle of druids from the list of available circles. Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level."
+							"2. seviyede mevcut listeden bir druid çemberine bağlanırsın. Seçimin sana 2, 6, 10 ve 14. seviyelerde özellikler kazandırır."
 						],
 						"gainSubclassFeature": true
 					}
@@ -7257,9 +7257,9 @@
 				[],
 				[
 					{
-						"name": "Wild Shape Improvement",
+						"name": "Yabani Şekil Gelişimi",
 						"entries": [
-							"At 4th level, your Wild Shape improves as shown on the Beast Shapes table."
+							"4. seviyede Yabani Şekil özelliğin Hayvan Şekilleri tablosunda gösterildiği gibi gelişir."
 						]
 					},
 					{
@@ -7273,9 +7273,9 @@
 				[],
 				[
 					{
-						"name": "Druid Circle feature",
+						"name": "Druid Çemberi Özelliği",
 						"entries": [
-							"At 6th level, you gain a feature granted by your Druid Circle feature."
+							"6. seviyede Druid Çemberinin sunduğu bir özellik kazanırsın."
 						],
 						"gainSubclassFeature": true
 					}
@@ -7283,15 +7283,15 @@
 				[],
 				[
 					{
-						"name": "Wild Shape Improvement",
+						"name": "Yabani Şekil Gelişimi",
 						"entries": [
-							"At 8th level, your Wild Shape improves as shown on the Beast Shapes table."
+							"8. seviyede Yabani Şekil özelliğin Hayvan Şekilleri tablosunda gösterildiği gibi gelişir."
 						]
 					},
 					{
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
-							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
+							"8. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
 							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
 						]
 					}
@@ -7299,9 +7299,9 @@
 				[],
 				[
 					{
-						"name": "Druid Circle feature",
+						"name": "Druid Çemberi Özelliği",
 						"entries": [
-							"At 10th level, you gain a feature granted by your Druid Circle feature."
+							"10. seviyede Druid Çemberinin sunduğu bir özellik kazanırsın."
 						],
 						"gainSubclassFeature": true
 					}
@@ -7311,7 +7311,7 @@
 					{
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
-							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
+							"12. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
 							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
 						]
 					}
@@ -7319,9 +7319,9 @@
 				[],
 				[
 					{
-						"name": "Druid Circle feature",
+						"name": "Druid Çemberi Özelliği",
 						"entries": [
-							"At 14th level, you gain a feature granted by your Druid Circle feature."
+							"14. seviyede Druid Çemberinin sunduğu bir özellik kazanırsın."
 						],
 						"gainSubclassFeature": true
 					}
@@ -7331,7 +7331,7 @@
 					{
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
-							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
+							"16. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
 							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
 						]
 					}
@@ -7339,15 +7339,15 @@
 				[],
 				[
 					{
-						"name": "Timeless Body",
+						"name": "Zamansız Beden",
 						"entries": [
-							"Starting at 18th level, the primal magic that you wield causes you to age more slowly. For every 10 years that pass, your body ages only 1 year."
+							"18. seviyeden itibaren kullandığın kadim büyü daha yavaş yaşlanmanı sağlar. Her geçen 10 yıl için bedenin 1 yıl yaşlanır."
 						]
 					},
 					{
-						"name": "Beast Spells",
+						"name": "Hayvan Büyüleri",
 						"entries": [
-							"Beginning at 18th level, you can cast many of your druid spells in any shape you assume using Wild Shape. You can perform the somatic and verbal components of a druid spell while in a beast shape, but you aren't able to provide material components."
+							"18. seviyeden itibaren birçok druid büyünü Yabani Şekil ile dönüştüğün formlarda kullanabilirsin. Hayvan formundayken bedensel ve sözlü bileşenleri yapabilirsin ama materyal bileşenleri kullanamazsın."
 						]
 					}
 				],
@@ -7355,58 +7355,58 @@
 					{
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
-							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
+							"19. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
 							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
 						]
 					}
 				],
 				[
 					{
-						"name": "Archdruid",
+						"name": "Baş Druid",
 						"entries": [
-							"At 20th level, you can use your Wild Shape an unlimited number of times.",
-							"Additionally, you can ignore the verbal and somatic components of your druid spells, as well as any material components that lack a cost and aren't consumed by a spell. You gain this benefit in both your normal shape and your beast shape from Wild Shape."
+							"20. seviyede Yabani Şekil özelliğini sınırsız kullanabilirsin.",
+							"Ek olarak, bedensel, sözlü, gp değeri olmayan ve büyü sırasında harcanmayan materyal bileşenlere ihtiyaç duymazsın. Bu özelliğe hem normal hemde hayvan formunda sahip olursun."
 						]
 					}
 				]
 			],
-			"subclassTitle": "Druid Circle",
+			"subclassTitle": "Druid Çemberi",
 			"subclasses": [
 				{
-					"name": "Circle of the Land",
+					"name": "Toprak Çemberi",
 					"subclassFeatures": [
 						[
 							{
-								"name": "Circle of the Land",
+								"name": "Toprak Çemberi",
 								"entries": [
-									"The Circle of the Land is made up of mystics and sages who safeguard ancient knowledge and rites through a vast oral tradition. These druids meet within sacred circles of trees or standing stones to whisper primal secrets in Druidic. The circle's wisest members preside as the chief priests of communities that hold to the Old Faith and serve as advisors to the rulers of those folk. As a member of this circle, your magic is influenced by the land where you were initiated into the circle's mysterious rites.",
+									"Toprak Çemberi geniş bir sözlü gelenek ile kadim bilgileri ve ritüelleri koruyan mistikler ve bilgeler ile doludur. Bu druidler Druidic ile kadim sırları fısıldaşmak için ağaç yada dikili taş çemberlerinde buluşurlar. Çemberlerin en bilgeleri Eski İnancı devam ettiren toplumlarda başrahip olarak görev yaparlar ve bu halkın yöneticilerine danışman görevi görürler. Bu çemberin bir üyesi olarak senin büyülerin çemberin gizemli ritüelleri ile aralarına katıldığın yer tarafından etkilenir.",
 									{
 										"type": "entries",
 										"name": "Bonus Cantrip",
 										"entries": [
-											"You learn one additional druid cantrip of your choice."
+											"Seçeceğin fazladan bir cantrip öğrenirsin."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Natural Recovery",
+										"name": "Doğal Yenilenme",
 										"entries": [
-											"Starling at 2nd level, you can regain some of your magical energy by sitting in meditation and communing with nature. During a short rest, you choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your druid level (rounded up), and none of the slots can be 6th level or higher. You can't use this feature again until you finish a long rest",
-											"For example, when you are a 4th-level druid, you can recover up to two levels worth of spell slots. You can recover either a 2nd-level slot or two 1st-level slots."
+											"2. seviyeden itibaren oturup meditasyon yapıp doğa ile iletişime geçerek büyü enerjinin bir kısmını yenileyebilirsin. Kısa dinlenme sırasında yenilemek için harcanmış büyü yuvaları seçersin. Büyü yuvalarının toplam seviyesi senin druid seviyenin yarısı (üste yuvarlanır) yada daha az olmalıdır ve hiçbir yuva 6. seviye ve üzeri olamaz. Bu özelliği uzun dinlenme bitirene kadar bir daha kullanamazsın.",
+											"Örneğin, sen 4. seviye bir druidsen iki seviye değerinde büyü yuvası yenileyebilirsin. Bunu bir tane 2. seviye yuva yada iki tane 1. seviye yuva olarak yenileyebilirsin."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Circle Spells",
+										"name": "Çember Büyüleri",
 										"entries": [
-											"Your mystical connection to the land infuses you with the ability to cast certain spells. At 3rd, 5th, 7th, and 9th level you gain access to circle spells connected to the land where you became a druid. Choose that land - arctic, coast, desert, forest, grassland, mountain, swamp, or Underdark - and consult the associated list of spells.",
-											"Once you gain access to a circle spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.",
+											"Senin toprağa olan mistik bağlantın bazı büyüleri kullanmanı sağlar. 3, 5, 7 ve 9. seviyelerde druid olduğun toprağa bağlı olarak çember büyülerine erişim kazanırsın. Toprağı seç - buzul, sahil, çöl, orman, çayır, dağ, bataklık yada yeraltı - ve ona bağlı listeye bak.",
+											"Bir çember büyüsüne erişim sağladığında o daima kullanıma hazırdır ve günlük hazırlanmış büyü listene dahil olmaz. Eğer druid büyü listesinde olmayan bir büyüye erişim sağlarsan bu senin için druid büyüsü sayılır.",
 											{
 												"type": "table",
-												"caption": "Arctic",
+												"caption": "Buzul",
 												"colLabels": [
-													"Druid Level",
-													"Circle Spells"
+													"Druid Seviyesi",
+													"Çember Büyüleri"
 												],
 												"colStyles": [
 													"col-xs-3 text-align-center",
@@ -7414,29 +7414,29 @@
 												],
 												"rows": [
 													[
-														"3rd",
+														"3.",
 														"{@spell hold person}, {@spell spike growth}"
 													],
 													[
-														"5th",
+														"5.",
 														"{@spell sleet storm}, {@spell slow}"
 													],
 													[
-														"7th",
+														"7.",
 														"{@spell freedom of movement}, {@spell ice storm}"
 													],
 													[
-														"9th",
+														"9.",
 														"{@spell commune with nature}, {@spell cone of cold}"
 													]
 												]
 											},
 											{
 												"type": "table",
-												"caption": "Coast",
+												"caption": "Sahil",
 												"colLabels": [
-													"Druid Level",
-													"Circle Spells"
+													"Druid Seviyesi",
+													"Çember Büyüleri"
 												],
 												"colStyles": [
 													"col-xs-3 text-align-center",
@@ -7444,29 +7444,29 @@
 												],
 												"rows": [
 													[
-														"3rd",
+														"3.",
 														"{@spell mirror image}, {@spell misty step}"
 													],
 													[
-														"5th",
+														"5.",
 														"{@spell water breathing}, {@spell water walk}"
 													],
 													[
-														"7th",
+														"7.",
 														"{@spell control water}, {@spell freedom of movement}"
 													],
 													[
-														"9th",
+														"9.",
 														"{@spell conjure elemental}, {@spell scrying}"
 													]
 												]
 											},
 											{
 												"type": "table",
-												"caption": "Desert",
+												"caption": "Çöl",
 												"colLabels": [
-													"Druid Level",
-													"Circle Spells"
+													"Druid Seviyesi",
+													"Çember Büyüleri"
 												],
 												"colStyles": [
 													"col-xs-3 text-align-center",
@@ -7474,29 +7474,29 @@
 												],
 												"rows": [
 													[
-														"3rd",
+														"3.",
 														"{@spell blur}, {@spell silence}"
 													],
 													[
-														"5th",
+														"5.",
 														"{@spell create food and water}, {@spell protection from energy}"
 													],
 													[
-														"7th",
+														"7.",
 														"{@spell blight}, {@spell hallucinatory terrain}"
 													],
 													[
-														"9th",
+														"9.",
 														"{@spell insect plague}, {@spell wall of stone}"
 													]
 												]
 											},
 											{
 												"type": "table",
-												"caption": "Forest",
+												"caption": "Orman",
 												"colLabels": [
-													"Druid Level",
-													"Circle Spells"
+													"Druid Seviyesi",
+													"Çember Büyüleri"
 												],
 												"colStyles": [
 													"col-xs-3 text-align-center",
@@ -7504,29 +7504,29 @@
 												],
 												"rows": [
 													[
-														"3rd",
+														"3.",
 														"{@spell barkskin}, {@spell spider climb}"
 													],
 													[
-														"5th",
+														"5.",
 														"{@spell call lightning}, {@spell plant growth}"
 													],
 													[
-														"7th",
+														"7.",
 														"{@spell divination}, {@spell freedom of movement}"
 													],
 													[
-														"9th",
+														"9.",
 														"{@spell commune with nature}, {@spell insect plague}"
 													]
 												]
 											},
 											{
 												"type": "table",
-												"caption": "Grassland",
+												"caption": "Çayır",
 												"colLabels": [
-													"Druid Level",
-													"Circle Spells"
+													"Druid Seviyesi",
+													"Çember Büyüleri"
 												],
 												"colStyles": [
 													"col-xs-3 text-align-center",
@@ -7534,29 +7534,29 @@
 												],
 												"rows": [
 													[
-														"3rd",
+														"3.",
 														"{@spell invisibility}, {@spell pass without trace}"
 													],
 													[
-														"5th",
+														"5.",
 														"{@spell daylight}, {@spell haste}"
 													],
 													[
-														"7th",
+														"7.",
 														"{@spell divination}, {@spell freedom of movement}"
 													],
 													[
-														"9th",
+														"9.",
 														"{@spell dream}, {@spell insect plague}"
 													]
 												]
 											},
 											{
 												"type": "table",
-												"caption": "Mountain",
+												"caption": "Dağ",
 												"colLabels": [
-													"Druid Level",
-													"Circle Spells"
+													"Druid Seviyesi",
+													"Çember Büyüleri"
 												],
 												"colStyles": [
 													"col-xs-3 text-align-center",
@@ -7564,29 +7564,29 @@
 												],
 												"rows": [
 													[
-														"3rd",
+														"3.",
 														"{@spell spider climb}, {@spell spike growth}"
 													],
 													[
-														"5th",
+														"5.",
 														"{@spell lightning bolt}, {@spell meld into stone}"
 													],
 													[
-														"7th",
+														"7.",
 														"{@spell stone shape}, {@spell stoneskin}"
 													],
 													[
-														"9th",
+														"9.",
 														"{@spell passwall}, {@spell wall of stone}"
 													]
 												]
 											},
 											{
 												"type": "table",
-												"caption": "Swamp",
+												"caption": "Bataklık",
 												"colLabels": [
-													"Druid Level",
-													"Circle Spells"
+													"Druid Seviyesi",
+													"Çember Büyüleri"
 												],
 												"colStyles": [
 													"col-xs-3 text-align-center",
@@ -7594,29 +7594,29 @@
 												],
 												"rows": [
 													[
-														"3rd",
+														"3.",
 														"{@spell darkness}, {@spell Melf's acid arrow}"
 													],
 													[
-														"5th",
+														"5.",
 														"{@spell water walk}, {@spell stinking cloud}"
 													],
 													[
-														"7th",
+														"7.",
 														"{@spell freedom of movement}, {@spell locate creature}"
 													],
 													[
-														"9th",
+														"9.",
 														"{@spell insect plague}, {@spell scrying}"
 													]
 												]
 											},
 											{
 												"type": "table",
-												"caption": "Underdark",
+												"caption": "Yeraltı",
 												"colLabels": [
-													"Druid Level",
-													"Circle Spells"
+													"Druid Seviyesi",
+													"Çember Büyüleri"
 												],
 												"colStyles": [
 													"col-xs-3 text-align-center",
@@ -7624,19 +7624,19 @@
 												],
 												"rows": [
 													[
-														"3rd",
+														"3.",
 														"{@spell spider climb}, {@spell web}"
 													],
 													[
-														"5th",
+														"5.",
 														"{@spell gaseous form}, {@spell stinking cloud}"
 													],
 													[
-														"7th",
+														"7.",
 														"{@spell greater invisibility}, {@spell stone shape}"
 													],
 													[
-														"9th",
+														"9.",
 														"{@spell cloudkill}, {@spell insect plague}"
 													]
 												]
@@ -7651,10 +7651,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Land's Stride",
+										"name": "Toprağın Adımı",
 										"entries": [
-											"Starting at 6th level, moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.",
-											"In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the {@spell entangle} spell."
+											"6. seviyeden itibaren büyüsüz zorlu yüzeylerden geçme sana fazladan harekete mal olmaz. Büyüsüz bitkilerin arasından yavaşlamadan yada dikenleri varsa hasar almadan geçebilirsin.",
+											"Ek olarak, büyülü bir şekilde yaratılmış yada hareketi engellemek için kullanılan ({@spell entangle büyüsü ile yaratılanlar gibi}) bitkilere karşı attığın kurtulma zarlarında avantajın olur."
 										]
 									}
 								]
@@ -7665,9 +7665,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Nature's Ward",
+										"name": "Doğanın Kalkanı",
 										"entries": [
-											"When you reach 10th level, you can't be {@condition charmed} or {@condition frightened} by elementals or fey, and you are immune to poison and disease."
+											"10. seviyeye ulaştığında elementaller ve fey tarafından cezbedilemez yada korkutulamazsın ve bunun yanında zehir ve hastalığa karşı bağışıklık kazanırsın."
 										]
 									}
 								]
@@ -7678,10 +7678,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Nature's Sanctuary",
+										"name": "Doğanın Mabedi",
 										"entries": [
-											"When you reach 14th level, creatures of the natural world sense your connection to nature and become hesitant to attack you. When a beast or plant creature attacks you, that creature must make a Wisdom saving throw against your druid spell save DC. On a failed save, the creature must choose a different target, or the attack automatically misses. On a successful save, the creature is immune to this effect for 24 hours.",
-											"The creature is aware of this effect before it makes its attack against you."
+											"14. seviyeye ulaştığında doğal dünyanın varlıkları senin doğa ile bağını hissedip sana saldırmakta çekimser olurlar. Bir hayvan yada bitki varlık sana saldırırsa, o varlık senin druid büyü kurtulma zarı DC'ne karşı Akıl kurtulma zarı atar. Başarısız olursa varlık farklı bir hedef seçmeli yada saldırı otomatik olarak ıskalar. Başarılı olursa varlık bu etkiye 24 saat boyunca bağışıklık kazanır.",
+											"Varlık bu etkinin varlığından sana saldırmadan önce haberdardır."
 										]
 									}
 								]
@@ -7689,38 +7689,38 @@
 						]
 					],
 					"source": "PHB",
-					"shortName": "Land"
+					"shortName": "Toprak"
 				},
 				{
-					"name": "Circle of the Moon",
+					"name": "Ay Çemberi",
 					"subclassFeatures": [
 						[
 							{
-								"name": "Circle of the Moon",
+								"name": "Ay Çemberi",
 								"entries": [
-									"Druids of the Circle of the Moon are fierce guardians of the wilds. Their order gathers under the full moon to share news and trade warnings. They haunt the deepest parts of the wilderness, where they might go for weeks on end before crossing paths with another humanoid creature, let alone another druid.",
-									"Changeable as the moon, a druid of this circle might prowl as a great cat one night, soar over the treetops as an eagle the next day, and crash through the undergrowth in bear form to drive off a trespassing monster. The wild is in the druid's blood.",
+									"Ay Çemberinin druidleri doğanın çetin koruyucularıdır. Onların grubu dolunayda toplanıp haber ve uyarıları paylaşırlar. Doğanın en derin yerlerine, belki haftalarca başka bir insansı varlıkla karşılaşamayacakları alanlara gidip avlanırlar.",
+									"Ay kadar değişken, bu çemberin druidi bir gece kedi gibi sinsice gezinip bir sonraki gün kartal olarak süzülür ve sonra yaratığı kovmak için bir ayı formunda otların arasından hücuma geçer. Yaban druidin kanındadır.",
 									{
 										"type": "entries",
-										"name": "Combat Wild Shape",
+										"name": "Savaş Yabani Şekli",
 										"entries": [
-											"You gain the ability to use Wild Shape on your turn as a bonus action, rather than as an action.",
-											"Additionally, while you are transformed by Wild Shape, you can use a bonus action to expend one spell slot to regain 1d8 hit points per level of the spell slot expended."
+											"Yabani Şekil özelliğini sıranda eylem yerine bonus eylem olarak kullanmayı öğrenirsin.",
+											"Ek olarak, Yabani Şekil ile dönüşmüşken bonus eylem kullanıp bir büyü yuvası harcayarak, harcanmış büyü yuvasının her seviyesi için 1d8 HP yenileyebilirsin."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Circle Forms",
+										"name": "Çember Formları",
 										"entries": [
-											"The rites of your circle grant you the ability to transform into more dangerous animal forms. Starting at 2nd level, you can use your Wild Shape to transform into a {@filter beast with a challenge rating as high as 1|bestiary|cr=0;1/8;1/4;1/2;1|type=beast|speed=!fly;!swim|miscellaneous=!swarm} (you ignore the Max. CR column of the Beast Shapes table, but must abide by the other limitations there).",
-											"Starting at 6th level, you can transform into a beast with a challenge rating as high as your druid level divided by 3, rounded down.",
+											"Çemberinin öğretileri sana daha tehlikeli hayvanların formuna girme yeteneğini kazandırır. 2. seviyeden itibaren Yabani Şekil özelliğini kullanıp  {@filter zorluk seviyesi (CR) 1'e kadar çıkan bir hayvan|bestiary|cr=0;1/8;1/4;1/2;1|type=beast|speed=!fly;!swim|miscellaneous=!swarm} formuna girebilirsin (Yabani Şekiller tablosunun Max. CR sütununu yoksayarsın ama diğer kısıtlamalara uymalısın).",
+											"6. seviyeden itibaren druid seviyenin üçte biri (alta yuvarlanır) kadar zorluk seviyesinde (CR) hayvanlara dönüşebilirsin.",
 											{
 												"type": "table",
-												"caption": "Circle of the Moon Beast Shapes",
+												"caption": "Ay Çemberi Hayvan Şekilleri",
 												"colLabels": [
-													"Level",
+													"Seviye",
 													"Max. CR",
-													"Limitations"
+													"Sınırlamalar"
 												],
 												"colStyles": [
 													"col-xs-2 text-align-center",
@@ -7729,32 +7729,32 @@
 												],
 												"rows": [
 													[
-														"{@filter 2nd|bestiary|cr=0;1/8;1/4;1/2;1|type=beast|speed=!fly;!swim|miscellaneous=!swarm}",
+														"{@filter 2.|bestiary|cr=0;1/8;1/4;1/2;1|type=beast|speed=!fly;!swim|miscellaneous=!swarm}",
 														"1",
-														"No flying or swimming speed"
+														"Uçma yada yüzme hızı olamaz"
 													],
 													[
-														"{@filter 6th|bestiary|cr=0;1/8;1/4;1/2;1;2|type=beast|speed=!fly|miscellaneous=!swarm}",
+														"{@filter 6.|bestiary|cr=0;1/8;1/4;1/2;1;2|type=beast|speed=!fly|miscellaneous=!swarm}",
 														"2",
-														"No flying speed"
+														"Uçma hızı olamaz"
 													],
 													[
-														"{@filter 9th|bestiary|cr=0;1/8;1/4;1/2;1;2;3|type=beast|miscellaneous=!swarm}",
+														"{@filter 9.|bestiary|cr=0;1/8;1/4;1/2;1;2;3|type=beast|miscellaneous=!swarm}",
 														"3",
 														"\u2014"
 													],
 													[
-														"{@filter 12th|bestiary|cr=0;1/8;1/4;1/2;1;2;3;4|type=beast|miscellaneous=!swarm}",
+														"{@filter 12.|bestiary|cr=0;1/8;1/4;1/2;1;2;3;4|type=beast|miscellaneous=!swarm}",
 														"4",
 														"\u2014"
 													],
 													[
-														"{@filter 15th|bestiary|cr=0;1/8;1/4;1/2;1;2;3;4;5|type=beast|miscellaneous=!swarm}",
+														"{@filter 15.|bestiary|cr=0;1/8;1/4;1/2;1;2;3;4;5|type=beast|miscellaneous=!swarm}",
 														"5",
 														"\u2014"
 													],
 													[
-														"{@filter 18th|bestiary|cr=0;1/8;1/4;1/2;1;2;3;4;5;6|type=beast|miscellaneous=!swarm}",
+														"{@filter 18.|bestiary|cr=0;1/8;1/4;1/2;1;2;3;4;5;6|type=beast|miscellaneous=!swarm}",
 														"6",
 														"\u2014"
 													]
@@ -7770,9 +7770,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Primal Strike",
+										"name": "Kadim Darbe",
 										"entries": [
-											"Starting at 6th level, your attacks in beast form count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+											"6. seviyeden itibaren büyüsüz saldırılara bağışıklığı geçmek için hayvan formundaki saldırıların büyülü sayılır."
 										]
 									}
 								]
@@ -7783,9 +7783,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Elemental Wild Shape",
+										"name": "Elemental Yabani Şekil",
 										"entries": [
-											"At 10th level, you can expend two uses of Wild Shape at the same time to transform into an {@creature air elemental}, an {@creature earth elemental}, a {@creature fire elemental}, or a {@creature water elemental}."
+											"10. seviyede Yabani Şekil özelliğinin iki kullanımını harcayarak bir {@creature air elemental}, {@creature earth elemental},  {@creature fire elemental}, yada bir {@creature water elemental} formuna girebilirsin."
 										]
 									}
 								]
@@ -7796,9 +7796,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Thousand Forms",
+										"name": "Bin Form",
 										"entries": [
-											"By 14th level, you have learned to use magic to alter your physical form in more subtle ways. You can cast the {@spell alter self} spell at will."
+											"14. seviyeye kadar büyünü daha incelikli bir şekilde kullanarak formunu değiştirmeyi öğrendin. İstediğin zaman {@spell alter self} büyüsünü kullanabilirsin."
 										]
 									}
 								]
@@ -7806,7 +7806,7 @@
 						]
 					],
 					"source": "PHB",
-					"shortName": "Moon"
+					"shortName": "Ay"
 				},
 				{
 					"name": "Circle of Dreams (UA)",
@@ -23257,17 +23257,17 @@
 									},
 									{
 										"type": "entries",
-										"name": "Spellcasting",
+										"name": "Büyü Yapma",
 										"entries": [
-											"When you reach 3rd level, you gain the ability to cast spells. See chapter 10 for the general rules of spellcasting and chapter 11 for the wizard spell list.",
+											"3. seviyeye eriştiğinde büyü yapma yeteneğini kazanırsın.",
 											{
 												"type": "entries",
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Cantrips",
+														"name": "Cantripler",
 														"entries": [
-															"At 1st level, you learn three cantrips: {@spell mage hand} and two other cantrips of your choice from the wizard spell list. You learn another wizard cantrip of your choice at 10th level."
+															"Üç cantrip öğrenirsin: {@spell mage hand} ve büyücü büyü listesinden iki tane daha. 10. seviyede bir büyücü cantripi daha seçebilirsin."
 														]
 													}
 												]
@@ -23277,10 +23277,10 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Spell Slots",
+														"name": "Büyü Yuvaları",
 														"entries": [
-															"The Arcane Trickster Spellcasting table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
-															"For example, if you know the 1st-level spell {@spell charm person} and have a 1st-level and a 2nd-level spell slot available, you can cast {@spell charm person} using either slot."
+															"Arcane Hilekar Büyü Yapma tablosu 1. seviye ve üzeri büyüleri yapmak için kaç tane büyü yuvan olduğunu gösterir. Bu büyülerden birini kullanmak için büyünün seviyesi yada üzeri bir yuva harcaman gerekir. Tüm harcanan büyü yuvalarını uzun dinlenme sonrası yenilersin.",
+															"Örneğin, 1. seviye büyüsü {@spell charm person} biliyorsan ve 1. ve 2. seviye büyü yuvaların varsa bu büyüyü istediğin yuvayı harcayarak kullanabilirsin."
 														]
 													}
 												]
@@ -23290,12 +23290,12 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Spells Known of 1st-Level and Higher",
+														"name": "1. Seviye ve Üzeri Bilinen Büyüler",
 														"entries": [
-															"You know three 1st-level wizard spells of your choice, two of which you must choose from the enchantment and illusion spells on the wizard spell list.",
-															"The Spells Known column of the Arcane Trickster Spellcasting table shows when you learn more wizard spells of 1st level or higher. Each of these spells must be an enchantment or illusion spell of your choice, and must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.",
-															"The spells you learn at 8th, 14th, and 20th level can come from any school of magic.",
-															"Whenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an enchantment or illusion spell, unless you're replacing the spell you gained at 8th, 14th, or 20th level."
+															"Seçeceğin üç tane 1. seviye büyücü büyüsü bilirsin ve bunların ikisi büyücü büyü listesinde illüzyon ve enchantment okullarından olmalıdır.",
+															"Arcane Hilekar Büyü Yapma tablosu ne zaman yeni 1. seviye ve üzeri büyücü büyüleri öğreneceğini gösterir. Bu büyülerin her biri enchantment yada illüzyon okullarından olmalı ve sahip olduğun büyü yuvalarına uygun olmalıdır. Örneğin, bu sınıfta 7. seviyeye ulaştığında yeni bir 1. yada 2. seviye büyü öğrenebilirsin.",
+															"8, 14 ve 20. seviyede öğrendiğin büyüleri istediğin okuldan seçebilirsin.",
+															"Bu sınıfta seviye atladığında bildiğin bir büyücü büyüsünü yenisi ile değiştirebilirsin. Eğer 8, 14 yada 20. seviyede öğrendiğin büyüleri değiştirmiyorsan, değiştirdiğin büyü enchantment yada illüzyon okullarından olmalı. Yeni büyülerde sahip olduğun büyü yuvalarına uygun olmalı. "
 														]
 													}
 												]
@@ -23305,19 +23305,19 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Spellcasting Ability",
+														"name": "Büyü Yapma Yeteneği",
 														"entries": [
-															"Intelligence is your spellcasting ability for your wizard spells, since you learn your spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.",
+															"Büyülerini araştırma ve ezber yoluyla öğrendiğin için büyü yapma yeteneğin Zekadır. Ne zaman bir büyü, büyü yapma yeteneğinden bahsederse Zeka kullanırsın. Ek olarak, büyücü büyülerinin kurtulma zarı DC'sini belirlerken ve bunlarla saldırı yaparken Zeka bonusunu kullanırsın.",
 															{
 																"type": "abilityDc",
-																"name": "Spell",
+																"name": "Büyü",
 																"attributes": [
 																	"int"
 																]
 															},
 															{
 																"type": "abilityAttackMod",
-																"name": "Spell",
+																"name": "Büyü",
 																"attributes": [
 																	"int"
 																]
@@ -23336,9 +23336,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Magical Ambush",
+										"name": "Büyülü Pusu",
 										"entries": [
-											"Starting at 9th level, if you are hidden from a creature when you cast a spell on it, the creature has disadvantage on any saving throw it makes against the spell this turn."
+											"9. seviyeden itibaren eğer bir varlığa büyü kullandığında ondan gizlenmiş durumdaysan aynı sıra içinde varlık büyüye karşı attığı kurtulma zarında dezavantajlı olur."
 										]
 									}
 								]
@@ -23349,9 +23349,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Versatile Trickster",
+										"name": "Çok Yönlü Hilekar",
 										"entries": [
-											"At 13th level, you gain the ability to distract targets with your {@spell mage hand}. As a bonus action on your turn, you can designate a creature within 5 feet of the spectral hand created by the spell. Doing so gives you advantage on attack rolls against that creature until the end of the turn."
+											"13. seviyede hedeflerin dikkatini {@spell mage hand} ile dağıtmayı öğrenirsin. Sıranda bonus eylem olarak büyünün yarattığı spektral elin 5 feet yakınındaki bir varlığı seçersin. Bunu yapman o varlığa karşı sıranın sonuna kadar yapacağın saldırılarda avantaj verir."
 										]
 									}
 								]
@@ -23362,11 +23362,11 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Spell Thief",
+										"name": "Büyü Hırsızı",
 										"entries": [
-											"At 17th level, you gain the ability to magically steal the knowledge of how to cast a spell from another spellcaster.",
-											"Immediately after a creature casts a spell that targets you or includes you in its area of effect, you can use your reaction to force the creature to make a saving throw with its spellcasting ability modifier. The DC equals your spell save DC. On a failed save, you negate the spell's effect against you, and you steal the knowledge of the spell if it is at least 1st level and of a level you can cast (it doesn't need to be a wizard spell). For the next 8 hours, you know the spell and can cast it using your spell slots. The creature can't cast that spell until the 8 hours have passed.",
-											"Once you use this feature, you can't use it again until you finish a long rest."
+											"17. seviyede başka bir büyü kullanıcısından bir büyüyü kullanma bilgisini çalmayı öğrenirsin.",
+											"Bir varlık seni hedefleyen yada seni etki alanının içinde bulunduran bir büyü kullandığında, hemen ardından reaksiyonunu kullanıp varlığı kendi büyü yapma yeteneği bonusu ile bir kurtulma zarı atmaya zorlarsın. DC senin büyü kurtulma zarı DC'sine eşittir. Başarısız olursa büyünün senin üzerindeki etkisini yoksayarsın ve eğer senin kullanabileceğin bir seviyede ise (büyücü büyüsü olmak zorunda değil) ve en az 1. seviye ise bu büyünün kullanım bilgisini çalarsın. Sonraki 8 saat boyunca bu büyüyü bilirsin ve kendi büyü yuvalarını harcayarak kullanabilirsin. Varlık bu büyüyü 8 saat geçene kadar kullanamaz.",
+											"Bu özelliği kullandığında bir daha kullanabilmek için uzun dinlenme bitirmen gerekir."
 										]
 									}
 								]
@@ -23374,29 +23374,29 @@
 						]
 					],
 					"source": "PHB",
-					"shortName": "Arcane Trickster"
+					"shortName": "Arcane Hilekar"
 				},
 				{
-					"name": "Assassin",
+					"name": "Suikastçı",
 					"subclassFeatures": [
 						[
 							{
-								"name": "Assassin",
+								"name": "Suikastçı",
 								"entries": [
-									"You focus your training on the grim art of the death. Those who adhere to this archetype are diverse - hired killers, spies, bounty hunters, and even specially anointed priests trained to exterminate the enemies of their deity. Stealth, poison, and disguise help you eliminate your foes with deadly efficiency.",
-									"Your archetype grants you features at 3rd level and then again at 9th, 13th, and 17th level.",
+									"Eğitimini ölüm sanatı üzerinde yoğunlaştırırsın. Bu modele bağlı olanların yelpazi geniştir; kiralık katiller, ajanlar, ödül avcıları ve bazen tanrılarının düşmanlarını yoketmek için özel yetiştirilmiş rahipler. Gizlenme, zehir ve kılık değiştirme yeteneklerin düşmanlarını yoketmede ölümcül etkilidir.",
+									"Modelin sana 3, 9, 13 ve 17. seviyelerde özellikler kazandırır.",
 									{
 										"type": "entries",
-										"name": "Assassinate",
+										"name": "Suikast",
 										"entries": [
-											"Starting at 3rd level, you are at your deadliest when you get the drop on your enemies. You have advantage on attack rolls against any creature that hasn't taken a turn in the combat yet. In addition, any hit you score against a creature that is surprised is a critical hit."
+											"3. seviyeden itibaren en ölümcül anın düşmanlarını gafil avladığın andır. Dövüşte hala sırasını kullanmamış bir varlığa karşı saldırıların avantajlı olur. Ek olarak, sürprize uğramış bir varlığa karşı saldırın kritik olur."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Bonus Proficiencies",
+										"name": "Bonus Uzmanlıklar",
 										"entries": [
-											"When you choose this archetype at 3rd level, you gain proficiency with the disguise kit and the poisoner's kit."
+											"3. seviyede bu modeli seçtiğinde kılık değiştirme ve zehir kitleri ile uzmanlık kazanırsın."
 										]
 									}
 								]
@@ -23407,10 +23407,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Infiltration Expertise",
+										"name": "Sızma Ekspertizi",
 										"entries": [
-											"Starting at 9th level, you can unfailingly create false identities for yourself. You must spend seven days and 25 gp to establish the history, profession, and affiliations for an identity. You can't establish an identity that belongs to someone else. For example, you might acquire appropriate clothing, letters of introduction, and official-looking certification to establish yourself as a member of a trading house from a remote city so you can insinuate yourself into the company of other wealthy merchants.",
-											"Thereafter, if you adopt the new identity as a disguise, other creatures believe you to be that person until given an obvious reason not to."
+											"9. seviyeden itibaren kendin için hatasız sahte kimlikler yaratabilirsin. 7 gün ve 25gp harcayarak bir kimlik için gereken tarih, meslek ve bağlantıları oluşturmalısın. Başkasına ait bir kimlik oluşturamazsın. Örneğin, diğer zengin tüccarların arasına karışabilmek için uzak bir şehirden bir tüccar gibi görünmeni sağlayacak resmi görünümlü belgeler, tavsiye mektupları ve uygun kıyafetleri elde edebilirsin.",
+											"Sonrasında, eğer yeni kimliği kılık değiştirmek için benimsersen diğer varlıklar bariz bir sebep ortaya çıkmadığı sürece senin o kişi olduğuna inanır."
 										]
 									}
 								]
@@ -23421,10 +23421,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Impostor",
+										"name": "Taklitçi",
 										"entries": [
-											"At 13th level, you gain the ability to unerringly mimic another person's speech, writing, and behavior. You must spend at least three hours studying these three components of the person's behavior, listening to speech, examining handwriting, and observing mannerism.",
-											"Your ruse is indiscernible to the casual observer. If a wary creature suspects something is amiss, you have advantage on any Charisma (Deception) check you make to avoid detection."
+											"13. seviyede başka bir kişinin konuşmasını, yazısını ve davranışlarını çok yakın bir şekilde taklit edebilirsin. Kişinin bu üç bileşenini, yani el yazısını, konuşmasını ve davranışlarını en az 3 saat araştırman gerekir.",
+											"Sıradan izleyici için senin taklidin ayırt edilemez. Eğer dikkatli bir varlık bir şeyin farklı olduğunu hissederse, tespit edilmemek için atacağın Karizma (Aldatma) zarlarında avantajın olur."
 										]
 									}
 								]
@@ -23435,9 +23435,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Death Strike",
+										"name": "Ölüm Darbesi",
 										"entries": [
-											"Starting at 17th level, you become a master of instant death. When you attack and hit a creature that is surprised, it must make a Constitution saving throw (DC 8 + your Dexterity modifier + your proficiency bonus). On a failed save, double the damage of your attack against the creature."
+											"17. seviyeden itibaren anında ölümün üstadı olursun. Sürprize uğramış bir varlığa saldırıp vurduğunda, varlık Dayanıklılık kurtulma zarı (DC 8 + Çeviklik bonusun + uzmanlık bonusun) atar. Başarısız olursa varlığa karşı saldırının hasarını ikiye katlarsın."
 										]
 									}
 								]
@@ -23445,7 +23445,7 @@
 						]
 					],
 					"source": "PHB",
-					"shortName": "Assassin"
+					"shortName": "Suikastçi"
 				},
 				{
 					"name": "Mastermind",
@@ -23676,26 +23676,26 @@
 					"shortName": "Swashbuckler"
 				},
 				{
-					"name": "Thief",
+					"name": "Hırsız",
 					"subclassFeatures": [
 						[
 							{
-								"name": "Thief",
+								"name": "Hırsız",
 								"entries": [
-									"You hone your skills in the larcenous arts. Burglars, bandits, cutpurses, and other criminals typically follow this archetype, but so do rogues who prefer to think of themselves as professional treasure seekers, explorers, delvers, and investigators. In addition to improving your agility and stealth, you learn skills useful for delving into ancient ruins, reading unfamiliar languages, and using magic items you normally couldn't employ.",
+									"Hırsızlık sanatlarında becerilerini geliştirirsin. Hırsızlar, haydutlar, yankesiciler ve diğer suçlular genellikle bu modeli benimserler ama kendilerini profesyonel hazine avcısı, kaşif, yada araştımacı olarak gören düzenbazlarda bu modeli benimseyebilir. Çeviklik ve gizlenmeni geliştirmene ek olarak antik harabeleri araştırma, alışılmadık dilleri okuma ve normalde kullanamayacağın büyülü eşyaları kullanma gibi becerileri de öğrenirsin.",
 									{
 										"type": "entries",
-										"name": "Fast Hands",
+										"name": "Çabuk Eller",
 										"entries": [
-											"Starting at 3rd level, you can use the bonus action granted by your Cunning Action to make a Dexterity (Sleight of Hand) check, use your thieves' tools to disarm a trap or open a lock, or take the Use an Object action."
+											"3. seviyeden itibaren Kurnaz Eylemin sağladığı bonus eylem ile Çeviklik (El Çabukluğu) zarı atabilir, hırsız aletlerini kullanıp kilit açabilir yada tuzak etkisiz hale getirebilir, yada Nesne Kullan eylemini kullanabilirsin."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Second-Story Work",
+										"name": "İkinci Kat İşi",
 										"entries": [
-											"When you choose this archetype at 3rd level, you gain the ability to climb faster than normal; climbing no longer costs you extra movement.",
-											"In addition, when you make a running jump, the distance you cover increases by a number of feet equal to your Dexterity modifier."
+											"3. seviyede bu modeli seçtiğinde normalden daha hızlı tırmanma becerisini kazanırsın, tırmanmak artık sana fazladan harekete mal olmaz.",
+											"Ek olarak, koşarak atlama yaptığında gittiğin mesafe Çeviklik bonusun kadar feet artar."
 										]
 									}
 								]
@@ -23706,9 +23706,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Supreme Sneak",
+										"name": "Üstün Gizlenme",
 										"entries": [
-											"Starting at 9th level, you have advantage on a Dexterity (Stealth) check if you move no more than half your speed on the same turn."
+											"9. seviyeden itibaren, eğer aynı sıra içinde hareketinin yarısından fazlasını gitmezsen Çeviklik (Gizlenme) zarlarında avantajın olur."
 										]
 									}
 								]
@@ -23719,9 +23719,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Use Magic Device",
+										"name": "Büyülü Alet Kullan",
 										"entries": [
-											"By 13th level, you have learned enough about the workings of magic that you can improvise the use of items even when they are not intended for you. You ignore all class, race, and level requirements on the use of magic items."
+											"13. seviyeye kadar büyünün işleyişi hakkında topladığın bilgi sayesinde senin kullanımına uygun olmayan büyülü eşyaları bile kullanabilirsin. Büyülü eşyalar üzerindeki tüm sınıf, ırk ve seviye gereksinimlerini yoksayarsın."
 										]
 									}
 								]
@@ -23732,9 +23732,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Thief's Reflexes",
+										"name": "Hırsız Refleksleri",
 										"entries": [
-											"When you reach 17th level, you have become adept at laying ambushes and quickly escaping danger. You can take two turns during the first round of any combat. You take your first turn at your normal initiative and your second turn at your initiative minus 10. You can't use this feature when you are surprised."
+											"17. seviyeye eriştiğinde pusu kurmada ve tehlikeden hızlıca kaçmada uzman oldun. Tüm dövüşlerin ilk turunda iki sıra kullanabilirsin. İlk sıranı normal öncelikte ikinci sıranı da öncelik eksi 10'da kullanırsın. Sürprize uğradığında bu özelliği kullanamazsın."
 										]
 									}
 								]
@@ -23742,7 +23742,7 @@
 						]
 					],
 					"source": "PHB",
-					"shortName": "Thief"
+					"shortName": "Hırsız"
 				},
 				{
 					"name": "Scout (UA)",
