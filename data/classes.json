@@ -7796,7 +7796,7 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Bin Form",
+										"name": "Binlerce Form",
 										"entries": [
 											"14. seviyeye kadar büyünü daha incelikli bir şekilde kullanarak formunu değiştirmeyi öğrendin. İstediğin zaman {@spell alter self} büyüsünü kullanabilirsin."
 										]
@@ -29526,7 +29526,7 @@
 			"fluffPage": 53
 		},
 		{
-			"name": "Wizard",
+			"name": "Büyücü",
 			"source": "PHB",
 			"hd": {
 				"number": 1,
@@ -29539,7 +29539,7 @@
 			"classTableGroups": [
 				{
 					"colLabels": [
-						"{@filter Cantrips Known|spells|level=0|class=Wizard}"
+						"{@filter Bilinen Cantripler|spells|level=0|class=Wizard}"
 					],
 					"rows": [
 						[
@@ -29605,17 +29605,17 @@
 					]
 				},
 				{
-					"title": "Spell Slots per Spell Level",
+					"title": "Büyü Seviyesi Başına Büyü Yuvaları",
 					"colLabels": [
-						"{@filter 1st|spells|level=1|class=Wizard}",
-						"{@filter 2nd|spells|level=2|class=Wizard}",
-						"{@filter 3rd|spells|level=3|class=Wizard}",
-						"{@filter 4th|spells|level=4|class=Wizard}",
-						"{@filter 5th|spells|level=5|class=Wizard}",
-						"{@filter 6th|spells|level=6|class=Wizard}",
-						"{@filter 7th|spells|level=7|class=Wizard}",
-						"{@filter 8th|spells|level=8|class=Wizard}",
-						"{@filter 9th|spells|level=9|class=Wizard}"
+						"{@filter 1.|spells|level=1|class=Wizard}",
+						"{@filter 2.|spells|level=2|class=Wizard}",
+						"{@filter 3.|spells|level=3|class=Wizard}",
+						"{@filter 4.|spells|level=4|class=Wizard}",
+						"{@filter 5.|spells|level=5|class=Wizard}",
+						"{@filter 6.|spells|level=6|class=Wizard}",
+						"{@filter 7.|spells|level=7|class=Wizard}",
+						"{@filter 8.|spells|level=8|class=Wizard}",
+						"{@filter 9.|spells|level=9|class=Wizard}"
 					],
 					"rows": [
 						[
@@ -29843,87 +29843,87 @@
 			],
 			"startingProficiencies": {
 				"weapons": [
-					"daggers",
-					"darts",
-					"slings",
-					"quarterstaffs",
-					"light crossbows"
+					"hançerler",
+					"dartlar",
+					"sapanlar",
+					"asalar",
+					"hafif arbaletler"
 				],
 				"skills": {
 					"choose": 2,
 					"from": [
 						"Arcana",
-						"History",
-						"Insight",
-						"Investigation",
-						"Medicine",
-						"Religion"
+						"Tarih",
+						"Sezgi",
+						"İnceleme",
+						"Tıp",
+						"Din"
 					]
 				}
 			},
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) a quarterstaff or (b) a dagger",
-					"(a) a component pouch or (b) an arcane focus",
-					"(a) a scholar's pack or (b) an explorer's pack",
-					"A spellbook"
+					"(a) bir asa yada (b) bir hançer",
+					"(a) bir bileşen kesesi yada (b) bir arcane odak",
+					"(a) bir bilgin paketi yada (b) bir kaşifin paketi",
+					"Bir büyü kitabı"
 				],
 				"goldAlternative": "4d4 × 10"
 			},
 			"classFeatures": [
 				[
 					{
-						"name": "Arcane Recovery",
+						"name": "Arcane Yenilenme",
 						"entries": [
-							"You have learned to regain some of your magical energy by studying your spellbook. Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your wizard level (rounded up), and none of the slots can be 6th level or higher.",
-							"For example, if you're a 4th-level wizard, you can recover up to two levels worth of spell slots.",
-							"You can recover either a 2nd-level spell slot or two 1st-level spell slots."
+							"Büyü kitabını okuyarak büyü enerjinin bir kısmını yenilemeyi öğrendin. Günde bir kez kısa dinlenme bitirdiğinde yenilemek için harcanmış büyü yuvaları seçebilirsin. Büyü yuvalarının toplam seviyesi büyücü seviyenin yarısı (üste yuvarlanır) yada daha az olmalıdır ve yuvaların hiçbiri 6. seviye yada üzeri olamaz.",
+							"Örneğin, eğer sen 4. seviye bir büyücü isen 2 seviye değerinde büyü yuvası yenileyebilirsin.",
+							"Bunu iki adet 1. seviye yuva yada bir adet 2. seviye yuva olarak yenileyebilirsin."
 						]
 					},
 					{
-						"name": "Spellcasting",
+						"name": "Büyü Yapma",
 						"entries": [
-							"As a student of arcane magic, you have a spellbook containing spells that show the first glimmerings of your true power. See chapter 10 for the general rules of spellcasting and chapter 11 for the wizard spell list.",
+							"Bir arcane büyü öğrencisi olarak senin gerçek gücünün ilk göstergesi olacak büyülerini tuttuğun bir büyü kitabın vardır.",
 							{
 								"type": "entries",
-								"name": "Cantrips",
+								"name": "Cantripler",
 								"entries": [
-									"At 1st level, you know three cantrips of your choice from the wizard spell list. You learn additional wizard cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Wizard table."
+									"1. seviyede büyücü büyü listesinden seçeceğin 3 tane cantrip bilirsin. Büyücü tablosunun Bilinen Cantripler sütununda görüleceği üzere üst seviyelerde ek büyücü cantripleri öğrenirsin."
 								]
 							},
 							{
 								"type": "entries",
-								"name": "Spellbook",
+								"name": "Büyü Kitabı",
 								"entries": [
-									"At 1st level, you have a spellbook containing six 1st-level wizard spells of your choice. Your spellbook is the repository of the wizard spells you know, except your cantrips, which are fixed in your mind."
+									"1. seviyede büyücü büyü listesinden seçeceğin altı adet 1. seviye büyü içeren bir büyü kitabın vardır. Zihninde bulunan cantriplerin dışında büyü kitabın bildiğin bütün büyücü büyülerini sakladığın yerdir."
 								]
 							},
 							{
 								"type": "entries",
-								"name": "Preparing and Casting Spells",
+								"name": "Büyüleri Hazırlama ve Kullanma",
 								"entries": [
-									"The Wizard table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
-									"You prepare the list of wizard spells that are available for you to cast. To do so, choose a number of wizard spells from your spellbook equal to your Intelligence modifier + your wizard level (minimum of one spell). The spells must be of a level for which you have spell slots.",
-									"For example, if you're a 3rd-level wizard, you have four 1st-level and two 2nd-level spell slots. With an Intelligence of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination, chosen from your spellbook. If you prepare the 1st-level spell {@spell magic missile}, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.",
-									"You can change your list of prepared spells when you finish a long rest. Preparing a new list of wizard spells requires time spent studying your spellbook and memorizing the incantations and gestures you must make to cast the spell: at least 1 minute per spell level for each spell on your list."
+									"Büyücü tablosu 1. seviye ve üzeri büyüleri kullanmak için kaç tane büyü yuvan olduğunu gösterir. Bu büyülerden birini kullanmak için büyünün seviyesi yada üzeri bir büyü yuvası harcaman gerekir. Tüm harcanmış büyü yuvalarını uzun dinlenme sonrası yenilersin.",
+									"Mevcut olan büyücü büyülerin arasından kullanmak için bir liste oluşturursun. Bunu yapmak için, büyü kitabından Zeka bonusun + büyücü seviyen kadar (en az 1) kadar büyü seç. Büyüler sahip olduğun büyü yuvalarına uygun olmalı.",
+									"Örneğin, eğer sen bir 3. seviye büyücü isen dört adet 1. seviye büyü yuvan ve iki adet 2. seviye büyü yuvan olur. 16 Zeka skoru ile, hazırlanmış büyüler listen 1. ve 2. seviyeden toplam altı tane büyü kitabından seçilmiş büyü içerebilir. Eğer 1. seviye büyüsü {@spell magic missile} hazırlarsan bunu 1. yada 2. seviye büyü yuvası ile kullanabilirsin. Büyüyü kullanmak onu hazırlanmış büyüler listenden çıkarmaz.",
+									"Hazırlanmış büyüler listeni uzun dinlenme sonrası değiştirebilirsin. Yeni bir büyücü büyüleri listesi hazırlamak, büyü kitabını araştırıp kullanman gereken el hareketlerini ve söylemen gereken sözleri ezberlemeye vakit ayırmanı gerektirir: listendeki her büyü için seviye başı en az 1 dakika."
 								]
 							},
 							{
 								"type": "entries",
 								"name": "Spellcasting Ability",
 								"entries": [
-									"Intelligence is your spellcasting ability for your wizard spells, since you learn your spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.",
+									"Büyülerini araştırma ve ezber ile öğrendiğin için büyücü büyü yapma yeteneğin Zekadır. Ne zaman bir büyü, büyü yapma yeteneğinden bahsederse Zeka kullanırsın. Ek olarak, büyücü büyülerin için kurtulma zarı DC'sini belirlerken ve bunlarla saldırı yaparken de Zeka bonusunu kullanırsın.",
 									{
 										"type": "abilityDc",
-										"name": "Spell",
+										"name": "Büyü",
 										"attributes": [
 											"int"
 										]
 									},
 									{
 										"type": "abilityAttackMod",
-										"name": "Spell",
+										"name": "Büyü",
 										"attributes": [
 											"int"
 										]
@@ -29932,9 +29932,9 @@
 							},
 							{
 								"type": "entries",
-								"name": "Ritual Casting",
+								"name": "Ritüel Büyü Yapma",
 								"entries": [
-									"You can cast a wizard spell as a ritual if that spell has the ritual tag and you have the spell in your spellbook. You don't need to have the spell prepared."
+									"Bir büyü ritüel etiketine sahipse ve senin büyü kitabındaysa bunu ritüel olarak kullanabilirsin. Büyüyü hazırlamış olman gerekmez."
 								]
 							},
 							{

@@ -1453,12 +1453,12 @@
 			}
 		},
 		{
-			"name": "Awakened Shrub",
+			"name": "Uyanmış Çalı",
 			"source": "MM",
 			"entries": {
 				"type": "entries",
 				"entries": [
-					"An awakened shrub is an ordinary shrub given sentience and mobility by the awaken spell or similar magic."
+					"Uyanmış çalı, birisi tarafından hareketlilik büyüsü veya benzer bir büyü tarafından canlandırılan normal bir çalıdır."
 				]
 			}
 		},
@@ -2032,14 +2032,14 @@
 			"entries": {
 				"type": "entries",
 				"entries": [
-					"Life as a bullywug is nasty, brutish, and wet. These frog-headed amphibious humanoids must stay constantly moist, dwelling in rainy forests, marshes, and damp caves. Always hungry and thoroughly evil, bullywugs overwhelm opponents with superior numbers when they can, but they flee from serious threats to search for easier prey.",
+					"Life as a bullywug is nasty, brutish, and wet. These Kurbağa-headed amphibious humanoids must stay constantly moist, dwelling in rainy forests, marshes, and damp caves. Always hungry and thoroughly evil, bullywugs overwhelm opponents with superior numbers when they can, but they flee from serious threats to search for easier prey.",
 					"Bullywugs have green, gray, or mottled yellow skin that shifts through shades of gray, green, and brown, allowing them to blend in with their surroundings. They wear crude armor and wield simple weapons, and can deliver a powerful bite to foes that press too close.",
 					"Foul Aristocracy. Bullywugs consider themselves the right and proper rulers of the swamps. They follow an etiquette of sorts when dealing with outsiders and each other, subject to the whims and fancies of their leader-a self-styled lord of the muck. Bullywugs introduce themselves with grand-sounding titles, make great shows of bowing and debasing themselves before their superiors, and endlessly vie to win their superiors' favor.",
 					"A bullywug has two ways to advance among its kind. It can either murder its rivals, though it must take pains to keep its criminal deeds secret, or it can find a treasure or magic item and present it as tribute or a token of obeisance to its liege. A bullywug that murders its rivals without cunning is likely to be executed, so it's more common for bullywugs to stage raids against caravans and settlements, with the goal of securing precious baubles to impress their lords and win their good graces. Invariably, such fine goods are reduced to filthy tatters through abuse and neglect. Once a gift loses its sheen, a bullywug lord invariably demands that its subjects bring it more treasure as tribute.",
 					"Unruly Diplomacy. Bullywugs love nothing more than lording over those who trespass on their territories. Their warriors attempt to capture intruders rather than simply slaying them.",
 					"Captives are dragged before the king or queen-a bullywug of unusually large size-and forced to beg for mercy. Bribes, treasure, and flattery can trick the bullywug ruler into letting its captives go, but not before it tries to impress its \"guests\" with the majesty of its treasure and its realm. Struck with a deep inferiority complex, bullywug lords fancy themselves as kings and queens, but desperately crave the fear and respect of outsiders.",
-					"Amphibian Allies. Bullywugs speak a language that allows them to communicate over large areas by croaking like frogs. News of intruders or other events in the swamp spread within minutes across this crude communication system.",
-					"Simple concepts in the language are understandable to frogs and toads. Bullywugs use this capability to form strong bonds with giant frogs, which they train as guardians and hunters. Larger specimens are sometimes used as mounts as well. The frogs' ability to swallow creatures whole provides a bullywug hunting band an easy means of carrying prey back to their villages."
+					"Amphibian Allies. Bullywugs speak a language that allows them to communicate over large areas by croaking like Kurbağas. News of intruders or other events in the swamp spread within minutes across this crude communication system.",
+					"Simple concepts in the language are understandable to Kurbağas and toads. Bullywugs use this capability to form strong bonds with giant Kurbağas, which they train as guardians and hunters. Larger specimens are sometimes used as mounts as well. The Kurbağas' ability to swallow creatures whole provides a bullywug hunting band an easy means of carrying prey back to their villages."
 				]
 			}
 		},
@@ -2349,17 +2349,17 @@
 			"entries": {
 				"type": "entries",
 				"entries": [
-					"The cockatrice looks like a hideous hybrid of lizard, bird, and bat, and it is infamous for its ability to turn flesh to stone. These omnivores have a diet that consists of berries, nuts, flowers, and small animals such as insects, mice, and frogs-things they can swallow whole. They would be no threat to anything else if not for their fierce and frenzied response to even a hint of danger. A cockatrice flies into the face of any threat, squawking and madly beating its wings as its head darts out to peck. The smallest scratch from a cockatrice's beak can spell doom as its victim slowly turns to stone from the injury."
+					"The cockatrice looks like a hideous hybrid of lizard, bird, and bat, and it is infamous for its ability to turn flesh to stone. These omnivores have a diet that consists of berries, nuts, flowers, and small animals such as insects, mice, and Kurbağas-things they can swallow whole. They would be no threat to anything else if not for their fierce and frenzied response to even a hint of danger. A cockatrice flies into the face of any threat, squawking and madly beating its wings as its head darts out to peck. The smallest scratch from a cockatrice's beak can spell doom as its victim slowly turns to stone from the injury."
 				]
 			}
 		},
 		{
-			"name": "Commoner",
+			"name": "Avam",
 			"source": "MM",
 			"entries": {
 				"type": "entries",
 				"entries": [
-					"Commoners include peasants, serfs, slaves, servants, pilgrims, merchants, artisans, and hermits."
+					"Avamlar köylüler, serfler, köleler, hizmetçiler, gezginler, tüccarlar, zanaatkârlar ve keşişler gibi sıradan insansıları içerir."
 				]
 			}
 		},
@@ -2394,7 +2394,7 @@
 			}
 		},
 		{
-			"name": "Crawling Claw",
+			"name": "Sürünen Pençe",
 			"source": "MM",
 			"images": [
 				{
@@ -2408,15 +2408,15 @@
 			"entries": {
 				"type": "entries",
 				"entries": [
-					"Crawling claws are the severed hands of murderers animated by dark magic so that they can go on killing. Wizards and warlocks of a dark bent use crawling claws as extra hands in their labors.",
-					"Magical Origins. Through dark necromantic rituals, the life force of a murderer is bound to its severed hand, haunting and animating it. If a dead murderer's spirit already manifests as another undead creature, if the murderer is raised from death, or if the spirit has long passed on to another plane, the ritual fails.",
-					"The ritual invoked to create a crawling claw works best with a hand recently severed from a murderer. To this end, ritualists and their servants frequent public executions to gain possession of suitable hands, or make bargains with assassins and torturers.",
-					"Creator's Control. A crawling claw can't be turned, nor can it be controlled by spells that control undead. These foul monsters are entirely bound to the will of their creator, which can concentrate on a claw in sight to mentally command its every action. If the crawling claw's creator doesn't command it, the claw follows its last command to the best of its ability.",
-					"Commands given to a crawling claw must be simple. A claw can't be tasked with finding and killing a particular person, because its limited senses and intelligence prevent it from tracking and picking out specific individuals. However, a command to kill all creatures in a particular locale works. A crawling claw can easily feel out the contours of keys and doorknobs, crawling from room to room on a blind killing spree.",
-					"Malign Intelligence. A crawling claw possesses little of the intellect and memories of the individual of which it was once a living part. The hate, jealousy, or greed that drove that person to murder lingers on, however, amplified by the claw's torturous fragmented state. Left to its own devices, a crawling claw imitates and recreates the same murderous acts it committed in life.",
-					"Living Claws. If a crawling claw is animated from the severed hand of a still-living murderer, the ritual binds the claw to the murderer's soul. The disembodied hand can then return to its former limb, its undead flesh knitting to the living arm from which it was severed.",
-					"Made whole again, the murderer acts as though the hand had never been severed and the ritual had never taken place. When the crawling claw separates again, the living body falls into a coma. Destroying the crawling claw while it is away from the body kills the murderer. However, killing the murderer has no effect on the crawling claw.",
-					"Undead Nature. A crawling claw doesn't require air, food, drink, or sleep."
+					"Sürünen Pençeler, kara büyü tarafından canlandırılan katillerin elleridir, böylece öldürmeye devam edebilirler. Büyücüler ve warlocklar labaratuvarlarında fazladan bir el olarak kullanırlar.",
+   					"Sihirli Kökenler, Karanlık nekromatik ritüeller sayesinde bir katilin yaşam gücünü onun kopan eline bağlıyorlar ve canlandırıyor. Eğer ölü olan katilin ruhu zaten başka bir ölümsüz yaratık olarak çıkmışsa, eğer katil tekrar diriltirse ya da ruhu başka bir düzleme geçerse, ritüel başarısız olur.",
+   					"Bir sürünen pençe yaratmanın en iyi yolu son zamanlarda bir katilden koparılmış bir katilin eli lazımdır. Bu amaçla ritüelciler ve onların hizmetçileri, uygun elleri bulmak için suikastçilerle ve işkencecilerle sık sık pazarlık yaparlar.",
+   					"Yaratıcı'nın Kontorülü, sürünen pençe dönüşemez yada yaşayan ölü kontrol eden büyüler tarafından kontrol edilemez. Bu yaratıklar, yaratıcısnın iradesine tamamen bağlıdır, bu da her haraketi yaratıcısının zinhi tarafından karar verirlir. Eğer sürünen pençenin yaratıcısı bir emir vermezse en son verdiği emiri en iyi şekilde gerçekleştirmeye çalışır.",
+  					"Pençeye verilen emirler basit olmalıdır. Belirli bir kişiyi bulma ve öldürmekle pençe görevlendirilemez, çünkü onun sınırlı duyuları ve zekası belirli bireyleri izlemekten seçmekten alıkoyar. Bununla birlikte belirli bir yerdeki tüm yaratıkları öldürme emrini yerine getirebilir. Sürünen pençe kolayca bir anahtarı, kapı tokmağını hissedebilir ve bir öldürme içgüdüsü ile odadan odaya sürünür.",
+					"Anısal Zeka, Sürünen pençe bir zamanlar yaşamış olan elin sahibinin aklının ve anıların bazılarına sahiptir. Bununla birlikte, kişiyi cinayetlere sürükleyen nefret, kıskançlık yada açgözlülük  duyguların parçaları pençenin içinde birikmiş halde bulunur. Kendi haline bırakılmış bir pençe, hayatta işlediği aynı ölümcül eylemleri taklit eder ve yeniden gerçekleştirir.",
+  					"Yaşayan Pençe, Eğer pençe hala yaşayan bir katilin elinin koparıp canlanmışsa, ritüel pençeyi katilin ruhuna bağlar. Koparılmış el, daha sonra koparılmış uzununa yaşayan ölü derisi ile koparılmış uzununa geri döner.",
+  					"Yine bütün haline gelen katil elinin hiç kopmadığını ve ritüelin gerçekleşmediğini zanneder. Pençe tekrar ayrıldığında vücüt komaya girer. Ayrılmış el yok edildiği zaman ayrıldığı vücütta ölür. Fakat vücudun öldürürmesi pençeyi etkilemez.",
+  					"Yaşayan Ölü Doğası, sürünen pençe suya, havaya, yemek ve uyumaya ihtiyaç duymaz."
 				]
 			}
 		},
@@ -3655,12 +3655,12 @@
 			}
 		},
 		{
-			"name": "Frog",
+			"name": "Kurbağa",
 			"source": "MM",
 			"entries": {
 				"type": "entries",
 				"entries": [
-					"A frog has no effective attacks. It feeds on small insects and typically dwells near water, in trees, or underground. The frog's statistics can also be used to represent a toad."
+					"Bir kurbağanın etkili bir saldırısı yoktur. Küçük böcekler ile beslenir ve genel olarak suya, ağaçlara veya yeraltına yakın yerlerde bulunur. Kurbağanın istatistikleri karakurbağısı içinde kullanılabilir."
 				]
 			}
 		},
@@ -3935,7 +3935,7 @@
 			}
 		},
 		{
-			"name": "Giant Fire Beetle",
+			"name": "Dev Ateş Böceği",
 			"source": "MM",
 			"images": [
 				{
@@ -3949,7 +3949,7 @@
 			"entries": {
 				"type": "entries",
 				"entries": [
-					"A giant fire beetle is a nocturnal creature that takes its name from a pair of glowing glands that give off light. Miners and adventurers prize these creatures, for a giant fire beetle's glands continue to shed light for 1d6 days after the beetle dies. Giant fire beetles are most commonly found underground and in dark forests."
+					"Dev bir ateş böceği, ismini ışık veren bir çift bezeden alan bir gece yaratığıdır. Madenciler ve maceracılar bu yaratıklara ödül ödemektedirler. Çünkü dev bir ateş böceği ölmesinden 1 gün sonra ışık saçmaya devam eder. Dev ateş böcekleri en çok yeraltında ve karanlık ormanlarda bulunur."
 				]
 			}
 		},
@@ -5092,7 +5092,7 @@
 			}
 		},
 		{
-			"name": "Homunculus",
+			"name": "Yapay İnsan",
 			"source": "MM",
 			"images": [
 				{
@@ -5106,9 +5106,9 @@
 			"entries": {
 				"type": "entries",
 				"entries": [
-					"Shaping a mixture of clay, ash, mandrake root, and blood, one can channel rare ritual magic to create a faithful, squirrel-sized companion.",
-					"A homunculus is a construct that acts as an extension of its creator, with the two sharing thoughts, senses, and language through a mystical bond. A master can have only one homunculus at a time (attempts to create another one always fail), and when its master dies, the homunculus also dies.",
-					"Shared Mind. A homunculus knows everything its creator knows, including all the languages the creator can speak and read. Likewise, everything the construct senses is known to its master, even over great distances, provided both are on the same plane. Functioning as a spy, a scout, an emissary, or a messenger, a homunculus is an invaluable servant for a spellcaster engaged in secret experimentation or adventuring."
+					"Kil, kül, mandrake kökü ve kanın karıştırıp şekillendirirmesi ile nadir bir ritüel ile sincap boyutunda sadık bir hizmetkar oluşturur.",
+					"Bir yapay insan, yaratıcısının bir uzantısı olarak hareket eden bir yapımdır, mistik bir bağ üzerinden iki paylaşılan düşünce, duyular ve dilleri vardır. Sahibi tek seferde sadece bir tane yapay insana sahip olabilir(başka bir tane oluşturmaya çalışırsa her zaman başarısız olur.). Sahibi öldüğü zaman yapay insanda ölür.",
+					"Paylaşılan zihin. Yapay insan yaratıcısın bildiği her şeyi bilir, konuştuğu ve okuya bildiği diller dahil. Aynı şekilde, aynı mekanda oldukları sürece aralarında çok büyük bir mesafe bile olsa algıladığı her şey yaratıcısı tarafındanda bilinir. Bir casus, izci ya da bir haberci olarak çalışan yapay insan, gizli deney ve ya meceraya katılan bir büyücü için paha biçilmez bir hizmetkardır."
 				]
 			}
 		},
@@ -5593,7 +5593,7 @@
 			}
 		},
 		{
-			"name": "Lemure",
+			"name": "Lemur",
 			"source": "MM",
 			"images": [
 				{
@@ -5607,8 +5607,8 @@
 			"entries": {
 				"type": "entries",
 				"entries": [
-					"A lemure arises when a mortal soul is twisted by evil and banished to the Nine Hells for eternity. The lowest type of devil, lemures are repugnant, shapeless creatures doomed to suffer torment until they are promoted to a higher form of devil, most commonly an imp.",
-					"A lemure resembles a molten mass of flesh with a vaguely humanoid head and torso. A permanent expression of anguish twists across its face, its feeble mouth babbling even though it can't speak."
+					"Lemur, bir ölümlü ruh kötülük tarafından bükülüp ve sonsuzluk için Dokuz Cehenneme' e sürüldüğünde ortaya çıkar. En düşük şeytan türü, lemurlar iğrenç, şekilsiz yaratık, daha yüksek şeytan biçimine terfi edinceye kadar işkence cekmeye mahkum en yaygın küçük şeytandır.",
+					" Lemur, belli belirsiz bir insan kafa ve gövde ile erimiş bir et kütlesini andırır. Yüzünde sürekli bir acıdan oluşan kıvrımlar vardır. Sürekli gevezelik eden çelimsiz bir ağzıda olsa konuşamaz."
 				]
 			},
 			"_appendCopy": {
@@ -6267,11 +6267,16 @@
 			}
 		},
 		{
-			"name": "Myconid Sprout",
+			"name": "Myconid Filiz",
 			"source": "MM",
-			"_copy": {
-				"name": "Myconid",
-				"source": "MM"
+			"entries": {
+				"type": "entries",
+				"entries": [
+					"Myconidler zeki, karanlıkta yaşayıp gezen, şiddete bağımlı ve aydınlamayı arayan mantarlardır. Barışçıl bir şekilde yaklaştığında, sığınak sağlamakta ve kolonilerinden geçişe memmuniyetle güvenli geçişe izin verirler.",
+    				"Halkalar ve meldsler. En büyük myconid koloni egenem olup, halkalar olarak adrandıran bir veya daha fazla topluluğa başkanlık eder. Bir daire birlikte çalışan, yaşayan ve birbiri ile birleşen yirmi veya daha fazla myconidden oluşur.",
+   					"Birleşme bir ortak bir meditasyon şeklidir, myconidlerin var oluşlarına aşmalarına izin verir. Myconidlerin uyum sporu onları bir grup bilincine bağlar. Halisinasyon sporları daha sonra eğlence ve sosyal etkileşim sağlayan paylaşılan bir rüyayı etkiler. Myconidler varoluş amaçlarını birleşme olarak düşünüyor. Bunu daha yüksek bilinç, kolektif birlik ve manevi tanrılaştırma için kullanırlar. Myconidler ayrıca, diğer hassas yaratıklar ile iletişim kurmak için uyum sporlarını kullanırlar.",
+   					"Myconid Üreme. Myconidler öbrü mantalar gibi sporlarla ürerler. Aşırı nüfusdan kaçınmak için sporlarını dikkkatlice kontrol ederler."
+				]
 			}
 		},
 		{
@@ -7290,8 +7295,8 @@
 			"entries": {
 				"type": "entries",
 				"entries": [
-					"A quipper is a carnivorous fish with sharp teeth.",
-					"Quippers can adapt to any aquatic environment, including cold subterranean lakes. They frequently gather in swarms; the statistics for a swarm of quippers appear later in this appendix."
+					"Quipper etçil keskin dişleri olan bir balıktır.",
+					"Quipperlar her türlü sucul bölgeye uyum sağlaya bilirler. Soğuk altı gölleri dahil. Genellikle sürü halinde dolaşırlar. Ekde daha sonra quipper sürüsü istatiskleri çıkıyor."
 				]
 			}
 		},
@@ -7319,7 +7324,7 @@
 			}
 		},
 		{
-			"name": "Rat",
+			"name": "Fare",
 			"source": "MM",
 			"images": [
 				{
