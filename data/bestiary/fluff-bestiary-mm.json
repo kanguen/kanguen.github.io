@@ -5092,7 +5092,7 @@
 			}
 		},
 		{
-			"name": "Yapay İnsan",
+			"name": "Homunculus",
 			"source": "MM",
 			"images": [
 				{
@@ -5593,7 +5593,7 @@
 			}
 		},
 		{
-			"name": "Lemur",
+			"name": "Lemure",
 			"source": "MM",
 			"images": [
 				{
@@ -5607,8 +5607,8 @@
 			"entries": {
 				"type": "entries",
 				"entries": [
-					"Lemur, bir ölümlü ruh kötülük tarafından bükülüp ve sonsuzluk için Dokuz Cehenneme' e sürüldüğünde ortaya çıkar. En düşük şeytan türü, lemurlar iğrenç, şekilsiz yaratık, daha yüksek şeytan biçimine terfi edinceye kadar işkence cekmeye mahkum en yaygın küçük şeytandır.",
-					" Lemur, belli belirsiz bir insan kafa ve gövde ile erimiş bir et kütlesini andırır. Yüzünde sürekli bir acıdan oluşan kıvrımlar vardır. Sürekli gevezelik eden çelimsiz bir ağzıda olsa konuşamaz."
+					"Lemure, bir ölümlü ruh kötülük tarafından bükülüp ve sonsuzluk için Dokuz Cehenneme' e sürüldüğünde ortaya çıkar. En düşük şeytan türü, lemurelar iğrenç, şekilsiz yaratık, daha yüksek şeytan biçimine terfi edinceye kadar işkence cekmeye mahkum en yaygın küçük şeytandır.",
+					" Lemure, belli belirsiz bir insan kafa ve gövde ile erimiş bir et kütlesini andırır. Yüzünde sürekli bir acıdan oluşan kıvrımlar vardır. Sürekli gevezelik eden çelimsiz bir ağzıda olsa konuşamaz."
 				]
 			},
 			"_appendCopy": {

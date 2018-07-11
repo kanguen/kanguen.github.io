@@ -29939,30 +29939,30 @@
 							},
 							{
 								"type": "entries",
-								"name": "Spellcasting Focus",
+								"name": "Büyü Yapma Odağı",
 								"entries": [
-									"You can use an arcane focus (found in chapter 5) as a spellcasting focus for your wizard spells."
+									"Büyücü büyülerin için bir arcane odak kullanabilirsin."
 								]
 							},
 							{
 								"type": "entries",
-								"name": "Learning Spells of 1st Level and Higher",
+								"name": "1. Seviye ve Üzeri Büyüleri Öğrenme",
 								"entries": [
-									"Each time you gain a wizard level, you can add two wizard spells of your choice to your spellbook. Each of these spells must be of a level for which you have spell slots, as shown on the Wizard table. On your adventures, you might find other spells that you can add to your spellbook (see \"Your Spellbook\")."
+									"Her büyücü seviyesi atladığında büyü kitabına seçeceğin iki adet büyücü büyüsü ekleyebilirsin. Büyülerin hepsi Büyücü tablosunda gösterildiği üzere sahip olduğun büyü yuvalarına uygun olmalıdır. Maceralarında büyü kitabına ekleyebileceğin diğer büyüler de bulabilirsin (\"Büyü Kitabın\" kısmına bak)."
 								]
 							},
 							{
 								"type": "inset",
-								"name": "Your Spellbook",
+								"name": "Büyü Kitabın",
 								"entries": [
-									"The spells that you add to your spellbook as you gain levels reflect the arcane research you conduct on your own, as well as intellectual breakthroughs you have had about the nature of the multiverse. You might find other spells during your adventures. You could discover a spell recorded on a scroll in an evil wizard's chest, for example, or in a dusty tome in an ancient library.",
-									"A spellbook doesn't contain cantrips.",
+									"Seviye atladıkça büyü kitabına eklediğin büyüler, senin bireysel arcane araştırmalarını ve çoklu evrenin yapısı hakkında buluşlarını yansıtır. Maceralarında başka büyüler bulabilirsin. Kötü bir büyücünün sandığında yada antik bir kütüphanenin içindeki tozlu bir yazıtta olabilir.",
+									"Büyü kitabı cantripleri içermez.",
 									{
 										"type": "entries",
 										"entries": [
 											{
 												"type": "entries",
-												"name": "Copying a Spell into the Book",
+												"name": "Kitaba Büyü Kopyalama",
 												"entries": [
 													"When you find a wizard spell of 1st level or higher, you can add it to your spellbook if it is of a spell level you can prepare and if you can spare the time to decipher and copy it.",
 													"Copying a spell into your spellbook involves reproducing the basic form of the spell, then deciphering the unique system of notation used by the wizard who wrote it. You must practice the spell until you understand the sounds or gestures required, then transcribe it into your spellbook using your own notation.",
