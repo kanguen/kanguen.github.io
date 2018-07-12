@@ -29964,10 +29964,10 @@
 												"type": "entries",
 												"name": "Kitaba Büyü Kopyalama",
 												"entries": [
-													"When you find a wizard spell of 1st level or higher, you can add it to your spellbook if it is of a spell level you can prepare and if you can spare the time to decipher and copy it.",
-													"Copying a spell into your spellbook involves reproducing the basic form of the spell, then deciphering the unique system of notation used by the wizard who wrote it. You must practice the spell until you understand the sounds or gestures required, then transcribe it into your spellbook using your own notation.",
-													"For each level of the spell, the process takes 2 hours and costs 50 gp. The cost represents material components you expend as you experiment with the spell to master it, as well as the fine inks you need to record it. Once you have spent this time and money, you can prepare the spell just like your other spells.",
-													"A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When you copy a spell from a spell scroll, you must succeed on an Intelligence (Arcana) check with a DC equal to 10 + the spell's level. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed."
+													"1. seviye ve üzeri bir büyücü büyüsü bulduğunda, eğer hazırlayabileceğin bir büyü seviyesinde ise ve onu çözüp kopyalayacak vaktin varsa kitabına ekleyebilirsin.",
+													"Bir büyüyü kitabına kopyalama büyünün basit bir formunu yeniden yaratma ve sonrasında o büyüyü yazan büyücüye özgü formülleri çözmeyi içerir. Büyüye gereken sesler ve hareketleri anlayana kadar pratik yapmalısın ve sonrasında onu büyü kitabına kendi formüllerinle yazmalısın.",
+													"Büyünün her seviyesi için bu süreç 2 saat ve 50 gp alır. Bu masraf deney yaparken kullandığın materyal bileşenleri ve yazmak için gereken nadir mürekkepleri temsil eder. Bu zamanı ve parayı harcadıktan sonra büyüyü diğer büyülerin gibi hazırlayıp kullanabilirsin.",
+													"Bir büyü tomarı üzerindeki büyücü büyüsü aynı kitapta bulduğun büyüler gibi kopyalanabilir. Tomar üzerindeki büyüyü kopyalamak için öncelikle DC 10 + büyü seviyesi bir Zeka (Arcana) zarını geçmelisin. Eğer zar başarılı olursa büyü kopyalanır. Zar başarılı olsun yada olmasın tomar yok olur."
 												]
 											}
 										]
@@ -29977,10 +29977,10 @@
 										"entries": [
 											{
 												"type": "entries",
-												"name": "Replacing the Book",
+												"name": "Kitabı Yenileme",
 												"entries": [
-													"You can copy a spell from your own spellbook into another book\u2014for example, if you want to make a backup copy of your spellbook. This is just like copying a new spell into your spellbook, but faster and easier, since you understand your own notation and already know how to cast the spell. You need spend only 1 hour and 10 gp for each level of the copied spell.",
-													"If you lose your spellbook, you can use the same procedure to transcribe the spells that you have prepared into a new spellbook. Filling out the remainder of your spellbook requires you to find new spells to do so, as normal. For this reason, many wizards keep backup spellbooks in a safe place."
+													"Kendi büyü kitabından bir büyüyü başka bir kitaba kopyalayabilirsin, mesela bir yedek yaratmak istersen yapacağın gibi. Bu aynı yeni bir büyüyü kopyalamak gibidir ama daha basit ve hızlı olur, nasıl olsa kendi formüllerini anlayabiliyor ve büyüyü kullanmayı biliyorsun. Kopyalanan büyünün her seviyesi için sadece 1 saat ve 10 gp harcaman gerekir.",
+													"Eğer büyü kitabını kaybedersen, aynı prosedürü hazırlamış olduğun büyüleri yeni bir kitaba yazarken kullanabilirsin. Kitabın devamını doldurma normalde olduğu gibi yeni büyüleri bulmanı gerektirir. Bu sebepten dolayı çoğu büyücü kitaplarını yedeğini güvenli bir yerde saklarlar."
 												]
 											}
 										]
@@ -29990,9 +29990,9 @@
 										"entries": [
 											{
 												"type": "entries",
-												"name": "The Book's Appearance",
+												"name": "Kitabın Görünüşü",
 												"entries": [
-													"Your spellbook is a unique compilation of spells, with its own decorative flourishes and margin notes. It might be a plain, functional leather volume that you received as a gift from your master, a finely bound gilt-edged tome you found in an ancient library, or even a loose collection of notes scrounged together after you lost your previous spellbook in a mishap."
+													"Büyü kitabın kendi deseni ve notlarıyla özgün bir büyü derlemesidir. Ustandan aldığın hediye olan basit bir deri kitapta olabilir, antik bir kütüphanede bulduğun yaldızlı bir yazıtta, hatta belkide önceki kitabını kaybettikten sonra toparladığın bir parşömen yığınıdır."
 												]
 											}
 										]
@@ -30004,9 +30004,9 @@
 				],
 				[
 					{
-						"name": "Arcane Tradition",
+						"name": "Arcane Gelenek",
 						"entries": [
-							"When you reach 2nd level, you choose an arcane tradition from the list of available traditions, shaping your practice of magic. Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level."
+							"2. seviyeye ulaştığında büyü uğraşına şekil verecek olan mevcut listeden bir arcane gelenek seçersin. Seçeneğin sana 2, 6, 10 ve 14. seviyelerde özellikler kazandırır."
 						],
 						"gainSubclassFeature": true
 					}
@@ -30024,9 +30024,9 @@
 				[],
 				[
 					{
-						"name": "Arcane Tradition feature",
+						"name": "Arcane Gelenek Özelliği",
 						"entries": [
-							"At 6th level, you gain a feature granted by your Arcane Tradition."
+							"6. seviyede Arcane Geleneğinin sunduğu bir özellik kazanırsın."
 						],
 						"gainSubclassFeature": true
 					}
@@ -30036,7 +30036,7 @@
 					{
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
-							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
+							"8. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
 							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
 						]
 					}
@@ -30044,9 +30044,9 @@
 				[],
 				[
 					{
-						"name": "Arcane Tradition feature",
+						"name": "Arcane Gelenek Özelliği",
 						"entries": [
-							"At 10th level, you gain a feature granted by your Arcane Tradition."
+							"10. seviyede Arcane Geleneğinin sunduğu bir özellik kazanırsın."
 						],
 						"gainSubclassFeature": true
 					}
@@ -30056,7 +30056,7 @@
 					{
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
-							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
+							"12. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
 							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
 						]
 					}
@@ -30064,9 +30064,9 @@
 				[],
 				[
 					{
-						"name": "Arcane Tradition feature",
+						"name": "Arcane Gelenek Özelliği",
 						"entries": [
-							"At 14th level, you gain a feature granted by your Arcane Tradition."
+							"14. seviyede Arcane Geleneğinin sunduğu bir özellik kazanırsın."
 						],
 						"gainSubclassFeature": true
 					}
@@ -30076,7 +30076,7 @@
 					{
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
-							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
+							"16. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
 							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
 						]
 					}
@@ -30084,10 +30084,10 @@
 				[],
 				[
 					{
-						"name": "Spell Mastery",
+						"name": "Büyü Uzmanlığı",
 						"entries": [
-							"At 18th level, you have achieved such mastery over certain spells that you can cast them at will. Choose a 1st-level wizard spell and a 2nd-level wizard spell that are in your spellbook. You can cast those spells at their lowest level without expending a spell slot when you have them prepared. If you want to cast either spell at a higher level, you must expend a spell slot as normal.",
-							"By spending 8 hours in study, you can exchange one or both of the spells you chose for different spells of the same levels."
+							"18. seviyede bazı büyüler üzerinde öylesine uzmanlaşmışsındır ki onları istediğin zaman kullanabilirsin. Büyü kitabından birer tane 1. ve 2. seviye büyücü büyüsü seç. Bu büyüleri eğer hazırlamışsan en düşük seviyelerinde büyü yuvası harcamadan istediğin zaman kullanabilirsin. Bu büyüleri üst seviyelerde kullanmak istersen normalde olduğu gibi büyü yuvası harcamalısın.",
+							"8 saatini araştırmada geçirerek bu büyüleri aynı seviye büyüler ile değiştirebilirsin."
 						]
 					}
 				],
@@ -30095,383 +30095,46 @@
 					{
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
-							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
+							"19. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
 							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
 						]
 					}
 				],
 				[
 					{
-						"name": "Signature Spells",
+						"name": "İmza Büyüler",
 						"entries": [
-							"When you reach 20th level, you gain mastery over two powerful spells and can cast them with little effort. Choose two 3rd-level wizard spells in your spellbook as your signature spells. You always have these spells prepared, they don't count against the number of spells you have prepared, and you can cast each of them once at 3rd level without expending a spell slot. When you do so, you can't do so again until you finish a short or long rest.",
-							"If you want to cast either spell at a higher level, you must expend a spell slot as normal."
+							"20. seviyeye ulaştığında iki güçlü büyü üzerinde uzmanlık kazanırsın ve onları azıcık eforla kullanabilirsin. Kitabından iki tane 3. seviye büyüyü senin imza büyülerin olarak seç. Bu büyüler daima kullanıma hazırdır ve günlük hazırlanabilecek büyü sayısını etkilemez. Aynı zamanda bunları birer kere 3. seviyede büyü yuvası harcamadan kullanabilirsin. Bunu yaptığında kısa yada uzun dinlenme bitirene kadar bir daha kullanamazsın.",
+							"Eğer bu büyüleri üst seviyelerde kullanmak istersen normalde olduğu gibi büyü yuvası harcaman gerekir."
 						]
 					}
 				]
 			],
-			"subclassTitle": "Arcane Tradition",
+			"subclassTitle": "Arcane Gelenek",
 			"subclasses": [
-				{
-					"name": "Artificer (UA)",
-					"subclassFeatures": [
-						[
-							{
-								"name": "Artificer",
-								"entries": [
-									"Artificers are a key part of the world of Eberron. They illustrate the evolution of magic from a wild, unpredictable force to one that is becoming available to the masses. Magic items are part of everyday life in the Five Nations of Khorvaire; with an artificer in your party, they become part of every adventuring expedition.",
-									"The artificer was a separate class in prior editions of the Eberron setting, a melee combatant who specialized in mystically enhanced arms and armor. The fifth edition rules treat the artificer as a new wizard tradition that focuses on mystical invention, which you can choose starting at 2nd level.",
-									{
-										"type": "entries",
-										"name": "Infuse Potions",
-										"entries": [
-											"Starting at 2nd level, you can produce magic potions. You spend 10 minutes focusing your magic on a vial of mundane water and expend a spell slot to transform it into a potion. Once you have expended a spell slot to create a potion, you cannot regain that slot until the potion is consumed or after 1 week, at which time the potion loses its effectiveness. You can create up to three potions at a time; creating a fourth potion causes the oldest currently active one to immediately lose its potency. If that potion has been consumed, its effects immediately end.",
-											"The spell slot you expend determines the type of potion you can create.",
-											{
-												"type": "table",
-												"caption": "Infuse Potions",
-												"colLabels": [
-													"Spell Slot",
-													"Potion Created"
-												],
-												"colStyles": [
-													"col-xs-3 text-align-center",
-													"col-xs-9"
-												],
-												"rows": [
-													[
-														"1st",
-														"Climbing, growth, or healing"
-													],
-													[
-														"2nd",
-														"Mind reading or greater healing"
-													],
-													[
-														"3rd",
-														"Invisibility, superior healing, or water breathing"
-													],
-													[
-														"4th",
-														"Resistance"
-													]
-												]
-											}
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Infuse Scrolls",
-										"entries": [
-											"At 2nd level, you can also tap into your reserves of magical energy to create spell scrolls. You can use your Arcane Recovery ability to create a scroll instead of regaining expended spell slots.",
-											"You must finish a short rest, then spend 10 minutes with parchment, quill, and ink to create a spell scroll containing one spell chosen from those you know. Subtract the spell's level from the total levels worth of slots you regain using Arcane Recovery. This reduction to your Arcane Recovery applies until you use the scroll and then finish a long rest."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Infuse Weapons and Armor",
-										"entries": [
-											"Beginning at 6th level, you can produce magic weapons and armor. You spend 10 minutes focusing your magic on a mundane weapon, suit of armor, shield, or bundle of twenty pieces of ammunition, and expend a spell slot to infuse it with magical energy. The magic item retains its enhancement for 8 hours or until used (in the case of magic ammunition). You can infuse only one item at a time; if you infuse a second one, the first immediately loses its potency. Once you have expended a spell slot to create such an item, you cannot regain that slot until the item becomes nonmagical.",
-											"The spell slot you expend determines the type of weapon, armor, or shield you can create.",
-											{
-												"type": "table",
-												"caption": "Infuse Weapons and Armor",
-												"colLabels": [
-													"Spell Level",
-													"Item Created"
-												],
-												"colStyles": [
-													"col-xs-3 text-align-center",
-													"col-xs-9"
-												],
-												"rows": [
-													[
-														"2nd",
-														"+1 ammunition (20 pieces)"
-													],
-													[
-														"3rd",
-														"+1 weapon or +1 shield"
-													],
-													[
-														"4th",
-														"+1 armor"
-													],
-													[
-														"5th",
-														"+2 weapon or +2 ammunition (20 pieces)"
-													],
-													[
-														"6th",
-														"+2 armor"
-													]
-												]
-											}
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Superior Artificer",
-										"entries": [
-											"Starting at 10th level, you can create a second magic weapon, suit of armor, shield, or bundle of ammunition using your Infuse Weapons and Armor ability. Attempting to infuse a third item causes the oldest one to immediately lose its potency.",
-											"You can also create one additional potion or scroll using Infuse Potions or Infuse Scrolls."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Master Artificer",
-										"entries": [
-											"On reaching 14th level, your mastery of arcane magic allows you to produce a variety of magic items. You can create a single item chosen from Magic Item Tables A and B in chapter 7 of the Dungeon Master's Guide (shown below). It takes you 1 week to produce such an item, and you must rest for 1 month before using this ability to craft another item.",
-											{
-												"type": "table",
-												"caption": "Magic Item Table A",
-												"colLabels": [
-													"d100",
-													"Magic Item"
-												],
-												"colStyles": [
-													"col-xs-1 text-align-center",
-													"col-xs-11"
-												],
-												"rows": [
-													[
-														"01-50",
-														"Potion of healing"
-													],
-													[
-														"51-60",
-														"Spell scroll (cantrip)"
-													],
-													[
-														"61-70",
-														"Potion of climbing"
-													],
-													[
-														"71-90",
-														"Spell scroll (1st level)"
-													],
-													[
-														"91-94",
-														"Spell scroll (2nd level)"
-													],
-													[
-														"95-98",
-														"Potion of greater healing"
-													],
-													[
-														"99",
-														"Bag of holding"
-													],
-													[
-														"00",
-														"Driftglobe"
-													]
-												]
-											},
-											{
-												"type": "table",
-												"caption": "Magic Item Table B",
-												"colLabels": [
-													"d100",
-													"Magic Item"
-												],
-												"colStyles": [
-													"col-xs-1 text-align-center",
-													"col-xs-11"
-												],
-												"rows": [
-													[
-														"01-15",
-														"Potion of greater healing"
-													],
-													[
-														"16-22",
-														"Potion of fire breath"
-													],
-													[
-														"23-29",
-														"Potion of resistance"
-													],
-													[
-														"30-34",
-														"Ammunition +1"
-													],
-													[
-														"35-39",
-														"Potion of animal friendship"
-													],
-													[
-														"40-44",
-														"Potion of hill giant strength"
-													],
-													[
-														"45-49",
-														"Potion of growth"
-													],
-													[
-														"50-54",
-														"Potion of water breathing"
-													],
-													[
-														"55-59",
-														"Spell scroll (2nd level)"
-													],
-													[
-														"60-64",
-														"Spell scroll (3rd level)"
-													],
-													[
-														"65-67",
-														"Bag of holding"
-													],
-													[
-														"68-70",
-														"Keoghtom's ointment"
-													],
-													[
-														"71-73",
-														"Oil of slipperiness"
-													],
-													[
-														"74-75",
-														"Dust of disappearance"
-													],
-													[
-														"76-77",
-														"Dust of dryness"
-													],
-													[
-														"78-79",
-														"Dust of sneezing and choking"
-													],
-													[
-														"80-81",
-														"Elemental gem"
-													],
-													[
-														"82-83",
-														"Philter of love"
-													],
-													[
-														"84",
-														"Alchemy jug"
-													],
-													[
-														"85",
-														"Cap of water breathing"
-													],
-													[
-														"86",
-														"Cloak of the manta ray"
-													],
-													[
-														"87",
-														"Driftglobe"
-													],
-													[
-														"88",
-														"Goggles of night"
-													],
-													[
-														"89",
-														"Helm of comprehending languages"
-													],
-													[
-														"90",
-														"Immovable rod"
-													],
-													[
-														"91",
-														"Lantern of revealing"
-													],
-													[
-														"92",
-														"Mariner's armor"
-													],
-													[
-														"93",
-														"Mithral armor"
-													],
-													[
-														"94",
-														"Potion of poison"
-													],
-													[
-														"95",
-														"Ring of swimming"
-													],
-													[
-														"96",
-														"Robe of useful items"
-													],
-													[
-														"97",
-														"Rope of climbing"
-													],
-													[
-														"98",
-														"Saddle of the cavalier"
-													],
-													[
-														"99",
-														"Wand of magic detection"
-													],
-													[
-														"00",
-														"Wand of secret"
-													]
-												]
-											}
-										]
-									}
-								]
-							}
-						]
-					],
-					"source": "UAEberron",
-					"shortName": "Artificer (UA)"
-				},
 				{
 					"name": "School of Abjuration",
 					"subclassFeatures": [
 						[
 							{
-								"name": "School of Abjuration",
+								"name": "Abjuration Okulu",
 								"entries": [
-									"The School of Abjuration emphasizes magic that blocks, banishes, or protects. Detractors of this school say that its tradition is about denial, negation rather than positive assertion. You understand, however, that ending harmful effects, protecting the weak, and banishing evil influences is anything but a philosophical void. It is a proud and respected vocation.",
-									"Called abjurers, members of this school are sought when baleful spirits require exorcism, when important locations must be guarded against magical spying, and when portals to other planes of existence must be closed.",
+									"Abjuration okulu bloklayan, koruyan yada kovan büyüler üzerinde yoğunlaşır. Bu okulun aleyhinde konuşanlar bu geleneğin pozitif ifadedense, inkar ve etkisizleştirme üzerine yoğunlaştığını söyler. Ama sen kötüleri kovma, zayıfı koruma ve zararlı etkileri defetmenin felsefi bir boşluktan fazlası olduğunu anlarsın. Gururlu ve saygı duyulan bir sanattır.",
+									"Abjurer olarak bilinen bu okulun üyeleri öfkeli ruhları kovmada, önemli yerlerin büyülü izlenmeden korunmasında ve diğer boyutlara açılan portalların kapatılmasında ilk ulaşılan kişiler olurlar.",
 									{
 										"type": "entries",
-										"name": "Abjuration Savant",
+										"name": "Abjuration Bilgini",
 										"entries": [
-											"Beginning when you select this school at 2nd level, the gold and time you must spend to copy an abjuration spell into your spellbook is halved."
+											"2. seviyede bu okulu seçtiğinde, bir abjuration büyüsünü kitabına kopyalama süren ve masrafın yarılanır."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Arcane Ward",
+										"name": "Arcane Kalkan",
 										"entries": [
-											"Starting at 2nd level, you can weave magic around yourself for protection. When you cast an abjuration spell of 1st level or higher, you can simultaneously use a strand of the spell's magic to create a magical ward on yourself that lasts until you finish a long rest. The ward has hit points equal to twice your wizard level + your Intelligence modifier. Whenever you take damage, the ward takes the damage instead. If this damage reduces the ward to 0 hit points, you take any remaining damage.",
-											"While the ward has 0 hit points, it can't absorb damage, but its magic remains. Whenever you cast an abjuration spell of 1st level or higher, the ward regains a number of hit points equal to twice the level of the spell.",
-											"Once you create the ward, you can't create it again until you finish a long rest."
+											"2. seviyeden itibaren etrafında korunma için büyüyü dokuyabilirsin. 1. seviye ve üzeri bir abjuration büyüsü kullandığında aynı anda büyünün gücünü kullanıp üzerinde koruyucu büyülü bir kalkan oluşturabilirsin. Bu kalkan sen uzun dinlenme bitirene kadar sürer. Kalkan büyücü seviyen + Zeka bonusun kadar HP'ye sahiptir. Ne zaman hasar alsan senin yerine hasarı kalkan alır. Eğer bu hasar kalkanı 0 HP'ye düşürürse hasarın devamını sen alırsın.",
+											"Kalkan 0 HP'ye sahipken hasar ememez ama büyüsü hala aktiftir. Ne zaman 1. seviye ve üzeri bir abjuration büyüsü kullanırsan, kalkan büyü seviyesinin iki katı HP yeniler.",
+											"Bu kalkanı bir kere yarattığında bir daha uzun dinlenme bitirene kadar yaratamazsın."
 										]
 									}
 								]
@@ -30482,9 +30145,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Projected Ward",
+										"name": "Yansıtılmış Kalkan",
 										"entries": [
-											"Starting at 6th level, when a creature that you can see within 30 feet of you takes damage, you can use your reaction to cause your Arcane Ward to absorb that damage. If this damage reduces the ward to 0 hit points, the warded creature takes any remaining damage."
+											"6. seviyeden itibaren 30 feet yakınındaki görebildiğin bir varlık hasar aldığında reaksiyonunu kullanıp Arcane Kalkanının bu hasarı emmesini sağlayabilirsin. Eğer bu hasar kalkanını 0 HP'ye düşürürse koruduğun varlık hasarın geri kalanını alır."
 										]
 									}
 								]
@@ -30495,9 +30158,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Improved Abjuration",
+										"name": "Gelişmiş Abjuration",
 										"entries": [
-											"Beginning at 10th level, when you cast an abjuration spell that requires you to make an ability check as a part of casting that spell (as in counterspell and dispel magic), you add your proficiency bonus to that ability check."
+											"10. seviyeden itibaren kullandığın abjuration büyüsü eğer bir yetenek zarı atmanı gerektiriyorsa ({@spell counterspell} ve {@spell dispel magic} gibi), buna uzmanlık bonusunu eklersin."
 										]
 									}
 								]
@@ -30508,10 +30171,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Spell Resistance",
+										"name": "Büyü Direnci",
 										"entries": [
-											"Starting at 14th level, you have advantage on saving throws against spells.",
-											"Furthermore, you have resistance against the damage of spells."
+											"14. seviyeden itibaren büyülere karşı attığın kurtulma zarlarında avantajın olur.",
+											"Bunun yanında büyülerden gelecek hasara karşı direncin olur."
 										]
 									}
 								]
@@ -30611,26 +30274,26 @@
 					"shortName": "Bladesinger"
 				},
 				{
-					"name": "School of Conjuration",
+					"name": "Conjuration Okulu",
 					"subclassFeatures": [
 						[
 							{
-								"name": "School of Conjuration",
+								"name": "Conjuration Okulu",
 								"entries": [
-									"As a conjurer, you favor spells that produce objects and creatures out of thin air. You can conjure billowing clouds of killing fog or summon creatures from elsewhere to fight on your behalf. As your mastery grows, you learn spells of transportation and can teleport yourself across vast distances, even to other planes of existence, in an instant.",
+									"Bir conjurer olarak hiçlikten nesne ve varlık yarattığın büyülerle ilgilenirsin. Başka yerlerden senin için savaşacak varlıklar yada öldürücü gaz bulutları yaratabilirsin. Uzmanlığın ilerledikçe ulaşım büyüleri öğrenip kendini uzun mesafelere hatta başka boyutlara ışınlamayı öğrenirsin.",
 									{
 										"type": "entries",
-										"name": "Conjuration Savant",
+										"name": "Conjuration Bilgini",
 										"entries": [
-											"Beginning when you select this school at 2nd level, the gold and time you must spend to copy a conjuration spell into your spellbook is halved."
+											"2. seviyede bu okulu seçtiğinde bir conjuration büyüsünü kitabına kopyalama zamanı ve masrafı yarılanır."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Minor Conjuration",
+										"name": "Küçük Conjuration",
 										"entries": [
-											"Starting at 2nd level when you select this school, you can use your action to conjure up an inanimate object in your hand or on the ground in an unoccupied space that you can see within 10 feet of you. This object can be no larger than 3 feet on a side and weigh no more than 10 pounds, and its form must be that of a nonmagical object that you have seen. The object is visibly magical, radiating dim light out to 5 feet.",
-											"The object disappears after 1 hour, when you use this feature again, if it takes any damage, or if it deals any damage."
+											"2. seviyeden itibaren eylemini kullanıp elinde yada 10 feet yakınında görebildiğin boş bir alanda küçük bir cansız nesne yaratabilirsin. Bu nesne bir yanı 3 feet'ten fazla olamaz ve 10 pounddan ağır olamaz. Ayrıca formu daha önce gördüğün bir büyüsüz nesne olmalıdır. Nesne görünür bir şekilde büyülüdür ve 5 feet'e kadar loş ışık yayar.",
+											"Nesne bir hasar alırsa yada verirse, sen bu özelliği yeniden kullanırsan yada 1 saat sonunda kaybolur."
 										]
 									}
 								]
@@ -30641,10 +30304,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Benign Transposition",
+										"name": "Yararlı Aktarım",
 										"entries": [
-											"Starting at 6th level, you can use your action to teleport up to 30 feet to an unoccupied space that you can see. Alternatively, you can choose a space within range that is occupied by a Small or Medium creature. If that creature is willing, you both teleport, swapping places.",
-											"Once you use this feature, you can't use it again until you finish a long rest or you cast a conjuration spell of 1st level or higher."
+											"6. seviyeden itibaren eylemini kullanarak 30 feet mesafede görebildiğin boş bir alana ışınlanabilirsin. Alternatif olarak aynı mesafede Küçük yada Orta bir varlığın bulunduğu yeri seçebilirsin. Eğer o varlık istekliyse ikinizde ışınlanıp yer değiştirirsiniz.",
+											"Bu özelliği kullandığında uzun dinlenme bitirene yada 1. seviye ve üzeri bir conjuration büyüsü kullanana kadar bir daha kullanamazsın."
 										]
 									}
 								]
@@ -30655,9 +30318,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Focused Conjuration",
+										"name": "Odaklı Conjuration",
 										"entries": [
-											"Beginning at 10th level, while you are concentrating on a conjuration spell, your concentration can't be broken as a result of taking damage."
+											"10. seviyeden itibaren bir conjuration büyüsüne konsantre olurken konsantrasyonun hasar alma sonucu bozulamaz."
 										]
 									}
 								]
@@ -30668,9 +30331,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Durable Summons",
+										"name": "Dayanıklı Varlıklar",
 										"entries": [
-											"Starting at 14th level, any creature that you summon or create with a conjuration spell has 30 temporary hit points."
+											"14. seviyeden itibaren bir conjuration büyüsü ile yarattığın tüm varlıkların 30 geçici HP'si olur."
 										]
 									}
 								]
@@ -31008,239 +30671,6 @@
 					],
 					"source": "PHB",
 					"shortName": "Illusion"
-				},
-				{
-					"name": "Technomancy (UA)",
-					"subclassFeatures": [
-						[
-							{
-								"name": "Technomancy",
-								"entries": [
-									"Unlike the more common arcane traditions based around the schools of magic, the tradition of Technomancy does not focus on a singular type of spellcraft or magical energy. Rather, students of Technomancy concern themselves with how their spells interact with modern technology.",
-									"Technomancers can make use of technology as both a conduit and a storage space for magic. In a campaign using the optional rules for magic item creation (see the Dungeon Master's Guide), a technomancer might craft disposable electronic devices and smartphone apps in lieu of potions and scrolls.",
-									{
-										"type": "entries",
-										"name": "Bonus Proficiencies",
-										"entries": [
-											"Beginning when you select this arcane tradition at 2nd level, you gain proficiency with sidearms and hacking tools."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Technological Savant",
-										"entries": [
-											"Also at 2nd level, you trade out your spellbook for a specially attuned storage device of your choosing, capable of recording magical data. The computing power of this device must be equal to or greater than a tablet computer. Only one storage device can be attuned to you at any given time. Spells can be copied into this device at half the cost of copying spells into a spellbook."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Program Spell",
-										"entries": [
-											"At 6th level, you can insert a spell within an electronic device of your choosing, so that by touching a key or flicking a switch using an action, the spell activates. All variables of the spell are set at the time of casting. The computing power of this device must be equal to or greater than a mobile phone.",
-											"A programmed spell remains placed in its device for 48 hours, and is gone once it is discharged. You can use this feature to place a programmed spell in only one device at a time, and a device can hold only one programmed spell. Only you can activate the programmed spell in the device. If the device is destroyed, the programmed spell is lost.",
-											"A concentration spell placed in a device cannot be activated while you are concentrating on another spell. Once you use this feature, you can't use it again until you finish a long rest."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Online Casting",
-										"entries": [
-											"At 10th level, you can cast spells through networked electronic devices, including cameras, mobile phones, and computers. For example, if a creature is under the observation of a security camera and you can see the video feed from that camera on a computer, you can cast a spell into the computer and out through the security camera to target that creature.",
-											"If the spell requires the caster to be seen, the target must see you or a live image of you. If the spell requires the caster to be heard, the target must be able to hear you or a live audio transmission of you. The spell's range is determined using the distance from you to your device, and then from the target to its device. You must be able to see or otherwise determine the location of the target. This feature can be used to cast only spells that target specific creatures. Spells that affect an area are not subject to online casting.",
-											"This feature can be used a number of times per day equal to your Intelligence modifier (minimum of once)."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Chained Device",
-										"entries": [
-											"By 14th level, you have learned to imprint vestiges of your consciousness on electronic devices with significant computing power. When you cast a concentration spell, you can use a device whose computing power is equal to or greater than a tablet computer to maintain concentration of the spell on your behalf. The device must be held or worn by you to maintain this effect. If the device is destroyed, taken from you, dropped, or turned off, the concentration ends. Once you use this feature, you can't use it again until you finish a long rest."
-										]
-									}
-								]
-							}
-						]
-					],
-					"source": "UAModernMagic",
-					"shortName": "Technomancy (UA)"
-				},
-				{
-					"name": "Theurgy (UA)",
-					"subclassFeatures": [
-						[
-							{
-								"name": "Theurgy",
-								"entries": [
-									"A number of deities claim arcane magic as their domain, for magic is as much a part of the fabric of the cosmos as wind, fire, lightning, and all other primal forces. Just as there are deities of the sea and gods of warfare, the arcane arts feature their own divine patrons.",
-									"Such deities often have clerics, but many gods of magic bid their followers to take up the study of wizardry. These religious magic-users follow the arcane tradition of Theurgy, and are commonly known as theurgists. Such spellcasters are as dedicated and scholarly as any other wizard, but they blend their arcane study with religious devotion.",
-									{
-										"type": "entries",
-										"name": "Divine Inspiration",
-										"entries": [
-											"When you choose this tradition at 2nd level, choose a domain from your chosen deity's list of eligible domains (see appendix B, \"Gods of the Multiverse,\" in the Player's Handbook for examples). The Knowledge and Light domains are especially appropriate choices for a theurgist."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Arcane Initiate",
-										"entries": [
-											"Beginning when you select this tradition at 2nd level, whenever you gain a wizard level, you can replace one of the wizard spells you add to your spellbook with a cleric domain spell for your chosen domain. The spell must be of a level for which you have spell slots.",
-											"If you add all of your domain spells to your spellbook, you can subsequently add any spell from the cleric spell list instead. The spell must still be of a level for which you have spell slots.",
-											"Any cleric spell you gain from this feature is considered a wizard spell for you, but other wizards can't copy cleric spells from your spellbook into their own spellbooks."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Channel Arcana",
-										"entries": [
-											"At 2nd level, you gain the ability to channel arcane energy directly from your deity, using that energy to fuel magical effects. You start with two such effects: Divine Arcana and the Channel Divinity option granted at 2nd level by your chosen domain. You employ that Channel Divinity option by using your Channel Arcana ability.",
-											"When you use your Channel Arcana, you choose which effect to create. You must then finish a short or long rest to use your Channel Arcana again.",
-											"Some Channel Arcana effects require saving throws. When you use such an effect, the save DC equals your wizard spell save DC.",
-											"Beginning at 6th level, you can use your Channel Arcana twice between rests, and beginning at 18th level, you can use it three times between rests. When you finish a short or long rest, you regain your expended uses.",
-											"If you gain additional Channel Divinity options from your domain, you can employ them by using your Channel Arcana feature."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Channel Arcana: Divine Arcana",
-										"entries": [
-											"As a bonus action, you speak a prayer to control the flow of magic around you. The next spell you cast gains a +2 bonus to any attack roll you make for it or to its saving throw DC, as appropriate."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Arcane Acolyte",
-										"entries": [
-											"At 6th level, you gain your chosen domain's 1st-level benefits. However, you do not gain any weapon or armor proficiencies from the domain."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Arcane Priest",
-										"entries": [
-											"At 10th level, you gain your chosen domain's 6th-level benefits. Your faith and your understanding of magic allow you to delve into your god's secrets."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Arcane High Priest",
-										"entries": [
-											"At 14th level, you gain your chosen domain's 17th-level benefits. Your academic nature and understanding of magic and doctrine allow you to master this ability sooner than a cleric of your domain."
-										]
-									}
-								]
-							}
-						]
-					],
-					"source": "UATheFaithful",
-					"shortName": "Theurgy (UA)"
-				},
-				{
-					"name": "War Magic (UA)",
-					"subclassFeatures": [
-						[
-							{
-								"name": "War Magic",
-								"entries": [
-									"A variety of arcane colleges specialize in training wizards for war. The tradition of War Magic blends principles of evocation and abjuration. It teaches techniques that empower a caster's spells, while also providing methods for a wizard to bolster their own defenses.",
-									"Followers of this tradition are known as war mages. They see their magic as both a weapon and armor, a resource superior to any flimsy piece of steel. War mages strike fast in battle, using their spells to seize tactical control of a situation. Their spells strike hard, while their defensive skills foil their opponents' attempts to counterattack.",
-									{
-										"type": "entries",
-										"name": "Arcane Deflection",
-										"entries": [
-											"At 2nd level, you have learned to weave your magic to fortify yourself against harm. When you are hit by an attack or fail a Constitution saving throw, you can use your reaction to gain a +2 bonus to your AC against that attack or a +4 bonus to that saving throw.",
-											"When you use this feature, you can't cast spells other than cantrips until the end of your next turn."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Tactical Wit",
-										"entries": [
-											"Starting at 2nd level, your ability to quickly assess tactical situations allows you to act quickly in battle. You gain a bonus to your initiative rolls equal to your Intelligence modifier."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Power Surge",
-										"entries": [
-											"Starting at 6th level, you can empower your spells that unleash harm on groups of foes. When you force multiple creatures to make saving throws against the damage of one of your spells, you can increase the spell's damage by rolling two more of its damage dice. This increase occurs only on the turn you cast the spell.",
-											"Once you use this feature, you can't use it again until you finish a short or long rest."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Durable Magic",
-										"entries": [
-											"Beginning at 10th level, the magic you channel helps ward off harm. While you maintain concentration on a spell, you have a +2 bonus to AC and all saving throws."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Durable Magic",
-										"entries": [
-											"At 14th level, your Arcane Deflection becomes infused with deadly magic. When you use your Arcane Deflection feature, magical energy arcs from you; each creature of your choice within 10 feet of you takes force damage equal to half your wizard level."
-										]
-									}
-								]
-							}
-						]
-					],
-					"source": "UAWizardRevisited",
-					"shortName": "War Magic (UA)"
 				},
 				{
 					"name": "School of Transmutation",
