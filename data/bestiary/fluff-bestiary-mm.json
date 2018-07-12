@@ -1532,13 +1532,13 @@
 			}
 		},
 		{
-			"name": "Bandit",
+			"name": "Haydut",
 			"source": "MM",
 			"entries": {
 				"type": "entries",
 				"entries": [
-					"Bandits rove in gangs and are sometimes led by thugs, veterans, or spellcasters. Not all bandits are evil. Oppression, drought, disease, or famine can often drive otherwise honest folk to a life of banditry.",
-					"Pirates are bandits of the high seas. They might be freebooters interested only in treasure and murder, or they might be privateers sanctioned by the crown to attack and plunder an enemy nation's vessels."
+					"Haydutlar çete olarak dolaşırlar, bazende eşkiyalar, gaziler ve büyücüler tarafından yönetilirler. Tüm haydutlar kötü değildir. Baskı, kuraklık, hastalık yada kıtlık dürüst halkı haydut hayatınada sürükleyebilir.",
+					"Korsanlar açık denizlerin haydutlarıdır. Onlar sadece hazine ve katliamla ilgilenen normal denizciler olabilir yada bir düşman ulusun gemilerine saldırmak ve talan etmek için tacirler tarafından onaylanmış özel kişiler olabilir.."
 				]
 			}
 		},
@@ -2440,12 +2440,12 @@
 			}
 		},
 		{
-			"name": "Cultist",
+			"name": "Kültist",
 			"source": "MM",
 			"entries": {
 				"type": "entries",
 				"entries": [
-					"Cultists swear allegiance to dark powers such as elemental princes, demon lords, or archdevils. Most conceal their loyalties to avoid being ostracized, imprisoned, or executed for their beliefs. Unlike evil acolytes, cultists often show signs of insanity in their beliefs and practices."
+					"Kültistler karanlık taraftaki, elemental prenseslere, iblis lordlarına veya baş iblislere bağlılık yemini ederler. Çoğu dışlanmaktan, hapsedilmekten veya inançları yüzünden idam edilmekten kaçınmak için sadakatlerini gizler. Kötü rahip asistanlarından farklı olarak kültistler inanç ve uygulamalarında delilik belirtlieri gösterirler."
 				]
 			}
 		},
@@ -3593,12 +3593,12 @@
 			"entries": {
 				"type": "entries",
 				"entries": [
-					"The mysterious flumphs drift through the Underdark, propelled through the air by the jets whose sound gives them their name. A flumph glows faintly, reflecting its moods in its color. Soft pink means it is amused, deep blue is sadness, green expresses curiosity, and crimson is anger.",
-					"Intelligent and Wise. Flumphs communicate telepathically. Though they resemble jellyfish, flumphs are sentient beings of great intelligence and wisdom, possessing advanced knowledge of religion, philosophy, mathematics, and countless other subjects.",
-					"Flumphs are sensitive to the emotional states of nearby creatures. If a creature's thoughts suggest goodness, a flumph seeks that creature out. When facing creatures that exude evil, a flumph flees.",
-					"Psionic Siphons. Flumphs feed by siphoning mental energy from psionic creatures, and they can be found lurking near communities of mind flayers, aboleths, githyanki, and githzerai. As passive parasites, they take only the mental energy they need, and most creatures feel no loss or discomfort from such feeding.",
-					"Consuming psionic energy reveals the thoughts and emotions of the creatures on which the flumphs feed. Since so many of those creatures are evil, flumphs are often subjected to thoughts, emotions, and hungers that sicken their pure nature. When flumphs encounter good-hearted adventurers, they eagerly share the dark secrets they have learned in the hopes of casting down their evil sources of energy, even if doing so means they must seek out new sources of nourishment.",
-					"Flumph Society. Flumphs live in complex and organized groups called cloisters, within which each flumph has a place and purpose. These harmonious groupings have no need for leaders, since all flumphs contribute in their own way"
+					"Gizemli Flumphlar yer yer altında seyehat ederler, isimleri onların seyehat ederken çıkardıkları seslerden verirmiştir. Flumph lar hafifçe parlar, renkleri ruh halini yansıtır. Açık pembe neşeli olduğunu, koyu mavi üzgün olduğunu, yeşil meraklı olduğunu, kıpkırmızı olduğu kızgın olduğunu ifade eder.",
+					"Zeki ve bilge. Flumphlar telepatik olarak iletişim kurar. Flumplar denizanalarına benzedikleri halde, din, felsefe, matematik ve sayısız diğer konularda gelişmiş bir bilgi birikimi vardır. Büyük bir zeka ve bilgeye sahip yaratıklardır.",
+					"Flumphlar yakındaki öbür yaratıkların duygusal durumlarına duyarlıdır. Eğer bir yaratığın düşünceleri iyilik gösterirse, bu yaratığı arar. Eğer kötülük hissederse flump oradan uzaklaşır.",
+					"Psiyonik Sifonlar. Flumphlar psiyonik zihinsel yaratıklardan beslenirler ve abolethler, githyanki ve githzerai topluluklarının yakınlarda bulunurlar. Pasif parazit olarak, sadece ihtiyaç duydukları zihinsel enerjiyi alırlar ve çoğu canlı bu tür beslenmelerden hiç bir kayıp veya rahatsızlık hissetmez.",
+					"Tüketilen psiyonik enerji, flumpların beslendiği canlıların düşüncelerini ve duygularını açığa çıkarır. Bu yaratıkların bir çoğu kötü olduğu için , flumpler genellikle saf doğalarını derinleştiren  düşüncelere, duygulara açlık duyarlar. Flumplar iyi kalpli mecaracılarla karşılaştıklarında, öğrendikleri karanlık sırları kendi kötü enerji kaynaklarını yok etme umuduyla hevesle paylaşırlar, bu yüzdende yeni besin kaynakları aramaları gerektiği anlamına gelir.",
+					"Flumph Topluluğu. Flumplar kompleks ve organize bir şekilde olan cloister denen her bir flumpın yeri ve amacı olduğu bir şekilde yaşar. Bu uyumlu grupların liderlere ihtiyacı yoktur, çünkü tüm flumplar kendi yollarıyla katkıda bulunurlar."
 				]
 			}
 		},
@@ -3999,7 +3999,7 @@
 			"entries": {
 				"type": "entries",
 				"entries": [
-					"Some giant rats carry vile diseases that they spread with their bites."
+					"Bazı dev fareler ısırıkları ile yaydıkları korkunç hastalıklar taşırlar."
 				]
 			}
 		},

@@ -132,13 +132,13 @@
 				{
 					"name": "Tentacle",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +9} vurmak için, erişim 10 ft., tek hedef. Vurunca: 12 ({@dice 2d6+5}) darbe hasarı. If the target is a creature, it must succeed on a DC 14 Constitution saving throw yada become diseased. The disease has no effect for 1 minute and can be removed by any magic that cures disease. After 1 minute, the diseased creature's skin becomes translucent and slimy, the creature can't regain hit points unless it is underwater, and the disease can be removed only by heal yada another disease-curing spell of 6th level yada higher. When the creature is outside a body of water, it takes 6 ({@dice 1d12}) asit damage every 10 minutes unless moisture is applied to the skin before 10 minutes have passed."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +9} vurmak için, erişim 10 ft., tek hedef. Vurunca: 12 ({@dice 2d6+5}) ezme hasarı. If the target is a creature, it must succeed on a DC 14 Constitution saving throw yada become diseased. The disease has no effect for 1 minute and can be removed by any magic that cures disease. After 1 minute, the diseased creature's skin becomes translucent and slimy, the creature can't regain hit points unless it is underwater, and the disease can be removed only by heal yada another disease-curing spell of 6th level yada higher. When the creature is outside a body of water, it takes 6 ({@dice 1d12}) asit damage every 10 minutes unless moisture is applied to the skin before 10 minutes have passed."
 					]
 				},
 				{
 					"name": "Tail",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +9} vurmak için, erişim 10 ft., tek hedef. Vurunca: 15 ({@dice 3d6+5}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +9} vurmak için, erişim 10 ft., tek hedef. Vurunca: 15 ({@dice 3d6+5}) ezme hasarı."
 					]
 				},
 				{
@@ -293,7 +293,7 @@
 				{
 					"name": "Club",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +2} vurmak için, erişim 5 ft., tek hedef. Vurunca: 2 ({@dice 1d4}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +2} vurmak için, erişim 5 ft., tek hedef. Vurunca: 2 ({@dice 1d4}) ezme hasarı."
 					]
 				}
 			],
@@ -403,7 +403,7 @@
 				{
 					"name": "Tail",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +11} vurmak için, erişim 15 ft., tek hedef. Vurunca: 15 ({@dice 2d8+6}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +11} vurmak için, erişim 15 ft., tek hedef. Vurunca: 15 ({@dice 2d8+6}) ezme hasarı."
 					]
 				},
 				{
@@ -436,7 +436,7 @@
 				{
 					"name": "Wing Attack (Costs 2 Actions)",
 					"entries": [
-						"The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 19 Dexterity saving throw yada take 13 ({@dice 2d6+6}) darbe hasarı and be knocked prone. The dragon can then uçma up to half its flying speed."
+						"The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 19 Dexterity saving throw yada take 13 ({@dice 2d6+6}) ezme hasarı and be knocked prone. The dragon can then uçma up to half its flying speed."
 					]
 				}
 			],
@@ -531,7 +531,7 @@
 				{
 					"name": "Tail",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +12} vurmak için, erişim 15 ft., tek hedef. Vurunca: 16 ({@dice 2d8+7}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +12} vurmak için, erişim 15 ft., tek hedef. Vurunca: 16 ({@dice 2d8+7}) ezme hasarı."
 					]
 				},
 				{
@@ -564,7 +564,7 @@
 				{
 					"name": "Wing Attack (Costs 2 Actions)",
 					"entries": [
-						"The dracolich beats its tattered wings. Each creature within 10 ft. of the dracolich must succeed on a DC 21 Dexterity saving throw yada take 14 ({@dice 2d6+7}) darbe hasarı and be knocked prone. After beating its wings this way, the dracolich can uçma up to half its flying speed."
+						"The dracolich beats its tattered wings. Each creature within 10 ft. of the dracolich must succeed on a DC 21 Dexterity saving throw yada take 14 ({@dice 2d6+7}) ezme hasarı and be knocked prone. After beating its wings this way, the dracolich can uçma up to half its flying speed."
 					]
 				}
 			],
@@ -642,7 +642,7 @@
 				{
 					"name": "Tail",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +12} vurmak için, erişim 15 ft., tek hedef. Vurunca: 16 ({@dice 2d8+7}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +12} vurmak için, erişim 15 ft., tek hedef. Vurunca: 16 ({@dice 2d8+7}) ezme hasarı."
 					]
 				},
 				{
@@ -675,7 +675,7 @@
 				{
 					"name": "Wing Attack (Costs 2 Actions)",
 					"entries": [
-						"The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 20 Dexterity saving throw yada take 14 ({@dice 2d6+7}) darbe hasarı and be knocked prone. The dragon can then uçma up to half its flying speed."
+						"The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 20 Dexterity saving throw yada take 14 ({@dice 2d6+7}) ezme hasarı and be knocked prone. The dragon can then uçma up to half its flying speed."
 					]
 				}
 			],
@@ -755,7 +755,7 @@
 				{
 					"name": "Tail",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +11} vurmak için, erişim 15 ft., tek hedef. Vurunca: 15 ({@dice 2d8+6}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +11} vurmak için, erişim 15 ft., tek hedef. Vurunca: 15 ({@dice 2d8+6}) ezme hasarı."
 					]
 				},
 				{
@@ -804,7 +804,7 @@
 				{
 					"name": "Wing Attack (Costs 2 Actions)",
 					"entries": [
-						"The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 19 Dexterity saving throw yada take 13 ({@dice 2d6+6}) darbe hasarı and be knocked prone. The dragon can then uçma up to half its flying speed."
+						"The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 19 Dexterity saving throw yada take 13 ({@dice 2d6+6}) ezme hasarı and be knocked prone. The dragon can then uçma up to half its flying speed."
 					]
 				}
 			],
@@ -889,7 +889,7 @@
 				{
 					"name": "Tail",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +12} vurmak için, erişim 15 ft., tek hedef. Vurunca: 16 ({@dice 2d8+7}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +12} vurmak için, erişim 15 ft., tek hedef. Vurunca: 16 ({@dice 2d8+7}) ezme hasarı."
 					]
 				},
 				{
@@ -945,7 +945,7 @@
 				{
 					"name": "Wing Attack (Costs 2 Actions)",
 					"entries": [
-						"The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 20 Dexterity saving throw yada take 14 ({@dice 2d6+7}) darbe hasarı and be knocked prone. The dragon can then uçma up to half its flying speed."
+						"The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 20 Dexterity saving throw yada take 14 ({@dice 2d6+7}) ezme hasarı and be knocked prone. The dragon can then uçma up to half its flying speed."
 					]
 				}
 			],
@@ -1024,7 +1024,7 @@
 				{
 					"name": "Tail",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +11} vurmak için, erişim 15 ft., tek hedef. Vurunca: 15 ({@dice 2d8+6}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +11} vurmak için, erişim 15 ft., tek hedef. Vurunca: 15 ({@dice 2d8+6}) ezme hasarı."
 					]
 				},
 				{
@@ -1073,7 +1073,7 @@
 				{
 					"name": "Wing Attack (Costs 2 Actions)",
 					"entries": [
-						"The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 19 Dexterity saving throw yada take 13 ({@dice 2d6+6}) darbe hasarı and be knocked prone. The dragon can then uçma up to half its flying speed."
+						"The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 19 Dexterity saving throw yada take 13 ({@dice 2d6+6}) ezme hasarı and be knocked prone. The dragon can then uçma up to half its flying speed."
 					]
 				}
 			],
@@ -1159,7 +1159,7 @@
 				{
 					"name": "Tail",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +14} vurmak için, erişim 15 ft., tek hedef. Vurunca: 17 ({@dice 2d8+8}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +14} vurmak için, erişim 15 ft., tek hedef. Vurunca: 17 ({@dice 2d8+8}) ezme hasarı."
 					]
 				},
 				{
@@ -1215,7 +1215,7 @@
 				{
 					"name": "Wing Attack (Costs 2 Actions)",
 					"entries": [
-						"The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 22 Dexterity saving throw yada take 15 ({@dice 2d6+8}) darbe hasarı and be knocked prone. The dragon can then uçma up to half its flying speed."
+						"The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 22 Dexterity saving throw yada take 15 ({@dice 2d6+8}) ezme hasarı and be knocked prone. The dragon can then uçma up to half its flying speed."
 					]
 				}
 			],
@@ -1305,7 +1305,7 @@
 				{
 					"name": "Tail",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +11} vurmak için, erişim 15 ft., tek hedef. Vurunca: 15 ({@dice 2d8+6}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +11} vurmak için, erişim 15 ft., tek hedef. Vurunca: 15 ({@dice 2d8+6}) ezme hasarı."
 					]
 				},
 				{
@@ -1338,7 +1338,7 @@
 				{
 					"name": "Wing Attack (Costs 2 Actions)",
 					"entries": [
-						"The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 19 Dexterity saving throw yada take 13 ({@dice 2d6+6}) darbe hasarı and be knocked prone. The dragon can then uçma up to half its flying speed."
+						"The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 19 Dexterity saving throw yada take 13 ({@dice 2d6+6}) ezme hasarı and be knocked prone. The dragon can then uçma up to half its flying speed."
 					]
 				}
 			],
@@ -1416,7 +1416,7 @@
 				{
 					"name": "Tail",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +14} vurmak için, erişim 15 ft., tek hedef. Vurunca: 17 ({@dice 2d8+8}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +14} vurmak için, erişim 15 ft., tek hedef. Vurunca: 17 ({@dice 2d8+8}) ezme hasarı."
 					]
 				},
 				{
@@ -1449,7 +1449,7 @@
 				{
 					"name": "Wing Attack (Costs 2 Actions)",
 					"entries": [
-						"The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 22 Dexterity saving throw yada take 15 ({@dice 2d6+8}) darbe hasarı and be knocked prone. The dragon can then uçma up to half its flying speed."
+						"The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 22 Dexterity saving throw yada take 15 ({@dice 2d6+8}) ezme hasarı and be knocked prone. The dragon can then uçma up to half its flying speed."
 					]
 				}
 			],
@@ -1528,7 +1528,7 @@
 				{
 					"name": "Tail",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +13} vurmak için, erişim 15 ft., tek hedef. Vurunca: 17 ({@dice 2d8+8}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +13} vurmak için, erişim 15 ft., tek hedef. Vurunca: 17 ({@dice 2d8+8}) ezme hasarı."
 					]
 				},
 				{
@@ -1584,7 +1584,7 @@
 				{
 					"name": "Wing Attack (Costs 2 Actions)",
 					"entries": [
-						"The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 22 Dexterity saving throw yada take 15 ({@dice 2d6+8}) darbe hasarı and be knocked prone. The dragon can then uçma up to half its flying speed."
+						"The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 22 Dexterity saving throw yada take 15 ({@dice 2d6+8}) ezme hasarı and be knocked prone. The dragon can then uçma up to half its flying speed."
 					]
 				}
 			],
@@ -1669,7 +1669,7 @@
 				{
 					"name": "Tail",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +11} vurmak için, erişim 15 ft., tek hedef. Vurunca: 15 ({@dice 2d8+6}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +11} vurmak için, erişim 15 ft., tek hedef. Vurunca: 15 ({@dice 2d8+6}) ezme hasarı."
 					]
 				},
 				{
@@ -1702,7 +1702,7 @@
 				{
 					"name": "Wing Attack (Costs 2 Actions)",
 					"entries": [
-						"The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 19 Dexterity saving throw yada take 13 ({@dice 2d6+6}) darbe hasarı and be knocked prone. The dragon can then uçma up to half its flying speed."
+						"The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 19 Dexterity saving throw yada take 13 ({@dice 2d6+6}) ezme hasarı and be knocked prone. The dragon can then uçma up to half its flying speed."
 					]
 				}
 			],
@@ -1738,9 +1738,9 @@
 				"ses",
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -1780,14 +1780,14 @@
 				{
 					"name": "Slam",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +8} vurmak için, erişim 5 ft., tek hedef. Vurunca: 14 ({@dice 2d8+5}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +8} vurmak için, erişim 5 ft., tek hedef. Vurunca: 14 ({@dice 2d8+5}) ezme hasarı."
 					]
 				},
 				{
 					"name": "Whirlwind (Recharge 4\u20146)",
 					"entries": [
-						"Each creature in the elemental's space must make a DC 13 Strength saving throw. On a failure, a target takes 15 ({@dice 3d8+2}) darbe hasarı and is flung up 20 feet away from the elemental in a random direction and knocked prone. If a thrown target strikes an object, such as a wall yada floor, the target takes 3 ({@dice 1d6}) darbe hasarı for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a DC 13 Dexterity saving throw yada take the same damage and be knocked prone.",
-						"If the saving throw is successful, the target takes half the darbe hasarı and isn't flung away yada knocked prone."
+						"Each creature in the elemental's space must make a DC 13 Strength saving throw. On a failure, a target takes 15 ({@dice 3d8+2}) ezme hasarı and is flung up 20 feet away from the elemental in a random direction and knocked prone. If a thrown target strikes an object, such as a wall yada floor, the target takes 3 ({@dice 1d6}) ezme hasarı for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a DC 13 Dexterity saving throw yada take the same damage and be knocked prone.",
+						"If the saving throw is successful, the target takes half the ezme hasarı and isn't flung away yada knocked prone."
 					]
 				}
 			],
@@ -1922,7 +1922,7 @@
 				{
 					"name": "Tail",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +15} vurmak için, erişim 20 ft., tek hedef. Vurunca: 17 ({@dice 2d8+8}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +15} vurmak için, erişim 20 ft., tek hedef. Vurunca: 17 ({@dice 2d8+8}) ezme hasarı."
 					]
 				},
 				{
@@ -1955,7 +1955,7 @@
 				{
 					"name": "Wing Attack (Costs 2 Actions)",
 					"entries": [
-						"The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 23 Dexterity saving throw yada take 15 ({@dice 2d6+8}) darbe hasarı and be knocked prone. The dragon can then uçma up to half its flying speed."
+						"The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 23 Dexterity saving throw yada take 15 ({@dice 2d6+8}) ezme hasarı and be knocked prone. The dragon can then uçma up to half its flying speed."
 					]
 				}
 			],
@@ -2033,7 +2033,7 @@
 				{
 					"name": "Tail",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +16} vurmak için, erişim 20 ft., tek hedef. Vurunca: 18 ({@dice 2d8+9}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +16} vurmak için, erişim 20 ft., tek hedef. Vurunca: 18 ({@dice 2d8+9}) ezme hasarı."
 					]
 				},
 				{
@@ -2066,7 +2066,7 @@
 				{
 					"name": "Wing Attack (Costs 2 Actions)",
 					"entries": [
-						"The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 24 Dexterity saving throw yada take 16 ({@dice 2d6+9}) darbe hasarı and be knocked prone. The dragon can then uçma up to half its flying speed."
+						"The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 24 Dexterity saving throw yada take 16 ({@dice 2d6+9}) ezme hasarı and be knocked prone. The dragon can then uçma up to half its flying speed."
 					]
 				}
 			],
@@ -2146,7 +2146,7 @@
 				{
 					"name": "Tail",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +14} vurmak için, erişim 20 ft., tek hedef. Vurunca: 17 ({@dice 2d8+8}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +14} vurmak için, erişim 20 ft., tek hedef. Vurunca: 17 ({@dice 2d8+8}) ezme hasarı."
 					]
 				},
 				{
@@ -2202,7 +2202,7 @@
 				{
 					"name": "Wing Attack (Costs 2 Actions)",
 					"entries": [
-						"The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 22 Dexterity saving throw yada take 15 ({@dice 2d6+8}) darbe hasarı and be knocked prone. The dragon can then uçma up to half its flying speed."
+						"The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 22 Dexterity saving throw yada take 15 ({@dice 2d6+8}) ezme hasarı and be knocked prone. The dragon can then uçma up to half its flying speed."
 					]
 				}
 			],
@@ -2287,7 +2287,7 @@
 				{
 					"name": "Tail",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +16} vurmak için, erişim 20 ft., tek hedef. Vurunca: 18 ({@dice 2d8+9}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +16} vurmak için, erişim 20 ft., tek hedef. Vurunca: 18 ({@dice 2d8+9}) ezme hasarı."
 					]
 				},
 				{
@@ -2343,7 +2343,7 @@
 				{
 					"name": "Wing Attack (Costs 2 Actions)",
 					"entries": [
-						"The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 24 Dexterity saving throw yada take 16 ({@dice 2d6+9}) darbe hasarı and be knocked prone. The dragon can then uçma up to half its flying speed."
+						"The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 24 Dexterity saving throw yada take 16 ({@dice 2d6+9}) ezme hasarı and be knocked prone. The dragon can then uçma up to half its flying speed."
 					]
 				}
 			],
@@ -2422,7 +2422,7 @@
 				{
 					"name": "Tail",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +15} vurmak için, erişim 20 ft., tek hedef. Vurunca: 17 ({@dice 2d8+8}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +15} vurmak için, erişim 20 ft., tek hedef. Vurunca: 17 ({@dice 2d8+8}) ezme hasarı."
 					]
 				},
 				{
@@ -2478,7 +2478,7 @@
 				{
 					"name": "Wing Attack (Costs 2 Actions)",
 					"entries": [
-						"The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 23 Dexterity saving throw yada take 15 ({@dice 2d6+8}) darbe hasarı and be knocked prone. The dragon can then uçma up to half its flying speed."
+						"The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 23 Dexterity saving throw yada take 15 ({@dice 2d6+8}) ezme hasarı and be knocked prone. The dragon can then uçma up to half its flying speed."
 					]
 				}
 			],
@@ -2564,7 +2564,7 @@
 				{
 					"name": "Tail",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +17} vurmak için, erişim 20 ft., tek hedef. Vurunca: 19 ({@dice 2d8+10}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +17} vurmak için, erişim 20 ft., tek hedef. Vurunca: 19 ({@dice 2d8+10}) ezme hasarı."
 					]
 				},
 				{
@@ -2620,7 +2620,7 @@
 				{
 					"name": "Wing Attack (Costs 2 Actions)",
 					"entries": [
-						"The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 25 Dexterity saving throw yada take 17 ({@dice 2d6+10}) darbe hasarı and be knocked prone. The dragon can then uçma up to half its flying speed."
+						"The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 25 Dexterity saving throw yada take 17 ({@dice 2d6+10}) ezme hasarı and be knocked prone. The dragon can then uçma up to half its flying speed."
 					]
 				}
 			],
@@ -2710,7 +2710,7 @@
 				{
 					"name": "Tail",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +15} vurmak için, erişim 20 ft., tek hedef. Vurunca: 17 ({@dice 2d8+8}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +15} vurmak için, erişim 20 ft., tek hedef. Vurunca: 17 ({@dice 2d8+8}) ezme hasarı."
 					]
 				},
 				{
@@ -2743,7 +2743,7 @@
 				{
 					"name": "Wing Attack (Costs 2 Actions)",
 					"entries": [
-						"The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 23 Dexterity saving throw yada take 15 ({@dice 2d6+8}) darbe hasarı and be knocked prone. The dragon can then uçma up to half its flying speed."
+						"The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 23 Dexterity saving throw yada take 15 ({@dice 2d6+8}) ezme hasarı and be knocked prone. The dragon can then uçma up to half its flying speed."
 					]
 				}
 			],
@@ -2821,7 +2821,7 @@
 				{
 					"name": "Tail",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +17} vurmak için, erişim 20 ft., tek hedef. Vurunca: 19 ({@dice 2d8+10}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +17} vurmak için, erişim 20 ft., tek hedef. Vurunca: 19 ({@dice 2d8+10}) ezme hasarı."
 					]
 				},
 				{
@@ -2854,7 +2854,7 @@
 				{
 					"name": "Wing Attack (Costs 2 Actions)",
 					"entries": [
-						"The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 25 Dexterity saving throw yada take 17 ({@dice 2d6+10}) darbe hasarı and be knocked prone. The dragon can then uçma up to half its flying speed."
+						"The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 25 Dexterity saving throw yada take 17 ({@dice 2d6+10}) ezme hasarı and be knocked prone. The dragon can then uçma up to half its flying speed."
 					]
 				}
 			],
@@ -2933,7 +2933,7 @@
 				{
 					"name": "Tail",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +17} vurmak için, erişim 20 ft., tek hedef. Vurunca: 19 ({@dice 2d8+10}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +17} vurmak için, erişim 20 ft., tek hedef. Vurunca: 19 ({@dice 2d8+10}) ezme hasarı."
 					]
 				},
 				{
@@ -2989,7 +2989,7 @@
 				{
 					"name": "Wing Attack (Costs 2 Actions)",
 					"entries": [
-						"The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 25 Dexterity saving throw yada take 17 ({@dice 2d6+10}) darbe hasarı and be knocked prone. The dragon can then uçma up to half its flying speed."
+						"The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 25 Dexterity saving throw yada take 17 ({@dice 2d6+10}) ezme hasarı and be knocked prone. The dragon can then uçma up to half its flying speed."
 					]
 				}
 			],
@@ -3074,7 +3074,7 @@
 				{
 					"name": "Tail",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +14} vurmak için, erişim 20 ft., tek hedef. Vurunca: 17 ({@dice 2d8+8}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +14} vurmak için, erişim 20 ft., tek hedef. Vurunca: 17 ({@dice 2d8+8}) ezme hasarı."
 					]
 				},
 				{
@@ -3107,7 +3107,7 @@
 				{
 					"name": "Wing Attack (Costs 2 Actions)",
 					"entries": [
-						"The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 22 Dexterity saving throw yada take 15 ({@dice 2d6+8}) darbe hasarı and be knocked prone. The dragon can then uçma up to half its flying speed."
+						"The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 22 Dexterity saving throw yada take 15 ({@dice 2d6+8}) ezme hasarı and be knocked prone. The dragon can then uçma up to half its flying speed."
 					]
 				}
 			],
@@ -3151,9 +3151,9 @@
 			"immune": [
 				{
 					"immune": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				},
@@ -3349,7 +3349,7 @@
 				{
 					"name": "Slam",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 5 ({@dice 1d6+2}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 5 ({@dice 1d6+2}) ezme hasarı."
 					]
 				}
 			],
@@ -3425,7 +3425,7 @@
 				{
 					"name": "Tail",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 10 ft., tek hedef. Vurunca: 18 ({@dice 4d6+4}) darbe hasarı. If the target is a creature, it must succeed on a DC 14 Strength saving throw yada be knocked prone."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 10 ft., tek hedef. Vurunca: 18 ({@dice 4d6+4}) ezme hasarı. If the target is a creature, it must succeed on a DC 14 Strength saving throw yada be knocked prone."
 					]
 				}
 			],
@@ -3470,13 +3470,13 @@
 				{
 					"name": "Fist",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 6 ({@dice 1d6+3}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 6 ({@dice 1d6+3}) ezme hasarı."
 					]
 				},
 				{
 					"name": "Rock",
 					"entries": [
-						"Menzilli Silah Saldırısı: {@hit +5} vurmak için, menzil 25/50 ft., tek hedef. Vurunca: 6 ({@dice 1d6+3}) darbe hasarı."
+						"Menzilli Silah Saldırısı: {@hit +5} vurmak için, menzil 25/50 ft., tek hedef. Vurunca: 6 ({@dice 1d6+3}) ezme hasarı."
 					]
 				}
 			],
@@ -3529,9 +3529,9 @@
 				"yıldırım",
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -3726,9 +3726,9 @@
 				},
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "(from stoneskin)"
 				},
@@ -4005,7 +4005,7 @@
 			"wis": 10,
 			"cha": 7,
 			"resist": [
-				"darbe",
+				"ezme",
 				"delme"
 			],
 			"vulnerable": [
@@ -4026,7 +4026,7 @@
 				{
 					"name": "Slam",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 10 ft., tek hedef. Vurunca: 14 ({@dice 3d6+4}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 10 ft., tek hedef. Vurunca: 14 ({@dice 3d6+4}) ezme hasarı."
 					]
 				}
 			],
@@ -4126,7 +4126,7 @@
 				{
 					"name": "Warhammer",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 7 ({@dice 1d8+3}) darbe hasarı, yada 8 ({@dice 1d10+3}) darbe hasarı eğer iki el ile kullanıldıysa to make a melee attack, artı 3 ({@dice 1d6}) ateş damage."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 7 ({@dice 1d8+3}) ezme hasarı, yada 8 ({@dice 1d10+3}) ezme hasarı eğer iki el ile kullanıldıysa to make a melee attack, artı 3 ({@dice 1d6}) ateş damage."
 					]
 				}
 			],
@@ -4203,9 +4203,9 @@
 			"cr": "0",
 			"trait": [
 				{
-					"name": "Keskin Koku",
+					"name": "Keskin Koklama",
 					"entries": [
-						"Porsuk kokuya bağlı Akıl (Algılama) zarlarında avantajlıdır."
+						"Porsuk koklamaya bağlı Akıl (Algılama) zarlarında avantajlıdır."
 					]
 				}
 			],
@@ -4259,9 +4259,9 @@
 				"yıldırım",
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -4340,12 +4340,12 @@
 			"sayfa": 55
 		},
 		{
-			"name": "Bandit",
+			"name": "Haydut",
 			"size": "M",
 			"type": {
 				"type": "insansı",
 				"tags": [
-					"any race"
+					"Herhangi bir ırk"
 				]
 			},
 			"source": "MM",
@@ -4375,13 +4375,13 @@
 			"cr": "1/8",
 			"action": [
 				{
-					"name": "Scimitar",
+					"name": "Pala",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 4 ({@dice 1d6+1}) kesme hasarı."
 					]
 				},
 				{
-					"name": "Light Crossbow",
+					"name": "Hafif Arbalet",
 					"entries": [
 						"Menzilli Silah Saldırısı: {@hit +3} vurmak için, menzil 80 ft./320 ft., tek hedef. Vurunca: 5 ({@dice 1d8+1}) delme hasarı."
 					]
@@ -4500,9 +4500,9 @@
 				"ses",
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -4606,9 +4606,9 @@
 				"soğuk",
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks that aren't silvered"
 				}
@@ -4754,7 +4754,7 @@
 				{
 					"name": "Fist",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 9 ({@dice 1d10+4}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 9 ({@dice 1d10+4}) ezme hasarı."
 					]
 				},
 				{
@@ -4919,9 +4919,9 @@
 				"soğuk",
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks that aren't silvered"
 				}
@@ -5030,7 +5030,7 @@
 				{
 					"name": "Constrict",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +10} vurmak için, erişim 5 ft., one Large yada smaller creature. Vurunca: 17 ({@dice 2d10+6}) darbe hasarı artı 17 ({@dice 2d10+6}) kesme hasarı. The target is grappled (escape DC 16) if the behir isn't already constricting a creature, and the target is restrained until this grapple ends."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +10} vurmak için, erişim 5 ft., one Large yada smaller creature. Vurunca: 17 ({@dice 2d10+6}) ezme hasarı artı 17 ({@dice 2d10+6}) kesme hasarı. The target is grappled (escape DC 16) if the behir isn't already constricting a creature, and the target is restrained until this grapple ends."
 					]
 				},
 				{
@@ -5408,7 +5408,7 @@
 				"asit",
 				"soğuk",
 				"yıldırım",
-				"slashing"
+				"kesme"
 			],
 			"conditionImmune": [
 				"blinded",
@@ -5445,7 +5445,7 @@
 				{
 					"name": "Pseudopod",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 6 ({@dice 1d6+3}) darbe hasarı artı 18 ({@dice 4d8}) asit damage. In addition, nonmagical armor worn by the target is partly dissolved and takes a permanent and cumulative -1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 6 ({@dice 1d6+3}) ezme hasarı artı 18 ({@dice 4d8}) asit damage. In addition, nonmagical armor worn by the target is partly dissolved and takes a permanent and cumulative -1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10."
 					]
 				}
 			],
@@ -5514,7 +5514,7 @@
 			"sayfa": 318
 		},
 		{
-			"name": "Blood Şahin",
+			"name": "Kan Şahini",
 			"size": "S",
 			"type": "hayvan",
 			"source": "MM",
@@ -5551,7 +5551,7 @@
 				{
 					"name": "Sürü Taktiği",
 					"entries": [
-						"The Şahin has advantage on an attack roll against a creature if at least one of the Şahin's allies is within 5 ft. of the creature and the ally isn't incapacitated."
+						"Eğer şahinin bir dostu düşmanın 5 ft. yanında ise dostu ile saldırı avantajına sahip olur."
 					]
 				}
 			],
@@ -5795,9 +5795,9 @@
 				"soğuk",
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks that aren't silvered"
 				}
@@ -5891,9 +5891,9 @@
 				"soğuk",
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks that aren't silvered"
 				}
@@ -6523,7 +6523,7 @@
 				{
 					"name": "Deadly Leap",
 					"entries": [
-						"If the bulette jumps at least 15 ft. as part of its movement, it can then use this action to land on its feet in a space that contains one yada more other creatures. Each of those creatures must succeed on a DC 16 Strength yada Dexterity saving throw (target's choice) yada be knocked prone and take 14 ({@dice 3d6+4}) darbe hasarı artı 14 ({@dice 3d6+4}) kesme hasarı. On a successful save, the creature takes only half the damage, isn't knocked prone, and is pushed 5 ft. out of the bulette's space into an unoccupied space of the creature's choice. If no unoccupied space is within menzil, the creature instead falls prone in the bulette's space."
+						"If the bulette jumps at least 15 ft. as part of its movement, it can then use this action to land on its feet in a space that contains one yada more other creatures. Each of those creatures must succeed on a DC 16 Strength yada Dexterity saving throw (target's choice) yada be knocked prone and take 14 ({@dice 3d6+4}) ezme hasarı artı 14 ({@dice 3d6+4}) kesme hasarı. On a successful save, the creature takes only half the damage, isn't knocked prone, and is pushed 5 ft. out of the bulette's space into an unoccupied space of the creature's choice. If no unoccupied space is within menzil, the creature instead falls prone in the bulette's space."
 					]
 				}
 			],
@@ -6600,7 +6600,7 @@
 				{
 					"name": "Isırma",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 3 ({@dice 1d4+1}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 3 ({@dice 1d4+1}) ezme hasarı."
 					]
 				},
 				{
@@ -6657,9 +6657,9 @@
 				"zehir",
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -6723,7 +6723,7 @@
 			]
 		},
 		{
-			"name": "Camel",
+			"name": "Deve",
 			"size": "L",
 			"type": "hayvan",
 			"source": "MM",
@@ -6750,7 +6750,7 @@
 				{
 					"name": "Isırma",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 2 ({@dice 1d4}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 2 ({@dice 1d4}) ezme hasarı."
 					]
 				}
 			],
@@ -6852,9 +6852,9 @@
 			"cr": "0",
 			"trait": [
 				{
-					"name": "Keskin Koku",
+					"name": "Keskin Koklama",
 					"entries": [
-						"Kedi kokuya bağlı Akıl (Algılama) zarlarında avantajlıdır."
+						"Kedi koklamaya bağlı Akıl (Algılama) zarlarında avantajlıdır."
 					]
 				}
 			],
@@ -6983,7 +6983,7 @@
 				{
 					"name": "Hooves",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 11 ({@dice 2d6+4}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 11 ({@dice 2d6+4}) ezme hasarı."
 					]
 				},
 				{
@@ -7032,9 +7032,9 @@
 				"soğuk",
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks that aren't silvered"
 				}
@@ -7231,7 +7231,7 @@
 				{
 					"name": "Horns",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 10 ({@dice 1d12+4}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 10 ({@dice 1d12+4}) ezme hasarı."
 					]
 				},
 				{
@@ -7310,7 +7310,7 @@
 				{
 					"name": "Pincer",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 10 ft., tek hedef. Vurunca: 11 ({@dice 2d6+4}) darbe hasarı. The target is grappled (escape DC 14) if it is a Large yada smaller creature and the chuul doesn't have two other creatures grappled."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 10 ft., tek hedef. Vurunca: 11 ({@dice 2d6+4}) ezme hasarı. The target is grappled (escape DC 14) if it is a Large yada smaller creature and the chuul doesn't have two other creatures grappled."
 					]
 				},
 				{
@@ -7347,9 +7347,9 @@
 			"immune": [
 				{
 					"immune": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks that aren't adamantine"
 				},
@@ -7411,7 +7411,7 @@
 				{
 					"name": "Slam",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +8} vurmak için, erişim 5 ft., tek hedef. Vurunca: 16 ({@dice 2d10+5}) darbe hasarı. If the target is a creature, it must succeed on a DC 15 Constitution saving throw yada have its hit point maximum reduced by an amount equal to the damage taken. The target dies if this attack reduces its hit point maximum to 0. The reduction lasts until removed by the greater restoration spell yada other magic."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +8} vurmak için, erişim 5 ft., tek hedef. Vurunca: 16 ({@dice 2d10+5}) ezme hasarı. If the target is a creature, it must succeed on a DC 15 Constitution saving throw yada have its hit point maximum reduced by an amount equal to the damage taken. The target dies if this attack reduces its hit point maximum to 0. The reduction lasts until removed by the greater restoration spell yada other magic."
 					]
 				},
 				{
@@ -7581,7 +7581,7 @@
 				{
 					"name": "Rock",
 					"entries": [
-						"Menzilli Silah Saldırısı: {@hit +12} vurmak için, menzil 60/240 ft., tek hedef. Vurunca: 30 ({@dice 4d10+8}) darbe hasarı."
+						"Menzilli Silah Saldırısı: {@hit +12} vurmak için, menzil 60/240 ft., tek hedef. Vurunca: 30 ({@dice 4d10+8}) ezme hasarı."
 					]
 				}
 			],
@@ -7595,7 +7595,7 @@
 							"name": "Fling",
 							"type": "entries",
 							"entries": [
-								"The giant tries to throw a Small yada Medium creature within 10 feet of it. The target must succeed on a DC 20 Dexterity saving throw yada be hurled up to 60 feet horizontally in a direction of the giant's choice and land prone, taking 1d8 darbe hasarı for every 10 feet it was thrown."
+								"The giant tries to throw a Small yada Medium creature within 10 feet of it. The target must succeed on a DC 20 Dexterity saving throw yada be hurled up to 60 feet horizontally in a direction of the giant's choice and land prone, taking 1d8 ezme hasarı for every 10 feet it was thrown."
 							]
 						},
 						{
@@ -7709,7 +7709,7 @@
 				{
 					"name": "Sopa",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +2} vurmak için, erişim 5 ft., tek hedef. Vurunca: 2 ({@dice 1d4}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +2} vurmak için, erişim 5 ft., tek hedef. Vurunca: 2 ({@dice 1d4}) ezme hasarı."
 					]
 				}
 			],
@@ -7751,7 +7751,7 @@
 				{
 					"name": "Constrict",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek varlık. Vurunca: 6 ({@dice 1d8+2}) darbe hasarı, and the target is grappled (escape DC 14). Until this grapple ends, the creature is restrained, and the snake can't constrict another target."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek varlık. Vurunca: 6 ({@dice 1d8+2}) ezme hasarı, and the target is grappled (escape DC 14). Until this grapple ends, the creature is restrained, and the snake can't constrict another target."
 					]
 				}
 			],
@@ -7866,9 +7866,9 @@
 			"immune": [
 				{
 					"immune": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				},
@@ -7902,7 +7902,7 @@
 				{
 					"name": "Constrict",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 10 ft., one Medium yada smaller creature. Vurunca: 10 ({@dice 2d6+3}) darbe hasarı, and the target is grappled (escape DC 15). Until this grapple ends, the target is restrained, and the couatl can't constrict another target."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 10 ft., one Medium yada smaller creature. Vurunca: 10 ({@dice 2d6+3}) ezme hasarı, and the target is grappled (escape DC 15). Until this grapple ends, the target is restrained, and the couatl can't constrict another target."
 					]
 				},
 				{
@@ -7985,7 +7985,7 @@
 				{
 					"name": "Pençe",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +0} vurmak için, erişim 5 ft., tek hedef. Vurunca: 1 darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +0} vurmak için, erişim 5 ft., tek hedef. Vurunca: 1 ezme hasarı."
 					]
 				}
 			],
@@ -8185,12 +8185,12 @@
 			]
 		},
 		{
-			"name": "Cultist",
+			"name": "Kültist",
 			"size": "M",
 			"type": {
 				"type": "insansı",
 				"tags": [
-					"any race"
+					"Herhangi bir ırk"
 				]
 			},
 			"source": "MM",
@@ -8224,15 +8224,15 @@
 			"cr": "1/8",
 			"trait": [
 				{
-					"name": "Dark Devotion",
+					"name": "Karanlık Bağlılık",
 					"entries": [
-						"The cultist has advantage on saving throws against being charmed yada frightened."
+						"Tarıkatçılar korkma ve cezbedilme kurtulma zarlarında avantajlıdır."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Scimitar",
+					"name": "Pala",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek varlık. Vurunca: 4 ({@dice 1d6+1}) kesme hasarı."
 					]
@@ -8284,13 +8284,13 @@
 				{
 					"name": "Greatclub",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +9} vurmak için, erişim 10 ft., tek hedef. Vurunca: 19 ({@dice 3d8+6}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +9} vurmak için, erişim 10 ft., tek hedef. Vurunca: 19 ({@dice 3d8+6}) ezme hasarı."
 					]
 				},
 				{
 					"name": "Rock",
 					"entries": [
-						"Menzilli Silah Saldırısı: {@hit +9} vurmak için, menzil 30/120 ft., tek hedef. Vurunca: 28 ({@dice 4d10+6}) darbe hasarı."
+						"Menzilli Silah Saldırısı: {@hit +9} vurmak için, menzil 30/120 ft., tek hedef. Vurunca: 28 ({@dice 4d10+6}) ezme hasarı."
 					]
 				}
 			],
@@ -8374,13 +8374,13 @@
 				{
 					"name": "Fist",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +10} vurmak için, erişim 5 ft., tek hedef. Vurunca: 15 ({@dice 2d8+6}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +10} vurmak için, erişim 5 ft., tek hedef. Vurunca: 15 ({@dice 2d8+6}) ezme hasarı."
 					]
 				},
 				{
 					"name": "Maul",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +10} vurmak için, erişim 5 ft., tek hedef. Vurunca: 20 ({@dice 4d6+6}) darbe hasarı. If the target is a Huge yada smaller creature, it must succeed on a DC 18 Strength check yada be knocked prone."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +10} vurmak için, erişim 5 ft., tek hedef. Vurunca: 20 ({@dice 4d6+6}) ezme hasarı. If the target is a Huge yada smaller creature, it must succeed on a DC 18 Strength check yada be knocked prone."
 					]
 				}
 			],
@@ -8461,7 +8461,7 @@
 				{
 					"name": "Crush",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek varlık. Vurunca: 6 ({@dice 1d6+3}) darbe hasarı, and the darkmantle attaches to the target. If the target is Medium yada smaller and the darkmantle has advantage on the attack roll, it attaches by engulfing the target's head, and the target is also blinded and unable to breathe while the darkmantle is attached in this way.",
+						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek varlık. Vurunca: 6 ({@dice 1d6+3}) ezme hasarı, and the darkmantle attaches to the target. If the target is Medium yada smaller and the darkmantle has advantage on the attack roll, it attaches by engulfing the target's head, and the target is also blinded and unable to breathe while the darkmantle is attached in this way.",
 						"While attached to the target, the darkmantle can attack no other creature except the target but has advantage on its attack rolls. The darkmantle's speed also becomes 0, it can't benefit from any bonus to its speed, and it moves with the target.",
 						"A creature can detach the darkmantle by making a successful DC 13 Strength check as an action. On its turn, the darkmantle can detach itself from the target by using 5 feet of movement."
 					]
@@ -9054,9 +9054,9 @@
 			"resist": [
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from magic weapons"
 				}
@@ -9064,9 +9064,9 @@
 			"immune": [
 				{
 					"immune": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				},
@@ -9190,9 +9190,9 @@
 			"resist": [
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from magic weapons"
 				}
@@ -9200,9 +9200,9 @@
 			"immune": [
 				{
 					"immune": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				},
@@ -9333,9 +9333,9 @@
 				"radyant",
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -9373,7 +9373,7 @@
 				{
 					"name": "Mace",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +8} vurmak için, erişim 5 ft., tek hedef. Vurunca: 7 ({@dice 1d6+4}) darbe hasarı artı 18 ({@dice 4d8}) radyant damage."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +8} vurmak için, erişim 5 ft., tek hedef. Vurunca: 7 ({@dice 1d6+4}) ezme hasarı artı 18 ({@dice 4d8}) radyant damage."
 					]
 				},
 				{
@@ -9511,7 +9511,7 @@
 				{
 					"name": "Tentacle",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 10 ft., tek hedef. Vurunca: 7 ({@dice 1d6+4}) darbe hasarı artı 3 ({@dice 1d6}) delme hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 10 ft., tek hedef. Vurunca: 7 ({@dice 1d6+4}) ezme hasarı artı 3 ({@dice 1d6}) delme hasarı."
 					]
 				}
 			],
@@ -9692,7 +9692,7 @@
 				{
 					"name": "Slam",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 7 ({@dice 1d6+4}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 7 ({@dice 1d6+4}) ezme hasarı."
 					]
 				},
 				{
@@ -9732,7 +9732,7 @@
 				{
 					"name": "Hooves",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 9 ({@dice 2d4+4}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 9 ({@dice 2d4+4}) ezme hasarı."
 					]
 				}
 			],
@@ -9803,7 +9803,7 @@
 				{
 					"name": "Tail",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +13} vurmak için, erişim 15 ft., tek hedef. Vurunca: 26 ({@dice 3d12+7}) darbe hasarı. If the target is a creature, it must succeed on a DC 20 Strength saving throw yada be pushed up to 10 feet away from the dragon turtle and knocked prone."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +13} vurmak için, erişim 15 ft., tek hedef. Vurunca: 26 ({@dice 3d12+7}) ezme hasarı. If the target is a creature, it must succeed on a DC 20 Strength saving throw yada be pushed up to 10 feet away from the dragon turtle and knocked prone."
 					]
 				},
 				{
@@ -10407,7 +10407,7 @@
 				{
 					"name": "Staff",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +2} vurmak için, erişim 5 ft., tek hedef. Vurunca: 2 ({@dice 1d6-1}) darbe hasarı, yada 3 ({@dice 1d8-1}) darbe hasarı eğer iki el ile kullanıldıysa, artı 3 ({@dice 1d6}) zehir damage."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +2} vurmak için, erişim 5 ft., tek hedef. Vurunca: 2 ({@dice 1d6-1}) ezme hasarı, yada 3 ({@dice 1d8-1}) ezme hasarı eğer iki el ile kullanıldıysa, artı 3 ({@dice 1d6}) zehir damage."
 					]
 				},
 				{
@@ -10696,7 +10696,7 @@
 				{
 					"name": "Quarterstaff",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +2} vurmak için ({@hit +4} vurmak için with shillelagh), erişim 5 ft., tek hedef. Vurunca: 3 ({@dice 1d6}) darbe hasarı, yada 6 ({@dice 1d8+2}) darbe hasarı with shillelagh yada if wielded with two hands."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +2} vurmak için ({@hit +4} vurmak için with shillelagh), erişim 5 ft., tek hedef. Vurunca: 3 ({@dice 1d6}) ezme hasarı, yada 6 ({@dice 1d8+2}) ezme hasarı with shillelagh yada if wielded with two hands."
 					]
 				}
 			],
@@ -10789,7 +10789,7 @@
 				{
 					"name": "Club",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +2} vurmak için ({@hit +6} vurmak için with shillelagh), erişim 5 ft., tek hedef. Vurunca: 2 ({@dice 1d4}) darbe hasarı, yada 8 ({@dice 1d8+4}) darbe hasarı with shillelagh."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +2} vurmak için ({@hit +6} vurmak için with shillelagh), erişim 5 ft., tek hedef. Vurunca: 2 ({@dice 1d4}) ezme hasarı, yada 8 ({@dice 1d8+4}) ezme hasarı with shillelagh."
 					]
 				},
 				{
@@ -10954,7 +10954,7 @@
 				{
 					"name": "Fist",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +2} vurmak için, erişim 5 ft., tek hedef. Vurunca: 2 ({@dice 1d4}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +2} vurmak için, erişim 5 ft., tek hedef. Vurunca: 2 ({@dice 1d4}) ezme hasarı."
 					]
 				},
 				{
@@ -11120,9 +11120,9 @@
 			"resist": [
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -11168,7 +11168,7 @@
 				{
 					"name": "Slam",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +8} vurmak için, erişim 10 ft., tek hedef. Vurunca: 14 ({@dice 2d8+5}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +8} vurmak için, erişim 10 ft., tek hedef. Vurunca: 14 ({@dice 2d8+5}) ezme hasarı."
 					]
 				}
 			],
@@ -11318,7 +11318,7 @@
 				{
 					"name": "Stomp",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +8} vurmak için, erişim 5 ft., one prone creature. Vurunca: 22 ({@dice 3d10+6}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +8} vurmak için, erişim 5 ft., one prone creature. Vurunca: 22 ({@dice 3d10+6}) ezme hasarı."
 					]
 				}
 			],
@@ -11360,13 +11360,13 @@
 				{
 					"name": "Ram",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 6 ({@dice 1d6+3}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 6 ({@dice 1d6+3}) ezme hasarı."
 					]
 				},
 				{
 					"name": "Hooves",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., one prone creature. Vurunca: 8 ({@dice 2d4+3}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., one prone creature. Vurunca: 8 ({@dice 2d4+3}) ezme hasarı."
 					]
 				}
 			],
@@ -11427,9 +11427,9 @@
 			"immune": [
 				{
 					"immune": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -11462,7 +11462,7 @@
 				{
 					"name": "Maul",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +17} vurmak için, erişim 10 ft., tek hedef. Vurunca: 31 ({@dice 6d6+10}) darbe hasarı. If the target is a creature, it must succeed on a DC 15 Constitution saving throw yada be stunned until the end of the empyrean's next turn."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +17} vurmak için, erişim 10 ft., tek hedef. Vurunca: 31 ({@dice 6d6+10}) ezme hasarı. If the target is a creature, it must succeed on a DC 15 Constitution saving throw yada be stunned until the end of the empyrean's next turn."
 					]
 				},
 				{
@@ -11556,9 +11556,9 @@
 				"soğuk",
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks that aren't silvered"
 				}
@@ -11698,13 +11698,13 @@
 				{
 					"name": "Web (Recharge 5\u20146)",
 					"entries": [
-						"Menzilli Silah Saldırısı: {@hit +4} vurmak için, menzil 30/60 ft., one Large yada smaller creature. Vurunca: The creature is restrained by webbing. As an action, the restrained creature can make a DC 11 Strength check, escaping from the webbing on a success. The effect ends if the webbing is destroyed. The webbing has AC 10, 5 hit points, is vulnerable to ateş damage and immune to darbe hasarı."
+						"Menzilli Silah Saldırısı: {@hit +4} vurmak için, menzil 30/60 ft., one Large yada smaller creature. Vurunca: The creature is restrained by webbing. As an action, the restrained creature can make a DC 11 Strength check, escaping from the webbing on a success. The effect ends if the webbing is destroyed. The webbing has AC 10, 5 hit points, is vulnerable to ateş damage and immune to ezme hasarı."
 					]
 				},
 				{
 					"name": "Variant: Web Garrote",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., one Medium yada Small creature against which the ettercap has advantage on the attack roll. Vurunca: 4 ({@dice 1d4+2}) darbe hasarı, and the target is grappled (escape DC 12). Until this grapple ends, the target can't breathe, and the ettercap has advantage on attack rolls against it."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., one Medium yada Small creature against which the ettercap has advantage on the attack roll. Vurunca: 4 ({@dice 1d4+2}) ezme hasarı, and the target is grappled (escape DC 12). Until this grapple ends, the target can't breathe, and the ettercap has advantage on attack rolls against it."
 					]
 				}
 			],
@@ -12522,9 +12522,9 @@
 			"resist": [
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -12637,7 +12637,7 @@
 				{
 					"name": "Rock",
 					"entries": [
-						"Menzilli Silah Saldırısı: {@hit +11} vurmak için, menzil 60/240 ft., tek hedef. Vurunca: 29 ({@dice 4d10+7}) darbe hasarı."
+						"Menzilli Silah Saldırısı: {@hit +11} vurmak için, menzil 60/240 ft., tek hedef. Vurunca: 29 ({@dice 4d10+7}) ezme hasarı."
 					]
 				}
 			],
@@ -12696,9 +12696,9 @@
 			"resist": [
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -12737,7 +12737,7 @@
 				{
 					"name": "Tail",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 3 ({@dice 1d4+1}) darbe hasarı artı 3 ({@dice 1d6}) ateş damage."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 3 ({@dice 1d4+1}) ezme hasarı artı 3 ({@dice 1d6}) ateş damage."
 					]
 				}
 			],
@@ -12893,9 +12893,9 @@
 				"zehir",
 				{
 					"immune": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks that aren't adamantine"
 				}
@@ -12961,7 +12961,7 @@
 				{
 					"name": "Slam",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 13 ({@dice 2d8+4}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 13 ({@dice 2d8+4}) ezme hasarı."
 					]
 				}
 			],
@@ -12970,7 +12970,7 @@
 		{
 			"name": "Flumph",
 			"size": "S",
-			"type": "aberration",
+			"type": "aberasyon",
 			"source": "MM",
 			"alignment": [
 				"L",
@@ -13001,39 +13001,39 @@
 			],
 			"senses": "gece görüşü 60 ft.",
 			"passive": 12,
-			"languages": "understands Undercommon but can't speak, Telepati 60 ft.",
+			"languages": "yeraltı ortak dili anlıyor ama konuşamıyor, Telepati 60 ft.",
 			"cr": "1/8",
 			"trait": [
 				{
-					"name": "Advanced Telepathy",
+					"name": "Gelişmiş Telepati",
 					"entries": [
-						"The flumph can perceive the content of any telepathic communication used within 60 feet of it, and it can't be surprised by creatures with any form of Telepati."
+						"Flumph, 60 feet içinde kullanılan herhangi bir telepatik iletişimin içeriğini anlayabilir ve herhangi formdaki telepatik bir canlı tarafından sürprize uğratılamaz."
 					]
 				},
 				{
-					"name": "Prone Deficiency",
+					"name": "Eğilme Eksikliği",
 					"entries": [
-						"If the flumph is knocked prone, roll a die. On an odd result, the flumph lands upside-down and is incapacitated. At the end of each of its turns, the flumph can make a DC 10 Dexterity saving throw, righting itself and ending the incapacitated condition if it succeeds."
+						"Eğer Flumph yere düşerse bir zar at. Eğer sonuç tek ise flumph baş aşağı iner ve etkisiz halde kalır. Her tur sonunda Flumph DC 10 Çeviklik kurtulma zarı atar ve başarılı olursa kendini düzeltip etkisizlik durumunu sona erdirir."
 					]
 				},
 				{
-					"name": "Telepathic Shroud",
+					"name": "Telepatik Örtü",
 					"entries": [
-						"The flumph is immune to any effect that would sense its emotions yada read its thoughts, as well as all divination spells."
+						"Flumph herhangi bir duyguyu hissedecek yada düşüncelerini okuyabilecek bir etkiye ve tüm divination büyülerine karşı bağışıklık sahibidir."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Tendrils",
+					"name": "Dokunaç",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek varlık. Vurunca: 4 ({@dice 1d4+2}) delme hasarı artı 2 ({@dice 1d4}) asit damage. At the end of each of its turns, the target must make a DC 10 Constitution saving throw, taking 2 ({@dice 1d4}) asit damage on a failure yada ending the recurring asit damage on a success. A lesser restoration spell cast on the target also ends the recurring asit damage."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek varlık. Vurunca: 4 ({@dice 1d4+2}) delme hasarı artı 2 ({@dice 1d4}) asit hasarı. Her tur sonunda hedef üzerindeki sürekli asit etkisini bitirmek için DC 10 Dayanıklılık kurtulma zarı atar, başarısız olduğunda 2 ({@dice 1d4}) asit hasarı alır, başarılı olursa etki sona erer. Hedef üzerinde kullanılacak bir {@spell lesser restoration} büyüsü de asit etkisini sonlandırır."
 					]
 				},
 				{
-					"name": "Stench Spray (1/Gün)",
+					"name": "Kötü Koku Spreyi (1/Gün)",
 					"entries": [
-						"Each creature in a 15-foot cone originating from the flumph must succeed on a DC 10 Dexterity saving throw yada be coated in a foul-smelling liquid. A coated creature exudes a horrible stench for {@dice 1d4} hours. The coated creature is poisoned as long as the stench lasts, and other creatures are poisoned while with in 5 feet of the coated creature. A creature can remove the stench on itself by using a short rest to bathe in water, alcohol, yada vinegar."
+						"Flumph merkezli 15 feet'lik bir konideki her varlık DC 10 Çeviklik kurtulma zarını geçer yada kötü kokan bir sıvıya bulanır. Kötü koku ile kaplanmış bir yaratık {@dice 1d4} saat boyunca etrafa tiksinç bir koku verir. Kaplanan varlık koku sürdükçe zehirlidir ve bu varlığın 5 feet çevresindekilerde zehirlenir. Bir varlık su, alkol veya sirke kullanarak üstündeki kötü kokuyu giderebilir ama bunun için kısa yada uzun dinlenme bitirmesi gerekir."
 					]
 				}
 			],
@@ -13194,7 +13194,7 @@
 				{
 					"name": "Greatclub",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +9} vurmak için, erişim 15 ft., tek hedef. Vurunca: 19 ({@dice 3d8+6}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +9} vurmak için, erişim 15 ft., tek hedef. Vurunca: 19 ({@dice 3d8+6}) ezme hasarı."
 					]
 				},
 				{
@@ -13314,7 +13314,7 @@
 				{
 					"name": "Rock",
 					"entries": [
-						"Menzilli Silah Saldırısı: {@hit +9} vurmak için, menzil 60/240 ft., tek hedef. Vurunca: 28 ({@dice 4d10+6}) darbe hasarı."
+						"Menzilli Silah Saldırısı: {@hit +9} vurmak için, menzil 60/240 ft., tek hedef. Vurunca: 28 ({@dice 4d10+6}) ezme hasarı."
 					]
 				}
 			],
@@ -13368,9 +13368,9 @@
 			"resist": [
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -13398,7 +13398,7 @@
 				{
 					"name": "Rolling Charge",
 					"entries": [
-						"If the galeb duhr rolls at least 20 ft. straight toward a target and then hits it with a slam attack on the same turn, the target takes an extra 7 ({@dice 2d6}) darbe hasarı. If the target is a creature, it must succeed on a DC 16 Strength saving throw yada be knocked prone."
+						"If the galeb duhr rolls at least 20 ft. straight toward a target and then hits it with a slam attack on the same turn, the target takes an extra 7 ({@dice 2d6}) ezme hasarı. If the target is a creature, it must succeed on a DC 16 Strength saving throw yada be knocked prone."
 					]
 				}
 			],
@@ -13406,7 +13406,7 @@
 				{
 					"name": "Slam",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +8} vurmak için, erişim 5 ft., tek hedef. Vurunca: 12 ({@dice 2d6+5}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +8} vurmak için, erişim 5 ft., tek hedef. Vurunca: 12 ({@dice 2d6+5}) ezme hasarı."
 					]
 				},
 				{
@@ -13445,9 +13445,9 @@
 			"resist": [
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks that aren't adamantine"
 				}
@@ -13724,9 +13724,9 @@
 				"ses",
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -13879,13 +13879,13 @@
 				{
 					"name": "Fist",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +9} vurmak için, erişim 10 ft., tek hedef. Vurunca: 22 ({@dice 3d10+6}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +9} vurmak için, erişim 10 ft., tek hedef. Vurunca: 22 ({@dice 3d10+6}) ezme hasarı."
 					]
 				},
 				{
 					"name": "Rock",
 					"entries": [
-						"Menzilli Silah Saldırısı: {@hit +9} vurmak için, menzil 50/100 ft., tek hedef. Vurunca: 30 ({@dice 7d6+6}) darbe hasarı."
+						"Menzilli Silah Saldırısı: {@hit +9} vurmak için, menzil 50/100 ft., tek hedef. Vurunca: 30 ({@dice 7d6+6}) ezme hasarı."
 					]
 				}
 			],
@@ -14120,14 +14120,14 @@
 				{
 					"name": "Constrict",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek varlık. Vurunca: 13 ({@dice 2d8+4}) darbe hasarı, and the target is grappled (escape DC 16). Until this grapple ends, the creature is restrained, and the snake can't constrict another target."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek varlık. Vurunca: 13 ({@dice 2d8+4}) ezme hasarı, and the target is grappled (escape DC 16). Until this grapple ends, the creature is restrained, and the snake can't constrict another target."
 					]
 				}
 			],
 			"sayfa": 324
 		},
 		{
-			"name": "Dev Crab",
+			"name": "Dev Yengeç",
 			"size": "M",
 			"type": "hayvan",
 			"source": "MM",
@@ -14157,17 +14157,17 @@
 			"cr": "1/8",
 			"trait": [
 				{
-					"name": "Amphibious",
+					"name": "Amfibi",
 					"entries": [
-						"The crab can breathe air and water."
+						"Yengeçler hem suda hem karada nefes alabilir."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Pençe",
+					"name": "Kıskaç",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 4 ({@dice 1d6+1}) darbe hasarı, and the target is grappled (escape DC 11). The crab has two claws, each of which can grapple only tek hedef."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 4 ({@dice 1d6+1}) ezme hasarı, ve hedef tutulur (kaçma DC'si 11). Yengecin iki kıskacı vardır ve her biri tek hedef tutabilir."
 					]
 				}
 			],
@@ -14225,7 +14225,7 @@
 				{
 					"name": "Tail",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +8} vurmak için, erişim 10 ft., tek hedef not grappled by the crocodile. Vurunca: 14 ({@dice 2d8+5}) darbe hasarı. If the target is a creature, it must succeed on a DC 16 Strength saving throw yada be knocked prone."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +8} vurmak için, erişim 10 ft., tek hedef not grappled by the crocodile. Vurunca: 14 ({@dice 2d8+5}) ezme hasarı. If the target is a creature, it must succeed on a DC 16 Strength saving throw yada be knocked prone."
 					]
 				}
 			],
@@ -14331,13 +14331,13 @@
 				{
 					"name": "Ram",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 10 ft., tek hedef. Vurunca: 11 ({@dice 2d6+4}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 10 ft., tek hedef. Vurunca: 11 ({@dice 2d6+4}) ezme hasarı."
 					]
 				},
 				{
 					"name": "Hooves",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., one prone creature. Vurunca: 22 ({@dice 4d8+4}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., one prone creature. Vurunca: 22 ({@dice 4d8+4}) ezme hasarı."
 					]
 				}
 			],
@@ -14474,7 +14474,7 @@
 				{
 					"name": "Charge",
 					"entries": [
-						"If the Keçi moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 5 ({@dice 2d4}) darbe hasarı. If the target is a creature, it must succeed on a DC 13 Strength saving throw yada be knocked prone."
+						"If the Keçi moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 5 ({@dice 2d4}) ezme hasarı. If the target is a creature, it must succeed on a DC 13 Strength saving throw yada be knocked prone."
 					]
 				},
 				{
@@ -14488,7 +14488,7 @@
 				{
 					"name": "Ram",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 8 ({@dice 2d4+3}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 8 ({@dice 2d4+3}) ezme hasarı."
 					]
 				}
 			],
@@ -14643,7 +14643,7 @@
 				{
 					"name": "Tentacles",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 15 ft., tek hedef. Vurunca: 10 ({@dice 2d6+3}) darbe hasarı. If the target is a creature, it is grappled (escape DC 16). Until this grapple ends, the target is restrained, and the octopus can't use its tentacles on another target."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 15 ft., tek hedef. Vurunca: 10 ({@dice 2d6+3}) ezme hasarı. If the target is a creature, it is grappled (escape DC 16). Until this grapple ends, the target is restrained, and the octopus can't use its tentacles on another target."
 					]
 				},
 				{
@@ -14750,7 +14750,7 @@
 			"sayfa": 327
 		},
 		{
-			"name": "Dev Rat",
+			"name": "Dev Fare",
 			"size": "S",
 			"type": "hayvan",
 			"source": "MM",
@@ -14776,15 +14776,15 @@
 			"cr": "1/8",
 			"trait": [
 				{
-					"name": "Keen Smell",
+					"name": "Keskin Koklama",
 					"entries": [
-						"The rat has advantage on Wisdom (Perception) checks that rely on smell."
+						"Farenin koklamaya bağlı Akıl (Algılama)'ya zarlarında avantajı vardır."
 					]
 				},
 				{
 					"name": "Sürü Taktiği",
 					"entries": [
-						"The rat has advantage on an attack roll against a creature if at least one of the rat's allies is within 5 ft. of the creature and the ally isn't incapacitated."
+						"Eğer farenin bir dostu düşmanın 5 ft. yanında ise dostu ile saldırı avantajına sahip olur."
 					]
 				}
 			],
@@ -14799,7 +14799,7 @@
 			"sayfa": 327
 		},
 		{
-			"name": "Dev Rat (Diseased)",
+			"name": "Dev Fare (Hastalıklı)",
 			"size": "S",
 			"type": "hayvan",
 			"source": "MM",
@@ -14827,7 +14827,7 @@
 				{
 					"name": "Isırma",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 4 ({@dice 1d4+2}) delme hasarı. If the target is a creature, it must succeed on a DC 10 Constitution saving throw yada contract a disease. Until the disease is cured, the target can't regain hit points except by magical means, and the target's hit point maximum decreases by 3 ({@dice 1d6}) every 24 hours. If the target's hit point maximum drops to 0 as a result of this disease, the target dies."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 4 ({@dice 1d4+2}) delme hasarı. Eğer hedef bir varlıksa, DC 10 Dayanıklılık kurtulma zarında başarılı olmalı veya bir hastalığa yakalanmalıdır. Hastalık iyileştirilene kadar, hedef HP yenileyemez, ve hedefin HP'si hastalık yüzünden her 24 saatte bir 3 ({@dice 1d6}) düşer. Eğer hastalıkdan HP 0'a düşerse hedef ölür."
 					]
 				}
 			],
@@ -14868,7 +14868,7 @@
 				{
 					"name": "Pençe",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 6 ({@dice 1d8+2}) darbe hasarı, and the target is grappled (escape DC 12). The scorpion has two claws, each of which can grapple only tek hedef."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 6 ({@dice 1d8+2}) ezme hasarı, and the target is grappled (escape DC 12). The scorpion has two claws, each of which can grapple only tek hedef."
 					]
 				},
 				{
@@ -14909,7 +14909,7 @@
 				{
 					"name": "Charge",
 					"entries": [
-						"If the sea horse moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 7 ({@dice 2d6}) darbe hasarı. If the target is a creature, it must succeed on a DC 11 Strength saving throw yada be knocked prone."
+						"If the sea horse moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 7 ({@dice 2d6}) ezme hasarı. If the target is a creature, it must succeed on a DC 11 Strength saving throw yada be knocked prone."
 					]
 				},
 				{
@@ -14923,7 +14923,7 @@
 				{
 					"name": "Ram",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 4 ({@dice 1d6+1}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 4 ({@dice 1d6+1}) ezme hasarı."
 					]
 				}
 			],
@@ -15040,7 +15040,7 @@
 				{
 					"name": "Web (Recharge 5\u20146)",
 					"entries": [
-						"Menzilli Silah Saldırısı: {@hit +5} vurmak için, menzil 30/60 ft., tek varlık. Vurunca: The target is restrained by webbing. As an action, the restrained target can make a DC 12 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to ateş damage; immunity to darbe, zehir, and psişik damage)."
+						"Menzilli Silah Saldırısı: {@hit +5} vurmak için, menzil 30/60 ft., tek varlık. Vurunca: The target is restrained by webbing. As an action, the restrained target can make a DC 12 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to ateş damage; immunity to ezme, zehir, and psişik damage)."
 					]
 				}
 			],
@@ -15205,7 +15205,7 @@
 			"sayfa": 329
 		},
 		{
-			"name": "Dev Weasel",
+			"name": "Dev Gelincik",
 			"size": "M",
 			"type": "hayvan",
 			"source": "MM",
@@ -15235,9 +15235,9 @@
 			"cr": "1/8",
 			"trait": [
 				{
-					"name": "Keen Hearing and Smell",
+					"name": "Keskin Duyma ve Koklama",
 					"entries": [
-						"The weasel has advantage on Wisdom (Perception) checks that rely on hearing yada smell."
+						"Gelincik duyma ve koklamaya bağlı Akıl (Algılama) zarlarında avantaja sahiptir."
 					]
 				}
 			],
@@ -15245,7 +15245,7 @@
 				{
 					"name": "Isırma",
 					"entries": [
-						"Weapon Attack: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 5 ({@dice 1d4+3}) delme hasarı."
+						"Silah saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 5 ({@dice 1d4+3}) delme hasarı."
 					]
 				}
 			],
@@ -15580,7 +15580,7 @@
 				{
 					"name": "Unarmed Strike",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 6 ({@dice 1d8+2}) darbe hasarı artı 9 ({@dice 2d8}) psişik damage. This is a magic weapon attack."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 6 ({@dice 1d8+2}) ezme hasarı artı 9 ({@dice 2d8}) psişik damage. This is a magic weapon attack."
 					]
 				}
 			],
@@ -15665,7 +15665,7 @@
 				{
 					"name": "Unarmed Strike",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 11 ({@dice 2d6+4}) darbe hasarı artı 13 ({@dice 3d8}) psişik damage. This is a magic weapon attack."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 11 ({@dice 2d6+4}) ezme hasarı artı 13 ({@dice 3d8}) psişik damage. This is a magic weapon attack."
 					]
 				}
 			],
@@ -15730,9 +15730,9 @@
 				"yıldırım",
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -15765,13 +15765,13 @@
 				{
 					"name": "Pincer",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +9} vurmak için, erişim 10 ft., tek hedef. Vurunca: 16 ({@dice 2d10+5}) darbe hasarı. If the target is a Medium yada smaller creature, it is grappled (escape DC 15). The glabrezu has two pincers, each of which can grapple only tek hedef."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +9} vurmak için, erişim 10 ft., tek hedef. Vurunca: 16 ({@dice 2d10+5}) ezme hasarı. If the target is a Medium yada smaller creature, it is grappled (escape DC 15). The glabrezu has two pincers, each of which can grapple only tek hedef."
 					]
 				},
 				{
 					"name": "Fist",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +9} vurmak için, erişim 5 ft., tek hedef. Vurunca: 7 ({@dice 2d4+2}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +9} vurmak için, erişim 5 ft., tek hedef. Vurunca: 7 ({@dice 2d4+2}) ezme hasarı."
 					]
 				},
 				{
@@ -15874,7 +15874,7 @@
 				{
 					"name": "Shield Bash",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek varlık. Vurunca: 9 ({@dice 2d4+4}) darbe hasarı. If the target is a Medium yada smaller creature, it must succeed on a DC 15 Strength saving throw yada be knocked prone."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek varlık. Vurunca: 9 ({@dice 2d4+4}) ezme hasarı. If the target is a Medium yada smaller creature, it must succeed on a DC 15 Strength saving throw yada be knocked prone."
 					]
 				}
 			],
@@ -16133,7 +16133,7 @@
 				{
 					"name": "Tosla",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 3 ({@dice 1d4+1}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 3 ({@dice 1d4+1}) ezme hasarı."
 					]
 				}
 			],
@@ -16402,7 +16402,7 @@
 				{
 					"name": "Hooves",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +8} vurmak için, erişim 5 ft., tek hedef. Vurunca: 16 ({@dice 2d10+5}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +8} vurmak için, erişim 5 ft., tek hedef. Vurunca: 16 ({@dice 2d10+5}) ezme hasarı."
 					]
 				},
 				{
@@ -16457,9 +16457,9 @@
 				"yıldırım",
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -16510,13 +16510,13 @@
 				{
 					"name": "Fist",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +13} vurmak için, erişim 10 ft., tek hedef. Vurunca: 20 ({@dice 3d8+7}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +13} vurmak için, erişim 10 ft., tek hedef. Vurunca: 20 ({@dice 3d8+7}) ezme hasarı."
 					]
 				},
 				{
 					"name": "Hoof",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +13} vurmak için, erişim 5 ft., tek hedef. Vurunca: 23 ({@dice 3d10+7}) darbe hasarı. If the target is a creature, it must succeed on a DC 21 Strength saving throw yada be knocked prone."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +13} vurmak için, erişim 5 ft., tek hedef. Vurunca: 23 ({@dice 3d10+7}) ezme hasarı. If the target is a creature, it must succeed on a DC 21 Strength saving throw yada be knocked prone."
 					]
 				},
 				{
@@ -16595,7 +16595,7 @@
 				{
 					"name": "Pseudopod",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 4 ({@dice 1d6+1}) darbe hasarı artı 7 ({@dice 2d6}) asit damage, and if the target is wearing nonmagical metal armor, its armor is partly corroded and takes a permanent and cumulative -1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 4 ({@dice 1d6+1}) ezme hasarı artı 7 ({@dice 2d6}) asit damage, and if the target is wearing nonmagical metal armor, its armor is partly corroded and takes a permanent and cumulative -1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10."
 					]
 				}
 			],
@@ -16668,7 +16668,7 @@
 				{
 					"name": "Pseudopod",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 4 ({@dice 1d6+1}) darbe hasarı artı 7 ({@dice 2d6}) asit damage, and if the target is wearing nonmagical metal armor, its armor is partly corroded and takes a permanent and cumulative -1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 4 ({@dice 1d6+1}) ezme hasarı artı 7 ({@dice 2d6}) asit damage, and if the target is wearing nonmagical metal armor, its armor is partly corroded and takes a permanent and cumulative -1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10."
 					]
 				},
 				{
@@ -17128,7 +17128,7 @@
 				{
 					"name": "Staff",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 11 ({@dice 2d6+4}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 11 ({@dice 2d6+4}) ezme hasarı."
 					]
 				},
 				{
@@ -17253,9 +17253,9 @@
 			"resist": [
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -17319,9 +17319,9 @@
 			"resist": [
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -17347,7 +17347,7 @@
 				{
 					"name": "Tail",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 10 ft., tek hedef. Vurunca: 11 ({@dice 2d6+4}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 10 ft., tek hedef. Vurunca: 11 ({@dice 2d6+4}) ezme hasarı."
 					]
 				},
 				{
@@ -17488,7 +17488,7 @@
 				{
 					"name": "Spiked Bone Club",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 5 ({@dice 1d4+3}) darbe hasarı artı 2 ({@dice 1d4}) delme hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 5 ({@dice 1d4+3}) ezme hasarı artı 2 ({@dice 1d4}) delme hasarı."
 					]
 				}
 			],
@@ -17694,9 +17694,9 @@
 			"resist": [
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -17977,7 +17977,7 @@
 				{
 					"name": "Club",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 3 ({@dice 1d4+1}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 3 ({@dice 1d4+1}) ezme hasarı."
 					]
 				},
 				{
@@ -18130,9 +18130,9 @@
 			"resist": [
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks that aren't adamantine"
 				}
@@ -18225,9 +18225,9 @@
 				"yıldırım",
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -18325,13 +18325,13 @@
 				{
 					"name": "Greatclub",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +8} vurmak için, erişim 10 ft., tek hedef. Vurunca: 18 ({@dice 3d8+5}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +8} vurmak için, erişim 10 ft., tek hedef. Vurunca: 18 ({@dice 3d8+5}) ezme hasarı."
 					]
 				},
 				{
 					"name": "Rock",
 					"entries": [
-						"Menzilli Silah Saldırısı: {@hit +8} vurmak için, menzil 60/240 ft., tek hedef. Vurunca: 21 ({@dice 3d10+5}) darbe hasarı."
+						"Menzilli Silah Saldırısı: {@hit +8} vurmak için, menzil 60/240 ft., tek hedef. Vurunca: 21 ({@dice 3d10+5}) ezme hasarı."
 					]
 				}
 			],
@@ -18345,7 +18345,7 @@
 							"name": "Squash",
 							"type": "entries",
 							"entries": [
-								"Yakın Dövüş Silahı Saldırısı: +8 vurmak için, erişim 5 ft., one Medium yada Smaller creature. Vurunca: 26 (6d6+5) darbe hasarı, the giant lands prone in the target's space, and the target is grappled (escape DC 15). Until this grapple ends, the target is prone. The grapple ends early if the giant stands up."
+								"Yakın Dövüş Silahı Saldırısı: +8 vurmak için, erişim 5 ft., one Medium yada Smaller creature. Vurunca: 26 (6d6+5) ezme hasarı, the giant lands prone in the target's space, and the target is grappled (escape DC 15). Until this grapple ends, the target is prone. The grapple ends early if the giant stands up."
 							]
 						}
 					],
@@ -18600,7 +18600,7 @@
 				{
 					"name": "Shield Bash",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +9} vurmak için, erişim 5 ft., tek varlık. Vurunca: 5 ({@dice 1d4+3}) darbe hasarı. If the target is Large yada smaller, it must succeed on a DC 14 Strength saving throw yada be knocked prone."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +9} vurmak için, erişim 5 ft., tek varlık. Vurunca: 5 ({@dice 1d4+3}) ezme hasarı. If the target is Large yada smaller, it must succeed on a DC 14 Strength saving throw yada be knocked prone."
 					]
 				},
 				{
@@ -18664,7 +18664,7 @@
 				{
 					"name": "Zihinsel Bağ",
 					"entries": [
-						"Yapay insan yaratıcısı ile aynı boyutta ise algıladığı şeyi sihirli bir şekilde ustasına aktarabilir. Zihinsel olarak birbiri ile iletişimde bulunabilir."
+						"Homunculus yaratıcısı ile aynı boyutta ise algıladığı şeyi sihirli bir şekilde ustasına aktarabilir. Zihinsel olarak birbiri ile iletişimde bulunabilir."
 					]
 				}
 			],
@@ -18777,9 +18777,9 @@
 				"soğuk",
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks that aren't silvered"
 				}
@@ -19044,9 +19044,9 @@
 			"resist": [
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks that aren't silvered"
 				}
@@ -19149,9 +19149,9 @@
 			"resist": [
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks that aren't silvered"
 				}
@@ -19209,7 +19209,7 @@
 				{
 					"name": "Tail",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +10} vurmak için, erişim 10 ft., tek hedef. Vurunca: 12 ({@dice 2d6+5}) darbe hasarı artı 10 ({@dice 3d6}) soğuk damage."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +10} vurmak için, erişim 10 ft., tek hedef. Vurunca: 12 ({@dice 2d6+5}) ezme hasarı artı 10 ({@dice 3d6}) soğuk damage."
 					]
 				},
 				{
@@ -19253,7 +19253,7 @@
 			},
 			"vulnerable": [
 				"ateş",
-				"darbe"
+				"ezme"
 			],
 			"immune": [
 				"soğuk",
@@ -19352,9 +19352,9 @@
 				"soğuk",
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical/nonsilver weapons"
 				}
@@ -19449,9 +19449,9 @@
 			"resist": [
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -19533,9 +19533,9 @@
 			"resist": [
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -19581,7 +19581,7 @@
 				{
 					"name": "Slam",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 10 ({@dice 2d6+3}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 10 ({@dice 2d6+3}) ezme hasarı."
 					]
 				}
 			],
@@ -19615,9 +19615,9 @@
 				"psişik",
 				{
 					"immune": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks that aren't adamantine"
 				}
@@ -19670,7 +19670,7 @@
 				{
 					"name": "Slam",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +13} vurmak için, erişim 5 ft., tek hedef. Vurunca: 20 ({@dice 3d8+7}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +13} vurmak için, erişim 5 ft., tek hedef. Vurunca: 20 ({@dice 3d8+7}) ezme hasarı."
 					]
 				},
 				{
@@ -19775,9 +19775,9 @@
 			"immune": [
 				{
 					"immune": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks that aren't silvered"
 				}
@@ -20085,7 +20085,7 @@
 				{
 					"name": "Sling",
 					"entries": [
-						"Menzilli Silah Saldırısı: {@hit +4} vurmak için, menzil 30/120 ft., tek hedef. Vurunca: 4 ({@dice 1d4+2}) darbe hasarı."
+						"Menzilli Silah Saldırısı: {@hit +4} vurmak için, menzil 30/120 ft., tek hedef. Vurunca: 4 ({@dice 1d4+2}) ezme hasarı."
 					]
 				}
 			],
@@ -20131,9 +20131,9 @@
 				"yıldırım",
 				{
 					"immune": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -20182,13 +20182,13 @@
 				{
 					"name": "Tentacle",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +17} vurmak için, erişim 30 ft., tek hedef. Vurunca: 20 ({@dice 3d6+10}) darbe hasarı, and the target is grappled (escape DC 18). Until this grapple ends, the target is restrained. The kTırmalaman has ten tentacles, each of which can grapple tek hedef."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +17} vurmak için, erişim 30 ft., tek hedef. Vurunca: 20 ({@dice 3d6+10}) ezme hasarı, and the target is grappled (escape DC 18). Until this grapple ends, the target is restrained. The kTırmalaman has ten tentacles, each of which can grapple tek hedef."
 					]
 				},
 				{
 					"name": "Fling",
 					"entries": [
-						"One Large yada smaller object held yada creature grappled by the kTırmalaman is thrown up to 60 feet in a random direction and knocked prone. If a thrown target strikes a solid surface, the target takes 3 ({@dice 1d6}) darbe hasarı for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a DC 18 Dexterity saving throw yada take the same damage and be knocked prone."
+						"One Large yada smaller object held yada creature grappled by the kTırmalaman is thrown up to 60 feet in a random direction and knocked prone. If a thrown target strikes a solid surface, the target takes 3 ({@dice 1d6}) ezme hasarı for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a DC 18 Dexterity saving throw yada take the same damage and be knocked prone."
 					]
 				},
 				{
@@ -20386,13 +20386,13 @@
 				{
 					"name": "Scepter",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 6 ({@dice 1d6+3}) darbe hasarı artı 14 ({@dice 4d6}) yıldırım damage."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 6 ({@dice 1d6+3}) ezme hasarı artı 14 ({@dice 4d6}) yıldırım damage."
 					]
 				},
 				{
 					"name": "Unarmed Strike",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 5 ({@dice 1d4+3}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 5 ({@dice 1d4+3}) ezme hasarı."
 					]
 				}
 			],
@@ -20536,7 +20536,7 @@
 				{
 					"name": "Unarmed Strike",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 5 ({@dice 1d6+2}) darbe hasarı artı 3 ({@dice 1d6}) yıldırım damage, and the target can't take reactions until the end of the kuo-toa's next turn."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 5 ({@dice 1d6+2}) ezme hasarı artı 3 ({@dice 1d6}) yıldırım damage, and the target can't take reactions until the end of the kuo-toa's next turn."
 					]
 				}
 			],
@@ -20795,7 +20795,7 @@
 				{
 					"name": "Yumruk",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 2 ({@dice 1d4}) darbe hasarı"
+						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 2 ({@dice 1d4}) ezme hasarı"
 					]
 				}
 			],
@@ -20846,9 +20846,9 @@
 				"zehir",
 				{
 					"immune": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -21353,7 +21353,7 @@
 				{
 					"name": "Heavy Club",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 5 ({@dice 1d6+2}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 5 ({@dice 1d6+2}) ezme hasarı."
 					]
 				},
 				{
@@ -21698,9 +21698,9 @@
 			"resist": [
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -21778,7 +21778,7 @@
 				{
 					"name": "Stomp",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +10} vurmak için, erişim 5 ft., one prone creature. Vurunca: 29 ({@dice 4d10+7}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +10} vurmak için, erişim 5 ft., one prone creature. Vurunca: 29 ({@dice 4d10+7}) ezme hasarı."
 					]
 				}
 			],
@@ -21982,7 +21982,7 @@
 				{
 					"name": "Water Jet",
 					"entries": [
-						"The marid magically shoots water in a 60-foot line that is 5 feet wide. Each creature in that line must make a DC 16 Dexterity saving throw. On a failure, a target takes 21 ({@dice 6d6}) darbe hasarı and, if it is Huge yada smaller, is pushed up to 20 feet away from the marid and knocked prone. On a success, a target takes half the darbe hasarı, but is neither pushed nor knocked prone."
+						"The marid magically shoots water in a 60-foot line that is 5 feet wide. Each creature in that line must make a DC 16 Dexterity saving throw. On a failure, a target takes 21 ({@dice 6d6}) ezme hasarı and, if it is Huge yada smaller, is pushed up to 20 feet away from the marid and knocked prone. On a success, a target takes half the ezme hasarı, but is neither pushed nor knocked prone."
 					]
 				}
 			],
@@ -22057,9 +22057,9 @@
 				"yıldırım",
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -22110,7 +22110,7 @@
 				{
 					"name": "Tail",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +9} vurmak için, erişim 10 ft., tek varlık. Vurunca: 15 ({@dice 2d10+4}) darbe hasarı. If the target is Medium yada smaller, it is grappled (escape DC 19). Until this grapple ends, the target is restrained, the marilith can automatically hit the target with its tail, and the marilith can't make tail attacks against other targets."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +9} vurmak için, erişim 10 ft., tek varlık. Vurunca: 15 ({@dice 2d10+4}) ezme hasarı. If the target is Medium yada smaller, it is grappled (escape DC 19). Until this grapple ends, the target is restrained, the marilith can automatically hit the target with its tail, and the marilith can't make tail attacks against other targets."
 					]
 				},
 				{
@@ -22407,9 +22407,9 @@
 				"yıldırım",
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -22571,7 +22571,7 @@
 				{
 					"name": "Pseudopod",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 7 ({@dice 1d8+3}) darbe hasarı. If the mimic is in object form, the target is subjected to its Adhesive trait."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 7 ({@dice 1d8+3}) ezme hasarı. If the mimic is in object form, the target is subjected to its Adhesive trait."
 					]
 				},
 				{
@@ -22904,7 +22904,7 @@
 			"wis": 8,
 			"cha": 5,
 			"vulnerable": [
-				"darbe"
+				"ezme"
 			],
 			"immune": [
 				"zehir"
@@ -23056,7 +23056,7 @@
 				{
 					"name": "Fists",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek varlık. Vurunca: 4 ({@dice 1d6+1}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek varlık. Vurunca: 4 ({@dice 1d6+1}) ezme hasarı."
 					]
 				},
 				{
@@ -23116,7 +23116,7 @@
 				{
 					"name": "Hooves",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +2} vurmak için, erişim 5 ft., tek hedef. Vurunca: 4 ({@dice 1d4+2}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +2} vurmak için, erişim 5 ft., tek hedef. Vurunca: 4 ({@dice 1d4+2}) ezme hasarı."
 					]
 				}
 			],
@@ -23154,9 +23154,9 @@
 			"resist": [
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -23186,7 +23186,7 @@
 				{
 					"name": "Rotting Fist",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 10 ({@dice 2d6+3}) darbe hasarı artı 10 ({@dice 3d6}) nekrotik damage. If the target is a creature, it must succeed on a DC 12 Constitution saving throw yada be cursed with mummy rot. The cursed target can't regain hit points, and its hit point maximum decreases by 10 ({@dice 3d6}) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies, and its body turns to dust. The curse lasts until removed by the remove curse spell yada other magic."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 10 ({@dice 2d6+3}) ezme hasarı artı 10 ({@dice 3d6}) nekrotik damage. If the target is a creature, it must succeed on a DC 12 Constitution saving throw yada be cursed with mummy rot. The cursed target can't regain hit points, and its hit point maximum decreases by 10 ({@dice 3d6}) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies, and its body turns to dust. The curse lasts until removed by the remove curse spell yada other magic."
 					]
 				},
 				{
@@ -23239,9 +23239,9 @@
 				"zehir",
 				{
 					"immune": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -23284,7 +23284,7 @@
 				{
 					"name": "Rotting Fist",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +9} vurmak için, erişim 5 ft., tek hedef. Vurunca: 14 ({@dice 3d6+4}) darbe hasarı artı 21 ({@dice 6d6}) nekrotik damage. If the target is a creature, it must succeed on a DC 16 Constitution saving throw yada be cursed with mummy rot. The cursed target can't regain hit points, and its hit point maximum decreases by 10 ({@dice 3d6}) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies, and its body turns to dust. The curse lasts until removed by the remove curse spell yada other magic."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +9} vurmak için, erişim 5 ft., tek hedef. Vurunca: 14 ({@dice 3d6+4}) ezme hasarı artı 21 ({@dice 6d6}) nekrotik damage. If the target is a creature, it must succeed on a DC 16 Constitution saving throw yada be cursed with mummy rot. The cursed target can't regain hit points, and its hit point maximum decreases by 10 ({@dice 3d6}) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies, and its body turns to dust. The curse lasts until removed by the remove curse spell yada other magic."
 					]
 				},
 				{
@@ -23432,7 +23432,7 @@
 				{
 					"name": "Fist",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +2} vurmak için, erişim 5 ft., tek hedef. Vurunca: 5 ({@dice 2d4}) darbe hasarı artı 5 ({@dice 2d4}) zehir damage."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +2} vurmak için, erişim 5 ft., tek hedef. Vurunca: 5 ({@dice 2d4}) ezme hasarı artı 5 ({@dice 2d4}) zehir damage."
 					]
 				},
 				{
@@ -23539,7 +23539,7 @@
 				{
 					"name": "Fist",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 8 ({@dice 3d4+1}) darbe hasarı artı 7 ({@dice 3d4}) zehir damage."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 8 ({@dice 3d4+1}) ezme hasarı artı 7 ({@dice 3d4}) zehir damage."
 					]
 				},
 				{
@@ -23652,7 +23652,7 @@
 				{
 					"name": "Yumruk",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +1} vurmak için, erişim 5 ft., tek hedef. Vurunca: 1 ({@dice 1d4-1}) darbe hasarı artı 2 ({@dice 1d4}) zehir hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +1} vurmak için, erişim 5 ft., tek hedef. Vurunca: 1 ({@dice 1d4-1}) ezme hasarı artı 2 ({@dice 1d4}) zehir hasarı."
 					]
 				},
 				{
@@ -23705,9 +23705,9 @@
 				"yıldırım",
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -23853,9 +23853,9 @@
 				"ateş",
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks that aren't silvered"
 				}
@@ -24048,7 +24048,7 @@
 				{
 					"name": "Hooves",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 13 ({@dice 2d8+4}) darbe hasarı artı 7 ({@dice 2d6}) ateş damage."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 13 ({@dice 2d8+4}) ezme hasarı artı 7 ({@dice 2d6}) ateş damage."
 					]
 				},
 				{
@@ -24222,9 +24222,9 @@
 				"yıldırım",
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -24343,7 +24343,7 @@
 			],
 			"immune": [
 				"yıldırım",
-				"slashing"
+				"kesme"
 			],
 			"conditionImmune": [
 				"blinded",
@@ -24374,7 +24374,7 @@
 				{
 					"name": "Pseudopod",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 9 ({@dice 2d6+2}) darbe hasarı artı 3 ({@dice 1d6}) asit damage."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 9 ({@dice 2d6+2}) ezme hasarı artı 3 ({@dice 1d6}) asit damage."
 					]
 				}
 			],
@@ -24442,7 +24442,7 @@
 				{
 					"name": "Dokunaç",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 1 darbe hasarı, Hedefi tutar (DC 10 kaçış). Tutması sona erene kadar dokunaçlarını başka bir hedefte kullanmaz."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 1 ezme hasarı, Hedefi tutar (DC 10 kaçış). Tutması sona erene kadar dokunaçlarını başka bir hedefte kullanmaz."
 					]
 				},
 				{
@@ -24486,7 +24486,7 @@
 				{
 					"name": "Greatclub",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 13 ({@dice 2d8+4}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 13 ({@dice 2d8+4}) ezme hasarı."
 					]
 				},
 				{
@@ -24546,7 +24546,7 @@
 				{
 					"name": "Morningstar",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 13 ({@dice 2d8+4}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 13 ({@dice 2d8+4}) ezme hasarı."
 					]
 				}
 			],
@@ -25004,13 +25004,13 @@
 				{
 					"name": "Tentacle",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 10 ft., tek hedef. Vurunca: 7 ({@dice 1d8+3}) darbe hasarı artı 4 ({@dice 1d8}) delme hasarı. If the target is Medium yada smaller, it is grappled (escape DC 13) and restrained until the grapple ends. The otyugh has two tentacles, each of which can grapple tek hedef."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 10 ft., tek hedef. Vurunca: 7 ({@dice 1d8+3}) ezme hasarı artı 4 ({@dice 1d8}) delme hasarı. If the target is Medium yada smaller, it is grappled (escape DC 13) and restrained until the grapple ends. The otyugh has two tentacles, each of which can grapple tek hedef."
 					]
 				},
 				{
 					"name": "Tentacle Slam",
 					"entries": [
-						"The otyugh slams creatures grappled by it into each other yada a solid surface. Each creature must succeed on a DC 14 Constitution saving throw yada take 10 ({@dice 2d6+3}) darbe hasarı and be stunned until the end of the otyugh's next turn. On a successful save, the target takes half the darbe hasarı and isn't stunned."
+						"The otyugh slams creatures grappled by it into each other yada a solid surface. Each creature must succeed on a DC 14 Constitution saving throw yada take 10 ({@dice 2d6+3}) ezme hasarı and be stunned until the end of the otyugh's next turn. On a successful save, the target takes half the ezme hasarı and isn't stunned."
 					]
 				}
 			],
@@ -25227,7 +25227,7 @@
 				{
 					"name": "Hooves",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 11 ({@dice 2d6+4}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 11 ({@dice 2d6+4}) ezme hasarı."
 					]
 				}
 			],
@@ -25288,7 +25288,7 @@
 				{
 					"name": "Arm",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 5 ({@dice 1d6+2}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 5 ({@dice 1d6+2}) ezme hasarı."
 					]
 				},
 				{
@@ -25330,9 +25330,9 @@
 			"resist": [
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -25532,9 +25532,9 @@
 				"soğuk",
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks that aren't silvered"
 				}
@@ -25592,13 +25592,13 @@
 				{
 					"name": "Mace",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +14} vurmak için, erişim 10ft., tek hedef. Vurunca: 15 ({@dice 2d6+8}) darbe hasarı artı 21 ({@dice 6d6}) ateş damage."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +14} vurmak için, erişim 10ft., tek hedef. Vurunca: 15 ({@dice 2d6+8}) ezme hasarı artı 21 ({@dice 6d6}) ateş damage."
 					]
 				},
 				{
 					"name": "Tail",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +14} vurmak için, erişim 10ft., tek hedef. Vurunca: 24 ({@dice 3d10+8}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +14} vurmak için, erişim 10ft., tek hedef. Vurunca: 24 ({@dice 3d10+8}) ezme hasarı."
 					]
 				}
 			],
@@ -25732,9 +25732,9 @@
 				"radyant",
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -25992,9 +25992,9 @@
 				"ses",
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -26050,7 +26050,7 @@
 					"entries": [
 						"The poltergeist targets a creature yada unattended object within 30 feet of it. A creature must be Medium yada smaller to be affected by this magic, and an object can weigh up to 150 pounds.",
 						"If the target is a creature, the poltergeist makes a Charisma check contested by the target's Strength check. If the poltergeist wins the contest, the poltergeist hurls the target up to 30 feet in any direction, including upward. If the target then comes into contact with a hard surface yada heavy object, the target takes {@dice 1d6} damage per 10 feet moved.",
-						"If the target is an object that isn't being worn yada carried, the poltergeist hurls it up to 30 feet in any direction. The poltergeist can use the object as a ranged weapon, attacking tek varlık along the object's path ({@hit +4} vurmak için) and dealing 5 ({@dice 2d4}) darbe hasarı on a hit."
+						"If the target is an object that isn't being worn yada carried, the poltergeist hurls it up to 30 feet in any direction. The poltergeist can use the object as a ranged weapon, attacking tek varlık along the object's path ({@hit +4} vurmak için) and dealing 5 ({@dice 2d4}) ezme hasarı on a hit."
 					]
 				}
 			],
@@ -26084,7 +26084,7 @@
 				{
 					"name": "Hooves",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 7 ({@dice 2d4+2}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 7 ({@dice 2d4+2}) ezme hasarı."
 					]
 				}
 			],
@@ -26137,7 +26137,7 @@
 				{
 					"name": "Mace",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +2} vurmak için, erişim 5 ft., tek hedef. Vurunca: 3 ({@dice 1d6}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +2} vurmak için, erişim 5 ft., tek hedef. Vurunca: 3 ({@dice 1d6}) ezme hasarı."
 					]
 				}
 			],
@@ -26426,7 +26426,7 @@
 				{
 					"name": "Fist",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 3 ({@dice 1d4+1}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 3 ({@dice 1d4+1}) ezme hasarı."
 					]
 				},
 				{
@@ -26679,9 +26679,9 @@
 				"yıldırım",
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -26833,9 +26833,9 @@
 			"immune": [
 				{
 					"immune": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -26926,7 +26926,7 @@
 				{
 					"name": "Keskin Koklama",
 					"entries": [
-						"Fare kokuya bağlı Akıl (Algılama) zarlarında avantajlıdır."
+						"Fare koklamaya bağlı Akıl (Algılama) zarlarında avantajlıdır."
 					]
 				}
 			],
@@ -27321,7 +27321,7 @@
 				{
 					"name": "Fist",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 11 ({@dice 2d6+4}) darbe hasarı. If the target is a creature against which the revenant has sworn vengeance, the target takes an extra 14 ({@dice 4d6}) darbe hasarı. Instead of dealing damage, the revenant can grapple the target (escape DC 14) provided the target is Large yada smaller."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 11 ({@dice 2d6+4}) ezme hasarı. If the target is a creature against which the revenant has sworn vengeance, the target takes an extra 14 ({@dice 4d6}) ezme hasarı. Instead of dealing damage, the revenant can grapple the target (escape DC 14) provided the target is Large yada smaller."
 					]
 				},
 				{
@@ -27361,7 +27361,7 @@
 				{
 					"name": "Charge",
 					"entries": [
-						"If the rhinoceros moves at least 20 ft. straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 9 ({@dice 2d8}) darbe hasarı. If the target is a creature, it must succeed on a DC 15 Strength saving throw yada be knocked prone."
+						"If the rhinoceros moves at least 20 ft. straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 9 ({@dice 2d8}) ezme hasarı. If the target is a creature, it must succeed on a DC 15 Strength saving throw yada be knocked prone."
 					]
 				}
 			],
@@ -27369,7 +27369,7 @@
 				{
 					"name": "Gore",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 14 ({@dice 2d8+5}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 14 ({@dice 2d8+5}) ezme hasarı."
 					]
 				}
 			],
@@ -27403,7 +27403,7 @@
 				{
 					"name": "Hooves",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 8 ({@dice 2d4+3}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 8 ({@dice 2d4+3}) ezme hasarı."
 					]
 				}
 			],
@@ -27614,7 +27614,7 @@
 				{
 					"name": "Smother",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., one Medium yada smaller creature. Vurunca: The creature is grappled (escape DC 13). Until this grapple ends, the target is restrained, blinded, and at risk of suffocating, and the rug can't smother another target. In addition, at the start of each of the target's turns, the target takes 10 ({@dice 2d6+3}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., one Medium yada smaller creature. Vurunca: The creature is grappled (escape DC 13). Until this grapple ends, the target is restrained, blinded, and at risk of suffocating, and the rug can't smother another target. In addition, at the start of each of the target's turns, the target takes 10 ({@dice 2d6+3}) ezme hasarı."
 					]
 				}
 			],
@@ -28051,9 +28051,9 @@
 			"resist": [
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -28098,7 +28098,7 @@
 				{
 					"name": "Tail",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 10 ft., tek hedef. Vurunca: 11 ({@dice 2d6+4}) darbe hasarı artı 7 ({@dice 2d6}) ateş damage, and the target is grappled (escape DC 14). Until this grapple ends, the target is restrained, the salamander can automatically hit the target with its tail, and the salamander can't make tail attacks against other targets."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 10 ft., tek hedef. Vurunca: 11 ({@dice 2d6+4}) ezme hasarı artı 7 ({@dice 2d6}) ateş damage, and the target is grappled (escape DC 14). Until this grapple ends, the target is restrained, the salamander can automatically hit the target with its tail, and the salamander can't make tail attacks against other targets."
 					]
 				}
 			],
@@ -28147,7 +28147,7 @@
 				{
 					"name": "Ram",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 6 ({@dice 2d4+1}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 6 ({@dice 2d4+1}) ezme hasarı."
 					]
 				},
 				{
@@ -28229,9 +28229,9 @@
 			"resist": [
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -28592,9 +28592,9 @@
 				"ses",
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -28693,9 +28693,9 @@
 				"ses",
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -28810,13 +28810,13 @@
 				{
 					"name": "Slam",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 13 ({@dice 2d8+4}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 13 ({@dice 2d8+4}) ezme hasarı."
 					]
 				},
 				{
 					"name": "Engulf",
 					"entries": [
-						"The shambling mound engulfs a Medium yada smaller creature grappled by it. The engulfed target is blinded, restrained, and unable to breathe, and it must succeed on a DC 14 Constitution saving throw at the start of each of the mound's turns yada take 13 ({@dice 2d8+4}) darbe hasarı. If the mound moves, the engulfed target moves with it. The mound can have only tek varlık engulfed at a time."
+						"The shambling mound engulfs a Medium yada smaller creature grappled by it. The engulfed target is blinded, restrained, and unable to breathe, and it must succeed on a DC 14 Constitution saving throw at the start of each of the mound's turns yada take 13 ({@dice 2d8+4}) ezme hasarı. If the mound moves, the engulfed target moves with it. The mound can have only tek varlık engulfed at a time."
 					]
 				}
 			],
@@ -28888,7 +28888,7 @@
 				{
 					"name": "Fist",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 11 ({@dice 2d6+4}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 11 ({@dice 2d6+4}) ezme hasarı."
 					]
 				}
 			],
@@ -29047,7 +29047,7 @@
 			"wis": 8,
 			"cha": 5,
 			"vulnerable": [
-				"darbe"
+				"ezme"
 			],
 			"immune": [
 				"zehir"
@@ -29246,9 +29246,9 @@
 				"radyant",
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -29470,9 +29470,9 @@
 				"ses",
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -29613,9 +29613,9 @@
 				"soğuk",
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks that aren't silvered"
 				}
@@ -30096,13 +30096,13 @@
 				{
 					"name": "Greatclub",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +9} vurmak için, erişim 15 ft., tek hedef. Vurunca: 19 ({@dice 3d8+6}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +9} vurmak için, erişim 15 ft., tek hedef. Vurunca: 19 ({@dice 3d8+6}) ezme hasarı."
 					]
 				},
 				{
 					"name": "Rock",
 					"entries": [
-						"Menzilli Silah Saldırısı: {@hit +9} vurmak için, menzil 60/240 ft., tek hedef. Vurunca: 28 ({@dice 4d10+6}) darbe hasarı. If the target is a creature, it must succeed on a DC 17 Strength saving throw yada be knocked prone."
+						"Menzilli Silah Saldırısı: {@hit +9} vurmak için, menzil 60/240 ft., tek hedef. Vurunca: 28 ({@dice 4d10+6}) ezme hasarı. If the target is a creature, it must succeed on a DC 17 Strength saving throw yada be knocked prone."
 					]
 				}
 			],
@@ -30110,7 +30110,7 @@
 				{
 					"name": "Rock Catching",
 					"entries": [
-						"If a rock yada similar object is hurled at the giant, the giant can, with a successful DC 10 Dexterity saving throw, catch the missile and take no darbe hasarı from it."
+						"If a rock yada similar object is hurled at the giant, the giant can, with a successful DC 10 Dexterity saving throw, catch the missile and take no ezme hasarı from it."
 					]
 				}
 			],
@@ -30124,14 +30124,14 @@
 							"name": "Fling",
 							"type": "entries",
 							"entries": [
-								"The giant tries to throw a Small yada Medium creature within 10 feet of it. The target must succeed on a DC 17 Dexterity saving throw yada be hurled up to 60 feet horizontally in a direction of the giant's choice. and land prone, taking 1d6 darbe hasarı for every 10 feet it was thrown."
+								"The giant tries to throw a Small yada Medium creature within 10 feet of it. The target must succeed on a DC 17 Dexterity saving throw yada be hurled up to 60 feet horizontally in a direction of the giant's choice. and land prone, taking 1d6 ezme hasarı for every 10 feet it was thrown."
 							]
 						},
 						{
 							"name": "Rolling Rock",
 							"type": "entries",
 							"entries": [
-								"The giant sends a rock tumbling along the ground in a 30-foot line that is 5 feet wide. Each creature in that line must make a DC 17 Dexterity saving throw, taking 22 (3d10+6) darbe hasarı and falling prone on a failed save"
+								"The giant sends a rock tumbling along the ground in a 30-foot line that is 5 feet wide. Each creature in that line must make a DC 17 Dexterity saving throw, taking 22 (3d10+6) ezme hasarı and falling prone on a failed save"
 							]
 						}
 					],
@@ -30168,9 +30168,9 @@
 			"immune": [
 				{
 					"immune": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks that aren't adamantine"
 				},
@@ -30219,7 +30219,7 @@
 				{
 					"name": "Slam",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +10} vurmak için, erişim 5 ft., tek hedef. Vurunca: 19 ({@dice 3d8+6}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +10} vurmak için, erişim 5 ft., tek hedef. Vurunca: 19 ({@dice 3d8+6}) ezme hasarı."
 					]
 				},
 				{
@@ -30301,7 +30301,7 @@
 				{
 					"name": "Rock",
 					"entries": [
-						"Menzilli Silah Saldırısı: {@hit +14} vurmak için, menzil 60/240 ft., tek hedef. Vurunca: 35 ({@dice 4d12+9}) darbe hasarı."
+						"Menzilli Silah Saldırısı: {@hit +14} vurmak için, menzil 60/240 ft., tek hedef. Vurunca: 35 ({@dice 4d12+9}) ezme hasarı."
 					]
 				},
 				{
@@ -30396,9 +30396,9 @@
 				"zehir",
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -30493,9 +30493,9 @@
 				"zehir",
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -30574,9 +30574,9 @@
 			"wis": 12,
 			"cha": 4,
 			"resist": [
-				"darbe",
+				"ezme",
 				"delme",
-				"slashing"
+				"kesme"
 			],
 			"conditionImmune": [
 				"charmed",
@@ -30649,9 +30649,9 @@
 			"wis": 7,
 			"cha": 1,
 			"resist": [
-				"darbe",
+				"ezme",
 				"delme",
-				"slashing"
+				"kesme"
 			],
 			"conditionImmune": [
 				"charmed",
@@ -30711,9 +30711,9 @@
 			"wis": 7,
 			"cha": 1,
 			"resist": [
-				"darbe",
+				"ezme",
 				"delme",
-				"slashing"
+				"kesme"
 			],
 			"conditionImmune": [
 				"charmed",
@@ -30774,9 +30774,9 @@
 			"wis": 7,
 			"cha": 1,
 			"resist": [
-				"darbe",
+				"ezme",
 				"delme",
-				"slashing"
+				"kesme"
 			],
 			"conditionImmune": [
 				"charmed",
@@ -30836,9 +30836,9 @@
 			"wis": 10,
 			"cha": 3,
 			"resist": [
-				"darbe",
+				"ezme",
 				"delme",
-				"slashing"
+				"kesme"
 			],
 			"conditionImmune": [
 				"charmed",
@@ -30898,9 +30898,9 @@
 			"wis": 7,
 			"cha": 2,
 			"resist": [
-				"darbe",
+				"ezme",
 				"delme",
-				"slashing"
+				"kesme"
 			],
 			"conditionImmune": [
 				"charmed",
@@ -30971,9 +30971,9 @@
 			"wis": 10,
 			"cha": 3,
 			"resist": [
-				"darbe",
+				"ezme",
 				"delme",
-				"slashing"
+				"kesme"
 			],
 			"conditionImmune": [
 				"charmed",
@@ -31039,9 +31039,9 @@
 			"wis": 12,
 			"cha": 6,
 			"resist": [
-				"darbe",
+				"ezme",
 				"delme",
-				"slashing"
+				"kesme"
 			],
 			"conditionImmune": [
 				"charmed",
@@ -31100,9 +31100,9 @@
 			"wis": 7,
 			"cha": 1,
 			"resist": [
-				"darbe",
+				"ezme",
 				"delme",
-				"slashing"
+				"kesme"
 			],
 			"conditionImmune": [
 				"charmed",
@@ -31180,9 +31180,9 @@
 			"wis": 7,
 			"cha": 1,
 			"resist": [
-				"darbe",
+				"ezme",
 				"delme",
-				"slashing"
+				"kesme"
 			],
 			"conditionImmune": [
 				"charmed",
@@ -31252,9 +31252,9 @@
 				"zehir",
 				{
 					"immune": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -31322,7 +31322,7 @@
 				{
 					"name": "Tail",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +19} vurmak için, erişim 20 ft., tek hedef. Vurunca: 24 ({@dice 4d6+10}) darbe hasarı. If the target is a creature, it must succeed on a DC 20 Strength saving throw yada be knocked prone."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +19} vurmak için, erişim 20 ft., tek hedef. Vurunca: 24 ({@dice 4d6+10}) ezme hasarı. If the target is a creature, it must succeed on a DC 20 Strength saving throw yada be knocked prone."
 					]
 				},
 				{
@@ -31618,7 +31618,7 @@
 				{
 					"name": "Mace",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek varlık. Vurunca: 5 ({@dice 1d6+2}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek varlık. Vurunca: 5 ({@dice 1d6+2}) ezme hasarı."
 					]
 				},
 				{
@@ -31713,7 +31713,7 @@
 			"wis": 16,
 			"cha": 12,
 			"resist": [
-				"darbe",
+				"ezme",
 				"delme"
 			],
 			"vulnerable": [
@@ -31746,13 +31746,13 @@
 				{
 					"name": "Slam",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +10} vurmak için, erişim 5 ft., tek hedef. Vurunca: 16 ({@dice 3d6+6}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +10} vurmak için, erişim 5 ft., tek hedef. Vurunca: 16 ({@dice 3d6+6}) ezme hasarı."
 					]
 				},
 				{
 					"name": "Rock",
 					"entries": [
-						"Menzilli Silah Saldırısı: {@hit +10} vurmak için, menzil 60/180 ft., tek hedef. Vurunca: 28 ({@dice 4d10+6}) darbe hasarı."
+						"Menzilli Silah Saldırısı: {@hit +10} vurmak için, menzil 60/180 ft., tek hedef. Vurunca: 28 ({@dice 4d10+6}) ezme hasarı."
 					]
 				},
 				{
@@ -31854,7 +31854,7 @@
 				{
 					"name": "Stomp",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +9} vurmak için, erişim 5 ft., one prone creature. Vurunca: 22 ({@dice 3d10+6}) darbe hasarı"
+						"Yakın Dövüş Silahı Saldırısı: {@hit +9} vurmak için, erişim 5 ft., one prone creature. Vurunca: 22 ({@dice 3d10+6}) ezme hasarı"
 					]
 				}
 			],
@@ -31912,7 +31912,7 @@
 				{
 					"name": "Fist",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 3 ({@dice 1d4+1}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 3 ({@dice 1d4+1}) ezme hasarı."
 					]
 				},
 				{
@@ -32205,7 +32205,7 @@
 				{
 					"name": "Tail",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +10} vurmak için, erişim 10 ft., tek hedef. Vurunca: 20 ({@dice 3d8+7}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +10} vurmak için, erişim 10 ft., tek hedef. Vurunca: 20 ({@dice 3d8+7}) ezme hasarı."
 					]
 				}
 			],
@@ -32251,9 +32251,9 @@
 				"yıldırım",
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -32491,7 +32491,7 @@
 				{
 					"name": "Hooves",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 11 ({@dice 2d6+4}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 11 ({@dice 2d6+4}) ezme hasarı."
 					]
 				},
 				{
@@ -32597,9 +32597,9 @@
 				"nekrotik",
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -32663,7 +32663,7 @@
 				{
 					"name": "Unarmed Strike (Vampire Form Only)",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +9} vurmak için, erişim 5 ft., tek varlık. Vurunca: 8 ({@dice 1d8+4}) darbe hasarı. Instead of dealing damage, the vampire can grapple the target (escape DC 18)."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +9} vurmak için, erişim 5 ft., tek varlık. Vurunca: 8 ({@dice 1d8+4}) ezme hasarı. Instead of dealing damage, the vampire can grapple the target (escape DC 18)."
 					]
 				},
 				{
@@ -32744,9 +32744,9 @@
 				"nekrotik",
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -32842,9 +32842,9 @@
 				"nekrotik",
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -32908,7 +32908,7 @@
 				{
 					"name": "Unarmed Strike (Vampire Form Only)",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +9} vurmak için, erişim 5 ft., tek varlık. Vurunca: 8 ({@dice 1d8+4}) darbe hasarı. Instead of dealing damage, the vampire can grapple the target (escape DC 18)."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +9} vurmak için, erişim 5 ft., tek varlık. Vurunca: 8 ({@dice 1d8+4}) ezme hasarı. Instead of dealing damage, the vampire can grapple the target (escape DC 18)."
 					]
 				},
 				{
@@ -33049,9 +33049,9 @@
 				"nekrotik",
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -33121,7 +33121,7 @@
 				{
 					"name": "Unarmed Strike (Vampire Form Only)",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +9} vurmak için, erişim 5 ft., tek varlık. Vurunca: 8 ({@dice 1d8+4}) darbe hasarı. Instead of dealing damage, the vampire can grapple the target (escape DC 18)."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +9} vurmak için, erişim 5 ft., tek varlık. Vurunca: 8 ({@dice 1d8+4}) ezme hasarı. Instead of dealing damage, the vampire can grapple the target (escape DC 18)."
 					]
 				},
 				{
@@ -33281,7 +33281,7 @@
 				{
 					"name": "Constrict",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 10 ft., tek hedef. Vurunca: 9 ({@dice 2d6+2}) darbe hasarı, and a Large yada smaller target is grappled (escape DC 12). Until this grapple ends, the target is restrained, and the blight can't constrict another target."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 10 ft., tek hedef. Vurunca: 9 ({@dice 2d6+2}) ezme hasarı, and a Large yada smaller target is grappled (escape DC 12). Until this grapple ends, the target is restrained, and the blight can't constrict another target."
 					]
 				},
 				{
@@ -33387,9 +33387,9 @@
 				"yıldırım",
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -33542,7 +33542,7 @@
 				{
 					"name": "Hooves",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 11 ({@dice 2d6+4}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 11 ({@dice 2d6+4}) ezme hasarı."
 					]
 				}
 			],
@@ -33572,7 +33572,7 @@
 			"wis": 8,
 			"cha": 5,
 			"vulnerable": [
-				"darbe"
+				"ezme"
 			],
 			"immune": [
 				"zehir"
@@ -33588,7 +33588,7 @@
 				{
 					"name": "Hooves",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 11 ({@dice 2d6+4}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 11 ({@dice 2d6+4}) ezme hasarı."
 					]
 				}
 			],
@@ -33621,9 +33621,9 @@
 				"asit",
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -33669,14 +33669,14 @@
 				{
 					"name": "Slam",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 13 ({@dice 2d8+4}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 5 ft., tek hedef. Vurunca: 13 ({@dice 2d8+4}) ezme hasarı."
 					]
 				},
 				{
 					"name": "Whelm (Recharge 4\u20146)",
 					"entries": [
-						"Each creature in the elemental's space must make a DC 15 Strength saving throw. On a failure, a target takes 13 ({@dice 2d8+4}) darbe hasarı. If it is Large yada smaller, it is also grappled (escape DC 14). Until this grapple ends, the target is restrained and unable to breathe unless it can breathe water. If the saving throw is successful, the target is pushed out of the elemental's space.",
-						"The elemental can grapple one Large creature yada up to two Medium yada smaller creatures at one time. At the start of each of the elemental's turns, each target grappled by it takes 13 ({@dice 2d8+4}) darbe hasarı. A creature within 5 feet of the elemental can pull a creature yada object out of it by taking an action to make a DC 14 Strength and succeeding."
+						"Each creature in the elemental's space must make a DC 15 Strength saving throw. On a failure, a target takes 13 ({@dice 2d8+4}) ezme hasarı. If it is Large yada smaller, it is also grappled (escape DC 14). Until this grapple ends, the target is restrained and unable to breathe unless it can breathe water. If the saving throw is successful, the target is pushed out of the elemental's space.",
+						"The elemental can grapple one Large creature yada up to two Medium yada smaller creatures at one time. At the start of each of the elemental's turns, each target grappled by it takes 13 ({@dice 2d8+4}) ezme hasarı. A creature within 5 feet of the elemental can pull a creature yada object out of it by taking an action to make a DC 14 Strength and succeeding."
 					]
 				}
 			],
@@ -33709,9 +33709,9 @@
 				"ateş",
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -33750,7 +33750,7 @@
 				{
 					"name": "Constrict",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 10 ft., tek varlık. Vurunca: 13 ({@dice 3d6+3}) darbe hasarı. If the target is Medium yada smaller, it is grappled (escape DC 13) and pulled 5 ft. toward the water weird. Until this grapple ends, the target is restrained, the water weird tries to drown it, and the water weird can't constrict another target."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 10 ft., tek varlık. Vurunca: 13 ({@dice 3d6+3}) ezme hasarı. If the target is Medium yada smaller, it is grappled (escape DC 13) and pulled 5 ft. toward the water weird. Until this grapple ends, the target is restrained, the water weird tries to drown it, and the water weird can't constrict another target."
 					]
 				}
 			],
@@ -33842,9 +33842,9 @@
 			"immune": [
 				{
 					"immune": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks that aren't silvered"
 				}
@@ -33933,9 +33933,9 @@
 			"immune": [
 				{
 					"immune": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks that aren't silvered"
 				}
@@ -33973,7 +33973,7 @@
 				{
 					"name": "Maul (insansı yada Hybrid Form Only)",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 10 ({@dice 2d6+3}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 10 ({@dice 2d6+3}) ezme hasarı."
 					]
 				},
 				{
@@ -34022,9 +34022,9 @@
 			"immune": [
 				{
 					"immune": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks that aren't silvered"
 				}
@@ -34114,9 +34114,9 @@
 			"immune": [
 				{
 					"immune": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks that aren't silvered"
 				}
@@ -34218,9 +34218,9 @@
 			"immune": [
 				{
 					"immune": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks that aren't silvered"
 				}
@@ -34360,9 +34360,9 @@
 				"nekrotik",
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks that aren't silvered"
 				}
@@ -34450,9 +34450,9 @@
 				"ses",
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -34573,7 +34573,7 @@
 				{
 					"name": "Dropped Rock",
 					"entries": [
-						"Menzilli Silah Saldırısı: {@hit +5} vurmak için, tek hedef directly below the kobold. Vurunca: 6 ({@dice 1d6+3}) darbe hasarı."
+						"Menzilli Silah Saldırısı: {@hit +5} vurmak için, tek hedef directly below the kobold. Vurunca: 6 ({@dice 1d6+3}) ezme hasarı."
 					]
 				}
 			],
@@ -34783,9 +34783,9 @@
 				"ses",
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks that aren't silvered"
 				}
@@ -34927,7 +34927,7 @@
 					"resist": [
 						"delme"
 					],
-					"note": "and slashing from nonmagical attacks that aren't adamantine"
+					"note": "and kesme from nonmagical attacks that aren't adamantine"
 				}
 			],
 			"senses": "gece görüşü 60 ft., tremorsense 60 ft.",
@@ -35098,9 +35098,9 @@
 				"yıldırım",
 				{
 					"resist": [
-						"darbe",
+						"ezme",
 						"delme",
-						"slashing"
+						"kesme"
 					],
 					"note": "from nonmagical attacks"
 				}
@@ -35151,7 +35151,7 @@
 				{
 					"name": "Slam (Isırma in Örümcek Form)",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft. (10 ft. in demon form), tek hedef. Vurunca: 5 ({@dice 1d6+2}) darbe (delme in Örümcek form) damage artı 21 ({@dice 6d6}) zehir damage."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft. (10 ft. in demon form), tek hedef. Vurunca: 5 ({@dice 1d6+2}) ezme (delme in Örümcek form) damage artı 21 ({@dice 6d6}) zehir damage."
 					]
 				},
 				{
@@ -36235,7 +36235,7 @@
 				{
 					"name": "Constrict",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 10 ft., tek hedef. Vurunca: 11 ({@dice 2d6+4}) darbe hasarı, and the target is grappled (escape DC 14). Until this grapple ends, the target is restrained, and the yuan-ti can't constrict another target."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +7} vurmak için, erişim 10 ft., tek hedef. Vurunca: 11 ({@dice 2d6+4}) ezme hasarı, and the target is grappled (escape DC 14). Until this grapple ends, the target is restrained, and the yuan-ti can't constrict another target."
 					]
 				},
 				{
@@ -36562,7 +36562,7 @@
 				{
 					"name": "Constrict",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 10 ({@dice 2d6+3}) darbe hasarı, and the target is grappled (escape DC 13). Until this grapple ends, the target is restrained, and the yuan-ti can't constrict another target."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 10 ({@dice 2d6+3}) ezme hasarı, and the target is grappled (escape DC 13). Until this grapple ends, the target is restrained, and the yuan-ti can't constrict another target."
 					]
 				},
 				{
@@ -36734,7 +36734,7 @@
 				{
 					"name": "Slam",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 4 ({@dice 1d6+1}) darbe hasarı."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 4 ({@dice 1d6+1}) ezme hasarı."
 					]
 				}
 			],
