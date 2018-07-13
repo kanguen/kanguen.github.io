@@ -30348,22 +30348,22 @@
 					"subclassFeatures": [
 						[
 							{
-								"name": "School of Divination",
+								"name": "Divination Okulu",
 								"entries": [
-									"The counsel of a diviner is sought by royalty and commoners alike, for all seek a clearer understanding of the past, present, and future. As a diviner, you strive to part the veils of space, time, and consciousness so that you can see clearly. You work to master spells of discernment, remote viewing, supernatural knowledge, and foresight.",
+									"Bir diviner'ın tavsiyesi hem kraliyet hemde avamlar tarafından beklenir çünkü herkes geçmişi, geleceği ve günümüzü daha iyi anlamak ister. Bir diviner olarak uzay, zaman ve bilincin perdelerini aralayıp daha net görmeye çalışırsın. Ayırt etme, uzaktan görüş, olağanüstü bilgi ve kehanet büyüleri üzerinde uzmanlaşmaya çalışırsın.",
 									{
 										"type": "entries",
-										"name": "Divination Savant",
+										"name": "Divination Bilgini",
 										"entries": [
-											"Beginning when you select this school at 2nd level, the gold and time you must spend to copy a divination spell into your spellbook is halved."
+											"2. seviyede bu okulu seçtiğinde bir divination büyüsünü kitabına kopyalama zamanı ve masrafı yarılanır."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Portent",
+										"name": "Kehanet",
 										"entries": [
-											"Starting at 2nd level when you choose this school, glimpses of the future begin to press in on your awareness. When you finish a long rest, roll two d20s and record the numbers rolled. You can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with one of these foretelling rolls. You must choose to do so before the roll, and you can replace a roll in this way only once per turn.",
-											"Each foretelling roll can be used only once. When you finish a long rest, you lose any unused foretelling rolls."
+											"2. seviyeden itibaren gelecekten görüşler farkındalığını etkilemeye başlar. Bir uzun dinlenme bitirdiğinde iki tane d20 at ve sonuçları not et. Sen yada görebildiğin bir varlığın attığı herhangi bir saldırı, beceri yada kurtulma zarını bunlardan biri ile değiştirebilirsin. Bunu zar atılmadan önce belirtmen gerekir ve sıranda sadece bir kez bu özelliği kullanabilirsin.",
+											"Her kehanet zarı sadece bir kere kullanılabilir. Uzun dinlenme bitirdiğinde kullanılmamış kehanet zarlarını kaybedersin."
 										]
 									}
 								]
@@ -30374,9 +30374,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Expert Divination",
+										"name": "Divination Uzmanı",
 										"entries": [
-											"Beginning at 6th level, casting divination spells comes so easily to you that it expends only a fraction of your spellcasting efforts. When you cast a divination spell of 2nd level or higher using a spell slot, you regain one expended spell slot. The slot you regain must be of a level lower than the spell you cast and can't be higher than 5th level."
+											"6. seviyeden itibaren bir divination büyüsü kullanmak o kadar kolay gelir ki büyü yapma enerjinin sadece bir kısmını harcar. 2. seviye ve üzeri bir divination büyüsü kullandığında 1 harcanmış büyü yuvası yenilersin. Yenilediğin büyü yuvası kullandığın büyünün seviyesinden düşük olmalıdır ve 5. seviyenin üzerinde olamaz."
 										]
 									}
 								]
@@ -30387,17 +30387,17 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "The Third Eye",
+										"name": "Üçüncü Göz",
 										"entries": [
-											"Starting at 10th level, you can use your action to increase your powers of perception. When you do so, choose one of the following benefits, which lasts until you are {@condition incapacitated} or you take a short or long rest. You can't use the feature again until you finish a rest.",
+											"10. seviyeden itibaren eylemini kullanarak algılama gücünü artırabilirsin. Bunu yaptığında şu özelliklerden birini seç, bu özellik sen etkisiz hale gelene kadar yada, kısa veya uzun dinlenme bitirene kadar sürer. Bu özelliği kısa yada uzun dinlenme bitirene kadar bir daha kullanamazsın.",
 											{
 												"type": "entries",
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Darkvision",
+														"name": "Gece Görüşü",
 														"entries": [
-															"You gain darkvision out to a range of 60 feet."
+															"60 feet'e kadar gece görüşün olur."
 														]
 													}
 												]
@@ -30407,9 +30407,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Ethereal Sight",
+														"name": "Ethereal Görüş",
 														"entries": [
-															"You can see into the Ethereal Plane within 60 feet of you."
+															"60 feet yakınındaki Ethereal Boyutun içini görebilirsin."
 														]
 													}
 												]
@@ -30419,9 +30419,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Greater Comprehension",
+														"name": "Üstün Anlama",
 														"entries": [
-															"You can read any language."
+															"Tüm dilleri okuyabilirsin."
 														]
 													}
 												]
@@ -30431,9 +30431,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "See Invisibility",
+														"name": "Görünmezliği Gör",
 														"entries": [
-															"You can see {@condition invisible} creatures and objects within 10 feet of you that are within line of sight."
+															"Görüşünde ve 10 feet yakınında olan görünmez varlık ve nesneleri görebilirsin."
 														]
 													}
 												]
@@ -30448,9 +30448,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Greater Portent",
+										"name": "Üstün Kehanet",
 										"entries": [
-											"Starting at 14th level, the visions in your dreams intensify and paint a more accurate picture in your mind of what is to come. You roll three d20s for your Portent feature, rather than two."
+											"14. seviyeden itibaren düşlerindeki görüşler daha belirgin olur ve gelecek hakkında daha isabetli bilgiler alırsın. Kehanet özelliğin için iki yerine üç d20 atarsın."
 										]
 									}
 								]
@@ -30461,27 +30461,27 @@
 					"shortName": "Divination"
 				},
 				{
-					"name": "School of Enchantment",
+					"name": "Enchantment Okulu",
 					"subclassFeatures": [
 						[
 							{
-								"name": "School of Enchantment",
+								"name": "Enchantment Okulu",
 								"entries": [
-									"As a member of the School of Enchantment, you have honed your ability to magically entrance and beguile other people and monsters. Some enchanters are peacemakers who bewitch the violent to lay down their arms and charm the cruel into showing mercy. Others are tyrants who magically bind the unwilling into their service. Most enchanters fall somewhere in between.",
+									"Enchantment Okulunun bir üyesi olarak diğer insanları ve canavarları büyülü bir şekilde hayran bırakma ve cezbetme yeteneklerini geliştirdin. Bazı enchanterlar şiddet uygulayanlara silahını bıraktıran ve zalime merhamet gösterten arabuluculardır. Diğerleri ise varlıkları büyülü bir şekilde istekleri dışında kendilerine hizmet etmeye zorlayan tiranlardır. Çoğu enchanter bu ikisinin arasındadır.",
 									{
 										"type": "entries",
-										"name": "Enchantment Savant",
+										"name": "Enchantment Bilgini",
 										"entries": [
-											"Beginning when you select this school at 2nd level, the gold and time you must spend to copy an enchantment spell into your spellbook is halved."
+											"2. seviyede bu okulu seçtiğinde enchantment büyülerini kitabına kopyalama süren ve masrafın yarılanır."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Hypnotic Gaze",
+										"name": "Hipnotik Bakış",
 										"entries": [
-											"Starting at 2nd level when you choose this school, your soft words and enchanting gaze can magically enthrall another creature. As an action, choose one creature that you can see within 5 feet of you. If the target can see or hear you, it must succeed on a Wisdom saving throw against your wizard spell save DC or be {@condition charmed} by you until the end of your next turn. The {@condition charmed} creature's speed drops to 0, and the creature is {@condition incapacitated} and visibly dazed.",
-											"On subsequent turns, you can use your action to maintain this effect, extending its duration until the end of your next turn. However, the effect ends if you move more than 5 feet away from the creature, if the creature can neither see nor hear you, or if the creature takes damage.",
-											"Once the effect ends, or if the creature succeeds on its initial saving throw against this effect, you can't use this feature on that creature again until you finish a long rest."
+											"2. seviyeden itibaren senin yumuşak sözlerin ve büyülü bakışların diğer varlıkları cezbedebilir. Eylem olarak 5 feet yakınında görebildiğin bir varlık seç. Eğer hedef seni görebiliyor yada duyabiliyorsa senin büyücü kurtulma zarı DC'ne karşı bir Akıl kurtulma zarı atar. Eğer başarısız olursa bir sonraki sıranın sonuna kadar senin tarafından cezbedebilir. Cezbedilen varlığın hızı 0'a düşer ve varlık görünür bir şekilde sersemler ve etkisiz hale gelir.",
+											"Sonraki sıralarında eylemini kullanarak bu etkiyi devam ettirebilir ve süresini bir sonraki sıranın sonuna kadar uzatabilirsin. Ama bu etki eğer sen varlıktan 5 feetten fazla uzaklaşırsan, varlık seni hem duyamaz hemde göremezse yada varlık hasar alırsa sona erer.",
+											"Bu etki bittiğinde yada varlık ilk kurtulma zarında başarılı olursa, bu özelliği aynı varlık üzerinde bir uzun dinlenme bitirene kadar bir daha kullanamazsın."
 										]
 									}
 								]
@@ -30492,10 +30492,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Instinctive Charm",
+										"name": "İçgüdüsel Cazibe",
 										"entries": [
-											"Beginning at 6th level, when a creature you can see within 30 feet of you makes an attack roll against you, you can use your reaction to divert the attack, provided that another creature is within the attack's range. The attacker must make a Wisdom saving throw against your wizard spell save DC. On a failed save, the attacker must target the creature that is closest to it, not including you or itself. If multiple creatures are closest, the attacker chooses which one to target. On a successful save, you can't use this feature on the attacker again until you finish a long rest.",
-											"You must choose to use this feature before knowing whether the attack hits or misses. Creatures that can't be {@condition charmed} are immune to this effect."
+											"6. seviyeden itibaren 30 feet yakınında görebildiğin bir varlık sana karşı saldırı yaparsa reaksiyonunu kullanıp bu saldırıyı yönlendirebilirsin. Bu özellik saldırının menzilinde başka bir varlık varsa kullanılabilir. Saldırgan büyücü kurtulma zarı DC'ne karşı Akıl kurtulma zarı atar. Başarısız olursa saldırgan sen yada kendisi dışında ona en yakın olan varlığı hedef almalıdır. Eğer birden çok varlık aynı yakınlıktaysa saldırgan hedefini seçer. Başarılı olursa bu özelliği aynı saldırgan üzerinde bir uzun dinlenme bitirene kadar bir daha kullanamazsın.",
+											"Bu özelliği saldırının vurup vurmadığını öğrenmeden önce kullanmalısın. Cezbedilemeyen varlıklar bu etkiye karşı bağışıklığa sahiptir."
 										]
 									}
 								]
@@ -30506,9 +30506,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Split Enchantment",
+										"name": "Ayrık Enchantment",
 										"entries": [
-											"Starting at 10th level, when you cast an enchantment spell of 1st level or higher that targets only one creature, you can have it target a second creature."
+											"10. seviyeden itibaren sadece bir varlığı hedef alan 1. seviye ve üzeri bir enchantment büyüsü kullandığında ikinci bir varlığı da hedef alabilirsin."
 										]
 									}
 								]
@@ -30519,10 +30519,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Alter Memories",
+										"name": "Anıları Değiştir",
 										"entries": [
-											"At 14th level, you gain the ability to make a creature unaware of your magical influence on it. When you cast an enchantment spell to charm one or more creatures, you can alter one creature's understanding so that it remains unaware of being {@condition charmed}.",
-											"Additionally, once before the spell expires, you can use your action to try to make the chosen creature forget some of the time it spent {@condition charmed}. The creature must succeed on an Intelligence saving throw against your wizard spell save DC or lose a number of hours of its memories equal to 1 + your Charisma modifier (minimum of 1). You can make the creature forget less time, and the amount of time can't exceed the duration of your enchantment spell."
+											"14. seviyede bir varlığın üzerindeki büyülü etkinden haberdar olmamasını sağlamayı öğrenirsin. Bir yada daha çok varlığı hedef alan bir enchantment büyüsü kullandığında varlığın algısını değiştirerek cezbedildiğinden haberdar olmamasını sağlarsın.",
+											"Ek olarak büyü bitmeden bir kereliğine eylemini kullanıp seçilen varlığın cezbedildiği süreçteki bir bölümü hatırlamamasını sağlamaya çalışabilirsin. Varlık senin büyücü kurtulma zarı DC'ne karşı Zeka kurtulma zarında başarılı olur yada 1 + Karizma bonusun (en az 1 saat) kadar saatlik anılarını kaybeder. Varlığın daha az bir süreyi unutmasını sağlayabilirsin ve unuttuğu süre enchantment büyüsünün süresini geçemez."
 										]
 									}
 								]
@@ -30533,25 +30533,25 @@
 					"shortName": "Enchantment"
 				},
 				{
-					"name": "School of Evocation",
+					"name": "Evocation Okulu",
 					"subclassFeatures": [
 						[
 							{
-								"name": "School of Evocation",
+								"name": "Evocation Okulu",
 								"entries": [
-									"You focus your study on magic that creates powerful elemental effects such as bitter cold, searing flame, rolling thunder, crackling lightning, and burning acid. Some evokers find employment in military forces, serving as artillery to blast enemy armies from afar. Others use their spectacular power to protect the weak, while some seek their own gain as bandits, adventurers, or aspiring tyrants.",
+									"Büyü araştırmanı acı bir soğuk, yakan alevler, eriten asit yada düşen yıldırımlar gibi elemental güçleri yaratma üzerinde yoğunlaştırırsın. Bazı evokerlar askeri güçlerde iş bulur, düşman ordularını uzaktan bombardımana tutarlar. Diğerleri bu güçlerini zayıfları korumakta kullanır yada kendi çıkarlarını düşünüp haydut olurlar, bazıları ise macera peşinde koşar.",
 									{
 										"type": "entries",
-										"name": "Evocation Savant",
+										"name": "Evocation Bilgini",
 										"entries": [
-											"Beginning when you select this school at 2nd level, the gold and time you must spend to copy an evocation spell into your spellbook is halved."
+											"2. seviyede bu okulu seçtiğinde evocation büyülerini kitabına kopyalama süren ve masrafın yarılanır."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Sculpt Spells",
+										"name": "Büyüleri Şekillendir",
 										"entries": [
-											"Beginning at 2nd level, you can create pockets of relative safety within the effects of your evocation spells. When you cast an evocation spell that affects other creatures that you can see, you can choose a number of them equal to 1 + the spell's level. The chosen creatures automatically succeed on their saving throws against the spell, and they take no damage if they would normally take half damage on a successful save."
+											"2. seviyeden itibaren evocation büyülerinin alanı içerisinde güvenli alanlar yaratabilirsin. Görebildiğin diğer varlıkları etkileyen bir evocation büyüsü kullandığında 1 + büyünün seviyesi kadar varlığı seçersin. Seçilen varlıklar otomatik olarak büyüye karşı kurtulma zarında başarılı olur ve normalde eğer başarılı bir zarda yarı hasar alıyorlarsa hiç hasar almazlar."
 										]
 									}
 								]
@@ -30562,9 +30562,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Potent Cantrip",
+										"name": "Güçlü Cantrip",
 										"entries": [
-											"Starting at 6th level, your damaging cantrips affect even creatures that avoid the brunt of the effect. When a creature succeeds on a saving throw against your cantrip, the creature takes half the cantrip's damage (if any) but suffers no additional effect from the cantrip."
+											"6. seviyeden itibaren hasar veren cantriplerin etkinin çoğunluğundan kurtulan varlıklara bile hasar verir. Bir varlık cantripine karşı kurtulma zarında başarılı olursa cantripin hasarının yarısını alır ama cantripten gelen ek bir etki olmaz."
 										]
 									}
 								]
@@ -30575,9 +30575,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Empowered Evocation",
+										"name": "Güçlenmiş Evocation",
 										"entries": [
-											"Beginning at 10th level, you can add your Intelligence modifier to one damage roll of any wizard evocation spell you cast."
+											"10. seviyeden itibaren kullandığın bir büyücü evocation büyüsünün hasarına Zeka bonusunu ekleyebilirsin."
 										]
 									}
 								]
@@ -30588,10 +30588,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Overchannel",
+										"name": "Aşırı Yönlendir",
 										"entries": [
-											"Starting at 14th level, you can increase the power of your simpler spells. When you cast a wizard spell of 1st through 5th-level that deals damage, you can deal maximum damage with that spell.",
-											"The first time you do so, you suffer no adverse effect. If you use this feature again before you finish a long rest, you take 2d12 necrotic damage for each level of the spell, immediately after you cast it. Each time you use this feature again before finishing a long rest, the necrotic damage per spell level increases by 1d12. This damage ignores resistance and immunity."
+											"14. seviyeden itibaren basit büyülerinin güçlerini artırabilirsin. 1 ile 5. seviye arası hasar veren bir büyücü büyüsü kullandığında o büyü ile maksimum hasar verebilirsin.",
+											"Bunu ilk kullanışında herhangi bir yan etki görülmez. Eğer bu özelliği uzun dinlenme bitirmeden bir daha kullanırsan, kullanımın hemen ardında büyünün her seviyesi için 2d12 nekrotik hasar alırsın. Uzun dinlenme bitirmeden bu özelliği her kullanışında bu büyü seviyesi başı nekrotik hasar 1d12 artar. Bu hasar direnci ve bağışıklığını yoksayar."
 										]
 									}
 								]
@@ -30602,26 +30602,26 @@
 					"shortName": "Evocation"
 				},
 				{
-					"name": "School of Illusion",
+					"name": "Illusion Okulu",
 					"subclassFeatures": [
 						[
 							{
-								"name": "School of Illusion",
+								"name": "Illusion Okulu",
 								"entries": [
-									"You focus your studies on magic that dazzles the senses, befuddles the mind, and tricks even the wisest folk. Your magic is subtle, but the illusions crafted by your keen mind make the impossible seem real. Some illusionists\u2014including many gnome wizards\u2014are benign tricksters who use their spells to entertain. Others are more sinister masters of deception, using their illusions to frighten and fool others for their personal gain.",
+									"Büyü araştırmanı duyuları sarsan, aklı karıştıran ve en bilge halkı bile şaşırtan büyüler üzerinde yoğunlaştırırsın. Büyülerin incelik ister, ama keskin zihnin tarafından yaratılan illüzyonlar imkansızı gerçek gibi gösterir. Bazı illusionistler, gnome büyücüleri de dahil, büyülerini eğlence için kullanan iyi huylu şakacılardır. Diğerleri daha sinsi aldatma ustalarıdır, varlıkları kendi çıkarları için kandırıp korkuturlar.",
 									{
 										"type": "entries",
-										"name": "Illusion Savant",
+										"name": "Illusion Bilgini",
 										"entries": [
-											"Beginning when you select this school at 2nd level, the gold and time you must spend to copy an illusion spell into your spellbook is halved."
+											"2. seviyede bu okulu seçtiğinde bir illusion büyüsünü kitabına ekleme süren ve masrafın yarılanır."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Improved Minor Illusion",
+										"name": "Gelişmiş Ufak İllüzyon",
 										"entries": [
-											"When you choose this school at 2nd level, you learn the {@spell minor illusion} cantrip. If you already know this cantrip, you learn a different wizard cantrip of your choice. The cantrip doesn't count against your number of cantrips known.",
-											"When you cast {@spell minor illusion}, you can create both a sound and an image with a single casting of the spell."
+											"2. seviyeden itibaren {@spell minor illusion} cantripini öğrenirsin. Eğer bu cantripi zaten biliyorsan başka bir büyücü cantripi seçebilirsin. Bu cantrip bilinen cantripler sayısını etkilemez.",
+											"{@spell Minor illusion} cantripini kullandığında hem ses hemde görüntü yaratabilirsin."
 										]
 									}
 								]
@@ -30632,9 +30632,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Malleable Illusions",
+										"name": "Şekillenebilen İllüzyonlar",
 										"entries": [
-											"Starting at 6th level, when you cast an illusion spell that has a duration of 1 minute or longer, you can use your action to change the nature of that illusion (using the spell's normal parameters for the illusion), provided that you can see the illusion."
+											"6. seviyeden itibaren 1 dakika ve üzeri süren bir illusion büyüsü kullandığında, eğer illüzyonu görebiliyorsan eylemini kullanarak büyünün normal parametreleri içerisinde bu illüzyonun yapısını değiştirebilirsin."
 										]
 									}
 								]
@@ -30645,10 +30645,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Illusory Step",
+										"name": "Hayali Adım",
 										"entries": [
-											"Beginning at 10th level, you can create an illusory duplicate of yourself as an instant, almost instinctual reaction to danger. When a creature makes an attack roll against you, you can use your reaction to interpose the illusory duplicate between the attacker and yourself. The attack automatically misses you, then the illusion dissipates.",
-											"Once you use this feature, you can't use it again until you finish a short or long rest."
+											"10. seviyeden itibaren tehlikeye karşı içgüdüsel reaksiyon olarak bir illüzyon kopyanı oluşturabilirsin. Bir varlık sana saldırdığında reaksiyonunu kullanıp illüzyon kopyanı saldırgan ile arana koyabilirsin. Saldırı otomatik olarak seni ıskalar ve illüzyon kaybolur.",
+											"Bu özelliği kullandığında kısa yada uzun dinlenme bitirene kadar bir daha kullanamazsın."
 										]
 									}
 								]
@@ -30659,10 +30659,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Illusory Reality",
+										"name": "Hayali Gerçeklik",
 										"entries": [
-											"By 14th level, you have learned the secret of weaving shadow magic into your illusions to give them a semireality. When you cast an illusion spell of 1st level or higher, you can choose one inanimate, nonmagical object that is part of the illusion and make that object real. You can do this on your turn as a bonus action while the spell is ongoing. The object remains real for 1 minute. For example, you can create an illusion of a bridge over a chasm and then make it real long enough for your allies to cross.",
-											"The object can't deal damage or otherwise directly harm anyone."
+											"14. seviyeye kadar illüzyonlarına gölge büyüsünü dokuyarak onlara yarıgerçeklik vermeyi öğrendin. 1. seviye ve üzeri bir illusion büyüsü kullandığında, illüzyonun parçası olan bir cansız ve büyüsüz nesneyi gerçek yapabilirsin. Bunu büyü aktifken sıranda bonus eylem olarak yapabilirsin. Nesne bir dakika boyunca gerçek kalır. Örneğin bir yarık üzerinde köprü illüzyonu oluşturup onu dostların ile birlikte geçene kadar gerçek yapabilirsin.",
+											"Nesne hasar veremez yada başka şekillerde kimseye doğrudan zarar veremez."
 										]
 									}
 								]
@@ -30673,26 +30673,26 @@
 					"shortName": "Illusion"
 				},
 				{
-					"name": "School of Transmutation",
+					"name": "Transmutation Okulu",
 					"subclassFeatures": [
 						[
 							{
-								"name": "School of Transmutation",
+								"name": "Transmutation Okulu",
 								"entries": [
-									"You are a student of spells that modify energy and matter. To you, the world is not a fixed thing, but eminently mutable, and you delight in being an agent of change. You wield the raw stuff of creation and learn to alter both physical forms and mental qualities. Your magic gives you the tools to become a smith on reality's forge.",
-									"Some transmuters are tinkerers and pranksters, turning people into toads and transforming copper into silver for fun and occasional profit. Others pursue their magical studies with deadly seriousness, seeking the power of the gods to make and destroy worlds.",
+									"Madde ve enerjiyi değiştiren büyülerin araştırmacısısın. Senin için dünya sabit bir şey değil, son derece değişken, ve sen bu değişime aracı olmaktan zevk alıyorsun. Yaratılışın güçlerine hükmediyor, hem fiziksel hemde zihinsel nitelikleri değiştirmeyi öğreniyorsun. Senin büyün gerçekliğin ocağında bir demirci olabilmen için gerekli aletleri sunuyor.",
+									"Bazı transmuterlar mucitler yada şakacılardır, zevk için insanları kurbağaya çevirir yada biraz kar için bakırı gümüşe çevirirler. Diğerleri büyü araştırmalarını büyük ciddiyetle sürdürürler, dünyalar yaratıp yoketmek için tanrıların gücünü ararlar.",
 									{
 										"type": "entries",
-										"name": "Transmutation Savant",
+										"name": "Transmutation Bilgini",
 										"entries": [
-											"Beginning when you select this school at 2nd level, the gold and time you must spend to copy a transmutation spell into your spellbook is halved."
+											"2. seviyede bu okulu seçtiğinde bir transmutation büyüsünü kitabına kopyalama süren ve masrafın yarılanır."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Minor Alchemy",
+										"name": "Ufak Simya",
 										"entries": [
-											"Starting at 2nd level when you select this school, you can temporarily alter the physical properties of one nonmagical object, changing it from one substance into another. You perform a special alchemical procedure on one object composed entirely of wood, stone (but not a gemstone), iron, copper, or silver, transforming it into a different one of those materials. For each 10 minutes you spend performing the procedure, you can transform up to 1 cubic foot of material. After 1 hour, or until you lose your concentration (as if you were concentrating on a spell), the material reverts to its original substance."
+											"2. seviyeden itibaren geçici bir şekilde büyüsüz bir nesnenin fiziksel özelliğini bir maddeden diğerine değiştirebilirsin. Tamamen odun, taş (değerli taş olamaz), demir, bakır yada gümüşten oluşan bir maddeyi, bir diğerine çeviren özel bir simya prosedürü uygularsın. Prosedürü uyguladığın her 10 dakika için 1 kübik foot materyali dönüştürebilirsin. 1 saat sonunda yada konsantrasyonunu kaybettiğinde (bir büyüye konsantre olur gibi) materyal asıl maddesine döner."
 										]
 									}
 								]
@@ -30703,20 +30703,20 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Transmuter's Stone",
+										"name": "Simyacının Taşı",
 										"entries": [
-											"Starting at 6th level, you can spend 8 hours creating a transmuter's stone that stores transmutation magic. You can benefit from the stone yourself or give it to another creature. A creature gains a benefit of your choice as long as the stone is in the creature's possession. When you create the stone, choose the benefit from the following options:",
+											"6. seviyeden itibaren 8 saat harcayıp senin transmutation büyünü depolayan bir simyacı taşı yaratabilirsin. taştan kendin faydalanabilirsin yada başka bir varlığa verebilirsin. Bir varlık seçeceğin özellikten taş üzerinde olduğu sürece faydalanabilir. Taşı yarattığında özelliğini şu seçenekler arasından seçersin:",
 											{
 												"type": "list",
 												"items": [
-													"Darkvision out to a range of 60 feet, as described in chapter 8.",
-													"An increase to speed of 10 feet while the creature is unencumbered.",
-													"Proficiency in Constitution saving throws.",
-													"Resistance to acid, cold, fire, lightning, or thunder damage (your choice whenever you choose this benefit)."
+													"60 feete kadar gece görüşü.",
+													"Ağır yük taşımıyorken 10 feet hız artışı.",
+													"Dayanıklılık kurtulma zarlarında uzmanlık.",
+													"Asit, soğuk, ateş, yıldırım yada ses hasarına direnç (bu özelliği her kullanışında seçersin)."
 												]
 											},
-											"Each time you cast a transmutation spell of 1st level or higher, you can change the effect of your stone if the stone is on your person.",
-											"If you create a new transmuter's stone, the previous one ceases to function."
+											"Her 1. seviye yada üzeri transmutation büyüsü kullandığında eğer taş üzerindeyse taşının etkisini değiştirebilirsin.",
+											"Eğer yeni bir simyacı taşı yaratırsan öncekinin etkisi kaybolur."
 										]
 									}
 								]
@@ -30727,10 +30727,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Shapechanger",
+										"name": "Şekil Değiştiren",
 										"entries": [
-											"At 10th level, you add the {@spell polymorph} spell to your spellbook, if it is not there already. You can cast {@spell polymorph} without expending a spell slot. When you do so, you can target only yourself and transform into a {@filter beast whose challenge rating is 1 or lower|bestiary|cr=0;1/8;1/4;1/2;1|type=beast|miscellaneous=!swarm}.",
-											"Once you cast {@spell polymorph} in this way, you can't do so again until you finish a short or long rest, though you can still cast it normally using an available spell slot."
+											"10. seviyede eğer büyü kitabında yoksa {@spell polymorph} büyüsünü eklersin. {@spell Polymorph} büyüsünü yuva harcamadan kullanabilirsin. Bunu yaptığında sadece kendini hedef alabilirsin ve {@filter zorluk seviyesi (CR) 1 yada altı|bestiary|cr=0;1/8;1/4;1/2;1|type=beast|miscellaneous=!swarm} olan bir hayvana dönüşebilirsin.",
+											"{@spell Polymorph} büyüsünü bu şekilde kullandığında kısa yada uzun dinlenme bitirene kadar bir daha bu şekilde kullanamazsın. Hala gerekli büyü yuvasını harcayarak kullanılabilir."
 										]
 									}
 								]
@@ -30741,17 +30741,17 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Master Transmuter",
+										"name": "Usta Transmuter",
 										"entries": [
-											"Starting at 14th level, you can use your action to consume the reserve of transmutation magic stored within your transmuter's stone in a single burst. When you do so, choose one of the following effects. Your transmuter's stone is destroyed and can't be remade until you finish a long rest.",
+											"14. seviyeden itibaren eylemini kullanarak simyacı taşında sakladığın transmutation büyü enerjisini bir anda tüketebilirsin. Bunu yaptığında şu etkilerden birini seçersin. Simyacı taşın yok olur ve sen uzun dinlenme bitirene kadar bir daha yapılamaz.",
 											{
 												"type": "entries",
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Major Transformation",
+														"name": "Büyük Dönüşüm",
 														"entries": [
-															"You can transmute one nonmagical object\u2014no larger than a 5-foot cube\u2014into another nonmagical object of similar size and mass and of equal or lesser value. You must spend 10 minutes handling the object to transform it."
+															"5 feetlik bir küpten daha büyük olmayan bir büyüsüz nesneyi, aynı boyutlarda ve eşit yada daha düşük değerde bir büyüsüz nesneye dönüştürebilirsin. Dönüştürmek için nesne ile en az 10 dakika zaman geçirmen gerekir."
 														]
 													}
 												]
@@ -30761,9 +30761,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Panacea",
+														"name": "Kusursuz İlaç",
 														"entries": [
-															"You remove all curses, diseases, and poisons affecting a creature that you touch with the transmuter's stone. The creature also regains all its hit points."
+															"Simyacı taşı ile dokunduğun varlığın üzerindeki tüm lanet, hastalık ve zehir etkilerini sonlandırırsın. Varlık aynı zamanda tüm HP'sini yeniler."
 														]
 													}
 												]
@@ -30773,9 +30773,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Restore Life",
+														"name": "Hayat Ver",
 														"entries": [
-															"You cast the {@spell raise dead} spell on a creature you touch with the transmuter's stone, without expending a spell slot or needing to have the spell in your spellbook."
+															"Simyacı taşı ile dokunduğun bir varlığa büyü yuvası harcamadan ve büyüyü kitabında bulundurma gereği olmadan {@spell raise dead} büyüsünü kullanırsın."
 														]
 													}
 												]
@@ -30785,9 +30785,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "Restore Youth",
+														"name": "Gençlik Ver",
 														"entries": [
-															"You touch the transmuter's stone to a willing creature, and that creature's apparent age is reduced by 3d10 years, to a minimum of 13 years. This effect doesn't extend the creature's lifespan."
+															"İstekli olan bir varlığa simyacı taşın ile dokunursun ve en az 13 yaşına dönebilecek şekilde varlık 3d10 yıl gençleşir. Bu etki varlığın ömrünü uzatmaz."
 														]
 													}
 												]
@@ -30802,26 +30802,26 @@
 					"shortName": "Transmutation"
 				},
 				{
-					"name": "School of Necromancy",
+					"name": "Necromancy Okulu",
 					"subclassFeatures": [
 						[
 							{
-								"name": "School of Necromancy",
+								"name": "Necromancy Okulu",
 								"entries": [
-									"The School of Necromancy explores the cosmic forces of life, death, and undeath. As you focus your studies in this tradition, you learn to manipulate the energy that animates all living things. As you progress, you learn to sap the life force from a creature as your magic destroys its body, transforming that vital energy into magical power you can manipulate.",
-									"Most people see necromancers as menacing, or even villainous, due to the close association with death. Not all necromancers are evil, but the forces they manipulate are considered taboo by many societies.",
+									"Necromancy Okulu kozmik güçler olan hayat, ölüm ve ölüm sonrasını keşfeder. Bu gelenek ile araştırmalarını yoğunlaştırırken tüm yaşayan şeyleri hayatta tutan enerjiyi kontrol etmeyi öğrenirsin. İlerledikçe büyün ile bir varlığın bedenini yokederken yaşam gücünü çekip onu kontrol edebileceğin bir büyülü güce çevirebilirsin.",
+									"Ölümle yakın ilişkisinden dolayı çoğu insan necromancerları korkunç hatta kötü olarak görür. Tüm necromancerlar kötü değildir, ama kulladıkları güçler bir çok toplumda tabu olarak görülür.",
 									{
 										"type": "entries",
-										"name": "Necromancy Savant",
+										"name": "Necromancy Bilgini",
 										"entries": [
-											"Beginning when you select this school at 2nd level, the gold and time you must spend to copy a necromancy spell into your spellbook is halved."
+											"2. seviyede bu okulu seçtiğinde bir necromancy büyüsünü kitabına kopyalama süren ve masrafın yarılanır."
 										]
 									},
 									{
 										"type": "entries",
-										"name": "Grim Harvest",
+										"name": "Zalim Hasat",
 										"entries": [
-											"At 2nd level, you gain the ability to reap life energy from creatures you kill with your spells. Once per turn when you kill one or more creatures with a spell of 1st level or higher, you regain hit points equal to twice the spell's level, or three times its level if the spell belongs to the School of Necromancy. You don't gain this benefit for killing constructs or undead."
+											"2. seviyede büyülerinle öldürdüğün varlıklardan yaşam enerjisi çalmayı öğrenirsin. Her sıranda bir kereliğine, 1. seviye ve üzeri bir büyünle bir yada daha fazla varlık öldürdüğünde, büyünün seviyesinin iki katı kadar HP yenilersin. Eğer büyü necromancy okuluna aitse üç katı HP yenilenir. Bu özellikten yapı yada yaşayan ölü öldürürsen faydalanamazsın."
 										]
 									}
 								]
@@ -30832,15 +30832,15 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Undead Thralls",
+										"name": "Yaşayan Ölü Hizmetkarlar",
 										"entries": [
-											"At 6th level, you add the {@spell animate dead} spell to your spellbook if it is not there already. When you cast {@spell animate dead}, you can target one additional corpse or pile of bones, creating another zombie or skeleton, as appropriate.",
-											"Whenever you create an undead using a necromancy spell, it has additional benefits:",
+											"6. seviyede eğer büyü kitabında yoksa {@spell animate dead} büyüsünü eklersin. {@spell Animate dead} büyüsünü kullandığında fazladan bir ceset yada kemik yığını hedef alıp ek bir zombi yada iskelet yaratabilirsin.",
+											"Ne zaman necromancy büyüsü kullanıp yaşayan ölü yaratırsan fazladan özellikleri olur:",
 											{
 												"type": "list",
 												"items": [
-													"The creature's hit point maximum is increased by an amount equal to your wizard level.",
-													"The creature adds your proficiency bonus to its weapon damage rolls."
+													"Varlığın HP maksimumu senin büyücü seviyen kadar artar.",
+													"Varlık silah hasar zarlarına senin uzmanlık bonusunu ekler."
 												]
 											}
 										]
@@ -30853,9 +30853,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Inured to Undeath",
+										"name": "Ölüm Sonrasına Alışkın",
 										"entries": [
-											"Beginning at 10th level, you have resistance to necrotic damage, and your hit point maximum can't be reduced. You have spent so much time dealing with undead and the forces that animate them that you have become inured to some of their worst effects."
+											"10. seviyeden itibaren nekrotik hasara direncin olur ve HP maksimumun düşürülemez. Yaşayan ölülerle ve onlara can veren güçlerle o kadar zaman geçirdin ki bunun en kötü etkilerine alıştın."
 										]
 									}
 								]
@@ -30866,10 +30866,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "Command Undead",
+										"name": "Yaşayan Ölüleri Yönet",
 										"entries": [
-											"Starting at 14th level, you can use magic to bring undead under your control, even those created by other wizards. As an action, you can choose one undead that you can see within 60 feet of you. That creature must make a Charisma saving throw against your wizard spell save DC. If it succeeds, you can't use this feature on it again. If it fails, it becomes friendly to you and obeys your commands until you use this feature again.",
-											"Intelligent undead are harder to control in this way. If the target has an Intelligence of 8 or higher, it has advantage on the saving throw. If it fails the saving throw and has an Intelligence of 12 or higher, it can repeat the saving throw at the end of every hour until it succeeds and breaks free."
+											"14. seviyeden itibaren başka büyücüler tarafından yaratılmış yaşayan ölüleri bile kendi kontrolün altına alabilirsin. Eylem olarak 60 feet yakınındaki görebildiğin bir yaşayan ölüyü seç. Varlık senin büyücü kurtulma zarı DC'ne karşı Karizma kurtulma zarı atar. Eğer başarılı olursa bu özelliği bir daha onun üzerinde kullanamazsın. Eğer başarısız olursa sana dost olur ve bu özelliği yeniden kullanana kadar senin komutlarına itaat eder.",
+											"Zeki yaşayan ölüler bu şekilde daha zor kontrol edilir. Eğer hedefin Zeka skoru 8 ve üzeri ise kurtulma zarında avantajı olur. Eğer başarısız olursa ve 12 ve üzeri Zeka skoruna sahipse kurtulana kadar her saatin sonunda kurtulma zarını tekrarlayabilir."
 										]
 									}
 								]
