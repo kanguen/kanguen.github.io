@@ -38,7 +38,7 @@ function navigation () {
 	LIDropdown('navbar', 'rules', 'dropdown');
 	A('rules', 'ruleOption', 'dropdown-toggle', 'dropdown', '#', 'button', 'true', 'false', "Kurallar <span class='caret'></span>");
 	UL('rules', 'ul_rules', 'dropdown-menu');
-	LI('ul_rules', 'quickreference.html', 'Çabuk Referans');
+	LI('ul_rules', 'quickreference.html', 'Kurallar');
 	LI('ul_rules', 'variantrules.html', 'Alternatif Kurallar');
 	LIDivider('ul_rules');
 	LI('ul_rules', 'book.html', "Dungeon Master's Guide", "DMG");
@@ -51,9 +51,9 @@ function navigation () {
 	LI('ul_players', 'classes.html', 'Sınıflar');
 	LI('ul_players', 'backgrounds.html', 'Karakter Geçmişleri');
 	LI('ul_players', 'feats.html', 'Featler');
-	LI('ul_players', 'invocations.html', 'Yakarışlar');
+	//LI('ul_players', 'invocations.html', 'Yakarışlar');
 	LI('ul_players', 'races.html', 'Irklar');
-	LI('ul_players', 'lifegen.html', 'Hayatın Bu');
+	//LI('ul_players', 'lifegen.html', 'Hayatın Bu');
 	LI('ul_players', 'names.html', 'İsimler');
 
 	LIDropdown('navbar', 'dms', 'dropdown');
@@ -61,7 +61,7 @@ function navigation () {
 	UL('dms', 'ul_dms', 'dropdown-menu');
 	LI('ul_dms', 'adventures.html', 'Maceralar');
 	LI('ul_dms', 'crcalculator.html', 'CR Hesaplayıcı');
-	LI('ul_dms', 'cultsboons.html', 'Kültler ve Şeytani Lütuflar');
+	//LI('ul_dms', 'cultsboons.html', 'Kültler ve Şeytani Lütuflar');
 	LISpecial('ul_dms', 'https://kobold.club', 'Karşılaşma Yaratıcı', '_blank', 'Kobold Fight Club olabilecek en iyisi.');
 	LI('ul_dms', 'encountergen.html', 'Karşılaşma Üretici');
 	LI('ul_dms', 'lootgen.html', 'Ganimet Üretici');
@@ -75,19 +75,19 @@ function navigation () {
 	LI('ul_references', 'conditions.html', 'Durumlar');
 	LI('ul_references', 'deities.html', 'Tanrılar');
 	LI('ul_references', 'items.html', 'Eşyalar');
-	LI('ul_references', 'rewards.html', 'Diğer Ödüller');
-	LI('ul_references', 'psionics.html', 'Psionikler');
+	//LI('ul_references', 'rewards.html', 'Diğer Ödüller');
+	//LI('ul_references', 'psionics.html', 'Psionikler');
 	LI('ul_references', 'spells.html', 'Büyüler');
 
 	LI('navbar', 'statgen.html', 'Statgen');
 
-	LIDropdown('navbar', 'utils', 'dropdown');
+	/*LIDropdown('navbar', 'utils', 'dropdown');
 	A('utils', 'utils', 'dropdown-toggle', 'dropdown', '#', 'button', 'true', 'false', "Yardımcı Uygulamalar <span class='caret'></span>");
 	UL('utils', 'ul_utils', 'dropdown-menu');
 	LI('ul_utils', 'blacklist.html', 'İçerik Karalistesi');
 	LI('ul_utils', 'converter.html', 'Stat Block to JSON');
 	LI('ul_utils', 'demo.html', 'Renderer Demo');
-	LI('ul_utils', 'roll20.html', 'Roll20 Script Help');
+	LI('ul_utils', 'roll20.html', 'Roll20 Script Help');*/
 
 	LISwitcher('navbar', 'daynightMode', 'nightModeToggle', '#', 'styleSwitcher.toggleActiveStyleSheet(); return false;');
 

@@ -1,13 +1,13 @@
 {
 	"condition": [
 		{
-			"name": "Blinded",
+			"name": "Körlük",
 			"entries": [
 				{
 					"type": "list",
 					"items": [
-						"A blinded creature can't see and automatically fails any ability check that requires sight.",
-						"Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage."
+						"Kör olan bir varlık göremez ve otomatik olarak görüş gerektiren tüm beceri zarlarında başarısız olur.",
+						"Varlığa karşı yapılan saldırılar avantajlı olur ve varlığın saldırıları dezavantajlı olur."
 					]
 				}
 			],
@@ -15,13 +15,13 @@
 			"page": 290
 		},
 		{
-			"name": "Charmed",
+			"name": "Cezbedilme",
 			"entries": [
 				{
 					"type": "list",
 					"items": [
-						"A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical effects.",
-						"The charmer has advantage on any ability check to interact socially with the creature."
+						"Cezbedilmiş bir varlık cezbedene saldıramaz yada zararlı etkiler ve büyüler ile hedef alamaz.",
+						"Cezbeden, cezbedilmiş varlık ile yapacağı tüm sosyal iletişim zarlarında avantajlı olur."
 					]
 				}
 			],
@@ -29,12 +29,12 @@
 			"page": 290
 		},
 		{
-			"name": "Deafened",
+			"name": "Sağırlık",
 			"entries": [
 				{
 					"type": "list",
 					"items": [
-						"A deafened creature can't hear and automatically fails any ability check that requires hearing."
+						"Sağır bir varlık duyamaz ve otomatik olarak duyma gerektiren tüm beceri zarlarında başarısız olur."
 					]
 				}
 			],
@@ -42,14 +42,14 @@
 			"page": 290
 		},
 		{
-			"name": "Exhaustion",
+			"name": "Bitkinlik",
 			"entries": [
-				"Some special abilities and environmental hazards, such as starvation and the long-term effects of freezing or scorching temperatures, can lead to a special condition called exhaustion. Exhaustion is measured in six levels. An effect can give a creature one or more levels of exhaustion, as specified in the effect's description.",
+				"Bazı özel yetenekler ve açlık yada çok soğuk ve sıcak havanın uzun süreli etkileri gibi çevresel tehlikeler bitkinlik denilen özel duruma yol açar. Bitkinlik altı seviye ile ölçülür. Bir etki, tanımında belirtileceği üzere varlığa bir yada daha fazla bitkinlik seviyesi verebilir.",
 				{
 					"type": "table",
 					"colLabels": [
-						"Level",
-						"Effect"
+						"Seviye",
+						"Etki"
 					],
 					"colStyles": [
 						"col-xs-1 text-align-center",
@@ -58,46 +58,46 @@
 					"rows": [
 						[
 							"1",
-							"Disadvantage on ability checks"
+							"Beceri zarlarında dezavantaj"
 						],
 						[
 							"2",
-							"Speed halved"
+							"Hız yarılanır"
 						],
 						[
 							"3",
-							"Disadvantage on attack rolls and saving throws"
+							"Saldırı ve kurtulma zarlarında dezavantaj"
 						],
 						[
 							"4",
-							"Hit point maximum halved"
+							"HP maksimumu yarılanır"
 						],
 						[
 							"5",
-							"Speed reduced to 0"
+							"Hız 0'a düşer"
 						],
 						[
 							"6",
-							"Death"
+							"Ölüm"
 						]
 					]
 				},
-				"If an already exhausted creature suffers another effect that causes exhaustion, its current level of exhaustion increases by the amount specified in the effect's description.",
-				"A creature suffers the effect of its current level of exhaustion as well as all lower levels. For example, a creature suffering level 2 exhaustion has its speed halved and has disadvantage on ability checks.",
-				"An effect that removes exhaustion reduces its level as specified in the effect's description, with all exhaustion effects ending if a creature's exhaustion level is reduced below 1.",
-				"Finishing a long rest reduces a creature's exhaustion level by 1, provided that the creature has also ingested some food and drink."
+				"Eğer zaten bitkin olan bir varlık başka bitkinlik veren bir etkiye maruz kalırsa, mevcut bitkinlik seviyesi yeni etkinin tanımında gösterilen seviye kadar artar.",
+				"Bir varlık o anki bitkinlik seviyesinin etkisine maruz kaldığı gibi tüm düşük seviyelerin etkilerine de maruz kalır. Örneğin, 2. seviye bitkinliği olan bir varlığın hem hızı yarılanır hemde beceri zarlarında dezavantajı olur.",
+				"Bitkinlik seviyesi azaltan bir etki, etkinin tanımında belirtilen seviye kadar düşürür ve eğer varlığın bitkinlik seviyesi 1'in altına düşerse tüm etkiler sona erer.",
+				"Uzun dinlenme bitirme bitkinlik seviyesini 1 azaltır. Varlık bu dinlenme süresince yeterli yiyecek ve içecek tüketmelidir."
 			],
 			"source": "PHB",
 			"page": 291
 		},
 		{
-			"name": "Frightened",
+			"name": "Korkma",
 			"entries": [
 				{
 					"type": "list",
 					"items": [
-						"A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.",
-						"The creature can't willingly move closer to the source of its fear."
+						"Korkmuş bir varlık korku kaynağı görüşünde olduğu sürece saldırı ve beceri zarlarında dezavantajlı olur.",
+						"Korkmuş bir varlık korku kaynağına kendi isteği ile yaklaşamaz."
 					]
 				}
 			],
@@ -105,14 +105,14 @@
 			"page": 290
 		},
 		{
-			"name": "Grappled",
+			"name": "Tutulma",
 			"entries": [
 				{
 					"type": "list",
 					"items": [
-						"A grappled creature's speed becomes 0, and it can't benefit from any bonus to its speed.",
-						"The condition ends if the grappler is {@condition incapacitated}.",
-						"The condition also ends if an effect removes the grappled creature from the reach of the grappler or grappling effect, such as when a creature is hurled away by the {@spell thunderwave|phb} spell."
+						"Tutulmuş bir varlığın hızı 0'a düşer ve hıza bonus veren etkilerden faydalanamaz.",
+						"Bu durum eğer tutan varlık etkisiz hale gelirse sona erer.",
+						"Durum eğer tutulan varlık tutan varlığın yada etkinin erişiminden bir etki ile uzaklaştırılırsa da biter. Örneğin bir varlığın {@spell thunderwave} ile savrulması gibi."
 					]
 				}
 			],
@@ -120,12 +120,12 @@
 			"page": 290
 		},
 		{
-			"name": "Incapacitated",
+			"name": "Etkisiz Hal",
 			"entries": [
 				{
 					"type": "list",
 					"items": [
-						"An incapacitated creature can't take actions or reactions."
+						"Etkisiz hale gelmiş bir varlık eylem yada reaksiyon kullanamaz."
 					]
 				}
 			],
@@ -133,13 +133,13 @@
 			"page": 290
 		},
 		{
-			"name": "Invisible",
+			"name": "Görünmezlik",
 			"entries": [
 				{
 					"type": "list",
 					"items": [
-						"An invisible creature is impossible to see without the aid of magic or a special sense. For the purpose of hiding, the creature is heavily obscured. The creature's location can be detected by any noise it makes or any tracks it leaves.",
-						"Attack rolls against the creature have disadvantage, and the creature's attack rolls have advantage."
+						"Görünmez bir varlığı büyü yada özel bir duyu yardımı olmadan görmek imkansızdır. Saklanma amacı için varlık ağır bir şekilde örtülüdür. Varlığın yeri çıkardığı ses yada bıraktığı iz sayesinde tespit edilebilir.",
+						"Varlığa karşı saldırı zarları dezavantajlı olur ve varlığın saldırıları avantajlıdır."
 					]
 				}
 			],
@@ -147,14 +147,14 @@
 			"page": 291
 		},
 		{
-			"name": "Paralyzed",
+			"name": "Felç",
 			"entries": [
 				{
 					"type": "list",
 					"items": [
-						"A paralyzed creature is {@condition incapacitated} and can't move or speak.",
-						"The creature automatically fails Strength and Dexterity saving throws. Attack rolls against the creature have advantage.",
-						"Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature."
+						"Felçli bir varlık Etkisiz Hal durumundadır ve hareket edemez yada konuşamaz.",
+						"Varlık otomatik olarak Kuvvet ve Çeviklik kurtulma zarlarında başarısız olur. Varlığa karşı saldırılar avantajlıdır.",
+						"Eğer saldırı 5 feet yakından yapılırsa, tüm vuran saldırılar kritiktir."
 					]
 				}
 			],
@@ -162,17 +162,17 @@
 			"page": 291
 		},
 		{
-			"name": "Petrified",
+			"name": "Taşa Dönme",
 			"entries": [
 				{
 					"type": "list",
 					"items": [
-						"A petrified creature is transformed, along with any nonmagical object it is wearing or carrying, into a solid inanimate substance (usually stone). Its weight increases by a factor of ten, and it ceases aging.",
-						"The creature is {@condition incapacitated}, can't move or speak, and is unaware of its surroundings.",
-						"Attack rolls against the creature have advantage.",
-						"The creature automatically fails Strength and Dexterity saving throws.",
-						"The creature has resistance to all damage.",
-						"The creature is immune to poison and disease, although a poison or disease already in its system is suspended, not neutralized."
+						"Taşa dönmüş bir varlık, tüm büyüsüz eşyaları ile birlikte katı cansız bir maddeye (genellikle taş) dönüşmüştür. Ağırlığı 10'a katlanır ve yaşlanmaz.",
+						"Varlık Etkisiz Hal durumundadır, hareket edemez, konuşamaz ve çevresinden habersizdir.",
+						"Varlığa karşı saldırılar avantajlıdır.",
+						"Varlık Kuvvet ve Çeviklik kurtulma zarlarında otomatik olarak başarısız olur.",
+						"Varlık tüm hasar tiplerine karşı direnç kazanır.",
+						"Varlık zehir ve hastalığa karşı bağışıklık kazanır. Ama taşa dönmeden önce bir zehir yada hastalık etkisi altındaysa bu etki ortadan kalkmaz sadece askıya alınır."
 					]
 				}
 			],
@@ -180,12 +180,12 @@
 			"page": 291
 		},
 		{
-			"name": "Poisoned",
+			"name": "Zehirlenme",
 			"entries": [
 				{
 					"type": "list",
 					"items": [
-						"A poisoned creature has disadvantage on attack rolls and ability checks."
+						"Zehirlenen bir varlık saldırı ve beceri zarlarında dezavantajlıdır."
 					]
 				}
 			],
@@ -193,14 +193,14 @@
 			"page": 292
 		},
 		{
-			"name": "Prone",
+			"name": "Yere Düşme",
 			"entries": [
 				{
 					"type": "list",
 					"items": [
-						"A prone creature's only movement option is to crawl, unless it stands up and thereby ends the condition.",
-						"The creature has disadvantage on attack rolls.",
-						"An attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the attack roll has disadvantage."
+						"Yere düşmüş bir varlık ayağa kalkıp durumu sonlandırmadığı sürece tek hareket seçeneği sürünmektir.",
+						"Varlık saldırı zarlarında dezavantajlıdır.",
+						"Eğer saldırgan yerdeki varlığın 5 feet yakınındaysa avantajla saldırır, ama değilse saldırı dezavantajlıdır."
 					]
 				}
 			],
@@ -208,14 +208,14 @@
 			"page": 292
 		},
 		{
-			"name": "Restrained",
+			"name": "Kısıtlanma",
 			"entries": [
 				{
 					"type": "list",
 					"items": [
-						"A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed.",
-						"Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.",
-						"The creature has disadvantage on Dexterity saving throws."
+						"Kısıtlanmış bir varlığın hızı 0 olur ve hızına bonus veren etkilerden faydalanamaz.",
+						"Varlığa karşı yapılan saldırılar avantajlı olur ve varlığın yapacağı saldırılar dezavantajlıdır.",
+						"Varlık Çeviklik kurtulma zarlarında dezavantajlıdır."
 					]
 				}
 			],
@@ -223,14 +223,14 @@
 			"page": 292
 		},
 		{
-			"name": "Stunned",
+			"name": "Sersemleme",
 			"entries": [
 				{
 					"type": "list",
 					"items": [
-						"A stunned creature is {@condition incapacitated}, can't move, and can speak only falteringly.",
-						"The creature automatically fails Strength and Dexterity saving throws.",
-						"Attack rolls against the creature have advantage."
+						"Sersemlemiş bir varlık Etkisiz Hal durumundadır, hareket edemez ve sadece zorlukla konuşabilir.",
+						"Varlık otomatik olarak Kuvvet ve Çeviklik kurtulma zarlarında başarısız olur.",
+						"Varlığa karşı yapılan saldırılar avantajlıdır."
 					]
 				}
 			],
@@ -238,16 +238,16 @@
 			"page": 292
 		},
 		{
-			"name": "Unconscious",
+			"name": "Bilinçsizlik",
 			"entries": [
 				{
 					"type": "list",
 					"items": [
-						"An unconscious creature is {@condition incapacitated}, can't move or speak, and is unaware of its surroundings.",
-						"The creature drops whatever it's holding and falls prone.",
-						"The creature automatically fails Strength and Dexterity saving throws.",
-						"Attack rolls against the creature have advantage.",
-						"Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature."
+						"Bilinçsiz bir varlık Etkisiz Hal durumundadır, hareket edemez, konuşamaz ve çevresinden habersizdir.",
+						"Varlık tuttuğu herşeyi bırakır ve yere düşer.",
+						"Varlık otomatik olarak Kuvvet ve Çeviklik kurtulma zarlarında başarısız olur.",
+						"Varlığa karşı yapılan saldırılar avantajlıdır.",
+						"Eğer saldırı 5 feet yakından yapılırsa, tüm vuran saldırılar kritiktir."
 					]
 				}
 			],

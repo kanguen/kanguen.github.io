@@ -1630,7 +1630,7 @@ ListUtil = {
 		if (ListUtil._first) {
 			ListUtil._first = false;
 			const $headDesc = $(`header div p`);
-			$headDesc.html(`${$headDesc.html()} Press J/K to navigate rows.`);
+			$headDesc.html(`${$headDesc.html()} J/K tuşları ile sıraları değiştirebilirsin.`);
 
 			$(window).on("keypress", (e) => {
 				// K up; J down
