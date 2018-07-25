@@ -68,7 +68,7 @@
 		{
 			"name": "Aboleth",
 			"size": "L",
-			"type": "aberration",
+			"type": "Aberasyon",
 			"source": "MM",
 			"alignment": [
 				"L",
@@ -261,7 +261,7 @@
 			"type": {
 				"type": "insansı",
 				"tags": [
-					"any race"
+					"Herhangi bir ırk"
 				]
 			},
 			"source": "MM",
@@ -291,7 +291,7 @@
 			"cr": "1/4",
 			"action": [
 				{
-					"name": "Club",
+					"name": "Sopa",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +2} vurmak için, erişim 5 ft., tek hedef. Vurunca: 2 ({@dice 1d4}) ezme hasarı."
 					]
@@ -5052,7 +5052,7 @@
 		{
 			"name": "Beholder",
 			"size": "L",
-			"type": "aberration",
+			"type": "Aberasyon",
 			"source": "MM",
 			"alignment": [
 				"L",
@@ -5626,7 +5626,7 @@
 		{
 			"name": "Blue Slaad",
 			"size": "L",
-			"type": "aberration",
+			"type": "Aberasyon",
 			"source": "MM",
 			"alignment": [
 				"C",
@@ -7252,7 +7252,7 @@
 		{
 			"name": "Chuul",
 			"size": "L",
-			"type": "aberration",
+			"type": "Aberasyon",
 			"source": "MM",
 			"alignment": [
 				"C",
@@ -7426,7 +7426,7 @@
 		{
 			"name": "Cloaker",
 			"size": "L",
-			"type": "aberration",
+			"type": "Aberasyon",
 			"source": "MM",
 			"alignment": [
 				"C",
@@ -7496,7 +7496,7 @@
 				{
 					"name": "Moan",
 					"entries": [
-						"Each creature within 60 feet of the cloaker that can hear its moan and that isn't an aberration must succeed on a DC 13 Wisdom saving throw yada become frightened until the end of the cloaker's next turn. If a creature's saving throw is successful, the creature is immune to the cloaker's moan for the next 24 hours."
+						"Each creature within 60 feet of the cloaker that can hear its moan and that isn't an Aberasyon must succeed on a DC 13 Wisdom saving throw yada become frightened until the end of the cloaker's next turn. If a creature's saving throw is successful, the creature is immune to the cloaker's moan for the next 24 hours."
 					]
 				},
 				{
@@ -8226,7 +8226,7 @@
 				{
 					"name": "Karanlık Bağlılık",
 					"entries": [
-						"Tarıkatçılar korkma ve cezbedilme kurtulma zarlarında avantajlıdır."
+						"Tarikatçılar korkma ve cezbedilme kurtulma zarlarında avantajlıdır."
 					]
 				}
 			],
@@ -8669,7 +8669,7 @@
 			"name": "Death Slaad",
 			"size": "M",
 			"type": {
-				"type": "aberration",
+				"type": "Aberasyon",
 				"tags": [
 					"shapechanger"
 				]
@@ -13040,7 +13040,7 @@
 			"sayfa": 135
 		},
 		{
-			"name": "Flying Snake",
+			"name": "Uçan Yılan",
 			"size": "T",
 			"type": "hayvan",
 			"source": "MM",
@@ -13068,9 +13068,9 @@
 			"cr": "1/8",
 			"trait": [
 				{
-					"name": "Flyby",
+					"name": "Alçaktan Uçuş",
 					"entries": [
-						"The snake doesn't provoke opportunity attacks when it flies out of an enemy's erişim."
+						"Yılan düşmanın erişiminden çıkarken fırsat saldırısı tetiklemez."
 					]
 				}
 			],
@@ -13078,7 +13078,7 @@
 				{
 					"name": "Isırma",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 1 delme hasarı artı 7 ({@dice 3d4}) zehir damage."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +6} vurmak için, erişim 5 ft., tek hedef. Vurunca: 1 delme hasarı artı 7 ({@dice 3d4}) zehir hasarı."
 					]
 				}
 			],
@@ -15314,7 +15314,7 @@
 		{
 			"name": "Gibbering Mouther",
 			"size": "M",
-			"type": "aberration",
+			"type": "Aberasyon",
 			"source": "MM",
 			"alignment": [
 				"N"
@@ -16684,7 +16684,7 @@
 			"name": "Gray Slaad",
 			"size": "M",
 			"type": {
-				"type": "aberration",
+				"type": "Aberasyon",
 				"tags": [
 					"shapechanger"
 				]
@@ -17038,7 +17038,7 @@
 			"name": "Green Slaad",
 			"size": "L",
 			"type": {
-				"type": "aberration",
+				"type": "Aberasyon",
 				"tags": [
 					"shapechanger"
 				]
@@ -17165,7 +17165,7 @@
 		{
 			"name": "Grell",
 			"size": "M",
-			"type": "aberration",
+			"type": "Aberasyon",
 			"source": "MM",
 			"alignment": [
 				"L",
@@ -17495,19 +17495,19 @@
 			"sayfa": 175
 		},
 		{
-			"name": "Guard",
+			"name": "Gardiyan",
 			"size": "M",
 			"type": {
 				"type": "insansı",
 				"tags": [
-					"any race"
+					"Herhangi bir ırk"
 				]
 			},
 			"source": "MM",
 			"alignment": [
 				"A"
 			],
-			"ac": "16 (chain shirt, shield)",
+			"ac": "16 (zincir zırh, kalkan)",
 			"hp": {
 				"average": 11,
 				"formula": "2d8+2"
@@ -17529,9 +17529,9 @@
 			"cr": "1/8",
 			"action": [
 				{
-					"name": "Spear",
+					"name": "Mızrak",
 					"entries": [
-						"Yakın Dövüş yada Menzilli Silah Saldırısı: {@hit +3} vurmak için, erişim 5 ft. yada menzil 20/60 ft., tek hedef. Vurunca: 4 ({@dice 1d6+1}) delme hasarı yada 5 ({@dice 1d8+1}) delme hasarı eğer iki el ile kullanıldıysa to make a melee attack."
+						"Yakın Dövüş yada Menzilli Silah Saldırısı: {@hit +3} vurmak için, erişim 5 ft. yada menzil 20/60 ft., tek hedef. Vurunca: 4 ({@dice 1d6+1}) delme hasarı yada saldırmak için iki elini kullandıysa 5 ({@dice 1d8+1}) delme hasarı."
 					]
 				}
 			],
@@ -19422,7 +19422,7 @@
 		{
 			"name": "Intellect Devourer",
 			"size": "T",
-			"type": "aberration",
+			"type": "Aberasyon",
 			"source": "MM",
 			"alignment": [
 				"L",
@@ -20063,27 +20063,27 @@
 			"cr": "1/8",
 			"trait": [
 				{
-					"name": "Sunlight Sensitivity",
+					"name": "Gün Işığı Hassasiyeti",
 					"entries": [
-						"While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+						"Koboldlar gün ışında yaptıkları saldırılarda ve Akıl (Algılama) zarlarında dezavantajlıdır."
 					]
 				},
 				{
 					"name": "Sürü Taktiği",
 					"entries": [
-						"The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 ft. of the creature and the ally isn't incapacitated."
+						"Eğer koboldun bir dostu düşmanın 5 ft. yanında ise dostu ile saldırı avantajına sahip olur."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Dagger",
+					"name": "Hançer",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 4 ({@dice 1d4+2}) delme hasarı."
 					]
 				},
 				{
-					"name": "Sling",
+					"name": "Sapan",
 					"entries": [
 						"Menzilli Silah Saldırısı: {@hit +4} vurmak için, menzil 30/120 ft., tek hedef. Vurunca: 4 ({@dice 1d4+2}) ezme hasarı."
 					]
@@ -21788,9 +21788,9 @@
 			"name": "Manes",
 			"size": "S",
 			"type": {
-				"type": "fiend",
+				"type": "İblis",
 				"tags": [
-					"demon"
+					"Şeytan"
 				]
 			},
 			"source": "MM",
@@ -21821,13 +21821,13 @@
 				"zehir"
 			],
 			"conditionImmune": [
-				"charmed",
-				"frightened",
-				"poisoned"
+				"cezbedilme",
+				"korkma",
+				"zehirlenme"
 			],
 			"senses": "gece görüşü 60 ft.",
 			"passive": 9,
-			"languages": "understands Abyssal but can't speak",
+			"languages": "Abyssal dilini anlıyor ama konuşamıyor",
 			"cr": "1/8",
 			"action": [
 				{
@@ -22139,7 +22139,7 @@
 			"sayfa": 61
 		},
 		{
-			"name": "Mastiff",
+			"name": "Mastif",
 			"size": "M",
 			"type": "hayvan",
 			"source": "MM",
@@ -22167,9 +22167,9 @@
 			"cr": "1/8",
 			"trait": [
 				{
-					"name": "Keen Hearing and Smell",
+					"name": "Keskin Duyma ve Koklama",
 					"entries": [
-						"The mastiff has advantage on Wisdom (Perception) checks that rely on hearing yada smell."
+						" Mastif'in duyma ve koklamaya bağlı Akıl (Algılama) zarlarında avantajı vardır."
 					]
 				}
 			],
@@ -22177,7 +22177,7 @@
 				{
 					"name": "Isırma",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 4 ({@dice 1d6+1}) delme hasarı. If the target is a creature, it must succeed on a DC 11 Strength saving throw yada be knocked prone."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 4 ({@dice 1d6+1}) delme hasarı. Eğer hedef bir varlıksa , Kuvvet kurtulma zarında başarılı olur (kaçma DCsi 11) yada yere düşer."
 					]
 				}
 			],
@@ -22290,17 +22290,17 @@
 			"cr": "1/8",
 			"trait": [
 				{
-					"name": "Amphibious",
+					"name": "Amfibi",
 					"entries": [
-						"The merfolk can breathe air and water."
+						"Merfolklar hem karada hem suda nefes alabilir."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Spear",
+					"name": "Mızrak",
 					"entries": [
-						"Yakın Dövüş yada Menzilli Silah Saldırısı: {@hit +2} vurmak için, erişim 5 ft. yada menzil 20/60 ft., tek hedef. Vurunca: 3 ({@dice 1d6}) delme hasarı, yada 4 ({@dice 1d8}) delme hasarı eğer iki el ile kullanıldıysa to make a melee attack."
+						"Yakın Dövüş yada Menzilli Silah Saldırısı: {@hit +2} vurmak için, erişim 5 ft. yada menzil 20/60 ft., tek hedef. Vurunca: 3 ({@dice 1d6}) delme hasarı, yada iki eli ile saldırdıysa 4 ({@dice 1d8}) delme hasarı."
 					]
 				}
 			],
@@ -22586,7 +22586,7 @@
 		{
 			"name": "Mind Flayer",
 			"size": "M",
-			"type": "aberration",
+			"type": "Aberasyon",
 			"source": "MM",
 			"alignment": [
 				"L",
@@ -22674,7 +22674,7 @@
 		{
 			"name": "Mind Flayer Arcanist",
 			"size": "M",
-			"type": "aberration",
+			"type": "Aberasyon",
 			"source": "MM",
 			"alignment": [
 				"L",
@@ -22945,7 +22945,7 @@
 			"name": "Monodrone",
 			"group": "Modrons",
 			"size": "M",
-			"type": "construct",
+			"type": "Yapı",
 			"source": "MM",
 			"alignment": [
 				"L",
@@ -22966,27 +22966,27 @@
 			"int": 4,
 			"wis": 10,
 			"cha": 5,
-			"senses": "truesight 120 ft.",
+			"senses": "Gerçek Görüş 120 ft.",
 			"passive": 10,
 			"languages": "Modron",
 			"cr": "1/8",
 			"trait": [
 				{
-					"name": "Axiomatic Mind",
+					"name": "Önlenemez Zihin",
 					"entries": [
-						"The monodrone can't be compelled to act in a manner contrary to its doğa yada its instructions."
+						"Monodrone doğasına veya talimatlarına aykırı hareket etmeye mecbur bırakılamaz."
 					]
 				},
 				{
-					"name": "Disintegration",
+					"name": "Parçalanma",
 					"entries": [
-						"If the monodrone dies, its body disintegrates into dust, leaving behind its weapons and anything else it was carrying."
+						"Monodrone ölürse, taşıdığı silah yada nesne dışında tüm bedeni parçalanıp toza dönüşür."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Dagger",
+					"name": "Hançer",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 3 ({@dice 1d4+1}) delme hasarı."
 					]
@@ -23075,7 +23075,7 @@
 			"sayfa": 216
 		},
 		{
-			"name": "Mule",
+			"name": "Katır",
 			"size": "M",
 			"type": "hayvan",
 			"source": "MM",
@@ -23100,21 +23100,21 @@
 			"cr": "1/8",
 			"trait": [
 				{
-					"name": "hayvan of Burden",
+					"name": "Yük Hayvanları",
 					"entries": [
-						"The mule is considered to be a Large animal for the purpose of determining its carrying capacity."
+						"Katır, taşıma kapasitesi hesaplanırken Büyük boyut bir varlık olarak görülür."
 					]
 				},
 				{
-					"name": "Sure-Footed",
+					"name": "Sağlam Duruş",
 					"entries": [
-						"The mule has advantage on Strength and Dexterity saving throws made against effects that would knock it prone."
+						"Katırın yere düşmeye direnmek için attığı Kuvvet ve Çeviklik zarlarında avantajı vardır."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Hooves",
+					"name": "Toynak",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +2} vurmak için, erişim 5 ft., tek hedef. Vurunca: 4 ({@dice 1d4+2}) ezme hasarı."
 					]
@@ -24061,7 +24061,7 @@
 			"sayfa": 235
 		},
 		{
-			"name": "Noble",
+			"name": "Asil",
 			"size": "M",
 			"type": {
 				"type": "insansı",
@@ -24073,7 +24073,7 @@
 			"alignment": [
 				"A"
 			],
-			"ac": "15 (breastplate)",
+			"ac": "15 (göğüs zırhı)",
 			"hp": {
 				"average": 9,
 				"formula": "2d8"
@@ -24097,7 +24097,7 @@
 			"cr": "1/8",
 			"action": [
 				{
-					"name": "Rapier",
+					"name": "Meç",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +3} vurmak için, erişim 5 ft., tek hedef. Vurunca: 5 ({@dice 1d8+1}) delme hasarı."
 					]
@@ -24105,9 +24105,9 @@
 			],
 			"reaction": [
 				{
-					"name": "Parry",
+					"name": "Savuşturma",
 					"entries": [
-						"The noble adds 2 to its AC against one melee attack that would hit it. To do so, the noble must see the attacker and be wielding a melee weapon."
+						"Soylu kendisine vurucak bir yakın saldırıya karşı reaksiyonunu kullanarak AC'sine 2 ekleyebilir. Bunu yapmak için saldırganı görmeli ve yakın dövüş silahını kuşanmış olmalıdır."
 					]
 				}
 			],
@@ -24116,7 +24116,7 @@
 		{
 			"name": "Nothic",
 			"size": "M",
-			"type": "aberration",
+			"type": "Aberasyon",
 			"source": "MM",
 			"alignment": [
 				"L",
@@ -24954,7 +24954,7 @@
 		{
 			"name": "Otyugh",
 			"size": "L",
-			"type": "aberration",
+			"type": "Aberasyon",
 			"source": "MM",
 			"alignment": [
 				"N"
@@ -25863,7 +25863,7 @@
 			"sayfa": 80
 		},
 		{
-			"name": "Poisonous Snake",
+			"name": "Zehirli Yılan",
 			"size": "T",
 			"type": "hayvan",
 			"source": "MM",
@@ -25892,7 +25892,7 @@
 				{
 					"name": "Isırma",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 1 delme hasarı, and the target must make a DC 10 Constitution saving throw, taking 5 ({@dice 2d4}) zehir damage on a failed save, yada half as much damage on a successful one."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek hedef. Vurunca: 1 delme hasarı, ve hedef Dayanıklılık kurtulma zarı (DC 10) atar, başarısız olursa 5 ({@dice 2d4}) zehir hasarı, başarılı olursa hasarın yarısını alır."
 					]
 				}
 			],
@@ -26057,7 +26057,7 @@
 			"sayfa": 279
 		},
 		{
-			"name": "Pony",
+			"name": "Tay",
 			"size": "M",
 			"type": "hayvan",
 			"source": "MM",
@@ -26082,7 +26082,7 @@
 			"cr": "1/8",
 			"action": [
 				{
-					"name": "Hooves",
+					"name": "Toynak",
 					"entries": [
 						"Yakın Dövüş Silahı Saldırısı: {@hit +4} vurmak için, erişim 5 ft., tek hedef. Vurunca: 7 ({@dice 2d4+2}) ezme hasarı."
 					]
@@ -27049,7 +27049,7 @@
 		{
 			"name": "Red Slaad",
 			"size": "L",
-			"type": "aberration",
+			"type": "Aberasyon",
 			"source": "MM",
 			"alignment": [
 				"C",
@@ -29076,9 +29076,9 @@
 			"sayfa": 272
 		},
 		{
-			"name": "Slaad Tadpole",
+			"name": "Slaad İribaş",
 			"size": "T",
-			"type": "aberration",
+			"type": "Aberasyon",
 			"source": "MM",
 			"alignment": [
 				"C",
@@ -29110,13 +29110,13 @@
 			],
 			"senses": "gece görüşü 60 ft.",
 			"passive": 7,
-			"languages": "understands Slaad but can't speak",
+			"languages": "Slaad dilini anlıyor ama konuşamıyor",
 			"cr": "1/8",
 			"trait": [
 				{
-					"name": "Magic Resistance",
+					"name": "Büyü Direnci",
 					"entries": [
-						"The slaad has advantage on saving throws against spells and other magical effects."
+						"Slaad büyü ve diğer büyüsel etkilere karşı kurtulma zarlarında avantajlıdır."
 					]
 				}
 			],
@@ -29367,7 +29367,7 @@
 		{
 			"name": "Spectator",
 			"size": "M",
-			"type": "aberration",
+			"type": "Aberasyon",
 			"source": "MM",
 			"alignment": [
 				"L",
@@ -30034,10 +30034,10 @@
 			"cr": "1/8",
 			"action": [
 				{
-					"name": "Blood Drain",
+					"name": "Kan Emmek",
 					"entries": [
-						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek varlık. Vurunca: 5 ({@dice 1d4+3}) delme hasarı, and the stirge attaches to the target. While attached, the stirge doesn't attack. Instead, at the start of each of the stirge's turns, the target loses 5 ({@dice 1d4+3}) hit points due to blood loss.",
-						"The stirge can detach itself by spending 5 feet of its movement. It does so after it drains 10 hit points of blood from the target yada the target dies. A creature, including the target, can use its action to detach the stirge."
+						"Yakın Dövüş Silahı Saldırısı: {@hit +5} vurmak için, erişim 5 ft., tek varlık. Vurunca: 5 ({@dice 1d4+3}) delme hasarı, ve stirge hedefe tutunur. Tutunurken, stirge saldıramaz. Yerine, her stirge'nin sırasında, hedef kan kaybından 5 ({@dice 1d4+3}) HP kaybeder.",
+						"Stirge 5 feet hareket ederek kendini ayırabilir. Bunu 10 hit puanı emdikten sonra yada hedef öldüğü zaman yapar. Hedef dahil olmak üzere bir varlık eylemini kullanarak bir stirge'yi hedeften ayırabilir."
 					]
 				}
 			],
@@ -31765,12 +31765,12 @@
 			"sayfa": 289
 		},
 		{
-			"name": "Tribal Warrior",
+			"name": "Kabile Savaşçısı",
 			"size": "M",
 			"type": {
 				"type": "insansı",
 				"tags": [
-					"any race"
+					"herhangi bir ırk"
 				]
 			},
 			"source": "MM",
@@ -31798,15 +31798,15 @@
 				{
 					"name": "Sürü Taktiği",
 					"entries": [
-						"The warrior has advantage on an attack roll against a creature if at least one of the warrior's allies is within 5 ft. of the creature and the ally isn't incapacitated."
+						"Eğer savaşçının bir dostu düşmanın 5 ft. yanında ise dostu ile saldırı avantajına sahip olur."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Spear",
+					"name": "Mızrak",
 					"entries": [
-						"Yakın Dövüş yada Menzilli Silah Saldırısı: {@hit +3} vurmak için, erişim 5 ft. yada menzil 20/60 ft., tek hedef. Vurunca: 4 ({@dice 1d6+1}) delme hasarı, yada 5 ({@dice 1d8+1}) delme hasarı eğer iki el ile kullanıldıysa to make a melee attack."
+						"Yakın Dövüş yada Menzilli Silah Saldırısı: {@hit +3} vurmak için, erişim 5 ft. yada menzil 20/60 ft., tek hedef. Vurunca: 4 ({@dice 1d6+1}) delme hasarı, yada iki el ile kullanıldıysa 5 ({@dice 1d8+1}) delme hasarı."
 					]
 				}
 			],
@@ -32137,18 +32137,18 @@
 				"ateş"
 			],
 			"conditionImmune": [
-				"blinded",
-				"deafened"
+				"Körlük",
+				"Sağırlık"
 			],
 			"senses": "kör görüş 60 ft. (blind beyond this radius)",
 			"passive": 9,
-			"languages": "understands Ortak but can't speak",
+			"languages": "Ortak dili anlıyor ama konuşamıyor",
 			"cr": "1/8",
 			"trait": [
 				{
-					"name": "False Appearance",
+					"name": "Yanıltıcı Görünüş",
 					"entries": [
-						"While the blight remains motionless, it is indistinguishable from a dead shrub."
+						"Blight hareketsiz ise, ölü bir çalıdan ayırt edilemez."
 					]
 				}
 			],
