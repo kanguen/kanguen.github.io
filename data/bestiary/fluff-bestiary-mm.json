@@ -4586,12 +4586,12 @@
 			}
 		},
 		{
-			"name": "Gardiyan",
+			"name": "Bekçi",
 			"source": "MM",
 			"entries": {
 				"type": "entries",
 				"entries": [
-					"Gardiyanlar şehirlerin veya kalelerin içinde bulunan tüccar ve soyluların korumalarıdır."
+					"Bekçiler şehirlerin veya kalelerin içinde bulunan tüccar ve soyluların korumalarıdır."
 				]
 			}
 		},
@@ -6128,7 +6128,7 @@
 						"name": "Modrons",
 						"entries": [
 							"Modronlar kovan benzeri bir yapıda hiyerarşiye bağlı mutlak kanun varlıklarıdır. Mechanus düzleminde yaşarlar ve ebediyen dönebilen dişlileri, mükemmel bir düzende bir saat gibi işler.",
-							"Mutlak Hukuk ve Düzen. Liderleri doğrultusunda, Primus, modronları fani akılların 	anlaşılması ötesinde yasalarla uygun bir çokluevren düzeni oluşturlar. Akılları hiyararşik bir piramide her bir modrunun emirleri ve delegeleri emirları aldıkları bir ağa bağlanırlar. Bir modron , tam itaat, en yüksek verim ve ahlak veya ego yokluğu ile komutları takip eder.Modronlar görevlerini yerine getirmek için gerekli olanın ötesinde bir benlikleri yoktur.Birleşmiş bir kolektif yapıda aralarında statü farkı bulunan topluluktur. Modronda,\"ben,\"yoktur sadece  \"biz\" ve \"bize.\" vardır.",
+							"Mutlak Hukuk ve Düzen. Liderleri doğrultusunda Primus, modronları fani akılların anlaşılması ötesinde yasalarla uygun bir çokluevren düzeni oluşturlar. Akılları hiyararşik bir piramide her bir modrunun emirleri ve delegeleri emirları aldıkları bir ağa bağlanırlar. Bir modron , tam itaat, en yüksek verim ve ahlak veya ego yokluğu ile komutları takip eder.Modronlar görevlerini yerine getirmek için gerekli olanın ötesinde bir benlikleri yoktur. Birleşmiş bir kolektif yapıda aralarında statü farkı bulunan topluluktur. Modronda ben yoktur sadece biz ve bize vardır.",
 							"Mutlak Hiyerarşi. Modronlar sadece kendi statülerin bir altındaki, kendi statüleri ve bir statü üstleri ile iletişim kurarlar. Modronların bir statü altı çok basit anlaşılması, bir statü üstü ise çok daha gelişmiştir.",
 							"Büyük Makinanın Çarkları. Bir modron yok edilirse, kalıntıları parçalanır. Bir önceki statüye düşüp bir ışık flashi ile tekrar fiziksel bir form alır. Terfi etmiş bir modron bir bulunduğu statünün en altında bulunur. Primus tarafından bir modron yaratıldığı zaman, Büyük Modron Katedrali'nden ayrılır.",
 							"Büyük Modron Yürüyüşü. Mechanus'un dişlileri, her 289 yılda bir 17 döngü tamamlandığında, Primus bir keşif görevi vererek, Dış Düzlemler boyunca geniş bir modron ordusu gönderir. Yürüyüş uzun ve tehlikelidir ve sadece çok az bir sayıda bir modron Mechanus'a geri dönebilir.",

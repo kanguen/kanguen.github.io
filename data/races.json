@@ -7,7 +7,7 @@
 			"size": "M",
 			"speed": {
 				"walk": 25,
-				"fly": 50
+				"uçma": 50
 			},
 			"ability": {
 				"dex": 2,
@@ -212,51 +212,51 @@
 			"darkvision": 60,
 			"entries": [
 				{
-					"name": "Age",
+					"name": "Yaş",
 					"type": "entries",
 					"entries": [
-						"Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old."
+						"Elfler olgunluğa insanlarla aynı sürede ulaşsa da elflerin yetişkinlik anlayışı fiziksel büyümedense dünyevi deneyimler ile ölçülür. Bir elf genel olarak yetişkinliği ve bir yetişkin ismini 100 yaşı civarında alır ve 750 yaşına kadar yaşayabilir."
 					]
 				},
 				{
-					"name": "Alignment",
+					"name": "Yönelim",
 					"type": "entries",
 					"entries": [
-						"Elves love freedom, variety, and self- expression, so they lean strongly toward the gentler aspects of chaos. They value and protect others' freedom as well as their own, and they are more often good than not."
+						"Elfler özgürlüğü, çeşitliliği ve kendilerini ifade etmeyi severler. Bu sebepten daha düzensiz yönelimleri vardır. Sadece kendi özgürlükleri değil diğerlerinin özgürlüklerine de değer verip korurlar ve çoğunlukla iyi varlıklardır."
 					]
 				},
 				{
-					"name": "Darkvision",
+					"name": "Gece Görüşü",
 					"entries": [
-						"Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+						"Alacakaranlık ormanlara ve gece gökyüzüne alışkın elfler karanlıkta ve loş ışıkta daha iyi görebilirler. Loş ışıkta 60 feete kadar parlak ışıkmış gibi görebilirler, ve karanlıkta sanki loş ışıkmış gibi. Karanlıkta renk ayırt edemezler, sadece grinin tonları olur."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Keen Senses",
+					"name": "Keskin Duyular",
 					"entries": [
-						"You have proficiency in the Perception skill."
+						"Algılama becerisinde uzmanlığın vardır."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Fey Ancestry",
+					"name": "Fey Soyu",
 					"entries": [
-						"You have advantage on saving throws against being {@condition charmed}, and magic can't put you to sleep."
+						"Cezbedilmeye karşı kurtulma zarlarında avantajın vardır ve büyü seni uyutamaz."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Trance",
+					"name": "Trans",
 					"entries": [
-						"Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is \"trance.\") While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep."
+						"Elflerin uykuya ihtiyacı yoktur. Onun yerine günde 4 saat yarıbilinçli bir şekilde derin bir meditasyona girerler. (Bu tip meditasyonlar için yaygın kullanılan sözcük transtır.) Meditasyondayken bir nevi rüya görebilirsin, bunlar yıllarca yaptığın pratikle ulaştığın zihinsel egzersizlerdir. Bu şekilde dinlendikten sonra, bir insanın 8 saatlik uykudan aldığı faydayı sağlarsın."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Languages",
+					"name": "Diller",
 					"entries": [
-						"You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires."
+						"Elfçe ve Ortak Dili okuyabilir, yazabilir ve konuşabilirsin. Elfçe zor dilbilgisi ve incelik isteyen tonlamaları ile akcıı bir dildir. Elf edebiyatı zengin ve çeşitlidir, şarkıları ve şiirleri diğer ırklar arasında da ünlüdür. Birçok ozan Elf türkülerini repertuarına ekleyebilmek için dili öğrenir."
 					],
 					"type": "entries"
 				}
@@ -270,33 +270,33 @@
 					"darkvision": 120,
 					"entries": [
 						{
-							"name": "Superior Darkvision",
+							"name": "Üstün Gece Görüşü",
 							"entries": [
-								"Accustomed to the depths of the Underdark, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+								"Yeraltının derinliklerine alışmış gözlerin karanlık ve loş ışıkta üstün görüş sağlar. Loş ışıkta 120 feete kadar sanki parlak ışıkmış gibi, karanlıkta ise loş ışıkmış gibi görürsün. Karanlıkta renk ayırt edemezsin, sadece grinin tonları olur."
 							],
 							"data": {
-								"overwrite": "Darkvision"
+								"overwrite": "Gece Görüşü"
 							},
 							"type": "entries"
 						},
 						{
-							"name": "Sunlight Sensitivity",
+							"name": "Günışığı Hassasiyeti",
 							"entries": [
-								"You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
+								"Sen, hedefin yada algılamak istediğin şey doğrudan günışığında olduğu sürece görüş gerektiren saldırı ve Akıl(Algılama) zarlarında dezavantajın olur."
 							],
 							"type": "entries"
 						},
 						{
-							"name": "Drow Magic",
+							"name": "Drow Büyüsü",
 							"entries": [
-								"You know the {@spell dancing lights} cantrip. When you reach 3rd level, you can cast the {@spell faerie fire} spell once per day; you must finish a long rest in order to cast the spell again using this trait. When you reach 5th level, you can also cast the {@spell darkness} spell once per day; you must finish a long rest in order to cast the spell again using this trait. Charisma is your spellcasting ability for these spells."
+								"{@spell Dancing lights} cantripini bilirsin. 3. seviyeye ulaştığında {@spell faerie fire} büyüsünü günde bir kere kullanabilirsin, büyüyü bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. 5. seviyeye ulaştığında {@spell darkness} büyüsünü de günde bir kere kullanabilirsin, büyüyü bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. Bu büyüler için büyü yapma yeteneğin Karizmadır."
 							],
 							"type": "entries"
 						},
 						{
-							"name": "Drow Weapon Training",
+							"name": "Drow Silah Eğitimi",
 							"entries": [
-								"You have proficiency with rapiers, shortswords, and hand crossbows."
+								"Meçler, kısa kılıçlar ve el arbaletleri ile uzmanlığın vardır."
 							],
 							"type": "entries"
 						}
@@ -311,529 +311,76 @@
 					},
 					"entries": [
 						{
-							"name": "Elf Weapon Training",
+							"name": "Elf Silah Eğitimi",
 							"entries": [
-								"You have proficiency with the longsword, shortsword, shortbow, and longbow."
+								"Uzun kılıç, kısa kılıç, kısa yay ve uzun yay ile uzmanlıkların vardır."
 							],
 							"type": "entries"
 						},
 						{
-							"name": "Fey Step",
+							"name": "Fey Adımı",
 							"entries": [
-								"You can cast the {@spell misty step} spell once using this trait. You regain the ability to do so when you finish a short or long rest."
+								"Bu özelliği kullanarak {@spell misty step} büyüsünü bir kere kullanabilirsin. Kısa yada uzun dinlenme bitirdikten sonra bu özellik yeniden kullanılabilir."
 							],
 							"type": "entries"
 						}
 					]
 				},
 				{
-					"name": "High",
+					"name": "Ulu",
 					"speed": 30,
 					"ability": {
 						"int": 1
 					},
 					"entries": [
 						{
-							"name": "Elf Weapon Training",
+							"name": "Elf Silah Eğitimi",
 							"entries": [
-								"You have proficiency with the longsword, shortsword, shortbow, and longbow."
+								"Uzun kılıç, kısa kılıç, kısa yay ve uzun yay ile uzmanlıkların vardır."
 							],
 							"type": "entries"
 						},
 						{
 							"name": "Cantrip",
 							"entries": [
-								"You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it."
+								"Büyücü büyü listesinden seçeceğin bir cantrip bilirsin. Bunun için büyü yapma yeteneğin Zekadır."
 							],
 							"type": "entries"
 						},
 						{
-							"name": "Extra Language",
+							"name": "Fazladan Dil",
 							"entries": [
-								"You can speak, read, and write one extra language of your choosing."
+								"Seçeceğin fazladan bir dil okuyabilir, yazabilir e konuşabilirsin."
 							],
 							"type": "entries"
 						}
 					]
 				},
 				{
-					"name": "Wood",
+					"name": "Orman",
 					"speed": 35,
 					"ability": {
 						"wis": 1
 					},
 					"entries": [
 						{
-							"name": "Elf Weapon Training",
+							"name": "Elf Silah Eğitimi",
 							"entries": [
-								"You have proficiency with the longsword, shortsword, shortbow, and longbow."
+								"Uzun kılıç, kısa kılıç, kısa yay ve uzun yay ile uzmanlıkların vardır."
 							],
 							"type": "entries"
 						},
 						{
-							"name": "Fleet of Foot",
+							"name": "Seri Adımlar",
 							"entries": [
-								"Your base walking speed increases to 35 feet."
+								"Temel yürüyüş hızın 35 feete yükselir."
 							],
 							"type": "entries"
 						},
 						{
-							"name": "Mask of the Wild",
+							"name": "Doğanın Örtüsü",
 							"entries": [
-								"You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
-							],
-							"type": "entries"
-						}
-					]
-				},
-				{
-					"name": "Eladrin; UA",
-					"source": "UAEladrinAndGith",
-					"page": 1,
-					"ability": {
-						"choose": [
-							{
-								"from": [
-									"int",
-									"cha"
-								],
-								"count": 1
-							}
-						]
-					},
-					"entries": [
-						{
-							"name": "Fey Step",
-							"entries": [
-								"As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a short or long rest."
-							],
-							"type": "entries"
-						},
-						{
-							"name": "Shifting Seasons",
-							"entries": [
-								"At the end of each short or long rest, you can align yourself with the magic of one season, regardless of the season that is dominating your personality. Doing so allows you to cast a certain cantrip, as shown in the Shifting Seasons Cantrips table. When you align yourself with a season's magic, you lose the cantrip associated with the previous season and gain the cantrip associated with the new season.",
-								"Your spellcasting ability for these cantrips is Intelligence or Charisma, whichever is higher.",
-								{
-									"type": "table",
-									"caption": "Shifting Seasons Cantrips",
-									"colLabels": [
-										"Season",
-										"Cantrip"
-									],
-									"colStyles": [
-										"col-xs-6 text-align-center",
-										"col-xs-6 text-align-center"
-									],
-									"rows": [
-										[
-											"Autumn",
-											"{@spell Friends}"
-										],
-										[
-											"Winter",
-											"{@spell Chill touch}"
-										],
-										[
-											"Spring",
-											"{@spell Minor illusion}"
-										],
-										[
-											"Summer",
-											"{@spell Fire bolt}"
-										]
-									]
-								}
-							],
-							"type": "entries"
-						}
-					]
-				},
-				{
-					"name": "Avariel",
-					"source": "UAElfSubraces",
-					"speed": {
-						"walk": 30,
-						"fly": 30
-					},
-					"entries": [
-						{
-							"name": "Languages",
-							"entries": [
-								"You can speak, read, and write Auran."
-							],
-							"data": {
-								"overwrite": "Languages"
-							},
-							"type": "entries"
-						},
-						{
-							"name": "Flight",
-							"entries": [
-								"You have a flying speed of 30 feet. To use this speed, you can't be wearing medium or heavy armor."
-							],
-							"type": "entries"
-						}
-					]
-				},
-				{
-					"name": "Grugach",
-					"source": "UAElfSubraces",
-					"ability": {
-						"str": 1
-					},
-					"entries": [
-						{
-							"name": "Languages",
-							"entries": [
-								"You can speak, read, and write Sylvan, Elvish, and one extra language of your choice. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires."
-							],
-							"data": {
-								"overwrite": "Languages"
-							},
-							"type": "entries"
-						},
-						{
-							"name": "Grugach Weapon Training",
-							"entries": [
-								"You have proficiency with the spear, shortbow, longbow, and net."
-							],
-							"type": "entries"
-						},
-						{
-							"name": "Cantrip",
-							"entries": [
-								"You know one cantrip of your choice from the druid spell list. Wisdom is your spellcasting ability for it."
-							],
-							"type": "entries"
-						}
-					]
-				},
-				{
-					"name": "Sea",
-					"source": "UAElfSubraces",
-					"speed": {
-						"walk": 30,
-						"swim": 30
-					},
-					"ability": {
-						"con": 1
-					},
-					"entries": [
-						{
-							"name": "Languages",
-							"entries": [
-								"You can speak, read, and write Aquan."
-							],
-							"data": {
-								"overwrite": "Languages"
-							},
-							"type": "entries"
-						},
-						{
-							"name": "Sea Elf Weapon Training",
-							"entries": [
-								"You have proficiency with the spear, trident, light crossbow, and net."
-							],
-							"type": "entries"
-						},
-						{
-							"name": "Child of the Sea",
-							"entries": [
-								"You have a swimming speed of 30 feet, and you can breathe air and water."
-							],
-							"type": "entries"
-						},
-						{
-							"name": "Friend of the Sea",
-							"entries": [
-								"Using gestures and sounds, you can communicate simple ideas with Small or smaller beasts that have an inborn swimming speed."
-							],
-							"type": "entries"
-						}
-					]
-				},
-				{
-					"name": "Shadar-kai",
-					"source": "UAElfSubraces",
-					"ability": {
-						"cha": 1
-					},
-					"entries": [
-						{
-							"name": "Languages",
-							"entries": [
-								"You can speak, read, and write Common, Elvish, and one extra language of your choice. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires."
-							],
-							"data": {
-								"overwrite": "Languages"
-							},
-							"type": "entries"
-						},
-						{
-							"name": "Cantrip",
-							"entries": [
-								"You know one of the following cantrips of your choice: {@spell chill touch}, {@spell spare the dying}, or {@spell thaumaturgy}. Charisma is your spellcasting ability for it."
-							],
-							"type": "entries"
-						},
-						{
-							"name": "Blessing of the Raven Queen",
-							"entries": [
-								"As a bonus action, you can magically teleport up to 15 feet to an unoccupied space you can see, and you gain resistance to all damage until the start of your next turn. During that time, you appear ghostly and translucent. Once you use this ability, you can't use it again until you finish a short or long rest."
-							],
-							"type": "entries"
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Elf (Zendikar)",
-			"speed": 30,
-			"source": "PSZ",
-			"page": 18,
-			"size": "M",
-			"ability": {
-				"wis": 2
-			},
-			"darkvision": 60,
-			"entries": [
-				{
-					"name": "Age",
-					"type": "entries",
-					"entries": [
-						"Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old."
-					]
-				},
-				{
-					"name": "Alignment",
-					"type": "entries",
-					"entries": [
-						"Elves love freedom, variety, and self-expression, so they lean strongly toward the gentler aspects of chaos. They value and protect others' freedom as well as their own, and they are more often good than not."
-					]
-				},
-				{
-					"name": "Darkvision",
-					"entries": [
-						"Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Keen Senses",
-					"entries": [
-						"You have proficiency in the Perception skill."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Fey Ancestry",
-					"entries": [
-						"You have advantage on saving throws against being {@condition charmed}, and magic can't put you to sleep."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Languages",
-					"entries": [
-						"You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires."
-					],
-					"type": "entries"
-				}
-			],
-			"subraces": [
-				{
-					"name": "Joraga Nation",
-					"speed": 35,
-					"ability": {
-						"dex": 1
-					},
-					"entries": [
-						{
-							"name": "Mask of the Wild",
-							"entries": [
-								"You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
-							],
-							"type": "entries"
-						},
-						{
-							"name": "Elf Weapon Training",
-							"entries": [
-								"You have proficiency with the longsword, shortsword, shortbow, and longbow."
-							],
-							"type": "entries"
-						},
-						{
-							"name": "Fleet of Foot",
-							"entries": [
-								"Your ground speed increases to 35 feet."
-							],
-							"type": "entries"
-						}
-					]
-				},
-				{
-					"name": "Mul Daya Nation",
-					"ability": {
-						"str": 1
-					},
-					"darkvision": 120,
-					"entries": [
-						{
-							"name": "Mul Daya Magic",
-							"entries": [
-								"You know the {@spell chill touch} cantrip. When you reach 3rd level, you can cast the {@spell hex} spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell darkness} spell once with this trait and regain the ability to do so when you finish a long rest. Wisdom is your spellcasting ability for these spells."
-							],
-							"type": "entries"
-						},
-						{
-							"name": "Superior Darkvision",
-							"entries": [
-								"Your Darkvision has a radius of 120 feet."
-							],
-							"data": {
-								"overwrite": "Darkvision"
-							},
-							"type": "entries"
-						},
-						{
-							"name": "Sunlight Sensitivity",
-							"entries": [
-								"You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
-							],
-							"type": "entries"
-						},
-						{
-							"name": "Elf Weapon Training",
-							"entries": [
-								"You have proficiency with the longsword, shortsword, shortbow, and longbow."
-							],
-							"type": "entries"
-						}
-					]
-				},
-				{
-					"name": "Tajuru Nation",
-					"ability": {
-						"cha": 1
-					},
-					"entries": [
-						{
-							"name": "Skill Versatility",
-							"entries": [
-								"You have proficiency with any combination of two other skills or tools of your choice."
-							],
-							"type": "entries"
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Elf (Kaladesh)",
-			"speed": 30,
-			"source": "PSK",
-			"page": 20,
-			"darkvision": 60,
-			"size": "M",
-			"ability": {
-				"dex": 2,
-				"wis": 1
-			},
-			"entries": [
-				{
-					"name": "Age",
-					"type": "entries",
-					"entries": [
-						"Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old."
-					]
-				},
-				{
-					"name": "Alignment",
-					"type": "entries",
-					"entries": [
-						"Elves love freedom, variety, and self-expression, so they lean strongly toward the gentler aspects of chaos. They value and protect others' freedom as well as their own, and they are more often good than not."
-					]
-				},
-				{
-					"name": "Darkvision",
-					"entries": [
-						"Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Keen Senses",
-					"entries": [
-						"You have proficiency in the Perception skill."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Elf Weapon Training",
-					"entries": [
-						"You have proficiency with the longsword, shortsword, shortbow, and longbow."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Fey Ancestry",
-					"entries": [
-						"You have advantage on saving throws against being {@condition charmed}, and magic can't put you to sleep."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Trance",
-					"entries": [
-						"Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is \"trance.\") While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Languages",
-					"entries": [
-						"You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires."
-					],
-					"type": "entries"
-				}
-			],
-			"subraces": [
-				{
-					"name": "Bishatar and Tirahar",
-					"speed": 35,
-					"entries": [
-						{
-							"name": "Fleet of Foot",
-							"entries": [
-								"Your ground speed increases to 35 feet."
-							],
-							"type": "entries"
-						},
-						{
-							"name": "Mask of the Wild",
-							"entries": [
-								"You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
-							],
-							"type": "entries"
-						}
-					]
-				},
-				{
-					"name": "Vadahar",
-					"entries": [
-						{
-							"name": "Cantrip",
-							"entries": [
-								"You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it."
-							],
-							"type": "entries"
-						},
-						{
-							"name": "Extra Language",
-							"entries": [
-								"You can speak, read, and write one extra language of your choosing."
+								"Çalılıklar, sağanak yağmur, kar yağışı gibi doğal olaylar ile hafifçe örtülmüşken bile saklanmayı deneyebilirsin."
 							],
 							"type": "entries"
 						}
@@ -853,37 +400,37 @@
 			},
 			"entries": [
 				{
-					"name": "Age",
+					"name": "Yaş",
 					"type": "entries",
 					"entries": [
-						"Gnomes mature at the same rate humans do, and most are expected to settle down into an adult life by around age 40. They can live 350 to almost 500 years."
+						"Gnomelar insanlarla aynı hızda olgunlaşır ama çoğunun 40 yaşı civarı yetişkin hayatına geçmesi beklenir. 350 ile 500 yıl arası yaşayabilirler."
 					]
 				},
 				{
-					"name": "Alignment",
+					"name": "Yönelim",
 					"type": "entries",
 					"entries": [
-						"Gnomes are most often good. Those who tend toward law are sages, engineers, researchers, scholars, investigators, or inventors. Those who tend toward chaos are minstrels, tricksters, wanderers, or fanciful jewelers. Gnomes are good-hearted, and even the tricksters among them are more playful than vicious."
+						"Gnomelar genellikle iyidirler. Düzene doğru yönelenler bilge, mühendis, akademisyen, araştırmacı yada mucit olabilirler. Kaosa doğru yönelenler de ozan, hilekar, seyyah yada kuyumcu olabilirler. Gnomelar iyi kalplidirler, aralarındaki hilekarlar bile şiddettense şakaları tercih ederler."
 					]
 				},
 				{
-					"name": "Darkvision",
+					"name": "Gece Görüşü",
 					"entries": [
 						"Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Gnome Cunning",
+					"name": "Gnome Kurnazlığı",
 					"entries": [
-						"You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic."
+						"Büyüye karşı attığın tüm Zeka, Akıl ve Karizma kurtulma zarlarında avantajın olur."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Languages",
+					"name": "Diller",
 					"entries": [
-						"You can speak, read, and write Common and Gnomish. The Gnomish language, which uses the Dwarvish script, is renowned for its technical treatises and its catalogs of knowledge about the natural world."
+						"Gnomish ve Ortak Dili okuyabilir, yazabilir ve konuşabilirsin. Gnomish dili, Cücece dilinin harflerini kullanır ve bu dilde yazılmış teknik anlaşmalar ve doğal dünya ile ilgili bilgi katalogları ile ünlüdür."
 					],
 					"type": "entries"
 				}

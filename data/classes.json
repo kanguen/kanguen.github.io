@@ -7237,7 +7237,7 @@
 							{
 								"type": "list",
 								"items": [
-									"Senin oyun istatistiklerin hayvanınkilerle değişir ama hala kişiliğin, hizan ve Zeka, Akıl ve Karizma skorların aynı kalır. Varlığınkileri eklemenin yanında kendi becerilerin ve kurtulma zarı uzmanlıkların da kalır. Eğer varlık senle aynı uzmanlığa sahipse ve onun stat bloğundaki bonus daha yüksekse, kendi bonusun yerine varlığınkini kullanabilirsin. Eğer varlık herhangi bir efsanevi yada yuva eylemine sahipse bunları kullanamazsın.",
+									"Senin oyun istatistiklerin hayvanınkilerle değişir ama hala kişiliğin, yönelimin ve Zeka, Akıl ve Karizma skorların aynı kalır. Varlığınkileri eklemenin yanında kendi becerilerin ve kurtulma zarı uzmanlıkların da kalır. Eğer varlık senle aynı uzmanlığa sahipse ve onun stat bloğundaki bonus daha yüksekse, kendi bonusun yerine varlığınkini kullanabilirsin. Eğer varlık herhangi bir efsanevi yada yuva eylemine sahipse bunları kullanamazsın.",
 									"Dönüştüğünde hayvanın HP ve HD'sini kullanırsın. Eski formuna döndüğünde, dönüşmeden önceki HP sayısı ile devam edersin. Ama, eğer 0 HP'ye düşme sonucu eski formuna döndüysen fazlalık hasar normal formuna aktarılır. Örneğin, hayvan formunda 10 hasar aldın ve hayvan formunun sadece 1 HP'si kalmış, bu durumda eski formuna dönersin ve 9 hasar alırsın. Fazlalık hasar senin asıl formunu 0 HP'ye düşürmediği sürece bilinçsiz kalmazsın.",
 									"Büyü yapamazsın ve konuşman yada elle yapılacak tüm eylemlerin hayvan formu ile sınırlıdır. Dönüşmen daha önce kullandığın bir büyünün konsantrasyonunu bozmaz yada büyünün bir parçası olan eylemleri yapmanı engellemez, {@spell call lightning} büyüsü gibi.",
 									"Sınıfın, ırkın yada başka kaynaktan gelen özelliklerinden yeni formunda fiziksel olarak uygunsa faydalanabilirsin. Ama yeni formunda o duyuya sahip değilse, gece görüşü gibi duyulardan faydalanamazsın.",
@@ -15127,7 +15127,7 @@
 										"type": "entries",
 										"name": "İntikam Öğretileri",
 										"entries": [
-											"İntikam Yemini öğretileri her paladin için farklıdır ama bu öğretilerin hepsi yanlış yapanları ne pahasına olursa olsun cezalandırmaya yöneliktir. Bu öğretilere uyan paladinler adaleti sağlamak için kendi erdemlerinden vazgeçebilirler. Bu sebeple intikamcı paladinler genellikle hizalarında nötr yada kanuni nötr olurlar. Öğretilerin temel prensipleri çok basittir.",
+											"İntikam Yemini öğretileri her paladin için farklıdır ama bu öğretilerin hepsi yanlış yapanları ne pahasına olursa olsun cezalandırmaya yöneliktir. Bu öğretilere uyan paladinler adaleti sağlamak için kendi erdemlerinden vazgeçebilirler. Bu sebeple intikamcı paladinler genellikle yönelimlerinde nötr yada düzenli nötr olurlar. Öğretilerin temel prensipleri çok basittir.",
 											{
 												"type": "entries",
 												"entries": [
