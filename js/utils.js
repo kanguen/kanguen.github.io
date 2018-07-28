@@ -882,24 +882,24 @@ Parser.alignmentAbvToFull = function (alignment) {
 		alignment = alignment.toUpperCase();
 		switch (alignment) {
 			case "L":
-				return "Lawful";
+				return "Düzenli";
 			case "N":
-				return "Neutral";
+				return "Nötr";
 			case "NX":
-				return "Neutral (Law/Chaos axis)";
+				return "Nötr (Düzen ekseni)";
 			case "NY":
-				return "Neutral (Good/Evil axis)";
+				return "Nötr (İyi/Kötü Ekseni)";
 			case "C":
-				return "Chaotic";
+				return "Düzensiz";
 			case "G":
-				return "Good";
+				return "İyi";
 			case "E":
-				return "Evil";
+				return "Kötü";
 			// "special" values
 			case "U":
-				return "Unaligned";
+				return "Yönelimsiz";
 			case "A":
-				return "Any alignment";
+				return "Herhangi bir Yönelim";
 		}
 		return alignment;
 	}
@@ -1046,8 +1046,8 @@ Parser.TRAP_TYPE_TO_FULL["MAG"] = "Magical trap";
 Parser.TRAP_TYPE_TO_FULL["HAZ"] = "Hazard";
 
 Parser.ATK_TYPE_TO_FULL = {};
-Parser.ATK_TYPE_TO_FULL["MW"] = "Melee Weapon Attack";
-Parser.ATK_TYPE_TO_FULL["RW"] = "Ranged Weapon Attack";
+Parser.ATK_TYPE_TO_FULL["MW"] = "Yakın Dövüş Silahı Saldırısı";
+Parser.ATK_TYPE_TO_FULL["RW"] = "Menzilli Silah Saldırısı";
 
 SKL_ABV_ABJ = "A";
 SKL_ABV_EVO = "V";
@@ -1434,40 +1434,40 @@ Parser.SOURCE_JSON_TO_ABV[SRC_ToB_3PP] = "ToB (3pp)";
 Parser.SOURCE_JSON_TO_ABV[SRC_STREAM] = "Stream";
 
 Parser.ITEM_TYPE_JSON_TO_ABV = {
-	"A": "Ammunition",
-	"AF": "Ammunition",
-	"AT": "Artisan Tool",
-	"EXP": "Explosive",
-	"G": "Adventuring Gear",
-	"GS": "Gaming Set",
-	"HA": "Heavy Armor",
-	"INS": "Instrument",
-	"LA": "Light Armor",
-	"M": "Melee Weapon",
-	"MA": "Medium Armor",
-	"MNT": "Mount",
-	"GV": "Generic Variant",
-	"P": "Potion",
-	"R": "Ranged Weapon",
-	"RD": "Rod",
-	"RG": "Ring",
-	"S": "Shield",
-	"SC": "Scroll",
-	"SCF": "Spellcasting Focus",
-	"T": "Tool",
-	"TAH": "Tack and Harness",
-	"TG": "Trade Good",
-	"VEH": "Vehicle",
-	"SHP": "Vehicle",
-	"WD": "Wand"
+	"A": "Cephane",
+	"AF": "Cephane",
+	"AT": "Zanaatkar Aleti",
+	"EXP": "Patlayıcı",
+	"G": "Macera Eşyası",
+	"GS": "Oyun Seti",
+	"HA": "Ağır Zırh",
+	"INS": "Enstrüman",
+	"LA": "Hafif Zırh",
+	"M": "Yakın Dövüş Silahı",
+	"MA": "Orta Zırh",
+	"MNT": "Binek",
+	"GV": "Genel Alternatif",
+	"P": "İksir",
+	"R": "Menzilli Silah",
+	"RD": "Değnek",
+	"RG": "Yüzük",
+	"S": "Kalkan",
+	"SC": "Tomar",
+	"SCF": "Büyü Yapma Odağı",
+	"T": "Alet",
+	"TAH": "Koşum Takımı",
+	"TG": "Ticaret Malı",
+	"VEH": "Araç",
+	"SHP": "Araç",
+	"WD": "Asa"
 };
 
 Parser.DMGTYPE_JSON_TO_FULL = {
-	"B": "bludgeoning",
-	"N": "necrotic",
-	"P": "piercing",
-	"R": "radiant",
-	"S": "slashing"
+	"B": "ezme",
+	"N": "nekrotik",
+	"P": "delme",
+	"R": "radyant",
+	"S": "kesme"
 };
 
 Parser.SKILL_JSON_TO_FULL = {

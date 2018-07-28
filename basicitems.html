@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+	<!--5ETOOLS_VERSION-->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Sınıflar - 5eTürkçe</title>
+
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="favicon.png">
+
+	<script type="text/javascript" src="lib/js-cookie.js"></script>
+	<script type="text/javascript" src="js/styleswitch.js"></script>
+	<script type="text/javascript" src="js/navigation.js"></script>
+	<style>
+		/* hide these until the user clicks a class */
+		#classtable,
+		#button-wrapper,
+		#statsprof,
+		#sticky-nav {
+			display: none;
+		}
+
+		table#stats > tbody > tr > td {
+			padding: 0 0.8em;
+		}
+
+		#please-select-message.showing > td {
+			height: 40px;
+			color: #922610;
+			font-family: 'Calibri', serif;
+			font-variant: small-caps;
+			font-weight: 500;
+			line-height: 2.3em;
+			text-align: center;
+			font-size: 1.8em;
+		}
+
+		#please-select-message.showing > td::after {
+			content: "Sınıf ve altsınıf bilgilerini görmek için bir butona bas.";
+		}
+
+		.book-mode div.pnl-content {
+			min-height: 100vh;
+			flex: 7 0 0;
+			height: 100vh;
+			overflow-y: auto;
+		}
+
+		.book-mode div.pnl-menu::-webkit-scrollbar-track,
+		.book-mode div.pnl-content::-webkit-scrollbar-track {
+			background: #e0e0e0;
+		}
+
+		.book-mode div.pnl-menu {
+			min-height: 100vh;
+			min-width: 100px;
+			flex: 1 0 0;
+			display: flex;
+			flex-direction: column;
+			overflow-y: auto;
+		}
+
+		span.pnl-link {
+			font-size: 0.8em;
+			padding: 3px;
+			margin-bottom: 1px;
+			cursor: pointer;
+			user-select: none;
+		}
+
+		span.pnl-link-close {
+			margin-top: auto;
+		}
+
+		.wrp-btn-readmode {
+			margin-top: 10px;
+			margin-bottom: 5px;
+		}
+
+		#sticky-nav {
+			width: 100%;
+			position: sticky;
+			top: 15px;
+			overflow-y: hidden;
+			margin-top: 15px;
+			max-height: calc(100vh - 30px);
+			padding-right: 9px;
+			font-family: 'Calibri', serif;
+			font-variant: small-caps;
+			font-weight: 500;
+		}
+
+		#sticky-nav:hover {
+			overflow-y: auto;
+			padding-right: 0;
+		}
+
+		#sticky-nav .nav-head[data-state="0"] {
+			color: #00000020;
+		}
+
+		.night-mode #sticky-nav .nav-head[data-state="0"] {
+			color: #bbbbbb40;
+		}
+
+		#sticky-nav .nav-head[data-state="1"] .nav-outline:hover::after {
+			content: " (Hide)";
+			font-weight: initial;
+		}
+
+		#sticky-nav .nav-head[data-state="0"]:hover {
+			color: inherit;
+		}
+
+		#sticky-nav .nav-head[data-state="0"] .nav-outline:hover::after {
+			content: " (Show)";
+			font-weight: initial;
+		}
+
+		#sticky-nav .nav-outline {
+			font-weight: bold;
+			cursor: pointer;
+		}
+
+		#sticky-nav hr {
+			margin: 2px;
+		}
+
+		#sticky-nav div.nav-item {
+			cursor: pointer;
+			user-select: none;
+			max-height: 20px;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+			color: #922610;
+		}
+
+		#sticky-nav div.nav-item.blue {
+			color: #337ab7;
+		}
+
+		#sticky-nav div.nav-item.green {
+			color: #1d965d;
+		}
+
+		#sticky-nav div.nav-item.purple {
+			color: #8c3b96;
+		}
+
+		.night-mode #sticky-nav div.nav-item {
+			color: #d29a38;
+		}
+
+		.night-mode #sticky-nav div.nav-item.blue {
+			color: #609dd2;
+		}
+
+		.night-mode #sticky-nav div.nav-item.green {
+			color: #27ce80;
+		}
+
+		#sticky-nav div.nav-item:hover {
+			background: lightgrey;
+		}
+
+		#sticky-nav div.nav-item:active {
+			color: #e0e0e0;
+		}
+
+		.night-mode #sticky-nav div.nav-item:hover {
+			background: black;
+		}
+
+		#sticky-nav div.nav-item:active {
+			color: white;
+		}
+
+		#sticky-nav .n1 {
+			font-weight: bold;
+		}
+
+		#sticky-nav .n2 {
+		}
+
+		#sticky-nav .n3 {
+			padding-left: 10px;
+		}
+
+		#sticky-nav .n3::before {
+			content: '\2022  ';
+		}
+
+		#desktop-flex {
+			display: flex;
+		}
+
+		@media (max-width: 991px) {
+			.wrp-btn-readmode {
+				margin-top: 0;
+			}
+
+			#sticky-nav {
+				display: none;
+			}
+
+			#desktop-flex {
+				display: block;
+			}
+
+			#statsprof {
+				margin-bottom: 7px;
+			}
+		}
+
+		@media (max-width: 768px) {
+			.book-mode div.pnl-content {
+				min-height: 0;
+				overflow-y: initial;
+			}
+
+			.book-mode div.pnl-menu {
+				min-height: 200px;
+			}
+
+			.book-mode div.pnl-menu-pad {
+				display: none;
+			}
+
+			span.pnl-link-close {
+				margin-top: 0;
+			}
+		}
+	</style>
+</head>
+
+<body>
+<header class="hidden-xs hidden-sm">
+	<div class="container">
+
+		<h1>Sınıf Listesi</h1>
+		<p>Solda ismiyle ara, sağ tarafta görüntülenecektir.</p>
+	</div>
+</header>
+<nav class="container" id="navigation">
+	<ul class="nav nav-pills" id="navbar">
+	</ul>
+</nav>
+<main class="container bodyContent basicitems">
+	<div class="row">
+		<div class="container">
+			<h2>
+				Silahlar
+			</h2>
+			<table class="table table-condensed table-striped" style="background-color:Wheat;">
+				<h4>Basit Yakın Dövüş Silahları</h4>
+				<thead>
+					<tr>
+						<th>Silah</th>
+						<th>Fiyat</th>
+						<th>Hasar</th>
+						<th>Ağırlık</th>
+						<th>Özellikler</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Sopa</td>
+						<td>1 sp</td>
+						<td>1d4 Ezme</td>
+						<td>2 lb.</td>
+						<td>Hafif</td>
+					</tr>
+					<tr>
+						<td>Hançer</td>
+						<td>2 gp</td>
+						<td>1d4 Delme</td>
+						<td>1 lb.</td>
+						<td>Beceri, Hafif, Fırlatma(20/60)</td>
+					</tr>
+					<tr>
+						<td>Büyük Sopa</td>
+						<td>2 sp</td>
+						<td>1d8 Ezme</td>
+						<td>10 lb.</td>
+						<td>Çift El</td>
+					</tr>
+					<tr>
+						<td>El Baltası</td>
+						<td>5 gp</td>
+						<td>1d6 Kesme</td>
+						<td>2 lb.</td>
+						<td>Hafif, Fırlatma(20/60)</td>
+					</tr>
+					<tr>
+						<td>Cirit</td>
+						<td>5 sp</td>
+						<td>1d6 Delme</td>
+						<td>2 lb.</td>
+						<td>Fırlatma(30/120)</td>
+					</tr>
+					<tr>
+						<td>Hafif Çekiç</td>
+						<td>2 gp</td>
+						<td>1d4 Ezme</td>
+						<td>2 lb.</td>
+						<td>Hafif, Fırlatma(20/60)</td>
+					</tr>
+					<tr>
+						<td>Gürz</td>
+						<td>5 gp</td>
+						<td>1d6 Ezme</td>
+						<td>4 lb.</td>
+						<td>---</td>
+					</tr>
+					<tr>
+						<td>Asa</td>
+						<td>2 sp</td>
+						<td>1d6 Ezme</td>
+						<td>4 lb.</td>
+						<td>Değişken(1d8)</td>
+					</tr>
+					<tr>
+						<td>Orak</td>
+						<td>1 gp</td>
+						<td>1d4 Kesme</td>
+						<td>2 lb.</td>
+						<td>Hafif</td>
+					</tr>
+					<tr>
+						<td>Mızrak</td>
+						<td>1 gp</td>
+						<td>1d6 Delme</td>
+						<td>3 lb.</td>
+						<td>Fırlatma(20/60), Değişken(1d8)</td>
+					</tr>
+					<tr>
+						<td>Silahsız Saldırı</td>
+						<td>-</td>
+						<td>1 Ezme</td>
+						<td>-</td>
+						<td>---</td>
+					</tr>
+				</tbody>
+			</table>
+			<table class="table table-condensed table-striped" style="background-color:Wheat;">
+				<h4>Basit Menzilli Silahlar</h4>
+				<thead>
+					<tr>
+						<th>Silah</th>
+						<th>Fiyat</th>
+						<th>Hasar</th>
+						<th>Ağırlık</th>
+						<th>Özellikler</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Hafif Arbalet</td>
+						<td>25 gp</td>
+						<td>1d8 Delme</td>
+						<td>5 lb.</td>
+						<td>Cephane(80/320), Kurmalı, Çift El</td>
+					</tr>
+					<tr>
+						<td>Dart</td>
+						<td>5 cp</td>
+						<td>1d4 Delme</td>
+						<td>1/4 lb.</td>
+						<td>Beceri, Fırlatma(20/60)</td>
+					</tr>
+					<tr>
+						<td>Kısa Yay</td>
+						<td>25 gp</td>
+						<td>1d6 Delme</td>
+						<td>2 lb.</td>
+						<td>Cephane(80/320), Çift El</td>
+					</tr>
+					<tr>
+						<td>Sapan</td>
+						<td>1 sp</td>
+						<td>1d4 Ezme</td>
+						<td>-</td>
+						<td>Cephane(30/120)</td>
+					</tr>
+				</tbody>
+			<table class="table table-condensed table-striped" style="background-color:Wheat;">
+				<h4>Askeri Yakın Dövüş Silahları</h4>
+				<thead>
+					<tr>
+						<th>Silah</th>
+						<th>Fiyat</th>
+						<th>Hasar</th>
+						<th>Ağırlık</th>
+						<th>Özellikler</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Savaş Baltası</td>
+						<td>10 gp</td>
+						<td>1d8 Kesme</td>
+						<td>4 lb.</td>
+						<td>Değişken(1d10)</td>
+					</tr>
+					<tr>
+						<td>Zincirli Gürz</td>
+						<td>10 gp</td>
+						<td>1d8 Ezme</td>
+						<td>2 lb.</td>
+						<td>---</td>
+					</tr>
+					<tr>
+						<td>Baltalı Kargı</td>
+						<td>20 gp</td>
+						<td>1d10 Kesme</td>
+						<td>6 lb.</td>
+						<td>Ağır, Erişim, Çift El</td>
+					</tr>
+					<tr>
+						<td>Büyük Balta</td>
+						<td>30 gp</td>
+						<td>1d12 Kesme</td>
+						<td>7 lb.</td>
+						<td>Ağır, Çift El</td>
+					</tr>
+					<tr>
+						<td>Büyük Kılıç</td>
+						<td>50 gp</td>
+						<td>2d6 Kesme</td>
+						<td>6 lb.</td>
+						<td>Ağır, Çift El</td>
+					</tr>
+					<tr>
+						<td>Süvari Mızrağı</td>
+						<td>10 gp</td>
+						<td>1d12 Delme</td>
+						<td>6 lb.</td>
+						<td>Erişim, Özel*</td>
+					</tr>
+					<tr>
+						<td>Uzun Kılıç</td>
+						<td>15 gp</td>
+						<td>1d8 Kesme</td>
+						<td>3 lb.</td>
+						<td>Değişken(1d10)</td>
+					</tr>
+					<tr>
+						<td>Tokmak</td>
+						<td>10 gp</td>
+						<td>2d6 Ezme</td>
+						<td>10 lb.</td>
+						<td>Ağır, Çift El</td>
+					</tr>
+					<tr>
+						<td>Çivili Gürz</td>
+						<td>15 gp</td>
+						<td>1d8 Delme</td>
+						<td>4 lb.</td>
+						<td>---</td>
+					</tr>
+					<tr>
+						<td>Kargı</td>
+						<td>5 gp</td>
+						<td>1d10 Delme</td>
+						<td>18 lb.</td>
+						<td>Ağır, Erişim, Çift El</td>
+					</tr>
+					<tr>
+						<td>Meç</td>
+						<td>25 gp</td>
+						<td>1d8 Delme</td>
+						<td>2 lb.</td>
+						<td>Beceri, Hafif</td>
+					</tr>
+					<tr>
+						<td>Pala</td>
+						<td>25 gp</td>
+						<td>1d6 Kesme</td>
+						<td>3 lb.</td>
+						<td>Beceri, Hafif</td>
+					</tr>
+					<tr>
+						<td>Kısa Kılıç</td>
+						<td>10 gp</td>
+						<td>1d6 Delme</td>
+						<td>2 lb.</td>
+						<td>Beceri, Hafif</td>
+					</tr>
+					<tr>
+						<td>Üç Dişli Mızrak</td>
+						<td>5 gp</td>
+						<td>1d6 Delme</td>
+						<td>4 lb.</td>
+						<td>Fırlatma(20/60), Değişken(1d8)</td>
+					</tr>
+					<tr>
+						<td>Savaş Kazması</td>
+						<td>5 gp</td>
+						<td>1d8 Delme</td>
+						<td>2 lb.</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Savaş Çekici</td>
+						<td>15 gp</td>
+						<td>1d8 Ezme</td>
+						<td>2 lb.</td>
+						<td>Değişken(1d10)</td>
+					</tr>
+					<tr>
+						<td>Kırbaç</td>
+						<td>2 gp</td>
+						<td>1d4 Kesme</td>
+						<td>3 lb.</td>
+						<td>Beceri, Erişim</td>
+					</tr>
+				</tbody>
+				<table class="table table-condensed table-striped" style="background-color:Wheat;">
+					<h4>Askeri Menzilli Silahlar</h4>
+					<thead>
+					<tr>
+						<th>Silah</th>
+						<th>Fiyat</th>
+						<th>Hasar</th>
+						<th>Ağırlık</th>
+						<th>Özellikler</th>
+					</tr>	
+					</thead>
+					<tbody>
+						<tr>
+							<td>Dart Borusu</td>
+							<td>10 gp</td>
+							<td>1 Delme</td>
+							<td>1 lb.</td>
+							<td>Cephane(25/100), Kurmalı</td>
+						</tr>
+						<tr>
+							<td>El Arbaleti</td>
+							<td>75 gp</td>
+							<td>1d6 Delme</td>
+							<td>3 lb.</td>
+							<td>Cephane(30/120), Kurmalı, Hafif</td>
+						</tr>
+						<tr>
+							<td>Ağır Arbalet</td>
+							<td>50 gp</td>
+							<td>1d10 Delme</td>
+							<td>18 lb.</td>
+							<td>Cephane(100/400), Ağır, Kurmalı, Çift El</td>
+						</tr>
+						<tr>
+							<td>Uzun Yay</td>
+							<td>50 gp</td>
+							<td>1d10 Delme</td>
+							<td>2 lb.</td>
+							<td>Cephane(150/600), Ağır, Çift El</td>
+						</tr>
+						<tr>
+							<td>Ağ</td>
+							<td>1 gp</td>
+							<td>-</td>
+							<td>3 lb.</td>
+							<td>Fırlatma(5/15), Özel**</td>
+						</tr>
+					</tbody>
+				</table>
+			</table>
+			</table>
+		</div>
+		<div class="container">
+			<h2>Zırh ve Kalkanlar</h2>
+			<table class="table table-condensed table-striped" style="background-color:Wheat;">
+				<h4>Hafif Zırhlar</h4>
+				<thead>
+					<tr>
+						<th>Zırh</th>
+						<th>Fiyat</th>
+						<th>AC</th>
+						<th>Ağırlık</th>
+						<th>Özellikler</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Dolgu Zırh</td>
+						<td>5 gp</td>
+						<td>11 + Çvk bonusu</td>
+						<td>8 lb.</td>
+						<td>Gizlenme Dezavantajı</td>
+					</tr>
+					<tr>
+						<td>Deri Zırh</td>
+						<td>10 gp</td>
+						<td>11 + Çvk bonusu</td>
+						<td>10 lb.</td>
+						<td>---</td>
+					</tr>
+					<tr>
+						<td>Perçinli Deri Zırh</td>
+						<td>45 gp</td>
+						<td>12 + Çvk bonusu</td>
+						<td>13 lb.</td>
+						<td>---</td>
+					</tr>
+				</tbody>
+			</table>
+			<table class="table table-condensed table-striped" style="background-color:Wheat;">
+				<h4>Orta Zırhlar</h4>
+				<thead>
+					<tr>
+						<th>Zırh</th>
+						<th>Fiyat</th>
+						<th>AC</th>
+						<th>Ağırlık</th>
+						<th>Özellikler</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Post Zırh</td>
+						<td>10 gp</td>
+						<td>12 + Çvk bonusu (Max 2)</td>
+						<td>12 lb.</td>
+						<td>---</td>
+					</tr>
+					<tr>
+						<td>Örme Gömlek</td>
+						<td>50 gp</td>
+						<td>13 + Çvk bonusu (Max 2)</td>
+						<td>20 lb.</td>
+						<td>---</td>
+					</tr>
+					<tr>
+						<td>Pullu Zırh</td>
+						<td>50 gp</td>
+						<td>14 + Çvk bonusu (Max 2)</td>
+						<td>45 lb.</td>
+						<td>Gizlenme Dezavantajı</td>
+					</tr>
+					<tr>
+						<td>Göğüs Zırhı</td>
+						<td>400 gp</td>
+						<td>14 + Çvk bonusu (Max 2)</td>
+						<td>20 lb.</td>
+						<td>---</td>
+					</tr>
+					<tr>
+						<td>Yarı Plaka Zırh</td>
+						<td>750 gp</td>
+						<td>15 + Çvk bonusu (Max 2)</td>
+						<td>40 lb.</td>
+						<td>Gizlenme Dezavantajı</td>
+					</tr>
+				</tbody>
+				<table class="table table-condensed table-striped" style="background-color:Wheat;">
+				<h4>Ağır Zırhlar</h4>
+				<thead>
+					<tr>
+						<th>Zırh</th>
+						<th>Fiyat</th>
+						<th>AC</th>
+						<th>Ağırlık</th>
+						<th>Özellikler</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Halka Örme Zırh</td>
+						<td>30 gp</td>
+						<td>14</td>
+						<td>40 lb.</td>
+						<td>Gizlenme Dezavantajı</td>
+					</tr>
+					<tr>
+						<td>Örme Zırh</td>
+						<td>75 gp</td>
+						<td>16</td>
+						<td>55 lb.</td>
+						<td>Gizlenme Dezavantajı, Kuvvet(13)</td>
+					</tr>
+					<tr>
+						<td>Lamellar Zırh</td>
+						<td>200 gp</td>
+						<td>17</td>
+						<td>60 lb.</td>
+						<td>Gizlenme Dezavantajı, Kuvvet(15)</td>
+					</tr>
+					<tr>
+						<td>Plaka Zırh</td>
+						<td>1500 gp</td>
+						<td>18</td>
+						<td>65 lb.</td>
+						<td>Gizlenme Dezavantajı, Kuvvet(15)</td>
+					</tr>
+				</tbody>
+				<table class="table table-condensed table-striped" style="background-color:Wheat;">
+				<h4>Kalkan</h4>
+				<thead>
+					<tr>
+						<th>Zırh</th>
+						<th>Fiyat</th>
+						<th>AC</th>
+						<th>Ağırlık</th>
+						<th>Özellikler</th>
+					</tr>
+				</thead>
+				<tbody>
+					<td>Kalkan</td>
+					<td>10 gp</td>
+					<td>+2</td>
+					<td>6 lb.</td>
+					<td>---</td>
+				</tbody>
+			</table>
+		</div>
+		<div class="container">
+			<h2>Açıklamalar</h4>
+				<h4>Silah Özellikleri</h4>
+					<ul class="list-group">
+						<li class="list-group-item"><b>Hafif:</b> Çift silah ile savaşma stiline uygun silahlardır.</li>
+						<li class="list-group-item"><b>Beceri:</b> Ustalık isteyen kullanma şekli sayesinde saldırı ve hasar zarları için Kuvvet yerine Çeviklik kullanılabilir.</li>
+						<li class="list-group-item"><b>Ağır:</b> Boyutu ve ağırlığı sebebiyle Küçük boyuttaki varlıklar kullanırken saldırı zarlarında dezavantajlı olur.</li>	
+						<li class="list-group-item"><b>Kurmalı:</b> Silahı kullanırken kurma yada doldurma gerektirdiği için saldırı yaptığında normalde yapabileceğin saldırı sayısına bakmadan sadece bir adet misil atılabilir.</li>
+						<li class="list-group-item"><b>Menzil:</b> Menzilli yada Fırlatma özelliği olan silahlarda gösterilen iki menzilden birincisi etkili olduğu menzil, ikincisi de maksimum menzilidir. Etki menzilinin dışında yapılan saldırılar dezavantajlıdır ve maksimum menzilin dışına saldırı yapılamaz.</li>
+						<li class="list-group-item"><b>Erişim:</b> Bu silahlar yakın dövüş saldırı erişimine 5 feet ekler.</li>
+						<li class="list-group-item"><b>Fırlatma:</b> Bu yakın dövüş silahları verilen menzil içerisinde fırlatılarak kullanılabilirler. Bu tip saldırılar için normalde kullanılan yetenek bonusu kullanılır, örneğin el baltası için Kuvvet, bir hançer için Kuvvet yada Çeviklik kullanılabilir.</li>
+						<li class="list-group-item"><b>Çift El:</b> Bu silahlar için iki elini de kullanman gerekir.</li>
+						<li class="list-group-item"><b>Değişken:</b> Bu tip silahların kullanım şekli tek elli yada çift elli olarak değişebilir. Parantez içinde verilen zar çift elli kullanım hasarıdır.</li>
+						<li class="list-group-item"><b>Cephane:</b> Bu tip menzilli silahlar misil atarlar ve sadece cephaneleri olduğu sürece kullanılabilirler. Silaha cephane doldurabilmek için iki elini de kullanman gerekir.</li>
+						<li class="list-group-item"><b>Özel:</b> *Süvari mızrağı ile 5 feet yakınındaki hedeflere dezavantajlı saldırırsın ve binek üzerinde değilsen iki elli kullanman gerekir. ** Ağ ile vurulan Büyük yada daha küçük bir varlık kısıtlanır. Formu olmayan yada daha büyük varlıklar etkilenmez. Bir ağ ile saldırdığında normal yapabildiğin saldırı sayısına bakmadan sadece bir saldırı yapabilirsin. Kısıtlanan varlık yada yanındaki başka bir varlık eylemlerini kullanıp DC 10 Kuvvet beceri zarı atarak ağı kaldırabilir. Ağa 5 kesme hasarı vermekte (AC 10) varlığı serbest bırakacaktır.</li>
+					</ul>
+				<h4>Zırh Özellikleri</h4>
+					<ul class="list-group">
+						<li class="list-group-item"><b>Gizlenme Dezavantajı:</b> Zırhın hareket kısıtlaması ve metal parçaları yüzünden Çeviklik(Gizlenme) zarları dezavantajlı olur.</li>
+						<li class="list-group-item"><b>Kuvvet:</b> Zırhın ağırlığı yüzünden eğer belirli bir Kuvvet skoruna sahip değilsen hareket hızın 10 feet azalır.</li>
+						<li class="list-group-item"><b>Zırh Giyme ve Çıkarma:</b> Hafif zırhlar için zırh giyme ve çıkarma süresi birer dakikadır. Orta zırhlar için giyme 5 dakika çıkarma 1 dakika sürer. Ağır zırhları giyme 10 dakika çıkarma 5 dakika sürer. Çıkarma işlemine yardım alıyorsan süre yarılanır. Kalkan için kuşanma da bırakma da bir eylem sürer.</li>
+				</div>
+	</div>	
+
+
+</main>
+
+<footer class="container">
+
+</footer>    <!--5ETOOLS_SCRIPT_ANCHOR-->
+<script type="text/javascript" src="lib/jquery.js"></script>
+<script type="text/javascript" src="js/utils.js"></script>
+<script type="text/javascript" src="js/omnisearch.js"></script>
+<script type="text/javascript" src="js/filter.js"></script>
+<script type="text/javascript" src="js/entryrender.js"></script>
+<script type="text/javascript" src="js/history.js"></script>
+<script type="text/javascript" src="js/classes.js"></script>
+<script type="text/javascript" src="lib/list.js"></script>
+<script type="text/javascript" src="lib/bootstrap.js"></script>
+<script type="text/javascript" src="lib/elasticlunr.js"></script>
+</body>
+
+</html>

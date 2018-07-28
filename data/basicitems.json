@@ -1,12 +1,12 @@
 {
 	"basicitem": [
 		{
-			"name": "Battleaxe",
+			"name": "Savaş Baltası",
 			"type": "M",
 			"axe": true,
 			"weapon": true,
-			"weaponCategory": "Martial",
-			"rarity": "None",
+			"weaponCategory": "Askeri",
+			"rarity": "",
 			"value": "10gp",
 			"weight": "4",
 			"dmg1": "1d8",
@@ -658,233 +658,6 @@
 			"page": 149
 		},
 		{
-			"name": "Yklwa",
-			"type": "M",
-			"weapon": true,
-			"weaponCategory": "Simple",
-			"rarity": "None",
-			"value": "1gp",
-			"weight": "3",
-			"dmg1": "1d8",
-			"dmgType": "P",
-			"property": [
-				"T"
-			],
-			"range": "10/30",
-			"source": "ToA",
-			"page": 32,
-			"entries": [
-				"A yklwa (pronounced YICK-ul-wah) is a simple melee weapon that is the traditional weapon of Chultan warriors. A yklwa consists of a 3-foot wooden shaft with a steel or stone blade up to 18 inches long. Although it has the thrown weapon property, the yklwa is not well balanced for throwing."
-			]
-		},
-		{
-			"name": "Pistol",
-			"type": "R",
-			"technology": "Firearm",
-			"weapon": true,
-			"weaponCategory": "Martial",
-			"age": "Renaissance",
-			"rarity": "None",
-			"value": "250gp",
-			"weight": "3",
-			"dmg1": "1d10",
-			"dmgType": "P",
-			"property": [
-				"AF",
-				"LD"
-			],
-			"range": "30/90",
-			"source": "DMG",
-			"page": 268
-		},
-		{
-			"name": "Musket",
-			"type": "R",
-			"technology": "Firearm",
-			"weapon": true,
-			"weaponCategory": "Martial",
-			"age": "Renaissance",
-			"rarity": "None",
-			"value": "500gp",
-			"weight": "10",
-			"dmg1": "1d12",
-			"dmgType": "P",
-			"property": [
-				"AF",
-				"LD",
-				"2H"
-			],
-			"range": "40/120",
-			"source": "DMG",
-			"page": 268
-		},
-		{
-			"name": "Automatic Pistol",
-			"type": "R",
-			"technology": "Firearm",
-			"weapon": true,
-			"weaponCategory": "Martial",
-			"age": "Modern",
-			"rarity": "None",
-			"weight": "3",
-			"dmg1": "2d6",
-			"dmgType": "P",
-			"property": [
-				"AF",
-				"RLD"
-			],
-			"range": "50/150",
-			"reload": "15",
-			"source": "DMG",
-			"page": 268
-		},
-		{
-			"name": "Revolver",
-			"type": "R",
-			"technology": "Firearm",
-			"weapon": true,
-			"weaponCategory": "Martial",
-			"age": "Modern",
-			"rarity": "None",
-			"weight": "3",
-			"dmg1": "2d8",
-			"dmgType": "P",
-			"property": [
-				"AF",
-				"RLD"
-			],
-			"range": "40/120",
-			"reload": "6",
-			"source": "DMG",
-			"page": 268
-		},
-		{
-			"name": "Hunting Rifle",
-			"type": "R",
-			"technology": "Firearm",
-			"weapon": true,
-			"weaponCategory": "Martial",
-			"age": "Modern",
-			"rarity": "None",
-			"weight": "8",
-			"dmg1": "2d10",
-			"dmgType": "P",
-			"property": [
-				"AF",
-				"RLD",
-				"2H"
-			],
-			"range": "80/240",
-			"reload": "5",
-			"source": "DMG",
-			"page": 268
-		},
-		{
-			"name": "Automatic Rifle",
-			"type": "R",
-			"technology": "Firearm",
-			"weapon": true,
-			"weaponCategory": "Martial",
-			"age": "Modern",
-			"rarity": "None",
-			"weight": "8",
-			"dmg1": "2d8",
-			"dmgType": "P",
-			"property": [
-				"AF",
-				"BF",
-				"RLD",
-				"2H"
-			],
-			"range": "80/240",
-			"reload": "30",
-			"source": "DMG",
-			"page": 268
-		},
-		{
-			"name": "Shotgun",
-			"type": "R",
-			"technology": "Firearm",
-			"weapon": true,
-			"weaponCategory": "Martial",
-			"age": "Modern",
-			"rarity": "None",
-			"weight": "7",
-			"dmg1": "2d8",
-			"dmgType": "P",
-			"property": [
-				"AF",
-				"RLD",
-				"2H"
-			],
-			"range": "30/90",
-			"reload": "2",
-			"source": "DMG",
-			"page": 268
-		},
-		{
-			"name": "Laser Pistol",
-			"type": "R",
-			"technology": "Firearm",
-			"weapon": true,
-			"weaponCategory": "Martial",
-			"age": "Futuristic",
-			"rarity": "None",
-			"weight": "2",
-			"dmg1": "3d6",
-			"dmgType": "R",
-			"property": [
-				"AF",
-				"RLD"
-			],
-			"range": "30/120",
-			"reload": "50",
-			"source": "DMG",
-			"page": 268
-		},
-		{
-			"name": "Antimatter Rifle",
-			"type": "R",
-			"technology": "Firearm",
-			"weapon": true,
-			"weaponCategory": "Martial",
-			"age": "Futuristic",
-			"rarity": "None",
-			"weight": "10",
-			"dmg1": "6d8",
-			"dmgType": "N",
-			"property": [
-				"AF",
-				"RLD",
-				"2H"
-			],
-			"range": "120/360",
-			"reload": "2",
-			"source": "DMG",
-			"page": 268
-		},
-		{
-			"name": "Laser Rifle",
-			"type": "R",
-			"technology": "Firearm",
-			"weapon": true,
-			"weaponCategory": "Martial",
-			"age": "Futuristic",
-			"rarity": "None",
-			"weight": "7",
-			"dmg1": "3d8",
-			"dmgType": "R",
-			"property": [
-				"AF",
-				"RLD",
-				"2H"
-			],
-			"range": "100/300",
-			"reload": "30",
-			"source": "DMG",
-			"page": 268
-		},
-		{
 			"name": "Arrow",
 			"type": "A",
 			"ammunition": true,
@@ -965,38 +738,7 @@
 			"page": 150
 		},
 		{
-			"name": "Renaissance Bullets (10)",
-			"type": "AF",
-			"ammunition": true,
-			"age": "Renaissance",
-			"rarity": "None",
-			"value": "3gp",
-			"weight": "2",
-			"source": "DMG",
-			"page": 268
-		},
-		{
-			"name": "Modern Bullets (10)",
-			"type": "AF",
-			"ammunition": true,
-			"age": "Modern",
-			"rarity": "None",
-			"weight": "1",
-			"source": "DMG",
-			"page": 268
-		},
-		{
-			"name": "Energy Cell",
-			"type": "AF",
-			"ammunition": true,
-			"age": "Futuristic",
-			"rarity": "None",
-			"weight": "0.3125",
-			"source": "DMG",
-			"page": 268
-		},
-		{
-			"name": "Breastplate",
+			"name": "Göğüs Zırhı",
 			"type": "MA",
 			"armor": true,
 			"rarity": "None",
@@ -1010,7 +752,7 @@
 			]
 		},
 		{
-			"name": "Chain Mail",
+			"name": "Örme Zırh",
 			"type": "HA",
 			"armor": true,
 			"rarity": "None",
@@ -1026,7 +768,7 @@
 			]
 		},
 		{
-			"name": "Chain Shirt",
+			"name": "Örme Gömlek",
 			"type": "MA",
 			"armor": true,
 			"rarity": "None",
@@ -1040,7 +782,7 @@
 			]
 		},
 		{
-			"name": "Half Plate Armor",
+			"name": "Yarı Plaka Zırh",
 			"type": "MA",
 			"armor": true,
 			"rarity": "None",
@@ -1055,7 +797,7 @@
 			]
 		},
 		{
-			"name": "Hide Armor",
+			"name": "Post Zırh",
 			"type": "MA",
 			"armor": true,
 			"rarity": "None",
@@ -1069,7 +811,7 @@
 			]
 		},
 		{
-			"name": "Leather Armor",
+			"name": "Deri Zırh",
 			"type": "LA",
 			"armor": true,
 			"rarity": "None",
@@ -1083,7 +825,7 @@
 			]
 		},
 		{
-			"name": "Padded Armor",
+			"name": "Dolgu Zırh",
 			"type": "LA",
 			"armor": true,
 			"rarity": "None",
@@ -1098,7 +840,7 @@
 			]
 		},
 		{
-			"name": "Plate Armor",
+			"name": "Plaka Zırh",
 			"type": "HA",
 			"armor": true,
 			"rarity": "None",
@@ -1114,7 +856,7 @@
 			]
 		},
 		{
-			"name": "Ring Mail",
+			"name": "Halka Örmeli Zırh",
 			"type": "HA",
 			"armor": true,
 			"rarity": "None",
@@ -1129,7 +871,7 @@
 			]
 		},
 		{
-			"name": "Scale Mail",
+			"name": "Pullu Zırh",
 			"type": "MA",
 			"armor": true,
 			"rarity": "None",
@@ -1144,7 +886,7 @@
 			]
 		},
 		{
-			"name": "Spiked Armor",
+			"name": "Dikenli Zırh",
 			"type": "MA",
 			"armor": true,
 			"value": "75gp",
@@ -1160,7 +902,7 @@
 			]
 		},
 		{
-			"name": "Splint Armor",
+			"name": "Lamellar Zırh",
 			"type": "HA",
 			"armor": true,
 			"rarity": "None",
@@ -1176,7 +918,7 @@
 			]
 		},
 		{
-			"name": "Studded Leather Armor",
+			"name": "Perçinli Deri Zırh",
 			"type": "LA",
 			"armor": true,
 			"rarity": "None",
@@ -1190,7 +932,7 @@
 			]
 		},
 		{
-			"name": "Shield",
+			"name": "Kalkan",
 			"type": "S",
 			"rarity": "None",
 			"value": "10gp",

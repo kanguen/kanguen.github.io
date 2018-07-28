@@ -89,6 +89,7 @@ function populateTablesAndFilters (data) {
 		sortClass: "none"
 	};
 	mundanelist = ListUtil.search(mundaneOptions);
+
 	const magicOptions = {
 		valueNames: ["name", "type", "weight", "rarity", "source"],
 		listClass: "magic",
