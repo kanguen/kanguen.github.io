@@ -230,10 +230,10 @@ function loadhash (id) {
 		$pgContent.append(`
 		<tbody>
 		${EntryRenderer.utils.getBorderTr()}
-		<tr><th class="name" colspan="6">Name</th></tr>
-		<tr><td id="ability" colspan="6">Ability Scores: <span>+1 Dex</span></td></tr>
-		<tr><td id="size" colspan="6">Size: <span>Medium</span></td></tr>
-		<tr><td id="speed" colspan="6">Speed: <span>30 ft.</span></td></tr>
+		<tr><th class="name" colspan="6">İsim</th></tr>
+		<tr><td id="ability" colspan="6">Yetenek Skorları: <span>+1 Dex</span></td></tr>
+		<tr><td id="size" colspan="6">Boyut: <span>Medium</span></td></tr>
+		<tr><td id="speed" colspan="6">Hız: <span>30 ft.</span></td></tr>
 		<tr id="traits"><td class="divider" colspan="6"><div></div></td></tr>
 		${EntryRenderer.utils.getBorderTr()}
 		</tbody>		
@@ -266,12 +266,12 @@ function loadhash (id) {
 	}
 
 	const traitTab = EntryRenderer.utils.tabButton(
-		"Traits",
+		"Özellikler",
 		() => {},
 		buildStatsTab
 	);
 	const infoTab = EntryRenderer.utils.tabButton(
-		"Info",
+		"Bilgi",
 		() => {},
 		() => {
 			function get$Tr () {

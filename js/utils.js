@@ -921,14 +921,14 @@ Parser.alignmentListToFull = function (alignList) {
 	// "L", "NX", "C" ("NX" = "neutral X" = neutral law/chaos axis)
 	// "G", "NY", "E" ("NY" = "neutral Y" = neutral good/evil axis)
 	if (alignList.length === 5) {
-		if (!alignList.includes("G")) return "any non-good alignment";
-		if (!alignList.includes("L")) return "any non-lawful alignment";
+		if (!alignList.includes("G")) return "İyi dışında herhangi bir yönelim";
+		if (!alignList.includes("L")) return "Düzenli dışında herhangi bir yönelim";
 	}
 	if (alignList.length === 4) {
-		if (!alignList.includes("L") && !alignList.includes("NX")) return "any chaotic alignment";
-		if (!alignList.includes("G") && !alignList.includes("NY")) return "any evil alignment";
-		if (!alignList.includes("C") && !alignList.includes("NX")) return "any lawful alignment";
-		if (!alignList.includes("E") && !alignList.includes("NY")) return "any good alignment";
+		if (!alignList.includes("L") && !alignList.includes("NX")) return "Herhangi bir düzensiz yönelim";
+		if (!alignList.includes("G") && !alignList.includes("NY")) return "Herhangi bir kötü yönelim";
+		if (!alignList.includes("C") && !alignList.includes("NX")) return "Herhangi bir düzenli yönelim";
+		if (!alignList.includes("E") && !alignList.includes("NY")) return "Herhangi bir iyi yönelim";
 	}
 	throw new Error(`Unmapped alignment: ${JSON.stringify(alignList)}`);
 };
@@ -1139,8 +1139,8 @@ SZ_COLOSSAL = "C";
 SZ_VARIES = "V";
 Parser.SIZE_ABV_TO_FULL = {};
 Parser.SIZE_ABV_TO_FULL[SZ_FINE] = "Fine";
-Parser.SIZE_ABV_TO_FULL[SZ_DIMINUTIVE] = "Diminutive";
-Parser.SIZE_ABV_TO_FULL[SZ_TINY] = "Minik";
+Parser.SIZE_ABV_TO_FULL[SZ_DIMINUTIVE] = "Minik";
+Parser.SIZE_ABV_TO_FULL[SZ_TINY] = "Ufak";
 Parser.SIZE_ABV_TO_FULL[SZ_SMALL] = "Küçük";
 Parser.SIZE_ABV_TO_FULL[SZ_MEDIUM] = "Orta";
 Parser.SIZE_ABV_TO_FULL[SZ_LARGE] = "Büyük";

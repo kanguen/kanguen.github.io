@@ -1226,10 +1226,10 @@ EntryRenderer.spell = {
 			${EntryRenderer.utils.getBorderTr()}
 			${EntryRenderer.utils.getNameTr(spell)}
 			<tr><td class="levelschoolritual" colspan="6"><span>${Parser.spLevelSchoolMetaToFull(spell.level, spell.school, spell.meta)}</span></td></tr>
-			<tr><td class="castingtime" colspan="6"><span class="bold">Casting Time: </span>${Parser.spTimeListToFull(spell.time)}</td></tr>
-			<tr><td class="range" colspan="6"><span class="bold">Range: </span>${Parser.spRangeToFull(spell.range)}</td></tr>
-			<tr><td class="components" colspan="6"><span class="bold">Components: </span>${Parser.spComponentsToFull(spell.components)}</td></tr>
-			<tr><td class="range" colspan="6"><span class="bold">Duration: </span>${Parser.spDurationToFull(spell.duration)}</td></tr>
+			<tr><td class="castingtime" colspan="6"><span class="bold">Kullanma Süresi: </span>${Parser.spTimeListToFull(spell.time)}</td></tr>
+			<tr><td class="range" colspan="6"><span class="bold">Menzil: </span>${Parser.spRangeToFull(spell.range)}</td></tr>
+			<tr><td class="components" colspan="6"><span class="bold">Bileşenler: </span>${Parser.spComponentsToFull(spell.components)}</td></tr>
+			<tr><td class="range" colspan="6"><span class="bold">Süre: </span>${Parser.spDurationToFull(spell.duration)}</td></tr>
 			${EntryRenderer.utils.getDividerTr()}
 		`);
 
@@ -1242,13 +1242,13 @@ EntryRenderer.spell = {
 		}
 		renderStack.push(`</td></tr>`);
 
-		renderStack.push(`<tr class="text"><td class="classes" colspan="6"><span class="bold">Classes: </span>${Parser.spMainClassesToFull(spell.classes)}</td></tr>`);
+		renderStack.push(`<tr class="text"><td class="classes" colspan="6"><span class="bold">Sınıflar: </span>${Parser.spMainClassesToFull(spell.classes)}</td></tr>`);
 
 		if (spell.classes.fromSubclass) {
 			const currentAndLegacy = Parser.spSubclassesToCurrentAndLegacyFull(spell.classes);
-			renderStack.push(`<tr class="text"><td colspan="6"><span class="bold">Subclasses: </span>${currentAndLegacy[0]}</td></tr>`);
+			renderStack.push(`<tr class="text"><td colspan="6"><span class="bold">Altsınıflar: </span>${currentAndLegacy[0]}</td></tr>`);
 			if (currentAndLegacy[1]) {
-				renderStack.push(`<tr class="text"><td colspan="6"><section class="text-muted"><span class="bold">Subclasses (legacy): </span>${currentAndLegacy[1]}</section></td></tr>`);
+				renderStack.push(`<tr class="text"><td colspan="6"><section class="text-muted"><span class="bold">Altsınıflar (eski): </span>${currentAndLegacy[1]}</section></td></tr>`);
 			}
 		}
 
@@ -1362,9 +1362,9 @@ EntryRenderer.race = {
 			<tr><td colspan="6">
 				<table class="summary striped-even">
 					<tr>
-						<th class="col-xs-4 text-align-center">Ability Sores</th>
-						<th class="col-xs-4 text-align-center">Size</th>
-						<th class="col-xs-4 text-align-center">Speed</th>
+						<th class="col-xs-4 text-align-center">Yetenek Skorları</th>
+						<th class="col-xs-4 text-align-center">Boyut</th>
+						<th class="col-xs-4 text-align-center">Hız</th>
 					</tr>
 					<tr>
 						<td class="text-align-center">${ability.asText}</td>

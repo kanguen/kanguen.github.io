@@ -1,26 +1,26 @@
 {
 	"race": [
 		{
-			"name": "Dwarf",
+			"name": "Cüce",
 			"source": "PHB",
 			"entries": [
-				"Kingdoms rich in ancient grandeur, halls carved into the roots of mountains, the echoing of picks and hammers in deep mines and blazing forges, a commitment to clan and tradition, and a burning hatred of goblins and orcs-these common threads unite all dwarves.",
+				"Kadim görkemi ile zengin krallıklar, dağların köküne oyulmuş salonlar, derin madenler ve kızgın ocaklardan yankılanan kazma ve çekiç sesleri, klan ve geleneğe bağlılık, goblinler ve orclara karşı alevli bir nefret tüm cüceleri birleştiren özelliklerdir.",
 				{
 					"type": "entries",
-					"name": "Short and Stout",
+					"name": "Kısa ve Tıknaz",
 					"entries": [
-						"Bold and hardy, dwarves are known as skilled warriors, miners, and workers of stone and metal. Though they stand well under 5 feet tall, dwarves are so broad and compact that they can weigh as much as a human standing nearly two feet taller. Their courage and endurance are also easily a match for any of the larger folk.",
-						"Dwarven skin ranges from deep brown to a paler hue tinged with red, but the most common shades are light brown or deep tan, like certain tones of earth.",
-						"Their hair, worn long but in simple styles, is usually black, gray, or brown, though paler dwarves often have red hair. Male dwarves value their beards highly and groom them carefully."
+						"Cesur ve dayanaklı cüceler becerikli savaşçılar, madenciler, taş ve metal işçileri olarak bilinirler. 5 feetin altında kalsalarda o kadar geniş ve sıkıdırlar ki kendilerinden 2 feet uzun bir insanla aynı ağırlığa sahip olabilirler. Cesaretleri ve dayanaklılıkları iri halka taş çıkartacak seviyededir.",
+						"Cüce teni koyu kahverenginden kırmızı tonlarında çok daha açık renklere varan çeşitliliktedir ama en sık görülen ten rengi açık kahve ve bronzdur, aynı toprağın renkleri gibi.",
+						"Saçları uzun ama basit stillerde olur. Genelde siyah, gri yada kahverengidir ama açık tenli cüceler sıkça kırmızı saçlı görülür. Erkekleri sakallarına çok değer verir ve onlara özenle bakarlar."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Long Memory, Long Grudges",
+					"name": "Uzun Hafızalar, Uzun Kinler",
 					"entries": [
-						"Dwarves can live to be more than 400 years old, so the oldest living dwarves often remember a very different world. For example, some of the oldest dwarves living in Citadel Felbarr (in the world of the Forgotten Realms) can recall the day, more than three centuries ago, when orcs conquered the fortress and drove them into an exile that lasted over 250 years. This longevity grants them a perspective on the world that shorter-lived races such as humans and halflings lack.",
-						"Dwarves are solid and enduring like the mountains they love, weathering the passage of centuries with stoic endurance and little change. They respect the traditions of their clans, tracing their ancestry back to the  founding of their most ancient strongholds in the youth of the world, and don't abandon those traditions lightly. Part of those traditions is devotion to the gods of the dwarves, who uphold the dwarven ideals of industrious labor, skill in battle, and devotion to the forge.",
-						"Individual dwarves are determined and loyal, true to their word and decisive in action, sometimes to the point of stubbornness. Many dwarves have a strong sense of justice, and they are slow to forget wrongs they have suffered. A wrong done to one dwarf is a wrong done to the dwarf's entire clan, so what begins as one dwarf's hunt for vengeance can become a full-blown clan feud."
+						"Cüceler 400 yaş üzerine kadar yaşayabilirler ve en yaşlıları genelde farklı bir dünya hatırlar. Örneğin, Felbarr Kalesinde (Unutulmuş Diyarlar dünyasından) yaşayan en yaşlı cüceler üç asır önce orcların kaleyi ele geçirişini ve onları 250 yıl sürecek bir sürgüne gönderişini dün gibi hatırlar. Bu kalıcılık onlara insanlar yada buçukluklar gibi kısa ömürlü ırklardan farklı bir dünyevi bakış açısı kazandırır.",
+						"Cüceler sevdikleri dağlar gibi sert ve dayanıklıdır, yüzyılların geçişine sabırlı bir direnç ve çok az değişim ile katlanırlar. Klanlarının geleneklerine saygı duyarlar, soylarını dünyanın daha genç olduğu günlerdeki kadim krallıklara kadar dayandırabilirler ve bu gelenekleri nadir terkederler. Bu geleneklerin bir kısmı da cücelerin tanrılarına bağlılıktır. Bu tanrılar cüce ülküleri olan işçilik, ocağa bağlılık ve savaş becerisini öğretir.",
+						"Bireysel cüceler kararlı ve sadık olurlar, sözlerinin eri ve eylemlerinde kati. Bazen bu inatçılığa kadar gidebilir. Çoğu cücenin güçlü bir adalet duygusu olur ve onlara yapılan yanlışları unutmakta acele etmezler. Bir cüceye yapılan yanlış o cücenin tüm klanına yapılan bir yanlıştır. Bu yüzden bir cücenin intikam arayışı şiddetli bir kan davasına dönüşebilir."
 					]
 				},
 				{

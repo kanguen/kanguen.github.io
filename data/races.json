@@ -437,7 +437,7 @@
 			],
 			"subraces": [
 				{
-					"name": "Deep/Svirfneblin",
+					"name": "Derin/Svirfneblin",
 					"source": "EEPC",
 					"darkvision": 120,
 					"page": 5,
@@ -446,113 +446,113 @@
 					},
 					"entries": [
 						{
-							"name": "Age",
+							"name": "Yaş",
 							"type": "entries",
 							"entries": [
-								"Deep gnomes are short-lived for gnomes. They mature at the same rate humans do and are considered full-grown adults by 25. They live 200 to 250 years, although hard toil and the dangers of the Underdark often claim them before their time."
+								"Derin gnomelar ırklarına göre daha kısa yaşar. İnsanlarla aynı hızda olgunlaşırlar ve 25 yaşında bir yetişkin olarak görülürler. 200 ile 250 yıl arası yaşarlar ama Yeraltının acımasız yapısı onlara nadir bu fırsatı verir."
 							],
 							"data": {
-								"overwrite": "Age"
+								"overwrite": "Yaş"
 							}
 						},
 						{
-							"name": "Alignment",
+							"name": "Yönelim",
 							"type": "entries",
 							"entries": [
-								"Svirfneblin believe that survival depends on avoiding entanglements with other creatures and not making enemies, so they favor neutral alignments. They rarely wish others ill, and they are unlikely to take risks on behalf of others."
+								"Svirfneblin hayatta kalmanın diğer varlıklar ile karışıklıklara girmemek ve düşman sahibi olmamaktan geçtiğine inanır ve genelde nötr kalırlar. Diğerlerinin kötülüğünü istemezler ama diğerleri için riskte almazlar."
 							],
 							"data": {
-								"overwrite": "Alignment"
+								"overwrite": "Yönelim"
 							}
 						},
 						{
-							"name": "Superior Darkvision",
+							"name": "Üstün Gece Görüşü",
 							"entries": [
-								"Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+								"Yeraltında hayata alışkın gözleri karanlıkta ve loş ışıkta üstün görüş sağlar. Loş ışıkta 120 feete kadar parlak ışıkmış gibi, karanlıkta loş ışıkmış gibi görürsün. Karanlıkta renk ayırt edemezsin, sadece grinin tonları olur."
 							],
 							"data": {
-								"overwrite": "Darkvision"
+								"overwrite": "Gece Görüşü"
 							},
 							"type": "entries"
 						},
 						{
-							"name": "Stone Camouflage",
+							"name": "Taş Kamuflajı",
 							"entries": [
-								"You have advantage on Dexterity (Stealth) checks to hide in rocky terrain."
+								"Kayalık arazide atacağın Çeviklik (Gizlenme) zarlarında avantajın olur."
 							],
 							"type": "entries"
 						},
 						{
-							"name": "Languages",
+							"name": "Diller",
 							"entries": [
-								"You can speak, read, and write Common, Gnomish, and Undercommon. The svirfneblin dialect is more guttural than surface Gnomish, and most svirfneblin know only a little bit of Common, but those who deal with outsiders (and that includes you as an adventurer) pick up enough Common to get by in other lands."
+								"Gnomish, Ortak ve Altortak dillerini okuyabilir, yazabilir ve konuşabilirsin. Svirfneblin lehçesi yüzey Gnomish'e göre daha gırtlaktan konuşulan bir dildir ve çoğu svirfneblin çok az Ortak dil konuşabilir. Ama dış dünya ile iletişimde olan bir svirfneblin (bir maceracı olarak seni de içerir) diğer diyarlarda ona yetecek kadar Ortak dil öğrenir."
 							],
 							"data": {
-								"overwrite": "Languages"
+								"overwrite": "Diller"
 							},
 							"type": "entries"
 						}
 					]
 				},
 				{
-					"name": "Forest",
+					"name": "Orman",
 					"ability": {
 						"dex": 1
 					},
 					"entries": [
 						{
-							"name": "Natural Illusionist",
+							"name": "Doğal İllüzyonist",
 							"entries": [
-								"You know the {@spell minor illusion} cantrip. Intelligence is your spellcasting ability for it."
+								"{@spell minor illusion} cantripini bilirsin. Bunun için büyü yapma yeteneğin Zekadır."
 							],
 							"type": "entries"
 						},
 						{
-							"name": "Speak with Small Beasts",
+							"name": "Küçük Hayvanlarla Konuş",
 							"entries": [
-								"Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts. Forest gnomes love animals and often keep squirrels, badgers, rabbits, moles, woodpeckers, and other creatures as beloved pets."
+								"Küçük yada daha küçük hayvanlar ile ses ve vücut dili yardımıyla basit kavramları konuşabilirsin. Orman gnomeları hayvanları severler ve genellikle sincap, gelincik, köstebek, tavşan, ağaçkakan gibi hayvanları evcil hayvanları olarak beslerler."
 							],
 							"type": "entries"
 						}
 					]
 				},
 				{
-					"name": "Rock",
+					"name": "Kaya",
 					"ability": {
 						"con": 1
 					},
 					"entries": [
 						{
-							"name": "Artificer's Lore",
+							"name": "Zanaatkarın Bilgisi",
 							"entries": [
-								"Whenever you make an Intelligence (History) check related to magic items, alchemical objects, or technological devices, you can add twice your proficiency bonus, instead of any proficiency bonus you normally apply."
+								"Ne zaman büyülü eşyalar, simya nesneleri yada teknolojik icatlara dair bir Zeka (Tarih) zarı atarsan, normalde eklediğin uzmanlık bonusun yerine uzmanlık bonusunun iki katını eklersin."
 							],
 							"type": "entries"
 						},
 						{
-							"name": "Tinker",
+							"name": "Mucit",
 							"entries": [
-								"You have proficiency with artisan's tools (tinker's tools). Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time.",
-								"When you create a device, choose one of the following options:",
+								"Mucitin aletleri ile uzmanlığın olur. Bu aletleri kullanarak 1 saat ve 10 gp değerinde materyal harcayıp Ufak bir kurmalı cihaz (AC 5, 1 HP) yapabilirsin. Cihaz 1 saat harcayıp tamir etmediğin sürece 24 saat sonra bozulur, yada eylemini kullanıp sökebilirsin. Bu şekilde harcadığın materyal yeniden kullanılabilir. Aynı anda bu tip 3 aktif cihazın olabilir.",
+								"Bir cihaz yarattığında bu seçeneklerden birini seç:",
 								{
 									"type": "entries",
-									"name": "Clockwork Toy",
+									"name": "Kurmalı Oyuncak",
 									"entries": [
-										"This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents."
+										"Bu kurmalı hayvan, yaratık yada insan şekilde bir oyuncaktır. Yere koyulduğunda, oyuncak senin her sıranda yüzeyde rastgele bir yöne 5 feet ilerler. Temsil ettiği varlığa uygun sesler çıkarır."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Fire Starter",
+									"name": "Çakmak",
 									"entries": [
-										"The device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your action."
+										"Bu cihaz mum, meşale yada kamp ateşi tutuşturmak için ufak bir alev yaratır. Cihazı eylem olarak kullanabilirsin."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Music Box",
+									"name": "Müzik Kutusu",
 									"entries": [
-										"When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song's end or when it is closed."
+										"Açıldığında bu müzik kutusu tek bir notayı orta bir seste çalar. Kutu kapatıldığında yada şarkının sonuna geldiğinde müzik sonlanır."
 									]
 								}
 							],
@@ -563,7 +563,7 @@
 			]
 		},
 		{
-			"name": "Dragonborn",
+			"name": "Ejderdoğan",
 			"source": "PHB",
 			"page": 32,
 			"size": "M",
@@ -574,30 +574,30 @@
 			},
 			"entries": [
 				{
-					"name": "Age",
+					"name": "Yaş",
 					"type": "entries",
 					"entries": [
-						"Young dragonborn grow quickly. They walk hours after hatching, attain the size and development of a 10-year-old human child by the age of 3, and reach adulthood by 15. They live to be around 80."
+						"Genç Ejderdoğanlar çabuk büyür. Yumurtadan çıktıktan saatler sonra yürümeye başlarlar, 3 yaşına geldiklerinde 10 yaşındaki bir insan çocuğu gelişimdedirler ve yetişkinliğe 15 yaşında ulaşırlar. 80 yaşına kadar yaşayabilirler."
 					]
 				},
 				{
-					"name": "Alignment",
+					"name": "Yönelim",
 					"type": "entries",
 					"entries": [
-						"Dragonborn tend to extremes, making a conscious choice for one side or the other in the cosmic war between good and evil (represented by Bahamut and Tiamat, respectively). Most dragonborn are good, but those who side with Tiamat can be terrible villains."
+						"Ejderdoğanlar uçlara yönelirler, kosmik savaşta iyi yada kötüyü seçerler (Bahamut ve Tiamat tarafında temsil edilir). Çoğu ejderdoğan iyidir ama Tiamat tarafında olanlar korkunç kötüler olabilirler."
 					]
 				},
 				{
-					"name": "Draconic Ancestry",
+					"name": "Draconic Soy",
 					"entries": [
-						"You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as shown in the table.",
+						"Draconic soyun vardır. Draconic Soy tablosundan bir ejder tipi seç. Nefes silahın ve hasar direncin tabloda gösterildği şekilde bu ejder tipi ile belirlenir.",
 						{
 							"type": "table",
-							"caption": "Draconic Ancestry",
+							"caption": "Draconic Soy",
 							"colLabels": [
-								"Dragon",
-								"Damage Type",
-								"Breath Weapon"
+								"Ejder",
+								"Hasar Tipi",
+								"Nefes Silahı"
 							],
 							"colStyles": [
 								"col-xs-3 text-align-center",
@@ -606,54 +606,54 @@
 							],
 							"rows": [
 								[
-									"Black",
-									"Acid",
-									"5 by 30ft. line (Dex. save)"
+									"Siyah",
+									"Asit",
+									"30ft. uzunluğu 5 ft. genişliğinde hat (Çvk. kurtulması)"
 								],
 								[
-									"Blue",
-									"Lightning",
-									"5 by 30ft. line (Dex. save)"
+									"Mavi",
+									"Yıldırım",
+									"30ft. uzunluğu 5 ft. genişliğinde hat (Çvk. kurtulması)"
 								],
 								[
-									"Brass",
-									"Fire",
-									"5 by 30ft. line (Dex. save)"
+									"Pirinç",
+									"Ateş",
+									"30ft. uzunluğu 5 ft. genişliğinde hat (Çvk. kurtulması)"
 								],
 								[
-									"Bronze",
-									"Lightning",
-									"5 by 30ft. line (Dex. save)"
+									"Bronz",
+									"Yıldırım",
+									"30ft. uzunluğu 5 ft. genişliğinde hat (Çvk. kurtulması)"
 								],
 								[
-									"Copper",
-									"Acid",
-									"5 by 30ft. line (Dex. save)"
+									"Bakır",
+									"Asit",
+									"30ft. uzunluğu 5 ft. genişliğinde hat (Çvk. kurtulması)"
 								],
 								[
-									"Gold",
-									"Fire",
-									"15ft. cone (Dex. save)"
+									"Altın",
+									"Ateş",
+									"15ft. koni (Çvk. kurtulması)"
 								],
 								[
-									"Green",
-									"Poison",
-									"15ft. cone (Con. save)"
+									"Yeşil",
+									"Zehir",
+									"15ft. koni (Dyn. kurtulması)"
 								],
 								[
-									"Red",
-									"Fire",
-									"15ft. cone (Dex. save)"
+									"Kırmızı",
+									"Ateş",
+									"15ft. koni (Çvk. kurtulması)"
 								],
 								[
-									"Silver",
-									"Cold",
-									"15ft. cone (Con. save)"
+									"Gümüş",
+									"Soğuk",
+									"15ft. koni (Dyk. kurtulması)"
 								],
 								[
-									"White",
-									"Cold",
-									"15ft. cone (Con. save)"
+									"Beyaz",
+									"Soğuk",
+									"15ft. koni (Dyk. kurtulması)"
 								]
 							]
 						}
@@ -661,25 +661,25 @@
 					"type": "entries"
 				},
 				{
-					"name": "Breath Weapon",
+					"name": "Nefes Silahı",
 					"entries": [
-						"You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.",
-						"When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.",
-						"After you use your breath weapon, you can't use it again until you complete a short or long rest."
+						"Eylemini kullanarak yıkıcı bir enerji nefesi üfleyebilirsin. Draconic soyun bu üflemenin şekli, boyutu ve hasar tipini belirler.",
+						"Nefes silahını kullandığında, nefesin alanındaki tüm varlıklar kurtulma zarı atar, tipi draconic soyun tarafından belirlenir. Bu kurtulma zarı DC'si 8 + Dayanıklılık bonusun + uzmanlık bonusundur. Başarısız bir varlık 2d6 hasar alır, başarılı olanlar yarısını. Hasar 6. seviyede 3d6, 11. seviyede 4d6 ve 16. seviyede 5d6 olur.",
+						"Nefes silahını kullandıktan sonra yeniden kullanabilmek için kısa yada uzun dinlenme bitirmen gerekir."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Damage Resistance",
+					"name": "Hasar Direnci",
 					"entries": [
-						"You have resistance to the damage type associated with your draconic ancestry."
+						"Draconic soyunla ilişkili hasar tipine direncin olur."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Languages",
+					"name": "Diller",
 					"entries": [
-						"You can speak, read, and write Common and Draconic. Draconic is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants."
+						"Draconic ve Ortak dili okuyabilir, yazabilir ve konuşabilirsin. Draconic dilinin en eski dillerden biri olduğu düşünülür ve sıklıkla büyü araştırmalarında kullanılır. Dilde bolca sert ünsüz vardır ve kulağa kaba gelir."
 					],
 					"type": "entries"
 				}
@@ -697,58 +697,58 @@
 			},
 			"entries": [
 				{
-					"name": "Age",
+					"name": "Yaş",
 					"type": "entries",
 					"entries": [
-						"Goliaths have lifespans comparable to humans. They enter adulthood in their late teens and usually live less than a century."
+						"Goliathların ömürleri insanlar ile aynıdır. Ergenlik sonu yetişkinliğe girerler ve yüzyıldan az yaşarlar."
 					]
 				},
 				{
-					"name": "Alignment",
+					"name": "Yönelim",
 					"type": "entries",
 					"entries": [
-						"Goliath society, with its clear roles and tasks, has a strong lawful bent. The goliath sense of fairness, balanced with an emphasis on self sufficiency and personal accountability, pushes them toward neutrality."
+						"Goliath toplumu, belirgin görevleri ve rolleri ile güçlü bir düzene sahiptir. Goliath adalet anlayışı, kendine yetme ve bireysel sorumluluklar ile dengelenip toplumu nötrlüğe iter."
 					]
 				},
 				{
-					"name": "Natural Athlete",
+					"name": "Doğal Atlet",
 					"entries": [
-						"You have proficiency in the Athletics skill."
+						"Atletizm becerisinde uzmanlığın vardır."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Stone's Endurance",
+					"name": "Taşın Dayanıklılığı",
 					"entries": [
-						"You can focus yourself to occasionally shrug off injury. When you take damage, you can use your reaction to roll a d12. Add your Constitution modifier to the number rolled, and reduce the damage by that total. After you use this trait, you can't use it again until you finish a short or long rest."
+						"Zaman zaman odaklanarak yaralanmaları engelleyebilirsin. Hasar aldığında reaksiyonunu kullanıp d12 atabilirsin. Sonuca Dayanıklılık bonusunu da ekleyip toplamı aldığın hasardan düşürürsün. Bu özelliği kullandıktan sonra yeniden kullanabilmek için kısa yada uzun dinlenme bitirmen gerekir."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Powerful Build",
+					"name": "Güçlü Yapı",
 					"entries": [
-						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+						"İtme, çekme, kaldırma ve taşıma kapasiten hesaplanırken bir boy büyük sayılırsın."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Mountain Born",
+					"name": "Dağda Doğan",
 					"entries": [
-						"You're acclimated to high altitude, including elevations above 20,000 feet. You're also naturally adapted to cold climates, as described in chapter 5 of the Dungeon Master's Guide."
+						"20.000 feete kadar olan yüksekliklere alışkınsın. Doğal olarak soğuk iklimlere de adaptesin."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Languages",
+					"name": "Diller",
 					"entries": [
-						"You can speak, read, and write Common and Giant."
+						"Dev ve Ortak dillerini okuyabilir, yazabilir ve konuşabilirsin."
 					],
 					"type": "entries"
 				}
 			]
 		},
 		{
-			"name": "Half-Elf",
+			"name": "Yarı-Elf",
 			"source": "PHB",
 			"page": 38,
 			"size": "M",
@@ -771,234 +771,58 @@
 			},
 			"entries": [
 				{
-					"name": "Age",
+					"name": "Yaş",
 					"type": "entries",
 					"entries": [
-						"Half-elves mature at the same rate humans do and reach adulthood around the age of 20. They live much longer than humans, however, often exceeding 180 years."
+						"Yarı-elfler insanlarla aynı hızda olgunlaşırlar ve 20 yaş civarında yetişkin sayılırlar. İnsanlardan çok daha uzun yaşarlar, sıkça 180 yaşını geçtikleri görülmüştür."
 					]
 				},
 				{
-					"name": "Alignment",
+					"name": "Yönelim",
 					"type": "entries",
 					"entries": [
-						"Half-elves share the chaotic bent of their elven heritage. They value both personal freedom and creative expression, demonstrating neither love of leaders nor desire for followers. They chafe at rules, resent others' demands, and sometimes prove unreliable, or at least unpredictable."
+						"Yarı-elfler elf atalarının düzensizliğe eğilimini paylaşırlar. Hem kişisel özgürlüğe hem de yaratıcı ifadeye değer verirler ve ne liderlere sevgileri olur nede takipçi toplama arzuları. Kurallara gülerler, diğerlerinin taleplerine burun kıvırırlar ve bazen güvenilmez olabilirler."
 					]
 				},
 				{
-					"name": "Ability Score Increase",
+					"name": "Yetenek Skoru Artışı",
 					"entries": [
-						"Two different ability scores of your choice increase by 1."
+						"Seçeceğin iki yetenek skorun 1 artar."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Darkvision",
+					"name": "Gece Görüşü",
 					"entries": [
-						"Thanks to your elf blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+						"Elf kanın sayesinde karanlık ve loş ortamlarda üstün görüşün olur. 60 feet yakınında loş ışığı parlak ışık gibi, karanlıkta ise loş ışık gibi görürsün. Karanlıkta renk ayırt edemezsin, sadece grinin tonları olur."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Fey Ancestry",
+					"name": "Fey Soyu",
 					"entries": [
-						"You have advantage on saving throws against being {@condition charmed}, and magic can't put you to sleep."
+						"Cezbedilmeye karşı attığın kurtulma zarlarında avantajın vardır be büyü seni uyutamaz."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Skill Versatility",
+					"name": "Beceri Çokluğu",
 					"entries": [
-						"You gain proficiency in two skills of your choice."
+						"Seçeceğin iki beceride uzmanlık kazanırsın."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Languages",
+					"name": "Diller",
 					"entries": [
-						"You can speak, read, and write Common, Elvish, and one extra language of your choice."
+						"Elfçe, Ortak ve seçeceğin bir dilde okuyabilir, yazabilir ve konuşabilirsin."
 					],
 					"type": "entries"
-				}
-			],
-			"subraces": [
-				{},
-				{
-					"name": "Wood Elf Descent",
-					"source": "SCAG",
-					"page": 116,
-					"entries": [
-						{
-							"type": "inset",
-							"name": "Variant Feature (Choose 1)",
-							"entries": [
-								{
-									"name": "Skill Versatility",
-									"entries": [
-										"You gain proficiency in two skills of your choice."
-									],
-									"type": "entries"
-								},
-								{
-									"name": "Keen Senses",
-									"entries": [
-										"You have proficiency in the Perception skill."
-									],
-									"type": "entries"
-								},
-								{
-									"name": "Elf Weapon Training",
-									"entries": [
-										"You have proficiency with the longsword, shortsword, shortbow, and longbow."
-									],
-									"type": "entries"
-								},
-								{
-									"name": "Fleet of Foot",
-									"entries": [
-										"Your base walking speed increases to 35 feet."
-									],
-									"type": "entries"
-								},
-								{
-									"name": "Mask of the Wild",
-									"entries": [
-										"You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
-									],
-									"type": "entries"
-								}
-							],
-							"data": {
-								"overwrite": "Skill Versatility"
-							}
-						}
-					]
-				},
-				{
-					"name": "Moon Elf or Sun Elf Descent",
-					"source": "SCAG",
-					"page": 116,
-					"entries": [
-						{
-							"type": "inset",
-							"name": "Variant Feature (Choose 1)",
-							"entries": [
-								{
-									"name": "Skill Versatility",
-									"entries": [
-										"You gain proficiency in two skills of your choice."
-									],
-									"type": "entries"
-								},
-								{
-									"name": "Keen Senses",
-									"entries": [
-										"You have proficiency in the Perception skill."
-									],
-									"type": "entries"
-								},
-								{
-									"name": "Elf Weapon Training",
-									"entries": [
-										"You have proficiency with the longsword, shortsword, shortbow, and longbow."
-									],
-									"type": "entries"
-								},
-								{
-									"name": "Cantrip",
-									"entries": [
-										"You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it."
-									],
-									"type": "entries"
-								}
-							],
-							"data": {
-								"overwrite": "Skill Versatility"
-							}
-						}
-					]
-				},
-				{
-					"name": "Drow Descent",
-					"source": "SCAG",
-					"page": 116,
-					"entries": [
-						{
-							"type": "inset",
-							"name": "Variant Feature (Choose 1)",
-							"entries": [
-								{
-									"name": "Skill Versatility",
-									"entries": [
-										"You gain proficiency in two skills of your choice."
-									],
-									"type": "entries"
-								},
-								{
-									"name": "Keen Senses",
-									"entries": [
-										"You have proficiency in the Perception skill."
-									],
-									"type": "entries"
-								},
-								{
-									"name": "Drow Magic",
-									"entries": [
-										"You know the {@spell dancing lights} cantrip. When you reach 3rd level, you can cast the {@spell faerie fire} spell once per day; you must finish a long rest in order to cast the spell again using this trait. When you reach 5th level, you can also cast the {@spell darkness} spell once per day; you must finish a long rest in order to cast the spell again using this trait. Charisma is your spellcasting ability for these spells."
-									],
-									"type": "entries"
-								}
-							],
-							"data": {
-								"overwrite": "Skill Versatility"
-							}
-						}
-					]
-				},
-				{
-					"name": "Aquatic Elf Descent",
-					"speed": {
-						"walk": 30,
-						"swim": 30
-					},
-					"source": "SCAG",
-					"page": 116,
-					"entries": [
-						{
-							"type": "inset",
-							"name": "Variant Feature (Choose 1)",
-							"entries": [
-								{
-									"name": "Skill Versatility",
-									"entries": [
-										"You gain proficiency in two skills of your choice."
-									],
-									"type": "entries"
-								},
-								{
-									"name": "Keen Senses",
-									"entries": [
-										"You have proficiency in the Perception skill."
-									],
-									"type": "entries"
-								},
-								{
-									"name": "Swim",
-									"entries": [
-										"You gain a swimming speed of 30ft."
-									],
-									"type": "entries"
-								}
-							],
-							"data": {
-								"overwrite": "Skill Versatility"
-							}
-						}
-					]
 				}
 			]
 		},
 		{
-			"name": "Half-Orc",
+			"name": "Yarı-Orc",
 			"source": "PHB",
 			"page": 40,
 			"size": "M",
@@ -1010,58 +834,58 @@
 			},
 			"entries": [
 				{
-					"name": "Age",
+					"name": "Yaş",
 					"type": "entries",
 					"entries": [
-						"Half-orcs mature a little faster than humans, reaching adulthood around age 14. They age noticeably faster and rarely live longer than 75 years."
+						"Yarı-orclar insanlardan biraz daha hızlı olgunlaşır, yetişkinliğe 14 yaş civarı girerler. Belirgin bir şekilde hızlı yaşlanırlar ve nadiren 75 yaş üstünü görürler."
 					]
 				},
 				{
-					"name": "Alignment",
+					"name": "Yönelim",
 					"type": "entries",
 					"entries": [
-						"Half-orcs inherit a tendency toward chaos from their orc parents and are not strongly inclined toward good. Half-orcs raised among orcs and willing to live out their lives among them are usually evil."
+						"Yarı-orclara orc atalarından kaosa yönelim ve iyiliğe yatkın olmama kalmıştır. Orclar arasında yetişmiş ve istekli bir şekilde orada yaşayan yarı-orclar çoğunlukla kötüdür."
 					]
 				},
 				{
-					"name": "Darkvision",
+					"name": "Gece Görüşü",
 					"entries": [
-						"Thanks to your orc blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+						"Orc kanın sayesinde karanlık ve loş ortamlarda üstün görüşe sahipsin. 60 feet yakınında loş ışığı parlak ışık gibi, karanlıkta da loş ışık gibi görürsün. Karanlıkta renk ayırt edemezsin, sadece grinin tonları olur."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Menacing",
+					"name": "Korkutucu",
 					"entries": [
-						"You gain proficiency in the Intimidation skill."
+						"Korkutma becerisinde uzmanlığın vardır."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Relentless Endurance",
+					"name": "Amansız Dayanıklılık",
 					"entries": [
-						"When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest."
+						"0 HP'ye düşürülür ve doğrudan öldürülmezsen, bunun yerine 1 HP'ye düşmeyi seçebilirsin. Bu özelliği uzun dinlenme bitirene kadar bir daha kullanamazsın."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Savage Attacks",
+					"name": "Acımasız Saldırılar",
 					"entries": [
-						"When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."
+						"Bir yakın dövüş silahı ile yaptığın saldırıda kritik vurursan, silahın hasar zarlarından birini yeniden atıp hasara ekleyebilirsin."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Languages",
+					"name": "Diller",
 					"entries": [
-						"You can speak, read, and write Common and Orc. Orc is a harsh, grating language with hard consonants. It has no script of its own but is written in the Dwarvish script."
+						"Orc ve Ortak dillerini okuyabilir, yazabilir ve konuşabilirsin. Orc dili sert ünsüzleri olan gırtlaktan konuşulan bir dildir. Kendi harfleri yoktur ama Cüce dilinin harfleri ile yazılır."
 					],
 					"type": "entries"
 				}
 			]
 		},
 		{
-			"name": "Dwarf",
+			"name": "Cüce",
 			"source": "PHB",
 			"page": 18,
 			"size": "M",
@@ -1072,95 +896,95 @@
 			},
 			"entries": [
 				{
-					"name": "Age",
+					"name": "Yaş",
 					"type": "entries",
 					"entries": [
-						"Dwarves mature at the same rate as humans, but they're considered young until they reach the age of 50. On average, they live about 350 years."
+						"Cüceler insanlarla aynı hızda olgunlaşırlar ama 50 yaşına gelene kadar hala genç sayılırlar. Ortalama olarak 350 yıl yaşarlar."
 					]
 				},
 				{
-					"name": "Alignment",
+					"name": "Yönelim",
 					"type": "entries",
 					"entries": [
-						"Most dwarves are lawful, believing firmly in the benefits of a well-ordered society. They tend toward good as well, with a strong sense of fair play and a belief that everyone deserves to share in the benefits of a just order."
+						"Çoğu cüce düzenlidir ve sıkı düzeni olan bir toplumun faydalı olduğuna inanır. İyiliğe de yatkındırlar, güçlü bir adalet algısı ve herkesin düzenli bir toplumdan faydalanma hakkı olduğu inancı onları bu yöne iter."
 					]
 				},
 				{
-					"name": "Speed",
+					"name": "Hız",
 					"entries": [
-						"Your speed is not reduced by wearing heavy armor."
+						"Ağır zırh giymek hızını düşürmez."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Darkvision",
+					"name": "Gece Görüşü",
 					"entries": [
-						"Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+						"Yer altında yaşamaya alışkın olduğun için karanlık ve loş ortamlarda üstün görüşün vardır. 60 feet yakınında loş ışığı parlak ışık gibi, karanlıkta da loş ışık gibi görürsün. Karanlıkta renk ayırt edemezsin, sadece grinin tonları olur."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Dwarven Resilience",
+					"name": "Cüce Bünyesi",
 					"entries": [
-						"You have advantage on saving throws against poison, and you have resistance against poison damage."
+						"Zehre karşı kurtulma zarlarında avantajın olur ve zehir hasarına karşı direncin vardır."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Dwarven Combat Training",
+					"name": "Cüce Savaş Eğitimi",
 					"entries": [
-						"You have proficiency with the battleaxe, handaxe, light hammer, and warhammer."
+						"Savaş baltası, el baltası, hafif çekiç ve savaş çekici ile uzmanlıkların vardır."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Tool Proficiency",
+					"name": "Alet Uzmanlığı",
 					"entries": [
-						"You gain proficiency with the artisan's tools of your choice: smith's tools, brewer's supplies, or mason's tools."
+						"Demirci aletleri, taşçı aletleri yada mayacı malzemeleri seçeneklerinden birinde uzmanlık kazanırsın."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Stonecunning",
+					"name": "Taş Kurnazlığı",
 					"entries": [
-						"Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
+						"Bir taş işinin aslı ile ilgili atacağın Zeka (Tarih) zarlarında uzman sayılırsın ve normal uzmanlık bonusun yerine iki katını eklersin."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Languages",
+					"name": "Diller",
 					"entries": [
-						"You can speak, read, and write Common and Dwarvish. Dwarvish is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak."
+						"Cücece ve Ortak dili okuyabilir, yazabilir ve konuşabilirsin. Cücece sert ünsüzler ve diyaframdan seslerle doludur ve bu özellikler bir cücenin konuşacağı diğer dillere de yansıyabilir."
 					],
 					"type": "entries"
 				}
 			],
 			"subraces": [
 				{
-					"name": "Hill",
+					"name": "Tepe",
 					"ability": {
 						"wis": 1
 					},
 					"entries": [
 						{
-							"name": "Dwarven Toughness",
+							"name": "Cüce Sertliği",
 							"entries": [
-								"Your hit point maximum increases by 1, and it increases by 1 every time you gain a level."
+								"HP maksimumun 1 artar ve her seviye alışında 1 yükselir."
 							],
 							"type": "entries"
 						}
 					]
 				},
 				{
-					"name": "Mountain",
+					"name": "Dağ",
 					"ability": {
 						"str": 2
 					},
 					"entries": [
 						{
-							"name": "Dwarven Armor Training",
+							"name": "Cüce Zırh Eğitimi",
 							"entries": [
-								"You have proficiency with light and medium armor."
+								"Hafif ve orta zırhlarla uzmanlığın olur."
 							],
 							"type": "entries"
 						}
@@ -1175,43 +999,43 @@
 					},
 					"entries": [
 						{
-							"name": "Superior Darkvision",
+							"name": "Üstün Gece Görüşü",
 							"entries": [
-								"Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+								"Yer altında yaşamaya alışkın olduğun için karanlık ve loş ortamlarda üstün görüşün vardır. 120 feet yakınında loş ışığı parlak ışık gibi, karanlıkta da loş ışık gibi görürsün. Karanlıkta renk ayırt edemezsin, sadece grinin tonları olur."
 							],
 							"data": {
-								"overwrite": "Darkvision"
+								"overwrite": "Gece Görüşü"
 							},
 							"type": "entries"
 						},
 						{
-							"name": "Duergar Resilience",
+							"name": "Duergar Bünyesi",
 							"entries": [
-								"You have advantage on saving throws against poison, and you have resistance against poison damage. You also have advantage on saving throws against illusions and against being {@condition charmed} or {@condition paralyzed}."
+								"Zehre karşı atacağın kurtulma zarlarında avantajın ve zehir hasarına karşı direncin olur. İllüzyonlar, cezbedilme ve felç olmaya karşı atacağın kurtulma zarlarında da avantajın vardır."
 							],
 							"type": "entries"
 						},
 						{
-							"name": "Languages",
+							"name": "Diller",
 							"entries": [
-								"You can speak, read, and write Common, Dwarvish, and Undercommon."
+								"Cücece, Ortak ve Altortak dillerini okuyabilir, yazabilir ve konuşabilirsin."
 							],
 							"data": {
-								"overwrite": "Languages"
+								"overwrite": "Diller"
 							},
 							"type": "entries"
 						},
 						{
-							"name": "Duergar Magic",
+							"name": "Duergar Büyüsü",
 							"entries": [
-								"When you reach 3rd level, you can cast the {@spell Enlarge/Reduce} spell on yourself once with this trait, using only the spell's enlarge option. When reach 5th level, you can cast the {@spell Invisibility} spell on yourself once with this trait. You don't need material components for either spell, and you can't cast them while you're in direct sunlight, although sunlight has no effect on them once cast. You regain the ability to cast these spells with this trait when you finish a long rest. Intelligence is your spellcasting ability for these spells."
+								"3. seviyeye ulaştığında {@spell Enlarge/Reduce} büyüsünü kendi üzerinde sadece büyüme özelliği ile bir kere kullanabilirsin. 5. seviyeye ulaştığında {@spell Invisibility} büyüsünü kendi üzerinde bir kere kullanabilirsin. Bu büyüler için materyal bileşenlere ihtiyaç duymazsın ve doğrudan günışığında kullanamazsın. Günışığı büyüler zaten kullanılmışsa bir etki göstermez. Bu özellik ile büyüleri yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. Bu büyüler için büyü yapma yeteneğin Zekadır."
 							],
 							"type": "entries"
 						},
 						{
-							"name": "Sunlight Sensitivity",
+							"name": "Günışığı Hassasiyeti",
 							"entries": [
-								"You have disadvantage on attack rolls and Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
+								"Sen, hedefin yada algılamak istediğin şey doğrudan günışığında olduğu sürece görüş gerektiren saldırı ve Akıl(Algılama) zarlarında dezavantajın olur."
 							],
 							"type": "entries"
 						}
@@ -1220,30 +1044,30 @@
 			]
 		},
 		{
-			"name": "Human",
+			"name": "İnsan",
 			"source": "PHB",
 			"page": 29,
 			"size": "M",
 			"speed": 30,
 			"entries": [
 				{
-					"name": "Age",
+					"name": "Yaş",
 					"type": "entries",
 					"entries": [
-						"Humans reach adulthood in their late teens and live less than a century."
+						"İnsanlar yetişkinliğe ergenlik sonrası girerler ve yüzyıldan az yaşarlar."
 					]
 				},
 				{
-					"name": "Alignment",
+					"name": "Yönelim",
 					"type": "entries",
 					"entries": [
-						"Humans tend toward no particular alignment. The best and the worst are found among them."
+						"İnsanların belirgin bir yönelimi yoktur. Aralarında en iyisi de kötüsü de bulunabilir."
 					]
 				},
 				{
-					"name": "Languages",
+					"name": "Diller",
 					"entries": [
-						"You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on."
+						"Ortak ve seçeceğin bir dili okuyabilir, yazabilir ve konuşabilirsin. İnsanlar genel olarak iletişime geçtikleri diğer halkların dillerini öğrenirler, nadir lehçelerde buna dahildir. Dillerine diğer dillerden aldıkları sözcükleri serpiştirmeyi severler: Orc küfürleri, Elf müzik ifadeleri, Cüce askeri kalıpları, vb..."
 					],
 					"type": "entries"
 				}
@@ -1260,7 +1084,7 @@
 					}
 				},
 				{
-					"name": "Variant",
+					"name": "Alternatif",
 					"ability": {
 						"choose": [
 							{
@@ -1278,16 +1102,16 @@
 					},
 					"entries": [
 						{
-							"name": "Skills",
+							"name": "Beceri",
 							"entries": [
-								"You gain proficiency in one skill of your choice."
+								"Seçeceğin bir beceride uzmanlık kazanırsın."
 							],
 							"type": "entries"
 						},
 						{
 							"name": "Feat",
 							"entries": [
-								"You gain one feat of your choice."
+								"Seçeceğin bir feat kazanırsın."
 							],
 							"type": "entries"
 						}
@@ -1296,7 +1120,7 @@
 			]
 		},
 		{
-			"name": "Halfling",
+			"name": "Buçukluk",
 			"source": "PHB",
 			"page": 26,
 			"size": "S",
@@ -1306,81 +1130,81 @@
 			},
 			"entries": [
 				{
-					"name": "Age",
+					"name": "Yaş",
 					"type": "entries",
 					"entries": [
-						"A halfling reaches adulthood at the age of 20 and generally lives into the middle of his or her second century."
+						"Bir buçukluk 20 yaş civarı yetişkinliğe girer ve genelde ikinci yüzyılının ortalarına kadar yaşar."
 					]
 				},
 				{
-					"name": "Alignment",
+					"name": "Yönelim",
 					"type": "entries",
 					"entries": [
-						"Most halflings are lawful good. As a rule, they are good-hearted and kind, hate to see others in pain, and have no tolerance for oppression. They are also very orderly and traditional, leaning heavily on   the support of their community and the comfort of their old ways."
+						"Çoğu buçukluk düzenli iyidir. Kural olarak iyi kalpli ve naziktirler, diğerlerini acı içinde görmekten nefret ederler ve baskıya karşı hiç toleransları yoktur. Aynı zamanda çok düzenli ve gelenekseldirler, toplumlarının desteğine ve eski yollarının huzuruna güvenirler."
 					]
 				},
 				{
-					"name": "Lucky",
+					"name": "Şanslı",
 					"entries": [
-						"When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll."
+						"Bir saldırı, yetenek yada kurtulma zarında 1 atarsan zarı yeniden atıp ikinci sonucu kullanabilirsin."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Brave",
+					"name": "Cesur",
 					"entries": [
-						"You have advantage on saving throws against being {@condition frightened}."
+						"Korkmaya karşı atacağın kurtulma zarlarında avantajın olur."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Halfling Nimbleness",
+					"name": "Buçukluk Çevikliği",
 					"entries": [
-						"You can move through the space of any creature that is of a size larger than yours."
+						"Senden bir boyut büyük olan bir varlığın alanından geçebilirsin."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Languages",
+					"name": "Diller",
 					"entries": [
-						"You can speak, read, and write Common and Halfling. The Halfling language isn't secret, but halflings are loath to share it with others. They write very little, so they don't have a rich body of literature. Their oral tradition, however, is very strong. Almost all halflings speak Common to converse with the people in whose lands they dwell or through which they are traveling."
+						"Buçukluk ve Ortak dili okuyabilir, yazabilir ve konuşabilirsin. Buçukluk dili bir sır değildir ama buçukluklar onu diğerleri ile paylaşmayı sevmez. Nadir yazarlar, bu yüzden zengin bir edebiyatları yoktur. Buna rağmen sözlü gelenekleri çok güçlüdür. Neredeyse tüm buçukluklar seyahat boyunca karşılaştıkları yada birlikte yaşadıkları kişiler ile konuşabilmek için Ortak dili öğrenirler."
 					],
 					"type": "entries"
 				}
 			],
 			"subraces": [
 				{
-					"name": "Lightfoot",
+					"name": "Tez Ayak",
 					"ability": {
 						"cha": 1
 					},
 					"entries": [
 						{
-							"name": "Naturally Stealthy",
+							"name": "Doğal Gizlenme",
 							"entries": [
-								"You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you."
+								"Senden sadece bir boyut büyük bir varlığın örtüsünde bile gizlenmeyi deneyebilirsin."
 							],
 							"type": "entries"
 						}
 					]
 				},
 				{
-					"name": "Stout",
+					"name": "Tıknaz",
 					"ability": {
 						"con": 1
 					},
 					"entries": [
 						{
-							"name": "Stout Resilience",
+							"name": "Tıknaz Bünye",
 							"entries": [
-								"You have advantage on saving throws against poison, and you have resistance against poison damage."
+								"Zehre karşı atacağın kurtulma zarlarında avantajın ve zehir hasarına direncin olur."
 							],
 							"type": "entries"
 						}
 					]
 				},
 				{
-					"name": "Ghostwise",
+					"name": "Ruh Bilgini",
 					"source": "SCAG",
 					"page": 110,
 					"ability": {
@@ -1388,137 +1212,9 @@
 					},
 					"entries": [
 						{
-							"name": "Silent Speech",
+							"name": "Sessiz Konuşma",
 							"entries": [
-								"You can speak telepathically to any creature within 30 feet of you. The creature understands you only if the two of you share a language. You can speak telepathically in this way to one creature at a time."
-							],
-							"type": "entries"
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Shifter",
-			"speed": 30,
-			"source": "UAEberron",
-			"page": 2,
-			"size": "M",
-			"darkvision": 60,
-			"ability": {
-				"dex": 1
-			},
-			"entries": [
-				{
-					"name": "Darkvision",
-					"entries": [
-						"Your lycanthropic heritage grants you the ability to see in dark conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Shifting",
-					"entries": [
-						"On your turn, you can shift as a bonus action. Shifting lasts for 1 minute or until you end it on your turn as a bonus action.",
-						"While shifting, you gain temporary hit points equal to your level + your Constitution bonus (minimum of 1). You also gain a feature that depends on your shifter subrace, described below.",
-						"You must finish a short or long rest before you can shift again."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Languages",
-					"entries": [
-						"You can speak, read, and write Common and Sylvan."
-					],
-					"type": "entries"
-				}
-			],
-			"subraces": [
-				{
-					"name": "Razorclaw",
-					"ability": {
-						"dex": 2
-					},
-					"entries": [
-						{
-							"name": "Shifting Feature",
-							"entries": [
-								"While shifting, you can make an unarmed strike as a bonus action. You can use your Dexterity for its attack roll and damage bonus, and this attack deals slashing damage."
-							],
-							"type": "entries"
-						}
-					]
-				},
-				{
-					"name": "Wildhunt",
-					"ability": {
-						"wis": 1
-					},
-					"entries": [
-						{
-							"name": "Shifting Feature",
-							"entries": [
-								"While shifting, you gain advantage on all Wisdom-based checks and saving throws."
-							],
-							"type": "entries"
-						}
-					]
-				},
-				{
-					"name": "Beasthide",
-					"ability": {
-						"con": 1
-					},
-					"entries": [
-						{
-							"name": "Shifting Feature",
-							"entries": [
-								"While shifting, you gain a +1 bonus to AC."
-							],
-							"type": "entries"
-						}
-					]
-				},
-				{
-					"name": "Cliffwalk",
-					"ability": {
-						"dex": 2
-					},
-					"entries": [
-						{
-							"name": "Shifting Feature",
-							"entries": [
-								"While shifting, you gain a climb speed of 30 feet."
-							],
-							"type": "entries"
-						}
-					]
-				},
-				{
-					"name": "Longstride",
-					"ability": {
-						"dex": 2
-					},
-					"entries": [
-						{
-							"name": "Shifting Feature",
-							"entries": [
-								"While shifting, you can use the Dash action as a bonus action."
-							],
-							"type": "entries"
-						}
-					]
-				},
-				{
-					"name": "Longtooth",
-					"ability": {
-						"str": 1
-					},
-					"entries": [
-						{
-							"name": "Shifting Feature",
-							"entries": [
-								"While shifting, you can make a bite attack as an action. This is a melee weapon attack that uses Strength for its attack roll and damage bonus and deals 1d6 piercing damage. If this attack hits a target that is your size or smaller, the target is also {@condition grappled}."
+								"30 feet yakınındaki bir varlık ile telepatik olarak konuşabilirsin. Sadece varlıkla bir dil paylaşıyorsan seni anlayabilir. Bu şekilde tek seferde sadece bir varlık ile konuşabilirsin."
 							],
 							"type": "entries"
 						}
@@ -1535,37 +1231,37 @@
 			"darkvision": 60,
 			"entries": [
 				{
-					"name": "Age",
+					"name": "Yaş",
 					"type": "entries",
 					"entries": [
-						"Tieflings mature at the same rate as humans but live a few years longer."
+						"Tieflingler insanlarla aynı hızda olgunlaşır ama birkaç yıl fazla yaşarlar."
 					]
 				},
 				{
-					"name": "Alignment",
+					"name": "Yönelim",
 					"type": "entries",
 					"entries": [
-						"Tieflings might not have an innate tendency toward evil, but many of them end up there. Evil or not, an independent nature, inclines many tieflings toward a chaotic alignment."
+						"Tieflinglerin doğuştan kötülüğe yatkınlığı olmayabilir ama birçoğu orada yerini bulur. Kötü yada değil, bağımsız yapıları yüzünden çoğu tiefling düzensizliğe yönelir."
 					]
 				},
 				{
-					"name": "Darkvision",
+					"name": "Gece Görüşü",
 					"entries": [
-						"Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+						"Infernal kanları sayesinde tieflingler karanlık ve loş ortamlarda üstün görüşe sahiptir. 60 feet yakınında loş ışığı parlak ışık gibi, karanlıkta da loş ışık gibi görürsün. Karanlıkta renk ayırt edemezsin, sadece grinin tonları olur."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Hellish Resistance",
+					"name": "Cehennem Direnci",
 					"entries": [
-						"You have resistance to fire damage."
+						"Ateş hasarına direncin vardır."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Languages",
+					"name": "Diller",
 					"entries": [
-						"You can speak, read, and write Common and Infernal."
+						"Infernal ve Ortak dillerini okuyabilir, yazabilir ve konuşabilirsin."
 					],
 					"type": "entries"
 				}
@@ -1578,16 +1274,16 @@
 					},
 					"entries": [
 						{
-							"name": "Infernal Legacy",
+							"name": "Infernal Miras",
 							"entries": [
-								"You know the {@spell thaumaturgy} cantrip. Once you reach 3rd level, you can cast the {@spell hellish rebuke} spell as a 2nd-level spell; you must finish a long rest in order to cast the spell again using this trait. Once you reach 5th level, you can also cast the {@spell darkness} spell; you must finish a long rest in order to cast the spell again using this trait. Charisma is your spellcasting ability for these spells."
+								"{@spell Thaumaturgy} cantripini bilirsin. 3. seviyeye ulaştığında {@spell hellish rebuke} büyüsünü bir kez 2. seviye büyü olarak kullanabilirsin. Büyüyü bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. 5. seviyeye ulaştığında {@spell darkness} büyüsünü de bir kez kullanabilirsin. Bu büyüyü de bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. Bu büyüler için büyü yapma yeteneğin Karizmadır."
 							],
 							"type": "entries"
 						}
 					]
 				},
 				{
-					"name": "Variant",
+					"name": "Alternatif",
 					"source": "SCAG",
 					"page": 118,
 					"ability": {
@@ -1605,287 +1301,45 @@
 					},
 					"entries": [
 						{
-							"name": "Appearance",
+							"name": "Görünüş",
 							"entries": [
-								"Your tiefling might not look like other tieflings. Rather than having the physical characteristics described in the Player's Handbook, choose 1d4+1 of the following features: small horns; fangs or sharp teeth; a forked tongue; catlike eyes; six fingers on each hand; goatlike legs; cloven hoofs; a forked tail; leathery or scaly skin; red or dark blue skin; cast no shadow or reflection; exude a smell of brimstone"
+								"Senin tieflingin diğerleri gibi görünmeyebilir. PHB'de tasvir edilen özelliklere sahip olmaktansa şu özelliklerden 1d4+1 tanesini seç: küçük boynuzlar; keskin dişler; çatallı dil; kedi benzeri gözler; her elde altı parmak; keçi gibi bacaklar; ayrık toynaklar; çatallı kuyruk; pullu deri; kırmızı yada koyu mavi ten; gölgen yada yansıman olmaz; kükürt kokusu yayarsın."
 							],
 							"type": "entries"
 						},
 						{
 							"type": "inset",
-							"name": "Variant Feature (Choose 1)",
+							"name": "Alternatif Özellik (1 tane seç)",
 							"entries": [
 								{
-									"name": "Infernal Legacy (PHB)",
+									"name": "Infernal Miras (PHB)",
 									"entries": [
-										"You know the {@spell thaumaturgy} cantrip. Once you reach 3rd level, you can cast the {@spell hellish rebuke} spell as a 2nd-level spell; you must finish a long rest in order to cast the spell again using this trait. Once you reach 5th level, you can also cast the {@spell darkness} spell; you must finish a long rest in order to cast the spell again using this trait. Charisma is your spellcasting ability for these spells."
+										"{@spell Thaumaturgy} cantripini bilirsin. 3. seviyeye ulaştığında {@spell hellish rebuke} büyüsünü bir kez 2. seviye büyü olarak kullanabilirsin. Büyüyü bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. 5. seviyeye ulaştığında {@spell darkness} büyüsünü de bir kez kullanabilirsin. Bu büyüyü de bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. Bu büyüler için büyü yapma yeteneğin Karizmadır."
 									],
 									"type": "entries"
 								},
 								{
-									"name": "Devil's Tongue",
+									"name": "Şeytan Dili",
 									"entries": [
-										"You know the {@spell vicious mockery} cantrip. When your reach 3rd level, you can cast the {@spell charm person} spell as a 2nd-level spell once with this trait. When you reach 5th level, you can cast the {@spell enthrall} spell once with this trait. You must finish a long rest to cast these spells once again with this trait. Charisma is your spellcasting ability for them. This trait replaces the Infernal Legacy trait."
+										"{@spell Vicious mockery} cantripini bilirsin. 3. seviyeye ulaştığında {@spell charm person} büyüsünü bir kez 2. seviye büyü olarak kullanabilirsin. Büyüyü bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. 5. seviyeye ulaştığında {@spell enthrall} büyüsünü de bir kez kullanabilirsin. Bu büyüyü de bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. Bu büyüler için büyü yapma yeteneğin Karizmadır. Bu özellik Infernal Miras özelliğinin yerine geçer."
 									],
 									"type": "entries"
 								},
 								{
-									"name": "Hellfire",
+									"name": "Cehennem Ateşi",
 									"entries": [
-										"You know the {@spell thaumaturgy} cantrip. Once you reach 3rd level, you can cast the {@spell burning hands} spell once per day as a 2nd-level spell; you must finish a long rest in order to cast the spell again using this trait. Once you reach 5th level, you can also cast the {@spell darkness} spell; you must finish a long rest in order to cast the spell again using this trait. Charisma is your spellcasting ability for these spells."
+										"3. seviyeye ulaştığında {@spell burning hands} büyüsünü bir kez 2. seviye büyü olarak kullanabilirsin. Bu özellik Infernal Miras özelliğinin {@spell hellish rebuke} büyüsünü değiştirir."
 									],
 									"type": "entries"
 								},
 								{
 									"name": "Winged",
 									"entries": [
-										"You have bat-like wings sprouting form on your shoulder blades. You have a flying speed of 30 feet while you aren't wearing heavy armor."
+										"Kürek kemiklerinden yarasa kanadına benzer kanatlar çıkar. Ağır zırh giymediğin sürece 30 feet uçma hızın olur."
 									],
 									"type": "entries"
 								}
 							]
-						}
-					]
-				},
-				{
-					"name": "Abyssal",
-					"source": "UAThatOldBlackMagic",
-					"page": 1,
-					"ability": {
-						"cha": 2,
-						"con": 1
-					},
-					"entries": [
-						{
-							"name": "Abyssal Arcana",
-							"entries": [
-								"Each time you finish a long rest, you gain the ability to cast cantrips and spells randomly determined from a short list. At 1st level, you can cast a cantrip. When you reach 3rd level, you can also cast a 1st-level spell. At 5th level, you can cast a 2nd-level spell.",
-								"You can cast a spell gained from this trait only once until you complete your next long rest. You can cast a cantrip gained from this trait at will, as normal. For 1st-level spells whose effect changes if cast using a spell slot of 2nd level or higher, you cast the spell as if using a 2nd-level slot. Spells of 2nd level are cast as if using a 2nd-level slot",
-								"At the end of each long rest, you lose the cantrips and spells previously granted by this feature, even if you did not cast them. You replace those cantrips and spells by rolling for new ones on the Abyssal Arcana Spells table. Roll separately for each cantrip and spell. If you roll the same spell or cantrip you gained at the end of your previous long rest, roll again until you get a different result.",
-								{
-									"type": "table",
-									"caption": "Abyssal Arcana Spells",
-									"colLabels": [
-										"d6",
-										"1st Level",
-										"3rd Level",
-										"5th Level"
-									],
-									"colStyles": [
-										"col-xs-1 text-align-center",
-										"col-xs-3 col-xs-3-67",
-										"col-xs-3 col-xs-3-67",
-										"col-xs-3 col-xs-3-67"
-									],
-									"rows": [
-										[
-											"1",
-											"{@spell Dancing lights}",
-											"{@spell Burning hands}",
-											"{@spell Alter self}"
-										],
-										[
-											"2",
-											"{@spell True strike}",
-											"{@spell Charm person}",
-											"{@spell Darkness}"
-										],
-										[
-											"3",
-											"{@spell Light}",
-											"{@spell Magic missile}",
-											"{@spell Invisibility}"
-										],
-										[
-											"4",
-											"{@spell Message}",
-											"{@spell Cure wounds}",
-											"{@spell Levitate}"
-										],
-										[
-											"5",
-											"{@spell Spare the dying}",
-											"{@spell Tasha's hideous laughter}",
-											"{@spell Mirror Image}"
-										],
-										[
-											"6",
-											"{@spell Prestidigitation}",
-											"{@spell Thunderwave}",
-											"{@spell Spider climb}"
-										]
-									]
-								}
-							],
-							"type": "entries"
-						},
-						{
-							"name": "Abyssal Fortitude",
-							"entries": [
-								"Your hit point maximum increases by half your level (minimum 1)."
-							],
-							"type": "entries"
-						},
-						{
-							"name": "Languages",
-							"entries": [
-								"You can speak, read, and write Common and Abyssal."
-							],
-							"data": {
-								"overwrite": "Languages"
-							},
-							"type": "entries"
-						}
-					]
-				},
-				{
-					"name": "Asmodeus",
-					"source": "UAFiendishOptions",
-					"ability": {
-						"cha": 2,
-						"int": 1
-					},
-					"page": 1
-				},
-				{
-					"name": "Baalzebul",
-					"source": "UAFiendishOptions",
-					"ability": {
-						"cha": 2,
-						"int": 1
-					},
-					"page": 1,
-					"entries": [
-						{
-							"name": "Legacy of Maladomini",
-							"entries": [
-								"You know the {@spell thaumaturgy} cantrip. When you reach 3rd level, you can cast the {@spell ray of sickness} spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell crown of madness} spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells."
-							],
-							"type": "entries"
-						}
-					]
-				},
-				{
-					"name": "Dispater",
-					"source": "UAFiendishOptions",
-					"page": 1,
-					"ability": {
-						"cha": 2,
-						"dex": 1
-					},
-					"entries": [
-						{
-							"name": "Legacy of Dis",
-							"entries": [
-								"You know the {@spell thaumaturgy} cantrip. When you reach 3rd level, you can cast the {@spell disguise self} spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell invisibility} spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells."
-							],
-							"type": "entries"
-						}
-					]
-				},
-				{
-					"name": "Fierna",
-					"source": "UAFiendishOptions",
-					"page": 1,
-					"ability": {
-						"cha": 2,
-						"wis": 1
-					},
-					"entries": [
-						{
-							"name": "Legacy of Phlegethos",
-							"entries": [
-								"You know the {@spell friends} cantrip. When you reach 3rd level, you can cast the {@spell charm person} spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell suggestion} spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells."
-							],
-							"type": "entries"
-						}
-					]
-				},
-				{
-					"name": "Glasya",
-					"source": "UAFiendishOptions",
-					"page": 2,
-					"ability": {
-						"cha": 2,
-						"dex": 1
-					},
-					"entries": [
-						{
-							"name": "Legacy of Malbolge",
-							"entries": [
-								"You know the {@spell minor illusion} cantrip. When you reach 3rd level, you can cast the {@spell disguise self} spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell invisibility} spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells."
-							],
-							"type": "entries"
-						}
-					]
-				},
-				{
-					"name": "Levistus",
-					"source": "UAFiendishOptions",
-					"page": 2,
-					"ability": {
-						"cha": 2,
-						"con": 1
-					},
-					"entries": [
-						{
-							"name": "Legacy of Stygia",
-							"entries": [
-								"You know the {@spell ray of frost} cantrip. When you reach 3rd level, you can cast the {@spell armor of Agathys} spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell darkness} spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells."
-							],
-							"type": "entries"
-						}
-					]
-				},
-				{
-					"name": "Mammon",
-					"source": "UAFiendishOptions",
-					"ability": {
-						"cha": 2,
-						"int": 1
-					},
-					"page": 2,
-					"entries": [
-						{
-							"name": "Legacy of Minauros",
-							"entries": [
-								"You know the {@spell mage hand} cantrip. When you reach 3rd level, you can cast the {@spell Tenser's floating disk} spell once with this trait and regain the ability to do so when you finish a short or long rest. When you reach 5th level, you can cast the {@spell arcane lock} spell once with this trait, requiring no material component, and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells."
-							],
-							"type": "entries"
-						}
-					]
-				},
-				{
-					"name": "Mephistopheles",
-					"source": "UAFiendishOptions",
-					"ability": {
-						"cha": 2,
-						"int": 1
-					},
-					"entries": [
-						{
-							"name": "Legacy of Cania",
-							"entries": [
-								"You know the {@spell mage hand} cantrip. When you reach 3rd level, you can cast the {@spell magic missile} spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell web} spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells."
-							],
-							"type": "entries"
-						}
-					]
-				},
-				{
-					"name": "Zariel",
-					"source": "UAFiendishOptions",
-					"ability": {
-						"cha": 2,
-						"str": 1
-					},
-					"entries": [
-						{
-							"name": "Legacy of Avernus",
-							"entries": [
-								"You know the {@spell thaumaturgy} cantrip. When you reach 3rd level, you can cast the {@spell searing smite} spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell branding smite} spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells."
-							],
-							"type": "entries"
 						}
 					]
 				}
