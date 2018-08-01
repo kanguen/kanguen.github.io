@@ -1069,7 +1069,7 @@ EntryRenderer.feat = {
 						if (isShorthand) {
 							outStack.push(att.uppercaseFirst() + (attCount === pre.ability.length - 1 ? " 13+" : ""));
 						} else {
-							outStack.push(Parser.attAbvToFull(att) + (attCount === pre.ability.length - 1 ? " 13 or higher" : ""));
+							outStack.push(Parser.attAbvToFull(att) + (attCount === pre.ability.length - 1 ? " 13 yada üstü" : ""));
 						}
 						attCount++;
 					}
@@ -1082,7 +1082,7 @@ EntryRenderer.feat = {
 						if (!pre.proficiency[j].hasOwnProperty(type)) continue;
 						if (type === "armor") {
 							if (isShorthand) {
-								outStack.push("uzm. " + Parser.armorFullToAbv(pre.proficiency[j][type]) + " zırh");
+								outStack.push("" + Parser.armorFullToAbv(pre.proficiency[j][type]) + " zırh uzm.");
 							} else {
 								outStack.push("" + pre.proficiency[j][type] + "zırhlarla uzmanlık");
 							}
@@ -1092,13 +1092,13 @@ EntryRenderer.feat = {
 			}
 			if (pre.spellcasting) {
 				if (isShorthand) {
-					outStack.push("Spellcasting");
+					outStack.push("Büyü Yapma");
 				} else {
-					outStack.push("The ability to cast at least one spell");
+					outStack.push("En az bir büyü yapabilme yeteneği");
 				}
 			}
 			if (pre.special) {
-				if (isShorthand) outStack.push("Special");
+				if (isShorthand) outStack.push("Özel");
 				else {
 					const renderer = EntryRenderer.getDefaultRenderer();
 					outStack.push(renderer.renderEntry(pre.special));
@@ -1109,7 +1109,7 @@ EntryRenderer.feat = {
 			return outStack;
 		} else {
 			if (isShorthand) return outStack.join("/");
-			else return StrUtil.joinPhraseArray(outStack, ", ", " or ");
+			else return StrUtil.joinPhraseArray(outStack, ", ", " yada ");
 		}
 	},
 
@@ -1121,18 +1121,18 @@ EntryRenderer.feat = {
 		entries.find(e => e.type === "list").items.unshift(abilityObjToListItem());
 
 		function abilityObjToListItem () {
-			const TO_MAX_OF_TWENTY = ", to a maximum of 20.";
+			const TO_MAX_OF_TWENTY = ", maksimum 20 olacak şekilde ";
 			const abbArr = [];
 			if (!abilityObj.choose) {
-				Object.keys(abilityObj).forEach(ab => abbArr.push(`Increase your ${Parser.attAbvToFull(ab)} score by ${abilityObj[ab]}${TO_MAX_OF_TWENTY}`));
+				Object.keys(abilityObj).forEach(ab => abbArr.push(`${Parser.attAbvToFull(ab)} skorunu ${abilityObj[ab]}${TO_MAX_OF_TWENTY} artırır`));
 			} else {
 				const choose = abilityObj.choose;
 				for (let i = 0; i < choose.length; ++i) {
 					if (choose[i].from.length === 6) {
 						if (choose[i].textreference) { // only used in "Resilient"
-							abbArr.push(`Increase the chosen ability score by ${choose[i].amount}${TO_MAX_OF_TWENTY}`);
+							abbArr.push(`Seçilen yetenek skorunu ${choose[i].amount}${TO_MAX_OF_TWENTY} artırır.`);
 						} else {
-							abbArr.push(`Increase one ability score of your choice by ${choose[i].amount}${TO_MAX_OF_TWENTY}`);
+							abbArr.push(`Seçeceğin bir yetenek skorunu ${choose[i].amount}${TO_MAX_OF_TWENTY} artırır.`);
 						}
 					} else {
 						const from = choose[i].from;
@@ -1141,8 +1141,8 @@ EntryRenderer.feat = {
 						for (let j = 0; j < from.length; ++j) {
 							abbChoices.push(Parser.attAbvToFull(from[j]));
 						}
-						const abbChoicesText = StrUtil.joinPhraseArray(abbChoices, ", ", " or ");
-						abbArr.push(`Increase your ${abbChoicesText} by ${amount}${TO_MAX_OF_TWENTY}`);
+						const abbChoicesText = StrUtil.joinPhraseArray(abbChoices, ", ", " yada ");
+						abbArr.push(`Senin ${abbChoicesText} skorunu ${amount}${TO_MAX_OF_TWENTY} artırır.`);
 					}
 				}
 			}
@@ -1158,7 +1158,7 @@ EntryRenderer.feat = {
 		renderStack.push(`
 			${EntryRenderer.utils.getNameTr(feat, true)}
 			<tr class='text'><td colspan='6' class='text'>
-			${prerequisite ? `<p><i>Prerequisite: ${prerequisite}</i></p>` : ""}
+			${prerequisite ? `<p><i>Önkoşul: ${prerequisite}</i></p>` : ""}
 		`);
 		renderer.recursiveEntryRender({entries: feat.entries}, renderStack, 2);
 		renderStack.push(`</td></tr>`);

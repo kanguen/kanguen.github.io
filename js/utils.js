@@ -75,7 +75,7 @@ ATB_DATA_SC = "data-subclass";
 ATB_DATA_SRC = "data-source";
 
 STR_CANTRIP = "Cantrip";
-STR_NONE = "None";
+STR_NONE = "Yok";
 STR_ANY = "Any";
 STR_SPECIAL = "Special";
 
@@ -2201,7 +2201,7 @@ function defaultSourceSelFn (val) {
 
 function getAsiFilter (options) {
 	const baseOptions = {
-		header: "Yetenek Bonusu",
+		header: "Ability Bonus",
 		items: [
 			"str",
 			"dex",

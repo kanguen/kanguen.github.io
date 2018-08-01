@@ -232,7 +232,7 @@ function loadhash (id) {
 		${EntryRenderer.utils.getBorderTr()}
 		<tr><th class="name" colspan="6">İsim</th></tr>
 		<tr><td id="ability" colspan="6">Yetenek Skorları: <span>+1 Dex</span></td></tr>
-		<tr><td id="size" colspan="6">Boyut: <span>Medium</span></td></tr>
+		<tr><td id="size" colspan="6">Boyut: <span>Orta</span></td></tr>
 		<tr><td id="speed" colspan="6">Hız: <span>30 ft.</span></td></tr>
 		<tr id="traits"><td class="divider" colspan="6"><div></div></td></tr>
 		${EntryRenderer.utils.getBorderTr()}

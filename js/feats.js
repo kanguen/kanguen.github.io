@@ -17,8 +17,8 @@ function onJsonLoad (data) {
 
 	const asiFilter = getAsiFilter();
 	const prereqFilter = new Filter({
-		header: "Prerequisite",
-		items: ["Ability", "Race", "Proficiency", "Spellcasting"]
+		header: "Önkoşul",
+		items: ["Yetenek", "Irk", "Uzmanlık", "Büyü Yapma"]
 	});
 	filterBox = initFilterBox(
 		sourceFilter,
@@ -163,7 +163,7 @@ function loadhash (id) {
 	$content.append(`
 		${EntryRenderer.utils.getBorderTr()}
 		${EntryRenderer.utils.getNameTr(feat)}
-		${prerequisite ? `<tr><td colspan="6"><span class="prerequisite">Prerequisite: ${prerequisite}</span></td></tr>` : ""}
+		${prerequisite ? `<tr><td colspan="6"><span class="prerequisite">Önkoşul: ${prerequisite}</span></td></tr>` : ""}
 		<tr><td class="divider" colspan="6"><div></div></td></tr>
 		<tr class='text'><td colspan='6'>${renderStack.join("")}</td></tr>
 		${EntryRenderer.utils.getPageTr(feat)}
