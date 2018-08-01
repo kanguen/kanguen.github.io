@@ -25,71 +25,71 @@
 				},
 				{
 					"type": "entries",
-					"name": "Clans and Kingdoms",
+					"name": "Klanlar ve Krallıklar",
 					"entries": [
-						"Dwarven kingdoms stretch deep beneath the mountains where the dwarves mine gems and precious metals and forge items of wonder. They love the beauty and artistry of precious metals and fine jewelry, and in some dwarves this love festers into avarice. Whatever wealth they can't find in their mountains, they gain through trade. They dislike boats, so enterprising humans and halflings frequently handle trade in dwarven goods along water routes. Trustworthy members of other races are welcome in dwarf settlements, though some areas are off limits even to them.",
-						"The chief unit of dwarven society is the clan, and dwarves highly value social standing. Even dwarves who live far from their own kingdoms cherish their clan identities and affiliations, recognize related dwarves, and invoke their ancestors' names in oaths and curses. To be clanless is the worst fate that can befall a dwarf.",
-						"Dwarves in other lands are typically artisans, especially weaponsmiths, armorers, and jewelers. Some become mercenaries or bodyguards, highly sought after for their courage and loyalty."
+						"Cüce krallıkları mücevher ve değerli taş çıkardıkları ve harika eşyalar yarattıkları dağların derinliklerine uzanır. Hoş mücevherat ve değerli madenlerle yapılan sanatçılığın güzelliğini severler ve bazı cücelerde bu sevgi hırsa dönüşür. Dağlarında bulamadıkları zenginlikleri ticaret ile kazanırlar. Gemilerden hoşlanmazlar, bu nedenle girişimci insanlar ve buçukluklar su yollarında cüce mallarını taşırlar. Diğer ırkların güvenilir üyeleri cüce yerleşimlerinde hoş karşılanırlar ama bazı bölgelerde onlara bile giriş sınırlıdır.",
+						"Cüce toplumunun baş birimi klandır ve cüceler sosyal mevkiye yüksek değer verirler. Kendi krallıklarından uzakta yaşayan cüceler bile klan kimlileri ve bağlantılarına değer verirler, akraba cüceleri tanırlar ve yeminlerinde ve küfürlerinde atalarının isimlerini anarlar. Klansız kalmak bir cüce için en kötü kaderlerden biridir.",
+						"Diğer diyarlardaki cüceler genellikle zanaatkarlardır, özellikle silah ve zırh ustaları yada kuyumcu olarak. Bazıları paralı asker yada koruma olurlar, kendileri bağlılıkları ve cesaretlerinden dolayı revaçtadırlar."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Gods, Gold, and Clan",
+					"name": "Tanrılar, Altın, ve bir Klan",
 					"entries": [
-						"Dwarves who take up the adventuring life might be motivated by a desire for treasure-for its own sake, for a specific purpose, or even out of an altruistic desire to help others. Other dwarves are driven by the command or inspiration of a deity, a direct calling or simply a desire to bring glory to one of the dwarf gods. Clan and ancestry are also important motivators. A dwarf might seek to restore a clan's lost honor, avenge an ancient wrong the clan suffered, or earn a new place within the clan after having been exiled. Or a dwarf might search for the axe wielded by a mighty ancestor, lost on the field of battle centuries ago."
+						"Maceracılığı seçen cüceler sadece hazine peşinde olabilir, belirli bir amaçla hareket edebilir, yada diğerlerine yardım edebilmek için hayır işi olarakta yapabilir. Diğer cüceler bir tanrının emri yada ilhamı ile motive olurlar, doğrudan çağrıya cevap verirler yada cüce tanrılarına şan katabilmek için uğraşırlar. Klan ve soy da önemli sürükleyici etkenlerdir. Bir cüce klanının kaybolmuş gururunu geri kazanmaya çalışabilir, klana yapılmış bir yanlışın intikamını almaya çalışabilir, yada sürgün edildikten sonra klanda yerini geri kazanmaya çalışabilir. Yada bir cüce görkemli bir atası tarafından kuşanılan, yüzyıllar önce savaş alanında kaybolmuş güçlü bir baltanın peşinde olabilir."
 					]
 				},
 				{
 					"type": "inset",
-					"name": "Slow to Trust",
+					"name": "Zor Güvenir",
 					"entries": [
-						"Dwarves get along passably well with most other races. \"The difference between an acquaintance and a friend is about a hundred years,\" is a dwarf saying that might be hyperbole, but certainly points to how difficult it can be for a member of a short-lived race like humans to earn a dwarf's trust.",
+						"Cüceler çoğu ırkla fena anlaşmaz. \"Bir tanıdıkla dost arasındaki fark 100 yıldır,\" bu cüce söyleyişi bir abartı olabilir ama kısa ömürlü ırkların bir cücenin güvenini kazanmakta ne kadar zorlanacağının göstergesidir.",
 						{
 							"type": "entries",
-							"name": "Elves",
+							"name": "Elfler",
 							"entries": [
-								"\"It's not wise to depend on the elves. No telling what an elf will do next; when the hammer meets the orc's head, they're as apt to start singing as to pull out a sword. They're flighty and frivolous. Two things to be said for them, though: They don't have many smiths, but the ones they have do very fine work. And when orcs or goblins come streaming down out of the mountains, an elf's good to have at your back. Not as good as a dwarf, maybe, but no doubt they hate the orcs as much as we do.\""
+								"\"Elflere güvenmek akıllıca değildir. Bir elfin sonraki hareketini tahmin edemezsin; çekiç orcun başıyla buluştuğunda kılıç mı çekecekler yoksa şarkı mı söylemeye başlayacaklar bilemezsin. Kaçak ve havaidirler. Onlar hakkında söylenebilecek iki şey vardır: Fazla metal ustaları yoktur ama olanlar da iyi iş çıkarır. Orclar ve goblinler dağlardan gelmeye başladığında bir elfin arkanda olması iyidir. Bir cüce kadar iyi değil ama şüphesiz orclardan bizler kadar nefret ederler.\""
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Haflings",
+							"name": "Buçukluklar",
 							"entries": [
-								"\"Sure, they're pleasant folk. But show me a halfling hero. An empire, a triumphant army. Even a treasure for the ages made by halfling hands. Nothing. How can you take them seriously?\""
+								"\"Tabii, hoş bir halktırlar. Ama bana bir buçukluk kahraman göster. Bir imparatorluk, bir görkemli ordu. Buçukluk ellerinden çıkmış çağlara meydan okuyan bir hazine. Hiçbirşey. Onları nasıl ciddiye alabilirsin ki?\""
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Humans",
+							"name": "İnsanlar",
 							"entries": [
-								"\"You take the time to get to know a human, and by then the human's on her deathbed. If you're lucky, she's got kin-a daughter or granddaughter, maybe-who's got hands and heart as good as hers. That's when you can make a human friend. And watch them go!. They set their hearts on something, they'll get it whether it's a dragon's hoard or an empire's throne. You have to admire that kind of dedication, even if it gets them in trouble more often than not.\""
+								"\"Bir insanı tanımaya başla ve o zamana kadar zaten ölüm döşeğinde olurlar. Şanslıysan elleri ve gönlü kendi kadar iyi olan çocuğu yada torunu vardır. İşte o zaman insan dostun olur. Sonra izle onları! Gönüllerini bir şeye kaptırırlarsa, bir ejderhanın hazinesi yada imparatorluğun tahtı da olsa onu elde ederler. Bu tip bir bağlılığa saygı duyarsın, genelde onların başlarını belaya soksa bile.\""
 							]
 						}
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Dwarf Names",
+					"name": "Cüce İsimleri",
 					"entries": [
-						"A dwarf's name is granted by a clan elder, in accordance with tradition. Every proper dwarven name has been used and reused down through the generations. A dwarf's name belongs to the clan, not to the individual.",
-						"A dwarf who misuses or brings shame to a clan name is stripped of the name and forbidden by law to use any dwarven name in its place.",
+						"Bir cücenin ismi geleneğe göre klanın yaşlısı tarafından verilir. Tüm düzgün cüce isimleri nesiller boyunca yeniden kullanılır. Bir cücenin ismi klana aittir, bireye değil.",
+						"Klanına utanç veren bir cücenin, yasalara göre ismi alınır ve yerine yeni bir cüce ismi kullanamaz.",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
 							"items": [
 								{
 									"type": "item",
-									"name": "Male Names:",
+									"name": "Erkek İsimleri:",
 									"entry": "Adrik, Alberich, Baern, Barendd, Brottor, Bruenor, Dain, Darrak, Delg, Eberk, Einkil, Fargrim, Flint, Gardain, Harbek, Kildrak, Morgran, Orsik, Oskar, Rangrim, Rurik, Taklinn, Thoradin, Thorin, Tordek, Traubon, Travok, Ulfgar, Veit, Vondal"
 								},
 								{
 									"type": "item",
-									"name": "Female Names:",
+									"name": "Kadın İsimleri:",
 									"entry": "Amber, Artin, Audhild, Bardryn, Dagnal, Diesa, Eldeth, Falkrunn, Finellen, Gunnloda, Gurdis, Helja, Hlin, Kathra, Kristryd, Ilde, Liftrasa, Mardred, Riswynn, Sannl, Torbera, Torgga, Vistra"
 								},
 								{
 									"type": "item",
-									"name": "Clan Names",
+									"name": "Klan İsimleri:",
 									"entry": "Balderk, Battlehammer, Brawnanvil, Dankil, Fireforge, Frostbeard, Gorunn, Holderhek, Ironfist, Loderr, Lutgehr, Rumnaheim, Strakeln, Torunn, Ungart"
 								}
 							]
@@ -100,7 +100,7 @@
 					"type": "inset",
 					"name": "Duergar",
 					"entries": [
-						"In cities deep in the Underdark live the duergar, or gray dwarves. These vicious, stealthy slave traders raid the surface world for captives, then sell their prey to the other races of the Underdark. They have innate magical abilities to become invisible and to temporarily grow to giant size."
+						"Yeraltının derinliklerindeki şehirlerinde duergarlar, yada gri cüceler yaşar. Bu vahşi, sinsi köle tacirleri yeryüzüne yeni köleler bulmak için akınlar yaparlar ve ganimetlerini diğer Yeraltı ırklarına satarlar. İçlerinde geçici olarak görünmez olma ve dev boyuta ulaşma büyülü yetenekleri vardır."
 					]
 				}
 			]

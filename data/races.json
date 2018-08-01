@@ -15,37 +15,37 @@
 			},
 			"entries": [
 				{
-					"name": "Age",
+					"name": "Yaş",
 					"type": "entries",
 					"entries": [
-						"Aarakocra reach maturity by age 3. Compared to humans, aarakocra don't usually live longer than 30 years."
+						"Aarakocralar 3 yaşında yetişkinliğe ulaşırlar. İnsanlara oranla Aarakocralar çok yaşamaz, ömürleri nadiren 30 yılı geçer."
 					]
 				},
 				{
-					"name": "Alignment",
+					"name": "Yönelim",
 					"type": "entries",
 					"entries": [
-						"Most aarakocra are good and rarely choose sides when it comes to law and chaos. Tribal leaders and warriors might be lawful, while explorers and adventurers might tend toward chaotic"
+						"Aarakocraların çoğu iyidir, düzen ve kaos arasında nadiren taraf seçerler. Kabile liderleri ve savaşçılar düzenli olabilir, kaşifler ve maceracılarda düzensizliğe yönelebilir."
 					]
 				},
 				{
-					"name": "Flight",
+					"name": "Uçuş",
 					"entries": [
-						"You have a flying speed of 50 feet. To use this speed, you can't be wearing medium or heavy armor."
+						"50 feet uçma hızın vardır. Bu hızı kullanabilmek için orta yada ağır zırh giyemezsin."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Talons",
+					"name": "Pençeler",
 					"entries": [
-						"You are proficient with your unarmed strikes, which deal 1d4 slashing damage on a hit."
+						"Silahsız saldırılarınla uzmansındır ve vurunca 1d4 kesme hasarı verir."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Language",
+					"name": "Diller",
 					"entries": [
-						"You can speak, read, and write Common, Aarakocra, and Auran."
+						"Aarakocra, Auran ve Ortak dillerini okuyabilir, yazabilir ve konuşabilirsin."
 					],
 					"type": "entries"
 				}
@@ -62,104 +62,104 @@
 			},
 			"entries": [
 				{
-					"name": "Age",
+					"name": "Yaş",
 					"type": "entries",
 					"entries": [
-						"Genasi mature at about the same rate as humans and reach adulthood in their late teens. They live somewhat longer than humans do, up to 120 years."
+						"Genasi insanlarla aynı hızda olgunlaşırlar ve ergenlik sonrası yetişkin sayılırlar. İnsanlara oranla biraz daha uzun yaşayıp 120 yaşını görebilirler."
 					]
 				},
 				{
-					"name": "Alignment",
+					"name": "Yönelim",
 					"type": "entries",
 					"entries": [
-						"Independent and self-reliant, genasi tend toward a neutral alignment."
+						"Bağımsız ve kendine güvenen genasiler nötr yönelimdedirler."
 					]
 				},
 				{
-					"name": "Languages",
+					"name": "Diller",
 					"entries": [
-						"You can speak, read, and write Common and Primordial. Primordial is a guttural language, filled with harsh syllables and hard consonants."
+						"Primordial ve Ortak dillerini okuyabilir, yazabilir ve konuşabilirsin. Primordial sert ünsüzler ve kaba hecelerle dolu diyaframdan konuşulan bir dildir."
 					],
 					"type": "entries"
 				}
 			],
 			"subraces": [
 				{
-					"name": "Air",
+					"name": "Hava",
 					"ability": {
 						"dex": 1
 					},
 					"entries": [
 						{
-							"name": "Unending Breath",
+							"name": "Sonsuz Nefes",
 							"entries": [
-								"You can hold your breath indefinitely while you're not {@condition incapacitated}."
+								"Bilinçsiz olmadığın sürece nefesini sonsuz tutabilirsin."
 							],
 							"type": "entries"
 						},
 						{
-							"name": "Mingle with the Wind",
+							"name": "Rüzgara Katıl",
 							"entries": [
-								"You can cast the {@spell levitate} spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for this spell."
+								"{@spell Levitate} büyüsünü bu özellikle materyal bileşenlere ihtiyaç duymadan bir kez kullanabilirsin. Bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. Bu büyü için büyü yapma yeteneğin Dayanıklılıktır."
 							],
 							"type": "entries"
 						}
 					]
 				},
 				{
-					"name": "Earth",
+					"name": "Toprak",
 					"ability": {
 						"str": 1
 					},
 					"entries": [
 						{
-							"name": "Earth Walk",
+							"name": "Toprak Yürüyüşü",
 							"entries": [
-								"You can move across difficult terrain made of earth or stone without expending extra movement."
+								"Toprak yada taştan oluşan zorlu yüzeylerden fazladan hareket harcamadan geçebilirsin."
 							],
 							"type": "entries"
 						},
 						{
-							"name": "Merge with Stone",
+							"name": "Taşla Birleş",
 							"entries": [
-								"You can cast the {@spell pass without trace} spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for this spell."
+								"{@spell Pass without trace} büyüsünü bu özellikle materyal bileşenlere ihtiyaç duymadan bir kez kullanabilirsin. Bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. Bu büyü için büyü yapma yeteneğin Dayanıklılıktır."
 							],
 							"type": "entries"
 						}
 					]
 				},
 				{
-					"name": "Fire",
+					"name": "Ateş",
 					"ability": {
 						"int": 1
 					},
 					"darkvision": 60,
 					"entries": [
 						{
-							"name": "Darkvision",
+							"name": "Gece Görüşü",
 							"entries": [
-								"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. Your ties to the Elemental Plane of Fire make your darkvision unusual: everything you see in darkness is in a shade of red."
+								"60 feet yakınında loş ışıkta parlak ışıkmış gibi, karanlıkta loş ışıkmış gibi görürsün. Elemental Ateş Boyutuna olan bağından dolayı gece görüşün farklıdır: karanlıkta gördüğün herşey kırmızı tonlarında olur."
 							],
 							"type": "entries"
 						},
 						{
-							"name": "Fire Resistance",
+							"name": "Ateş Direnci",
 							"entries": [
-								"You have resistance to fire damage."
+								"Ateş hasarına direncin vardır."
 							],
 							"type": "entries"
 						},
 						{
-							"name": "Reach to the Blaze",
+							"name": "Aleve Ulaş",
 							"entries": [
-								"You know the {@spell produce flame} cantrip. Once you reach 3rd level, you can cast the {@spell burning hands} spell once with this trait as a 1st-level spell, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for these spells."
+								"{@spell Produce flame} cantripini bilirsin. 3. seviyeye ulaştığında {@spell burning hands} büyüsünü bir kez 1. seviye büyü olarak kullanabilirsin. Büyüyü bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. Bu büyüler için büyü yapma yeteneğin Dayanıklılıktır."
 							],
 							"type": "entries"
 						}
 					]
 				},
 				{
-					"name": "Water",
+					"name": "Su",
 					"speed": {
 						"walk": 30,
 						"swim": 30
@@ -169,30 +169,30 @@
 					},
 					"entries": [
 						{
-							"name": "Acid Resistance",
+							"name": "Asit Direnci",
 							"entries": [
-								"You have resistance to acid damage."
+								"Asit hasarına direncin vardır."
 							],
 							"type": "entries"
 						},
 						{
-							"name": "Amphibious",
+							"name": "Amfibi",
 							"entries": [
-								"You can breathe air and water."
+								"Hava ve su soluyabilirsin."
 							],
 							"type": "entries"
 						},
 						{
-							"name": "Swim",
+							"name": "Yüzme",
 							"entries": [
-								"You have a swimming speed of 30 feet."
+								"30 feet yüzme hızın vardır."
 							],
 							"type": "entries"
 						},
 						{
-							"name": "Call to the Wave",
+							"name": "Dalganın Çağrısı",
 							"entries": [
-								"You know the {@spell shape water|xge} cantrip. When you reach 3rd level, you can cast the {@spell create or destroy water} spell as a 2nd-level spell once with this trait, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for these spells."
+								"{@spell Shape water|xge} cantripini bilirsin. 3. seviyeye ulaştığında {@spell create or destroy water} büyüsünü bir kez 2. seviye büyü olarak kullanabilirsin. Büyüyü bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. Bu büyü için büyü yapma yeteneğin Dayanıklılıktır."
 							],
 							"type": "entries"
 						}

@@ -204,12 +204,12 @@ function EntryRenderer () {
 				// block
 				case "abilityDc":
 					renderPrefix();
-					textStack.push(`<span class='ability-block'><span>${entry.name} save DC</span> = 8 + your proficiency bonus + your ${utils_makeAttChoose(entry.attributes)}</span>`);
+					textStack.push(`<span class='ability-block'><span>${entry.name} kurtulma DC'si</span> = 8 + uzmanlık bonusun + ${utils_makeAttChoose(entry.attributes)}</span>`);
 					renderSuffix();
 					break;
 				case "abilityAttackMod":
 					renderPrefix();
-					textStack.push(`<span class='ability-block'><span>${entry.name} attack modifier</span> = your proficiency bonus + your ${utils_makeAttChoose(entry.attributes)}</span>`);
+					textStack.push(`<span class='ability-block'><span>${entry.name} saldırı bonusu</span> = uzmanlık bonusun + ${utils_makeAttChoose(entry.attributes)}</span>`);
 					renderSuffix();
 					break;
 				case "abilityGeneric":
@@ -976,9 +976,9 @@ EntryRenderer.utils = {
 	},
 
 	_getPageTrText: (it) => {
-		const addSourceText = it.additionalSources && it.additionalSources.length ? `. Additional information from ${it.additionalSources.map(as => `<i title="${Parser.sourceJsonToFull(as.source)}">${Parser.sourceJsonToAbv(as.source)}</i>, page ${as.page}`).join("; ")}.` : "";
+		const addSourceText = it.additionalSources && it.additionalSources.length ? `. ${it.additionalSources.map(as => `<i title="${Parser.sourceJsonToFull(as.source)}">${Parser.sourceJsonToAbv(as.source)}</i>, Bu ${as.page}`).join("; ")} sayfadan ek bilgi` : "";
 		const sourceSub = EntryRenderer.utils.getSourceSubText(it);
-		return it.page ? `<b>Source: </b> <i title="${Parser.sourceJsonToFull(it.source)}${sourceSub}">${Parser.sourceJsonToAbv(it.source)}${sourceSub}</i>, page ${it.page}${addSourceText}` : ""
+		return it.page ? `<b>Kaynak: </b> <i title="${Parser.sourceJsonToFull(it.source)}${sourceSub}">${Parser.sourceJsonToAbv(it.source)}${sourceSub}</i>, sayfa ${it.page}${addSourceText}` : ""
 	},
 
 	tabButton: (label, funcChange, funcPopulate) => {
@@ -1082,9 +1082,9 @@ EntryRenderer.feat = {
 						if (!pre.proficiency[j].hasOwnProperty(type)) continue;
 						if (type === "armor") {
 							if (isShorthand) {
-								outStack.push("prof " + Parser.armorFullToAbv(pre.proficiency[j][type]) + " armor");
+								outStack.push("uzm. " + Parser.armorFullToAbv(pre.proficiency[j][type]) + " zırh");
 							} else {
-								outStack.push("Proficiency with " + pre.proficiency[j][type] + " armor");
+								outStack.push("" + pre.proficiency[j][type] + "zırhlarla uzmanlık");
 							}
 						}
 					}
@@ -1184,10 +1184,10 @@ EntryRenderer.spell = {
 			<tr><td colspan="6">
 				<table class="summary striped-even">
 					<tr>
-						<th colspan="1">Level</th>
-						<th colspan="1">School</th>
-						<th colspan="2">Casting Time</th>
-						<th colspan="2">Range</th>
+						<th colspan="1">Seviye</th>
+						<th colspan="1">Okul</th>
+						<th colspan="2">Kullanma Süresi</th>
+						<th colspan="2">Menzil</th>
 					</tr>	
 					<tr>
 						<td colspan="1">${Parser.spLevelToFull(spell.level)}${Parser.spMetaToFull(spell.meta)}</td>
@@ -1196,8 +1196,8 @@ EntryRenderer.spell = {
 						<td colspan="2">${Parser.spRangeToFull(spell.range)}</td>
 					</tr>
 					<tr>
-						<th colspan="4">Components</th>
-						<th colspan="2">Duration</th>
+						<th colspan="4">Bileşenler</th>
+						<th colspan="2">Süre</th>
 					</tr>	
 					<tr>
 						<td colspan="4">${Parser.spComponentsToFull(spell.components)}</td>
@@ -1550,10 +1550,10 @@ EntryRenderer.monster = {
 			<tr><td colspan="6">
 				<table class="summary-noback">
 					<tr>
-						<th>Armor Class</th>
-						<th>Hit Points</th>
-						<th>Speed</th>
-						<th>Challenge Rating</th>
+						<th>AC</th>
+						<th>HP</th>
+						<th>Hız</th>
+						<th>Zorluk</th>
 					</tr>
 					<tr>
 						<td>${mon.ac}</td>					
@@ -1567,12 +1567,12 @@ EntryRenderer.monster = {
 			<tr><td colspan="6">
 				<table class="summary striped-even">
 					<tr>
-						<th class="col-xs-2 text-align-center">STR</th>
-						<th class="col-xs-2 text-align-center">DEX</th>
-						<th class="col-xs-2 text-align-center">CON</th>
-						<th class="col-xs-2 text-align-center">INT</th>
-						<th class="col-xs-2 text-align-center">WIS</th>
-						<th class="col-xs-2 text-align-center">CHA</th>
+						<th class="col-xs-2 text-align-center">KVT</th>
+						<th class="col-xs-2 text-align-center">ÇVK</th>
+						<th class="col-xs-2 text-align-center">DYN</th>
+						<th class="col-xs-2 text-align-center">ZEK</th>
+						<th class="col-xs-2 text-align-center">AKL</th>
+						<th class="col-xs-2 text-align-center">KRZ</th>
 					</tr>	
 					<tr>
 						<td class="text-align-center">${makeAbilityRoller("str")}</td>
@@ -1587,14 +1587,14 @@ EntryRenderer.monster = {
 			<tr><td colspan="6"><div class="border"></div></td></tr>
 			<tr><td colspan="6">
 				<div class="summary-flexer">
-					${mon.save ? `<p><b>Saving Throws:</b> ${Object.keys(mon.save).map(s => makeSaveRoller(s, mon.save[s])).join(", ")}</p>` : ""}
-					${mon.skill ? `<p><b>Skills:</b> ${Object.keys(mon.skill).sort().map(s => makeSkillRoller(s.uppercaseFirst(), mon.skill[s])).join(", ")}</p>` : ""}
-					<p><b>Senses:</b> ${mon.senses ? `${mon.senses}, ` : ""}passive Perception ${mon.passive}</p>
-					<p><b>Languages:</b> ${mon.languages ? mon.languages : `\u2014`}</p>
-					${mon.vulnerable ? `<p><b>Damage Vuln.:</b> ${Parser.monImmResToFull(mon.vulnerable)}</p>` : ""}
-					${mon.resist ? `<p><b>Damage Res.:</b> ${Parser.monImmResToFull(mon.resist)}</p>` : ""}
-					${mon.immune ? `<p><b>Damage Imm.:</b> ${Parser.monImmResToFull(mon.immune)}</p>` : ""}
-					${mon.conditionImmune ? `<p><b>Condition Imm.:</b> ${Parser.monCondImmToFull(mon.conditionImmune)}</p>` : ""}
+					${mon.save ? `<p><b>Kurtulma Zarları:</b> ${Object.keys(mon.save).map(s => makeSaveRoller(s, mon.save[s])).join(", ")}</p>` : ""}
+					${mon.skill ? `<p><b>Beceriler:</b> ${Object.keys(mon.skill).sort().map(s => makeSkillRoller(s.uppercaseFirst(), mon.skill[s])).join(", ")}</p>` : ""}
+					<p><b>Duyular:</b> ${mon.senses ? `${mon.senses}, ` : ""}pasif Algılama ${mon.passive}</p>
+					<p><b>Diller:</b> ${mon.languages ? mon.languages : `\u2014`}</p>
+					${mon.vulnerable ? `<p><b>Hazar Zayıflıkları:</b> ${Parser.monImmResToFull(mon.vulnerable)}</p>` : ""}
+					${mon.resist ? `<p><b>Hasar Dirençleri:</b> ${Parser.monImmResToFull(mon.resist)}</p>` : ""}
+					${mon.immune ? `<p><b>Hasar Bağışıklıkları:</b> ${Parser.monImmResToFull(mon.immune)}</p>` : ""}
+					${mon.conditionImmune ? `<p><b>Durum Bağışıklıkları:</b> ${Parser.monCondImmToFull(mon.conditionImmune)}</p>` : ""}
 				</div>
 			</td></tr>
 			${mon.trait ? `<tr><td colspan="6"><div class="border"></div></td></tr>
@@ -1615,7 +1615,7 @@ EntryRenderer.monster = {
 	},
 
 	getRenderedHp: (hp) => {
-		return hp.special ? hp.special : EntryRenderer.getDefaultRenderer().renderEntry(`${hp.average} ({@dice ${hp.formula}|${hp.formula}|Hit Points})`);
+		return hp.special ? hp.special : EntryRenderer.getDefaultRenderer().renderEntry(`${hp.average} ({@dice ${hp.formula}|${hp.formula}|HP})`);
 	},
 
 	getSpellcastingRenderedTraits: (mon, renderer) => {
@@ -1627,30 +1627,30 @@ EntryRenderer.monster = {
 			const toRender = [{type: "entries", name: spellList.name, entries: spellList.headerEntries ? JSON.parse(JSON.stringify(spellList.headerEntries)) : []}];
 			if (spellList.constant || spellList.will || spellList.rest || spellList.daily || spellList.weekly) {
 				const tempList = {type: "list", "style": "list-hang-notitle", items: []};
-				if (spellList.constant) tempList.items.push({type: "itemSpell", name: `Constant:`, entry: spellList.constant.join(", ")});
-				if (spellList.will) tempList.items.push({type: "itemSpell", name: `At will:`, entry: spellList.will.join(", ")});
+				if (spellList.constant) tempList.items.push({type: "itemSpell", name: `Sürekli:`, entry: spellList.constant.join(", ")});
+				if (spellList.will) tempList.items.push({type: "itemSpell", name: `İstediğinde:`, entry: spellList.will.join(", ")});
 				if (spellList.rest) {
 					for (let j = 9; j > 0; j--) {
 						let rest = spellList.rest;
-						if (rest[j]) tempList.items.push({type: "itemSpell", name: `${j}/rest:`, entry: rest[j].join(", ")});
+						if (rest[j]) tempList.items.push({type: "itemSpell", name: `${j}/dinlenme:`, entry: rest[j].join(", ")});
 						const jEach = `${j}e`;
-						if (rest[jEach]) tempList.items.push({type: "itemSpell", name: `${j}/rest each:`, entry: rest[jEach].join(", ")});
+						if (rest[jEach]) tempList.items.push({type: "itemSpell", name: `${j}/dinlenme her biri için:`, entry: rest[jEach].join(", ")});
 					}
 				}
 				if (spellList.daily) {
 					for (let j = 9; j > 0; j--) {
 						let daily = spellList.daily;
-						if (daily[j]) tempList.items.push({type: "itemSpell", name: `${j}/day:`, entry: daily[j].join(", ")});
+						if (daily[j]) tempList.items.push({type: "itemSpell", name: `${j}/gün:`, entry: daily[j].join(", ")});
 						const jEach = `${j}e`;
-						if (daily[jEach]) tempList.items.push({type: "itemSpell", name: `${j}/day each:`, entry: daily[jEach].join(", ")});
+						if (daily[jEach]) tempList.items.push({type: "itemSpell", name: `${j}/gün her biri için:`, entry: daily[jEach].join(", ")});
 					}
 				}
 				if (spellList.weekly) {
 					for (let j = 9; j > 0; j--) {
 						let weekly = spellList.weekly;
-						if (weekly[j]) tempList.items.push({type: "itemSpell", name: `${j}/week:`, entry: weekly[j].join(", ")});
+						if (weekly[j]) tempList.items.push({type: "itemSpell", name: `${j}/hafta:`, entry: weekly[j].join(", ")});
 						const jEach = `${j}e`;
-						if (weekly[jEach]) tempList.items.push({type: "itemSpell", name: `${j}/week each:`, entry: weekly[jEach].join(", ")});
+						if (weekly[jEach]) tempList.items.push({type: "itemSpell", name: `${j}/hafta her biri için:`, entry: weekly[jEach].join(", ")});
 					}
 				}
 				toRender[0].entries.push(tempList);
@@ -1661,13 +1661,13 @@ EntryRenderer.monster = {
 					let spells = spellList.spells[j];
 					if (spells) {
 						let lower = spells.lower;
-						let levelCantrip = `${Parser.spLevelToFull(j)}${(j === 0 ? "s" : " level")}`;
-						let slotsAtWill = ` (at will)`;
+						let levelCantrip = `${Parser.spLevelToFull(j)}${(j === 0 ? "" : " seviye")}`;
+						let slotsAtWill = ` (istediğinde)`;
 						let slots = spells.slots;
-						if (slots >= 0) slotsAtWill = slots > 0 ? ` (${slots} slot${slots > 1 ? "s" : ""})` : ``;
+						if (slots >= 0) slotsAtWill = slots > 0 ? ` (${slots} yuva${slots > 1 ? "" : ""})` : ``;
 						if (lower) {
 							levelCantrip = `${Parser.spLevelToFull(lower)}-${levelCantrip}`;
-							if (slots >= 0) slotsAtWill = slots > 0 ? ` (${slots} ${Parser.spLevelToFull(j)}-level slot${slots > 1 ? "s" : ""})` : ``;
+							if (slots >= 0) slotsAtWill = slots > 0 ? ` (${slots} ${Parser.spLevelToFull(j)}-seviye yuva${slots > 1 ? "" : ""})` : ``;
 						}
 						tempList.items.push({type: "itemSpell", name: `${levelCantrip} ${slotsAtWill}:`, entry: spells.spells.join(", ")})
 					}
@@ -1701,7 +1701,7 @@ EntryRenderer.item = {
 			if (item.dmg1) damage = utils_makeRoller(item.dmg1);
 			if (item.dmgType) damageType = Parser.dmgTypeToFull(item.dmgType);
 		} else if (type === "LA" || type === "MA" || type === "HA") {
-			damage = "AC " + item.ac + (type === "LA" ? " + Dex" : type === "MA" ? " + Dex (max 2)" : "");
+			damage = "AC " + item.ac + (type === "LA" ? " + Çvk" : type === "MA" ? " + Çvk (max 2)" : "");
 		} else if (type === "S") {
 			damage = "AC +" + item.ac;
 		} else if (type === "MNT" || type === "VEH" || type === "SHP") {

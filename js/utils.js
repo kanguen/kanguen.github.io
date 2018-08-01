@@ -302,9 +302,9 @@ function utils_getAbilityData (abObj) {
 					let amount = item.amount === undefined ? 1 : item.amount;
 					amount = (amount < 0 ? "" : "+") + amount;
 					if (allAbilities) {
-						outStack += "any ";
+						outStack += "herhangi ";
 					} else if (allAbilitiesWithParent) {
-						outStack += "any other ";
+						outStack += "harici herhangi ";
 					}
 					if (item.count !== undefined && item.count > 1) {
 						outStack += getNumberString(item.count) + " ";
@@ -316,7 +316,7 @@ function utils_getAbilityData (abObj) {
 							let suffix = "";
 							if (item.from.length > 1) {
 								if (j === item.from.length - 2) {
-									suffix = " or ";
+									suffix = " yada ";
 								} else if (j < item.from.length - 2) {
 									suffix = ", "
 								}
@@ -331,7 +331,7 @@ function utils_getAbilityData (abObj) {
 						}
 					}
 				}
-				abs.push("Choose " + outStack);
+				abs.push(outStack + " seç");
 				shortAbs.push(outStack.uppercaseFirst());
 			}
 		}
@@ -2201,7 +2201,7 @@ function defaultSourceSelFn (val) {
 
 function getAsiFilter (options) {
 	const baseOptions = {
-		header: "Ability Bonus",
+		header: "Yetenek Bonusu",
 		items: [
 			"str",
 			"dex",
