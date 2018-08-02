@@ -1084,7 +1084,7 @@ EntryRenderer.feat = {
 							if (isShorthand) {
 								outStack.push("" + Parser.armorFullToAbv(pre.proficiency[j][type]) + " zırh uzm.");
 							} else {
-								outStack.push("" + pre.proficiency[j][type] + "zırhlarla uzmanlık");
+								outStack.push("" + pre.proficiency[j][type] + " zırhlarla uzmanlık");
 							}
 						}
 					}
