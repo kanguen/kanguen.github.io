@@ -176,9 +176,9 @@
 					"from": [
 						"Hayvan İdaresi",
 						"Atletizm",
-						"Korkutma",
+						"Gözdağı",
 						"Doğa",
-						"Algılama",
+						"Algı",
 						"Hayatta Kalma"
 					]
 				}
@@ -247,7 +247,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -288,7 +288,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"8. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -324,7 +324,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"12. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -358,7 +358,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"16. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -383,7 +383,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"19. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -574,7 +574,7 @@
 														"type": "entries",
 														"name": "Kartal",
 														"entries": [
-															"Bir kartalın görüşüne sahip olursun. 1 mil uzaklığa kadar ve 100 feet uzaklıkta bir şeye bakıyormuş gibi küçük detayları sorunsuz görebilirsin. Ek olarak, loş ışık Akıl (Algılama) zarlarında dezavantaj vermez."
+															"Bir kartalın görüşüne sahip olursun. 1 mil uzaklığa kadar ve 100 feet uzaklıkta bir şeye bakıyormuş gibi küçük detayları sorunsuz görebilirsin. Ek olarak, loş ışık Akıl (Algı) zarlarında dezavantaj vermez."
 														]
 													}
 												]
@@ -2033,15 +2033,15 @@
 						"İnceleme",
 						"Doğa",
 						"Din",
-						"hayvan İdaresi",
+						"Hayvan İdaresi",
 						"Sezgi",
 						"Tıp",
-						"Algılama",
+						"Algı",
 						"Hayatta Kalma",
 						"Aldatma",
-						"Korkutma",
+						"Gözdağı",
 						"Performans",
-						"İkna Etme"
+						"İkna"
 					]
 				}
 			},
@@ -2168,7 +2168,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -2207,7 +2207,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"8. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -2247,7 +2247,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"12. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -2288,7 +2288,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"16. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -2314,7 +2314,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"19. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -3739,7 +3739,7 @@
 						"Tarih",
 						"Sezgi",
 						"Tıp",
-						"İkna Etme",
+						"İkna",
 						"Din"
 					]
 				}
@@ -3863,7 +3863,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -3896,7 +3896,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"8. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					},
 					{
@@ -3937,7 +3937,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"12. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -3956,7 +3956,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"16. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -3988,7 +3988,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"19. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -7108,7 +7108,7 @@
 						"Sezgi",
 						"Tıp",
 						"Doğa",
-						"Algılama",
+						"Algı",
 						"Din",
 						"Hayatta Kalma"
 					]
@@ -7128,7 +7128,7 @@
 					{
 						"name": "Druidic",
 						"entries": [
-							"Druidlerin gizli dili olan Druidic bilirsin. Dili konuşabilirsin ve onu kullanarak gizli mesajlar bırakabilirsin. Sen ve bu dili bilen diğerleri otomatik olarak bu tip mesajları farkederler. Diğerleri mesajın varlığını başarılı bir DC 15 Akıl (Algılama) zarı ile farkederler ama büyü olmadan anlamını çözemezler."
+							"Druidlerin gizli dili olan Druidic bilirsin. Dili konuşabilirsin ve onu kullanarak gizli mesajlar bırakabilirsin. Sen ve bu dili bilen diğerleri otomatik olarak bu tip mesajları farkederler. Diğerleri mesajın varlığını başarılı bir DC 15 Akıl (Algı) zarı ile farkederler ama büyü olmadan anlamını çözemezler."
 						]
 					},
 					{
@@ -7266,7 +7266,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -7292,7 +7292,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"8. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -7312,7 +7312,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"12. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -7332,7 +7332,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"16. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -7356,7 +7356,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"19. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -9067,8 +9067,8 @@
 						"Atletizm",
 						"Tarih",
 						"Sezgi",
-						"Korkutma",
-						"Algılama",
+						"Gözdağı",
+						"Algı",
 						"Hayatta Kalma"
 					]
 				}
@@ -9172,7 +9172,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -9190,7 +9190,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"6. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -9208,7 +9208,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"8. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -9243,7 +9243,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"12. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -9260,7 +9260,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"14. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -9278,7 +9278,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"16. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -9310,7 +9310,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"19. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -12742,7 +12742,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					},
 					{
@@ -12800,7 +12800,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"8. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -12834,7 +12834,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"12. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -12868,7 +12868,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"16. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -12895,7 +12895,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"19. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -14459,9 +14459,9 @@
 					"from": [
 						"Atletizm",
 						"Sezgi",
-						"Korkutma",
+						"Gözdağı",
 						"Tıp",
-						"İkna Etme",
+						"İkna",
 						"Din"
 					]
 				}
@@ -14631,7 +14631,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -14666,7 +14666,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"8. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -14693,7 +14693,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"12. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -14721,7 +14721,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"16. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -14739,7 +14739,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"19. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -17135,7 +17135,7 @@
 						"Sezgi",
 						"İnceleme",
 						"Doğa",
-						"Algılama",
+						"Algı",
 						"Gizlenme",
 						"Hayatta Kalma"
 					]
@@ -17290,7 +17290,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -17325,7 +17325,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"8. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					},
 					{
@@ -17366,7 +17366,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"12. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -17399,7 +17399,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"16. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -17417,7 +17417,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"19. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -19147,7 +19147,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -19183,7 +19183,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					},
 					{
@@ -19218,7 +19218,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -19245,7 +19245,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -19263,7 +19263,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -21042,7 +21042,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -21084,7 +21084,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					},
 					{
@@ -21140,7 +21140,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -21199,7 +21199,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -21232,7 +21232,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -23019,11 +23019,11 @@
 						"Atletizm",
 						"Aldatma",
 						"Sezgi",
-						"Korkutma",
+						"Gözdağı",
 						"İnceleme",
-						"Algılama",
+						"Algı",
 						"Performans",
-						"İkna Etme",
+						"İkna",
 						"El Çabukluğu",
 						"Gizlenme"
 					]
@@ -23086,7 +23086,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -23119,7 +23119,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"8. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -23137,7 +23137,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"10. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -23154,7 +23154,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"12. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -23188,7 +23188,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"16. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -23214,7 +23214,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"19. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -23251,7 +23251,7 @@
 													"Hırsız aletlerini kullanıp kilit açma yada tuzak kaldırmayı uzaktan yapabilirsin."
 												]
 											},
-											"Bunlardan birini eğer senin Çeviklik (El Çabukluğu) zarın diğer varlıkların Akıl (Algılama) zarından yüksek olursa farkedilmeden yapabilirsin.",
+											"Bunlardan birini eğer senin Çeviklik (El Çabukluğu) zarın diğer varlıkların Akıl (Algı) zarından yüksek olursa farkedilmeden yapabilirsin.",
 											"Ek olarak, eli Kurnaz Eylem özelliği ile bonus eylem olarak kontrol edebilirsin."
 										]
 									},
@@ -24838,8 +24838,8 @@
 						"Arcana",
 						"Aldatma",
 						"Sezgi",
-						"Korkutma",
-						"İkna Etme",
+						"Gözdağı",
+						"İkna",
 						"Din"
 					]
 				}
@@ -25070,7 +25070,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -25090,7 +25090,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"8. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -25109,7 +25109,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"12. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -25129,7 +25129,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"16. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -25155,7 +25155,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"19. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -27222,7 +27222,7 @@
 						"Arcana",
 						"Aldatma",
 						"Tarih",
-						"Korkutma",
+						"Gözdağı",
 						"İnceleme",
 						"Doğa",
 						"Din"
@@ -27352,7 +27352,7 @@
 										"type": "invocation",
 										"name": "Aldatıcı Etki",
 										"entries": [
-											"Aldatma ve İkna Etme becerilerinde uzmanlık kazanırsın."
+											"Aldatma ve İkna becerilerinde uzmanlık kazanırsın."
 										]
 									},
 									{
@@ -27579,7 +27579,7 @@
 										"prerequisite": "5. seviye",
 										"entries": [
 											"Bonus eylem olarak kendini uçuşan sinekler gibi görünen bir büyülü aura ile sarabilirsin. Aura her yöne doğru senden 5 feet uzaklığı kapsar ama tam siperin arkasına geçmez. Sen bilinçsiz hale gelene kadar yada bonus eylem olarak onu savana kadar sürer.",
-											"Aura sana Karizma (Korkutma) zarlarında avantaj verir ama diğer tüm Karizma zarlarında dezavantajın olur. Sırasına bu aura içinde başlayan diğer tüm varlıklar senin Karizma bonusun kadar (en az 0) zehir hasarı alır.",
+											"Aura sana Karizma (Gözdağı) zarlarında avantaj verir ama diğer tüm Karizma zarlarında dezavantajın olur. Sırasına bu aura içinde başlayan diğer tüm varlıklar senin Karizma bonusun kadar (en az 0) zehir hasarı alır.",
 											"Bu yakarışı kullandığında bir daha kısa yada uzun dinlenme bitirene kadar bir daha kullanamazsın."
 										],
 										"source": "XGE"
@@ -27745,7 +27745,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -27765,7 +27765,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"8. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -27794,7 +27794,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -27830,7 +27830,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"16. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -27849,7 +27849,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"19. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -30017,7 +30017,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"4. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -30037,7 +30037,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"8. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -30057,7 +30057,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"12. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -30077,7 +30077,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"16. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],
@@ -30096,7 +30096,7 @@
 						"name": "Yetenek Skoru Gelişimi",
 						"entries": [
 							"19. seviyeye eriştiğinde bir yetenek skorunu 2 yada 2 ayrı yetenek skorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu 20'nin üzerine çıkaramazsın.",
-							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir feat seçebilirsin."
+							"Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
 						]
 					}
 				],

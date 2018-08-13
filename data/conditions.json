@@ -105,14 +105,14 @@
 			"page": 290
 		},
 		{
-			"name": "Tutulma",
+			"name": "Yakalanma",
 			"entries": [
 				{
 					"type": "list",
 					"items": [
-						"Tutulmuş bir varlığın hızı 0'a düşer ve hıza bonus veren etkilerden faydalanamaz.",
-						"Bu durum eğer tutan varlık etkisiz hale gelirse sona erer.",
-						"Durum eğer tutulan varlık tutan varlığın yada etkinin erişiminden bir etki ile uzaklaştırılırsa da biter. Örneğin bir varlığın {@spell thunderwave} ile savrulması gibi."
+						"Yakalanmış bir varlığın hızı 0'a düşer ve hıza bonus veren etkilerden faydalanamaz.",
+						"Bu durum eğer yakalayan varlık etkisiz hale gelirse sona erer.",
+						"Durum eğer yakalanmış varlık yakalayan varlığın yada etkinin erişiminden bir etki ile uzaklaştırılırsa da biter. Örneğin bir varlığın {@spell thunderwave} ile savrulması gibi."
 					]
 				}
 			],

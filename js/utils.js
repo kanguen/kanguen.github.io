@@ -1471,38 +1471,38 @@ Parser.DMGTYPE_JSON_TO_FULL = {
 };
 
 Parser.SKILL_JSON_TO_FULL = {
-	"Acrobatics": "Your Dexterity (Acrobatics) check covers your attempt to stay on your feet in a tricky situation, such as when you're trying to run across a sheet of ice, balance on a tightrope, or stay upright on a rocking ship's deck.",
-	"Animal Handling": "When there is any question whether you can calm down a domesticated animal, keep a mount from getting spooked, or intuit an animal's intentions, the GM might call for a Wisdom (Animal Handling) check.",
-	"Arcana": "Your Intelligence (Arcana) check measures your ability to recall lore about spells, magic items, eldritch symbols, magical traditions, the planes of existence, and the inhabitants of those planes.",
-	"Athletics": "Your Strength (Athletics) check covers difficult situations you encounter while climbing, jumping, or swimming.",
-	"Deception": "Your Charisma (Deception) check determines whether you can convincingly hide the truth, either verbally or through your actions.",
-	"History": "Your Intelligence (History) check measures your ability to recall lore about historical events, legendary people, ancient kingdoms, past disputes, recent wars, and lost civilizations.",
-	"Insight": "Your Wisdom (Insight) check decides whether you can determine the true intentions of a creature, such as when searching out a lie or predicting someone's next move.",
-	"Intimidation": "When you attempt to influence someone through overt threats, hostile actions, and physical violence, the GM might ask you to make a Charisma (Intimidation) check.",
-	"Investigation": "When you look around for clues and make deductions based on those clues, you make an Intelligence (Investigation) check.",
-	"Medicine": "A Wisdom (Medicine) check lets you try to stabilize a dying companion or diagnose an illness.",
-	"Nature": "Your Intelligence (Nature) check measures your ability to recall lore about terrain, plants and animals, the weather, and natural cycles.",
-	"Perception": "Your Wisdom (Perception) check lets you spot, hear, or otherwise detect the presence of something. It measures your general awareness of your surroundings and the keenness of your senses.",
-	"Performance": "Your Charisma (Performance) check determines how well you can delight an audience with music, dance, acting, storytelling, or some other form of entertainment.",
-	"Persuasion": "When you attempt to influence someone or a group of people with tact, social graces, or good nature, the GM might ask you to make a Charisma (Persuasion) check.",
-	"Religion": "Your Intelligence (Religion) check measures your ability to recall lore about deities, rites and prayers, religious hierarchies, holy symbols, and the practices of secret cults.",
-	"Sleight of Hand": "Whenever you attempt an act of legerdemain or manual trickery, such as planting something on someone else or concealing an object on your person, make a Dexterity (Sleight of Hand) check.",
-	"Stealth": "Make a Dexterity (Stealth) check when you attempt to conceal yourself from enemies, slink past guards, slip away without being noticed, or sneak up on someone without being seen or heard.",
-	"Survival": "The GM might ask you to make a Wisdom (Survival) check to follow tracks, hunt wild game, guide your group through frozen wastelands, identify signs that owlbears live nearby, predict the weather, or avoid quicksand and other natural hazards."
+	"Akrobasi": "Çeviklik (Akrobasi) zarın zorlu bir durumda ayakta kalabilme çabanı gösterir, buz üstünde koşma, ip üzerinde dengede durma yada sallanan bir geminin güvertesinde ayakta kalma gibi.",
+	"Hayvan İdaresi": "Eğer durum senin evcil bir hayvanı sakinleştirebilmen, bir bineğin korkmasını engellemen yada bir hayvanın amacını sezmense, DM bir Akıl (Hayvan İdaresi) zarı isteyebilir.",
+	"Arcana": "Zeka (Arcana) zarın büyüler, büyülü eşyalar, eldritch sembolleri, büyülü gelenekler, varoluş boyutları ve o boyutların halkı hakkında bilgileri hatırlama becerindir.",
+	"Atletizm": "Kuvvet (Atletizm) zarın tırmanırken, zıplarken yada yüzerken karşılaşabileceğin zorlu durumlardaki çabanı ölçer.",
+	"Aldatma": "Karizma (Aldatma) zarın sözlü bir şekilde yada eylemlerinle gerçeği saklayabilme becerini ölçer.",
+	"Tarih": "Zeka (Tarih) zarın tarihi olaylar, efsanevi kişiler, antik krallıklar, eski çekişmeler, yakın dönem savaşları ve kayıp uygarlıklar hakkında bilgileri hatırlama becerindir.",
+	"Sezgi": "Akıl (Sezgi) zarın bir varlığın gerçek niyetini öğrenme çabanı gösterir, bu bir yalanı farketme yada bir varlığın sonraki hamlesini tahmin etme olabilir.",
+	"Korkutma": "Birini tehditlerle, düşmanca eylemlerle ve fiziksel şiddetle etkilemeye çalıştığında DM Karizma (Korkutma) zarı isteyebilir.",
+	"İnceleme": "Etrafta ipucu ararken ve bu ipuçları üzerinden çıkarım yaparken Zeka (İnceleme) zarı atarsın.",
+	"Tıp": "Akıl (Tıp) zarı bir hastalığa teşhis koymanı yada ölmekte olan bir dostunu stabilize etmeni sağlar.",
+	"Doğa": "Zeka (Doğa) zarın çevre, bitkiler ve hayvanlar, hava durumu ve doğal döngüler hakkında bilgileri hatırlama becerindir.",
+	"Algılama": "Akıl (Algılama) zarın birşeyin varlığını görmeni, duymanı yada başka bir şekilde tespit etmeni sağlar. Senin duyularının keskinliğini ve çevrene olan genel farkındalığını ölçer.",
+	"Performans": "Karizma (Performans) zarın seyircilerini müzik, dans, hikaye anlatımı yada başka bir tip eğlence ile ne denli etkileyebileceğini ölçer.",
+	"İkna Etme": "Birini yada bir grubu zarafet, incelik yada iyi niyetle etkilemeye çalışırsan DM Karizma (İkna Etme) zarı isteyebilir.",
+	"Din": "Zeka (Din) zarın tanrılar, ayinler ve dualar, dini hiyerarşiler, kutsal semboller ve gizli kültlerin uygulamaları hakkında bilgileri hatırlama becerindir.",
+	"El Çabukluğu": "Ne zaman bir el çabukluğu yada aldatmaca denersen, birinin üzerine birşey yerleştirme yada kendi üzerinde bir nesne gizleme gibi, Çeviklik (El Çabukluğu) zarı atarsın.",
+	"Gizlenme": "Düşmanlardan kendini gizlemeye, bekçilere görünmeden geçmeye, farkedilmeden sıvışmaya yada görülmeden ve duyulmadan sinsice birine yaklaşmaya çalıştığında Çeviklik (Gizlenme) zarı atarsın.",
+	"Hayatta Kalma": "İz sürme, avlanma, grubuna buz kaplı hiçliklerde yok gösterme, yakınlarda owlbear'lerin yaşadığına dair işaretleri görme, hava durumunu tahmin etme yada bataklar ve diğer doğal tehlikelerden kaçınma gibi durumlarda DM Akıl (Hayatta Kalma) zarı isteyebilir."
 };
 
 Parser.ACTION_JSON_TO_FULL = {
-	"Dash": "When you take the Dash action, you gain extra movement for the current turn. The increase equals your speed, after applying any modifiers. With a speed of 30 feet, for example, you can move up to 60 feet on your turn if you dash.",
-	"Disengage": "If you take the Disengage action, your movement doesn't provoke opportunity attacks for the rest of the turn.",
-	"Dodge": "When you take the Dodge action, you focus entirely on avoiding attacks. Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage.",
-	"Help": "You can lend your aid to another creature in the completion of a task. The creature you aid gains advantage on the next ability check it makes to perform the task you are helping with, provided that it makes the check before the start of your next turn.",
-	"Hide": "When you take the Hide action, you make a Dexterity (Stealth) check in an attempt to hide, following the rules for hiding.",
-	"Ready": "Sometimes you want to get the jump on a foe or wait for a particular circumstance before you act. To do so, you can take the Ready action on your turn, which lets you act using your reaction before the start of your next turn."
+	"Depar": "Depar eylemini kullandığında o sıra için fazladan hareket elde edersin. Bu artış bonusları ekledikten sonra senin hızın kadardır. Örneğin 30 feet hızla Depar eylemini kullanırsan o sıranda 60 feet hareket edebilirsin.",
+	"Ayrılma": "Ayrılma eylemini kullandığında sıranın sonuna kadar hareketin fırsat saldırısı tetiklemez.",
+	"Kaçınma": "Kaçınma eylemini kullandığında tamamen saldırılardan kaçınmaya odaklanırsın. Bir sonraki sıranın başına kadar eğer saldırganı görebiliyorsan sana karşı yapılan tüm saldırılar dezavavntajlı olur. Aynı zamanda Çeviklik kurtulma zarlarında avantajın olur.",
+	"Yardım": "Bir işin yapılması için başka bir varlığa yardım edebilirsin. Varlık senin yardım ettiğin işi yaparken atacağı bir sonraki beceri zarında avantajı olur, tabii bu zarı senin bir sonraki sıranın başına kadar atması gerekir.",
+	"Saklanma": "Saklanma eylemini kullandığında, saklanma kurallarına uyarak gizlenmeyi denemek için bir Çeviklik (Gizlenme) zarı atarsın.",
+	"Hazırla": "Bazen bir düşmanı tuzağa düşürme yada harekete geçmeden önce belirli bir durumun gerçekleşmesi beklemek isteyebilirsin. Bunu yapmak için Hazırla eylemini kullanırsın, bir sonraki sıranın başına kadar reaksiyonunu kullanarak hazırladığın eylemi kullanmanı sağlar."
 };
 
-Parser.NUMBERS_ONES = ['', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'];
-Parser.NUMBERS_TENS = ['', '', 'twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety'];
-Parser.NUMBERS_TEENS = ['ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen'];
+Parser.NUMBERS_ONES = ['', 'bir', 'iki', 'üç', 'dört', 'beş', 'altı', 'yedi', 'sekiz', 'dokuz'];
+Parser.NUMBERS_TENS = ['', '', 'yirmi', 'otuz', 'kırk', 'elli', 'altmış', 'yetmiş', 'seksen', 'doksan'];
+Parser.NUMBERS_TEENS = ['on', 'on bir', 'on iki', 'on üç', 'on dört', 'on beş', 'on altı', 'on yedi', 'on sekiz', 'on dokuz'];
 
 // SOURCES =============================================================================================================
 function hasBeenReprinted (shortName, source) {
