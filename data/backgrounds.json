@@ -1007,7 +1007,7 @@
 								],
 								[
 									"7",
-									"Kusursuzun altında hiçbirşeyi kabul etmem."
+									"Kusursuzun altında hiçbir şeyi kabul etmem."
 								],
 								[
 									"8",
@@ -2578,7 +2578,7 @@
 								],
 								[
 									"5",
-									"Aile. Hiçbirşey aileden önemli değildir. (Herhangi biri)"
+									"Aile. Hiçbir şey aileden önemli değildir. (Herhangi biri)"
 								],
 								[
 									"6",
@@ -2607,7 +2607,7 @@
 								],
 								[
 									"3",
-									"Hiçbirşey diğer aile bireylerim kadar önemli değildir."
+									"Hiçbir şey diğer aile bireylerim kadar önemli değildir."
 								],
 								[
 									"4",
@@ -2665,44 +2665,44 @@
 			]
 		},
 		{
-			"name": "Outlander",
+			"name": "Yabancı",
 			"source": "PHB",
 			"page": 136,
-			"skillProficiencies": "Athletics, Survival",
+			"skillProficiencies": "Atletizm, Hayatta Kalma",
 			"entries": [
 				{
 					"name": "Beceri Uzmanlıkları",
 					"type": "entries",
 					"entries": [
-						"Athletics, Survival"
+						"Atletizm, Hayatta Kalma"
 					]
 				},
 				{
 					"name": "Alet Uzmanlıkları",
 					"type": "entries",
 					"entries": [
-						"One type of musical instrument"
+						"Bir tip müzik enstrümanı"
 					]
 				},
 				{
 					"name": "Diller",
 					"type": "entries",
 					"entries": [
-						"One of your choice"
+						"Seçeceğin bir tane"
 					]
 				},
 				{
 					"name": "Ekipman",
 					"type": "entries",
 					"entries": [
-						"A staff, a hunting trap, a trophy from an animal you killed, a set of traveler's clothes, and a belt pouch containing 10 gp"
+						"Bir asa, bir av kapanı, avladığın bir hayvandan hatıra, bir set yolcu kıyafeti ve 10 gp içeren bir kese"
 					]
 				},
 				{
-					"name": "Özellik: Wanderer",
+					"name": "Özellik: Gezgin",
 					"type": "entries",
 					"entries": [
-						"You have an excellent memory for maps and geography, and you can always recall the general layout of terrain, settlements, and other features around you. In addition, you can find food and fresh water for yourself and up to five other people each day, provided that the land offers berries, small game, water, and so forth."
+						"Haritalar ve coğrafya için muazzam bir hafızan var, arazinin, yerleşimlerin ve çevrendeki diğer özelliklerin genel hatlarını daima hatırlayabilirsin. Ek olarak, bulunduğun arazide meyve, küçük hayvanlar ve su gibi kaynakların bulunması durumunda kendin ve diğer 5 kişinin günlük yemek ve içme suyu ihtiyacını karşılayabilirsin."
 					],
 					"data": {
 						"isFeature": true
@@ -2712,12 +2712,12 @@
 					"name": "Uzmanlık Dalı",
 					"type": "entries",
 					"entries": [
-						"You've been to strange places and seen things that others cannot begin to fathom. Consider some of the distant lands you have visited, and how they impacted you. You can roll on the following table to determine your occupation during your time in the wild, or choose one that best fits your character.",
+						"Garip yerlerde bulundun ve diğerlerinin hayal bile edemeyeceği şeyler gördün. Gittiğin uzak diyarları ve onların seni nasıl etkilediğini düşün. Karakterine en uygununu kendin seçebilir yada bu tablo üzerinde zar atarak seyahatlerin sırasındaki mesleğini belirleyebilirsin.",
 						{
 							"type": "table",
 							"colLabels": [
 									"d10",
-									"Origin"
+									"Asıl"
 							],
 							"colStyles": [
 									"col-xs-1 text-align-center",
@@ -2726,43 +2726,43 @@
 							"rows": [
 								[
 									"1",
-									"Forester"
+									"Ormancı"
 								],
 								[
 									"2",
-									"Trapper"
+									"Avcı"
 								],
 								[
 									"3",
-									"Homesteader"
+									"Gecekonducu"
 								],
 								[
 									"4",
-									"Guide"
+									"Rehber"
 								],
 								[
 									"5",
-									"Exile or outcast"
+									"Sürgün edilmiş yada toplumdan kovulmuş biri"
 								],
 								[
 									"6",
-									"Bounty hunter"
+									"Ödül Avcısı"
 								],
 								[
 									"7",
-									"Pilgrim"
+									"Hacı"
 								],
 								[
 									"8",
-									"Tribal nomad"
+									"Göçebe kabileden biri"
 								],
 								[
 									"9",
-									"Hunter-gatherer"
+									"Avcı-toplayıcı"
 								],
 								[
 									"10",
-									"Tribal marauder"
+									"Yağmacı kabileden biri"
 								]
 							]
 						}
@@ -2772,7 +2772,7 @@
 					"name": "Tavsiye Edilen Nitelikler",
 					"type": "entries",
 					"entries": [
-						"Often considered rude and uncouth among civilized folk, outlanders have little respect for the niceties of life in the cities. The ties of tribe, clan, family, and the natural world of which they are a part are the most important bonds to most outlanders.",
+						"Medeni halkın gözünde kaba ve görgüsüz olarak görülen yabancıların şehir hayatındaki inceliklere pek saygıları yoktur. Parçası oldukları kabile, aile, klan ve doğal ortama olan bağları onlar için en önemli bağdır.",
 						{
 							"type": "table",
 							"colLabels": [
@@ -2786,35 +2786,35 @@
 							"rows": [
 								[
 									"1",
-									" I'm driven by a wanderlust that led me away from home"
+									"İçimdeki seyahat tutkusu yüzünden evden uzaklaştım."
 								],
 								[
 									"2",
-									"I watch over my friends as if they were a litter of newborn pups."
+									"Dostlarıma sanki onlar yeni doğmuş köpek yavrularıymışçasına bakar, korurum."
 								],
 								[
 									"3",
-									"I once ran twenty-five miles without stopping to warn to my clan of an approaching orc horde. I'd do it again if I had to."
+									"Bir keresinde klanımı yaklaşan bir orc ordusuna karşı uyarabilmek için durmaksızın 25 mil koştum. Zorunda kalırsam yine yaparım."
 								],
 								[
 									"4",
-									"I have a lesson for every situation, drawn from observing nature."
+									"Doğayı inceleyerek her durumdan bir ders çıkarabilirim."
 								],
 								[
 									"5",
-									"I place no stock in wealthy or well-mannered folk. Money and manners won't save you from a hungry owlbear."
+									"Zengin yada iyi huylu kişilere güvenmem. Para ve efendilik seni aç bir owlbear karşısında korumaz."
 								],
 								[
 									"6",
-									"I'm always picking things up, absently fiddling with them, and sometimes accidentally breaking them."
+									"Daima birşeyleri alır, dalgınlıkla onlarla oyalanır ve bazen yanlışlıkla onları kırarım."
 								],
 								[
 									"7",
-									"I feel far more comfortable around animals than people"
+									"Hayvanların yanında kişilerin yanında olduğumdan daha rahat hissederim."
 								],
 								[
 									"8",
-									"I was, in fact, raised by wolves."
+									"Aslında ben kurtlar tarafından yetiştirildim."
 								]
 							]
 						},
@@ -2831,27 +2831,27 @@
 							"rows": [
 								[
 									"1",
-									"Change. Life is like the seasons, in constant change, and we must change with it. (Chaotic)"
+									"Değişim. Yaşam mevsimler gibi sürekli değişim içindedir, bizde onunla değişmeliyiz. (Düzensiz)"
 								],
 								[
 									"2",
-									"Greater Good. It is each person's responsibility to make the most happiness for the whole tribe. (Good)"
+									"İyilik. Bütün kabile için en fazla mutluluğu yaratmak her bireyin görevidir. (İyi)"
 								],
 								[
 									"3",
-									"Honor. If I dishonor myself, I dishonor my whole clan. (Lawful)"
+									"Onur. Eğer kendi onuruma leke sürersem, bütün klanıma leke sürmüş olurum. (Kuralcı)"
 								],
 								[
 									"4",
-									"Might. The strongest are meant to rule. (Evil)"
+									"Güç. En güçlü olan yönetir. (Kötü)"
 								],
 								[
 									"5",
-									"Nature. The natural world is more important than all the constructs of civilization. (Neutral)"
+									"Doğa. Doğal dünya tüm medeniyetin yapılarından daha önemlidir. (Nötr)"
 								],
 								[
 									"6",
-									"Glory. I must earn glory in battle, for myself and my clan. (Any)"
+									"Şan. Kendim ve klanım için savaşta şanlanmalıyım. (Herhangi biri)"
 								]
 							]
 						},
@@ -2868,27 +2868,27 @@
 							"rows": [
 								[
 									"1",
-									"My family, clan, or tribe is the most important thing in my life, even when they are far from me."
+									"Ailem, klanım yada kabilem hayatımdaki en önemli şeydir, benden uzakta olsalar bile."
 								],
 								[
 									"2",
-									"An injury to the unspoiled wilderness of my home is an injury to me."
+									"Yurdumun bozulmamış doğasına açılan bir yara, benim bedenime açılmış bir yaradır."
 								],
 								[
 									"3",
-									"I will bring terrible wrath down on the evildoers who destroyed my homeland."
+									"Anayurdumu mahveden kötülere bütün gazabımı göstereceğim."
 								],
 								[
 									"4",
-									"I am the last of my tribe, and it is up to me to ensure their names enter legend."
+									"Kabilemin sonuncusuyum ve bu yüzden adlarımızın efsanelerde anılmasını sağlamak bana düşer."
 								],
 								[
 									"5",
-									"I suffer awful visions of a coming disaster and will do anything to prevent it."
+									"Yaklaşan bir felaket hakkında görülerim var ve onu durdurabilmek için elimden geleni yaparım."
 								],
 								[
 									"6",
-									"It is my duty to provide children to sustain my tribe."
+									"Kabilemin devamını sağlamak için çocuk yapmak benim görevim."
 								]
 							]
 						},
@@ -2905,27 +2905,27 @@
 							"rows": [
 								[
 									"1",
-									"I am too enamored of ale, wine, and other intoxicants."
+									"Bira, şarap ve tüm sarhoş edici maddelere fazla düşkünüm."
 								],
 								[
 									"2",
-									"There's no room for caution in a life lived to the fullest."
+									"Dolu dolu yaşanan bir hayatta temkinin yeri yoktur."
 								],
 								[
 									"3",
-									"I remember every insult I've received and nurse a silent resentment toward anyone who's ever wronged me."
+									"Bana yapılan tüm hakaretleri hatırlarım ve bana yanlış yapan herkese karşı içimden kin beslerim."
 								],
 								[
 									"4",
-									"I am slow to trust members of other races, tribes, and societies."
+									"Diğer ırklar, kabileler ve toplumların bireylerine zor güvenirim."
 								],
 								[
 									"5",
-									" Violence is my answer to almost any challenge."
+									"Neredeyse tüm zorluklara benim cevabım şiddettir."
 								],
 								[
 									"6",
-									" Don't expect me to save those who can't save themselves. It is nature's way that the strong thrive and the weak perish."
+									"Kendini kurtaramayanları kurtarmamı bekleme. Zayıfın yok olması ve güçlünün hayatta kalması doğanın kuralıdır."
 								]
 							]
 						}
@@ -2934,37 +2934,37 @@
 			]
 		},
 		{
-			"name": "Sage",
+			"name": "Bilge",
 			"source": "PHB",
 			"page": 137,
-			"skillProficiencies": "Arcana, History",
+			"skillProficiencies": "Arcana, Tarih",
 			"entries": [
 				{
 					"name": "Beceri Uzmanlıkları",
 					"type": "entries",
 					"entries": [
-						"Arcana, History"
+						"Arcana, Tarih"
 					]
 				},
 				{
 					"name": "Diller",
 					"type": "entries",
 					"entries": [
-						"Two of your choice"
+						"Seçeceğin iki tane"
 					]
 				},
 				{
 					"name": "Ekipman",
 					"type": "entries",
 					"entries": [
-						"A bottle of black ink, a quill, a small knife, a letter from a dead colleague posing a question you have not yet been able to answer, a set of common clothes, and a belt pouch containing 10 gp"
+						"Bir şişe siyah mürekkep, bir tüy, bir küçük bıçak, hala yanıtlayamadığın bir soru içeren ölmüş bir iş arkadaşından gelen bir mektup, bir set günlük kıyafet ve 10 gp içeren bir kese"
 					]
 				},
 				{
-					"name": "Özellik: Researcher",
+					"name": "Özellik: Araştırmacı",
 					"type": "entries",
 					"entries": [
-						"When you attempt to learn or recall a piece of lore, if you do not know that information, you often know where and from whom you can obtain it. Usually, this information comes from a library, scriptorium, university, or a sage or other learned person or creature, Your DM might rule that the knowledge you seek is secreted away in an almost inaccessible place, or that it simply cannot be found. Unearthing the deepest secrets of the multiverse can require an adventure or even a whole campaign."
+						"Bir bilgiyi hatırlamaya yada öğrenmeye çalıştığında eğer o bilgiye sahip değilsen genelde nereden yada kimden öğrenebileceğini bilirsin. Genelde bu bilgi bir kütüphane, manastır arşivi, üniversite yada bir bilge veya benzeri zeki bir varlıktan gelir. DM aradığın bilginin ulaşılamaz bir yerde olduğuna yada bulunamayacağına karar verebilir. Çoklu evrenin en derin sırlarını açığa çıkarma uzun bir macera hatta tüm kampanya boyunca sürebilir."
 					],
 					"data": {
 						"isFeature": true
@@ -2974,12 +2974,12 @@
 					"name": "Uzmanlık Dalı",
 					"type": "entries",
 					"entries": [
-						"To determine the nature of your scholarly training, roll a d8 or choose from the options in the table below.",
+						"Bilgin olduğun konu ve eğitimini seçmek için d8 atıp aşağıdaki tablodan seçebilirsin.",
 						{
 							"type": "table",
 							"colLabels": [
 									"d8",
-									"Field of Study"
+									"Araştırma Alanı"
 							],
 							"colStyles": [
 									"col-xs-1 text-align-center",
@@ -2988,35 +2988,35 @@
 							"rows": [
 								[
 									"1",
-									"Alchemist"
+									"Simyacı"
 								],
 								[
 									"2",
-									"Astronomer"
+									"Gök bilimci"
 								],
 								[
 									"3",
-									"Discredited academic"
+									"İtibardan yoksun bir akademisyen"
 								],
 								[
 									"4",
-									"Librarian"
+									"Kütüphaneci"
 								],
 								[
 									"5",
-									"Professor"
+									"Profesör"
 								],
 								[
 									"6",
-									"Researcher"
+									"Araştırmacı"
 								],
 								[
 									"7",
-									"Wizard's apprentice"
+									"Büyücü çırağı"
 								],
 								[
 									"8",
-									"Scribe"
+									"Katip"
 								]
 							]
 						}
@@ -3026,7 +3026,7 @@
 					"name": "Tavsiye Edilen Nitelikler",
 					"type": "entries",
 					"entries": [
-						"Sages are defined by their extensive studies, and their characteristics reflect this life of study. Devoted to scholarly pursuits, a sage values knowledge highly\u2014sometimes in its own right, sometimes as a means toward other ideals.",
+						"Bilgeler kapsamlı araştırmaları ile bilinirler ve nitelikleri de bu hayat tarzını yansıtır. Bilgelik arayışına bağlı yapıları ile bir bilge için bilgi, idealleri için bir araç yada ulaşmak istedikleri sonuç olabilir.",
 						{
 							"type": "table",
 							"colLabels": [
@@ -3040,35 +3040,35 @@
 							"rows": [
 								[
 									"1",
-									"I use polysyllabic words that convey the impression of great erudition."
+									"Üstün bilgelik izlenimi veren çok heceli kelimeler kullanırım."
 								],
 								[
 									"2",
-									"I've read every book in the world's greatest libraries\u2014or I like to boast that I have."
+									"Dünyanın en büyük kütüphanelerindeki tüm kitapları okudum ve bununla övünmeyi de severim."
 								],
 								[
 									"3",
-									"I'm used to helping out those who aren't as smart as I am, and I patiently explain anything and everything to others."
+									"Benim kadar zeki olmayanlara yardım etmeye alışkınım ve herşeyi diğerlerine sabırla açıklayabilirim."
 								],
 								[
 									"4",
-									"There's nothing I like more than a good mystery."
+									"Güzel bir gizemden çok sevdiğim hiçbir şey yoktur."
 								],
 								[
 									"5",
-									"I'm willing to listen to every side of an argument before I make my own judgment."
+									"Kendi yargımı yaratmadan önce bir tartışmanın her iki yanını da dinlerim."
 								],
 								[
 									"6",
-									"I . . . speak . . . slowly . . . when talking . . . to idiots, . . . which . . . almost . . . everyone . . . is . . . compared . . . to me."
+									"Ben . . . aptallarla . . . konuşurken . . . daima . . . yavaş . . . konuşurum . . . ve . . . kendimle . . . karşılaştırınca . . . neredeyse . . . herkes . . . aptaldır."
 								],
 								[
 									"7",
-									"I am horribly, horribly awkward in social situations."
+									"Sosyal durumlarda korkunç derecede garibimdir."
 								],
 								[
 									"8",
-									"I'm convinced that people are always trying to steal my secrets."
+									"Daima kişilerin benim sırlarımı çalmaya çalıştığını düşünürüm."
 								]
 							]
 						},
@@ -3085,27 +3085,27 @@
 							"rows": [
 								[
 									"1",
-									"Knowledge. The path to power and self-improvement is through knowledge. (Neutral)"
+									"Bilgi. Güç ve kendini geliştirmeye giden yol bilgiden geçer. (Nötr)"
 								],
 								[
 									"2",
-									"Beauty. What is beautiful points us beyond itself toward what is true. (Good)"
+									"Güzellik. Güzel olan bizi kendinden öteye, doğru olana götürür. (İyi)"
 								],
 								[
 									"3",
-									"Logic. Emotions must not cloud our logical thinking. (Lawful)"
+									"Mantık. Duygular mantıksal düşüncemizi bulandırmamalıdır. (Kuralcı)"
 								],
 								[
 									"4",
-									"No Limits. Nothing should fetter the infinite possibility inherent in all existence. (Chaotic)"
+									"Limitsiz. Tüm varoluşta bulunan sonsuz olasılığı hiçbir şey engellememelidir. (Düzensiz)"
 								],
 								[
 									"5",
-									"Power. Knowledge is the path to power and domination. (Evil)"
+									"Güç. Bilgi, güç ve hakimiyete giden yoldur. (Kötü)"
 								],
 								[
 									"6",
-									"Self-Improvement. The goal of a life of study is the betterment of oneself. (Any)"
+									"Kendini geliştirme. Araştırma hayatının tek amacı bireyin kendini geliştirmesidir. (Hiç)"
 								]
 							]
 						},
@@ -3122,27 +3122,27 @@
 							"rows": [
 								[
 									"1",
-									"It is my duty to protect my students."
+									"Görevim öğrencilerimi korumaktır."
 								],
 								[
 									"2",
-									"I have an ancient text that holds terrible secrets that must not fall into the wrong hands."
+									"Yanlış kişilerin ellerine geçmemesi gereken, korkunç sırlar saklayan bir kadim yazıta sahibim."
 								],
 								[
 									"3",
-									"I work to preserve a library, university, scriptorium, or monastery."
+									"Bir kütüphane, arşiv, üniversite yada manastırı korumaya çalışıyorum."
 								],
 								[
 									"4",
-									"My life's work is a series of tomes related to a specific field of lore."
+									"Tüm hayatımın çalışması belirli bir bilgi alanı hakkında yazdığım bir seri yazıttır."
 								],
 								[
 									"5",
-									"I've been searching my whole life for the answer to a certain question."
+									"Tüm hayatım boyunca belirli bir sorunun cevabını aradım."
 								],
 								[
 									"6",
-									"I sold my soul for knowledge. I hope to do great deeds and win it back."
+									"Bilgi için ruhumu sattım. Büyük işler başarıp onu geri kazanmayı umuyorum."
 								]
 							]
 						},
@@ -3159,27 +3159,27 @@
 							"rows": [
 								[
 									"1",
-									"I am easily distracted by the promise of information."
+									"Bilgi vaadi ile kolaylıkla dikkatim dağılabilir."
 								],
 								[
 									"2",
-									"Most people scream and run when they see a demon. I stop and take notes on its anatomy."
+									"Kişiler bir iblis gördüğünde korkup kaçarlar. Bense durup anatomisi hakkında notlar alırım."
 								],
 								[
 									"3",
-									"Unlocking an ancient mystery is worth the price of a civilization."
+									"Kadim bir sırrın keşfi bir medeniyete bedeldir."
 								],
 								[
 									"4",
-									"I overlook obvious solutions in favor of complicated ones."
+									"Karmaşık çözümler bulmak için genelde basit olanları görmezden gelirim."
 								],
 								[
 									"5",
-									"I speak without really thinking through my words, invariably insulting others."
+									"Düşünmeden konuşup istemsizce diğerlerine hakaret ederim."
 								],
 								[
 									"6",
-									"I can't keep a secret to save my life, or anyone else's."
+									"Hayatım pahasına sır tutamam, yada başkasının hayatı pahasına."
 								]
 							]
 						}
@@ -3188,37 +3188,37 @@
 			]
 		},
 		{
-			"name": "Sailor",
+			"name": "Denizci",
 			"source": "PHB",
 			"page": 139,
-			"skillProficiencies": "Athletics, Perception",
+			"skillProficiencies": "Atletizm, Algı",
 			"entries": [
 				{
 					"name": "Beceri Uzmanlıkları",
 					"type": "entries",
 					"entries": [
-						"Athletics, Perception"
+						"Atletizm, Algı"
 					]
 				},
 				{
 					"name": "Alet Uzmanlıkları",
 					"type": "entries",
 					"entries": [
-						"Navigator's tools, vehicles (water)"
+						"Rotacı aletleri, araçlar (su)"
 					]
 				},
 				{
 					"name": "Ekipman",
 					"type": "entries",
 					"entries": [
-						"A belaying pin (club), 50 feet of silk rope, a lucky charm such as a rabbit foot or a small stone with a hole in the center (or you may roll for a random trinket on the Trinkets table in chapter 5), a set of common clothes, and a belt pouch containing 10 gp"
+						"Bir bağlama direği (sopa), 50 feetlik ipek halat, tavşan ayağı yada delikli taş gibi bir şans tılsımı, bir set günlük kıyafet ve 10 gp içeren bir kese"
 					]
 				},
 				{
-					"name": "Özellik: Ship's Passage",
+					"name": "Özellik: Gemi Geçişi",
 					"type": "entries",
 					"entries": [
-						"When you need to, you can secure free passage on a sailing ship for yourself and your adventuring companions. You might sail on the ship you served on, or another ship you have good relations with (perhaps one captained by a former crewmate). Because you're calling in a favor, you can't be certain of a schedule or route that will meet your every need. Your Dungeon Master will determine how long it takes to get where you need to go. In return for your free passage, you and your companions are expected to assist the crew during the voyage."
+						"İhtiyaç duyduğunda bir yelkenli gemide sen ve maceracı dostların için ücretsiz yolculuk ayarlayabilirsin. Daha önce çalıştığın bir gemi yada iyi ilişkilerin olan (belki eski bir dostun kaptanlık yaptığı) bir gemi olabilir. Bir iyilik istediğin için tarih yada rotanın senin tüm ihtiyaçlarına uyması garanti değildir. DM'in gideceğin yere ne sürede varacağına karar verir. Ücretsiz geçişin karşılığında sen ve dostlarının gemide işlere yardım etmeniz beklenir."
 					],
 					"data": {
 						"isFeature": true
@@ -3242,35 +3242,35 @@
 							"rows": [
 								[
 									"1",
-									"My friends know they can rely on me, no matter what."
+									"Dostlarım ne olursa olsun bana güvenebileceklerini bilirler."
 								],
 								[
 									"2",
-									"I work hard so that I can play hard when the work is done."
+									"İş bittiğinde sıkı eğlenebilmek için çok sıkı çalışırım."
 								],
 								[
 									"3",
-									"I enjoy sailing into new ports and making new friends over a flagon of ale."
+									"Yeni limanlara yelken açıp bira eşliğinde yeni dostlar edinmeyi severim."
 								],
 								[
 									"4",
-									"I stretch the truth for the sake of a good story."
+									"Güzel bir hikaye uğruna gerçeği biraz değiştirmekten kaçınmam."
 								],
 								[
 									"5",
-									"To me, a tavern brawl is a nice way to get to know a new city."
+									"Bence bir bar kavgası yeni bir şehri tanımak için güzel bir yoldur."
 								],
 								[
 									"6",
-									"I never pass up a friendly wager."
+									"Asla dostça bir bahisten kaçınmam."
 								],
 								[
 									"7",
-									"My language is as foul as an otyugh nest."
+									"Kullandığım dil bir otyugh yuvası kadar pistir."
 								],
 								[
 									"8",
-									"I like a job well done, especially if I can convince someone else to do it."
+									"İyi yapılmış bir işi severim, özellikle başkasını onu yapmak için ikna edebiliyorsam."
 								]
 							]
 						},
@@ -3287,27 +3287,27 @@
 							"rows": [
 								[
 									"1",
-									"Respect. The thing that keeps a ship together is mutual respect between captain and crew. (Good)"
+									"Saygı. Gemiyi bir arada tutan şey kaptan ve tayfanın karşılıklı duyduğu saygıdır. (İyi)"
 								],
 								[
 									"2",
-									"Fairness. We all do the work, so we all share in the rewards. (Lawful)"
+									"Adalet. Hepimiz işi yaparız ve hepimiz ödülü paylaşırız. (Kuralcı)"
 								],
 								[
 									"3",
-									"Freedom. The sea is freedom\u2014the freedom to go anywhere and do anything. (Chaotic)"
+									"Özgürlük. Deniz özgürlüktür, istediğin yere gidip istediğini yapma özgürlüğü. (Düzensiz)"
 								],
 								[
 									"4",
-									"Mastery. I'm a predator, and the other ships on the sea are my prey. (Evil)"
+									"Ustalık. Ben bir yırtıcıyım, denizdeki diğer gemilerde benim avlarım. (Kötü)"
 								],
 								[
 									"5",
-									"People. I'm committed to my crewmates, not to ideals. (Neutral)"
+									"Halk. Ben ideallere değil tayfa dostlarıma bağlıyım. (Nötr)"
 								],
 								[
 									"6",
-									"Aspiration. Someday, I'll own my own ship and chart my own destiny. (Any)"
+									"Arzu. Birgün kendi gemime sahip olup kendi kaderimin rotasını izleyeceğim. (Herhangi biri)"
 								]
 							]
 						},
@@ -3324,27 +3324,27 @@
 							"rows": [
 								[
 									"1",
-									"I'm loyal to my captain first, everything else second."
+									"Önce kaptanıma sadığım, diğer şeyler ikincildir."
 								],
 								[
 									"2",
-									"The ship is most important\u2014crewmates and captains come and go."
+									"En önemlisi gemidir, tayfa ve kaptanlar gelir geçer."
 								],
 								[
 									"3",
-									"I'll always remember my first ship."
+									"Daima ilk gemimi hatırlayacağım."
 								],
 								[
 									"4",
-									"In a harbor town, I have a paramour whose eyes nearly stole me from the sea."
+									"Bir liman kasabasında gözleri neredeyse beni denizden çalan bir sevdiğim var."
 								],
 								[
 									"5",
-									"I was cheated out of my fair share of the profits, and I want to get my due."
+									"Hile ile ganimetteki adil payımdan oldum ve onu geri alma niyetindeyim."
 								],
 								[
 									"6",
-									"Ruthless pirates murdered my captain and crewmates, plundered our ship, and left me lo die. Vengeance will be mine."
+									"Acımasız korsanlar kaptanımı ve tayfa dostlarımı katlettiler, gemimizi yağmaladılar ve beni de ölmeye terkettiler. İntikam benim olacak."
 								]
 							]
 						},
@@ -3361,27 +3361,27 @@
 							"rows": [
 								[
 									"1",
-									"I follow orders, even if I think they're wrong."
+									"Yanlış olsalar bile emirlere itaat ederim."
 								],
 								[
 									"2",
-									"I'll say anything to avoid having to do extra work."
+									"Fazladan işten kaçınmak için herşeyi söylerim."
 								],
 								[
 									"3",
-									"Once someone questions my courage, I never back down no matter how dangerous the situation."
+									"Biri benim cesaretimi sorguladığında durum ne kadar tehlikeli olursa olsun asla geri çekilmem."
 								],
 								[
 									"4",
-									"Once I start drinking, it's hard for me to stop."
+									"Bir kere içmeye başladığımda durmak benim için zordur."
 								],
 								[
 									"5",
-									"I can't help but pocket loose coins and other trinkets I come across."
+									"Kendimi gözüme çarpan bozuklukları ve diğer değerlileri cebime atmaktan alıkoyamıyorum."
 								],
 								[
 									"6",
-									"My pride will probably lead to my destruction."
+									"Gururum muhtemelen benim sonum olacak."
 								]
 							]
 						}
@@ -3390,37 +3390,37 @@
 			]
 		},
 		{
-			"name": "Soldier",
+			"name": "Asker",
 			"source": "PHB",
 			"page": 140,
-			"skillProficiencies": "Athletics, Intimidation",
+			"skillProficiencies": "Atletizm, Gözdağı",
 			"entries": [
 				{
 					"name": "Beceri Uzmanlıkları",
 					"type": "entries",
 					"entries": [
-						"Athletics, Intimidation"
+						"Atletizm, Gözdağı"
 					]
 				},
 				{
 					"name": "Alet Uzmanlıkları",
 					"type": "entries",
 					"entries": [
-						"One type of gaming set, vehicles (land)"
+						"Bir tip oyun seti, araçlar (kara)"
 					]
 				},
 				{
 					"name": "Ekipman",
 					"type": "entries",
 					"entries": [
-						"An insignia of rank, a trophy taken from a fallen enemy (a dagger, broken blade, or piece of a banner), a set of bone dice or deck of cards, a set of common clothes, and a belt pouch containing 10 gp"
+						"Bir rütbe sembolü, düşmandan alınmış bir hatıra (bir hançer, kırık kılıç yada bir sancak parçası), bir set kemik zar yada oyun kağıtları, bir set günlük kıyafet ve 10 gp içeren bir kese"
 					]
 				},
 				{
-					"name": "Özellik: Military Rank",
+					"name": "Özellik: Askeri Rütbe",
 					"type": "entries",
 					"entries": [
-						"You have a military rank from your career as a soldier. Soldiers loyal to your former military organization still recognize your authority and influence, and they defer to you if they are of a lower rank. You can invoke your rank to exert influence over other soldiers and requisition simple equipment or horses for temporary use. You can also usually gain access to friendly military encampments and fortresses where your rank is recognized."
+						"Askerlik kariyerinden bir rütben var. Eski askeri organizasyonuna sadık askerler hala senin nüfuz ve otoriteni sayarlar ve senden düşük rütbeleri varsa sana saygı gösterirler. Rütbeni diğer askerler üzerinde nüfuz sahibi olmak ve geçici kullanım için ekipman yada at talep etmek için kullanabilirsin. Genellikle rütbenin tanındığı müttefiklerinin askeri kamplarına giriş iznin olur."
 					],
 					"data": {
 						"isFeature": true
@@ -3430,12 +3430,12 @@
 					"name": "Uzmanlık Dalı",
 					"type": "entries",
 					"entries": [
-						"During your time as a soldier, you had a specific role to play in your unit or army. Roll a d8 or choose from the options in the table below to determine your role:",
+						"Asker olarak geçirdiğin zamanda birimin yada ordunda belirli bir görevin vardı. Görevini belirlemek için aşağıdaki seçeneklerden seç yada d8 at:",
 						{
 							"type": "table",
 							"colLabels": [
 									"d8",
-									"Role"
+									"Görev"
 							],
 							"colStyles": [
 									"col-xs-1 text-align-center",
@@ -3444,35 +3444,35 @@
 							"rows": [
 								[
 									"1",
-									"Officer"
+									"Komutan"
 								],
 								[
 									"2",
-									"Scout"
+									"Öncü"
 								],
 								[
 									"3",
-									"Infantry"
+									"Piyade"
 								],
 								[
 									"4",
-									"Cavalry"
+									"Süvari"
 								],
 								[
 									"5",
-									"Healer"
+									"Şifacı"
 								],
 								[
 									"6",
-									"Quartermaster"
+									"Levazım subayı"
 								],
 								[
 									"7",
-									"Standard-bearer"
+									"Sancak taşıyıcı"
 								],
 								[
 									"8",
-									"Support staff (cook, blacksmith, or the like)"
+									"Yardımcı ekip (aşçı, demirci, vb.)"
 								]
 							]
 						}
@@ -3482,7 +3482,7 @@
 					"name": "Tavsiye Edilen Nitelikler",
 					"type": "entries",
 					"entries": [
-						"The horrors of war combined with the rigid discipline of military service leave their mark on all soldiers, shaping their ideals, creating strong bonds, and often leaving them scarred and vulnerable to fear, shame, and hatred.",
+						"Savaşın dehşeti ve askeri hizmetin sıkı disiplini tüm askerler üzerinde izini bırakır. İdeallerini şekillendirir, güçlü bağlar yaratır ve sıkça onları yaralı ve korku, utanç ve nefrete karşı korunmasız bırakır.",
 						{
 							"type": "table",
 							"colLabels": [
@@ -3496,35 +3496,35 @@
 							"rows": [
 								[
 									"1",
-									"I'm always polite and respectful."
+									"Daima kibar ve saygılıyımdır."
 								],
 								[
 									"2",
-									"I'm haunted by memories of war. I can't get the images of violence out of my mind."
+									"Savaş anıları peşimi bırakmaz. Şiddet görüntülerini aklımdan çıkaramam."
 								],
 								[
 									"3",
-									"I've lost too many friends, and I'm slow to make new ones."
+									"Çok fazla dost kaybettim, bu yüzden yenilerini kazanmam zaman alır."
 								],
 								[
 									"4",
-									"I'm full of inspiring and cautionary tales from my military experience relevant to almost every combat situation."
+									"Askeri deneyimimden neredeyse tüm savaş durumlarına uyan ikaz edici ve ilham verici hikayeler ile doluyum."
 								],
 								[
 									"5",
-									"I can stare down a hell hound without flinching."
+									"Korkmadan bir cehennem köpeğini sadece bakışlarımla alt edebilirim."
 								],
 								[
 									"6",
-									"I enjoy being strong and like breaking things."
+									"Güçlü olmayı seviyorum ve bir şeyleri kırmaktan zevk alırım."
 								],
 								[
 									"7",
-									"I have a crude sense of humor."
+									"Kaba bir mizah anlayışım var."
 								],
 								[
 									"8",
-									"I face problems head-on. A simple, direct solution is the best path to success."
+									"Sorunlarımla doğrudan yüzleşirim. Basit ve direkt bir çözüm başarıya giden en iyi yoldur."
 								]
 							]
 						},
@@ -3541,27 +3541,27 @@
 							"rows": [
 								[
 									"1",
-									"Greater Good. Our lot is to lay down our lives in defense of others. (Good)"
+									"İyilik. Bizim işimiz diğerlerini korumak için hayatlarımızdan vazgeçmektir. (İyi)"
 								],
 								[
 									"2",
-									"Responsibility. I do what I must and obey just authority. (Lawful)"
+									"Sorumluluk. Yapmam gerekeni yapıp adil otoriteye itaat ederim. (Kuralcı)"
 								],
 								[
 									"3",
-									"Independence. When people follow orders blindly, they embrace a kind of tyranny. (Chaotic)"
+									"Bağımsızlık. Kişiler emirlere sorgusuz itaat ettiğinde bir tip tiranlığı benimsemiş olurlar. (Düzensiz)"
 								],
 								[
 									"4",
-									"Might. In life as in war, the stronger force wins. (Evil)"
+									"Güç. Hayatta da savaştaki gibidir, güçlü olan kazanır. (Kötü)"
 								],
 								[
 									"5",
-									"Live and Let Live. Ideals aren't worth killing over or going to war for. (Neutral)"
+									"Yaşa ve Yaşat. İdealler uğrunda öldürmeye yada savaşa girmeye değmezler. (Nötr)"
 								],
 								[
 									"6",
-									"Nation. My city, nation, or people are all that matter. (Any)"
+									"Millet. Benim şehrim, milletim yada halkım önemli olan tek şeydir. (Herhangi biri)"
 								]
 							]
 						},
@@ -3578,27 +3578,27 @@
 							"rows": [
 								[
 									"1",
-									"I would still lay down my life for the people I served with."
+									"Hala birlikte görev yapmış olduğum kişiler için canımdan vazgeçerim."
 								],
 								[
 									"2",
-									"Someone saved my life on the battlefield. To this day, I will never leave a friend behind."
+									"Savaş alanında biri benim hayatımı kurtardı. Bu güne kadar kimseyi geride bırakmadım, bırakmamda."
 								],
 								[
 									"3",
-									"My honor is my life."
+									"Onurum hayatımdır."
 								],
 								[
 									"4",
-									"I'll never forget the crushing defeat my company suffered or the enemies who dealt it."
+									"Birliğimin yaşadığı ezici malubiyeti yada bunu gerçekleştiren düşmanları asla unutamam."
 								],
 								[
 									"5",
-									"Those who fight beside me are those worth dying for."
+									"Yanımda savaşanlar uğrunda ölmeye değecek olanlardır."
 								],
 								[
 									"6",
-									"I fight for those who cannot fight for themselves."
+									"Kendileri için savaşamayanlar için savaşırım."
 								]
 							]
 						},
@@ -3615,27 +3615,27 @@
 							"rows": [
 								[
 									"1",
-									"The monstrous enemy we faced in battle still leaves me quivering with fear."
+									"Savaşta yüzleştiğimiz korkunç düşman beni hala korkudan titretir."
 								],
 								[
 									"2",
-									"I have little respect for anyone who is not a proven warrior."
+									"Kendini kanıtlamış bir savaşçı olmayanlara saygım yoktur."
 								],
 								[
 									"3",
-									"I made a terrible mistake in battle that cost many lives\u2014and I would do anything to keep that mistake secret."
+									"Savaşta bir çok cana mal olan korkunç bir hata yaptım ve bunu sır olarak saklamak için herşeyi yaparım."
 								],
 								[
 									"4",
-									"My hatred of my enemies is blinding and unreasoning."
+									"Düşmanlarıma olan nefretim kör edici ve mantık dışıdır."
 								],
 								[
 									"5",
-									"I obey the law, even if the law causes misery."
+									"Ben yasaya uyarım, yasa sefalete yol açsa bile."
 								],
 								[
 									"6",
-									"I'd rather eat my armor than admit when I'm wrong."
+									"Hatamı kabul etmektense zırhımı yemeyi tercih ederim."
 								]
 							]
 						}
@@ -3683,7 +3683,7 @@
 			]
 		},
 		{
-			"name": "Urchin",
+			"name": "Sokak Çocuğu",
 			"source": "PHB",
 			"page": 141,
 			"skillProficiencies": "Sleight of Hand, Stealth",
