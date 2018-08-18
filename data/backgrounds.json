@@ -3686,34 +3686,34 @@
 			"name": "Sokak Çocuğu",
 			"source": "PHB",
 			"page": 141,
-			"skillProficiencies": "Sleight of Hand, Stealth",
+			"skillProficiencies": "El Çabukluğu, Gizlenme",
 			"entries": [
 				{
 					"name": "Beceri Uzmanlıkları",
 					"type": "entries",
 					"entries": [
-						"Sleight of Hand, Stealth"
+						"El Çabukluğu, Gizlenme"
 					]
 				},
 				{
 					"name": "Alet Uzmanlıkları",
 					"type": "entries",
 					"entries": [
-						"Disguise Kit, thieves' tools"
+						"Kılık değiştirme kiti, hırsız aletleri"
 					]
 				},
 				{
 					"name": "Ekipman",
 					"type": "entries",
 					"entries": [
-						"A small knife, a map of the city you grew up in, a pet mouse, a token to remember your parents by, a set of common clothes, and a belt pouch containing 10 gp"
+						"Küçük bir bıçak, büyüdüğün şehrin haritası, evcil bir fare, ebeveynlerini hatırlatan bir yadigar, bir set günlük kıyafet ve 10 gp içeren bir kese"
 					]
 				},
 				{
-					"name": "Özellik: City Secrets",
+					"name": "Özellik: Şehrin Sırları",
 					"type": "entries",
 					"entries": [
-						"You know the secret patterns and flow to cities and can find passages through the urban sprawl that others would miss. When you are not in combat, you (and companions you lead) can travel between any two locations in the city twice as fast as your speed would normally allow."
+						"Şehirlerdeki gizli düzen ve akışı bilirsin ve diğerlerinin gözden kaçıracağı geçitler bulabilirsin. Savaşta olmadığın zamanlarda, sen (ve seninle gelen dostların) şehirdeki iki nokta arasında normalin iki katı hızda seyahat edebilirsin."
 					],
 					"data": {
 						"isFeature": true
@@ -3723,7 +3723,7 @@
 					"name": "Tavsiye Edilen Nitelikler",
 					"type": "entries",
 					"entries": [
-						"Urchins are shaped by lives of desperate poverty, for good and for ill. They tend to be driven either by a commitment to the people with whom they shared life on the street or by a burning desire to find a better life\u2014and maybe get some payback on all the rich people who treated them badly.",
+						"İyisi ve kötüsüyle sokak çocuklarının hayatı çaresizlik ve sefalet ile şekillenir. Motivasyonları ya sokaklarda hayatı paylaştıkları kişilere olan bağları yada iyi bir yaşantı bulma arzularından gelir. Belki onlara kötü davranan tüm zenginlerden intikam alma arzusu da olabilir.",
 						{
 							"type": "table",
 							"colLabels": [
@@ -3737,35 +3737,35 @@
 							"rows": [
 								[
 									"1",
-									"I hide scraps of food and trinkets away in my pockets."
+									"Ceplerim yemek artıkları ve ıvır zıvır ile doludur."
 								],
 								[
 									"2",
-									"I ask a lot of questions."
+									"Çok soru sorarım."
 								],
 								[
 									"3",
-									"I like to squeeze into small places where no one else can get to me."
+									"Diğerlerinin bana erişemeyeceği ufak yerlere sıkışmayı severim."
 								],
 								[
 									"4",
-									"I sleep with my back to a wall or tree, with everything I own wrapped in a bundle in my arms."
+									"Sahip olduğum herşey kucağımda kollarımla sardığım bir bohçada iken sırtımı bir duvara yada ağaca yaslayarak uyurum."
 								],
 								[
 									"5",
-									"I eat like a pig and have bad manners."
+									"Bir domuz gibi yerim ve görgüsüzümdür."
 								],
 								[
 									"6",
-									"I think anyone who's nice to me is hiding evil intent."
+									"Bana iyi davranan herkesin kötü niyeti olduğunu düşünürüm."
 								],
 								[
 									"7",
-									"I don't like to bathe."
+									"Banyo yapmayı sevmem."
 								],
 								[
 									"8",
-									"I bluntly say what others are hinting at or hiding."
+									"Diğerlerinin göz kırptıkları yada sakladıkları şeyleri açıkça söylerim."
 								]
 							]
 						},
@@ -3782,27 +3782,27 @@
 							"rows": [
 								[
 									"1",
-									"Respect. All people, rich or poor, deserve respect. (Good)"
+									"Saygı. Zengin yada fakir, herkes saygıyı hakeder. (İyi)"
 								],
 								[
 									"2",
-									"Community. We have to take care of each other, because no one else is going to do it. (Lawful)"
+									"Toplum. Biz birbirimize sahip çıkmak zorundayız, çünkü başka kimse bunu yapmayacak. (Kuralcı)"
 								],
 								[
 									"3",
-									"Change. The low are lifted up, and the high and mighty are brought down. Change is the nature of things. (Chaotic)"
+									"Değişim. Alttaki yükseltilir ve görkemli olan indirilir. Değişim doğanın yapısında vardır. (Düzensiz)"
 								],
 								[
 									"4",
-									"Retribution. The rich need to be shown what life and death are like in the gutters. (Evil)"
+									"Karşılık. Zenginlere sokaklarda yaşam ve ölümün nasıl bir şey olduğu gösterilmeli. (Kötü)"
 								],
 								[
 									"5",
-									"People. I help the people who help me\u2014that's what keeps us alive. (Neutral)"
+									"Halk. Bana yardım edenlere bende yardım ederim, bizi hayatta tutan budur. (Nötr)"
 								],
 								[
 									"6",
-									"Aspiration. I'm going to prove that I'm worthy of a better life. (Any)"
+									"Arzu. Daha iyi bir yaşamı hakettiğimi kanıtlayacağım. (Herhangi biri)"
 								]
 							]
 						},
@@ -3819,27 +3819,27 @@
 							"rows": [
 								[
 									"1",
-									"My town is my city or my home, and I'll fight to defend it."
+									"Şehrim benim evimdir ve onu korumak için savaşırım."
 								],
 								[
 									"2",
-									"I sponsor an orphanage to keep others from enduring what I was forced to endure."
+									"Diğerleri benim yaşadığımı yaşamasın diye bir yetimhaneye destek oluyorum."
 								],
 								[
 									"3",
-									"I owe my survival to another urchin who taught me to live on the streets."
+									"Hayatımı bana sokaklarda yaşamayı öğreten başka bir sokak çocuğuna borçluyum."
 								],
 								[
 									"4",
-									"I owe a debt I can never repay to the person who took pity on me."
+									"Bana acıyan kişiye asla ödeyemeyeceğim bir borcum var."
 								],
 								[
 									"5",
-									"I escaped my life of poverty by robbing an important person, and I'm wanted for it."
+									"Sefaletimden önemli birini soyarak kurtuldum ve bu yüzden aranıyorum."
 								],
 								[
 									"6",
-									"No one else should have to endure the hardships I've been through."
+									"Başka kimse benim yaşadığım zorluklara katlanmamalı."
 								]
 							]
 						},
@@ -3856,27 +3856,27 @@
 							"rows": [
 								[
 									"1",
-									"If I'm outnumbered, I will run away from a fight."
+									"Eğer sayıca üstünlerse o dövüşten kaçarım."
 								],
 								[
 									"2",
-									"Gold seems like a lot of money to me, and I'll do just about anything for more of it."
+									"Altın benim için çok para gibi görünür ve fazlasına sahip olmak için herşeyi yaparım."
 								],
 								[
 									"3",
-									"I will never fully trust anyone other than myself."
+									"Asla kendim dışında kimseye tamamen güvenemem."
 								],
 								[
 									"4",
-									"I'd rather kill someone in their sleep than fight fair."
+									"Adil dövüşmektense birini uykusunda öldürmeyi tercih ederim."
 								],
 								[
 									"5",
-									"It's not stealing if I need it more than someone else."
+									"Eğer benim daha fazla ihtiyacım varsa bu hırsızlık sayılmaz."
 								],
 								[
 									"6",
-									"People who can't take care of themselves get what they deserve."
+									"Kendilerini koruyamayan kişiler başlarına gelenleri hakeder."
 								]
 							]
 						}
