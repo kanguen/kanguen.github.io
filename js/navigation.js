@@ -50,7 +50,7 @@ function navigation () {
 	UL('players', 'ul_players', 'dropdown-menu');
 	LI('ul_players', 'classes.html', 'Sınıflar');
 	LI('ul_players', 'backgrounds.html', 'Karakter Geçmişleri');
-	LI('ul_players', 'feats.html', 'Featler');
+	LI('ul_players', 'feats.html', 'Hünerler');
 	//LI('ul_players', 'invocations.html', 'Yakarışlar');
 	LI('ul_players', 'races.html', 'Irklar');
 	//LI('ul_players', 'lifegen.html', 'Hayatın Bu');

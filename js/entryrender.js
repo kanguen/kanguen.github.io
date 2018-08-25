@@ -1295,7 +1295,7 @@ EntryRenderer.background = {
 			<tr class="text"><td colspan="6">
 		`);
 		if (bg.skillProficiencies) {
-			renderer.recursiveEntryRender({name: "Skill Proficiencies", entries: [bg.skillProficiencies]}, renderStack, 2);
+			renderer.recursiveEntryRender({name: "Beceri Uzmanlıkları", entries: [bg.skillProficiencies]}, renderStack, 2);
 		}
 		renderer.recursiveEntryRender({entries: bg.entries.filter(it => it.data && it.data.isFeature)}, renderStack, 1);
 		renderStack.push(`</td></tr>`);
