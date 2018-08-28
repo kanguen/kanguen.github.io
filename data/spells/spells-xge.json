@@ -108,7 +108,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "Üst Seviyelerde",
 					"entries": [
 						"When you cast this spell using a spell slot of 2nd level or higher, the extra damage increases by {@dice 1d6} for each slot level above 1st."
 					]
@@ -169,7 +169,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "Üst Seviyelerde",
 					"entries": [
 						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@dice 1d8} for each slot level above 2nd."
 					]
@@ -275,7 +275,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "Üst Seviyelerde",
 					"entries": [
 						"When you cast this spell using a spell slot of 7th level or higher, you can create two additional pillars for each slot level above 6th."
 					]
@@ -337,7 +337,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "Üst Seviyelerde",
 					"entries": [
 						"When you cast this spell using a spell slot of 2nd level or higher, the maximum weight of objects that you can target with this spell increases by 5 pounds, and the damage increases by {@dice 1d8}, for each slot level above 1st."
 					]
@@ -404,7 +404,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "Üst Seviyelerde",
 					"entries": [
 						"When you cast this spell using a spell slot of 4th level or higher, you can target one additional willing creature for each slot level above 3rd."
 					]
@@ -461,7 +461,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "Üst Seviyelerde",
 					"entries": [
 						"When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them."
 					]
@@ -694,7 +694,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "Üst Seviyelerde",
 					"entries": [
 						"When you cast this spell using a spell slot of 2nd level or higher, each target takes {@dice 1d6} extra damage of the type rolled for each slot level above 1st."
 					]
@@ -773,7 +773,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "Üst Seviyelerde",
 					"entries": [
 						"When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th. The creatures must be within 30 feet of each other when you target them."
 					]
@@ -834,7 +834,7 @@
 				]
 			},
 			"entries": [
-				"Menzilinde görebildiğin ve 5 feetlik bir kübe sığacak büyüklükte olan bir büyüsüz ateş seç. Şu yollardan biri ile etkileyebilirsin:",
+				"Menzilinde görebildiğin ve 5 fitlik bir kübe sığacak büyüklükte olan bir büyüsüz ateş seç. Şu yollardan biri ile etkileyebilirsin:",
 				{
 					"type": "list",
 					"items": [
@@ -978,7 +978,7 @@
 				]
 			},
 			"entries": [
-				"Menzilinde görebildiğin bir zeminde kamp ateşi yaratırsın. Büyü bitene kadar bu ateş 5 feetlik bir kübü doldurur. Büyüyü kullandığında o an ateşin alanında bulunan varlıklar Çeviklik kurtulma zarında başarılı olur yada {@dice 1d8} ateş hasarı alır. Bir varlık sırasında ilk defa ateşin alanına girdiğinde yada sırasını o alanda bitirdiğinde de kurtulma zarını atar.",
+				"Menzilinde görebildiğin bir zeminde kamp ateşi yaratırsın. Büyü bitene kadar bu ateş 5 fitlik bir kübü doldurur. Büyüyü kullandığında o an ateşin alanında bulunan varlıklar Çeviklik kurtulma zarında başarılı olur yada {@dice 1d8} ateş hasarı alır. Bir varlık sırasında ilk defa ateşin alanına girdiğinde yada sırasını o alanda bitirdiğinde de kurtulma zarını atar.",
 				"Bu büyünün hasarı belirli seviyelerde {@dice 1d8} artarak 5. seviyede ({@dice 2d8}), 11. seviyede ({@dice 3d8}) ve 17. seviyede ({@dice 4d8}) olur."
 			],
 			"page": 152,
@@ -1088,7 +1088,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "Üst Seviyelerde",
 					"entries": [
 						"When you cast this spell using a spell slot of 8th level or higher, the number of motes created increases by two for each slot level above 7th."
 					]
@@ -1151,7 +1151,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "Üst Seviyelerde",
 					"entries": [
 						"When you cast this spell using a spell slot of 6th level or higher, you animate up to two additional corpses for each slot level above 5th."
 					]
@@ -1270,7 +1270,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "Üst Seviyelerde",
 					"entries": [
 						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@dice 1d6} for each slot level above 2nd."
 					]
@@ -1424,7 +1424,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "Üst Seviyelerde",
 					"entries": [
 						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@dice 1d8} for each slot level above 2nd."
 					]
@@ -1491,7 +1491,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "Üst Seviyelerde",
 					"entries": [
 						"When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@dice 1d6} for each slot level above 1st."
 					]
@@ -1618,7 +1618,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "Üst Seviyelerde",
 					"entries": [
 						"When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th. The creatures must be within 30 feet of each other when you target them."
 					]
@@ -1752,7 +1752,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "Üst Seviyelerde",
 					"entries": [
 						"When you cast this spell using a spell slot of 6th level or higher, the damage increases by {@dice 1d8} for each slot level above 5th."
 					]
@@ -1816,7 +1816,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "Üst Seviyelerde",
 					"entries": [
 						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@dice 1d12} for each slot level above 3rd."
 					]
@@ -1982,7 +1982,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "Üst Seviyelerde",
 					"entries": [
 						"When you cast this spell using a spell slot of 4th level or higher, the number of pieces of ammunition you can affect with this spell increases by two for each slot level above 3rd."
 					]
@@ -2248,7 +2248,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "Üst Seviyelerde",
 					"entries": [
 						"When you cast this spell using a spell slot of 3rd level or higher, the healing increases by {@dice 1d6} for each slot level above 2nd."
 					]
@@ -2360,7 +2360,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "Üst Seviyelerde",
 					"entries": [
 						"When you cast this spell using a spell slot of 2nd level or higher, the cold damage increases by {@dice 1d6} for each slot level above 1st."
 					]
@@ -2550,7 +2550,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "Üst Seviyelerde",
 					"entries": [
 						"When you cast this spell using a spell slot of 6th level or higher, the challenge rating increases by 1 for each slot level above 5th."
 					]
@@ -3007,7 +3007,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "Üst Seviyelerde",
 					"entries": [
 						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@dice 1d8} for each slot level above 3rd."
 					]
@@ -3350,7 +3350,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "Üst Seviyelerde",
 					"entries": [
 						"When you cast this spell using a spell slot of 4th level or higher, the number of meteors created increases by two for each slot level above 3rd."
 					]
@@ -3533,7 +3533,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "Üst Seviyelerde",
 					"entries": [
 						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@dice 1d8} for each slot level above 2nd."
 					]
@@ -4037,7 +4037,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "Üst Seviyelerde",
 					"entries": [
 						"When you cast this spell using a 3rd- or 4th-level spell slot, the damage increases to {@dice 3d8}. When you cast it using a 5th- or 6th-level spell slot, the damage increases to {@dice 4d8}. When you cast it using a spell slot of 7th level or higher, the damage increases to {@dice 5d8}."
 					]
@@ -4446,7 +4446,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "Üst Seviyelerde",
 					"entries": [
 						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@dice 1d6} for each slot level above 2nd."
 					]
@@ -4642,7 +4642,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "Üst Seviyelerde",
 					"entries": [
 						"When you cast this spell using a spell slot of 5th level or higher, the damage increases for each of its effects by {@dice 1d6} for each slot level above 4th"
 					]
@@ -4711,7 +4711,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "Üst Seviyelerde",
 					"entries": [
 						"When you cast this spell using a spell slot of 5th level or higher, the challenge rating increases by 1 for each slot level above 4th."
 					]
@@ -4819,7 +4819,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "Üst Seviyelerde",
 					"entries": [
 						"When you cast this spell using a spell slot of 6th or 7th level, you summon twice as many demons. If you cast it using a spell slot of 8th or 9th level, you summon three times as many demons."
 					]
@@ -5057,7 +5057,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "Üst Seviyelerde",
 					"entries": [
 						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@dice 1d10} for each slot level above 3rd."
 					]
@@ -5234,7 +5234,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "Üst Seviyelerde",
 					"entries": [
 						"When you cast this spell using a spell slot of 4th level or higher, you can animate two additional objects for each slot level above 3rd."
 					]
@@ -5421,7 +5421,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "Üst Seviyelerde",
 					"entries": [
 						"When you cast this spell using a spell slot of 5th level or higher, the initial damage increases by {@dice 2d4} for each slot level above 4th."
 					]
@@ -5493,7 +5493,7 @@
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
-					"name": "At Higher Levels",
+					"name": "Üst Seviyelerde",
 					"entries": [
 						"When you cast this spell using a spell slot of 6th level or higher, the damage increases by {@dice 1d8} for each slot level above 5th."
 					]

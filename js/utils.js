@@ -643,7 +643,7 @@ Parser.spRangeToFull = function (range) {
 		const dist = range.distance;
 		switch (dist.type) {
 			case UNT_FEET:
-				return `${dist.amount} feet`
+				return `${dist.amount} fit`
 			case UNT_MILES:
 				return `${dist.amount} mil`;
 			case RNG_SELF:
@@ -655,7 +655,7 @@ Parser.spRangeToFull = function (range) {
 			case RNG_UNLIMITED_SAME_PLANE:
 				return "Aynı boyutta sınırsız";
 			case RNG_TOUCH:
-				return "Dokunma";
+				return "Dokunuş";
 		}
 	}
 
@@ -666,11 +666,11 @@ Parser.spRangeToFull = function (range) {
 		function getAreaStyleStr () {
 			switch (range.type) {
 				case RNG_LINE:
-					return "'luk hat"
+					return "lik hat"
 				case RNG_CUBE:
-					return "'luk küp"
+					return "lik küp"
 				case RNG_CONE:
-					return "'luk koni"
+					return "lik koni"
 				case RNG_RADIUS:
 					return " çapında";
 				case RNG_SPHERE:
@@ -685,7 +685,7 @@ Parser.spRangeToFull = function (range) {
 };
 
 Parser.getSingletonUnit = function (unit) {
-	if (unit === UNT_FEET) return "foot";
+	if (unit === UNT_FEET) return "fit";
 	if (unit.charAt(unit.length - 1) === "s") return unit.slice(0, -1);
 	return unit;
 };
@@ -1492,7 +1492,7 @@ Parser.SKILL_JSON_TO_FULL = {
 };
 
 Parser.ACTION_JSON_TO_FULL = {
-	"Depar": "Depar eylemini kullandığında o sıra için fazladan hareket elde edersin. Bu artış bonusları ekledikten sonra senin hızın kadardır. Örneğin 30 feet hızla Depar eylemini kullanırsan o sıranda 60 feet hareket edebilirsin.",
+	"Depar": "Depar eylemini kullandığında o sıra için fazladan hareket elde edersin. Bu artış bonusları ekledikten sonra senin hızın kadardır. Örneğin 30 fit hızla Depar eylemini kullanırsan o sıranda 60 fit hareket edebilirsin.",
 	"Ayrılma": "Ayrılma eylemini kullandığında sıranın sonuna kadar hareketin fırsat saldırısı tetiklemez.",
 	"Kaçınma": "Kaçınma eylemini kullandığında tamamen saldırılardan kaçınmaya odaklanırsın. Bir sonraki sıranın başına kadar eğer saldırganı görebiliyorsan sana karşı yapılan tüm saldırılar dezavavntajlı olur. Aynı zamanda Çeviklik kurtulma zarlarında avantajın olur.",
 	"Yardım": "Bir işin yapılması için başka bir varlığa yardım edebilirsin. Varlık senin yardım ettiğin işi yaparken atacağı bir sonraki beceri zarında avantajı olur, tabii bu zarı senin bir sonraki sıranın başına kadar atması gerekir.",
