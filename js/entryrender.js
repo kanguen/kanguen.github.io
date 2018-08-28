@@ -1246,10 +1246,7 @@ EntryRenderer.spell = {
 
 		if (spell.classes.fromSubclass) {
 			const currentAndLegacy = Parser.spSubclassesToCurrentAndLegacyFull(spell.classes);
-			renderStack.push(`<tr class="text"><td colspan="6"><span class="bold">Altsınıflar: </span>${currentAndLegacy[0]}</td></tr>`);
-			if (currentAndLegacy[1]) {
-				renderStack.push(`<tr class="text"><td colspan="6"><section class="text-muted"><span class="bold">Altsınıflar (eski): </span>${currentAndLegacy[1]}</section></td></tr>`);
-			}
+			renderStack.push(`<tr class="text"><td colspan="6"><span class="bold">Altsınıflar: </span>${currentAndLegacy[0]}</td></tr>`)
 		}
 
 		if (spell.scrollNote) {

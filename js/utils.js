@@ -882,7 +882,7 @@ Parser.alignmentAbvToFull = function (alignment) {
 		alignment = alignment.toUpperCase();
 		switch (alignment) {
 			case "L":
-				return "Düzenli";
+				return "Kuralcı";
 			case "N":
 				return "Nötr";
 			case "NX":
@@ -922,12 +922,12 @@ Parser.alignmentListToFull = function (alignList) {
 	// "G", "NY", "E" ("NY" = "neutral Y" = neutral good/evil axis)
 	if (alignList.length === 5) {
 		if (!alignList.includes("G")) return "İyi dışında herhangi bir yönelim";
-		if (!alignList.includes("L")) return "Düzenli dışında herhangi bir yönelim";
+		if (!alignList.includes("L")) return "Kuralcı dışında herhangi bir yönelim";
 	}
 	if (alignList.length === 4) {
 		if (!alignList.includes("L") && !alignList.includes("NX")) return "Herhangi bir düzensiz yönelim";
 		if (!alignList.includes("G") && !alignList.includes("NY")) return "Herhangi bir kötü yönelim";
-		if (!alignList.includes("C") && !alignList.includes("NX")) return "Herhangi bir düzenli yönelim";
+		if (!alignList.includes("C") && !alignList.includes("NX")) return "Herhangi bir kuralcı yönelim";
 		if (!alignList.includes("E") && !alignList.includes("NY")) return "Herhangi bir iyi yönelim";
 	}
 	throw new Error(`Unmapped alignment: ${JSON.stringify(alignList)}`);
@@ -1478,13 +1478,13 @@ Parser.SKILL_JSON_TO_FULL = {
 	"Aldatma": "Karizma (Aldatma) zarın sözlü bir şekilde yada eylemlerinle gerçeği saklayabilme becerini ölçer.",
 	"Tarih": "Zeka (Tarih) zarın tarihi olaylar, efsanevi kişiler, antik krallıklar, eski çekişmeler, yakın dönem savaşları ve kayıp uygarlıklar hakkında bilgileri hatırlama becerindir.",
 	"Sezgi": "Akıl (Sezgi) zarın bir varlığın gerçek niyetini öğrenme çabanı gösterir, bu bir yalanı farketme yada bir varlığın sonraki hamlesini tahmin etme olabilir.",
-	"Korkutma": "Birini tehditlerle, düşmanca eylemlerle ve fiziksel şiddetle etkilemeye çalıştığında DM Karizma (Korkutma) zarı isteyebilir.",
+	"Gözdağı": "Birini tehditlerle, düşmanca eylemlerle ve fiziksel şiddetle etkilemeye çalıştığında DM Karizma (Gözdağı) zarı isteyebilir.",
 	"İnceleme": "Etrafta ipucu ararken ve bu ipuçları üzerinden çıkarım yaparken Zeka (İnceleme) zarı atarsın.",
 	"Tıp": "Akıl (Tıp) zarı bir hastalığa teşhis koymanı yada ölmekte olan bir dostunu stabilize etmeni sağlar.",
 	"Doğa": "Zeka (Doğa) zarın çevre, bitkiler ve hayvanlar, hava durumu ve doğal döngüler hakkında bilgileri hatırlama becerindir.",
-	"Algılama": "Akıl (Algılama) zarın birşeyin varlığını görmeni, duymanı yada başka bir şekilde tespit etmeni sağlar. Senin duyularının keskinliğini ve çevrene olan genel farkındalığını ölçer.",
+	"Algı": "Akıl (Algı) zarın birşeyin varlığını görmeni, duymanı yada başka bir şekilde tespit etmeni sağlar. Senin duyularının keskinliğini ve çevrene olan genel farkındalığını ölçer.",
 	"Performans": "Karizma (Performans) zarın seyircilerini müzik, dans, hikaye anlatımı yada başka bir tip eğlence ile ne denli etkileyebileceğini ölçer.",
-	"İkna Etme": "Birini yada bir grubu zarafet, incelik yada iyi niyetle etkilemeye çalışırsan DM Karizma (İkna Etme) zarı isteyebilir.",
+	"İkna": "Birini yada bir grubu zarafet, incelik yada iyi niyetle etkilemeye çalışırsan DM Karizma (İkna) zarı isteyebilir.",
 	"Din": "Zeka (Din) zarın tanrılar, ayinler ve dualar, dini hiyerarşiler, kutsal semboller ve gizli kültlerin uygulamaları hakkında bilgileri hatırlama becerindir.",
 	"El Çabukluğu": "Ne zaman bir el çabukluğu yada aldatmaca denersen, birinin üzerine birşey yerleştirme yada kendi üzerinde bir nesne gizleme gibi, Çeviklik (El Çabukluğu) zarı atarsın.",
 	"Gizlenme": "Düşmanlardan kendini gizlemeye, bekçilere görünmeden geçmeye, farkedilmeden sıvışmaya yada görülmeden ve duyulmadan sinsice birine yaklaşmaya çalıştığında Çeviklik (Gizlenme) zarı atarsın.",
@@ -1497,7 +1497,7 @@ Parser.ACTION_JSON_TO_FULL = {
 	"Kaçınma": "Kaçınma eylemini kullandığında tamamen saldırılardan kaçınmaya odaklanırsın. Bir sonraki sıranın başına kadar eğer saldırganı görebiliyorsan sana karşı yapılan tüm saldırılar dezavavntajlı olur. Aynı zamanda Çeviklik kurtulma zarlarında avantajın olur.",
 	"Yardım": "Bir işin yapılması için başka bir varlığa yardım edebilirsin. Varlık senin yardım ettiğin işi yaparken atacağı bir sonraki beceri zarında avantajı olur, tabii bu zarı senin bir sonraki sıranın başına kadar atması gerekir.",
 	"Saklanma": "Saklanma eylemini kullandığında, saklanma kurallarına uyarak gizlenmeyi denemek için bir Çeviklik (Gizlenme) zarı atarsın.",
-	"Hazırla": "Bazen bir düşmanı tuzağa düşürme yada harekete geçmeden önce belirli bir durumun gerçekleşmesi beklemek isteyebilirsin. Bunu yapmak için Hazırla eylemini kullanırsın, bir sonraki sıranın başına kadar reaksiyonunu kullanarak hazırladığın eylemi kullanmanı sağlar."
+	"Hazırlama": "Bazen bir düşmanı tuzağa düşürme yada harekete geçmeden önce belirli bir durumun gerçekleşmesi beklemek isteyebilirsin. Bunu yapmak için Hazırlama eylemini kullanırsın, bir sonraki sıranın başına kadar reaksiyonunu kullanarak hazırladığın eylemi kullanmanı sağlar."
 };
 
 Parser.NUMBERS_ONES = ['', 'bir', 'iki', 'üç', 'dört', 'beş', 'altı', 'yedi', 'sekiz', 'dokuz'];

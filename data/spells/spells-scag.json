@@ -1,14 +1,14 @@
 {
 	"spell": [
 		{
-			"name": "Patlayan Kılıç",
+			"name": "Gürleyen Kılıç",
 			"source": "SCAG",
 			"level": 0,
 			"school": "V",
 			"time": [
 				{
 					"number": 1,
-					"unit": "action"
+					"unit": "eylem"
 				}
 			],
 			"range": {
@@ -49,7 +49,7 @@
 			},
 			"entries": [
 				"Bu büyüyü kullanma eyleminin bir kısmı olarak büyünün menzilindeki bir hedefe yakın mesafe saldırısı yapman gerekir. Eğer vurursa hedef saldırının normal etkilerine maruz kalır ve senin bir sonraki sıranın başına kadar patlayıcı bir enerji ile sarılır. Eğer hedef bu zaman içinde kendi isteği ile hareket ederse hemen {@dice 1d8} ses hasarı alır ve büyü sona erer.",
-				"Bu büyünün hasarı sen yüksek seviyelere ulaştıkça artar. Beşinci seviyede yakın mesafe saldırısı fazladan {@dice 1d8} ses hasarı verir ve hedefin hareket ettiğinde aldığı hasar {@dice 2d8} olarak artar. Her iki hasar zarı da 11. ve 17. seviyelerde {@dice 1d8} artar."
+				"Bu büyünün hasarı sen üst seviyelere ulaştıkça artar. Beşinci seviyede yakın mesafe saldırısı fazladan {@dice 1d8} ses hasarı verir ve hedefin hareket ettiğinde aldığı hasar {@dice 2d8} olarak artar. Her iki hasar zarı da 11. ve 17. seviyelerde {@dice 1d8} artar."
 			],
 			"page": 142,
 			"damageInflict": [
@@ -57,14 +57,14 @@
 			]
 		},
 		{
-			"name": "Green-Flame Blade",
+			"name": "Yeşil Alev Kılıcı",
 			"source": "SCAG",
 			"level": 0,
 			"school": "V",
 			"time": [
 				{
 					"number": 1,
-					"unit": "action"
+					"unit": "eylem"
 				}
 			],
 			"range": {
@@ -76,7 +76,7 @@
 			},
 			"components": {
 				"v": true,
-				"m": "a weapon"
+				"m": "bir silah"
 			},
 			"duration": [
 				{
@@ -104,8 +104,8 @@
 				]
 			},
 			"entries": [
-				"As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell's range, otherwise the spell fails. On a hit, the target suffers the attack's normal effects, and green fire leaps from the target to a different creature of your choice that you can see within 5 feet of it. The second creature takes fire damage equal to your spellcasting ability modifier.",
-				"This spell's damage increases when you reach higher levels. At 5th level, the melee attack deals an extra {@dice 1d8} fire damage to the target, and the fire damage to the second creature increases to {@dice 1d8} + your spellcasting ability modifier. Both damage rolls increase by {@dice 1d8} at 11th level and 17th level."
+				"Bu büyüyü kullanma eyleminin bir kısmı olarak büyünün menzilindeki bir hedefe yakın mesafe saldırısı yapman gerekir. Eğer vurursa hedef saldırının normal etkilerine maruz kalır ve hedefinin 5 feet yakınında seçeceğin başka bir varlığa yeşil alevler sıçrar. İkinci varlık büyü yapma yetenek bonusun kadar ateş hasarı alır.",
+				"Bu büyünün hasarı sen üst seviyelere ulaştıkça artar. Beşinci seviyede yakın mesafe saldırısı fazladan {@dice 1d8} ateş hasarı verir ve ikincil hedefin aldığı ateş hasarı {@dice 1d8} + büyü yapma yetenek skorun olarak artar. Her iki hasar zarı da 11. ve 17. seviyelerde {@dice 1d8} artar."
 			],
 			"page": 143,
 			"damageInflict": [
@@ -113,14 +113,14 @@
 			]
 		},
 		{
-			"name": "Lightning Lure",
+			"name": "Yıldırım Tuzağı",
 			"source": "SCAG",
 			"level": 0,
 			"school": "V",
 			"time": [
 				{
 					"number": 1,
-					"unit": "action"
+					"unit": "eylem"
 				}
 			],
 			"range": {
@@ -155,8 +155,8 @@
 				]
 			},
 			"entries": [
-				"You create a lash of lightning energy that strikes at one creature of your choice that you can see within range. The target must succeed on a Strength saving throw or be pulled up to 10 feet in a straight line toward you and then take {@dice 1d8} lightning damage if it is within 5 feet of you.",
-				"The spell's damage increases by {@dice 1d8} when you reach 5th level ({@dice 2d8}), 11th level ({@dice 3d8}), and 17th level ({@dice 4d8})."
+				"Menzilinde görebildiğin bir varlığa yarattığın yıldırım enerjisinden bir kamçı ile saldırırsın. Varlık, Kuvvet kurtulma zarında başarılı olur yada düz bir hizada 10 feet sana doğru sürüklenir, eğer sürüklenme sonrası 5 feet yakınında olursa {@dice 1d8} yıldırım hasarı alır.",
+				"Büyünün hasarı belirli seviyelerde {@dice 1d8} artarak 5. seviyede ({@dice 2d8}), 11. seviyede ({@dice 3d8}) ve 17. seviyede ({@dice 4d8}) olur."
 			],
 			"page": 143,
 			"damageInflict": [
@@ -167,14 +167,14 @@
 			]
 		},
 		{
-			"name": "Sword Burst",
+			"name": "Kılıç Patlaması",
 			"source": "SCAG",
 			"level": 0,
 			"school": "C",
 			"time": [
 				{
 					"number": 1,
-					"unit": "action"
+					"unit": "eylem"
 				}
 			],
 			"range": {
@@ -209,8 +209,8 @@
 				]
 			},
 			"entries": [
-				"You create a momentary circle of spectral blades that sweep around you. Each creature within range, other than you, must succeed on a Dexterity saving throw or take {@dice 1d6} force damage.",
-				"The spell's damage increases by {@dice 1d6} when you reach 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level ({@dice 4d6})."
+				"Anlık olarak çevreni saran spektral kılıçlardan bir halka yaratırsın. Menzilinde bulunan senin dışındaki her varlık Çeviklik kurtulma zarında başarılı olur yada {@dice 1d6} güç hasarı alır.",
+				"Büyünün hasarı belirli seviyelerde {@dice 1d6} artarak 5. seviyede ({@dice 2d6}), 11. seviyede ({@dice 3d6}) ve 17. seviyede ({@dice 4d6}) olur."
 			],
 			"page": 143,
 			"damageInflict": [

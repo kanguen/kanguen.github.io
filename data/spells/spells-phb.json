@@ -33,7 +33,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -85,38 +85,12 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
 						"name": "Paladin",
 						"source": "PHB"
-					},
-					{
-						"name": "Artificer",
-						"source": "UAArtificer"
-					}
-				],
-				"fromSubclass": [
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Protection (UA)",
-							"source": "UAClericDivineDomains"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Solidarity (PSA)",
-							"source": "PSA"
-						}
 					}
 				]
 			},
@@ -169,16 +143,12 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Ranger",
+						"name": "Kolcu",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
-					},
-					{
-						"name": "Artificer",
-						"source": "UAArtificer"
 					}
 				]
 			},
@@ -230,34 +200,8 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
-					},
-					{
-						"name": "Artificer",
-						"source": "UAArtificer"
-					}
-				],
-				"fromSubclass": [
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Horizon Walker (UA)",
-							"source": "UARangerAndRogue"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "UATheRangerRevised"
-						},
-						"subclass": {
-							"name": "Horizon Walker (UA)",
-							"source": "UARangerAndRogue"
-						}
 					}
 				]
 			},
@@ -327,7 +271,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -335,14 +279,14 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Ranger",
+						"name": "Kolcu",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -404,7 +348,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -412,7 +356,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Ranger",
+						"name": "Kolcu",
 						"source": "PHB"
 					}
 				]
@@ -513,18 +457,18 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -595,7 +539,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -603,24 +547,14 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Forge (UA)",
-							"source": "UAClericDivineDomains"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -757,7 +691,7 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -767,27 +701,7 @@
 					},
 					{
 						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Protection (UA)",
-							"source": "UAClericDivineDomains"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Grave (UA)",
-							"source": "UAClericDivineDomains"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -840,11 +754,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -943,7 +857,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -1015,7 +929,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					},
 					{
@@ -1026,7 +940,7 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -1036,32 +950,12 @@
 					},
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
 							"name": "Knowledge",
 							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Knowledge (PSA)",
-							"source": "PSA"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Seeker (UA)",
-							"source": "UATheFaithful"
 						}
 					}
 				]
@@ -1116,7 +1010,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -1165,7 +1059,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					},
 					{
@@ -1219,26 +1113,6 @@
 					}
 				],
 				"fromSubclass": [
-					{
-						"class": {
-							"name": "Paladin",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Conquest (UA)",
-							"source": "UAPaladin"
-						}
-					},
-					{
-						"class": {
-							"name": "Paladin",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Conquest v2 (UA)",
-							"source": "UARevisedClassOptions"
-						}
-					},
 					{
 						"class": {
 							"name": "Paladin",
@@ -1358,7 +1232,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -1366,7 +1240,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -1414,39 +1288,19 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
 							"name": "Knowledge",
 							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Knowledge (PSA)",
-							"source": "PSA"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Kraken (UA)",
-							"source": "Stream"
 						}
 					}
 				]
@@ -1517,16 +1371,6 @@
 						"subclass": {
 							"name": "Undying",
 							"source": "SCAG"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Solidarity (PSA)",
-							"source": "PSA"
 						}
 					}
 				]
@@ -1682,7 +1526,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -1733,11 +1577,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					}
 				],
@@ -1754,27 +1598,7 @@
 					},
 					{
 						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Grave (UA)",
-							"source": "UAClericDivineDomains"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Ambition (PSA)",
-							"source": "PSA"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -1905,7 +1729,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -1921,7 +1745,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
@@ -1948,17 +1772,7 @@
 					},
 					{
 						"class": {
-							"name": "Ranger",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Horizon Walker (UA)",
-							"source": "UARangerAndRogue"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
+							"name": "Kolcu",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -1968,17 +1782,7 @@
 					},
 					{
 						"class": {
-							"name": "Ranger",
-							"source": "UATheRangerRevised"
-						},
-						"subclass": {
-							"name": "Horizon Walker (UA)",
-							"source": "UARangerAndRogue"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
+							"name": "Kolcu",
 							"source": "UATheRangerRevised"
 						},
 						"subclass": {
@@ -1988,17 +1792,7 @@
 					},
 					{
 						"class": {
-							"name": "Ranger",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Monster Slayer (UA)",
-							"source": "UAATrioOfSubclasses"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
+							"name": "Kolcu",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -2008,17 +1802,7 @@
 					},
 					{
 						"class": {
-							"name": "Ranger",
-							"source": "UATheRangerRevised"
-						},
-						"subclass": {
-							"name": "Monster Slayer (UA)",
-							"source": "UAATrioOfSubclasses"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
+							"name": "Kolcu",
 							"source": "UATheRangerRevised"
 						},
 						"subclass": {
@@ -2086,14 +1870,14 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Ranger",
+						"name": "Kolcu",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -2154,14 +1938,14 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -2175,18 +1959,8 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Devotion",
+							"name": "Bağlılık",
 							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Solidarity (PSA)",
-							"source": "PSA"
 						}
 					}
 				]
@@ -2236,7 +2010,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Ranger",
+						"name": "Kolcu",
 						"source": "PHB"
 					}
 				]
@@ -2283,15 +2057,15 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
@@ -2304,36 +2078,6 @@
 						"subclass": {
 							"name": "Oathbreaker",
 							"source": "DMG"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Ambition (PSA)",
-							"source": "PSA"
-						}
-					},
-					{
-						"class": {
-							"name": "Paladin",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Conquest (UA)",
-							"source": "UAPaladin"
-						}
-					},
-					{
-						"class": {
-							"name": "Paladin",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Conquest v2 (UA)",
-							"source": "UARevisedClassOptions"
 						}
 					},
 					{
@@ -2414,7 +2158,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -2505,7 +2249,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					}
 				]
@@ -2524,7 +2268,7 @@
 			]
 		},
 		{
-			"name": "Blade Ward",
+			"name": "Kılıç Koruması",
 			"level": 0,
 			"school": "A",
 			"time": [
@@ -2555,7 +2299,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -2567,14 +2311,14 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
 			},
 			"source": "PHB",
 			"entries": [
-				"You extend your hand and trace a sigil of warding in the air. Until the end of your next turn, you have resistance against bludgeoning, piercing, and slashing damage dealt by weapon attacks."
+				"Elini uzatıp havaya bir koruma mührü çizersin. Bir sonraki sıranın sonuna kadar silahlı saldırılardan gelen ezme, kesme ve delme hasarlarına karşı direncin olur."
 			],
 			"page": 218,
 			"damageResist": [
@@ -2618,7 +2362,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -2629,22 +2373,12 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
 							"name": "Life",
 							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Solidarity (PSA)",
-							"source": "PSA"
 						}
 					},
 					{
@@ -2715,14 +2449,14 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -2732,17 +2466,7 @@
 					},
 					{
 						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Grave (UA)",
-							"source": "UAClericDivineDomains"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -2769,16 +2493,6 @@
 						"subclass": {
 							"name": "Oathbreaker",
 							"source": "DMG"
-						}
-					},
-					{
-						"class": {
-							"name": "Paladin",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Conquest (UA)",
-							"source": "UAPaladin"
 						}
 					}
 				]
@@ -2900,11 +2614,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -2912,14 +2626,14 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -3003,18 +2717,14 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
-					},
-					{
-						"name": "Artificer",
-						"source": "UAArtificer"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -3030,16 +2740,6 @@
 						"subclass": {
 							"name": "Archfey",
 							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Hexblade (UA)",
-							"source": "UAWarlockAndWizard"
 						}
 					},
 					{
@@ -3097,7 +2797,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					},
 					{
@@ -3178,28 +2878,8 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Hexblade (UA)",
-							"source": "UAWarlockAndWizard"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
 							"name": "Hexblade",
 							"source": "XGE"
-						}
-					},
-					{
-						"class": {
-							"name": "Sorcerer",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Stone",
-							"source": "UASorcerer"
 						}
 					}
 				]
@@ -3255,14 +2935,14 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -3278,26 +2958,6 @@
 						"subclass": {
 							"name": "Fiend",
 							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Celestial (UA)",
-							"source": "UARevisedClassOptions"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Undying Light (UA)",
-							"source": "UALightDarkUnderdark"
 						}
 					}
 				]
@@ -3365,7 +3025,7 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -3382,16 +3042,6 @@
 							"name": "Land",
 							"source": "PHB",
 							"subSubclass": "Forest"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Kraken (UA)",
-							"source": "Stream"
 						}
 					}
 				]
@@ -3453,11 +3103,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					}
 				],
@@ -3529,7 +3179,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -3589,7 +3239,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -3605,29 +3255,19 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
 							"name": "Trickery",
 							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Paladin",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Treachery (UA)",
-							"source": "UAPaladin"
 						}
 					}
 				]
@@ -3651,7 +3291,7 @@
 			]
 		},
 		{
-			"name": "Chill Touch",
+			"name": "Ürperten Dokunuş",
 			"level": 0,
 			"school": "N",
 			"time": [
@@ -3691,16 +3331,16 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
 			},
 			"source": "PHB",
 			"entries": [
-				"You create a ghostly, skeletal hand in the space of a creature within range. Make a ranged spell attack against the creature to assail it with the chill of the grave. On a hit, the target takes {@dice 1d8} necrotic damage, and it can't regain hit points until the start of your next turn. Until then, the hand clings to the target.",
-				"If you hit an undead target, it also has disadvantage on attack rolls against you until the end of your next turn.",
-				"This spell's damage increases by {@dice 1d8} when you reach 5th level ({@dice 2d8}), 11th level ({@dice 3d8}), and 17th level ({@dice 4d8})."
+				"Menzilindeki bir varlığın alanında spektral, iskelet bir el yaratırsın. Hedefini mezarın ürpertisi ile etkilemek için varlığa karşı bir menzilli büyü saldırısı yap. Vurursa hedef {@dice 1d8} nekrotik hasar alır, ve senin bir sonraki sıranın başına kadar HP yenileyemez. O ana kadar el hedefe tutunur.",
+				"Eğer yaşayan ölü bir hedefi vurursan, bir sonraki sıranın sonuna kadar sana yapacağı saldırı zarlarında dezavantajı olur.",
+				"Bu büyünün hasarı belirli seviyelerde {@dice 1d8} artarak 5. seviyede ({@dice 2d8}), 11. seviyede ({@dice 3d8}) ve 17. seviyede ({@dice 4d8}) olur."
 			],
 			"page": 221,
 			"damageInflict": [
@@ -3744,7 +3384,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -3814,7 +3454,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -3887,16 +3527,6 @@
 							"name": "Crown",
 							"source": "SCAG"
 						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Solidarity (PSA)",
-							"source": "PSA"
-						}
 					}
 				]
 			},
@@ -3944,11 +3574,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -3956,7 +3586,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
@@ -3969,16 +3599,6 @@
 						"subclass": {
 							"name": "Great Old One",
 							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Seeker (UA)",
-							"source": "UATheFaithful"
 						}
 					}
 				]
@@ -4024,7 +3644,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -4071,7 +3691,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -4083,7 +3703,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -4144,14 +3764,14 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -4168,16 +3788,6 @@
 							"name": "Land",
 							"source": "PHB",
 							"subSubclass": "Underdark"
-						}
-					},
-					{
-						"class": {
-							"name": "Paladin",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Conquest v2 (UA)",
-							"source": "UARevisedClassOptions"
 						}
 					},
 					{
@@ -4253,7 +3863,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -4306,7 +3916,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -4317,22 +3927,12 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
 							"name": "Knowledge",
 							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Knowledge (PSA)",
-							"source": "PSA"
 						}
 					},
 					{
@@ -4361,38 +3961,8 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Conquest (UA)",
-							"source": "UAPaladin"
-						}
-					},
-					{
-						"class": {
-							"name": "Paladin",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Conquest v2 (UA)",
-							"source": "UARevisedClassOptions"
-						}
-					},
-					{
-						"class": {
-							"name": "Paladin",
-							"source": "PHB"
-						},
-						"subclass": {
 							"name": "Conquest",
 							"source": "XGE"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Order (UA)",
-							"source": "UAOrderDomain"
 						}
 					}
 				]
@@ -4484,7 +4054,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					}
 				],
@@ -4495,28 +4065,8 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Devotion",
+							"name": "Bağlılık",
 							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Raven Queen (UA)",
-							"source": "UAWarlockAndWizard"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Order (UA)",
-							"source": "UAOrderDomain"
 						}
 					}
 				]
@@ -4564,7 +4114,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Ranger",
+						"name": "Kolcu",
 						"source": "PHB"
 					}
 				],
@@ -4597,18 +4147,8 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Ancients",
+							"name": "Kadimler",
 							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Kraken (UA)",
-							"source": "Stream"
 						}
 					}
 				]
@@ -4681,26 +4221,6 @@
 							"name": "Crown",
 							"source": "SCAG"
 						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Protection (UA)",
-							"source": "UAClericDivineDomains"
-						}
-					},
-					{
-						"class": {
-							"name": "Sorcerer",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Stone",
-							"source": "UASorcerer"
-						}
 					}
 				]
 			},
@@ -4747,7 +4267,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -4759,20 +4279,8 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
-					}
-				],
-				"fromSubclass": [
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "City (PSA)",
-							"source": "UAModernMagic"
-						}
 					}
 				]
 			},
@@ -4820,20 +4328,8 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
-					}
-				],
-				"fromSubclass": [
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Order (UA)",
-							"source": "UAOrderDomain"
-						}
 					}
 				]
 			},
@@ -4881,7 +4377,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
@@ -4903,28 +4399,8 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Hexblade (UA)",
-							"source": "UAWarlockAndWizard"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
 							"name": "Hexblade",
 							"source": "XGE"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Kraken (UA)",
-							"source": "Stream"
 						}
 					}
 				]
@@ -4986,7 +4462,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -4998,29 +4474,19 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
 							"name": "Knowledge",
 							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Knowledge (PSA)",
-							"source": "PSA"
 						}
 					},
 					{
@@ -5031,16 +4497,6 @@
 						"subclass": {
 							"name": "Oathbreaker",
 							"source": "DMG"
-						}
-					},
-					{
-						"class": {
-							"name": "Paladin",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Treachery (UA)",
-							"source": "UAP"
 						}
 					}
 				]
@@ -5156,30 +4612,8 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Ranger",
+						"name": "Kolcu",
 						"source": "PHB"
-					}
-				],
-				"fromSubclass": [
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Primeval Guardian (UA)",
-							"source": "UARangerAndRogue"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "UATheRangerRevised"
-						},
-						"subclass": {
-							"name": "Primeval Guardian (UA)",
-							"source": "UARangerAndRogue"
-						}
 					}
 				]
 			},
@@ -5239,7 +4673,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Ranger",
+						"name": "Kolcu",
 						"source": "PHB"
 					}
 				]
@@ -5287,7 +4721,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					}
 				]
@@ -5347,7 +4781,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
@@ -5480,7 +4914,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -5541,7 +4975,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Ranger",
+						"name": "Kolcu",
 						"source": "PHB"
 					}
 				]
@@ -5594,7 +5028,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Ranger",
+						"name": "Kolcu",
 						"source": "PHB"
 					}
 				]
@@ -5659,7 +5093,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -5712,7 +5146,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -5832,7 +5266,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -5881,11 +5315,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					},
 					{
@@ -5935,7 +5369,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -5943,14 +5377,14 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -5967,16 +5401,6 @@
 							"name": "Land",
 							"source": "PHB",
 							"subSubclass": "Coast"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Kraken (UA)",
-							"source": "Stream"
 						}
 					}
 				]
@@ -6059,7 +5483,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -6067,7 +5491,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -6220,7 +5644,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Ranger",
+						"name": "Kolcu",
 						"source": "PHB"
 					}
 				]
@@ -6284,21 +5708,11 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
-					{
-						"class": {
-							"name": "Paladin",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Redemption (UA)",
-							"source": "UAATrioOfSubclasses"
-						}
-					},
 					{
 						"class": {
 							"name": "Paladin",
@@ -6355,7 +5769,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -6416,7 +5830,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -6424,7 +5838,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -6476,24 +5890,12 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
 						"name": "Druid",
 						"source": "PHB"
-					}
-				],
-				"fromSubclass": [
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Kraken (UA)",
-							"source": "Stream"
-						}
 					}
 				]
 			},
@@ -6560,24 +5962,14 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Forge (UA)",
-							"source": "UAClericDivineDomains"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -6668,7 +6060,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -6680,7 +6072,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
@@ -6747,22 +6139,12 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
 							"name": "War",
 							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Solidarity (PSA)",
-							"source": "PSA"
 						}
 					}
 				]
@@ -6804,11 +6186,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -6820,7 +6202,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Ranger",
+						"name": "Kolcu",
 						"source": "PHB"
 					},
 					{
@@ -6831,22 +6213,12 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
 							"name": "Life",
 							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Celestial (UA)",
-							"source": "UARevisedClassOptions"
 						}
 					},
 					{
@@ -6887,7 +6259,7 @@
 			"page": 230
 		},
 		{
-			"name": "Dancing Lights",
+			"name": "Dans Eden Işıklar",
 			"level": 0,
 			"school": "V",
 			"time": [
@@ -6906,7 +6278,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a bit of phosphorus or wychwood, or a glowworm"
+				"m": "biraz fosfor, wych odunu yada bir parlayan solucan"
 			},
 			"duration": [
 				{
@@ -6921,7 +6293,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -6929,15 +6301,15 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
 			},
 			"source": "PHB",
 			"entries": [
-				"You create up to four torch-sized lights within range, making them appear as torches, lanterns, or glowing orbs that hover in the air for the duration. You can also combine the four lights into one glowing vaguely humanoid form of Medium size. Whichever form you choose, each light sheds dim light in a 10-foot radius.",
-				"As a bonus eylem on your turn, you can move the lights up to 60 feet to a new spot within range. A light must be within 20 feet of another light created by this spell, and a light winks out if it exceeds the spell's range."
+				"Menzilinde 4 taneye kadar meşale boyutunda ışık yaratıp bunlara meşale, kandil yada havada süzülen parlayan küreler şeklini verebilirsin. Ayrıca bu 4 ışığı birleştirip kabaca Orta boyutlu bir insansı şeklini de verebilirsin. Hangi şekli seçersen seç her ışık 10 feetlik çapta loş ışık verir.",
+				"Sıranda bonus eylem olarak, ışıkları menzilin içerisinde 60 feete kadar hareket ettirebilirsin. Bu büyü ile yaratılan ışıklar birbirine en fazla 20 feet uzaklıkta olabilirler ve eğer bir ışık menzil dışında kalırsa söner."
 			],
 			"page": 230
 		},
@@ -6983,7 +6355,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
@@ -7056,7 +6428,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Ranger",
+						"name": "Kolcu",
 						"source": "PHB"
 					},
 					{
@@ -7064,7 +6436,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					},
 					{
@@ -7112,7 +6484,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -7124,7 +6496,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Ranger",
+						"name": "Kolcu",
 						"source": "PHB"
 					},
 					{
@@ -7135,7 +6507,7 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -7152,26 +6524,6 @@
 							"name": "Land",
 							"source": "PHB",
 							"subSubclass": "Grassland"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Celestial (UA)",
-							"source": "UARevisedClassOptions"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Undying Light (UA)",
-							"source": "UALightDarkUnderdark"
 						}
 					},
 					{
@@ -7226,7 +6578,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -7241,7 +6593,7 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -7251,7 +6603,7 @@
 					},
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -7271,27 +6623,7 @@
 					},
 					{
 						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Grave (UA)",
-							"source": "UAClericDivineDomains"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Ambition (PSA)",
-							"source": "PSA"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -7346,7 +6678,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -7411,7 +6743,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -7458,42 +6790,12 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
 							"name": "Tempest",
 							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Hexblade (UA)",
-							"source": "UAWarlockAndWizard"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Strength (PSA)",
-							"source": "PSA"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Zeal (PSA)",
-							"source": "PSA"
 						}
 					}
 				]
@@ -7545,7 +6847,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -7593,11 +6895,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -7609,7 +6911,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Ranger",
+						"name": "Kolcu",
 						"source": "PHB"
 					},
 					{
@@ -7617,14 +6919,14 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -7678,7 +6980,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -7690,7 +6992,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Ranger",
+						"name": "Kolcu",
 						"source": "PHB"
 					}
 				]
@@ -7739,7 +7041,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -7747,7 +7049,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
@@ -7808,7 +7110,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -7820,14 +7122,14 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -7843,16 +7145,6 @@
 						"subclass": {
 							"name": "Vengeance",
 							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Ambition (PSA)",
-							"source": "PSA"
 						}
 					}
 				]
@@ -7900,7 +7192,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -7908,18 +7200,14 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
-					},
-					{
-						"name": "Artificer",
-						"source": "UAArtificer"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -7929,27 +7217,7 @@
 					},
 					{
 						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Ambition (PSA)",
-							"source": "PSA"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Deep Stalker (UA)",
-							"source": "UALightDarkUnderdark"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
+							"name": "Kolcu",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -7959,17 +7227,7 @@
 					},
 					{
 						"class": {
-							"name": "Ranger",
-							"source": "UATheRangerRevised"
-						},
-						"subclass": {
-							"name": "Deep Stalker (UA)",
-							"source": "UATheRangerRevised"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
+							"name": "Kolcu",
 							"source": "UATheRangerRevised"
 						},
 						"subclass": {
@@ -8024,7 +7282,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -8087,7 +7345,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -8148,11 +7406,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -8172,14 +7430,14 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -8189,7 +7447,7 @@
 					},
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -8203,7 +7461,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Devotion",
+							"name": "Bağlılık",
 							"source": "PHB"
 						}
 					}
@@ -8252,7 +7510,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					}
 				],
@@ -8323,7 +7581,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					}
 				],
@@ -8403,22 +7661,12 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
 							"name": "War",
 							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Strength (PSA)",
-							"source": "PSA"
 						}
 					}
 				]
@@ -8460,7 +7708,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					}
 				]
@@ -8529,7 +7777,7 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -8563,38 +7811,8 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Conquest (UA)",
-							"source": "UAPaladin"
-						}
-					},
-					{
-						"class": {
-							"name": "Paladin",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Conquest v2 (UA)",
-							"source": "UARevisedClassOptions"
-						}
-					},
-					{
-						"class": {
-							"name": "Paladin",
-							"source": "PHB"
-						},
-						"subclass": {
 							"name": "Conquest",
 							"source": "XGE"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Strength (PSA)",
-							"source": "PSA"
 						}
 					}
 				]
@@ -8654,7 +7872,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -8666,7 +7884,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -8726,7 +7944,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -8734,14 +7952,14 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -8785,58 +8003,8 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Conquest (UA)",
-							"source": "UAPaladin"
-						}
-					},
-					{
-						"class": {
-							"name": "Paladin",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Conquest v2 (UA)",
-							"source": "UARevisedClassOptions"
-						}
-					},
-					{
-						"class": {
-							"name": "Paladin",
-							"source": "PHB"
-						},
-						"subclass": {
 							"name": "Conquest",
 							"source": "XGE"
-						}
-					},
-					{
-						"class": {
-							"name": "Paladin",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Treachery (UA)",
-							"source": "UAPaladin"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Ambition (PSA)",
-							"source": "PSA"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Order (UA)",
-							"source": "UAOrderDomain"
 						}
 					}
 				]
@@ -8897,7 +8065,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -8944,7 +8112,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -8952,7 +8120,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
@@ -8986,7 +8154,7 @@
 			]
 		},
 		{
-			"name": "Druidcraft",
+			"name": "Druid Zanaatı",
 			"level": 0,
 			"school": "T",
 			"time": [
@@ -9021,14 +8189,14 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Whispering to the spirits of nature, you create one of the following effects within range.",
+				"Doğanın ruhlarına fısıldayarak menzilinde şu etkilerden birini yaratırsın.",
 				{
 					"type": "list",
 					"items": [
-						"You create a tiny, harmless sensory effect that predicts what the weather will be at your location for the next 24 saat. The effect might manifest as a golden orb for clear skies, a cloud for rain, falling snowflakes for snow, and so on. This effect persists for 1 round.",
-						"You instantly make a flower blossom, a seed pod open, or a leaf bud bloom.",
-						"You create an instantaneous, harmless sensory effect, such as falling leaves, a puff of wind, the sound of a small animal, or the faint odor of skunk. The effect must fit in a 5-foot cube.",
-						"You instantly light or snuff out a candle, a torch, or a small campfire."
+						"Bulunduğun bölgenin önündeki 24 saatlik hava durumunu tahmin edecek zararsız, minik bir duyusal etki yaratırsın. Bu etki güneşli hava için altın bir küre, yağmur için bulut, kar için düşen kar tanecikleri gibi şekil alabilir. Bu etki bir sıra boyunca kalır.",
+						"Anında bir çiçeği açtırır, bir çekirdeği filizlendirir yada bir yaprak tomurcuğunu büyütürsün.",
+						"Düşen yapraklar, hafif esinti, küçük bir hayvan sesi yada hafif bir şekilde bir kokarcanın kokusu gibi anlık ve zararsız duyusal etki yaratırsın. Bu etki 5 feetlik bir kübe sığmalıdır.",
+						"Anında bir mum, meşale yada küçük bir kamp ateşini yakar yada söndürürsün."
 					]
 				}
 			],
@@ -9069,7 +8237,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -9104,7 +8272,7 @@
 			]
 		},
 		{
-			"name": "Eldritch Blast",
+			"name": "Eldritch Patlaması",
 			"level": 0,
 			"school": "V",
 			"time": [
@@ -9139,8 +8307,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"A beam of crackling energy streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes {@dice 1d10} force damage.",
-				"The spell creates more than one beam when you reach higher levels: two beams at 5th level, three beams at 11th level, and four beams at 17th level. you can direct the beams at the same target or at different ones. Make a separate attack roll for each beam."
+				"Menzilindeki bir varlığa doğru çatırdayan bir enerji ışını atarsın. Hedefe karşı bir menzilli büyü saldırısı yap. Vurursa hedef {@dice 1d10} güç hasarı alır.",
+				"Üst seviyelere eriştikçe bu büyü fazladan ışınlar yaratır: 5. seviyede 2 ışın, 11. seviyede 3 ışın, ve 17. seviyede 4 ışın. Işınları aynı hedefe yada farklı hedeflere yönlendirebilirsin. Her ışın için ayrı bir saldırı zarı atarsın."
 			],
 			"page": 237,
 			"damageInflict": [
@@ -9187,26 +8355,6 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Forge (UA)",
-							"source": "UAClericDivineDomains"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Hexblade (UA)",
-							"source": "UAWarlockAndWizard"
-						}
-					},
-					{
-						"class": {
 							"name": "Warlock",
 							"source": "PHB"
 						},
@@ -9217,27 +8365,7 @@
 					},
 					{
 						"class": {
-							"name": "Sorcerer",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Stone",
-							"source": "UASorcerer"
-						}
-					},
-					{
-						"class": {
-							"name": "Sorcerer",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Stone",
-							"source": "UASorcerer"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -9303,11 +8431,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -9317,52 +8445,6 @@
 					{
 						"name": "Sorcerer",
 						"source": "PHB"
-					},
-					{
-						"name": "Artificer",
-						"source": "UAArtificer"
-					}
-				],
-				"fromSubclass": [
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Strength (PSA)",
-							"source": "PSA"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Primeval Guardian (UA)",
-							"source": "UARangerAndRogue"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "UATheRangerRevised"
-						},
-						"subclass": {
-							"name": "Primeval Guardian (UA)",
-							"source": "UARangerAndRogue"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Order (UA)",
-							"source": "UAOrderDomain"
-						}
 					}
 				]
 			},
@@ -9462,7 +8544,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					},
 					{
@@ -9516,7 +8598,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Ranger",
+						"name": "Kolcu",
 						"source": "PHB"
 					}
 				],
@@ -9527,7 +8609,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Ancients",
+							"name": "Kadimler",
 							"source": "PHB"
 						}
 					}
@@ -9595,28 +8677,6 @@
 						"name": "Druid",
 						"source": "PHB"
 					}
-				],
-				"fromSubclass": [
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Primeval Guardian (UA)",
-							"source": "UARangerAndRogue"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "UATheRangerRevised"
-						},
-						"subclass": {
-							"name": "Primeval Guardian (UA)",
-							"source": "UARangerAndRogue"
-						}
-					}
 				]
 			},
 			"source": "PHB",
@@ -9666,7 +8726,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -9717,11 +8777,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -9733,7 +8793,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -9795,7 +8855,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
@@ -9808,16 +8868,6 @@
 						"subclass": {
 							"name": "Great Old One",
 							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Kraken (UA)",
-							"source": "Stream"
 						}
 					}
 				]
@@ -9881,24 +8931,12 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					},
 					{
 						"name": "Artificer",
 						"source": "UAArtificer"
-					}
-				],
-				"fromSubclass": [
-					{
-						"class": {
-							"name": "Paladin",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Treachery (UA)",
-							"source": "UAPaladin"
-						}
 					}
 				]
 			},
@@ -9941,7 +8979,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -9953,7 +8991,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -10017,28 +9055,14 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
-					},
-					{
-						"name": "Artificer",
-						"source": "UAArtificer"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Forge (UA)",
-							"source": "UAClericDivineDomains"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -10089,7 +9113,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -10100,7 +9124,7 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -10167,7 +9191,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					},
 					{
@@ -10178,7 +9202,7 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -10198,27 +9222,7 @@
 					},
 					{
 						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Grave (UA)",
-							"source": "UAClericDivineDomains"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Raven Queen (UA)",
-							"source": "UAWarlockAndWizard"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -10278,7 +9282,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -10290,31 +9294,11 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
-					{
-						"class": {
-							"name": "Paladin",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Conquest (UA)",
-							"source": "UAPaladin"
-						}
-					},
-					{
-						"class": {
-							"name": "Paladin",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Conquest v2 (UA)",
-							"source": "UARevisedClassOptions"
-						}
-					},
 					{
 						"class": {
 							"name": "Paladin",
@@ -10327,18 +9311,8 @@
 					},
 					{
 						"class": {
-							"name": "Ranger",
+							"name": "Kolcu",
 							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Gloom Stalker",
-							"source": "XGE"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "UATheRangerRevised"
 						},
 						"subclass": {
 							"name": "Gloom Stalker",
@@ -10391,7 +9365,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -10399,20 +9373,8 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
-					}
-				],
-				"fromSubclass": [
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Seeker (UA)",
-							"source": "UATheFaithful"
-						}
 					}
 				]
 			},
@@ -10452,7 +9414,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -10464,7 +9426,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -10517,11 +9479,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -10529,7 +9491,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
@@ -10542,16 +9504,6 @@
 						"subclass": {
 							"name": "Undying",
 							"source": "SCAG"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Raven Queen (UA)",
-							"source": "UAWarlockAndWizard"
 						}
 					}
 				]
@@ -10603,7 +9555,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -10695,7 +9647,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -10703,7 +9655,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Ranger",
+						"name": "Kolcu",
 						"source": "PHB"
 					}
 				]
@@ -10753,11 +9705,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -10810,7 +9762,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -10829,7 +9781,7 @@
 			]
 		},
 		{
-			"name": "Fire Bolt",
+			"name": "Alev Oku",
 			"level": 0,
 			"school": "V",
 			"time": [
@@ -10861,15 +9813,15 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
 			},
 			"source": "PHB",
 			"entries": [
-				"You hurl a mote of fire at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes {@dice 1d10} fire damage. A flammable object hit by this spell ignites if it isn't being worn or carried.",
-				"This spell's damage increases by {@dice 1d10} when you reach 5th level ({@dice 2d10}), 11th level ({@dice 3d10}), and 17th level ({@dice 4d10})."
+				"Menzilindeki bir varlık yada nesneye doğru bir alev taneciği fırlatırsın. Hedefe karşı bir menzilli büyü saldırısı zarı at. Vurursa hedef {@dice 1d10} ateş hasarı alır. Taşınmayan yada giyilmeyen yanıcı bir madde bu büyü ile vurulduğunda alev alır.",
+				"Bu büyünün hasarı belirli seviyelerde {@dice 1d10} artarak 5. seviyede ({@dice 2d10}), 11. seviyede ({@dice 3d10}) ve 17. seviyede ({@dice 4d10}) olur."
 			],
 			"page": 242,
 			"damageInflict": [
@@ -10909,7 +9861,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
@@ -10922,26 +9874,6 @@
 						"subclass": {
 							"name": "Fiend",
 							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Undying Light (UA)",
-							"source": "UALightDarkUnderdark"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Zeal (PSA)",
-							"source": "PSA"
 						}
 					}
 				]
@@ -10991,7 +9923,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -11051,14 +9983,14 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -11074,16 +10006,6 @@
 						"subclass": {
 							"name": "Fiend",
 							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Zeal (PSA)",
-							"source": "PSA"
 						}
 					}
 				]
@@ -11199,14 +10121,14 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -11216,7 +10138,7 @@
 					},
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -11230,7 +10152,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Devotion",
+							"name": "Bağlılık",
 							"source": "PHB"
 						}
 					},
@@ -11250,38 +10172,8 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Celestial (UA)",
-							"source": "UARevisedClassOptions"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Undying Light (UA)",
-							"source": "UALightDarkUnderdark"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
 							"name": "Celestial",
 							"source": "XGE"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Zeal (PSA)",
-							"source": "PSA"
 						}
 					}
 				]
@@ -11347,39 +10239,19 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
 							"name": "Light",
 							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Celestial (UA)",
-							"source": "UARevisedClassOptions"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Undying Light (UA)",
-							"source": "UALightDarkUnderdark"
 						}
 					},
 					{
@@ -11456,7 +10328,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -11515,7 +10387,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					},
 					{
@@ -11577,7 +10449,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Ranger",
+						"name": "Kolcu",
 						"source": "PHB"
 					},
 					{
@@ -11585,14 +10457,14 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -11653,7 +10525,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					}
 				]
@@ -11711,7 +10583,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -11719,7 +10591,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -11771,7 +10643,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -11783,7 +10655,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -11828,11 +10700,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -11840,7 +10712,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Ranger",
+						"name": "Kolcu",
 						"source": "PHB"
 					},
 					{
@@ -11851,7 +10723,7 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -11920,18 +10792,8 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Devotion",
+							"name": "Bağlılık",
 							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Zeal (PSA)",
-							"source": "PSA"
 						}
 					}
 				]
@@ -11944,7 +10806,7 @@
 			"page": 244
 		},
 		{
-			"name": "Friends",
+			"name": "Dostlar",
 			"level": 0,
 			"school": "E",
 			"time": [
@@ -11961,7 +10823,7 @@
 			},
 			"components": {
 				"s": true,
-				"m": "a small amount of makeup applied to the face as this spell is cast"
+				"m": "bu büyü yapılırken yüze uygulanan küçük bir miktar makyaj"
 			},
 			"duration": [
 				{
@@ -11976,7 +10838,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -11988,14 +10850,14 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
 			},
 			"source": "PHB",
 			"entries": [
-				"For the duration, you have advantage on all Charisma checks directed at one creature of your choice that isn't hostile toward you. When the spell ends, the creature realizes that you used magic to influence its mood and becomes hostile toward you. A creature prone to violence might attack you. Another creature might seek retribution in other ways (at the DM's discretion), depending on the nature of your interaction with it."
+				"Süre boyunca sana düşman olmayan bir varlığa karşı atacağın tüm Karizma beceri zarlarında avantajın olur. Büyü sona erdiğinde varlık büyü kullanıp onun ruh halini etkilediğini anlar ve sana karşı düşmanca bir tavrı olur. Şiddete yatkın bir varlık sana saldırabilir bile. Başka bir varlıksa, iletişiminizin yapısına bağlı olarak farklı yollarla (DM'in takdirine kalmış) bunun karşılığını ister."
 			],
 			"page": 244
 		},
@@ -12041,7 +10903,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					},
 					{
@@ -12059,16 +10921,6 @@
 							"name": "Land",
 							"source": "PHB",
 							"subSubclass": "Underdark"
-						}
-					},
-					{
-						"class": {
-							"name": "Paladin",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Treachery (UA)",
-							"source": "UAPaladin"
 						}
 					}
 				]
@@ -12122,7 +10974,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -12130,7 +10982,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -12176,11 +11028,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -12192,7 +11044,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
@@ -12265,28 +11117,18 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Grave (UA)",
-							"source": "UAClericDivineDomains"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -12343,28 +11185,6 @@
 						"name": "Druid",
 						"source": "PHB"
 					}
-				],
-				"fromSubclass": [
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Primeval Guardian (UA)",
-							"source": "UARangerAndRogue"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "UATheRangerRevised"
-						},
-						"subclass": {
-							"name": "Primeval Guardian (UA)",
-							"source": "UARangerAndRogue"
-						}
-					}
 				]
 			},
 			"source": "PHB",
@@ -12407,7 +11227,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -12461,7 +11281,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -12519,42 +11339,20 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					},
 					{
 						"name": "Artificer",
 						"source": "UAArtificer"
-					}
-				],
-				"fromSubclass": [
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Deep Stalker (UA)",
-							"source": "UALightDarkUnderdark"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "UATheRangerRevised"
-						},
-						"subclass": {
-							"name": "Deep Stalker (UA)",
-							"source": "UATheRangerRevised"
-						}
 					}
 				]
 			},
@@ -12637,7 +11435,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Ranger",
+						"name": "Kolcu",
 						"source": "PHB"
 					}
 				]
@@ -12687,14 +11485,14 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Ranger",
+						"name": "Kolcu",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -12748,7 +11546,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -12796,7 +11594,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -12804,7 +11602,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
@@ -12832,48 +11630,8 @@
 					},
 					{
 						"class": {
-							"name": "Paladin",
+							"name": "Kolcu",
 							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Treachery (UA)",
-							"source": "UAPaladin"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Deep Stalker (UA)",
-							"source": "UALightDarkUnderdark"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Gloom Stalker",
-							"source": "XGE"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "UATheRangerRevised"
-						},
-						"subclass": {
-							"name": "Deep Stalker (UA)",
-							"source": "UATheRangerRevised"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "UATheRangerRevised"
 						},
 						"subclass": {
 							"name": "Gloom Stalker",
@@ -12921,11 +11679,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -12934,16 +11692,6 @@
 					}
 				],
 				"fromSubclass": [
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Celestial (UA)",
-							"source": "UARevisedClassOptions"
-						}
-					},
 					{
 						"class": {
 							"name": "Warlock",
@@ -13003,14 +11751,14 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -13020,7 +11768,7 @@
 					},
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -13044,38 +11792,8 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Devotion",
+							"name": "Bağlılık",
 							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Protection (UA)",
-							"source": "UAClericDivineDomains"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Solidarity (PSA)",
-							"source": "PSA"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Celestial (UA)",
-							"source": "UARevisedClassOptions"
 						}
 					},
 					{
@@ -13139,11 +11857,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -13196,7 +11914,7 @@
 			"page": 248
 		},
 		{
-			"name": "Guidance",
+			"name": "Rehberlik",
 			"level": 0,
 			"school": "D",
 			"time": [
@@ -13228,7 +11946,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -13239,7 +11957,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You touch one willing creature. Once before the spell ends, the target can roll a {@dice d4} and add the number rolled to one ability check of its choice. It can roll the die before or after making the ability check. The spell then ends."
+				"İstekli bir varlığa dokunursun. Büyü bitmeden önce bir kereliğine, hedef {@dice d4} atıp sonucunu seçtiği bir yetenek zarına ekleyebilir. Bu d4'lük zarı yetenek zarından önce yada sonra atabilir. Sonrasında büyü sona erer."
 			],
 			"page": 248
 		},
@@ -13276,21 +11994,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Solidarity (PSA)",
-							"source": "PSA"
-						}
-					},
 					{
 						"class": {
 							"name": "Warlock",
@@ -13364,29 +12072,19 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
 							"name": "Tempest",
 							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Kraken (UA)",
-							"source": "Stream"
 						}
 					}
 				]
@@ -13435,7 +12133,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Ranger",
+						"name": "Kolcu",
 						"source": "PHB"
 					}
 				]
@@ -13497,7 +12195,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					}
 				],
@@ -13653,7 +12351,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -13665,7 +12363,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
@@ -13722,7 +12420,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					}
 				]
@@ -13778,12 +12476,8 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
-					},
-					{
-						"name": "Artificer",
-						"source": "UAArtificer"
 					}
 				],
 				"fromSubclass": [
@@ -13810,37 +12504,7 @@
 					},
 					{
 						"class": {
-							"name": "Paladin",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Treachery (UA)",
-							"source": "UAPaladin"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Strength (PSA)",
-							"source": "PSA"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Zeal (PSA)",
-							"source": "PSA"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
+							"name": "Kolcu",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -13850,7 +12514,7 @@
 					},
 					{
 						"class": {
-							"name": "Ranger",
+							"name": "Kolcu",
 							"source": "UATheRangerRevised"
 						},
 						"subclass": {
@@ -13899,7 +12563,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -13951,11 +12615,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -14014,7 +12678,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -14025,27 +12689,7 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "City (PSA)",
-							"source": "UAModernMagic"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Forge (UA)",
-							"source": "UAClericDivineDomains"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -14179,7 +12823,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -14234,24 +12878,12 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
 						"name": "Paladin",
 						"source": "PHB"
-					}
-				],
-				"fromSubclass": [
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Order (UA)",
-							"source": "UAOrderDomain"
-						}
 					}
 				]
 			},
@@ -14365,7 +12997,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -14377,14 +13009,14 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -14400,16 +13032,6 @@
 						"subclass": {
 							"name": "Vengeance",
 							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Paladin",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Redemption (UA)",
-							"source": "UAATrioOfSubclasses"
 						}
 					},
 					{
@@ -14477,11 +13099,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -14497,7 +13119,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
@@ -14529,26 +13151,6 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Conquest (UA)",
-							"source": "UAPaladin"
-						}
-					},
-					{
-						"class": {
-							"name": "Paladin",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Conquest v2 (UA)",
-							"source": "UARevisedClassOptions"
-						}
-					},
-					{
-						"class": {
-							"name": "Paladin",
-							"source": "PHB"
-						},
-						"subclass": {
 							"name": "Conquest",
 							"source": "XGE"
 						}
@@ -14559,28 +13161,8 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Redemption (UA)",
-							"source": "UAATrioOfSubclasses"
-						}
-					},
-					{
-						"class": {
-							"name": "Paladin",
-							"source": "PHB"
-						},
-						"subclass": {
 							"name": "Redemption",
 							"source": "XGE"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Order (UA)",
-							"source": "UAOrderDomain"
 						}
 					}
 				]
@@ -14640,7 +13222,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					}
 				]
@@ -14741,7 +13323,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Ranger",
+						"name": "Kolcu",
 						"source": "PHB"
 					}
 				],
@@ -14810,7 +13392,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -14822,21 +13404,11 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
-					{
-						"class": {
-							"name": "Paladin",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Redemption (UA)",
-							"source": "UAATrioOfSubclasses"
-						}
-					},
 					{
 						"class": {
 							"name": "Paladin",
@@ -14897,14 +13469,14 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -14929,18 +13501,8 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Ancients",
+							"name": "Kadimler",
 							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Raven Queen (UA)",
-							"source": "UAWarlockAndWizard"
 						}
 					}
 				]
@@ -15000,18 +13562,18 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -15021,17 +13583,7 @@
 					},
 					{
 						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Knowledge (PSA)",
-							"source": "PSA"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -15087,7 +13639,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -15095,7 +13647,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -15152,7 +13704,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -15254,7 +13806,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -15301,7 +13853,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					}
 				],
@@ -15381,7 +13933,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -15396,7 +13948,7 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -15406,7 +13958,7 @@
 					},
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -15456,46 +14008,6 @@
 							"name": "Land",
 							"source": "PHB",
 							"subSubclass": "Swamp"
-						}
-					},
-					{
-						"class": {
-							"name": "Paladin",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Conquest (UA)",
-							"source": "UAPaladin"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Strength (PSA)",
-							"source": "PSA"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Primeval Guardian (UA)",
-							"source": "UARangerAndRogue"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "UATheRangerRevised"
-						},
-						"subclass": {
-							"name": "Primeval Guardian (UA)",
-							"source": "UARangerAndRogue"
 						}
 					}
 				]
@@ -15556,7 +14068,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -15568,7 +14080,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					},
 					{
@@ -15586,16 +14098,6 @@
 							"name": "Land",
 							"source": "PHB",
 							"subSubclass": "Grassland"
-						}
-					},
-					{
-						"class": {
-							"name": "Paladin",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Treachery (UA)",
-							"source": "UAPaladin"
 						}
 					}
 				]
@@ -15652,7 +14154,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Ranger",
+						"name": "Kolcu",
 						"source": "PHB"
 					},
 					{
@@ -15660,24 +14162,12 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					},
 					{
 						"name": "Artificer",
 						"source": "UAArtificer"
-					}
-				],
-				"fromSubclass": [
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Seeker (UA)",
-							"source": "UATheFaithful"
-						}
 					}
 				]
 			},
@@ -15715,7 +14205,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -15723,7 +14213,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -15770,37 +14260,27 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
 							"name": "Knowledge",
 							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Knowledge (PSA)",
-							"source": "PSA"
 						}
 					},
 					{
@@ -15811,16 +14291,6 @@
 						"subclass": {
 							"name": "Undying",
 							"source": "SCAG"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Seeker (UA)",
-							"source": "UATheFaithful"
 						}
 					}
 				]
@@ -15864,7 +14334,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					},
 					{
@@ -15875,7 +14345,7 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -15927,11 +14397,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -15975,11 +14445,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -15991,7 +14461,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Ranger",
+						"name": "Kolcu",
 						"source": "PHB"
 					},
 					{
@@ -16002,7 +14472,7 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -16016,18 +14486,8 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Devotion",
+							"name": "Bağlılık",
 							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Celestial (UA)",
-							"source": "UARevisedClassOptions"
 						}
 					},
 					{
@@ -16087,20 +14547,8 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
-					}
-				],
-				"fromSubclass": [
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Seeker (UA)",
-							"source": "UATheFaithful"
-						}
 					}
 				]
 			},
@@ -16116,7 +14564,7 @@
 			]
 		},
 		{
-			"name": "Light",
+			"name": "Işık",
 			"level": 0,
 			"school": "V",
 			"time": [
@@ -16133,7 +14581,7 @@
 			},
 			"components": {
 				"v": true,
-				"m": "a firefly or phosphorescent moss"
+				"m": "bir ateşböceği yada fosforlu yosun"
 			},
 			"duration": [
 				{
@@ -16147,11 +14595,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -16159,15 +14607,15 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
 			},
 			"source": "PHB",
 			"entries": [
-				"You touch one object that is no larger than 10 feet in any dimension. Until the spell ends, the object sheds bright light in a 20-foot radius and dim light for an additional 20 feet. The light can be colored as you like. Completely covering the object with something opaque blocks the light. The spell ends if you cast it again or dismiss it as an eylem.",
-				"If you target an object held or worn by a hostile creature, that creature must succeed on a Dexterity saving throw to avoid the spell."
+				"Herhangi bir boyutunda 10 feetin üzerinde olmayan bir nesneye dokun. Büyü bitene kadar bu nesne 20 feet çapında parlak, sonrasında 20 feet de loş ışık saçar. Işık istediğin renkte olabilir. Opak bir şey ile nesneyi tamamen kaplamak ışığı engeller. Büyü yeniden kullanırsan yada eylemini kullanıp savarsan sonlanır.",
+				"Eğer düşman bir varlık tarafından taşınan yada giyilen bir nesneyi hedef alırsan, varlık büyüden kaçınmak için Çeviklik kurtulma zarında başarılı olmalıdır."
 			],
 			"page": 255,
 			"savingThrow": [
@@ -16207,7 +14655,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Ranger",
+						"name": "Kolcu",
 						"source": "PHB"
 					}
 				]
@@ -16269,7 +14717,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
@@ -16283,16 +14731,6 @@
 							"name": "Land",
 							"source": "PHB",
 							"subSubclass": "Mountain"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "City (PSA)",
-							"source": "UAModernMagic"
 						}
 					}
 				]
@@ -16348,7 +14786,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -16356,7 +14794,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Ranger",
+						"name": "Kolcu",
 						"source": "PHB"
 					}
 				]
@@ -16404,11 +14842,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -16420,11 +14858,11 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Ranger",
+						"name": "Kolcu",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
@@ -16438,46 +14876,6 @@
 							"name": "Land",
 							"source": "PHB",
 							"subSubclass": "Swamp"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "City (PSA)",
-							"source": "UAModernMagic"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Raven Queen (UA)",
-							"source": "UAWarlockAndWizard"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Seeker (UA)",
-							"source": "UATheFaithful"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Order (UA)",
-							"source": "UAOrderDomain"
 						}
 					}
 				]
@@ -16524,11 +14922,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -16540,24 +14938,12 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Ranger",
+						"name": "Kolcu",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
-					}
-				],
-				"fromSubclass": [
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Seeker (UA)",
-							"source": "UATheFaithful"
-						}
 					}
 				]
 			},
@@ -16602,7 +14988,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -16610,11 +14996,11 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Ranger",
+						"name": "Kolcu",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					},
 					{
@@ -16675,7 +15061,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -16687,7 +15073,7 @@
 			"page": 256
 		},
 		{
-			"name": "Mage Hand",
+			"name": "Büyücü Eli",
 			"level": 0,
 			"school": "C",
 			"time": [
@@ -16719,7 +15105,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -16731,16 +15117,16 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
 			},
 			"source": "PHB",
 			"entries": [
-				"A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration or until you dismiss it as an eylem. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again.",
-				"You can use your eylem to control the hand. You can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. You can move the hand up to 30 feet each time you use it.",
-				"The hand can't attack, activate magical items, or carry more than 10 pounds."
+				"Menzilinde seçtiğin bir noktada spektral ve süzülen bir el belirir. El süre boyunca yada eylem olarak sen savıncaya kadar kalır. Eğer senden 30 feetten fazla uzaklaşırsa yada sen bu büyüyü tekrar kullanırsan el kaybolur.",
+				"Eylemini kullanıp eli kontrol edebilirsin. Eli bir nesneyi kullanma, kilitsiz bir kapıyı yada kabı açma, açık bir kaptan eşya alma yada yerine koyma, veya şişenin içeriklerini dökme gibi eylemler için kullanabilirsin. Eli her kullanışında 30 feete kadar hareket ettirebilirsin.",
+				"El saldıramaz, büyülü nesneleri etkinleştiremez yada 10 pounddan fazla taşıyamaz."
 			],
 			"page": 256
 		},
@@ -16782,7 +15168,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -16794,14 +15180,14 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -16811,38 +15197,8 @@
 					},
 					{
 						"class": {
-							"name": "Ranger",
+							"name": "Kolcu",
 							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Monster Slayer (UA)",
-							"source": "UAATrioOfSubclasses"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Monster Slayer",
-							"source": "XGE"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "UATheRangerRevised"
-						},
-						"subclass": {
-							"name": "Monster Slayer (UA)",
-							"source": "UAATrioOfSubclasses"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "UATheRangerRevised"
 						},
 						"subclass": {
 							"name": "Monster Slayer",
@@ -16914,7 +15270,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -16967,14 +15323,14 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -17039,11 +15395,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -17096,18 +15452,14 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
-					},
-					{
-						"name": "Artificer",
-						"source": "UAArtificer"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -17117,7 +15469,7 @@
 					},
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -17127,47 +15479,7 @@
 					},
 					{
 						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Forge (UA)",
-							"source": "UAClericDivineDomains"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Hexblade (UA)",
-							"source": "UAWarlockAndWizard"
-						}
-					},
-					{
-						"class": {
-							"name": "Sorcerer",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Stone",
-							"source": "UASorcerer"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Zeal (PSA)",
-							"source": "PSA"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -17227,7 +15539,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -17239,7 +15551,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -17296,11 +15608,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -17311,22 +15623,12 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
 							"name": "Life",
 							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Solidarity (PSA)",
-							"source": "PSA"
 						}
 					}
 				]
@@ -17375,7 +15677,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					}
 				]
@@ -17414,20 +15716,8 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
-					}
-				],
-				"fromSubclass": [
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Order (UA)",
-							"source": "UAOrderDomain"
-						}
 					}
 				]
 			},
@@ -17479,7 +15769,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -17491,7 +15781,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -17551,7 +15841,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -17596,7 +15886,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -17662,7 +15952,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
@@ -17699,7 +15989,7 @@
 			]
 		},
 		{
-			"name": "Mending",
+			"name": "Tamir",
 			"level": 0,
 			"school": "T",
 			"time": [
@@ -17717,7 +16007,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "two lodestones"
+				"m": "iki mıknatıstaşı"
 			},
 			"duration": [
 				{
@@ -17727,11 +16017,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -17743,20 +16033,20 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
 			},
 			"source": "PHB",
 			"entries": [
-				"This spell repairs a single break or tear in an object you touch, such as broken chain link, two halves of a broken key, a torn clack, or a leaking wineskin. As long as the break or tear is no larger than 1 foot in any dimension, you mend it, leaving no trace of the former damage.",
-				"This spell can physically repair a magic item or construct, but the spell can't restore magic to such an object."
+				"Bu büyü dokunduğun bir nesnedeki kırık zincir halkası, kırık bir anahtarın iki yarısı yada sızdıran bir şarap matarası gibi tek bir kırık yada yırtığı tamir eder. Yırtık yada kırığın boyutu herhangi bir boyutunda 1 feetten fazla değilse, geride iz bırakmadan tamir olur.",
+				"Bu büyü bir büyülü eşyayı yada yapıyı fiziksel olarak tamir edebilir ama bu tip bir nesneye büyüsünü geri kazandıramaz."
 			],
 			"page": 259
 		},
 		{
-			"name": "Message",
+			"name": "Mesaj",
 			"level": 0,
 			"school": "T",
 			"time": [
@@ -17775,7 +16065,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a short piece of copper wire"
+				"m": "kısa bir bakır kablo parçası"
 			},
 			"duration": [
 				{
@@ -17789,7 +16079,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -17797,15 +16087,15 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
 			},
 			"source": "PHB",
 			"entries": [
-				"You point your finger toward a creature within range and whisper a message. The target (and only the target) hears the message and can reply in a whisper that only you can hear.",
-				"You can cast this spell through solid objects if you are familiar with the target and know it is beyond the barrier. Magical silence, 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood blocks the spell. The spell doesn't have to follow a straight line and can travel freely around corners or through openings."
+				"Menzilindeki bir varlığa parmağını doğrultup bir mesaj fısıldarsın. Hedef (ve sadece hedef) mesajı duyar ve sadece senin duyabileceğin bir fısıltı ile yanıtlayabilir.",
+				"Eğer hedefi tanıyorsan ve bariyerin ardında olduğunu biliyorsan, bu büyüyü katı nesnelerin ardında da kullanabilirsin. Büyülü sessizlik, 1 feetlik taş, 1 inç metal, kurşundan ince bir plaka yada 3 feetlik odun büyüyü bloklar. Büyü düz bir hizada gitmek zorunda değildir, rahatlıkla açıklıklardan geçer ve köşeleri dönebilir."
 			],
 			"page": 259
 		},
@@ -17842,7 +16132,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -17893,11 +16183,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -17915,7 +16205,7 @@
 			]
 		},
 		{
-			"name": "Minor Illusion",
+			"name": "Ufak İllüzyon",
 			"level": 0,
 			"school": "I",
 			"time": [
@@ -17933,7 +16223,7 @@
 			},
 			"components": {
 				"s": true,
-				"m": "a bit of fleece"
+				"m": "biraz yün"
 			},
 			"duration": [
 				{
@@ -17947,7 +16237,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -17959,17 +16249,17 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
 			},
 			"source": "PHB",
 			"entries": [
-				"You create a sound or an image of an object within range that lasts for the duration. The illusion also ends if you dismiss it as an eylem or cast this spell again.",
-				"If you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else's voice, a lion's roar, a beating of drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends.",
-				"If you create an image of an object\u2014such as a chair, muddy footprints, or a small chest\u2014it must be no larger than a 5-foot cube. The image can't create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, because things can pass through it.",
-				"If a creature uses its eylem to examine the sound or image, the creature can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature."
+				"Menzilinde büyü süresince kalacak bir ses yada bir nesne görüntüsü yaratırsın. İllüzyon, onu eylemini kullanıp savarsan yada bu büyüyü yeniden kullanırsan sonlanır.",
+				"Eğer ses yaratırsan, bu bir fısıltıdan çığlığa kadar değişebilir. Bu senin sesin yada başkasının sesi, bir aslan kükremesi, davul gürültüsü yada seçeceğin herhangi bir ses olabilir. Ses, süre boyunca kesilmeden devam edebilir yada büyü bitmeden önce farklı zamanlarda ayrı sesler de yaratabilirsin.",
+				"Eğer sandalye, çamurlu ayak izleri yada küçük bir sandık gibi nesnelerin görüntüsünü yarattıysan, bu 5 fitlik bir küpten büyük olamaz. Görüntü ses, ışık, koku yada herhangi bir duyusal etki yaratamaz. Görüntü ile fiziksel etkileşim onun bir illüzyon olduğunu ortaya çıkarır, çünkü nesneler içinden geçebilir.",
+				"Eğer bir varlık eylemini bu ses yada görüntüyü incelemek için kullanırsa, senin büyü kurtulma zarı DC'ne karşı atacağı bir Zeka (İnceleme) zarı ile illüzyon olduğunu anlayabilir. Eğer bir varlık illüzyonun aslını farkederse, illüzyon o varlık için sönük olacaktır."
 			],
 			"page": 260,
 			"opposedCheck": [
@@ -18008,7 +16298,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -18016,7 +16306,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -18070,14 +16360,14 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -18094,26 +16384,6 @@
 							"name": "Land",
 							"source": "PHB",
 							"subSubclass": "Coast"
-						}
-					},
-					{
-						"class": {
-							"name": "Paladin",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Treachery (UA)",
-							"source": "UAPaladin"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Ambition (PSA)",
-							"source": "PSA"
 						}
 					}
 				]
@@ -18160,11 +16430,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -18211,7 +16481,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
@@ -18233,7 +16503,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Ancients",
+							"name": "Kadimler",
 							"source": "PHB"
 						}
 					},
@@ -18249,7 +16519,7 @@
 					},
 					{
 						"class": {
-							"name": "Ranger",
+							"name": "Kolcu",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -18259,7 +16529,7 @@
 					},
 					{
 						"class": {
-							"name": "Ranger",
+							"name": "Kolcu",
 							"source": "UATheRangerRevised"
 						},
 						"subclass": {
@@ -18309,33 +16579,23 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
 							"name": "Trickery",
 							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Ambition (PSA)",
-							"source": "PSA"
 						}
 					}
 				]
@@ -18408,7 +16668,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Ancients",
+							"name": "Kadimler",
 							"source": "PHB"
 						}
 					}
@@ -18472,7 +16732,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					},
 					{
@@ -18529,11 +16789,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -18580,7 +16840,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					},
 					{
@@ -18655,11 +16915,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -18717,7 +16977,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -18769,37 +17029,27 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Ranger",
+						"name": "Kolcu",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
 							"name": "Knowledge",
 							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Knowledge (PSA)",
-							"source": "PSA"
 						}
 					}
 				]
@@ -18843,14 +17093,14 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -18911,7 +17161,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -18977,35 +17227,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
-					},
-					{
-						"name": "Artificer",
-						"source": "UAArtificer"
 					}
 				],
 				"fromSubclass": [
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Protection (UA)",
-							"source": "UAClericDivineDomains"
-						}
-					},
-					{
-						"class": {
-							"name": "Paladin",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Redemption (UA)",
-							"source": "UAATrioOfSubclasses"
-						}
-					},
 					{
 						"class": {
 							"name": "Paladin",
@@ -19078,11 +17304,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -19136,14 +17362,14 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Ranger",
+						"name": "Kolcu",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -19204,7 +17430,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
@@ -19218,26 +17444,6 @@
 							"name": "Land",
 							"source": "PHB",
 							"subSubclass": "Mountain"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Seeker (UA)",
-							"source": "UATheFaithful"
-						}
-					},
-					{
-						"class": {
-							"name": "Paladin",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Treachery (UA)",
-							"source": "UAPaladin"
 						}
 					}
 				]
@@ -19284,7 +17490,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -19292,7 +17498,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
@@ -19372,21 +17578,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Hexblade (UA)",
-							"source": "UAWarlockAndWizard"
-						}
-					},
 					{
 						"class": {
 							"name": "Warlock",
@@ -19453,7 +17649,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -19497,7 +17693,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					}
 				]
@@ -19551,11 +17747,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -19563,14 +17759,14 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -19580,38 +17776,8 @@
 					},
 					{
 						"class": {
-							"name": "Ranger",
+							"name": "Kolcu",
 							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Monster Slayer (UA)",
-							"source": "UAATrioOfSubclasses"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Monster Slayer",
-							"source": "XGE"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "UATheRangerRevised"
-						},
-						"subclass": {
-							"name": "Monster Slayer (UA)",
-							"source": "UAATrioOfSubclasses"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "UATheRangerRevised"
 						},
 						"subclass": {
 							"name": "Monster Slayer",
@@ -19671,7 +17837,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -19687,7 +17853,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -19736,7 +17902,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -19744,14 +17910,14 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Ranger",
+						"name": "Kolcu",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -19776,7 +17942,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Ancients",
+							"name": "Kadimler",
 							"source": "PHB"
 						}
 					},
@@ -19802,7 +17968,7 @@
 			"page": 266
 		},
 		{
-			"name": "Poison Spray",
+			"name": "Zehir Spreyi",
 			"level": 0,
 			"school": "C",
 			"time": [
@@ -19842,15 +18008,15 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
 			},
 			"source": "PHB",
 			"entries": [
-				"You extend your hand toward a creature you can see within range and project a puff of noxious gas from your palm. The creature must succeed on a Constitution saving throw or take {@dice 1d12} poison damage.",
-				"This spell's damage increases by {@dice 1d12} when you reach 5th level ({@dice 2d12}), 11th level ({@dice 3d12}), and 17th level ({@dice 4d12})."
+				"Menzilinde görebildiğin bir varlığa doğru elini uzatıp avucundan zehirli bir gaz üflersin. Varlık Dayanıklılık kurtulma zarında başarılı olur yada {@dice 1d12} zehir hasarı alır.",
+				"Bu büyünün hasarı belirli seviyelerde {@dice 1d12} artarak 5. seviyede ({@dice 2d12}), 11. seviyede ({@dice 3d12}) ve 17. seviyede ({@dice 4d12}) olur."
 			],
 			"page": 266,
 			"damageInflict": [
@@ -19895,7 +18061,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -19907,14 +18073,14 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -19966,7 +18132,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					}
 				]
@@ -20005,7 +18171,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -20017,7 +18183,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -20056,7 +18222,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -20068,7 +18234,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -20111,7 +18277,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					}
 				]
@@ -20132,7 +18298,7 @@
 			"page": 267
 		},
 		{
-			"name": "Prestidigitation",
+			"name": "Hokkabazlık",
 			"level": 0,
 			"school": "T",
 			"time": [
@@ -20165,7 +18331,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -20177,26 +18343,26 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
 			},
 			"source": "PHB",
 			"entries": [
-				"This spell is a minor magical trick that novice spellcasters use for practice. You create one of the following magical effects within range.",
+				"Bu büyü, acemi büyü kullanıcılarının pratik için kullandığı ufak bir büyü numarasıdır. Menzilinde şu etkilerden birini yaratırsın.",
 				{
 					"type": "list",
 					"items": [
-						"You create an instantaneous, harmless sensory effect, such as a shower of sparks, a puff of wind, faint musical notes, or an odd odor.",
-						"You instantaneously light or snuff out a candle, a torch, or a small campfire.",
-						"You instantaneously clean or soil an object no larger than 1 cubic foot.",
-						"You chill, warm, or flavor up to 1 cubic foot of nonliving material for 1 saat.",
-						"You make a color, a small mark, or a symbol appear on an object or a surface for 1 saat.",
-						"You create a nonmagical trinket or an illusory image that can fit in your hand and that lasts until the end of your next turn."
+						"Kıvılcım yağmuru, küçük bir esinti, belli belirsiz müzik notaları yada garip bir koku gibi anlık ve zararsız bir duyusal etki yaratırsın.",
+						"Anında bir mum, meşale yada küçük bir kamp ateşini yakar yada söndürürsün.",
+						"Bir fitlik küpten daha büyük olmayan bir nesneyi anında temizler yada kirletirsin.",
+						"Bir fitlik kübe kadar cansız maddeyi, 1 saatliğine serinletir, ılıtır yada lezzetlendirirsin.",
+						"Bir nesne yada yüzeyde, 1 saatliğine renk, küçük bir işaret yada sembol yaratırsın.",
+						"Bir sonraki sıranın sonuna kadar kalacak, avcunun içine sığabilecek boyutta büyüsüz ıvır zıvır yada illüzyon bir görüntü yaratırsın."
 					]
 				},
-				"If you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss such an effect as an eylem."
+				"Eğer büyüyü birden çok kez kullanırsan, anlık olmayan etkilerden sadece üç tanesi aynı anda aktif olabilir, ve bu tip bir etkiyi eylem olarak savabilirsin."
 			],
 			"page": 267
 		},
@@ -20233,7 +18399,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -20345,7 +18511,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -20422,7 +18588,7 @@
 			]
 		},
 		{
-			"name": "Produce Flame",
+			"name": "Alev Üret",
 			"level": 0,
 			"school": "C",
 			"time": [
@@ -20460,9 +18626,9 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"A flickering flame appears in your hand. The flame remains there for the duration and harms neither you nor your equipment. The flame sheds bright light in a 10-foot radius and dim light for an additional 10 feet. The spell ends if you dismiss it as an eylem or if you cast it again.",
-				"You can also attack with the flame, although doing so ends the spell. When you cast this spell, or as an eylem on a later turn, you can hurl the flame at a creature within 30 feet of you. Make a ranged spell attack. On a hit, the target takes {@dice 1d8} fire damage.",
-				"This spell's damage increases by {@dice 1d8} when you reach 5th level ({@dice 2d8}), 11th level ({@dice 3d8}), and 17th level ({@dice 4d8})."
+				"Elinde titreyen bir alev belirir. Alev süre boyunca orada kalır ve ne sana ne de ekipmanına hasar verir. Alev 10 fitlik bir çapta parlak, sonrasında 10 fit de loş ışık saçar. Büyü eğer eylem olarak onu savarsan yada yeniden kullanırsan sona erer.",
+				"Alev ile saldırı da yapabilirsin, ama bunu yapman büyüyü sonlandırır. Bu büyüyü kullandığında, yada sonraki sıralarından birinde eylem olarak, 30 fit yakınındaki bir varlığa fırlatabilirsin. Bir menzilli büyü saldırısı yap. Vurursa, hedef {@dice 1d8} ateş hasarı alır.",
+				"Bu büyünün hasarı belirli seviyelerde {@dice 1d8} artarak 5. seviyede ({@dice 2d8}), 11. seviyede ({@dice 3d8}) ve 17. seviyede ({@dice 4d8}) olur."
 			],
 			"page": 269,
 			"damageInflict": [
@@ -20505,11 +18671,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -20565,11 +18731,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -20619,7 +18785,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -20627,7 +18793,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Ranger",
+						"name": "Kolcu",
 						"source": "PHB"
 					},
 					{
@@ -20635,7 +18801,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					},
 					{
@@ -20661,7 +18827,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Ancients",
+							"name": "Kadimler",
 							"source": "PHB"
 						}
 					},
@@ -20677,62 +18843,12 @@
 					},
 					{
 						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Forge (UA)",
-							"source": "UAClericDivineDomains"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Protection (UA)",
-							"source": "UAClericDivineDomains"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Strength (PSA)",
-							"source": "PSA"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
 							"name": "Forge",
 							"source": "XGE"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Horizon Walker (UA)",
-							"source": "UARangerAndRogue"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "UATheRangerRevised"
-						},
-						"subclass": {
-							"name": "Horizon Walker (UA)",
-							"source": "UARangerAndRogue"
 						}
 					}
 				]
@@ -20787,7 +18903,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -20799,7 +18915,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
@@ -20810,33 +18926,13 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Devotion",
+							"name": "Bağlılık",
 							"source": "PHB"
 						}
 					},
 					{
 						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Protection (UA)",
-							"source": "UAClericDivineDomains"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Horizon Walker (UA)",
-							"source": "UARangerAndRogue"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
+							"name": "Kolcu",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -20846,17 +18942,7 @@
 					},
 					{
 						"class": {
-							"name": "Ranger",
-							"source": "UATheRangerRevised"
-						},
-						"subclass": {
-							"name": "Horizon Walker (UA)",
-							"source": "UARangerAndRogue"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
+							"name": "Kolcu",
 							"source": "UATheRangerRevised"
 						},
 						"subclass": {
@@ -20866,38 +18952,8 @@
 					},
 					{
 						"class": {
-							"name": "Ranger",
+							"name": "Kolcu",
 							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Monster Slayer (UA)",
-							"source": "UAATrioOfSubclasses"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Monster Slayer",
-							"source": "XGE"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "UATheRangerRevised"
-						},
-						"subclass": {
-							"name": "Monster Slayer (UA)",
-							"source": "UAATrioOfSubclasses"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "UATheRangerRevised"
 						},
 						"subclass": {
 							"name": "Monster Slayer",
@@ -20955,7 +19011,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -20967,34 +19023,12 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Ranger",
+						"name": "Kolcu",
 						"source": "PHB"
 					},
 					{
 						"name": "Artificer",
 						"source": "UAArtificer"
-					}
-				],
-				"fromSubclass": [
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Strength (PSA)",
-							"source": "PSA"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Protection (UA)",
-							"source": "UAClericDivineDomains"
-						}
 					}
 				]
 			},
@@ -21040,7 +19074,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -21095,11 +19129,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -21110,7 +19144,7 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -21120,17 +19154,7 @@
 					},
 					{
 						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Grave (UA)",
-							"source": "UAClericDivineDomains"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -21183,7 +19207,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -21236,14 +19260,14 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -21253,42 +19277,12 @@
 					},
 					{
 						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Grave (UA)",
-							"source": "UAClericDivineDomains"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Ambition (PSA)",
-							"source": "PSA"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
 							"name": "Grave",
 							"source": "XGE"
-						}
-					},
-					{
-						"class": {
-							"name": "Paladin",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Redemption (UA)",
-							"source": "UAATrioOfSubclasses"
 						}
 					}
 				]
@@ -21304,7 +19298,7 @@
 			]
 		},
 		{
-			"name": "Ray of Frost",
+			"name": "Buz Işını",
 			"level": 0,
 			"school": "V",
 			"time": [
@@ -21336,15 +19330,15 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
 			},
 			"source": "PHB",
 			"entries": [
-				"A frigid beam of blue-white light streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes {@dice 1d8} cold damage, and its speed is reduced by 10 feet until the start of your next turn.",
-				"The spell's damage increases by {@dice 1d8} when you reach 5th level ({@dice 2d8}), 11th level ({@dice 3d8}), and 17th level ({@dice 4d8})."
+				"Menzilindeki bir varlığa, çok soğuk mavi-beyaz bir ışın gönderirsin. Hedefe karşı menzilli büyü saldırısı yap. Vurursa, {@dice 1d8} soğuk hasarı alır, ve bir sonraki sıranın başına kadar hızı 10 fit azalır.",
+				"Bu büyünün hasarı belirli seviyelerde {@dice 1d8} artarak 5. seviyede ({@dice 2d8}), 11. seviyede ({@dice 3d8}) ve 17. seviyede ({@dice 4d8}) olur."
 			],
 			"page": 271,
 			"damageInflict": [
@@ -21384,14 +19378,14 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -21465,11 +19459,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -21716,7 +19710,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -21728,7 +19722,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -21740,7 +19734,7 @@
 			"page": 271
 		},
 		{
-			"name": "Resistance",
+			"name": "Direnç",
 			"level": 0,
 			"school": "A",
 			"time": [
@@ -21758,7 +19752,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a miniature cloak"
+				"m": "minyatür bir pelerin"
 			},
 			"duration": [
 				{
@@ -21773,7 +19767,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -21784,7 +19778,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You touch one willing creature. Once before the spell ends, the target can roll a {@dice d4} and add the number rolled to one saving throw of its choice. It can roll the die before or after the saving throw. The spell then ends."
+				"İstekli bir varlığa dokunursun. Büyü bitmeden önce bir kereliğine, hedef {@dice d4} atıp sonucunu seçtiği bir kurtulma zarına ekleyebilir. Bu d4'lük zarı kurtulma zarından önce yada sonra atabilir. Sonrasında büyü sona erer."
 			],
 			"page": 272
 		},
@@ -21821,11 +19815,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					}
 				]
@@ -21883,7 +19877,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -21932,7 +19926,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -21947,32 +19941,12 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
 							"name": "Life",
 							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Grave (UA)",
-							"source": "UAClericDivineDomains"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Celestial (UA)",
-							"source": "UARevisedClassOptions"
 						}
 					},
 					{
@@ -21987,7 +19961,7 @@
 					},
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -22036,7 +20010,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					},
 					{
@@ -22047,38 +20021,8 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Ranger",
+							"name": "Kolcu",
 							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Deep Stalker (UA)",
-							"source": "UALightDarkUnderdark"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Gloom Stalker",
-							"source": "XGE"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "UATheRangerRevised"
-						},
-						"subclass": {
-							"name": "Deep Stalker (UA)",
-							"source": "UATheRangerRevised"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "UATheRangerRevised"
 						},
 						"subclass": {
 							"name": "Gloom Stalker",
@@ -22097,7 +20041,7 @@
 			"page": 272
 		},
 		{
-			"name": "Sacred Flame",
+			"name": "Kutsal Alev",
 			"level": 0,
 			"school": "V",
 			"time": [
@@ -22125,15 +20069,15 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					}
 				]
 			},
 			"source": "PHB",
 			"entries": [
-				"Flame-like radiance descends on a creature that you can see within range. The target must succeed on a Dexterity saving throw or take {@dice 1d8} radiant damage. The target gains no benefit from cover for this saving throw.",
-				"The spell's damage increases by {@dice 1d8} when you reach 5th level ({@dice 2d8}), 11th level ({@dice 3d8}), and 17th level ({@dice 4d8})."
+				"Menzilinde görebildiğin bir varlığın üzerine alev benzeri bir parlaklık iner. Hedef Çeviklik kurtulma zarında başarılı olur yada {@dice 1d8} radyant hasar alır. Hedef bu kurtulma zarına siperden dolayı herhangi bir bonus almaz.",
+				"Bu büyünün hasarı belirli seviyelerde {@dice 1d8} artarak 5. seviyede ({@dice 2d8}), 11. seviyede ({@dice 3d8}) ve 17. seviyede ({@dice 4d8}) olur."
 			],
 			"page": 272,
 			"damageInflict": [
@@ -22177,7 +20121,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -22192,7 +20136,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Devotion",
+							"name": "Bağlılık",
 							"source": "PHB"
 						}
 					},
@@ -22204,16 +20148,6 @@
 						"subclass": {
 							"name": "Redemption",
 							"source": "XGE"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Raven Queen (UA)",
-							"source": "UAWarlockAndWizard"
 						}
 					}
 				]
@@ -22261,14 +20195,14 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -22344,11 +20278,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -22360,14 +20294,14 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -22377,17 +20311,7 @@
 					},
 					{
 						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Knowledge (PSA)",
-							"source": "PSA"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -22532,37 +20456,7 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Forge (UA)",
-							"source": "UAClericDivineDomains"
-						}
-					},
-					{
-						"class": {
-							"name": "Sorcerer",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Stone",
-							"source": "UASorcerer"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Zeal (PSA)",
-							"source": "PSA"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -22626,7 +20520,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -22634,7 +20528,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -22678,7 +20572,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -22686,7 +20580,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
@@ -22703,38 +20597,8 @@
 					},
 					{
 						"class": {
-							"name": "Ranger",
+							"name": "Kolcu",
 							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Deep Stalker (UA)",
-							"source": "UALightDarkUnderdark"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Gloom Stalker",
-							"source": "XGE"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "UATheRangerRevised"
-						},
-						"subclass": {
-							"name": "Deep Stalker (UA)",
-							"source": "UATheRangerRevised"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "UATheRangerRevised"
 						},
 						"subclass": {
 							"name": "Gloom Stalker",
@@ -22791,15 +20655,15 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
@@ -22812,16 +20676,6 @@
 						"subclass": {
 							"name": "Great Old One",
 							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Seeker (UA)",
-							"source": "UATheFaithful"
 						}
 					}
 				]
@@ -22869,7 +20723,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -22923,7 +20777,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -22969,7 +20823,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -22981,29 +20835,19 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
 							"name": "Tempest",
 							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Zeal (PSA)",
-							"source": "PSA"
 						}
 					}
 				]
@@ -23067,31 +20911,11 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Forge (UA)",
-							"source": "UAClericDivineDomains"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Hexblade (UA)",
-							"source": "UAWarlockAndWizard"
-						}
-					},
 					{
 						"class": {
 							"name": "Warlock",
@@ -23100,16 +20924,6 @@
 						"subclass": {
 							"name": "Hexblade",
 							"source": "XGE"
-						}
-					},
-					{
-						"class": {
-							"name": "Paladin",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Redemption (UA)",
-							"source": "UAATrioOfSubclasses"
 						}
 					}
 				]
@@ -23155,7 +20969,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -23170,22 +20984,12 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
 							"name": "War",
 							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Strength (PSA)",
-							"source": "PSA"
 						}
 					}
 				]
@@ -23215,7 +21019,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "mistletoe, a shamrock leaf, and a club or quarterstaff"
+				"m": "ökseotu, bir yonca yaprağı, ve bir sopa yada asa"
 			},
 			"duration": [
 				{
@@ -23236,12 +21040,12 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"The wood of a club or quarterstaff you are holding is imbued with nature's power. For the duration, you can use your spellcasting ability instead of Strength for the attack and damage rolls of melee attacks using that weapon, and the weapon's damage die becomes a {@dice d8}. The weapon also becomes magical, if it isn't already. The spell ends if you cast it again or if you let go of the weapon."
+				"Tuttuğun sopa yada asanın odunu doğanın gücü ile dolar. Süre boyunca, bu silah ile yapacağın yakın dövüş saldırılarında ve bunların hasar zarlarında Kuvvet bonusun yerine, büyü yapma yetenek bonusunu kullanabilirsin, ve silahın hasar zarı {@dice d8} olur. Silah zaten büyülü değilse büyülü sayılır. Eğer büyüyü yeniden kullanırsan yada silahı bırakırsan büyü sona erer."
 			],
 			"page": 275
 		},
 		{
-			"name": "Shocking Grasp",
+			"name": "Şok Edici Kavrama",
 			"level": 0,
 			"school": "V",
 			"time": [
@@ -23272,15 +21076,15 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
 			},
 			"source": "PHB",
 			"entries": [
-				"Lightning springs from your hand to deliver a shock to a creature you try to touch. Make a melee spell attack against the target. You have advantage on the attack roll if the target is wearing armor made of metal. On a hit, the target takes {@dice 1d8} lightning damage, and it can't take reactions until the start of its next turn.",
-				"The spell's damage increases by {@dice 1d8} when you reach 5th level ({@dice 2d8}), 11th level ({@dice 3d8}), and 17th level ({@dice 4d8})."
+				"Dokunmaya çalıştığın varlığı çarpmak için elinden şimşekler çıkar. Hedefe karşı yakın dövüş büyü saldırısı yap. Eğer hedef metalden yapılmış bir zırh giyiyorsa bu saldırı zarında avantajın olur. Vurursa, hedef {@dice 1d8} yıldırım hasarı alır, ve bir sonraki sırasının başına kadar reaksiyon kullanamaz.",
+				"Bu büyünün hasarı belirli seviyelerde {@dice 1d8} artarak 5. seviyede ({@dice 2d8}), 11. seviyede ({@dice 3d8}) ve 17. seviyede ({@dice 4d8}) olur."
 			],
 			"page": 275,
 			"damageInflict": [
@@ -23321,15 +21125,15 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
-						"name": "Ranger",
+						"name": "Kolcu",
 						"source": "PHB"
 					}
 				],
@@ -23353,16 +21157,6 @@
 						"subclass": {
 							"name": "Undying",
 							"source": "SCAG"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Raven Queen (UA)",
-							"source": "UAWarlockAndWizard"
 						}
 					}
 				]
@@ -23417,7 +21211,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -23425,7 +21219,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -23477,7 +21271,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -23525,7 +21319,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -23533,7 +21327,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
@@ -23546,16 +21340,6 @@
 						"subclass": {
 							"name": "Archfey",
 							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Paladin",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Redemption (UA)",
-							"source": "UAATrioOfSubclasses"
 						}
 					},
 					{
@@ -23630,14 +21414,14 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -23709,7 +21493,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
@@ -23723,26 +21507,6 @@
 							"name": "Land",
 							"source": "PHB",
 							"subSubclass": "Arctic"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Protection (UA)",
-							"source": "UAClericDivineDomains"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Order (UA)",
-							"source": "UAOrderDomain"
 						}
 					}
 				]
@@ -23761,7 +21525,7 @@
 			]
 		},
 		{
-			"name": "Spare the Dying",
+			"name": "Öleni Esirge",
 			"level": 0,
 			"school": "N",
 			"time": [
@@ -23788,14 +21552,14 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					}
 				]
 			},
 			"source": "PHB",
 			"entries": [
-				"You touch a living creature that has 0 hit points. The creature becomes stable. This spell has no effect on undead or constructs."
+				"Hayatta ama 0 HP'si olan bir varlığa dokunursun. Varlık stabil hale gelir. Bu büyünün yaşayan ölüler yada yapılar üzerinde herhangi bir etkisi yoktur."
 			],
 			"page": 277
 		},
@@ -23831,7 +21595,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -23839,14 +21603,14 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Ranger",
+						"name": "Kolcu",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -23860,7 +21624,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Ancients",
+							"name": "Kadimler",
 							"source": "PHB"
 						}
 					}
@@ -23909,33 +21673,23 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
 							"name": "Knowledge",
 							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Knowledge (PSA)",
-							"source": "PSA"
 						}
 					},
 					{
@@ -23946,16 +21700,6 @@
 						"subclass": {
 							"name": "Undying",
 							"source": "SCAG"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Raven Queen (UA)",
-							"source": "UAWarlockAndWizard"
 						}
 					}
 				]
@@ -24000,7 +21744,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -24008,7 +21752,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Ranger",
+						"name": "Kolcu",
 						"source": "PHB"
 					}
 				]
@@ -24065,7 +21809,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					},
 					{
@@ -24154,14 +21898,14 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Ranger",
+						"name": "Kolcu",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -24241,14 +21985,14 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -24324,14 +22068,14 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -24341,42 +22085,12 @@
 					},
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
 							"name": "War",
 							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Raven Queen (UA)",
-							"source": "UAWarlockAndWizard"
-						}
-					},
-					{
-						"class": {
-							"name": "Paladin",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Conquest (UA)",
-							"source": "UAPaladin"
-						}
-					},
-					{
-						"class": {
-							"name": "Paladin",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Conquest v2 (UA)",
-							"source": "UARevisedClassOptions"
 						}
 					},
 					{
@@ -24454,28 +22168,8 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Hexblade (UA)",
-							"source": "UAWarlockAndWizard"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
 							"name": "Hexblade",
 							"source": "XGE"
-						}
-					},
-					{
-						"class": {
-							"name": "Sorcerer",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Stone",
-							"source": "UASorcerer"
 						}
 					}
 				]
@@ -24527,7 +22221,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -24535,7 +22229,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
@@ -24614,7 +22308,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -24622,7 +22316,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					},
 					{
@@ -24703,7 +22397,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Ranger",
+						"name": "Kolcu",
 						"source": "PHB"
 					},
 					{
@@ -24711,18 +22405,14 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
-					},
-					{
-						"name": "Artificer",
-						"source": "UAArtificer"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -24746,18 +22436,8 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Ancients",
+							"name": "Kadimler",
 							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Paladin",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Conquest v2 (UA)",
-							"source": "UARevisedClassOptions"
 						}
 					},
 					{
@@ -24776,28 +22456,8 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Redemption (UA)",
-							"source": "UAATrioOfSubclasses"
-						}
-					},
-					{
-						"class": {
-							"name": "Paladin",
-							"source": "PHB"
-						},
-						"subclass": {
 							"name": "Redemption",
 							"source": "XGE"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Strength (PSA)",
-							"source": "PSA"
 						}
 					}
 				]
@@ -24931,7 +22591,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -24943,29 +22603,19 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
 							"name": "Knowledge",
 							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Knowledge (PSA)",
-							"source": "PSA"
 						}
 					}
 				]
@@ -25025,7 +22675,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -25082,7 +22732,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -25135,7 +22785,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Ranger",
+						"name": "Kolcu",
 						"source": "PHB"
 					}
 				]
@@ -25184,15 +22834,15 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -25310,11 +22960,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
@@ -25379,7 +23029,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
@@ -25452,7 +23102,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -25492,7 +23142,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -25500,7 +23150,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -25654,7 +23304,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -25662,14 +23312,14 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -25679,38 +23329,8 @@
 					},
 					{
 						"class": {
-							"name": "Ranger",
+							"name": "Kolcu",
 							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Horizon Walker (UA)",
-							"source": "UARangerAndRogue"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Horizon Walker",
-							"source": "XGE"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "UATheRangerRevised"
-						},
-						"subclass": {
-							"name": "Horizon Walker (UA)",
-							"source": "UARangerAndRogue"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "UATheRangerRevised"
 						},
 						"subclass": {
 							"name": "Horizon Walker",
@@ -25761,7 +23381,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -25778,7 +23398,7 @@
 			"page": 282
 		},
 		{
-			"name": "Thaumaturgy",
+			"name": "Mucize",
 			"level": 0,
 			"school": "T",
 			"time": [
@@ -25810,31 +23430,31 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					}
 				]
 			},
 			"source": "PHB",
 			"entries": [
-				"You manifest a minor wonder, a sign of supernatural power, within range. You create one of the following magical effects within range.",
+				"Menzilinde doğaüstü güçlerin bir işareti olarak ufak bir mucize yaratırsın. Menzilinde şu büyülü etkilerden birini yaratırsın.",
 				{
 					"type": "list",
 					"items": [
-						"Your voice booms up to three times as loud as normal for 1 dakika.",
-						"You cause flames to flicker, brighten, dim, or change color for 1 dakika.",
-						"You cause harmless tremors in the ground for 1 dakika.",
-						"You create an instantaneous sound that originates from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous whispers.",
-						"You instantaneously cause an unlocked door or window to fly open or slam shut.",
-						"You alter the appearance of your eyes for 1 dakika."
+						"1 dakikalığına sesin normalin 3 katı daha gür olur.",
+						"1 dakikalığına alevleri titretir, parlatır, sönükleştirir yada rengini değiştirirsin.",
+						"1 dakikalığına yerde zararsız titreşimler yaratırsın.",
+						"Menzilinde seçeceğin bir yer kaynağı olmak üzere, gökgürültüsü, kuzgun sesi, yada uğursuz fısıltılar gibi anlık bir ses yaratırsın.",
+						"Anında kilitsiz bir kapı yada pencerenin açılması yada kapanmasını sağlarsın.",
+						"1 dakikalığına gözlerinin görünüşünü değiştirirsin."
 					]
 				},
-				"If you cast this spell multiple times, you can have up to three of its 1-dakika effects active at a time, and you can dismiss such an effect as an eylem."
+				"Eğer bu büyüyü birden çok kez kullanırsan, 1 dakikalık etkilerinden en fazla 3 tanesi aynı anda aktif olabilir, ve bu tip bir etkiyi eylem olarak savabilirsin."
 			],
 			"page": 282
 		},
 		{
-			"name": "Thorn Whip",
+			"name": "Diken Kırbacı",
 			"level": 0,
 			"school": "T",
 			"time": [
@@ -25853,7 +23473,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "the stem of a plant with thorns"
+				"m": "dikenli bir bitkinin sapı"
 			},
 			"duration": [
 				{
@@ -25870,8 +23490,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You create a long, vine-like whip covered in thorns that lashes out at your command toward a creature in range. Make a melee spell attack against the target. If the attack hits, the creature takes {@dice 1d6} piercing damage, and if the creature is Large or smaller, you pull the creature up to 10 feet closer to you.",
-				"This spell's damage increases by {@dice 1d6} when you reach 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level ({@dice 4d6})."
+				"Senin emrinde menzilindeki bir varlığa doğru atılan, uzunca ve dikenlerle kaplı sarmaşığımsı bir kırbaç yaratırsın. Hedefe karşı yakın dövüş büyü saldırısı yap. Vurursa, varlık {@dice 1d6} delme hasarı alır, ve eğer varlık Büyük yada daha küçük boyuttaysa onu 10 fite kadar kendine çekersin.",
+				"Bu büyünün hasarı belirli seviyelerde {@dice 1d6} artarak 5. seviyede ({@dice 2d6}), 11. seviyede ({@dice 3d6}) ve 17. seviyede ({@dice 4d6}) olur."
 			],
 			"page": 282,
 			"damageInflict": [
@@ -25924,16 +23544,6 @@
 							"name": "Stone",
 							"source": "UASorcerer"
 						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Zeal (PSA)",
-							"source": "PSA"
-						}
 					}
 				]
 			},
@@ -25978,7 +23588,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -25990,29 +23600,19 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
 							"name": "Tempest",
 							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Kraken (UA)",
-							"source": "Stream"
 						}
 					}
 				]
@@ -26070,7 +23670,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -26114,11 +23714,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -26130,7 +23730,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -26222,14 +23822,14 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Ranger",
+						"name": "Kolcu",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -26253,7 +23853,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Ancients",
+							"name": "Kadimler",
 							"source": "PHB"
 						}
 					}
@@ -26301,7 +23901,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -26309,7 +23909,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -26383,7 +23983,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -26438,11 +24038,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -26454,7 +24054,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -26466,7 +24066,7 @@
 			"page": 284
 		},
 		{
-			"name": "True Strike",
+			"name": "Doğru Darbe",
 			"level": 0,
 			"school": "D",
 			"time": [
@@ -26499,7 +24099,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -26511,14 +24111,14 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
 			},
 			"source": "PHB",
 			"entries": [
-				"You extend your hand and point a finger at a target in range. Your magic grants you a brief insight into the target's defenses. On your next turn, you gain advantage on your first attack roll against the target, provided that this spell hasn't ended."
+				"Menzilindeki bir hedefe doğru elini uzatıp parmağınla işaret edersin. Büyün, hedefin savunmasına dair sana kısa bir sezgi verir. Bir sonraki sıranda, o hedefe karşı yapacağın ilk saldırında avantajın olur, tabii ki bu büyü hala bitmediyse."
 			],
 			"page": 284
 		},
@@ -26613,7 +24213,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
@@ -26621,7 +24221,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -26674,14 +24274,14 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -26691,27 +24291,7 @@
 					},
 					{
 						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Grave (UA)",
-							"source": "UAClericDivineDomains"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Ambition (PSA)",
-							"source": "PSA"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -26740,7 +24320,7 @@
 			]
 		},
 		{
-			"name": "Vicious Mockery",
+			"name": "Acımasız Alay",
 			"level": 0,
 			"school": "E",
 			"time": [
@@ -26767,15 +24347,15 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					}
 				]
 			},
 			"source": "PHB",
 			"entries": [
-				"You unleash a string of insults laced with subtle enchantments at a creature you can see within range. If the target can hear you (though it need not understand you), it must succeed on a Wisdom saving throw or take {@dice 1d4} psychic damage and have disadvantage on the next attack roll it makes before the end of its next turn.",
-				"This spell's damage increases by {@dice 1d4} when you reach 5th level ({@dice 2d4}), 11th level ({@dice 3d4}) and 17th level ({@dice 4d4})."
+				"Menzilinde görebildiğin bir varlığa, hafifçe büyüyle güçlendirilmiş bir dizi hakaret edersin. Eğer hedef seni duyabiliyorsa (anlaması gerekmez), Akıl kurtulma zarında başarılı olur yada {@dice 1d4} psişik hasar alır ve bir sonraki sırasının sonuna kadar yapacağı ilk saldırı zarında dezavantajı olur.",
+				"Bu büyünün hasarı belirli seviyelerde {@dice 1d4} artarak 5. seviyede ({@dice 2d4}), 11. seviyede ({@dice 3d4}) ve 17. seviyede ({@dice 4d4}) olur."
 			],
 			"page": 285,
 			"damageInflict": [
@@ -26828,14 +24408,14 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -26855,26 +24435,6 @@
 					},
 					{
 						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Forge (UA)",
-							"source": "UAClericDivineDomains"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Celestial (UA)",
-							"source": "UARevisedClassOptions"
-						}
-					},
-					{
-						"class": {
 							"name": "Warlock",
 							"source": "PHB"
 						},
@@ -26885,7 +24445,7 @@
 					},
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -26953,31 +24513,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Protection (UA)",
-							"source": "UAClericDivineDomains"
-						}
-					},
-					{
-						"class": {
-							"name": "Paladin",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Redemption (UA)",
-							"source": "UAATrioOfSubclasses"
-						}
-					},
 					{
 						"class": {
 							"name": "Paladin",
@@ -27035,7 +24575,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -27108,7 +24648,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
@@ -27251,7 +24791,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					}
 				],
@@ -27264,16 +24804,6 @@
 						"subclass": {
 							"name": "Crown",
 							"source": "SCAG"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Solidarity (PSA)",
-							"source": "PSA"
 						}
 					}
 				]
@@ -27323,7 +24853,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Ranger",
+						"name": "Kolcu",
 						"source": "PHB"
 					},
 					{
@@ -27331,7 +24861,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					},
 					{
@@ -27349,16 +24879,6 @@
 							"name": "Land",
 							"source": "PHB",
 							"subSubclass": "Coast"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Kraken (UA)",
-							"source": "Stream"
 						}
 					}
 				]
@@ -27406,7 +24926,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -27414,7 +24934,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Ranger",
+						"name": "Kolcu",
 						"source": "PHB"
 					},
 					{
@@ -27500,7 +25020,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				],
@@ -27571,7 +25091,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -27673,14 +25193,14 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Ranger",
+						"name": "Kolcu",
 						"source": "PHB"
 					}
 				],
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Cleric",
+							"name": "Rahip",
 							"source": "PHB"
 						},
 						"subclass": {
@@ -27735,7 +25255,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -27820,7 +25340,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -27871,7 +25391,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					}
 				]
@@ -27926,28 +25446,8 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Hexblade (UA)",
-							"source": "UAWarlockAndWizard"
-						}
-					},
-					{
-						"class": {
-							"name": "Warlock",
-							"source": "PHB"
-						},
-						"subclass": {
 							"name": "Hexblade",
 							"source": "XGE"
-						}
-					},
-					{
-						"class": {
-							"name": "Sorcerer",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Stone",
-							"source": "UASorcerer"
 						}
 					}
 				]
@@ -28000,11 +25500,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ozan",
 						"source": "PHB"
 					},
 					{
-						"name": "Cleric",
+						"name": "Rahip",
 						"source": "PHB"
 					},
 					{
@@ -28019,7 +25519,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Devotion",
+							"name": "Bağlılık",
 							"source": "PHB"
 						}
 					},
@@ -28035,38 +25535,8 @@
 					},
 					{
 						"class": {
-							"name": "Ranger",
+							"name": "Kolcu",
 							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Monster Slayer (UA)",
-							"source": "UAATrioOfSubclasses"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Monster Slayer",
-							"source": "XGE"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "UATheRangerRevised"
-						},
-						"subclass": {
-							"name": "Monster Slayer (UA)",
-							"source": "UAATrioOfSubclasses"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "UATheRangerRevised"
 						},
 						"subclass": {
 							"name": "Monster Slayer",
