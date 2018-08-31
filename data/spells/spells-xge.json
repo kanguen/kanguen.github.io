@@ -53,15 +53,15 @@
 			]
 		},
 		{
-			"name": "Absorb Elements",
+			"name": "Elementleri Em",
 			"source": "XGE",
 			"level": 1,
 			"school": "A",
 			"time": [
 				{
 					"number": 1,
-					"unit": "reaction",
-					"condition": "which you take when you take acid, cold, fire, lightning, or thunder damage"
+					"unit": "reaksiyon",
+					"condition": "asit, soğuk, ateş, yıldırım yada ses hasarı aldığında"
 				}
 			],
 			"range": {
@@ -103,14 +103,14 @@
 				]
 			},
 			"entries": [
-				"The spell captures some of the incoming energy, lessening its effect on you and storing it for your next melee attack. You have resistance to the triggering damage type until the start of your next turn. Also, the first time you hit with a melee attack on your next turn, the target takes an extra {@dice 1d6} damage of the triggering type, and the spell ends."
+				"Büyü, üzerine gelen enerjinin bir kısmını yakalar, sana tesirini azaltır ve bir sonraki yakın dövüş saldırın için depolar. Bir sonraki sıranın başına kadar tetiklenen hasar tipine direncin olur. Ayrıca, bir sonraki sıranda vurduğun ilk yakın dövüş saldırısında, hedef tetiklenen hasar tipinden {@dice 1d6} fazladan hasar alır, büyü sona erer."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 2nd level or higher, the extra damage increases by {@dice 1d6} for each slot level above 1st."
+						"Bu büyüyü 2. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 1. seviyenin üzerindeki her seviye için fazladan hasar {@dice 1d6} artar."
 					]
 				}
 			],
@@ -184,7 +184,7 @@
 			]
 		},
 		{
-			"name": "Beast Bond",
+			"name": "Hayvan Bağı",
 			"source": "XGE",
 			"level": 1,
 			"school": "D",
@@ -203,7 +203,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a bit of fur wrapped in a cloth"
+				"m": "kumaşa sarılı biraz tüy"
 			},
 			"duration": [
 				{
@@ -228,7 +228,7 @@
 				]
 			},
 			"entries": [
-				"You establish a telepathic link with one beast you touch that is friendly to you or {@condition charmed} by you. The spell fails if the beast's Intelligence is 4 or higher. Until the spell ends, the link is active while you and the beast are within line of sight of each other. Through the link, the beast can understand your telepathic messages to it, and it can telepathically communicate simple emotions and concepts back to you. While the link is active, the beast gains advantage on attack rolls against any creature within 5 feet of you that you can see."
+				"Sana dost olan yada tarafından cezbedilmiş bir hayvana dokunup telepatik bir bağ oluşturursun. Eğer hayvanın Zekası 4 veya üzerinde ise büyü başarısız olur. Büyü süresince sen ve hayvan birbirinizi görebildiğiniz sürece bu bağ aktif kalır. Bu bağ üzerinden hayvan senin gönderdiğin telepatik mesajları anlayabilir, o da basit duygular ve kavramlar gönderebilir. Bağ aktif olduğu sürece, senin 5 feet yakınında görebildiğin varlıklara karşı hayvanın saldırıları avantajlı olur."
 			],
 			"page": 150
 		},
@@ -294,7 +294,7 @@
 			]
 		},
 		{
-			"name": "Catapult",
+			"name": "Mancınık",
 			"source": "XGE",
 			"level": 1,
 			"school": "T",
@@ -332,14 +332,14 @@
 				]
 			},
 			"entries": [
-				"Choose one object weighing 1 to 5 pounds within range that isn't being worn or carried. The object flies in a straight line up to 90 feet in a direction you choose before falling to the ground, stopping early if it impacts against a solid surface. If the object would strike a creature, that creature must make a Dexterity saving throw. On a failed save, the object strikes the target and stops moving. When the object strikes something, the object and what it strikes each take {@dice 3d8} bludgeoning damage."
+				"Menzilinde 1 ile 5 pound arası ağırlıkta, taşınmayan yada giyilmeyen bir nesne seç. Bu nesne, seçeceğin düz bir hizada 90 fite kadar uçup sonra düşer, eğer katı bir yüzeye çarparsa erken durabilir. Eğer nesne bir varlığa çarpacak olursa, o varlık Çeviklik kurtulma zarı atar. Başarısız olursa nesne hedefe çarpar ve durur. Nesne bir şeye çarptığında, nesne ve hedefi {@dice 3d8} ezme hasarı alırlar."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 2nd level or higher, the maximum weight of objects that you can target with this spell increases by 5 pounds, and the damage increases by {@dice 1d8}, for each slot level above 1st."
+						"Bu büyüyü 2. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 1. seviyenin üzerindeki her seviye için hedef alabileceğin nesnenin maksimum ağırlığı 5 pound ve hasar {@dice 1d8} artar."
 					]
 				}
 			],
@@ -413,7 +413,7 @@
 			"page": 151
 		},
 		{
-			"name": "Cause Fear",
+			"name": "Korku Sal",
 			"source": "XGE",
 			"level": 1,
 			"school": "N",
@@ -456,14 +456,14 @@
 				]
 			},
 			"entries": [
-				"You awaken the sense of mortality in one creature you can see within range. A construct or an undead is immune to this effect. The target must succeed on a Wisdom saving throw or become {@condition frightened} of you until the spell ends. The {@condition frightened} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success"
+				"Menzilinde görebildiğin bir varlığın içinde fanilik hissini uyandır. Bir yapı yada yaşayan ölü bu etkiye karşı bağışıklık sahibidir. Hedef Akıl kurtulma zarında başarılı olur yada büyü süresince senden korkar. Korkan hedef her sırasının sonunda kurtulma zarını tekrarlayabilir, ve başarılı olursa etki üzerinde sonlanır."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them."
+						"Bu büyüyü 2. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 1. üzerindeki her seviye için fazladan bir varlık hedef alabilirsin. Onları hedef aldığında varlıklar birbirine en fazla 30 feet uzaklıkta olmalılar."
 					]
 				}
 			],
@@ -473,7 +473,7 @@
 			]
 		},
 		{
-			"name": "Ceremony",
+			"name": "Seremoni",
 			"source": "XGE",
 			"level": 1,
 			"school": "A",
@@ -493,7 +493,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "25 gp worth of powdered silver, which the spell consumes",
+					"text": "25 gp değerinde toz gümüş, büyü bunu tüketir",
 					"cost": 25,
 					"consume": true
 				}
@@ -519,54 +519,54 @@
 				"ritual": true
 			},
 			"entries": [
-				"You perform a special religious ceremony that is infused with magic. When you cast the spell, choose one of the following rites, the target of which must be within 10 feet of you throughout the casting.",
+				"Büyü ile dolu, özel bir dini seremoni gerçekleştirirsin. Bu büyüyü kullandığında şu ayinlerden birini seç, hedefin tüm kullanım süresince 10 feet yakınında olmalı.",
 				{
 					"type": "entries",
-					"name": "Atonement",
+					"name": "Kefaret",
 					"entries": [
-						"You touch one willing creature whose alignment has changed, and you make a DC 20 Wisdom (Insight) check. On a successful check, you restore the target to its original alignment."
+						"Yönelimi değişmiş istekli bir varlığa dokunursun, ve DC 20 Akıl (Sezgi) zarı atarsın. Başarılı bir zar sonucu hedef asıl yönelimine döner."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Bless Water",
+					"name": "Suyu Kutsa",
 					"entries": [
-						"You touch one vial of water and cause it to become holy water."
+						"Küçük bir şişe suya dokunup onu kutsal suya dönüştürürsün."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Coming of Age",
+					"name": "Erginliğin Gelişi",
 					"entries": [
-						"You touch one humanoid who is a young adult. For the next 24 hours, whenever the target makes an ability check, it can roll a {@dice d4} and add the number rolled to the ability check. A creature can benefit from this rite only once."
+						"Genç yetişkin olan bir insansıya dokunursun. Önündeki 24 saat boyunca hedef ne zaman yetenek zarı atsa, {@dice d4} atıp bunu sonuca ekleyebilir. Bir varlık bu ayinden sadece bir kez faydalanabilir."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Dedication",
+					"name": "Bağlılık",
 					"entries": [
-						"You touch one humanoid who wishes to be dedicated to your god's service. For the next 24 hours, whenever the target makes a saving throw, it can roll a {@dice d4} and add the number rolled to the save. A creature can benefit from this rite only once."
+						"Tanrının hizmetine bağlanmak isteyen bir insansıya dokunursun. Önündeki 24 saat boyunca hedef ne zaman kurtulma zarı atsa, {@dice d4} atıp bunu sonuca ekleyebilir. Bir varlık bu ayinden sadece bir kez faydalanabilir."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Funeral Rite",
+					"name": "Cenaze Töreni",
 					"entries": [
-						"You touch one corpse, and for the next 7 days, the target can't become undead by any means short of a wish spell."
+						"Bir cesede dokunursun, ve önündeki 7 gün boyunca hedef {@spell Wish} büyüsü dışında herhangi bir yolla yaşayan ölüye döndürülemez."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Wedding",
+					"name": "Evlilik",
 					"entries": [
-						"You touch adult humanoids willing to be bonded together in marriage. For the next 7 days, each target gains a +2 bonus to AC while they are within 30 feet of each other. A creature can benefit from this rite again only if widowed."
+						"Evlilik ile birbirine bağlanmak isteyen yetişkin insansılara dokunursun. Sonraki 7 gün boyunca, birbirlerinin 30 fit yakınında oldukları sürece her hedef AC'sine +2 bonus kazanır. Bir varlık dul kalmadığı sürece bu ayinden bir daha faydalanamaz."
 					]
 				}
 			],
 			"page": 151
 		},
 		{
-			"name": "Chaos Bolt",
+			"name": "Kaos Oku",
 			"source": "XGE",
 			"level": 1,
 			"school": "V",
@@ -601,10 +601,10 @@
 				]
 			},
 			"entries": [
-				"You hurl an undulating, warbling mass of chaotic energy at one creature in range. Make a ranged spell attack against the target. On a hit, the target takes {@dice 2d8} damage + {@dice 1d6} damage. Choose one of the {@dice d8}s. The number rolled on that die determines the attack's damage type, as shown below.",
+				"Menzilindeki bir varlığa doğru dalgalanan ve öten bir kaos enerji kütlesi fırlatırsın. Hedefe karşı menzilli büyü saldırısı yap. Vurursa, hedef {@dice 2d8} hasar + {@dice 1d6} hasar alır. {@dice d8}'lerden birini seç. O zarda gelen sayı, saldırının hasar tipini aşağıda gösterildiği üzere belirler.",
 				{
 					"type": "table",
-					"caption": "Chaos Bolt",
+					"caption": "Kaos Oku",
 					"colLabels": [
 						"{@dice d8}",
 						"Damage Type"
@@ -621,7 +621,7 @@
 									"exact": 1
 								}
 							},
-							"Acid"
+							"Asit"
 						],
 						[
 							{
@@ -630,7 +630,7 @@
 									"exact": 2
 								}
 							},
-							"Cold"
+							"Soğuk"
 						],
 						[
 							{
@@ -639,7 +639,7 @@
 									"exact": 3
 								}
 							},
-							"Fire"
+							"Ateş"
 						],
 						[
 							{
@@ -648,7 +648,7 @@
 									"exact": 4
 								}
 							},
-							"Force"
+							"Güç"
 						],
 						[
 							{
@@ -657,7 +657,7 @@
 									"exact": 5
 								}
 							},
-							"Lightning"
+							"Yıldırım"
 						],
 						[
 							{
@@ -666,7 +666,7 @@
 									"exact": 6
 								}
 							},
-							"Poison"
+							"Zehir"
 						],
 						[
 							{
@@ -675,7 +675,7 @@
 									"exact": 7
 								}
 							},
-							"Psychic"
+							"Psişik"
 						],
 						[
 							{
@@ -684,19 +684,19 @@
 									"exact": 8
 								}
 							},
-							"Thunder"
+							"Ses"
 						]
 					]
 				},
-				"If you roll the same number on both {@dice d8}s, the chaotic energy leaps from the target to a different creature of your choice within 30 feet of it. Make a new attack roll against the new target, and make a new damage roll, which could cause the chaotic energy to leap again.",
-				"A creature can be targeted only once by each casting of this spell."
+				"Eğer her iki {@dice d8}'de de aynı sayı gelirse bu kaotik enerji, o hedeften 30 feet yakınında seçeceğin başka bir varlığa sıçrar. Yeni hedefe karşı yeni bir saldırı zarı at, ve yeni bir hasar zarı at. Bu hasar zarı kaotik enerjinin yeniden sıçramasına sebep olabilir.",
+				"Bir varlık bu büyünün tek kullanımı ile sadece bir kez hedef alınabilir."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 2nd level or higher, each target takes {@dice 1d6} extra damage of the type rolled for each slot level above 1st."
+						"Bu büyüyü 2. seviye ve üzeri büyü yuvası harcayarak kullandığında, 1. üzerindeki her seviye için, tüm hedefler belirlenen hasar tipinde fazladan {@dice 1d6} hasar alır."
 					]
 				}
 			],
@@ -1439,7 +1439,7 @@
 			]
 		},
 		{
-			"name": "Earth Tremor",
+			"name": "Toprak Sarsıntısı",
 			"source": "XGE",
 			"level": 1,
 			"school": "V",
@@ -1486,14 +1486,14 @@
 				]
 			},
 			"entries": [
-				"You cause a tremor in the ground within range. Each creature other than you in that area must make a Dexterity saving throw. On a failed save, a creature takes {@dice 1d6} bludgeoning damage and is knocked {@condition prone}. If the ground in that area is loose earth or stone, it becomes difficult terrain until cleared, with each 5-foot diameter portion requiring at least 1 minute to clear by hand."
+				"Menzilindeki bir zeminde sarsıntı yaratırsın. Senin dışında, alandaki tüm varlıklar Çeviklik kurtulma zarı atar. Başarısız olursa, bir varlık {@dice 1d6} ezme hasarı alır ve yere düşer. Eğer zemin yumuşak toprak yada taşsa, temizlenene kadar zorlu araziye dönüşür, her 5 fit çaplık alan elle temizleme için 1 dakika gerektirir."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@dice 1d6} for each slot level above 1st."
+						"Bu büyüyü 2. seviye yada üzeri bir büyü yuvası harcayarak kullandığında, 1. sonrasında her seviye için hasar {@dice 1d6} artar."
 					]
 				}
 			],
@@ -2312,7 +2312,7 @@
 			]
 		},
 		{
-			"name": "Ice Knife",
+			"name": "Buz Bıçağı",
 			"source": "XGE",
 			"level": 1,
 			"school": "C",
@@ -2331,7 +2331,7 @@
 			},
 			"components": {
 				"s": true,
-				"m": "a drop of water or piece of ice"
+				"m": "bir damla su yada bir parça buz"
 			},
 			"duration": [
 				{
@@ -2355,14 +2355,14 @@
 				]
 			},
 			"entries": [
-				"You create a shard of ice and fling it at one creature within range. Make a ranged spell attack against the target. On a hit, the target takes {@dice 1d10} piercing damage. Hit or miss, the shard then explodes. The target and each creature within 5 feet of it must succeed on a Dexterity saving throw or take {@dice 2d6} cold damage."
+				"Keskin bir buz parçası yaratıp menzilindeki bir varlığa fırlatırsın. Hedefe karşı menzilli bir büyü saldırısı yap. Vurursa, hedef {@dice 1d10} delme hasarı alır. Vursun yada vurmasın, buz parçası patlar. Hedef ve 5 fit çevresindeki tüm varlıklar Çeviklik kurtulma zarında başarılı olurlar yada {@dice 2d6} soğuk hasarı alırlar."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 2nd level or higher, the cold damage increases by {@dice 1d6} for each slot level above 1st."
+						"Bu büyüyü 2. seviye yada üzeri bir büyü yuvası harcayarak kullandığında, 1. sonrasında her seviye için soğuk hasarı {@dice 1d6} artar."
 					]
 				}
 			],
@@ -4336,7 +4336,7 @@
 			"page": 165
 		},
 		{
-			"name": "Snare",
+			"name": "Kapan",
 			"source": "XGE",
 			"level": 1,
 			"school": "A",
@@ -4356,7 +4356,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "25 feet of rope, which the spell consumes",
+					"text": "25 fitlik halat, büyü bunu tüketir",
 					"consume": true
 				}
 			},
@@ -4386,11 +4386,11 @@
 				]
 			},
 			"entries": [
-				"As you cast this spell, you use the rope to create a circle with a 5-foot radius on the ground or the floor. When you finish casting, the rope disappears and the circle becomes a magical trap.",
-				"The trap is nearly invisible, requiring a successful Intelligence (Investigation) check against your spell save DC to be discerned.",
-				"The trap triggers when a Small, Medium, or Large creature moves onto the ground or the floor in the spell's radius. That creature must succeed on a Dexterity saving throw or be magically hoisted into the air, leaving it hanging upside down 3 feet above the ground or the floor. The creature is {@condition restrained} there until the spell ends.",
-				"A {@condition restrained} creature can make a Dexterity saving throw at the end of each of its turns, ending the effect on itself on a success. Alternatively, the creature or someone else who can reach it can use an eylem to make an Intelligence (Arcana) check against your spell save DC. On a success, the {@condition restrained} effect ends.",
-				"After the trap is triggered, the spell ends when no creature is {@condition restrained} by it."
+				"Bu büyüyü kullanırken halatı kullanıp zeminde 5 fit çapında bir çember oluşturursun. Kullanımın bitince halat kaybolur ve çember büyülü bir tuzağa dönüşür.",
+				"Tuzak neredeyse görünmezdir, farkedilmesi için senin büyü kurtulma DC'ne karşı başarılı bir Zeka (İnceleme) zarı gerektirir.",
+				"Büyünün çapındaki zemine Küçük, Orta yada Büyük bir varlık girdiğinde tuzak tetiklenir. O varlık Çeviklik kurtulma zarında başarılı olur yada büyülü bir şekilde havaya yükselir, alt üst bir şekilde yerden 3 fit yukarda asılı kalır. Büyü bitene kadar varlık orada kısıtlanmış bir şekilde kalır.",
+				"Kısıtlanmış bir varlık her sırasının sonunda bir Çeviklik kurtulma zarı atıp başarılı olursa kurtulabilir. Alternatif olarak, varlık yada ona erişebilen birisi eylemini kullanıp senin büyü kurtulma DC'ne karşı Zeka (Arcana) zarı atabilir. Başarılı olursa bu kısıtlama etkisi biter.",
+				"Tuzak tetiklendikten sonra, kısıtladığı herhangi bir varlık yoksa büyü sonlanır."
 			],
 			"page": 165,
 			"savingThrow": [
@@ -5937,7 +5937,7 @@
 			]
 		},
 		{
-			"name": "Zephyr Strike",
+			"name": "Meltem Darbesi",
 			"source": "XGE",
 			"level": 1,
 			"school": "T",
@@ -5975,8 +5975,8 @@
 				]
 			},
 			"entries": [
-				"You move like the wind. Until the spell ends, your movement doesn't provoke opportunity attacks.",
-				"Once before the spell ends, you can give yourself advantage on one weapon attack roll on your turn. That attack deals an extra {@dice 1d8} force damage on a hit. Whether you hit or miss, your walking speed increases by 30 feet until the end of that turn."
+				"Rüzgar gibi hareket edersin. Bu büyü bitene kadar hareketlerin fırsat saldırısı tetiklemez.",
+				"Büyü bitmeden önce bir kez, sıranda yapacağın bir silahlı saldırıda kendine avantaj verebilirsin. Bu saldırı vurduğunda fazladan {@dice 1d8} güç hasarı verir. Vur yada vurma, o sıranın sonuna kadar yürüyüş hızın 30 fit artar."
 			],
 			"page": 171,
 			"damageInflict": [
