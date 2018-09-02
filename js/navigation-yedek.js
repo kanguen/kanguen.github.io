@@ -35,6 +35,16 @@ function currentPage () {
 function navigation () {
 	LI('navbar', 'index.html', 'Anasayfa');
 
+	LIDropdown('navbar', 'rules', 'dropdown');
+	A('rules', 'ruleOption', 'dropdown-toggle', 'dropdown', '#', 'button', 'true', 'false', "Kurallar <span class='caret'></span>");
+	UL('rules', 'ul_rules', 'dropdown-menu');
+	LI('ul_rules', 'quickreference.html', 'Kurallar');
+	LI('ul_rules', 'variantrules.html', 'Alternatif Kurallar');
+	LIDivider('ul_rules');
+	LI('ul_rules', 'book.html', "Dungeon Master's Guide", "DMG");
+	LI('ul_rules', 'book.html', "Monster Manual", "MM");
+	LI('ul_rules', 'book.html', "Player's Handbook", "PHB");
+
 	LIDropdown('navbar', 'players', 'dropdown');
 	A('players', 'playerOption', 'dropdown-toggle', 'dropdown', '#', 'button', 'true', 'false', "Oyuncu Seçenekleri <span class='caret'></span>");
 	UL('players', 'ul_players', 'dropdown-menu');
@@ -45,18 +55,30 @@ function navigation () {
 	LI('ul_players', 'races.html', 'Irklar');
 	//LI('ul_players', 'lifegen.html', 'Hayatın Bu');
 	LI('ul_players', 'names.html', 'İsimler');
-	LI('ul_players', 'spells.html', 'Büyüler');
-	LI('ul_players', 'conditions.html', 'Durumlar');
 
-	//LIDropdown('navbar', 'references', 'dropdown');
-	//A('references', 'references', 'dropdown-toggle', 'dropdown', '#', 'button', 'true', 'false', "Referanslar <span class='caret'></span>");
-	//UL('references', 'ul_references', 'dropdown-menu');
-	//LI('ul_references', 'bestiary.html', 'Yaratık Ansiklopedisi');
-	//LI('ul_references', 'deities.html', 'Tanrılar');
-	//LI('ul_references', 'items.html', 'Eşyalar');
+	LIDropdown('navbar', 'dms', 'dropdown');
+	A('dms', 'dmOption', 'dropdown-toggle', 'dropdown', '#', 'button', 'true', 'false', "DM Araçları <span class='caret'></span>");
+	UL('dms', 'ul_dms', 'dropdown-menu');
+	LI('ul_dms', 'adventures.html', 'Maceralar');
+	LI('ul_dms', 'crcalculator.html', 'CR Hesaplayıcı');
+	//LI('ul_dms', 'cultsboons.html', 'Kültler ve Şeytani Lütuflar');
+	LISpecial('ul_dms', 'https://kobold.club', 'Karşılaşma Yaratıcı', '_blank', 'Kobold Fight Club olabilecek en iyisi.');
+	LI('ul_dms', 'encountergen.html', 'Karşılaşma Üretici');
+	LI('ul_dms', 'lootgen.html', 'Ganimet Üretici');
+	LI('ul_dms', 'objects.html', 'Eşyalar');
+	LI('ul_dms', 'trapshazards.html', 'Tuzaklar ve Tehlikeler');
+
+	LIDropdown('navbar', 'references', 'dropdown');
+	A('references', 'references', 'dropdown-toggle', 'dropdown', '#', 'button', 'true', 'false', "Referanslar <span class='caret'></span>");
+	UL('references', 'ul_references', 'dropdown-menu');
+	LI('ul_references', 'bestiary.html', 'Yaratık Ansiklopedisi');
+	LI('ul_references', 'conditions.html', 'Durumlar');
+	LI('ul_references', 'deities.html', 'Tanrılar');
+	LI('ul_references', 'items.html', 'Eşyalar');
 	//LI('ul_references', 'rewards.html', 'Diğer Ödüller');
 	//LI('ul_references', 'psionics.html', 'Psionikler');
-//
+	LI('ul_references', 'spells.html', 'Büyüler');
+
 	LI('navbar', 'statgen.html', 'Statgen');
 
 	/*LIDropdown('navbar', 'utils', 'dropdown');

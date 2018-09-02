@@ -24294,7 +24294,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Menzilinde görebildiğin bir varlığa, hafifçe büyüyle güçlendirilmiş bir dizi hakaret edersin. Eğer hedef seni duyabiliyorsa (anlaması gerekmez), Akıl kurtulma zarında başarılı olur yada {@dice 1d4} psişik hasar alır ve bir sonraki sırasının sonuna kadar yapacağı ilk saldırı zarında dezavantajı olur.",
+				"Menzilinde görebildiğin bir varlığa, büyüyle bezenmiş bir dizi hakaret edersin. Eğer hedef seni duyabiliyorsa (anlaması gerekmez), Akıl kurtulma zarında başarılı olur yada {@dice 1d4} psişik hasar alır ve bir sonraki sırasının sonuna kadar yapacağı ilk saldırı zarında dezavantajı olur.",
 				"Bu büyünün hasarı belirli seviyelerde {@dice 1d4} artarak 5. seviyede ({@dice 2d4}), 11. seviyede ({@dice 3d4}) ve 17. seviyede ({@dice 4d4}) olur."
 			],
 			"page": 285,
