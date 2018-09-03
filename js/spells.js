@@ -29,20 +29,20 @@ const STR_DIV_SOUL = "Divine Soul";
 const STR_FAV_SOUL_V2 = "Favored Soul v2 (UA)";
 const STR_FAV_SOUL_V3 = "Favored Soul v3 (UA)";
 
-const TM_ACTION = "action";
+const TM_ACTION = "eylem";
 const TM_B_ACTION = "bonus";
-const TM_REACTION = "reaction";
-const TM_ROUND = "round";
-const TM_MINS = "minute";
-const TM_HRS = "hour";
+const TM_REACTION = "reaksiyon";
+const TM_ROUND = "sıra";
+const TM_MINS = "dakika";
+const TM_HRS = "saat";
 const TO_HIDE_SINGLETON_TIMES = [TM_ACTION, TM_B_ACTION, TM_REACTION, TM_ROUND];
 const TIME_UNITS_TO_FULL = {};
-TIME_UNITS_TO_FULL[TM_ACTION] = "Action";
-TIME_UNITS_TO_FULL[TM_B_ACTION] = "Bonus Action";
-TIME_UNITS_TO_FULL[TM_REACTION] = "Reaction";
-TIME_UNITS_TO_FULL[TM_ROUND] = "Rounds";
-TIME_UNITS_TO_FULL[TM_MINS] = "Minutes";
-TIME_UNITS_TO_FULL[TM_HRS] = "Hours";
+TIME_UNITS_TO_FULL[TM_ACTION] = "Eylem";
+TIME_UNITS_TO_FULL[TM_B_ACTION] = "Bonus Eylem";
+TIME_UNITS_TO_FULL[TM_REACTION] = "Reaksiyon";
+TIME_UNITS_TO_FULL[TM_ROUND] = "Sıra";
+TIME_UNITS_TO_FULL[TM_MINS] = "Dakika";
+TIME_UNITS_TO_FULL[TM_HRS] = "Saat";
 
 const F_RNG_POINT = "Point";
 const F_RNG_SELF_AREA = "Self (Area)";
@@ -181,7 +181,7 @@ function getRangeType (range) {
 function getTblTimeStr (time) {
 	return (time.number === 1 && TO_HIDE_SINGLETON_TIMES.includes(time.unit))
 		? `${time.unit.uppercaseFirst()}${time.unit === TM_B_ACTION ? " eyl." : ""}`
-		: `${time.number} ${time.unit === TM_B_ACTION ? "Bonus eyl." : time.unit}${time.number > 1 ? "s" : ""}`.uppercaseFirst();
+		: `${time.number} ${time.unit === TM_B_ACTION ? "Bonus eyl." : time.unit}${time.number > 1 ? "" : ""}`.uppercaseFirst();
 }
 
 function getTimeDisplay (timeUnit) {
@@ -230,21 +230,21 @@ let list;
 let spellBookView;
 const sourceFilter = getSourceFilter();
 const levelFilter = new Filter({
-	header: "Level",
+	header: "Seviye",
 	items: [
 		0, 1, 2, 3, 4, 5, 6, 7, 8, 9
 	],
 	displayFn: getFltrSpellLevelStr
 });
-const classFilter = new Filter({header: "Class"});
-const subclassFilter = new Filter({header: "Subclass"});
-const classAndSubclassFilter = new MultiFilter("Classes", classFilter, subclassFilter);
+const classFilter = new Filter({header: "Sınıf"});
+const subclassFilter = new Filter({header: "Altsınıf"});
+const classAndSubclassFilter = new MultiFilter("Sınıflar", classFilter, subclassFilter);
 const metaFilter = new Filter({
-	header: "Components/Miscellaneous",
+	header: "Bileşenler/Diğerleri",
 	items: [META_ADD_CONC, META_ADD_V, META_ADD_S, META_ADD_M, META_ADD_M_COST, META_RITUAL, META_TECHNOMAGIC]
 });
 const schoolFilter = new Filter({
-	header: "School",
+	header: "Okul",
 	items: [
 		SKL_ABV_ABJ,
 		SKL_ABV_CON,
@@ -258,24 +258,24 @@ const schoolFilter = new Filter({
 	displayFn: Parser.spSchoolAbvToFull}
 );
 const damageFilter = new Filter({
-	header: "Damage Type",
+	header: "Hasar Tipi",
 	items: [
 		"acid", "bludgeoning", "cold", "fire", "force", "lightning", "necrotic", "piercing", "poison", "psychic", "radiant", "slashing", "thunder"
 	],
 	displayFn: StrUtil.uppercaseFirst
 });
 const saveFilter = new Filter({
-	header: "Saving Throw",
+	header: "Kurtulma Zarı",
 	items: ["strength", "constitution", "dexterity", "intelligence", "wisdom", "charisma"],
 	displayFn: getFilterAbilitySave
 });
 const checkFilter = new Filter({
-	header: "Opposed Ability Check",
+	header: "Karşılıklı Yetenek Zarı",
 	items: ["strength", "constitution", "dexterity", "intelligence", "wisdom", "charisma"],
 	displayFn: getFilterAbilityCheck
 });
 const timeFilter = new Filter({
-	header: "Cast Time",
+	header: "Kullanma Süresi",
 	items: [
 		TM_ACTION,
 		TM_B_ACTION,
@@ -287,7 +287,7 @@ const timeFilter = new Filter({
 	displayFn: getTimeDisplay
 });
 const rangeFilter = new Filter({
-	header: "Range",
+	header: "Menzil",
 	items: [
 		F_RNG_SELF,
 		F_RNG_TOUCH,
