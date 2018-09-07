@@ -705,7 +705,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Grave",
+							"name": "Mezar",
 							"source": "XGE"
 						}
 					}
@@ -954,7 +954,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Knowledge",
+							"name": "Bilgi",
 							"source": "PHB"
 						}
 					}
@@ -1299,7 +1299,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Knowledge",
+							"name": "Bilgi",
 							"source": "PHB"
 						}
 					}
@@ -1592,7 +1592,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Vengeance",
+							"name": "İntikam",
 							"source": "PHB"
 						}
 					},
@@ -1602,7 +1602,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Grave",
+							"name": "Mezar",
 							"source": "XGE"
 						}
 					},
@@ -1612,7 +1612,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Divine Soul",
+							"name": "Kutsal Ruh",
 							"source": "XGE"
 						}
 					}
@@ -1766,7 +1766,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Vengeance",
+							"name": "İntikam",
 							"source": "PHB"
 						}
 					},
@@ -2387,7 +2387,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Divine Soul",
+							"name": "Kutsal Ruh",
 							"source": "XGE"
 						}
 					}
@@ -2470,7 +2470,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Grave",
+							"name": "Mezar",
 							"source": "XGE"
 						}
 					},
@@ -2647,7 +2647,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Fiend",
+							"name": "Zebani",
 							"source": "PHB"
 						}
 					},
@@ -2956,7 +2956,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Fiend",
+							"name": "Zebani",
 							"source": "PHB"
 						}
 					}
@@ -3931,7 +3931,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Knowledge",
+							"name": "Bilgi",
 							"source": "PHB"
 						}
 					},
@@ -3951,7 +3951,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Fiend",
+							"name": "Zebani",
 							"source": "PHB"
 						}
 					},
@@ -4485,7 +4485,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Knowledge",
+							"name": "Bilgi",
 							"source": "PHB"
 						}
 					},
@@ -6233,7 +6233,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Divine Soul",
+							"name": "Kutsal Ruh",
 							"source": "XGE"
 						}
 					}
@@ -6623,7 +6623,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Grave",
+							"name": "Mezar",
 							"source": "XGE"
 						}
 					}
@@ -7139,7 +7139,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Vengeance",
+							"name": "İntikam",
 							"source": "PHB"
 						}
 					}
@@ -9204,7 +9204,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Grave",
+							"name": "Mezar",
 							"source": "XGE"
 						}
 					}
@@ -9850,7 +9850,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Fiend",
+							"name": "Zebani",
 							"source": "PHB"
 						}
 					}
@@ -9982,7 +9982,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Fiend",
+							"name": "Zebani",
 							"source": "PHB"
 						}
 					}
@@ -10140,7 +10140,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Fiend",
+							"name": "Zebani",
 							"source": "PHB"
 						}
 					},
@@ -11110,7 +11110,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Grave",
+							"name": "Mezar",
 							"source": "XGE"
 						}
 					}
@@ -12184,7 +12184,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Fiend",
+							"name": "Zebani",
 							"source": "PHB"
 						}
 					}
@@ -12476,7 +12476,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Vengeance",
+							"name": "İntikam",
 							"source": "PHB"
 						}
 					},
@@ -13008,7 +13008,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Vengeance",
+							"name": "İntikam",
 							"source": "PHB"
 						}
 					},
@@ -13119,7 +13119,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Vengeance",
+							"name": "İntikam",
 							"source": "PHB"
 						}
 					},
@@ -13312,7 +13312,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Vengeance",
+							"name": "İntikam",
 							"source": "PHB"
 						}
 					}
@@ -13555,7 +13555,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Knowledge",
+							"name": "Bilgi",
 							"source": "PHB"
 						}
 					},
@@ -13852,7 +13852,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Divine Soul",
+							"name": "Kutsal Ruh",
 							"source": "XGE"
 						}
 					}
@@ -14253,7 +14253,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Knowledge",
+							"name": "Bilgi",
 							"source": "PHB"
 						}
 					},
@@ -16483,7 +16483,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Vengeance",
+							"name": "İntikam",
 							"source": "PHB"
 						}
 					},
@@ -17018,7 +17018,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Knowledge",
+							"name": "Bilgi",
 							"source": "PHB"
 						}
 					}
@@ -18807,7 +18807,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Vengeance",
+							"name": "İntikam",
 							"source": "PHB"
 						}
 					},
@@ -18926,7 +18926,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Divine Soul",
+							"name": "Kutsal Ruh",
 							"source": "XGE"
 						}
 					}
@@ -19118,7 +19118,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Grave",
+							"name": "Mezar",
 							"source": "XGE"
 						}
 					}
@@ -19241,7 +19241,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Grave",
+							"name": "Mezar",
 							"source": "XGE"
 						}
 					}
@@ -19925,7 +19925,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Grave",
+							"name": "Mezar",
 							"source": "XGE"
 						}
 					}
@@ -20172,7 +20172,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Fiend",
+							"name": "Zebani",
 							"source": "PHB"
 						}
 					}
@@ -20261,7 +20261,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Knowledge",
+							"name": "Bilgi",
 							"source": "PHB"
 						}
 					},
@@ -20303,7 +20303,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Vengeance",
+							"name": "İntikam",
 							"source": "PHB"
 						}
 					}
@@ -20314,9 +20314,9 @@
 				"You can see and hear a particular creature you choose that is on the same plane of existence as you. The target must make a Wisdom saving throw, which is modified by how well you know the target and the sort of physical connection you have to it. If a target knows you're casting this spell, it can fail the saving throw voluntarily if it wants to be observed.",
 				{
 					"type": "table",
-					"caption": "Knowledge of Target",
+					"caption": "Bilgi of Target",
 					"colLabels": [
-						"Knowledge Domain",
+						"Bilgi Domain",
 						"Save Modifier"
 					],
 					"colStyles": [
@@ -21640,7 +21640,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Knowledge",
+							"name": "Bilgi",
 							"source": "PHB"
 						}
 					},
@@ -22214,7 +22214,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Fiend",
+							"name": "Zebani",
 							"source": "PHB"
 						}
 					}
@@ -22426,7 +22426,7 @@
 			]
 		},
 		{
-			"name": "Storm of Vengeance",
+			"name": "Storm of İntikam",
 			"level": 9,
 			"school": "C",
 			"time": [
@@ -22566,7 +22566,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Knowledge",
+							"name": "Bilgi",
 							"source": "PHB"
 						}
 					}
@@ -24235,7 +24235,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Grave",
+							"name": "Mezar",
 							"source": "XGE"
 						}
 					}
@@ -24369,7 +24369,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Fiend",
+							"name": "Zebani",
 							"source": "PHB"
 						}
 					},
