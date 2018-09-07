@@ -52,7 +52,7 @@
 			]
 		},
 		{
-			"name": "Aid",
+			"name": "Yardım",
 			"level": 2,
 			"school": "A",
 			"time": [
@@ -71,7 +71,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a tiny strip of white cloth"
+				"m": "küçük bir beyaz kumaş şeridi"
 			},
 			"duration": [
 				{
@@ -96,14 +96,14 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Your spell bolsters your allies with toughness and resolve. Choose up to three creatures within range. Each target's hit point maximum and current hit points increase by 5 for the duration."
+				"Büyün dostlarını dayanıklılık ve kararlılıkla doldurur. Menzilinde üç taneye kadar varlığı seç. Bütün hedeflerin maksimum HP’si ve şu anki HP’si süre boyunca 5 artar."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, a target's hit points increase by an additional 5 for each slot level above 2nd."
+						"Bu büyüyü 3. Seviye yada üzeri bir büyü yuvası harcayarak kullandığında, 2. seviye sonrasında her seviye için hedeflerin HP’si ek olarak 5 artar."
 					]
 				}
 			],
@@ -164,7 +164,7 @@
 			"page": 211
 		},
 		{
-			"name": "Alter Self",
+			"name": "Kendini Değiştir",
 			"level": 2,
 			"school": "T",
 			"time": [
@@ -207,26 +207,26 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You assume a different form. When you cast the spell, choose one of the following options, the effects of which last for the duration of the spell. While the spell lasts, you can end one option as an eylem to gain the benefits of a different one.",
+				"Başka bir şekle girersin. Büyüyü kullandığında, aşağıdaki seçeneklerden birini seç, etkisi büyünün etki süresi kadar olacaktır. Büyü süresince, bir eylem kullanıp bir seçeneği başka bir seçenekten yararlanmak için sonlandırabilirsin.",
 				{
 					"type": "entries",
-					"name": "Aquatic Adaptation",
+					"name": "Su Adaptasyonu",
 					"entries": [
-						"You adapt your body to an aquatic environment, sprouting gills, and growing webbing between your fingers. You can breathe underwater and gain a swimming speed equal to your walking speed."
+						"Bedenini su ortamına adapte edersin, solungaç çıkarır, parmaklarının arasında perde oluşturursun. Su altında nefes alabilir ve yürüme hızına eşit yüzme hızı kazanırsın."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Change Appearance",
+					"name": "Görünüş Değiştirme",
 					"entries": [
-						"You transform your appearance. You decide what you look like, including your height, weight, facial features, sound of your voice, hair length, coloration, and distinguishing characteristics, if any. You can make yourself appear as a member of another race, though none of your statistics change. You also don't appear as a creature of a different size than you, and your basic shape stays the same, if you're bipedal, you can't use this spell to become quadrupedal, for instance. At any time for the duration of the spell, you can use your eylem to change your appearance in this way again."
+						"Görünüşünü değiştirirsin. Boyun, genişliğin, yüz özelliklerin, sesin, saç rengin, renkler ve herhangi başka ayırt edici karakter özelliği dahil neye benzediğini seçersin. Kendini başka ırktanmış gibi gösterebilirsin, ancak hiçbir istatistiğin değişmez. Ayrıca kendi boyutundan farklı bir boyuta sahip olan varlıkların şekline giremezsin, ana boyutun aynı kalır. Örneğin, iki ayaklıysan dört ayaklıya dönüşemezsin. Büyü süresince bir eylem kullanarak görünüşünü bu şekilde yeniden değiştirebilirsin."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Natural Weapons",
+					"name": "Doğal Silahlar",
 					"entries": [
-						"You grow claws, fangs, spines, horns, or a different natural weapon of your choice. Your unarmed strikes deal {@dice 1d6} bludgeoning, piercing, or slashing damage, as appropriate to the natural weapon you chose, and you are proficient with you unarmed strikes. Finally, the natural weapon is magic and you have a +1 bonus to the attack and damage rolls you make using it."
+						"Pençe, sivri dişler, diken, boynuz veya seçeceğin başka bir doğal silah sahibi olursun. Silahsız saldırıların seçtiğin silaha bağlı olarak {@dice 1d6} ezme, delme yada kesme hasarı verir ve silahsız saldırılarda uzmanlığın olur. Son olarak, doğal silahın büyülü sayılır ve saldırı ve hasar zarlarında +1 bonusun olur."
 					]
 				}
 			],
@@ -290,7 +290,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Nature",
+							"name": "Doğa",
 							"source": "PHB"
 						}
 					}
@@ -315,7 +315,7 @@
 			]
 		},
 		{
-			"name": "Animal Messenger",
+			"name": "Haberci Hayvan",
 			"level": 2,
 			"school": "E",
 			"time": [
@@ -366,15 +366,15 @@
 				"ritual": true
 			},
 			"entries": [
-				"By means of this spell, you use an animal to deliver a message. Choose a Tiny beast you can see within range, such as a squirrel, a blue ray, or a bird. You specify a location, which you must have visited, and a recipient who matches a general description, such as a man or woman dressed in the uniform of the town guard or a red-haired dwarf wearing a pointed hat. You also speak a message of up to twenty-five words. The target beast travels for the duration of the spell towards the specified location, covering about 50 miles per 24 saat for a flying messenger or 25 miles for other animals.",
-				"When the messenger arrives, it delivers your message to the creature that you described, replicating the sound of your voice. The messenger speaks only to a creature matching the description you gave. If the messenger doesn't reach its destination before the spell ends, the message is lost, and the beast makes its way back to where you cast this spell."
+				"Bu büyüyle, bir mesaj iletmek için bir hayvan kullanırsın. Menzilin içerisinde görebildiğin bir sincap yada kuş gibi minik bir varlığı seç. Daha önce gittiğin bir yer ve göndereceğin kişiye uyan genel bir anlatım seç, şehir muhafızı üniforması giyen bir kadın veya sivri bir şapka giyen kırmızı saçlı bir cüce gibi. Aynı zamanda 25 kelime uzunluğa kadar bir mesaj söyle. Haberci büyü süresince belirtilmiş yöne doğru, eğer uçuyorsa 24 saatte 50 mil, uçmuyorsa 24 saatte 25 mil hızla gider.",
+				"Haberci hedefe vardığında, tasvir ettiğin varlığa senin sesin ile mesajını iletir. Eğer haberci zamanında varamazsa mesaj kaybolur ve haberci senin bu büyüyü yaptığın yere geri döner."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"If you cast this spell using a spell slot of 3rd level or higher, the duration of the spell increases by 48 saat for each slot level above 2nd."
+						"Bu büyüyü 3. Seviye yada üzeri bir büyü yuvası harcayarak kullandığında, 2. seviye sonrasında her seviye için büyünün etki süresi 48 saat artar."
 					]
 				}
 			],
@@ -472,7 +472,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Death",
+							"name": "Ölüm",
 							"source": "DMG"
 						}
 					},
@@ -558,7 +558,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Forge",
+							"name": "Ocak",
 							"source": "XGE"
 						}
 					}
@@ -695,7 +695,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Death",
+							"name": "Ölüm",
 							"source": "DMG"
 						}
 					},
@@ -931,10 +931,6 @@
 					{
 						"name": "Büyücü",
 						"source": "PHB"
-					},
-					{
-						"name": "Artificer",
-						"source": "UAArtificer"
 					}
 				],
 				"fromSubclass": [
@@ -1024,7 +1020,7 @@
 			"page": 214
 		},
 		{
-			"name": "Arcane Lock",
+			"name": "Arcane Kilit",
 			"level": 2,
 			"school": "A",
 			"time": [
@@ -1043,7 +1039,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "gold dust worth at least 25 gp, which the spell consumes",
+					"text": "25 gp değerinde altın tozu, büyü bunu tüketir",
 					"cost": 25,
 					"consume": true
 				}
@@ -1061,17 +1057,13 @@
 					{
 						"name": "Büyücü",
 						"source": "PHB"
-					},
-					{
-						"name": "Artificer",
-						"source": "UAArtificer"
 					}
 				]
 			},
 			"source": "PHB",
 			"entries": [
-				"You touch a closed door, window, gate, chest, or other entryway, and it becomes locked for the duration. You and the creatures you designate when you cast this spell can open the object normally. You can also set a password that, when spoken within 5 feet of the object, suppresses this spell for 1 dakika. Otherwise, it is impassable until it is broken or the spell is dispelled or suppressed. Casting knock on the object suppresses arcane lock for 10 dakika.",
-				"While affected by this spell, the object is more difficult to break or force open; the DC to break it or pick any locks on it increases by 10."
+				"Kapalı bir kapı, pencere, geçit, sandık veya herhangi bir giriş yoluna dokunursun ve etki boyunca kilitlenir. Sen ve senin büyüyü yaparken belirlediğin varlıklar nesneyi normal olarak açabilirsiniz. Ayrıca 5 fit yakınında söylendiğinde, büyüyü bir dakikalığına durduran sesli bir şifre de koyabilirsin. Başka şekilde, nesne kırılmadıkça, büyü defedilmedikçe veya durdurulmadıkça nesne geçilemez. Objenin üzerinde {@spell knock} büyüsü kullanıldığında bu Arcane Kilit büyüsünü 10 dakikalığına durdurur.",
+				"Bu büyü tarafından etkilenmiş bir nesneyi kırması veya zorla açması daha zordur. Kırmak veya üzerindeki herhangi bir kilidi açmak için gereken DC(Zorluk Sınıfı) 10 artar."
 			],
 			"page": 215
 		},
@@ -1881,7 +1873,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Nature",
+							"name": "Doğa",
 							"source": "PHB"
 						}
 					},
@@ -1891,9 +1883,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Forest"
+							"subSubclass": "Orman"
 						}
 					}
 				]
@@ -1949,7 +1941,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Life",
+							"name": "Yaşam",
 							"source": "PHB"
 						}
 					},
@@ -2377,7 +2369,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Life",
+							"name": "Yaşam",
 							"source": "PHB"
 						}
 					},
@@ -2460,7 +2452,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Death",
+							"name": "Ölüm",
 							"source": "DMG"
 						}
 					},
@@ -2480,9 +2472,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Desert"
+							"subSubclass": "Çöl"
 						}
 					},
 					{
@@ -2555,18 +2547,6 @@
 						"name": "Paladin",
 						"source": "PHB"
 					}
-				],
-				"fromSubclass": [
-					{
-						"class": {
-							"name": "Sorcerer",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Stone",
-							"source": "UASorcerer"
-						}
-					}
 				]
 			},
 			"source": "PHB",
@@ -2637,7 +2617,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Death",
+							"name": "Ölüm",
 							"source": "DMG"
 						}
 					},
@@ -2728,7 +2708,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Trickery",
+							"name": "Hile",
 							"source": "PHB"
 						}
 					},
@@ -2738,7 +2718,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Archfey",
+							"name": "Baş Fey",
 							"source": "PHB"
 						}
 					},
@@ -2799,10 +2779,6 @@
 					{
 						"name": "Büyücü",
 						"source": "PHB"
-					},
-					{
-						"name": "Artificer",
-						"source": "UAArtificer"
 					}
 				],
 				"fromSubclass": [
@@ -2812,9 +2788,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Desert"
+							"subSubclass": "Çöl"
 						}
 					},
 					{
@@ -2946,7 +2922,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Light",
+							"name": "Işık",
 							"source": "PHB"
 						}
 					},
@@ -3029,7 +3005,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Tempest",
+							"name": "Fırtına",
 							"source": "PHB"
 						}
 					},
@@ -3039,9 +3015,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Forest"
+							"subSubclass": "Orman"
 						}
 					}
 				]
@@ -3118,7 +3094,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Archfey",
+							"name": "Baş Fey",
 							"source": "PHB"
 						}
 					},
@@ -3266,7 +3242,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Trickery",
+							"name": "Hile",
 							"source": "PHB"
 						}
 					}
@@ -3597,7 +3573,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Great Old One",
+							"name": "Kadim Olan",
 							"source": "PHB"
 						}
 					}
@@ -3775,7 +3751,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Death",
+							"name": "Ölüm",
 							"source": "DMG"
 						}
 					},
@@ -3785,9 +3761,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Underdark"
+							"subSubclass": "Yeraltı"
 						}
 					},
 					{
@@ -4083,7 +4059,7 @@
 			"page": 223
 		},
 		{
-			"name": "Commune with Nature",
+			"name": "Commune with Doğa",
 			"level": 5,
 			"school": "D",
 			"time": [
@@ -4125,9 +4101,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Arctic"
+							"subSubclass": "Buzul"
 						}
 					},
 					{
@@ -4136,9 +4112,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Forest"
+							"subSubclass": "Orman"
 						}
 					},
 					{
@@ -4388,9 +4364,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Arctic"
+							"subSubclass": "Buzul"
 						}
 					},
 					{
@@ -4792,9 +4768,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Coast"
+							"subSubclass": "Sahil"
 						}
 					}
 				]
@@ -5321,10 +5297,6 @@
 					{
 						"name": "Büyücü",
 						"source": "PHB"
-					},
-					{
-						"name": "Artificer",
-						"source": "UAArtificer"
 					}
 				]
 			},
@@ -5388,7 +5360,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Tempest",
+							"name": "Fırtına",
 							"source": "PHB"
 						}
 					},
@@ -5398,9 +5370,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Coast"
+							"subSubclass": "Sahil"
 						}
 					}
 				]
@@ -5569,7 +5541,7 @@
 						],
 						[
 							"6",
-							"Arctic cold"
+							"Buzul cold"
 						]
 					]
 				},
@@ -5784,9 +5756,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Desert"
+							"subSubclass": "Çöl"
 						}
 					}
 				]
@@ -5973,7 +5945,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Forge",
+							"name": "Ocak",
 							"source": "XGE"
 						}
 					}
@@ -6143,7 +6115,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "War",
+							"name": "Savaş",
 							"source": "PHB"
 						}
 					}
@@ -6213,7 +6185,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Life",
+							"name": "Yaşam",
 							"source": "PHB"
 						}
 					},
@@ -6362,9 +6334,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Swamp"
+							"subSubclass": "Bataklık"
 						}
 					},
 					{
@@ -6434,10 +6406,6 @@
 					{
 						"name": "Büyücü",
 						"source": "PHB"
-					},
-					{
-						"name": "Artificer",
-						"source": "UAArtificer"
 					}
 				]
 			},
@@ -6507,7 +6475,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Light",
+							"name": "Işık",
 							"source": "PHB"
 						}
 					},
@@ -6517,9 +6485,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Grassland"
+							"subSubclass": "Çayır"
 						}
 					},
 					{
@@ -6580,10 +6548,6 @@
 					{
 						"name": "Paladin",
 						"source": "PHB"
-					},
-					{
-						"name": "Artificer",
-						"source": "UAArtificer"
 					}
 				],
 				"fromSubclass": [
@@ -6593,7 +6557,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Death",
+							"name": "Ölüm",
 							"source": "DMG"
 						}
 					},
@@ -6603,7 +6567,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Life",
+							"name": "Yaşam",
 							"source": "PHB"
 						}
 					},
@@ -6790,7 +6754,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Tempest",
+							"name": "Fırtına",
 							"source": "PHB"
 						}
 					}
@@ -7056,7 +7020,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Great Old One",
+							"name": "Kadim Olan",
 							"source": "PHB"
 						}
 					}
@@ -7129,7 +7093,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Trickery",
+							"name": "Hile",
 							"source": "PHB"
 						}
 					},
@@ -7207,7 +7171,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Trickery",
+							"name": "Hile",
 							"source": "PHB"
 						}
 					},
@@ -7437,7 +7401,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Trickery",
+							"name": "Hile",
 							"source": "PHB"
 						}
 					},
@@ -7507,7 +7471,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Great Old One",
+							"name": "Kadim Olan",
 							"source": "PHB"
 						}
 					}
@@ -7578,9 +7542,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Forest"
+							"subSubclass": "Orman"
 						}
 					},
 					{
@@ -7589,9 +7553,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Grassland"
+							"subSubclass": "Çayır"
 						}
 					}
 				]
@@ -7651,7 +7615,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "War",
+							"name": "Savaş",
 							"source": "PHB"
 						}
 					}
@@ -7767,7 +7731,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Nature",
+							"name": "Doğa",
 							"source": "PHB"
 						}
 					},
@@ -7777,7 +7741,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Archfey",
+							"name": "Baş Fey",
 							"source": "PHB"
 						}
 					},
@@ -7787,7 +7751,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Great Old One",
+							"name": "Kadim Olan",
 							"source": "PHB"
 						}
 					},
@@ -7949,7 +7913,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Trickery",
+							"name": "Hile",
 							"source": "PHB"
 						}
 					},
@@ -7969,7 +7933,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Archfey",
+							"name": "Baş Fey",
 							"source": "PHB"
 						}
 					},
@@ -7979,7 +7943,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Great Old One",
+							"name": "Kadim Olan",
 							"source": "PHB"
 						}
 					},
@@ -8117,9 +8081,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Forest"
+							"subSubclass": "Orman"
 						}
 					}
 				]
@@ -8355,7 +8319,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Forge",
+							"name": "Ocak",
 							"source": "XGE"
 						}
 					}
@@ -8532,10 +8496,6 @@
 					{
 						"name": "Büyücü",
 						"source": "PHB"
-					},
-					{
-						"name": "Artificer",
-						"source": "UAArtificer"
 					}
 				]
 			},
@@ -8852,7 +8812,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Great Old One",
+							"name": "Kadim Olan",
 							"source": "PHB"
 						}
 					}
@@ -9048,7 +9008,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Forge",
+							"name": "Ocak",
 							"source": "XGE"
 						}
 					}
@@ -9110,7 +9070,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Light",
+							"name": "Işık",
 							"source": "PHB"
 						}
 					},
@@ -9120,7 +9080,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Archfey",
+							"name": "Baş Fey",
 							"source": "PHB"
 						}
 					}
@@ -9184,7 +9144,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Death",
+							"name": "Ölüm",
 							"source": "DMG"
 						}
 					},
@@ -9972,7 +9932,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Light",
+							"name": "Işık",
 							"source": "PHB"
 						}
 					},
@@ -10110,7 +10070,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Light",
+							"name": "Işık",
 							"source": "PHB"
 						}
 					},
@@ -10120,7 +10080,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "War",
+							"name": "Savaş",
 							"source": "PHB"
 						}
 					},
@@ -10228,7 +10188,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Light",
+							"name": "Işık",
 							"source": "PHB"
 						}
 					},
@@ -10367,10 +10327,6 @@
 					{
 						"name": "Büyücü",
 						"source": "PHB"
-					},
-					{
-						"name": "Artificer",
-						"source": "UAArtificer"
 					}
 				]
 			},
@@ -10446,7 +10402,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Tempest",
+							"name": "Fırtına",
 							"source": "PHB"
 						}
 					}
@@ -10692,10 +10648,6 @@
 					{
 						"name": "Kolcu",
 						"source": "PHB"
-					},
-					{
-						"name": "Artificer",
-						"source": "UAArtificer"
 					}
 				],
 				"fromSubclass": [
@@ -10705,7 +10657,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "War",
+							"name": "Savaş",
 							"source": "PHB"
 						}
 					},
@@ -10715,9 +10667,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Arctic"
+							"subSubclass": "Buzul"
 						}
 					},
 					{
@@ -10726,9 +10678,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Coast"
+							"subSubclass": "Sahil"
 						}
 					},
 					{
@@ -10737,9 +10689,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Forest"
+							"subSubclass": "Orman"
 						}
 					},
 					{
@@ -10748,9 +10700,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Grassland"
+							"subSubclass": "Çayır"
 						}
 					},
 					{
@@ -10759,9 +10711,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Swamp"
+							"subSubclass": "Bataklık"
 						}
 					},
 					{
@@ -10883,10 +10835,6 @@
 					{
 						"name": "Büyücü",
 						"source": "PHB"
-					},
-					{
-						"name": "Artificer",
-						"source": "UAArtificer"
 					}
 				],
 				"fromSubclass": [
@@ -10896,9 +10844,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Underdark"
+							"subSubclass": "Yeraltı"
 						}
 					}
 				]
@@ -11327,10 +11275,6 @@
 					{
 						"name": "Büyücü",
 						"source": "PHB"
-					},
-					{
-						"name": "Artificer",
-						"source": "UAArtificer"
 					}
 				]
 			},
@@ -11474,7 +11418,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Nature",
+							"name": "Doğa",
 							"source": "PHB"
 						}
 					}
@@ -11591,9 +11535,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Underdark"
+							"subSubclass": "Yeraltı"
 						}
 					},
 					{
@@ -11602,7 +11546,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Archfey",
+							"name": "Baş Fey",
 							"source": "PHB"
 						}
 					},
@@ -11740,7 +11684,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Life",
+							"name": "Yaşam",
 							"source": "PHB"
 						}
 					},
@@ -11750,7 +11694,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Light",
+							"name": "Işık",
 							"source": "PHB"
 						}
 					},
@@ -12061,7 +12005,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Tempest",
+							"name": "Fırtına",
 							"source": "PHB"
 						}
 					}
@@ -12352,9 +12296,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Desert"
+							"subSubclass": "Çöl"
 						}
 					}
 				]
@@ -12465,9 +12409,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Grassland"
+							"subSubclass": "Çayır"
 						}
 					},
 					{
@@ -12671,7 +12615,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Forge",
+							"name": "Ocak",
 							"source": "XGE"
 						}
 					}
@@ -12998,7 +12942,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "War",
+							"name": "Savaş",
 							"source": "PHB"
 						}
 					},
@@ -13108,9 +13052,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Arctic"
+							"subSubclass": "Buzul"
 						}
 					},
 					{
@@ -13458,7 +13402,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Tempest",
+							"name": "Fırtına",
 							"source": "PHB"
 						}
 					},
@@ -13468,9 +13412,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Arctic"
+							"subSubclass": "Buzul"
 						}
 					},
 					{
@@ -13565,7 +13509,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Forge",
+							"name": "Ocak",
 							"source": "XGE"
 						}
 					}
@@ -13930,7 +13874,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Nature",
+							"name": "Doğa",
 							"source": "PHB"
 						}
 					},
@@ -13940,7 +13884,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Tempest",
+							"name": "Fırtına",
 							"source": "PHB"
 						}
 					},
@@ -13950,9 +13894,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Desert"
+							"subSubclass": "Çöl"
 						}
 					},
 					{
@@ -13961,9 +13905,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Forest"
+							"subSubclass": "Orman"
 						}
 					},
 					{
@@ -13972,9 +13916,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Grassland"
+							"subSubclass": "Çayır"
 						}
 					},
 					{
@@ -13983,9 +13927,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Swamp"
+							"subSubclass": "Bataklık"
 						}
 					}
 				]
@@ -14060,10 +14004,6 @@
 					{
 						"name": "Büyücü",
 						"source": "PHB"
-					},
-					{
-						"name": "Artificer",
-						"source": "UAArtificer"
 					}
 				],
 				"fromSubclass": [
@@ -14073,9 +14013,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Grassland"
+							"subSubclass": "Çayır"
 						}
 					}
 				]
@@ -14310,10 +14250,6 @@
 					{
 						"name": "Büyücü",
 						"source": "PHB"
-					},
-					{
-						"name": "Artificer",
-						"source": "UAArtificer"
 					}
 				],
 				"fromSubclass": [
@@ -14437,10 +14373,6 @@
 					{
 						"name": "Kolcu",
 						"source": "PHB"
-					},
-					{
-						"name": "Artificer",
-						"source": "UAArtificer"
 					}
 				],
 				"fromSubclass": [
@@ -14450,7 +14382,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Life",
+							"name": "Yaşam",
 							"source": "PHB"
 						}
 					},
@@ -14702,9 +14634,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Mountain"
+							"subSubclass": "Dağ"
 						}
 					}
 				]
@@ -14847,9 +14779,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Swamp"
+							"subSubclass": "Bataklık"
 						}
 					}
 				]
@@ -15443,7 +15375,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "War",
+							"name": "Savaş",
 							"source": "PHB"
 						}
 					},
@@ -15453,7 +15385,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Forge",
+							"name": "Ocak",
 							"source": "XGE"
 						}
 					}
@@ -15597,7 +15529,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Life",
+							"name": "Yaşam",
 							"source": "PHB"
 						}
 					}
@@ -15871,9 +15803,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Mountain"
+							"subSubclass": "Dağ"
 						}
 					}
 				]
@@ -15933,9 +15865,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Swamp"
+							"subSubclass": "Bataklık"
 						}
 					}
 				]
@@ -16341,7 +16273,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Trickery",
+							"name": "Hile",
 							"source": "PHB"
 						}
 					},
@@ -16351,9 +16283,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Coast"
+							"subSubclass": "Sahil"
 						}
 					}
 				]
@@ -16462,9 +16394,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Coast"
+							"subSubclass": "Sahil"
 						}
 					},
 					{
@@ -16564,7 +16496,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Trickery",
+							"name": "Hile",
 							"source": "PHB"
 						}
 					}
@@ -16704,10 +16636,6 @@
 					{
 						"name": "Büyücü",
 						"source": "PHB"
-					},
-					{
-						"name": "Artificer",
-						"source": "UAArtificer"
 					}
 				]
 			},
@@ -16812,10 +16740,6 @@
 					{
 						"name": "Büyücü",
 						"source": "PHB"
-					},
-					{
-						"name": "Artificer",
-						"source": "UAArtificer"
 					}
 				]
 			},
@@ -17343,7 +17267,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Trickery",
+							"name": "Hile",
 							"source": "PHB"
 						}
 					},
@@ -17353,9 +17277,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Grassland"
+							"subSubclass": "Çayır"
 						}
 					}
 				]
@@ -17411,9 +17335,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Mountain"
+							"subSubclass": "Dağ"
 						}
 					}
 				]
@@ -17479,7 +17403,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Archfey",
+							"name": "Baş Fey",
 							"source": "PHB"
 						}
 					},
@@ -17489,7 +17413,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Great Old One",
+							"name": "Kadim Olan",
 							"source": "PHB"
 						}
 					}
@@ -17891,7 +17815,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Nature",
+							"name": "Doğa",
 							"source": "PHB"
 						}
 					},
@@ -17901,9 +17825,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Forest"
+							"subSubclass": "Orman"
 						}
 					},
 					{
@@ -17922,7 +17846,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Archfey",
+							"name": "Baş Fey",
 							"source": "PHB"
 						}
 					}
@@ -18054,7 +17978,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Trickery",
+							"name": "Hile",
 							"source": "PHB"
 						}
 					}
@@ -18773,10 +18697,6 @@
 					{
 						"name": "Büyücü",
 						"source": "PHB"
-					},
-					{
-						"name": "Artificer",
-						"source": "UAArtificer"
 					}
 				],
 				"fromSubclass": [
@@ -18786,9 +18706,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Desert"
+							"subSubclass": "Çöl"
 						}
 					},
 					{
@@ -18817,7 +18737,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Forge",
+							"name": "Ocak",
 							"source": "XGE"
 						}
 					}
@@ -18985,10 +18905,6 @@
 					{
 						"name": "Kolcu",
 						"source": "PHB"
-					},
-					{
-						"name": "Artificer",
-						"source": "UAArtificer"
 					}
 				]
 			},
@@ -19108,7 +19024,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Life",
+							"name": "Yaşam",
 							"source": "PHB"
 						}
 					},
@@ -19231,7 +19147,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Death",
+							"name": "Ölüm",
 							"source": "DMG"
 						}
 					},
@@ -19349,7 +19265,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Death",
+							"name": "Ölüm",
 							"source": "DMG"
 						}
 					},
@@ -19892,10 +19808,6 @@
 					{
 						"name": "Paladin",
 						"source": "PHB"
-					},
-					{
-						"name": "Artificer",
-						"source": "UAArtificer"
 					}
 				],
 				"fromSubclass": [
@@ -19905,7 +19817,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Life",
+							"name": "Yaşam",
 							"source": "PHB"
 						}
 					},
@@ -19972,10 +19884,6 @@
 					{
 						"name": "Büyücü",
 						"source": "PHB"
-					},
-					{
-						"name": "Artificer",
-						"source": "UAArtificer"
 					}
 				],
 				"fromSubclass": [
@@ -20162,7 +20070,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Light",
+							"name": "Işık",
 							"source": "PHB"
 						}
 					},
@@ -20271,7 +20179,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Light",
+							"name": "Işık",
 							"source": "PHB"
 						}
 					},
@@ -20281,9 +20189,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Coast"
+							"subSubclass": "Sahil"
 						}
 					},
 					{
@@ -20292,9 +20200,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Swamp"
+							"subSubclass": "Bataklık"
 						}
 					},
 					{
@@ -20416,7 +20324,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Forge",
+							"name": "Ocak",
 							"source": "XGE"
 						}
 					}
@@ -20547,7 +20455,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Archfey",
+							"name": "Baş Fey",
 							"source": "PHB"
 						}
 					},
@@ -20630,7 +20538,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Great Old One",
+							"name": "Kadim Olan",
 							"source": "PHB"
 						}
 					}
@@ -20802,7 +20710,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Tempest",
+							"name": "Fırtına",
 							"source": "PHB"
 						}
 					}
@@ -20940,7 +20848,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "War",
+							"name": "Savaş",
 							"source": "PHB"
 						}
 					}
@@ -21096,9 +21004,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Desert"
+							"subSubclass": "Çöl"
 						}
 					},
 					{
@@ -21290,7 +21198,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Archfey",
+							"name": "Baş Fey",
 							"source": "PHB"
 						}
 					},
@@ -21377,7 +21285,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Tempest",
+							"name": "Fırtına",
 							"source": "PHB"
 						}
 					},
@@ -21387,9 +21295,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Arctic"
+							"subSubclass": "Buzul"
 						}
 					}
 				]
@@ -21456,9 +21364,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Arctic"
+							"subSubclass": "Buzul"
 						}
 					}
 				]
@@ -21566,7 +21474,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Nature",
+							"name": "Doğa",
 							"source": "PHB"
 						}
 					},
@@ -21763,10 +21671,6 @@
 					{
 						"name": "Büyücü",
 						"source": "PHB"
-					},
-					{
-						"name": "Artificer",
-						"source": "UAArtificer"
 					}
 				],
 				"fromSubclass": [
@@ -21776,9 +21680,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Forest"
+							"subSubclass": "Orman"
 						}
 					},
 					{
@@ -21787,9 +21691,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Mountain"
+							"subSubclass": "Dağ"
 						}
 					},
 					{
@@ -21798,9 +21702,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Underdark"
+							"subSubclass": "Yeraltı"
 						}
 					}
 				]
@@ -21861,7 +21765,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Nature",
+							"name": "Doğa",
 							"source": "PHB"
 						}
 					},
@@ -21871,9 +21775,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Arctic"
+							"subSubclass": "Buzul"
 						}
 					},
 					{
@@ -21882,9 +21786,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Mountain"
+							"subSubclass": "Dağ"
 						}
 					}
 				]
@@ -21948,7 +21852,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "War",
+							"name": "Savaş",
 							"source": "PHB"
 						}
 					},
@@ -22031,7 +21935,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Life",
+							"name": "Yaşam",
 							"source": "PHB"
 						}
 					},
@@ -22041,7 +21945,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "War",
+							"name": "Savaş",
 							"source": "PHB"
 						}
 					},
@@ -22192,9 +22096,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Swamp"
+							"subSubclass": "Bataklık"
 						}
 					},
 					{
@@ -22203,9 +22107,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Underdark"
+							"subSubclass": "Yeraltı"
 						}
 					},
 					{
@@ -22270,10 +22174,6 @@
 					{
 						"name": "Büyücü",
 						"source": "PHB"
-					},
-					{
-						"name": "Artificer",
-						"source": "UAArtificer"
 					}
 				],
 				"fromSubclass": [
@@ -22283,9 +22183,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Mountain"
+							"subSubclass": "Dağ"
 						}
 					},
 					{
@@ -22294,9 +22194,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Underdark"
+							"subSubclass": "Yeraltı"
 						}
 					}
 				]
@@ -22368,7 +22268,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "War",
+							"name": "Savaş",
 							"source": "PHB"
 						}
 					},
@@ -22378,7 +22278,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB"
 						}
 					},
@@ -22927,7 +22827,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Great Old One",
+							"name": "Kadim Olan",
 							"source": "PHB"
 						}
 					}
@@ -22992,7 +22892,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Great Old One",
+							"name": "Kadim Olan",
 							"source": "PHB"
 						}
 					}
@@ -23551,7 +23451,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Tempest",
+							"name": "Fırtına",
 							"source": "PHB"
 						}
 					}
@@ -23773,7 +23673,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Nature",
+							"name": "Doğa",
 							"source": "PHB"
 						}
 					},
@@ -23783,7 +23683,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB"
 						}
 					},
@@ -24225,7 +24125,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Death",
+							"name": "Ölüm",
 							"source": "DMG"
 						}
 					},
@@ -24359,7 +24259,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Light",
+							"name": "Işık",
 							"source": "PHB"
 						}
 					},
@@ -24389,7 +24289,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Forge",
+							"name": "Ocak",
 							"source": "XGE"
 						}
 					}
@@ -24599,9 +24499,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Desert"
+							"subSubclass": "Çöl"
 						}
 					},
 					{
@@ -24610,9 +24510,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Mountain"
+							"subSubclass": "Dağ"
 						}
 					}
 				]
@@ -24803,10 +24703,6 @@
 					{
 						"name": "Büyücü",
 						"source": "PHB"
-					},
-					{
-						"name": "Artificer",
-						"source": "UAArtificer"
 					}
 				],
 				"fromSubclass": [
@@ -24816,9 +24712,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Coast"
+							"subSubclass": "Sahil"
 						}
 					}
 				]
@@ -24880,10 +24776,6 @@
 					{
 						"name": "Sorcerer",
 						"source": "PHB"
-					},
-					{
-						"name": "Artificer",
-						"source": "UAArtificer"
 					}
 				],
 				"fromSubclass": [
@@ -24893,9 +24785,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Coast"
+							"subSubclass": "Sahil"
 						}
 					},
 					{
@@ -24904,9 +24796,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Swamp"
+							"subSubclass": "Bataklık"
 						}
 					}
 				]
@@ -24971,9 +24863,9 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Land",
+							"name": "Toprak",
 							"source": "PHB",
-							"subSubclass": "Underdark"
+							"subSubclass": "Yeraltı"
 						}
 					}
 				]
@@ -25144,7 +25036,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
-							"name": "Nature",
+							"name": "Doğa",
 							"source": "PHB"
 						}
 					}

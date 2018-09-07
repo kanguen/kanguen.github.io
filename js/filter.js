@@ -196,13 +196,13 @@ class FilterBox {
 				};
 
 				const $quickBtns = $(`<span class="btn-group quick-btns" style="margin-left: auto;"/>`);
-				const $all = $(`<button class="btn btn-default btn-xs ${minimalClass}">All</button>`);
+				const $all = $(`<button class="btn btn-default btn-xs ${minimalClass}">Hepsi</button>`);
 				$quickBtns.append($all);
-				const $clear = $(`<button class="btn btn-default btn-xs ${minimalClass}">Clear</button>`);
+				const $clear = $(`<button class="btn btn-default btn-xs ${minimalClass}">Temizle</button>`);
 				$quickBtns.append($clear);
-				const $none = $(`<button class="btn btn-default btn-xs ${minimalClass}">None</button>`);
+				const $none = $(`<button class="btn btn-default btn-xs ${minimalClass}">Hiçbiri</button>`);
 				$quickBtns.append($none);
-				const $default = $(`<button class="btn btn-default btn-xs ${minimalClass}">Default</button>`);
+				const $default = $(`<button class="btn btn-default btn-xs ${minimalClass}">Varsayılan</button>`);
 				$quickBtns.append($default);
 				$line.append($quickBtns);
 
@@ -220,7 +220,7 @@ class FilterBox {
 				$summary.hide();
 				$line.append($summary);
 
-				const $showHide = $(`<button class="btn btn-default btn-xs show-hide-button ${minimalClass}" style="margin-left: 12px;">Hide</button>`);
+				const $showHide = $(`<button class="btn btn-default btn-xs show-hide-button ${minimalClass}" style="margin-left: 12px;">Gizle</button>`);
 				$line.append($showHide);
 
 				$showHide.on(EVNT_CLICK, function () {

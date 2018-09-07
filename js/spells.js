@@ -4,28 +4,27 @@ const JSON_DIR = "data/spells/";
 const JSON_LIST_NAME = "spell";
 
 // toss these into the "Tags" section to save screen space
-const META_ADD_CONC = "Concentration";
-const META_ADD_V = "Verbal";
-const META_ADD_S = "Somatic";
-const META_ADD_M = "Material";
-const META_ADD_M_COST = "Material with Cost";
+const META_ADD_CONC = "Konsantrasyon";
+const META_ADD_V = "Sesli(S)";
+const META_ADD_S = "Bedensel(B)";
+const META_ADD_M = "Materyal(M)";
+const META_ADD_M_COST = "Değeri olan Materyal";
 // real meta tags
-const META_RITUAL = "Ritual";
-const META_TECHNOMAGIC = "Technomagic";
+const META_RITUAL = "Ritüel";
 
 const P_LEVEL = "level";
 const P_NORMALISED_TIME = "normalisedTime";
 const P_SCHOOL = "school";
 const P_NORMALISED_RANGE = "normalisedRange";
 
-const STR_WIZARD = "Wizard";
-const STR_FIGHTER = "Fighter";
-const STR_ROGUE = "Rogue";
-const STR_CLERIC = "Cleric";
+const STR_WIZARD = "Büyücü";
+const STR_FIGHTER = "Savaşçı";
+const STR_ROGUE = "Düzenbaz";
+const STR_CLERIC = "Rahip";
 const STR_SORCERER = "Sorcerer";
-const STR_ELD_KNIGHT = "Eldritch Knight";
-const STR_ARC_TCKER = "Arcane Trickster";
-const STR_DIV_SOUL = "Divine Soul";
+const STR_ELD_KNIGHT = "Eldritch Şövalyesi";
+const STR_ARC_TCKER = "Arcane Hilebaz";
+const STR_DIV_SOUL = "Kutsal Ruh";
 const STR_FAV_SOUL_V2 = "Favored Soul v2 (UA)";
 const STR_FAV_SOUL_V3 = "Favored Soul v3 (UA)";
 
@@ -44,11 +43,11 @@ TIME_UNITS_TO_FULL[TM_ROUND] = "Sıra";
 TIME_UNITS_TO_FULL[TM_MINS] = "Dakika";
 TIME_UNITS_TO_FULL[TM_HRS] = "Saat";
 
-const F_RNG_POINT = "Point";
-const F_RNG_SELF_AREA = "Self (Area)";
-const F_RNG_SELF = "Self";
-const F_RNG_TOUCH = "Touch";
-const F_RNG_SPECIAL = "Special";
+const F_RNG_POINT = "Nokta";
+const F_RNG_SELF_AREA = "Kendin (Alan)";
+const F_RNG_SELF = "Kendin";
+const F_RNG_TOUCH = "Dokunuş";
+const F_RNG_SPECIAL = "Özel";
 
 let tableDefault;
 
@@ -196,7 +195,6 @@ function getClassFilterStr (c) {
 function getMetaFilterObj (s) {
 	const out = [];
 	if (s.meta && s.meta.ritual) out.push(META_RITUAL);
-	if (s.meta && s.meta.technomagic) out.push(META_TECHNOMAGIC);
 	if (s.duration.filter(d => d.concentration).length) out.push(META_ADD_CONC);
 	if (s.components.v) out.push(META_ADD_V);
 	if (s.components.s) out.push(META_ADD_S);
@@ -206,11 +204,11 @@ function getMetaFilterObj (s) {
 }
 
 function getFilterAbilitySave (ability) {
-	return `${ability.uppercaseFirst().substring(0, 3)}. Save`;
+	return `${ability.uppercaseFirst().substring(0, 3)}. Kurtulması`;
 }
 
 function getFilterAbilityCheck (ability) {
-	return `${ability.uppercaseFirst().substring(0, 3)}. Check`;
+	return `${ability.uppercaseFirst().substring(0, 3)}. Zarı`;
 }
 
 function handleBrew (homebrew) {
@@ -241,7 +239,7 @@ const subclassFilter = new Filter({header: "Altsınıf"});
 const classAndSubclassFilter = new MultiFilter("Sınıflar", classFilter, subclassFilter);
 const metaFilter = new Filter({
 	header: "Bileşenler/Diğerleri",
-	items: [META_ADD_CONC, META_ADD_V, META_ADD_S, META_ADD_M, META_ADD_M_COST, META_RITUAL, META_TECHNOMAGIC]
+	items: [META_ADD_CONC, META_ADD_V, META_ADD_S, META_ADD_M, META_ADD_M_COST, META_RITUAL]
 });
 const schoolFilter = new Filter({
 	header: "Okul",
@@ -260,18 +258,18 @@ const schoolFilter = new Filter({
 const damageFilter = new Filter({
 	header: "Hasar Tipi",
 	items: [
-		"acid", "bludgeoning", "cold", "fire", "force", "lightning", "necrotic", "piercing", "poison", "psychic", "radiant", "slashing", "thunder"
+		"asit", "ezme", "soğuk", "ateş", "güç", "yıldırım", "nekrotik", "delme", "zehir", "psişik", "radyant", "kesme", "ses"
 	],
 	displayFn: StrUtil.uppercaseFirst
 });
 const saveFilter = new Filter({
 	header: "Kurtulma Zarı",
-	items: ["strength", "constitution", "dexterity", "intelligence", "wisdom", "charisma"],
+	items: ["kuvvet", "dayanıklılık", "çeviklik", "zeka", "akıl", "karizma"],
 	displayFn: getFilterAbilitySave
 });
 const checkFilter = new Filter({
 	header: "Karşılıklı Yetenek Zarı",
-	items: ["strength", "constitution", "dexterity", "intelligence", "wisdom", "charisma"],
+	items: ["kuvvet", "dayanıklılık", "çeviklik", "zeka", "akıl", "karizma"],
 	displayFn: getFilterAbilityCheck
 });
 const timeFilter = new Filter({
@@ -423,7 +421,6 @@ function addSpells (data) {
 
 		let levelText = Parser.spLevelToFull(spell.level);
 		if (spell.meta && spell.meta.ritual) levelText += " (rit.)";
-		if (spell.meta && spell.meta.technomagic) levelText += " (tec.)";
 
 		// add eldritch knight and arcane trickster
 		if (spell.classes.fromClassList.filter(c => c.name === STR_WIZARD && c.source === SRC_PHB).length) {
@@ -447,14 +444,6 @@ function addSpells (data) {
 			spell.classes.fromSubclass.push({
 				class: {name: STR_SORCERER, source: SRC_PHB},
 				subclass: {name: STR_DIV_SOUL, source: SRC_XGE}
-			});
-			spell.classes.fromSubclass.push({
-				class: {name: STR_SORCERER, source: SRC_PHB},
-				subclass: {name: STR_FAV_SOUL_V2, source: SRC_UAS}
-			});
-			spell.classes.fromSubclass.push({
-				class: {name: STR_SORCERER, source: SRC_PHB},
-				subclass: {name: STR_FAV_SOUL_V3, source: SRC_UARSC}
 			});
 		}
 

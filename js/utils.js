@@ -254,7 +254,7 @@ class AbilityData {
 }
 
 function utils_getAbilityData (abObj) {
-	const ABILITIES = ["Str", "Dex", "Con", "Int", "Wis", "Cha"];
+	const ABILITIES = ["Kuv", "Çev", "Day", "Zek", "Akı", "Kar"];
 	const mainAbs = [];
 	const allAbs = [];
 	const negMods = [];
@@ -606,7 +606,6 @@ Parser.spLevelToFull = function (level) {
 Parser.spMetaToFull = function (meta) {
 	// these tags are (so far) mutually independent, so we don't need to combine the text
 	if (meta && meta.ritual) return " (ritüel)";
-	if (meta && meta.technomagic) return " (technomagic)";
 	return "";
 };
 
@@ -692,8 +691,8 @@ Parser.getSingletonUnit = function (unit) {
 
 Parser.spComponentsToFull = function (comp) {
 	const out = [];
-	if (comp.v) out.push("V");
-	if (comp.s) out.push("S");
+	if (comp.v) out.push("S");
+	if (comp.s) out.push("B");
 	if (comp.m) out.push("M" + (comp.m !== true ? ` (${comp.m.text || comp.m})` : ""));
 	return out.join(", ");
 };
@@ -706,7 +705,7 @@ Parser.spDurationToFull = function (dur) {
 			case "instant":
 				return `Anlık${d.condition ? ` (${d.condition})` : ""}`;
 			case "timed":
-				return `${d.concentration ? "Konsantrasyon, " : ""}${d.duration.upTo && d.concentration ? "u" : d.duration.upTo ? "U" : ""}${d.duration.upTo ? "p to " : ""}${d.duration.amount} ${d.duration.amount === 1 ? Parser.getSingletonUnit(d.duration.type) : d.duration.type}`;
+				return `${d.concentration ? "Konsantrasyon, " : ""}${d.duration.upTo ? "en fazla " : ""}${d.duration.amount} ${d.duration.amount === 1 ? Parser.getSingletonUnit(d.duration.type) : d.duration.type}`;
 			case "permanent":
 				if (d.ends) {
 					return `${d.ends.map(m => m === "dispel" ? "Defedilene kadar" : m === "trigger" ? "Tetiklenene kadar" : m === "discharge" ? "Boşalana kadar" : undefined).join(" yada ")}`
@@ -714,7 +713,7 @@ Parser.spDurationToFull = function (dur) {
 					return "Kalıcı";
 				}
 		}
-	}).join(" or ") + (dur.length > 1 ? " (see below)" : "");
+	}).join(" yada ") + (dur.length > 1 ? " (aşağıda belirtildi)" : "");
 };
 
 Parser.spClassesToFull = function (classes, textOnly) {
@@ -1088,12 +1087,12 @@ Parser.SP_SCHOOL_ABV_TO_SHORT[SKL_ABV_TRA] = "Trans.";
 Parser.SP_SCHOOL_ABV_TO_SHORT[SKL_ABV_CON] = "Conj.";
 
 Parser.ATB_ABV_TO_FULL = {
-	"str": "Kuvvet",
-	"dex": "Çeviklik",
-	"con": "Dayanıklılık",
-	"int": "Zeka",
-	"wis": "Akıl",
-	"cha": "Karizma"
+	"kuv": "Kuvvet",
+	"çev": "Çeviklik",
+	"day": "Dayanıklılık",
+	"zek": "Zeka",
+	"akı": "Akıl",
+	"kar": "Karizma"
 };
 
 TP_ABERRATION = "aberration";
@@ -2201,14 +2200,14 @@ function defaultSourceSelFn (val) {
 
 function getAsiFilter (options) {
 	const baseOptions = {
-		header: "Ability Bonus",
+		header: "Yetenek Bonusu",
 		items: [
-			"str",
-			"dex",
-			"con",
-			"int",
-			"wis",
-			"cha"
+			"kuv",
+			"çev",
+			"day",
+			"zek",
+			"akı",
+			"kar"
 		],
 		displayFn: Parser.attAbvToFull
 	};

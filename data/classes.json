@@ -1334,8 +1334,8 @@
 				"additionalFromBackground": true,
 				"default": [
 					"(a) bir meç, (b) bir uzun kılıç, yada (c) herhangi bir basit silah",
-					"(a) bir diplomat paketi yada (b) bir ozanın paketi",
-					"(a) bir lut yada (b) herhangi bir müzikal enstrüman",
+					"(a) bir diplomat paketi yada (b) bir ozan paketi",
+					"(a) bir lut yada (b) herhangi bir müzik enstrümanı",
 					"Deri zırh, ve bir hançer"
 				],
 				"goldAlternative": "5d4 × 10"
@@ -2346,9 +2346,9 @@
 				"additionalFromBackground": true,
 				"default": [
 					"(a) bir gürz yada (b) bir savaş çekici (eğer uzmansa)",
-					"(a) bir pullu zırh, (b) bir deri zırh, yada (c) bir zincir zırh (eğer uzmansa)",
+					"(a) bir pullu zırh, (b) bir deri zırh, yada (c) bir örme zırh (eğer uzmansa)",
 					"(a) bir hafif arbalet ve 20 kısa ok yada (b) herhangi bir basit silah",
-					"(a) bir rahibin paketi yada (b) bir kaşifin paketi",
+					"(a) bir rahip paketi yada (b) bir kaşif paketi",
 					"Bir kalkan ve bir kutsal sembol"
 				],
 				"goldAlternative": "5d4 × 10"
@@ -4213,8 +4213,8 @@
 				"faces": 8
 			},
 			"proficiency": [
-				"int",
-				"wis"
+				"zek",
+				"akı"
 			],
 			"classTableGroups": [
 				{
@@ -4561,7 +4561,7 @@
 				"default": [
 					"(a) bir ahşap kalkan yada (b) herhangi bir basit silah",
 					"(a) bir pala yada (b) herhangi bir basit silah",
-					"Deri zırh, bir kaşifin paketi, ve bir druid odağı"
+					"Deri zırh, bir kaşif paketi, ve bir druid odağı"
 				],
 				"goldAlternative": "2d4 × 10"
 			},
@@ -4603,14 +4603,14 @@
 										"type": "abilityDc",
 										"name": "Büyü",
 										"attributes": [
-											"wis"
+											"akı"
 										]
 									},
 									{
 										"type": "abilityAttackMod",
 										"name": "Büyü",
 										"attributes": [
-											"wis"
+											"akı"
 										]
 									}
 								]
@@ -5766,7 +5766,7 @@
 					"(a) örme zırh yada (b) deri zırh, uzun yay, ve 20 ok",
 					"(a) bir askeri silah ve bir kalkan yada (b) iki askeri silah",
 					"(a) bir hafif arbalet ve 20 kısa ok yada (b) iki el baltası",
-					"(a) bir zindancının paketi yada (b) bir kaşifin paketi"
+					"(a) bir zindancı paketi yada (b) bir kaşif paketi"
 				],
 				"goldAlternative": "5d4 × 10"
 			},
@@ -7226,7 +7226,7 @@
 				"additionalFromBackground": true,
 				"default": [
 					"(a) bir kısa kılıç yada (b) herhangi bir basit silah",
-					"(a) bir zindancının paketi yada (b) bir kaşifin paketi",
+					"(a) bir zindancı paketi yada (b) bir kaşif paketi",
 					"10 tane dart"
 				],
 				"goldAlternative": "5d4"
@@ -8342,8 +8342,8 @@
 				"default": [
 					"(a) bir askeri silah ve bir kalkan yada (b) iki askeri silah",
 					"(a) beş cirit yada (b) herhangi bir basit yakın dövüş silahı",
-					"(a) bir rahibin paketi yada (b) bir kaşifin paketi",
-					"Örme zorh ve bir kutsal sembol"
+					"(a) bir rahip paketi yada (b) bir kaşif paketi",
+					"Örme zırh ve bir kutsal sembol"
 				],
 				"goldAlternative": "5d4 × 10"
 			},
@@ -9740,7 +9740,7 @@
 				"default": [
 					"(a) pullu zırh yada (b) deri zırh",
 					"(a) iki kısa kılıç yada (b) iki basit yakın dövüş silahı",
-					"(a) zindancının paketi or (b) kaşifin paketi",
+					"(a) zindancı paketi or (b) kaşif paketi",
 					"Bir uzun yay ve içinde 20 ok olan bir sadak"
 				],
 				"goldAlternative": "5d4 × 10"
@@ -11035,7 +11035,7 @@
 				"default": [
 					"(a) bir meç yada (b) bir kısa kılıç",
 					"(a) bir kısa yay ve 20 okluk sadak yada (b) bir kısa kılıç",
-					"(a) bir hırsızın paketi, (b) bir zindancının paketi, yada (c) bir kaşifin paketi",
+					"(a) bir hırsız paketi, (b) bir zindancı paketi, yada (c) bir kaşif paketi",
 					"Deri zırh, iki hançer, ve hırsız aletleri"
 				],
 				"goldAlternative": "4d4 × 10"
@@ -12192,7 +12192,7 @@
 				"default": [
 					"(a) bir hafif arbalet ve 20 kısa ok veya (b) herhangi bir basit silah",
 					"(a) bir bileşen kesesi veya (b) bir arcane odak",
-					"(a) bir zindancının paketi veya (b) bir kaşifin paketi",
+					"(a) bir zindancı paketi veya (b) bir kaşif paketi",
 					"İki hançer"
 				],
 				"goldAlternative": "3d4 × 10"
@@ -13431,7 +13431,7 @@
 				"default": [
 					"(a) hafif arbalet ve 20 kısa ok veya (b) herhangi bir basit silah",
 					"(a) bir bileşen kesesi yada (b) bir arcane odağı",
-					"(a) bir bilgenin paketi yada (b) bir zindancının paketi",
+					"(a) bir bilge paketi yada (b) bir zindancı paketi",
 					"Deri zırh, herhangi bir basit silah, ve 2 hançer"
 				],
 				"goldAlternative": "4d4 × 10"
@@ -15006,7 +15006,7 @@
 				"default": [
 					"(a) bir asa yada (b) bir hançer",
 					"(a) bir bileşen kesesi yada (b) bir arcane odak",
-					"(a) bir bilgin paketi yada (b) bir kaşifin paketi",
+					"(a) bir bilge paketi yada (b) bir kaşif paketi",
 					"Bir büyü kitabı"
 				],
 				"goldAlternative": "4d4 × 10"

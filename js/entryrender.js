@@ -1564,20 +1564,20 @@ EntryRenderer.monster = {
 			<tr><td colspan="6">
 				<table class="summary striped-even">
 					<tr>
-						<th class="col-xs-2 text-align-center">KVT</th>
-						<th class="col-xs-2 text-align-center">ÇVK</th>
-						<th class="col-xs-2 text-align-center">DYN</th>
+						<th class="col-xs-2 text-align-center">KUV</th>
+						<th class="col-xs-2 text-align-center">ÇEV</th>
+						<th class="col-xs-2 text-align-center">DAY</th>
 						<th class="col-xs-2 text-align-center">ZEK</th>
-						<th class="col-xs-2 text-align-center">AKL</th>
-						<th class="col-xs-2 text-align-center">KRZ</th>
+						<th class="col-xs-2 text-align-center">AKI</th>
+						<th class="col-xs-2 text-align-center">KAR</th>
 					</tr>	
 					<tr>
-						<td class="text-align-center">${makeAbilityRoller("str")}</td>
-						<td class="text-align-center">${makeAbilityRoller("dex")}</td>
-						<td class="text-align-center">${makeAbilityRoller("con")}</td>
-						<td class="text-align-center">${makeAbilityRoller("int")}</td>
-						<td class="text-align-center">${makeAbilityRoller("wis")}</td>
-						<td class="text-align-center">${makeAbilityRoller("cha")}</td>
+						<td class="text-align-center">${makeAbilityRoller("kuv")}</td>
+						<td class="text-align-center">${makeAbilityRoller("çev")}</td>
+						<td class="text-align-center">${makeAbilityRoller("day")}</td>
+						<td class="text-align-center">${makeAbilityRoller("zek")}</td>
+						<td class="text-align-center">${makeAbilityRoller("akı")}</td>
+						<td class="text-align-center">${makeAbilityRoller("kar")}</td>
 					</tr>
 				</table>
 			</td></tr>
@@ -1586,7 +1586,7 @@ EntryRenderer.monster = {
 				<div class="summary-flexer">
 					${mon.save ? `<p><b>Kurtulma Zarları:</b> ${Object.keys(mon.save).map(s => makeSaveRoller(s, mon.save[s])).join(", ")}</p>` : ""}
 					${mon.skill ? `<p><b>Beceriler:</b> ${Object.keys(mon.skill).sort().map(s => makeSkillRoller(s.uppercaseFirst(), mon.skill[s])).join(", ")}</p>` : ""}
-					<p><b>Duyular:</b> ${mon.senses ? `${mon.senses}, ` : ""}pasif Algılama ${mon.passive}</p>
+					<p><b>Duyular:</b> ${mon.senses ? `${mon.senses}, ` : ""}Pasif Algı ${mon.passive}</p>
 					<p><b>Diller:</b> ${mon.languages ? mon.languages : `\u2014`}</p>
 					${mon.vulnerable ? `<p><b>Hazar Zayıflıkları:</b> ${Parser.monImmResToFull(mon.vulnerable)}</p>` : ""}
 					${mon.resist ? `<p><b>Hasar Dirençleri:</b> ${Parser.monImmResToFull(mon.resist)}</p>` : ""}
@@ -1598,9 +1598,9 @@ EntryRenderer.monster = {
 			<tr class="text compact"><td colspan="6">
 			${EntryRenderer.monster.getOrderedTraits(mon, renderer).map(it => it.rendered || renderer.renderEntry(it, 3)).join("")}
 			</td></tr>` : ""}
-			${getSection("Actions", "action", 3)}
-			${getSection("Reactions", "reaction", 3)}
-			${getSection("Legendary Actions", "legendary", 3)}
+			${getSection("Eylemler", "eylem", 3)}
+			${getSection("Reaksiyonlar", "reaksiyon", 3)}
+			${getSection("Efsanevi Eylemler", "efsanevi", 3)}
 			${mon.variant ? `
 			<tr class="text compact"><td colspan="6">
 			${mon.variant.map(it => it.rendered || renderer.renderEntry(it)).join("")}
