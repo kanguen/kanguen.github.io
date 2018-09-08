@@ -41,15 +41,15 @@
 				]
 			},
 			"entries": [
-				"You draw the moisture from every creature in a 30-foot cube centered on a point you choose within range. Each creature in that area must make a Constitution saving throw. Constructs and undead aren't affected, and plants and water elementals make this saving throw with disadvantage. A creature takes {@dice 12d8} necrotic damage on a failed save, or half as much damage on a successful one.",
+				"You draw the moisture from every creature in a 30-foot cube centered on a point you choose within range. Each creature in that area must make a Constitution saving throw. Constructs and undead aren't affected, and plants and water elementals make this saving throw with disadvantage. A creature takes {@dice 12d8} nekrotik damage on a failed save, or half as much damage on a successful one.",
 				"Nonmagical plants in the area that aren't creatures, such as trees and shrubs, wither and die instantly."
 			],
 			"page": 150,
 			"damageInflict": [
-				"necrotic"
+				"nekrotik"
 			],
 			"savingThrow": [
-				"constitution"
+				"dayanıklılık"
 			]
 		},
 		{
@@ -116,11 +116,11 @@
 			],
 			"page": 150,
 			"damageResist": [
-				"acid",
-				"cold",
-				"fire",
-				"lightning",
-				"thunder"
+				"asit",
+				"soğuk",
+				"ateş",
+				"yıldırım",
+				"ses"
 			]
 		},
 		{
@@ -177,10 +177,10 @@
 			],
 			"page": 150,
 			"damageInflict": [
-				"fire"
+				"ateş"
 			],
 			"savingThrow": [
-				"dexterity"
+				"çeviklik"
 			]
 		},
 		{
@@ -270,7 +270,7 @@
 			"entries": [
 				"You cause up to six pillars of stone to burst from places on the ground that you can see within range. Each pillar is a cylinder that has a diameter of 5 feet and a height of up to 30 feet. The ground where a pillar appears must be wide enough for its diameter, and you can target ground under a creature if that creature is Medium or smaller. Each pillar has AC 5 and 30 hit points. When reduced to 0 hit points, a pillar crumbles into rubble, which creates an area of difficult terrain with a 10-foot radius that lasts until the rubble is cleared. Each 5-foot diameter portion of the area requires at least 1 minute to clear by hand.",
 				"If a pillar is created under a creature, that creature must succeed on a Dexterity saving throw or be lifted by the pillar. A creature can choose to fail the save.",
-				"If a pillar is prevented from reaching its full height because of a ceiling or other obstacle, a creature on the pillar takes {@dice 6d6} bludgeoning damage and is {@condition restrained}, pinched between the pillar and the obstacle. The {@condition restrained} creature can use an eylem to make a Strength or Dexterity check (the creature's choice) against the spell's save DC. On a success, the creature is no longer {@condition restrained} and must either move off the pillar or fall off it."
+				"If a pillar is prevented from reaching its full height because of a ceiling or other obstacle, a creature on the pillar takes {@dice 6d6} ezme damage and is {@condition restrained}, pinched between the pillar and the obstacle. The {@condition restrained} creature can use an eylem to make a Strength or Dexterity check (the creature's choice) against the spell's save DC. On a success, the creature is no longer {@condition restrained} and must either move off the pillar or fall off it."
 			],
 			"entriesHigherLevel": [
 				{
@@ -283,14 +283,14 @@
 			],
 			"page": 150,
 			"damageInflict": [
-				"bludgeoning"
+				"ezme"
 			],
 			"savingThrow": [
-				"dexterity"
+				"çeviklik"
 			],
 			"opposedCheck": [
-				"strength",
-				"dexterity"
+				"kuvvet",
+				"çeviklik"
 			]
 		},
 		{
@@ -345,10 +345,10 @@
 			],
 			"page": 150,
 			"damageInflict": [
-				"bludgeoning"
+				"ezme"
 			],
 			"savingThrow": [
-				"dexterity"
+				"çeviklik"
 			]
 		},
 		{
@@ -469,7 +469,7 @@
 			],
 			"page": 151,
 			"savingThrow": [
-				"wisdom"
+				"akıl"
 			]
 		},
 		{
@@ -702,14 +702,14 @@
 			],
 			"page": 151,
 			"damageInflict": [
-				"acid",
-				"cold",
-				"fire",
-				"force",
-				"lightning",
-				"poison",
-				"psychic",
-				"thunder"
+				"asit",
+				"soğuk",
+				"ateş",
+				"güç",
+				"yıldırım",
+				"zehir",
+				"psişik",
+				"ses"
 			]
 		},
 		{
@@ -781,7 +781,7 @@
 			],
 			"page": 151,
 			"savingThrow": [
-				"wisdom"
+				"akıl"
 			]
 		},
 		{
@@ -922,7 +922,7 @@
 			],
 			"page": 152,
 			"savingThrow": [
-				"strength"
+				"kuvvet"
 			]
 		},
 		{
@@ -983,10 +983,10 @@
 			],
 			"page": 152,
 			"damageInflict": [
-				"fire"
+				"ateş"
 			],
 			"savingThrow": [
-				"dexterity"
+				"çeviklik"
 			]
 		},
 		{
@@ -1029,7 +1029,7 @@
 				]
 			},
 			"entries": [
-				"While speaking an intricate incantation, you cut yourself with a jewel-encrusted dagger, taking {@dice 2d4} piercing damage that can't be reduced in any way. You then drip your blood on the spell's other components and touch them, transforming them into a special construct called a homunculus.",
+				"While speaking an intricate incantation, you cut yourself with a jewel-encrusted dagger, taking {@dice 2d4} delme damage that can't be reduced in any way. You then drip your blood on the spell's other components and touch them, transforming them into a special construct called a homunculus.",
 				"The statistics of the homunculus are in the Monster Manual. It is you faithful companion, and it dies if you die. Whenever you finish a long rest, you can spend up to half your Hit Dice if the homunculus is on the same plane of existence as you. When you do so, roll each die and add your Constitution modifier to it. Your hit point maximum is reduced by that total, and the homunculus's hit point maximum and current hit points are both increased by it. This process can reduce you to no lower than 1 hit point, and the change to your and the homunculus's hit points ends when you finish your next long rest. The reduction your hit point maximum can't be removed by any means before then, except by the homunculus's death.",
 				"You can have only one homunculus at a time. If you cast this spell while your homunculus lives, the spell fails."
 			],
@@ -1082,7 +1082,7 @@
 				]
 			},
 			"entries": [
-				"Seven star-like motes of light appear and orbit your head until the spell ends. You can use a bonus eylem to send one of the motes streaking toward one creature or object within 120 feet of you. When you do so, make a ranged spell attack. On a hit, the target takes {@dice 4d12} radiant damage. Whether you hit or miss, the mote is expended. The spell ends early if you expend the last mote.",
+				"Seven star-like motes of light appear and orbit your head until the spell ends. You can use a bonus eylem to send one of the motes streaking toward one creature or object within 120 feet of you. When you do so, make a ranged spell attack. On a hit, the target takes {@dice 4d12} radyant damage. Whether you hit or miss, the mote is expended. The spell ends early if you expend the last mote.",
 				"If you have four or more motes remaining, they shed bright light in a 30-foot radius and dim light for an additional 30 feet. If you have one to three motes remaining, they shed dim light in a 30-foot radius."
 			],
 			"entriesHigherLevel": [
@@ -1096,7 +1096,7 @@
 			],
 			"page": 152,
 			"damageInflict": [
-				"radiant"
+				"radyant"
 			]
 		},
 		{
@@ -1209,15 +1209,15 @@
 			},
 			"entries": [
 				"The light of dawn shines down on a location you specify within range. Until the spell ends, a 30-foot-radius, 40-foot-high cylinder of bright light glimmers there. This light is sunlight.",
-				"When the cylinder appears, each creature in it must make a Constitution saving throw, taking {@dice 4d10} radiant damage on a failed save, or half as much damage on a successful one. A creature must also make this saving throw whenever it ends its turn in the cylinder.",
+				"When the cylinder appears, each creature in it must make a Constitution saving throw, taking {@dice 4d10} radyant damage on a failed save, or half as much damage on a successful one. A creature must also make this saving throw whenever it ends its turn in the cylinder.",
 				"If you're within 60 feet of the cylinder, you can move it up to 60 feet as a bonus eylem on your turn."
 			],
 			"page": 153,
 			"damageInflict": [
-				"radiant"
+				"radyant"
 			],
 			"savingThrow": [
-				"constitution"
+				"dayanıklılık"
 			]
 		},
 		{
@@ -1265,7 +1265,7 @@
 				]
 			},
 			"entries": [
-				"You touch one willing creature and imbue it with the power to spew magical energy from its mouth, provided it has one. Choose acid, cold, fire, lightning, or poison. Until the spell ends, the creature can use an eylem to exhale energy of the chosen type in a 15-foot cone. Each creature in that area must make a Dexterity saving throw, taking {@dice 3d6} damage of the chosen type on a failed save, or half as much damage on a successful one."
+				"You touch one willing creature and imbue it with the power to spew magical energy from its mouth, provided it has one. Choose asit, soğuk, ateş, yıldırım, or zehir. Until the spell ends, the creature can use an eylem to exhale energy of the chosen type in a 15-foot cone. Each creature in that area must make a Dexterity saving throw, taking {@dice 3d6} damage of the chosen type on a failed save, or half as much damage on a successful one."
 			],
 			"entriesHigherLevel": [
 				{
@@ -1278,7 +1278,7 @@
 			],
 			"page": 154,
 			"savingThrow": [
-				"dexterity"
+				"çeviklik"
 			]
 		},
 		{
@@ -1417,8 +1417,8 @@
 				]
 			},
 			"entries": [
-				"Choose an unoccupied 5-foot cube of air that you can see within range. An elemental force that resembles a dust devil appears in the cube and lasts for the spell's duration.",
-				"Any creature that ends its turn within 5 feet of the dust devil must make a Strength saving throw. On a failed save, the creature takes {@dice 1d8} bludgeoning damage and is pushed 10 feet away from the dust devil. On a successful save, the creature takes half as much damage and isn't pushed.",
+				"Choose an unoccupied 5-foot cube of air that you can see within range. An elemental güç that resembles a dust devil appears in the cube and lasts for the spell's duration.",
+				"Any creature that ends its turn within 5 feet of the dust devil must make a Strength saving throw. On a failed save, the creature takes {@dice 1d8} ezme damage and is pushed 10 feet away from the dust devil. On a successful save, the creature takes half as much damage and isn't pushed.",
 				"As a bonus eylem, you can move the dust devil up to 30 feet in any direction. If the dust devil moves over sand, dust, loose dirt, or light gravel, it sucks up the material and forms a 10-foot-radius cloud of debris around itself that lasts until the start of your next turn. The cloud heavily obscures its area."
 			],
 			"entriesHigherLevel": [
@@ -1432,10 +1432,10 @@
 			],
 			"page": 154,
 			"damageInflict": [
-				"bludgeoning"
+				"ezme"
 			],
 			"savingThrow": [
-				"strength"
+				"kuvvet"
 			]
 		},
 		{
@@ -1499,10 +1499,10 @@
 			],
 			"page": 155,
 			"damageInflict": [
-				"bludgeoning"
+				"ezme"
 			],
 			"savingThrow": [
-				"dexterity"
+				"çeviklik"
 			]
 		},
 		{
@@ -1561,7 +1561,7 @@
 			],
 			"page": 154,
 			"savingThrow": [
-				"strength"
+				"kuvvet"
 			]
 		},
 		{
@@ -1613,7 +1613,7 @@
 				]
 			},
 			"entries": [
-				"Choose one creature you can see within range, and choose one of the following damage types: acid, cold, fire, lightning, or thunder. The target must succeed on a Constitution saving throw or be affected by the spell for its duration. The first time each turn the affected target takes damage of the chosen type, the target takes an extra {@dice 2d6} damage of that type. Moreover, the target loses any resistance to that damage type until the spell ends."
+				"Choose one creature you can see within range, and choose one of the following damage types: asit, soğuk, ateş, yıldırım, or ses. The target must succeed on a Constitution saving throw or be affected by the spell for its duration. The first time each turn the affected target takes damage of the chosen type, the target takes an extra {@dice 2d6} damage of that type. Moreover, the target loses any resistance to that damage type until the spell ends."
 			],
 			"entriesHigherLevel": [
 				{
@@ -1626,14 +1626,14 @@
 			],
 			"page": 155,
 			"damageInflict": [
-				"acid",
-				"cold",
-				"fire",
-				"lightning",
-				"thunder"
+				"asit",
+				"soğuk",
+				"ateş",
+				"yıldırım",
+				"ses"
 			],
 			"savingThrow": [
-				"constitution"
+				"dayanıklılık"
 			]
 		},
 		{
@@ -1689,12 +1689,12 @@
 				]
 			},
 			"entries": [
-				"You reach into the mind of one creature you can see and force it to make an Intelligence saving throw. A creature automatically succeeds if it is immune to being {@condition frightened}. On a failed save, the target loses the ability to distinguish friend from foe, regarding all creatures it can see as enemies until the spell ends. Each time the target takes damage, it can repeat the saving throw, ending the effect on itself on a success.",
+				"You reach into the mind of one creature you can see and güç it to make an Intelligence saving throw. A creature automatically succeeds if it is immune to being {@condition frightened}. On a failed save, the target loses the ability to distinguish friend from foe, regarding all creatures it can see as enemies until the spell ends. Each time the target takes damage, it can repeat the saving throw, ending the effect on itself on a success.",
 				"Whenever the affected creature chooses another creature as a target, it must choose the target at random from among the creatures it can see within range of the attack, spell, or other ability it's using. If an enemy provokes an opportunity attack from the affected creature, the creature must make that attack if it is able to."
 			],
 			"page": 155,
 			"savingThrow": [
-				"intelligence"
+				"zeka"
 			]
 		},
 		{
@@ -1746,8 +1746,8 @@
 				]
 			},
 			"entries": [
-				"A tendril of inky darkness reaches out from you, touching a creature you can see within range to drain life from it. The target must make a Dexterity saving throw. On a successful save, the target takes {@dice 2d8} necrotic damage, and the spell ends. On a failed save, the target takes {@dice 4d8} necrotic damage, and until the spell ends, you can use your eylem on each of your turns to automatically deal {@dice 4d8} necrotic damage to the target. The spell ends if you use your eylem to do anything else, if the target is ever outside the spell's range, or if the target has total cover from you.",
-				"Whenever the spell deals damage to a target, you regain hit points equal to half the amount of necrotic damage the target takes."
+				"A tendril of inky darkness reaches out from you, touching a creature you can see within range to drain life from it. The target must make a Dexterity saving throw. On a successful save, the target takes {@dice 2d8} nekrotik damage, and the spell ends. On a failed save, the target takes {@dice 4d8} nekrotik damage, and until the spell ends, you can use your eylem on each of your turns to automatically deal {@dice 4d8} nekrotik damage to the target. The spell ends if you use your eylem to do anything else, if the target is ever outside the spell's range, or if the target has total cover from you.",
+				"Whenever the spell deals damage to a target, you regain hit points equal to half the amount of nekrotik damage the target takes."
 			],
 			"entriesHigherLevel": [
 				{
@@ -1760,10 +1760,10 @@
 			],
 			"page": 155,
 			"damageInflict": [
-				"necrotic"
+				"nekrotik"
 			],
 			"savingThrow": [
-				"dexterity"
+				"çeviklik"
 			]
 		},
 		{
@@ -1811,7 +1811,7 @@
 				]
 			},
 			"entries": [
-				"Choose a point you can see on the ground within range. A fountain of churned earth and stone erupts in a 20-foot cube centered on that point. Each creature in that area must make a Dexterity saving throw. A creature takes {@dice 3d12} bludgeoning damage on a failed save, or half as much damage on a successful one. Additionally, the ground in that area becomes difficult terrain until cleared. Each 5-foot-square portion of the area requires at least 1 minute to clear by hand."
+				"Choose a point you can see on the ground within range. A fountain of churned earth and stone erupts in a 20-foot cube centered on that point. Each creature in that area must make a Dexterity saving throw. A creature takes {@dice 3d12} ezme damage on a failed save, or half as much damage on a successful one. Additionally, the ground in that area becomes difficult terrain until cleared. Each 5-foot-square portion of the area requires at least 1 minute to clear by hand."
 			],
 			"entriesHigherLevel": [
 				{
@@ -1824,10 +1824,10 @@
 			],
 			"page": 155,
 			"damageInflict": [
-				"bludgeoning"
+				"ezme"
 			],
 			"savingThrow": [
-				"dexterity"
+				"çeviklik"
 			]
 		},
 		{
@@ -1977,7 +1977,7 @@
 				]
 			},
 			"entries": [
-				"You touch a quiver containing arrows or bolts. When a target is hit by a ranged weapon attack using a piece of ammunition drawn from the quiver, the target takes an extra {@dice 1d6} fire damage. The spell's magic ends on the piece of ammunition when it hits or misses, and the spell ends when twelve pieces of ammunition have been drawn from the quiver."
+				"You touch a quiver containing arrows or bolts. When a target is hit by a ranged weapon attack using a piece of ammunition drawn from the quiver, the target takes an extra {@dice 1d6} ateş damage. The spell's magic ends on the piece of ammunition when it hits or misses, and the spell ends when twelve pieces of ammunition have been drawn from the quiver."
 			],
 			"entriesHigherLevel": [
 				{
@@ -1990,7 +1990,7 @@
 			],
 			"page": 156,
 			"damageInflict": [
-				"fire"
+				"ateş"
 			]
 		},
 		{
@@ -2046,10 +2046,10 @@
 			],
 			"page": 156,
 			"damageInflict": [
-				"cold"
+				"soğuk"
 			],
 			"savingThrow": [
-				"constitution"
+				"dayanıklılık"
 			]
 		},
 		{
@@ -2109,7 +2109,7 @@
 						"Your walking speed increases by 10 feet.",
 						"You gain darkvision with a range of 120 feet.",
 						"You make Strength-based attack rolls with advantage.",
-						"Your melee weapon attacks deal an extra {@dice 1d6} force damage on a hit."
+						"Your melee weapon attacks deal an extra {@dice 1d6} güç damage on a hit."
 					]
 				},
 				{
@@ -2131,10 +2131,10 @@
 			],
 			"page": 157,
 			"damageInflict": [
-				"force"
+				"güç"
 			],
 			"savingThrow": [
-				"constitution"
+				"dayanıklılık"
 			]
 		},
 		{
@@ -2193,7 +2193,7 @@
 			],
 			"page": 157,
 			"savingThrow": [
-				"strength"
+				"kuvvet"
 			]
 		},
 		{
@@ -2300,15 +2300,15 @@
 				]
 			},
 			"entries": [
-				"You imbue a weapon you touch with holy power. Until the spell ends, the weapon emits bright light in a 30-foot radius and dim light for an additional 30 feet. In addition, weapon attacks made with it deal an extra {@dice 2d8} radiant damage on a hit. If the weapon isn't already a magic weapon, it becomes one for the duration.",
-				"As a bonus eylem on your turn, you can dismiss this spell and cause the weapon to emit a burst of radiance. Each creature of your choice that you can see within 30 feet of you must make a Constitution saving throw. On a failed save, a creature takes {@dice 4d8} radiant damage, and it is {@condition blinded} for 1 minute. On a successful save, a creature takes half as much damage and isn't {@condition blinded}. At the end of each of its turns, a {@condition blinded} creature can make a Constitution saving throw, ending the effect on itself on a success."
+				"You imbue a weapon you touch with holy power. Until the spell ends, the weapon emits bright light in a 30-foot radius and dim light for an additional 30 feet. In addition, weapon attacks made with it deal an extra {@dice 2d8} radyant damage on a hit. If the weapon isn't already a magic weapon, it becomes one for the duration.",
+				"As a bonus eylem on your turn, you can dismiss this spell and cause the weapon to emit a burst of radiance. Each creature of your choice that you can see within 30 feet of you must make a Constitution saving throw. On a failed save, a creature takes {@dice 4d8} radyant damage, and it is {@condition blinded} for 1 minute. On a successful save, a creature takes half as much damage and isn't {@condition blinded}. At the end of each of its turns, a {@condition blinded} creature can make a Constitution saving throw, ending the effect on itself on a success."
 			],
 			"page": 157,
 			"damageInflict": [
-				"radiant"
+				"radyant"
 			],
 			"savingThrow": [
-				"constitution"
+				"dayanıklılık"
 			]
 		},
 		{
@@ -2368,11 +2368,11 @@
 			],
 			"page": 157,
 			"damageInflict": [
-				"cold",
-				"piercing"
+				"soğuk",
+				"delme"
 			],
 			"savingThrow": [
-				"dexterity"
+				"çeviklik"
 			]
 		},
 		{
@@ -2417,24 +2417,24 @@
 			"entries": [
 				"By gathering threads of shadow material from the Shadowfell, you create a Huge shadowy dragon in an unoccupied space that you can see within range. The illusion lasts for the spell's duration and occupies its space, as if it were a creature",
 				"When the illusion appears, any of your enemies that can see it must succeed on a Wisdom saving throw or become {@condition frightened} of it for 1 minute. If a {@condition frightened} creature ends its turn in a location where it doesn't have line of sight to the illusion, it can repeat the saving throw, ending the effect on itself on a success.",
-				"As a bonus eylem on your turn, you can move the illusion up to 60 feet. At any point during its movement, you can cause it to exhale a blast of energy in a 60-foot cone originating from its space. When you create the dragon, choose a damage type: acid, cold, fire, lightning, necrotic, or poison. Each creature in the cone must make an Intelligence saving throw, taking {@dice 7d6} damage of the chosen damage type on a failed save, or half as much damage on a successful one.",
+				"As a bonus eylem on your turn, you can move the illusion up to 60 feet. At any point during its movement, you can cause it to exhale a blast of energy in a 60-foot cone originating from its space. When you create the dragon, choose a damage type: asit, soğuk, ateş, yıldırım, nekrotik, or zehir. Each creature in the cone must make an Intelligence saving throw, taking {@dice 7d6} damage of the chosen damage type on a failed save, or half as much damage on a successful one.",
 				"The illusion is tangible because of the shadow stuff used to create it, but attacks miss it automatically, it succeeds on all saving throws, and it is immune to all damage and conditions. A creature that uses an eylem to examine the dragon can determine that it is an illusion by succeeding on an Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through it and has advantage on saving throws against its breath."
 			],
 			"page": 157,
 			"damageInflict": [
-				"acid",
-				"cold",
-				"fire",
-				"lightning",
-				"necrotic",
-				"poison"
+				"asit",
+				"soğuk",
+				"ateş",
+				"yıldırım",
+				"nekrotik",
+				"zehir"
 			],
 			"savingThrow": [
-				"wisdom",
-				"intelligence"
+				"akıl",
+				"zeka"
 			],
 			"opposedCheck": [
-				"intelligence"
+				"zeka"
 			]
 		},
 		{
@@ -2481,15 +2481,15 @@
 				]
 			},
 			"entries": [
-				"Flames wreathe one creature you can see within range. The target must make a Dexterity saving throw. It takes {@dice 8d6} fire damage on a failed save, or half as much damage on a successful one. On a failed save, the target also burns for the spell's duration. The burning target sheds bright light in a 30-foot radius and dim light for an additional 30 feet. At the end of each of its turns, the target repeats the saving throw. It takes {@dice 4d6} fire damage on a failed save, and the spell ends on a successful one. These magical flames can't be extinguished by nonmagical means.",
+				"Flames wreathe one creature you can see within range. The target must make a Dexterity saving throw. It takes {@dice 8d6} ateş damage on a failed save, or half as much damage on a successful one. On a failed save, the target also burns for the spell's duration. The burning target sheds bright light in a 30-foot radius and dim light for an additional 30 feet. At the end of each of its turns, the target repeats the saving throw. It takes {@dice 4d6} ateş damage on a failed save, and the spell ends on a successful one. These magical flames can't be extinguished by nonmagical means.",
 				"If damage from this spell kills a target, the target is turned to ash."
 			],
 			"page": 158,
 			"damageInflict": [
-				"fire"
+				"ateş"
 			],
 			"savingThrow": [
-				"dexterity"
+				"çeviklik"
 			]
 		},
 		{
@@ -2612,10 +2612,10 @@
 			],
 			"page": 158,
 			"damageInflict": [
-				"poison"
+				"zehir"
 			],
 			"savingThrow": [
-				"constitution"
+				"dayanıklılık"
 			]
 		},
 		{
@@ -2674,24 +2674,24 @@
 				{
 					"type": "list",
 					"items": [
-						"You are immune to fire damage and have resistance to cold damage.",
-						"Any creature that moves within 5 feet of you for the first time on a turn or ends its turn there takes {@dice 1d10} fire damage.",
-						"You can use your eylem to create a line of fire 15 feet long and 5 feet wide extending from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes {@dice 4d8} fire damage on a failed save, or half as much damage on a successful one."
+						"You are immune to ateş damage and have resistance to soğuk damage.",
+						"Any creature that moves within 5 feet of you for the first time on a turn or ends its turn there takes {@dice 1d10} ateş damage.",
+						"You can use your eylem to create a line of ateş 15 feet long and 5 feet wide extending from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes {@dice 4d8} ateş damage on a failed save, or half as much damage on a successful one."
 					]
 				}
 			],
 			"page": 159,
 			"damageImmune": [
-				"fire"
+				"ateş"
 			],
 			"damageInflict": [
-				"fire"
+				"ateş"
 			],
 			"damageResist": [
-				"cold"
+				"soğuk"
 			],
 			"savingThrow": [
-				"dexterity"
+				"çeviklik"
 			]
 		},
 		{
@@ -2750,25 +2750,25 @@
 				{
 					"type": "list",
 					"items": [
-						"You are immune to cold damage and have resistance to fire damage.",
+						"You are immune to soğuk damage and have resistance to ateş damage.",
 						"You can move across difficult terrain created by ice or snow without spending extra movement.",
 						"The ground in a 10-foot radius around you is icy and is difficult terrain for creatures other than you. The radius moves with you.",
-						"You can use your eylem to create a 15-foot cone of freezing wind extending from your outstretched hand in a direction you choose. Each creature in the cone must make a Constitution saving throw. A creature takes {@dice 4d6} cold damage on a failed save, or half as much damage on a successful one. A creature that fails its save against this effect has its speed halved until the start of your next turn."
+						"You can use your eylem to create a 15-foot cone of freezing wind extending from your outstretched hand in a direction you choose. Each creature in the cone must make a Constitution saving throw. A creature takes {@dice 4d6} soğuk damage on a failed save, or half as much damage on a successful one. A creature that fails its save against this effect has its speed halved until the start of your next turn."
 					]
 				}
 			],
 			"page": 159,
 			"damageImmune": [
-				"cold"
+				"soğuk"
 			],
 			"damageInflict": [
-				"cold"
+				"soğuk"
 			],
 			"damageResist": [
-				"fire"
+				"ateş"
 			],
 			"savingThrow": [
-				"constitution"
+				"dayanıklılık"
 			]
 		},
 		{
@@ -2827,7 +2827,7 @@
 				{
 					"type": "list",
 					"items": [
-						"You have resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+						"You have resistance to ezme, delme, and kesme damage from nonmagical attacks.",
 						"You can use your eylem to create a small earthquake on the ground in a 15-foot radius centered on you. Other creatures on that ground must succeed on a Dexterity saving throw or be knocked {@condition prone}.",
 						"You can move across difficult terrain made of earth or stone without spending extra movement. You can move through solid earth or stone as if it was air and without destabilizing it, but you can't end your movement there. If you do so, you are ejected to the nearest unoccupied space, this spell ends, and you are {@condition stunned} until the end of your next turn."
 					]
@@ -2835,12 +2835,12 @@
 			],
 			"page": 159,
 			"damageResist": [
-				"bludgeoning",
-				"piercing",
-				"slashing"
+				"ezme",
+				"delme",
+				"kesme"
 			],
 			"savingThrow": [
-				"dexterity"
+				"çeviklik"
 			]
 		},
 		{
@@ -2901,16 +2901,16 @@
 					"items": [
 						"Ranged weapon attacks made against you have disadvantage on the attack roll.",
 						"You gain a flying speed of 60 feet. If you are still flying when the spell ends, you fall, unless you can somehow prevent it.",
-						"You can use your eylem to create a 15-foot cube of swirling wind centered on a point you can see within 60 feet of you. Each creature in that area must make a Constitution saving throw. A creature takes {@dice 2d10} bludgeoning damage on a failed save, or half as much damage on a successful one. If a Large or smaller creature fails the save, that creature is also pushed up to 10 feet away from the center of the cube."
+						"You can use your eylem to create a 15-foot cube of swirling wind centered on a point you can see within 60 feet of you. Each creature in that area must make a Constitution saving throw. A creature takes {@dice 2d10} ezme damage on a failed save, or half as much damage on a successful one. If a Large or smaller creature fails the save, that creature is also pushed up to 10 feet away from the center of the cube."
 					]
 				}
 			],
 			"page": 160,
 			"damageInflict": [
-				"bludgeoning"
+				"ezme"
 			],
 			"savingThrow": [
-				"constitution"
+				"dayanıklılık"
 			]
 		},
 		{
@@ -3002,7 +3002,7 @@
 				]
 			},
 			"entries": [
-				"You sacrifice some of your health to mend another creature's injuries. You take {@dice 4d8} necrotic damage, and one creature of your choice that you can see within range regains a number of hit points equal to twice the necrotic damage you take."
+				"You sacrifice some of your health to mend another creature's injuries. You take {@dice 4d8} nekrotik damage, and one creature of your choice that you can see within range regains a number of hit points equal to twice the nekrotik damage you take."
 			],
 			"entriesHigherLevel": [
 				{
@@ -3015,7 +3015,7 @@
 			],
 			"page": 160,
 			"damageInflict": [
-				"necrotic"
+				"nekrotik"
 			]
 		},
 		{
@@ -3064,14 +3064,14 @@
 			},
 			"entries": [
 				"Magical darkness spreads from a point you choose within range to fill a 60-foot-radius sphere until the spell ends. The darkness spreads around corners. A creature with darkvision can't see through this darkness. Non-magical light, as well as light created by spells of 8th level or lower, can't illuminate the area.",
-				"Shrieks, gibbering, and mad laughter can be heard within the sphere. Whenever a creature starts its turn in the sphere, it must make a Wisdom saving throw, taking {@dice 8d8} psychic damage on a failed save, or half as much damage on a successful one."
+				"Shrieks, gibbering, and mad laughter can be heard within the sphere. Whenever a creature starts its turn in the sphere, it must make a Wisdom saving throw, taking {@dice 8d8} psişik damage on a failed save, or half as much damage on a successful one."
 			],
 			"page": 160,
 			"damageInflict": [
-				"psychic"
+				"psişik"
 			],
 			"savingThrow": [
-				"wisdom"
+				"akıl"
 			]
 		},
 		{
@@ -3116,14 +3116,14 @@
 				]
 			},
 			"entries": [
-				"A swirling mass of 5-foot-deep water appears in a 30-foot radius centered on a point you can see within range. The point must be on ground or in a body of water. Until the spell ends, that area is difficult terrain, and any creature that starts its turn there must succeed on a Strength saving throw or take {@dice 6d6} bludgeoning damage and be pulled 10 feet toward the center."
+				"A swirling mass of 5-foot-deep water appears in a 30-foot radius centered on a point you can see within range. The point must be on ground or in a body of water. Until the spell ends, that area is difficult terrain, and any creature that starts its turn there must succeed on a Strength saving throw or take {@dice 6d6} ezme damage and be pulled 10 feet toward the center."
 			],
 			"page": 160,
 			"damageInflict": [
-				"bludgeoning"
+				"ezme"
 			],
 			"savingThrow": [
-				"strength"
+				"kuvvet"
 			]
 		},
 		{
@@ -3174,7 +3174,7 @@
 			],
 			"page": 160,
 			"damageInflict": [
-				"bludgeoning"
+				"ezme"
 			]
 		},
 		{
@@ -3235,7 +3235,7 @@
 			],
 			"page": 160,
 			"savingThrow": [
-				"wisdom"
+				"akıl"
 			]
 		},
 		{
@@ -3284,20 +3284,20 @@
 				]
 			},
 			"entries": [
-				"You choose a 5-foot-square unoccupied space on the ground that you can see within range. A Medium hand made from compacted soil rises there and reaches for one creature you can see within 5 feet of it. The target must make a Strength saving throw. On a failed save, the target takes {@dice 2d6} bludgeoning damage and is {@condition restrained} for the spell's duration.",
-				"As an eylem, you can cause the hand to crush the {@condition restrained} target, which must make a Strength saving throw. The target takes {@dice 2d6} bludgeoning damage on a failed save, or half as much damage on a successful one.",
+				"You choose a 5-foot-square unoccupied space on the ground that you can see within range. A Medium hand made from compacted soil rises there and reaches for one creature you can see within 5 feet of it. The target must make a Strength saving throw. On a failed save, the target takes {@dice 2d6} ezme damage and is {@condition restrained} for the spell's duration.",
+				"As an eylem, you can cause the hand to crush the {@condition restrained} target, which must make a Strength saving throw. The target takes {@dice 2d6} ezme damage on a failed save, or half as much damage on a successful one.",
 				"To break out, the {@condition restrained} target can use its eylem to make a Strength check against your spell save DC. On a success, the target escapes and is no longer {@condition restrained} by the hand.",
 				"As an eylem, you can cause the hand to reach for a different creature or to move to a different unoccupied space within range. The hand releases a {@condition restrained} target if you do either."
 			],
 			"page": 161,
 			"damageInflict": [
-				"bludgeoning"
+				"ezme"
 			],
 			"savingThrow": [
-				"strength"
+				"kuvvet"
 			],
 			"opposedCheck": [
-				"strength"
+				"kuvvet"
 			]
 		},
 		{
@@ -3345,7 +3345,7 @@
 				]
 			},
 			"entries": [
-				"You create six tiny meteors in your space. They float in the air and orbit you for the spell's duration. When you cast the spell\u2014and as a bonus eylem on each of your turns thereafter\u2014you can expend one or two of the meteors, sending them streaking toward a point or points you choose within 120 feet of you. Once a meteor reaches its destination or impacts against a solid surface, the meteor explodes. Each creature within 5 feet of the point where the meteor explodes must make a Dexterity saving throw. A creature takes {@dice 2d6} fire damage on a failed save, or half as much damage on a successful one."
+				"You create six tiny meteors in your space. They float in the air and orbit you for the spell's duration. When you cast the spell\u2014and as a bonus eylem on each of your turns thereafter\u2014you can expend one or two of the meteors, sending them streaking toward a point or points you choose within 120 feet of you. Once a meteor reaches its destination or impacts against a solid surface, the meteor explodes. Each creature within 5 feet of the point where the meteor explodes must make a Dexterity saving throw. A creature takes {@dice 2d6} ateş damage on a failed save, or half as much damage on a successful one."
 			],
 			"entriesHigherLevel": [
 				{
@@ -3358,10 +3358,10 @@
 			],
 			"page": 161,
 			"damageInflict": [
-				"fire"
+				"ateş"
 			],
 			"savingThrow": [
-				"dexterity"
+				"çeviklik"
 			]
 		},
 		{
@@ -3412,14 +3412,14 @@
 				]
 			},
 			"entries": [
-				"You attempt to bind a creature within an illusory cell that only it perceives. One creature you can see within range must make an Intelligence saving throw. The target succeeds automatically if it is immune to being {@condition charmed}. On a successful save, the target takes {@dice 5d10} psychic damage, and the spell ends. On a failed save, the target takes {@dice 5d10} psychic damage, and you make the area immediately around the target's space appear dangerous to it in some way. You might cause the target to perceive itself as being surrounded by fire, floating razors, or hideous maws filled with dripping teeth. Whatever form the illusion takes, the target can't see or hear anything beyond it and is {@condition restrained} for the spell's duration. If the target is moved out of the illusion, makes a melee attack through it, or reaches any part of its body through it, the target takes {@dice 10d10} psychic damage, and the spell ends."
+				"You attempt to bind a creature within an illusory cell that only it perceives. One creature you can see within range must make an Intelligence saving throw. The target succeeds automatically if it is immune to being {@condition charmed}. On a successful save, the target takes {@dice 5d10} psişik damage, and the spell ends. On a failed save, the target takes {@dice 5d10} psişik damage, and you make the area immediately around the target's space appear dangerous to it in some way. You might cause the target to perceive itself as being surrounded by ateş, floating razors, or hideous maws filled with dripping teeth. Whatever form the illusion takes, the target can't see or hear anything beyond it and is {@condition restrained} for the spell's duration. If the target is moved out of the illusion, makes a melee attack through it, or reaches any part of its body through it, the target takes {@dice 10d10} psişik damage, and the spell ends."
 			],
 			"page": 161,
 			"damageInflict": [
-				"psychic"
+				"psişik"
 			],
 			"savingThrow": [
-				"intelligence"
+				"zeka"
 			]
 		},
 		{
@@ -3467,17 +3467,17 @@
 				"The fortress has four turrets with square bases, each one 20 feet on a side and 30 feet tall, with one turret on each corner. The turrets are connected to each other by stone walls that are each 80 feet long, creating an enclosed area. Each wall is 1 foot thick and is composed of panels that are 10 feet wide and 20 feet tall. Each panel is contiguous with two other panels or one other panel and a turret. You can place up to four stone doors in the fortress's outer wall.",
 				"A small keep stands inside the enclosed area. The keep has a square base that is 50 feet on each side, and it has three floors with 10-foot-high ceilings. Each of the floors can be divided into as many room as you like, provided each room is at least 5 feet on each side. The floors of the keep are connected by stone staircases, its walls are 6 inches thick, and interior rooms can have stone doors or open archways as you choose. The keep is furnished and decorated however you like, and it contains sufficient food to serve a nine-course banquet for up to 100 people each day. Furnishings, food, and other objects created by this spell crumble to dust if removed from the fortress.",
 				"A staff of one hundred invisible servants obeys any command given to them by creatures you designate when you cast the spell. Each servant functions as if created by the unseen servant spell.",
-				"The walls, turrets, and keep are all made of stone that can be damaged. Each 10-foot-by-10-foot section of stone has AC 15 and 30 hit points per inch of thickness. It is immune to poison and psychic damage. Reducing a section of stone to 0 hit points destroys it and might cause connected sections to buckle and collapse at the DM's discretion.",
+				"The walls, turrets, and keep are all made of stone that can be damaged. Each 10-foot-by-10-foot section of stone has AC 15 and 30 hit points per inch of thickness. It is immune to zehir and psişik damage. Reducing a section of stone to 0 hit points destroys it and might cause connected sections to buckle and collapse at the DM's discretion.",
 				"After 7 days or when you cast this spell somewhere else, the fortress harmlessly crumbles and sinks back into the ground, leaving any creatures that were inside it safely on the ground.",
 				"Casting this spell on the same spot once every 7 days for a year makes this fortress permanent."
 			],
 			"page": 161,
 			"damageInflict": [
-				"psychic"
+				"psişik"
 			],
 			"damageImmune": [
-				"poison",
-				"psychic"
+				"zehir",
+				"psişik"
 			]
 		},
 		{
@@ -3528,7 +3528,7 @@
 				]
 			},
 			"entries": [
-				"You reach into the mind of one creature you can see within range. The target must make a Wisdom saving throw, taking {@dice 3d8} psychic damage on a failed save, or half as much damage on a successful one. On a failed save, you also always know the target's location until the spell ends, but only while the two of you are on the same plane of existence. While you have this knowledge, the target can't become hidden from you, and if it's {@condition invisible} it gains no benefit from that condition against you."
+				"You reach into the mind of one creature you can see within range. The target must make a Wisdom saving throw, taking {@dice 3d8} psişik damage on a failed save, or half as much damage on a successful one. On a failed save, you also always know the target's location until the spell ends, but only while the two of you are on the same plane of existence. While you have this knowledge, the target can't become hidden from you, and if it's {@condition invisible} it gains no benefit from that condition against you."
 			],
 			"entriesHigherLevel": [
 				{
@@ -3541,10 +3541,10 @@
 			],
 			"page": 162,
 			"damageInflict": [
-				"psychic"
+				"psişik"
 			],
 			"savingThrow": [
-				"wisdom"
+				"akıl"
 			]
 		},
 		{
@@ -3650,15 +3650,15 @@
 				]
 			},
 			"entries": [
-				"You send ribbons of negative energy at one creature you can see within range. Unless the target is undead, it must make a Constitution saving throw, taking {@dice 5d12} necrotic damage on a failed save, or half as much damage on a successful one. A target killed by this damage rises up as a zombie at the start of your next turn. The zombie pursues whatever creature it can see that is closest to it. Statistics for the zombie are in the Monster Manual.",
+				"You send ribbons of negative energy at one creature you can see within range. Unless the target is undead, it must make a Constitution saving throw, taking {@dice 5d12} nekrotik damage on a failed save, or half as much damage on a successful one. A target killed by this damage rises up as a zombie at the start of your next turn. The zombie pursues whatever creature it can see that is closest to it. Statistics for the zombie are in the Monster Manual.",
 				"If you target an undead with this spell, the target doesn't make a saving throw. Instead, roll {@dice 5d12}. The target gains half the total as temporary hit points."
 			],
 			"page": 163,
 			"damageInflict": [
-				"necrotic"
+				"nekrotik"
 			],
 			"savingThrow": [
-				"constitution"
+				"dayanıklılık"
 			]
 		},
 		{
@@ -3710,7 +3710,7 @@
 			],
 			"page": 163,
 			"savingThrow": [
-				"constitution"
+				"dayanıklılık"
 			]
 		},
 		{
@@ -3752,7 +3752,7 @@
 			],
 			"page": 163,
 			"damageInflict": [
-				"acid"
+				"asit"
 			]
 		},
 		{
@@ -3795,18 +3795,18 @@
 				]
 			},
 			"entries": [
-				"You have resistance to acid, cold, fire, lightning, and thunder damage for the spell's duration.",
+				"You have resistance to asit, soğuk, ateş, yıldırım, and ses damage for the spell's duration.",
 				"When you take damage of one of those types, you can use your reaction to gain immunity to that type of damage, including against the triggering damage. If you do so, the resistances end, and you have the immunity until the end of your next turn, at which time the spell ends."
 			],
 			"page": 163,
 			"damageInflict": [
-				"thunder"
+				"ses"
 			],
 			"damageImmune": [
-				"acid",
-				"cold",
-				"fire",
-				"lightning"
+				"asit",
+				"soğuk",
+				"ateş",
+				"yıldırım"
 			]
 		},
 		{
@@ -3857,15 +3857,15 @@
 			},
 			"entries": [
 				"You unleash the power of your mind to blast the intellect of up to ten creatures of your choice that you can see within range. Creatures that have an Intelligence score of 2 or lower are unaffected.",
-				"Each target must make an Intelligence saving throw. On a failed save, a target takes {@dice 14d6} psychic damage and is {@condition stunned}. On a successful save, a target takes half as much damage and isn't {@condition stunned}. If a target is killed by this damage, its head explodes, assuming it has one.",
+				"Each target must make an Intelligence saving throw. On a failed save, a target takes {@dice 14d6} psişik damage and is {@condition stunned}. On a successful save, a target takes half as much damage and isn't {@condition stunned}. If a target is killed by this damage, its head explodes, assuming it has one.",
 				"A {@condition stunned} target can make an Intelligence saving throw at the end of each of its turns. On a successful save, the stunning effect ends."
 			],
 			"page": 163,
 			"damageInflict": [
-				"psychic"
+				"psişik"
 			],
 			"savingThrow": [
-				"intelligence"
+				"zeka"
 			]
 		},
 		{
@@ -3912,7 +3912,7 @@
 				]
 			},
 			"entries": [
-				"Choose an area of flame that you can see and that can fit within a 5-foot cube within range. You can extinguish the fire in that area, and you create either fireworks or smoke when you do so.",
+				"Choose an area of flame that you can see and that can fit within a 5-foot cube within range. You can extinguish the ateş in that area, and you create either fireworks or smoke when you do so.",
 				{
 					"type": "entries",
 					"name": "Fireworks",
@@ -3930,7 +3930,7 @@
 			],
 			"page": 163,
 			"savingThrow": [
-				"constitution"
+				"dayanıklılık"
 			]
 		},
 		{
@@ -3980,7 +3980,7 @@
 			],
 			"page": 164,
 			"savingThrow": [
-				"wisdom"
+				"akıl"
 			]
 		},
 		{
@@ -4031,7 +4031,7 @@
 				]
 			},
 			"entries": [
-				"You weave together threads of shadow to create a sword of solidified gloom in your hand. This magic sword lasts until the spell ends. It counts as a simple melee weapon with which you are proficient. It deals {@dice 2d8} psychic damage on a hit and has the finesse, light, and thrown properties (range 20/60). In addition, when you use the sword to attack a target that is in dim light or darkness, you make the attack roll with advantage.",
+				"You weave together threads of shadow to create a sword of solidified gloom in your hand. This magic sword lasts until the spell ends. It counts as a simple melee weapon with which you are proficient. It deals {@dice 2d8} psişik damage on a hit and has the finesse, light, and thrown properties (range 20/60). In addition, when you use the sword to attack a target that is in dim light or darkness, you make the attack roll with advantage.",
 				"If you drop the weapon or throw it, it dissipates at the end of the turn. Thereafter, while the spell persists, you can use a bonus eylem to cause the sword to reappear in your hand."
 			],
 			"entriesHigherLevel": [
@@ -4045,7 +4045,7 @@
 			],
 			"page": 164,
 			"damageInflict": [
-				"psychic"
+				"psişik"
 			]
 		},
 		{
@@ -4093,14 +4093,14 @@
 			},
 			"entries": [
 				"Flame-like shadows wreathe your body until the spell ends, causing you to become heavily obscured to others. The shadows turn dim light within 10 feet of you into darkness, and bright light in the same area to dim light.",
-				"Until the spell ends, you have resistance to radiant damage. In addition, whenever a creature within 10 feet of you hits you with an attack, the shadows lash out at that creature, dealing it {@dice 2d8} necrotic damage."
+				"Until the spell ends, you have resistance to radyant damage. In addition, whenever a creature within 10 feet of you hits you with an attack, the shadows lash out at that creature, dealing it {@dice 2d8} nekrotik damage."
 			],
 			"page": 164,
 			"damageInflict": [
-				"necrotic"
+				"nekrotik"
 			],
 			"damageResist": [
-				"radiant"
+				"radyant"
 			]
 		},
 		{
@@ -4217,14 +4217,14 @@
 			},
 			"entries": [
 				"Dim, greenish light spreads within a 30-foot-radius sphere centered on a point you choose within range. The light spreads around corners, and it lasts until the spell ends.",
-				"When a creature moves into the spell's area for the first time on a turn or starts its turn there, that creature must succeed on a Constitution saving throw or take {@dice 4d10} radiant damage, and it suffers one level of {@condition exhaustion} and emits a dim, greenish light in a 5-foot radius. This light makes it impossible for the creature to benefit from being {@condition invisible}. The light and any levels of {@condition exhaustion} caused by this spell go away when the spell ends."
+				"When a creature moves into the spell's area for the first time on a turn or starts its turn there, that creature must succeed on a Constitution saving throw or take {@dice 4d10} radyant damage, and it suffers one level of {@condition exhaustion} and emits a dim, greenish light in a 5-foot radius. This light makes it impossible for the creature to benefit from being {@condition invisible}. The light and any levels of {@condition exhaustion} caused by this spell go away when the spell ends."
 			],
 			"page": 164,
 			"damageInflict": [
-				"radiant"
+				"radyant"
 			],
 			"savingThrow": [
-				"constitution"
+				"dayanıklılık"
 			]
 		},
 		{
@@ -4394,10 +4394,10 @@
 			],
 			"page": 165,
 			"savingThrow": [
-				"dexterity"
+				"çeviklik"
 			],
 			"opposedCheck": [
-				"intelligence"
+				"zeka"
 			]
 		},
 		{
@@ -4441,7 +4441,7 @@
 				]
 			},
 			"entries": [
-				"A flurry of magic snowballs erupts from a point you choose within range. Each creature in a 5-foot-radius sphere centered on that point must make a Dexterity saving throw. A creature takes {@dice 3d6} cold damage on a failed save, or half as much damage on a successful one."
+				"A flurry of magic snowballs erupts from a point you choose within range. Each creature in a 5-foot-radius sphere centered on that point must make a Dexterity saving throw. A creature takes {@dice 3d6} soğuk damage on a failed save, or half as much damage on a successful one."
 			],
 			"entriesHigherLevel": [
 				{
@@ -4454,10 +4454,10 @@
 			],
 			"page": 165,
 			"damageInflict": [
-				"cold"
+				"soğuk"
 			],
 			"savingThrow": [
-				"dexterity"
+				"çeviklik"
 			]
 		},
 		{
@@ -4582,12 +4582,12 @@
 				]
 			},
 			"entries": [
-				"You flourish the weapon used in the casting and then vanish to strike like the wind. Choose up to five creatures you can see within range. Make a melee spell attack against each target. On a hit, a target takes {@dice 6d10} force damage.",
+				"You flourish the weapon used in the casting and then vanish to strike like the wind. Choose up to five creatures you can see within range. Make a melee spell attack against each target. On a hit, a target takes {@dice 6d10} güç damage.",
 				"You can then teleport to an unoccupied space you can see within 5 feet of one of the targets you hit or missed."
 			],
 			"page": 166,
 			"damageInflict": [
-				"force"
+				"güç"
 			]
 		},
 		{
@@ -4635,8 +4635,8 @@
 				]
 			},
 			"entries": [
-				"A 20-foot-radius sphere of whirling air springs into existence, centered on a point you choose within range. The sphere remains for the spell's duration. Each creature in the sphere when it appears or that ends its turn there must succeed on a Strength saving throw or take {@dice 2d6} bludgeoning damage. The sphere's space is difficult terrain.",
-				"Until the spell ends, you can use a bonus eylem on each of your turns to cause a bolt of lightning to leap from the center of the sphere toward one creature you choose within 60 feet of the center. Make a ranged spell attack. You have advantage on the attack roll if the target is in the sphere. On a hit, the target takes {@dice 4d6} lightning damage.",
+				"A 20-foot-radius sphere of whirling air springs into existence, centered on a point you choose within range. The sphere remains for the spell's duration. Each creature in the sphere when it appears or that ends its turn there must succeed on a Strength saving throw or take {@dice 2d6} ezme damage. The sphere's space is difficult terrain.",
+				"Until the spell ends, you can use a bonus eylem on each of your turns to cause a bolt of yıldırım to leap from the center of the sphere toward one creature you choose within 60 feet of the center. Make a ranged spell attack. You have advantage on the attack roll if the target is in the sphere. On a hit, the target takes {@dice 4d6} yıldırım damage.",
 				"Creatures within 30 feet of the sphere have disadvantage on Wisdom (Perception) checks made to listen."
 			],
 			"entriesHigherLevel": [
@@ -4650,11 +4650,11 @@
 			],
 			"page": 166,
 			"damageInflict": [
-				"bludgeoning",
-				"lightning"
+				"ezme",
+				"yıldırım"
 			],
 			"savingThrow": [
-				"strength"
+				"kuvvet"
 			]
 		},
 		{
@@ -4719,7 +4719,7 @@
 			],
 			"page": 166,
 			"savingThrow": [
-				"charisma"
+				"karizma"
 			]
 		},
 		{
@@ -4875,16 +4875,16 @@
 				]
 			},
 			"entries": [
-				"You choose a point within range and cause psychic energy to explode there. Each creature in a 20-foot-radius sphere centered on that point must make an Intelligence saving throw. A creature with an Intelligence score of 2 or lower can't be affected by this spell. A target takes {@dice 8d6} psychic damage on a failed save, or half as much damage on a successful one.",
+				"You choose a point within range and cause psişik energy to explode there. Each creature in a 20-foot-radius sphere centered on that point must make an Intelligence saving throw. A creature with an Intelligence score of 2 or lower can't be affected by this spell. A target takes {@dice 8d6} psişik damage on a failed save, or half as much damage on a successful one.",
 				"After a failed save, a target has muddled thoughts for 1 minute. During that time, it rolls a {@dice d6} and subtracts the number rolled from all its attack rolls and ability checks, as well as its Constitution saving throws to maintain concentration. The target can make an Intelligence saving throw at the end of each of its turns, ending the effect on itself on a success."
 			],
 			"page": 167,
 			"damageInflict": [
-				"psychic"
+				"psişik"
 			],
 			"savingThrow": [
-				"intelligence",
-				"constitution"
+				"zeka",
+				"dayanıklılık"
 			]
 		},
 		{
@@ -4937,12 +4937,12 @@
 				"The temple opposes types of creatures you choose when you cast this spell. Choose one or more of the following: celestials, elementals, fey, fiends, or undead. If a creature of the chosen type attempts to enter the temple, that creature must make a Charisma saving throw. On a failed save, it can't enter the temple for 24 saat. Even if the creature can enter the temple, the magic there hinders it; whenever it makes an attack roll, an ability check, or a saving throw inside the temple, it must roll a {@dice d4} and subtract the number rolled from the {@dice d20} roll.",
 				"In addition, the sensors created by divination spells can't appear inside the temple, and creatures within can't be targeted by divination spells.",
 				"Finally, whenever any creature in the temple regains hit points from a spell of 1st level or higher, the creature regains additional hit points equal to your Wisdom modifier (minimum 1 hit point).",
-				"The temple is made from opaque magical force that extends into the Ethereal Plane, thus blocking ethereal travel into the temple's interior. Nothing can physically pass through the temple's exterior. It can't be dispelled by dispel magic, and antimagic field has no effect on it. A disintegrate spell destroys the temple instantly.",
+				"The temple is made from opaque magical güç that extends into the Ethereal Plane, thus blocking ethereal travel into the temple's interior. Nothing can physically pass through the temple's exterior. It can't be dispelled by dispel magic, and antimagic field has no effect on it. A disintegrate spell destroys the temple instantly.",
 				"Casting this spell on the same spot every day for a year makes this effect permanent."
 			],
 			"page": 167,
 			"savingThrow": [
-				"charisma"
+				"karizma"
 			]
 		},
 		{
@@ -4992,7 +4992,7 @@
 					"items": [
 						"You gain 50 temporary hit points. If any of these remain when the spell ends, they are lost.",
 						"You have advantage on attack rolls that you make with simple and martial weapons.",
-						"When you hit a target with a weapon attack, that target takes an extra {@dice 2d12} force damage.",
+						"When you hit a target with a weapon attack, that target takes an extra {@dice 2d12} güç damage.",
 						"You have proficiency with all armor, shields, simple weapons, and martial weapons.",
 						"You have proficiency in Strength and Constitution saving throws.",
 						"You can attack twice, instead of once, when you take the Attack eylem on your turn. You ignore this benefit if you already have a feature, like Extra Attack, that gives you extra attacks."
@@ -5002,10 +5002,10 @@
 			],
 			"page": 168,
 			"damageInflict": [
-				"force"
+				"güç"
 			],
 			"savingThrow": [
-				"constitution"
+				"dayanıklılık"
 			]
 		},
 		{
@@ -5051,7 +5051,7 @@
 				]
 			},
 			"entries": [
-				"You teleport yourself to an unoccupied space you can see within range. Immediately after you disappear, a thunderous boom sounds, and each creature within 10 feet of the space you left must make a Constitution saving throw, taking {@dice 3d10} thunder damage on a failed save, or half as much damage on a successful one. The thunder can be heard from up to 300 feet away.",
+				"You teleport yourself to an unoccupied space you can see within range. Immediately after you disappear, a thunderous boom sounds, and each creature within 10 feet of the space you left must make a Constitution saving throw, taking {@dice 3d10} ses damage on a failed save, or half as much damage on a successful one. The ses can be heard from up to 300 feet away.",
 				"You can bring along objects as long as their weight doesn't exceed what you can carry. You can also teleport one willing creature of your size or smaller who is carrying gear up to its carrying capacity. The creature must be within 5 feet of you when you cast this spell, and there must be an unoccupied space within 5 feet of your destination space for the creature to appear in; otherwise, the creature is left behind."
 			],
 			"entriesHigherLevel": [
@@ -5065,10 +5065,10 @@
 			],
 			"page": 168,
 			"damageInflict": [
-				"thunder"
+				"ses"
 			],
 			"savingThrow": [
-				"constitution"
+				"dayanıklılık"
 			]
 		},
 		{
@@ -5127,10 +5127,10 @@
 			],
 			"page": 168,
 			"damageInflict": [
-				"thunder"
+				"ses"
 			],
 			"savingThrow": [
-				"constitution"
+				"dayanıklılık"
 			]
 		},
 		{
@@ -5178,14 +5178,14 @@
 				]
 			},
 			"entries": [
-				"You conjure up a wave of water that crashes down on an area within range. The area can be up to 30 feet long, up to 10 feet wide, and up to 10 feet tall. Each creature in that area must make a Dexterity saving throw. On a failure, a creature takes {@dice 4d8} bludgeoning damage and is knocked {@condition prone}. On a success, a creature takes half as much damage and isn't knocked {@condition prone}. The water then spreads out across the ground in all directions, extinguishing unprotected flames in its area and within 30 feet of it, and then vanishes."
+				"You conjure up a wave of water that crashes down on an area within range. The area can be up to 30 feet long, up to 10 feet wide, and up to 10 feet tall. Each creature in that area must make a Dexterity saving throw. On a failure, a creature takes {@dice 4d8} ezme damage and is knocked {@condition prone}. On a success, a creature takes half as much damage and isn't knocked {@condition prone}. The water then spreads out across the ground in all directions, extinguishing unprotected flames in its area and within 30 feet of it, and then vanishes."
 			],
 			"page": 168,
 			"damageInflict": [
-				"bludgeoning"
+				"ezme"
 			],
 			"savingThrow": [
-				"dexterity"
+				"çeviklik"
 			]
 		},
 		{
@@ -5291,10 +5291,10 @@
 			],
 			"page": 169,
 			"damageInflict": [
-				"necrotic"
+				"nekrotik"
 			],
 			"savingThrow": [
-				"wisdom"
+				"akıl"
 			]
 		},
 		{
@@ -5350,29 +5350,29 @@
 					]
 				},
 				"The ground in the spell's area becomes muddy enough that creatures can sink into it. Each foot that a creature moves through the mud costs 4 feet of movement, and any creature on the ground when you cast the spell must make a Strength saving throw. A creature must also make the saving throw when it moves into the area for the first time on a turn or ends its turn there. On a failed save, a creature sinks into the mud and is {@condition restrained}, though it can use an eylem to end the {@condition restrained} condition on itself by pulling itself free of the mud.",
-				"If you cast the spell on a ceiling, the mud falls. Any creature under the mud when it falls must make a Dexterity saving throw. A creature takes {@dice 4d8} bludgeoning damage on a failed save, or half as much damage on a successful one.",
+				"If you cast the spell on a ceiling, the mud falls. Any creature under the mud when it falls must make a Dexterity saving throw. A creature takes {@dice 4d8} ezme damage on a failed save, or half as much damage on a successful one.",
 				{
 					"type": "entries",
 					"name": "Transmute Mud to Rock",
 					"entries": [
-						"Nonmagical mud or quicksand in the area no more than 10 feet deep transforms into soft stone for the spell's duration. Any creature in the mud when it transforms must make a Dexterity saving throw. On a successful save, a creature is shunted safely to the surface in an unoccupied space. On a failed save, a creature becomes {@condition restrained} by the rock. A {@condition restrained} creature, or another creature within reach, can use an eylem to try to break the rock by succeeding on a DC 20 Strength check or by dealing damage to it. The rock has AC 15 and 25 hit points, and is immune to poison and psychic damage."
+						"Nonmagical mud or quicksand in the area no more than 10 feet deep transforms into soft stone for the spell's duration. Any creature in the mud when it transforms must make a Dexterity saving throw. On a successful save, a creature is shunted safely to the surface in an unoccupied space. On a failed save, a creature becomes {@condition restrained} by the rock. A {@condition restrained} creature, or another creature within reach, can use an eylem to try to break the rock by succeeding on a DC 20 Strength check or by dealing damage to it. The rock has AC 15 and 25 hit points, and is immune to zehir and psişik damage."
 					]
 				}
 			],
 			"page": 169,
 			"damageImmune": [
-				"poison",
-				"psychic"
+				"zehir",
+				"psişik"
 			],
 			"damageInflict": [
-				"bludgeoning"
+				"ezme"
 			],
 			"savingThrow": [
-				"strength",
-				"dexterity"
+				"kuvvet",
+				"çeviklik"
 			],
 			"opposedCheck": [
-				"strength"
+				"kuvvet"
 			]
 		},
 		{
@@ -5416,7 +5416,7 @@
 				]
 			},
 			"entries": [
-				"You point at a place within range, and a glowing 1-foot diameter ball of emerald acid streaks there and explodes in a 20-foot radius sphere. Each creature in that area must make a Dexterity saving throw. On a failed save, a creature takes {@dice 10d4} acid damage and another {@dice 5d4} acid damage at the end of its next turn. On a successful save, a creature takes half the initial damage and no damage at the end of its next turn."
+				"You point at a place within range, and a glowing 1-foot diameter ball of emerald asit streaks there and explodes in a 20-foot radius sphere. Each creature in that area must make a Dexterity saving throw. On a failed save, a creature takes {@dice 10d4} asit damage and another {@dice 5d4} asit damage at the end of its next turn. On a successful save, a creature takes half the initial damage and no damage at the end of its next turn."
 			],
 			"entriesHigherLevel": [
 				{
@@ -5429,10 +5429,10 @@
 			],
 			"page": 170,
 			"damageInflict": [
-				"acid"
+				"asit"
 			],
 			"savingThrow": [
-				"dexterity"
+				"çeviklik"
 			]
 		},
 		{
@@ -5486,9 +5486,9 @@
 			},
 			"entries": [
 				"A shimmering wall of bright light appears at a point you choose within range. The wall appears in any orientation you choose: horizontally, vertically, or diagonally. It can be free floating, or it can rest on a solid surface. The wall can be up to 60 feet long, 10 feet high, and 5 feet thick. The wall blocks line of sight, but creatures and objects can pass through it. It emits bright light out to 120 feet and dim light for an additional 120 feet.",
-				"When the wall appears, each creature in its area must make a Constitution saving throw. On a failed save, a creature takes {@dice 4d8} radiant damage, and it is {@condition blinded} for 1 minute. On a successful save, it takes half as much damage and isn't {@condition blinded}. A {@condition blinded} creature can make a Constitution saving throw at the end of each of its turns, ending the effect on itself on a success.",
-				"A creature that ends its turn in the wall's area takes {@dice 4d8} radiant damage.",
-				"Until the spell ends, you can use an eylem to launch a beam of radiance from the wall at one creature you can see within 60 feet of it. Make a ranged spell attack. On a hit, the target takes {@dice 4d8} radiant damage. Whether you hit or miss, reduce the length of the wall by 10 feet. If the wall's length drops to 0 feet, the spell ends."
+				"When the wall appears, each creature in its area must make a Constitution saving throw. On a failed save, a creature takes {@dice 4d8} radyant damage, and it is {@condition blinded} for 1 minute. On a successful save, it takes half as much damage and isn't {@condition blinded}. A {@condition blinded} creature can make a Constitution saving throw at the end of each of its turns, ending the effect on itself on a success.",
+				"A creature that ends its turn in the wall's area takes {@dice 4d8} radyant damage.",
+				"Until the spell ends, you can use an eylem to launch a beam of radiance from the wall at one creature you can see within 60 feet of it. Make a ranged spell attack. On a hit, the target takes {@dice 4d8} radyant damage. Whether you hit or miss, reduce the length of the wall by 10 feet. If the wall's length drops to 0 feet, the spell ends."
 			],
 			"entriesHigherLevel": [
 				{
@@ -5501,10 +5501,10 @@
 			],
 			"page": 170,
 			"damageInflict": [
-				"radiant"
+				"radyant"
 			],
 			"savingThrow": [
-				"constitution"
+				"dayanıklılık"
 			]
 		},
 		{
@@ -5604,7 +5604,7 @@
 			},
 			"entries": [
 				"You create a wall of water on the ground at a point you can see within range. You can make the wall up to 30 feet long, 10 feet high, and 1 foot thick, or you can make a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall vanishes when the spell ends. The wall's space is difficult terrain.",
-				"Any ranged weapon attack that enters the wall's space has disadvantage on the attack roll, and fire damage is halved if the fire effect passes through the wall to reach its target. Spells that deal cold damage that pass through the wall cause the area of the wall they pass through to freeze solid (at least a 5-foot square section is frozen). Each 5-foot-square frozen section has AC 5 and 15 hit points. Reducing a frozen section to 0 hit points destroys it. When a section is destroyed, the wall's water doesn't fill it."
+				"Any ranged weapon attack that enters the wall's space has disadvantage on the attack roll, and ateş damage is halved if the ateş effect passes through the wall to reach its target. Spells that deal soğuk damage that pass through the wall cause the area of the wall they pass through to freeze solid (at least a 5-foot square section is frozen). Each 5-foot-square frozen section has AC 5 and 15 hit points. Reducing a frozen section to 0 hit points destroys it. When a section is destroyed, the wall's water doesn't fill it."
 			],
 			"page": 170
 		},
@@ -5732,7 +5732,7 @@
 			],
 			"page": 170,
 			"savingThrow": [
-				"strength"
+				"kuvvet"
 			]
 		},
 		{
@@ -5785,20 +5785,20 @@
 			},
 			"entries": [
 				"A whirlwind howls down to a point that you can see on the ground within range. The whirlwind is a 10-foot-radius, 30-foot-high cylinder centered on that point. Until the spell ends, you can use your eylem to move the whirlwind up to 30 feet in any direction along the ground. The whirlwind sucks up any Medium or smaller objects that aren't secured to anything and that aren't worn or carried by anyone.",
-				"A creature must make a Dexterity saving throw the first time on a turn that it enters the whirlwind or that the whirlwind enters its space, including when the whirlwind first appears. A creature takes {@dice 10d6} bludgeoning damage on a failed save, or half as much damage on a successful one. In addition, a Large or smaller creature that fails the save must succeed on a Strength saving throw or become {@condition restrained} in the whirlwind until the spell ends. When a creature starts its turn {@condition restrained} by the whirlwind, the creature is pulled 5 feet higher inside it, unless the creature is at the top. A {@condition restrained} creature moves with the whirlwind and falls when the spell ends, unless the creature has some means to stay aloft.",
+				"A creature must make a Dexterity saving throw the first time on a turn that it enters the whirlwind or that the whirlwind enters its space, including when the whirlwind first appears. A creature takes {@dice 10d6} ezme damage on a failed save, or half as much damage on a successful one. In addition, a Large or smaller creature that fails the save must succeed on a Strength saving throw or become {@condition restrained} in the whirlwind until the spell ends. When a creature starts its turn {@condition restrained} by the whirlwind, the creature is pulled 5 feet higher inside it, unless the creature is at the top. A {@condition restrained} creature moves with the whirlwind and falls when the spell ends, unless the creature has some means to stay aloft.",
 				"A {@condition restrained} creature can use an eylem to make a Strength or Dexterity check against your spell save DC. If successful, the creature is no longer {@condition restrained} by the whirlwind and is hurled {@dice 3d6} × 10 feet away from it in a random direction."
 			],
 			"page": 171,
 			"damageInflict": [
-				"bludgeoning"
+				"ezme"
 			],
 			"savingThrow": [
-				"dexterity",
-				"strength"
+				"çeviklik",
+				"kuvvet"
 			],
 			"opposedCheck": [
-				"strength",
-				"dexterity"
+				"kuvvet",
+				"çeviklik"
 			]
 		},
 		{
@@ -5842,10 +5842,10 @@
 			],
 			"page": 171,
 			"damageInflict": [
-				"radiant"
+				"radyant"
 			],
 			"savingThrow": [
-				"constitution"
+				"dayanıklılık"
 			]
 		},
 		{
@@ -5905,7 +5905,7 @@
 					"type": "entries",
 					"name": "Trees",
 					"entries": [
-						"At the start of each of your turns, each of your enemies within 10 feet of any tree in the cube must succeed on a Dexterity saving throw or take {@dice 4d6} slashing damage from whipping branches."
+						"At the start of each of your turns, each of your enemies within 10 feet of any tree in the cube must succeed on a Dexterity saving throw or take {@dice 4d6} kesme damage from whipping branches."
 					]
 				},
 				{
@@ -5919,21 +5919,21 @@
 					"type": "entries",
 					"name": "Rocks",
 					"entries": [
-						"As a bonus eylem on your turn, you can cause a loose rock in the cube to launch at a creature you can see in the cube. Make a ranged spell attack against the target. On a hit, the target takes {@dice 3d8} nonmagical bludgeoning damage, and it must succeed on a Strength saving throw or fall {@condition prone}."
+						"As a bonus eylem on your turn, you can cause a loose rock in the cube to launch at a creature you can see in the cube. Make a ranged spell attack against the target. On a hit, the target takes {@dice 3d8} nonmagical ezme damage, and it must succeed on a Strength saving throw or fall {@condition prone}."
 					]
 				}
 			],
 			"page": 171,
 			"damageInflict": [
-				"bludgeoning",
-				"slashing"
+				"ezme",
+				"kesme"
 			],
 			"savingThrow": [
-				"dexterity",
-				"strength"
+				"çeviklik",
+				"kuvvet"
 			],
 			"opposedCheck": [
-				"strength"
+				"kuvvet"
 			]
 		},
 		{
@@ -5980,7 +5980,7 @@
 			],
 			"page": 171,
 			"damageInflict": [
-				"force"
+				"güç"
 			]
 		}
 	]

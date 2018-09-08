@@ -1080,7 +1080,7 @@ EntryRenderer.feat = {
 				for (let j = 0; j < pre.proficiency.length; ++j) {
 					for (const type in pre.proficiency[j]) { // type is armor/weapon/etc.
 						if (!pre.proficiency[j].hasOwnProperty(type)) continue;
-						if (type === "armor") {
+						if (type === "zırh") {
 							if (isShorthand) {
 								outStack.push("" + Parser.armorFullToAbv(pre.proficiency[j][type]) + " zırh uzm.");
 							} else {

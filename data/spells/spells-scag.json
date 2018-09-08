@@ -42,7 +42,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -53,7 +53,7 @@
 			],
 			"page": 142,
 			"damageInflict": [
-				"thunder"
+				"ses"
 			]
 		},
 		{
@@ -98,7 +98,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -109,7 +109,7 @@
 			],
 			"page": 143,
 			"damageInflict": [
-				"fire"
+				"ateş"
 			]
 		},
 		{
@@ -149,7 +149,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -160,10 +160,10 @@
 			],
 			"page": 143,
 			"damageInflict": [
-				"lightning"
+				"yıldırım"
 			],
 			"savingThrow": [
-				"strength"
+				"kuvvet"
 			]
 		},
 		{
@@ -203,7 +203,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Büyücü",
 						"source": "PHB"
 					}
 				]
@@ -214,10 +214,10 @@
 			],
 			"page": 143,
 			"damageInflict": [
-				"force"
+				"güç"
 			],
 			"savingThrow": [
-				"dexterity"
+				"çeviklik"
 			]
 		}
 	]

@@ -15,7 +15,7 @@
 				}
 			],
 			"ability": {
-				"cha": 1
+				"kar": 1
 			}
 		},
 		{
@@ -53,8 +53,8 @@
 				"choose": [
 					{
 						"from": [
-							"str",
-							"dex"
+							"kuv",
+							"çev"
 						],
 						"amount": 1
 					}
@@ -94,7 +94,7 @@
 				{
 					"ability": [
 						{
-							"dex": 13
+							"çev": 13
 						}
 					]
 				}
@@ -149,7 +149,7 @@
 				}
 			],
 			"ability": {
-				"con": 1
+				"day": 1
 			}
 		},
 		{
@@ -175,7 +175,7 @@
 				{
 					"ability": [
 						{
-							"str": 13
+							"kuv": 13
 						}
 					]
 				}
@@ -229,7 +229,7 @@
 				{
 					"proficiency": [
 						{
-							"armor": "medium"
+							"zırh": "orta"
 						}
 					]
 				}
@@ -244,7 +244,7 @@
 				}
 			],
 			"ability": {
-				"str": 1
+				"kuv": 1
 			}
 		},
 		{
@@ -255,7 +255,7 @@
 				{
 					"proficiency": [
 						{
-							"armor": "heavy"
+							"zırh": "ağır"
 						}
 					]
 				}
@@ -270,7 +270,7 @@
 				}
 			],
 			"ability": {
-				"str": 1
+				"kuv": 1
 			}
 		},
 		{
@@ -281,7 +281,7 @@
 				{
 					"ability": [
 						{
-							"cha": 13
+							"kar": 13
 						}
 					]
 				}
@@ -306,7 +306,7 @@
 				}
 			],
 			"ability": {
-				"int": 1
+				"zek": 1
 			}
 		},
 		{
@@ -326,8 +326,8 @@
 				"choose": [
 					{
 						"from": [
-							"str",
-							"dex"
+							"kuv",
+							"çev"
 						],
 						"amount": 1
 					}
@@ -349,7 +349,7 @@
 				}
 			],
 			"ability": {
-				"int": 1
+				"zek": 1
 			}
 		},
 		{
@@ -412,7 +412,7 @@
 				{
 					"proficiency": [
 						{
-							"armor": "medium"
+							"zırh": "orta"
 						}
 					]
 				}
@@ -452,7 +452,7 @@
 				{
 					"proficiency": [
 						{
-							"armor": "light"
+							"zırh": "hafif"
 						}
 					]
 				}
@@ -470,8 +470,8 @@
 				"choose": [
 					{
 						"from": [
-							"str",
-							"dex"
+							"kuv",
+							"çev"
 						],
 						"amount": 1
 					}
@@ -512,8 +512,8 @@
 				"choose": [
 					{
 						"from": [
-							"int",
-							"wis"
+							"zek",
+							"akı"
 						],
 						"amount": 1
 					}
@@ -552,12 +552,12 @@
 				"choose": [
 					{
 						"from": [
-							"str",
-							"dex",
-							"con",
-							"int",
-							"wis",
-							"cha"
+							"kuv",
+							"çev",
+							"day",
+							"zek",
+							"akı",
+							"kar"
 						],
 						"amount": 1,
 						"textreference": true
@@ -573,10 +573,10 @@
 				{
 					"ability": [
 						{
-							"int": 13
+							"zek": 13
 						},
 						{
-							"wis": 13
+							"akı": 13
 						}
 					]
 				}
@@ -659,7 +659,7 @@
 				{
 					"ability": [
 						{
-							"dex": 13
+							"çev": 13
 						}
 					]
 				}
@@ -706,7 +706,7 @@
 					"race": [
 						{
 							"name": "gnome",
-							"subrace": "deep"
+							"subrace": "derin"
 						}
 					]
 				}
@@ -735,8 +735,8 @@
 				"choose": [
 					{
 						"from": [
-							"str",
-							"con"
+							"kuv",
+							"day"
 						],
 						"amount": 1
 					}
@@ -789,8 +789,8 @@
 				"choose": [
 					{
 						"from": [
-							"str",
-							"dex"
+							"kuv",
+							"çev"
 						],
 						"amount": 1
 					}
@@ -803,7 +803,7 @@
 				{
 					"race": [
 						{
-							"name": "halfling"
+							"name": "buçukluk"
 						}
 					]
 				}
@@ -823,7 +823,7 @@
 				{
 					"race": [
 						{
-							"name": "dragonborn"
+							"name": "ejderdoğan"
 						}
 					]
 				}
@@ -843,9 +843,9 @@
 				"choose": [
 					{
 						"from": [
-							"str",
-							"con",
-							"cha"
+							"kuv",
+							"day",
+							"kar"
 						],
 						"amount": 1
 					}
@@ -858,7 +858,7 @@
 				{
 					"race": [
 						{
-							"name": "dragonborn"
+							"name": "ejderdoğan"
 						}
 					]
 				}
@@ -879,9 +879,9 @@
 				"choose": [
 					{
 						"from": [
-							"str",
-							"con",
-							"cha"
+							"kuv",
+							"day",
+							"kar"
 						],
 						"amount": 1
 					}
@@ -912,7 +912,7 @@
 				{
 					"race": [
 						{
-							"name": "dwarf"
+							"name": "cüce"
 						}
 					]
 				}
@@ -929,7 +929,7 @@
 				}
 			],
 			"ability": {
-				"con": 1
+				"day": 1
 			}
 		},
 		{
@@ -941,7 +941,7 @@
 							"name": "elf"
 						},
 						{
-							"name": "half-elf"
+							"name": "yarı-elf"
 						}
 					]
 				}
@@ -961,10 +961,10 @@
 				"choose": [
 					{
 						"from": [
-							"dex",
-							"int",
-							"wis",
-							"cha"
+							"çev",
+							"zek",
+							"akı",
+							"kar"
 						],
 						"amount": 1
 					}
@@ -997,8 +997,8 @@
 				"choose": [
 					{
 						"from": [
-							"dex",
-							"int"
+							"çev",
+							"zek"
 						],
 						"amount": 1
 					}
@@ -1012,7 +1012,7 @@
 					"race": [
 						{
 							"name": "elf",
-							"subrace": "high"
+							"subrace": "ulu"
 						}
 					]
 				}
@@ -1033,8 +1033,8 @@
 				"choose": [
 					{
 						"from": [
-							"int",
-							"cha"
+							"zek",
+							"kar"
 						],
 						"amount": 1
 					}
@@ -1068,8 +1068,8 @@
 				"choose": [
 					{
 						"from": [
-							"int",
-							"cha"
+							"zek",
+							"kar"
 						],
 						"amount": 1
 					}
@@ -1100,7 +1100,7 @@
 				}
 			],
 			"ability": {
-				"con": 1
+				"day": 1
 			}
 		},
 		{
@@ -1109,7 +1109,7 @@
 				{
 					"race": [
 						{
-							"name": "half-orc"
+							"name": "yarı-orc"
 						}
 					]
 				}
@@ -1130,8 +1130,8 @@
 				"choose": [
 					{
 						"from": [
-							"str",
-							"con"
+							"kuv",
+							"day"
 						],
 						"amount": 1
 					}
@@ -1144,13 +1144,13 @@
 				{
 					"race": [
 						{
-							"name": "half-elf"
+							"name": "yarı-elf"
 						},
 						{
-							"name": "half-orc"
+							"name": "yarı-orc"
 						},
 						{
-							"name": "human"
+							"name": "insan"
 						}
 					]
 				}
@@ -1174,7 +1174,7 @@
 				{
 					"race": [
 						{
-							"name": "halfling"
+							"name": "buçukluk"
 						}
 					]
 				}
@@ -1194,9 +1194,9 @@
 				"choose": [
 					{
 						"from": [
-							"dex",
-							"con",
-							"cha"
+							"çev",
+							"day",
+							"kar"
 						],
 						"amount": 1
 					}
@@ -1209,10 +1209,10 @@
 				{
 					"race": [
 						{
-							"name": "dwarf"
+							"name": "cüce"
 						},
 						{
-							"name": "small race"
+							"name": "küçük ırk"
 						}
 					]
 				}
@@ -1234,8 +1234,8 @@
 				"choose": [
 					{
 						"from": [
-							"str",
-							"dex"
+							"kuv",
+							"çev"
 						],
 						"amount": 1
 					}
@@ -1249,7 +1249,7 @@
 					"race": [
 						{
 							"name": "elf",
-							"subrace": "wood"
+							"subrace": "orman"
 						}
 					]
 				}
