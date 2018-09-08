@@ -5,7 +5,7 @@ const JSON_LIST_NAME = "spell";
 
 // toss these into the "Tags" section to save screen space
 const META_ADD_CONC = "Konsantrasyon";
-const META_ADD_V = "Sesli(S)";
+const META_ADD_V = "Sözel(S)";
 const META_ADD_S = "Bedensel(B)";
 const META_ADD_M = "Materyal(M)";
 const META_ADD_M_COST = "Değeri olan Materyal";
