@@ -8,8 +8,8 @@
 				"faces": 12
 			},
 			"proficiency": [
-				"str",
-				"con"
+				"kuv",
+				"day"
 			],
 			"classTableGroups": [
 				{
@@ -963,8 +963,8 @@
 				"faces": 8
 			},
 			"proficiency": [
-				"dex",
-				"cha"
+				"çev",
+				"kar"
 			],
 			"classTableGroups": [
 				{
@@ -1388,14 +1388,14 @@
 										"type": "abilityDc",
 										"name": "Spell",
 										"attributes": [
-											"cha"
+											"kar"
 										]
 									},
 									{
 										"type": "abilityAttackMod",
 										"name": "Spell",
 										"attributes": [
-											"cha"
+											"kar"
 										]
 									}
 								]
@@ -2014,8 +2014,8 @@
 				"faces": 8
 			},
 			"proficiency": [
-				"wis",
-				"cha"
+				"akı",
+				"kar"
 			],
 			"classTableGroups": [
 				{
@@ -2358,7 +2358,7 @@
 					{
 						"name": "Büyü Yapma",
 						"entries": [
-							"Kutsal güce aracı olarak rahip büyülerini kullanabilirsin. Büyü yapmanın genel kuralları için 10. kısım, rahip büyü listesi için 11. kısma bakabilirsin.",
+							"Kutsal güce aracı olarak rahip büyülerini kullanabilirsin.",
 							{
 								"type": "entries",
 								"name": "Cantripler",
@@ -2385,14 +2385,14 @@
 										"type": "abilityDc",
 										"name": "Spell",
 										"attributes": [
-											"wis"
+											"akı"
 										]
 									},
 									{
 										"type": "abilityAttackMod",
 										"name": "Spell",
 										"attributes": [
-											"wis"
+											"akı"
 										]
 									}
 								]
@@ -5499,8 +5499,8 @@
 				"faces": 10
 			},
 			"proficiency": [
-				"str",
-				"con"
+				"kuv",
+				"day"
 			],
 			"classTableGroups": [
 				{
@@ -6145,8 +6145,8 @@
 																"type": "abilityDc",
 																"name": "Manevra",
 																"attributes": [
-																	"str",
-																	"dex"
+																	"kuv",
+																	"çev"
 																]
 															}
 														]
@@ -6525,14 +6525,14 @@
 																"type": "abilityDc",
 																"name": "Büyü",
 																"attributes": [
-																	"int"
+																	"zek"
 																]
 															},
 															{
 																"type": "abilityAttackMod",
 																"name": "Büyü",
 																"attributes": [
-																	"int"
+																	"zek"
 																]
 															}
 														]
@@ -6868,8 +6868,8 @@
 				"faces": 8
 			},
 			"proficiency": [
-				"str",
-				"dex"
+				"kuv",
+				"çev"
 			],
 			"classTableGroups": [
 				{
@@ -7268,7 +7268,7 @@
 								"type": "abilityDc",
 								"name": "Ki",
 								"attributes": [
-									"wis"
+									"akı"
 								]
 							},
 							{
@@ -7599,7 +7599,7 @@
 										"name": "Sükunet",
 										"entries": [
 											"11. seviyeden itibaren seni huzur aurasıyla saran özel bir meditasyona girersin. Her uzun dinlenmenin sonunda bir sonraki uzun dinlenmenin başlangıcına kadar {@spell sanctuary} büyüsünün (büyü aynı durumlarda sona erer) etkisi altında olursun. Büyü için kurtulma zarı DC'si 8 + Akıl bonusun + uzmanlık bonusundur.",
-											"{@spell Sanctuary} büyüsü şu etkiyi verir: Bir varlığı saldırıya karşı koruma altına alırsın. Büyü bitene kadar, koruma altındaki varlığı bir saldırı yada zararlı bir büyü ile hedef alan tüm varlıklar önce Akıl kurtulma zarı atmalıdır. Başarısız olursa varlık yeni bir hedef seçer yada saldırı yada büyüyü kaybeder. Bu büyü varlığı alan etkilerine karşı koruyamaz, örneğin {@spell fireball} büyüsünün patlaması.",
+											"{@spell Mabet} büyüsü şu etkiyi verir: Bir varlığı saldırıya karşı koruma altına alırsın. Büyü bitene kadar, koruma altındaki varlığı bir saldırı yada zararlı bir büyü ile hedef alan tüm varlıklar önce Akıl kurtulma zarı atmalıdır. Başarısız olursa varlık yeni bir hedef seçer yada saldırı yada büyüyü kaybeder. Bu büyü varlığı alan etkilerine karşı koruyamaz, örneğin {@spell fireball} büyüsünün patlaması.",
 											"Eğer korunan varlık saldırırsa yada düşman bir varlığı etkileyen bir büyü kullanırsa büyü sona erer."
 										]
 									}
@@ -8157,8 +8157,8 @@
 				"faces": 10
 			},
 			"proficiency": [
-				"wis",
-				"cha"
+				"akı",
+				"kar"
 			],
 			"classTableGroups": [
 				{
@@ -8435,14 +8435,14 @@
 										"type": "abilityDc",
 										"name": "Büyü",
 										"attributes": [
-											"cha"
+											"kar"
 										]
 									},
 									{
 										"type": "abilityAttackMod",
 										"name": "Büyü",
 										"attributes": [
-											"cha"
+											"kar"
 										]
 									}
 								]
@@ -9487,8 +9487,8 @@
 				"faces": 10
 			},
 			"proficiency": [
-				"str",
-				"dex"
+				"kuv",
+				"çev"
 			],
 			"classTableGroups": [
 				{
@@ -9849,14 +9849,14 @@
 										"type": "abilityDc",
 										"name": "Spell",
 										"attributes": [
-											"wis"
+											"akı"
 										]
 									},
 									{
 										"type": "abilityAttackMod",
 										"name": "Spell",
 										"attributes": [
-											"wis"
+											"akı"
 										]
 									}
 								]
@@ -10536,8 +10536,8 @@
 				"faces": 8
 			},
 			"proficiency": [
-				"dex",
-				"int"
+				"çev",
+				"zek"
 			],
 			"classTableGroups": [
 				{
@@ -11313,14 +11313,14 @@
 																"type": "abilityDc",
 																"name": "Büyü",
 																"attributes": [
-																	"int"
+																	"zek"
 																]
 															},
 															{
 																"type": "abilityAttackMod",
 																"name": "Büyü",
 																"attributes": [
-																	"int"
+																	"zek"
 																]
 															}
 														]
@@ -11771,8 +11771,8 @@
 				"faces": 6
 			},
 			"proficiency": [
-				"con",
-				"cha"
+				"day",
+				"kar"
 			],
 			"classTableGroups": [
 				{
@@ -12236,14 +12236,14 @@
 										"type": "abilityDc",
 										"name": "Büyü",
 										"attributes": [
-											"cha"
+											"kar"
 										]
 									},
 									{
 										"type": "abilityAttackMod",
 										"name": "Büyü",
 										"attributes": [
-											"cha"
+											"kar"
 										]
 									}
 								]
@@ -13250,8 +13250,8 @@
 				"faces": 8
 			},
 			"proficiency": [
-				"wis",
-				"cha"
+				"akı",
+				"kar"
 			],
 			"classTableGroups": [
 				{
@@ -13475,14 +13475,14 @@
 										"type": "abilityDc",
 										"name": "Büyü",
 										"attributes": [
-											"cha"
+											"kar"
 										]
 									},
 									{
 										"type": "abilityAttackMod",
 										"name": "Büyü",
 										"attributes": [
-											"cha"
+											"kar"
 										]
 									}
 								]
@@ -13491,7 +13491,7 @@
 								"type": "entries",
 								"name": "Büyü Yapma Odağı",
 								"entries": [
-									"Warlock büyülerini kullanabilmek için arcane odak (5. kısımda bulunabilir) kullanabilirsin."
+									"Warlock büyülerini kullanabilmek için arcane odak kullanabilirsin."
 								]
 							}
 						]
@@ -13518,9 +13518,9 @@
 									{
 										"type": "invocation",
 										"name": "Istıraplı Patlama",
-										"prerequisite": "{@spell eldritch blast} cantrip",
+										"prerequisite": "{@spell eldritch patlaması} cantrip",
 										"entries": [
-											"{@spell Eldritch blast} büyüsünü kullandığında, hasarına Karizma bonusunu ekleyebilirsin."
+											"{@spell Eldritch patlaması} büyüsünü kullandığında, hasarına Karizma bonusunu ekleyebilirsin."
 										]
 									},
 									{
@@ -13602,9 +13602,9 @@
 									{
 										"type": "invocation",
 										"name": "Eldritch Mızrağı",
-										"prerequisite": "{@spell eldritch blast} cantrip",
+										"prerequisite": "{@spell eldritch patlaması} cantrip",
 										"entries": [
-											"{@spell eldritch blast} cantripini kullandığında menzili 300 fit olur."
+											"{@spell eldritch patlaması} cantripini kullandığında menzili 300 fit olur."
 										]
 									},
 									{
@@ -13685,7 +13685,7 @@
 									{
 										"type": "invocation",
 										"name": "Dünyadışı Sıçrayış",
-										"prerequisite": "9th level",
+										"prerequisite": "9. seviye",
 										"entries": [
 											"{@spell Jump} büyüsünü kendi üzerinde büyü yuvası yada materyal bileşen harcamadan istediğin zaman kullanabilirsin."
 										]
@@ -13693,9 +13693,9 @@
 									{
 										"type": "invocation",
 										"name": "İtici Patlama",
-										"prerequisite": "{@spell eldritch blast} cantrip",
+										"prerequisite": "{@spell eldritch patlaması} cantrip",
 										"entries": [
-											"{@spell Eldritch blast} ile bir varlığa vurduğunda, varlığı düz bir hizada senden 10 fit'e kadar uzağa itebilirsin."
+											"{@spell Eldritch patlaması} ile bir varlığa vurduğunda, varlığı düz bir hizada senden 10 fit'e kadar uzağa itebilirsin."
 										]
 									},
 									{
@@ -13822,9 +13822,9 @@
 									{
 										"type": "invocation",
 										"name": "Hadar'ın Kavraması",
-										"prerequisite": "{@spell eldritch blast} cantrip",
+										"prerequisite": "{@spell eldritch patlaması} cantrip",
 										"entries": [
-											"Her sıranda bir kereliğine, bir varlığa {@spell eldritch blast} büyün ile vurduğunda sana doğru düz bir şekilde 10 fit çekebilirsin."
+											"Her sıranda bir kereliğine, bir varlığa {@spell eldritch patlaması} büyün ile vurduğunda sana doğru düz bir şekilde 10 fit çekebilirsin."
 										],
 										"source": "XGE"
 									},
@@ -13842,9 +13842,9 @@
 									{
 										"type": "invocation",
 										"name": "Bezdiren Mızrak",
-										"prerequisite": "{@spell eldritch blast} cantrip",
+										"prerequisite": "{@spell eldritch patlaması} cantrip",
 										"entries": [
-											"Her sıranda bir kereliğine, bir varlığa {@spell eldritch blast} büyüsü ile vurduğunda bir sonraki sıranın sonuna kadar o varlığın hızını 10 fit düşürürsün."
+											"Her sıranda bir kereliğine, bir varlığa {@spell eldritch patlaması} büyüsü ile vurduğunda bir sonraki sıranın sonuna kadar o varlığın hızını 10 fit düşürürsün."
 										],
 										"source": "XGE"
 									},
@@ -14673,8 +14673,8 @@
 				"faces": 6
 			},
 			"proficiency": [
-				"int",
-				"wis"
+				"zek",
+				"akı"
 			],
 			"classTableGroups": [
 				{
@@ -15058,14 +15058,14 @@
 										"type": "abilityDc",
 										"name": "Büyü",
 										"attributes": [
-											"int"
+											"zek"
 										]
 									},
 									{
 										"type": "abilityAttackMod",
 										"name": "Büyü",
 										"attributes": [
-											"int"
+											"zek"
 										]
 									}
 								]

@@ -1249,7 +1249,7 @@
 			"page": 215
 		},
 		{
-			"name": "Augury",
+			"name": "Falcılık",
 			"level": 2,
 			"school": "D",
 			"time": [
@@ -1268,7 +1268,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "specially marked sticks, bones, or similar tokens worth at least 25 gp",
+					"text": "en az 25 gp değerinde özel işaretlenmiş çubuklar, kemikler yada benzeri semboller",
 					"cost": 25
 				}
 			},
@@ -1302,18 +1302,18 @@
 				"ritual": true
 			},
 			"entries": [
-				"By casting gem-inlaid sticks, rolling dragon bones, laying out ornate cards, or employing some other divining tool, you receive an omen from an otherworldly entity about the results of a specific course of eylem that you plan to take within the next 30 dakika. The DM chooses from the following possible omens.",
+				"Mücevher kakmalı çubuklar yada ejder kemikleri atarak, işli kartlar açarak yada benzeri bir kehanet tekniği kullanarak, önündeki 30 dakika içinde yapmayı planladığın belirli bir eylemin sonuçları hakkında dünya dışı bir varlıktan alamet alırsın. DM mevcut alametler arasından seçer.",
 				{
 					"type": "list",
 					"items": [
-						"Weal, for good results",
-						"Woe, for bad results",
-						"Weal and woe, for both good and bad results",
-						"Nothing, for results that aren't especially good or bad"
+						"Saadet, iyi sonuçlar için",
+						"Elem, kötü sonuçlar için",
+						"Saadet ve elem, hem iyi hem kötü sonuçlar için",
+						"Hiçbir şey, özellikle iyi yada kötü olmayan sonuçlar için"
 					]
 				},
-				"The spell doesn't take into account any possible circumstances that might change the outcome, such as the casting of additional spells or the loss or gain of a companion.",
-				"If you cast the spell two or more times before completing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get a random reading. The DM makes this roll in secret."
+				"Büyü, fazladan büyü kullanımı yada bir dostun kazanılması yada kaybedilmesi gibi sonucu değiştirebilecek durumları hesaba katmaz.",
+				"Eğer bu büyüyü uzun dinlenme bitirmeden önce 2 yada faha fazla kez kullanırsan, ilk seferden sonraki her kullanım için eklenerek artan %25 rastgele sonuç alma ihtimali vardır. DM bu zarı gizlice atar."
 			],
 			"page": 215
 		},
@@ -1825,7 +1825,7 @@
 			]
 		},
 		{
-			"name": "Barkskin",
+			"name": "Kabukderi",
 			"level": 2,
 			"school": "T",
 			"time": [
@@ -1843,7 +1843,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a handful of oak bark"
+				"m": "bir avuç meşe kabuğu"
 			},
 			"duration": [
 				{
@@ -1892,7 +1892,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You touch a willing creature. Until the spell ends, the target's skin has a rough, bark-like appearance, and the target's AC can't be less than 16, regardless of what kind of armor it is wearing."
+				"İstekli bir varlığa dokunursun. Büyü bitene kadar hedefin derisi ağaç kabuğu gibi sert bir görüntü alır, ve ne tip zırh giydiğine bakmaksızın hedefin AC'si 16'nın altında olamaz."
 			],
 			"page": 217
 		},
@@ -1967,7 +1967,7 @@
 			]
 		},
 		{
-			"name": "Beast Sense",
+			"name": "Hayvan Duyusu",
 			"level": 2,
 			"school": "D",
 			"time": [
@@ -2012,7 +2012,7 @@
 				"ritual": true
 			},
 			"entries": [
-				"You touch a willing beast. For the duration of the spell, you can use your eylem to see through the beast's eyes and hear what it hears, and continue to do so until you use your eylem to return to your normal senses."
+				"İstekli bir hayvana dokunursun. Büyü süresince, eylemini kulllanarak hayvanın gözlerinden görüp kulaklarından duyabilirsin, ve eylemini kullanıp kendi duyularına dönene kadar da buna devam edersin."
 			],
 			"page": 217
 		},
@@ -2563,7 +2563,7 @@
 			]
 		},
 		{
-			"name": "Blindness/Deafness",
+			"name": "Körlük/Sağırlık",
 			"level": 2,
 			"school": "N",
 			"time": [
@@ -2645,14 +2645,14 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You can blind or deafen a foe. Choose one creature that you can see within range to make a Constitution saving throw. If it fails, the target is either {@condition blinded} or {@condition deafened} (your choice) for the duration. At the end of each of its turns, the target can make a Constitution saving throw. On a success, the spell ends."
+				"Bir düşmanı kör yada sağır edebilirsin. Menzilinde görebildiğin bir varlığa Dayanıklılık kurtulma zarı attırırsın. Eğer başarısız olursa, süre boyunca hedef kör yada sağır (senin seçimin) olur. Her sırasının sonunda, hedef Dayanıklılık kurtulma zarı atabilir. Başarılı olursa büyü sonlanır."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd."
+						"Bu büyüyü 3. seviye yada üzeri bir büyü yuvası harcayarak kullandığında, 2. sonrasında her seviye için fazladan bir varlık hedef alabilirsin."
 					]
 				}
 			],
@@ -2742,7 +2742,7 @@
 			"page": 219
 		},
 		{
-			"name": "Blur",
+			"name": "Bulanıklık",
 			"level": 2,
 			"school": "I",
 			"time": [
@@ -2807,12 +2807,12 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Your body becomes blurred, shifting and wavering to all who can see you. For the duration, any creature has disadvantage on attack rolls against you. An attacker is immune to this effect if it doesn't rely on sight, as with blindsight, or can see through illusions, as with truesight."
+				"Bedenin seni görebilen herkes için bulanıklaşır. Süre boyunca, tüm varlıklar sana karşı saldırılarını dezavantajlı yaparlar. Eğer bir saldırgan duyu olarak görüşe ihtiyaç duymuyorsa (kör görü gibi), yada illüzyonları farkedebiliyorsa (saf görü gibi) bu büyüden etkilenmez."
 			],
 			"page": 219
 		},
 		{
-			"name": "Branding Smite",
+			"name": "Damgalayan Çarpma",
 			"level": 2,
 			"school": "V",
 			"time": [
@@ -2862,14 +2862,14 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"The next time you hit a creature with a weapon attack before this spell ends, the weapon gleams with astral radiance as you strike. The attack deals an extra {@dice 2d6} radyant damage to the target, which becomes visible if it is {@condition invisible}, and the target sheds dim light in a 5-foot radius and can't become {@condition invisible} until the spell ends."
+				"Bu büyü bitmeden önce bir varlığa ilk silahlı saldırı ile vuruşunda, silah astral bir ışık ile parlar. Saldırı hedefe fazladan {@dice 2d6} radyant hasar verir, eğer hedef görünmez ise görününür olur, 5 fit çevresine loş ışık verir ve büyü süresince bir daha görünmez olamaz."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, the extra damage increases by {@dice 1d6} for each slot level above 2nd."
+						"Bu büyüyü 3. seviye yada üzeri bir büyü yuvası harcayarak kullandığında, 2. sonrasında her seviye için fazladan hasar {@dice 1d6} artar."
 					]
 				}
 			],
@@ -3046,7 +3046,7 @@
 			]
 		},
 		{
-			"name": "Calm Emotions",
+			"name": "Duyguları Yatıştır",
 			"level": 2,
 			"school": "E",
 			"time": [
@@ -3112,9 +3112,9 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You attempt to suppress strong emotions in a group of people. Each humanoid in a 20-foot-radius sphere centered on a point you choose within range must make a Charisma saving throw a creature can choose to fail this saving throw if it wishes. If a creature fails its saving throw, choose one of the following two effects.",
-				"You can suppress any effect causing a target to be {@condition charmed} or {@condition frightened}. When this spell ends, any suppressed effect resumes, provided that its duration has not expired in the meantime.",
-				"Alternatively, you can make a target indifferent about creatures of your choice that it is hostile toward. This indifference ends if the target is attacked or harmed by a spell or if it witnesses any of its friends being harmed. When the spell ends, the creature becomes hostile again, unless the DM rules otherwise."
+				"Bir group kişide güçlü duyguları bastırmayı denersin. Menzilinde seçtiğin bir nokta merkezli 20 fitlik bir çember içinde bulunan tüm insansılar Karizma kurtulma zarı atarlar ve bir varlık isterse bu zarda otomatik olarak başarısız olabilir. Eğer bir varlık kurtulma zarında başarısız olursa, şu iki etkiden biri seç.",
+				"Bir hedefi korkutan yada cezbeden etkileri bastırırsın. Eğer kendi süresi sona ermediyse, bu büyü bittiğinde bastırılan etki devam eder.",
+				"Alternatif olarak, bir hedefi düşman olduğu varlıklara karşı umursamaz hale getirebilirsin. Bu umursamama hali eğer hedef saldırıya uğrar yada bir büyü tarafından zarar görürse, veya dostlarından birinin zarar gördüğüne şahit olursa sonlanır. Büyü sona erdiğinde varlık yeniden düşman olur, DM bunun karşıtı karar verebilir."
 			],
 			"page": 221,
 			"savingThrow": [
@@ -3633,7 +3633,7 @@
 			"page": 222
 		},
 		{
-			"name": "Cloud of Daggers",
+			"name": "Hançer Bulutu",
 			"level": 2,
 			"school": "C",
 			"time": [
@@ -3652,7 +3652,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a sliver of glass"
+				"m": "bir cam parçası"
 			},
 			"duration": [
 				{
@@ -3686,14 +3686,14 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You fill the air with spinning daggers in a cube 5 feet on each side, centered on a point you choose within range. A creature takes {@dice 4d4} kesme damage when it enters the spell's area for the first time on a turn or starts its turn there."
+				"Menzilinde seçeceğin bir nokta merkezli 5 fitlik bir kübün içindeki havayı dönen hançerler ile doldurursun. Bir varlık büyünün alanına ilk girişinde yada sırasına içinde başladığında {@dice 4d4} kesme hasarı alır."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"when you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@dice 2d4} for each slot level above 2nd."
+						"Bu büyüyü 3. seviye yada üzeri bir büyü yuvası harcayarak kullandığında, 2. sonrasında her seviye için hasar {@dice 2d4} artar."
 					]
 				}
 			],
@@ -5256,7 +5256,7 @@
 			"page": 227
 		},
 		{
-			"name": "Continual Flame",
+			"name": "Devamlı Alev",
 			"level": 2,
 			"school": "V",
 			"time": [
@@ -5275,7 +5275,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "ruby dust worth 50 gp, which the spell consumes",
+					"text": "50 gp değerinde yakut tozu, büyü bunu tüketir",
 					"cost": 50,
 					"consume": true
 				}
@@ -5302,7 +5302,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"A flame, equivalent in brightness to a torch, springs forth from an object that you touch. The effect looks like a regular flame, but it creates no heat and doesn't use oxygen. A continual flame can be covered or hidden but not smothered or quenched."
+				"Dokunduğun bir nesneden bir meşale parlaklığında alev çıkar. Bu etki normal alev gibi görünür ama ısı üretmez yada oksijen tüketmez. Bir devamlı alev örtülebilir ve gizlenebilir ama söndürülemez."
 			],
 			"page": 227
 		},
@@ -5583,7 +5583,7 @@
 			"page": 228
 		},
 		{
-			"name": "Cordon of Arrows",
+			"name": "Ok Şeridi",
 			"level": 2,
 			"school": "T",
 			"time": [
@@ -5602,7 +5602,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "four or more arrows or bolts"
+				"m": "dört yada daha fazla ok"
 			},
 			"duration": [
 				{
@@ -5623,15 +5623,15 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You plant four pieces of nonmagical ammunition\u2014arrows or crossbow bolts\u2014in the ground within range and lay magic upon them to protect an area. Until the spell ends, whenever a creature other than you comes within 30 feet of the ammunition for the first time on a turn or ends its turn there, one piece of ammunition flies up to strike it. The creature must succeed on a Dexterity saving throw or take {@dice 1d6} delme damage. The piece of ammunition is then destroyed. The spell ends when no ammunition remains.",
-				"When you cast this spell, you can designate any creatures you choose, and the spell ignores them."
+				"Menzilindeki zemine dört adet büyüsüz ok yerleştirirsin ve o alanı koruması için üzerlerine büyü yaparsın. Büyü bitene kadar, ne zaman senin dışında bir varlık bu okların 30 fit yakınına, sırasında ilk defa gelirse yada sırasını orada bitirirse, bir ok uçar ve ona saldırır. Varlık Çeviklik kurtulma zarında başarılı olur yada {@dice 1d6} delme hasarı alır. Ok sonrasında yok olur. Geriye ok kalmadığında büyü sona erer.",
+				"Bu büyüyü kullandığında, istediğin varlıkları seçip bu büyünün yoksaymasını sağlayabilirsin."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, the amount of ammunition that can be affected increases by two for each slot level above 2nd"
+						"Bu büyüyü 3. seviye yada üzeri bir büyü yuvası harcayarak kullandığında, 2. sonrasında her seviye için etkileyebileceğin ok sayısı 2 artar."
 					]
 				}
 			],
@@ -5999,7 +5999,7 @@
 			"page": 229
 		},
 		{
-			"name": "Crown of Madness",
+			"name": "Delilik Tacı",
 			"level": 2,
 			"school": "E",
 			"time": [
@@ -6063,9 +6063,9 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"One humanoid of your choice that you can see within range must succeed on a Wisdom saving throw or become {@condition charmed} by you for the duration. While the target is {@condition charmed} in this way, a twisted crown of jagged iron appears on its head, and a madness glows in its eyes.",
-				"The {@condition charmed} target must use its eylem before moving on each of its turns to make a melee attack against a creature other than itself that you mentally choose. The target can act normally on its turn if you choose no creature or if none are within its reach.",
-				"On your subsequent turns, you must use your eylem to maintain control over the target, or the spell ends. Also, the target can make a Wisdom saving throw at the end of each of its turns. On a success, the spell ends."
+				"Menzilinde görebildiğin seçeceğin bir insansı Akıl kurtulma zarı atar yada büyü süresince senin tarafından cezbedilir. Hedef bu şekilde cezbedilmişken, sivri uçlu demirden çarpık bir taç hedefin kafasında belirir ve gözlerinde delilik parlar.",
+				"Cezbedilmiş varlık her sırasında hareket etmeden önce eylemini, kendisi dışında senin zihinsel olarak seçeceğin bir hedefe tek bir yakın dövüş saldırısı yapmak için kullanır. Eğer sen varlık seçmezsen yada menzilinde bir varlık yoksa hedef sırasına normal olarak devam edebilir.",
+				"Sonraki sıralarında, hedefin kontrolünü sürdürebilmek için eylemini kullanman gerekir, yoksa büyü sonlanır. Ayrıca, hedef her sırasının sonunda Akıl kurtulma zarı atabilir. Başarılı olursa büyü sonlanır."
 			],
 			"page": 229,
 			"savingThrow": [
@@ -6282,7 +6282,7 @@
 			"page": 230
 		},
 		{
-			"name": "Darkness",
+			"name": "Karanlık",
 			"level": 2,
 			"school": "V",
 			"time": [
@@ -6300,7 +6300,7 @@
 			},
 			"components": {
 				"v": true,
-				"m": "bat fur and a drop of pitch or piece of coal"
+				"m": "yarasa kürkü ve bir damla katran yada bir parça kömür"
 			},
 			"duration": [
 				{
@@ -6353,14 +6353,14 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Magical darkness spreads from a point you choose within range to fill a 15-foot radius sphere for the duration. The darkness spreads around corners. A creature with darkvision can't see through this darkness, and nonmagical light can't illuminate it.",
-				"If the point you choose is on an object you are holding or one that isn't being worn or carried, the darkness emanates from the object and moves with it. Completely covering the source of the darkness with an opaque object, such as a bowl or a helm, blocks the darkness.",
-				"If any of this spell's area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled."
+				"Süre boyunca, menzilinde seçeceğin bir nokta merkezli 15 fit çapında bir küreyi büyülü karanlık kaplar. Karanlık köşelerin ardına geçer. Gece görüşü olan bir varlık bu karanlığın içini göremez ve büyüsüz ışık burayı aydınlatamaz.",
+				"Eğer seçtiğin nokta senin tuttuğun yada taşınmayan yada giyilmeyen bir nesne ise, karanlık bu nesneden çıkar ve onunla hareket eder. Karanlığın kaynağını miğfer yada kase gibi opak bir nesne ile tamamen kapatmak karanlığı bloklar.",
+				"Eğer bu büyünün alanı, 2. seviye yada altı bir büyü tarafından yaratılmış bir ışık etkisinin alanı ile örtüşürse, ışığı yaratan büyü defedilir."
 			],
 			"page": 230
 		},
 		{
-			"name": "Darkvision",
+			"name": "Gece Görüşü",
 			"level": 2,
 			"school": "T",
 			"time": [
@@ -6378,7 +6378,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "either a pinch of dried carrot or an agate"
+				"m": "ya bir tutam kurutulmuş havuç yada bir agat"
 			},
 			"duration": [
 				{
@@ -6411,7 +6411,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You touch a willing creature to grant it the ability to see in the dark. For the duration, that creature has darkvision out to a range of 60 feet."
+				"İstekli bir varlığa dokunup ona karanlıkta görme yetisini verirsin. Süre boyunca, o varlığın 60 fite kadar gece görüşü olur."
 			],
 			"page": 230
 		},

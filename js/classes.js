@@ -244,8 +244,8 @@ function loadhash (id) {
 	// hit dice and HP
 	const hdEntry = {toRoll: [curClass.hd], rollable: true};
 	$("td#hp div#hitdice span").html(EntryRenderer.getEntryDice(hdEntry, "Hit die"));
-	$("td#hp div#hp1stlevel span").html(curClass.hd.faces + " + Constitution bonusun");
-	$("td#hp div#hphigherlevels span").html(`${EntryRenderer.getEntryDice(hdEntry, "Hit die")} (yada ${(curClass.hd.faces / 2 + 1)}) + Constitution bonusun, birinciden sonraki her ${curClass.name} seviyesi için geçerli olur.`);
+	$("td#hp div#hp1stlevel span").html(curClass.hd.faces + " + Dayanıklılık bonusun");
+	$("td#hp div#hphigherlevels span").html(`${EntryRenderer.getEntryDice(hdEntry, "Hit die")} (yada ${(curClass.hd.faces / 2 + 1)}) + Dayanıklılık bonusun, birinciden sonraki her ${curClass.name} seviyesi için geçerli olur.`);
 
 	// save proficiency
 	$("td#prof div#saves span").html(curClass.proficiency.map(p => Parser.attAbvToFull(p)).join(", "));

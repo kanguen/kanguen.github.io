@@ -537,7 +537,7 @@ function EntryRenderer () {
 				if (entry.prerequisite) {
 					const tempStack = [];
 					self.recursiveEntryRender({type: "inline", entries: [entry.prerequisite]}, tempStack);
-					return `<span class="prerequisite">Prerequisite: ${tempStack.join("")}</span>`;
+					return `<span class="prerequisite">Önkoşul: ${tempStack.join("")}</span>`;
 				}
 				return "";
 			}
