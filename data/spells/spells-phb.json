@@ -40,7 +40,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Bir asit balonu fırlatırsın. Menzilde bir varlık seç, yada birbirinin 5 feet yakınında olan menzilinde iki varlık seç. Hedef bir Çeviklik kurtulma zarında başarılı olur yada {@dice 1d6} asit hasarı alır.",
+				"Bir asit balonu fırlatırsın. Menzilde bir varlık seç, ya da birbirinin 5 feet yakınında olan menzilinde iki varlık seç. Hedef bir Çeviklik kurtulma zarında başarılı olur ya da {@dice 1d6} asit hasarı alır.",
 				"Bu büyünün hasarı 5. seviyeye geldiğinde {@dice 1d6} artarak ({@dice 2d6}) olur, 11. seviyede ({@dice 3d6}) ve 17. seviyede ({@dice 4d6})."
 			],
 			"page": 211,
@@ -103,7 +103,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 3. Seviye yada üzeri bir büyü yuvası harcayarak kullandığında, 2. seviye sonrasında her seviye için hedeflerin HP’si ek olarak 5 artar."
+						"Bu büyüyü 3. Seviye ya da üzeri bir büyü yuvası harcayarak kullandığında, 2. seviye sonrasında her seviye için hedeflerin HP’si ek olarak 5 artar."
 					]
 				}
 			],
@@ -157,7 +157,7 @@
 				"ritual": true
 			},
 			"entries": [
-				"Davetsiz misafirlere karşı bir alarm kurarsın. Menzilinde 20 fitlik bir küpten küçük bir alan, bir kapı yada bir pencere seç. Büyü bitene kadar, ne zaman Ufak yada daha büyük boyutta bir varlık alana dokunursa bir alarm seni uyarır. Bu büyüyü kullanırken alarmı tetiklemeyecek varlıkları belirleyebilirsin. Alarmın zihinsel mi yoksa sesli mi olacağını da belirlersin.",
+				"Davetsiz misafirlere karşı bir alarm kurarsın. Menzilinde 20 fitlik bir küpten küçük bir alan, bir kapı ya da bir pencere seç. Büyü bitene kadar, ne zaman Ufak ya da daha büyük boyutta bir varlık alana dokunursa bir alarm seni uyarır. Bu büyüyü kullanırken alarmı tetiklemeyecek varlıkları belirleyebilirsin. Alarmın zihinsel mi yoksa sesli mi olacağını da belirlersin.",
 				"Zihinsel alarm, korunan bölgenin 1 mil yakınında olduğun sürece kafanda bir vızıltı ile seni uyarır. Bu vızıltı eğer uykudaysan seni uyandırır.",
 				"Sesli alarm, 60 feet çevresine 10 saniye boyunca bir el çanı sesi verir."
 			],
@@ -226,7 +226,7 @@
 					"type": "entries",
 					"name": "Doğal Silahlar",
 					"entries": [
-						"Pençe, sivri dişler, diken, boynuz veya seçeceğin başka bir doğal silah sahibi olursun. Silahsız saldırıların seçtiğin silaha bağlı olarak {@dice 1d6} ezme, delme yada kesme hasarı verir ve silahsız saldırılarda uzmanlığın olur. Son olarak, doğal silahın büyülü sayılır ve saldırı ve hasar zarlarında +1 bonusun olur."
+						"Pençe, sivri dişler, diken, boynuz veya seçeceğin başka bir doğal silah sahibi olursun. Silahsız saldırıların seçtiğin silaha bağlı olarak {@dice 1d6} ezme, delme ya da kesme hasarı verir ve silahsız saldırılarda uzmanlığın olur. Son olarak, doğal silahın büyülü sayılır ve saldırı ve hasar zarlarında +1 bonusun olur."
 					]
 				}
 			],
@@ -298,7 +298,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Bu büyü, bir hayvanı ona zarar vermeyeceğine ikna etmeni sağlar. Menzilinde görebildiğin bir hayvan seç. Seni görüp duyabiliyor olmalı. Eğer hayvanın Zekası 4 ve üzerinde ise büyü başarısız olur. Aksi takdirde, hayvan bir Akıl kurtulma zarında başarılı olur yada büyü süresince senin tarafından cezbedilir. Eğer sen yada bir dostun hedefe zarar verirse büyü sonlanır."
+				"Bu büyü, bir hayvanı ona zarar vermeyeceğine ikna etmeni sağlar. Menzilinde görebildiğin bir hayvan seç. Seni görüp duyabiliyor olmalı. Eğer hayvanın Zekası 4 ve üzerinde ise büyü başarısız olur. Aksi takdirde, hayvan bir Akıl kurtulma zarında başarılı olur ya da büyü süresince senin tarafından cezbedilir. Eğer sen ya da bir dostun hedefe zarar verirse büyü sonlanır."
 			],
 			"entriesHigherLevel": [
 				{
@@ -334,7 +334,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a morsel of food"
+				"m": "bir parça yiyecek"
 			},
 			"duration": [
 				{
@@ -366,7 +366,7 @@
 				"ritual": true
 			},
 			"entries": [
-				"Bu büyüyle, bir mesaj iletmek için bir hayvan kullanırsın. Menzilin içerisinde görebildiğin bir sincap yada kuş gibi minik bir varlığı seç. Daha önce gittiğin bir yer ve göndereceğin kişiye uyan genel bir anlatım seç, şehir muhafızı üniforması giyen bir kadın veya sivri bir şapka giyen kırmızı saçlı bir cüce gibi. Aynı zamanda 25 kelime uzunluğa kadar bir mesaj söyle. Haberci büyü süresince belirtilmiş yöne doğru, eğer uçuyorsa 24 saatte 50 mil, uçmuyorsa 24 saatte 25 mil hızla gider.",
+				"Bu büyüyle, bir mesaj iletmek için bir hayvan kullanırsın. Menzilin içerisinde görebildiğin bir sincap ya da kuş gibi minik bir varlığı seç. Daha önce gittiğin bir yer ve göndereceğin kişiye uyan genel bir anlatım seç, şehir muhafızı üniforması giyen bir kadın veya sivri bir şapka giyen kırmızı saçlı bir cüce gibi. Aynı zamanda 25 kelime uzunluğa kadar bir mesaj söyle. Haberci büyü süresince belirtilmiş yöne doğru, eğer uçuyorsa 24 saatte 50 mil, uçmuyorsa 24 saatte 25 mil hızla gider.",
 				"Haberci hedefe vardığında, tasvir ettiğin varlığa senin sesin ile mesajını iletir. Eğer haberci zamanında varamazsa mesaj kaybolur ve haberci senin bu büyüyü yaptığın yere geri döner."
 			],
 			"entriesHigherLevel": [
@@ -374,7 +374,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 3. Seviye yada üzeri bir büyü yuvası harcayarak kullandığında, 2. seviye sonrasında her seviye için büyünün etki süresi 48 saat artar."
+						"Bu büyüyü 3. Seviye ya da üzeri bir büyü yuvası harcayarak kullandığında, 2. seviye sonrasında her seviye için büyünün etki süresi 48 saat artar."
 					]
 				}
 			],
@@ -499,7 +499,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, you animate or reassert control over two additional undead creatures for each slot above 3rd. Each of the creatures must come from a different corpse or pile of bones."
+						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, you animate or reassert control over two additional undead creatures for each slot above 3rd. Each of the creatures must come from a different corpse or pile of bones."
 					]
 				}
 			],
@@ -1268,7 +1268,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "en az 25 gp değerinde özel işaretlenmiş çubuklar, kemikler yada benzeri semboller",
+					"text": "en az 25 gp değerinde özel işaretlenmiş çubuklar, kemikler ya da benzeri semboller",
 					"cost": 25
 				}
 			},
@@ -1302,18 +1302,18 @@
 				"ritual": true
 			},
 			"entries": [
-				"Mücevher kakmalı çubuklar yada ejder kemikleri atarak, işli kartlar açarak yada benzeri bir kehanet tekniği kullanarak, önündeki 30 dakika içinde yapmayı planladığın belirli bir eylemin sonuçları hakkında dünya dışı bir varlıktan alamet alırsın. DM mevcut alametler arasından seçer.",
+				"Mücevher kakmalı çubuklar ya da ejder kemikleri atarak, işli kartlar açarak ya da benzeri bir kehanet tekniği kullanarak, önündeki 30 dakika içinde yapmayı planladığın belirli bir eylemin sonuçları hakkında dünya dışı bir varlıktan alamet alırsın. DM mevcut alametler arasından seçer.",
 				{
 					"type": "list",
 					"items": [
 						"Saadet, iyi sonuçlar için",
 						"Elem, kötü sonuçlar için",
 						"Saadet ve elem, hem iyi hem kötü sonuçlar için",
-						"Hiçbir şey, özellikle iyi yada kötü olmayan sonuçlar için"
+						"Hiçbir şey, özellikle iyi ya da kötü olmayan sonuçlar için"
 					]
 				},
-				"Büyü, fazladan büyü kullanımı yada bir dostun kazanılması yada kaybedilmesi gibi sonucu değiştirebilecek durumları hesaba katmaz.",
-				"Eğer bu büyüyü uzun dinlenme bitirmeden önce 2 yada faha fazla kez kullanırsan, ilk seferden sonraki her kullanım için eklenerek artan %25 rastgele sonuç alma ihtimali vardır. DM bu zarı gizlice atar."
+				"Büyü, fazladan büyü kullanımı ya da bir dostun kazanılması ya da kaybedilmesi gibi sonucu değiştirebilecek durumları hesaba katmaz.",
+				"Eğer bu büyüyü uzun dinlenme bitirmeden önce 2 ya da faha fazla kez kullanırsan, ilk seferden sonraki her kullanım için eklenerek artan %25 rastgele sonuç alma ihtimali vardır. DM bu zarı gizlice atar."
 			],
 			"page": 215
 		},
@@ -1612,7 +1612,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Menzilinde görebildiğin, 3 taneye kadar seçeceğin varlık Karizma kurtulma zarı atar. Kurtulma zarında başarısız olan hedef, büyü sona ermeden ne zaman bir saldırı yada kurtulma zarı atarsa, {@dice d4} atar ve bu zarı sonuçtan çıkarır."
+				"Menzilinde görebildiğin, 3 taneye kadar seçeceğin varlık Karizma kurtulma zarı atar. Kurtulma zarında başarısız olan hedef, büyü sona ermeden ne zaman bir saldırı ya da kurtulma zarı atarsa, {@dice d4} atar ve bu zarı sonuçtan çıkarır."
 			],
 			"entriesHigherLevel": [
 				{
@@ -1815,7 +1815,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th."
+						"Bu büyüyü 5. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, you can target one additional creature for each slot level above 4th."
 					]
 				}
 			],
@@ -2194,7 +2194,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 6th level or higher, the damage from the clenched fist option increases by {@dice 2d8} and the damage from the grasping hand increases by {@dice 2d6} for each slot level above 5th."
+						"Bu büyüyü 6. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the damage from the clenched fist option increases by {@dice 2d8} and the damage from the grasping hand increases by {@dice 2d6} for each slot level above 5th."
 					]
 				}
 			],
@@ -2387,7 +2387,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Menzilinde seçeceğin 3 taneye kadar varlığı kutsarsın. Hedef büyü sona ermeden ne zaman saldırı yada kurtulma zarı atarsa, {@dice d4} atıp bunu sonuca ekleyebilir."
+				"Menzilinde seçeceğin 3 taneye kadar varlığı kutsarsın. Hedef büyü sona ermeden ne zaman saldırı ya da kurtulma zarı atarsa, {@dice d4} atıp bunu sonuca ekleyebilir."
 			],
 			"entriesHigherLevel": [
 				{
@@ -2500,7 +2500,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 5th level or higher, the damage increases by {@dice 1d8} for each slot level above 4th."
+						"Bu büyüyü 5. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the damage increases by {@dice 1d8} for each slot level above 4th."
 					]
 				}
 			],
@@ -2645,14 +2645,14 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Bir düşmanı kör yada sağır edebilirsin. Menzilinde görebildiğin bir varlığa Dayanıklılık kurtulma zarı attırırsın. Eğer başarısız olursa, süre boyunca hedef kör yada sağır (senin seçimin) olur. Her sırasının sonunda, hedef Dayanıklılık kurtulma zarı atabilir. Başarılı olursa büyü sonlanır."
+				"Bir düşmanı kör ya da sağır edebilirsin. Menzilinde görebildiğin bir varlığa Dayanıklılık kurtulma zarı attırırsın. Eğer başarısız olursa, süre boyunca hedef kör ya da sağır (senin seçimin) olur. Her sırasının sonunda, hedef Dayanıklılık kurtulma zarı atabilir. Başarılı olursa büyü sonlanır."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 3. seviye yada üzeri bir büyü yuvası harcayarak kullandığında, 2. sonrasında her seviye için fazladan bir varlık hedef alabilirsin."
+						"Bu büyüyü 3. seviye ya da üzeri bir büyü yuvası harcayarak kullandığında, 2. sonrasında her seviye için fazladan bir varlık hedef alabilirsin."
 					]
 				}
 			],
@@ -2807,7 +2807,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Bedenin seni görebilen herkes için bulanıklaşır. Süre boyunca, tüm varlıklar sana karşı saldırılarını dezavantajlı yaparlar. Eğer bir saldırgan duyu olarak görüşe ihtiyaç duymuyorsa (kör görü gibi), yada illüzyonları farkedebiliyorsa (saf görü gibi) bu büyüden etkilenmez."
+				"Bedenin seni görebilen herkes için bulanıklaşır. Süre boyunca, tüm varlıklar sana karşı saldırılarını dezavantajlı yaparlar. Eğer bir saldırgan duyu olarak görüşe ihtiyaç duymuyorsa (kör görü gibi), ya da illüzyonları farkedebiliyorsa (saf görü gibi) bu büyüden etkilenmez."
 			],
 			"page": 219
 		},
@@ -2869,7 +2869,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 3. seviye yada üzeri bir büyü yuvası harcayarak kullandığında, 2. sonrasında her seviye için fazladan hasar {@dice 1d6} artar."
+						"Bu büyüyü 3. seviye ya da üzeri bir büyü yuvası harcayarak kullandığında, 2. sonrasında her seviye için fazladan hasar {@dice 1d6} artar."
 					]
 				}
 			],
@@ -2941,7 +2941,7 @@
 			"source": "PHB",
 			"entries": [
 				"Ellerini başparmaklar birbirine dokunur ve diğer parmaklar açık halde ileri uzattığında, bu parmak uçlarından ince bir katman ateş çıkar. 15 fitlik bir konideki tüm varlıklar Çeviklik kurtulma zarı atar. Bir varlık başarısız olursa {@dice 3d6} ateş hasarı alır, başarılı olursa da yarı hasar alır.",
-				"Bu ateş alan içerisinde taşınmayan yada giyilmeyen tüm yanıcı maddeleri tutuşturur."
+				"Bu ateş alan içerisinde taşınmayan ya da giyilmeyen tüm yanıcı maddeleri tutuşturur."
 			],
 			"entriesHigherLevel": [
 				{
@@ -3033,7 +3033,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher level, the damage increases by {@dice 1d10} for each slot level above 3rd."
+						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında level, the damage increases by {@dice 1d10} for each slot level above 3rd."
 					]
 				}
 			],
@@ -3113,8 +3113,8 @@
 			"source": "PHB",
 			"entries": [
 				"Bir group kişide güçlü duyguları bastırmayı denersin. Menzilinde seçtiğin bir nokta merkezli 20 fitlik bir çember içinde bulunan tüm insansılar Karizma kurtulma zarı atarlar ve bir varlık isterse bu zarda otomatik olarak başarısız olabilir. Eğer bir varlık kurtulma zarında başarısız olursa, şu iki etkiden biri seç.",
-				"Bir hedefi korkutan yada cezbeden etkileri bastırırsın. Eğer kendi süresi sona ermediyse, bu büyü bittiğinde bastırılan etki devam eder.",
-				"Alternatif olarak, bir hedefi düşman olduğu varlıklara karşı umursamaz hale getirebilirsin. Bu umursamama hali eğer hedef saldırıya uğrar yada bir büyü tarafından zarar görürse, veya dostlarından birinin zarar gördüğüne şahit olursa sonlanır. Büyü sona erdiğinde varlık yeniden düşman olur, DM bunun karşıtı karar verebilir."
+				"Bir hedefi korkutan ya da cezbeden etkileri bastırırsın. Eğer kendi süresi sona ermediyse, bu büyü bittiğinde bastırılan etki devam eder.",
+				"Alternatif olarak, bir hedefi düşman olduğu varlıklara karşı umursamaz hale getirebilirsin. Bu umursamama hali eğer hedef saldırıya uğrar ya da bir büyü tarafından zarar görürse, veya dostlarından birinin zarar gördüğüne şahit olursa sonlanır. Büyü sona erdiğinde varlık yeniden düşman olur, DM bunun karşıtı karar verebilir."
 			],
 			"page": 221,
 			"savingThrow": [
@@ -3170,7 +3170,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 7th level or higher, one additional bolt leaps from the first target to another target for each slot level above 6th."
+						"Bu büyüyü 7. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, one additional bolt leaps from the first target to another target for each slot level above 6th."
 					]
 				}
 			],
@@ -3250,7 +3250,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Menzilinde görebildiğin bir insansıyı cezbetmeyi denersin. Bir Akıl kurtulma zarı atar, eğer sen yada dostların onunla savaşıyorsa avantajla atar. Eğer başarısız olursa, büyü bitene yada sen veya dostların ona zarar verecek birşey yapana kadar senin tarafından cezbedilir. Cezbedilen varlık seni dostane bir tanıdık olarak görür. Büyü sona erdiğinde varlık senin tarafından cezbedildiğini bilir."
+				"Menzilinde görebildiğin bir insansıyı cezbetmeyi denersin. Bir Akıl kurtulma zarı atar, eğer sen ya da dostların onunla savaşıyorsa avantajla atar. Eğer başarısız olursa, büyü bitene ya da sen veya dostların ona zarar verecek birşey yapana kadar senin tarafından cezbedilir. Cezbedilen varlık seni dostane bir tanıdık olarak görür. Büyü sona erdiğinde varlık senin tarafından cezbedildiğini bilir."
 			],
 			"entriesHigherLevel": [
 				{
@@ -3367,7 +3367,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Menzilinde görebildiğin bir varlığa 4 inç çapında bir enerji küresi fırlatırsın. Yarattığın kürenin tipi olarak asit, soğuk, ateş, yıldırım, zehir yada ses seçeneklerinden birini seçersin, ve sonrasında bu küre ile hedefe karşı bir menzilli büyü saldırısı yaparsın.",
+				"Menzilinde görebildiğin bir varlığa 4 inç çapında bir enerji küresi fırlatırsın. Yarattığın kürenin tipi olarak asit, soğuk, ateş, yıldırım, zehir ya da ses seçeneklerinden birini seçersin, ve sonrasında bu küre ile hedefe karşı bir menzilli büyü saldırısı yaparsın.",
 				"Vurursa, varlık seçtiğin tipte {@dice 3d8} hasar alır."
 			],
 			"entriesHigherLevel": [
@@ -3444,7 +3444,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 7th level or higher, the damage increases by {@dice 2d6} for each slot level above 6th."
+						"Bu büyüyü 7. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the damage increases by {@dice 2d6} for each slot level above 6th."
 					]
 				}
 			],
@@ -3686,14 +3686,14 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Menzilinde seçeceğin bir nokta merkezli 5 fitlik bir kübün içindeki havayı dönen hançerler ile doldurursun. Bir varlık büyünün alanına ilk girişinde yada sırasına içinde başladığında {@dice 4d4} kesme hasarı alır."
+				"Menzilinde seçeceğin bir nokta merkezli 5 fitlik bir kübün içindeki havayı dönen hançerler ile doldurursun. Bir varlık büyünün alanına ilk girişinde ya da sırasına içinde başladığında {@dice 4d4} kesme hasarı alır."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 3. seviye yada üzeri bir büyü yuvası harcayarak kullandığında, 2. sonrasında her seviye için hasar {@dice 2d4} artar."
+						"Bu büyüyü 3. seviye ya da üzeri bir büyü yuvası harcayarak kullandığında, 2. sonrasında her seviye için hasar {@dice 2d4} artar."
 					]
 				}
 			],
@@ -3821,7 +3821,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "kırmızı, sarı yada maviye boyanmış bir tutam pudra yada kum"
+				"m": "kırmızı, sarı ya da maviye boyanmış bir tutam pudra ya da kum"
 			},
 			"duration": [
 				{
@@ -3847,14 +3847,14 @@
 			"source": "PHB",
 			"entries": [
 				"Elinden şaşırtıcı bir renk düzeninde ışıklar çıkar. {@dice 6d10} at, sonuç toplamı bu büyünün kaç HP'lik varlığı etkileyebileceğini gösterir. Kaynağı sen olan 15 fitlik bir koni içerisinde kalan varlıklar, o anlık HP puanlarına göre artan sıralamayla etkilenirler (bilinçsiz ve göremeyen varlıklar yoksayılır).",
-				"En az HP'si olan varlıkla başlayarak, bu büyü tarafından etkilenen tüm varlıklar büyü bitene kadar kör olurlar. Etkilenen her varlığın HP'sini toplamdan çıkarıp bir sonraki en düşük HP'li varlığa geç. Bir varlığın etkilenebilmesi için HP'si toplama eşit yada daha az olmalıdır."
+				"En az HP'si olan varlıkla başlayarak, bu büyü tarafından etkilenen tüm varlıklar büyü bitene kadar kör olurlar. Etkilenen her varlığın HP'sini toplamdan çıkarıp bir sonraki en düşük HP'li varlığa geç. Bir varlığın etkilenebilmesi için HP'si toplama eşit ya da daha az olmalıdır."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 2. seviye yada üzeri bir büyü yuvası harcayarak kullandığında, 1. üzerindeki tüm seviyeler için fazladan {@dice 2d10} atarsın."
+						"Bu büyüyü 2. seviye ya da üzeri bir büyü yuvası harcayarak kullandığında, 1. üzerindeki tüm seviyeler için fazladan {@dice 2d10} atarsın."
 					]
 				}
 			],
@@ -3945,7 +3945,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Menzilinde görebildiğin bir varlığa tek kelimelik bir emir verirsin. Hedef Akıl kurtulma zarında başarılı olur yada bir sonraki sırasında emri yerine getirir. Eğer hedefin bir yaşayan ölüyse, dilini anlamıyorsa, yada emrin ona doğrudan zarar veriyorsa büyü hiçbir etki göstermez.",
+				"Menzilinde görebildiğin bir varlığa tek kelimelik bir emir verirsin. Hedef Akıl kurtulma zarında başarılı olur ya da bir sonraki sırasında emri yerine getirir. Eğer hedefin bir yaşayan ölüyse, dilini anlamıyorsa, ya da emrin ona doğrudan zarar veriyorsa büyü hiçbir etki göstermez.",
 				"Bazı tipik emirler ve etkileri şunlardır. Burada gösterilenlerden farklı emirler de verebilirsin. Eğer bunu yaparsan hedefin nasıl davranacağına DM karar verir. Eğer hedef, emrini yerine getiremiyorsa büyü sona erer.",
 				{
 					"type": "entries",
@@ -3988,7 +3988,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 2. seviye yada üzeri bir büyü yuvası harcayarak kullandığında, 1. üzerindeki her seviye için fazladan bir varlığı hedef alabilirsin. Varlıklar sen onları hedef aldığında birbirine 30 feet yakınlıkta olmalılar."
+						"Bu büyüyü 2. seviye ya da üzeri bir büyü yuvası harcayarak kullandığında, 1. üzerindeki her seviye için fazladan bir varlığı hedef alabilirsin. Varlıklar sen onları hedef aldığında birbirine 30 feet yakınlıkta olmalılar."
 					]
 				}
 			],
@@ -4203,7 +4203,7 @@
 			"source": "PHB",
 			"entries": [
 				"Bir varlığı düelloya zorlamaya çalışırsın. Menzilinde görebildiğin bir varlık Akıl kurtulma zarı atar. Başarısız olursa, varlık kutsal talebinin zorlamasıyla sana yoğunlaşır. Süre boyunca, senin dışında varlıklara yapacağı saldırılarında dezavantajı olur, ve senden 30 fit uzakta bir yere her gitmeyi deneyişinde Akıl kurtulma zarı atmalıdır, eğer bu zarda başarılı olursa o sıralığına büyü hedefin hareketini sınırlamaz.",
-				"Eğer sen farklı bir varlığa saldırırsan, hedefin dışında başka bir düşman varlığı etkileyen bir büyü kullanırsan, sana dost olan bir varlık hedefine saldırırsa yada ona zararlı bir büyü kullanırsa, yada sen sıranı hedeften 30 fit üzeri bir uzaklıkta bitirirsen büyü sona erer."
+				"Eğer sen farklı bir varlığa saldırırsan, hedefin dışında başka bir düşman varlığı etkileyen bir büyü kullanırsan, sana dost olan bir varlık hedefine saldırırsa ya da ona zararlı bir büyü kullanırsa, ya da sen sıranı hedeften 30 fit üzeri bir uzaklıkta bitirirsen büyü sona erer."
 			],
 			"page": 224,
 			"savingThrow": [
@@ -4266,7 +4266,7 @@
 			},
 			"entries": [
 				"Süresi boyunca, duyduğun tüm konuşulan dilleri kelimesi kelimesine anlarsın. Gördüğün tüm yazılı dilleri de anlarsın ama dilin yazılı olduğu yüzeye dokunman gerekir. 1 sayfa metni okuma yaklaşık 1 dakikanı alır.",
-				"Bu büyü metin ve gliflerde şifreli mesajları yada arcane mühür gibi yazılı dillerin parçası olmayan şeyleri anlamanı sağlamaz."
+				"Bu büyü metin ve gliflerde şifreli mesajları ya da arcane mühür gibi yazılı dillerin parçası olmayan şeyleri anlamanı sağlamaz."
 			],
 			"page": 224
 		},
@@ -4391,7 +4391,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 6th level or higher, the damage increases by {@dice 1d8} for each slot level above 5th."
+						"Bu büyüyü 6. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the damage increases by {@dice 1d8} for each slot level above 5th."
 					]
 				}
 			],
@@ -4541,7 +4541,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 5th level or higher, the radius of the sphere increases by 5 feet for each slot above 4th."
+						"Bu büyüyü 5. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the radius of the sphere increases by 5 feet for each slot above 4th."
 					]
 				}
 			],
@@ -4786,7 +4786,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 6th level or higher, the challenge rating increases by 1 for each slot level above 5th."
+						"Bu büyüyü 6. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the challenge rating increases by 1 for each slot level above 5th."
 					]
 				}
 			],
@@ -4846,7 +4846,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 7th level or higher, the challenge rating increases by 1 for each slot level above 6th."
+						"Bu büyüyü 7. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the challenge rating increases by 1 for each slot level above 6th."
 					]
 				}
 			],
@@ -5302,7 +5302,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Dokunduğun bir nesneden bir meşale parlaklığında alev çıkar. Bu etki normal alev gibi görünür ama ısı üretmez yada oksijen tüketmez. Bir devamlı alev örtülebilir ve gizlenebilir ama söndürülemez."
+				"Dokunduğun bir nesneden bir meşale parlaklığında alev çıkar. Bu etki normal alev gibi görünür ama ısı üretmez ya da oksijen tüketmez. Bir devamlı alev örtülebilir ve gizlenebilir ama söndürülemez."
 			],
 			"page": 227
 		},
@@ -5602,7 +5602,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "dört yada daha fazla ok"
+				"m": "dört ya da daha fazla ok"
 			},
 			"duration": [
 				{
@@ -5623,7 +5623,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Menzilindeki zemine dört adet büyüsüz ok yerleştirirsin ve o alanı koruması için üzerlerine büyü yaparsın. Büyü bitene kadar, ne zaman senin dışında bir varlık bu okların 30 fit yakınına, sırasında ilk defa gelirse yada sırasını orada bitirirse, bir ok uçar ve ona saldırır. Varlık Çeviklik kurtulma zarında başarılı olur yada {@dice 1d6} delme hasarı alır. Ok sonrasında yok olur. Geriye ok kalmadığında büyü sona erer.",
+				"Menzilindeki zemine dört adet büyüsüz ok yerleştirirsin ve o alanı koruması için üzerlerine büyü yaparsın. Büyü bitene kadar, ne zaman senin dışında bir varlık bu okların 30 fit yakınına, sırasında ilk defa gelirse ya da sırasını orada bitirirse, bir ok uçar ve ona saldırır. Varlık Çeviklik kurtulma zarında başarılı olur ya da {@dice 1d6} delme hasarı alır. Ok sonrasında yok olur. Geriye ok kalmadığında büyü sona erer.",
 				"Bu büyüyü kullandığında, istediğin varlıkları seçip bu büyünün yoksaymasını sağlayabilirsin."
 			],
 			"entriesHigherLevel": [
@@ -5631,7 +5631,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 3. seviye yada üzeri bir büyü yuvası harcayarak kullandığında, 2. sonrasında her seviye için etkileyebileceğin ok sayısı 2 artar."
+						"Bu büyüyü 3. seviye ya da üzeri bir büyü yuvası harcayarak kullandığında, 2. sonrasında her seviye için etkileyebileceğin ok sayısı 2 artar."
 					]
 				}
 			],
@@ -5706,7 +5706,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, the interrupted spell has no effect if its level is less than or equal to the level of the spell slot you used."
+						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the interrupted spell has no effect if its level is less than or equal to the level of the spell slot you used."
 					]
 				}
 			],
@@ -5833,7 +5833,7 @@
 			"page": 229
 		},
 		{
-			"name": "Su Yarat yada Yoket",
+			"name": "Su Yarat ya da Yoket",
 			"level": 1,
 			"school": "T",
 			"time": [
@@ -5852,7 +5852,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "yaratıyorsan bir damla su yada yokediyorsan bir kaç tane kum"
+				"m": "yaratıyorsan bir damla su ya da yokediyorsan bir kaç tane kum"
 			},
 			"duration": [
 				{
@@ -5873,7 +5873,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Su yaratır yada yokedersin.",
+				"Su yaratır ya da yokedersin.",
 				{
 					"type": "entries",
 					"name": "Su Yarat",
@@ -5894,7 +5894,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 2. seviye yada üzeri bir büyü yuvası harcayarak kullandığında, 1. üzerindeki her seviye için fazladan 10 galon su yaratır yada yok edersin ve kübün boyutu 5 fit artar."
+						"Bu büyüyü 2. seviye ya da üzeri bir büyü yuvası harcayarak kullandığında, 1. üzerindeki her seviye için fazladan 10 galon su yaratır ya da yok edersin ve kübün boyutu 5 fit artar."
 					]
 				}
 			],
@@ -5992,7 +5992,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 6th level or higher, the cube increases by 5 feet for each slot level above 5th."
+						"Bu büyüyü 6. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the cube increases by 5 feet for each slot level above 5th."
 					]
 				}
 			],
@@ -6063,8 +6063,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Menzilinde görebildiğin seçeceğin bir insansı Akıl kurtulma zarı atar yada büyü süresince senin tarafından cezbedilir. Hedef bu şekilde cezbedilmişken, sivri uçlu demirden çarpık bir taç hedefin kafasında belirir ve gözlerinde delilik parlar.",
-				"Cezbedilmiş varlık her sırasında hareket etmeden önce eylemini, kendisi dışında senin zihinsel olarak seçeceğin bir hedefe tek bir yakın dövüş saldırısı yapmak için kullanır. Eğer sen varlık seçmezsen yada menzilinde bir varlık yoksa hedef sırasına normal olarak devam edebilir.",
+				"Menzilinde görebildiğin seçeceğin bir insansı Akıl kurtulma zarı atar ya da büyü süresince senin tarafından cezbedilir. Hedef bu şekilde cezbedilmişken, sivri uçlu demirden çarpık bir taç hedefin kafasında belirir ve gözlerinde delilik parlar.",
+				"Cezbedilmiş varlık her sırasında hareket etmeden önce eylemini, kendisi dışında senin zihinsel olarak seçeceğin bir hedefe tek bir yakın dövüş saldırısı yapmak için kullanır. Eğer sen varlık seçmezsen ya da menzilinde bir varlık yoksa hedef sırasına normal olarak devam edebilir.",
 				"Sonraki sıralarında, hedefin kontrolünü sürdürebilmek için eylemini kullanman gerekir, yoksa büyü sonlanır. Ayrıca, hedef her sırasının sonunda Akıl kurtulma zarı atabilir. Başarılı olursa büyü sonlanır."
 			],
 			"page": 229,
@@ -6220,7 +6220,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 2. seviye yada üzeri bir büyü yuvası harcayarak kullandığında, 1. sonrasında her seviye için iyileştirme zarın {@dice 1d8} artar."
+						"Bu büyüyü 2. seviye ya da üzeri bir büyü yuvası harcayarak kullandığında, 1. sonrasında her seviye için iyileştirme zarın {@dice 1d8} artar."
 					]
 				}
 			],
@@ -6246,7 +6246,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "biraz fosfor, wych odunu yada bir parlayan solucan"
+				"m": "biraz fosfor, wych odunu ya da bir parlayan solucan"
 			},
 			"duration": [
 				{
@@ -6276,7 +6276,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Menzilinde 4 taneye kadar meşale boyutunda ışık yaratıp bunlara meşale, kandil yada havada süzülen parlayan küreler şeklini verebilirsin. Ayrıca bu 4 ışığı birleştirip kabaca Orta boyutlu bir insansı şeklini de verebilirsin. Hangi şekli seçersen seç her ışık 10 fitlik çapta loş ışık verir.",
+				"Menzilinde 4 taneye kadar meşale boyutunda ışık yaratıp bunlara meşale, kandil ya da havada süzülen parlayan küreler şeklini verebilirsin. Ayrıca bu 4 ışığı birleştirip kabaca Orta boyutlu bir insansı şeklini de verebilirsin. Hangi şekli seçersen seç her ışık 10 fitlik çapta loş ışık verir.",
 				"Sıranda bonus eylem olarak, ışıkları menzilin içerisinde 60 feete kadar hareket ettirebilirsin. Bu büyü ile yaratılan ışıklar birbirine en fazla 20 feet uzaklıkta olabilirler ve eğer bir ışık menzil dışında kalırsa söner."
 			],
 			"page": 230
@@ -6300,7 +6300,7 @@
 			},
 			"components": {
 				"v": true,
-				"m": "yarasa kürkü ve bir damla katran yada bir parça kömür"
+				"m": "yarasa kürkü ve bir damla katran ya da bir parça kömür"
 			},
 			"duration": [
 				{
@@ -6354,8 +6354,8 @@
 			"source": "PHB",
 			"entries": [
 				"Süre boyunca, menzilinde seçeceğin bir nokta merkezli 15 fit çapında bir küreyi büyülü karanlık kaplar. Karanlık köşelerin ardına geçer. Gece görüşü olan bir varlık bu karanlığın içini göremez ve büyüsüz ışık burayı aydınlatamaz.",
-				"Eğer seçtiğin nokta senin tuttuğun yada taşınmayan yada giyilmeyen bir nesne ise, karanlık bu nesneden çıkar ve onunla hareket eder. Karanlığın kaynağını miğfer yada kase gibi opak bir nesne ile tamamen kapatmak karanlığı bloklar.",
-				"Eğer bu büyünün alanı, 2. seviye yada altı bir büyü tarafından yaratılmış bir ışık etkisinin alanı ile örtüşürse, ışığı yaratan büyü defedilir."
+				"Eğer seçtiğin nokta senin tuttuğun ya da taşınmayan ya da giyilmeyen bir nesne ise, karanlık bu nesneden çıkar ve onunla hareket eder. Karanlığın kaynağını miğfer ya da kase gibi opak bir nesne ile tamamen kapatmak karanlığı bloklar.",
+				"Eğer bu büyünün alanı, 2. seviye ya da altı bir büyü tarafından yaratılmış bir ışık etkisinin alanı ile örtüşürse, ışığı yaratan büyü defedilir."
 			],
 			"page": 230
 		},
@@ -6378,7 +6378,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "ya bir tutam kurutulmuş havuç yada bir agat"
+				"m": "ya bir tutam kurutulmuş havuç ya da bir agat"
 			},
 			"duration": [
 				{
@@ -6655,7 +6655,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 8th level or higher, the base damage increases by {@dice 1d6} for each slot level above 7th."
+						"Bu büyüyü 8. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the base damage increases by {@dice 1d6} for each slot level above 7th."
 					]
 				}
 			],
@@ -6818,7 +6818,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Süresi boyunca, 30 feet yakınında bir aberasyon, kutsal, elemental, fey, zebani yada yaşayan ölü olursa hissedersin, ve varlığın nerede olduğunu bilirsin. Benzer olarak, 30 feet yakınındaki bir alanın yada nesnenin, büyülü bir şekilde kutsanmış veya kirletilmiş olup olmadığını da hissedersin. Büyü bir çok bariyeri aşabilir ama 1 fit taş, 1 inç metal, ince bir kurşun plaka yada 3 fit odun veya toprağı geçemez."
+				"Süresi boyunca, 30 feet yakınında bir aberasyon, kutsal, elemental, fey, zebani ya da yaşayan ölü olursa hissedersin, ve varlığın nerede olduğunu bilirsin. Benzer olarak, 30 feet yakınındaki bir alanın ya da nesnenin, büyülü bir şekilde kutsanmış veya kirletilmiş olup olmadığını da hissedersin. Büyü bir çok bariyeri aşabilir ama 1 fit taş, 1 inç metal, ince bir kurşun plaka ya da 3 fit odun veya toprağı geçemez."
 			],
 			"page": 231
 		},
@@ -6901,8 +6901,8 @@
 				"ritual": true
 			},
 			"entries": [
-				"Süresi boyunca, 30 fit yakınında büyünün varlığını hissedersin. Eğer büyüyü bu şekilde hissedersen, eylemini kullanarak alandaki büyülü ve görünen varlık yada nesnelerin çevresinde hafif bir aura görebilir, ve eğer bir büyü okuluna aitse bunu öğrenebilirsin.",
-				"Büyü çoğu bariyeri aşabilir ama 1 fit taş, 1 inç metal, ince bir kurşun plaka, yada 3 fit odun veya toprağı geçemez."
+				"Süresi boyunca, 30 fit yakınında büyünün varlığını hissedersin. Eğer büyüyü bu şekilde hissedersen, eylemini kullanarak alandaki büyülü ve görünen varlık ya da nesnelerin çevresinde hafif bir aura görebilir, ve eğer bir büyü okuluna aitse bunu öğrenebilirsin.",
+				"Büyü çoğu bariyeri aşabilir ama 1 fit taş, 1 inç metal, ince bir kurşun plaka, ya da 3 fit odun veya toprağı geçemez."
 			],
 			"page": 231
 		},
@@ -6962,13 +6962,13 @@
 				"ritual": true
 			},
 			"entries": [
-				"Süresi boyunca, 30 fit çevrendeki zehirlerin, zehirli varlıkların, ve hastalıkların yerlerini ve varlığını hissedersin. Ayrıca ne tip bir zehir, zehirli varlık yada hastalık olduğunu da öğrenirsin.",
-				"Büyü çoğu bariyeri aşabilir ama 1 fit taş, 1 inç metal, ince bir kurşun plaka, yada 3 fit odun veya toprağı geçemez."
+				"Süresi boyunca, 30 fit çevrendeki zehirlerin, zehirli varlıkların, ve hastalıkların yerlerini ve varlığını hissedersin. Ayrıca ne tip bir zehir, zehirli varlık ya da hastalık olduğunu da öğrenirsin.",
+				"Büyü çoğu bariyeri aşabilir ama 1 fit taş, 1 inç metal, ince bir kurşun plaka, ya da 3 fit odun veya toprağı geçemez."
 			],
 			"page": 231
 		},
 		{
-			"name": "Detect Thoughts",
+			"name": "Zihin Okuma",
 			"level": 2,
 			"school": "D",
 			"time": [
@@ -6986,7 +6986,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a copper piece"
+				"m": "bir bakır para"
 			},
 			"duration": [
 				{
@@ -7028,7 +7028,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"For the duration, you can read the thoughts of certain creatures. When you cast the spell and as your eylem on each turn until the spell ends, you can focus your mind on any one creature that you can see within 30 feet of you. If the creature you choose has an Intelligence of 3 or lower or doesn't speak any language, the creature is unaffected.",
+				" For the duration, you can read the thoughts of certain creatures. When you cast the spell and as your eylem on each turn until the spell ends, you can focus your mind on any one creature that you can see within 30 feet of you. If the creature you choose has an Intelligence of 3 or lower or doesn't speak any language, the creature is unaffected.",
 				"You initially learn the surface thoughts of the creature\u2014what is most on its mind in that moment. As an eylem, you can either shift your attention to another creature's thoughts or attempt to probe deeper into the same creature's mind. If you probe deeper, the target must make a Wisdom saving throw. If it fails, you gain insight into its reasoning (if any), its emotional state, and something that looms large in its mind (such as something it worries over, loves, or hates). If it succeeds, the spell ends. Either way, the target knows that you are probing into its mind, and unless you shift your attention to another creature's thoughts, the creature can use its eylem on its turn to make an Intelligence check contested by your Intelligence check if it succeeds, the spell ends.",
 				"Questions verbally directed at the target creature naturally shape the course of its thoughts, so this spell is particularly effective as part of an interrogation.",
 				"You can also use this spell to detect the presence of thinking creatures you can't see. When you cast the spell or as your eylem during the duration, you can search for thoughts within 30 feet of you. The spell can penetrate barriers, but 2 feet of rock, 2 inches of any metal other than lead, or a thin sheet of lead blocks you. You can't detect a creature with an Intelligence of 3 or lower or one that doesn't speak any language.",
@@ -7189,8 +7189,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Büyü bitene yada sen eylemini kullanıp etkiyi savana kadar kendini, kıyafetin, zırhın, silahın ve üzerindeki diğer şeylerle birlikte farklı gösterirsin. 1 fit daha kısa yada uzun, veya daha tombul yada zayıf görünebilirsin. Vücut şeklini değiştiremezsin, girdiğin form seninkine benzer uzuvlara sahip olmalıdır. Bunun dışında illüzyonun etkileri sana kalmış.",
-				"Bu büyünün yarattığı değişiklikler fiziksel denetime dayanamaz. Örneğin, bu büyü ile kıyafetine bir şapka eklersen, nesneler şapkanın içinden geçer ve ona dokunan herkes ya hiçbirşey hissetmez yada başın ve saçına dokunur. Bu büyüyü olduğundan daha zayıf görünmek için kullanıyorsan, sana dokunmak için elini uzatan biri, daha eli boşlukta görünürken sana yaklaştığında asıl bedenine çarpar.",
+				"Büyü bitene ya da sen eylemini kullanıp etkiyi savana kadar kendini, kıyafetin, zırhın, silahın ve üzerindeki diğer şeylerle birlikte farklı gösterirsin. 1 fit daha kısa ya da uzun, veya daha tombul ya da zayıf görünebilirsin. Vücut şeklini değiştiremezsin, girdiğin form seninkine benzer uzuvlara sahip olmalıdır. Bunun dışında illüzyonun etkileri sana kalmış.",
+				"Bu büyünün yarattığı değişiklikler fiziksel denetime dayanamaz. Örneğin, bu büyü ile kıyafetine bir şapka eklersen, nesneler şapkanın içinden geçer ve ona dokunan herkes ya hiçbirşey hissetmez ya da başın ve saçına dokunur. Bu büyüyü olduğundan daha zayıf görünmek için kullanıyorsan, sana dokunmak için elini uzatan biri, daha eli boşlukta görünürken sana yaklaştığında asıl bedenine çarpar.",
 				"Senin kılık değiştirdiğini farkedebilmek için, bir varlık eylemini kullanıp görünüşünü inceler ve senin büyü kurtulma DC'ne karşı Zeka (İnceleme) zarı atar."
 			],
 			"page": 233,
@@ -7249,7 +7249,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 7th level or higher, the damage increases by {@dice 3d6} for each slot level above 6th."
+						"Bu büyüyü 7. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the damage increases by {@dice 3d6} for each slot level above 6th."
 					]
 				}
 			],
@@ -7426,7 +7426,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, you automatically end the effects of a spell on the target if the spell's level is equal to or less than the level of the spell slot you used."
+						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, you automatically end the effects of a spell on the target if the spell's level is equal to or less than the level of the spell slot you used."
 					]
 				}
 			],
@@ -7479,14 +7479,14 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Menzilinde seçtiğin sadece bir varlığın duyabileceği ahenksiz, acı veren bir melodi fısıldarsın. Hedef Akıl kurtulma zarı atar. Başarısız olursa, {@dice 3d6} psişik hasar alır ve eğer mevcutsa reaksiyonunu kullanıp senden hızı elverdiğince uzaklaşır. Varlık, bir çukur yada ateş gibi bariz bir şekilde tehlikeli zemine gitmez. Başarılı bir zarda, hedef yarı hasar alır ve uzaklaşması gerekmez. Sağır olan bir varlık otomatik olarak kurtulma zarında başarılı olur."
+				"Menzilinde seçtiğin sadece bir varlığın duyabileceği ahenksiz, acı veren bir melodi fısıldarsın. Hedef Akıl kurtulma zarı atar. Başarısız olursa, {@dice 3d6} psişik hasar alır ve eğer mevcutsa reaksiyonunu kullanıp senden hızı elverdiğince uzaklaşır. Varlık, bir çukur ya da ateş gibi bariz bir şekilde tehlikeli zemine gitmez. Başarılı bir zarda, hedef yarı hasar alır ve uzaklaşması gerekmez. Sağır olan bir varlık otomatik olarak kurtulma zarında başarılı olur."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 2. seviye yada üzeri bir büyü yuvası harcayarak kullandığında, 1. sonrasında her seviye için hasar {@dice 1d6} artar."
+						"Bu büyüyü 2. seviye ya da üzeri bir büyü yuvası harcayarak kullandığında, 1. sonrasında her seviye için hasar {@dice 1d6} artar."
 					]
 				}
 			],
@@ -8144,9 +8144,9 @@
 					"type": "list",
 					"items": [
 						"Bulunduğun bölgenin önündeki 24 saatlik hava durumunu tahmin edecek zararsız, minik bir duyusal etki yaratırsın. Bu etki güneşli hava için altın bir küre, yağmur için bulut, kar için düşen kar tanecikleri gibi şekil alabilir. Bu etki bir sıra boyunca kalır.",
-						"Anında bir çiçeği açtırır, bir çekirdeği filizlendirir yada bir yaprak tomurcuğunu büyütürsün.",
-						"Düşen yapraklar, hafif esinti, küçük bir hayvan sesi yada hafif bir şekilde bir kokarcanın kokusu gibi anlık ve zararsız duyusal etki yaratırsın. Bu etki 5 fitlik bir kübe sığmalıdır.",
-						"Anında bir mum, meşale yada küçük bir kamp ateşini yakar yada söndürürsün."
+						"Anında bir çiçeği açtırır, bir çekirdeği filizlendirir ya da bir yaprak tomurcuğunu büyütürsün.",
+						"Düşen yapraklar, hafif esinti, küçük bir hayvan sesi ya da hafif bir şekilde bir kokarcanın kokusu gibi anlık ve zararsız duyusal etki yaratırsın. Bu etki 5 fitlik bir kübe sığmalıdır.",
+						"Anında bir mum, meşale ya da küçük bir kamp ateşini yakar ya da söndürürsün."
 					]
 				}
 			],
@@ -8258,7 +8258,7 @@
 			"source": "PHB",
 			"entries": [
 				"Menzilindeki bir varlığa doğru çatırdayan bir enerji ışını atarsın. Hedefe karşı bir menzilli büyü saldırısı yap. Vurursa hedef {@dice 1d10} güç hasarı alır.",
-				"Üst seviyelere eriştikçe bu büyü fazladan ışınlar yaratır: 5. seviyede 2 ışın, 11. seviyede 3 ışın, ve 17. seviyede 4 ışın. Işınları aynı hedefe yada farklı hedeflere yönlendirebilirsin. Her ışın için ayrı bir saldırı zarı atarsın."
+				"Üst seviyelere eriştikçe bu büyü fazladan ışınlar yaratır: 5. seviyede 2 ışın, 11. seviyede 3 ışın, ve 17. seviyede 4 ışın. Işınları aynı hedefe ya da farklı hedeflere yönlendirebilirsin. Her ışın için ayrı bir saldırı zarı atarsın."
 			],
 			"page": 237,
 			"damageInflict": [
@@ -8348,7 +8348,7 @@
 			]
 		},
 		{
-			"name": "Enhance Ability",
+			"name": "Yetenek Geliştir",
 			"level": 2,
 			"school": "T",
 			"time": [
@@ -8366,7 +8366,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "fur or a feather from a beast"
+				"m": "bir hayvandan kıl ya da tüy"
 			},
 			"duration": [
 				{
@@ -8400,47 +8400,47 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You touch a creature and bestow upon it a magical enhancement. Choose one of the following effects; the target gains the effect until the spell ends.",
+				"Bir varlığa dokunup onu büyülü bir şekilde geliştirirsin. Şu etkilerden birini seç; hedefin büyü bitene kadar bu etkiyi kazanır.(Bu etkilerin sadece yetenek zarlarını etkilediğini, o yetenek ile yapılan saldırı ya da kurtulma zarlarını etkilemeyeceğini unutmayın.)",
 				{
 					"type": "entries",
-					"name": "Bear's Endurance",
+					"name": "Ayının Dayanıklılığı",
 					"entries": [
-						"The target has advantage on Constitution checks. It also gains {@dice 2d6} temporary hit points, which are lost when the spell ends."
+						"Hedef Dayanıklılık zarlarında avantajlıdır. Ayrıca {@dice 2d6} geçici HP alır, bunlar büyü bittiğinde kaybolur."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Bull's Strength",
+					"name": "Öküzün Gücü",
 					"entries": [
-						"The target has advantage on Strength checks, and his or her carrying capacity doubles."
+						"Hedef Kuvvet zarlarında avantajlıdır, ve taşıma kapasitesi ikiye katlanır."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Cat's Grace",
+					"name": "Kedinin Zarafeti",
 					"entries": [
-						"The target has advantage on Dexterity checks. It also doesn't take damage from falling 20 feet or less if it isn't {@condition incapacitated}."
+						"Hedef Çeviklik zarlarında avantajlıdır. Ayrıca {@condition etkisiz hal}de değilse 20 fit ya da daha az mesafeden düşüşten hasar almaz."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Eagle's Splendor",
+					"name": "Kartalın Görkemi",
 					"entries": [
-						"The target has advantage on Charisma checks."
+						"Hedef Karizma zarlarında avantajlıdır."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Fox's Cunning",
+					"name": "Tilkinin Kurnazlığı",
 					"entries": [
-						"The target has advantage on Intelligence checks."
+						"Hedef Zeka zarlarında avantajlıdır."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Owl's Wisdom",
+					"name": "Baykuşun Bilgeliği",
 					"entries": [
-						"The target has advantage on Wisdom checks."
+						"Hedef Akıl zarlarında avantajlıdır."
 					]
 				}
 			],
@@ -8449,14 +8449,14 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd."
+						"Bu büyüyü 3. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 2. seviye üzeri her yuva için fazladan bir varlık hedef alabilirsin."
 					]
 				}
 			],
 			"page": 237
 		},
 		{
-			"name": "Enlarge/Reduce",
+			"name": "Büyüt/Küçült",
 			"level": 2,
 			"school": "T",
 			"time": [
@@ -8475,7 +8475,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a pinch of powdered iron"
+				"m": "bir tutam demir tozu"
 			},
 			"duration": [
 				{
@@ -8501,10 +8501,10 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You cause a creature or an object you can see within range to grow larger or smaller for the duration. Choose either a creature or an object that is neither worn nor carried. If the target is unwilling, it can make a Constitution saving throw. On a success, the spell has no effect.",
-				"If the target is a creature, everything it is wearing and carrying changes size with it. Any item dropped by an affected creature returns to normal size at once.",
-				"Enlarge. The target's size doubles in all dimensions, and its weight is multiplied by eight. This growth increases its size by one category\u2014from Medium to Large, for example. If there isn't enough room for the target to double its size, the creature or object attains the maximum possible size in the space available. Until the spell ends, the target also has advantage on Strength checks and Strength saving throws. The target's weapons also grow to match its new size. While these weapons are enlarged, the target's attack with them deal {@dice 1d4} extra damage.",
-				"Reduce. The target's size is halved in all dimensions, and its weight is reduced to one-eighth of normal. This reduction decreases its size by one category\u2014from Medium to Small, for example. Until the spell ends, the target also has disadvantage on Strength checks and Strength saving throws. The target's weapons also shrink to match its new size. While these weapons are reduced, the target's attacks with them deal {@dice 1d4} less damage (this can't reduce the damage below 1)."
+				"Menzilinde görebildiğin bir varlık ya da nesneyi süre boyunca büyütür ya da küçültürsün. Bir varlık ya da giyilmeyen ve taşınmayan bir nesne seç. Eğer hedef isteksizse Dayanıklılık kurtulma zarı atabilir. Başarılı olursa büyü etki göstermez.",
+				"Eğer hedef bir varlıksa, giydiği ve taşıdığı herşey onun boyutuna gelir. Etki altındaki bir varlığın düşürdüğü tüm nesneler anında eski boyutuna geri döner.",
+				"Büyüt. Hedefin büyüklüğü her boyutta ikiye katlanır ve ağırlığı sekize katlanır. Bu büyüme boyutunu bir kategori üste çıkarır, ortadan büyüğe gibi. Eğer boyutunu ikiye katlayabileceği alan yoksa, mevcut alanda kaplayabileceği en büyük boyuta ulaşır. Büyü sona erene kadar, hedef Kuvvet zarlarında ve Kuvvet kurtulma zarlarında avantajlıdır. Hedefin silahları da yeni boyutuna uygun olarak büyür. Bu silahlar büyükken hedefin onlarla saldırıları {@dice 1d4} fazladan hasar verir.",
+				"Küçült. Hedefin büyüklüğü her boyutta yarılanır ve ağırlığı normalin sekizde biri olur. Bu küçülme boyutunu bir kategori alta indirir, ortadan küçüğe gibi. Büyü sona erene kadar, hedef Kuvvet zarlarında ve Kuvvet kurtulma zarlarında dezavantajlıdır. Hedefin silahları da yeni boyutuna uygun olarak küçülür. Bu silahlar küçükken hedefin onlarla saldırıları {@dice 1d4} daha az hasar verir (Bu durum hasarı 1'in altına düşüremez)."
 			],
 			"page": 237,
 			"savingThrow": [
@@ -8563,15 +8563,15 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Bu büyü bitmeden bir varlığa karşı yapacağın bir sonraki silahlı vuruşunda, darbe noktasında dikenli sarmaşıklar belirir, ve hedef Kuvvet kurtulma zarında başarılı olur yada bu büyülü sarmaşıklar tarafından büyü sona erene kadar kısıtlanır. Büyük yada daha büyük boyutta bir varlık bu kurtulma zarında avantajlıdır. Eğer hedef kurtulma zarında başarılı olursa sarmaşıklar yok olur.",
-				"Bu büyü tarafından kısıtlanmışken, hedef her sırasının başında {@dice 1d6} delme hasarı alır. Bu sarmaşıklar tarafından kısıtlanan yada ona dokunabilen bir varlık eylemini kullanıp senin büyü kurtulma DC'ne karşı Kuvvet zarı atabilir. Başarılı olursa, hedef serbest kalır."
+				"Bu büyü bitmeden bir varlığa karşı yapacağın bir sonraki silahlı vuruşunda, darbe noktasında dikenli sarmaşıklar belirir, ve hedef Kuvvet kurtulma zarında başarılı olur ya da bu büyülü sarmaşıklar tarafından büyü sona erene kadar kısıtlanır. Büyük ya da daha büyük boyutta bir varlık bu kurtulma zarında avantajlıdır. Eğer hedef kurtulma zarında başarılı olursa sarmaşıklar yok olur.",
+				"Bu büyü tarafından kısıtlanmışken, hedef her sırasının başında {@dice 1d6} delme hasarı alır. Bu sarmaşıklar tarafından kısıtlanan ya da ona dokunabilen bir varlık eylemini kullanıp senin büyü kurtulma DC'ne karşı Kuvvet zarı atabilir. Başarılı olursa, hedef serbest kalır."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 2. seviye yada üzeri bir büyü yuvası harcayarak kullandığında, 1. sonrasında her seviye için hasar {@dice 1d6} artar."
+						"Bu büyüyü 2. seviye ya da üzeri bir büyü yuvası harcayarak kullandığında, 1. sonrasında her seviye için hasar {@dice 1d6} artar."
 					]
 				}
 			],
@@ -8628,7 +8628,7 @@
 			"source": "PHB",
 			"entries": [
 				"Menzilindeki bir noktadan başlayarak, zeminde 20 fitlik bir karenin içinde kavrayan otlar ve sarmaşıklar çıkar. Süresi boyunca bu bitkiler o zemini zorlu araziye çevirir.",
-				"Sen büyüyü kullandığında etki alanında bulunan bir varlık Kuvvet kurtulma zarında başarılı olur, yada bu bitkiler tarafından büyü sonuna kadar kısıtlanır. Bitkiler tarafından kısıtlanmış bir varlık eylemini kullanarak senin büyü kurtulma DC'ne karşı Kuvvet zarı atabilir. Başarılı olursa serbest kalır.",
+				"Sen büyüyü kullandığında etki alanında bulunan bir varlık Kuvvet kurtulma zarında başarılı olur, ya da bu bitkiler tarafından büyü sonuna kadar kısıtlanır. Bitkiler tarafından kısıtlanmış bir varlık eylemini kullanarak senin büyü kurtulma DC'ne karşı Kuvvet zarı atabilir. Başarılı olursa serbest kalır.",
 				"Büyü sona erdiğinde bitkiler kuruyup kaybolur."
 			],
 			"page": 238,
@@ -8640,7 +8640,7 @@
 			]
 		},
 		{
-			"name": "Enthrall",
+			"name": "Dikkat Çek",
 			"level": 2,
 			"school": "E",
 			"time": [
@@ -8683,7 +8683,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You weave a distracting string of words, causing creatures of your choice that you can see within range and that can hear you to make a Wisdom saving throw. Any creature that can't be {@condition charmed} succeeds on this saving throw automatically, and if you or your companions are fighting a creature, it has advantage on the save. On a failed save, the target has disadvantage on Wisdom (Perception) checks made to perceive any creature other than you until the spell ends or until the target can no longer hear you. The spell ends if you are {@condition incapacitated} or can no longer speak."
+				"Dikkat çekici bir dizi sözler söylersin, menzilinde gördüğün ve seni duyabilen varlıklar arasından seçtiklerin Akıl kurtulma zarı atar. Cezbedilemeyen tüm varlıklar bu kurtulma zarında otomatik olarak başarılı olur, ve eğer sen ya da senin dostların bu varlıkla savaşıyorsanız bu kurtulma zarında avantajı olur. Başarısız olursa, hedefin senin dışındakileri farketmek için atacağı Akıl (Algı) zarlarında dezavantajı olur. Bu etki büyü bitene ya da hedef seni duyamayana kadar sürer. Büyü eğer sen {@condition etkisiz hal}de kalırsan ya da konuşamazsan biter."
 			],
 			"page": 238,
 			"savingThrow": [
@@ -8757,7 +8757,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 8th level or higher, you can target up to three willing creatures (including you) for each slot level above 7th. The creatures must be within 10 feet of you when you cast the spell."
+						"Bu büyüyü 8. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, you can target up to three willing creatures (including you) for each slot level above 7th. The creatures must be within 10 feet of you when you cast the spell."
 					]
 				}
 			],
@@ -9088,7 +9088,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Menzilinde 20 fitlik bir kübün içindeki tüm nesneler mavi, yeşil yada mor arasından seçeceğin bir renkte parlar. Büyü yapıldığında, alanında bulunan varlıklar da Çeviklik kurtulma zarında başarısız olurlarsa bu şekilde parlarlar. Süre boyunca etkilenen nesne ve varlıklar 10 fit çevrelerine loş ışık saçarlar.",
+				"Menzilinde 20 fitlik bir kübün içindeki tüm nesneler mavi, yeşil ya da mor arasından seçeceğin bir renkte parlar. Büyü yapıldığında, alanında bulunan varlıklar da Çeviklik kurtulma zarında başarısız olurlarsa bu şekilde parlarlar. Süre boyunca etkilenen nesne ve varlıklar 10 fit çevrelerine loş ışık saçarlar.",
 				"Etkilenen tüm varlık ve nesnelere karşı yapılacak saldırılar, eğer saldırgan onları görebiliyorsa avantajla yapılır ve etkilenen varlık ve nesneler görünmezlikten faydalanamaz."
 			],
 			"page": 239,
@@ -9115,7 +9115,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "az bir miktar alkol yada ispirto"
+				"m": "az bir miktar alkol ya da ispirto"
 			},
 			"duration": [
 				{
@@ -9179,7 +9179,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 2. seviye yada üzeri bir büyü yuvası harcayarak kullandığında, 1. sonrasında her seviye için 5 fazladan geçici HP kazanırsın."
+						"Bu büyüyü 2. seviye ya da üzeri bir büyü yuvası harcayarak kullandığında, 1. sonrasında her seviye için 5 fazladan geçici HP kazanırsın."
 					]
 				}
 			],
@@ -9277,7 +9277,7 @@
 				{
 					"number": 1,
 					"unit": "reaksiyon",
-					"condition": "60 fit yakınında bir varlık yada sen düşmeye başlayınca kullanırsın"
+					"condition": "60 fit yakınında bir varlık ya da sen düşmeye başlayınca kullanırsın"
 				}
 			],
 			"range": {
@@ -9289,7 +9289,7 @@
 			},
 			"components": {
 				"v": true,
-				"m": "beyaz bir tüy yada bir horozun kalbi"
+				"m": "beyaz bir tüy ya da bir horozun kalbi"
 			},
 			"duration": [
 				{
@@ -9503,7 +9503,7 @@
 				"ritual": true
 			},
 			"entries": [
-				"Seçeceğin hayvan formunda sana hizmet edecek olan bir ruh hizmetkar kazanırsın: {@creature yarasa}, {@creature kedi}, {@creature yengeç}, {@creature kurbağa}, {@creature şahin}, {@creature kertenkele}, {@creature ahtapot}, {@creature baykuş}, {@creature zehirli yılan}, balık ({@creature quipper}), {@creature sıçan}, {@creature kuzgun}, {@creature denizatı}, {@creature örümcek}, yada {@creature gelincik}. Menzilinde boş bir alanda beliren hizmetkar seçilen formun istatistiklerine sahiptir, ama hayvan yerine senin seçimine göre kutsal, zebani yada fey olur.",
+				"Seçeceğin hayvan formunda sana hizmet edecek olan bir ruh hizmetkar kazanırsın: {@creature yarasa}, {@creature kedi}, {@creature yengeç}, {@creature kurbağa}, {@creature şahin}, {@creature kertenkele}, {@creature ahtapot}, {@creature baykuş}, {@creature zehirli yılan}, balık ({@creature quipper}), {@creature sıçan}, {@creature kuzgun}, {@creature denizatı}, {@creature örümcek}, ya da {@creature gelincik}. Menzilinde boş bir alanda beliren hizmetkar seçilen formun istatistiklerine sahiptir, ama hayvan yerine senin seçimine göre kutsal, zebani ya da fey olur.",
 				"Hizmetkarın senden bağımsız hareket eder ama daima senin emirlerine uyar. Savaşta, kendi öncelik zarını atar ve kendi sırasını kullanır. Bir hizmetkar saldıramaz ama diğer eylemleri normal olarak kullanabilir.",
 				"Hizmetkar 0 HP'ye düştüğünde kaybolur, geriye bir fiziksel şekil bırakmaz. Bu büyüyü kullanarak yeniden ortaya çıkarabilirsin. Hizmetkarın senin 100 fit yakınındayken, onunla telepatik olarak iletişime geçebilirsin. Ayrıca, eylemini kullanarak bir sonraki sıranın başına kadar hizmetkarının gözlerinden görüp kulaklarından duyabilirsin, bu sürede hizmetkarın sahip olduğu özel duyulara da sahip olursun. Bu süre içinde kendi duyularınla kör ve sağırsındır.",
 				"Eylem olarak hizmetkarını geçici bir şekilde savabilirsin. Bir cep boyuta gidip yeniden çağrılmayı bekler. Alternatif olarak, onu sonsuza kadar savabilirsin. Geçici olarak savılmışken, eylemini kullanarak onu yeniden 30 fit yakınında yaratabilirsin.",
@@ -9513,7 +9513,7 @@
 			"page": 240
 		},
 		{
-			"name": "Find Steed",
+			"name": "Binek Bul",
 			"level": 2,
 			"school": "C",
 			"time": [
@@ -9548,16 +9548,16 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You summon a spirit that assumes the form of an unusually intelligent, strong, and loyal steed, creating a long-lasting bond with it. Appearing in an unoccupied space within range, the steed takes on a form that you choose: a warhorse, a pony, a camel, an elk, or a mastiff. (Your DM might allow other animals to be summoned as steeds.) The steed has the statistics of the chosen form, though it is a celestial, fey, or fiend (your choice) instead of its normal type. Additionally, if your steed has an Intelligence of 5 or less, its Intelligence becomes 6, and it gains the ability to understand one language of your choice that you speak.",
-				"Your steed serves you as a mount, both in combat and out, and you have an instinctive bond with it that allows you to fight as a seamless unit. While mounted on your steed, you can make any spell you cast that targets only you also target your steed.",
-				"When the steed drops to 0 hit points, it disappears, leaving behind no physical form. You can also dismiss your steed at any time as an eylem, causing it to disappear. In either case, casting this spell again summons the same steed, restored to its hit point maximum.",
-				"While your steed is within 1 mile of you, you can communicate with it telepathically.",
-				"You can't have more than one steed bonded by this spell at a time. As an eylem, you can release the steed from its bond at any time, causing it to disappear."
+				"Alışılmadık zekada, güçte ve sadakatta bir binek şekline bürünen bir ruh çağırır ve onunla uzun süreli bir bağ kurarsın. Menzilindeki boş bir alanda ortaya çıkar ve bu binek seçeceğin bir şekle girer: bir savaş atı, bir midilli, bir deve, bir geyik, ya da bir mastiff (mastı köpeği). (DM'in diğer hayvanların binek olarak çağırılmasına izin verebilir.) Binek seçilen şeklin istatistiklerine sahip olur, ama seçimine göre bu normal tipi yerine kutsal, fey ya da zebani olur. Ek olarak, eğer bineğinin Zekası 5 ya da altındaysa bu skor 6 olur, ve senin konuştuğun dillerden seçeceğin birini anlayabilir.",
+				"Bu ruh sana savaş içinde ve dışında bir binek olarak hizmet eder ve birlikte ayrılmaz bir bütün olarak savaşabilmeniz için bir bağınız oluşur. Bineğinin sırtındayken kullandığın ve sadece seni hedef alan tüm büyülerin bineğini de etkilemesini sağlayabilirsin.",
+				"Binek 0 HP'ye düştüğünde kaybolur, geriye fiziksel bir form bırakmaz. İstediğin zaman da bineğini eylem olarak savabilirsin, ortadan kaybolur. Her iki durumda da bu büyüyü yeniden kullanmak aynı bineği çağırır, canı yenilenmiş bir şekilde.",
+				"Bineğin 1 mil yakınında bulunduğu sürece onunla telepatik iletişim kurabilirsin.",
+				"Bu büyü ile aynı anda birden fazla bineğe bağlı kalamazsın. Eylem olarak binek ile bağını koparıp onun kaybolmasını sağlayabilirsin."
 			],
 			"page": 240
 		},
 		{
-			"name": "Find Traps",
+			"name": "Tuzakları Bul",
 			"level": 2,
 			"school": "D",
 			"time": [
@@ -9600,8 +9600,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You sense the presence of any trap within range that is within line of sight. A trap, for the purpose of this spell, includes anything that would inflict a sudden or unexpected effect you consider harmful or undesirable, which was specifically intended as such by its creator. Thus, the spell would sense an area affected by the alarm spell, a glyph of warding, or a mechanical pit trap, but it would not reveal a natural weakness in the floor, an unstable ceiling, or a hidden sinkhole.",
-				"This spell merely reveals that a trap is present. You don't learn the location of each trap, but you do learn the general nature of the danger posed by a trap you sense."
+				"Mesafende ve görüşünde bulunan tüm tuzakların varlığını hissedersin. Bir tuzak, bu büyünün amaçlarına uygun olarak, beklenmedik ya da ani bir şekilde senin zararlı ya da istenmeyen olarak gördüğün bir etkiyi ortaya çıkaran ve yaratıcı tarafından da bu amaçla yapılmış şeyleri kapsar. Bu yüzden, büyü alarm büyüsünün etkilediği bir alanı, bir koruma glifini, ya da bir mekanik çukur tuzağını gösterir, ama zemindeki doğal bir zayıflığı, yıkılmak üzere olan bir çatıyı ya da gizli bir bataklığı göstermez.",
+				"Bu büyü sadece bir tuzağın varlığını ortaya çıkarır. Her tuzağın yerini öğrenemezsin ama bu tuzağın genel yapısını ve arzettiği tehlikeyi öğrenirsin."
 			],
 			"page": 241
 		},
@@ -9758,7 +9758,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Menzilindeki bir varlık yada nesneye doğru bir alev taneciği fırlatırsın. Hedefe karşı bir menzilli büyü saldırısı zarı at. Vurursa hedef {@dice 1d10} ateş hasarı alır. Taşınmayan yada giyilmeyen yanıcı bir madde bu büyü ile vurulduğunda alev alır.",
+				"Menzilindeki bir varlık ya da nesneye doğru bir alev taneciği fırlatırsın. Hedefe karşı bir menzilli büyü saldırısı zarı at. Vurursa hedef {@dice 1d10} ateş hasarı alır. Taşınmayan ya da giyilmeyen yanıcı bir madde bu büyü ile vurulduğunda alev alır.",
 				"Bu büyünün hasarı belirli seviyelerde {@dice 1d10} artarak 5. seviyede ({@dice 2d10}), 11. seviyede ({@dice 3d10}) ve 17. seviyede ({@dice 4d10}) olur."
 			],
 			"page": 242,
@@ -9958,7 +9958,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@dice 1d6} for each slot level above 3rd."
+						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the damage increases by {@dice 1d6} for each slot level above 3rd."
 					]
 				}
 			],
@@ -9971,7 +9971,7 @@
 			]
 		},
 		{
-			"name": "Flame Blade",
+			"name": "Alev Kılıcı",
 			"level": 2,
 			"school": "V",
 			"time": [
@@ -9989,7 +9989,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "leaf of sumac"
+				"m": "sumak yaprağı"
 			},
 			"duration": [
 				{
@@ -10011,16 +10011,16 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You evoke a fiery blade in your free hand. The blade is similar in size and shape to a scimitar, and it lasts for the duration. If you let go of the blade, it disappears, but you can evoke the blade again as a bonus eylem.",
-				"You can use your eylem to make a melee spell attack with the fiery blade. On a hit, the target takes {@dice 3d6} ateş damage.",
-				"The flaming blade sheds bright light in a 10-foot radius and dim light for an additional 10 feet."
+				"Boş elinde alevli bir kılıç yaratırsın. Bu kılıç şekil ve boyut açısından bir palaya yakındır ve süresi boyunca kalır. Eğer kılıcı bırakırsan ortadan kaybolur, ama bonus eylem olarak kılıcı yeniden yaratabilirsin.",
+				"Eylemini kullanarak bu alevli kılıçla bir yakın dövüş büyü saldırısı yapabilirsin. Vurursa, hedef {@dice 3d6} ateş hasarı alır.",
+				"Bu alevli kılıç 10 fit çevresine parlak ışık ve ötesinde 10 fit daha loş ışık saçar."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@dice 1d6} for every two slot levels above 2nd."
+						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, hasarı 2. seviye üzeri her 2 seviyede bir {@dice 1d6} artar."
 					]
 				}
 			],
@@ -10125,7 +10125,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 6th level or higher, the ateş damage or the radyant damage (your choice) increases by {@dice 1d6} for each slot level above 5th."
+						"Bu büyüyü 6. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the ateş damage or the radyant damage (your choice) increases by {@dice 1d6} for each slot level above 5th."
 					]
 				}
 			],
@@ -10139,7 +10139,7 @@
 			]
 		},
 		{
-			"name": "Flaming Sphere",
+			"name": "Alevli Küre",
 			"level": 2,
 			"school": "C",
 			"time": [
@@ -10158,7 +10158,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a bit of tallow, a pinch of brimstone, and a dusting of powdered iron"
+				"m": "biraz mumyağı, bir tutam kükürt, ve bir serpmelik demir tozu"
 			},
 			"duration": [
 				{
@@ -10206,16 +10206,16 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"A 5-foot-diameter sphere of ateş appears in an unoccupied space of your choice within range and lasts for the duration. Any creature that ends its turn within 5 feet of the sphere must make a Dexterity saving throw. The creature takes {@dice 2d6} ateş damage on a failed save, or half as much damage on a successful one.",
-				"As a bonus eylem, you can move the sphere up to 30 feet. If you ram the sphere into a creature, that creature must make the saving throw against the sphere's damage, and the sphere stops moving this turn.",
-				"When you move the sphere, you can direct it over barriers up to 5 feet tall and jump it across pits up to 10 feet wide. The sphere ignites flammable objects not being worn or carried, and it sheds bright light in a 20-foot radius and dim light for an additional 20 feet."
+				"5 fit çapında bir alev küresi menzilinde seçeceğin boş bir yerde ortaya çıkar ve büyü sonuna kadar kalır. Sırasını bu kürenin 5 fit yakınında bitiren her varlık Çeviklik kurtulma zarı atar. Varlık başarısız bir zarda {@dice 2d6} ateş hasarı alır, başarılı olursa bunun yarısını.",
+				"Bonus eylem olarak küreyi 30 fite kadar hareket ettirebilirsin. Eğer küreyi bir varlığa çarptırırsan, o varlık kürenin hasarı için bir kurtulma zarı atar ve küre bu sıra için hareket etmeyi bırakır.",
+				"Küreyi hareket ettirdiğinde, 5 fit yüksekliğinde bariyerleri ya da 10 fitlik çukurları aştırabilirsin. Küre taşınmayan ya da giyilmeyen nesneleri yakar, ve 20 fit çevresine parlak ışık ötesinde 20 fit daha loş ışık saçar."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@dice 1d6} for each slot level above 2nd."
+						"Bu büyüyü 3. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 2. seviye üzeri her seviye için hasar {@dice 1d6} artar."
 					]
 				}
 			],
@@ -10339,7 +10339,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd."
+						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, you can target one additional creature for each slot level above 3rd."
 					]
 				}
 			],
@@ -10410,14 +10410,14 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Merkezi menzilinde bir nokta olan 20 fit çapında bir sis küresi oluşturursun. Küre köşelerin ardına yayılır, ve alanı ağır bir şekilde örtülüdür. Süresi boyunca veya orta yada daha hızlı bir rüzgar (saatte en az 10 mil) onu dağıtıncaya kadar sürer."
+				"Merkezi menzilinde bir nokta olan 20 fit çapında bir sis küresi oluşturursun. Küre köşelerin ardına yayılır, ve alanı ağır bir şekilde örtülüdür. Süresi boyunca veya orta ya da daha hızlı bir rüzgar (saatte en az 10 mil) onu dağıtıncaya kadar sürer."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 2. seviye yada üzeri bir büyü yuvası harcayarak kullandığında, 1. sonrasında her seviye için sisin çapı 20 fit artar."
+						"Bu büyüyü 2. seviye ya da üzeri bir büyü yuvası harcayarak kullandığında, 1. sonrasında her seviye için sisin çapı 20 fit artar."
 					]
 				}
 			],
@@ -10998,7 +10998,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 7th or 8th level, the duration is 1 year. When you cast this spell using a spell slot of 9th level, the spell lasts until it is ended by one of the spells mentioned above."
+						"When you cast this spell using a spell slot of 7th or 8th level, the duration is 1 year. Bu büyüyü 9. seviye bir büyü yuvası harcayarak kullandığında, the spell lasts until it is ended by one of the spells mentioned above."
 					]
 				}
 			],
@@ -11011,7 +11011,7 @@
 			]
 		},
 		{
-			"name": "Gentle Repose",
+			"name": "Huzurlu Uyku",
 			"level": 2,
 			"school": "N",
 			"time": [
@@ -11029,7 +11029,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a pinch of salt and one copper piece placed on each of the corpse's eyes, which must remain there for the duration"
+				"m": "bir tutam tuz ve cesedin gözlerine yerleştirilecek birer bakır para, bunlar süre boyunca orada kalmalı"
 			},
 			"duration": [
 				{
@@ -11069,8 +11069,8 @@
 				"ritual": true
 			},
 			"entries": [
-				"You touch a corpse or other remains. For the duration, the target is protected from decay and can't become undead.",
-				"The spell also effectively extends the time limit on raising the target from the dead, since gün spent under the influence of this spell don't count against the time limit of spells such as raise dead."
+				"Bir cesede ya da kalıntılarına dokunursun. Süre boyunca hedef çürümez ve yaşayan ölüye dönüşemez.",
+				"Ayrıca büyü hedefi diriltmek için varolan zaman sınırını uzatır, bu büyü altında geçirilen zaman diriltme büyülerinin sınırları için sayılmaz."
 			],
 			"page": 245
 		},
@@ -11222,7 +11222,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 7th level or higher, the barrier blocks spells of one level higher for each slot level above 6th."
+						"Bu büyüyü 7. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the barrier blocks spells of one level higher for each slot level above 6th."
 					]
 				}
 			],
@@ -11305,7 +11305,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, the damage of an explosive runes glyph increases by {@dice 1d8} for each slot level above 3rd. If you create a spell glyph, you can store any spell of up to the same level as the slot you use for the glyph of warding."
+						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the damage of an explosive runes glyph increases by {@dice 1d8} for each slot level above 3rd. If you create a spell glyph, you can store any spell of up to the same level as the slot you use for the glyph of warding."
 					]
 				}
 			],
@@ -11454,7 +11454,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "biraz domuz yağı yada tereyağı"
+				"m": "biraz domuz yağı ya da tereyağı"
 			},
 			"duration": [
 				{
@@ -11476,7 +11476,7 @@
 			"source": "PHB",
 			"entries": [
 				"Merkezi menzilindeki bir nokta olan 10 fitlik bir kare alanda, kaygan yağ oluşturursun ve süre boyunca orayı zorlu araziye çevirirsin.",
-				"Yağ ortaya çıktığında, alanında olan tüm varlıklar Çeviklik kurtulma zarında başarılı olur yada yere düşer. Alana giren yada sırasını orada bitiren varlıklar da Çeviklik kurtulma zarında başarılı olur yada düşer."
+				"Yağ ortaya çıktığında, alanında olan tüm varlıklar Çeviklik kurtulma zarında başarılı olur ya da yere düşer. Alana giren ya da sırasını orada bitiren varlıklar da Çeviklik kurtulma zarında başarılı olur ya da düşer."
 			],
 			"page": 246,
 			"savingThrow": [
@@ -11879,7 +11879,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"İstekli bir varlığa dokunursun. Büyü bitmeden önce bir kereliğine, hedef {@dice d4} atıp sonucunu seçtiği bir yetenek zarına ekleyebilir. Bu d4'lük zarı yetenek zarından önce yada sonra atabilir. Sonrasında büyü sona erer."
+				"İstekli bir varlığa dokunursun. Büyü bitmeden önce bir kereliğine, hedef {@dice d4} atıp sonucunu seçtiği bir yetenek zarına ekleyebilir. Bu d4'lük zarı yetenek zarından önce ya da sonra atabilir. Sonrasında büyü sona erer."
 			],
 			"page": 248
 		},
@@ -11942,7 +11942,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 2. seviye yada üzeri bir büyü yuvası harcayarak kullandığında, 1. sonrasında her seviye için hasar {@dice 1d6} artar."
+						"Bu büyüyü 2. seviye ya da üzeri bir büyü yuvası harcayarak kullandığında, 1. sonrasında her seviye için hasar {@dice 1d6} artar."
 					]
 				}
 			],
@@ -11952,7 +11952,7 @@
 			]
 		},
 		{
-			"name": "Gust of Wind",
+			"name": "Kuvvetli Rüzgar",
 			"level": 2,
 			"school": "V",
 			"time": [
@@ -11971,7 +11971,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a legume seed"
+				"m": "bir fasulye tohumu"
 			},
 			"duration": [
 				{
@@ -12013,10 +12013,10 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"A line of strong wind 60 feet long and 10 feet wide blasts from you in a direction you choose for the spell's duration. Each creature that starts its turn in the line must succeed on a Strength saving throw or be pushed 15 feet away from you in a direction following the line.",
-				"Any creature in the line must spend 2 feet of movement for every 1 foot it moves when moving closer to you.",
-				"The gust disperses gas or vapor, and it extinguishes candles, torches, and similar unprotected flames in the area. It causes protected flames, such as those of lanterns, to dance wildly and has a 50 percent chance to extinguish them.",
-				"As a bonus eylem on each of your turns before the spell ends, you can change the direction in which the line blasts from you."
+				"Büyü süresince senden seçeceğin bir yöne doğru 60 fit uzunluğunda ve 10 fit genişliğinde bir hatta kuvvetli rüzgar başlar. Sırasına bu hatta başlayan her varlık Kuvvet kurtulma zarı atar ya da rüzgarın estiği yöne doğru 15 fit sürüklenir.",
+				"Bu hatta sana yaklaşmaya çalışan varlıkların, her 1 fitlik mesafeyi gidebilmek için 2 fit hareket harcaması gerekir.",
+				"Bu rüzgar gaz ya da buharı dağıtır, meşale ve mum gibi korunaksız ateşleri söndürür. Fener gibi korunaklı ateşleri ise titretir ve %50 şans ile söndürür.",
+				"Büyü bitmeden her sıranda bonus eylem olarak bu hattın senden ne yöne gideceğini değiştirebilirsin."
 			],
 			"page": 248,
 			"savingThrow": [
@@ -12062,14 +12062,14 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Büyü bitmeden önce bir varlığa ilk menzilli silah saldırısı ile vuruşunda, bu büyü menzilli silahından yada misilinden diken yağmuru yaratır. Saldırının normal etkilerinin yanında, saldırının hedefi ve 5 feet yakınındaki tüm varlıklar Çeviklik kurtulma zarı atar. Başarısız olursa bir varlık {@dice 1d10} delme hasarı alır, başarılı olursa bu hasarın yarısını."
+				"Büyü bitmeden önce bir varlığa ilk menzilli silah saldırısı ile vuruşunda, bu büyü menzilli silahından ya da misilinden diken yağmuru yaratır. Saldırının normal etkilerinin yanında, saldırının hedefi ve 5 feet yakınındaki tüm varlıklar Çeviklik kurtulma zarı atar. Başarısız olursa bir varlık {@dice 1d10} delme hasarı alır, başarılı olursa bu hasarın yarısını."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 2. seviye yada üzeri bir büyü yuvası harcayarak kullandığında, 1. sonrasında her seviye için hasar {@dice 1d10} artar (maksimum {@dice 6d10} olur)."
+						"Bu büyüyü 2. seviye ya da üzeri bir büyü yuvası harcayarak kullandığında, 1. sonrasında her seviye için hasar {@dice 1d10} artar (maksimum {@dice 6d10} olur)."
 					]
 				}
 			],
@@ -12503,7 +12503,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 7th level or higher, the amount of healing increases by 10 for each slot level above 6th."
+						"Bu büyüyü 7. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the amount of healing increases by 10 for each slot level above 6th."
 					]
 				}
 			],
@@ -12559,14 +12559,14 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 2. seviye yada üzeri bir büyü yuvası harcayarak kullandığında, 1. sonrasında her seviye için iyileştirme {@dice 1d4} artar."
+						"Bu büyüyü 2. seviye ya da üzeri bir büyü yuvası harcayarak kullandığında, 1. sonrasında her seviye için iyileştirme {@dice 1d4} artar."
 					]
 				}
 			],
 			"page": 250
 		},
 		{
-			"name": "Heat Metal",
+			"name": "Metal Isıt",
 			"level": 2,
 			"school": "T",
 			"time": [
@@ -12585,7 +12585,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a piece of iron and a flame"
+				"m": "bir demir parçası ve ateş"
 			},
 			"duration": [
 				{
@@ -12623,15 +12623,15 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Choose a manufactured metal object, such as a metal weapon or a suit of heavy or medium metal armor, that you can see within range. You cause the object to glow red-hot. Any creature in physical contact with the object takes {@dice 2d8} ateş damage when you cast the spell. Until the spell ends, you can use a bonus eylem on each of your subsequent turns to cause this damage again.",
-				"If a creature is holding or wearing the object and takes the damage from it, the creature must succeed on a Constitution saving throw or drop the object if it can. If it doesn't drop the object, it has disadvantage on attack rolls and ability checks until the start of your next turn."
+				"Menzilinde görebildiğin bir üretilmiş metal nesne seç, bu metal bir silah, ağır ya da orta metal zırh olabilir. Nesneyi kızgın sıcaklıkla parlatırsın. Büyüyü yaptığında nesne ile temas halinde olan varlıklar {@dice 2d8} ateş hasarı alır. Büyü bitene dek her sıranda bonus eylem olarak bu hasarı tekrarlayabilirsin.",
+				"Eğer bir varlık bu nesneyi tutuyor ya da giyiyorsa bu hasarı alır, sonrasında varlık Dayanıklılık kurtulma zarı atar ve başarısız bir zarda eğer mümkünse bu nesneyi düşürür. Eğer nesneyi düşürmezse, bir sonraki sıranın başına kadar yapacağı saldırı ve yetenek zarlarında dezavantajı olur."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@dice 1d8} for each slot above 2nd."
+						"Bu büyüyü 3. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 2. seviye üzeri her seviye için hasar {@dice 1d8} artar."
 					]
 				}
 			],
@@ -12699,7 +12699,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 2. seviye yada üzeri bir büyü yuvası harcayarak kullandığında, 1. sonrasında her seviye için hasar {@dice 1d10} artar."
+						"Bu büyüyü 2. seviye ya da üzeri bir büyü yuvası harcayarak kullandığında, 1. sonrasında her seviye için hasar {@dice 1d10} artar."
 					]
 				}
 			],
@@ -12818,7 +12818,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 2. seviye yada üzeri bir büyü yuvası harcayarak kullandığında, 1. sonrasında her seviye için fazladan bir varlığı hedef alabilirsin."
+						"Bu büyüyü 2. seviye ya da üzeri bir büyü yuvası harcayarak kullandığında, 1. sonrasında her seviye için fazladan bir varlığı hedef alabilirsin."
 					]
 				}
 			],
@@ -12875,7 +12875,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 3. yada 4. seviye büyü yuvası harcayarak kullandığında, büyüdeki konsantrasyonunu 8 saate kadar tutabilirsin. 5. seviye yada üzeri bir yuva harcayarak kullandığında, büyüdeki konsantrasyonunu 24 saate kadar tutabilirsin."
+						"Bu büyüyü 3. ya da 4. seviye büyü yuvası harcayarak kullandığında, büyüdeki konsantrasyonunu 8 saate kadar tutabilirsin. 5. seviye ya da üzeri bir yuva harcayarak kullandığında, büyüdeki konsantrasyonunu 24 saate kadar tutabilirsin."
 					]
 				}
 			],
@@ -12977,7 +12977,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 6th level or higher, you can target on additional creature for each slot level above 5th. The creatures must be within 30 feet of each other when you target them."
+						"Bu büyüyü 6. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, you can target on additional creature for each slot level above 5th. The creatures must be within 30 feet of each other when you target them."
 					]
 				}
 			],
@@ -13098,7 +13098,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, you can target on additional humanoid for each slot level above 2nd. The humanoids must be within 30 feet of each other when you target them."
+						"Bu büyüyü 3. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, you can target on additional humanoid for each slot level above 2nd. The humanoids must be within 30 feet of each other when you target them."
 					]
 				}
 			],
@@ -13271,7 +13271,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 3. yada 4. seviye büyü yuvası harcayarak kullandığında, büyüdeki konsantrasyonunu 8 saate kadar tutabilirsin. 5. seviye yada üzeri bir yuva harcayarak kullandığında, büyüdeki konsantrasyonunu 24 saate kadar tutabilirsin."
+						"Bu büyüyü 3. ya da 4. seviye büyü yuvası harcayarak kullandığında, büyüdeki konsantrasyonunu 8 saate kadar tutabilirsin. 5. seviye ya da üzeri bir yuva harcayarak kullandığında, büyüdeki konsantrasyonunu 24 saate kadar tutabilirsin."
 					]
 				}
 			],
@@ -13439,7 +13439,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 5th level or higher, the ezme damage increases by {@dice 1d8} for each slot level above 4th."
+						"Bu büyüyü 5. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the ezme damage increases by {@dice 1d8} for each slot level above 4th."
 					]
 				}
 			],
@@ -13520,7 +13520,7 @@
 				"ritual": true
 			},
 			"entries": [
-				"Büyü kullanımı süresince dokunman gereken bir nesne seçersin. Eğer büyülü bir eşya ise yada üzerinde büyü kullanılmışsa, özelliklerini ve nasıl kullanıldıklarını, kullanmak için uyum gerekip gerekmediğini, ve eğer varsa kaç yükü kaldığını öğrenirsin. Eşyayı herhangi bir büyünün etkileyip etkilemediğini ve bu büyülerin hangileri olduğunu, eğer eşya bir büyü ile yaratıldıysa hangi büyünün yarattığını öğrenirsin.",
+				"Büyü kullanımı süresince dokunman gereken bir nesne seçersin. Eğer büyülü bir eşya ise ya da üzerinde büyü kullanılmışsa, özelliklerini ve nasıl kullanıldıklarını, kullanmak için uyum gerekip gerekmediğini, ve eğer varsa kaç yükü kaldığını öğrenirsin. Eşyayı herhangi bir büyünün etkileyip etkilemediğini ve bu büyülerin hangileri olduğunu, eğer eşya bir büyü ile yaratıldıysa hangi büyünün yarattığını öğrenirsin.",
 				"Bunun yerine büyü kullanımı süresince bir varlığa dokunduysan, eğer üzerinde büyü varsa bunların neler olduğunu öğrenebilirsin."
 			],
 			"page": 252
@@ -13579,7 +13579,7 @@
 				"ritual": true
 			},
 			"entries": [
-				"Parşömen, kağıt yada benzeri bir yazı materyaline istediğin metni yazıp onu büyü süresince kalacak güçlü bir illüzyon ile etkilersin.",
+				"Parşömen, kağıt ya da benzeri bir yazı materyaline istediğin metni yazıp onu büyü süresince kalacak güçlü bir illüzyon ile etkilersin.",
 				"Sana ve büyüyü kullanırken belirlediğin kişilere, metin normal görünür, elinle yazılmış ve metni yazarken ne aktarmak istediysen onu gösterir. Diğerlerine, metin sanki anlaşılmaz, büyülü bir alfabe ile yazılmış gibi görünür. Alternatif olarak, bunu tamamen farklı bir el ile yazılmış, farklı dilde ve farklı bir mesaj aktaran bir metin yapabilirsin. Bu farklı dili senin bilmen gerekir.",
 				"Eğer büyü defedilirse, hem illüzyon hemde asıl metin kaybolur.",
 				"Saf görüşü olan bir varlık bu gizli mesajı okuyabilir."
@@ -13811,7 +13811,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 2. seviye yada üzeri bir büyü yuvası harcayarak kullandığında, 1. sonrasında her seviye için hasar {@dice 1d10} artar."
+						"Bu büyüyü 2. seviye ya da üzeri bir büyü yuvası harcayarak kullandığında, 1. sonrasında her seviye için hasar {@dice 1d10} artar."
 					]
 				}
 			],
@@ -13944,7 +13944,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 6th level or higher, the damage increases by {@dice 1d10} for each slot level above 5th."
+						"Bu büyüyü 6. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the damage increases by {@dice 1d10} for each slot level above 5th."
 					]
 				}
 			],
@@ -14029,7 +14029,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd."
+						"Bu büyüyü 3. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, you can target one additional creature for each slot level above 2nd."
 					]
 				}
 			],
@@ -14487,7 +14487,7 @@
 			},
 			"components": {
 				"v": true,
-				"m": "bir ateşböceği yada fosforlu yosun"
+				"m": "bir ateşböceği ya da fosforlu yosun"
 			},
 			"duration": [
 				{
@@ -14520,8 +14520,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Herhangi bir boyutunda 10 fitin üzerinde olmayan bir nesneye dokun. Büyü bitene kadar bu nesne 20 feet çapında parlak, sonrasında 20 feet de loş ışık saçar. Işık istediğin renkte olabilir. Opak bir şey ile nesneyi tamamen kaplamak ışığı engeller. Büyü yeniden kullanırsan yada eylemini kullanıp savarsan sonlanır.",
-				"Eğer düşman bir varlık tarafından taşınan yada giyilen bir nesneyi hedef alırsan, varlık büyüden kaçınmak için Çeviklik kurtulma zarında başarılı olmalıdır."
+				"Herhangi bir boyutunda 10 fitin üzerinde olmayan bir nesneye dokun. Büyü bitene kadar bu nesne 20 feet çapında parlak, sonrasında 20 feet de loş ışık saçar. Işık istediğin renkte olabilir. Opak bir şey ile nesneyi tamamen kaplamak ışığı engeller. Büyü yeniden kullanırsan ya da eylemini kullanıp savarsan sonlanır.",
+				"Eğer düşman bir varlık tarafından taşınan ya da giyilen bir nesneyi hedef alırsan, varlık büyüden kaçınmak için Çeviklik kurtulma zarında başarılı olmalıdır."
 			],
 			"page": 255,
 			"savingThrow": [
@@ -14577,7 +14577,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, the damage for both effects of the spell increases by {@dice 1d8} for each slot level above 3rd."
+						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the damage for both effects of the spell increases by {@dice 1d8} for each slot level above 3rd."
 					]
 				}
 			],
@@ -14651,7 +14651,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@dice 1d6} for each slot above 3rd."
+						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the damage increases by {@dice 1d6} for each slot above 3rd."
 					]
 				}
 			],
@@ -14920,7 +14920,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 2. seviye yada üzeri bir büyü yuvası harcayarak kullandığında, 1. sonrasında her seviye için fazladan bir varlık hedef alabilirsin."
+						"Bu büyüyü 2. seviye ya da üzeri bir büyü yuvası harcayarak kullandığında, 1. sonrasında her seviye için fazladan bir varlık hedef alabilirsin."
 					]
 				}
 			],
@@ -14970,7 +14970,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				" Zırh giymeyen istekli bir varlığa dokunursun, ve büyü sona erene kadar onu koruyucu bir büyülü güç sarar. Hedefin temel AC'si 13 + Çeviklik bonusu olur. Büyü, eğer hedef zırh giyerse yada sen eylemini kullanıp büyüyü savarsan sonlanır."
+				" Zırh giymeyen istekli bir varlığa dokunursun, ve büyü sona erene kadar onu koruyucu bir büyülü güç sarar. Hedefin temel AC'si 13 + Çeviklik bonusu olur. Büyü, eğer hedef zırh giyerse ya da sen eylemini kullanıp büyüyü savarsan sonlanır."
 			],
 			"page": 256
 		},
@@ -15026,9 +15026,9 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Menzilinde seçtiğin bir noktada spektral ve süzülen bir el belirir. El süre boyunca yada eylem olarak sen savıncaya kadar kalır. Eğer senden 30 feetten fazla uzaklaşırsa yada sen bu büyüyü tekrar kullanırsan el kaybolur.",
-				"Eylemini kullanıp eli kontrol edebilirsin. Eli bir nesneyi kullanma, kilitsiz bir kapıyı yada kabı açma, açık bir kaptan eşya alma yada yerine koyma, veya şişenin içeriklerini dökme gibi eylemler için kullanabilirsin. Eli her kullanışında 30 feete kadar hareket ettirebilirsin.",
-				"El saldıramaz, büyülü nesneleri etkinleştiremez yada 10 pounddan fazla taşıyamaz."
+				"Menzilinde seçtiğin bir noktada spektral ve süzülen bir el belirir. El süre boyunca ya da eylem olarak sen savıncaya kadar kalır. Eğer senden 30 feetten fazla uzaklaşırsa ya da sen bu büyüyü tekrar kullanırsan el kaybolur.",
+				"Eylemini kullanıp eli kontrol edebilirsin. Eli bir nesneyi kullanma, kilitsiz bir kapıyı ya da kabı açma, açık bir kaptan eşya alma ya da yerine koyma, veya şişenin içeriklerini dökme gibi eylemler için kullanabilirsin. Eli her kullanışında 30 feete kadar hareket ettirebilirsin.",
+				"El saldıramaz, büyülü nesneleri etkinleştiremez ya da 10 pounddan fazla taşıyamaz."
 			],
 			"page": 256
 		},
@@ -15128,7 +15128,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, the duration increases by 1 saat for each slot level above 3rd."
+						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the duration increases by 1 saat for each slot level above 3rd."
 					]
 				}
 			],
@@ -15251,7 +15251,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 2. seviye yada üzeri bir büyü yuvası harcayarak kullandığında, 1. sonrasında her seviye için fazladan bir dart yaratırsın."
+						"Bu büyüyü 2. seviye ya da üzeri bir büyü yuvası harcayarak kullandığında, 1. sonrasında her seviye için fazladan bir dart yaratırsın."
 					]
 				}
 			],
@@ -15400,7 +15400,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, the bonus increases to +2. When you use a spell slot of 6th level or higher, the bonus increases to +3."
+						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the bonus increases to +2. When you use a spell slot of 6th level or higher, the bonus increases to +3."
 					]
 				}
 			],
@@ -15469,7 +15469,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 6th level or higher, the spell lasts until dispelled, without requiring your concentration."
+						"Bu büyüyü 6. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the spell lasts until dispelled, without requiring your concentration."
 					]
 				}
 			],
@@ -15544,7 +15544,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 6th level or higher, the healing increases by {@dice 1d8} for each slot level above 5th."
+						"Bu büyüyü 6. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the healing increases by {@dice 1d8} for each slot level above 5th."
 					]
 				}
 			],
@@ -15632,7 +15632,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, the healing increases by {@dice 1d4} for each slot level above 3rd."
+						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the healing increases by {@dice 1d4} for each slot level above 3rd."
 					]
 				}
 			],
@@ -15881,7 +15881,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, the damage (both initial and later) increases by {@dice 1d4} for each slot level above 2nd."
+						"Bu büyüyü 3. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the damage (both initial and later) increases by {@dice 1d4} for each slot level above 2nd."
 					]
 				}
 			],
@@ -15942,8 +15942,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Bu büyü dokunduğun bir nesnedeki kırık zincir halkası, kırık bir anahtarın iki yarısı yada sızdıran bir şarap matarası gibi tek bir kırık yada yırtığı tamir eder. Yırtık yada kırığın boyutu herhangi bir boyutunda 1 feetten fazla değilse, geride iz bırakmadan tamir olur.",
-				"Bu büyü bir büyülü eşyayı yada yapıyı fiziksel olarak tamir edebilir ama bu tip bir nesneye büyüsünü geri kazandıramaz."
+				"Bu büyü dokunduğun bir nesnedeki kırık zincir halkası, kırık bir anahtarın iki yarısı ya da sızdıran bir şarap matarası gibi tek bir kırık ya da yırtığı tamir eder. Yırtık ya da kırığın boyutu herhangi bir boyutunda 1 feetten fazla değilse, geride iz bırakmadan tamir olur.",
+				"Bu büyü bir büyülü eşyayı ya da yapıyı fiziksel olarak tamir edebilir ama bu tip bir nesneye büyüsünü geri kazandıramaz."
 			],
 			"page": 259
 		},
@@ -15997,7 +15997,7 @@
 			"source": "PHB",
 			"entries": [
 				"Menzilindeki bir varlığa parmağını doğrultup bir mesaj fısıldarsın. Hedef (ve sadece hedef) mesajı duyar ve sadece senin duyabileceğin bir fısıltı ile yanıtlayabilir.",
-				"Eğer hedefi tanıyorsan ve bariyerin ardında olduğunu biliyorsan, bu büyüyü katı nesnelerin ardında da kullanabilirsin. Büyülü sessizlik, 1 fitlik taş, 1 inç metal, kurşundan ince bir plaka yada 3 fitlik odun büyüyü bloklar. Büyü düz bir hizada gitmek zorunda değildir, rahatlıkla açıklıklardan geçer ve köşeleri dönebilir."
+				"Eğer hedefi tanıyorsan ve bariyerin ardında olduğunu biliyorsan, bu büyüyü katı nesnelerin ardında da kullanabilirsin. Büyülü sessizlik, 1 fitlik taş, 1 inç metal, kurşundan ince bir plaka ya da 3 fitlik odun büyüyü bloklar. Büyü düz bir hizada gitmek zorunda değildir, rahatlıkla açıklıklardan geçer ve köşeleri dönebilir."
 			],
 			"page": 259
 		},
@@ -16158,10 +16158,10 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Menzilinde büyü süresince kalacak bir ses yada bir nesne görüntüsü yaratırsın. İllüzyon, onu eylemini kullanıp savarsan yada bu büyüyü yeniden kullanırsan sonlanır.",
-				"Eğer ses yaratırsan, bu bir fısıltıdan çığlığa kadar değişebilir. Bu senin sesin yada başkasının sesi, bir aslan kükremesi, davul gürültüsü yada seçeceğin herhangi bir ses olabilir. Ses, süre boyunca kesilmeden devam edebilir yada büyü bitmeden önce farklı zamanlarda ayrı sesler de yaratabilirsin.",
-				"Eğer sandalye, çamurlu ayak izleri yada küçük bir sandık gibi nesnelerin görüntüsünü yarattıysan, bu 5 fitlik bir küpten büyük olamaz. Görüntü ses, ışık, koku yada herhangi bir duyusal etki yaratamaz. Görüntü ile fiziksel etkileşim onun bir illüzyon olduğunu ortaya çıkarır, çünkü nesneler içinden geçebilir.",
-				"Eğer bir varlık eylemini bu ses yada görüntüyü incelemek için kullanırsa, senin büyü kurtulma zarı DC'ne karşı atacağı bir Zeka (İnceleme) zarı ile illüzyon olduğunu anlayabilir. Eğer bir varlık illüzyonun aslını farkederse, illüzyon o varlık için sönük olacaktır."
+				"Menzilinde büyü süresince kalacak bir ses ya da bir nesne görüntüsü yaratırsın. İllüzyon, onu eylemini kullanıp savarsan ya da bu büyüyü yeniden kullanırsan sonlanır.",
+				"Eğer ses yaratırsan, bu bir fısıltıdan çığlığa kadar değişebilir. Bu senin sesin ya da başkasının sesi, bir aslan kükremesi, davul gürültüsü ya da seçeceğin herhangi bir ses olabilir. Ses, süre boyunca kesilmeden devam edebilir ya da büyü bitmeden önce farklı zamanlarda ayrı sesler de yaratabilirsin.",
+				"Eğer sandalye, çamurlu ayak izleri ya da küçük bir sandık gibi nesnelerin görüntüsünü yarattıysan, bu 5 fitlik bir küpten büyük olamaz. Görüntü ses, ışık, koku ya da herhangi bir duyusal etki yaratamaz. Görüntü ile fiziksel etkileşim onun bir illüzyon olduğunu ortaya çıkarır, çünkü nesneler içinden geçebilir.",
+				"Eğer bir varlık eylemini bu ses ya da görüntüyü incelemek için kullanırsa, senin büyü kurtulma zarı DC'ne karşı atacağı bir Zeka (İnceleme) zarı ile illüzyon olduğunu anlayabilir. Eğer bir varlık illüzyonun aslını farkederse, illüzyon o varlık için sönük olacaktır."
 			],
 			"page": 260,
 			"opposedCheck": [
@@ -16588,7 +16588,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@dice 1d10} for each slot level above 2nd."
+						"Bu büyüyü 3. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the damage increases by {@dice 1d10} for each slot level above 2nd."
 					]
 				}
 			],
@@ -16765,7 +16765,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 5th level or higher, you can increase the size of the cube by 100 feet for each slot level beyond 4th. Thus you could protect a cube that can be up to 200 feet on one side by using a spell slot of 5th level."
+						"Bu büyüyü 5. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, you can increase the size of the cube by 100 feet for each slot level beyond 4th. Thus you could protect a cube that can be up to 200 feet on one side by using a spell slot of 5th level."
 					]
 				}
 			],
@@ -17071,7 +17071,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 7th level or higher, the damage increases by {@dice 1d6} for each slot level above 6th"
+						"Bu büyüyü 7. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the damage increases by {@dice 1d6} for each slot level above 6th"
 					]
 				}
 			],
@@ -17498,7 +17498,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 5th level or higher, the damage increases by {@dice 1d10} for each slot level above 4th."
+						"Bu büyüyü 5. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the damage increases by {@dice 1d10} for each slot level above 4th."
 					]
 				}
 			],
@@ -17909,7 +17909,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Menzilinde görebildiğin bir varlığa doğru elini uzatıp avucundan zehirli bir gaz üflersin. Varlık Dayanıklılık kurtulma zarında başarılı olur yada {@dice 1d12} zehir hasarı alır.",
+				"Menzilinde görebildiğin bir varlığa doğru elini uzatıp avucundan zehirli bir gaz üflersin. Varlık Dayanıklılık kurtulma zarında başarılı olur ya da {@dice 1d12} zehir hasarı alır.",
 				"Bu büyünün hasarı belirli seviyelerde {@dice 1d12} artarak 5. seviyede ({@dice 2d12}), 11. seviyede ({@dice 3d12}) ve 17. seviyede ({@dice 4d12}) olur."
 			],
 			"page": 266,
@@ -18185,7 +18185,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, the healing increases by {@dice 1d8} for each slot level above 2nd."
+						"Bu büyüyü 3. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the healing increases by {@dice 1d8} for each slot level above 2nd."
 					]
 				}
 			],
@@ -18248,12 +18248,12 @@
 				{
 					"type": "list",
 					"items": [
-						"Kıvılcım yağmuru, küçük bir esinti, belli belirsiz müzik notaları yada garip bir koku gibi anlık ve zararsız bir duyusal etki yaratırsın.",
-						"Anında bir mum, meşale yada küçük bir kamp ateşini yakar yada söndürürsün.",
-						"Bir fitlik küpten daha büyük olmayan bir nesneyi anında temizler yada kirletirsin.",
-						"Bir fitlik kübe kadar cansız maddeyi, 1 saatliğine serinletir, ılıtır yada lezzetlendirirsin.",
-						"Bir nesne yada yüzeyde, 1 saatliğine renk, küçük bir işaret yada sembol yaratırsın.",
-						"Bir sonraki sıranın sonuna kadar kalacak, avcunun içine sığabilecek boyutta büyüsüz ıvır zıvır yada illüzyon bir görüntü yaratırsın."
+						"Kıvılcım yağmuru, küçük bir esinti, belli belirsiz müzik notaları ya da garip bir koku gibi anlık ve zararsız bir duyusal etki yaratırsın.",
+						"Anında bir mum, meşale ya da küçük bir kamp ateşini yakar ya da söndürürsün.",
+						"Bir fitlik küpten daha büyük olmayan bir nesneyi anında temizler ya da kirletirsin.",
+						"Bir fitlik kübe kadar cansız maddeyi, 1 saatliğine serinletir, ılıtır ya da lezzetlendirirsin.",
+						"Bir nesne ya da yüzeyde, 1 saatliğine renk, küçük bir işaret ya da sembol yaratırsın.",
+						"Bir sonraki sıranın sonuna kadar kalacak, avcunun içine sığabilecek boyutta büyüsüz ıvır zıvır ya da illüzyon bir görüntü yaratırsın."
 					]
 				},
 				"Eğer büyüyü birden çok kez kullanırsan, anlık olmayan etkilerden sadece üç tanesi aynı anda aktif olabilir, ve bu tip bir etkiyi eylem olarak savabilirsin."
@@ -18520,8 +18520,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Elinde titreyen bir alev belirir. Alev süre boyunca orada kalır ve ne sana ne de ekipmanına hasar verir. Alev 10 fitlik bir çapta parlak, sonrasında 10 fit de loş ışık saçar. Büyü eğer eylem olarak onu savarsan yada yeniden kullanırsan sona erer.",
-				"Alev ile saldırı da yapabilirsin, ama bunu yapman büyüyü sonlandırır. Bu büyüyü kullandığında, yada sonraki sıralarından birinde eylem olarak, 30 fit yakınındaki bir varlığa fırlatabilirsin. Bir menzilli büyü saldırısı yap. Vurursa, hedef {@dice 1d8} ateş hasarı alır.",
+				"Elinde titreyen bir alev belirir. Alev süre boyunca orada kalır ve ne sana ne de ekipmanına hasar verir. Alev 10 fitlik bir çapta parlak, sonrasında 10 fit de loş ışık saçar. Büyü eğer eylem olarak onu savarsan ya da yeniden kullanırsan sona erer.",
+				"Alev ile saldırı da yapabilirsin, ama bunu yapman büyüyü sonlandırır. Bu büyüyü kullandığında, ya da sonraki sıralarından birinde eylem olarak, 30 fit yakınındaki bir varlığa fırlatabilirsin. Bir menzilli büyü saldırısı yap. Vurursa, hedef {@dice 1d8} ateş hasarı alır.",
 				"Bu büyünün hasarı belirli seviyelerde {@dice 1d8} artarak 5. seviyede ({@dice 2d8}), 11. seviyede ({@dice 3d8}) ve 17. seviyede ({@dice 4d8}) olur."
 			],
 			"page": 269,
@@ -18776,7 +18776,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "kutsal su yada toz gümüş ve demir, büyü bunu tüketir",
+					"text": "kutsal su ya da toz gümüş ve demir, büyü bunu tüketir",
 					"consume": true
 				}
 			},
@@ -18855,7 +18855,7 @@
 			"source": "PHB",
 			"entries": [
 				"Büyü bitene kadar, dokunduğun istekli bir varlık belirli varlık tiplerine karşı korunur: aberasyonlar, kutsallar, elementaller, fey, zebaniler, ve yaşayan ölüler.",
-				"Bu koruma bir kaç fayda sağlar. O tip varlıklar hedefe karşı saldırılarında dezavantajlı olurlar. Hedef onlar tarafından cezbedilemez, korkutulamaz yada hükmedilemez. Eğer hedef bu tip bir varlık tarafından zaten cezbedilmiş, korkmuş yada hükmedilmiş bir durumdaysa, bu etkiye karşı atacağı yeni kurtulma zarında avantajı olur."
+				"Bu koruma bir kaç fayda sağlar. O tip varlıklar hedefe karşı saldırılarında dezavantajlı olurlar. Hedef onlar tarafından cezbedilemez, korkutulamaz ya da hükmedilemez. Eğer hedef bu tip bir varlık tarafından zaten cezbedilmiş, korkmuş ya da hükmedilmiş bir durumdaysa, bu etkiye karşı atacağı yeni kurtulma zarında avantajı olur."
 			],
 			"page": 270
 		},
@@ -19290,7 +19290,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 2. seviye yada üzeri bir büyü yuvası harcayarak kullandığında, 1. sonrasında her seviye için hasar {@dice 1d8} artar."
+						"Bu büyüyü 2. seviye ya da üzeri bir büyü yuvası harcayarak kullandığında, 1. sonrasında her seviye için hasar {@dice 1d8} artar."
 					]
 				}
 			],
@@ -19654,7 +19654,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"İstekli bir varlığa dokunursun. Büyü bitmeden önce bir kereliğine, hedef {@dice d4} atıp sonucunu seçtiği bir kurtulma zarına ekleyebilir. Bu d4'lük zarı kurtulma zarından önce yada sonra atabilir. Sonrasında büyü sona erer."
+				"İstekli bir varlığa dokunursun. Büyü bitmeden önce bir kereliğine, hedef {@dice d4} atıp sonucunu seçtiği bir kurtulma zarına ekleyebilir. Bu d4'lük zarı kurtulma zarından önce ya da sonra atabilir. Sonrasında büyü sona erer."
 			],
 			"page": 272
 		},
@@ -19944,7 +19944,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Menzilinde görebildiğin bir varlığın üzerine alev benzeri bir parlaklık iner. Hedef Çeviklik kurtulma zarında başarılı olur yada {@dice 1d8} radyant hasar alır. Hedef bu kurtulma zarına siperden dolayı herhangi bir bonus almaz.",
+				"Menzilinde görebildiğin bir varlığın üzerine alev benzeri bir parlaklık iner. Hedef Çeviklik kurtulma zarında başarılı olur ya da {@dice 1d8} radyant hasar alır. Hedef bu kurtulma zarına siperden dolayı herhangi bir bonus almaz.",
 				"Bu büyünün hasarı belirli seviyelerde {@dice 1d8} artarak 5. seviyede ({@dice 2d8}), 11. seviyede ({@dice 3d8}) ve 17. seviyede ({@dice 4d8}) olur."
 			],
 			"page": 272,
@@ -20018,8 +20018,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Menzilindeki bir varlığı saldırılara karşı koruma altına alırsın. Büyü bitene kadar, koruma altındaki varlığı saldırı yada zararlı büyülerle hedef alan tüm varlıklar önce Akıl kurtulma zarı atar. Başarısız olursa, varlık yeni bir hedef seçer yada saldırı yada büyüyü kaybeder. Bu büyü korunan varlığı, alevtopunun patlaması gibi alan etkilerinden koruyamaz.",
-				"Eğer korunan varlık düşman bir varlığı etkileyen büyü kullanırsa yada saldırırsa bu büyü sona erer."
+				"Menzilindeki bir varlığı saldırılara karşı koruma altına alırsın. Büyü bitene kadar, koruma altındaki varlığı saldırı ya da zararlı büyülerle hedef alan tüm varlıklar önce Akıl kurtulma zarı atar. Başarısız olursa, varlık yeni bir hedef seçer ya da saldırı ya da büyüyü kaybeder. Bu büyü korunan varlığı, alevtopunun patlaması gibi alan etkilerinden koruyamaz.",
+				"Eğer korunan varlık düşman bir varlığı etkileyen büyü kullanırsa ya da saldırırsa bu büyü sona erer."
 			],
 			"page": 272,
 			"savingThrow": [
@@ -20096,7 +20096,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, you create one additional ray for each slot level above 2nd."
+						"Bu büyüyü 3. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, you create one additional ray for each slot level above 2nd."
 					]
 				}
 			],
@@ -20332,14 +20332,14 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Büyünün süresi içerisinde bir varlığa yakın dövüş silahı saldırısı ile ilk vuruşunda, silahın kızgın beyaz alevlerle parlar, bu saldırı fazladan {@dice 1d6} ateş hasarı verir ve hedefin alev almasını sağlar. Büyü bitene kadar her sırasının başında, hedef Dayanıklılık kurtulma zarı atar. Başarısız olursa {@dice 1d6} ateş hasarı alır. Başarılı olursa, büyü sonlanır. Eğer hedefin kendisi yada 5 fit yakınındaki bir varlık eylemini kullanıp alevleri söndürürse, yada başka bir etki ateşleri söndürürse (hedefin suya girmesi gibi), büyü sonlanır."
+				"Büyünün süresi içerisinde bir varlığa yakın dövüş silahı saldırısı ile ilk vuruşunda, silahın kızgın beyaz alevlerle parlar, bu saldırı fazladan {@dice 1d6} ateş hasarı verir ve hedefin alev almasını sağlar. Büyü bitene kadar her sırasının başında, hedef Dayanıklılık kurtulma zarı atar. Başarısız olursa {@dice 1d6} ateş hasarı alır. Başarılı olursa, büyü sonlanır. Eğer hedefin kendisi ya da 5 fit yakınındaki bir varlık eylemini kullanıp alevleri söndürürse, ya da başka bir etki ateşleri söndürürse (hedefin suya girmesi gibi), büyü sonlanır."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 2. seviye yada üzeri bir büyü yuvası harcayarak kullandığında, 1. sonrasında her seviye için saldırıda ilk verilen fazladan hasar {@dice 1d6} artar."
+						"Bu büyüyü 2. seviye ya da üzeri bir büyü yuvası harcayarak kullandığında, 1. sonrasında her seviye için saldırıda ilk verilen fazladan hasar {@dice 1d6} artar."
 					]
 				}
 			],
@@ -20726,7 +20726,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@dice 1d8} for each slot level above 2nd."
+						"Bu büyüyü 3. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the damage increases by {@dice 1d8} for each slot level above 2nd."
 					]
 				}
 			],
@@ -20746,7 +20746,7 @@
 				{
 					"number": 1,
 					"unit": "reaksiyon",
-					"condition": "bir darbe aldığında yada {@spell Büyülü Misil} büyüsü ile hedef alındığında kullanırsın"
+					"condition": "bir darbe aldığında ya da {@spell Büyülü Misil} büyüsü ile hedef alındığında kullanırsın"
 				}
 			],
 			"range": {
@@ -20879,7 +20879,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "ökseotu, bir yonca yaprağı, ve bir sopa yada asa"
+				"m": "ökseotu, bir yonca yaprağı, ve bir sopa ya da asa"
 			},
 			"duration": [
 				{
@@ -20900,7 +20900,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Tuttuğun sopa yada asanın odunu doğanın gücü ile dolar. Süre boyunca, bu silah ile yapacağın yakın dövüş saldırılarında ve bunların hasar zarlarında Kuvvet bonusun yerine, büyü yapma yetenek bonusunu kullanabilirsin, ve silahın hasar zarı {@dice d8} olur. Silah zaten büyülü değilse büyülü sayılır. Eğer büyüyü yeniden kullanırsan yada silahı bırakırsan büyü sona erer."
+				"Tuttuğun sopa ya da asanın odunu doğanın gücü ile dolar. Süre boyunca, bu silah ile yapacağın yakın dövüş saldırılarında ve bunların hasar zarlarında Kuvvet bonusun yerine, büyü yapma yetenek bonusunu kullanabilirsin, ve silahın hasar zarı {@dice d8} olur. Silah zaten büyülü değilse büyülü sayılır. Eğer büyüyü yeniden kullanırsan ya da silahı bırakırsan büyü sona erer."
 			],
 			"page": 275
 		},
@@ -21086,7 +21086,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"15 fitlik bir küpten daha küçük olan bir nesne, varlık yada görülebilen bir fenomen görüntüsü yaratırsın. Görüntü menzilinde bir noktada belirir ve süre boyunca kalır. Görüntü tamamıyla görseldir, ses, koku yada diğer duyusal etkileri yoktur.",
+				"15 fitlik bir küpten daha küçük olan bir nesne, varlık ya da görülebilen bir fenomen görüntüsü yaratırsın. Görüntü menzilinde bir noktada belirir ve süre boyunca kalır. Görüntü tamamıyla görseldir, ses, koku ya da diğer duyusal etkileri yoktur.",
 				"Eylemini kullanarak görüntüyü menzilindeki başka bir noktaya taşıyabilirsin. Görüntü yer değiştirirken, bu hareketin doğal görünmesini sağlamak için görünüşünü değiştirebilirsin. Örneğin, bir varlık görüntüsü yaratıp onu hareket ettirirsen, görüntüyü onu yürüyormuş gibi gösterir şekilde değiştirebilirsin.",
 				"Görüntü ile fiziksel etkileşim onun illüzyon olduğunu ortaya çıkarır, çünkü nesneler içinden geçebilir. Bir varlık onun illüzyon olduğunu anlamak için eylemini kullanıp, senin büyü kurtulma DC'ne karşı bir Zeka (İnceleme) zarı atabilir. Eğer illüzyonu farkederse, görüntü saydamlaşır."
 			],
@@ -21165,7 +21165,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "bir tutam ince kum, gül yaprakları yada bir cırcır böceği"
+				"m": "bir tutam ince kum, gül yaprakları ya da bir cırcır böceği"
 			},
 			"duration": [
 				{
@@ -21217,7 +21217,7 @@
 			"source": "PHB",
 			"entries": [
 				"Bu büyü varlıkları büyülü bir uykuya daldırır.{@dice 5d8} zar at, toplamı bu büyünün kaç HP'lik varlığı etkileyebileceğini gösterir. Menzilinde seçtiğin bir noktanın 20 fit çevresindeki varlıklar, o anlık HP'lerine göre artan sıralamayla etkilenirler (bilinçsiz varlıklar yoksayılır).",
-				"O anlık en az HP'ye sahip varlıkla başlayıp, bu büyüden etkilenen tüm varlıklar büyü sonuna, uyuyan hasar alana, yada biri eylemini kullanıp onu uyandırana kadar bilinçsiz kalırlar. Her etkilenen varlığın HP'sini kalan toplamdan çıkarıp sonraki en düşük HP'li varlığa geç. Bir varlığın etkilenebilmesi için HP'si kalan toplama eşit yada daha düşük olmalıdır.",
+				"O anlık en az HP'ye sahip varlıkla başlayıp, bu büyüden etkilenen tüm varlıklar büyü sonuna, uyuyan hasar alana, ya da biri eylemini kullanıp onu uyandırana kadar bilinçsiz kalırlar. Her etkilenen varlığın HP'sini kalan toplamdan çıkarıp sonraki en düşük HP'li varlığa geç. Bir varlığın etkilenebilmesi için HP'si kalan toplama eşit ya da daha düşük olmalıdır.",
 				"Yaşayan ölüler ve cezbedilmeye bağışıklığı olan varlıklar bu büyüden etkilenmez."
 			],
 			"entriesHigherLevel": [
@@ -21225,7 +21225,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 2. seviye yada üzeri bir büyü yuvası harcayarak kullandığında, 1. sonrasında her seviye için fazladan {@dice 2d8} atarsın."
+						"Bu büyüyü 2. seviye ya da üzeri bir büyü yuvası harcayarak kullandığında, 1. sonrasında her seviye için fazladan {@dice 2d8} atarsın."
 					]
 				}
 			],
@@ -21419,7 +21419,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Hayatta ama 0 HP'si olan bir varlığa dokunursun. Varlık stabil hale gelir. Bu büyünün yaşayan ölüler yada yapılar üzerinde herhangi bir etkisi yoktur."
+				"Hayatta ama 0 HP'si olan bir varlığa dokunursun. Varlık stabil hale gelir. Bu büyünün yaşayan ölüler ya da yapılar üzerinde herhangi bir etkisi yoktur."
 			],
 			"page": 277
 		},
@@ -21878,7 +21878,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@dice 1d8} for each slot level above 3rd."
+						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the damage increases by {@dice 1d8} for each slot level above 3rd."
 					]
 				}
 			],
@@ -21972,7 +21972,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@dice 1d8} for every two slot levels above the 2nd."
+						"Bu büyüyü 3. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the damage increases by {@dice 1d8} for every two slot levels above the 2nd."
 					]
 				}
 			],
@@ -22835,7 +22835,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Senin seçeceğin menzilinde görebildiğin bir varlık, eğer bu büyü onu etkilerse herşeyi çok komik algılar ve kahkaha krizine girer. Hedef bir Akıl kurtulma zarında başarılı olur yada yere düşer, etkisiz hale gelir ve süre boyunca ayağa kalkamaz. Zeka skoru 4 ve altında olan bir varlık bu büyüden etkilenmez.",
+				"Senin seçeceğin menzilinde görebildiğin bir varlık, eğer bu büyü onu etkilerse herşeyi çok komik algılar ve kahkaha krizine girer. Hedef bir Akıl kurtulma zarında başarılı olur ya da yere düşer, etkisiz hale gelir ve süre boyunca ayağa kalkamaz. Zeka skoru 4 ve altında olan bir varlık bu büyüden etkilenmez.",
 				"Her sırasının sonunda, ve her hasar alışında, hedef yeni bir Akıl kurtulma zarı atar. Eğer bu kurtulma zarını hasar tetiklediyse, hedef bunu avantajla atar. Başarılı olursa, büyü sonlanır."
 			],
 			"page": 280,
@@ -23244,7 +23244,7 @@
 			},
 			"entries": [
 				"Bu büyü, menzilinde seçeceğin görebildiğin bir yerde, zeminden 3 fit yukarda süzülen, 3 fit çapında ve 1 inç kalınlığında, dairesel ve yatay bir güç düzlemi oluşturur. Disk süre boyunca kalır ve 500 pounda kadar taşıyabilir. Eğer üzerine fazladan yük yerleştirilirse büyü sonlanır, ve üzerindeki herşey yere düşer.",
-				"Sen 20 fit yakınında olduğun sürece disk hareketsizdir. Eğer sen 20 fitten fazla uzaklaşırsan diskte seni takip eder ve 20 fit yakınında durur. Büyü engebeli arazilerde, eğimlerde yada merdivenlerde hareket edebilir, ama 10 fit ve üzeri yükselti değişimini aşamazsın. Örneğin, disk 10 fitlik bir çukuru aşamaz yada öyle bir çukurda yaratıldıysa dışarı çıkamaz.",
+				"Sen 20 fit yakınında olduğun sürece disk hareketsizdir. Eğer sen 20 fitten fazla uzaklaşırsan diskte seni takip eder ve 20 fit yakınında durur. Büyü engebeli arazilerde, eğimlerde ya da merdivenlerde hareket edebilir, ama 10 fit ve üzeri yükselti değişimini aşamazsın. Örneğin, disk 10 fitlik bir çukuru aşamaz ya da öyle bir çukurda yaratıldıysa dışarı çıkamaz.",
 				"Eğer diskten 100 fitten fazla uzaklaşırsan (genellikle bir engele takılıp seni takip edemezse olur) büyü sonlanır."
 			],
 			"page": 282
@@ -23294,10 +23294,10 @@
 					"type": "list",
 					"items": [
 						"1 dakikalığına sesin normalin 3 katı daha gür olur.",
-						"1 dakikalığına alevleri titretir, parlatır, sönükleştirir yada rengini değiştirirsin.",
+						"1 dakikalığına alevleri titretir, parlatır, sönükleştirir ya da rengini değiştirirsin.",
 						"1 dakikalığına yerde zararsız titreşimler yaratırsın.",
-						"Menzilinde seçeceğin bir yer kaynağı olmak üzere, gökgürültüsü, kuzgun sesi, yada uğursuz fısıltılar gibi anlık bir ses yaratırsın.",
-						"Anında kilitsiz bir kapı yada pencerenin açılması yada kapanmasını sağlarsın.",
+						"Menzilinde seçeceğin bir yer kaynağı olmak üzere, gökgürültüsü, kuzgun sesi, ya da uğursuz fısıltılar gibi anlık bir ses yaratırsın.",
+						"Anında kilitsiz bir kapı ya da pencerenin açılması ya da kapanmasını sağlarsın.",
 						"1 dakikalığına gözlerinin görünüşünü değiştirirsin."
 					]
 				},
@@ -23342,7 +23342,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Senin emrinde menzilindeki bir varlığa doğru atılan, uzunca ve dikenlerle kaplı sarmaşığımsı bir kırbaç yaratırsın. Hedefe karşı yakın dövüş büyü saldırısı yap. Vurursa, varlık {@dice 1d6} delme hasarı alır, ve eğer varlık Büyük yada daha küçük boyuttaysa onu 10 fite kadar kendine çekersin.",
+				"Senin emrinde menzilindeki bir varlığa doğru atılan, uzunca ve dikenlerle kaplı sarmaşığımsı bir kırbaç yaratırsın. Hedefe karşı yakın dövüş büyü saldırısı yap. Vurursa, varlık {@dice 1d6} delme hasarı alır, ve eğer varlık Büyük ya da daha küçük boyuttaysa onu 10 fite kadar kendine çekersin.",
 				"Bu büyünün hasarı belirli seviyelerde {@dice 1d6} artarak 5. seviyede ({@dice 2d6}), 11. seviyede ({@dice 3d6}) ve 17. seviyede ({@dice 4d6}) olur."
 			],
 			"page": 282,
@@ -23389,7 +23389,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Büyünün süresi içinde ilk vurduğun yakın dövüş silahı darbende, silahın 300 fitten duyulabilecek bir gökgürültüsü ile çınlar, ve saldırı hedefe fazladan {@dice 2d6} ses hasarı verir. Ek olarak, eğer hedef bir varlıksa Kuvvet kurtulma zarında başarılı olur yada senden 10 fite kadar uzağa itilir ve yere düşer."
+				"Büyünün süresi içinde ilk vurduğun yakın dövüş silahı darbende, silahın 300 fitten duyulabilecek bir gökgürültüsü ile çınlar, ve saldırı hedefe fazladan {@dice 2d6} ses hasarı verir. Ek olarak, eğer hedef bir varlıksa Kuvvet kurtulma zarında başarılı olur ya da senden 10 fite kadar uzağa itilir ve yere düşer."
 			],
 			"page": 282,
 			"damageInflict": [
@@ -23467,7 +23467,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 2. seviye yada üzeri bir büyü yuvası harcayarak kullandığında, 1. sonrasında her seviye için hasar {@dice 1d8} artar."
+						"Bu büyüyü 2. seviye ya da üzeri bir büyü yuvası harcayarak kullandığında, 1. sonrasında her seviye için hasar {@dice 1d8} artar."
 					]
 				}
 			],
@@ -24150,7 +24150,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@dice 1d6} for each slot level above 3rd."
+						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the damage increases by {@dice 1d6} for each slot level above 3rd."
 					]
 				}
 			],
@@ -24194,7 +24194,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Menzilinde görebildiğin bir varlığa, büyüyle bezenmiş bir dizi hakaret edersin. Eğer hedef seni duyabiliyorsa (anlaması gerekmez), Akıl kurtulma zarında başarılı olur yada {@dice 1d4} psişik hasar alır ve bir sonraki sırasının sonuna kadar yapacağı ilk saldırı zarında dezavantajı olur.",
+				"Menzilinde görebildiğin bir varlığa, büyüyle bezenmiş bir dizi hakaret edersin. Eğer hedef seni duyabiliyorsa (anlaması gerekmez), Akıl kurtulma zarında başarılı olur ya da {@dice 1d4} psişik hasar alır ve bir sonraki sırasının sonuna kadar yapacağı ilk saldırı zarında dezavantajı olur.",
 				"Bu büyünün hasarı belirli seviyelerde {@dice 1d4} artarak 5. seviyede ({@dice 2d4}), 11. seviyede ({@dice 3d4}) ve 17. seviyede ({@dice 4d4}) olur."
 			],
 			"page": 285,
@@ -24306,7 +24306,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 5th level or higher, the damage increases by {@dice 1d8} for each slot level above 4th."
+						"Bu büyüyü 5. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the damage increases by {@dice 1d8} for each slot level above 4th."
 					]
 				}
 			],
@@ -24431,7 +24431,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 7th level or higher, the damage the wall deals when it appears increases by {@dice 2d6}, and the damage from passing through the sheet of frigid air increases by {@dice 1d6} for each slot level above 6th."
+						"Bu büyüyü 7. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the damage the wall deals when it appears increases by {@dice 2d6}, and the damage from passing through the sheet of frigid air increases by {@dice 1d6} for each slot level above 6th."
 					]
 				}
 			],
@@ -24582,7 +24582,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 7th level or higher, both types of damage increase by {@dice 1d8} for each slot level above 6th."
+						"Bu büyüyü 7. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, both types of damage increase by {@dice 1d8} for each slot level above 6th."
 					]
 				}
 			],
@@ -25179,14 +25179,14 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Menzilindeki bir varlığa doğru çatırdayan mavi bir enerji ışını gider ve hedef ile senin aranda devamlı bir yıldırım akımı ortaya çıkarır. O varlığa karşı bir menzilli büyü saldırısı yap. Vurursa, hedef {@dice 1d12} yıldırım hasarı alır, ve süre boyunca her sıranda eylemini kullanıp hedefe otomatik olarak {@dice 1d12} yıldırım hasarı verirsin. Eğer eylemini başka bir şey yapmak için kullanırsan büyü sonlanır. Eğer hedef büyünün menzili dışına çıkar yada tam siper arkasına geçerse de büyü sonlanır."
+				"Menzilindeki bir varlığa doğru çatırdayan mavi bir enerji ışını gider ve hedef ile senin aranda devamlı bir yıldırım akımı ortaya çıkarır. O varlığa karşı bir menzilli büyü saldırısı yap. Vurursa, hedef {@dice 1d12} yıldırım hasarı alır, ve süre boyunca her sıranda eylemini kullanıp hedefe otomatik olarak {@dice 1d12} yıldırım hasarı verirsin. Eğer eylemini başka bir şey yapmak için kullanırsan büyü sonlanır. Eğer hedef büyünün menzili dışına çıkar ya da tam siper arkasına geçerse de büyü sonlanır."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 2. seviye yada üzeri bir büyü yuvası harcayarak kullandığında, 1. sonrasında her seviye için hasar {@dice 1d12} artar."
+						"Bu büyüyü 2. seviye ya da üzeri bir büyü yuvası harcayarak kullandığında, 1. sonrasında her seviye için hasar {@dice 1d12} artar."
 					]
 				}
 			],
@@ -25286,7 +25286,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Büyü süresi içinde, bir varlığa yakın dövüş silahı ile ilk vuruşunda, saldırın fazladan {@dice 1d6} psişik hasar verir. Ek olarak, eğer hedef bir varlıksa Akıl kurtulma zarında başarılı olur yada büyü sona erene kadar senden korkar. Varlık, eylem olarak senin büyü kurtulma DC'ne karşı Akıl zarı atıp, iradesini toplayarak büyüyü sonlandırabilir."
+				"Büyü süresi içinde, bir varlığa yakın dövüş silahı ile ilk vuruşunda, saldırın fazladan {@dice 1d6} psişik hasar verir. Ek olarak, eğer hedef bir varlıksa Akıl kurtulma zarında başarılı olur ya da büyü sona erene kadar senden korkar. Varlık, eylem olarak senin büyü kurtulma DC'ne karşı Akıl zarı atıp, iradesini toplayarak büyüyü sonlandırabilir."
 			],
 			"page": 289,
 			"damageInflict": [
