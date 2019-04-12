@@ -1221,7 +1221,7 @@
 			]
 		},
 		{
-			"name": "Dragon's Breath",
+			"name": "Ejderha Nefesi",
 			"source": "XGE",
 			"level": 2,
 			"school": "T",
@@ -1240,7 +1240,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a hot pepper"
+				"m": "bir acı biber"
 			},
 			"duration": [
 				{
@@ -1265,14 +1265,14 @@
 				]
 			},
 			"entries": [
-				"You touch one willing creature and imbue it with the power to spew magical energy from its mouth, provided it has one. Choose asit, soğuk, ateş, yıldırım, or zehir. Until the spell ends, the creature can use an eylem to exhale energy of the chosen type in a 15-foot cone. Each creature in that area must make a Dexterity saving throw, taking {@dice 3d6} damage of the chosen type on a failed save, or half as much damage on a successful one."
+				"Ağzı olan istekli bir varlığa dokunup ona ağzından büyülü enerji püskürtme gücünü verebilirsin. Asit, soğuk, ateş, yıldırım, ya da zehir arasından seç. Büyü bitene kadar, varlık eylemini kullanıp seçtiğin enerji tipinde 15 fitlik bir koniye enerji üfleyebilir. Bu alandaki tüm varlıklar Çeviklik kurtulma zarı atar. Başarısız olursa seçilen tipte {@dice 3d6} hasar alır, başarılı olursa bu hasarın yarısını."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@dice 1d6} for each slot level above 2nd."
+						"Bu büyüyü 3. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 2. üzeri her seviye için hasar {@dice 1d6} artar."
 					]
 				}
 			],
@@ -1368,7 +1368,7 @@
 			"page": 154
 		},
 		{
-			"name": "Dust Devil",
+			"name": "Toz Hortumu",
 			"source": "XGE",
 			"level": 2,
 			"school": "C",
@@ -1388,7 +1388,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a pinch of dust"
+				"m": "bir tutam toz"
 			},
 			"duration": [
 				{
@@ -1417,16 +1417,16 @@
 				]
 			},
 			"entries": [
-				"Choose an unoccupied 5-foot cube of air that you can see within range. An elemental güç that resembles a dust devil appears in the cube and lasts for the spell's duration.",
-				"Any creature that ends its turn within 5 feet of the dust devil must make a Strength saving throw. On a failed save, the creature takes {@dice 1d8} ezme damage and is pushed 10 feet away from the dust devil. On a successful save, the creature takes half as much damage and isn't pushed.",
-				"As a bonus eylem, you can move the dust devil up to 30 feet in any direction. If the dust devil moves over sand, dust, loose dirt, or light gravel, it sucks up the material and forms a 10-foot-radius cloud of debris around itself that lasts until the start of your next turn. The cloud heavily obscures its area."
+				"Menzilinde görebildiğin boştaki bir 5 fitlik küp havayı seç. Toz hortumunu andıran elemental bir güç o küpte oluşur ve büyü süresince kalır.",
+				"Sırasını toz hortumunun 5 fit yakınında bitiren her varlık Kuvvet kurtulma zarı atar. Başarısız olursa, varlık {@dice 1d8} ezme hasarı alır ve toz hortumundan 10 fit uzağa itilir. Başarılı olursa, varlık yarı hasar alır ve itilmez.",
+				"Bonus eylem olarak toz hortumunu istediğin yönde 30 fit hareket ettirebilirsin. Eğer toz hortumu kum, toz, gevşek toprak ya da hafif çakıl gibi bir zeminden geçerse, bu materyali emip kendi çevresinde 10 fit yarıçaplı bir alanda toz bulutu yaratır. Bu alan bir sonraki sıranın başına kadar sürer. Bulut alanında görüşü yoğun bir şekilde örtüler."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@dice 1d8} for each slot level above 2nd."
+						"Bu büyüyü 3. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 2. üzeri her seviye için hasar {@dice 1d8} artar."
 					]
 				}
 			],
@@ -1506,7 +1506,7 @@
 			]
 		},
 		{
-			"name": "Earthbind",
+			"name": "Toprağa Bağla",
 			"source": "XGE",
 			"level": 2,
 			"school": "T",
@@ -1557,7 +1557,7 @@
 				]
 			},
 			"entries": [
-				"Choose one creature you can see within range. Yellow strips of magical energy loop around the creature. The target must succeed on a Strength saving throw, or its flying speed (if any) is reduced to 0 feet for the spell's duration. An airborne creature affected by this spell safely descends at 60 feet per round until it reaches the ground or the spell ends."
+				"Menzilinde görebildiğin bir varlığı seç. Varlığın etrafını büyü enerjisinden sarı şeritler sarar. Hedef Kuvvet kurtulma zarı atar ya da uçma hızı (eğer varsa) süre boyunca sıfıra iner. Bu büyüden etkilenen havadaki bir varlık büyü sona erene ya da yere dokunana kadar güvenli bir şekilde her round 60 fit iner."
 			],
 			"page": 154,
 			"savingThrow": [
@@ -2197,7 +2197,7 @@
 			]
 		},
 		{
-			"name": "Healing Spirit",
+			"name": "Şifa Ruhu",
 			"source": "XGE",
 			"level": 2,
 			"school": "C",
@@ -2241,16 +2241,16 @@
 				]
 			},
 			"entries": [
-				"You call forth a nature spirit to soothe the wounded. The intangible spirit appears in a space that is a 5-foot cube you can see within range. The spirit looks like a transparent beast or fey (your choice).",
-				"Until the spell ends, whenever you or a creature you can see moves into the spirit's space for the first time on a turn or starts its turn there, you can cause the spirit to restore {@dice 1d6} hit points to that creature (no eylem required). The spirit can't heal constructs or undead.",
-				"As a bonus eylem on your turn, you can move the spirit up to 30 feet to a space you can see."
+				"Acıları dindirmek için doğadan bir ruh çağırırsın. Fiziksel bedeni olmayan bu ruh, menzilinde görebildiğin 5 fitlik küp bir alanda belirir. Ruh saydam bir hayvan ya da fey olarak (senin seçimin) görünür.",
+				"Büyü bitene kadar ne zaman sen ya da görebildiğin bir varlık ruhun alanına sıranızda ilk kez girerseniz ya da sıraya orada başlarsanız, ruhun o varlığa {@dice 1d6} HP yenilemesini sağlayabilirsin (eylem gerektirmez). Bu ruh yapıları ya da yaşayan ölüleri iyileştiremez.",
+				"Sıranda bonus eylem olarak bu ruhu görebildiğin bir alana 30 fite kadar hareket ettirebilirsin."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, the healing increases by {@dice 1d6} for each slot level above 2nd."
+						"Bu büyüyü 3. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 2. seviye üzeri her seviye için yenileme {@dice 1d6} artar."
 					]
 				}
 			],
@@ -3239,7 +3239,7 @@
 			]
 		},
 		{
-			"name": "Maximilian's Earthen Grasp",
+			"name": "Maximilian'ın Toprak Kavraması",
 			"source": "XGE",
 			"level": 2,
 			"school": "T",
@@ -3259,7 +3259,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a miniature hand sculpted from clay"
+				"m": "kilden yapılma minyatür bir el"
 			},
 			"duration": [
 				{
@@ -3284,10 +3284,10 @@
 				]
 			},
 			"entries": [
-				"You choose a 5-foot-square unoccupied space on the ground that you can see within range. A Medium hand made from compacted soil rises there and reaches for one creature you can see within 5 feet of it. The target must make a Strength saving throw. On a failed save, the target takes {@dice 2d6} ezme damage and is {@condition restrained} for the spell's duration.",
-				"As an eylem, you can cause the hand to crush the {@condition restrained} target, which must make a Strength saving throw. The target takes {@dice 2d6} ezme damage on a failed save, or half as much damage on a successful one.",
-				"To break out, the {@condition restrained} target can use its eylem to make a Strength check against your spell save DC. On a success, the target escapes and is no longer {@condition restrained} by the hand.",
-				"As an eylem, you can cause the hand to reach for a different creature or to move to a different unoccupied space within range. The hand releases a {@condition restrained} target if you do either."
+				"Menzilinde görebildiğin boş bir zeminde 5 fitlik bir kare seç. Orta boyutta sıkıştırılmış topraktan bir el bu alanda çıkıp 5 fit yakınında bir varlığı tutmaya çalışır. Hedef Kuvvet kurtulma zarı atar. Başarısız olursa, hedef {@dice 2d6} ezme hasarı alır ve büyü süresince {@condition kısıtlanma} etkisi altında olur.",
+				"Eylem olarak elin kısıtladığı hedefi ezmesini sağlayabilirsin, hedef Kuvvet kurtulma zarı atar. Başarısız olursa hedef {@dice 2d6} ezme hasarı alır, başarılı olursa bu hasarın yarısını.",
+				"Kurtulmak için kısıtlanmış varlık eylemini kullanıp senin büyü DC'ne karşı Kuvvet zarı atabilir. Başarılı olursa hedef kaçar ve artık {@condition kısıtlanma} durumunda değildir.",
+				"Eylem olarak, elin menzili içerisinde başka bir hedefi tutmasını ya da alan içerisinde başka boş bir yere gitmesini sağlayabilirsin. Bunlardan birini yaparsan el tuttuğu hedefi bırakır."
 			],
 			"page": 161,
 			"damageInflict": [
@@ -3481,7 +3481,7 @@
 			]
 		},
 		{
-			"name": "Mind Spike",
+			"name": "Zihin Dikeni",
 			"source": "XGE",
 			"level": 2,
 			"school": "D",
@@ -3528,14 +3528,14 @@
 				]
 			},
 			"entries": [
-				"You reach into the mind of one creature you can see within range. The target must make a Wisdom saving throw, taking {@dice 3d8} psişik damage on a failed save, or half as much damage on a successful one. On a failed save, you also always know the target's location until the spell ends, but only while the two of you are on the same plane of existence. While you have this knowledge, the target can't become hidden from you, and if it's {@condition invisible} it gains no benefit from that condition against you."
+				"Menzilinde görebildiğin bir varlığın zihnine erişirsin. Hedef Akıl kurtulma zarı atar, başarısız olursa {@dice 3d8} psişik hasar, başarılı olursa bunun yarısı hasarı alır. Başarısız olursa, büyü sona erene kadar hedefin daima nerede olduğunu bilirsin. Bunu ikiniz de aynı boyutta olduğunuz sürece bilebilirsin. Bu bilgiye sahipken hedef senden saklanamaz, ve eğer {@condition görünmezlik} etkisi altındaysa bu durumdan sana karşı hiçbir fayda sağlamaz."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@dice 1d8} for each slot level above 2nd."
+						"Bu büyüyü 3. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 2. üzeri her seviye için hasar {@dice 1d8} artar."
 					]
 				}
 			],
@@ -3869,7 +3869,7 @@
 			]
 		},
 		{
-			"name": "Pyrotechnics",
+			"name": "Piroteknik",
 			"source": "XGE",
 			"level": 2,
 			"school": "T",
@@ -3912,19 +3912,19 @@
 				]
 			},
 			"entries": [
-				"Choose an area of flame that you can see and that can fit within a 5-foot cube within range. You can extinguish the ateş in that area, and you create either fireworks or smoke when you do so.",
+				"Menzilinde 5 fitlik kübe sığabilecek görebildiğin bir alev alanı seç. Bu alandaki ateşi söndürebilirsin ve bunu yaptığında ya havai fişekler ya da duman yaratırsın.",
 				{
 					"type": "entries",
-					"name": "Fireworks",
+					"name": "Havai Fişek",
 					"entries": [
-						"The target explodes with a dazzling display of colors. Each creature within 10 feet of the target must succeed on a Constitution saving throw or become {@condition blinded} until the end of your next turn."
+						"Hedef göz alıcı renkler ile patlar. Hedefin 10 fit yakınındaki her varlık Dayanıklılık kurtulma zarı atar ya da bir sonraki sıranın sonuna kadar {@condition körlük} etkisi altına girer."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Smoke",
+					"name": "Duman",
 					"entries": [
-						"Thick black smoke spreads out from the target in a 20-foot radius, moving around corners. The area of the smoke is heavily obscured. The smoke persists for 1 minute or until a strong wind disperses it."
+						"Hedef 20 fit çevresine kara duman yayar, bu alan köşeleri de döner. Dumanın alanı yoğun bir şekilde örtülüdür. Bu duman 1 dakikalığına ya da güçlü bir rüzgar dağıtana kadar kalır."
 					]
 				}
 			],
@@ -3984,7 +3984,7 @@
 			]
 		},
 		{
-			"name": "Shadow Blade",
+			"name": "Gölge Kılıcı",
 			"source": "XGE",
 			"level": 2,
 			"school": "I",
@@ -4031,15 +4031,15 @@
 				]
 			},
 			"entries": [
-				"You weave together threads of shadow to create a sword of solidified gloom in your hand. This magic sword lasts until the spell ends. It counts as a simple melee weapon with which you are proficient. It deals {@dice 2d8} psişik damage on a hit and has the finesse, light, and thrown properties (range 20/60). In addition, when you use the sword to attack a target that is in dim light or darkness, you make the attack roll with advantage.",
-				"If you drop the weapon or throw it, it dissipates at the end of the turn. Thereafter, while the spell persists, you can use a bonus eylem to cause the sword to reappear in your hand."
+				"Gölge dokularını örerek elinde katılaşmış kasvetten bir kılıç yaratırsın. Bu büyülü kılıç büyü bitene kadar kalır. Uzmanlığın olan basit yakın dövüş silahı sayılır. Vurduğunda {@dice 2d8} psişik hasar verir ve beceri, hafif ve fırlatma (20/60) özelliklerine sahiptir. Ek olarak, loş ışık ya da karanlıkta olan bir varlığa yapacağın saldırılar avantajlı olur.",
+				"Eğer silahı düşürürsen ya da fırlatırsan sıranın sonunda kaybolur. Sonrasında büyü devam ettiği sürece, bonus eylemini kullanıp kılıcı yeniden elinde yaratabilirsin."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a 3rd- or 4th-level spell slot, the damage increases to {@dice 3d8}. When you cast it using a 5th- or 6th-level spell slot, the damage increases to {@dice 4d8}. When you cast it using a spell slot of 7th level or higher, the damage increases to {@dice 5d8}."
+						"Bu büyüyü 3. ya da 4. seviye bir büyü yuvası harcayarak kullandığında, hasar {@dice 3d8} olur. 5. ya da 6. seviye büyü yuvası harcayarak kullandığında, hasar {@dice 4d8} olur. Bu büyüyü 7. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, hasar {@dice 5d8} olur."
 					]
 				}
 			],
@@ -4281,7 +4281,7 @@
 			"page": 165
 		},
 		{
-			"name": "Skywrite",
+			"name": "Göğe Yaz",
 			"source": "XGE",
 			"level": 2,
 			"school": "T",
@@ -4331,7 +4331,7 @@
 				"ritual": true
 			},
 			"entries": [
-				"You cause up to ten words to form in a part of the sky you can see. The words appear to be made of cloud and remain in place for the spell's duration. The words dissipate when the spell ends. A strong wind can disperse the clouds and end the spell early."
+				"Gökyüzünün görebildiğin bir kısmında 10 kelimeye kadar yazı oluşturabilirsin. Kelimeler buluttan yazılmış gibi görünür ve büyü süresince yerinde kalır. Büyü bittiğinde kelimeler kaybolur. Güçlü bir rüzgar kelimeleri dağıtıp büyünün erken bitmesine sebep olabilir."
 			],
 			"page": 165
 		},
@@ -4401,7 +4401,7 @@
 			]
 		},
 		{
-			"name": "Snilloc's Snowball Swarm",
+			"name": "Snilloc'un Kartopu Yığını",
 			"source": "XGE",
 			"level": 2,
 			"school": "V",
@@ -4421,7 +4421,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a piece of ice or a small white rock chip"
+				"m": "bir parça buz ya da küçük beyaz bir taş parçası"
 			},
 			"duration": [
 				{
@@ -4441,14 +4441,14 @@
 				]
 			},
 			"entries": [
-				"A flurry of magic snowballs erupts from a point you choose within range. Each creature in a 5-foot-radius sphere centered on that point must make a Dexterity saving throw. A creature takes {@dice 3d6} soğuk damage on a failed save, or half as much damage on a successful one."
+				"Menzilinde seçeceğin bir noktada büyülü kartopu patlaması olur. Seçtiğin noktaya 5 fit mesafede olan tüm varlıklar Çeviklik kurtulma zarı atar. Başarısız olursa bir varlık {@dice 3d6} soğuk hasarı alır, başarılı olursa bu hasarın yarısını."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@dice 1d6} for each slot level above 2nd."
+						"Bu büyüyü 3. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 2. üzeri her seviye için hasar {@dice 1d6} artar."
 					]
 				}
 			],
@@ -5609,7 +5609,7 @@
 			"page": 170
 		},
 		{
-			"name": "Warding Wind",
+			"name": "Koruyan Rüzgar",
 			"source": "XGE",
 			"level": 2,
 			"school": "V",
@@ -5659,16 +5659,16 @@
 				]
 			},
 			"entries": [
-				"A strong wind (20 miles per saat) blows around you in a 10-foot radius and moves with you, remaining centered on you. The wind lasts for the spell's duration.",
-				"The wind has the following effects:",
+				"Güçlü bir rüzgar (saatte 20 mil hızda) 10 fit çevrende esmeye başlar ve merkezinde sen olacağın şekilde seninle hareket eder. Bu rüzgar büyü süresince devam eder.",
+				"Rüzgar şu etkilere sahiptir:",
 				{
 					"type": "list",
 					"items": [
-						"It deafens you and other creatures in its area.",
-						"It extinguishes unprotected flames in its area that are torch-sized or smaller.",
-						"It hedges out vapor, gas, and fog that can be dispersed by strong wind.",
-						"The area is difficult terrain for creatures other than you.",
-						"The attack rolls of ranged weapon attacks have disadvantage if they pass in or out of the wind."
+						"Seni ve alanındaki diğer varlıkları sağır eder.",
+						"Meşale boyu ya da daha küçük korunaksız ateşleri söndürür.",
+						"Güçlü rüzgarla dağılabilen buhar, gaz ve sisi dağıtır.",
+						"Alan senin dışındaki varlıklar için zorlu arazidir.",
+						"Eğer rüzgara girerse ya da çıkarsa menzilli silah saldırıları dezavantajlı olur."
 					]
 				}
 			],
