@@ -381,7 +381,7 @@
 			"page": 212
 		},
 		{
-			"name": "Hayvan Suretleri",
+			"name": "Hayvan Biçimleri",
 			"level": 8,
 			"school": "T",
 			"time": [
@@ -421,9 +421,9 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Your magic turns others into beasts. Choose any number of willing creatures that you can see within range. You transform each target into the form of a large or smaller beast with a challenge rating of 4 or lower. On subsequent turns, you can use your actions to transform affected creatures into new forms.",
-				"The transformation lasts for the duration for each target, or until the target drops to 0 hit points or dies. You can choose a different form for each target. A target's game statistics are replaced by the statistics of the chosen beast, though the target retains its alignment and Intelligence, Wisdom, and Charisma scores. The target assumes the hit points of its new form, and when it reverts to its normal form, it returns to the number of hit point it had before it transformed. If it reverts as a result of dropping to 0 hit points, any excess damage carries over to its normal form. As long as the excess damage doesn't reduce the creature's normal form to 0 hit points, it isn't knocked {@condition unconscious}. The creature is limited in the actions it can perform by the nature of its new form, and it can't speak or cast spells.",
-				"The target's gear melds into the new form. The target can't activate, wield, or otherwise benefit from any of its equipment."
+				"Büyün başkalarını hayvanlara döndürür. Menzil dahilinde, görebildiğin ve gönüllü herhangi bir sayıdaki yaratığı seç. Her hedefi challenge ratingi 4 veya daha az, Large veya daha küçük bir hayvanın biçimine dönüştürürsün. Sonraki turlarda etkilenen yaratıkları yeni biçimlere dönüştürmek için eylemlerini kullanabilirsin.",
+				"Dönüşüm her hedef için aynı süre ya da hedef 0 hitpointe düşüp ölene kadar devam eder. Her hedef için değişik bir biçim seçebilirsin. Hedefin oyun istatistikleri seçilen hayvanın istatsitikleri ile değiştirilir, yine de hedef yönelimini, Zeka, Bilgelik ve Karizma puanlarını korur. Hedef yeni biçimin hitpointlerini edinir ve normal biçimine döndüğünde dönüşümden önceki normal hit point miktarına döner. Eğer 0 hitpointe düşme sebebiyle biçimi geri dönerse fazladan hasar normal biçime taşınır. Eğer fazladan hasar normal biçimin hitpointini 0 a düşürmezse, biçim bilincini kaybetmez. Yaratık yeni biçiminin doğası gereği gerçekleştirebileceği eylemlerde sınırlıdır, ve konuşamaz yada büyü yapamaz.",
+				"Hedefin ekipmanı yeni biçimine kaynaşır. Hedef ekipmanını aktive demez, kullanamaz veya başka türlü yarar sağlayamaz."
 			],
 			"page": 212
 		},
@@ -2168,25 +2168,25 @@
 					]
 				},
 				{
-				    "type": "entries",
-				    "name": "Forceful Hand",
-				    "entries": [
+					"type": "entries",
+					"name": "Forceful Hand",
+					"entries": [
 						"The hand attempts to push a creature within 5 feet of it in a direction you choose. Make a check with the hand's Strength contested by the Strength (Athletics) check of the target. If the target is Medium or smaller, you have advantage on the check. If you succeed, the hand pushes the target up to 5 feet plus a number of feet equal to five times your spellcasting ability modifier. The hand moves with the target to remain within 5 feet of it."
-				    ]
+					]
 				},
 				{
-				    "type": "entries",
-				    "name": "Grasping Hand",
-				    "entries": [
+					"type": "entries",
+					"name": "Grasping Hand",
+					"entries": [
 						"The hand attempts to grapple a Huge or smaller creature within 5 feet of it. You use the hand's Strength score to resolve the grapple. If the target is Medium or smaller, you have advantage on the check. While the hand is grappling the target, you can use a bonus eylem to have the hand crush it. When you do so, the target takes ezme damage equal to {@dice 2d6} + your spellcasting ability modifier."
-				    ]
+					]
 				},
 				{
-				    "type": "entries",
-				    "name": "Interposing Hand",
-				    "entries": [
+					"type": "entries",
+					"name": "Interposing Hand",
+					"entries": [
 						"The hand interposes itself between you and a creature you choose until you give the hand a different command. The hand moves to stay between you and the target, providing you with half cover against the target. The target can't move through the hand's space if its Strength score is less than or equal to the hand's Strength score. If its Strength score is higher than the hand's Strength score, the target can move toward you through the hand's space, but that space is difficult terrain for the target."
-				    ]
+					]
 				}
 			],
 			"entriesHigherLevel": [
@@ -15053,7 +15053,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "holy water or powdered silver and iron worth at least 100 gp, which the spell consumes",
+					"text": "Büyünün tüketeceği Kutsal su veya en az 100 gp değerinde tozlaştırılmış gümüş ve demir",
 					"cost": 100,
 					"consume": true
 				}
