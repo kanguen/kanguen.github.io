@@ -720,7 +720,7 @@
 			"page": 213
 		},
 		{
-			"name": "Antimagic Field",
+			"name": "Büyü Karşıtı Alan",
 			"level": 8,
 			"school": "A",
 			"time": [
@@ -739,7 +739,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a pinch of powdered iron or iron filings"
+				"m": "bir çimdik demir tozu veya demir talaşı"
 			},
 			"duration": [
 				{
@@ -765,27 +765,27 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"A 10-foot-radius invisible sphere of antimagic surrounds you. This area is divorced from the magical energy that suffuses the multiverse. Within the sphere, spells can't be cast, summoned creatures disappear, and even magic items become mundane. Until the spell ends, the sphere moves with you, centered on you.",
-				"Spells and other magical effects, except those created by an artifact or a deity, are suppressed in the sphere and can't protrude into it. A slot expended to cast a suppressed spell is consumed. While an effect is suppressed, it doesn't function, but the time it spends suppressed counts against its duration.",
+				"10 foot yarıçaplı görünmez bir büyü karşıtı küre etrafını sarar. Bu bölge çokluevreni kaplayan büyülü enerjiden kesilir. Kürenin içinde büyü yapılamaz, celbedilen yaratıklar kaybolur, sihirli büyüler bile bayağılaşır. Büyü bitene kadar küre seninle, seni ortalayarak hareket eder.",
+				"Büyüler ve diğer büyülü etkiler, artifact ve tanrıların sebep oldukları hariç, kürenin içinde baskılanır ve kürenin içine duhul edemez. Baskılanan bir büyüyü yapmak için kullanılan slot tüketilir. Bir etki baskılandığı sürece işlemez, ama baskılandığı zaman büyünün zamanından düşülür.",
 				{
 					"type": "entries",
-					"name": "Targeted Effects",
+					"name": "Hedefli Etkiler",
 					"entries": [
-						"Spells and other magical effects, such as magic missile and charm person, that target a creature or an object in the sphere have no effect on that target."
+						"Kürenin içindeki bir yaratık veya nesneyi hedefleyen Magic missile ve Charm person gibi büyüler ve büyülü etkiler, o hedefi etkilemezler."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Areas of Magic",
+					"name": "Büyülü Alanlar",
 					"entries": [
-						"The area of another spell or magical effect, such as fireball, can't extend into the sphere. If the sphere overlaps an area of magic, the part of the area that is covered by the sphere is suppressed. For example, the flames created by a wall of ateş are suppressed within the sphere, creating a gap in the wall if the overlap is large enough."
+						"Başka bir büyü veya büyülü etkinin alanı, mesela Fireballunki, kürenin içine uzanamaz. Eğer küre büyülü bir alanla örtüşürse, alanın küreyle çakışan kısmı baskılanır. Örneğin Wall of Fireın yarattığı alevler kürenin içinde baskılanır ve kesişim yeteri kadar büyükse duvarda açıklık oluşur"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Spells",
+					"name": "Büyüler",
 					"entries": [
-						"Any active spell or other magical effect on a creature or an object in the sphere is suppressed while the creature or object is in it."
+						"Küre içindeki bir yaratık veya nesnenin üzerindeki herhangi bir büyü veya büyülü etki yaratık veya nesne kürenin içinde olduğu sürece baskılanır"
 					]
 				},
 				{
