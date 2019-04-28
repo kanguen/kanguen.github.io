@@ -790,9 +790,9 @@
 				},
 				{
 					"type": "entries",
-					"name": "Magic Items",
+					"name": "Büyülü Eşyalar",
 					"entries": [
-						"The properties and powers of magic items are suppressed in the sphere. For example, a +1 long sword in the sphere functions as a nonmagical long sword. A magic weapon's properties and powers are suppressed if it is used against a target in the sphere or wielded by an attacker in the sphere. If a magic weapon or piece of magic ammunition fully leaves the sphere (For example, if you ateş a magic arrow or throw a magic spear at a target outside the sphere), the magic of the item ceases to be suppressed as soon as it exits."
+						"Küre içinde büyülü eşyaların özellikeri ve güçleri baskılanır. Örnek olarak, +1 long sword küre içinde büyüsüz bir longsword olarak işler. Büyülü bir silahın özellikleri ve güçleri, küre içindeki bir hedefe karşı kullanıldığında veya küre içindeki bir saldıran tarafından kullanıldığında baskılanır. Eğer bir büyülü silah veya büyülü mühimmat küreyi tamamen terkederse (örnek olarak küre dışındaki bir hedefe büyülü ok veya büyülü mızrak atarsan), eşya çıktığı anda büyüsünün baskılanması biter"
 					]
 				},
 				{
