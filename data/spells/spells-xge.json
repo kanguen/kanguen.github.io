@@ -53,7 +53,7 @@
 			]
 		},
 		{
-			"name": "Elementleri Em",
+			"name": "Absorb Elements (Elementleri Em)",
 			"source": "XGE",
 			"level": 1,
 			"school": "A",
@@ -124,7 +124,7 @@
 			]
 		},
 		{
-			"name": "Aganazzar'ın Alevi",
+			"name": "Aganazzar's Scorcher (Aganazzar'ın Alevi)",
 			"source": "XGE",
 			"level": 2,
 			"school": "V",
@@ -184,7 +184,7 @@
 			]
 		},
 		{
-			"name": "Hayvan Bağı",
+			"name": "Beast Bond (Hayvan Bağı)",
 			"source": "XGE",
 			"level": 1,
 			"school": "D",
@@ -294,7 +294,7 @@
 			]
 		},
 		{
-			"name": "Mancınık",
+			"name": "Catapult (Mancınık)",
 			"source": "XGE",
 			"level": 1,
 			"school": "T",
@@ -413,7 +413,7 @@
 			"page": 151
 		},
 		{
-			"name": "Korku Sal",
+			"name": "Cause Fear (Korku Sal)",
 			"source": "XGE",
 			"level": 1,
 			"school": "N",
@@ -473,7 +473,7 @@
 			]
 		},
 		{
-			"name": "Seremoni",
+			"name": "Ceremony (Seremoni)",
 			"source": "XGE",
 			"level": 1,
 			"school": "A",
@@ -566,7 +566,7 @@
 			"page": 151
 		},
 		{
-			"name": "Kaos Oku",
+			"name": "Chaos Bolt (Kaos Oku)",
 			"source": "XGE",
 			"level": 1,
 			"school": "V",
@@ -785,7 +785,7 @@
 			]
 		},
 		{
-			"name": "Alevleri Yönet",
+			"name": "Control Flames (Alevleri Yönet)",
 			"source": "XGE",
 			"level": 0,
 			"school": "T",
@@ -926,7 +926,7 @@
 			]
 		},
 		{
-			"name": "Kamp Ateşi Yarat",
+			"name": "Create Bonfire (Kamp Ateşi Yarat)",
 			"source": "XGE",
 			"level": 0,
 			"school": "C",
@@ -1221,7 +1221,7 @@
 			]
 		},
 		{
-			"name": "Ejderha Nefesi",
+			"name": "Dragon's Breath (Ejderha Nefesi)",
 			"source": "XGE",
 			"level": 2,
 			"school": "T",
@@ -1368,7 +1368,7 @@
 			"page": 154
 		},
 		{
-			"name": "Toz Hortumu",
+			"name": "Dust Devil (Toz Hortumu)",
 			"source": "XGE",
 			"level": 2,
 			"school": "C",
@@ -1439,7 +1439,7 @@
 			]
 		},
 		{
-			"name": "Toprak Sarsıntısı",
+			"name": "Earth Tremor (Toprak Sarsıntısı)",
 			"source": "XGE",
 			"level": 1,
 			"school": "V",
@@ -1506,7 +1506,7 @@
 			]
 		},
 		{
-			"name": "Toprağa Bağla",
+			"name": "Earthbind (Toprağa Bağla)",
 			"source": "XGE",
 			"level": 2,
 			"school": "T",
@@ -1994,7 +1994,7 @@
 			]
 		},
 		{
-			"name": "Ayaz",
+			"name": "Frostbite (Ayaz)",
 			"source": "XGE",
 			"level": 0,
 			"school": "V",
@@ -2138,7 +2138,7 @@
 			]
 		},
 		{
-			"name": "Bora",
+			"name": "Gust (Bora)",
 			"source": "XGE",
 			"level": 0,
 			"school": "T",
@@ -2197,7 +2197,7 @@
 			]
 		},
 		{
-			"name": "Şifa Ruhu",
+			"name": "Healing Spirit (Şifa Ruhu)",
 			"source": "XGE",
 			"level": 2,
 			"school": "C",
@@ -2312,7 +2312,7 @@
 			]
 		},
 		{
-			"name": "Buz Bıçağı",
+			"name": "Ice Knife (Buz Bıçağı)",
 			"source": "XGE",
 			"level": 1,
 			"school": "C",
@@ -2559,7 +2559,7 @@
 			"page": 158
 		},
 		{
-			"name": "İstila",
+			"name": "Infestation (İstila)",
 			"source": "XGE",
 			"level": 0,
 			"school": "C",
@@ -3127,7 +3127,7 @@
 			]
 		},
 		{
-			"name": "Büyülü Taş",
+			"name": "Magic Stone (Büyülü Taş)",
 			"source": "XGE",
 			"level": 0,
 			"school": "T",
@@ -3239,7 +3239,7 @@
 			]
 		},
 		{
-			"name": "Maximilian'ın Toprak Kavraması",
+			"name": "Maximilian's Earthen Grasp (Maximilian'ın Toprak Kavraması)",
 			"source": "XGE",
 			"level": 2,
 			"school": "T",
@@ -3481,7 +3481,7 @@
 			]
 		},
 		{
-			"name": "Zihin Dikeni",
+			"name": "Mind Spike (Zihin Dikeni)",
 			"source": "XGE",
 			"level": 2,
 			"school": "D",
@@ -3548,7 +3548,7 @@
 			]
 		},
 		{
-			"name": "Toprağı Biçimlendir",
+			"name": "Mold Earth (Toprağı Biçimlendir)",
 			"source": "XGE",
 			"level": 0,
 			"school": "T",
@@ -3714,7 +3714,7 @@
 			]
 		},
 		{
-			"name": "İlkel Vahşet",
+			"name": "Primal Savagery (İlkel Vahşet)",
 			"source": "XGE",
 			"level": 0,
 			"school": "T",
@@ -3869,7 +3869,7 @@
 			]
 		},
 		{
-			"name": "Piroteknik",
+			"name": "Pyrotechnics (Piroteknik)",
 			"source": "XGE",
 			"level": 2,
 			"school": "T",
@@ -3984,7 +3984,7 @@
 			]
 		},
 		{
-			"name": "Gölge Kılıcı",
+			"name": "Shadow Blade (Gölge Kılıcı)",
 			"source": "XGE",
 			"level": 2,
 			"school": "I",
@@ -4104,7 +4104,7 @@
 			]
 		},
 		{
-			"name": "Su Şekillendir",
+			"name": "Shape Water (Su Şekillendir)",
 			"source": "XGE",
 			"level": 0,
 			"school": "T",
@@ -4281,7 +4281,7 @@
 			"page": 165
 		},
 		{
-			"name": "Göğe Yaz",
+			"name": "Skywrite (Göğe Yaz)",
 			"source": "XGE",
 			"level": 2,
 			"school": "T",
@@ -4336,7 +4336,7 @@
 			"page": 165
 		},
 		{
-			"name": "Kapan",
+			"name": "Snare (Kapan)",
 			"source": "XGE",
 			"level": 1,
 			"school": "A",
@@ -4401,7 +4401,7 @@
 			]
 		},
 		{
-			"name": "Snilloc'un Kartopu Yığını",
+			"name": "Snilloc's Snowball Swarm (Snilloc'un Kartopu Yığını)",
 			"source": "XGE",
 			"level": 2,
 			"school": "V",
@@ -5072,7 +5072,7 @@
 			]
 		},
 		{
-			"name": "Gökgürültüsü",
+			"name": "Thunderclap (Gökgürültüsü)",
 			"source": "XGE",
 			"level": 0,
 			"school": "V",
@@ -5243,7 +5243,7 @@
 			"page": 168
 		},
 		{
-			"name": "Ölüm Çanları",
+			"name": "Toll the Dead (Ölüm Çanları)",
 			"source": "XGE",
 			"level": 0,
 			"school": "N",
@@ -5609,7 +5609,7 @@
 			"page": 170
 		},
 		{
-			"name": "Koruyan Rüzgar",
+			"name": "Warding Wind (Koruyan Rüzgar)",
 			"source": "XGE",
 			"level": 2,
 			"school": "V",
@@ -5802,7 +5802,7 @@
 			]
 		},
 		{
-			"name": "Görkem Sözü",
+			"name": "Word of Radiance (Görkem Sözü)",
 			"source": "XGE",
 			"level": 0,
 			"school": "V",
@@ -5937,7 +5937,7 @@
 			]
 		},
 		{
-			"name": "Meltem Darbesi",
+			"name": "Zephyr Strike (Meltem Darbesi)",
 			"source": "XGE",
 			"level": 1,
 			"school": "T",

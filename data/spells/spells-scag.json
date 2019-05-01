@@ -1,7 +1,7 @@
 {
 	"spell": [
 		{
-			"name": "Gürleyen Kılıç",
+			"name": "Booming Blade (Gürleyen Kılıç)",
 			"source": "SCAG",
 			"level": 0,
 			"school": "V",
@@ -57,7 +57,7 @@
 			]
 		},
 		{
-			"name": "Yeşil Alev Kılıcı",
+			"name": "Green-Flame Blade (Yeşil Alev Kılıcı)",
 			"source": "SCAG",
 			"level": 0,
 			"school": "V",
@@ -113,7 +113,7 @@
 			]
 		},
 		{
-			"name": "Yıldırım Tuzağı",
+			"name": "Lightning Lure (Yıldırım Tuzağı)",
 			"source": "SCAG",
 			"level": 0,
 			"school": "V",
@@ -167,7 +167,7 @@
 			]
 		},
 		{
-			"name": "Kılıç Patlaması",
+			"name": "Sword Burst (Kılıç Patlaması)",
 			"source": "SCAG",
 			"level": 0,
 			"school": "C",

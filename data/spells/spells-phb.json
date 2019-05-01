@@ -1,7 +1,7 @@
 {
 	"spell": [
 		{
-			"name": "Asit Sıçraması",
+			"name": "Acid Splash (Asit Sıçraması)",
 			"level": 0,
 			"school": "C",
 			"time": [
@@ -52,7 +52,7 @@
 			]
 		},
 		{
-			"name": "Yardım",
+			"name": "Aid (Yardım)",
 			"level": 2,
 			"school": "A",
 			"time": [
@@ -164,7 +164,7 @@
 			"page": 211
 		},
 		{
-			"name": "Kendini Değiştir",
+			"name": "Alter Self (Kendini Değiştir)",
 			"level": 2,
 			"school": "T",
 			"time": [
@@ -238,7 +238,7 @@
 			]
 		},
 		{
-			"name": "Hayvan Dostluğu",
+			"name": "Animal Friendship (Hayvan Dostluğu)",
 			"level": 1,
 			"school": "E",
 			"time": [
@@ -315,7 +315,7 @@
 			]
 		},
 		{
-			"name": "Haberci Hayvan",
+			"name": "Animal Messenger (Haberci Hayvan)",
 			"level": 2,
 			"school": "E",
 			"time": [
@@ -1020,7 +1020,7 @@
 			"page": 214
 		},
 		{
-			"name": "Arcane Kilit",
+			"name": "Arcane Lock (Arcane Kilit)",
 			"level": 2,
 			"school": "A",
 			"time": [
@@ -1068,7 +1068,7 @@
 			"page": 215
 		},
 		{
-			"name": "Agathys'in Zırhı",
+			"name": "Armor of Agathys (Agathys'in Zırhı)",
 			"level": 1,
 			"school": "A",
 			"time": [
@@ -1136,7 +1136,7 @@
 			]
 		},
 		{
-			"name": "Hadar'ın Kolları",
+			"name": "Arms of Hadar (Hadar'ın Kolları)",
 			"level": 1,
 			"school": "C",
 			"time": [
@@ -1249,7 +1249,7 @@
 			"page": 215
 		},
 		{
-			"name": "Falcılık",
+			"name": "Augury (Falcılık)",
 			"level": 2,
 			"school": "D",
 			"time": [
@@ -1535,7 +1535,7 @@
 			"page": 216
 		},
 		{
-			"name": "Felaket",
+			"name": "Bane (Felaket)",
 			"level": 1,
 			"school": "E",
 			"time": [
@@ -1825,7 +1825,7 @@
 			]
 		},
 		{
-			"name": "Kabukderi",
+			"name": "Barkskin (Kabukderi)",
 			"level": 2,
 			"school": "T",
 			"time": [
@@ -1967,7 +1967,7 @@
 			]
 		},
 		{
-			"name": "Hayvan Duyusu",
+			"name": "Beast Sense (Hayvan Duyusu)",
 			"level": 2,
 			"school": "D",
 			"time": [
@@ -2260,7 +2260,7 @@
 			]
 		},
 		{
-			"name": "Kılıç Koruması",
+			"name": "Blade Ward (Kılıç Koruması)",
 			"level": 0,
 			"school": "A",
 			"time": [
@@ -2320,7 +2320,7 @@
 			]
 		},
 		{
-			"name": "Kutsama",
+			"name": "Bless (Kutsama)",
 			"level": 1,
 			"school": "E",
 			"time": [
@@ -2563,7 +2563,7 @@
 			]
 		},
 		{
-			"name": "Körlük/Sağırlık",
+			"name": "Blindness/Deafness (Körlük/Sağırlık)",
 			"level": 2,
 			"school": "N",
 			"time": [
@@ -2742,7 +2742,7 @@
 			"page": 219
 		},
 		{
-			"name": "Bulanıklık",
+			"name": "Blur (Bulanıklık)",
 			"level": 2,
 			"school": "I",
 			"time": [
@@ -2812,7 +2812,7 @@
 			"page": 219
 		},
 		{
-			"name": "Damgalayan Çarpma",
+			"name": "Branding Smite (Damgalayan Çarpma)",
 			"level": 2,
 			"school": "V",
 			"time": [
@@ -2879,7 +2879,7 @@
 			]
 		},
 		{
-			"name": "Yanan Eller",
+			"name": "Burning Hands (Yanan Eller)",
 			"level": 1,
 			"school": "V",
 			"time": [
@@ -3046,7 +3046,7 @@
 			]
 		},
 		{
-			"name": "Duyguları Yatıştır",
+			"name": "Calm Emotions (Duyguları Yatıştır)",
 			"level": 2,
 			"school": "E",
 			"time": [
@@ -3183,7 +3183,7 @@
 			]
 		},
 		{
-			"name": "Kişi Cezbet",
+			"name": "Charm Person (Kişi Cezbet)",
 			"level": 1,
 			"school": "E",
 			"time": [
@@ -3267,7 +3267,7 @@
 			]
 		},
 		{
-			"name": "Ürperten Dokunuş",
+			"name": "Chill Touch (Ürperten Dokunuş)",
 			"level": 0,
 			"school": "N",
 			"time": [
@@ -3324,7 +3324,7 @@
 			]
 		},
 		{
-			"name": "Kromatik Küre",
+			"name": "Chromatic Orb (Kromatik Küre)",
 			"level": 1,
 			"school": "V",
 			"time": [
@@ -3633,7 +3633,7 @@
 			"page": 222
 		},
 		{
-			"name": "Hançer Bulutu",
+			"name": "Cloud of Daggers (Hançer Bulutu)",
 			"level": 2,
 			"school": "C",
 			"time": [
@@ -3802,7 +3802,7 @@
 			]
 		},
 		{
-			"name": "Renk Spreyi",
+			"name": "Color Spray (Renk Spreyi)",
 			"level": 1,
 			"school": "I",
 			"time": [
@@ -3861,7 +3861,7 @@
 			"page": 222
 		},
 		{
-			"name": "Emret",
+			"name": "Command (Emret)",
 			"level": 1,
 			"school": "E",
 			"time": [
@@ -4151,7 +4151,7 @@
 			"page": 224
 		},
 		{
-			"name": "Mecburi Düello",
+			"name": "Compelled Duel (Mecburi Düello)",
 			"level": 1,
 			"school": "E",
 			"time": [
@@ -4211,7 +4211,7 @@
 			]
 		},
 		{
-			"name": "Dilleri Anla",
+			"name": "Comprehend Languages (Dilleri Anla)",
 			"level": 1,
 			"school": "D",
 			"time": [
@@ -5256,7 +5256,7 @@
 			"page": 227
 		},
 		{
-			"name": "Devamlı Alev",
+			"name": "Continual Flame (Devamlı Alev)",
 			"level": 2,
 			"school": "V",
 			"time": [
@@ -5583,7 +5583,7 @@
 			"page": 228
 		},
 		{
-			"name": "Ok Şeridi",
+			"name": "Cordon of Arrows (Ok Şeridi)",
 			"level": 2,
 			"school": "T",
 			"time": [
@@ -5833,7 +5833,7 @@
 			"page": 229
 		},
 		{
-			"name": "Su Yarat ya da Yoket",
+			"name": "Create or Destroy Water (Su Yarat ya da Yoket)",
 			"level": 1,
 			"school": "T",
 			"time": [
@@ -5999,7 +5999,7 @@
 			"page": 229
 		},
 		{
-			"name": "Delilik Tacı",
+			"name": "Crown of Madness (Delilik Tacı)",
 			"level": 2,
 			"school": "E",
 			"time": [
@@ -6131,7 +6131,7 @@
 			]
 		},
 		{
-			"name": "Yaraları İyileştir",
+			"name": "Cure Wounds (Yaraları İyileştir)",
 			"level": 1,
 			"school": "V",
 			"time": [
@@ -6227,7 +6227,7 @@
 			"page": 230
 		},
 		{
-			"name": "Dans Eden Işıklar",
+			"name": "Dancing Lights (Dans Eden Işıklar)",
 			"level": 0,
 			"school": "V",
 			"time": [
@@ -6282,7 +6282,7 @@
 			"page": 230
 		},
 		{
-			"name": "Karanlık",
+			"name": "Darkness (Karanlık)",
 			"level": 2,
 			"school": "V",
 			"time": [
@@ -6360,7 +6360,7 @@
 			"page": 230
 		},
 		{
-			"name": "Gece Görüşü",
+			"name": "Darkvision (Gece Görüşü)",
 			"level": 2,
 			"school": "T",
 			"time": [
@@ -6775,7 +6775,7 @@
 			]
 		},
 		{
-			"name": "İyi ve Kötüyü Hisset",
+			"name": "Detect Good and Evil (İyi ve Kötüyü Hisset)",
 			"level": 1,
 			"school": "D",
 			"time": [
@@ -6823,7 +6823,7 @@
 			"page": 231
 		},
 		{
-			"name": "Büyüyü Hisset",
+			"name": "Detect Magic (Büyüyü Hisset)",
 			"level": 1,
 			"school": "D",
 			"time": [
@@ -6907,7 +6907,7 @@
 			"page": 231
 		},
 		{
-			"name": "Zehir ve Hastalığı Hisset",
+			"name": "Detect Poison and Disease (Zehir ve Hastalığı Hisset)",
 			"level": 1,
 			"school": "D",
 			"time": [
@@ -6968,7 +6968,7 @@
 			"page": 231
 		},
 		{
-			"name": "Zihin Okuma",
+			"name": "Detect Thoughts (Zihin Okuma)",
 			"level": 2,
 			"school": "D",
 			"time": [
@@ -7121,7 +7121,7 @@
 			]
 		},
 		{
-			"name": "Kılık Değiştir",
+			"name": "Disguise Self (Kılık Değiştir)",
 			"level": 1,
 			"school": "I",
 			"time": [
@@ -7433,7 +7433,7 @@
 			"page": 234
 		},
 		{
-			"name": "Ahenksiz Fısıltılar",
+			"name": "Dissonant Whispers (Ahenksiz Fısıltılar)",
 			"level": 1,
 			"school": "E",
 			"time": [
@@ -7572,7 +7572,7 @@
 			"page": 234
 		},
 		{
-			"name": "Kutsal Lütuf",
+			"name": "Divine Favor (Kutsal Lütuf)",
 			"level": 1,
 			"school": "V",
 			"time": [
@@ -8104,7 +8104,7 @@
 			]
 		},
 		{
-			"name": "Druid Zanaatı",
+			"name": "Druidcraft (Druid Zanaatı)",
 			"level": 0,
 			"school": "T",
 			"time": [
@@ -8222,7 +8222,7 @@
 			]
 		},
 		{
-			"name": "Eldritch Patlaması",
+			"name": "Eldritch Blast (Eldritch Patlaması)",
 			"level": 0,
 			"school": "V",
 			"time": [
@@ -8348,7 +8348,7 @@
 			]
 		},
 		{
-			"name": "Yetenek Geliştir",
+			"name": "Enhance Ability (Yetenek Geliştir)",
 			"level": 2,
 			"school": "T",
 			"time": [
@@ -8456,7 +8456,7 @@
 			"page": 237
 		},
 		{
-			"name": "Büyüt/Küçült",
+			"name": "Enlarge/Reduce (Büyüt/Küçült)",
 			"level": 2,
 			"school": "T",
 			"time": [
@@ -8513,7 +8513,7 @@
 			]
 		},
 		{
-			"name": "Yakalayan Darbe",
+			"name": "Ensnaring Strike (Yakalayan Darbe)",
 			"level": 1,
 			"school": "C",
 			"time": [
@@ -8587,7 +8587,7 @@
 			]
 		},
 		{
-			"name": "Dolaşıklık",
+			"name": "Entangle (Dolaşıklık)",
 			"level": 1,
 			"school": "C",
 			"time": [
@@ -8640,7 +8640,7 @@
 			]
 		},
 		{
-			"name": "Dikkat Çek",
+			"name": "Enthrall (Dikkat Çek)",
 			"level": 2,
 			"school": "E",
 			"time": [
@@ -8837,7 +8837,7 @@
 			]
 		},
 		{
-			"name": "Tez Kaçış",
+			"name": "Expeditious Retreat (Tez Kaçış)",
 			"level": 1,
 			"school": "T",
 			"time": [
@@ -9023,7 +9023,7 @@
 			"page": 239
 		},
 		{
-			"name": "Peri Ateşi",
+			"name": "Faerie Fire (Peri Ateşi)",
 			"level": 1,
 			"school": "V",
 			"time": [
@@ -9097,7 +9097,7 @@
 			]
 		},
 		{
-			"name": "Sahte Yaşam",
+			"name": "False Life (Sahte Yaşam)",
 			"level": 1,
 			"school": "N",
 			"time": [
@@ -9270,7 +9270,7 @@
 			]
 		},
 		{
-			"name": "Tüy Düşüşü",
+			"name": "Feather Fall (Tüy Düşüşü)",
 			"level": 1,
 			"school": "T",
 			"time": [
@@ -9460,7 +9460,7 @@
 			]
 		},
 		{
-			"name": "Hizmetkar Bul",
+			"name": "Find Familiar (Hizmetkar Bul)",
 			"level": 1,
 			"school": "C",
 			"time": [
@@ -9513,7 +9513,7 @@
 			"page": 240
 		},
 		{
-			"name": "Binek Bul",
+			"name": "Find Steed (Binek Bul)",
 			"level": 2,
 			"school": "C",
 			"time": [
@@ -9557,7 +9557,7 @@
 			"page": 240
 		},
 		{
-			"name": "Tuzakları Bul",
+			"name": "Find Traps (Tuzakları Bul)",
 			"level": 2,
 			"school": "D",
 			"time": [
@@ -9719,7 +9719,7 @@
 			]
 		},
 		{
-			"name": "Alev Oku",
+			"name": "Fire Bolt (Alev Oku)",
 			"level": 0,
 			"school": "V",
 			"time": [
@@ -9971,7 +9971,7 @@
 			]
 		},
 		{
-			"name": "Alev Kılıcı",
+			"name": "Flame Blade (Alev Kılıcı)",
 			"level": 2,
 			"school": "V",
 			"time": [
@@ -10139,7 +10139,7 @@
 			]
 		},
 		{
-			"name": "Alevli Küre",
+			"name": "Flaming Sphere (Alevli Küre)",
 			"level": 2,
 			"school": "C",
 			"time": [
@@ -10346,7 +10346,7 @@
 			"page": 243
 		},
 		{
-			"name": "Sis Bulutu",
+			"name": "Fog Cloud (Sis Bulutu)",
 			"level": 1,
 			"school": "C",
 			"time": [
@@ -10736,7 +10736,7 @@
 			"page": 244
 		},
 		{
-			"name": "Dostlar",
+			"name": "Friends (Dostlar)",
 			"level": 0,
 			"school": "E",
 			"time": [
@@ -11011,7 +11011,7 @@
 			]
 		},
 		{
-			"name": "Huzurlu Uyku",
+			"name": "Gentle Repose (Huzurlu Uyku)",
 			"level": 2,
 			"school": "N",
 			"time": [
@@ -11325,7 +11325,7 @@
 			]
 		},
 		{
-			"name": "İyi Böğürtlen",
+			"name": "Goodberry (İyi Böğürtlen)",
 			"level": 1,
 			"school": "T",
 			"time": [
@@ -11435,7 +11435,7 @@
 			]
 		},
 		{
-			"name": "Yağla",
+			"name": "Grease (Yağla)",
 			"level": 1,
 			"school": "C",
 			"time": [
@@ -11836,7 +11836,7 @@
 			"page": 248
 		},
 		{
-			"name": "Rehberlik",
+			"name": "Guidance (Rehberlik)",
 			"level": 0,
 			"school": "D",
 			"time": [
@@ -11884,7 +11884,7 @@
 			"page": 248
 		},
 		{
-			"name": "Güdücü Ok",
+			"name": "Guiding Bolt (Güdücü Ok)",
 			"level": 1,
 			"school": "V",
 			"time": [
@@ -11952,7 +11952,7 @@
 			]
 		},
 		{
-			"name": "Kuvvetli Rüzgar",
+			"name": "Gust of Wind (Kuvvetli Rüzgar)",
 			"level": 2,
 			"school": "V",
 			"time": [
@@ -12024,7 +12024,7 @@
 			]
 		},
 		{
-			"name": "Diken Yağmuru",
+			"name": "Hail of Thorns (Diken Yağmuru)",
 			"level": 1,
 			"school": "C",
 			"time": [
@@ -12510,7 +12510,7 @@
 			"page": 250
 		},
 		{
-			"name": "Şifalı Söz",
+			"name": "Healing Word (Şifalı Söz)",
 			"level": 1,
 			"school": "V",
 			"time": [
@@ -12566,7 +12566,7 @@
 			"page": 250
 		},
 		{
-			"name": "Metal Isıt",
+			"name": "Heat Metal (Metal Isıt)",
 			"level": 2,
 			"school": "T",
 			"time": [
@@ -12644,7 +12644,7 @@
 			]
 		},
 		{
-			"name": "Cehennem Azarı",
+			"name": "Hellish Rebuke (Cehennem Azarı)",
 			"level": 1,
 			"school": "V",
 			"time": [
@@ -12768,7 +12768,7 @@
 			]
 		},
 		{
-			"name": "Kahramanlık",
+			"name": "Heroism (Kahramanlık)",
 			"level": 1,
 			"school": "E",
 			"time": [
@@ -12987,7 +12987,7 @@
 			]
 		},
 		{
-			"name": "Kişi Zapt Et",
+			"name": "Hold Person (Kişi Zapt Et)",
 			"level": 2,
 			"school": "E",
 			"time": [
@@ -13213,7 +13213,7 @@
 			]
 		},
 		{
-			"name": "Avcının İşareti",
+			"name": "Hunter's Mark (Avcının İşareti)",
 			"level": 1,
 			"school": "D",
 			"time": [
@@ -13453,7 +13453,7 @@
 			]
 		},
 		{
-			"name": "Tanımla",
+			"name": "Identify (Tanımla)",
 			"level": 1,
 			"school": "D",
 			"time": [
@@ -13526,7 +13526,7 @@
 			"page": 252
 		},
 		{
-			"name": "Hayali Metin",
+			"name": "Illusory Script (Hayali Metin)",
 			"level": 1,
 			"school": "I",
 			"time": [
@@ -13748,7 +13748,7 @@
 			]
 		},
 		{
-			"name": "Yara Aç",
+			"name": "Inflict Wounds (Yara Aç)",
 			"level": 1,
 			"school": "N",
 			"time": [
@@ -13957,7 +13957,7 @@
 			]
 		},
 		{
-			"name": "Görünmezlik",
+			"name": "Invisibility (Görünmezlik)",
 			"level": 2,
 			"school": "I",
 			"time": [
@@ -14036,7 +14036,7 @@
 			"page": 254
 		},
 		{
-			"name": "Zıpla",
+			"name": "Jump (Zıpla)",
 			"level": 1,
 			"school": "T",
 			"time": [
@@ -14092,7 +14092,7 @@
 			"page": 254
 		},
 		{
-			"name": "Tıkla",
+			"name": "Knock (Tıkla)",
 			"level": 2,
 			"school": "T",
 			"time": [
@@ -14328,7 +14328,7 @@
 			"page": 255
 		},
 		{
-			"name": "Küçük Yenileme",
+			"name": "Lesser Restoration (Küçük Yenileme)",
 			"level": 2,
 			"school": "A",
 			"time": [
@@ -14415,7 +14415,7 @@
 			"page": 255
 		},
 		{
-			"name": "Havaya Yükselme",
+			"name": "Levitate (Havaya Yükselme)",
 			"level": 2,
 			"school": "T",
 			"time": [
@@ -14470,7 +14470,7 @@
 			]
 		},
 		{
-			"name": "Işık",
+			"name": "Light (Işık)",
 			"level": 0,
 			"school": "V",
 			"time": [
@@ -14664,7 +14664,7 @@
 			]
 		},
 		{
-			"name": "Hayvan ya da Bitki Bul",
+			"name": "Locate Animals or Plants (Hayvan ya da Bitki Bul)",
 			"level": 2,
 			"school": "D",
 			"time": [
@@ -14795,7 +14795,7 @@
 			"page": 256
 		},
 		{
-			"name": "Nesne Bul",
+			"name": "Locate Object (Nesne Bul)",
 			"level": 2,
 			"school": "D",
 			"time": [
@@ -14862,7 +14862,7 @@
 			"page": 256
 		},
 		{
-			"name": "Uzun Adım",
+			"name": "Longstrider (Uzun Adım)",
 			"level": 1,
 			"school": "T",
 			"time": [
@@ -14927,7 +14927,7 @@
 			"page": 256
 		},
 		{
-			"name": "Büyücü Zırhı",
+			"name": "Mage Armor (Büyücü Zırhı)",
 			"level": 1,
 			"school": "A",
 			"time": [
@@ -14975,7 +14975,7 @@
 			"page": 256
 		},
 		{
-			"name": "Büyücü Eli",
+			"name": "Mage Hand (Büyücü Eli)",
 			"level": 0,
 			"school": "C",
 			"time": [
@@ -15193,7 +15193,7 @@
 			]
 		},
 		{
-			"name": "Büyülü Misil",
+			"name": "Magic Missile (Büyülü Misil)",
 			"level": 1,
 			"school": "V",
 			"time": [
@@ -15261,7 +15261,7 @@
 			]
 		},
 		{
-			"name": "Büyülü Ağız",
+			"name": "Magic Mouth (Büyülü Ağız)",
 			"level": 2,
 			"school": "I",
 			"time": [
@@ -15318,7 +15318,7 @@
 			"page": 257
 		},
 		{
-			"name": "Büyülü Silah",
+			"name": "Magic Weapon (Büyülü Silah)",
 			"level": 2,
 			"school": "T",
 			"time": [
@@ -15825,7 +15825,7 @@
 			]
 		},
 		{
-			"name": "Melf'in Asit Oku",
+			"name": "Melf's Acid Arrow (Melf'in Asit Oku)",
 			"level": 2,
 			"school": "V",
 			"time": [
@@ -15891,7 +15891,7 @@
 			]
 		},
 		{
-			"name": "Tamir",
+			"name": "Mending (Tamir)",
 			"level": 0,
 			"school": "T",
 			"time": [
@@ -15948,7 +15948,7 @@
 			"page": 259
 		},
 		{
-			"name": "Mesaj",
+			"name": "Message (Mesaj)",
 			"level": 0,
 			"school": "T",
 			"time": [
@@ -16107,7 +16107,7 @@
 			]
 		},
 		{
-			"name": "Ufak İllüzyon",
+			"name": "Minor Illusion (Ufak İllüzyon)",
 			"level": 0,
 			"school": "I",
 			"time": [
@@ -16223,7 +16223,7 @@
 			"page": 260
 		},
 		{
-			"name": "Ayna Görüntü",
+			"name": "Mirror Image (Ayna Görüntü)",
 			"level": 2,
 			"school": "I",
 			"time": [
@@ -16349,7 +16349,7 @@
 			"page": 260
 		},
 		{
-			"name": "Sisli Adım",
+			"name": "Misty Step (Sisli Adım)",
 			"level": 2,
 			"school": "C",
 			"time": [
@@ -16525,7 +16525,7 @@
 			]
 		},
 		{
-			"name": "Ay Işını",
+			"name": "Moonbeam (Ay Işını)",
 			"level": 2,
 			"school": "V",
 			"time": [
@@ -16955,7 +16955,7 @@
 			"page": 263
 		},
 		{
-			"name": "Nystul'un Büyülü Aurası",
+			"name": "Nystul's Magic Aura (Nystul'un Büyülü Aurası)",
 			"level": 2,
 			"school": "I",
 			"time": [
@@ -17219,7 +17219,7 @@
 			]
 		},
 		{
-			"name": "İz Bırakmadan Geç",
+			"name": "Pass without Trace (İz Bırakmadan Geç)",
 			"level": 2,
 			"school": "A",
 			"time": [
@@ -17350,7 +17350,7 @@
 			"page": 264
 		},
 		{
-			"name": "Hayali Güç",
+			"name": "Phantasmal Force (Hayali Güç)",
 			"level": 2,
 			"school": "I",
 			"time": [
@@ -17862,7 +17862,7 @@
 			"page": 266
 		},
 		{
-			"name": "Zehir Spreyi",
+			"name": "Poison Spray (Zehir Spreyi)",
 			"level": 0,
 			"school": "C",
 			"time": [
@@ -18144,7 +18144,7 @@
 			]
 		},
 		{
-			"name": "Şifa Duası",
+			"name": "Prayer of Healing (Şifa Duası)",
 			"level": 2,
 			"school": "V",
 			"time": [
@@ -18192,7 +18192,7 @@
 			"page": 267
 		},
 		{
-			"name": "Hokkabazlık",
+			"name": "Prestidigitation (Hokkabazlık)",
 			"level": 0,
 			"school": "T",
 			"time": [
@@ -18482,7 +18482,7 @@
 			]
 		},
 		{
-			"name": "Alev Üret",
+			"name": "Produce Flame (Alev Üret)",
 			"level": 0,
 			"school": "C",
 			"time": [
@@ -18757,7 +18757,7 @@
 			]
 		},
 		{
-			"name": "İyi ve Kötüden Korunma",
+			"name": "Protection from Evil and Good (İyi ve Kötüden Korunma)",
 			"level": 1,
 			"school": "A",
 			"time": [
@@ -18860,7 +18860,7 @@
 			"page": 270
 		},
 		{
-			"name": "Zehirden Koruma",
+			"name": "Protection from Poison (Zehirden Koruma)",
 			"level": 2,
 			"school": "A",
 			"time": [
@@ -18922,7 +18922,7 @@
 			]
 		},
 		{
-			"name": "Yiyecek ve İçeceği Arıt",
+			"name": "Purify Food and Drink (Yiyecek ve İçeceği Arıt)",
 			"level": 1,
 			"school": "T",
 			"time": [
@@ -19099,7 +19099,7 @@
 			"page": 270
 		},
 		{
-			"name": "Zayıflatma Işını",
+			"name": "Ray of Enfeeblement (Zayıflatma Işını)",
 			"level": 2,
 			"school": "N",
 			"time": [
@@ -19174,7 +19174,7 @@
 			]
 		},
 		{
-			"name": "Buz Işını",
+			"name": "Ray of Frost (Buz Işını)",
 			"level": 0,
 			"school": "V",
 			"time": [
@@ -19222,7 +19222,7 @@
 			]
 		},
 		{
-			"name": "Hastalık Işını",
+			"name": "Ray of Sickness (Hastalık Işını)",
 			"level": 1,
 			"school": "N",
 			"time": [
@@ -19610,7 +19610,7 @@
 			"page": 271
 		},
 		{
-			"name": "Direnç",
+			"name": "Resistance (Direnç)",
 			"level": 0,
 			"school": "A",
 			"time": [
@@ -19850,7 +19850,7 @@
 			"page": 272
 		},
 		{
-			"name": "Halat Hilesi",
+			"name": "Rope Trick (Halat Hilesi)",
 			"level": 2,
 			"school": "T",
 			"time": [
@@ -19909,7 +19909,7 @@
 			"page": 272
 		},
 		{
-			"name": "Kutsal Alev",
+			"name": "Sacred Flame (Kutsal Alev)",
 			"level": 0,
 			"school": "V",
 			"time": [
@@ -19956,7 +19956,7 @@
 			]
 		},
 		{
-			"name": "Mabet",
+			"name": "Sanctuary (Mabet)",
 			"level": 1,
 			"school": "A",
 			"time": [
@@ -20027,7 +20027,7 @@
 			]
 		},
 		{
-			"name": "Kavurucu Işın",
+			"name": "Scorching Ray (Kavurucu Işın)",
 			"level": 2,
 			"school": "V",
 			"time": [
@@ -20282,7 +20282,7 @@
 			]
 		},
 		{
-			"name": "Dağlayan Çarpma",
+			"name": "Searing Smite (Dağlayan Çarpma)",
 			"level": 1,
 			"school": "V",
 			"time": [
@@ -20352,7 +20352,7 @@
 			]
 		},
 		{
-			"name": "Görünmezliği Gör",
+			"name": "See Invisibility (Görünmezliği Gör)",
 			"level": 2,
 			"school": "D",
 			"time": [
@@ -20658,7 +20658,7 @@
 			"page": 274
 		},
 		{
-			"name": "Paramparça Et",
+			"name": "Shatter (Paramparça Et)",
 			"level": 2,
 			"school": "V",
 			"time": [
@@ -20739,7 +20739,7 @@
 			]
 		},
 		{
-			"name": "Kalkan",
+			"name": "Shield (Kalkan)",
 			"level": 1,
 			"school": "A",
 			"time": [
@@ -20799,7 +20799,7 @@
 			"page": 275
 		},
 		{
-			"name": "İnanç Kalkanı",
+			"name": "Shield of Faith (İnanç Kalkanı)",
 			"level": 1,
 			"school": "A",
 			"time": [
@@ -20905,7 +20905,7 @@
 			"page": 275
 		},
 		{
-			"name": "Şok Edici Kavrama",
+			"name": "Shocking Grasp (Şok Edici Kavrama)",
 			"level": 0,
 			"school": "V",
 			"time": [
@@ -20952,7 +20952,7 @@
 			]
 		},
 		{
-			"name": "Sessizlik",
+			"name": "Silence (Sessizlik)",
 			"level": 2,
 			"school": "I",
 			"time": [
@@ -21037,7 +21037,7 @@
 			]
 		},
 		{
-			"name": "Sessiz Görüntü",
+			"name": "Silent Image (Sessiz Görüntü)",
 			"level": 1,
 			"school": "I",
 			"time": [
@@ -21146,7 +21146,7 @@
 			"page": 276
 		},
 		{
-			"name": "Uyku",
+			"name": "Sleep (Uyku)",
 			"level": 1,
 			"school": "E",
 			"time": [
@@ -21385,7 +21385,7 @@
 			]
 		},
 		{
-			"name": "Öleni Esirge",
+			"name": "Spare the Dying (Öleni Esirge)",
 			"level": 0,
 			"school": "N",
 			"time": [
@@ -21424,7 +21424,7 @@
 			"page": 277
 		},
 		{
-			"name": "Hayvanlarla Konuş",
+			"name": "Speak with Animals (Hayvanlarla Konuş)",
 			"level": 1,
 			"school": "D",
 			"time": [
@@ -21628,7 +21628,7 @@
 			"page": 277
 		},
 		{
-			"name": "Örümcek Tırmanışı",
+			"name": "Spider Climb (Örümcek Tırmanışı)",
 			"level": 2,
 			"school": "T",
 			"time": [
@@ -21716,7 +21716,7 @@
 			"page": 277
 		},
 		{
-			"name": "Diken Büyümesi",
+			"name": "Spike Growth (Diken Büyümesi)",
 			"level": 2,
 			"school": "T",
 			"time": [
@@ -21892,7 +21892,7 @@
 			]
 		},
 		{
-			"name": "Ruhsal Silah",
+			"name": "Spiritual Weapon (Ruhsal Silah)",
 			"level": 2,
 			"school": "V",
 			"time": [
@@ -22410,7 +22410,7 @@
 			]
 		},
 		{
-			"name": "Tavsiye",
+			"name": "Suggestion (Tavsiye)",
 			"level": 2,
 			"school": "E",
 			"time": [
@@ -22778,7 +22778,7 @@
 			]
 		},
 		{
-			"name": "Tasha'nın Korkunç Kahkahası",
+			"name": "Tasha's Hideous Laughter (Tasha'nın Korkunç Kahkahası)",
 			"level": 1,
 			"school": "E",
 			"time": [
@@ -23200,7 +23200,7 @@
 			"page": 282
 		},
 		{
-			"name": "Tenser'ın Süzülen Diski",
+			"name": "Tenser's Floating Disc (Tenser'ın Süzülen Diski)",
 			"level": 1,
 			"school": "C",
 			"time": [
@@ -23250,7 +23250,7 @@
 			"page": 282
 		},
 		{
-			"name": "Mucize",
+			"name": "Thaumaturgy (Mucize)",
 			"level": 0,
 			"school": "T",
 			"time": [
@@ -23306,7 +23306,7 @@
 			"page": 282
 		},
 		{
-			"name": "Diken Kırbacı",
+			"name": "Thorn Whip (Diken Kırbacı)",
 			"level": 0,
 			"school": "T",
 			"time": [
@@ -23351,7 +23351,7 @@
 			]
 		},
 		{
-			"name": "Gürleyen Çarpma",
+			"name": "Thunderous Smite (Gürleyen Çarpma)",
 			"level": 1,
 			"school": "V",
 			"time": [
@@ -23400,7 +23400,7 @@
 			]
 		},
 		{
-			"name": "Gürleyen Dalga",
+			"name": "Thunderwave (Gürleyen Dalga)",
 			"level": 1,
 			"school": "V",
 			"time": [
@@ -23906,7 +23906,7 @@
 			"page": 284
 		},
 		{
-			"name": "Doğru Darbe",
+			"name": "True Strike (Doğru Darbe)",
 			"level": 0,
 			"school": "D",
 			"time": [
@@ -24020,7 +24020,7 @@
 			]
 		},
 		{
-			"name": "Görünmez Hizmetçi",
+			"name": "Unseen Servant (Görünmez Hizmetçi)",
 			"level": 1,
 			"school": "C",
 			"time": [
@@ -24160,7 +24160,7 @@
 			]
 		},
 		{
-			"name": "Acımasız Alay",
+			"name": "Vicious Mockery (Acımasız Alay)",
 			"level": 0,
 			"school": "E",
 			"time": [
@@ -24596,7 +24596,7 @@
 			]
 		},
 		{
-			"name": "Koruyucu Bağ",
+			"name": "Warding Bond (Koruyucu Bağ)",
 			"level": 2,
 			"school": "A",
 			"time": [
@@ -24814,7 +24814,7 @@
 			"page": 287
 		},
 		{
-			"name": "Ağ",
+			"name": "Web (Ağ)",
 			"level": 2,
 			"school": "C",
 			"time": [
@@ -25130,7 +25130,7 @@
 			]
 		},
 		{
-			"name": "Cadı Oku",
+			"name": "Witch Bolt (Cadı Oku)",
 			"level": 1,
 			"school": "V",
 			"time": [
@@ -25236,7 +25236,7 @@
 			"page": 289
 		},
 		{
-			"name": "Hiddetli Çarpma",
+			"name": "Wrathful Smite (Hiddetli Çarpma)",
 			"level": 1,
 			"school": "V",
 			"time": [
@@ -25300,7 +25300,7 @@
 			]
 		},
 		{
-			"name": "Doğruluk Alanı",
+			"name": "Zone of Truth (Doğruluk Alanı)",
 			"level": 2,
 			"school": "E",
 			"time": [
