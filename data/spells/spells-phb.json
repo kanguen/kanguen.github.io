@@ -804,16 +804,16 @@
 				},
 				{
 					"type": "entries",
-					"name": "Creatures and Objects",
+					"name": "Yaratıklar ve Nesneler",
 					"entries": [
-						"A creature or object summoned or created by magic temporarily winks out of existence in the sphere. Such a creature instantly reappears once the space the creature occupied is no longer within the sphere."
+						"Büyü ile çağırılmış veya yaratılmış bir yaratık ya da nesne kürenin içinde geçici olarak kaybolur. Böyle yaratıklar, yaratığın en son kapladığı alan kürenin içinde kalmadığı durumda aniden yeniden belirir."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Dispel Magic",
 					"entries": [
-						"Spells and magical effects such as dispel magic have no effect on the sphere. Likewise, the spheres created by different antimagic field spells don't nullify each other."
+						"Dispel magic gibi büyüler ve büyülülü etkiler küreye etki etmezler. Benzer şekilde farklı Büyü Karşıtı Alan büyülerinin yarattığı küreler birbirini sıfırlamaz."
 					]
 				}
 			],
