@@ -820,7 +820,7 @@
 			"page": 213
 		},
 		{
-			"name": "Antipathy/Sympathy",
+			"name": "Antipati/Sempati",
 			"level": 8,
 			"school": "E",
 			"time": [
@@ -839,7 +839,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "either a lump of alum soaked in vinegar for the antipathy effect or a drop of honey for the sympathy effect"
+				"m": "ya antipati etkisi için sirkeyle ıslatılmış bir şap topağı ya da sempatı etkisi için bir damla bal"
 			},
 			"duration": [
 				{
@@ -864,30 +864,30 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"This spell attracts or repels creatures of your choice. You target something within range, either a Huge or smaller object or creature or an area that is no larger than a 200-foot cube. Then specify a kind of intelligent creature, such as red dragons, goblins, or vampires. You invest the target with an aura that either attracts or repels the specified creatures for the duration. Choose antipathy or sympathy as the aura's effect.",
+				"Bu büyü seçtiğin yaratıkları cezbeder veya kovuşturur. Menzil dahlilinde ya Huge veya daha küçük bir nesne yada 200-foot küpten daha büyük olmayan bir hacim hedefle. Daha sonra kırmızı ejderha, goblin veya vampir gibi zeki bir yaratık belirle. Hedefe belirtilen yaratıkları büyü süresi boyunca cezbeden veya kovuşturan bir aura bahşedersin. Auranın etkisi için antipati veya empati seç.",
 				{
 					"type": "entries",
-					"name": "Antipathy",
+					"name": "Antipati",
 					"entries": [
-						"The enchantment causes creatures of the kind you designated to feel an intense urge to leave the area and avoid the target. When such a creature can see the target or comes within 60 feet of it, the creature must succeed on a Wisdom saving throw or become {@condition frightened}. The creature remains {@condition frightened} while it can see the target or is within 60 feet of it. While {@condition frightened} by the target, the creature must use its movement to move to the nearest safe spot from which it can't see the target. If the creature moves more than 60 feet from the target and can't see it, the creature is no longer {@condition frightened}, but the creature becomes {@condition frightened} again if it regains sight of the target or moves within 60 feet of it."
+						"Bu enchantment belirlediğin yaratık cinsinin bölgeyi terkedip hedeften sakınmak için güçlü bir dürtü hissetmesine sebep olur. Eğer böyle bir yaratık hedefi görebilirse veya hedefin 60 feet kadar yakınına gelirse bilgelik kurtarma zarında başarılı olmalıdır yoksa {@condition frightened} olur. Yaratık hedefi görebildiği veya hedefe 60 feetden daha yakın olduğu sürece {@condition frightened} kalır. Hedef sebebiyle {@condition frightened} olan yaratıklar hareketlerini hedefi göremeyecekleri en yakın güvenli noktaya gitmek için kullanmak zorundadır. Eğer yaratık hedeften 60 feetten daha fazla uzaklaşırsa ve göremezse {@condition frightened} durumu sonlanır, ama hedefi yeniden görürse veya 60 feet yakınına giderse yeniden {@condition frightened} olur."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Sympathy",
+					"name": "Sempati",
 					"entries": [
-						"The enchantment causes the specified creatures to feel an intense urge to approach the target while within 60 feet of it or able to see it. When such a creature can see the target or comes within 60 feet of it, the creature must succeed on a Wisdom saving throw or use its movement on each of its turns to enter the area or move within reach of the target. When the creature has done so, it can't willingly move away from the target.",
-						"If the target damages or otherwise harms an affected creature, the affected creature can make a Wisdom saving throw to end the effect, as described below."
+						"Bu enchantment belirlenen yaratıkların hedefin 60 feet yakınındayken veya hedefi görebildikleri zaman hedefe yaklaşmak için güçlü bir dürtü hissetmesine sebep olur. Eğer böyle bir yaratık hedefi görebilirse veya hedefin 60 feet kadar yakınına gelirse bilgelik kurtarma zarında başarılı olmalıdır yoksa her tur hareketini bölgeye girmeye veya hedein ulaşımı dahiline ulaşmaya kullanmalıdır. Eğer yaratık bunu yaparsa hedeften gönüllü olarak uzaklaşamaz.",
+						"eğer hedef etkilenen yaratığa hasar veya başka türlü zarar verirse, etkilenen yaratık aşağıda tasvir edildiği gibi etkiyi bitirmek için bilgelik kurtarma zarı atabilir "
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Ending the Effect",
+					"name": "Etkiyi sonlandırmak",
 					"entries": [
-						"If an affected creature ends its turn while not within 60 feet of the target or able to see it, the creature makes a Wisdom saving throw. On a successful save, the creature is no longer affected by the target and recognizes the feeling of repugnance or attraction as magical. In addition, a creature affected by the spells is allowed another Wisdom saving throw every 24 saat while the spell persists."
+						"Eğer etkilenen bir yaratık turunu hedefin 60 feet yakınında değilken veya hedefi göremezken bitirirse, yaratık bir bilgelik kurtarma zarı atar. Başarılı bir kurtarma ile yaratık artık hedef tarafından etkilenmez ve çekim ya da iğrenme hissinin büyülü olduğunun ayırdına varır. Ek olarak büyülerden etkilenen bir yaratık büyünün devam ettiği her 24 saat için başka bir bilgelik kurtarma zarı atabilir."
 					]
 				},
-				"A creature that successfully saves against this effect is immune to it for 1 dakika, after which time it can be affected again."
+				"Etkiye karşı başarılı kurtarma atan bir yaratık, 1 dakika boyunca etkiye karşı bağışık olacaktır, ondan sonra tekrar etkilenebilir."
 			],
 			"page": 214,
 			"savingThrow": [
