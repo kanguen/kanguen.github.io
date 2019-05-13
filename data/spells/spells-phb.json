@@ -381,7 +381,7 @@
 			"page": 212
 		},
 		{
-			"name": "Animal Shapes",
+			"name": "Hayvan Biçimleri",
 			"level": 8,
 			"school": "T",
 			"time": [
@@ -421,9 +421,9 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Your magic turns others into beasts. Choose any number of willing creatures that you can see within range. You transform each target into the form of a large or smaller beast with a challenge rating of 4 or lower. On subsequent turns, you can use your actions to transform affected creatures into new forms.",
-				"The transformation lasts for the duration for each target, or until the target drops to 0 hit points or dies. You can choose a different form for each target. A target's game statistics are replaced by the statistics of the chosen beast, though the target retains its alignment and Intelligence, Wisdom, and Charisma scores. The target assumes the hit points of its new form, and when it reverts to its normal form, it returns to the number of hit point it had before it transformed. If it reverts as a result of dropping to 0 hit points, any excess damage carries over to its normal form. As long as the excess damage doesn't reduce the creature's normal form to 0 hit points, it isn't knocked {@condition unconscious}. The creature is limited in the actions it can perform by the nature of its new form, and it can't speak or cast spells.",
-				"The target's gear melds into the new form. The target can't activate, wield, or otherwise benefit from any of its equipment."
+				"Büyün başkalarını hayvanlara döndürür. Menzil dahilinde, görebildiğin ve gönüllü herhangi bir sayıdaki yaratığı seç. Her hedefi challenge ratingi 4 veya daha az, Large veya daha küçük bir hayvanın biçimine dönüştürürsün. Sonraki turlarda etkilenen yaratıkları yeni biçimlere dönüştürmek için eylemlerini kullanabilirsin.",
+				"Dönüşüm her hedef için aynı süre ya da hedef 0 hitpointe düşüp ölene kadar devam eder. Her hedef için değişik bir biçim seçebilirsin. Hedefin oyun istatistikleri seçilen hayvanın istatsitikleri ile değiştirilir, yine de hedef yönelimini, Zeka, Bilgelik ve Karizma puanlarını korur. Hedef yeni biçimin hitpointlerini edinir ve normal biçimine döndüğünde dönüşümden önceki normal hit point miktarına döner. Eğer 0 hitpointe düşme sebebiyle biçimi geri dönerse fazladan hasar normal biçime taşınır. Eğer fazladan hasar normal biçimin hitpointini 0 a düşürmezse, biçim bilincini kaybetmez. Yaratık yeni biçiminin doğası gereği gerçekleştirebileceği eylemlerde sınırlıdır, ve konuşamaz yada büyü yapamaz.",
+				"Hedefin ekipmanı yeni biçimine kaynaşır. Hedef ekipmanını aktive demez, kullanamaz veya başka türlü yarar sağlayamaz."
 			],
 			"page": 212
 		},
@@ -651,7 +651,7 @@
 			]
 		},
 		{
-			"name": "Antilife Shell",
+			"name": "Hayat Karşıtı Kabuk",
 			"level": 5,
 			"school": "A",
 			"time": [
@@ -713,14 +713,14 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"A shimmering barrier extends out from you in a 10-foot radius and moves with you, remaining centered on you and hedging out creatures other than undead and constructs.",
-				"The barrier lasts for the duration. The barrier prevents an affected creature from passing or reaching through. An affected creature can cast spells or make attacks with ranged or reach weapons through the barrier.",
-				"If you move so that an affect creature is forced to pass through the barrier, the spell ends."
+				"Senden 10 foot yarıçapında parıltılı bir bariyer oluşur ve seni merkezleyerek senle birlikte hareket eder ve construct ve undead olmayan yaratıkları itekleyerek uzaklaştırır.",
+				"Bariyer büyü süresince devam eder. Bariyer etkilnenen yaratıkların içinden geçmesine veya içine uzanmasına mani olur. Etkilenen yaratıklar bariyerin içine büyü yapabilir yada menzilli veya uzanımlı silahlarla bariyerden doğru saldırabilir",
+				"Eğer etkilenen bir yaratığı bariyerden geçmeye zorlayacak şekilde hareket edersen büyü sonlanır"
 			],
 			"page": 213
 		},
 		{
-			"name": "Antimagic Field",
+			"name": "Büyü Karşıtı Alan",
 			"level": 8,
 			"school": "A",
 			"time": [
@@ -739,7 +739,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a pinch of powdered iron or iron filings"
+				"m": "bir çimdik demir tozu veya demir talaşı"
 			},
 			"duration": [
 				{
@@ -765,62 +765,62 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"A 10-foot-radius invisible sphere of antimagic surrounds you. This area is divorced from the magical energy that suffuses the multiverse. Within the sphere, spells can't be cast, summoned creatures disappear, and even magic items become mundane. Until the spell ends, the sphere moves with you, centered on you.",
-				"Spells and other magical effects, except those created by an artifact or a deity, are suppressed in the sphere and can't protrude into it. A slot expended to cast a suppressed spell is consumed. While an effect is suppressed, it doesn't function, but the time it spends suppressed counts against its duration.",
+				"10 foot yarıçaplı görünmez bir büyü karşıtı küre etrafını sarar. Bu bölge çokluevreni kaplayan büyülü enerjiden kesilir. Kürenin içinde büyü yapılamaz, celbedilen yaratıklar kaybolur, sihirli büyüler bile bayağılaşır. Büyü bitene kadar küre seninle, seni ortalayarak hareket eder.",
+				"Büyüler ve diğer büyülü etkiler, artifact ve tanrıların sebep oldukları hariç, kürenin içinde baskılanır ve kürenin içine duhul edemez. Baskılanan bir büyüyü yapmak için kullanılan slot tüketilir. Bir etki baskılandığı sürece işlemez, ama baskılandığı zaman büyünün zamanından düşülür.",
 				{
 					"type": "entries",
-					"name": "Targeted Effects",
+					"name": "Hedefli Etkiler",
 					"entries": [
-						"Spells and other magical effects, such as magic missile and charm person, that target a creature or an object in the sphere have no effect on that target."
+						"Kürenin içindeki bir yaratık veya nesneyi hedefleyen Magic missile ve Charm person gibi büyüler ve büyülü etkiler, o hedefi etkilemezler."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Areas of Magic",
+					"name": "Büyülü Alanlar",
 					"entries": [
-						"The area of another spell or magical effect, such as fireball, can't extend into the sphere. If the sphere overlaps an area of magic, the part of the area that is covered by the sphere is suppressed. For example, the flames created by a wall of ateş are suppressed within the sphere, creating a gap in the wall if the overlap is large enough."
+						"Başka bir büyü veya büyülü etkinin alanı, mesela Fireballunki, kürenin içine uzanamaz. Eğer küre büyülü bir alanla örtüşürse, alanın küreyle çakışan kısmı baskılanır. Örneğin Wall of Fireın yarattığı alevler kürenin içinde baskılanır ve kesişim yeteri kadar büyükse duvarda açıklık oluşur"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Spells",
+					"name": "Büyüler",
 					"entries": [
-						"Any active spell or other magical effect on a creature or an object in the sphere is suppressed while the creature or object is in it."
+						"Küre içindeki bir yaratık veya nesnenin üzerindeki herhangi bir büyü veya büyülü etki yaratık veya nesne kürenin içinde olduğu sürece baskılanır"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Magic Items",
+					"name": "Büyülü Eşyalar",
 					"entries": [
-						"The properties and powers of magic items are suppressed in the sphere. For example, a +1 long sword in the sphere functions as a nonmagical long sword. A magic weapon's properties and powers are suppressed if it is used against a target in the sphere or wielded by an attacker in the sphere. If a magic weapon or piece of magic ammunition fully leaves the sphere (For example, if you ateş a magic arrow or throw a magic spear at a target outside the sphere), the magic of the item ceases to be suppressed as soon as it exits."
+						"Küre içinde büyülü eşyaların özellikeri ve güçleri baskılanır. Örnek olarak, +1 long sword küre içinde büyüsüz bir longsword olarak işler. Büyülü bir silahın özellikleri ve güçleri, küre içindeki bir hedefe karşı kullanıldığında veya küre içindeki bir saldıran tarafından kullanıldığında baskılanır. Eğer bir büyülü silah veya büyülü mühimmat küreyi tamamen terkederse (örnek olarak küre dışındaki bir hedefe büyülü ok veya büyülü mızrak atarsan), eşya çıktığı anda büyüsünün baskılanması biter"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Magical Travel",
+					"name": "Büyülü Seyahat",
 					"entries": [
-						"Teleportation and planar travel fail to work in the sphere, whether the sphere is the destination or the departure point for such magical travel. A portal to another location, world, or plane of existence, as well as an opening to an extradimensional space such as that created by the rope trick spells, temporarily closes while in the sphere."
+						"Büyülü seyahatin başlangıç veya bitiş noktası kürede ise, Işınlanma ve boyutsal seyahat gibi büyülü seyahat küre içinde çalışmaz. Başka bir mahal, dünya ve varoluş düzlemine açılan geçitler ve hatta rope trick büyülerinin yarattığı gibi boyutdışı hacimlere giden açıklıklar küre içindeyken geçici olarak kapanır."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Creatures and Objects",
+					"name": "Yaratıklar ve Nesneler",
 					"entries": [
-						"A creature or object summoned or created by magic temporarily winks out of existence in the sphere. Such a creature instantly reappears once the space the creature occupied is no longer within the sphere."
+						"Büyü ile çağırılmış veya yaratılmış bir yaratık ya da nesne kürenin içinde geçici olarak kaybolur. Böyle yaratıklar, yaratığın en son kapladığı alan kürenin içinde kalmadığı durumda aniden yeniden belirir."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Dispel Magic",
 					"entries": [
-						"Spells and magical effects such as dispel magic have no effect on the sphere. Likewise, the spheres created by different antimagic field spells don't nullify each other."
+						"Dispel magic gibi büyüler ve büyülülü etkiler küreye etki etmezler. Benzer şekilde farklı Büyü Karşıtı Alan büyülerinin yarattığı küreler birbirini sıfırlamaz."
 					]
 				}
 			],
 			"page": 213
 		},
 		{
-			"name": "Antipathy/Sympathy",
+			"name": "Antipati/Sempati",
 			"level": 8,
 			"school": "E",
 			"time": [
@@ -839,7 +839,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "either a lump of alum soaked in vinegar for the antipathy effect or a drop of honey for the sympathy effect"
+				"m": "ya antipati etkisi için sirkeyle ıslatılmış bir şap topağı ya da sempatı etkisi için bir damla bal"
 			},
 			"duration": [
 				{
@@ -864,30 +864,30 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"This spell attracts or repels creatures of your choice. You target something within range, either a Huge or smaller object or creature or an area that is no larger than a 200-foot cube. Then specify a kind of intelligent creature, such as red dragons, goblins, or vampires. You invest the target with an aura that either attracts or repels the specified creatures for the duration. Choose antipathy or sympathy as the aura's effect.",
+				"Bu büyü seçtiğin yaratıkları cezbeder veya kovuşturur. Menzil dahlilinde ya Huge veya daha küçük bir nesne yada 200-foot küpten daha büyük olmayan bir hacim hedefle. Daha sonra kırmızı ejderha, goblin veya vampir gibi zeki bir yaratık belirle. Hedefe belirtilen yaratıkları büyü süresi boyunca cezbeden veya kovuşturan bir aura bahşedersin. Auranın etkisi için antipati veya empati seç.",
 				{
 					"type": "entries",
-					"name": "Antipathy",
+					"name": "Antipati",
 					"entries": [
-						"The enchantment causes creatures of the kind you designated to feel an intense urge to leave the area and avoid the target. When such a creature can see the target or comes within 60 feet of it, the creature must succeed on a Wisdom saving throw or become {@condition frightened}. The creature remains {@condition frightened} while it can see the target or is within 60 feet of it. While {@condition frightened} by the target, the creature must use its movement to move to the nearest safe spot from which it can't see the target. If the creature moves more than 60 feet from the target and can't see it, the creature is no longer {@condition frightened}, but the creature becomes {@condition frightened} again if it regains sight of the target or moves within 60 feet of it."
+						"Bu enchantment belirlediğin yaratık cinsinin bölgeyi terkedip hedeften sakınmak için güçlü bir dürtü hissetmesine sebep olur. Eğer böyle bir yaratık hedefi görebilirse veya hedefin 60 feet kadar yakınına gelirse bilgelik kurtarma zarında başarılı olmalıdır yoksa {@condition frightened} olur. Yaratık hedefi görebildiği veya hedefe 60 feetden daha yakın olduğu sürece {@condition frightened} kalır. Hedef sebebiyle {@condition frightened} olan yaratıklar hareketlerini hedefi göremeyecekleri en yakın güvenli noktaya gitmek için kullanmak zorundadır. Eğer yaratık hedeften 60 feetten daha fazla uzaklaşırsa ve göremezse {@condition frightened} durumu sonlanır, ama hedefi yeniden görürse veya 60 feet yakınına giderse yeniden {@condition frightened} olur."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Sympathy",
+					"name": "Sempati",
 					"entries": [
-						"The enchantment causes the specified creatures to feel an intense urge to approach the target while within 60 feet of it or able to see it. When such a creature can see the target or comes within 60 feet of it, the creature must succeed on a Wisdom saving throw or use its movement on each of its turns to enter the area or move within reach of the target. When the creature has done so, it can't willingly move away from the target.",
-						"If the target damages or otherwise harms an affected creature, the affected creature can make a Wisdom saving throw to end the effect, as described below."
+						"Bu enchantment belirlenen yaratıkların hedefin 60 feet yakınındayken veya hedefi görebildikleri zaman hedefe yaklaşmak için güçlü bir dürtü hissetmesine sebep olur. Eğer böyle bir yaratık hedefi görebilirse veya hedefin 60 feet kadar yakınına gelirse bilgelik kurtarma zarında başarılı olmalıdır yoksa her tur hareketini bölgeye girmeye veya hedein ulaşımı dahiline ulaşmaya kullanmalıdır. Eğer yaratık bunu yaparsa hedeften gönüllü olarak uzaklaşamaz.",
+						"eğer hedef etkilenen yaratığa hasar veya başka türlü zarar verirse, etkilenen yaratık aşağıda tasvir edildiği gibi etkiyi bitirmek için bilgelik kurtarma zarı atabilir "
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Ending the Effect",
+					"name": "Etkiyi sonlandırmak",
 					"entries": [
-						"If an affected creature ends its turn while not within 60 feet of the target or able to see it, the creature makes a Wisdom saving throw. On a successful save, the creature is no longer affected by the target and recognizes the feeling of repugnance or attraction as magical. In addition, a creature affected by the spells is allowed another Wisdom saving throw every 24 saat while the spell persists."
+						"Eğer etkilenen bir yaratık turunu hedefin 60 feet yakınında değilken veya hedefi göremezken bitirirse, yaratık bir bilgelik kurtarma zarı atar. Başarılı bir kurtarma ile yaratık artık hedef tarafından etkilenmez ve çekim ya da iğrenme hissinin büyülü olduğunun ayırdına varır. Ek olarak büyülerden etkilenen bir yaratık büyünün devam ettiği her 24 saat için başka bir bilgelik kurtarma zarı atabilir."
 					]
 				},
-				"A creature that successfully saves against this effect is immune to it for 1 dakika, after which time it can be affected again."
+				"Etkiye karşı başarılı kurtarma atan bir yaratık, 1 dakika boyunca etkiye karşı bağışık olacaktır, ondan sonra tekrar etkilenebilir."
 			],
 			"page": 214,
 			"savingThrow": [
@@ -2168,25 +2168,25 @@
 					]
 				},
 				{
-				    "type": "entries",
-				    "name": "Forceful Hand",
-				    "entries": [
+					"type": "entries",
+					"name": "Forceful Hand",
+					"entries": [
 						"The hand attempts to push a creature within 5 feet of it in a direction you choose. Make a check with the hand's Strength contested by the Strength (Athletics) check of the target. If the target is Medium or smaller, you have advantage on the check. If you succeed, the hand pushes the target up to 5 feet plus a number of feet equal to five times your spellcasting ability modifier. The hand moves with the target to remain within 5 feet of it."
-				    ]
+					]
 				},
 				{
-				    "type": "entries",
-				    "name": "Grasping Hand",
-				    "entries": [
+					"type": "entries",
+					"name": "Grasping Hand",
+					"entries": [
 						"The hand attempts to grapple a Huge or smaller creature within 5 feet of it. You use the hand's Strength score to resolve the grapple. If the target is Medium or smaller, you have advantage on the check. While the hand is grappling the target, you can use a bonus eylem to have the hand crush it. When you do so, the target takes ezme damage equal to {@dice 2d6} + your spellcasting ability modifier."
-				    ]
+					]
 				},
 				{
-				    "type": "entries",
-				    "name": "Interposing Hand",
-				    "entries": [
+					"type": "entries",
+					"name": "Interposing Hand",
+					"entries": [
 						"The hand interposes itself between you and a creature you choose until you give the hand a different command. The hand moves to stay between you and the target, providing you with half cover against the target. The target can't move through the hand's space if its Strength score is less than or equal to the hand's Strength score. If its Strength score is higher than the hand's Strength score, the target can move toward you through the hand's space, but that space is difficult terrain for the target."
-				    ]
+					]
 				}
 			],
 			"entriesHigherLevel": [
@@ -15053,7 +15053,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "holy water or powdered silver and iron worth at least 100 gp, which the spell consumes",
+					"text": "Büyünün tüketeceği Kutsal su veya en az 100 gp değerinde tozlaştırılmış gümüş ve demir",
 					"cost": 100,
 					"consume": true
 				}
