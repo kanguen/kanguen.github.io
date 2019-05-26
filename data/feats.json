@@ -1,7 +1,7 @@
 {
 	"feat": [
 		{
-			"name": "Aktör",
+			"name": "Actor (Aktör)",
 			"source": "PHB",
 			"page": 165,
 			"entries": [
@@ -19,7 +19,7 @@
 			}
 		},
 		{
-			"name": "Tetikte",
+			"name": "Alert (Tetikte)",
 			"source": "PHB",
 			"page": 165,
 			"entries": [
@@ -35,7 +35,7 @@
 			]
 		},
 		{
-			"name": "Atlet",
+			"name": "Athlete (Atlet)",
 			"source": "PHB",
 			"page": 165,
 			"entries": [
@@ -62,7 +62,7 @@
 			}
 		},
 		{
-			"name": "Hücumcu",
+			"name": "Charger (Hücumcu)",
 			"source": "PHB",
 			"page": 165,
 			"entries": [
@@ -71,7 +71,7 @@
 			]
 		},
 		{
-			"name": "Arbalet Uzmanı",
+			"name": "Crossbow Expert (Arbalet Uzmanı)",
 			"source": "PHB",
 			"page": 165,
 			"entries": [
@@ -87,7 +87,7 @@
 			]
 		},
 		{
-			"name": "Savunma Düellocusu",
+			"name": "Defensive Duelist (Savunma Düellocusu)",
 			"source": "PHB",
 			"page": 165,
 			"prerequisite": [
@@ -104,7 +104,7 @@
 			]
 		},
 		{
-			"name": "Çift Kuşanan",
+			"name": "Dual Wielder (Çift Kuşanan)",
 			"source": "PHB",
 			"page": 165,
 			"entries": [
@@ -120,7 +120,7 @@
 			]
 		},
 		{
-			"name": "Zindan Araştırmacısı",
+			"name": "Dungeon Delver (Zindan Araştırmacısı)",
 			"source": "PHB",
 			"page": 166,
 			"entries": [
@@ -136,7 +136,7 @@
 			]
 		},
 		{
-			"name": "Sağlam",
+			"name": "Durable (Sağlam)",
 			"source": "PHB",
 			"page": 166,
 			"entries": [
@@ -153,7 +153,7 @@
 			}
 		},
 		{
-			"name": "Elemental Üstadı",
+			"name": "Elemental Adept (Elemental Üstadı)",
 			"source": "PHB",
 			"page": 166,
 			"prerequisite": [
@@ -168,7 +168,7 @@
 			]
 		},
 		{
-			"name": "Boğuşan",
+			"name": "Grappler (Boğuşan)",
 			"source": "PHB",
 			"page": 167,
 			"prerequisite": [
@@ -192,7 +192,7 @@
 			]
 		},
 		{
-			"name": "Büyük Silah Üstadı",
+			"name": "Great Weapon Master (Büyük Silah Üstadı)",
 			"source": "PHB",
 			"page": 167,
 			"entries": [
@@ -207,7 +207,7 @@
 			]
 		},
 		{
-			"name": "Şifacı",
+			"name": "Healer (Şifacı)",
 			"source": "PHB",
 			"page": 167,
 			"entries": [
@@ -222,7 +222,7 @@
 			]
 		},
 		{
-			"name": "Ağır Zırhlı",
+			"name": "Heavily Armored (Ağır Zırhlı)",
 			"source": "PHB",
 			"page": 167,
 			"prerequisite": [
@@ -248,7 +248,7 @@
 			}
 		},
 		{
-			"name": "Ağır Zırh Üstadı",
+			"name": "Heavy Armor Master (Ağır Zırh Üstadı)",
 			"source": "PHB",
 			"page": 167,
 			"prerequisite": [
@@ -274,7 +274,7 @@
 			}
 		},
 		{
-			"name": "İlham Verici Lider",
+			"name": "Inspiring Leader (İlham Verici Lider)",
 			"source": "PHB",
 			"page": 167,
 			"prerequisite": [
@@ -291,7 +291,7 @@
 			]
 		},
 		{
-			"name": "Keskin Zihin",
+			"name": "Keen Mind (Keskin Zihin)",
 			"source": "PHB",
 			"page": 167,
 			"entries": [
@@ -310,7 +310,7 @@
 			}
 		},
 		{
-			"name": "Hafif Zırhlı",
+			"name": "Lightly Armored (Hafif Zırhlı)",
 			"source": "PHB",
 			"page": 167,
 			"entries": [
@@ -335,7 +335,7 @@
 			}
 		},
 		{
-			"name": "Dilbilimci",
+			"name": "Linguist (Dilbilimci)",
 			"source": "PHB",
 			"page": 167,
 			"entries": [
@@ -353,7 +353,7 @@
 			}
 		},
 		{
-			"name": "Şanslı",
+			"name": "Lucky (Şanslı)",
 			"source": "PHB",
 			"page": 167,
 			"entries": [
@@ -364,7 +364,7 @@
 			]
 		},
 		{
-			"name": "Büyücü Avcısı",
+			"name": "Mage Slayer (Büyücü Avcısı)",
 			"source": "PHB",
 			"page": 168,
 			"entries": [
@@ -380,7 +380,7 @@
 			]
 		},
 		{
-			"name": "Büyü Öğrencisi",
+			"name": "Magic Initiate (Büyü Öğrencisi)",
 			"source": "PHB",
 			"page": 168,
 			"entries": [
@@ -390,7 +390,7 @@
 			]
 		},
 		{
-			"name": "Askeri Üstat",
+			"name": "Martial Adept (Askeri Üstat)",
 			"source": "PHB",
 			"page": 168,
 			"entries": [
@@ -405,7 +405,7 @@
 			]
 		},
 		{
-			"name": "Orta Zırh Üstadı",
+			"name": "Medium Armor Master (Orta Zırh Üstadı)",
 			"source": "PHB",
 			"page": 168,
 			"prerequisite": [
@@ -429,7 +429,7 @@
 			]
 		},
 		{
-			"name": "Hareketli",
+			"name": "Mobile (Hareketli)",
 			"source": "PHB",
 			"page": 168,
 			"entries": [
@@ -445,7 +445,7 @@
 			]
 		},
 		{
-			"name": "Orta Zırhlı",
+			"name": "Moderately Armored (Orta Zırhlı)",
 			"source": "PHB",
 			"page": 168,
 			"prerequisite": [
@@ -479,7 +479,7 @@
 			}
 		},
 		{
-			"name": "Binekli Savaşçı",
+			"name": "Mounted Combatant (Binekli Savaşçı)",
 			"source": "PHB",
 			"page": 168,
 			"entries": [
@@ -495,7 +495,7 @@
 			]
 		},
 		{
-			"name": "Gözlemci",
+			"name": "Observant (Gözlemci)",
 			"source": "PHB",
 			"page": 168,
 			"entries": [
@@ -521,7 +521,7 @@
 			}
 		},
 		{
-			"name": "Kargı Üstadı",
+			"name": "Polearm Master (Kargı Üstadı)",
 			"source": "PHB",
 			"page": 168,
 			"entries": [
@@ -536,7 +536,7 @@
 			]
 		},
 		{
-			"name": "Dirençli",
+			"name": "Resilient (Dirençli)",
 			"source": "PHB",
 			"page": 168,
 			"entries": [
@@ -566,7 +566,7 @@
 			}
 		},
 		{
-			"name": "Ritüel Büyü Kullanıcısı",
+			"name": "Ritual Caster (Ritüel Büyü Kullanıcısı)",
 			"source": "PHB",
 			"page": 169,
 			"prerequisite": [
@@ -588,7 +588,7 @@
 			]
 		},
 		{
-			"name": "Acımasız Saldırgan",
+			"name": "Savage Attacker (Acımasız Saldırgan)",
 			"source": "PHB",
 			"page": 169,
 			"entries": [
@@ -596,7 +596,7 @@
 			]
 		},
 		{
-			"name": "Bekçi",
+			"name": "Sentinel (Bekçi)",
 			"source": "PHB",
 			"page": 169,
 			"entries": [
@@ -612,7 +612,7 @@
 			]
 		},
 		{
-			"name": "Keskin Nişancı",
+			"name": "Sharpshooter (Keskin Nişancı)",
 			"source": "PHB",
 			"page": 170,
 			"entries": [
@@ -628,7 +628,7 @@
 			]
 		},
 		{
-			"name": "Kalkan Üstadı",
+			"name": "Shield Master (Kalkan Üstadı)",
 			"source": "PHB",
 			"page": 170,
 			"entries": [
@@ -644,7 +644,7 @@
 			]
 		},
 		{
-			"name": "Becerili",
+			"name": "Skilled (Becerili)",
 			"source": "PHB",
 			"page": 170,
 			"entries": [
@@ -652,7 +652,7 @@
 			]
 		},
 		{
-			"name": "Gizlenme Üstadı",
+			"name": "Skulker (Gizlenme Üstadı)",
 			"source": "PHB",
 			"page": 170,
 			"prerequisite": [
@@ -677,7 +677,7 @@
 			]
 		},
 		{
-			"name": "Büyü Nişancısı",
+			"name": "Spell Sniper (Büyü Nişancısı)",
 			"source": "PHB",
 			"page": 170,
 			"prerequisite": [
@@ -698,7 +698,7 @@
 			]
 		},
 		{
-			"name": "Svirfneblin Büyüsü",
+			"name": "Svirfneblin Magic (Svirfneblin Büyüsü)",
 			"source": "EEPC",
 			"page": 7,
 			"prerequisite": [
@@ -717,7 +717,7 @@
 			]
 		},
 		{
-			"name": "Bar Dövüşçüsü",
+			"name": "Tavern Brawler (Bar Dövüşçüsü)",
 			"source": "PHB",
 			"page": 170,
 			"entries": [
@@ -744,7 +744,7 @@
 			}
 		},
 		{
-			"name": "Çetin",
+			"name": "Tough (Çetin)",
 			"source": "PHB",
 			"page": 170,
 			"entries": [
@@ -752,7 +752,7 @@
 			]
 		},
 		{
-			"name": "Savaş Büyücüsü",
+			"name": "War Caster (Savaş Büyücüsü)",
 			"source": "PHB",
 			"page": 170,
 			"prerequisite": [
@@ -773,7 +773,7 @@
 			]
 		},
 		{
-			"name": "Silah Üstadı",
+			"name": "Weapon Master (Silah Üstadı)",
 			"source": "PHB",
 			"page": 170,
 			"entries": [
@@ -798,7 +798,7 @@
 			}
 		},
 				{
-			"name": "Bol Şans",
+			"name": "Bountiful Luck (Bol Şans)",
 			"prerequisite": [
 				{
 					"race": [
@@ -818,7 +818,7 @@
 			]
 		},
 		{
-			"name": "Ejderha Korkusu",
+			"name": "Dragon Fear (Ejderha Korkusu)",
 			"prerequisite": [
 				{
 					"race": [
@@ -853,7 +853,7 @@
 			}
 		},
 		{
-			"name": "Ejderha Derisi",
+			"name": "Dragon Hide (Ejderha Derisi)",
 			"prerequisite": [
 				{
 					"race": [
@@ -889,7 +889,7 @@
 			}
 		},
 		{
-			"name": "Ulu Drow Büyüsü",
+			"name": "Drow High Magic (Ulu Drow Büyüsü)",
 			"prerequisite": [
 				{
 					"race": [
@@ -907,7 +907,7 @@
 			]
 		},
 		{
-			"name": "Cüce Bünyesi",
+			"name": "Dwarven Fortitude (Cüce Bünyesi)",
 			"prerequisite": [
 				{
 					"race": [
@@ -933,7 +933,7 @@
 			}
 		},
 		{
-			"name": "Elf İsabeti",
+			"name": "Elven Accuracy (Elf İsabeti)",
 			"prerequisite": [
 				{
 					"race": [
@@ -972,7 +972,7 @@
 			}
 		},
 		{
-			"name": "Kaybol",
+			"name": "Fade Away (Kaybol)",
 			"prerequisite": [
 				{
 					"race": [
@@ -1006,7 +1006,7 @@
 			}
 		},
 		{
-			"name": "Fey Işınlanması",
+			"name": "Fey Teleportation (Fey Işınlanması)",
 			"prerequisite": [
 				{
 					"race": [
@@ -1042,7 +1042,7 @@
 			}
 		},
 		{
-			"name": "Phlegethos Alevleri",
+			"name": "Flames of Phlegethos (Phlegethos Alevleri)",
 			"prerequisite": [
 				{
 					"race": [
@@ -1077,7 +1077,7 @@
 			}
 		},
 		{
-			"name": "Infernal Dayanıklılık",
+			"name": "Infernal Constitution (Infernal Dayanıklılık)",
 			"prerequisite": [
 				{
 					"race": [
@@ -1104,7 +1104,7 @@
 			}
 		},
 		{
-			"name": "Orc Öfkesi",
+			"name": "Orcish Fury (Orc Öfkesi)",
 			"prerequisite": [
 				{
 					"race": [
@@ -1139,7 +1139,7 @@
 			}
 		},
 		{
-			"name": "Deha",
+			"name": "Prodigy (Deha)",
 			"prerequisite": [
 				{
 					"race": [
@@ -1169,7 +1169,7 @@
 			]
 		},
 		{
-			"name": "İkinci Şans",
+			"name": "Second Chance (İkinci Şans)",
 			"prerequisite": [
 				{
 					"race": [
@@ -1204,7 +1204,7 @@
 			}
 		},
 		{
-			"name": "Bodur Çevikliği",
+			"name": "Squat Nimbleness (Bodur Çevikliği)",
 			"prerequisite": [
 				{
 					"race": [
@@ -1243,7 +1243,7 @@
 			}
 		},
 		{
-			"name": "Orman Elfi Büyüsü",
+			"name": "Wood Elf Magic (Orman Elfi Büyüsü)",
 			"prerequisite": [
 				{
 					"race": [
