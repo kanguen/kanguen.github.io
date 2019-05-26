@@ -671,11 +671,11 @@ Parser.spRangeToFull = function (range) {
 				case RNG_CONE:
 					return "lik koni"
 				case RNG_RADIUS:
-					return " çapında";
+					return " yarıçapında";
 				case RNG_SPHERE:
-					return " çapında";
+					return " yarıçapında";
 				case RNG_HEMISPHERE:
-					return ` çapında yarımküre`;
+					return ` yarıçapında yarımküre`;
 				default:
 					return ` ${range.type}`
 			}

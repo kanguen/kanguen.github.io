@@ -428,7 +428,7 @@
 			"page": 212
 		},
 		{
-			"name": "Animate Dead",
+			"name": "Animate Dead (Ölüye Can Ver)",
 			"level": 3,
 			"school": "N",
 			"time": [
@@ -447,7 +447,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a drop of blood, a piece of flesh, and a pinch of bone dust"
+				"m": "bir damla kan, bir parça et, ve bir tutam kemik tozu"
 			},
 			"duration": [
 				{
@@ -490,16 +490,16 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"This spell creates an undead servant. Choose a pile of bones or a corpse of a Medium or Small humanoid within range. Your spell imbues the target with a foul mimicry of life, raising it as an undead creature. The target becomes a {@creature skeleton} if you chose bones or a {@creature zombie} if you chose a corpse (the DM has the creature's game statistics).",
-				"On each of your turns, you can use a bonus eylem to mentally command any creature you made with this spell if the creature is within 60 feet of you (if you control multiple creatures, you can command any or all of them at the same time, issuing the same command to each one). You decide what eylem the creature will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands, the creature only defends itself against hostile creatures. Once given an order, the creature continues to follow it until its task is complete.",
-				"The creature is under your control for 24 saat, after which it stops obeying any command you've given it. To maintain the control of the creature for another 24 saat, you must cast this spell on the creature again before the current 24-saat period ends. This use of the spell reasserts your control over up to four creatures you have animated with this spell, rather than animating a new one."
+				"Bu büyü yaşayan ölü bir hizmetkar yaratır. Menzilindeki Orta ya da Küçük boy bir insansının cesedini ya da bir kemik yığınını seç. Büyün hedefi hayatın kötü bir taklidi olabilecek enerji ile bağlar, onu yaşayan ölü bir varlık olarak diriltir. Hedefin, eğer kemik yığını seçtiysen {@creature skeleton}, ceset seçtiysen {@creature zombie} olur (Varlığın istatistiklerine DM sahiptir).",
+				"Her sıranda, bonus eylem kullanarak bu büyü ile yarattığın varlıklara eğer 60 feet yakınındaysa zihinsel komut verebilirsin (Eğer birden çok varlık kontrol ediyorsan, istediğin kadarına ya da hepsine aynı anda komut verebilirsin, her birine aynı komut verilir). Varlığın bir sonraki sırasında hangi eylemi gerçekleştireceğine ve nereye gideceğine karar verirsin, ya da genel bir komut da verebilirsin, belirli bir odayı ya da koridoru korumak gibi. Eğer komut vermezsen, varlık sadece kendini düşman varlıklara karşı savunur. Komut verildiğinde, varlık görev bitene kadar onu yapmaya devam eder.",
+				"Varlık 24 boyunca kontrolün altında kalır, sonrasında verdiğin komutlara uymayı bırakır. Bir 24 saat daha kontrolü devam ettirmek için, mevcut 24 saatlik süreç sona ermeden o varlık üzerinde büyüyü yeniden kullanman gerekir. Büyünün bu şekilde kullanılması yeni bir varlık yaratmaktansa, daha önce yarattığın dörde kadar varlığın üzerinde kontrolü yeniden sağlar."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, you animate or reassert control over two additional undead creatures for each slot above 3rd. Each of the creatures must come from a different corpse or pile of bones."
+						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 3. üzerinde her seviye için fazladan iki yaşayan ölü varlık yaratır ya da kontrolünü sağlarsın. Bu varlıkların her biri farklı bir ceset ya da kemik yığınından gelmelidir."
 					]
 				}
 			],
@@ -1178,7 +1178,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 2. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 1. seviyenin üzerindeki her seviye için fazladan hasar {@dice 1d6} artar."
+						"Bu büyüyü 2. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 1. seviyenin üzerindeki her seviye için hasar {@dice 1d6} artar."
 					]
 				}
 			],
@@ -1430,7 +1430,7 @@
 			]
 		},
 		{
-			"name": "Aura of Vitality",
+			"name": "Aura of Vitality (Sağlık Aurası)",
 			"level": 3,
 			"school": "V",
 			"time": [
@@ -1481,7 +1481,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Healing energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. You can use a bonus eylem to cause one creature in the aura (including you) to regain {@dice 2d6} hit points."
+				"Senin 30 fit çevrene iyileştirici enerji saçılır. Büyü sona erene dek, aura merkezi sen olmak üzere senle hareket eder. Bonus eylem kullanarak auranın içindeki bir varlığa (sen de dahil) {@dice 2d6} HP yenileyebilirsin."
 			],
 			"page": 216
 		},
@@ -1897,7 +1897,7 @@
 			"page": 217
 		},
 		{
-			"name": "Beacon of Hope",
+			"name": "Beacon of Hope (Umut Feneri)",
 			"level": 3,
 			"school": "A",
 			"time": [
@@ -1959,7 +1959,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"This spell bestows hope and vitality. Choose any number of creatures within range. For the duration, each target has advantage on Wisdom saving throws and death saving throws, and regains the maximum number of hit points possible from any healing."
+				"Bu büyü umut ve sağlık verir. Menzilinde istediğin sayıda varlığı seç. Süre boyunca, her hedef Akıl kurtulma zarlarında ve ölüm kurtulma zarlarında avantajlı olur, ve tüm şifa yöntemlerinden alabileceği en yüksek HP yenilemeyi alır."
 			],
 			"page": 217,
 			"savingThrow": [
@@ -2017,7 +2017,7 @@
 			"page": 217
 		},
 		{
-			"name": "Bestow Curse",
+			"name": "Bestow Curse (Lanetle)",
 			"level": 3,
 			"school": "N",
 			"time": [
@@ -2086,24 +2086,24 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You touch a creature, and that creature must succeed on a Wisdom saving throw or become cursed for the duration of the spell. When you cast this spell, choose the nature of the curse from the following options.",
+				"Bir varlığa dokunursun, ve o varlık ya Akıl kurtulma zarında başarılı olur ya da büyü süresi boyunca lanetlenir. Bu büyüyü yaptığında, şu seçeneklerden lanetin tipini seç.",
 				{
 					"type": "list",
 					"items": [
-						"Choose one ability score. While cursed, the target has disadvantage on ability checks and saving throws made with that ability score.",
-						"While cursed, the target has disadvantage on attack rolls against you.",
-						"While cursed, the target must make a Wisdom saving throw at the start of each of its turns. If it fails, it wastes its eylem that turn doing nothing.",
-						"While the target is cursed, your attacks and spells deal an extra {@dice 1d8} nekrotik damage to the target."
+						"Bir yetenek skoru seç. Lanetliyken hedef o yetenek ile atılan tüm yetenek ve kurtulma zarlarında dezavantajlı olur.",
+						"Lanetliyken, hedef sana karşı yapacağı saldırılarda dezavantajlı olur.",
+						"Lanetliyken, hedef her sırasının başında Akıl kurtulma zarı atar. Eğer başarısız olursa, o sıra eylemini hiçbir şey için kullanmaz ve boşa geçirir.",
+						"Hedef lanetliyken, senin saldırıların ve büyülerin hedefe fazladan {@dice 1d8} nekrotik hasar verir."
 					]
 				},
-				"A remove curse spell ends this effect. At the DM's option, you may choose an alternative curse effect, but it should be no more powerful than those described above. The DM has final say on such a curse's effect."
+				"Bir laneti kaldır büyüsü bu etkiyi sonlandırır. DM'e bağlı olarak, alternatif bir lanet etkisi seçilebilir ama yukarıda verilenlerden daha güçlü olmamalıdır. Bu tip bir etkinin üzerinde son söz DM'in olur."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"If you cast this spell using a spell slot of 4th level or higher, the duration is concentration, up to 10 dakika. If you use a spell slot of 5th level or higher, the duration is 8 saat. If you use a spell slot of 7th level or higher, the duration is 24 saat. If you use a 9th level spell slot, the spell lasts until it is dispelled. Using a spell slot of 5th level or higher grants a duration that doesn't require concentration."
+						"Eğer bu büyüyü 4. seviye ve üzeri bir yuva harcayarak kullanırsan, süresi 10 dakikaya kadar konsantrasyon olur. Eğer 5. seviye ve üzeri harcayıp kullanırsan, süre 8 saat olur. 7. seviye ve üzeri harcayıp kullanırsan bu süre 24 saate çıkar. Eğer 9. seviye harcarsan, büyü defedilene dek sürer. 5. seviye ve üzeri bir yuva kullanılması konsantrasyon gerektirmeyen bir süre verir."
 					]
 				}
 			],
@@ -2513,7 +2513,7 @@
 			]
 		},
 		{
-			"name": "Blinding Smite",
+			"name": "Blinding Smite (Kör Eden Çarpma)",
 			"level": 3,
 			"school": "V",
 			"time": [
@@ -2551,8 +2551,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"The next time you hit a creature with a melee weapon attack during this spell's duration, you weapon flares with a bright light, and the attack deals an extra {@dice 3d8} radyant damage to the target. Additionally, the target must succeed on a Constitution saving throw or be {@condition blinded} until the spell ends.",
-				"A creature {@condition blinded} by this spell makes another Constitution saving throw at the end of each of its turns. On a successful save, it is no longer {@condition blinded}."
+				"Bu büyü süresince yakın dövüş silahı saldırısı ile bir varlığa ilk vuruşunda, silahın göz alıcı bir ışık ile parlar ve saldırı hedefe fazladan {@dice 3d8} radyant hasar verir. Ek olarak, hedef Dayanıklılık kurtulma zarı atar ya da büyü sonuna kadar {@condition körlük} etkisinde olur.",
+				"Bu büyü tarafından {@condition körlük} etkisinde olan bir varlık her sırasının sonunda Dayanıklılık kurtulma zarını tekrarlar. Başarılı olursa {@condition körlük} etkisi sonlanır."
 			],
 			"page": 219,
 			"damageInflict": [
@@ -2662,7 +2662,7 @@
 			]
 		},
 		{
-			"name": "Blink",
+			"name": "Blink (Yansön)",
 			"level": 3,
 			"school": "T",
 			"time": [
@@ -2736,8 +2736,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Roll a {@dice d20} at the end of each of your turns for the duration of the spell. On a roll of 11 or higher, you vanish from your current plane of existence and appear in the Ethereal Plane (the spell fails and the casting is wasted if you were already on that plane). At the start of you next turn, and when the spell ends if you are on the Ethereal Plane, you return to an unoccupied space of your choice that you can see within 10 feet of the space you vanished from. If no unoccupied space is available within that range, you appear in the nearest unoccupied space (chosen at random if more than one space is equally near). You can dismiss this spell as an eylem.",
-				"While on the Ethereal Plane, you can see and hear the plane you originated from, which is cast in shades of gray, and you can't see anything more than 60 feet away. You can only affect and be affected by other creatures on the Ethereal Plane. Creature that aren't there can't perceive you or interact with you, unless they have the ability to do so."
+				"Büyü süresince her sıranın sonunda bir {@dice d20} at. 11 ve üzeri gelen zarlarda, o an bulunduğun boyuttan ayrılır ve Ethereal boyuta geçersin (zaten o boyuttaysan büyü başarısız olur ve o kullanım harcanır). Bir sonraki sıranın başında ya da Ethereal boyutta iken büyü bittiğinde, kaybolduğun yerin 10 fit yakınında görebildiğin boş bir alana geri dönersin. Eğer o mesafede uygun bir alan yoksa, uygun olabilecek en yakın alanda belirirsin (eğer aynı mesafede birden çok yer varsa rastgele seçilir). Eylem olarak büyüyü sonlandırabilirsin.",
+				"Ethereal boyuttayken çıktığın boyutu görüp duyabilirsin, herşey gri tonlarında olur ve 60 fit ötesinde hiçbir şey görünmez. Sadece Ethereal boyutta olan diğer varlıklar ile etkileşime geçebilirsin. Orada olmayan varlıklar eğer buna elverişli özel yetenekleri yoksa seni algılayamaz ya da etkileşime geçemez."
 			],
 			"page": 219
 		},
@@ -2869,7 +2869,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 3. seviye ya da üzeri bir büyü yuvası harcayarak kullandığında, 2. sonrasında her seviye için fazladan hasar {@dice 1d6} artar."
+						"Bu büyüyü 3. seviye ya da üzeri bir büyü yuvası harcayarak kullandığında, 2. sonrasında her seviye için hasar {@dice 1d6} artar."
 					]
 				}
 			],
@@ -2948,7 +2948,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 2. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 1. seviyenin üzerindeki her seviye için fazladan hasar {@dice 1d6} artar."
+						"Bu büyüyü 2. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 1. seviyenin üzerindeki her seviye için hasar {@dice 1d6} artar."
 					]
 				}
 			],
@@ -2961,7 +2961,7 @@
 			]
 		},
 		{
-			"name": "Call Lightning",
+			"name": "Call Lightning (Yıldırım Çağır)",
 			"level": 3,
 			"school": "C",
 			"time": [
@@ -3024,16 +3024,16 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"A storm cloud appears in the shape of a cylinder that is 10 feet tall with a 60-foot radius, centered on a point you can see 100 feet directly above you. The spell fails if you can't see a point in the air where the storm cloud could appear (for example, if you are in a room that can't accommodate the cloud).",
-				"When you cast the spell, choose a point you can see within range. A bolt of yıldırım flashes down from the cloud to that point. Each creature within 5 feet of that point must make a Dexterity saving throw. A creature takes {@dice 3d10} yıldırım damage on a failed save, or half as much damage on a successful one. On each of your turns until the spell ends, you can use your eylem to call down yıldırım in this way again, targeting the same point or a different one.",
-				"If you are outdoors in stormy conditions when you cast this spell, the spell gives you control over the existing storm instead of creating a new one. Under such conditions, the spell's damage increases by {@dice 1d10}."
+				"Tam 100 fit üzerinde görebildiğin bir nokta merkezli, 60 fit yarıçaplı ve 10 fit yükseklikte bir silindir fırtına bulutu yaratırsın. Eğer havada bu bulutun oluşabileceği bir nokta göremiyorsan büyü başarısız olur (örneğin, bu bulutun sığmayacağı bir odada olman).",
+				"Büyüyü yaptığında menzilinde görebildiğin bir nokta seç. Bulutlardan o noktaya bir yıldırım düşer. O noktanın 5 fit yakınında bulunan tüm varlıklar Çeviklik kurtulma zarı atar. Başarısız olan bir varlık {@dice 3d10} yıldırım hasarı alır, başarılı olursa bunun yarısını. Büyü bitene kadar her sıranda eylemini kullanarak bu şekilde bir yıldırım daha çağırabilirsin, aynı ya da farklı bir nokta hedef alınabilir.",
+				"Eğer bu büyüyü yaptığında fırtınalı bir havada dışarıdaysan, büyü yenisini yaratmaktansa sana varolan fırtınanın kontrolünü verir. Bu koşullarda büyünün hasarı {@dice 1d10} artar."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında level, the damage increases by {@dice 1d10} for each slot level above 3rd."
+						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 3. üzeri her seviye için hasar {@dice 1d10} artar."
 					]
 				}
 			],
@@ -3513,7 +3513,7 @@
 			"page": 221
 		},
 		{
-			"name": "Clairvoyance",
+			"name": "Clairvoyance (Duru Görü)",
 			"level": 3,
 			"school": "D",
 			"time": [
@@ -3533,7 +3533,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a focus worth at least 100 gp, either a jeweled horn for hearing or a glass eye for scrying",
+					"text": "en az 100 gp değerinde bir odak, ya duymak için cevherli bir boynuz ya da görmek için cam bir göz",
 					"cost": 100
 				}
 			},
@@ -3581,9 +3581,9 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You create an invisible sensor within range in a location familiar to you (a place you have visited or seen before) or in an obvious location that is unfamiliar to you (such as behind a door, around a corner, or in a grove of trees). The sensor remains in place for the duration, and it can't be attacked or otherwise interacted with.",
-				"When you cast the spell, you choose seeing or hearing. You can use the chosen sense through the sensor as if you were in its space. As your eylem, you can switch between seeing and hearing.",
-				"A creature that can see the sensor (such as a creature benefiting from see invisibility or truesight) sees a luminous, intangible orb about the size of your fist."
+				"Menzilinde bildiğin bir yerde (daha önce gördüğün) ya da bilmediğin ama bariz bir yerde (kapının arkası, köşenin ardı, korunun içi gibi) görünmez bir sensör yaratırsın. Bu sensör süre boyunca orada kalır ve saldırılamaz ya da etkileşime geçilemez.",
+				"Büyüyü yaptığında görmeyi ya da duymayı seçersin. Sanki o sensörün yerindeymişçesine seçilen duyu ile algılayabilirsin. Eylem olarak görme ve duyma arası geçiş yapabilirsin.",
+				"Sensörü görebilen bir varlık (see invisibility (görünmezi gör) büyüsünden ya da truesight (safgörü) duyusundan faydalanma gibi), bir yumruk boyutunda parlak ve soyut bir küre görür."
 			],
 			"page": 222
 		},
@@ -4551,7 +4551,7 @@
 			]
 		},
 		{
-			"name": "Conjure Animals",
+			"name": "Conjure Animals (Hayvan Yarat)",
 			"level": 3,
 			"school": "C",
 			"time": [
@@ -4595,32 +4595,32 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You summon fey spirits that take the form of beasts and appear in unoccupied spaces that you can see within range. Choose one of the following options for what appears.",
+				"Hayvan şeklini alan fey ruhları çağırırsın ve bunlar menzilinde görebildiğin boş alanlarda belirirler. Ne çağıracağını belirlemek için şu seçeneklerden birini seç.",
 				{
 					"type": "list",
 					"items": [
-						"One beast of challenge rating 2 or lower",
-						"Two beasts of challenge rating 1 or lower",
-						"Four beasts of challenge rating 1/2 or lower",
-						"Eight beasts of challenge rating 1/4 or lower"
+						"CR 2 ya da altında bir hayvan",
+						"CR 1 ya da altında iki hayvan",
+						"CR 1/2 ya da altında dört hayvan",
+						"CR 1/4 ya da altında sekiz hayvan"
 					]
 				},
-				"Each beast is also considered fey, and it disappears when it drops to 0 hit points or when the spell ends.",
-				"The summoned creatures are friendly to you and your companions. Roll initiative for the summoned creatures as a group, which has its own turns. They obey any verbal commands that you issue to them (no eylem required by you). If you don't issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions. The DM has the creatures' statistics."
+				"Her hayvan fey sayılır ve 0 HP'ye düştüğünde ya da büyü sona erdiğinde kaybolur.",
+				"Yaratılan varlıklar sana ve yoldaşlarına dosttur. Yaratılan varlıklar için grup olarak öncelik zarı at, onların kendi sıraları olur. Onlara verdiğin tüm sesli komutlara uyarlar (senin tarafında eylem harcama gerektirmez). Eğer bir komut vermezsen kendilerini düşman varlıklardan korurlar ama başka eylem gerçekleştirmezler. Varlıkların istatistiklerine DM sahiptir."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using certain higher-level spell slots, you choose one of the summoning options above, and more creatures appear: twice as many with a 5th-level slot, three times as many with a 7th-level slot, and four times as many with a 9th-level slot."
+						"Bu büyüyü daha yüksek büyü yuvaları harcayarak kullandığında, yukarıdaki seçeneklerden birini seçersin ve daha fazla varlık yaratılır: 5. seviye bir yuva ile iki katı varlık, 7. seviye bir yuva ile üç katı, ve 9. seviye bir yuva ile dört katı."
 					]
 				}
 			],
 			"page": 225
 		},
 		{
-			"name": "Conjure Barrage",
+			"name": "Conjure Barrage (Yaylım Ateşi Yarat)",
 			"level": 3,
 			"school": "C",
 			"time": [
@@ -4639,7 +4639,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "one piece of ammunition or a thrown weapon"
+				"m": "bir tane misil ya da bir fırlatmalık silah"
 			},
 			"duration": [
 				{
@@ -4656,7 +4656,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You throw a nonmagical weapon or ateş a piece of nonmagical ammunition into the air to create a cone of identical weapons that shoot forward and then disappear. Each creature in a 60-foot cone must succeed on a Dexterity saving throw. A creature takes {@dice 3d8} damage on a failed save, or half as much damage on a successful one. The damage type is the same as that of the weapon or ammunition used as a component."
+				"Havaya büyüsüz bir silahı fırlatırsın ya da büyüsüz bir misili silahından atarsın, bu misil ya da silah havada iken kendisinin kopyalarından oluşan bir koniye dönüşür ileri doğru fırlar ve ortadan kaybolur. 60 fitlik bir konideki tüm varlıklar Çeviklik kurtulma zarı atar. Başarısız olan bir varlık {@dice 3d8} hasar alır, başarılı olursa bunun yarısını. Hasar tipi büyüyü yaparken kullanılan silah ya da misilin tipindedir."
 			],
 			"page": 225,
 			"savingThrow": [
@@ -5644,14 +5644,14 @@
 			]
 		},
 		{
-			"name": "Counterspell",
+			"name": "Counterspell (Karşıbüyü)",
 			"level": 3,
 			"school": "A",
 			"time": [
 				{
 					"number": 1,
 					"unit": "reaksiyon",
-					"condition": "which you take when you see a creature within 60 feet of you casting a spell"
+					"condition": "60 fit yakınında görebildiğin bir varlık büyü yaparken kullanabilirsin"
 				}
 			],
 			"range": {
@@ -5699,21 +5699,21 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You attempt to interrupt a creature in the process of casting a spell. If the creature is casting a spell of 3rd level or lower, its spell fails and has no effect. If it is casting a spell of 4th level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a success, the creature's spell fails and has no effect."
+				"Büyü yapma sürecinde olan bir varlığı engellemeye çalışırsın. Eğer varlık 3. seviye ya da altında bir büyü yapıyorsa, büyü başarısız olur ve hiçbir etki göstermez. Eğer 4. seviye ve üzeri bir büyü kullanıyorsa, büyü yapma yeteneğini kullanarak bir yetenek zarı at. Zorluk DC'si 10 + büyünün seviyesine eşittir. Başarılı olursa, hedef varlığın büyüsü başarısız olur ve hiçbir etki göstermez."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the interrupted spell has no effect if its level is less than or equal to the level of the spell slot you used."
+						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, eğer engellemeye çalıştığın büyü seviyesi harcadığın yuvanın seviyesine eşitse ya da altındaysa doğrudan başarısız olur ve hiçbir etki göstermez."
 					]
 				}
 			],
 			"page": 228
 		},
 		{
-			"name": "Create Food and Water",
+			"name": "Create Food and Water (Yemek ve Su Yarat)",
 			"level": 3,
 			"school": "C",
 			"time": [
@@ -5765,7 +5765,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You create 45 pounds of food and 30 gallons of water on the ground or in containers within range, enough to sustain up to fifteen humanoids or five steeds for 24 saat. The food is bland but nourishing, and spoils if uneaten after 24 saat. The water is clean and doesn't go bad."
+				"Menzilindeki kaplarda ya da yerde 45 paund yemek ve 30 galon su yaratırsın, bu 15 insansıya ya da beş bineğe 24 saat yetecek miktardır. Yemek tatsız ama besleyicidir ve 24 saat içinde yenmezse bozulur. Su temizdir ve bozulmaz."
 			],
 			"page": 229
 		},
@@ -6073,7 +6073,7 @@
 			]
 		},
 		{
-			"name": "Crusader's Mantle",
+			"name": "Crusader's Mantle (Mücadelecinin Örtüsü)",
 			"level": 3,
 			"school": "V",
 			"time": [
@@ -6123,7 +6123,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Holy power radiates from you in an aura with a 30-foot radius, awakening boldness in friendly creatures. Until the spell ends, the aura moves with you, centered on you. While in the aura, each non-hostile creature in the aura (including you) deals an extra {@dice 1d4} radyant damage when it hits with a weapon attack."
+				"30 fit çevrene bir aura şeklinde kutsal güç saçılır ve dost varlıklarda cesaret uyandırır. Büyü sona erene dek aura seni merkez alır ve senle hareket eder. Bu aura içerisinde iken tüm düşman olmayan varlıklar (sen dahil), yaptığı silahlı saldırılarda fazladan {@dice 1d4} radyant hasar verir."
 			],
 			"page": 230,
 			"damageInflict": [
@@ -6416,7 +6416,7 @@
 			"page": 230
 		},
 		{
-			"name": "Daylight",
+			"name": "Daylight (Günışığı)",
 			"level": 3,
 			"school": "V",
 			"time": [
@@ -6504,9 +6504,9 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"A 60-foot-radius sphere of light spreads out from a point you choose within range. The sphere is bright light and sheds dim light for an additional 60 feet.",
-				"If you chose a point on an object you are holding or one that isn't being worn or carried, the light shines from the object with and moves with it. Completely covering the affected object with an opaque object, such as a bowl or a helm, blocks the light.",
-				"If any of this spell's area overlaps with an area of darkness created by a spell of 3nd level or lower, the spell that created the darkness is dispelled."
+				"Menzilinde seçeceğin bir noktadan 60 fit yarıçaplı bir ışık küresi saçılır. Küre parlak ışıktır ve 60 fit daha loş ışık saçar.",
+				"Eğer senin tuttuğun ya da tutulmayan ve giyilmeyen bir nesne üzerinde nokta seçersen, ışık o nesneden saçılır ve nesne ile hareket eder. Etkilenen nesneyi opak bir nesne (kase ya da miğfer gibi) ile tamamen kaplamak bu ışığın çıkışını engeller.",
+				"Eğer bu büyünün alanı 3. seviye ve altı bir büyünün yarattığı karanlık ile örtüşürse, karanlığı yaratan büyü defedilir."
 			],
 			"page": 230
 		},
@@ -7328,7 +7328,7 @@
 			]
 		},
 		{
-			"name": "Dispel Magic",
+			"name": "Dispel Magic (Büyü Defet)",
 			"level": 3,
 			"school": "A",
 			"time": [
@@ -7419,14 +7419,14 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Choose any creature, object, or magical effect within range. Any spell of 3rd level or lower on the target ends. For each spell of 4th level or higher on the target, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a successful check, the spell ends."
+				"Menzilindeki herhangi bir varlığı, nesneyi ya da büyülü etkiyi seç. Hedefin üzerindeki 3. seviye ve altı tüm büyüler sonlanır. Hedefteki her 4. seviye ve üzeri büyü için, büyü yapma yeteneğini kullanarak yetenek zarı at. Zorluk DC'si 10 + büyü seviyesine eşittir. Başarılı olursa büyü sonlanır."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, you automatically end the effects of a spell on the target if the spell's level is equal to or less than the level of the spell slot you used."
+						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, hedefin üzerindeki büyü eğer harcadığın yuvanın seviyesine eşitse ya da altındaysa doğrudan sonlanır."
 					]
 				}
 			],
@@ -8266,7 +8266,7 @@
 			]
 		},
 		{
-			"name": "Elemental Weapon",
+			"name": "Elemental Weapon (Elemental Silah)",
 			"level": 3,
 			"school": "T",
 			"time": [
@@ -8327,14 +8327,14 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"A nonmagical weapon you touch becomes a magic weapon. Choose one of the following damage types: asit, soğuk, ateş, yıldırım, or ses. For the duration, the weapon has a +1 bonus to attack rolls and deals an extra {@dice 1d4} damage of the chosen type when it hits."
+				"Dokunduğun büyüsüz bir silah büyülü olur. Şu hasar tiplerinden birini seç: asit, soğuk, ateş, yıldırım, ya da ses. Süre boyunca silahın saldırı zarlarına +1 bonusu olur ve seçtiğin hasar tipinde fazladan {@dice 1d4} hasar verir."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 5th or 6th level, the bonus to attack rolls increases to +2 and the extra damage increases to {@dice 2d4}. When you use a spell slot of 7th level or higher, the bonus increases to +3 and the extra damage increases to {@dice 3d4}."
+						"Bu büyüyü 5. ya da 6. seviye bir yuva harcayarak kullandığında, saldırı zarlarına bonus +2'ye çıkar ve fazladan hasar {@dice 2d4} olur. 7. seviye ve üzeri bir yuva harcandığında, saldırı bonusu +3'e çıkar ve fazladan hasar {@dice 3d4} olur."
 					]
 				}
 			],
@@ -9186,7 +9186,7 @@
 			"page": 239
 		},
 		{
-			"name": "Fear",
+			"name": "Fear (Korku)",
 			"level": 3,
 			"school": "I",
 			"time": [
@@ -9205,7 +9205,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a white feather or the heart of a hen"
+				"m": "beyaz bir tüy ya da tavuk kalbi"
 			},
 			"duration": [
 				{
@@ -9261,8 +9261,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You project a phantasmal image of a creature's worst fears. Each creature in a 30-foot cone must succeed on a Wisdom saving throw or drop whatever it is holding and become {@condition frightened} for the duration.",
-				"While {@condition frightened} by this spell, a creature must take the Dash eylem and move away from you by the safest available route on each of its turns, unless there is nowhere to move. If the creature ends its turn in a location where it doesn't have line of sight to you, the creature can make a Wisdom saving throw. On a successful save, the spell ends for that creature."
+				"Varlığın en büyük korkularının hayali bir görüntüsünü yansıtırsın. 30 fit konideki her varlık Akıl kurtulma zarı atar ya da tuttuğu şeyi bırakıp süre boyunca {@condition korkma} etkisi altında olur.",
+				"Bu büyü ile {@condition korkma} etkisinde iken, bir varlık her sırasında eğer kaçacak yeri varsa Depar eylemini kullanıp en güvenli yoldan senden kaçmaya çalışır. Eğer varlık sırasını seni göremeyeceği bir yerde bitirirse Akıl kurtulma zarı atabilir. Başarılı olursa o varlık için büyü sonlanır."
 			],
 			"page": 239,
 			"savingThrow": [
@@ -9385,7 +9385,7 @@
 			]
 		},
 		{
-			"name": "Feign Death",
+			"name": "Feign Death (Ölüm Taklidi)",
 			"level": 3,
 			"school": "N",
 			"time": [
@@ -9403,7 +9403,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a pinch of graveyard dirt"
+				"m": "bir tutam mezarlık toprağı"
 			},
 			"duration": [
 				{
@@ -9451,8 +9451,8 @@
 				"ritual": true
 			},
 			"entries": [
-				"You touch a willing creature and put it into a cataleptic state that is indistinguishable from death.",
-				"For the spell's duration, or until you use an eylem to touch the target and dismiss the spell, the target appears dead to all outward inspection and to spells used to determine the target's status. The target is {@condition blinded} and {@condition incapacitated}, and its speed drops to 0. The target has resistance to all damage except psişik damage. If the target is diseased or {@condition poisoned} when you cast the spell, or becomes diseased or {@condition poisoned} while under the spell's effect, the disease and zehir have no effect until the spell ends."
+				"İstekli bir varlığa dokunup onu ölümden farksız bir kataleptik duruma sokarsın.",
+				"Büyü süresince ya da eylemini kullanıp hedefe dokunarak büyüyü sonlandırana dek, hedef tüm dış incelemelere ve durumunu tespit etmek için kullanılan büyülere karşı ölü görünür. Hedef {@condition körlük} ve {@condition etkisiz hal} durumları altındadır ve hızı sıfıra iner. Hedefin psişik hasar dışında tüm hasarlara direnci olur. Eğer büyü yapıldığında hedef hastalıklıysa ya da {@condition zehirlenme} etkisinde ise, veya büyü etkisi altındayken hastalanırsa ya da {@condition zehirlenme} etkisine girerse, bu durumlar büyü sonlanana kadar hiçbir etki göstermez."
 			],
 			"page": 240,
 			"damageInflict": [
@@ -9888,7 +9888,7 @@
 			]
 		},
 		{
-			"name": "Fireball",
+			"name": "Fireball (Alevtopu)",
 			"level": 3,
 			"school": "V",
 			"time": [
@@ -9907,7 +9907,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a tiny ball of bat guano and sulfur"
+				"m": "küçük bir yarasa guanosu ve kükürt topu"
 			},
 			"duration": [
 				{
@@ -9950,15 +9950,15 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"A bright streak flashes from your pointing finger to a point you choose within range then blossoms with a low roar into an explosion of flame. Each creature in a 20-foot radius must make a Dexterity saving throw. A target takes {@dice 8d6} ateş damage on a failed save, or half as much damage on a successful one.",
-				"The ateş spreads around corners. It ignites flammable objects in the area that aren't being worn or carried."
+				"Menzilinde seçtiğin bir noktaya doğru parmağından parlak bir ışın çıkar ve hafif bir gürleme ile bir alev patlamasına dönüşür. 20 fitlik yarıçaptaki tüm varlıklar Çeviklik kurtulma zarı atar. Başarısız bir hedef {@dice 8d6} ateş hasarı alır, başarılı olan bunun yarısını.",
+				"Ateş köşelerin ardına yayılır. Alandaki taşınmayan ve giyilmeyen yanıcı maddeleri alev alır."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the damage increases by {@dice 1d6} for each slot level above 3rd."
+						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 3. üzeri her seviye için hasar {@dice 1d6} artar."
 					]
 				}
 			],
@@ -10284,7 +10284,7 @@
 			]
 		},
 		{
-			"name": "Fly",
+			"name": "Fly (Uç)",
 			"level": 3,
 			"school": "T",
 			"time": [
@@ -10302,7 +10302,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a wing feather from any bird"
+				"m": "herhangi bir kuştan kanat tüyü"
 			},
 			"duration": [
 				{
@@ -10332,14 +10332,14 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You touch a willing creature. The target gains a flying speed of 60 feet for the duration. When the spell ends, the target falls if it is still aloft, unless it can stop the fall."
+				"İstekli bir varlığa dokunursun. Hedef süre boyunca 60 fit uçma hızı kazanır. Büyü sonlandığında hedef hala havadaysa, eğer bunu bir şekilde durduramazsa düşer."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, you can target one additional creature for each slot level above 3rd."
+						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 3. üzerinde her seviye için fazladan bir varlık hedef alabilirsin."
 					]
 				}
 			],
@@ -10792,7 +10792,7 @@
 			"page": 244
 		},
 		{
-			"name": "Gaseous Form",
+			"name": "Gaseous Form (Gaz Formu)",
 			"level": 3,
 			"school": "T",
 			"time": [
@@ -10810,7 +10810,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a bit of gauze and a wisp of smoke"
+				"m": "biraz tülbent ve duman"
 			},
 			"duration": [
 				{
@@ -10853,9 +10853,9 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You transform a willing creature you touch, along with everything it's wearing and carrying, into a misty cloud for the duration. The spell ends if the creature drops to 0 hit points. An incorporeal creature isn't affected.",
-				"While in this form, the target's only method of movement is a flying speed of 10 feet. The target can enter and occupy the space of another creature. The target has resistance to nonmagical damage, and it has advantage on Strength, Dexterity, and Constitution saving throws. The target can pass through small holes, narrow openings, and even mere cracks, though it treats liquids as though they were solid surfaces. The target can't fall and remains hovering in the air even when {@condition stunned} or otherwise {@condition incapacitated}.",
-				"While in the form of a misty cloud, the target can't talk or manipulate objects, and any objects it was carrying or holding can't be dropped, used, or otherwise interacted with. The target can't attack or cast spells."
+				"Dokunduğun istekli bir varlığı süre boyunca, giydiği ve taşıdığı herşeyle birlikte bir sis bulutuna çevirirsin. Eğer varlık 0 HP'ye düşerse büyü sonlanır. Cisimsiz bir varlık bu büyüden etkilenmez.",
+				"Bu formdayken hedefin tek hareket şekli 10 fitlik uçma hızıdır. Hedef başka bir varlığın alanına girip orada kalabilir. Hedefin büyülü olmayan hasara direnci olur ve Kuvvet, Çeviklik ve Dayanıklılık kurtulma zarlarında avantajlıdır. Hedef küçük delikler, dar açıklıklar ve ince çatlaklardan bile geçebilir ama sıvı yüzeyler onun için katı sayılır. Hedef düşemez ve {@condition sersemleme} ya da başka bir yolla {@condition etkisiz hal} durumlarına düştüğünde bile havada kalır.",
+				"Sis bulutu halindeyken hedef konuşamaz ya da nesneleri kullanamaz, ve dönüşmeden önce tuttuğu ya da taşıdığı hiçbir nesne bırakılamaz, kullanılamaz ya da başka bir şekilde etkileşime geçilemez. Hedef saldıramaz ya da büyü yapamaz."
 			],
 			"page": 244,
 			"savingThrow": [
@@ -11229,7 +11229,7 @@
 			"page": 245
 		},
 		{
-			"name": "Glyph of Warding",
+			"name": "Glyph of Warding (Koruma Glifi)",
 			"level": 3,
 			"school": "A",
 			"time": [
@@ -11248,7 +11248,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "incense and powdered diamond worth at least 200 gp, which the spell consumes",
+					"text": "en az 200gp değerinde tütsü ve elmas tozu, büyü bunu tüketir",
 					"cost": 200,
 					"consume": true
 				}
@@ -11280,23 +11280,23 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"When you cast this spell, you inscribe a glyph that affects other creatures, either upon a surface (such as a table or a section of floor or wall) or within an object that can be closed (such as a book, a scroll, or a treasure chest) to conceal the glyph. The glyph can cover an area no larger than 10 feet in diameter. If the surface or object is moved more than 10 feet from where you cast this spell, the glyph is broken, and the spell ends without being triggered.",
-				"The glyph is nearly invisible and requires a successful Intelligence (Investigation) check against your spell save DC to be found.",
-				"You decide what triggers the glyph when you cast the spell. For glyphs inscribed on a surface, the most typical triggers include touching or standing on the glyph, removing another object covering the glyph, approaching within a certain distance of the glyph, or manipulating the object on which the glyph is inscribed. For glyphs inscribed within an object, the most common triggers include opening that object, approaching within a certain distance of the object, or seeing or reading the glyph. Once a glyph is triggered, this spell ends.",
-				"You can further refine the trigger so the spell activates only under certain circumstances or according to physical characteristics (such as height or weight), creature kind (for example, the ward could be set to affect aberrations or drow), or alignment. You can also set conditions for creatures that don't trigger the glyph, such as those who say a certain password.",
-				"When you inscribe the glyph, choose explosive runes or a spell glyph.",
+				"Bu büyüyü kullandığında diğer varlıkları etkileyen bir glifi seçeceğin bir alana kazırsın. Bu alan ya bir yüzeydir (bir masa ya da duvar gibi) ya da gizleyebilmek için kapanabilen bir nesnenin (kitap, tomar ya da bir sandık gibi) içi olabilir. Glif çapı 10 fitten geniş bir alanı kaplayamaz. Eğer yüzey ya da nesne büyüyü yaptığın yerden 10 fitten fazla uzaklaştırılırsa, glif bozulur ve büyü tetiklenmeden sona erer.",
+				"Glif neredeyse görünmezdir ve senin büyü DC'ne karşı atılacak bir Zeka (İnceleme) zarı ile tespit edilebilir.",
+				"Büyüyü yaparken glifi neyin tetiklediğini belirlersin. Yüzeye kazınan glifler için en tipik tetikleyiciler dokunma ya da üzerinde durma, glifi kapatan başka bir nesneyi hareket ettirme, glifin belirli bir mesafesine girme, ya da üzerine glif kazınmış olan nesneyi kullanmadır. Bir nesne içine kazınmış olan gliflerde en yaygın tetikleyiciler o nesneyi açma, nesnenin belirli bir mesafesine girme ve glifi görme ya da okumadır. Bir glif tetiklendiğinde büyü sona erer.",
+				"Bu tetikleyiciyi iyice detaylandırıp bu büyünün sadece belirli durumlar altında ya da fiziksel özelliklere göre (boy ve kilo gibi), varlık tipine göre (sadece aberasyonlar ya da drowlar gibi), yönelime göre etkinleşmesini sağlayabilirsin. Aynı zamanda glifi tetiklemeyecek varlıklar için koşullar da ekleyebilirsin, belirli bir parolayı söyleyen kişiler gibi.",
+				"Glifi kazırken patlayan rünler ya da büyü glifini seç.",
 				{
 					"type": "entries",
-					"name": "Explosive Runes",
+					"name": "Patlayan Rünler",
 					"entries": [
-						"When triggered, the glyph erupts with magical energy in a 20-foot-radius sphere centered on the glyph. The sphere spreads around corners. Each creature in the aura must make a Dexterity saving throw. A creature takes {@dice 5d8} asit, soğuk, ateş, yıldırım, or ses damage on a failed saving throw (your choice when you create the glyph), or half as much damage on a successful one."
+						"Tetiklendiğinde, glif merkezli 20 fit yarıçaplı bir küre şeklinde büyülü enerji ile patlar. Bu küre köşelerin ardına etki eder. Alandaki her varlık Çeviklik kurtulma zarı atar. Başarısız bir varlık {@dice 5d8} asit, soğuk, ateş, yıldırım, ya da ses (glifi yaratırken sen seçersin) hasarı alır, başarılı olursa bunun yarısını."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Spell Glyph",
+					"name": "Büyü Glifi",
 					"entries": [
-						"You can store a prepared spell of 3rd level or lower in the glyph by casting it as part of creating the glyph. The spell must target a single creature or an area. The spell being stored has no immediate effect when cast in this way. When the glyph is triggered, the stored spell is cast. If the spell has a target, it targets the creature that triggered the glyph. If the spell affects an area, the area is centered on that creature. If the spell summons hostile creatures or creates harmful objects or traps, they appear as close as possible to the intruder and attack it. If the spell requires concentration, it lasts until the end of its full duration."
+						"Glifi yaratmanın bir parçası olarak, hazırlanmış bir 3. seviye ya da altı büyüyü kullanıp glifte depolayabilirsin. Büyü tek bir varlığı ya da bir alanı hedef almalı. Depolanan büyü bu amaçla kullanıldığında o anlık hiçbir etki yaratmaz. Glif tetiklendiğinde, depolanan büyü kullanılır. Eğer büyünün bir hedefi varsa bu hedef glifi tetikleyen varlıktır. Eğer büyü alanı etkiliyorsa, alanın merkezi o varlık olur. Eğer büyü düşman varlıklar, zararlı nesneler ya da tuzaklar yaratıyorsa, bunlar işgalciye mümkün olan en yakın yerde belirir ve saldırırlar. Eğer büyü konsantrasyon gerektiriyorsa, tam süresinin sonuna dek sürer."
 					]
 				}
 			],
@@ -11305,7 +11305,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the damage of an explosive runes glyph increases by {@dice 1d8} for each slot level above 3rd. If you create a spell glyph, you can store any spell of up to the same level as the slot you use for the glyph of warding."
+						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 3. üzeri her seviye için patlayan rünler glifi hasarı {@dice 1d8} artar. Eğer büyü glifi yaratırsan, harcadığın büyü yuvasına eşit seviyeye kadar bir büyü depolayabilirsin."
 					]
 				}
 			],
@@ -12360,7 +12360,7 @@
 			]
 		},
 		{
-			"name": "Haste",
+			"name": "Haste (Acele)",
 			"level": 3,
 			"school": "T",
 			"time": [
@@ -12379,7 +12379,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a shaving of licorice root"
+				"m": "biraz meyan kökü"
 			},
 			"duration": [
 				{
@@ -12448,8 +12448,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Choose a willing creature that you can see within range. Until the spell ends, the target's speed is doubled, it gains a +2 bonus to AC, it has advantage on Dexterity saving throws, and it gains an additional eylem on each of its turns. That eylem can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object eylem.",
-				"When the spell ends, the target can't move or take actions until after its next turn, as a wave of lethargy sweeps over it."
+				"Menzilinde görebildiğin istekli bir varlık seç. Büyü sona erene dek, hedefin hızı ikiye katlanır, AC'sine +2 bonus eklenir, Çeviklik kurtulma zarlarında avantajlıdır ve her sırasında fazladan bir eyleme sahip olur. Bu eylem sadece Saldırı (tek bir silahlı saldırı), Depar, Ayrılma, Saklanma ya da Nesne Kullanma için kullanılabilir.",
+				"Büyü sonlandığında hedefin vücudunu bir halsizlik kaplar ve sonraki sırasının sonuna kadar hareket edemez ya da eylem gerçekleştiremez."
 			],
 			"page": 250,
 			"savingThrow": [
@@ -13159,7 +13159,7 @@
 			]
 		},
 		{
-			"name": "Hunger of Hadar",
+			"name": "Hunger of Hadar (Hadar'ın Açlığı)",
 			"level": 3,
 			"school": "C",
 			"time": [
@@ -13178,7 +13178,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a pickled octopus tentacle"
+				"m": "ahtapot kolu turşusu"
 			},
 			"duration": [
 				{
@@ -13200,8 +13200,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You open a gateway to the dark between the stars, a region infested with unknown horrors. A 20-foot-radius sphere of blackness and bitter soğuk appears, centered on a point within range and lasting for the duration. This void is filled with a cacophony of soft whispers and slurping noises that can be heard up to 30 feet away. No light, magical or otherwise, can illuminate the area, and creatures fully within the area are {@condition blinded}.",
-				"The void creates a warp in the fabric of space, and the area is difficult terrain. Any creature that starts its turn in the area takes {@dice 2d6} soğuk damage. Any creature that ends its turn in the area must succeed on a Dexterity saving throw or take {@dice 2d6} asit damage as milky, otherworldly tentacles rub against it."
+				"Yıldızlar arasındaki karanlığa, bilinmez korkuların yuvasına bir kapı açarsın. 20 fit yarıçaplı bir karanlık ve acı soğuk küresi, menzilinde belirlediğin bir noktada belirir ve süre boyunca kalır. Bu boşluk 30 fitten duyulabilecek üstüste binen hoş fısıltılar ve ağız şapırdatma sesleri ile doludur. Büyülü ya da değil, hiçbir ışık bu karanlığı aydınlatamaz ve tümüyle bu alanın içinde olan varlıklar {@condition körlük} etkisindedir.",
+				"Bu boşluk uzayın yapısını büker, bu alan zorlu arazi sayılır. Sırasına bu alan içinde başlayan her varlık {@dice 2d6} soğuk hasarı alır. Sırasını bu alan içerisinde bitiren her varlık Çeviklik kurtulma zarı atar ya da solgun, dünyadışı dokunaçlar ona sürtünürken {@dice 2d6} asit hasarı alır."
 			],
 			"page": 251,
 			"damageInflict": [
@@ -13281,7 +13281,7 @@
 			]
 		},
 		{
-			"name": "Hypnotic Pattern",
+			"name": "Hypnotic Pattern (Hipnotik Desen)",
 			"level": 3,
 			"school": "I",
 			"time": [
@@ -13299,7 +13299,7 @@
 			},
 			"components": {
 				"s": true,
-				"m": "a glowing stick of incense or a crystal vial filled with phosphorescent material"
+				"m": "parlayan bir tütsü çubuğu ya da fosforlu materyalle dolu bir kristal şişe"
 			},
 			"duration": [
 				{
@@ -13345,8 +13345,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You create a twisting pattern of colors that weaves through the air inside a 30-foot cube within range. The pattern appears for a moment and vanishes. Each creature in the area who sees the pattern must make a Wisdom saving throw. On a failed save, the creature becomes {@condition charmed} for the duration. While {@condition charmed} by this spell, the creature is {@condition incapacitated} and has a speed of 0.",
-				"The spell ends for an affected creature if it takes any damage or if someone else uses an eylem to shake the creature out of its stupor."
+				"Menzilinde 30 fitlik bir kübün içerisinde, havada dönen renkli bir desen oluşturursun. Desen bir anlığına ortaya çıkar ve kaybolur. Alanda bu deseni gören tüm varlıklar Akıl kurtulma zarı atar. Başarısız olursa, varlık süre boyunca {@condition cezbedilme} etkisinde olur. Bu büyü tarafından {@condition cezbedilme} etkisindeyken, varlık {@condition etkisiz hal}de olur ve hızı sıfıra düşer.",
+				"Etki altındaki bir varlık için bu büyü hasar aldığında ya da başka bir varlık eylemini harcayıp onu bu hipnozdan çıkardığında sonlanır."
 			],
 			"page": 252,
 			"savingThrow": [
@@ -14274,7 +14274,7 @@
 			"page": 254
 		},
 		{
-			"name": "Leomund's Tiny Hut",
+			"name": "Leomund's Tiny Hut (Leomund'un Ufak Kulübesi)",
 			"level": 3,
 			"school": "V",
 			"time": [
@@ -14293,7 +14293,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a small crystal bead"
+				"m": "küçük bir kristal boncuk"
 			},
 			"duration": [
 				{
@@ -14321,9 +14321,9 @@
 				"ritual": true
 			},
 			"entries": [
-				"A 10-foot-radius immobile dome of güç springs into existence around and above you and remains stationary for the duration. The spell ends if you leave its area.",
-				"Nine creatures of Medium size or smaller can fit inside the dome with you. The spell fails if its area includes a larger creature or more than nine creatures. Creatures and objects within the dome when you cast this spell can move through it freely. All other creatures and objects are barred from passing through it. Spells and other magical effects can't extend through the dome or be cast through it. The atmosphere inside the space is comfortable and dry, regardless of the weather outside.",
-				"Until the spell ends, you can command the interior to become dimly lit or dark. The dome is opaque from the outside, of any color you choose, but it is transparent from the inside."
+				"Üzerinde 10 fit yarıçaplı bir güç kubbesi oluşur ve süre boyunca sabit kalır. Eğer sen alanından çıkarsan büyü sonlanır.",
+				"Seninle birlikte bu kubbeye Orta boy ya da daha küçük 9 varlık daha sığabilir. Eğer bu alana dokuzdan fazla ya da belirlenenden büyük bir varlık girerse büyü başarısız olur. Bu büyüyü yaptığında küre içinde olan tüm varlıklar ve nesneler rahatlıkla kubbeden geçebilirler. Diğer tüm varlıklar ve nesneler buradan geçemez. Büyüler ve büyülü etkiler kubbe sınırlarını aşamaz ya da onun içinden geçecek şekilde kullanılamaz. Dışarıdaki havaya bakılmaksızın içerideki atmosfer konforlu ve kurudur.",
+				"Büyü bitene dek, içerisinin loş ışıkla aydınlanması ya da karanlık olmasını kontrol edersin. Kubbe dışarıdan opaktır ve seçeceğin herhangi bir renk olabilir, ama içeriden saydamdır."
 			],
 			"page": 255
 		},
@@ -14529,7 +14529,7 @@
 			]
 		},
 		{
-			"name": "Lightning Arrow",
+			"name": "Lightning Arrow (Yıldırım Oku)",
 			"level": 3,
 			"school": "T",
 			"time": [
@@ -14568,16 +14568,16 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"The next time you make a ranged weapon attack during the spell's duration, the weapon's ammunition, or the weapon itself if it's a thrown weapon, transforms into a bolt of yıldırım. Make the attack roll as normal. The target takes {@dice 4d8} yıldırım damage on a hit, or half as much damage on a miss, instead of the weapon's normal damage.",
-				"Whether you hit or miss, each creature within 10 feet of the target must make a Dexterity saving throw. Each of these creatures takes {@dice 2d8} yıldırım damage on a failed save, or half as much damage on a successful one.",
-				"The piece of ammunition or weapon then returns to its normal form."
+				"Büyünün süresi boyunca bir sonraki menzilli silah saldırında, silahın mermisi ya da eğer fırlatmalık bir silahsa silahın kendisi bir yıldırıma dönüşür. Saldırı zarını normal bir şekilde at. Silahın normal hasarı yerine eğer vurursa hedef {@dice 4d8} yıldırım hasarı alır, ıskalarsa bunun yarısını.",
+				"Vur ya da ıskala farketmeden hedefin 10 fit yakınındaki tüm varlıklar Çeviklik kurtulma zarı atar. Başarısız olan tüm varlıklar {@dice 2d8} yıldırım hasarı alır, başarılı olanlar bunun yarısını.",
+				"Bu mermi ya da silah sonrasında kendi formuna döner."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the damage for both effects of the spell increases by {@dice 1d8} for each slot level above 3rd."
+						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 3. üzeri her seviye için her iki etkinin de hasarı {@dice 1d8} artar."
 					]
 				}
 			],
@@ -14590,7 +14590,7 @@
 			]
 		},
 		{
-			"name": "Lightning Bolt",
+			"name": "Lightning Bolt (Yıldırım)",
 			"level": 3,
 			"school": "V",
 			"time": [
@@ -14609,7 +14609,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a bit of fur and a rod of amber, crystal, or glass"
+				"m": "biraz kürk ve bir çubuk amber, kristal ya da cam"
 			},
 			"duration": [
 				{
@@ -14643,15 +14643,15 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"A stroke of yıldırım forming a line of 100 feet long and 5 feet wide blasts out from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes {@dice 8d6} yıldırım damage on a failed save, or half as much damage on a successful one.",
-				"The yıldırım ignites flammable objects in the area that aren't being worn or carried."
+				"Seçeceğin yöne doğru 100 fit uzunlukta ve 5 fit genişlikte hatta bir yıldırım oluşturursun. Bu hattaki her varlık Çeviklik kurtulma zarı atar. Başarısız bir varlık {@dice 8d6} yıldırım hasarı alır, başarılı olursa bunun yarısını.",
+				"Yıldırımın alanındaki taşınmayan ve giyilmeyen tüm yanıcı maddeler alev alır."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the damage increases by {@dice 1d6} for each slot above 3rd."
+						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 3. üzerinde her seviye için hasar {@dice 1d6} artar."
 					]
 				}
 			],
@@ -15591,7 +15591,7 @@
 			"page": 258
 		},
 		{
-			"name": "Mass Healing Word",
+			"name": "Mass Healing Word (Toplu Şifalı Söz)",
 			"level": 3,
 			"school": "V",
 			"time": [
@@ -15625,14 +15625,14 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"As you call out words of restoration, up to six creatures of your choice that you can see within range regain hit points equal to {@dice 1d4} + your spellcasting ability modifier. This spell has no effect on undead or constructs."
+				"Sen yenileyici sözlerini söylerken, menzilinde görebildiğin altıya kadar seçeceğin varlık {@dice 1d4} + büyü yapma yetenek bonusun kadar HP yeniler. Bu büyü yaşayan ölü ya da yapıları etkilemez."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the healing increases by {@dice 1d4} for each slot level above 3rd."
+						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 3. üzeri her seviye için yenileme {@dice 1d4} artar."
 					]
 				}
 			],
@@ -16887,7 +16887,7 @@
 			"page": 263
 		},
 		{
-			"name": "Nondetection",
+			"name": "Nondetection (Saptanmama)",
 			"level": 3,
 			"school": "A",
 			"time": [
@@ -16906,7 +16906,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a pinch of diamond dust worth 25 gp sprinkled over the target, which the spell consumes",
+					"text": "25gp değerinde hedefin üzerine serpilecek bir tutam elmas tozu, büyü bunu tüketir",
 					"cost": 25,
 					"consume": true
 				}
@@ -16950,7 +16950,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"For the duration, you hide a target that you touch from divination magic. The target can be a willing creature or a place or an object no larger than 10 feet in any dimension. The target can't be targeted by any divination magic or perceived through magical scrying sensors."
+				"Süre boyunca, dokunduğun hedefi divination büyülerinden saklarsın. Hedef istekli bir varlık ya da boyutları 10 fiti aşmayan bir yer veya nesne olabilir. Hedef hiçbir divination büyüsü tarafından hedef alınamaz ya da büyülü görüş sensörleri tarafından algılanamaz."
 			],
 			"page": 263
 		},
@@ -19559,7 +19559,7 @@
 			"page": 271
 		},
 		{
-			"name": "Remove Curse",
+			"name": "Remove Curse (Lanet Kaldır)",
 			"level": 3,
 			"school": "A",
 			"time": [
@@ -19605,7 +19605,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"At your touch, all curses affecting one creature or object end. If the object is a cursed magic item, its curse remains, but the spell breaks its owner's attunement to the object so it can be removed or discarded."
+				"Dokunuşunla bir varlığı ya da nesneyi etkileyen tüm lanetler kalkar. Eğer nesne lanetli bir büyülü eşya ise, laneti kalır ama sahibinin ona olan bağını koparır ki bu nesne çıkarılabilsin ya da atılabilsin."
 			],
 			"page": 271
 		},
@@ -20339,7 +20339,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 2. seviye ya da üzeri bir büyü yuvası harcayarak kullandığında, 1. sonrasında her seviye için saldırıda ilk verilen fazladan hasar {@dice 1d6} artar."
+						"Bu büyüyü 2. seviye ya da üzeri bir büyü yuvası harcayarak kullandığında, 1. sonrasında her seviye için saldırıda ilk verilen hasar {@dice 1d6} artar."
 					]
 				}
 			],
