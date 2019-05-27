@@ -15033,7 +15033,7 @@
 			"page": 256
 		},
 		{
-			"name": "Magic Circle",
+			"name": "Magic Circle (Büyülü Çember)",
 			"level": 3,
 			"school": "A",
 			"time": [
@@ -15053,7 +15053,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "holy water or powdered silver and iron worth at least 100 gp, which the spell consumes",
+					"text": "en az 100gp değerinde kutsal su ya da gümüş ve demir tozu, büyü bunu tüketir",
 					"cost": 100,
 					"consume": true
 				}
@@ -15111,24 +15111,24 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You create a 10-foot-radius, 20-foot-tall cylinder of magical energy centered on a point on the ground that you can see within range. Glowing runes appear wherever the cylinder intersects with the floor or other surface.",
-				"Choose one or more of the following types of creatures: celestials, elementals, fey, fiends, or undead. The circle affects a creature of the chosen type in the following ways.",
+				"Menzilinde tabanda görebildiğin bir nokta merkezli 10 fit yarıçaplı 20 fit yüksekliğinde bir büyü enerjisinden silindir yaratırsın. Silindirin taban ya da farklı bir yüzey ile kesiştiği her noktada parlak rünler belirir.",
+				"Şu varlık tiplerinden bir ya da daha fazlasını seç: kutsallar, elementaller, fey, zebaniler ya da yaşayan ölüler. Çember, seçilen varlık tipini şu şekillerde etkiler.",
 				{
 					"type": "list",
 					"items": [
-						"The creature can't willingly enter the cylinder by nonmagical means. If the creature tries to use teleportation or interplanar travel to do so, it must first succeed on a Charisma saving throw.",
-						"The creature has disadvantage on attack rolls against targets within the cylinder.",
-						"Targets within the cylinder can't be {@condition charmed}, {@condition frightened}, or possessed by the creature."
+						"Varlık büyülü yollar dışında isteğiyle bu silindire giremez. Eğer varlık ışınlanma ya da boyutlararası seyahat ile girmeyi denerse önce Karizma kurtulma zarı atar.",
+						"Varlık silindirin içindeki hedeflere karşı yapacağı saldırılarda dezavantajlı olur.",
+						"Silindirin içindekiler, bu varlık tarafından {@condition cezbedilme}, {@condition korkma} ya da ele geçirilme gibi etkiler altına sokulamaz."
 					]
 				},
-				"When you cast this spell, you can elect to cause its magic to operate in the reverse direction, preventing a creature of the specified type from leaving the cylinder and protecting targets outside it."
+				"Bu büyüyü yaptığında gücünün ters yönde işlemesini sağlayabilir, seçilen tip bir varlığın çemberin dışına çıkmasını engelleyip dışarıda kalanları koruyabilirsin."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the duration increases by 1 saat for each slot level above 3rd."
+						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 3. üzeri her seviye için süre 1 saat artar."
 					]
 				}
 			],
@@ -15407,7 +15407,7 @@
 			"page": 257
 		},
 		{
-			"name": "Major Image",
+			"name": "Major Image (Büyük Görüntü)",
 			"level": 3,
 			"school": "I",
 			"time": [
@@ -15426,7 +15426,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a bit of fleece"
+				"m": "biraz yün"
 			},
 			"duration": [
 				{
@@ -15460,16 +15460,16 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You create the image of an object, a creature, or some other visible phenomenon that is no larger than a 20-foot cube. The image appears at a spot that you can see within range and lasts for the duration. It seems completely real, including sounds, smells, and temperature appropriate to the thing depicted. You can't create sufficient heat or soğuk to cause damage, a sound loud enough to deal ses damage or deafen a creature, or a smell that might sicken a creature (like a troglodyte's stench).",
-				"As long as you are within range of the illusion, you can use your eylem to cause the image to move to any other spot within range. As the image changes location, you can alter its appearance so that its movements appear natural for the image. For example, if you create an image of a creature and move it, you can alter the image so that it appears to be walking. Similarly, you can cause the illusion to make different sounds at different times, even making it carry on a conversation, for example.",
-				"Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses its eylem to examine the image can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and its other sensory qualities become faint to the creature."
+				"20 fitlik bir kübü geçmeyecek boyutta bir nesne, varlık ya da gözlenebilen bir olay görüntüsü yaratırsın. Görüntü menzilinde görebildiğin bir noktada belirir ve süre boyunca kalır. Resmedilen şeye uygun sıcaklık, koku ve ses ile tamamıyla gerçek gibi görülür. Hasar verecek kadar ısı ya da soğukluk, sağır edecek ya da hasar verecek kadar yüksek ses, bir varlığı hasta edecek bir koku (troglodyte kokusu gibi) yaratamazsın.",
+				"İllüzyonun menzilinde kaldığın sürece eylemini kullanıp görüntüyü menzilinde başka bir yere hareket ettirebilirsin. İllüzyon hareket ederken onun görüntüsünü değiştirip bu hareketi normal gösterebilirsin. Örneğin, bir varlık yaratıp bunu hareket ettirirsen, görüntüyü değiştirip onu yürür gibi gösterebilirsin. Benzer olarak, illüzyonun farklı zamanlarda farklı sesler çıkarmasını sağlayabilirsin, bir sohbeti bile sürdürebilir.",
+				"Görüntü ile fiziksel etkileşim onun illüzyon olduğunu gösterir çünkü nesneler onun içinden geçer. Bu görüntüyü incelemek isteyen bir varlık eylemini kullanıp senin büyü DC'ne karşı Zeka (İnceleme) zarı atarak bunun illüzyon olduğunu anlayabilir. Eğer varlık bunun bir illüzyon olduğunu algılarsa onun için görüntü saydamlaşır ve diğer duyusal özellikleri de sönükleşir."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 6. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the spell lasts until dispelled, without requiring your concentration."
+						"Bu büyüyü 6. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, büyü konsantrasyon gerektirmez ve defedilene kadar kalır."
 					]
 				}
 			],
@@ -15757,7 +15757,7 @@
 			"page": 258
 		},
 		{
-			"name": "Meld into Stone",
+			"name": "Meld into Stone (Taşla Bütünleş)",
 			"level": 3,
 			"school": "T",
 			"time": [
@@ -15815,9 +15815,9 @@
 				"ritual": true
 			},
 			"entries": [
-				"You step into a stone object or surface large enough to fully contain your body, melding yourself and all the equipment you carry with the stone for the duration. Using your movement, you step into the stone at a point you can touch. Nothing of your presence remains visible or otherwise detectable by nonmagical senses.",
-				"While merged with the stone, you can't see what occurs outside it, and any Wisdom (Perception) checks you make to hear sounds outside it are made with disadvantage. You remain aware of the passage of time and can cast spells on yourself while merged in the stone. You can use your movement to leave the stone where you entered it, which ends the spell. You otherwise can't move.",
-				"Minor physical damage to the stone doesn't harm you, but its partial destruction or a change in its shape (to the extent that you no longer fit within it) expels you and deals {@dice 6d6} ezme damage to you. The stone's complete destruction (or transmutation into a different substance) expels you and deals 50 ezme damage to you. If expelled, you fall {@condition prone} in an unoccupied space closest to where you first entered."
+				"Senin bedenini kaplayacak büyüklükte taş bir nesne ya da yüzeye girersin, süre boyunca kendin ve taşıdığın tüm ekipman taş ile bütünleşir. Hareketini kullanarak taşa dokunabildiğin bir noktadan girersin. Varlığından görünür ya da büyü dışında yollarla tespit edilebilir hiçbir şey kalmaz.",
+				"Taşla bütünleşmişken dışında ne olduğunu göremezsin ve dışarıdaki sesleri duymak için atacağın tüm Akıl (Algı) zarları dezavantajlı olur. Zaman akışının farkındasındır ve taşla bütünleşmişken kendi üzerine büyü yapabilirsin. Hareketini kullanıp taşa girdiğin yerden dışarı çıkabilirsin, bu büyüyü sonlandırır. Onun dışında hareket edemezsin.",
+				"Taşa gelecek küçük hasarlar sana zarar vermez, ama onun kısmi yıkılması ya da şeklinin değişmesi (artık senin içine sığmayacağın şekilde) seni dışarı atar ve sana {@dice 6d6} ezme hasarı verir. Taşın tamamıyla yıkımı (ya da başka bir maddeye dönüştürülmesi) seni dışarı atar ve 50 ezme hasarı verir. Eğer dışarı atıldıysan, girdiğin yere en yakın alanda yere düşmüş bir şekilde belirirsin."
 			],
 			"page": 259,
 			"damageInflict": [
@@ -17511,7 +17511,7 @@
 			]
 		},
 		{
-			"name": "Phantom Steed",
+			"name": "Phantom Steed (Hayalet Binek)",
 			"level": 3,
 			"school": "I",
 			"time": [
@@ -17553,8 +17553,8 @@
 				"ritual": true
 			},
 			"entries": [
-				"A Large quasi-real, horse-like creature appears on the ground in an unoccupied space of your choice within range. You decide the creature's appearance, but it is equipped with a saddle, bit, and bridle. Any of the equipment created by the spell vanishes in a puff of smoke if it is carried more than 10 feet away from the steed.",
-				"For the duration, you or a creature you choose can ride the steed. The creature uses the statistics for a riding horse, except it has a speed of 100 feet and can travel 10 miles in an saat, or 13 miles at a fast pace. When the spell ends, the steed gradually fades, giving the rider 1 dakika to dismount. The spell ends if you use an eylem to dismiss it or if the steed takes any damage."
+				"Menzilinde seçeceğin boş bir noktada Büyük boyutta yarı gerçek at benzeri bir varlık belirir. Varlığın görüntüsünü sen belirlersin ve biniş takımı üzerinde belirir. Büyü tarafından yaratılan ekipman eğer binekten 10 fitten fazla uzaklaştırılırsa bir duman bulutu olup yok olur.",
+				"Süre boyunca sen ya da seçeceğin bir varlık bu bineğe binebilir. Varlık binek atının istatistiklerini kullanır ama hızı 100 fittir ve bir saatte 10 mil, ya da hızlı tempoda 13 mil yol gidebilir. Büyü sona erdiğinde binek yavaş yavaş kaybolur, biniciye inmesi için 1 dakika süre verir. Eğer sen eylemini kullanıp savarsan ya da binek hasar alırsa büyü sonlanır."
 			],
 			"page": 265
 		},
@@ -17764,7 +17764,7 @@
 			]
 		},
 		{
-			"name": "Plant Growth",
+			"name": "Plant Growth (Bitki Büyümesi)",
 			"level": 3,
 			"school": "T",
 			"time": [
@@ -17854,10 +17854,10 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"This spell channels vitality into plants within a specific area. There are two possible uses for the spell, granting either immediate or long-term benefits.",
-				"If you cast this spell using 1 eylem, choose a point within range. All normal plants in a 100-foot radius centered on that point become thick and overgrown. A creature moving through the area must spend 4 feet of movement for every 1 foot it moves.",
-				"You can exclude one or more areas of any size within the spell's area from being affected.",
-				"If you cast this spell over 8 saat, you enrich the land. All plants in a half-mile radius centered on a point within range become enriched for 1 year. The plants yield twice the normal amount of food when harvested."
+				"Bu büyü belirli bir alandaki bitkilere can verir. Bu büyünün olası iki kullanımı vardır, anlık ya da uzun zamanlı yarar sağlar.",
+				"Eğer bu büyüyü 1 eylem harcayarak kullanırsan, menzilinde bir nokta seç. O noktanın 100 fit çevresindeki tüm normal bitkiler çok sık ve fazla büyümüş bir hale gelirler. Bu alandan geçen bir varlık her 1 fitlik alan için 4 fit hareket harcamak zorunda kalır.",
+				"Büyü alanında istediğin boyutta bir ya da daha çok alanın etkilenmemesini sağlayabilirsin.",
+				"Eğer bu büyüyü 8 saat boyunca kullanırsan, toprağı zenginleştirirsin. Menzilinde bir noktanın yarım mil çevresindeki tüm bitkiler 1 seneliğine bereketlenir. Bitkiler hasat edildiğinde normalin iki katı yiyecek sağlar."
 			],
 			"page": 266
 		},
@@ -18647,7 +18647,7 @@
 			]
 		},
 		{
-			"name": "Protection from Energy",
+			"name": "Protection from Energy (Enerjiden Korunma)",
 			"level": 3,
 			"school": "A",
 			"time": [
@@ -18745,7 +18745,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"For the duration, the willing creature you touch has resistance to one damage type of your choice: asit, soğuk, ateş, yıldırım, or ses."
+				"Dokunduğun istekli bir varlık seçeceğin bir hasar tipine süre boyunca direnç kazanır: asit, soğuk, ateş, yıldırım, ya da ses."
 			],
 			"page": 270,
 			"damageResist": [
@@ -19770,7 +19770,7 @@
 			]
 		},
 		{
-			"name": "Revivify",
+			"name": "Revivify (Canlandır)",
 			"level": 3,
 			"school": "N",
 			"time": [
@@ -19789,7 +19789,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "diamonds worth 300 gp, which the spell consumes",
+					"text": "300gp değerinde elmaslar, büyü bunu tüketir",
 					"cost": 300,
 					"consume": true
 				}
@@ -19845,7 +19845,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You touch a creature that has died within the last dakika. That creature returns to life with 1 hit point. This spell can't return to life a creature that has died of old age, nor can it restore any missing body parts."
+				"Son bir dakika içinde ölen bir varlığa dokunursun. Varlık 1 HP ile hayata döner. Bu büyü yaşlılıktan ölen bir varlığı hayata döndüremez ya da eksik bir vücut parçasını geri getiremez."
 			],
 			"page": 272
 		},
@@ -20487,7 +20487,7 @@
 			]
 		},
 		{
-			"name": "Sending",
+			"name": "Sending (Gönderme)",
 			"level": 3,
 			"school": "V",
 			"time": [
@@ -20505,7 +20505,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "A short piece of fine copper wire"
+				"m": "küçük bir parça ince bakır tel"
 			},
 			"duration": [
 				{
@@ -20546,8 +20546,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You send a short message of twenty-five words or less to a creature with which you are familiar. The creature hears the message in its mind, recognizes you as the sender if it knows you, and can answer in a like manner immediately. The spell enables creatures with Intelligence scores of at least 1 to understand the meaning of your message.",
-				"You can send the message across any distance and even to other planes of existence, but if the target is on a different plane than you, there is a 5 percent chance that the message doesn't arrive."
+				"Tanıdığın bir varlığa 25 kelimelik kısa bir mesaj gönderirsin. Varlık mesajı zihninde duyar, eğer seni tanıyorsa senden geldiğini anlar ve aynı şekilde anında cevap verebilir. Büyü, Zeka skoru en az 1 olan varlıkların mesajın anlamını çözmelerini sağlar.",
+				"Mesajı tüm mesafelere ve hatta farklı boyutlara bile gönderebilirsin, ama hedefin senden farklı bir boyutta ise %5 olasılıkla mesaj yerine ulaşmaz."
 			],
 			"page": 274
 		},
@@ -21232,7 +21232,7 @@
 			"page": 276
 		},
 		{
-			"name": "Sleet Storm",
+			"name": "Sleet Storm (Dolu Fırtınası)",
 			"level": 3,
 			"school": "C",
 			"time": [
@@ -21251,7 +21251,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a pinch of dust and a few drops of water"
+				"m": "bir tutam toz ve bir kaç damla su"
 			},
 			"duration": [
 				{
@@ -21304,9 +21304,9 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Until the spell ends, freezing rain and sleet fall in a 20-foot-tall cylinder with a 40-foot radius centered on a point you choose within range. The area is heavily obscured, and exposed flames in the area are doused.",
-				"The ground in the area is covered with slick ice, making it difficult terrain. When a creature enters the spell's area for the first time on a turn or starts its turn there, it must make a Dexterity saving throw. On a failed save, it falls {@condition prone}.",
-				"If a creature is concentrating in the spell's area, the creature must make a successful Constitution saving throw against your spell save DC or lose concentration."
+				"Büyü süresince, menzilinde seçeceğin bir noktanın çevresinde 40 fit yarıçaplı 20 fit uzunlukta bir silindire dondurucu yağmur ve dolu yağmaya başlar. Bu alan ağır bir şekilde örtülüdür ve tüm açık ateşler söner.",
+				"Alandaki arazi kaygan buz ile kaplanır ve zorlu araziye dönüşür. Bir varlık büyünün alanına ilk defa girdiğinde ya da sırasına orada başladığında, Çeviklik kurtulma zarı atar. Başarısız olursa yere düşer.",
+				"Eğer bir varlık büyünün alanında konsantre oluyorsa, senin büyü DC'ne karşı Dayanıklılık kurtulma zarı atar ya da konsantrasyonunu kaybeder."
 			],
 			"page": 276,
 			"savingThrow": [
@@ -21315,7 +21315,7 @@
 			]
 		},
 		{
-			"name": "Slow",
+			"name": "Slow (Yavaşlat)",
 			"level": 3,
 			"school": "T",
 			"time": [
@@ -21334,7 +21334,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a drop of molasses"
+				"m": "bir damla pekmez"
 			},
 			"duration": [
 				{
@@ -21373,10 +21373,10 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You alter time around up to six creatures of your choice in a 40-foot cube within range. Each target must succeed on a Wisdom saving throw or be affected by this spell for the duration.",
-				"An affected target's speed is halved, it takes a -2 penalty to AC and Dexterity saving throws, and it can't use reactions. On its turn, it can use either an eylem or a bonus eylem, not both. Regardless of the creature's abilities or magic items, it can't make more than one melee or ranged attack during its turn.",
-				"If the creature attempts to cast a spell with a casting time of 1 eylem, roll a {@dice d20}. On an 11 or higher, the spell doesn't take effect until the creature's next turn, and the creature must use its eylem on that turn to complete the spell. If it can't, the spell is wasted.",
-				"A creature affected by this spell makes another Wisdom saving throw at the end of its turn. On a successful save, the effect ends for it."
+				"Menzilinde 40 fitlik kübün içerisinde seçeceğin altıya kadar varlığın çevresinde zamanı değiştirirsin. Her varlık Akıl kurtulma zarı atar ya da süresince bu büyünün etkisi altında olur.",
+				"Etkilenen bir varlığın hızı yarılanır, AC ve Çeviklik kurtulma zarlarına -2 ceza alır ve reaksiyon kullanamaz. Sırasında ya eylem ya da bonus eylem kullanabilir, ikisini aynı anda değil. Varlığın yetenekleri ya da büyülü eşyalarına bakılmaksızın, sırasında birden çok yakın dövüş ya da menzilli saldırı yapamaz.",
+				"Eğer varlık 1 eylem kullanma süresi olan bir büyü kullanmaya çalışırsa, bir {@dice d20} atar. 11 ya da üzeri gelirse, bu büyü varlığın bir sonraki sırasına dek etki etmez ve varlık o sırasında da eylemini kullanıp büyüyü tamamlar. Yapamazsa büyü boşa gider.",
+				"Bu büyü etkisi altındaki varlık sırasının sonunda Akıl kurtulma zarını tekrarlar. Başarılı olursa etki onun için sonlanır."
 			],
 			"page": 277,
 			"savingThrow": [
@@ -21500,7 +21500,7 @@
 			"page": 277
 		},
 		{
-			"name": "Speak with Dead",
+			"name": "Speak with Dead (Ölüyle Konuş)",
 			"level": 3,
 			"school": "N",
 			"time": [
@@ -21519,7 +21519,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "burning incense"
+				"m": "yanan bir tütsü"
 			},
 			"duration": [
 				{
@@ -21566,13 +21566,13 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You grant the semblance of life and zeka to a corpse of your choice within range, allowing it to answer the questions you pose. The corpse must still have a mouth and can't be undead. The spell fails if the corpse was the target of this spell within the last 10 gün.",
-				"Until the spell ends, you can ask the corpse up to five questions. The corpse knows only what it knew in life, including the languages it knew. Answers are usually brief, cryptic, or repetitive, and the corpse is under no compulsion to offer a truthful answer if you are hostile to it or it recognizes you as an enemy. This spell doesn't return the creature's soul to its body, only its animating spirit. Thus, the corpse can't learn new information, doesn't comprehend anything that has happened since it died, and can't speculate about future events."
+				"Menzilinde seçeceğin bir cesede hayat ve zeka benzeri bir güç bahşederek sorduğun sorulara cevap vermesini sağlarsın. Ceset hala bir ağıza sahip olmalı ve yaşayan ölü olamaz. Eğer ceset son 10 gün içerisinde bu büyünün hedefi olmuşsa büyü başarısız olur.",
+				"Büyü bitene dek cesede beş soru sorabilirsin. Ceset konuştuğu diller dahil sadece hayatta bildiklerini bilir. Cevaplar genelde kısa, şifreli ve tekrarlayan şekillerde olurlar ve ceset hiçbir şekilde sana doğru cevap verme zorunluluğunda değildir, özellikle sen ona düşmanca davranırsan ya da seni bir düşman olarak tanırsa. Bu büyü varlığın ruhunu bedenine geri getirmez, sadece hareket enerjisi kısa süreliğine döner. Bu sebeple, ceset yeni bilgi öğrenemez, öldüğünden beri olan hiçbir şeyi anlamaz ve gelecek olaylar hakkında tahminde bulunamaz."
 			],
 			"page": 277
 		},
 		{
-			"name": "Speak with Plants",
+			"name": "Speak with Plants (Bitkilerle Konuş)",
 			"level": 3,
 			"school": "T",
 			"time": [
@@ -21619,11 +21619,11 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You imbue plants within 30 feet of you with limited sentience and animation, giving them the ability to communicate with you and follow your simple commands. You can question plants about events in the spell's area within the past day, gaining information about creatures that have passed, weather, and other circumstances.",
-				"You can also turn difficult terrain caused by plant growth (such as thickets and undergrowth) into ordinary terrain that lasts for the duration. Or you can turn ordinary terrain where plants are present into difficult terrain that lasts for the duration, causing vines and branches to hinder pursuers, for example.",
-				"Plants might be able to perform other tasks on your behalf, at the DM's discretion. The spell doesn't enable plants to uproot themselves and move about, but they can freely move branches, tendrils, and stalks.",
-				"If a plant creature is in the area, you can communicate with it as if you shared a common language, but you gain no magical ability to influence it.",
-				"This spell can cause the plants created by the entangle spell to release a {@condition restrained} creature."
+				"30 fit çevrendeki bitkilere sınırlı bilinç ve hareket yeteneği verirsin, onların basit komutları yerine getirmesini ve seninle iletişime geçmesini sağlayabilirsin. Büyünün alanında son bir günde geçen olaylar, oradan geçen varlıklar, hava durumu ve diğer durumlar gibi konularda bitkiye sorular sorabilirsin.",
+				"Bitkiler yüzünden oluşan (çalılık ve dikenli otlar gibi) zorlu araziyi süre boyunca sıradan araziye çevirebilirsin. Ya da dalların ve köklerin takipçileri engellemesi ile, süre boyunca bitkilerin varolduğu normal bir araziyi zorlu araziye çevirebilirsin.",
+				"DM'in kararına bağlı olarak bitkiler senin için başka işler de yapabilirler. Büyü, bitkilerin kökleriyle ayrılıp hareket etmesini sağlamaz ama dallarını, sarmaşıklarını ve filizlerini rahatlıkla hareket ettirebilirler.",
+				"Eğer bir bitki varlık alanındaysa onunla sanki ortak diliniz varmışçasına konuşabilirsin, ama onu etkilemek için büyülü bir güç vermez.",
+				"Bu büyü Entangle (Dolaşıklık) büyüsünün yarattığı bitkilerin {@condition kısıtlı} durumda tuttuğu bir varlığı salmasını sağlayabilir."
 			],
 			"page": 277
 		},
@@ -21807,7 +21807,7 @@
 			]
 		},
 		{
-			"name": "Spirit Guardians",
+			"name": "Spirit Guardians (Ruhsal Muhafızlar)",
 			"level": 3,
 			"school": "C",
 			"time": [
@@ -21826,7 +21826,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a holy symbol"
+				"m": "bir kutsal sembol"
 			},
 			"duration": [
 				{
@@ -21870,15 +21870,15 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You call forth spirits to protect you. They flit around you to a distance of 15 feet for the duration. If you are good or neutral, their spectral form appears angelic or fey (your choice). If you are evil, they appear fiendish.",
-				"When you cast this spell, you can designate any number of creatures you can see to be unaffected by it. An affected creature's speed is halved in the area, and when the creature enters the area for the first time on a turn or starts its turn there, it must make a Wisdom saving throw. On a failed save, the creature takes {@dice 3d8} radyant damage (if you are good or neutral) or {@dice 3d8} nekrotik damage (if you are evil). On a successful save, the creature takes half as much damage."
+				"Seni koruması için ruhları çağırırsın. Süre boyunca 15 fit çevrende uçuşurlar. Eğer iyi ya da nötr isen ruhsal formları melek gibi ya da fey (sen seçersin) olur. Eğer kötü isen zebani gibi görünürler.",
+				"Bu büyüyü yaptığında görebildiğin istediğin sayıda varlığı bundan etkilenmemesi için seçebilirsin. Etkilenen bir varlığın hızı bu alanda yarılanır ve bir varlık sırasında bu alana ilk girişinde ya da sırasına orada başlarsa Akıl kurtulma zarı atar. Başarısız olursa varlık, {@dice 3d8} radyant (iyi ya da nötr isen) ya da {@dice 3d8} nekrotik (kötü isen) hasar alır. Başarılı olursa varlık yarı hasarı alır."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the damage increases by {@dice 1d8} for each slot level above 3rd."
+						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 3. üzeri her seviye için hasar {@dice 1d8} artar."
 					]
 				}
 			],
@@ -22043,7 +22043,7 @@
 			]
 		},
 		{
-			"name": "Stinking Cloud",
+			"name": "Stinking Cloud (Kokuşmuş Bulut)",
 			"level": 3,
 			"school": "C",
 			"time": [
@@ -22062,7 +22062,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a rotten egg or several skunk cabbage leaves"
+				"m": "bir çürük yumurta ya da birkaç kokarca otu yaprağı"
 			},
 			"duration": [
 				{
@@ -22126,9 +22126,9 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You create a 20-foot-radius sphere of yellow, nauseating gas centered on a point within range. The cloud spreads around corners, and its area is heavily obscured. The cloud lingers in the air for the duration.",
-				"Each creature that is completely within the cloud at the start of its turn must make a Constitution saving throw against zehir. On a failed save, the creature spends its eylem that turn retching and reeling. Creatures that don't need to breathe or are immune to zehir automatically succeed on this saving throw.",
-				"A moderate wind (at least 10 miles per saat) disperses the cloud after 4 rounds. A strong wind (at least 20 miles per saat) disperses it after 1 round."
+				"Menzilinde bir noktada 20 fit yarıçaplı bir sarı mide bulandırıcı gaz küresi yaratırsın. Bulut köşelerin ardına geçer ve alanı ağır bir şekilde örtülüdür. Bulut süresi boyunca havada kalır.",
+				"Sırasının başında tamamıyla gazın içinde olan her varlık zehire karşı Dayanıklılık kurtulma zarı atar. Başarısız olursa varlık o sırasında eylemini öğürüp kıvrınarak geçirir. Nefes alma ihtiyacı duymayan ya da zehire bağışıklığı olan varlıklar bu kurtulma zarında otomatik olarak başarılı olur.",
+				"Ortalama bir rüzgar (en az saatte 10 mil hızda) bulutu 4 round sonrası dağıtır. Güçlü bir rüzgar (en az saatte 20 mil hızda) 1 round sonrası dağıtır."
 			],
 			"page": 278,
 			"savingThrow": [
@@ -23523,7 +23523,7 @@
 			"page": 283
 		},
 		{
-			"name": "Tongues",
+			"name": "Tongues (Diller)",
 			"level": 3,
 			"school": "D",
 			"time": [
@@ -23540,7 +23540,7 @@
 			},
 			"components": {
 				"v": true,
-				"m": "a small clay model of a ziggurat"
+				"m": "bir zigguratın küçük kil modeli"
 			},
 			"duration": [
 				{
@@ -23577,7 +23577,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"This spell grants the creature you touch the ability to understand any spoken language it hears. Moreover, when the target speaks, any creature that knows at least one language and can hear the target understands what it says."
+				"Bu büyü dokunduğun varlığa her konuşulan dili anlama gücünü bahşeder. Hatta hedef konuştuğunda, en az bir dil konuşabilen ve hedefi duyabilen her varlık onun ne dediğini anlar."
 			],
 			"page": 283
 		},
@@ -24078,7 +24078,7 @@
 			"page": 284
 		},
 		{
-			"name": "Vampiric Touch",
+			"name": "Vampiric Touch (Vampir Dokunuşu)",
 			"level": 3,
 			"school": "N",
 			"time": [
@@ -24143,14 +24143,14 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"The touch of your shadow-wreathed hand can siphon güç from others to heal your wounds. Make a melee spell attack against a creature within your reach. On a hit, the target takes {@dice 3d6} nekrotik damage, and you regain hit points equal to half the amount of nekrotik damage dealt. Until the spell ends, you can make the attack again on each of your turns as an eylem."
+				"Gölge kaplı elinin dokunuşu senin yaralarını iyileştirmek için diğerlerinden güç çalabilir. Menzilindeki bir varlığa karşı yakın dövüş büyü saldırısı yap. Vurursa hedef {@dice 3d6} nekrotik hasar alır ve sen verdiğin nekrotik hasarın yarısı kadar iyileşirsin. Büyü bitene kadar her sıranda eylem olarak bu saldırıyı tekrarlayabilirsin."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the damage increases by {@dice 1d6} for each slot level above 3rd."
+						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 3. üzeri her seviye için hasar {@dice 1d6} artar."
 					]
 				}
 			],
@@ -24656,7 +24656,7 @@
 			"page": 287
 		},
 		{
-			"name": "Water Breathing",
+			"name": "Water Breathing (Su Soluma)",
 			"level": 3,
 			"school": "T",
 			"time": [
@@ -24675,7 +24675,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a short reed or piece of straw"
+				"m": "kısa bir kamış ya da bir parça saz"
 			},
 			"duration": [
 				{
@@ -24724,12 +24724,12 @@
 				"ritual": true
 			},
 			"entries": [
-				"This spell grants up to ten willing creatures you can see within range the ability to breathe underwater until the spell ends. Affected creatures also retain their normal mode of respiration."
+				"Bu büyü menzilinde görebildiğin 10 istekli varlığın büyü sona erene dek su altında solumasını sağlar. Etkilenen varlıklar normal soluma yöntemini kaybetmezler."
 			],
 			"page": 287
 		},
 		{
-			"name": "Water Walk",
+			"name": "Water Walk (Suda Yürüme)",
 			"level": 3,
 			"school": "T",
 			"time": [
@@ -24748,7 +24748,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a piece of cork"
+				"m": "bir parça tıpa"
 			},
 			"duration": [
 				{
@@ -24808,8 +24808,8 @@
 				"ritual": true
 			},
 			"entries": [
-				"This spell grants the ability to move across any liquid surface\u2014such as water, asit, mud, snow, quicksand, or lava\u2014as if it were harmless solid ground (creatures crossing molten lava can still take damage from the heat). Up to ten willing creatures you can see within range gain this ability for the duration.",
-				"If your target a creature submerged in a liquid, the spell carries the target to the surface of the liquid at a rate of 60 feet per round."
+				"Bu büyü su, asit, çamur, kar, bataklık ya da lav gibi sıvı yüzeylerin üzerinde sanki zararsız katı tabanmışçasına (lav üzerinde yürüyen varlıklar hala ısıdan dolayı hasar alabilirler) yürümeni sağlar. Menzilinde görebildiğin 10 istekli varlık süre boyunca bu yeteneği kazanır.",
+				"Eğer hedefin sıvı altında ise, büyü onu her round 60 fit olacak şekilde sıvı yüzeyine taşır."
 			],
 			"page": 287
 		},
@@ -24987,7 +24987,7 @@
 			"page": 288
 		},
 		{
-			"name": "Wind Wall",
+			"name": "Wind Wall (Rüzgar Duvarı)",
 			"level": 3,
 			"school": "V",
 			"time": [
@@ -25006,7 +25006,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a tiny fan and a feather of exotic origin"
+				"m": "küçük bir yelpaze ve egzotik bir tüy"
 			},
 			"duration": [
 				{
@@ -25044,9 +25044,9 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"A wall of strong wind rises from the ground at a point you choose within range. You can make the wall up to 50 feet long, 15 feet high, and 1 foot thick. You can shape the wall in any way you choose so long as it makes one continuous path along the ground. The wall lasts for the duration.",
-				"When the wall appears, each creature within its area must make a Strength saving throw. A creature takes {@dice 3d8} ezme damage on a failed save, or half as much damage on a successful one.",
-				"The strong wind keeps fog, smoke, and other gases at bay. Small or smaller flying creatures or objects can't pass through the wall. Loose, lightweight materials brought into the wall fly upward. Arrows, bolts, and other ordinary projectiles launched at targets behind the wall are deflected upward and automatically miss. (Boulders hurled by giants or siege engines, and similar projectiles, are unaffected.) Creatures in gaseous form can't pass through it."
+				"Menzilinde seçeceğin bir noktada yerden güçlü bir rüzgar duvarı yükselir. Bu duvarı 50 fit uzunlukta, 15 fit yükseklikte ve 1 fit kalınlıkta yapabilirsin. Yerde aralıksız bir yolda gittiği sürece bu duvarı istediğin gibi şekillendirebilirsin. Duvar süre boyunca kalır.",
+				"Duvar ortaya çıktığında alanında bulunan her varlık Kuvvet kurtulma zarı atar. Başarısız bir varlık {@dice 3d8} ezme hasarı alır, başarılı olursa bunun yarısını.",
+				"Bu güçlü rüzgar sis, duman ve diğer gazları uzaklaştırır. Küçük boyda ya da daha küçük uçan varlıklar ve ya nesneler duvardan geçemez. Duvarın alanına giren serbest hafif materyaller yukarı doğru uçar. Ok ve benzeri sıradan misiller duvarın ardındaki hedeflere atılınca otomatik olarak yukarı doğru uçar ve ıskalar. (Devler ya da savaş makinaları tarafından fırlatılan kayalar ve benzeri misiller bundan etkilenmez.) Gaz formundaki varlıklar buradan geçemez."
 			],
 			"page": 288,
 			"damageInflict": [

@@ -352,7 +352,7 @@
 			]
 		},
 		{
-			"name": "Catnap",
+			"name": "Catnap (Kedi Uykusu)",
 			"source": "XGE",
 			"level": 3,
 			"school": "E",
@@ -371,7 +371,7 @@
 			},
 			"components": {
 				"s": true,
-				"m": "a pinch of sand"
+				"m": "bir tutam kum"
 			},
 			"duration": [
 				{
@@ -399,14 +399,14 @@
 				]
 			},
 			"entries": [
-				"You make a calming gesture, and up to three willing creatures of your choice that you can see within range fall {@condition unconscious} for the spell's duration. The spell ends on a target early if it takes damage or someone uses an eylem to shake or slap it awake. If a target remains {@condition unconscious} for the full duration, that target gains the benefit of a short rest, and it can't be affected by this spell again until it finishes a long rest."
+				"Sakinleştirici bir jest yaparsın ve menzilinde görebildiğin ve seçeceğin 3 istekli varlık büyü süresince {@condition bilinçsizlik} etkisi altında olurlar. Eğer bir hedef hasar alırsa ya da biri eylemini kullanıp onu sarsarak uyandırırsa büyü o hedef için erken sonlanır. Eğer bir hedef tam süre boyunca bilinçsiz kalırsa, o hedef kısa dinlenme faydalarını alır ve uzun dinlenme bitirene kadar bir daha bu büyü tarafından etkilenemez."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, you can target one additional willing creature for each slot level above 3rd."
+						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 3. üzeri her seviye için fazladan bir istekli varlık hedef alabilirsin."
 					]
 				}
 			],
@@ -1637,7 +1637,7 @@
 			]
 		},
 		{
-			"name": "Enemies Abound",
+			"name": "Enemies Abound (Heryer Düşman)",
 			"source": "XGE",
 			"level": 3,
 			"school": "E",
@@ -1689,8 +1689,8 @@
 				]
 			},
 			"entries": [
-				"You reach into the mind of one creature you can see and güç it to make an Intelligence saving throw. A creature automatically succeeds if it is immune to being {@condition frightened}. On a failed save, the target loses the ability to distinguish friend from foe, regarding all creatures it can see as enemies until the spell ends. Each time the target takes damage, it can repeat the saving throw, ending the effect on itself on a success.",
-				"Whenever the affected creature chooses another creature as a target, it must choose the target at random from among the creatures it can see within range of the attack, spell, or other ability it's using. If an enemy provokes an opportunity attack from the affected creature, the creature must make that attack if it is able to."
+				"Menzilinde görebildiğin bir varlığın zihnine girer ve onu Zeka kurtulma zarı atmaya zorlarsın. Eğer bir varlığın {@condition korkma} durumuna bağışıklığı varsa otomatik olarak başarılı olur. Başarısız olursa, hedef dost ve düşmanı ayırma yetisini kaybeder ve büyü bitene dek her varlığı düşmanı olarak görür. Hedef her hasar alışında kurtulma zarını tekrarlayabilir, başarılı olursa etki sona erer.",
+				"Etki altındaki varlık ne zaman yeni bir hedef seçecek olsa hedefini saldırı, büyü ya da diğer bir yeteneğinin menzilindeki görebildiği varlıklar arasından rastgele seçer. Eğer bir düşman etki altındaki varlıktan fırsat saldırısı tetikliyorsa, varlık mümkün olduğu sürece bu saldırıyı yapmalı."
 			],
 			"page": 155,
 			"savingThrow": [
@@ -1767,7 +1767,7 @@
 			]
 		},
 		{
-			"name": "Erupting Earth",
+			"name": "Erupting Earth (Püsküren Toprak)",
 			"source": "XGE",
 			"level": 3,
 			"school": "T",
@@ -1787,7 +1787,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a piece of obsidian"
+				"m": "bir parça obsidyen"
 			},
 			"duration": [
 				{
@@ -1811,14 +1811,14 @@
 				]
 			},
 			"entries": [
-				"Choose a point you can see on the ground within range. A fountain of churned earth and stone erupts in a 20-foot cube centered on that point. Each creature in that area must make a Dexterity saving throw. A creature takes {@dice 3d12} ezme damage on a failed save, or half as much damage on a successful one. Additionally, the ground in that area becomes difficult terrain until cleared. Each 5-foot-square portion of the area requires at least 1 minute to clear by hand."
+				"Menzilinde yerde görebildiğin bir nokta seç. O nokta merkezli 20 fitlik bir kübün içerisinde taş ve toprak karışık bir kaynak püskürür. O alandaki her varlık Çeviklik kurtulma zarı atar. Başarısız bir varlık {@dice 3d12} ezme hasarı alır, başarılı olursa bunun yarısını. Ek olarak, temizlenene kadar o alan zorlu araziye dönüşür. Elle temizlemek için her 5 fit karelik alan için en az 1 dakika harcaman gerekir."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@dice 1d12} for each slot level above 3rd."
+						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 3. üzeri her seviye için hasar {@dice 1d12} artar."
 					]
 				}
 			],
@@ -1926,7 +1926,7 @@
 			"page": 156
 		},
 		{
-			"name": "Flame Arrows",
+			"name": "Flame Arrows (Alev Okları)",
 			"source": "XGE",
 			"level": 3,
 			"school": "T",
@@ -1977,14 +1977,14 @@
 				]
 			},
 			"entries": [
-				"You touch a quiver containing arrows or bolts. When a target is hit by a ranged weapon attack using a piece of ammunition drawn from the quiver, the target takes an extra {@dice 1d6} ateş damage. The spell's magic ends on the piece of ammunition when it hits or misses, and the spell ends when twelve pieces of ammunition have been drawn from the quiver."
+				"Oklar içeren bir sadağa dokunursun. Bu sadaktan çekilen misilin kullanıldığı bir menzilli silah saldırısı ile vurulan hedef fazladan {@dice 1d6} ateş hasarı alır. O misil parçasında bu büyünün etkisi vursa da vurmasa da biter, ve büyü sadaktan 12 parça misil çekildiğinde sonlanır."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, the number of pieces of ammunition you can affect with this spell increases by two for each slot level above 3rd."
+						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 3. üzeri her seviye için bu büyü ile etkileyebileceğin misil sayısı 2 artar."
 					]
 				}
 			],
@@ -2963,7 +2963,7 @@
 			"page": 160
 		},
 		{
-			"name": "Life Transference",
+			"name": "Life Transference (Yaşam Nakli)",
 			"source": "XGE",
 			"level": 3,
 			"school": "N",
@@ -3002,14 +3002,14 @@
 				]
 			},
 			"entries": [
-				"You sacrifice some of your health to mend another creature's injuries. You take {@dice 4d8} nekrotik damage, and one creature of your choice that you can see within range regains a number of hit points equal to twice the nekrotik damage you take."
+				"Başka bir varlığın yaralarını sarmak için kendi sağlığından fedakarlık edersin.{@dice 4d8} nekrotik hasar alırsın, ve menzilinde görebildiğin ve seçeceğin bir varlık senin aldığın nekrotik hasarın iki katı kadar HP yeniler."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@dice 1d8} for each slot level above 3rd."
+						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 3. üzeri her seviye için hasar {@dice 1d8} artar."
 					]
 				}
 			],
@@ -3301,7 +3301,7 @@
 			]
 		},
 		{
-			"name": "Melf's Minute Meteors",
+			"name": "Melf's Minute Meteors (Melf'in Minik Meteorları)",
 			"source": "XGE",
 			"level": 3,
 			"school": "V",
@@ -3320,7 +3320,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "niter, sulfur, and pine tar formed into a bead"
+				"m": "güherçile, kükürt, ve boncuk yapılmış çam katranı"
 			},
 			"duration": [
 				{
@@ -3345,14 +3345,14 @@
 				]
 			},
 			"entries": [
-				"You create six tiny meteors in your space. They float in the air and orbit you for the spell's duration. When you cast the spell\u2014and as a bonus eylem on each of your turns thereafter\u2014you can expend one or two of the meteors, sending them streaking toward a point or points you choose within 120 feet of you. Once a meteor reaches its destination or impacts against a solid surface, the meteor explodes. Each creature within 5 feet of the point where the meteor explodes must make a Dexterity saving throw. A creature takes {@dice 2d6} ateş damage on a failed save, or half as much damage on a successful one."
+				"Alanında 6 küçük meteor yaratırsın. Büyü süresi boyunca bu alanda uçup çevrende dönerler. Bu büyüyü yaptığında \u2014ve sonrasında her sıranda bonus eylem olarak\u2014bir ya da iki meteorunu harcayıp bunları 120 fit yakınında seçeceğin noktaya ya da noktalara fırlatabilirsin. Bir meteor hedefine ulaştığında ya da sert bir yüzeye çarptığında patlar. Meteorun patladığı noktanın 5 fit çevresindeki her varlık Çeviklik kurtulma zarı atar. Başarısız bir varlık {@dice 2d6} ateş hasarı alır, başarılı olursa bunun yarısını."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, the number of meteors created increases by two for each slot level above 3rd."
+						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 3. üzeri her seviye için yaratılan meteor sayısı 2 artar."
 					]
 				}
 			],
@@ -4723,7 +4723,7 @@
 			]
 		},
 		{
-			"name": "Summon Lesser Demons",
+			"name": "Summon Lesser Demons (Ufak İblisler Çağır)",
 			"source": "XGE",
 			"level": 3,
 			"school": "C",
@@ -4743,7 +4743,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a vial of blood from a humanoid killed within the past 24 saat"
+				"m": "bir şişe son 24 saat içinde öldürülmüş bir insansı kanı"
 			},
 			"duration": [
 				{
@@ -4768,12 +4768,12 @@
 				]
 			},
 			"entries": [
-				"You utter foul words, summoning demons from the chaos of the Abyss. Roll on the following table to determine what appears.",
+				"Fena sözler söyleyip Abyss'in kaosundan iblisler çağırırsın. Ne çıkacağını belirlemek için aşağıdaki tabloda zar at.",
 				{
 					"type": "table",
 					"colLabels": [
 						"{@dice d6}",
-						"Demons Summoned"
+						"Çağrılan İblisler"
 					],
 					"colStyles": [
 						"col-xs-1 text-align-center",
@@ -4788,7 +4788,7 @@
 									"max": 2
 								}
 							},
-							"Two demons of challenge rating 1 or lower"
+							"CR 1 ya da altında 2 iblis"
 						],
 						[
 							{
@@ -4798,7 +4798,7 @@
 									"max": 4
 								}
 							},
-							"Four demons of challenge rating 1/2 or lower"
+							"CR 1/2 ya da altında 4 iblis"
 						],
 						[
 							{
@@ -4808,20 +4808,20 @@
 									"max": 6
 								}
 							},
-							"Eight demons of challenge rating 1/4 or lower"
+							"CR 1/4 ya da altında 8 iblis"
 						]
 					]
 				},
-				"The DM chooses the demons, such as manes or dretches, and you choose the unoccupied spaces you can see within range where they appear. A summoned demon disappears when it drops to 0 hit points or when the spell ends.",
-				"The demons are hostile to all creatures, including you. Roll initiative for the summoned demons as a group, which has its own turns. The demons pursue and attack the nearest non-demons to the best of their ability.",
-				"As part of casting the spell, you can form a circle on the ground with the blood used as a material component. The circle is large enough to encompass your space. While the spell lasts, the summoned demons can't cross the circle or harm it, and they can't target anyone within it. Using the material component in this manner consumes it when the spell ends."
+				"Manes ya da dretch gibi iblisleri DM seçer, sen de onların nerede belireceğini menzilinde görebildiğin boş alanlardan seçersin. Çağrılan bir iblis 0 HP'ye düştüğünde ya da büyü bittiğinde ortadan kaybolur.",
+				"İblisler sen dahil tüm varlıklara düşmandırlar. Çağrılan iblisler için grup öncelik zarı at, onların kendi sıraları olur. İblisler ellerinden geldiğince en yakın iblis olmayanları kovalar ve saldırır.",
+				"Büyüyü yapmanın bir parçası olarak materyal bileşen olarak kullandığın kan ile yere bir çember çizebilirsin. Bu çember senin alanını kapsayacak kadar büyük olur. Büyü devam ettiği sürece, çağrılan iblisler bu çemberi aşamaz ya da ona hasar veremez, ve içindekileri hedef alamaz. Materyal bileşeni bu şekilde kullanma büyü bittiğinde onu tüketir."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 6th or 7th level, you summon twice as many demons. If you cast it using a spell slot of 8th or 9th level, you summon three times as many demons."
+						"Bu büyüyü 6. ya da 7. seviye büyü yuvası harcayarak kullandığında, iki katı fazla iblis çağırırsın. Eğer bunu 8. ya da 9. seviye büyü yuvası harcayarak kullanırsan, üç katı fazla iblis çağırırsın."
 					]
 				}
 			],
@@ -5009,7 +5009,7 @@
 			]
 		},
 		{
-			"name": "Thunder Step",
+			"name": "Thunder Step (Gürleyen Adım)",
 			"source": "XGE",
 			"level": 3,
 			"school": "C",
@@ -5051,15 +5051,15 @@
 				]
 			},
 			"entries": [
-				"You teleport yourself to an unoccupied space you can see within range. Immediately after you disappear, a thunderous boom sounds, and each creature within 10 feet of the space you left must make a Constitution saving throw, taking {@dice 3d10} ses damage on a failed save, or half as much damage on a successful one. The ses can be heard from up to 300 feet away.",
-				"You can bring along objects as long as their weight doesn't exceed what you can carry. You can also teleport one willing creature of your size or smaller who is carrying gear up to its carrying capacity. The creature must be within 5 feet of you when you cast this spell, and there must be an unoccupied space within 5 feet of your destination space for the creature to appear in; otherwise, the creature is left behind."
+				"Menzilinde görebildiğin boş bir noktaya ışınlanırsın. Kaybolduğun anda bir gürleme sesi gelir, ve terkettiğin alanın 10 fit çevresindeki her varlık Dayanıklılık kurtulma zarı atar. Başarısız olan varlık {@dice 3d10} ses hasarı alır, başarılı olursa bunun yarısını. Bu ses 300 fit öteden duyulabilir.",
+				"Ağırlıkları taşıyabileceğin seviyeyi aşmadığı sürece nesneleri seninle birlikte götürebilirsin. Aynı zamanda senin boyutunda ya da daha küçük kendi taşıma kapasitesini aşmayan istekli bir varlığı da yanında ışınlayabilirsin. Sen büyüyü yaptığında bu varlık 5 fit yakınında olmalı ve gideceğin yerde o varlık için de 5 fitlik boş bir alan olmalı; aksi takdirde varlık geride kalır."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@dice 1d10} for each slot level above 3rd."
+						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 3. üzeri her seviye için hasar {@dice 1d10} artar."
 					]
 				}
 			],
@@ -5134,7 +5134,7 @@
 			]
 		},
 		{
-			"name": "Tidal Wave",
+			"name": "Tidal Wave (Gelgit Dalgası)",
 			"source": "XGE",
 			"level": 3,
 			"school": "C",
@@ -5154,7 +5154,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a drop of water"
+				"m": "bir damla su"
 			},
 			"duration": [
 				{
@@ -5178,7 +5178,7 @@
 				]
 			},
 			"entries": [
-				"You conjure up a wave of water that crashes down on an area within range. The area can be up to 30 feet long, up to 10 feet wide, and up to 10 feet tall. Each creature in that area must make a Dexterity saving throw. On a failure, a creature takes {@dice 4d8} ezme damage and is knocked {@condition prone}. On a success, a creature takes half as much damage and isn't knocked {@condition prone}. The water then spreads out across the ground in all directions, extinguishing unprotected flames in its area and within 30 feet of it, and then vanishes."
+				"Menzilinde bir alana vuracak bir su dalgası yaratırsın. Bu alan 30 fit uzunlukta, 10 fit genişlikte ve 10 fit yükseklikte olabilir. O alandaki her varlık Çeviklik kurtulma zarı atar. Başarısız olan bir varlık {@dice 4d8} ezme hasarı alır ve yere düşer. Başarılı olursa bu hasarın yarısını alır ve yere düşmez. Sonrasında su yerde her yöne doğru yayılır, 30 fit çevresindeki korunaksız ateşleri söndürür ve ortadan kaybolur."
 			],
 			"page": 168,
 			"damageInflict": [
@@ -5189,7 +5189,7 @@
 			]
 		},
 		{
-			"name": "Tiny Servant",
+			"name": "Tiny Servant (Minik Hizmetkar)",
 			"source": "XGE",
 			"level": 3,
 			"school": "T",
@@ -5227,16 +5227,16 @@
 				]
 			},
 			"entries": [
-				"You touch one Tiny, nonmagical object that isn't attached to another object or a surface and isn't being carried by another creature. The target animates and sprouts little arms and legs, becoming a creature under your control until the spell ends or the creature drops to 0 hit points. See the {@creature tiny servant|xge|stat block} for its statistics.",
-				"As a bonus eylem, you can mentally command the creature if it is within 120 feet of you. (If you control multiple creatures with this spell, you can command any or all of them at the same time, issuing the same command to each one.) You decide what eylem the creature will take and where it will move during its next turn, or you can issue a simple, general command, such as to fetch a key, stand watch, or stack some books. If you issue no commands, the servant does nothing other than defend itself against hostile creatures. Once given an order, the servant continues to follow that order until its task is complete.",
-				"When the creature drops to 0 hit points, it reverts to its original form, and any remaining damage carries over to that form."
+				"Başka bir varlık tarafından giyilmeyen ve taşınmayan, bir yere sabitlenmemiş, büyüsüz Minik bir nesneye dokunursun. Hedef can bulur ve küçük kollar ve bacaklar çıkararak senin kontrolün altında bir varlık olup büyü sona erene kadar ya da 0 HP'ye düşene kadar kalır. İstatistikleri için XGE üzerinde Tiny Servant kısmına bakın.",
+				"Bonus eylem olarak eğer bu varlık 120 fit yakınındaysa ona zihinsel olarak komut verebilirsin. (Eğer bu büyü ile birden çok varlık kontrol ediyorsan bunlardan sadece birine ya da hepsine aynısı olmak üzere komut verebilirsin.) Varlığın bir sonraki sırasında ne eylem gerçekleştireceğine ve nereye gideceğine sen karar verirsin, ya da anahtarı getir, kitapları sırala, bekçilik yap gibi basit ve genel bir komut verebilirsin. Eğer bir komut vermezsen, hizmetkar kendini düşman varlıklara karşı korumak dışında bir şey yapmaz. Bir komut verildiğinde, hizmetkar o komut gerçekleşene kadar uğraşmaya devam eder.",
+				"Varlık 0 HP'ye düştüğünde, asıl formuna geri döner ve hasarın fazlası o forma taşınır."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, you can animate two additional objects for each slot level above 3rd."
+						"Bu büyüyü 4. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 3. üzeri her seviye için 2 fazladan nesne canlandırabilirsin."
 					]
 				}
 			],
@@ -5508,7 +5508,7 @@
 			]
 		},
 		{
-			"name": "Wall of Sand",
+			"name": "Wall of Sand (Kum Duvarı)",
 			"source": "XGE",
 			"level": 3,
 			"school": "V",
@@ -5528,7 +5528,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a handful of sand"
+				"m": "bir avuç kum"
 			},
 			"duration": [
 				{
@@ -5549,12 +5549,12 @@
 				]
 			},
 			"entries": [
-				"You create a wall of swirling sand on the ground at a point you can see within range. You can make the wall up to 30 feet long, 10 feet high, and 10 feet thick, and it vanishes when the spell ends. It blocks line of sight but not movement. A creature is {@condition blinded} while in the wall's space and must spend 3 feet of movement for every 1 foot it moves there."
+				"Menzilinde yerde görebildiğin bir noktada dönen kumlardan bir duvar yaratırsın. Duvarı 30 fit uzunlukta, 10 fit yükseklikte ve 10 fit kalınlıkta yaratabilirsin ve büyü bittiğinde ortadan kaybolur. Görüşü engeller ama hareketi engellemez. Bir varlık duvarın alanındayken {@condition körlük} etkisi altındadır ve her gittiği 1 fit alan için 3 fit hareket harcaması gerekir."
 			],
 			"page": 170
 		},
 		{
-			"name": "Wall of Water",
+			"name": "Wall of Water (Su Duvarı)",
 			"source": "XGE",
 			"level": 3,
 			"school": "V",
@@ -5574,7 +5574,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a drop of water"
+				"m": "bir damla su"
 			},
 			"duration": [
 				{
@@ -5603,8 +5603,8 @@
 				]
 			},
 			"entries": [
-				"You create a wall of water on the ground at a point you can see within range. You can make the wall up to 30 feet long, 10 feet high, and 1 foot thick, or you can make a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall vanishes when the spell ends. The wall's space is difficult terrain.",
-				"Any ranged weapon attack that enters the wall's space has disadvantage on the attack roll, and ateş damage is halved if the ateş effect passes through the wall to reach its target. Spells that deal soğuk damage that pass through the wall cause the area of the wall they pass through to freeze solid (at least a 5-foot square section is frozen). Each 5-foot-square frozen section has AC 5 and 15 hit points. Reducing a frozen section to 0 hit points destroys it. When a section is destroyed, the wall's water doesn't fill it."
+				"Menzilinde yerde görebildiğin bir noktada sudan bir duvar yaratırsın. Duvarı 30 fit uzunlukta, 10 fit yükseklikte ve 1 fit kalınlıkta yapabilirsin, ya da çapı 20 fit, yüksekliği 20 fit ve kalınlığı 1 fit olan bir çember duvar da yaratabilirsin. Büyü sona erdiğinde duvar kaybolur. Duvarın alanı zorlu arazidir.",
+				"Duvarın alanından geçen tüm menzilli silah saldırıları dezavantajlı olur, ve eğer ateş hedefine ulaşmak için duvarın alanından geçmek zorundaysa ateş hasarı yarılanır. Soğuk hasarı veren büyüler duvardan geçtiklerinde o geçtiği kısmı (en az 5 fit karelik bir alan) buza çevirirler. Her donmuş 5 fit karelik alanın 5 AC'si ve 15 HP'si olur. Donmuş bir alanı 0 HP'ye düşürme onu yok eder. Bir kısım yok olduğunda duvarın suyu yeniden o kısmı doldurmaz."
 			],
 			"page": 170
 		},
