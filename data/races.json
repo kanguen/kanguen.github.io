@@ -1346,76 +1346,6 @@
 			]
 		},
 		{
-			"name": "Bugbear",
-			"source": "VGM",
-			"page": 119,
-			"size": "M",
-			"speed": 30,
-			"darkvision": 60,
-			"ability": {
-				"kuv": 2,
-				"çev": 1
-			},
-			"entries": [
-				{
-					"name": "Age",
-					"type": "entries",
-					"entries": [
-						"Bugbears reach adulthood at age 16 and live up to 80 years."
-					]
-				},
-				{
-					"name": "Alignment",
-					"type": "entries",
-					"entries": [
-						"Bugbears endure a harsh existence that demands each of them to remain self-sufficient, even at the expense of their fellows. They tend to be chaotic evil."
-					]
-				},
-				{
-					"name": "Darkvision",
-					"entries": [
-						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Long-Limbed",
-					"entries": [
-						"When you make a melee attack on your turn, your reach for it is 5 feet greater than normal."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Powerful Build",
-					"entries": [
-						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Sneaky",
-					"entries": [
-						"You are proficient in the Stealth skill."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Surprise Attack",
-					"entries": [
-						"If you surprise a creature and hit it with an attack on your first turn in combat, the attack deals an extra 2d6 damage to it. You can use this trait only once per combat."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Languages",
-					"entries": [
-						"You can speak, read, and write Common and Goblin."
-					],
-					"type": "entries"
-				}
-			]
-		},
-		{
 			"name": "Aasimar",
 			"source": "VGM",
 			"page": 104,
@@ -1427,875 +1357,106 @@
 			},
 			"entries": [
 				{
-					"name": "Age",
+					"name": "Yaş",
 					"type": "entries",
 					"entries": [
-						"Aasimar mature at the same rate as humans, but they can live up to 160 years."
+						"Aasimarlar insanlarla aynı hızda olgunlaşır ama 160 yıla kadar yaşayabilirler."
 					]
 				},
 				{
-					"name": "Alignment",
+					"name": "Yönelim",
 					"type": "entries",
 					"entries": [
-						"Imbued with celestial power, most aasimar are good. Outcast aasimar are most often neutral or even evil."
+						"Kutsal güç ile bağlanmış olan aasimarların çoğu iyi olur. Toplumdan atılmış aasimarlar genellikle nötr hatta bazen kötü bile olabilirler."
 					]
 				},
 				{
-					"name": "Darkvision",
+					"name": "Gece Görüşü",
 					"entries": [
-						"Blessed with a radiant soul, your vision can easily cut through darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+						"Işıldayan bir ruhla kutsandığın için görüşün karanlığı deler geçer. 60 feet yakınında loş ışığı parlak ışık gibi, karanlıkta da loş ışık gibi görürsün. Karanlıkta renk ayırt edemezsin, sadece grinin tonları olur."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Celestial Resistance",
+					"name": "Kutsal Direnç",
 					"entries": [
-						"You have resistance to necrotic damage and radiant damage."
+						"Nekrotik ve radyant hasara karşı direncin vardır."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Healing Hands",
+					"name": "Şifalı Eller",
 					"entries": [
-						"As an action, you can touch a creature and cause it to regain a number of hit points equal to your level. Once you use this trait, you can't use it again until you finish a long rest."
+						"Eylem olarak, bir varlığa dokunup onun senin seviyene eşit miktarda HP yenilemesini sağlayabilirsin. Bu özelliği kullandıktan sonra uzun dinlenme bitirene kadar bir daha kullanamazsın."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Light Bearer",
+					"name": "Işık Taşıyıcı",
 					"entries": [
-						"You know the {@spell Işık} cantrip. Charisma is your spellcasting ability for it."
+						"{@spell Light} cantripini bilirsin. Bunun için büyü yapma yeteneğin Karizmadır."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Languages",
+					"name": "Diller",
 					"entries": [
-						"You can speak, read, and write Common and Celestial."
+						"Ortak dil ve Celestial (kutsal) dili okur, yazar ve konuşabilirsin."
 					],
 					"type": "entries"
 				}
 			],
 			"subraces": [
 				{
-					"name": "Fallen",
+					"name": "Günahkar",
 					"ability": {
 						"kuv": 1
 					},
 					"entries": [
 						{
-							"name": "Necrotic Shroud",
+							"name": "Nekrotik Örtü",
 							"entries": [
-								"Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing your eyes to turn into pools of darkness and two skeletal, ghostly, flightless wings to sprout from your back. The instant you transform, other creatures within 10 feet of you that can see you must succeed on a Charisma saving throw (DC 8 + your proficiency bonus + your Charisma modifier) or become {@condition frightened} of you until the end of your next turn.",
-								"Your transformation lasts for 1 minute or until you end it as a bonus action. During it, once on each of your turns, you can deal extra necrotic damage to one target when you deal damage to it with an attack or a spell. The extra necrotic damage equals your level.",
-								"Once you use this trait, you can't use it again until you finish a long rest."
+								"3. seviyeden itibaren, eylemini kullanıp kendi içindeki kutsal enerjiyi serbest bırakır, gözlerini karanlık havuzlara çevirip sırtından uçuş yeteneği olmayan iki iskelet, hayaletimsi kanat çıkarabilirsin. Dönüştüğün anda 10 fit yakınında seni görebilen diğer varlıklar Karizma kurtulma zarı atar (DC 8 + uzmanlık bonusun + Karizma bonusun) ya da bir sonraki sıranın sonuna kadar senden {@condition korkma} durumunda olurlar.",
+								"Bu dönüşümün 1 dakika ya da sen onu bonus eylem olarak bitirene kadar sürer. Bu süreçte her sıranda bir kereliğine, tek hedefe ona bir büyü ya da saldırı ile hasar verdiğinde fazladan nekrotik hasar verebilirsin. Bu fazladan nekrotik hasar seviyene eşittir.",
+								"Bu özelliği kullandıktan sonra uzun dinlenme bitirene kadar bir daha kullanamazsın."
 							],
 							"type": "entries"
 						}
 					]
 				},
 				{
-					"name": "Protector",
+					"name": "Koruyucu",
 					"ability": {
 						"akı": 1
 					},
 					"entries": [
 						{
-							"name": "Radiant Soul",
+							"name": "Parlak Ruh",
 							"entries": [
-								"Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing your eyes to glimmer and two luminous, incorporeal wings to sprout from your back.",
-								"Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you have a flying speed of 30 feet, and once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra radiant damage equals your level.",
-								"Once you use this trait, you can't use it again until you finish a long rest."
+								"3. seviyeden itibaren, eylemini kullanıp kendi içindeki kutsal enerjiyi serbest bırakırsın, gözlerin parıldar ve sırtından iki ışıldayan cisimsiz kanat çıkar.",
+								"Bu dönüşümün 1 dakika ya da sen onu bonus eylem olarak bitirene kadar sürer. Bu süreçte 30 fit uçma hızın olur ve her sıranda bir kereliğine, tek hedefe ona bir büyü ya da saldırı ile hasar verdiğinde fazladan radyant hasar verebilirsin. Bu fazladan radyant hasar seviyene eşittir.",
+								"Bu özelliği kullandıktan sonra uzun dinlenme bitirene kadar bir daha kullanamazsın."
 							],
 							"type": "entries"
 						}
 					]
 				},
 				{
-					"name": "Scourge",
+					"name": "Felaket",
 					"ability": {
 						"day": 1
 					},
 					"entries": [
 						{
-							"name": "Radiant Consumption",
+							"name": "Parlak Tükeniş",
 							"entries": [
-								"Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing a searing light to radiate from you, pour out of your eyes and mouth, and threaten to char you.",
-								"Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you shed bright light in a 10-foot radius and dim light for an additional 10 feet, and at the end of each of your turns, you and each creature within 10 feet of you take radiant damage equal to half your level (rounded up). In addition, once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra radiant damage equals your level.",
-								"Once you use this trait, you can't use it again until you finish a long rest."
+								"3. seviyeden itibaren, eylemini kullanıp kendi içindeki kutsal enerjiyi serbest bırakırsın, kavurucu bir ışık senden saçılmaya başlar, gözlerinden ve ağzından boşalır ve seni yakmaya çalışır.",
+								"Bu dönüşümün 1 dakika ya da sen onu bonus eylem olarak bitirene kadar sürer. Bu süreçte 10 fit çevrene parlak ışık, ötesinde 10 fit daha loş ışık saçarsın, ve her sıranın sonunda sen ve 10 fit çevrendeki her varlık senin seviyenin yarısı kadar (üste yuvarlanır) radyant hasar alır. Ek olarak, her sıranda bir kereliğine, tek hedefe ona bir büyü ya da saldırı ile hasar verdiğinde fazladan radyant hasar verebilirsin. Bu fazladan radyant hasar seviyene eşittir.",
+								"Bu özelliği kullandıktan sonra uzun dinlenme bitirene kadar bir daha kullanamazsın."
 							],
 							"type": "entries"
 						}
 					]
-				}
-			]
-		},
-		{
-			"name": "Firbolg",
-			"source": "VGM",
-			"page": 107,
-			"size": "M",
-			"speed": 30,
-			"ability": {
-				"akı": 2,
-				"kuv": 1
-			},
-			"entries": [
-				{
-					"name": "Age",
-					"type": "entries",
-					"entries": [
-						"As humanoids related to the fey, firbolg have long lifespans. A firbolg reaches adulthood around 30, and the oldest of them can live for 500 years."
-					]
-				},
-				{
-					"name": "Alignment",
-					"type": "entries",
-					"entries": [
-						"As people who follow the rhythm of nature and see themselves as its caretakers, firbolg are typically neutral good. Evil firbolg are rare and are usually the sworn enemies of the rest of their kind."
-					]
-				},
-				{
-					"name": "Firbolg Magic",
-					"entries": [
-						"You can cast {@spell Büyüyü Hisset} and {@spell Kılık Değiştir} with this trait, using Wisdom as your spellcasting ability for them. Once you cast either spell, you can't cast it again with this trait until you finish a short or long rest. When you use this version of {@spell Kılık Değiştir}, you can seem up to 3 feet shorter than normal, allowing you to more easily blend in with humans and elves."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Hidden Step",
-					"entries": [
-						"As a bonus action, you can magically turn {@condition invisible} until the start of your next turn or until you attack, make a damage roll, or force someone to make a saving throw. Once you use this trait, you can't use it again until you finish a short or long rest."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Powerful Build",
-					"entries": [
-						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Speech of Beast and Leaf",
-					"entries": [
-						"You have the ability to communicate in a limited manner with beasts and plants. They can understand the meaning of your words, though you have no special ability to understand them in return. You have advantage on all Charisma checks you make to influence them."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Languages",
-					"entries": [
-						"You can speak, read, and write Common, Elvish, and Giant."
-					],
-					"type": "entries"
-				}
-			]
-		},
-		{
-			"name": "Goblin",
-			"source": "VGM",
-			"page": 119,
-			"size": "S",
-			"speed": 30,
-			"darkvision": 60,
-			"ability": {
-				"çev": 2,
-				"day": 1
-			},
-			"entries": [
-				{
-					"name": "Age",
-					"type": "entries",
-					"entries": [
-						"Goblins reach adulthood at age 8 and live up to 60 years."
-					]
-				},
-				{
-					"name": "Alignment",
-					"type": "entries",
-					"entries": [
-						"Goblins are typically neutral evil, as they care only for their own needs. A few goblins might tend toward good or neutrality, but only rarely."
-					]
-				},
-				{
-					"name": "Darkvision",
-					"entries": [
-						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Fury of the Small",
-					"entries": [
-						"When you damage a creature with an attack or a spell and the creature's size is larger than yours, you can cause the attack or spell to deal extra damage to the creature. The extra damage equals your level. Once you use this trait, you can't use it again until you finish a short or long rest."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Nimble Escape",
-					"entries": [
-						"You can take the Disengage or Hide action as a bonus action on each of your turns."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Languages",
-					"entries": [
-						"You can speak, read, and write Common and Goblin."
-					],
-					"type": "entries"
-				}
-			]
-		},
-		{
-			"name": "Hobgoblin",
-			"source": "VGM",
-			"page": 119,
-			"size": "M",
-			"speed": 30,
-			"darkvision": 60,
-			"ability": {
-				"day": 2,
-				"zek": 1
-			},
-			"entries": [
-				{
-					"name": "Age",
-					"type": "entries",
-					"entries": [
-						"Hobgoblins mature at the same rate as humans and have lifespans similar in length to theirs."
-					]
-				},
-				{
-					"name": "Alignment",
-					"type": "entries",
-					"entries": [
-						"Hobgoblin society is built on fidelity to a rigid, unforgiving code of conduct. As such, they tend toward lawful evil."
-					]
-				},
-				{
-					"name": "Darkvision",
-					"entries": [
-						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Martial Training",
-					"entries": [
-						"You are proficient with two martial weapons of your choice and with light armor."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Saving Face",
-					"entries": [
-						"Hobgoblins are careful not to show weakness in front of their allies, for fear of losing status. If you miss with an attack roll or fail an ability check or a saving throw, you can gain a bonus to the roll equal to the number of allies you can see within 30 feet of you (maximum bonus of +5). Once you use this trait, you can't use it again until you finish a short or long rest."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Languages",
-					"entries": [
-						"You can speak, read, and write Common and Goblin."
-					],
-					"type": "entries"
-				}
-			]
-		},
-		{
-			"name": "Kenku",
-			"source": "VGM",
-			"page": 109,
-			"size": "M",
-			"speed": 30,
-			"ability": {
-				"çev": 2,
-				"akı": 1
-			},
-			"entries": [
-				{
-					"name": "Age",
-					"type": "entries",
-					"entries": [
-						"Kenku have shorter lifespans than humans. They reach maturity at about 12 years old and can live to 60."
-					]
-				},
-				{
-					"name": "Alignment",
-					"type": "entries",
-					"entries": [
-						"Kenku are chaotic creatures, rarely making enduring commitments, and they care mostly for preserving their own hides. They are generally chaotic neutral in outlook."
-					]
-				},
-				{
-					"name": "Expert Forgery",
-					"entries": [
-						"You can duplicate other creatures' handwriting and craftwork. You have advantage on all checks made to produce forgeries or duplicates of existing objects."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Kenku Training",
-					"entries": [
-						"You are proficient in your choice of two of the following skills: Acrobatics, Deception, Stealth, and Sleight of Hand."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Mimicry",
-					"entries": [
-						"You can mimic sounds you have heard, including voices. A creature that hears the sounds can tell they are imitations with a successful Wisdom (Insight) check opposed by your Charisma (Deception) check."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Languages",
-					"entries": [
-						"You can read and write Common and Auran, but you can only speak using your Mimicry trait."
-					],
-					"type": "entries"
-				}
-			]
-		},
-		{
-			"name": "Kobold",
-			"source": "VGM",
-			"page": 119,
-			"size": "S",
-			"speed": 30,
-			"darkvision": 60,
-			"ability": {
-				"çev": 2,
-				"kuv": -2
-			},
-			"entries": [
-				{
-					"name": "Age",
-					"type": "entries",
-					"entries": [
-						"Kobolds reach adulthood at age 6 and can live up to 120 years but rarely do so."
-					]
-				},
-				{
-					"name": "Alignment",
-					"type": "entries",
-					"entries": [
-						"Kobolds are fundamentally selfish, making them evil, but their reliance on the strength of their group makes them trend toward law."
-					]
-				},
-				{
-					"name": "Darkvision",
-					"entries": [
-						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Grovel, Cower, and Beg",
-					"entries": [
-						"As an action on your turn, you can cower pathetically to distract nearby foes. Until the end of your next turn, your allies gain advantage on attack rolls against enemies within 10 feet of you that you can see. Once you uses this trait, you can't use it again until you finish a short or long rest."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Pack Tactics",
-					"entries": [
-						"You have advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Sunlight Sensitivity",
-					"entries": [
-						"You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Languages",
-					"entries": [
-						"You can speak, read, and write Common and Draconic."
-					],
-					"type": "entries"
-				}
-			]
-		},
-		{
-			"name": "Lizardfolk",
-			"source": "VGM",
-			"page": 111,
-			"size": "M",
-			"speed": {
-				"walk": 30,
-				"swim": 30
-			},
-			"ability": {
-				"day": 2,
-				"akı": 1
-			},
-			"entries": [
-				{
-					"name": "Age",
-					"type": "entries",
-					"entries": [
-						"Lizardfolk reach maturity around age 14 and rarely live longer than 60 years."
-					]
-				},
-				{
-					"name": "Alignment",
-					"type": "entries",
-					"entries": [
-						"Most lizardfolk are neutral. They see the world as a place of predators and prey, where life and death are natural processes. They wish only to survive, and prefer to leave other creatures to their own devices."
-					]
-				},
-				{
-					"name": "Swim Speed",
-					"entries": [
-						"You have a swimming speed of 30 feet."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Bite",
-					"entries": [
-						"Your fanged maw is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Cunning Artisan",
-					"entries": [
-						"As part of a short rest, you can harvest bone and hide from a slain beast, construct, dragon, monstrosity, or plant creature of size small or larger to create one of the following items: a shield, a club, a javelin, or 1d4 darts or blowgun needles. To use this trait, you need a blade, such as a dagger, or appropriate artisan's tools, such as leatherworker's tools."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Hold Breath",
-					"entries": [
-						"You can hold your breath for up to 15 minutes at a time."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Hunter's Lore",
-					"entries": [
-						"You gain proficiency with two of the following skills of your choice: Animal Handling, Nature, Perception, Stealth, and Survival."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Natural Armor",
-					"entries": [
-						"You have tough, scaly skin. When you aren't wearing armor, your AC is 13 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Hungry Jaws",
-					"entries": [
-						"In battle, you can throw yourself into a vicious feeding frenzy. As a bonus action, you can make a special attack with your bite. If the attack hits, it deals its normal damage, and you gain temporary hit points equal to your Constitution modifier (minimum of 1), and you can't use this trait again until you finish a short or long rest."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Languages",
-					"entries": [
-						"You can speak, read, and write Common and Draconic."
-					],
-					"type": "entries"
-				}
-			]
-		},
-		{
-			"name": "Orc",
-			"source": "VGM",
-			"page": 120,
-			"size": "M",
-			"speed": 30,
-			"darkvision": 60,
-			"ability": {
-				"kuv": 2,
-				"day": 1,
-				"zek": -2
-			},
-			"entries": [
-				{
-					"name": "Age",
-					"type": "entries",
-					"entries": [
-						"Orcs reach adulthood at age 12 and live up to 50 years."
-					]
-				},
-				{
-					"name": "Alignment",
-					"type": "entries",
-					"entries": [
-						"Orcs are vicious raiders, who believe that the world should be theirs. They also respect strength above all else and believe the strong must bully the weak to ensure that weakness does not spread like a disease. They are usually chaotic evil."
-					]
-				},
-				{
-					"name": "Darkvision",
-					"entries": [
-						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Aggressive",
-					"entries": [
-						"As a bonus action, you can move up to your movement speed toward a hostile creature you can see or hear. You must end this move closer to the enemy than you started."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Menacing",
-					"entries": [
-						"You are trained in the Intimidation skill."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Powerful Build",
-					"entries": [
-						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Languages",
-					"entries": [
-						"You can speak, read, and write Common and Orc."
-					],
-					"type": "entries"
-				}
-			]
-		},
-		{
-			"name": "Tabaxi",
-			"source": "VGM",
-			"page": 113,
-			"size": "M",
-			"speed": {
-				"walk": 30,
-				"climb": 20
-			},
-			"darkvision": 60,
-			"ability": {
-				"çev": 2,
-				"kar": 1
-			},
-			"entries": [
-				{
-					"name": "Age",
-					"type": "entries",
-					"entries": [
-						"Tabaxi have lifespans equivalent to humans."
-					]
-				},
-				{
-					"name": "Alignment",
-					"type": "entries",
-					"entries": [
-						"Tabaxi tend toward chaotic alignments, as they let impulse and fancy guide their decisions. They are rarely evil, with most of them driven by curiosity rather than greed or other dark impulses."
-					]
-				},
-				{
-					"name": "Darkvision",
-					"entries": [
-						"You have a cat's keen senses, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Feline Agility",
-					"entries": [
-						"Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Cat's Claws",
-					"entries": [
-						"Because of your claws, you have a climbing speed of 20 feet. In addition, your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Cat's Talents",
-					"entries": [
-						"You have proficiency in the Perception and Stealth skills."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Languages",
-					"entries": [
-						"You can speak, read, and write Common and one other language of your choice."
-					],
-					"type": "entries"
-				}
-			]
-		},
-		{
-			"name": "Triton",
-			"source": "VGM",
-			"size": "M",
-			"speed": {
-				"walk": 30,
-				"swim": 30
-			},
-			"page": 115,
-			"ability": {
-				"kuv": 1,
-				"kar": 1,
-				"day": 1
-			},
-			"entries": [
-				{
-					"name": "Age",
-					"type": "entries",
-					"entries": [
-						"Tritons reach maturity around age 15 and can live up to 200 years."
-					]
-				},
-				{
-					"name": "Alignment",
-					"type": "entries",
-					"entries": [
-						"Tritons tend toward lawful good. As guardians of the darkest reaches of the sea, their culture pushes them toward order and benevolence."
-					]
-				},
-				{
-					"name": "Swim Speed",
-					"entries": [
-						"You have a swimming speed of 30 feet."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Amphibious",
-					"entries": [
-						"You can breathe air and water."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Control Air and Water",
-					"entries": [
-						"A child of the sea, you can call on the magic of elemental air and water. You can cast {@spell Sis Bulutu} with this trait. Starting at 3rd level, you can cast {@spell gust of wind} with it, and starting at 5th level, you can also cast {@spell wall of water|xge} with it. Once you cast a spell with this trait, you can't cast that spell with it again until you finish a long rest. Charisma is your spellcasting ability for these spells."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Emissary of the Sea",
-					"entries": [
-						"Aquatic beasts have an extraordinary affinity with your people. You can communicate simple ideas with beasts that can breathe water. They can understand the meaning of your words, though you have no special ability to understand them in return."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Guardians of the Depths",
-					"entries": [
-						"Adapted to even the most extreme ocean depths, you have resistance to cold damage, and you ignore any of the drawbacks caused by a deep, underwater environment."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Languages",
-					"entries": [
-						"You can speak, read, and write Common and Primordial."
-					],
-					"type": "entries"
-				}
-			]
-		},
-		{
-			"name": "Yuan-ti Pureblood",
-			"source": "VGM",
-			"page": 120,
-			"size": "M",
-			"speed": 30,
-			"darkvision": 60,
-			"ability": {
-				"kar": 2,
-				"zek": 1
-			},
-			"entries": [
-				{
-					"name": "Age",
-					"type": "entries",
-					"entries": [
-						"Purebloods mature at the same rate as humans and have lifespans similar in length to theirs."
-					]
-				},
-				{
-					"name": "Alignment",
-					"type": "entries",
-					"entries": [
-						"Purebloods are devoid of emotion and see others as tools to manipulate. They care little for law or chaos and are typically neutral evil."
-					]
-				},
-				{
-					"name": "Darkvision",
-					"entries": [
-						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Innate Spellcasting",
-					"entries": [
-						"You know the {@spell Zehir Spreyi} cantrip. You can cast {@spell Hayvan Dostluğu} an unlimited number of times with this trait, but you can target only snakes with it. Starting at 3rd level, you can also cast {@spell suggestion} with this trait. Once you cast it, you can't do so again until you finish a long rest. Charisma is your spellcasting ability for these spells."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Magic Resistance",
-					"entries": [
-						"You have advantage on saving throws against spells and other magical effects."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Poison Immunity",
-					"entries": [
-						"You are immune to poison damage and the {@condition poisoned} condition."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Languages",
-					"entries": [
-						"You can speak, read, and write Common, Abyssal, and Draconic."
-					],
-					"type": "entries"
-				}
-			]
-		},
-		{
-			"name": "Aasimar (DMG)",
-			"source": "DMG",
-			"page": 286,
-			"size": "M",
-			"speed": 30,
-			"darkvision": 60,
-			"ability": {
-				"akı": 1,
-				"kar": 2
-			},
-			"entries": [
-				{
-					"name": "Age",
-					"type": "entries",
-					"entries": [
-						"Aasimar mature at the same rate as humans but live a few years longer."
-					]
-				},
-				{
-					"name": "Alignment",
-					"type": "entries",
-					"entries": [
-						"Due to their celestial heritage, aasimar are often good. However, some aasimar fall into evil, rejecting their heritage."
-					]
-				},
-				{
-					"name": "Darkvision",
-					"entries": [
-						"Thanks to your celestial heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of grey."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Celestial Resistance",
-					"entries": [
-						"You have resistance to necrotic and radiant damage."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Celestial Legacy",
-					"entries": [
-						"You know the {@spell Işık} cantrip. Once you reach 3rd level, you can cast the {@spell lesser restoration} spell once with this trait, and you regain the ability to do so when you finish a long rest. Once you reach 5th level, you can cast the {@spell daylight} spell once with this trait as a 3rd-level spell, and you regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Language",
-					"entries": [
-						"You can speak, read, and write Common and Celestial."
-					],
-					"type": "entries"
-				}
-			]
-		},
-		{
-			"name": "Tortle",
-			"source": "TTP",
-			"page": 3,
-			"ability": {
-				"kuv": 2,
-				"akı": 1
-			},
-			"size": "M",
-			"speed": 30,
-			"entries": [
-				{
-					"name": "Age",
-					"type": "entries",
-					"entries": [
-						"Young tortles crawl for a few weeks after birth before learning to walk on two legs. They reach adulthood by the age of 15 and live an average of 50 years."
-					]
-				},
-				{
-					"name": "Alignment",
-					"type": "entries",
-					"entries": [
-						"Tortles tend to lead orderly, ritualistic lives. They develop customs and routines, becoming more set in their ways as they age. Most are lawful good. A few can be selfish and greedy, tending more toward evil, but it's unusual for a tortle to shuck off order in favor of chaos."
-					]
-				},
-				{
-					"name": "Claws",
-					"entries": [
-						"Your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of bludgeoning damage normal for an unarmed strike."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Hold Breath",
-					"entries": [
-						"You can hold your breath for up to 1 hour at a time. Tortles aren't natural swimmers, but they can remain underwater for some time before needing to come up for air."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Natural Armor",
-					"entries": [
-						"Due to your shell and the shape of your body, you are ill-suited to wearing armor. Your shell provides ample protection, however; it gives you a base AC of 17 (your Dexterity modifier doesn't affect this number). You gain no benefit from wearing armor, but if you are using a shield, you can apply the shield's bonus as normal."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Shell Defense",
-					"entries": [
-						"You can withdraw into your shell as an action. until you emerge, you gain a +4 bonus to AC, and you have advantage on Strength and Constitution saving throws. While in your shell, you are {@condition prone}, your speed is 0 and can't increase, you have disadvantage on Dexterity saving throws, you can't take reaction, and the only action you can take is a bonus action to emerge from your shell."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Survival Instinct",
-					"entries": [
-						"You gain proficiency in the Survival skill. Tortles have finely honed survival instincts."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Languages",
-					"entries": [
-						"You can speak, read, and write Aquan and Common."
-					],
-					"type": "entries"
 				}
 			]
 		}

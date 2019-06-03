@@ -651,7 +651,7 @@
 			]
 		},
 		{
-			"name": "Antilife Shell",
+			"name": "Antilife Shell (Hayat Karşıtı Kabuk)",
 			"level": 5,
 			"school": "A",
 			"time": [
@@ -713,9 +713,9 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"A shimmering barrier extends out from you in a 10-foot radius and moves with you, remaining centered on you and hedging out creatures other than undead and constructs.",
-				"The barrier lasts for the duration. The barrier prevents an affected creature from passing or reaching through. An affected creature can cast spells or make attacks with ranged or reach weapons through the barrier.",
-				"If you move so that an affect creature is forced to pass through the barrier, the spell ends."
+				"Senin 10 fit çevrene ışıldayan bir bariyer uzanır ve merkezi sende olacak şekilde seninle hareket eder. Yaşayan ölüler ve yapılar dışında varlıklar buradan geçemez.",
+				"Bariyer süre boyunca kalır ve etkilenen bir varlığın geçmesini ya da içine uzanmasını engeller. Etkilenen bir varlık hala büyü kullanabilir ve menzilli ya da erişimi olan silahlarla bariyeri aşan saldırılar yapabilir.",
+				"Eğer etkilenen varlığı bariyerin içine girmeye zorlayacak şekilde hareket edersen büyü biter."
 			],
 			"page": 213
 		},
