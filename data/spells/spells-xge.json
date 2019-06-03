@@ -713,7 +713,7 @@
 			]
 		},
 		{
-			"name": "Charm Monster",
+			"name": "Charm Monster (Canavar Cezbet)",
 			"source": "XGE",
 			"level": 4,
 			"school": "E",
@@ -768,14 +768,14 @@
 				]
 			},
 			"entries": [
-				"You attempt to charm a creature you can see within range. It must make a Wisdom saving throw, and it does so with advantage if you or your companions are fighting it. If it fails the saving throw, it is {@condition charmed} by you until the spell ends or until you or your companions do anything harmful to it. The {@condition charmed} creature is friendly to you. When the spell ends, the creature knows it was {@condition charmed} by you."
+				"Menzilinde görebildiğin bir varlığı cezbetmeye çalışırsın. Akıl kurtulma zarı atar ve eğer sen ya da yoldaşların onunla savaşıyorsanız bu zarda avantajlıdır. Kurtulma zarında başarısız olursa, süre bitene veya sen ya da yoldaşların ona zararlı bir şey yapana kadar senin tarafından {@condition cezbedilme} etkisinde olur. Cezbedilmiş varlık sana dosttur. Büyü bittiğinde varlık senin tarafından cezbedildiğini bilir."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th. The creatures must be within 30 feet of each other when you target them."
+						"Bu büyüyü 5. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 4. üzeri her seviye için fazladan bir varlık hedef alabilirsin. Varlıklar sen onları hedef aldığında birbirinin 30 fit yakınında olmalıdır."
 					]
 				}
 			],
@@ -1565,7 +1565,7 @@
 			]
 		},
 		{
-			"name": "Elemental Bane",
+			"name": "Elemental Bane (Elemental Bela)",
 			"source": "XGE",
 			"level": 4,
 			"school": "T",
@@ -1613,14 +1613,14 @@
 				]
 			},
 			"entries": [
-				"Choose one creature you can see within range, and choose one of the following damage types: asit, soğuk, ateş, yıldırım, or ses. The target must succeed on a Constitution saving throw or be affected by the spell for its duration. The first time each turn the affected target takes damage of the chosen type, the target takes an extra {@dice 2d6} damage of that type. Moreover, the target loses any resistance to that damage type until the spell ends."
+				"Menzilinde görebildiğin bir varlık ve şu hasar tiplerinden birini seç: asit, soğuk, ateş, yıldırım, ya da ses. Varlık Dayanıklılık kurtulma zarı atar ya da süresi boyunca bu büyü tarafından etki altında olur. Hedef her round seçtiğin tipte ilk hasar alışında, o tipte fazladan {@dice 2d6} hasar alır. Fazlası, hedef büyü bitene dek o hasar tipine olan direncini kaybeder."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th. The creatures must be within 30 feet of each other when you target them."
+						"Bu büyüyü 5. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 4. üzeri her seviye için fazladan bir varlık hedef alabilirsin. Varlıklar sen onları hedef aldığında birbirinin 30 fit yakınında olmalıdır."
 					]
 				}
 			],
@@ -1882,7 +1882,7 @@
 			"page": 155
 		},
 		{
-			"name": "Find Greater Steed",
+			"name": "Find Greater Steed (Üstün Binek Bul)",
 			"source": "XGE",
 			"level": 4,
 			"school": "C",
@@ -1917,11 +1917,11 @@
 				]
 			},
 			"entries": [
-				"You summon a spirit that assumes the form of a loyal, majestic mount. Appearing in an unoccupied space within range, the spirit takes on a form you choose: a griffon, a pegasus, a peryton, a dire wolf, a rhinoceros, or a saber-toothed tiger. The creature has the statistics provided in the Monster Manual for the chosen form, though it is a celestial, a fey, or a fiend (your choice) instead of its normal creature type. Additionally, if it has an Intelligence score of 5 of lower, its Intelligence becomes 6, and it gains the ability to understand one language of your choice that you speak.",
-				"You control the mount in combat. While the mount is within 1 mile of you, you can communicate with it telepathically. While mounted on it, you can make any spell you cast that targets only you also target the mount.",
-				"The mount disappears temporarily when it drops to 0 hit points or when you dismiss it as an eylem. Casting this spell again re-summons the bonded mount, with all its hit points restored and any conditions removed.",
-				"You can't have more than one mount bonded by this spell or find steed at any time. As an eylem, you can release a mount from its bond, causing it to disappear permanently.",
-				"Whenever the mount disappears, it leaves behind any objects it was wearing or carrying."
+				"Sadık, görkemli bir binek formunu alan bir ruh çağırırsın. Menzilindeki boş bir alanda ortaya çıkan ruh şunlardan seçeceğin bir formu alır: bir griffon, bir pegasus, bir peryton, bir ulu kurt, bir gergedan veya bir kılıç dişli kaplan. Seçilen form için varlığın istatistikleri Monster Manual kitabında verilmiştir, ama normal varlık tipi yerine senin seçimine göre kutsal, fey, veya bir zebani olur. Ek olarak, Zeka skoru 5 ya da altındaysa bu skor 6 olur ve seçeceğin senin konuştuğun bir dili anlayabilme yeteneğini kazanır.",
+				"Bineği savaşta sen yönetirsin. Binek senin 1 mil yakınında olduğu sürece onunla telepatik iletişime geçebilirsin. Üzerine binmiş haldeyken, sadece seni hedef alan bir büyü kullandığında bineği de hedef alabilirsin.",
+				"Binek 0 HP'ye düştüğünde ya da sen onu eylem olarak savdığında geçici olarak kaybolur. Bu büyüyü yeniden kullanma, bağlı olduğun bineği tüm HP'si yenilenmiş ve tüm durumları sonlanmış halde tekrar çağırır.",
+				"Bu büyü ya da find steed büyüsü ile bağlı birden çok bineğin olamaz. Eylem olarak bineği bağından ayırabilirsin, bu şekilde kalıcı bir şekilde ortadan kaybolur.",
+				"Binek ne zaman kaybolsa giydiği ve taşıdığı tüm nesneleri geride bırakır."
 			],
 			"page": 156
 		},
@@ -2053,7 +2053,7 @@
 			]
 		},
 		{
-			"name": "Guardian of Nature",
+			"name": "Guardian of Nature (Doğa Muhafızı)",
 			"source": "XGE",
 			"level": 4,
 			"school": "T",
@@ -2095,37 +2095,37 @@
 				]
 			},
 			"entries": [
-				"A nature spirit answers your call and transforms you into a powerful guardian. The transformation lasts until the spell ends. You choose one of the following forms to assume: Primal Beast or Great Tree.",
+				"Bir doğa ruhu senin çağrını duyar ve seni güçlü bir muhafıza çevirir. Bu değişim büyü bitene dek sürer. Şu formlardan birini seçersin: Kadim Hayvan ya da Ulu Ağaç.",
 				{
 					"type": "entries",
-					"name": "Primal Beast",
+					"name": "Kadim Hayvan",
 					"entries": [
-						"Bestial fur covers your body, your facial feature becomes feral, and you gain the following benefits."
+						"Bedenini hayvansı bir kürk kaplar, yüz hatların vahşileşir ve şu özellikleri kazanırsın."
 					]
 				},
 				{
 					"type": "list",
 					"items": [
-						"Your walking speed increases by 10 feet.",
-						"You gain darkvision with a range of 120 feet.",
-						"You make Strength-based attack rolls with advantage.",
-						"Your melee weapon attacks deal an extra {@dice 1d6} güç damage on a hit."
+						"Yürüme hızın 10 fit artar.",
+						"120 fit mesafeye gece görüşün olur.",
+						"Kuvvet bazlı saldırı zarlarını avantajlı atarsın.",
+						"Yakın dövüş silahı saldırıların vurunca fazladan {@dice 1d6} güç hasarı verir."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Great Tree",
+					"name": "Ulu Ağaç",
 					"entries": [
-						"Your skin appears barky, leaves sprout from your hair, and you gain the following benefits:"
+						"Tenin kabuğumsu görünmeye başlar, saçlarından yapraklar çıkar ve şu özellikleri kazanırsın:"
 					]
 				},
 				{
 					"type": "list",
 					"items": [
-						"You gain 10 temporary hit points.",
-						"You make Constitution saving throws with advantage.",
-						"You make Dexterity- and Wisdom-based attack rolls with advantage.",
-						"While you are on the ground, the ground within 15 feet of you is difficult terrain for your enemies."
+						"10 geçici HP kazanırsın.",
+						"Dayanıklılık kurtulma zarlarını avantajlı atarsın.",
+						"Çeviklik ve Akıl bazlı saldırı zarlarını avantajlı atarsın.",
+						"Yerde olduğun sürece, senin 15 fit çevrendeki alan düşmanların için zorlu araziye dönüşür."
 					]
 				}
 			],
@@ -4049,7 +4049,7 @@
 			]
 		},
 		{
-			"name": "Shadow of Moil",
+			"name": "Shadow of Moil (Karmaşa Gölgesi)",
 			"source": "XGE",
 			"level": 4,
 			"school": "N",
@@ -4069,7 +4069,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "an undead eyeball encased in a gem worth at least 150 gp",
+					"text": "en az 150 gp değerinde bir mücevher içinde yaşayan ölü bir göz küresi",
 					"cost": 150
 				}
 			},
@@ -4092,8 +4092,8 @@
 				]
 			},
 			"entries": [
-				"Flame-like shadows wreathe your body until the spell ends, causing you to become heavily obscured to others. The shadows turn dim light within 10 feet of you into darkness, and bright light in the same area to dim light.",
-				"Until the spell ends, you have resistance to radyant damage. In addition, whenever a creature within 10 feet of you hits you with an attack, the shadows lash out at that creature, dealing it {@dice 2d8} nekrotik damage."
+				"Büyü bitene dek alev gibi gölgeler bedenini kaplar, senin diğerlerine ağır bir şekilde örtülü görünmeni sağlar. Gölgeler 10 fit çevrendeki loş ışığı karanlığa, ve aynı alandaki parlak ışığı loş ışığa çevirir.",
+				"Büyü bitene dek radyant hasara direncin olur. Ek olarak, ne zaman 10 fit yakınındaki bir varlık sana bir saldırı ile vursa, gölgeler o varlığa saldırır ve {@dice 2d8} nekrotik hasar verir."
 			],
 			"page": 164,
 			"damageInflict": [
@@ -4168,7 +4168,7 @@
 			"page": 164
 		},
 		{
-			"name": "Sickening Radiance",
+			"name": "Sickening Radiance (Hasta Eden Parlaklık)",
 			"source": "XGE",
 			"level": 4,
 			"school": "V",
@@ -4216,8 +4216,8 @@
 				]
 			},
 			"entries": [
-				"Dim, greenish light spreads within a 30-foot-radius sphere centered on a point you choose within range. The light spreads around corners, and it lasts until the spell ends.",
-				"When a creature moves into the spell's area for the first time on a turn or starts its turn there, that creature must succeed on a Constitution saving throw or take {@dice 4d10} radyant damage, and it suffers one level of {@condition exhaustion} and emits a dim, greenish light in a 5-foot radius. This light makes it impossible for the creature to benefit from being {@condition invisible}. The light and any levels of {@condition exhaustion} caused by this spell go away when the spell ends."
+				"Menzilinde seçtiğin bir noktada 30 fit yarıçaplı bir küre olarak, loş ve yeşilimsi bir ışık saçılır. Işık köşelerin ardına yayılır ve büyü bitene dek sürer.",
+				"Bir varlık büyünün alanına sırasında ilk defa girdiğinde ya da sırasına orada başladığında, o varlık Dayanıklılık kurtulma zarı atar ya da {@dice 4d10} radyant hasar alır ve bir seviye {@condition bitkinlik} kazanır. Bunun yanında 5 fit çevresine loş yeşilimsi bir ışık saçmaya başlar ve bu ışık onun {@condition görünmezlik} durumundan faydalanmasını engeller. Işık ve bu büyü yüzünden gelen tüm bitkinlik seviyeleri büyü bittiğinde ortadan kalkar."
 			],
 			"page": 164,
 			"damageInflict": [
@@ -4591,7 +4591,7 @@
 			]
 		},
 		{
-			"name": "Storm Sphere",
+			"name": "Storm Sphere (Fırtına Küresi)",
 			"source": "XGE",
 			"level": 4,
 			"school": "V",
@@ -4635,16 +4635,16 @@
 				]
 			},
 			"entries": [
-				"A 20-foot-radius sphere of whirling air springs into existence, centered on a point you choose within range. The sphere remains for the spell's duration. Each creature in the sphere when it appears or that ends its turn there must succeed on a Strength saving throw or take {@dice 2d6} ezme damage. The sphere's space is difficult terrain.",
-				"Until the spell ends, you can use a bonus eylem on each of your turns to cause a bolt of yıldırım to leap from the center of the sphere toward one creature you choose within 60 feet of the center. Make a ranged spell attack. You have advantage on the attack roll if the target is in the sphere. On a hit, the target takes {@dice 4d6} yıldırım damage.",
-				"Creatures within 30 feet of the sphere have disadvantage on Wisdom (Perception) checks made to listen."
+				"Menzilinde seçtiğin bir nokta merkezli 20 fit yarıçaplı bir fırıldayan hava küresi ortaya çıkar. Küre büyü süresince kalır. Küre ortaya çıktığında içinde kalan ve sonrasında sırasını içinde bitiren tüm varlıklar Kuvvet kurtulma zarı atar ya da {@dice 2d6} ezme hasarı alır. Kürenin alanı zorlu arazidir.",
+				"Büyü bitene dek her sıranda bonus eylem kullanıp kürenin merkezinden 60 fit mesafedeki bir varlığa yıldırım atabilirsin. Menzilli büyü saldırısı yap. Eğer hedef kürenin içerisinde ise bu zarda avantajlı olursun. Vurursa hedef {@dice 4d6} yıldırım hasarı alır.",
+				"Kürenin 30 fit yakınında olan varlıkların dinlemek için atacağı Akıl (Algı) zarları dezavantajlı olur."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 5th level or higher, the damage increases for each of its effects by {@dice 1d6} for each slot level above 4th"
+						"Bu büyüyü 5. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 4. üzeri her seviye için tüm etkilerinin hasarları {@dice 1d6} artar."
 					]
 				}
 			],
@@ -4658,7 +4658,7 @@
 			]
 		},
 		{
-			"name": "Summon Greater Demon",
+			"name": "Summon Greater Demon (Üstün İblis Çağır)",
 			"source": "XGE",
 			"level": 4,
 			"school": "C",
@@ -4678,7 +4678,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a vial of blood from a humanoid killed within the past 24 saat"
+				"m": "bir şişe son 24 saat içerisinde öldürülmüş insansı kanı"
 			},
 			"duration": [
 				{
@@ -4703,17 +4703,17 @@
 				]
 			},
 			"entries": [
-				"You utter foul words, summoning one demon from the chaos of the Abyss. You choose the demon's type, which must be one of challenge rating 5 or lower, such as a shadow demon or a barlgura. The demon appears in an unoccupied space you can see within range, and the demon disappears when it drops to 0 hit points or when the spell ends.",
-				"Roll initiative for the demon, which has its own turns. When you summon it and on each of your turns thereafter, you can issue a verbal command to it (requiring no eylem on your part), telling it what it must do on its next turn. If you issue no command, it spends its turn attacking any creature within reach that has attacked it.",
-				"At the end of each of the demon's turns, it makes a Charisma saving throw. The demon has disadvantage on this saving throw if you say its true name. On a failed save, the demon continues to obey you. On a successful save, your control of the demon ends for the rest of the duration, and the demon spends its turns pursuing and attacking the nearest non-demons to the best of its ability. If you stop concentrating on the spell before it reaches its full duration, an uncontrolled demon doesn't disappear for {@dice 1d6} rounds if it still has hit points.",
-				"As part of casting the spell, you can form a circle on the ground with the blood used as a material component. The circle is large enough to encompass your space. While the spell lasts, the summoned demon can't cross the circle or harm it, and it can't target anyone within it. Using the material component in this manner consumes it when the spell ends."
+				"Fena sözler söyleyip Abyss'in kaosundan bir iblis çağırırsın. İblisin tipini sen seçersin, barlgura ya da shadow demon gibi CR 5 veya altında olmalı. İblis menzilinde görebildiğin boş bir alanda ortaya çıkar ve 0 HP'ye düştüğünde ya da büyü sonlandığında ortadan kaybolur.",
+				"İblis için öncelik zarı atarsın ve onun kendi sırası olur. Onu çağırdığında ve sonraki tüm sıralarında ona sözlü komutlar verip (senin eylemini gerektirmez), bir sonraki sırasında ne yapması gerektiğini söyleyebilirsin. Eğer komut vermezsen, sırasını menzilinde ona saldırmış olan herhangi bir varlığa saldırarak geçirir.",
+				"İblis her sırasının sonunda bir Karizma kurtulma zarı atar. Eğer iblisin gerçek adını söylersen bu kurtulma zarında dezavantajlı olur. Başarısız olursa, iblis sana itaat etmeye devam eder. Başarılı olursa, süre boyunca iblis üzerindeki hükmün sona erer ve iblis sıralarında en yakınındaki iblis olmayanları elinden geldiğince kovalayıp saldırır. Eğer tam süresine ulaşmadan büyüye konsantre olmayı bırakırsan, kontrol edilmeyen bir iblis eğer hala HP'si varsa {@dice 1d6} round daha ortadan kaybolmaz.",
+				"Büyüyü yapmanın bir parçası olarak materyal bileşen olarak kullandığın kan ile yere bir çember çizebilirsin. Bu çember senin alanını kapsayacak kadar büyük olur. Büyü devam ettiği sürece, çağrılan iblis bu çemberi aşamaz ya da ona hasar veremez, ve içindekileri hedef alamaz. Materyal bileşeni bu şekilde kullanma büyü bittiğinde onu tüketir."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 5th level or higher, the challenge rating increases by 1 for each slot level above 4th."
+						"Bu büyüyü 5. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 4. üzeri her seviye için CR 1 artar."
 					]
 				}
 			],
@@ -5376,7 +5376,7 @@
 			]
 		},
 		{
-			"name": "Vitriolic Sphere",
+			"name": "Vitriolic Sphere (Yakıcı Küre)",
 			"source": "XGE",
 			"level": 4,
 			"school": "V",
@@ -5396,7 +5396,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a drop of giant slug bile"
+				"m": "bir damla dev sülük safrası"
 			},
 			"duration": [
 				{
@@ -5416,14 +5416,14 @@
 				]
 			},
 			"entries": [
-				"You point at a place within range, and a glowing 1-foot diameter ball of emerald asit streaks there and explodes in a 20-foot radius sphere. Each creature in that area must make a Dexterity saving throw. On a failed save, a creature takes {@dice 10d4} asit damage and another {@dice 5d4} asit damage at the end of its next turn. On a successful save, a creature takes half the initial damage and no damage at the end of its next turn."
+				"Menzilinde bir yeri gösterirsin ve parlayan 1 fit çapında zümrüt yeşili asit topu oraya doğru fırlar ve 20 fitlik bir küre şeklinde patlar. O alandaki tüm varlıklar Çeviklik kurtulma zarı atar. Başarısız olursa bir varlık anında {@dice 10d4} asit hasarı alır ve bir sonraki sırasının sonunda bir daha {@dice 5d4} asit hasarı alır. Başarılı olursa, varlık ilk hasarın yarısını alır ve bir sonraki sırasında bu büyüden hasar almaz."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 5th level or higher, the initial damage increases by {@dice 2d4} for each slot level above 4th."
+						"Bu büyüyü 5. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 4. üzeri her seviye için ilk hasar {@dice 2d4} artar."
 					]
 				}
 			],
@@ -5675,7 +5675,7 @@
 			"page": 170
 		},
 		{
-			"name": "Watery Sphere",
+			"name": "Watery Sphere (Sulu Küre)",
 			"source": "XGE",
 			"level": 4,
 			"school": "C",
@@ -5695,7 +5695,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a droplet of water"
+				"m": "bir damla su"
 			},
 			"duration": [
 				{
@@ -5724,11 +5724,11 @@
 				]
 			},
 			"entries": [
-				"You conjure up a sphere of water with a 5-foot radius at a point you can see within range. The sphere can hover but no more than 10 feet off the ground. The sphere remains for the spell's duration.",
-				"Any creature in the sphere's space must make a Strength saving throw. On a successful save, a creature is ejected from that space to the nearest unoccupied space of the creature's choice outside it. A Huge or larger creature succeeds on the saving throw automatically, and a Large or smaller creature can choose to fail it. On a failed save, a creature is {@condition restrained} by the sphere and is engulfed by the water. At the end of each of its turns, a {@condition restrained} target can repeat the saving throw, ending the effect on itself on a success.",
-				"The sphere can restrain as many as four Medium or smaller creatures or one Large creature. If the sphere restrains a creature that causes it to exceed this capacity, a random creature that was already {@condition restrained} by the sphere falls out of it and lands {@condition prone} in a space within 5 feet of it.",
-				"As an eylem, you can move the sphere up to 30 feet in a straight line. If it moves over a pit, cliff, or other drop-off, it safely descends until it is hovering 10 feet above the ground. Any creature {@condition restrained} by the sphere moves with it. You can ram the sphere into creatures, forcing them to make the saving throw.",
-				"When the spell ends, the sphere falls to the ground and extinguishes all normal flames within 30 feet of it. Any creature {@condition restrained} by the sphere is knocked {@condition prone} in the space where it falls. The water then vanishes."
+				"Menzilinde görebildiğin bir noktada 5 fit yarıçaplı bir su küresi yaratırsın. Küre havada kalabilir ama yerden en fazla 10 fit yükselir. Küre büyü süresince kalır.",
+				"Kürenin alanındaki tüm varlıklar Kuvvet kurtulma zarı atar. Başarılı olursa, varlık o alandan kendi seçeceği en yakın boş alana atılır. Dev ya da daha büyük boyutta varlıklar bu kurtulma zarında otomatik olarak başarılı olur, ve Büyük ya da daha küçük boyutta varlıklar bunda başarısız olmayı seçebilir. Başarısız olursa, bir varlık küre tarafından {@condition kısıtlanma} etkisi altındadır ve su ile kaplanır. Her sırasının sonunda, bir kısıtlanmış varlık kurtulma zarını tekrarlayıp başarılı olursa üzerindeki etkiyi bitirebilir.",
+				"Küre 4'e kadar Orta boy varlığı ya da 1 Büyük boy varlığı kısıtlayabilir. Eğer küre ona bu kapasiteyi aştıracak bir varlık kısıtlarsa, zaten küre tarafından kısıtlanmış olan rastgele bir varlık dışarı atılır ve 5 fit yakınında {@condition yere düşme} durumunda çıkar.",
+				"Eylem olarak küreyi düz bir hat üzerinde 30 fite kadar ilerletebilirsin. Eğer bir çukur, yamaç veya uçurum üzerinden geçerse yerden 10 fit yukarda kalana kadar güvenli bir şekilde iner. Küre tarafından kısıtlanan varlıklar onunla hareket eder. Küreyi varlıklara çarptırabilir ve onlara kurtulma zarı attırabilirsin.",
+				"Büyü bitttiğinde küre yere düşer ve 30 fit çevresindeki tüm normal ateşleri söndürür. Küre tarafından kısıtlanmış her varlık {@condition yere düşme} durumunda kürenin düştüğü yerde kalırlar. Su sonrasında kaybolur."
 			],
 			"page": 170,
 			"savingThrow": [

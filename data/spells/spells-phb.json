@@ -4404,7 +4404,7 @@
 			]
 		},
 		{
-			"name": "Confusion",
+			"name": "Confusion (Şaşkınlık)",
 			"level": 4,
 			"school": "E",
 			"time": [
@@ -4423,7 +4423,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "three nut shells"
+				"m": "üç fındık kabuğu"
 			},
 			"duration": [
 				{
@@ -4479,14 +4479,14 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"This spell assaults and twists creatures' minds, spawning delusions and provoking uncontrolled actions. Each creature in a 10-foot-radius sphere centered on a point you choose within range must succeed on a Wisdom saving throw when you cast this spell or be affected by it.",
-				"An affected target can't take reactions and must roll a {@dice d10} at the start of each of its turns to determine its behavior for that turn.",
+				"Bu büyü varlıkların zihnine saldırıp onu saptırarak sanrılar yaratır ve kontrolsüz hareketler ortaya çıkarır. Menzilinde seçeceğin bir noktadan çıkan 10 fit yarıçaplı bir küre içerisindeki her varlık, sen bu büyüyü yaptığında Akıl kurtulma zarı atar ya da bu büyü tarafından etkilenir.",
+				"Etki altındaki bir varlık reaksiyon kullanamaz ve her sırasının başında {@dice d10} atarak o sıra için ne yapacağını belirler.",
 				{
 					"type": "table",
-					"caption": "Confusion Behaviour",
+					"caption": "Şaşkınlık Davranışı",
 					"colLabels": [
 						"{@dice d10}",
-						"Behavior"
+						"Davranış"
 					],
 					"colStyles": [
 						"col-xs-1 text-align-center",
@@ -4500,7 +4500,7 @@
 									"exact": 1
 								}
 							},
-							"The creature uses all its movement to move in a random direction. To determine the direction, roll a {@dice d8} and assign a direction to each die face. The creature doesn't take an eylem this turn."
+							"Varlık tüm hareketini rastgele bir yöne hareket etmek için kullanır. Yönü belirlemek için {@dice d8} at ve zarın her yüzüne bir yön belirle. Varlık bu sırasında eylem kullanmaz."
 						],
 						[
 							{
@@ -4510,7 +4510,7 @@
 									"max": 6
 								}
 							},
-							"The creature doesn't move or take actions this turn."
+							"Varlık bu sırasında hareket etmez ve eylem kullanmaz."
 						],
 						[
 							{
@@ -4520,7 +4520,7 @@
 									"max": 8
 								}
 							},
-							"The creature uses its eylem to make a melee attack against a randomly determined creature within its reach. If there is no creature within its reach, the creature does nothing this turn."
+							"Varlık eylemini kullanıp menzilindeki rastgele bir varlığa yakın dövüş saldırısı yapar. Eğer menzilinde bir varlık yoksa, bu sırasında hiçbir şey yapmaz."
 						],
 						[
 							{
@@ -4530,18 +4530,18 @@
 									"max": 10
 								}
 							},
-							"The creature can act and move normally."
+							"Varlık normal bir şekilde davranıp hareket edebilir."
 						]
 					]
 				},
-				"At the end of its turns, an affected target can make a Wisdom saving throw. If it succeeds, this effect ends for that target."
+				"Sıralarının sonunda, etki altındaki bir hedef Akıl kurtulma zarı atabilir. Başarılı olursa, bu etki o hedef için sonlanır."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 5. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the radius of the sphere increases by 5 feet for each slot above 4th."
+						"Bu büyüyü 5. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 4. üzeri her seviye için küre yarıçapı 5 fit artar."
 					]
 				}
 			],
@@ -4853,7 +4853,7 @@
 			"page": 226
 		},
 		{
-			"name": "Conjure Minor Elementals",
+			"name": "Conjure Minor Elementals (Ufak Elementaller Yarat)",
 			"level": 4,
 			"school": "C",
 			"time": [
@@ -4897,25 +4897,25 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You summon elementals that appear in unoccupied spaces that you can see within range. You choose one the following options for what appears.",
+				"Menzilinde görebildiğin boş alanlarda ortaya çıkan elementaller yaratırsın. Ortaya çıkan şey için şunlardan birini seçersin:",
 				{
 					"type": "list",
 					"items": [
-						"One elemental of challenge rating 2 or lower",
-						"Two elementals of challenge rating 1 or lower",
-						"Four elementals of challenge rating 1/2 or lower",
-						"Eight elementals of challenge rating 1/4 or lower."
+						"CR 2 ya da altında 1 elemental",
+						"CR 1 ya da altında 2 elemental",
+						"CR 1/2 ya da altında 4 elemental",
+						"CR 1/4 ya da altında 8 elemental."
 					]
 				},
-				"An elemental summoned by this spell disappears when it drops to 0 hit points or when the spell ends.",
-				"The summoned creatures are friendly to you and your companions. Roll initiative for the summoned creatures as a group, which has its own turns. They obey any verbal commands that you issue to them (no eylem required by you). If you don't issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions. The DM has the creatures' statistics."
+				"Bu büyü ile yaratılan bir elemental büyü bittiğinde ya da 0 HP'ye düştüğünde yok olur.",
+				"Yaratılan varlıklar sana ve yoldaşlarına dosttur. Yaratılan varlıklar için grup olarak öncelik zarı at, kendi sıraları olur. Senin vereceğin sesli komutlara uyarlar (eylemini gerektirmez). Eğer onlara bir komut vermezsen kendilerini düşman varlıklara karşı korurlar, ama bunun dışında bir eylem gerçekleştirmezler. DM varlıkların istatistiklerine sahiptir."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using certain higher-level spell slots, you choose one of the summoning options above, and more creatures appear: twice as many with a 6th-level slot and three times as many with an 8th-level slot"
+						"Bu büyüyü belirli üst seviye büyü yuvaları harcayarak kullandığında, üstteki yaratma seçeneklerinden birini seçersin ve fazladan varlıklar ortaya çıkar: 6. seviye yuva ile 2 katı ve 8. seviye yuva ile 3 katı yaratılır."
 					]
 				}
 			],
@@ -4966,7 +4966,7 @@
 			]
 		},
 		{
-			"name": "Conjure Woodland Beings",
+			"name": "Conjure Woodland Beings (Orman Varlıkları Yarat)",
 			"level": 4,
 			"school": "C",
 			"time": [
@@ -4985,7 +4985,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "one holly berry per creature summoned"
+				"m": "her yaratılan varlık için bir çoban püskülü meyvesi"
 			},
 			"duration": [
 				{
@@ -5011,24 +5011,25 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You summon fey creatures that appear in unoccupied spaces that you can see within range. Choose one of the following options for what appears.",
+				"Menzilinde görebildiğin boş alanlarda ortaya çıkan fey varlıkları yaratırsın. Ortaya çıkan şey için şunlardan birini seçersin:",
 				{
 					"type": "list",
 					"items": [
-						"One fey creature of challenge rating 2 or lower",
-						"Two fey creatures of challenge rating 1 or lower",
-						"Four fey creatures of challenge rating 1/2 or lower",
-						"Eight fey creatures of challenge rating 1/4 or lower"
+						"CR 2 ya da altında 1 fey varlığı",
+						"CR 1 ya da altında 2 fey varlığı",
+						"CR 1/2 ya da altında 4 fey varlığı",
+						"CR 1/4 ya da altında 8 fey varlığı."
 					]
 				},
-				"A summoned creature disappears when it drops to 0 hit points or when the spell ends. The summoned creatures are friendly to you and your companions. Roll initiative for the summoned creatures as a group, which have their own turns. They obey any verbal commands that you issue to them (no eylem required by you). If you don't issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions. The DM has the creatures' statistics."
+				"Bu büyü ile yaratılan bir elemental büyü bittiğinde ya da 0 HP'ye düştüğünde yok olur.",
+				"Yaratılan varlıklar sana ve yoldaşlarına dosttur. Yaratılan varlıklar için grup olarak öncelik zarı at, kendi sıraları olur. Senin vereceğin sesli komutlara uyarlar (eylemini gerektirmez). Eğer onlara bir komut vermezsen kendilerini düşman varlıklara karşı korurlar, ama bunun dışında bir eylem gerçekleştirmezler. DM varlıkların istatistiklerine sahiptir."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using certain higher-level spell slots, you choose one of the summoning options above, and more creatures appear: twice as many with a 6th-level slot and three times as many with an 8th-level slot."
+						"Bu büyüyü belirli üst seviye büyü yuvaları harcayarak kullandığında, üstteki yaratma seçeneklerinden birini seçersin ve fazladan varlıklar ortaya çıkar: 6. seviye yuva ile 2 katı ve 8. seviye yuva ile 3 katı yaratılır."
 					]
 				}
 			],
@@ -5307,7 +5308,7 @@
 			"page": 227
 		},
 		{
-			"name": "Control Water",
+			"name": "Control Water (Suyu Yönet)",
 			"level": 4,
 			"school": "T",
 			"time": [
@@ -5326,7 +5327,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a drop of water and a pinch of dust"
+				"m": "bir damla su ve bir tutam toz"
 			},
 			"duration": [
 				{
@@ -5379,33 +5380,33 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Until the spell ends, you control any freestanding water inside an area you choose that is a cube up to 100 feet on a side. You can choose from any of the following effects when you cast this spell. As an eylem on your turn, you can repeat the same effect or choose a different one.",
+				"Menzilindeki bağımsız bir su kütlesinin 100 fitlik bir küp kadarlık kısmını büyü sona erene kadar kontrol edersin. Büyüyü yaptığında aşağıdaki seçeneklerden birini belirlersin. Sıranda eylem olarak, aynı eylemi tekrar edebilir ya da farklı birini seçebilirsin.",
 				{
 					"type": "entries",
-					"name": "Flood",
+					"name": "Tufan",
 					"entries": [
-						"You cause the water level of all standing water in the area to rise by as much as 20 feet. If the area includes a shore, the flooding water spills over onto dry land. If you choose an area in a large body of water, you instead create a 20-foot tall wave that travels from one side of the area to the other and then crashes down. Any Huge or smaller vehicles in the wave's path are carried with it to the other side. Any Huge or smaller vehicles struck by the wave have a 25 percent chance of capsizing. The water level remains elevated until the spell ends or you choose a different effect. If this effect produced a wave, the wave repeats on the start of your next turn while the flood effect lasts."
+						"Alandaki su seviyesinin 20 fite kadar yükselmesini sağlarsın. Eğer alanda kıyı varsa yükselen su toprağa doğru taşar. Eğer büyük bir su kütlesinde bir alan seçtiysen, bunun yerine alanın bir ucundan diğerine gidip dağılan 20 fit yükseklikte bir dalga yaratırsın. Bu dalganın yolundaki Dev ya da daha küçük boyuttaki taşıtlar onunla birlikte diğer uca kadar sürüklenir. Bu dalganın çarptığı tüm Dev ya da daha küçük boyuttaki taşıtların %25 alabora şansı olur. Su seviyesi büyü bitene ya da sen farklı bir etki seçene kadar yüksek kalır. Eğer bu etki bir dalga yarattıysa, tufan etkisi devam ettiği sürece dalga bir sonraki sıranın başında tekrarlanır."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Part Water",
+					"name": "Suyu Ayır",
 					"entries": [
-						"You cause water in the area to move apart and create a trench. The trench extends across the spell's area, and the separated water forms a wall to either side. The trench remains until the spell ends or you choose a different effect. The water then slowly fills in the trench over the course of the next round until the normal water level is restored."
+						"Alandaki suyun ayrılıp bir hendek yaratmasını sağlarsın. Bu hendek büyü alanı boyunca uzanır ve ayrılan su her iki tarafta birer duvar yaratır. Hendek büyü bitene ya da sen farklı bir etki seçene dek kalır. Bir sonraki round boyunca hendek normal su seviyesine ulaşana kadar su yavaşça boşluğa dolar."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Redirect Flow",
+					"name": "Akışı Yönlendir",
 					"entries": [
-						"You cause flowing water in the area to move in a direction you choose, even if the water has to flow over obstacles, up walls, or in other unlikely directions. The water in the area moves as you direct it, but once it moves beyond the spell's area, it resumes its flow based on the terrain conditions. The water continues to move in the direction you chose until the spell ends or you choose a different effect."
+						"Alandaki akan suyu istediğin yöne doğru yönlendirirsin, su bunu yapmak için engeller aşsa, duvarlar tırmansa ya da diğer alışılmadık şekillere girse bile. Alandaki su senin yönlendirmen ile hareket eder, ama büyünün alanı dışına çıktığında arazi durumuna göre akışını sürdürür. Su senin seçtiğinde yönde akışını büyü bitene ya da sen farklı bir etki seçene dek sürdürür."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Whirlpool",
+					"name": "Girdap",
 					"entries": [
-						"This effect requires a body of water at least 50 feet square and 25 feet deep. You cause a whirlpool to form in the center of the area. The whirlpool forms a vortex that is 5 feet wide at the base, up to 50 feet wide at the top, and 25 feet tall. Any creature or object in the water and within 25 feet of the vortex is pulled 10 feet toward it. A creature can swim away from the vortex by making a Strength (Athletics) check against your spell save DC. When a creature enters the vortex for the first time on a turn or starts its turn there, it must make a Strength saving throw. On a failed save, the creature takes {@dice 2d8} ezme damage and is caught in the vortex until the spell ends. On a successful save, the creature takes half damage, and isn't caught in the vortex. A creature caught in the vortex can use its eylem to try to swim away from the vortex as described above, but has disadvantage on the Strength (Athletics) check to do so. The first time each turn that an object enters the vortex, the object takes {@dice 2d8} ezme damage, this damage occurs each round it remains in the vortex."
+						"Bu etki en az 25 fit derinliğinde ve 50 fitlik bir kare su kütlesi gerektirir. Alanın ortasında bir girdap oluşturursun. Bu temelinde 5 fit, tepede 50 fite kadar genişlikte ve 25 fit yükseklikte bir girdap yaratır. Girdabın 25 fit yakınında suda olan tüm varlık ve nesneler ona doğru 10 fit sürüklenir. Bir varlık senin büyü DC'ne karşı Kuvvet (Atletizm) zarı atarak girdaptan yüzerek uzaklaşabilir. Bir varlık sırasında ilk defa girdaba girdiğinde ya da sırasına orada başlarsa Kuvvet kurtulma zarı atar. Başarısız olursa varlık {@dice 2d8} ezme hasarı alır ve büyü bitene dek girdaba yakalanır. Başarılı olursa, varlık yarı hasar alır ve girdaba yakalanmaz. Girdaba yakalanmış bir varlık eylemini kullanıp yukarıda verildiği şekilde uzaklaşmayı deneyebilir, ama Kuvvet (Atletizm) zarında dezavantajlı olur. Bir nesne girdaba ilk girdiğinde ve sıranın başında {@dice 2d8} ezme hasarı alır ve bu hasar girdap içinde kaldığı sürece tekrarlanır."
 					]
 				}
 			],
@@ -7683,7 +7684,7 @@
 			]
 		},
 		{
-			"name": "Dominate Beast",
+			"name": "Dominate Beast (Hayvana Hükmet)",
 			"level": 4,
 			"school": "E",
 			"time": [
@@ -7769,17 +7770,17 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You attempt to beguile a beast that you can see within range. It must succeed on a Wisdom saving throw or be {@condition charmed} by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw.",
-				"While the beast is {@condition charmed}, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no eylem required), which it does its best to obey. You can specify a simple and general course of eylem, such as Attack that creature, Run over there, or Fetch that object. If the creature completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability.",
-				"You can use your eylem to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time, you can also cause the creature to use a reaksiyon, but this requires you to use your own reaksiyon as well.",
-				"Each time the target takes damage, it makes a new Wisdom saving throw against the spell. If the saving throw succeeds, the spell ends."
+				"Menzilinde görebildiğin bir hayvanın aklını çelmeye çalışırsın. Akıl kurtulma zarı atar ya da büyü süresince senin tarafından {@condition cezbedilme} etkisi altında olur. Eğer sen ya da sana dost olan varlıklar hedefle savaşıyorsa kurtulma zarında avantajı olur.",
+				"Hayvan {@condition cezbedilme} etkisi altında iken, ikiniz de aynı boyutta olduğunuz sürece telepatik bir bağınız olur. Bilinçli iken bu varlığa telepatik bağ üzerinden komutlar verebilirsin (eylem gerektirmez), o da mümkün olduğunca itaat eder. Şu varlığa saldır, oraya koş ya da şu nesneyi getir gibi basit ve genel bir eylem belirleyebilirsin. Eğer varlık komutu yerine getirir ve senden başka komut almazsa, mümkün olduğunca kendini korur.",
+				"Eylemini kullanıp hedefin bütünüyle kesin kontrolünü alabilirsin. Bir sonraki sıranın sonuna kadar, varlık sadece senin seçtiğin eylemleri gerçekleştirir ve izin vermediğin hiçbir şeyi yapmaz. Bu süreçte, varlığın reaksiyonunu kullanmasını da sağlayabilirsin ama bunun için kendi reaksiyonunu da kullanırsın.",
+				"Hedef her hasar alışında büyüye karşı Akıl kurtulma zarını yeniler. Başarılı olursa büyü sonlanır."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell with a 5th-level spell slot, the duration is concentration, up to 10 dakika. When you use a 6th-level spell slot, the duration is concentration, up to 1 saat. When you use a spell slot of 7th level or higher, the duration is concentration, up to 8 saat."
+						"Bu büyüyü 5. seviye büyü yuvası ile kullandığında süre 10 dakikaya kadar konsantrasyon, 6. seviye yuva ile kullandığında süre 1 saate kadar konsantrasyon, 7. seviye ve üzeri kullandığında süre 8 saate kadar konsantrasyon olur."
 					]
 				}
 			],
@@ -16705,7 +16706,7 @@
 			"page": 261
 		},
 		{
-			"name": "Mordenkainen's Private Sanctum",
+			"name": "Mordenkainen's Private Sanctum (Mordenkainen'ın Özel Yeri)",
 			"level": 4,
 			"school": "A",
 			"time": [
@@ -16724,7 +16725,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a thin sheet of lead, a piece of opaque glass, a wad of cotton or cloth, and powdered chrysolite"
+				"m": "ince bir kurşun levha, bir parça opak cam, bir top pamuk ya da bez, ve peridot tozu"
 			},
 			"duration": [
 				{
@@ -16745,27 +16746,27 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You make an area within range magically secure. The area is a cube that can be as small as 5 feet to as large as 100 feet on each side. The spell lasts for the duration or until you use an eylem to dismiss it.",
-				"When you cast the spell, you decide what sort of security the spell provides, choosing any or all of the following properties.",
+				"Menzilindeki bir alanı büyü ile güvenli hale getirirsin. Bu alan 5 fit kadar küçük ya da her yüzü 100 fite kadar çıkabilen bir küptür. Büyü sen eylemini kullanıp defedene ya da süresi boyunca kalır.",
+				"Büyüyü yaptığında bunun ne tip güvenlik sağlayacağını aşağıdaki özelliklerden seçersin, bunların bir kaçı ya da hepsi seçilebilir.",
 				{
 					"type": "list",
 					"items": [
-						"Sound can't pass through the barrier at the edge of the warded area.",
-						"The barrier of the warded area appears dark and foggy, preventing vision (including darkvision) through it.",
-						"Sensors created by divination spells can't appear inside the protected area or pass through the barrier at its perimeter.",
-						"Creatures in the area can't be targeted by divination spells.",
-						"Nothing can teleport into or out of the warded area.",
-						"Planar travel is blocked within the warded area."
+						"Korunan alanın sınırındaki bariyerden ses geçemez.",
+						"Korunan alanın bariyeri karanlık ve puslu görünür, burada görüşü (gece görüşü dahil) engeller.",
+						"Divination büyüleri ile yaratılan sensörler korunan alanın içinde yaratılamaz ve sınırlarındaki bariyerden geçemez.",
+						"Alandaki varlıklar divination büyüleri tarafından hedef alınamaz.",
+						"Korunan alana ya da oradan dışarı hiçbir şey ışınlanamaz.",
+						"Korunan alanda boyutsal seyahat engellenir."
 					]
 				},
-				"Casting this spell on the same spot every day for a year makes this effect permanent."
+				"Bu büyüyü bir yıl boyunca aynı noktada kullanmak bu etkiyi kalıcı yapar."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 5. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, you can increase the size of the cube by 100 feet for each slot level beyond 4th. Thus you could protect a cube that can be up to 200 feet on one side by using a spell slot of 5th level."
+						"Bu büyüyü 5. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 4. üzeri her seviye için kübün boyutu 100 fit artar. Bu şekilde 5. seviye yuva kullanarak 200 fitlik bir kübü koruyabilirsin."
 					]
 				}
 			],
@@ -17087,7 +17088,7 @@
 			]
 		},
 		{
-			"name": "Otiluke's Resilient Sphere",
+			"name": "Otiluke's Resilient Sphere (Otiluke'un Dayanıklı Küresi)",
 			"level": 4,
 			"school": "V",
 			"time": [
@@ -17106,7 +17107,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a hemispherical piece of clear crystal and a matching hemispherical piece of gum arabic"
+				"m": "yarımküre şeklinde bir saydam kristal ve buna uygun bir yarımküre arap zamkı parçası"
 			},
 			"duration": [
 				{
@@ -17140,10 +17141,10 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"A sphere of shimmering güç encloses a creature or object of Large size or smaller within range. An unwilling creature must make a Dexterity saving throw. On a failed save, the creature is enclosed for the duration.",
-				"Nothing, not physical objects, energy, or other spell effects, can pass through the barrier, in or out, though a creature in the sphere can breathe there. The sphere is immune to all damage, and a creature or object inside can't be damaged by attacks or effects originating from outside, nor can a creature inside the sphere damage anything outside it.",
-				"The sphere is weightless and just large enough to contain the creature or object inside. An enclosed creature can use its eylem to push against the sphere's walls and thus roll the sphere at up to half the creature's speed. Similarly, the globe can be picked up and moved by other creatures.",
-				"A disintegrate spell targeting the globe destroys it without harming anything inside it."
+				"Menzilindeki Büyük ya da daha küçük boyuttaki bir varlık ya da nesneyi ışıldayan bir güç küresi sarar. İsteksiz bir varlık Çeviklik kurtulma zarı atar. Başarısız olursa, varlık süre boyunca kapalı kalır.",
+				"Hiçbir şey, ne fiziksel nesne, ne de enerji ve diğer büyü etkileri içe ve dışa bu bariyeri geçemez. Buna rağmen küre içindeki varlık rahat soluyabilir. Kürenin tüm hasara bağışıklığı vardır ve içerideki bir varlık ya da nesne dışarıdan gelen etkiler ve saldırılar yüzünden hasar göremez. Aynı zamanda içerideki varlık da dışarıdaki hiçbir şeye hasar vermez.",
+				"Kürenin bir ağırlığı yoktur ve tam içindeki varlık ya da nesneyi çevreleyecek boyuttadır. Kapalı kalan bir varlık eylemini kullanıp kürenin duvarlarını iterek kendi hızının yarısı kadar ilerleyebilir. Benzer bir şekilde, küre başka varlıklar tarafından alınıp taşınabilir.",
+				"Küreyi hedef alan bir disintegrate büyüsü içindeki şeye zarar vermeden küreyi yok eder."
 			],
 			"page": 264,
 			"damageImmune": [
@@ -17921,7 +17922,7 @@
 			]
 		},
 		{
-			"name": "Polymorph",
+			"name": "Polymorph (Çok Biçimli)",
 			"level": 4,
 			"school": "T",
 			"time": [
@@ -17940,7 +17941,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a caterpillar cocoon"
+				"m": "bir tırtıl kozası"
 			},
 			"duration": [
 				{
@@ -17986,12 +17987,12 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"This spell transforms a creature with at least 1 hit point that you can see within range into a new form. An unwilling creature must make a Wisdom saving throw to avoid the effect. A shapechanger automatically succeeds on this saving throw.",
-				"The transformation lasts for the duration, or until the target drops to 0 hit points or dies. The new form can be any beast whose challenge rating is equal to or less than the target's (or the target's level, if it doesn't have a challenge rating). The target's game statistics, including mental ability scores, are replaced by the statistics of the chosen beast. It retains its alignment and personality.",
-				"The target assumes the hit points of its new form. When it reverts to its normal form, the creature returns to the number of hit points it had before it transformed. If it reverts as a result of dropping to 0 hit points, any excess damage carries over to its normal form. As long as the excess damage doesn't reduce the creature's normal form to 0 hit points, it isn't knocked {@condition unconscious}.",
-				"The creature is limited in the actions it can perform by the nature of its new form, and it can't speak, cast spells, or take any other eylem that requires hands or speech.",
-				"The target's gear melds into the new form. The creature can't activate, use, wield, or otherwise benefit from any of its equipment.",
-				"This spell can't affect a target that has 0 hit points."
+				"Bu büyü en az 1 HP'si olan menzilinde görebildiğin bir varlığı yeni bir forma çevirir. İsteksiz bir varlık etkiden kaçınmak için Akıl kurtulma zarı atar. Bir şekildeğiştiren bu kurtulma zarında otomatik olarak başarılı olur.",
+				"Bu dönüşüm büyü süresince, hedef 0 HP'ye düşene ya da ölene kadar kalır. Yeni form, hedefin CR'ına eşit ya da altında (CR'ı yoksa seviyesi) herhangi bir hayvan olabilir. Hedefin oyun istatistikleri, zihinsel yetenek skorları dahil seçilen varlığın istatistikleri ile değişir. Yönelimi ve kişiliği aynı kalır.",
+				"Hedef yeni formunun HP'sini alır. Varlık normal formuna geri döndüğünde, dönüşmeden önceki HP miktarına döner. Eğer 0 HP'ye düşme sonucu eski hale dönerse, fazlalık hasar normal formuna işler. Bu fazlalık hasar varlığın normal formunu da 0 HP'ye düşürmüyorsa, {@condition bilinçsiz hal}e düşmez.",
+				"Varlık gerçekleştirebileceği eylemlerde yeni formunun yapısı ile sınırlıdır ve konuşamaz, büyü yapamaz, ya da el ve konuşma gerektiren diğer eylemleri de gerçekleştiremez.",
+				"Hedefin ekipmanı yeni formuna kaynar. Varlık bu ekipmanları etkinleştiremez, kullanamaz ya da onlardan herhangi bir şekilde faydalanamaz.",
+				"Bu büyü 0 HP'si olan bir hedefi etkileyemez."
 			],
 			"page": 266,
 			"savingThrow": [
@@ -24206,7 +24207,7 @@
 			]
 		},
 		{
-			"name": "Wall of Fire",
+			"name": "Wall of Fire (Ateş Duvarı)",
 			"level": 4,
 			"school": "V",
 			"time": [
@@ -24225,7 +24226,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a small piece of phosphorus"
+				"m": "küçük bir parça fosfor"
 			},
 			"duration": [
 				{
@@ -24297,16 +24298,16 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You create a wall of ateş on a solid surface within range. You can make the wall up to 60 feet long, 20 feet high, and 1 foot thick, or a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall is opaque and lasts for the duration.",
-				"When the wall appears, each creature within its area must make a Dexterity saving throw. On a failed save, a creature takes {@dice 5d8} ateş damage, or half as much damage on a successful save.",
-				"One side of the wall, selected by you when you cast this spell, deals {@dice 5d8} ateş damage to each creature that ends its turn within 10 feet of that side or inside the wall. A creature takes the same damage when it enters the wall for the first time on a turn or ends its turn there. The other side of the wall deals no damage."
+				"Menzilindeki katı bir yüzeyde ateş duvarı yaratırsın. Duvarı 60 fit uzunluğa kadar, 20 fit yükseklikte ve 1 fit kalınlıkta, ya da 20 fit çapında, 20 fit yükseklikte ve 1 fit kalınlıkta bir çember olarak yaratabilirsin. Duvar opaktır ve süre boyunca kalır.",
+				"Duvar ortaya çıktığında, alanındaki tüm varlıklar Çeviklik kurtulma zarı atar. Başarısız olursa bir varlık {@dice 5d8} ateş hasarı alır, başarılı olursa bunun yarısını.",
+				"Duvarın büyüyü yaptığında seçtiğin bir yanı, sırasını o yanın 10 fit içerisinde ya da duvarın içerisinde bitiren her varlığa {@dice 5d8} ateş hasarı verir. Bir varlık aynı hasarı sırasında bu alana ilk girişinde ya da sırasını orada bitirirse de alır. Duvarın diğer yanı hasar vermez."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 5. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the damage increases by {@dice 1d8} for each slot level above 4th."
+						"Bu büyüyü 5. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 4. üzeri her seviye için hasar {@dice 1d8} artar."
 					]
 				}
 			],
