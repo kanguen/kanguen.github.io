@@ -506,7 +506,7 @@
 			"page": 212
 		},
 		{
-			"name": "Animate Objects",
+			"name": "Animate Objects (Nesneleri Canlandır)",
 			"level": 5,
 			"school": "T",
 			"time": [
@@ -566,19 +566,19 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Objects come to life at your command. Choose up to ten nonmagical objects within range that are not being worn or carried. Medium targets count as two objects, Large targets count as four objects, Huge targets count as eight objects. You can't animate any object larger than Huge. Each target animates and becomes a creature under your control until the spell ends or until reduced to 0 hit points.",
-				"As a bonus eylem, you can mentally command any creature you made with this spell if the creature is within 500 feet of you (if you control multiple creatures, you can command any or all of them at the same time, issuing the same command to each one). You decide what eylem the creature will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands, the creature only defends itself against hostile creatures. Once given an order, the creature continues to follow it until its task is complete.",
-				"Animated Object Statistics",
+				"Emrinle nesneler can bulur. Menzilindeki 10'a kadar giyilmeyen ve taşınmayan büyüsüz nesneyi seç. Orta boy hedefler 2 nesne olarak sayılır, Büyük boy hedefler 4 nesne, Dev hedefler de 8 nesne. Dev boydan büyük bir nesneyi canlandıramazsın. Her varlık canlanır ve büyü bitene ya da 0 HP'ye düşene dek senin kontrolünde birer varlık olurlar.",
+				"Bonus eylem olarak, eğer bu büyü ile yarattığın herhangi bir varlık 500 fit mesafende ise ona zihinsel komutlar verebilirsin (eğer birden çok varlık kontrol ediyorsan, bunlardan bir kaçını ya da aynı anda hepsini yönetebilirsin, her birine aynı komut verilir). Bir sonraki sırasında bu varlığın nereye gideceğine ve ne eylemi gerçekleştireceğine sen karar verirsin, ya da şu odayı veya koridoru koru gibi genel bir komut verebilirsin. Eğer komut vermezsen, varlık sadece kendini düşman varlıklara karşı savunur. Komut verildiğinde, varlık görev tamamlanana kadar onu yapmaya devam eder.",
+				"Canlanmış Nesne İstatistikleri",
 				{
 					"type": "table",
-					"caption": "Animated Object Statistics",
+					"caption": "Canlanmış Nesne İstatistikleri",
 					"colLabels": [
-						"Size",
+						"Boyut",
 						"HP",
 						"AC",
-						"Attack",
-						"Str",
-						"Dex"
+						"Saldırı",
+						"Kuv",
+						"Çev"
 					],
 					"colStyles": [
 						"col-xs-2",
@@ -590,56 +590,56 @@
 					],
 					"rows": [
 						[
-							"{@creature animated object (tiny)|phb|Tiny}",
+							"Ufak",
 							"20",
 							"18",
-							"+8 to hit, {@dice 1d4+4} damage",
+							"vurmak için +8, {@dice 1d4+4} hasar",
 							"4",
 							"18"
 						],
 						[
-							"{@creature animated object (small)|phb|Small}",
+							"Küçük",
 							"25",
 							"16",
-							"+6 to hit, {@dice 1d8+2} damage",
+							"vurmak için +6, {@dice 1d8+2} hasar",
 							"6",
 							"14"
 						],
 						[
-							"{@creature animated object (medium)|phb|Medium}",
+							"Orta",
 							"40",
 							"13",
-							"+5 to hit. {@dice 2d6+1} damage",
+							"vurmak için +5, {@dice 2d6+1} hasar",
 							"10",
 							"12"
 						],
 						[
-							"{@creature animated object (large)|phb|Large}",
+							"Büyük",
 							"50",
 							"10",
-							"+6 to hit. {@dice 2d10+2} damage",
+							"vurmak için +6, {@dice 2d10+2} hasar",
 							"14",
 							"10"
 						],
 						[
-							"{@creature animated object (huge)|phb|Huge}",
+							"Dev",
 							"80",
 							"10",
-							"+8 to hit. {@dice 2d12+4} damage",
+							"vurmak için +8, {@dice 2d12+4} hasar",
 							"18",
 							"6"
 						]
 					]
 				},
-				"An animated object is a construct with AC, hit points, attacks, Strength, and Dexterity determine by its size. Its Constitution is 10 and its Intelligence and Wisdom are 3, and its Charisma is 1. Its speed is 30 feet, if the objects lack legs or other appendages it can use for locomotion, it instead has a flying speed of 30 feet and can hover. If the object is securely attached to a surface or larger object, such as a chain bolted to a wall, its speed is 0. It has blindsight with a radius of 30 feet and is blind beyond that distance. When the animated object drops to 0 hit points, it reverts to its original object form, and any remaining damage carries over to its original object form.",
-				"If you command an object to attack, it can make a single melee attack against a creature within 5 feet of it. It makes a slam attack with an attack bonus and ezme damage determine by its size. The DM might rule that a specific object inflicts kesme or delme damage based on its form."
+				"Canlanmış nesne AC, HP, Kuvvet, Çeviklik ve saldırıları boyutuna bağlı olan bir yapıdır. Dayanıklılığı 10, Zeka ve Akıl 3, Karizması 1'dir. Hızı 30 fittir, eğer bu nesnenin hareket için kullanacağı bacak benzeri uzuvları yoksa, bunun yerine havada süzülür ve 30 fit uçma hızı olur. Eğer nesne sağlam bir şekilde bir yüzeye ya da daha büyük bir nesneye zincir gibi şeylerle bağlanmışsa hızı sıfırdır. 30 fit mesafeli kör görüşü vardır ve bunun ötesinde kördür. Canlanmış nesne 0 HP'ye düştüğünde, orijinal nesne formuna döner ve artan hasar bu nesne formuna taşınır.",
+				"Eğer bir nesneye saldırması için komut verirsen, 5 fit yakınındaki bir varlığa tek bir yakın dövüş saldırısı yapabilir. Boyutuna göre belirlenen saldırı bonusu ve ezme hasarı ile bir darbe gerçekleştirir. DM bazı nesnelerin formuna bağlı olarak kesme ya da delme hasarı verebileceğine karar verebilir."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"If you cast this spell using a spell slot of 6th level or higher, you can animate two additional objects for each slot level above 5th."
+						"Eğer bu büyüyü 6. seviye ve üzeri bir büyü yuvası harcayarak kullanırsan, 5. üzeri her seviye için fazladan iki nesne canlandırabilirsin."
 					]
 				}
 			],
@@ -1486,7 +1486,7 @@
 			"page": 216
 		},
 		{
-			"name": "Awaken",
+			"name": "Awaken (Uyandır)",
 			"level": 5,
 			"school": "T",
 			"time": [
@@ -1505,7 +1505,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "an agate worth at least 1,000 gp, which the spell consumes",
+					"text": "en az 1000 gp değerinde bir agat, büyü bunu tüketir",
 					"cost": 1000,
 					"consume": true
 				}
@@ -1529,8 +1529,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"After spending the casting time tracing magical pathways within a precious gemstone, you touch a huge or smaller beast or plant. The target must have either no Intelligence score or an Intelligence of 3 or less. The target gains an Intelligence of 10. The target also gains the ability to speak one language you know. If the target is a plant, it gains the ability to move its limbs, roots, vines, creepers, and so forth, and it gains senses similar to a human's. Your DM chooses statistics appropriate for the awakened plant, such as the statistics for the awakened shrub or the awakened tree.",
-				"The awakened beast or plant is {@condition charmed} by you for 30 gün or until you and your companions do anything harmful to it. When the {@condition charmed} condition ends, the awakened creature chooses whether to remain friendly to you, based on how you treated it while it was {@condition charmed}."
+				"Kullanma süresini değerli bir mücevher üzerinde büyülü yollar çizerek harcadıktan sonra, Dev boy ya da daha küçük bir hayvan ya da bitkiye dokunursun. Hedefin ya hiç Zeka skoru olmamalı ya da 3 veya altı olmalı. Hedef 10 Zekaya sahip olur. Hedef ayrıca senin konuşabildiğin bir dili konuşma yeteneğini kazanır. Eğer hedef bir bitkiyse, dalları, kökleri, sarmaşıkları gibi kısımlarını hareket ettirebilme yeteneğini kazanır ve bir insanınki gibi duyulara sahip olur. DM uyanan varlığa uygun istatistiği seçer, uyanmış çalı ya da uyanmış ağaç gibi (Yaratık Ansiklopedisinde bulunabilir).",
+				"Uyanmış hayvan ya da bitki 30 gün boyunca ya da sen ya da yoldaşların ona zarar verecek bir şey yapana dek senin tarafından {@condition cezbedilme} etkisindedir. Bu durum bittiğinde, uyanmış varlık bu süreç içerisinde ona nasıl davrandığına bağlı olarak sana dost kalıp kalmayacağına karar verir."
 			],
 			"page": 216
 		},
