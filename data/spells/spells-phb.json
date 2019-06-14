@@ -1629,7 +1629,7 @@
 			]
 		},
 		{
-			"name": "Banishing Smite",
+			"name": "Banishing Smite (Kovan Çarpma)",
 			"level": 5,
 			"school": "A",
 			"time": [
@@ -1679,7 +1679,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"The next time you hit a creature with a weapon attack before this spell ends, your weapon crackles with güç, and the attack deals an extra {@dice 5d10} güç damage to the target. Additionally, if this attack reduces the target to 50 hit points or fewer, you banish it. If the target is native to a different plane of existence than the one you're on, the target disappears, returning to its home plane. If the target is native to the plane you're on, the creature vanishes into a harmless demiplane. While there, the target is {@condition incapacitated}. It remains there until the spell ends, at which point the target reappears in the space it left or in the nearest unoccupied space if that space is occupied."
+				"Bu büyü bitmeden bir varlığa silahlı saldırı ile ilk vuruşunda, silahın güç enerjisi ile çıtırdar ve saldırı hedefe fazladan {@dice 5d10} güç hasarı verir. Ek olarak, eğer bu saldırı hedefi 50 hp ya da altına indirirse onu kovarsın. Eğer hedef bulunduğun boyuttan farklı bir boyutun yerlisi ise, hedef ortadan kaybolur ve asıl boyutuna döner. Eğer hedef bulunduğun boyutun yerlisi ise, varlık zararsız bir yarı boyuta gider. Oradayken hedef {@condition etkisiz hal}dedir. Büyü bitene dek orada kalır ve bittiği anda terkettiği alana ya da bu alan doluysa ona en yakın boş alana döner."
 			],
 			"page": 216,
 			"damageInflict": [
@@ -2116,7 +2116,7 @@
 			]
 		},
 		{
-			"name": "Bigby's Hand",
+			"name": "Bigby's Hand (Bigby'nin Eli)",
 			"level": 5,
 			"school": "V",
 			"time": [
@@ -2135,7 +2135,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "an eggshell and a snakeskin glove"
+				"m": "bir yumurta kabuğu ve yılan derisi eldiven"
 			},
 			"duration": [
 				{
@@ -2157,35 +2157,35 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You create a Large hand of shimmering, translucent güç in an unoccupied space that you can see within range. The hand lasts for the spell's duration, and it moves at your command, mimicking the movements of your own hand.",
-				"The hand is an object that has AC 20 and hit points equal to your hit point maximum. If it drops to 0 hit points, the spell ends. It has a Strength of 26 (+8) and a Dexterity of 10 (+0). The hand doesn't fill its space.",
-				"When you cast the spell and as a bonus eylem on your subsequent turns, you can move the hand up to 60 feet and then cause one of the following effects with it.",
+				"Menzilinde görebildiğin boş bir alanda saydam ve parıldayan güç enerjisinden Büyük boy bir el yaratırsın. El büyü süresince kalır ve senin komutlarınla elinin hareketlerini taklit eder.",
+				"El 20 AC'si olan ve senin HP maksimumuna eşit HP'ye sahip olan bir nesnedir. Eğer 0 HP'ye inerse büyü sonlanır. 26 (+8) Kuvveti ve 10 (+0) Çevikliği vardır. El alanını doldurmaz.",
+				"Büyüyü yaptığında ve sonraki sıralarda bonus eylem olarak, eli 60 fite kadar hareket ettirebilir ve şu etkilerden birini gerçekleştirebilirsin.",
 				{
 					"type": "entries",
-					"name": "Clenched Fist",
+					"name": "Sıkılmış Yumruk",
 					"entries": [
-						"The hand strikes one creature or object within 5 feet of it. Make a melee spell attack for the hand using your game statistics. On a hit, the target takes {@dice 4d8} güç damage."
+						"El 5 fit yakınındaki bir varlık ya da nesneye vurur. Kendi oyun istatistiklerini kullanarak el için bir yakın dövüş büyü saldırısı yap. Vurursa, hedef {@dice 4d8} güç hasarı alır."
 					]
 				},
 				{
 				    "type": "entries",
-				    "name": "Forceful Hand",
+				    "name": "Zorlu El",
 				    "entries": [
-						"The hand attempts to push a creature within 5 feet of it in a direction you choose. Make a check with the hand's Strength contested by the Strength (Athletics) check of the target. If the target is Medium or smaller, you have advantage on the check. If you succeed, the hand pushes the target up to 5 feet plus a number of feet equal to five times your spellcasting ability modifier. The hand moves with the target to remain within 5 feet of it."
+						"El 5 fit yakınındaki bir varlığı istediğin yöne doğru itmeyi dener. Elin Kuvvet zarına karşılık hedef Kuvvet (Atletizm) zarı atar. Eğer hedef Orta ya da daha küçük boyda ise bu zarda avantajlı olursun. Başarılı olursan, el hedefi 5 fit + büyü yapma yetenek bonusunun beş katı kadar fit iter. El hedef ile hareket edip yine onun 5 fit yakınında kalır."
 				    ]
 				},
 				{
 				    "type": "entries",
-				    "name": "Grasping Hand",
+				    "name": "Kavrayan El",
 				    "entries": [
-						"The hand attempts to grapple a Huge or smaller creature within 5 feet of it. You use the hand's Strength score to resolve the grapple. If the target is Medium or smaller, you have advantage on the check. While the hand is grappling the target, you can use a bonus eylem to have the hand crush it. When you do so, the target takes ezme damage equal to {@dice 2d6} + your spellcasting ability modifier."
+						"El 5 fit yakınındaki Dev ya da daha küçük boyda bir varlığı yakalamaya çalışır. Yakalamayı sonuçlandırmak için elin Kuvvet skorunu kullanırsın. Eğer hedef Orta ya da daha küçük boydaysa bu zarda avantajlı olursun. El hedefi tutarken bonus eylemini kullanıp hedefi ezebilirsin. Bunu yaptığında hedef {@dice 2d6} + büyü yapma yeteneği bonusu kadar ezme hasarı alır."
 				    ]
 				},
 				{
 				    "type": "entries",
-				    "name": "Interposing Hand",
+				    "name": "Araya Giren El",
 				    "entries": [
-						"The hand interposes itself between you and a creature you choose until you give the hand a different command. The hand moves to stay between you and the target, providing you with half cover against the target. The target can't move through the hand's space if its Strength score is less than or equal to the hand's Strength score. If its Strength score is higher than the hand's Strength score, the target can move toward you through the hand's space, but that space is difficult terrain for the target."
+						"Ele farklı bir komut verene dek seçtiğin bir varlık ile senin arana girer. El sürekli senle hedef arasında kalmak için hareket eder ve sana hedefe karşı yarı siper verir. Hedefin Kuvvet skoru eğer elin Kuvvet skoruna eşitse ya da daha azsa elin alanından geçemez. Eğer Kuvvet skoru elden yüksekse elin alanından geçip sana yaklaşabilir ama elin alanı onun için zorlu arazidir."
 				    ]
 				}
 			],
@@ -2194,7 +2194,7 @@
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 6. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the damage from the clenched fist option increases by {@dice 2d8} and the damage from the grasping hand increases by {@dice 2d6} for each slot level above 5th."
+						"Bu büyüyü 6. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 5. üzeri her seviye için sıkılmış yumruk seçeneğinin hasarı {@dice 2d8} ve kavrayan el seçeneğinin hasarı {@dice 2d6} artar."
 					]
 				}
 			],
@@ -3457,7 +3457,7 @@
 			]
 		},
 		{
-			"name": "Circle of Power",
+			"name": "Circle of Power (Güç Çemberi)",
 			"level": 5,
 			"school": "A",
 			"time": [
@@ -3508,7 +3508,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Divine energy radiates from you, distorting and diffusing magical energy within 30 feet of you. Until the spell ends, the sphere moves with you, centered on you. For the duration, each friendly creature in the area (including you) has advantage on saving throws against spells and other magical effects. Additionally, when an affected creature succeeds on a saving throw made against a spell or magical effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw."
+				"Senden kutsal enerji saçılır ve 30 fit çevrendeki büyülü enerjileri çarpıtır ve dağıtır. Büyü bitene dek küre merkezinde senle hareket eder. Süre boyunca, alandaki tüm dostane varlıklar (sen dahil) büyüler ve diğer büyülü etkilere karşı kurtulma zarlarında avantajlı olurlar. Ek olarak, eğer etki altındaki bir varlık yarı hasar almak için kurtulma zarı attıran bir büyü ya da büyülü etkiye karşı kurtulma zarında başarılı olursa, yarı hasar yerine hiç hasar almaz."
 			],
 			"page": 221
 		},
@@ -3703,7 +3703,7 @@
 			]
 		},
 		{
-			"name": "Cloudkill",
+			"name": "Cloudkill (Ölüm Bulutu)",
 			"level": 5,
 			"school": "C",
 			"time": [
@@ -3780,16 +3780,16 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You create a 20-foot-radius sphere of poisonous, yellow-green fog centered on a point you choose within range. The fog spreads around corners. It lasts for the duration or until strong wind disperses the fog, ending the spell. Its area is heavily obscured.",
-				"When a creature enters the spell's area for the first time on a turn or starts its turn there, that creature must make a Constitution saving throw. The creature takes {@dice 5d8} zehir damage on a failed save, or half as much damage on a successful one. Creatures are affected even if they hold their breath or don't need to breathe.",
-				"The fog moves 10 feet away from you at the start of each of your turns, rolling along the surface of the ground. The vapors, being heavier than air, sink to the lowest level of the land, even pouring down openings."
+				"Menzilinde seçeceğin bir noktada 20 fit yarıçaplı sarı-yeşil zehirli bir sis küresi oluşturursun. Sis köşelerin ardına geçer. Süre boyunca ya da güçlü bir rüzgar bu sisi dağıtana ve büyüyü sonlandırana kadar kalır. Alanı ağır bir şekilde örtülüdür.",
+				"Bir varlık sırasında büyü alanına ilk defa girişinde ya da sırasına orada başlarsa Dayanıklılık kurtulma zarı atar. Varlık başarısız olursa {@dice 5d8} zehir hasarı alır, başarılı olursa bunun yarısını. Varlıklar nefes ihtiyacı duymasa ya da nefeslerini tutsalar da etkilenirler.",
+				"Her sıranın başında sis senden 10 fit uzaklaşır, arazinin yüzeyinde ilerler. Buharlar havadan daha ağır oldukları için yerin en alt seviyesine inerler, hatta açıklıklardan aşağı bile dökülürler."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 6rd level or higher, the damage increases by {@dice 1d8} for each slot level above 5th."
+						"Bu büyüyü 6. seviye ya da üzeri bir yuva harcayarak kullandığında, 5. üzeri her seviye için hasar {@dice 1d8} artar."
 					]
 				}
 			],
@@ -3998,7 +3998,7 @@
 			]
 		},
 		{
-			"name": "Commune",
+			"name": "Commune (Konuş)",
 			"level": 5,
 			"school": "D",
 			"time": [
@@ -4016,7 +4016,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "incense and a vial of holy or unholy water"
+				"m": "tütsü ve bir şişe kutsal ya da fena su"
 			},
 			"duration": [
 				{
@@ -4052,14 +4052,14 @@
 				"ritual": true
 			},
 			"entries": [
-				"You contact your deity or a divine proxy and ask up to three questions that can be answered with a yes or no. You must ask your questions before the spell ends. You receive a correct answer for each question.",
-				"Divine beings aren't necessarily omniscient, so you might receive \"unclear\" as an answer if a question pertains to information that lies beyond the deity's knowledge. In a case where a one-word answer could be misleading or contrary to the deity's interests, the DM might offer a short phrase as an answer instead.",
-				"If you cast the spell two or more times before finishing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get no answer. The DM makes this roll in secret."
+				"Tanrına ya da bir kutsal aracıya ulaşır ve evet ya da hayır ile yanıtlanabilecek 3 adet soru sorarsın. Sorularını büyü bitmeden sormalısın. Her soru için doğru cevabı alırsın.",
+				"Kutsal varlıklar herşeyi bilemeyebilirler, bu yüzden eğer soru tanrının bilgisi dışında kalıyorsa \"belirsiz\" cevap olarak alınabilir. Tek kelimelik cevapların yanlış yönlendirebileceği ya da tanrının hedefleri ile çelişeceği durumlarda DM, kısa bir cümle ile cevap verebilir.",
+				"Uzun dinlenme bitirmeden bu büyüyü eğer 2 ya da daha fazla kez kullanırsan, birinciden sonraki her kullanım için biriken %25 cevap almama şansı vardır. DM bu zarı gizli atar."
 			],
 			"page": 223
 		},
 		{
-			"name": "Commune with Doğa",
+			"name": "Commune with Nature (Doğa ile Konuş)",
 			"level": 5,
 			"school": "D",
 			"time": [
@@ -4134,19 +4134,19 @@
 				"ritual": true
 			},
 			"entries": [
-				"You briefly become one with nature and gain knowledge of the surrounding territory. In the outdoors, the spell gives you knowledge of the land within 3 miles of you. In caves and other natural underground settings, the radius is limited to 300 feet. The spell doesn't function where nature has been replaced by construction, such as in dungeons and towns.",
-				"You instantly gain knowledge of up to three facts of your choice about any of the following subjects as they relate to the area:",
+				"Kısa süreliğine doğa ile bir olursun ve çevrendeki alanın bilgisini alırsın. Dışarıda, 3 mil çevrendeki alanın bilgisini verir. Mağara ve diğer doğal yeraltı ortamlarında, bu yarıçap 300 fit ile sınırlıdır. Doğanın yapı ile değiştirildiği zindan ve şehir gibi bölgelerde büyü işlemez.",
+				"Şu başlıklar hakkında alana bağlarına göre anında üç taneye kadar seçeceğin bilgiyi öğrenebilirsin:",
 				{
 					"type": "list",
 					"items": [
-						"terrain and bodies of water",
-						"prevalent plants, minerals, animals, or peoples",
-						"powerful celestials, fey, fiends, elementals, or undead",
-						"influence from other planes of existence",
-						"buildings."
+						"arazi ve su kütleleri",
+						"yaygın bitkiler, mineraller, hayvanlar ya da kişiler",
+						"güçlü kutsallar, feyler, zebaniler, elementaller ya da yaşayan ölüler",
+						"diğer boyutlardan etki",
+						"binalar."
 					]
 				},
-				"For example, you could determine the location of powerful undead in the area, the location of major sources of safe drinking water, and the location of any nearby towns."
+				"Örneğin, alandaki güçlü bir yaşayan ölünün yerini, büyük güvenli su kaynaklarının yerini ve en yakın kasabaların yerini saptayabilirsin."
 			],
 			"page": 224
 		},
@@ -4320,7 +4320,7 @@
 			]
 		},
 		{
-			"name": "Cone of Cold",
+			"name": "Cone of Cold (Soğuk Konisi)",
 			"level": 5,
 			"school": "V",
 			"time": [
@@ -4339,7 +4339,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a small crystal or glass cone"
+				"m": "küçük bir kristal ya da bir cam külah"
 			},
 			"duration": [
 				{
@@ -4383,15 +4383,15 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"A blast of soğuk air erupts from your hands. Each creature in a 60-foot cone must make a Constitution saving throw. A creature takes {@dice 8d8} soğuk damage on a failed save, or half as much damage on a successful one.",
-				"A creature killed by this spell becomes a frozen statue until it thaws."
+				"Ellerinden bir soğuk hava dalgası çıkar. 60 fitlik bir konideki tüm varlıklar Dayanıklılık kurtulma zarı atar. Başarısız bir varlık {@dice 8d8} soğuk hasarı alır, başarılı olursa bunun yarısını.",
+				"Bu büyü tarafından öldürülen bir varlık eriyene kadar donmuş bir heykele dönüşür."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 6. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the damage increases by {@dice 1d8} for each slot level above 5th."
+						"Bu büyüyü 6. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 5. üzeri her seviye için hasar {@dice 1d8} artar."
 					]
 				}
 			],
