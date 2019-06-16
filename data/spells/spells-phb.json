@@ -4719,7 +4719,7 @@
 			"page": 225
 		},
 		{
-			"name": "Conjure Elemental",
+			"name": "Conjure Elemental (Elemental Yarat)",
 			"level": 5,
 			"school": "C",
 			"time": [
@@ -4738,7 +4738,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "burning incense for air, soft clay for earth, sulfur and phosphorus for ateş, or water and sand for water"
+				"m": "hava için yanan tütsü, toprak için yumuşak kil, ateş için kükürt ve fosfor, ya da su için kum ve su"
 			},
 			"duration": [
 				{
@@ -4777,16 +4777,16 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You call forth an elemental servant. Choose an area of air, earth, ateş, or water that fills a 10-foot cube within range. An elemental of challenge rating 5 or lower appropriate to the area you chose appears in an unoccupied space within 10 feet of it. For example, a ateş elemental emerges from a bonfire, and an earth elemental rises up from the ground. The elemental disappears when it drops to 0 hit points or when the spell ends.",
-				"The elemental is friendly to you and your companions for the duration. Roll initiative for the elemental, which has its own turns. It obeys any verbal commands that you issue to it (no eylem required by you). If you don't issue any commands to the elemental, it defends itself from hostile creatures but otherwise takes no actions.",
-				"If your concentration is broken, the elemental doesn't disappear. Instead, you lose control of the elemental, it becomes hostile toward you and your companions, and it might attack. An uncontrolled elemental can't be dismissed by you, and it disappears 1 saat after you summoned it. The DM has the elemental's statistics."
+				"Bir elemental hizmetkar çağırırsın. Menzilinde 10 fitlik kübü dolduran bir hava, toprak, ateş ya da su alanını seç. Seçtiğin alana uygun olarak CR 5 ya da daha altı bir elemental seçtiğin yerin 10 fit yakınında boş bir alanda belirir. Örneğin, kamp ateşinden ateş elementali, yerden de toprak elementali çıkabilir. Elemental 0 HP'ye düştüğünde ya da büyü bittiğinde kaybolur.",
+				"Elemental süre boyunca sana ve yoldaşlarına dosttur. Elementalin kendi sırası vardır ve onun için de öncelik zarı atarsın. Ona verdiğin sözlü komutlara uyar (senin tarafından bir eylem gerektirmez). Eğer elementale komut vermezsen, kendini düşman varlıklardan savunur ama bunun dışında bir eylem gerçekleştirmez.",
+				"Eğer konsantrasyonun bozulursa elemental kaybolmaz. Bunun yerine elementalin kontrolünü kaybedersin, sana ve yoldaşlarına düşman olur ve saldırabilir. Kontrol edilmeyen bir elemental senin tarafından defedilemez ve senin onu çağırmandan bir saat sonra kaybolur. DM elementalin istatistiklerine sahiptir."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 6. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the challenge rating increases by 1 for each slot level above 5th."
+						"Bu büyüyü 6. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 5. üzeri her seviye için CR 1 artar."
 					]
 				}
 			],
@@ -4922,7 +4922,7 @@
 			"page": 226
 		},
 		{
-			"name": "Conjure Volley",
+			"name": "Conjure Volley (Yaylım Ateşi Yarat)",
 			"level": 5,
 			"school": "C",
 			"time": [
@@ -4941,7 +4941,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "one piece of ammunition or one thrown weapon"
+				"m": "bir parça misil ya da bir fırlatmalık silah"
 			},
 			"duration": [
 				{
@@ -4958,7 +4958,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You ateş a piece of nonmagical ammunition from a ranged weapon or throw a nonmagical weapon into the air and choose a point within range. Hundreds of duplicates of the ammunition or weapon fall in a volley from above and then disappear. Each creature in a 40-foot-radius. 20-foot-high cylinder centered on that point must make a Dexterity saving throw. A creature takes {@dice 8d8} damage on a failed save, or half as much damage on a successful one. The damage type is the same as that of the ammunition or weapon."
+				"Menzilinde bir nokta seçip büyüsüz bir parça misili ya da fırlatmalık silahı havaya atarsın. O misil ya da silahın yüzlerce kopyası gökten yağar ve sonra kaybolur. Seçtiğin noktada yaratacağın 40 fit yarıçaplı 20 fit yükseklikte silindirin içinde kalan tüm varlıklar Çeviklik kurtulma zarı atar. Başarısız bir varlık {@dice 8d8} hasar alır, başarılı olursa bunun yarısını. Hasar tipi kullanılan misil ya da silahla aynıdır."
 			],
 			"page": 226,
 			"savingThrow": [
@@ -5036,7 +5036,7 @@
 			"page": 226
 		},
 		{
-			"name": "Contact Other Plane",
+			"name": "Contact Other Plane (Başka Boyutla İrtibat)",
 			"level": 5,
 			"school": "D",
 			"time": [
@@ -5080,8 +5080,8 @@
 				"ritual": true
 			},
 			"entries": [
-				"You mentally contact a demigod, the spirit of a long-dead sage, or some other mysterious entity from another plane. Contacting this extraplanar zeka can strain or even break your mind. When you cast this spell, make a DC 15 Intelligence saving throw. On a failure, you take {@dice 6d6} psişik damage and are insane until you finish a long rest. While insane, you can't take actions, can't understand what other creatures say, can't read, and speak only in gibberish. A greater restoration spell cast on you ends this effect.",
-				"On a successful save, you can ask the entity up to five questions. You must ask your questions before the spell ends. The DM answers each question with one word, such as yes, no, maybe, never, irrelevant, unclear (if the entity doesn't know the answer to the question). If a one-word answer would be misleading, the DM might instead offer a short phrase as an answer."
+				"Zihinsel bir şekilde bir yarıtanrıya, uzun süredir ölü olan bir bilgenin ruhuna, ya da başka bir boyuttan gizemli bir varlığa ulaşırsın. Bu boyutdışı zekaya erişmek kendi zihnini zorlar, hatta bozabilir. Bu büyüyü yaptığında, DC 15 Zeka kurtulma zarı at. Başarısız olursan {@dice 6d6} psişik hasar alırsın ve uzun dinlenme bitirene kadar aklını yitirirsin. Delirmişken eylem gerçekleştiremezsin, diğer varlıkların dediğini anlayamazsın, okuyamazsın ve sadece anlamsız ve saçma konuşursun. Üzerine kullanılan bir greater restoration (üstün yenileme) büyüsü bu etkiyi sonlandırır.",
+				"Başarılı bir kurtulma zarında, bu varlığa 5 taneye kadar soru sorabilirsin. Sorularını büyü bitmeden sormalısın. Dm her soruyu tek kelime ile yanıtlar, bunlar: evet, hayır, belki, asla, alakasız, belirsiz (eğer varlık sorunun cevabını bilmiyorsa) olabilir. Eğer tek kelimelik bir cevap yanıltıcı olabilirse, DM cevap olarak kısa bir cümle söyleyebilir."
 			],
 			"page": 226,
 			"damageInflict": [
@@ -5092,7 +5092,7 @@
 			]
 		},
 		{
-			"name": "Contagion",
+			"name": "Contagion (Bulaşma)",
 			"level": 5,
 			"school": "N",
 			"time": [
@@ -5156,49 +5156,49 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Your touch inflicts disease. Make a melee spell attack against a creature within your reach. On a hit, you afflict the creature with a disease of your choice from any of the ones described below.",
-				"At the end of each of the target's turns, it must make a Constitution saving throw. After failing three of these saving throws, the disease's effects last for the duration, and the creature stops making these saves. After succeeding on three of these saving throws, the creature recovers from the disease, and the spell ends.",
-				"Since this spell induces a natural disease in its target, any effect that removes a disease or otherwise ameliorates a disease's effects apply to it.",
+				"Dokunuşun hastalık saçar. Menzilindeki bir varlığa karşı yakın dövüş büyü saldırısı yap. Vurursa, varlığa aşağıda tanımlanan hastalıklardan seçeceğin birini bulaştrırsın.",
+				"Hedefin her sırasının sonunda Dayanıklılık kurtulma zarı atar. Bu kurtulma zarlarından 3 tanesinde başarısız olduktan sonra hastalığın etkisi süre boyunca sürer ve varlık bu kurtulma zarlarını atmayı bırakır. Bu kurtulma zarlarından 3 tanesinde başarılı olunca, varlık hastalıktan kurtulur ve büyü sonlanır.",
+				"Büyü hedefine doğal bir hastalık verdiği için, hastalıktan kurtulmaya yarayan tüm etkiler bunu sonlandırır ya da hastalığın etkilerini bastıran etkiler geçerli olur.",
 				{
 					"type": "entries",
-					"name": "Blinding Sickness",
+					"name": "Kör Eden Hastalık",
 					"entries": [
-						"Pain grips the creature's mind, and its eyes turn milky white. The creature has disadvantage on Wisdom checks and Wisdom saving throws and is {@condition blinded}."
+						"Varlığın zihnini bir acı kaplar ve gözleri süt beyazına döner. Varlık Akıl zarlarında, Akıl kurtulma zarlarında dezavantajlı olur ve {@condition körlük} etkisi altındadır."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Filth Fever",
+					"name": "Pislik Humması",
 					"entries": [
-						"A raging fever sweeps through the creature's body. The creature has disadvantage on Strength checks, Strength saving throws, and attack rolls that use Strength."
+						"Varlığın bedenini bir ateş ve halsizlik kaplar. Varlık Kuvvet zarlarında, Kuvvet kurtulma zarlarında ve Kuvvet bazlı saldırılarda dezavantajlı olur."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Flesh Rot",
+					"name": "Et Çürüğü",
 					"entries": [
-						"The creature's flesh decays. The creature has disadvantage on Charisma checks and vulnerability to all damage."
+						"Varlığın eti çürür. Varlık Karizma zarlarında dezavantajlı olur ve tüm hasarlara karşı zayıflığı olur."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Mindfire",
+					"name": "Zihin Ateşi",
 					"entries": [
-						"The creature's mind becomes feverish. The creature has disadvantage on Intelligence checks and Intelligence saving throws, and the creature behaves as if under the effects of the confusion spell during combat."
+						"Varlığın zihni bulanır. Varlık Zeka zarlarında, Zeka kurtulma zarlarında dezavantajlı olur ve savaşta sanki confusion büyüsü etkisi altındaymış gibi davranır."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Seizure",
+					"name": "Nöbet",
 					"entries": [
-						"The creature is overcome with shaking. The creature has disadvantage on Dexterity checks, Dexterity saving throws, and attack rolls that use Dexterity."
+						"Varlığın tüm bedenini titreme alır. Varlık Çeviklik zarlarında, Çeviklik kurtulma zarlarında ve Çeviklik kullanan saldırı zarlarında dezavantajlı olur."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Slimy Doom",
+					"name": "Balçıklı Son",
 					"entries": [
-						"The creature begins to bleed uncontrollably. The creature has disadvantage on Constitution checks and Constitution saving throws. In addition, whenever the creature takes damage, it is {@condition stunned} until the end of its next turn."
+						"Varlık kontrolsüz bir şekilde kanamaya başlar. Varlık Dayanıklılık zarlarında ve Dayanıklılık kurtulma zarlarında dezavantajlı olur. Ek olarak, varlık ne zaman hasar alsa bir sonraki sırasının sonuna kadar {@condition sersemleme} etkisinde kalır."
 					]
 				}
 			],
@@ -5902,7 +5902,7 @@
 			"page": 229
 		},
 		{
-			"name": "Creation",
+			"name": "Creation (Yaratılış)",
 			"level": 5,
 			"school": "I",
 			"time": [
@@ -5921,7 +5921,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a tiny piece of matter of the same type of the item you plan to create"
+				"m": "yaratmayı planladığın eşyanın tipinde küçük bir madde"
 			},
 			"duration": [
 				{
@@ -5954,46 +5954,46 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You pull wisps of shadow material from the Shadowfell to create a nonliving object of vegetable matter within range: soft goods, rope, wood, or something similar. You can also use this spell to create mineral objects such as stone, crystal, or metal. The object created must be no larger than a 5-foot cube, and the object must be of a form and material that you have seen before.",
-				"The duration depends on the object's material. If the object is composed of multiple materials, use the shortest duration.",
+				"Shadowfell'den gölge materyali demetleri çekerek menzilinde yumuşak mallar, halat, odun ve benzeri inorganik bitkisel maddeler yaratırsın. Bu büyüyü taş, kristal ve metal gibi mineral nesneler için de kullanabilirsin. Yaratılan nesne 5 fit küpten büyük olmamalı ve nesne daha önce gördüğün bir form ve materyalde olmalı.",
+				"Süre nesnenin materyaline bağlı olarak değişir. Eğer nesne birden çok materyalden oluşuyorsa en kısa süreli olanı kullanırsın.",
 				{
 					"type": "table",
-					"caption": "Creation",
+					"caption": "Yaratılış",
 					"colLabels": [
-						"Material",
-						"Duration"
+						"Materyal",
+						"Süre"
 					],
 					"rows": [
 						[
-							"Vegetable matter",
-							"1 day"
+							"Bitkisel madde",
+							"1 gün"
 						],
 						[
-							"Stone or crystal",
+							"Taş ya da kristal",
 							"12 saat"
 						],
 						[
-							"Precious metals",
+							"Değerli metaller",
 							"1 saat"
 						],
 						[
-							"Gems",
+							"Mücevherler",
 							"10 dakika"
 						],
 						[
-							"Adamantine or mithral",
+							"Adamantine ya da mithral",
 							"1 dakika"
 						]
 					]
 				},
-				"Using any material created by this spell as another spell's material component causes that spell to fail."
+				"Bu büyü ile yaratılan bir maddeyi başka bir büyünün materyal bileşeni olarak kullanma o büyünün başarısız olmasına yol açar."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 6. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the cube increases by 5 feet for each slot level above 5th."
+						"Bu büyüyü 6. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 5. üzeri her seviye için kübün boyutu 5 fit artar."
 					]
 				}
 			],
@@ -6717,7 +6717,7 @@
 			"page": 231
 		},
 		{
-			"name": "Destructive Wave",
+			"name": "Destructive Wave (Yıkıcı Dalga)",
 			"level": 5,
 			"school": "V",
 			"time": [
@@ -6763,7 +6763,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You strike the ground, creating a burst of divine energy that ripples outward from you. Each creature you choose within 30 feet of you must succeed on a Constitution saving throw or take {@dice 5d6} ses damage, as well as {@dice 5d6} radyant or nekrotik damage (your choice), and be knocked {@condition prone}. A creature that succeeds on its saving throw takes half as much damage and isn't knocked {@condition prone}."
+				"Yere vurur, senden dışarı doğru dalgalanan bir kutsal enerji patlaması yaratırsın. 30 fit yakınında seçeceğin her varlık Dayanıklılık kurtulma zarı atar ya da {@dice 5d6} ses hasarı, ve seçimine göre {@dice 5d6} radyant ya da nekrotik hasar alır, ve yere düşer. Kurtulma zarında başarılı olan bir varlık hasarın yarısını alır ve yere düşmez."
 			],
 			"page": 231,
 			"damageInflict": [
@@ -7191,7 +7191,7 @@
 			"source": "PHB",
 			"entries": [
 				"Büyü bitene ya da sen eylemini kullanıp etkiyi savana kadar kendini, kıyafetin, zırhın, silahın ve üzerindeki diğer şeylerle birlikte farklı gösterirsin. 1 fit daha kısa ya da uzun, veya daha tombul ya da zayıf görünebilirsin. Vücut şeklini değiştiremezsin, girdiğin form seninkine benzer uzuvlara sahip olmalıdır. Bunun dışında illüzyonun etkileri sana kalmış.",
-				"Bu büyünün yarattığı değişiklikler fiziksel denetime dayanamaz. Örneğin, bu büyü ile kıyafetine bir şapka eklersen, nesneler şapkanın içinden geçer ve ona dokunan herkes ya hiçbirşey hissetmez ya da başın ve saçına dokunur. Bu büyüyü olduğundan daha zayıf görünmek için kullanıyorsan, sana dokunmak için elini uzatan biri, daha eli boşlukta görünürken sana yaklaştığında asıl bedenine çarpar.",
+				"Bu büyünün yarattığı değişiklikler fiziksel denetime dayanamaz. Örneğin, bu büyü ile kıyafetine bir şapka eklersen, nesneler şapkanın içinden geçer ve ona dokunan herkes ya hiçbir şey hissetmez ya da başın ve saçına dokunur. Bu büyüyü olduğundan daha zayıf görünmek için kullanıyorsan, sana dokunmak için elini uzatan biri, daha eli boşlukta görünürken sana yaklaştığında asıl bedenine çarpar.",
 				"Senin kılık değiştirdiğini farkedebilmek için, bir varlık eylemini kullanıp görünüşünü inceler ve senin büyü kurtulma DC'ne karşı Zeka (İnceleme) zarı atar."
 			],
 			"page": 233,
@@ -7263,7 +7263,7 @@
 			]
 		},
 		{
-			"name": "Dispel Evil and Good",
+			"name": "Dispel Evil and Good (İyi ve Kötüyü Defet)",
 			"level": 5,
 			"school": "A",
 			"time": [
@@ -7281,7 +7281,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "holy water or powdered silver and iron"
+				"m": "kutsal su ya da gümüş ve demir tozu"
 			},
 			"duration": [
 				{
@@ -7307,19 +7307,19 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Shimmering energy surrounds and protects you from fey, undead, and creatures originating from beyond the Material Plane. For the duration, celestials, elementals, fey, fiends, and undead have disadvantage on attack rolls against you. You can end the spell early by using either of the following special functions.",
+				"Işıldayan bir enerji seni sarar ve seni fey, yaşayan ölü, ve Materyal Boyutun ötesinden gelen varlıklardan korur. Süre boyunca, kutsallar, elementaller, feyler, zebaniler, ve yaşayan ölüler sana saldırılarında dezavantajlı olurlar. Şu seçeneklerden birini kullanarak büyüyü erken bitirebilirsin.",
 				{
 					"type": "entries",
-					"name": "Break Enchantment",
+					"name": "Büyüyü Boz",
 					"entries": [
-						"As your eylem, you touch a creature you can reach that is {@condition charmed}, {@condition frightened}, or possessed by a celestial, an elemental, a fey, a fiend, or an undead. The creature you touch is no longer {@condition charmed}, {@condition frightened}, or possessed by such creatures."
+						"Eylem olarak bir kutsal, elemental, fey, zebani ya da yaşayan ölü tarafından ele geçirilme, {@condition korkma}, {@condition cezbedilme} etkileri altında olan erişebileceğin bir varlığa dokunursun. Dokunduğun varlık bu etkilerden kurtulur."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Dismissal",
+					"name": "Kovma",
 					"entries": [
-						"As your eylem, make a melee spell attack against a celestial, an elemental, a fey, a fiend, or an undead you can reach. On a hit, you attempt to drive the creature back to its home plane. The creature must succeed on a Charisma saving throw or be sent back to its home plane (if it isn't there already). If they aren't on their home plane, undead are sent to the Shadowfell, and fey are sent to the Feywild."
+						"Eylem olarak erişebileceğin bir kutsal, elemental, fey, zebani veya yaşayan ölüye karşı yakın dövüş büyü saldırısı yaparsın. Vurursa, varlığı asıl boyutuna göndermeye çalışırsın. Varlık Karizma kurtulma zarı atar ya da asıl boyutuna döner (zaten orada değilse). Eğer asıl boyutlarında değillerse, yaşayan ölüler Shadowfell'e, feyler de Feywild'a gider."
 					]
 				}
 			],
@@ -7862,7 +7862,7 @@
 			]
 		},
 		{
-			"name": "Dominate Person",
+			"name": "Dominate Person (Kişiye Hükmet)",
 			"level": 5,
 			"school": "E",
 			"time": [
@@ -7962,17 +7962,17 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You attempt to beguile a humanoid that you can see within range. It must succeed on a Wisdom saving throw or be {@condition charmed} by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw.",
-				"While the target is {@condition charmed}, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no eylem required), which it does its best to obey. You can specify a simple and general course of eylem, such as Attack that creature, Run over there, or Fetch that object. If the creature completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability.",
-				"You can use your eylem to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time you can also cause the creature to use a reaksiyon, but this requires you to use your own reaksiyon as well.",
-				"Each time the target takes damage, it makes a new Wisdom saving throw against the spell. If the saving throw succeeds, the spell ends."
+				"Menzilinde görebildiğin bir insansıyı cezbetmeye çalışırsın. Akıl kurtulma zarı atar ya da süre boyunca senin {@condition cezbetme} etkin altında olur. Eğer sen ya da sana dost olan varlıklar onunla savaşıyorsa bu kurtulma zarında avantajı olur.",
+				"Hedef {@condition cezbetme} etkisi altındayken, ikiniz de aynı boyutta olduğunuz sürece telepatik bir bağınız olur. Sen bilinçli olduğun sürece bu bağı kullanarak varlığa komutlar verebilirsin (senin tarafından eylem kullanımı gerektirmez), o da elinden geldiğinde uygular. Şu varlığa saldır, Şuraya koş veya Şu nesneyi getir gibi basit ve genel bir komut verebilirsin. Eğer varlık komutu yerine getirir ve senden daha fazla komut almazsa, elinden geldiğinde kendini korur.",
+				"Eylemini kullanarak hedefin tüm ve kesin kontrolünü eline alabilirsin. Bir sonraki sıranın sonuna kadar, varlık sadece senin seçtiğin eylemleri gerçekleştirir, ve senin izin vermediğin hiçbir şeyi yapmaz. Bu süreçte varlığın reaksiyon kullanmasını da sağlayabilirsin, ama bu senin kendi reaksiyonunu da kullanmanı gerektirir.",
+				"Hedef her hasar alışında büyüye karşı Akıl kurtulma zarını tekrarlar. Eğer başarılı olursa, büyü sonlanır."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a 6th-level spell slot, the duration is concentration, up to 10 dakika. When you use a 7th-level spell slot, the duration is concentration, up to 1 saat. When you use a spell slot of 8th level or higher, the duration is concentration, up to 8 saat."
+						"Bu büyüyü 6. seviye büyü yuvası harcayarak kullandığında, süre 10 dakika, 7. seviye ile kullandığında 1 saat, 8. seviye ya da üstü ile kullandığında 8 saat konsantrasyondur."
 					]
 				}
 			],
