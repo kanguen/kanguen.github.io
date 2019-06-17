@@ -8034,7 +8034,7 @@
 			"page": 235
 		},
 		{
-			"name": "Dream",
+			"name": "Dream (Rüya)",
 			"level": 5,
 			"school": "I",
 			"time": [
@@ -8049,7 +8049,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a handful of sand, a dab of ink, and a writing quill plucked from a sleeping bird"
+				"m": "bir tutam kum, bir damla mürekkep ve uyuyan bir kuştan koparılmış bir tüy kalem"
 			},
 			"duration": [
 				{
@@ -8091,10 +8091,10 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"This spell shapes a creature's dreams. Choose a creature known to you as the target of this spell. The target must be on the same plane of existence as you. Creatures that don't sleep, such as elves, can't be contacted by this spell. You, or a willing creature you touch, enters a trance state, acting as a messenger. While in the trance, the messenger is aware of his or her surroundings, but can't take actions or move.",
-				"If the target is asleep, the messenger appears in the target's dreams and can converse with the target as long as it remains asleep, through the duration of the spell. The messenger can also shape the environment of the dream, creating landscapes, objects, and other images. The messenger can emerge from the trance at any time, ending the effect of the spell early. The target recalls the dream perfectly upon waking. If the target is awake when you cast the spell, the messenger knows it, and can either end the trance (and the spell) or wait for the target to fall asleep, at which point the messenger appears in the target's dreams.",
-				"You can make the messenger appear monstrous and terrifying to the target. If you do, the messenger can deliver a message of no more than ten words and then the target must make a Wisdom saving throw. On a failed save, echoes of the phantasmal monstrosity spawn a nightmare that lasts the duration of the target's sleep and prevents the target from gaining any benefit from that rest. In addition, when the target wakes up, it takes {@dice 3d6} psişik damage.",
-				"If you have a body part, lock of hair, clipping from a nail, or similar portion of the target's body, the target makes its saving throw with disadvantage."
+				"Bu büyü bir varlığın rüyalarını şekillendirir. Bildiğin bir varlığı bu büyünün hedefi olarak seçersin. Varlık senle aynı boyutta olmalı. Elfler gibi uyumayan varlıklar bu büyü ile erişilemez. Sen ya da dokunduğun istekli bir varlık trans durumuna girer ve elçilik yapar. Bu transtayken elçi çevresinin farkındadır, ama eylem gerçekleştiremez ya da hareket edemez.",
+				"Eğer hedef uyuyorsa elçi rüyasına girer ve hedefin uykuda kalma şartıyla büyü süresince onunla konuşabilir. Elçi rüyanın çevresini de düzenleyebilir, yer şekilleri, nesneler ve diğer görüntüler yaratabilir. Elçi transtan istediği zaman çıkabilir, büyünün etkisini erken bitirir. Hedef uyandığında rüyayı kusursuz bir şekilde hatırlar. Eğer bu büyüyü yaptığında hedef uyanıksa elçi bunu bilir ve sonrasında ya transı ve büyüyü sonlandırır ya da hedefin uykuya dalmasını bekler, bu noktada hedefin rüyalarına girecektir.",
+				"Hedefe elçiyi korkunç bir yaratık gibi gösterebilirsin. Eğer bunu yaparsan elçi 10 kelimeden fazla mesaj iletemez ve sonrasında hedef Akıl kurtulma zarı atar. Başarısız olursa, bu hayali yaratığın yankıları hedefin uykusu süresince sürecek kabuslar yaratır ve onun bu dinlenmeden faydalanmasını engeller. Ek olarak, hedef uyandığında {@dice 3d6} psişik hasar alır.",
+				"Eğer hedefin bedeninden bir tutam saç, kesilmiş tırnak benzeri bir kısmına sahipsen, hedef kurtulma zarını dezavantajlı atar."
 			],
 			"page": 236,
 			"damageInflict": [
@@ -10031,7 +10031,7 @@
 			]
 		},
 		{
-			"name": "Flame Strike",
+			"name": "Flame Strike (Alev Darbesi)",
 			"level": 5,
 			"school": "V",
 			"time": [
@@ -10050,7 +10050,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "pinch of sulfur"
+				"m": "bir tutam kükürt"
 			},
 			"duration": [
 				{
@@ -10119,14 +10119,14 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"A vertical column of divine ateş roars down from the heavens in a location you specify. Each creature in a 10-foot radius, 40-foot-high cylinder centered on a point within range must make a Dexterity saving throw. A creature takes {@dice 4d6} ateş damage and {@dice 4d6} radyant damage on a failed save, or half as much damage on a successful one."
+				"Belirttiğin bir noktaya göklerden dikey bir kutsal ateş sütunu iner. Menzilindeki noktada 10 fit yarıçaplı 40 fit yükseklikte bir silindirin içerisinde bulunan tüm varlıklar Çeviklik kurtulma zarı atar. Başarısız bir varlık {@dice 4d6} ateş ve {@dice 4d6} radyant hasar alır, başarılı olursa bunun yarısını."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 6. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the ateş damage or the radyant damage (your choice) increases by {@dice 1d6} for each slot level above 5th."
+						"Bu büyüyü 6. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 5. üzeri her seviye için senin seçimine göre ateş ya da radyant hasar {@dice 1d6} artar."
 					]
 				}
 			],
@@ -10924,7 +10924,7 @@
 			"page": 244
 		},
 		{
-			"name": "Geas",
+			"name": "Geas (Ges)",
 			"level": 5,
 			"school": "E",
 			"time": [
@@ -10990,16 +10990,16 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You place a magical command on a creature that you can see within range, forcing it to carry out some service or refrain from some eylem or course of activity as you decide. If the creature can understand you, it must succeed on a Wisdom saving throw or become {@condition charmed} by you for the duration. While the creature is {@condition charmed} by you, it takes {@dice 5d10} psişik damage each time it acts in a manner directly counter to your instructions, but no more than once each day. A creature that can't understand you is unaffected by the spell.",
-				"You can issue any command you choose, short of an activity that would result in certain death. Should you issue a suicidal command, the spell ends.",
-				"You can end the spell early by using an eylem to dismiss it. A remove curse, greater restoration, or wish spell also ends it."
+				"Menzilinde görebildiğin bir varlığa büyülü bir emir verirsin, senin kararına göre bir hizmete zorlayabilir ya da bir şey yapmasını engelleyebilirsin. Eğer varlık seni anlayabiliyorsa, Akıl kurtulma zarı atar ya da süre boyunca senin {@condition cezbetme} etkin altında olur. Varlık senin tarafından cezbedilmişken, verdiğin talimatlara her doğrudan karşıt bir şekilde davranışında {@dice 5d10} psişik hasar alır, ama bu hasar günde bir kereyi geçmez. Seni anlayamayan bir varlık büyüden etkilenmez.",
+				"Kesin ölümle sonuçlanacak aktiviteler dışında istediğin emri verebilirsin. İntihar meyilli bir emir verdiğinde büyü sonlanır.",
+				"Eylemini kullanıp büyüyü erken sonlandırabilirsin. Bir remove curse (lanet kaldır), greater restoration (üstün yenileme), ya da wish (dilek) büyüsü de bu etkiyi sonlandırabilir."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 7th or 8th level, the duration is 1 year. Bu büyüyü 9. seviye bir büyü yuvası harcayarak kullandığında, the spell lasts until it is ended by one of the spells mentioned above."
+						"Bu büyüyü 7. ya da 8. seviye bir yuva harcayarak kullandığında, süre 1 yıl olur. Bu büyüyü 9. seviye bir büyü yuvası harcayarak kullandığında, büyü yukarıda verilen büyülerden biri tarafından kaldırılana kadar sürer."
 					]
 				}
 			],
@@ -11570,7 +11570,7 @@
 			"page": 246
 		},
 		{
-			"name": "Greater Restoration",
+			"name": "Greater Restoration (Üstün Yenileme)",
 			"level": 5,
 			"school": "A",
 			"time": [
@@ -11589,7 +11589,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "diamond dust worth 100 gp, which the spell consumes",
+					"text": "100 gp değerinde elmas tozu, büyü bunu tüketir",
 					"cost": 100,
 					"consume": true
 				}
@@ -11629,14 +11629,14 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You imbue a creature you touch with positive energy to undo a debilitating effect. You can reduce the target's {@condition exhaustion} level by one, or end one of the following effects on the target.",
+				"Dokunduğun bir varlığı pozitif enerji ile doldurup onu zayflatan bir etkiyi ortadan kaldırırsın. Hedefin {@condition bitkinlik} seviyesini 1 azaltabilir ya da şu etkilerden birini sonlandırabilirsin.",
 				{
 					"type": "list",
 					"items": [
-						"One effect that {@condition charmed} or {@condition petrified} the target",
-						"One curse, including the target's attunement to a cursed magic item",
-						"Any reduction to one of the target's ability scores",
-						"One effect reducing the target's hit point maximum"
+						"Hedefin üzerindeki bir {@condition cezbedilme} ya da {@condition taşa dönme} etkisi",
+						"Bir lanet, hedefin lanetli bir büyülü eşyaya bağı dahil",
+						"Hedefin yetenek skorlarından birindeki düşüş",
+						"Hedefin HP maksimumunu düşüren bir etki"
 					]
 				}
 			],
@@ -12083,7 +12083,7 @@
 			]
 		},
 		{
-			"name": "Hallow",
+			"name": "Hallow (Kutsa)",
 			"level": 5,
 			"school": "V",
 			"time": [
@@ -12102,7 +12102,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "herbs, oils, and incense worth at least 1,000 gp, which the spell consumes",
+					"text": "en az 1000 gp değerinde otlar, yağlar ve tütsüler, büyü bunları tüketir",
 					"cost": 1000,
 					"consume": true
 				}
@@ -12137,77 +12137,77 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You touch a point and infuse an area around it with holy (or unholy) power. The area can have a radius up to 60 feet, and the spell fails if the radius includes an area already under the effect a hallow spell. The affected area is subject to the following effects.",
-				"First, celestials, elementals, fey, fiends, and undead can't enter the area, nor can such creatures charm, frighten, or possess creatures within it. Any creature {@condition charmed}, {@condition frightened}, or possessed by such a creature is no longer {@condition charmed}, {@condition frightened}, or possessed upon entering the area. You can exclude one or more of those types of creatures from this effect.",
-				"Second, you can bind an extra effect to the area. Choose the effect from the following list, or choose an effect offered by the DM. Some of these effects apply to creatures in the area, you can designate whether the effect applies to all creatures, creatures that follow a specific deity or leader, or creatures of a specific sort, such as orcs or trolls. When a creature that would be affected enters the spell's area for the first time on a turn or starts its turn there, it can make a Charisma saving throw. On a success, the creature ignores the extra effect until it leaves the area.",
+				"Bir noktaya dokunur ve alanı kutsal (ya da fena) güç ile doldurursun. Bu alan 60 fit yarıçapa kadar çıkabilir, ve eğer bu alan zaten bu büyünün etkisi altında bir yeri kapsarsa başarısız olur. Etkilenen alan şu etkiler altında olur.",
+				"İlk olarak, kutsallar, elementaller, feyler, zebaniler, ve yaşayan ölüler alana giremez ve bu alan içerisindeki varlıkları cezbedemez, korkutamaz veya ele geçiremez. Bu tip varlıklar tarafından halihazırda {@condition cezbedilme}, {@condition korkma}, ya da ele geçirilme etkisi altında olan varlıklar alana girdiklerinde bu etkilerden kurtulurlar. Bu varlık tiplerinden bir ya da birkaçını etkilenmemesi için seçebilirsin.",
+				"İkinci olarak, alana fazladan bir etki bağlayabilirsin. Bu etkiyi aşağıdaki listeden seç, ya da DM tarafından sunulan farklı bir etki olabilir. Bu etkilerin bazıları alanın içindeki varlıklara işler, bu etkinin tüm varlıkları, belirli bir tanrı ya da lideri izleyenleri, ya da orc ve troll gibi belirli tipte varlıkları etkilemesini belirleyebilirsin. Etkilenecek bir varlık bu alana sırasında ilk girdiğinde ya da sırasına orada başlarsa, Karizma kurtulma zarı atabilir. Başarılı olursa varlık alanı terk edene kadar ikincil etkiyi yoksayar.",
 				{
 					"type": "entries",
-					"name": "Courage",
+					"name": "Cesaret",
 					"entries": [
-						"Affected creatures can't be {@condition frightened} while in the area."
+						"Etkilenen varlıklar alan içerisindeyken {@condition korkma} durumundan etkilenmezler."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Darkness",
+					"name": "Karanlık",
 					"entries": [
-						"Darkness fills the area. Normal light, as well as magical light created by spells of a lower level than the slot you used to cast this spell, can't illuminate the area."
+						"Alanı karanlık doldurur. Normal ışık ve bu büyüyü kullandığın büyü yuvasından daha düşük seviyede kullanılmış ışık saçan büyüler bu alanı aydınlatamaz."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Daylight",
+					"name": "Gün Işığı",
 					"entries": [
-						"Bright light fills the area. Magical darkness created by spells of a lower level than the slot you used to cast this spell can't extinguish the light."
+						"Alanı parlak ışık doldurur. Bu büyüyü kullandığın büyü yuvasından daha düşük seviyede kullanılmış büyülü karanlık buradaki ışığı söndüremez."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Energy Protection",
+					"name": "Enerji Koruması",
 					"entries": [
-						"Affected creatures in the area have resistance to one damage type of your choice, except for ezme, delme, or kesme."
+						"Alandaki etkilenen varlıklar ezme, delme ve kesme dışında bir hasar tipine direnç kazanırlar."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Energy Vulnerability",
+					"name": "Enerji Zayıflığı",
 					"entries": [
-						"Affected creatures in the area have vulnerability to one damage type of your choice, except for ezme, delme, or kesme."
+						"Alandaki etkilenen varlıkların ezme, delme ve kesme dışında bir hasar tipine zayıflıkları olur."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Everlasting Rest",
+					"name": "Ebedi İstirahat",
 					"entries": [
-						"Dead bodies interred in the area can't be turned into undead."
+						"Alana defnedilmiş ölü bedenler yaşayan ölüye dönüştürülemezler."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Extradimensional Interference",
+					"name": "Boyutdışı Müdahale",
 					"entries": [
-						"Affected creatures can't move or travel using teleportation or by extradimensional or interplanar means."
+						"Etkilenen varlıklar ışınlanma ile ve boyutlararası hareket edemezler."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Fear",
+					"name": "Korku",
 					"entries": [
-						"Affected creatures are {@condition frightened} while in the area."
+						"Etkilenen varlıklar alanda iken {@condition korkma} etkisi altındadır."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Silence",
+					"name": "Sessizlik",
 					"entries": [
-						"No sound can emanate from within the area, and no sound can reach into it."
+						"Alanda hiçbir ses oluşmaz ve hiçbir ses alana giremez."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Tongues",
+					"name": "Diller",
 					"entries": [
-						"Affected creatures can communicate with any other creature in the area, even if they don't share a common language."
+						"Etkilenen varlıklar ortak dilleri olmasa bile birbirleri ile konuşabilirler."
 					]
 				}
 			],
@@ -12886,7 +12886,7 @@
 			]
 		},
 		{
-			"name": "Hold Monster",
+			"name": "Hold Monster (Yaratık Zapt Et)",
 			"level": 5,
 			"school": "E",
 			"time": [
@@ -12905,7 +12905,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a small, straight piece of iron"
+				"m": "küçük düz bir parça demir"
 			},
 			"duration": [
 				{
@@ -12971,14 +12971,14 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Choose a creature that you can see within range. The target must succeed on a Wisdom saving throw or be {@condition paralyzed} for the duration. This spell has no effect on undead. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target."
+				"Menzilinde görebildiğin bir varlık seç. Hedef Akıl kurtulma zarı atar ya da süre boyunca {@condition felç} etkisi altında olur. Bu büyü yaşayan ölüleri etkilemez. Her sırasının sonunda hedef bir Akıl kurtulma zarı daha atabilir. Başarılı olursa büyü hedef için sonlanır."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 6. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, you can target on additional creature for each slot level above 5th. The creatures must be within 30 feet of each other when you target them."
+						"Bu büyüyü 6. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 5. üzeri her seviye için fazladan bir varlık hedef alabilirsin. Varlıklar sen onları hedef aldığında birbirlerine 30 fit yakınlıkta olmalıdır."
 					]
 				}
 			],
@@ -13822,7 +13822,7 @@
 			]
 		},
 		{
-			"name": "Insect Plague",
+			"name": "Insect Plague (Böcek Sürüsü)",
 			"level": 5,
 			"school": "C",
 			"time": [
@@ -13841,7 +13841,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a few grains of sugar, some kernels of grain, and a smear of fat"
+				"m": "biraz kristal şeker, birkaç çekirdek tahıl, ve bir sürmelik yağ"
 			},
 			"duration": [
 				{
@@ -13937,15 +13937,15 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Swarming, biting locusts fill a 20-foot-radius sphere centered on a point you choose within range. The sphere spreads around corners. The sphere remains for the duration, and its area is lightly obscured. The sphere's area is difficult terrain.",
-				"When the area appears, each creature in it must make a Constitution saving throw. A creature takes {@dice 4d10} delme damage on a failed save, or half as much damage on a successful one. A creature must also make this saving throw when it enters the spell's area for the first time on a turn or ends its turn there."
+				"Menzilinde seçeceğin bir noktada 20 fit yarıçaplı bir küre içerisini sürü halinde çekirgeler doldurur. Küre köşelerin ardına geçer. Küre süre boyunca kalır ve alanı hafif bir şekilde örtülüdür. Kürenin alanı zorlu arazidir.",
+				"Alan ortaya çıktığında içinde kalan her varlık Dayanıklılık kurtulma zarı atar. Başarısız bir varlık {@dice 4d10} delme hasarı alır, başarılı olursa bunun yarısını. Bir varlık sırasında ilk defa alana girdiğinde ya da sırasını o alanda bitirdiğinde de bu kurtulma zarını atar."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 6. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the damage increases by {@dice 1d10} for each slot level above 5th."
+						"Bu büyüyü 6. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 5. üzeri her seviye için hasar {@dice 1d10} artar."
 					]
 				}
 			],
@@ -14143,7 +14143,7 @@
 			"page": 254
 		},
 		{
-			"name": "Legend Lore",
+			"name": "Legend Lore (Efsane Bilgisi)",
 			"level": 5,
 			"school": "D",
 			"time": [
@@ -14162,7 +14162,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "incense worth at least 250 gp, which the spell consumes, and four ivory strips worth at least 50 gp each",
+					"text": "en az 250 gp değerinde tütsü, büyü bunu tüketir, ve tanesi en az 50 gp değerinde 4 fildişi çubuk",
 					"cost": 250,
 					"consume": true
 				}
@@ -14212,8 +14212,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Name or describe a person, place, or object. The spell brings to your mind a brief summary of the significant lore about the thing you named. The lore might consist of current tales, forgotten stories, or even secret lore that has never been widely known. If the thing you named isn't of legendary importance, you gain no information.",
-				"The more information you already have about the thing, the more precise and detailed the information you receive is. The information you learn is accurate but might be couched in figurative language. For example, if you have a mysterious magic axe on hand, the spell might yield this information: \"Woe to the evildoer whose hand touches the axe, for even the haft slices the hand of the evil ones. Only a true Child of Stone, lover and beloved of Moradin, may awaken the true powers of the axe, and only with the sacred word Rudnogg on the lips.\""
+				"Bir kişi, yer veya nesne ismi ver ya da betimle. Büyü ismini verdiğin şey hakkında varolan önemli bilgilerin bir özetini aklına getirir. Bu bilgiler güncel hikayeler, unutulmuş masallar, hatta hiç yayılmamış gizli bilgiler bile olabilir. Eğer ismini verdiğin şey efsanevi bir öneme sahip değilse hiç bilgi elde etmezsin.",
+				"Bu şey hakkında halihazırda ne kadar bilgi sahibiysen, aldığın bilgi o kadar detaylı ve kesin olacaktır. Elde ettiğin bilgi doğrudur ama mecazlı bir dil ile gizlenebilir. Örneğin, eğer elinde gizemli bir büyülü balta varsa büyü şu bilgiyi verebilir: \"Bu baltaya dokunan şer elin hali elemdir, sapı bile şer olanın elini kesecektir. Sadece has bir Taşın Evladı, Moradin'in sevdiği ve seveni, baltanın gerçek gücünü uyandırabilir, ve sadece dudaklarında kutsal söz Rudnogg ile bunu başarabilir.\""
 			],
 			"page": 254
 		},
@@ -15483,7 +15483,7 @@
 			]
 		},
 		{
-			"name": "Mass Cure Wounds",
+			"name": "Mass Cure Wounds (Toplu Yara İyileştirme)",
 			"level": 5,
 			"school": "V",
 			"time": [
@@ -15538,14 +15538,14 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"A wave of healing energy washes out from a point of your choice within range. Choose up to six creatures in a 30-foot-radius sphere centered on that point. Each target regains hit points equal to {@dice 3d8} + your spellcasting ability modifier. This spell has no effect on undead or constructs."
+				"Menzilinde seçeceğin bir noktadan çevreye bir şifa enerjisi yayılır. O nokta üzerinde 30 fit yarıçaplı bir küre içerisinden 6 taneye kadar varlık seç. Her hedef {@dice 3d8} + büyü yapma yetenek bonusun kadar HP yeniler. Bu büyü yaşayan ölüler ve yapıları etkilemez."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 6. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the healing increases by {@dice 1d8} for each slot level above 5th."
+						"Bu büyüyü 6. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 5. üzeri her seviye için yenileme {@dice 1d8} artar."
 					]
 				}
 			],
@@ -16302,7 +16302,7 @@
 			"page": 260
 		},
 		{
-			"name": "Mislead",
+			"name": "Mislead (Kandır)",
 			"level": 5,
 			"school": "I",
 			"time": [
@@ -16344,8 +16344,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You become {@condition invisible} at the same time that an illusory double of you appears where you are standing. The double lasts for the duration, but the invisibility ends if you attack or cast a spell.",
-				"You can use your eylem to move your illusory double up to twice your speed and make it gesture, speak, and behave in whatever way you choose. You can see through its eyes and hear through its ears as if you were located where it is. On each of your turns as a bonus eylem, you can switch from using its senses to using your own, or back again. While you are using its senses, you are {@condition blinded} and {@condition deafened} in regard to your own surroundings."
+				"Sen {@condition görünmezlik} etkisi altına girdiğin anda yerinde illüzyon bir kopyan oluşur. Bu kopya süre boyunca kalır ama senin görünmezliğin saldırı yaparsan ya da büyü kullanırsan biter.",
+				"Eylemini kullanarak kopyanı senin hızının iki katına kadar hareket ettirebilir, ve istediğin şekilde konuşturup davrandırabilirsin. Sanki onun yerindeymişçesine gözlerinden görüp kulaklarından duyabilirsin. Her sıranda bonus eylem olarak onun duyularından kendi duyularına ya da tam tersine geçiş yapabilirsin. Onun duyularını kullanırken, kendi çevrene karşı {@condition körlük} ve {@condition sağırlık} etkisi altında olursun."
 			],
 			"page": 260
 		},
@@ -16449,7 +16449,7 @@
 			"page": 260
 		},
 		{
-			"name": "Modify Memory",
+			"name": "Modify Memory (Hafıza Değiştir)",
 			"level": 5,
 			"school": "E",
 			"time": [
@@ -16505,18 +16505,18 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You attempt to reshape another creature's memories. One creature that you can see must make a Wisdom saving throw. If you are fighting the creature, it has advantage on the saving throw. On a failed save, the target becomes {@condition charmed} by you for the duration. The {@condition charmed} target is {@condition incapacitated} and unaware of its surroundings, though it can still hear you. If it takes any damage or is targeted by another spell, this spell ends, and none of the target's memories are modified.",
-				"While this charm lasts, you can affect the target's memory of an event that it experienced within the last 24 saat and that lasted no more than 10 dakika. You can permanently eliminate all memory of the event, allow the target to recall the event with perfect clarity and exacting detail, change its memory of the details of the event, or create a memory of some other event.",
-				"You must speak to the target to describe how its memories are affected, and it must be able to understand your language for the modified memories to take root. Its mind fills in any gaps in the details of your description. If the spell ends before you have finished describing the modified memories, the creature's memory isn't altered. Otherwise, the modified memories take hold when the spell ends.",
-				"A modified memory doesn't necessarily affect how a creature behaves, particularly if the memory contradicts the creature's natural inclinations, alignment, or beliefs. An illogical modified memory, such as implanting a memory of how much the creature enjoyed dousing itself in asit, is dismissed, perhaps as a bad dream. The DM might deem a modified memory too nonsensical to affect a creature in a significant manner.",
-				"A remove curse or greater restoration spell cast on the target restores the creature's true memory."
+				"Başka bir varlığın anılarını yeniden şekillendirmeyi denersin. Görebildiğin bir varlık Akıl kurtulma zarı atar. Eğer varlıkla savaşıyorsan bu zarda avantajı olur. Başarısız olursa, süre boyunca hedef senin tarafından {@condition cezbedilme} etkisi altında olur. Cezbedilen varlık {@condition etkisiz hal}de olur ve çevresinin farkında olmaz, ama hala seni duyabilir. Eğer hasar alırsa ya da başka bir büyünün hedefi olursa, büyü sonlanır ve hedefin hiçbir anısı değişmez.",
+				"Bu cezbedilme devam ederken, hedefin son 24 saat içerisinde gerçekleşmiş ve 10 dakikayı geçmeyen bir olayı değiştirebilirsin. Kalıcı bir şekilde bu olayın tüm anısını silebilir, hedefin bu anıyı berrak bir şekilde tüm detaylarıyla hatırlamasını sağlayabilir, hafızasında bu olayın detaylarını değiştirebilir, veya başka bir olayın anısını yaratabilirsin.",
+				"Hedefe konuşup anılarının nasıl etkilendiğini betimlersin, ve değişmiş hafızanın yerleşebilmesi için seni anlaması gereklidir. Zihni senin betimlemenden kalan boşlukları kendi doldurur. Eğer sen betimlemeni bitirmeden büyü sonlanırsa, varlığın hafızası değişmez. Aksi takdirde, büyü bittiğinde değişen hafıza yerleştirilmiş olur.",
+				"Değişmiş hafıza bir varlığın davranışını etkilemek zorunda değildir, özellikle eğer bu anı varlığın doğal eğilimleri, yönelimi, veya inançlarına karşı geliyorsa. Bir varlığın asit banyosundan ne kadar zevk aldığı gibi yerleştirilmiş mantıksız bir anı, kötü bir rüyaymış gibi ciddiye alınmaz. DM değiştirilen hafızanın, varlığın davranışlarını etkilemeyecek kadar mantıksız olup olmadığına karar verebilir.",
+				"Hedefe yapılan bir remove curse (lanet kaldır) ya da greater restoration (üstün yenileme) büyüsü varlığın asıl anılarını yerine getirir."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"If you cast this spell using a spell slot of 6th level or higher, you can alter the target's memories of an event that took place up to 7 gün ago (6th level), 30 gün ago (7th level), 1 year ago (8th level), or any time in the creature's past (9th level)."
+						"Eğer bu büyüyü 6. seviye ve üzeri bir yuva harcayarak kullanırsan, hedefin hafızasında 6. seviye için 7 gün öncesine, 7. seviye için 30 gün öncesine, 8. seviye için 1 yıl öncesine ve 9. seviye için geçmişte herhangi bir zamana kadar eski anıları değiştirebilirsin."
 					]
 				}
 			],
@@ -17292,7 +17292,7 @@
 			"page": 264
 		},
 		{
-			"name": "Passwall",
+			"name": "Passwall (Duvar Geçidi)",
 			"level": 5,
 			"school": "T",
 			"time": [
@@ -17311,7 +17311,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a pinch of sesame seeds"
+				"m": "bir tutam susam tohumu"
 			},
 			"duration": [
 				{
@@ -17345,8 +17345,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"A passage appears at a point of your choice that you can see on a wooden, plaster, or stone surface (such as a wall, a ceiling, or a floor) within range, and lasts for the duration. You choose the opening's dimensions: up to 5 feet wide, 8 feet tall, and 20 feet deep. The passage creates no instability in a structure surrounding it.",
-				"When the opening disappears, any creatures or objects still in the passage created by the spell are safely ejected to an unoccupied space nearest to the surface on which you cast the spell."
+				"Menzilinde görebildiğin bir ahşap, sıva ya da taş yüzeyde (duvar, tavan, taban gibi) süre boyunca kalacak bir geçit açarsın. Bu açıklığın boyutunu sen seçersin: 5 fite kadar geniş, 8 fite kadar yüksek, ve 20 fite kadar derin. Bu geçit çevresindeki yapıda bir dengesizlik yaratmaz.",
+				"Bu açıklık kaybolduğunda, hala geçitte olan tüm varlıklar ve nesneler güvenli bir şekilde büyüyü yaptığın yüzeye en yakın boş alana atılırlar."
 			],
 			"page": 264
 		},
@@ -17605,7 +17605,7 @@
 			"page": 265
 		},
 		{
-			"name": "Planar Binding",
+			"name": "Planar Binding (Boyutsal Bağlama)",
 			"level": 5,
 			"school": "A",
 			"time": [
@@ -17625,7 +17625,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a jewel worth at least 1,000 gp, which the spell consumes",
+					"text": "en az 1000 gp değerinde bir mücevher, büyü bunu tüketir",
 					"cost": 1000,
 					"consume": true
 				}
@@ -17683,15 +17683,15 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"With this spell, you attempt to bind a celestial, an elemental, a fey, or a fiend to your service. The creature must be within range for the entire casting of the spell. (Typically, the creature is first summoned into the center of an inverted magic circle in order to keep it trapped while this spell is cast.) At the completion of the casting, the target must make a Charisma saving throw. On a failed save, it is bound to serve you for the duration. If the creature was summoned or created by another spell, that spell's duration is extended to match the duration of this spell.",
-				"A bound creature must follow your instructions to the best of its ability. You might command the creature to accompany you on an adventure, to guard a location, or to deliver a message. The creature obeys the letter of your instructions, but if the creature is hostile to you, it strives to twist your words to achieve its own objectives. If the creature carries out your instructions completely before the spell ends, it travels to you to report this fact if you are on the same plane of existence. If you are on a different plane of existence, it returns to the place where you bound it and remains there until the spell ends."
+				"Bu büyü ile bir kutsal, elemental, fey, veya zebaniyi hizmetine bağlamayı denersin. Varlık büyüyü yapım aşamasında sürekli menzilinde olmalı. (Genellikle, varlık ters çevrilmiş bir büyülü çemberin içine çağrılıp hapsedildikten sonra bu büyü yapılır.) Büyünün tamamlanışında, varlık Karizma kurtulma zarı atar. Başarısız olursa, süre boyunca sana hizmete bağlanır. Eğer varlık başka bir büyü tarafından çağrıldı ya da yaratıldıysa, onun süresi de uzar ve bu büyüye eşit olur.",
+				"Bağlanan bir varlık senin talimatlarına elinden geldiğince uymak zorundadır. Varlığa sana bir macerada eşlik etmesi, bir yeri koruması veya bir mesaj iletmesi için komut verebilirsin. Varlık talimatlarına en detaylı biçimde uyar, ama eğer bu varlık sana düşmansa kendi amaçlarına ulaşmak için sözlerini çarpıtmaya çalışabilir. Eğer büyü bitmeden varlık verilen talimatları tamamıyla yerine getirirse, eğer aynı boyuttaysanız bunu bildirmek için sana doğru seyahat eder. Eğer farklı bir boyuttaysan, onu bağladığın yere döner ve orada bekler."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of a higher level, the duration increases to 10 gün with a 6th-level slot, to 30 gün with a 7th-level slot, to 180 gün with an 8th-level slot, and to a year and a day with a 9th-level spell slot."
+						"Bu büyüyü üst seviyeden bir büyü yuvası harcayarak kullandığında, süre 6. seviye ile 10 güne, 7. seviye ile 30 güne, 8. seviye ile 180 güne, ve 9. seviye ile 1 yıl 1 güne çıkar."
 					]
 				}
 			],
@@ -18974,7 +18974,7 @@
 			"page": 270
 		},
 		{
-			"name": "Raise Dead",
+			"name": "Raise Dead (Ölü Dirilt)",
 			"level": 5,
 			"school": "N",
 			"time": [
@@ -18993,7 +18993,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a diamond worth at least 500 gp, which the spell consumes",
+					"text": "en az 500 gp değerinde bir elmas, büyü bunu tüketir",
 					"cost": 500,
 					"consume": true
 				}
@@ -19043,15 +19043,15 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You return a dead creature you touch to life, provided that it has been dead no longer than 10 gün. If the creature's soul is both willing and at liberty to rejoin the body, the creature returns to life with 1 hit point.",
-				"This spell also neutralizes any zehir and cures nonmagical diseases that affected the creature at the time it died. This spell doesn't, however, remove magical diseases, curses, or similar effects, if these aren't first removed prior to casting the spell, they take effect when the creature returns to life. The spell can't return an undead creature to life.",
-				"This spell closes all mortal wounds, but it doesn't restore missing body parts. If the creature is lacking body parts or organs integral for its survival\u2014its head, for instance\u2014the spell automatically fails.",
-				"Coming back from the dead is an ordeal. The target takes a -4 penalty to all attack rolls, saving throws, and ability checks. Every time the target finishes a long rest, the penalty is reduced by 1 until it disappears."
+				"10 günden fazla süredir ölü olmama şartıyla dokunduğun ölü bir varlığı hayata döndürürsün. Eğer varlığın ruhu hem istekli hem de bedene dönebilecek özgürlükteyse, varlık 1 HP ile hayata döner.",
+				"Bu büyü varlığı öldüğü anda etkileyen tüm zehir ve büyüsüz hastalıklardan da arındırır. Ama bu büyü büyülü hastalıkları, lanetleri, veya benzeri etkileri ortadan kaldırmaz. Eğer bunlar büyü yapılmadan ortadan kaldırılmadıysa varlık hayata döndüğünde yeniden etki ederler. Büyü yaşayan ölü bir varlığı hayata döndüremez.",
+				"Bu büyü tüm ölümcül yaraları kapatır ama kayıp vücut parçalarını geri getirmez. Eğer varlığın hayatta kalması için gereken organları eksikse (başı gibi) büyü otomatik olarak başarısız olur.",
+				"Ölümden dönmek zorlu bir durumdur. Hedef tüm saldırı, kurtulma ve yetenek zarlarına -4 alır. Varlık her uzun dinlenme bitirişinde bu ceza bitene kadar 1 azalır."
 			],
 			"page": 270
 		},
 		{
-			"name": "Rary's Telepathic Bond",
+			"name": "Rary's Telepathic Bond (Rary'nin Telepatik Bağı)",
 			"level": 5,
 			"school": "D",
 			"time": [
@@ -19070,7 +19070,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "pieces of eggshell from two different kinds of creatures"
+				"m": "iki farklı tip varlığın yumurtalarından kabuk parçaları"
 			},
 			"duration": [
 				{
@@ -19094,8 +19094,8 @@
 				"ritual": true
 			},
 			"entries": [
-				"You forge a telepathic link among up to eight willing creatures of your choice within range, psychically linking each creature to all the others for the duration. Creatures with Intelligence scores of 2 or less aren't affected by this spell.",
-				"Until the spell ends, the targets can communicate telepathically through the bond whether or not they have a common language. The communication is possible over any distance, though it can't extend to other planes of existence."
+				"Bir telepatik bağ kurarak süre boyunca menzilindeki 8'e kadar istekli varlığı birbirine bağlarsın. Zeka skoru 2 ve altında olan varlıklar bu büyüden etkilenmez.",
+				"Büyü bitene dek, hedefler ortak dilleri olmasa bile bu bağ üzerinden telepatik bir şekilde iletişime geçebilirler. İletişim tüm mesafelerde mümkün, ama başka boyutlara erişemez."
 			],
 			"page": 270
 		},
@@ -19357,7 +19357,7 @@
 			"page": 271
 		},
 		{
-			"name": "Reincarnate",
+			"name": "Reincarnate (Reenkarnasyon)",
 			"level": 5,
 			"school": "T",
 			"time": [
@@ -19376,7 +19376,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "rare oils and unguents worth at least 1,000 gp, which the spell consumes",
+					"text": "en az 1000 gp değerinde nadir yağlar ve merhemler, büyü bunları tüketir",
 					"cost": 1000,
 					"consume": true
 				}
@@ -19396,14 +19396,14 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You touch a dead humanoid or a piece of a dead humanoid. Provided that the creature has been dead no longer than 10 gün, the spell forms a new adult body for it and then calls the soul to enter that body. If the target's soul isn't free or willing to do so, the spell fails.",
-				"The magic fashions a new body for the creature to inhabit, which likely causes the creature's race to change. The DM rolls a {@dice d100} and consults the following table to determine what form the creature takes when restored to life, or the DM chooses a form.",
+				"Bir ölü insansıya ya da bir ölü insansı parçasına dokunursun. Varlığın 10 günden fazla bir süredir ölü olmaması şartıyla, büyü onun için yeni bir beden yaratır ve ruhu o bedene dönmesi için çağırır. Eğer hedefin ruhu serbest değilse ya da isteksizse büyü başarısız olur.",
+				"Büyü varlık için yeni bir beden yaratır ve bu yüksek ihtimalle farklı bir ırkta olacaktır. DM varlık hayata döndüğünde hangi forma bürüneceğini ya kendi seçer ya da belirlemek için {@dice d100} atar ve aşağıdaki tabloya bakar.",
 				{
 					"type": "table",
-					"caption": "Reincarnate Races",
+					"caption": "Reenkarnasyon Irkları",
 					"colLabels": [
 						"{@dice d100}",
-						"Race"
+						"Irk"
 					],
 					"colStyles": [
 						"col-xs-1 text-align-center no-wrap",
@@ -19419,7 +19419,7 @@
 									"pad": true
 								}
 							},
-							"{@race Dragonborn}"
+							"{@race Ejderdoğan}"
 						],
 						[
 							{
@@ -19430,7 +19430,7 @@
 									"pad": true
 								}
 							},
-							"{@race dwarf (hill)|phb|Dwarf, hill}"
+							"{@race cüce (tepe)|phb|Cüce, tepe}"
 						],
 						[
 							{
@@ -19440,7 +19440,7 @@
 									"max": 21
 								}
 							},
-							"{@race dwarf (mountain)|phb|Dwarf, mountain}"
+							"{@race cüce (dağ)|phb|Cüce, dağ}"
 						],
 						[
 							{
@@ -19450,7 +19450,7 @@
 									"max": 25
 								}
 							},
-							"{@race elf (drow)|phb|Elf, dark}"
+							"{@race elf (drow)|phb|Elf, drow}"
 						],
 						[
 							{
@@ -19460,7 +19460,7 @@
 									"max": 34
 								}
 							},
-							"{@race elf (high)|phb|Elf, high}"
+							"{@race elf (ulu)|phb|Elf, ulu}"
 						],
 						[
 							{
@@ -19470,7 +19470,7 @@
 									"max": 42
 								}
 							},
-							"{@race elf (wood)|phb|Elf, wood}"
+							"{@race elf (orman)|phb|Elf, orman}"
 						],
 						[
 							{
@@ -19480,7 +19480,7 @@
 									"max": 46
 								}
 							},
-							"{@race gnome (forest)|phb|Gnome, forest}"
+							"{@race gnome (orman)|phb|Gnome, orman}"
 						],
 						[
 							{
@@ -19490,7 +19490,7 @@
 									"max": 52
 								}
 							},
-							"{@race gnome (rock)|phb|Gnome, rock}"
+							"{@race gnome (kaya)|phb|Gnome, kaya}"
 						],
 						[
 							{
@@ -19500,7 +19500,7 @@
 									"max": 56
 								}
 							},
-							"{@race Half-elf}"
+							"{@race Yarı-elf}"
 						],
 						[
 							{
@@ -19510,7 +19510,7 @@
 									"max": 60
 								}
 							},
-							"{@race Half-orc}"
+							"{@race Yarı-orc}"
 						],
 						[
 							{
@@ -19520,7 +19520,7 @@
 									"max": 68
 								}
 							},
-							"{@race halfling (lightfoot)|phb|Halfling, lightfoot}"
+							"{@race buçukluk (tez ayak)|phb|Buçukluk, tez ayak}"
 						],
 						[
 							{
@@ -19530,7 +19530,7 @@
 									"max": 76
 								}
 							},
-							"{@race halfling (stout)|phb|Halfling, stout}"
+							"{@race buçukluk (tıknaz)|phb|Buçukluk, tıknaz}"
 						],
 						[
 							{
@@ -19540,7 +19540,7 @@
 									"max": 96
 								}
 							},
-							"{@race Human}"
+							"{@race İnsan}"
 						],
 						[
 							{
@@ -19555,7 +19555,7 @@
 						]
 					]
 				},
-				"The reincarnated creature recalls its former life and experiences. It retains the capabilities it had in its original form, except it exchanges its original race for the new one and changes its racial traits accordingly."
+				"Reenkarnasyon olan varlık önceki yaşamını ve deneyimlerini hatırlar. Asıl formunda sahip olduğu yeteneklerine hala sahiptir, sadece asıl ırkını yenisi ile değiştirir ve ırksal özelliklerini buna göre ayarlar."
 			],
 			"page": 271
 		},
@@ -20862,7 +20862,7 @@
 			"page": 275
 		},
 		{
-			"name": "Shillelagh",
+			"name": "Shillelagh (Şileyla)",
 			"level": 0,
 			"school": "T",
 			"time": [
