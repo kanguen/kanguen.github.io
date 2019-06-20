@@ -20107,7 +20107,7 @@
 			]
 		},
 		{
-			"name": "Scrying",
+			"name": "Scrying (Uzaktan Görüş)",
 			"level": 5,
 			"school": "D",
 			"time": [
@@ -20126,7 +20126,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a focus worth at least 1,000 gp, such as a crystal ball, a silver mirror, or a font filled with holy water",
+					"text": "en az 1000 gp değerinde bir odak, kristal küre, gümüş ayna veya kutsal su dolu bir havuz gibi",
 					"cost": 1000
 				}
 			},
@@ -20220,13 +20220,13 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You can see and hear a particular creature you choose that is on the same plane of existence as you. The target must make a Wisdom saving throw, which is modified by how well you know the target and the sort of physical connection you have to it. If a target knows you're casting this spell, it can fail the saving throw voluntarily if it wants to be observed.",
+				"Senle aynı boyutta olan seçeceğin belirli bir varlığı görür ve duyarsın. Hedef Akıl kurtulma zarı atar, bu zar senin hedefi ne yakınlıkta tanıdığın ve nasıl bir fiziksel bağın olduğuna göre değişir. Eğer hedef senin bu büyüyü yaptığını biliyorsa, gözlenmek isterse kurtulma zarında gönüllü olarak başarısız olabilir.",
 				{
 					"type": "table",
-					"caption": "Bilgi of Target",
+					"caption": "Hedef Bilgisi",
 					"colLabels": [
-						"Bilgi Domain",
-						"Save Modifier"
+						"Bilgi Alanı",
+						"Kurtulma Değişkeni"
 					],
 					"colStyles": [
 						"col-xs-11",
@@ -20234,25 +20234,25 @@
 					],
 					"rows": [
 						[
-							"Secondhand (you have heard of the target)",
+							"Kulaktan Dolma (hedefi duydun)",
 							"+5"
 						],
 						[
-							"Firsthand (you have met the target)",
+							"Dolaysız (hedefle tanıştın)",
 							"+0"
 						],
 						[
-							"Familiar (you know the target well)",
+							"Aşina (hedefi iyi biliyorsun)",
 							"-5"
 						]
 					]
 				},
 				{
 					"type": "table",
-					"caption": "Connection to Target",
+					"caption": "Hedefe Olan Bağ",
 					"colLabels": [
-						"Connection",
-						"Save Modifier"
+						"Bağ",
+						"Kurtulma Değişkeni"
 					],
 					"colStyles": [
 						"col-xs-11",
@@ -20260,22 +20260,22 @@
 					],
 					"rows": [
 						[
-							"Likeness or picture",
+							"Portre ya da resim",
 							"-2"
 						],
 						[
-							"Possession or garment",
+							"Eşya ya da kıyafet",
 							"-4"
 						],
 						[
-							"Body part, lock of hair, bit of nail, or the like",
+							"Vücut parçası, saç tutamı, tırnak parçası vb.",
 							"-10"
 						]
 					]
 				},
-				"On a successful save, the target isn't affected, and you can't use this spell against it again for 24 saat.",
-				"On a failed save, the spell creates an invisible sensor within 10 feet of the target. You can see and hear through the sensor as if you were there. The sensor moves with the target, remaining within 10 feet of it for the duration. A creature that can see {@condition invisible} objects sees the sensor as a luminous orb about the size of your fist.",
-				"Instead of targeting a creature, you can choose a location you have seen before as the target of this spell. When you do, the sensor appears at that location and doesn't move."
+				"Başarılı bir kurtulma zarında, hedef etkilenmez ve o hedefe karşı bu büyüyü 24 boyunca bir daha kullanamazsın.",
+				"Başarısız bir kurtulma zarında, büyü hedefin 10 fit yakınında görünmez bir sensör yaratır. Bu sensörden sanki oradaymışçasına görüp duyabilirsin. Sensör hedef ile hareket eder, süre boyunca hep 10 fit yakınında kalır. {@condition Görünmezlik} etkisi altındaki şeyleri görebilen bir varlık bu sensörü senin yumruğun boyutunda bir parlak küre olarak görür.",
+				"Bir varlığı hedef almak yerine, bu büyü ile daha önce gördüğün bir yeri hedef alabilirsin. Bunu yaptığında, sensör orada ortaya çıkar ve hareket etmez."
 			],
 			"page": 273,
 			"savingThrow": [
@@ -20405,7 +20405,7 @@
 			"page": 274
 		},
 		{
-			"name": "Seeming",
+			"name": "Seeming (Görünüş)",
 			"level": 5,
 			"school": "I",
 			"time": [
@@ -20474,10 +20474,10 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"This spell allows you to change the appearance of any number of creatures that you can see within range. You give each target you choose a new, illusory appearance. An unwilling target can make a Charisma saving throw, and if it succeeds, it is unaffected by this spell.",
-				"The spell disguises physical appearances as well as clothing, armor, weapons, and equipment. You can make each creature seem 1 foot shorter or taller and appear thin, fat, or in-between. You can't change a target's body type, so you must choose a form that has the same basic arrangement of limbs. Otherwise, the extent of the illusion is up to you. The spell lasts for the duration, unless you use your eylem to dismiss it sooner.",
-				"The changes wrought by this spell fail to hold up to physical inspections. For example, if you use this spell to add a hat to a creature's outfit objects pass through the hat, and anyone who touches it would feel nothing or would feel the creature's head and hair. If you use this spell to appear thinner then you are, the hand of someone who reaches out to touch you would bump into you while it was seemingly still in midair.",
-				"A creature can use its eylem to inspect a target and make an Intelligence (Investigation) check against your spell save DC. If it succeeds, it becomes aware that the target is disguised."
+				"Bu büyü menzilinde görebildiğin istediğin kadar varlığın görünüşünü değiştirmeni sağlar. Her seçtiğin hedefe yeni, illüzyon bir görünüş verirsin. İsteksiz bir varlık Karizma kurtulma zarı atar, eğer başarılı olursa bu büyüden etkilenmez.",
+				"Büyü kıyafet, zırh, silah ve ekipmanın yanında fiziksel görüntüyü de gizleyebilir. Her varlığı 1 fit daha uzun ya da kısa, şişman, zayıf ya da arasında gösterebilirsin. Hedefin vücut tipini değişiremezsin, bu yüzden uzuvlarının dizilimi aynı olan bir form seçersin. Bunun dışında illüzyonun yapısı sana kalmış. Büyü, eğer eylemini kullanıp sonlandırmazsan süre boyunca kalır.",
+				"Bu büyünün getirdiği değişiklikler fiziksel etkileşime uygun değildir. Örneğin, eğer bu büyüyü kullanarak varlığın kıyafetine şapka eklersen, nesneler şapkanın içinden geçecektir, ve ona dokunan kimse ya hiçbir şey hissetmez ya da varlığın saçı ve başını hisseder. Eğer bu büyüyü daha ince görünmek için kullanırsan, sana dokunmak için uzanan birinin eli daha görüntüde havada olsa da sana dokunur.",
+				"Bir varlık hedefi incelemek için eylemini kullanıp senin büyü kurtulma DC'ne karşı Zeka (İnceleme) zarı atabilir. Başarılı olursa, hedefin gizlenmiş olduğunun farkında olur."
 			],
 			"page": 274,
 			"savingThrow": [
@@ -22605,7 +22605,7 @@
 			]
 		},
 		{
-			"name": "Swift Quiver",
+			"name": "Swift Quiver (Seri Sadak)",
 			"level": 5,
 			"school": "T",
 			"time": [
@@ -22623,7 +22623,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a quiver containing at least one piece of ammunition"
+				"m": "en az bir misil içeren bir sadak"
 			},
 			"duration": [
 				{
@@ -22645,8 +22645,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You transmute your quiver so it produces an endless supply of nonmagical ammunition, which seems to leap into your hand when you reach for it.",
-				"On each of your turns until the spell ends, you can use a bonus eylem to make two attacks with a weapon that uses ammunition from the quiver. Each time you make such a ranged attack, your quiver magically replaces the piece of ammunition you used with a similar piece of nonmagical ammunition. Any pieces of ammunition created by this spell disintegrate when the spell ends. If the quiver leaves your possession, the spell ends."
+				"Sadağını sınırsız miktarda büyüsüz misil üretmesi için dönüştürürsün, bunlar sen uzandığında adeta eline atlarlar.",
+				"Büyü bitene dek her sıranda bonus eylem kullanarak, bu sadaktan misil kullanan bir silahla 2 saldırı yapabilirsin. Bu tip bir menzili saldırıyı her yapışında bu sadak, kullandığın misilin yerini benzeri bir büyüsüz misil ile doldurur. Bu büyü ile yaratılmış tüm misiller büyü bittiğinde toza döner. Sadak senden ayrılırsa büyü biter."
 			],
 			"page": 279
 		},
@@ -22845,7 +22845,7 @@
 			]
 		},
 		{
-			"name": "Telekinesis",
+			"name": "Telekinesis (Telekinezi)",
 			"level": 5,
 			"school": "T",
 			"time": [
@@ -22901,24 +22901,24 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You gain the ability to move or manipulate creatures or objects by thought. When you cast the spell, and as your eylem each round for the duration, you can exert your will on one creature or object that you can see within range, causing the appropriate effect below. You can affect the same target round after round, or choose a new one at any time. If you switch targets, the prior target is no longer affected by the spell.",
+				"Varlık ve nesneleri düşünce gücü ile hareket ettirme yetisini kazanırsın. Bu büyüyü kullandığında ve süre boyunca her round eylem olarak, menzilinde görebildiğin bir varlık ya da nesne üzerinde iradeni kullanıp aşağıdaki etkilerden birini gerçekleştirirsin. Her round aynı hedefi etkileyebilir ya da istediğin an başka bir hedef alabilirsin. Eğer hedef değiştirirsen, eski hedefin artık büyü etkisi altında olmaz.",
 				{
 					"type": "entries",
-					"name": "Creature",
+					"name": "Varlık",
 					"entries": [
-						"You can try to move a Huge or smaller creature. Make an ability check with your spellcasting ability contested by the creature's Strength check. If you win the contest, you move the creature up to 30 feet in any direction, including upward but not beyond the range of this spell. Until the end of your next turn, the creature is {@condition restrained} in your telekinetic grip. A creature lifted upward is suspended in mid-air."
+						"Dev boy ya da altında bir varlığı hareket ettirmeye çalışırsın. Senin büyü yapma yeteneğin ile hedef varlığın Kuvvetine karşı bir yetenek zarı at. Eğer bu çekişmeyi kazanırsan, varlığı yukarısı dahil istediğin yöne doğru 30 fit hareket ettirirsin ama büyünün menzili dışına çıkamaz. Bir sonraki sıranın sonuna kadar, varlık senin telekinetik kavraman içinde {@condition kısıtlanma} etkisi altındadır. Yukarı kaldırılan bir varlık havada asılı kalır."
 					]
 				},
-				"On subsequent rounds, you can use your eylem to attempt to maintain your telekinetic grip on the creature by repeating the contest.",
+				"Sonraki roundlarda, eylemini kullanıp yetenek zarını tekrarlayarak telepatik kavramayı devam ettirmeye çalışabilirsin.",
 				{
 					"type": "entries",
-					"name": "Object",
+					"name": "Nesne",
 					"entries": [
-						"You can try to move an object that weighs up to 1,000 pounds. If the object isn't being worn or carried, you automatically move it up to 30 feet in any direction, but not beyond the range of this spell."
+						"1000 paund ağırlığa kadar bir nesneyi hareket ettirmeyi denersin. Eğer nesne giyilmiyorsa ve taşınmıyorsa otomatik olarak onu istediğin yönde 30 fit hareket ettirirsin, ama bu büyünün menzilini aşmaz."
 					]
 				},
-				"If the object is worn or carried by a creature, you must make an ability check with your spellcasting ability contested by that creature's Strength check. If you succeed, you pull the object away from that creature and can move it up to 30 feet in any direction but not beyond the range of this spell.",
-				"You can exert fine control on objects with your telekinetic grip, such as manipulating a simple tool, opening a door or a container, stowing or retrieving an item from an open container, or pouring the contents from a vial."
+				"Eğer nesne bir varlık tarafından giyiliyor ya da taşınıyorsa, senin büyü yapma yeteneğin ile hedef varlığın Kuvvetine karşı bir yetenek zarı atarsın. Başarılı olursan, o nesneyi varlıktan alıp 30 fite kadar istediğin yönde hareket ettirirsin ama bu büyünün menzilini aşmaz.",
+				"Telekinetik kavraman ile nesneleri detaylı kontrol edebilirsin; basit bir eşyayı kullanma, kapı ya da kap açma, açık kaptan eşya alma ya da koyma, veya bir şişenin içindekileri dökme gibi örneklenebilir."
 			],
 			"page": 280
 		},
@@ -23121,7 +23121,7 @@
 			"page": 281
 		},
 		{
-			"name": "Teleportation Circle",
+			"name": "Teleportation Circle (Işınlanma Çemberi)",
 			"level": 5,
 			"school": "C",
 			"time": [
@@ -23140,7 +23140,7 @@
 			"components": {
 				"v": true,
 				"m": {
-					"text": "rare chalks and inks infused with precious gems with 50 gp, which the spell consumes",
+					"text": "50 gp değerinde nadir tebeşirler ve değerli mücevher işlenmiş mürekkepler, büyü bunları tüketir",
 					"cost": 50,
 					"consume": true
 				}
@@ -23194,9 +23194,9 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"As you cast the spell, you draw a 10-foot-diameter circle on the ground inscribed with sigils that link your location to a permanent teleportation circle of your choice whose sigil sequence you know and that is on the same plane of existence as you. A shimmering portal opens within the circle you drew and remains open until the end of your next turn. Any creature that enters the portal instantly appears within 5 feet of the destination circle or in the nearest unoccupied space if that space is occupied.",
-				"Many major temples, guilds, and other important places have permanent teleportation circles inscribed somewhere within their confines. Each such circle includes a unique sigil sequence\u2014a string of magical runes arranged in a particular pattern. When you first gain the ability to cast this spell, you learn the sigil sequences for two destinations on the Material Plane, determined by the DM. You can learn additional sigil sequences during your adventures. You can commit a new sigil sequence to memory after studying it for 1 dakika.",
-				"You can create a permanent teleportation circle by casting this spell in the same location every day for one year. You need not use the circle to teleport when you cast the spell in this way."
+				"Büyüyü yaparken yere 10 fit çapında üzeri seni bildiğin kalıcı bir ışınlanma çemberine bağlayacak mühürler ile dolu bir çember çizersin, bu kalıcı ışınlanma çemberinin mühür sıralamasını bilmen gerekir ve burası seninle aynı boyutta olmalıdır. Çizdiğin çemberin içinde ışıldayan bir portal açılır ve bir sonraki sıranın sonuna kadar açık kalır. Portala giren her varlık anında hedef çemberin 5 fit yakınında ya da orası doluysa en yakın boş alanda belirir.",
+				"Bir çok köklü tapınak, lonca, ve diğer önemli yerlerin kendilerine özgü yapılmış ışınlanma çemberleri vardır. Bu tip çemberlerin özgün mühür sıralaması olur, bu bir çok büyülü rünün belirli bir şekle sokulmasıdır. Bu büyüyü ilk kullanma yeteneğini kazandığında, Materyal Boyutta DM'in seçeceği iki çemberin mühür sıralamasını öğrenirsin. Maceraların sırasında fazladan mühür sıralamaları öğrenirsin. Bir mühür sıralamasını 1 dakika çalıştıktan sonra ezberleyebilirsin.",
+				"Bir yıl boyunca her gün aynı yerde bu büyüyü kullanarak kalıcı bir ışınlanma çemberi yaratabilirsin. Büyüyü bu şekilde kullandığında çemberi ışınlanmak için kullanmak zorunda değilsin."
 			],
 			"page": 282
 		},
@@ -23627,7 +23627,7 @@
 			"page": 283
 		},
 		{
-			"name": "Tree Stride",
+			"name": "Tree Stride (Ağaç Geçişi)",
 			"level": 5,
 			"school": "C",
 			"time": [
@@ -23702,8 +23702,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You gain the ability to enter a tree and move from inside it to inside another tree of the same kind within 500 feet. Both trees must be living and at least the same size as you. You must use 5 feet of movement to enter a tree. You instantly know the location of all other trees of the same kind within 500 feet and, as part of the move used to enter the tree, can either pass into one of those trees or step out of the tree you're in. You appear in a spot of your choice within 5 feet of the destination tree, using another 5 feet of movement. If you have no movement left, you appear within 5 feet of the tree you entered.",
-				"You can use this transportation ability once per round for the duration. You must end each turn outside a tree."
+				"Bir ağaca girip onun içinden 500 fit yakınında aynı tip başka bir ağacın içine hareket etme yetisini kazanırsın. İki ağaç da hayatta olmalı ve en az senin boyunda olmalı. Ağaca girmek için 5 fit hareket kullanmalısın. Anında 500 fit çevrende aynı tipteki tüm ağaçların yerlerini bilirsin, ve kullandığın hareketin bir parçası olarak bu ağaçlardan birinden ya da aynı ağaçtan dışarı çıkarsın. Hedef ağacın 5 fit yakınında seçeceğin boş bir noktada 5 fit daha hareket kullanarak belirirsin. Eğer hiç hareketin kalmadıysa, girdiğin ağacın 5 fit yakınında belirirsin.",
+				"Süre boyunca bu taşıma yeteneğini her round bir kere kullanabilirsin ve her sıranı ağacın dışında bitirmelisin."
 			],
 			"page": 283
 		},
@@ -24320,7 +24320,7 @@
 			]
 		},
 		{
-			"name": "Wall of Force",
+			"name": "Wall of Force (Güç Duvarı)",
 			"level": 5,
 			"school": "V",
 			"time": [
@@ -24339,7 +24339,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a pinch of powder made by crushing a clear gemstone"
+				"m": "saydam bir mücevheri ezerek elde edilmiş bir tutam toz"
 			},
 			"duration": [
 				{
@@ -24373,8 +24373,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"An invisible wall of güç springs into existence at a point you choose within range. The wall appears in any orientation you choose, as a horizontal or vertical barrier or at an angle. It can be free floating or resting on a solid surface. You can form it into a hemispherical dome or a sphere with a radius of up to 10 feet, or you can shape a flat surface made up of ten 10-foot-by-10-foot panels. Each panel must be contiguous with another panel. In any form, the wall is 1/4 inch thick. It lasts for the duration. If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (your choice which side).",
-				"Nothing can physically pass through the wall. It is immune to all damage and can't be dispelled by dispel magic. A disintegrate spell destroys the wall instantly, however. The wall also extends into the Ethereal Plane, blocking ethereal travel through the wall."
+				"Menzilinde seçeceğin bir noktada görünmez bir güç duvarı ortaya çıkar. Bu duvar istediğin yönde belirir, yatay ya da dikey olabildiği gibi belirli bir açıyla da yapılabilir. Havada serbest durabilir ya da sert bir zeminin üzerinde olabilir. Bunu 10 fit yarıçaplı bir küre ya da yarımküre şekline de sokabilirsin, 10 adet 10x10 fit panellerden oluşan düz bir yüzey de yaratabilirsin. Her panel bir diğerinin devamı olmalı. Her şekilde, duvar 1/4 inç kalınlıkta olur. Süre boyunca kalır. Eğer duvar ortaya çıktığında bir varlığın alanından geçiyorsa, varlık senin seçimine göre duvarın bir tarafına itilir.",
+				"Hiçbir şey duvardan fiziksel olarak geçemez. Tüm hasara bağışıklığı vardır ve dispel magic (büyü defet) ile defedilemez. Ama bir disintegrate (parçalanma) büyüsü duvarı anında yok eder. Duvar Ethereal Boyuta da ulaşır ve oradan geçişi engeller."
 			],
 			"page": 285,
 			"damageImmune": [
