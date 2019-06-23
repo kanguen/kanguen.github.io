@@ -1252,7 +1252,7 @@ EntryRenderer.spell = {
 		if (spell.scrollNote) {
 			renderStack.push(`<tr class="text"><td colspan="6"><section class="text-muted">`);
 			renderer.recursiveEntryRender(
-				`{@italic Note: Both the {@class ${STR_FIGHTER} (${STR_ELD_KNIGHT})} and the {@class ${STR_ROGUE} (${STR_ARC_TCKER})} spell lists include all {@class ${STR_WIZARD}} spells. Spells of 5th level or higher may be cast with the aid of a spell scroll or similar.}`
+				`{@italic Not: Hem {@class ${STR_FIGHTER} (${STR_ELD_KNIGHT})} hem de {@class ${STR_ROGUE} (${STR_ARC_TCKER})} büyü listeleri tüm {@class ${STR_WIZARD}} büyülerini içerir. 5. seviye ve üzeri büyüler, büyü tomarı ve benzeri şeylerin yardımı ile kullanılabilir.}`
 				, renderStack, 2);
 			renderStack.push(`</section></td></tr>`);
 		}

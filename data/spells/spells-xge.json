@@ -849,7 +849,7 @@
 			"page": 152
 		},
 		{
-			"name": "Control Winds",
+			"name": "Control Winds (Rüzgarları Yönet)",
 			"source": "XGE",
 			"level": 5,
 			"school": "T",
@@ -897,26 +897,26 @@
 				]
 			},
 			"entries": [
-				"You take control of the air in a 100-foot cube that you can see within range. Choose one of the following effects when you cast the spell. The effect lasts for the spell's duration, unless you use your eylem on a later turn to switch to a different effect. You can also use your eylem to temporarily halt the effect or to restart one you've halted.",
+				"Menzilinde görebildiğin 100 fitlik bir kübün içindeki havanın kontrolünü eline alırsın. Büyüyü yaptığında aşağıdaki etkilerden birini seçersin. Sonraki sıralarında eylemini kullanıp başka bir etkiye çevirmezsen seçtiğin etki büyü süresince kalır. Eylemini kullanıp etkiyi geçici olarak durdurabilir ya da yeniden başlatabilirsin.",
 				{
 					"type": "entries",
-					"name": "Gusts",
+					"name": "Boralar",
 					"entries": [
-						"A wind picks up within the cube, continually blowing in a horizontal direction you designate. You choose the intensity of the wind: calm, moderate, or strong. If the wind is moderate or strong, ranged weapon attacks that pass through it or that are made against targets within the cube have disadvantage on their attack rolls. If the wind is strong, any creature moving against the wind must spend 1 extra foot of movement for each foot moved."
+						"Kübün içinde bir rüzgar başlar ve belirlediğin yatay bir yönde sürekli eser. Rüzgarın sertliğini sen seçersin: hafif, orta, veya güçlü. Eğer rüzgar orta ya da güçlü ise içinden geçen ya da içindeki bir hedefe yapılan menzilli silah saldırıları dezavantajlı olur. Eğer rüzgar güçlü ise, rüzgara karşı hareket eden varlıklar her gittiği 1 fit için fazladan 1 fit hareket harcarlar."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Downdraft",
+					"name": "Aşağıya Doğru Akım",
 					"entries": [
-						"You cause a sustained blast of strong wind to blow downward from the top of the cube. Ranged weapon attacks that pass through the cube or that are made against targets within it have disadvantage on their attack rolls. A creature must make a Strength saving throw if it flies into the cube for the first time on a turn or starts its turn there flying. On a failed save, the creature is knocked {@condition prone}."
+						"Kübün tepesinden aşağıya doğru güçlü bir rüzgarın sürekli esmesini sağlarsın. Küpten geçen ya da kübün içerisindeki hedeflere yapılan menzilli silah saldırıları dezavantajlı olur. Bir varlık sırasında ilk defa kübe uçarak girerse ya da sırasına orada uçarak başlarsa Kuvvet kurtulma zarı atar. Başarısız olursa varlık yere düşer."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Updraft",
+					"name": "Yukarıya Doğru Akım",
 					"entries": [
-						"You cause a sustained updraft within the cube, rising upward from the cube's bottom side. Creatures that end a fall within the cube take only half damage from the fall. When a creature in the cube makes a vertical jump, the creature can jump up to 10 feet higher than normal."
+						"Kübün dibinden yukarıya doğru güçlü bir rüzgarın sürekli esmesini sağlarsın. Kübün içinde düşüşlerini bitiren varlıklar bu düşüşten sadece yarı hasar alırlar. Bir varlık kübün içerisinde dikey bir şekilde zıplarsa normalden 10 fit yukarı zıplayabilir."
 					]
 				}
 			],
@@ -1100,7 +1100,7 @@
 			]
 		},
 		{
-			"name": "Danse Macabre",
+			"name": "Danse Macabre (Ölüm Dansı)",
 			"source": "XGE",
 			"level": 5,
 			"school": "N",
@@ -1144,23 +1144,23 @@
 				]
 			},
 			"entries": [
-				"Threads of dark power leap from your fingers to pierce up to five Small or Medium corpses you can see within range. Each corpse immediately stands up and becomes undead. You decide whether it is a zombie or a skeleton (the statistics for zombies and skeletons are in the Monster Manual), and it gains a bonus to its attack and damage rolls equal to your spellcasting ability modifier.",
-				"You can use a bonus eylem to mentally command the creatures you make with this spell, issuing the same command to all of them. To receive the command, a creature must be within 60 feet of you. You decide what eylem the creatures will take and where they will move during their next turn, or you can issue a general command, such as to guard a chamber or passageway against your foes. If you issue no commands, the creature do nothing except defend themselves against hostile creatures. Once given an order, the creatures continue to follow it until their task is complete.",
-				"The creatures are under your control until the spell ends, after which they become inanimate once more."
+				"Parmaklarından kara enerji şeritleri çıkar ve menzilinde görebildiğin 5 taneye kadar Küçük ya da Orta boy cesedi deler. Her ceset anında ayağa kalkar ve yaşayan ölü olur. Onun iskelet mi yoksa zombi mi olacağına sen karar verirsin (bunlar için istatistikler Monster Manual'da bulunabilir), ve bunlar saldırı ve hasar zarlarına senin büyü yapma yeteneği bonusun kadar bonus eklerler.",
+				"Bu büyü ile yarattığın varlıkları bonus eylem kullanarak zihinsel olarak komuta edebilirsin, hepsine aynı komut verilir. Komut alabilmek için varlık senin 60 fit yakınında olmalıdır. Varlıkların bir sonraki sıralarında hangi eylemi gerçekleştireceğine ve nereye gideceğine sen karar verirsin, veya bir odayı ya da koridoru düşmanlardan koruma gibi genel bir komut da verebilirsin. Eğer komut vermezsen, varlık kendini düşman varlıklardan korumak dışında bir şey gerçekleştirmez. Komut verildiğinde, varlıklar bu görev tamamlanana kadar onu yapmaya devam ederler.",
+				"Varlıklar büyü sona erene dek senin kontrolünde olurlar, sonrasında yeniden cansızlaşırlar."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 6th level or higher, you animate up to two additional corpses for each slot level above 5th."
+						"Bu büyüyü 6. seviye ve üzeri bir yuva harcayarak kullandığında, 5. üzeri her seviye için fazladan 2 ceset canlandırabilirsin."
 					]
 				}
 			],
 			"page": 153
 		},
 		{
-			"name": "Dawn",
+			"name": "Dawn (Şafak)",
 			"source": "XGE",
 			"level": 5,
 			"school": "V",
@@ -1181,7 +1181,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a sunburst pendant worth at least 100 gp",
+					"text": "en az 100 gp değerinde güneş şeklinde bir kolye",
 					"cost": 100
 				}
 			},
@@ -1208,9 +1208,9 @@
 				]
 			},
 			"entries": [
-				"The light of dawn shines down on a location you specify within range. Until the spell ends, a 30-foot-radius, 40-foot-high cylinder of bright light glimmers there. This light is sunlight.",
-				"When the cylinder appears, each creature in it must make a Constitution saving throw, taking {@dice 4d10} radyant damage on a failed save, or half as much damage on a successful one. A creature must also make this saving throw whenever it ends its turn in the cylinder.",
-				"If you're within 60 feet of the cylinder, you can move it up to 60 feet as a bonus eylem on your turn."
+				"Menzilinde belirlediğin bir yere şafağın ışığı dolar. Büyü bitene dek, 30 fit yarıçaplı 40 fit yükseklikte bir parlak ışık silindiri orada parıldar. Bu ışık güneş ışığıdır.",
+				"Silindir belirdiğinde, içinde kalan tüm varlıklar Dayanıklılık kurtulma zarı atar. Başarısız olursa {@dice 4d10} radyant hasar alır, başarılı olursa bunun yarısını. Bir varlık sırasını bu silindir içerisinde bitirirse kurtulma zarını yeniden atar.",
+				"Eğer silindirin 60 fit yakınındaysan, sıranda bonus eylem olarak onu 60 fit hareket ettirebilirsin."
 			],
 			"page": 153,
 			"damageInflict": [
@@ -1698,7 +1698,7 @@
 			]
 		},
 		{
-			"name": "Enervation",
+			"name": "Enervation (Güçten Düşür)",
 			"source": "XGE",
 			"level": 5,
 			"school": "N",
@@ -1746,15 +1746,15 @@
 				]
 			},
 			"entries": [
-				"A tendril of inky darkness reaches out from you, touching a creature you can see within range to drain life from it. The target must make a Dexterity saving throw. On a successful save, the target takes {@dice 2d8} nekrotik damage, and the spell ends. On a failed save, the target takes {@dice 4d8} nekrotik damage, and until the spell ends, you can use your eylem on each of your turns to automatically deal {@dice 4d8} nekrotik damage to the target. The spell ends if you use your eylem to do anything else, if the target is ever outside the spell's range, or if the target has total cover from you.",
-				"Whenever the spell deals damage to a target, you regain hit points equal to half the amount of nekrotik damage the target takes."
+				"Mürekkep karası bir dokunaç menzilinde görebildiğin bir varlığa dokunup onun canını çalmak için senden dışarı doğru uzanır. Varlık Çeviklik kurtulma zarı atar. Başarılı olursa, hedef {@dice 2d8} nekrotik hasar alır ve büyü sonlanır. Başarısız olursa, hedef {@dice 4d8} nekrotik hasar alır ve büyü sonlanana kadar her sıranda eylemini kullanıp hedefe otomatik olarak {@dice 4d8} nekrotik hasar verebilirsin. Eğer eylemini başka bir şey için kullanırsan, hedef büyünün menzilinden çıkarsa veya hedef senin için tam siper ardına geçerse büyü sonlanır.",
+				"Büyü hedefe ne zaman nekrotik hasar verse, hedefin aldığı nekrotik hasarın yarısı kadar HP yenilersin."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 6th level or higher, the damage increases by {@dice 1d8} for each slot level above 5th."
+						"Bu büyüyü 6. seviye ve üzeri bir yuva harcayarak kullandığında, 5. üzeri her seviye için hasar {@dice 1d8} artar."
 					]
 				}
 			],
@@ -1831,7 +1831,7 @@
 			]
 		},
 		{
-			"name": "Far Step",
+			"name": "Far Step (Irak Adım)",
 			"source": "XGE",
 			"level": 5,
 			"school": "C",
@@ -1877,7 +1877,7 @@
 				]
 			},
 			"entries": [
-				"You teleport up to 60 feet to an unoccupied space you can see. On each of your turns before the spell ends, you can use a bonus eylem to teleport in this way again."
+				"60 fit yakınında görebildiğin boş bir alana ışınlanırsın. Büyü bitene dek her sıranda, bonus eylem kullanarak bu şekilde yeniden ışınlanabilirsin."
 			],
 			"page": 155
 		},
@@ -2257,7 +2257,7 @@
 			"page": 157
 		},
 		{
-			"name": "Holy Weapon",
+			"name": "Holy Weapon (Kutsal Silah)",
 			"source": "XGE",
 			"level": 5,
 			"school": "V",
@@ -2300,8 +2300,8 @@
 				]
 			},
 			"entries": [
-				"You imbue a weapon you touch with holy power. Until the spell ends, the weapon emits bright light in a 30-foot radius and dim light for an additional 30 feet. In addition, weapon attacks made with it deal an extra {@dice 2d8} radyant damage on a hit. If the weapon isn't already a magic weapon, it becomes one for the duration.",
-				"As a bonus eylem on your turn, you can dismiss this spell and cause the weapon to emit a burst of radiance. Each creature of your choice that you can see within 30 feet of you must make a Constitution saving throw. On a failed save, a creature takes {@dice 4d8} radyant damage, and it is {@condition blinded} for 1 minute. On a successful save, a creature takes half as much damage and isn't {@condition blinded}. At the end of each of its turns, a {@condition blinded} creature can make a Constitution saving throw, ending the effect on itself on a success."
+				"Dokunduğun bir silahı kutsal güçle doldurursun. Büyü bitene dek, silah 30 fite kadar parlak ışık bunun ötesinde 30 fit daha loş ışık saçar. Ek olarak, bu silahla yapılan saldırılar vurduğunda fazladan {@dice 2d8} radyant hasar verir. Eğer silah zaten bir büyülü silah değilse süre boyunca büyülü sayılır.",
+				"Sıranda bonus eylem olarak bu büyüyü sonlandırıp silahın ışık patlaması yaratmasını sağlayabilirsin. 30 fit yakınında seçeceğin her varlık Dayanıklılık kurtulma zarı atar. Başarısız olursa, bir varlık {@dice 4d8} radyant hasar alır ve 1 dakikalığına {@condition körlük} etkisi altında kalır. Başarılı olursa, bu varlık hasarın yarısını alır ve kör olmaz. Her sırasının sonunda {@condition körlük} etkisi altındaki bir varlık Dayanıklılık kurtulma zarı atabilir, başarılı olursa bu etki kendi üzerinde sonlanır."
 			],
 			"page": 157,
 			"damageInflict": [
@@ -2438,7 +2438,7 @@
 			]
 		},
 		{
-			"name": "Immolation",
+			"name": "Immolation (Ateşle Kurban Et)",
 			"source": "XGE",
 			"level": 5,
 			"school": "V",
@@ -2481,8 +2481,8 @@
 				]
 			},
 			"entries": [
-				"Flames wreathe one creature you can see within range. The target must make a Dexterity saving throw. It takes {@dice 8d6} ateş damage on a failed save, or half as much damage on a successful one. On a failed save, the target also burns for the spell's duration. The burning target sheds bright light in a 30-foot radius and dim light for an additional 30 feet. At the end of each of its turns, the target repeats the saving throw. It takes {@dice 4d6} ateş damage on a failed save, and the spell ends on a successful one. These magical flames can't be extinguished by nonmagical means.",
-				"If damage from this spell kills a target, the target is turned to ash."
+				"Menzilinde görebildiğin bir varlığı alevler sarmalar ve hedef Çeviklik kurtulma zarı atar. Başarısız olursa {@dice 8d6} ateş hasarı alır, başarılı olursa bunun yarısını. Ayrıca başarısız bir zarda hedef büyü süresince yanar. Yanan bir hedef 30 fite kadar parlak ışık, sonrasında 30 fit daha loş ışık saçar. Her sırasının sonunda hedef kurtulma zarını tekrarlar. Başarısız olursa {@dice 4d6} ateş hasarı alır, başarılı olursa büyü sonlanır. Bu büyülü alevler büyüsüz yollarla söndürülemez.",
+				"Eğer bu büyüden gelen hasar bir hedefi öldürürse, hedef küle döner."
 			],
 			"page": 158,
 			"damageInflict": [
@@ -2493,7 +2493,7 @@
 			]
 		},
 		{
-			"name": "Infernal Calling",
+			"name": "Infernal Calling (Infernal Çağrı)",
 			"source": "XGE",
 			"level": 5,
 			"school": "C",
@@ -2514,7 +2514,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a ruby worth at least 999 gp",
+					"text": "en az 999 gp değerinde bir yakut",
 					"cost": 999
 				}
 			},
@@ -2541,18 +2541,18 @@
 				]
 			},
 			"entries": [
-				"Uttering a dark incantation, you summon a devil from the Nine Hells. You choose the devil's type, which must be one of challenge rating 6 or lower, such as a barbed devil or a bearded devil. The devil appears in an unoccupied space that you can see within range. The devil disappears when it drops to 0 hit points or when the spell ends.",
-				"The devil is unfriendly toward you and your companions. Roll initiative for the devil, which has its own turns. It is under the Dungeon Master's control and acts according to its nature on each of its turns, which might result in its attacking you if it thinks it can prevail, or trying to tempt you to undertake an evil act in exchange for limited service. The DM has the creature's statistics.",
-				"On each of your turns, you can try to issue a verbal command to the devil (no eylem required by you). It obeys the command if the likely outcome is in accordance with its desires, especially if the result would draw you toward evil. Otherwise, you must make a Charisma (Deception, Intimidation, or Persuasion) check contested by its Wisdom (Insight) check. You make the check with advantage if you say the devil's true name. If your check fails, the devil becomes immune to your verbal commands for the duration of the spell, though it can still carry out your commands if it chooses. If your check succeeds, the devil carries out your command\u2014such as \"attack my enemies,\" \"explore the room ahead,\" or \"bear this message to the queen\"\u2014until it completes the activity, at which point it returns to you to report having done so.",
-				"If your concentration ends before the spell reaches its full duration, the devil doesn't disappear if it has become immune to your verbal commands. Instead, it acts in whatever manner it chooses for {@dice 3d6} dakika, and then it disappears.",
-				"If you possess an individual devil's talisman, you can summon that devil if it is of the appropriate challenge rating plus 1, and it obeys all your commands, with no Charisma checks required."
+				"Kara büyülü sözler söyleyip 9 Cehennem'den bir şeytan çağırırsın. Şeytanın tipini sen seçersin, bu dikenli şeytan ya da sakallı şeytan gibi CR 6 ve altında bir tanesi olmalı. Şeytan menzilinde görebildiğin boş bir yerde belirir. Şeytan 0 HP'ye düştüğünde ya da büyü sonlandığında ortadan kaybolur.",
+				"Şeytan sana ve yoldaşlarına dost değildir. Kendi sırası olan şeytan için ayrı öncelik zarı at. DM'in kontrolü altındadır ve her sırasında kendi doğasına göre hareket eder. Bu eğer kazanabileceğini düşünüyorsa sana saldırmasına ya da sınırlı bir hizmet karşılığı seni kötü bir davranışa zorlamasına sebep olabilir. Varlığın istatistikleri DM'de vardır.",
+				"Her sıranda şeytana sesli bir komut verebilirsin (senin tarafından bir eylem gerektirmez). Eğer sonucu onun isteklerine uyuyorsa, özellikle seni kötülüğe çekiyorsa bu komutu uygular. Aksi takdirde, onun Akıl (Sezgi) zarına karşılık sen Karizma (Aldatma, Gözdağı ya da İkna) zarı atarsın. Eğer şeytanın gerçek adını söylersen bu zarı avantajla atarsın. Eğer zarın başarısız olursa, şeytan büyü süresince senin sözlü komutlarına bağışıklık kazanır, ama kendisi isterse hala bunları yerine getirebilir. Eğer zar başarılı olursa, şeytan senin\u2014 \"düşmanlarıma saldır,\" \"önümüzdeki odayı keşfe git,\" ya da \"bu mesajı kraliçeye götür\"\u2014gibi emirlerini yerine getirene kadar uğraşır, görev bitince sana bildirmek için geri döner.",
+				"Eğer büyü süresinin sonuna gelmeden senin konsantrasyonun biterse, ve eğer şeytan senin sesli komutlarına bağışıklık kazandıysa ortadan kaybolmaz. Bunun yerine, {@dice 3d6} dakika boyunca istediği gibi davranır ve sonra ortadan kaybolur.",
+				"Eğer belirli bir şeytanın tılsımına sahipsen, bu şeytanı uygun CR + 1 seviyesinde çağırabilirsin, ve Karizma zarı gerektirmeden tüm komutlarına uyar."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 6th level or higher, the challenge rating increases by 1 for each slot level above 5th."
+						"Bu büyüyü 6. seviye ve üzeri bir yuva harcayarak kullandığında, 5. üzeri her seviye için CR 1 artar."
 					]
 				}
 			],
@@ -3075,7 +3075,7 @@
 			]
 		},
 		{
-			"name": "Maelstrom",
+			"name": "Maelstrom (Dev Girdap)",
 			"source": "XGE",
 			"level": 5,
 			"school": "V",
@@ -3095,7 +3095,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "paper or leaf in the shape of a funnel"
+				"m": "huni şeklinde bir kağıt ya da yaprak"
 			},
 			"duration": [
 				{
@@ -3116,7 +3116,7 @@
 				]
 			},
 			"entries": [
-				"A swirling mass of 5-foot-deep water appears in a 30-foot radius centered on a point you can see within range. The point must be on ground or in a body of water. Until the spell ends, that area is difficult terrain, and any creature that starts its turn there must succeed on a Strength saving throw or take {@dice 6d6} ezme damage and be pulled 10 feet toward the center."
+				"Menzilinde görebildiğin bir noktada 30 fit yarıçaplı 5 fit derinlikte bir dönen su kütlesi oluşur. Bu nokta yerde ya da bir su kütlesi içerisinde olmalıdır. Büyü bitene dek alan zorlu arazidir, ve sırasına orada başlayan her varlık Kuvvet kurtulma zarı atar ya da {@dice 6d6} ezme hasarı alır ve merkezine doğru 10 fit sürüklenir."
 			],
 			"page": 160,
 			"damageInflict": [
@@ -3611,7 +3611,7 @@
 			"page": 162
 		},
 		{
-			"name": "Negative Energy Flood",
+			"name": "Negative Energy Flood (Negatif Enerji Seli)",
 			"source": "XGE",
 			"level": 5,
 			"school": "N",
@@ -3630,7 +3630,7 @@
 			},
 			"components": {
 				"v": true,
-				"m": "a broken bone and a square of black silk"
+				"m": "bir kırık kemik ve bir kare siyah ipek"
 			},
 			"duration": [
 				{
@@ -3650,8 +3650,8 @@
 				]
 			},
 			"entries": [
-				"You send ribbons of negative energy at one creature you can see within range. Unless the target is undead, it must make a Constitution saving throw, taking {@dice 5d12} nekrotik damage on a failed save, or half as much damage on a successful one. A target killed by this damage rises up as a zombie at the start of your next turn. The zombie pursues whatever creature it can see that is closest to it. Statistics for the zombie are in the Monster Manual.",
-				"If you target an undead with this spell, the target doesn't make a saving throw. Instead, roll {@dice 5d12}. The target gains half the total as temporary hit points."
+				"Menzilinde görebildiğin bir varlığa negatif enerji ışınları atarsın. Hedef yaşayan ölü değilse Dayanıklılık kurtulma zarı atar, başarısız olursa {@dice 5d12} nekrotik hasar alır, başarılı olursa bunun yarısını. Bu hasar ile ölen bir varlık bir sonraki sıranın başında zombi olarak dirilir. Zombi en yakınında görebildiği varlığın peşinden gider ve saldırır. Zombi istatistikleri Monster Manual'da bulunabilir.",
+				"Bu büyü ile bir yaşayan ölü hedef alırsan, hedef kurtulma zarı atmaz. Bunun yerine {@dice 5d12} atarsın. Hedef sonucun yarısını geçici HP olarak alır."
 			],
 			"page": 163,
 			"damageInflict": [
@@ -4228,7 +4228,7 @@
 			]
 		},
 		{
-			"name": "Skill Empowerment",
+			"name": "Skill Empowerment (Beceri Güçlendirme)",
 			"source": "XGE",
 			"level": 5,
 			"school": "T",
@@ -4275,8 +4275,8 @@
 				]
 			},
 			"entries": [
-				"Your magic deepens a creature's understanding of its own talent. You touch one willing creature and give it expertise in one skill of your choice; until the spell ends, the creature doubles its proficiency bonus for ability checks it makes that use the chosen skill.",
-				"You must choose a skill in which the target is proficient and that isn't already benefiting from an effect, such as Expertise, that doubles its proficiency bonus."
+				"Büyün bir varlığın kendi becerilerine olan farkındalığını artırır. İstekli bir varlığa dokunursun ve istediğin bir beceride ona ekspertiz verirsin; büyü bitene dek varlık bu beceri ile yapacağı tüm beceri zarlarında uzmanlık bonusunu ikiye katlar.",
+				"Hedefin zaten uzman olduğu ve Ekspertiz gibi uzmanlık zarını ikiye katlayan başka bir etki altında olmayan bir beceri seçmen gerekir."
 			],
 			"page": 165
 		},
@@ -4543,7 +4543,7 @@
 			"page": 165
 		},
 		{
-			"name": "Steel Wind Strike",
+			"name": "Steel Wind Strike (Çelik Rüzgar Darbesi)",
 			"source": "XGE",
 			"level": 5,
 			"school": "C",
@@ -4562,7 +4562,7 @@
 			},
 			"components": {
 				"s": true,
-				"m": "a melee weapon worth at least 1 sp"
+				"m": "en az 1 sp değerinde bir yakın dövüş silahı"
 			},
 			"duration": [
 				{
@@ -4582,8 +4582,8 @@
 				]
 			},
 			"entries": [
-				"You flourish the weapon used in the casting and then vanish to strike like the wind. Choose up to five creatures you can see within range. Make a melee spell attack against each target. On a hit, a target takes {@dice 6d10} güç damage.",
-				"You can then teleport to an unoccupied space you can see within 5 feet of one of the targets you hit or missed."
+				"Kullanımda gereken silahı ortaya çıkarır, sonrasında rüzgar gibi saldırmak için ortadan kaybolursun. Menzilinde görebildiğin 5 taneye kadar varlığı seç. Her hedef için yakın dövüş büyü saldırısı yap. Vurursa, bir hedef {@dice 6d10} güç hasarı alır.",
+				"Sonrasında vurduğun ya da ıskaladığın hedeflerden birinin 5 fit yakınındaki görebildiğin boş bir alana ışınlanabilirsin."
 			],
 			"page": 166,
 			"damageInflict": [
@@ -4828,7 +4828,7 @@
 			"page": 167
 		},
 		{
-			"name": "Synaptic Static",
+			"name": "Synaptic Static (Sinaptik Statik)",
 			"source": "XGE",
 			"level": 5,
 			"school": "E",
@@ -4875,8 +4875,8 @@
 				]
 			},
 			"entries": [
-				"You choose a point within range and cause psişik energy to explode there. Each creature in a 20-foot-radius sphere centered on that point must make an Intelligence saving throw. A creature with an Intelligence score of 2 or lower can't be affected by this spell. A target takes {@dice 8d6} psişik damage on a failed save, or half as much damage on a successful one.",
-				"After a failed save, a target has muddled thoughts for 1 minute. During that time, it rolls a {@dice d6} and subtracts the number rolled from all its attack rolls and ability checks, as well as its Constitution saving throws to maintain concentration. The target can make an Intelligence saving throw at the end of each of its turns, ending the effect on itself on a success."
+				"Menzilinde bir nokta seçer ve orada psişik enerji patlaması yaratırsın. O noktada 20 fit yarıçaplı bir küre içerisinde her varlık Zeka kurtulma zarı atar. Zeka skoru 2 ve altında olan bir varlık bu büyüden etkilenmez. Başarısız bir hedef {@dice 8d6} psişik hasar alır, başarılı olursa bunun yarısını.",
+				"Başarısız bir kurtulma zarından sonra hedefin düşünceleri 1 dakikalığına bulanır. Bu süre içerisinde {@dice d6} atar ve bu zarı tüm saldırı ve yetenek zarlarından çıkarır, ayrıca konsantrasyonu korumak için atacağı Dayanıklılık kurtulma zarlarından da çıkarır. Hedef her sırasının sonunda bir Zeka kurtulma zarı atıp başarılı olursa bu etkiyi kendi üzerinde sonlandırabilir."
 			],
 			"page": 167,
 			"damageInflict": [
@@ -5298,7 +5298,7 @@
 			]
 		},
 		{
-			"name": "Transmute Rock",
+			"name": "Transmute Rock (Kayayı Dönüştür)",
 			"source": "XGE",
 			"level": 5,
 			"school": "T",
@@ -5341,21 +5341,21 @@
 				]
 			},
 			"entries": [
-				"You choose an area of stone or mud that you can see that fits within a 40-foot cube and that is within range, and choose one of the following effects.",
+				"Menzilinde görebildiğin ve 40 fitlik kübe sığan bir taş ya da çamur alanını, ve şu etkilerden biri seçersin.",
 				{
 					"type": "entries",
-					"name": "Transmute Rock to Mud",
+					"name": "Taşı Çamura Dönüştür",
 					"entries": [
-						"Nonmagical rock of any sort in the area becomes an equal volume of thick, flowing mud that remains for the spell's duration."
+						"Alan içerisindeki büyüsüz her tip taş aynı miktarda yoğun akışkan çamura dönüşür ve büyü süresince kalır."
 					]
 				},
-				"The ground in the spell's area becomes muddy enough that creatures can sink into it. Each foot that a creature moves through the mud costs 4 feet of movement, and any creature on the ground when you cast the spell must make a Strength saving throw. A creature must also make the saving throw when it moves into the area for the first time on a turn or ends its turn there. On a failed save, a creature sinks into the mud and is {@condition restrained}, though it can use an eylem to end the {@condition restrained} condition on itself by pulling itself free of the mud.",
-				"If you cast the spell on a ceiling, the mud falls. Any creature under the mud when it falls must make a Dexterity saving throw. A creature takes {@dice 4d8} ezme damage on a failed save, or half as much damage on a successful one.",
+				"Büyünün alanındaki zemin o kadar çamura dönüşür ki varlıklar içine batabilir. Varlığın çamur içerisinde gittiği her 1 fit mesafe 4 fit hareket harcatır, ve sen büyüyü yaptığında bu zeminde olan her varlık Kuvvet kurtulma zarı atar. Bir varlık sırasında ilk defa o alana girdiğinde ya da sırasını orada bitirdiğinde de bu kurtulma zarını atar. Başarısız olursa, varlık çamura batar ve {@condition kısıtlanma} etkisi altındadır, ama eylemini kullanıp kendini çamurdan dışarı çekebilir ve bu durumu sonlandırabilir.",
+				"Eğer bu büyüyü tavanda kullanırsan çamur düşer. Çamur düşerken altında olan her varlık Çeviklik kurtulma zarı atar. Başarısız bir varlık {@dice 4d8} ezme hasarı alır, başarılı olursa bunun yarısını.",
 				{
 					"type": "entries",
-					"name": "Transmute Mud to Rock",
+					"name": "Çamuru Taşa Dönüştür",
 					"entries": [
-						"Nonmagical mud or quicksand in the area no more than 10 feet deep transforms into soft stone for the spell's duration. Any creature in the mud when it transforms must make a Dexterity saving throw. On a successful save, a creature is shunted safely to the surface in an unoccupied space. On a failed save, a creature becomes {@condition restrained} by the rock. A {@condition restrained} creature, or another creature within reach, can use an eylem to try to break the rock by succeeding on a DC 20 Strength check or by dealing damage to it. The rock has AC 15 and 25 hit points, and is immune to zehir and psişik damage."
+						"Alandaki 10 fitten derin olmayan büyüsüz çamur ya da bataklık büyü süresince yumuşak taşa dönüşür. Dönüşürken çamurun içinde olan her varlık Çeviklik kurtulma zarı atar. Başarılı olursa, varlık güvenli bir şekilde yüzeyde boş bir alana çıkar. Başarısız olursa, varlık kaya tarafından {@condition kısıtlanma} etkisi altındadır. Kısıtlanmış bir varlık ya da ona erişebilen başka bir varlık, eylemini kullanıp DC 20 Kuvvet zarı atarak ya da taşa hasar vererek bu etkiyi sonlandırmayı deneyebilir. Taşın 15 AC'si ve 25 HP'si, ayrıca zehir ve psişik hasara bağışıklığı vardır."
 					]
 				}
 			],
@@ -5436,7 +5436,7 @@
 			]
 		},
 		{
-			"name": "Wall of Light",
+			"name": "Wall of Light (Işık Duvarı)",
 			"source": "XGE",
 			"level": 5,
 			"school": "V",
@@ -5485,17 +5485,17 @@
 				]
 			},
 			"entries": [
-				"A shimmering wall of bright light appears at a point you choose within range. The wall appears in any orientation you choose: horizontally, vertically, or diagonally. It can be free floating, or it can rest on a solid surface. The wall can be up to 60 feet long, 10 feet high, and 5 feet thick. The wall blocks line of sight, but creatures and objects can pass through it. It emits bright light out to 120 feet and dim light for an additional 120 feet.",
-				"When the wall appears, each creature in its area must make a Constitution saving throw. On a failed save, a creature takes {@dice 4d8} radyant damage, and it is {@condition blinded} for 1 minute. On a successful save, it takes half as much damage and isn't {@condition blinded}. A {@condition blinded} creature can make a Constitution saving throw at the end of each of its turns, ending the effect on itself on a success.",
-				"A creature that ends its turn in the wall's area takes {@dice 4d8} radyant damage.",
-				"Until the spell ends, you can use an eylem to launch a beam of radiance from the wall at one creature you can see within 60 feet of it. Make a ranged spell attack. On a hit, the target takes {@dice 4d8} radyant damage. Whether you hit or miss, reduce the length of the wall by 10 feet. If the wall's length drops to 0 feet, the spell ends."
+				"Menzilinde seçtiğin bir noktada ışıldayan bir parlak ışık duvarı ortaya çıkar. Duvar istediğin bir şekilde belirir: yatay, dikey, veya çapraz olarak. Havada serbest olabilir ya da sert bir zemin üzerinde bulunabilir. Duvar 60 fit uzunluk, 10 fit yükseklik ve 5 fit kalınlıkta olabilir. Duvar görüşü engeller ama varlıklar ve nesneler içinden geçebilir. 120 fite kadar parlak ışık ve ötesinde 120 fit daha loş ışık saçar.",
+				"Duvar belirdiğinde alanında bulunan her varlık Dayanıklılık kurtulma zarı atar. Başarısız olursa, bir varlık {@dice 4d8} radyant hasar alır ve 1 dakikalığına {@condition körlük} etkisi altındadır. Başarılı olursa, hasarın yarısını alır ve kör olmaz. Kör bir varlık her sırasının sonunda Dayanıklılık kurtulma zarı atıp başarılı olursa etkiyi kendi üzerinde sonlandırabilir.",
+				"Sırasını duvarın alanında bitiren bir varlık {@dice 4d8} radyant hasar alır.",
+				"Büyü bitene dek, eylemini kullanıp duvarın 60 fit yakınında görebildiğin bir varlığa duvardan bir ışık huzmesi atabilirsin. Menzilli büyü saldırısı yap. Vurursa, hedef {@dice 4d8} radyant hasar alır. Vur ya da vurma, duvarın uzunluğu 10 fit kısalır. Eğer duvarın uzunluğu 0 fite düşerse büyü sonlanır."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 6th level or higher, the damage increases by {@dice 1d8} for each slot level above 5th."
+						"Bu büyüyü 6. seviye ve üzeri bir yuva harcayarak kullandığında, 5. üzeri her seviye için hasar {@dice 1d8} artar."
 					]
 				}
 			],
@@ -5849,7 +5849,7 @@
 			]
 		},
 		{
-			"name": "Wrath of Nature",
+			"name": "Wrath of Nature (Doğanın Gazabı)",
 			"source": "XGE",
 			"level": 5,
 			"school": "V",
@@ -5893,33 +5893,33 @@
 				]
 			},
 			"entries": [
-				"You call out to the spirits of nature to rouse them against your enemies. Choose a point you can see within range. The spirits cause trees, rocks, and grasses in a 60-foot cube centered on that point to become animated until the spell ends.",
+				"Doğa ruhlarına seslenip onları düşmanlarına yönlendirirsin. Menzilinde görebildiğin bir nokta seç. Büyü boyunca ruhlar, o alan merkez olacak şekilde 60 fitlik bir küp içerisindeki ağaçlar, taşlar ve otları canlandırırlar.",
 				{
 					"type": "entries",
-					"name": "Grasses and Undergrowth",
+					"name": "Otlar ve Çalılar",
 					"entries": [
-						"Any area of ground in the cube that is covered by grass or undergrowth is difficult terrain for your enemies."
+						"Kübün içerisindeki zeminde çim ya da çalı ile kaplı yerler düşmanların için zorlu arazi olur."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Trees",
+					"name": "Ağaçlar",
 					"entries": [
-						"At the start of each of your turns, each of your enemies within 10 feet of any tree in the cube must succeed on a Dexterity saving throw or take {@dice 4d6} kesme damage from whipping branches."
+						"Her sıranın başında kübün içerisindeki bir ağacın 10 fit yakınında bulunan her düşman Çeviklik kurtulma zarı atar ya da kırbaç gibi saldıran dallardan {@dice 4d6} kesme hasarı alır."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Roots and Vines",
+					"name": "Kökler ve Sarmaşıklar",
 					"entries": [
-						"At the end of each of your turns, one creature of your choice that is on the ground in the cube must succeed on a Strength saving throw or become {@condition restrained} until the spell ends. A {@condition restrained} creature can use an eylem to make a Strength (Athletics) check against your spell save DC, ending the effect on itself on a success."
+						"Her sıranın sonunda, kübün içerisinde yerde olan seçeceğin bir varlık Kuvvet kurtulma zarı atar ya da büyü sonuna kadar {@condition kısıtlanma} etkisi altında olur. Kısıtlanmış bir varlık senin büyü kurtulma DC'ne karşı Kuvvet (Atletizm) zarı atıp üzerindeki etkiyi sonlandırmayı deneyebilir."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Rocks",
+					"name": "Taşlar",
 					"entries": [
-						"As a bonus eylem on your turn, you can cause a loose rock in the cube to launch at a creature you can see in the cube. Make a ranged spell attack against the target. On a hit, the target takes {@dice 3d8} nonmagical ezme damage, and it must succeed on a Strength saving throw or fall {@condition prone}."
+						"Sıranda bonus eylem olarak, kübün içerisindeki serbest taşları yine kübün içerisinde görebildiğin bir varlığa doğru fırlatabilirsin. Hedefe karşı menzilli büyü saldırısı yap. Vurursa, hedef {@dice 3d8} büyüsüz ezme hasarı alır, ve Kuvvet kurtulma zarı atar ya da yere düşer."
 					]
 				}
 			],
