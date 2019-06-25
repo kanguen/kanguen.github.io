@@ -233,7 +233,7 @@
 			"page": 150
 		},
 		{
-			"name": "Bones of the Earth",
+			"name": "Bones of the Earth (Toprağın Kemikleri)",
 			"source": "XGE",
 			"level": 6,
 			"school": "T",
@@ -268,16 +268,16 @@
 				]
 			},
 			"entries": [
-				"You cause up to six pillars of stone to burst from places on the ground that you can see within range. Each pillar is a cylinder that has a diameter of 5 feet and a height of up to 30 feet. The ground where a pillar appears must be wide enough for its diameter, and you can target ground under a creature if that creature is Medium or smaller. Each pillar has AC 5 and 30 hit points. When reduced to 0 hit points, a pillar crumbles into rubble, which creates an area of difficult terrain with a 10-foot radius that lasts until the rubble is cleared. Each 5-foot diameter portion of the area requires at least 1 minute to clear by hand.",
-				"If a pillar is created under a creature, that creature must succeed on a Dexterity saving throw or be lifted by the pillar. A creature can choose to fail the save.",
-				"If a pillar is prevented from reaching its full height because of a ceiling or other obstacle, a creature on the pillar takes {@dice 6d6} ezme damage and is {@condition restrained}, pinched between the pillar and the obstacle. The {@condition restrained} creature can use an eylem to make a Strength or Dexterity check (the creature's choice) against the spell's save DC. On a success, the creature is no longer {@condition restrained} and must either move off the pillar or fall off it."
+				"Menzilinde görebildiğin bir zeminden 6 adete kadar taş sütun çıkarırsın. Her sütun 5 fit çaplı ve 30 fite kadar yükseklikte birer silindirdir. Sütunun çıktığı yerdeki zemin onun çapına yetecek kadar geniş olmalıdır, ve eğer varlık Orta ya da daha küçük boyda ise bir varlığın altındaki zemini hedef alabilirsin. Her sütunun 5 AC'si ve 30 HP'si vardır. 0 HP'ye düştüğünde bu sütun moloza dönüşür, ve temizlenene kadar 10 fit yarıçapta zorlu arazi oluşturur. Alanın her 5 fit karelik kısmı elle temizlemek için 1 dakika gerektirir.",
+				"Eğer sütun bir varlığın altında yaratıldıysa, varlık Çeviklik kurtulma zarı atar ya da sütun tarafından kaldırılır. Bir varlık kurtulma zarında başarısız olmayı seçebilir.",
+				"Eğer bir sütun tavan ya da benzeri bir engel yüzünden tam yüksekliğine ulaşamıyorsa, sütunun üstündeki bir varlık {@dice 6d6} ezme hasarı alır ve sütun ile engel arasında sıkışıp {@condition kısıtlanma} durumunda olur. Kısıtlanmış varlık eylemini kullanarak senin büyü kurtulma DC'ne karşı Kuvvet ya da Çeviklik zarı atıp (kendi seçimi) buradan çıkmayı deneyebilir. Başarılı olursa, varlık artık {@condition kısıtlanma} durumunda değildir ve ya sütundan uzaklaşır ya da oradan düşer."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 7th level or higher, you can create two additional pillars for each slot level above 6th."
+						"Bu büyüyü 7. seviye ve üzeri bir yuva harcayarak kullandığında, 6. üzeri her seviye için fazladan 2 sütun yaratabilirsin."
 					]
 				}
 			],
@@ -990,7 +990,7 @@
 			]
 		},
 		{
-			"name": "Create Homunculus",
+			"name": "Create Homunculus (Homuculus Yarat)",
 			"source": "XGE",
 			"level": 6,
 			"school": "T",
@@ -1010,7 +1010,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "clay, ash, and mandrake root, all of which the spell consumes, and a jewel-encrusted dagger worth at least 1,000 gp",
+					"text": "büyünün tükettiği kil, kül ve adamotu kökü, ve en az 1000 gp değerinde mücevher bezeli bir hançer",
 					"cost": 1000,
 					"consume": true
 				}
@@ -1029,9 +1029,9 @@
 				]
 			},
 			"entries": [
-				"While speaking an intricate incantation, you cut yourself with a jewel-encrusted dagger, taking {@dice 2d4} delme damage that can't be reduced in any way. You then drip your blood on the spell's other components and touch them, transforming them into a special construct called a homunculus.",
-				"The statistics of the homunculus are in the Monster Manual. It is you faithful companion, and it dies if you die. Whenever you finish a long rest, you can spend up to half your Hit Dice if the homunculus is on the same plane of existence as you. When you do so, roll each die and add your Constitution modifier to it. Your hit point maximum is reduced by that total, and the homunculus's hit point maximum and current hit points are both increased by it. This process can reduce you to no lower than 1 hit point, and the change to your and the homunculus's hit points ends when you finish your next long rest. The reduction your hit point maximum can't be removed by any means before then, except by the homunculus's death.",
-				"You can have only one homunculus at a time. If you cast this spell while your homunculus lives, the spell fails."
+				"Karmaşık büyülü sözler söylerken kendini mücevherli bir hançer ile kesersin, hiçbir şekilde azaltılamayacak {@dice 2d4} delme hasarı alırsın. Sonrasında kanını büyünün diğer bileşenlerine damlatır ve onlara dokunursun, onları homunculus denen özel bir yapıya dönüştürürsün.",
+				"Homunculus'un istatistikleri Monster Manual'da bulunabilir. Senin sadık yoldaşın olur ve sen ölürsen o da ölür. Her uzun dinlenme bitirişinde, eğer homunculus senle aynı boyutta ise HD'nin yarısına kadarını harcayabilirsin. Bunu yaptığında, her zarı at ve ona Dayanıklılık bonusunu ekle. Senin HP maksimumun bu toplam kadar düşer, ve homunculusun HP maksimumu ve anlık HP'si o seviyede yükselir. Bu süreç seni 1 HP'nin altına düşüremez, ve senin ve homunculusun HP'sindeki değişiklik bir sonraki uzun dinlenmeni bitirdiğinde sonlanır. HP maksimumuna gelen düşüş homunculusun ölümü dışında hiçbir yolla kaldırılamaz.",
+				"Aynı anda sadece bir aktif homunculusun olabilir. Eğer bu büyüyü homunculusun hayattayken yaparsan büyü başarısız olur."
 			],
 			"page": 152
 		},
@@ -1282,7 +1282,7 @@
 			]
 		},
 		{
-			"name": "Druid Grove",
+			"name": "Druid Grove (Druid Korusu)",
 			"source": "XGE",
 			"level": 6,
 			"school": "A",
@@ -1302,7 +1302,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "mistletoe, which the spell consumes, that was harvested with a golden sickle under the light of a full moon",
+					"text": "dolunay ışığında altın bir orakla hasat edilmiş ökseotu, büyü bunu tüketir",
 					"consume": true
 				}
 			},
@@ -1324,46 +1324,46 @@
 				]
 			},
 			"entries": [
-				"You invoke the spirits of nature to protect an area outdoors or underground. The area can be as small as a 30-foot cube or as large as 90-foot cube. Buildings and other structures are excluded from the affected area. If you can cast this spell in the same area every day for a year, the spell lasts until dispelled.",
-				"The spell creates the following effects within the area. When you cast this spell, you can specify creatures as friends who are immune to the effects. You can also specify a password that, when spoken aloud, makes the speaker immune to these effects.",
-				"The entire warded area radiates magic. A dispel magic cast on the area, if successful, removes only one of the following effects, not the entire area. That spell's caster chooses which effect to end. Only when all its effects are gone is this spell dispelled.",
+				"Doğanın ruhlarını dışarıda ya da yeraltında bir yeri korumak için uyandırırsın. Bu alan 30 fit küp kadar küçük ve 90 fit küp kadar büyük olabilir. Binalar ve diğer yapılar etki alanının dışında tutulur. Eğer bu büyüyü aynı yerde bir yıl boyunca her gün kullanırsan, büyü defedilene kadar kalır.",
+				"Büyü alan içerisinde şu etkileri yaratır. Büyüyü yaparken varlıkları dost olarak belirleyip bu etkilere bağışıklık verebilirsin. Ayrıca bir parola belirleyip eğer sesli söylenirse bunu dile getireni etkilere bağışık hale getirebilirsin.",
+				"Tüm korunan alan büyü saçar. Alana kullanılan bir dispel magic (büyü defet) eğer başarılı olursa sadece etkilerden birini kaldırır, tüm alanı değil. Büyüyü yapan hangi etkiyi bitireceğine karar verir. Sadece tüm etkileri sonlandığında bu büyü defedilir.",
 				{
 					"type": "entries",
-					"name": "Solid Fog",
+					"name": "Yoğun Sis",
 					"entries": [
-						"You can fill any number of 5-foot squares on the ground with thick fog, making them heavily obscured. The fog reaches 10 feet high. In addition, every foot of movement through the fog costs 2 extra feet. To a creature immune to this effect, the fog obscures nothing and looks like soft mist, with motes of green light floating in the air."
+						"Alanda istediğin kadar 5 fitlik kareyi yoğun sis ile doldurursun, onları ağır bir şekilde örtülü hale getirirsin. Sis 10 fit yüksekliğe çıkar. Ek olarak, siste gidilen her 1 fitlik mesafe 2 fit hareket harcatır. Bu etkiye bağışık olan bir varlık için sis hiçbir şeyi gizlemez, ve içinde yeşil ışık zerrelerinin uçuştuğu hafif bir sis olarak görülür."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Grasping Undergrowth",
+					"name": "Kavrayan Çalılar",
 					"entries": [
-						"You can fill any number of 5-foot squares on the ground that aren't filled with fog with grasping weeds and vines, as if they were affected by an entangle spell. To a creature immune to this effect the weeds and vines feel soft and reshape themselves to serve as temporary seats or beds."
+						"Alanda sis ile kaplı olmayan istediğin kadar 5 fitlik kareyi kavrayan otlar ve sarmaşıklar ile doldurursun, bu otlar sanki entangle (dolaşıklık) büyüsü etkisindeymiş gibi davranır. Bu etkiye bağışık olan varlıklar için bu otlar ve sarmaşıklar yumuşaktır ve geçici olarak onlara oturak ve yatak olacak şekle bürünürler."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Grove Guardians",
+					"name": "Koru Muhafızları",
 					"entries": [
-						"You can animate up to four trees in the area, causing them to uproot themselves from the ground. These trees have the same statistics as an awakened tree, which appears in the Monster Manual, except they can't speak, and their bark is covered with druidic symbols. If any creature not immune to this effect enters the warded area, the grove guardians fight until they have drive off or slain the intruders. The grove guardians also obey your spoken commands (no eylem required by you) that you issue while in the area. If you don't give them commands and no intruders are present, the grove guardians do nothing. The grove guardians can't leave the the warded area. When the spell ends, the magic animating them disappears, and the trees take root again if possible."
+						"Alan içerisinde 4 taneye kadar ağacı canlandırabilirsin, kendilerini yerden ayırırlar. Bu ağaçlar Monster Manual'da görülebilen awakened tree varlığı ile aynı istatistiklere sahiptir, ama konuşamazlar ve kabukları druid sembolleri ile doludur. Eğer bu etkiye bağışık olmayan bir varlık korunan alana girerse, koru muhafızları işgalcileri kovana ya da öldürene kadar savaşırlar. Koru muhafızları senin alandayken vereceğin sözlü komutlarına da uyarlar (senin tarafından eylem gerektirmez). Eğer onlara komut vermezsen ve işgalciler mevcut değilse, koru muhafızları hiçbir şey yapmaz. Koru muhafızları korunan alanı terkedemez. Büyü bittiğinde onları canlandıran büyü ortadan kalkar ve eğer mümkünse ağaçlar yeniden kök salar."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Additional Spell Effect",
+					"name": "Fazladan Büyü Etkisi",
 					"entries": [
-						"You can place your choice of one of the following magical effects within the warded area:"
+						"Korunan alana şu büyülü etkilerden seçeceğin birini yerleştirebilirsin:"
 					]
 				},
 				{
 					"type": "list",
 					"items": [
-						"A constant gust of wind in two locations of your choice",
-						"Spike growth in one location of your choice",
-						"Wind wall in two locations of your choice"
+						"Seçeceğin iki noktada sürekli gust of wind (kuvvetli rüzgar)",
+						"Seçeceğin bir noktada spike growth (diken büyümesi)",
+						"Seçeceğin iki yerde wind wall (rüzgar duvarı)"
 					]
 				},
-				"To a creature immune to this effect, the winds are a fragrant, gentle breeze, and the area of spike growth is harmless."
+				"Bu etkilere bağışıklığı olan varlıklar için rüzgarlar hoş kokulu meltemler gibidir ve diken oluşumu zararsızdır."
 			],
 			"page": 154
 		},
@@ -2619,7 +2619,7 @@
 			]
 		},
 		{
-			"name": "Investiture of Flame",
+			"name": "Investiture of Flame (Alev Üniforması)",
 			"source": "XGE",
 			"level": 6,
 			"school": "T",
@@ -2670,13 +2670,13 @@
 				]
 			},
 			"entries": [
-				"Flames race across your body, shedding bright light in a 30-foot radius and dim light for an additional 30 feet for the spell's duration. The flames don't harm you. Until the spell ends, you gain the following benefits.",
+				"Bedenini alevler kaplar ve büyü süresince 30 fit çevrene parlak ötesinde 30 fit daha loş ışık saçarsın. Alevler sana zarar vermez. Büyü bitene dek şu özellikleri kazanırsın.",
 				{
 					"type": "list",
 					"items": [
-						"You are immune to ateş damage and have resistance to soğuk damage.",
-						"Any creature that moves within 5 feet of you for the first time on a turn or ends its turn there takes {@dice 1d10} ateş damage.",
-						"You can use your eylem to create a line of ateş 15 feet long and 5 feet wide extending from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes {@dice 4d8} ateş damage on a failed save, or half as much damage on a successful one."
+						"Ateş hasarına bağışıklığın ve soğuk hasarına direncin olur.",
+						"Sırasında ilk defa senin 5 fit yakınına gelen ya da sırasını orada bitiren varlıklar {@dice 1d10} ateş hasarı alır.",
+						"Eylemini kullanıp seçeceğin bir yöne doğru 5 fit genişlikte ve 15 fit uzunlukta bir ateş hattı yaratabilirsin. Hattaki her varlık Çeviklik kurtulma zarı atar. Başarısız bir varlık {@dice 4d8} ateş hasarı alır, başarılı olursa bunun yarısını."
 					]
 				}
 			],
@@ -2695,7 +2695,7 @@
 			]
 		},
 		{
-			"name": "Investiture of Ice",
+			"name": "Investiture of Ice (Buz Üniforması)",
 			"source": "XGE",
 			"level": 6,
 			"school": "T",
@@ -2746,14 +2746,14 @@
 				]
 			},
 			"entries": [
-				"Until the spell ends, ice rimes your body, and you gain the following benefits.",
+				"Büyü bitene dek bedenini buz kaplar ve şu özellikleri kazanırsın.",
 				{
 					"type": "list",
 					"items": [
-						"You are immune to soğuk damage and have resistance to ateş damage.",
-						"You can move across difficult terrain created by ice or snow without spending extra movement.",
-						"The ground in a 10-foot radius around you is icy and is difficult terrain for creatures other than you. The radius moves with you.",
-						"You can use your eylem to create a 15-foot cone of freezing wind extending from your outstretched hand in a direction you choose. Each creature in the cone must make a Constitution saving throw. A creature takes {@dice 4d6} soğuk damage on a failed save, or half as much damage on a successful one. A creature that fails its save against this effect has its speed halved until the start of your next turn."
+						"Soğuk hasarına bağışıklık ve ateş hasarına direncin olur.",
+						"Buz ya da kar yüzünden oluşmuş zorlu arazilerden fazladan hareket harcamadan geçebilirsin.",
+						"10 fit çevrendeki alan buzlanır ve senin dışındaki varlıklar için zorlu araziye dönüşür. Bu alan senle birlikte hareket eder.",
+						"Eylemini kullanıp seçeceğin bir yöne doğru 15 fitlik bir koni içerisinde dondurucu rüzgar estirebilirsin. Konideki her varlık Dayanıklılık kurtulma zarı atar. Başarısız bir varlık {@dice 4d6} soğuk hasarı, başarılı olursa bunun yarısını alır. Bu etkiye karşı başarısız olan bir varlığın hızı senin bir sonraki sıranın başına kadar yarılanır."
 					]
 				}
 			],
@@ -2772,7 +2772,7 @@
 			]
 		},
 		{
-			"name": "Investiture of Stone",
+			"name": "Investiture of Stone (Taş Üniforması)",
 			"source": "XGE",
 			"level": 6,
 			"school": "T",
@@ -2823,13 +2823,13 @@
 				]
 			},
 			"entries": [
-				"Until the spell ends, bits of rock spread across your body, and you gain the following benefits.",
+				"Büyü bitene dek taş parçaları vücudunu kaplar ve şu özellikleri kazanırsın.",
 				{
 					"type": "list",
 					"items": [
-						"You have resistance to ezme, delme, and kesme damage from nonmagical attacks.",
-						"You can use your eylem to create a small earthquake on the ground in a 15-foot radius centered on you. Other creatures on that ground must succeed on a Dexterity saving throw or be knocked {@condition prone}.",
-						"You can move across difficult terrain made of earth or stone without spending extra movement. You can move through solid earth or stone as if it was air and without destabilizing it, but you can't end your movement there. If you do so, you are ejected to the nearest unoccupied space, this spell ends, and you are {@condition stunned} until the end of your next turn."
+						"Büyüsüz saldırılardan gelen ezme, delme, ve kesme hasarına direncin olur.",
+						"Eylemini kullanıp 15 fit çevrende küçük bir deprem yaratabilirsin. Alandaki diğer varlıklar Çeviklik kurtulma zarı atar ya da yere düşerler.",
+						"Toprak ve taş yüzünden oluşmuş zorlu arazilerden fazladan hareket harcamadan geçersin. Toprak ve taştan onları bozmadan sanki havaymışçasına geçebilirsin ama sıranı orada bitiremezsin. Eğer bitirirsen, en yakın boş alana atılırsın, büyü biter ve sen bir sonraki sıranın sonuna kadar {@condition sersemleme} durumunda olursun."
 					]
 				}
 			],
@@ -2844,7 +2844,7 @@
 			]
 		},
 		{
-			"name": "Investiture of Wind",
+			"name": "Investiture of Wind (Rüzgar Üniforması)",
 			"source": "XGE",
 			"level": 6,
 			"school": "T",
@@ -2895,13 +2895,13 @@
 				]
 			},
 			"entries": [
-				"Until the spell ends, wind whirls around you, and you gain the following benefits.",
+				"Büyü bitene dek etrafında rüzgarlar döner ve şu özellikleri kazanırsın.",
 				{
 					"type": "list",
 					"items": [
-						"Ranged weapon attacks made against you have disadvantage on the attack roll.",
-						"You gain a flying speed of 60 feet. If you are still flying when the spell ends, you fall, unless you can somehow prevent it.",
-						"You can use your eylem to create a 15-foot cube of swirling wind centered on a point you can see within 60 feet of you. Each creature in that area must make a Constitution saving throw. A creature takes {@dice 2d10} ezme damage on a failed save, or half as much damage on a successful one. If a Large or smaller creature fails the save, that creature is also pushed up to 10 feet away from the center of the cube."
+						"Sana karşı yapılan menzilli silah saldırıları dezavantajlı olur.",
+						"60 fit uçuş hızına sahip olursun. Eğer büyü bittiğinde hala uçuyorsan, bir şekilde buna engel olmadığın takdirde düşersin.",
+						"Eylemini kullanarak 60 fit menzilinde görebildiğin 15 fitlik bir küp alanda dönen rüzgarlar yaratabilirsin. Alandaki her varlık Dayanıklılık kurtulma zarı atar. Bir varlık başarısız olursa {@dice 2d10} ezme hasarı, başarılı olursa bunun yarısını alır. Eğer Büyük ya da daha küçük boyda bir varlık kurtulma zarında başarısız olursa, bu varlık kübün merkezinden 10 fit öteye itilir."
 					]
 				}
 			],
@@ -3365,7 +3365,7 @@
 			]
 		},
 		{
-			"name": "Mental Prison",
+			"name": "Mental Prison (Zihin Hapsi)",
 			"source": "XGE",
 			"level": 6,
 			"school": "I",
@@ -3412,7 +3412,7 @@
 				]
 			},
 			"entries": [
-				"You attempt to bind a creature within an illusory cell that only it perceives. One creature you can see within range must make an Intelligence saving throw. The target succeeds automatically if it is immune to being {@condition charmed}. On a successful save, the target takes {@dice 5d10} psişik damage, and the spell ends. On a failed save, the target takes {@dice 5d10} psişik damage, and you make the area immediately around the target's space appear dangerous to it in some way. You might cause the target to perceive itself as being surrounded by ateş, floating razors, or hideous maws filled with dripping teeth. Whatever form the illusion takes, the target can't see or hear anything beyond it and is {@condition restrained} for the spell's duration. If the target is moved out of the illusion, makes a melee attack through it, or reaches any part of its body through it, the target takes {@dice 10d10} psişik damage, and the spell ends."
+				"Bir varlığı sadece onun algıladığı hayali bir hücreye hapsetmeyi denersin. Menzilinde görebildiğin bir varlık Zeka kurtulma zarı atar. Eğer hedef cezbedilmeye bağışıksa otomatik olarak başarılı olur. Başarılı bir kurtulma zarında, hedef {@dice 5d10} psişik hasar alır ve büyü biter. Başarısız bir kurtulma zarında, hedef {@dice 5d10} psişik hasar alır, ve hedefin hemen çevresindeki alanı ona bir şekilde tehlikeli gösterirsin. Hedefe kendini ateş, uçan bıçaklar ya da diş dolu tiksinç ağızlar ile çevrelenmiş hissettirebilirsin. İllüzyon ne form alırsa alsın, büyü süresince hedef onun ötesinde hiçbir şey göremez, duyamaz ve {@condition kısıtlanma} durumundadır. Eğer hedef illüzyonun dışına hareket ettirilirse, onun içerisinden yakın dövüş saldırısı yapasa, ya da bedeninin herhangi bir kısmını onun içerisinden geçirirse, {@dice 10d10} psişik hasar alır ve büyü biter."
 			],
 			"page": 161,
 			"damageInflict": [
@@ -3756,7 +3756,7 @@
 			]
 		},
 		{
-			"name": "Primordial Ward",
+			"name": "Primordial Ward (Kadim Kalkan)",
 			"source": "XGE",
 			"level": 6,
 			"school": "A",
@@ -3795,8 +3795,8 @@
 				]
 			},
 			"entries": [
-				"You have resistance to asit, soğuk, ateş, yıldırım, and ses damage for the spell's duration.",
-				"When you take damage of one of those types, you can use your reaction to gain immunity to that type of damage, including against the triggering damage. If you do so, the resistances end, and you have the immunity until the end of your next turn, at which time the spell ends."
+				"Süre boyunca asit, soğuk, ateş, yıldırım, ve ses hasarına direncin olur.",
+				"Bu tiplerden biriyle hasar alırsan, reaksiyonunu kullanıp o hasar tipine bağışıklık kazanabilirsin, tetikleyen hasar da buna dahildir. Eğer bunu yaparsan dirençler biter ve bir sonraki sıranın sonuna kadar bağışıklığın devam eder, o noktada büyü sonlanır."
 			],
 			"page": 163,
 			"damageInflict": [
@@ -3934,7 +3934,7 @@
 			]
 		},
 		{
-			"name": "Scatter",
+			"name": "Scatter (Dağıt)",
 			"source": "XGE",
 			"level": 6,
 			"school": "C",
@@ -3976,7 +3976,7 @@
 				]
 			},
 			"entries": [
-				"The air quivers around up to five creatures of your choice that you can see within range. An unwilling creature must succeed on a Wisdom saving throw to resist this spell. You teleport each affected target to an unoccupied space that you can see within 120 feet of you. That space must be on the ground or on a floor."
+				"Menzilinde görebildiğin, seçeceğin beş varlığın çevresinde hava titremeye başlar. İsteksiz bir varlık bu büyüye direnmek için Akıl kurtulma zarı atabilir. Her etkilenen hedefi 120 fit yakınında görebildiğin boş bir alana ışınlarsın. Bu alan yerde veya zeminde olmak zorundadır."
 			],
 			"page": 164,
 			"savingThrow": [
@@ -4461,15 +4461,15 @@
 			]
 		},
 		{
-			"name": "Soul Cage",
+			"name": "Soul Cage (Ruh Kafesi)",
 			"source": "XGE",
 			"level": 6,
 			"school": "N",
 			"time": [
 				{
 					"number": 1,
-					"unit": "reaction",
-					"condition": "which you take when a humanoid you can see within 60 feet of you dies"
+					"unit": "reaksiyon",
+					"condition": "60 fit yakınında bir insansının ölüşünü görünce gerçekleştirirsin"
 				}
 			],
 			"range": {
@@ -4483,7 +4483,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a tiny silver cage worth 100 gp",
+					"text": "100 gp değerinde minik bir gümüş kafes",
 					"cost": 100
 				}
 			},
@@ -4509,36 +4509,36 @@
 				]
 			},
 			"entries": [
-				"This spell snatches the soul of a humanoid as it dies and traps it inside the tiny cage you use for the material component. A stolen soul remains inside the cage until the spell ends or until you destroy the cage, which ends the spell. While you have a soul inside the cage, you can exploit it in any of the ways described below. You can use a trapped soul up to six times. Once you exploit a soul for the sixth time, it is released, and the spell ends. While a soul is trapped, the dead humanoid it came from can't be revived.",
+				"Bu büyü ölen bir insansının ruhunu son anda yakalayıp materyal bileşen olarak kullandığın kafesin içine hapseder. Çalınan bir ruh büyü bitene kadar ya da sen kafesi kırana kadar hapis kalır, kafesin kırılması büyüyü sonlandırır. Kafeste ruh olduğu sürece, bunu aşağıda tasvir edilen şekillerde kullanabilirsin. Hapsolmuş bir ruhu 6 kereye kadar kullanabilirsin. Bir ruhu altıncı kez kullandığında salınır ve büyü biter. Ruh hapis haldeyken bunun sahibi ölü insansı diriltilemez.",
 				{
 					"type": "entries",
-					"name": "Steal Life",
+					"name": "Yaşam Çal",
 					"entries": [
-						"You can use a bonus eylem to drain vigor from the soul and regain {@dice 2d8} hit points."
+						"Bonus eylem kullanıp ruhtan yaşam enerjisi çekerek {@dice 2d8} HP yenilersin."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Query Soul",
+					"name": "Ruhu Sorgula",
 					"entries": [
-						"You ask the soul a question (no eylem required) and receive a brief telepathic answer, which you can understand regardless of the language used. The soul knows only what it knew in life, but it must answer you truthfully and to the best of its ability. The answer is no more than a sentence or two and might be cryptic."
+						"Ruha bir soru sorup (eylem gerektirmez) kısa telepatik bir cevap alırsın, bu cevabı hangi dil kullanılırsa kullanılsın anlarsın. Ruh sadece hayatta bildiklerini bilir, ama dürüstçe ve elinden gelen en iyi şekilde cevaplamalı. Cevap bir iki cümleden fazla olmaz ve kriptik olabilir."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Borrow Experience",
+					"name": "Deneyim Ödünç Al",
 					"entries": [
-						"You can use a bonus eylem to bolster yourself with the soul's life experience, making your next attack roll, ability check, or saving throw with advantage. If you don't use this benefit before the start of your next turn, it is lost."
+						"Bonus eylem kullanarak kendini ruhun yaşam deneyimi ile doldurursun, bir sonraki saldırı, yetenek, ya da kurtulma zarını avantajlı atarsın. Eğer bunu bir sonraki sıranın başına kadar kullanmazsan, etki kaybolur."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Eyes of the Dead",
+					"name": "Ölünün Gözleri",
 					"entries": [
-						"You can use an eylem to name a place the humanoid saw in life, which creates an invisible sensor somewhere in that place if it is on the plane of existence you're currently on. The sensor remains for as long as you concentrate, up to 10 dakika (as if you were concentrating on a spell). You receive visual and auditory information from the sensor as if you were in its space using your senses."
+						"Eylemini kullanıp insansının yaşamında görmüş olduğu bir yerin adını verirsin, eğer burası aynı boyutta ise orada bir yerde görünmez bir sensör yaratır. Sen konsantre olduğun sürece 10 dakikaya kadar bu sensör kalır. Sanki sensörün yerindeymişçesine kendi duyularını kullanarak oradan görsel ve işitsel bilgi alırsın."
 					]
 				},
-				"A creature that can see the sensor (such as one using see invisibility or truesight) sees a translucent image of the tormented humanoid whose soul you caged."
+				"Sensörü görebilen bir varlık (see invisibility (görünmezliği gör) etkisi ya da saf görüş gibi duyuları olan) ruhunu hapsettiğin insansının acı içindeki halini saydam bir görüntü olarak görür."
 			],
 			"page": 165
 		},
@@ -4946,7 +4946,7 @@
 			]
 		},
 		{
-			"name": "Tenser's Transformation",
+			"name": "Tenser's Transformation (Tenser'ın Dönüşümü)",
 			"source": "XGE",
 			"level": 6,
 			"school": "T",
@@ -4965,7 +4965,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a few hairs from a bull"
+				"m": "bir boğadan birkaç kıl"
 			},
 			"duration": [
 				{
@@ -4986,19 +4986,19 @@
 				]
 			},
 			"entries": [
-				"You endow yourself with endurance and martial prowess fueled by magic. Until the spell ends, you can't cast spells, and you gain the following benefits:",
+				"Kendine büyü ile dayanıklılık ve savaş hünerleri bahşedersin. Büyü bitene kadar, büyü yapamazsın ve şu özellikleri kazanırsın:",
 				{
 					"type": "list",
 					"items": [
-						"You gain 50 temporary hit points. If any of these remain when the spell ends, they are lost.",
-						"You have advantage on attack rolls that you make with simple and martial weapons.",
-						"When you hit a target with a weapon attack, that target takes an extra {@dice 2d12} güç damage.",
-						"You have proficiency with all armor, shields, simple weapons, and martial weapons.",
-						"You have proficiency in Strength and Constitution saving throws.",
-						"You can attack twice, instead of once, when you take the Attack eylem on your turn. You ignore this benefit if you already have a feature, like Extra Attack, that gives you extra attacks."
+						"50 geçici HP alırsın. Eğer bunlar büyü bittiğinde duruyorsa, hepsi kaybolur.",
+						"Basit ve askeri silahlarla yaptığın saldırılarda avantajın olur.",
+						"Bir hedefe silahlı saldırı ile vurduğunda, hedef fazladan {@dice 2d12} güç hasarı alır.",
+						"Tüm zırhlar, kalkanlar, basit ve askeri silahlarla uzmanlığın olur.",
+						"Kuvvet ve Dayanıklılık kurtulma zarlarında uzmanlığın olur.",
+						"Sıranda Saldırı eylemini kullandığında bir yerine iki kez saldırabilirsin. Eğer Fazladan Saldırı özelliği gibi zaten sana fazladan saldırı veren bir özelliğe sahipsen bu kısmı yoksayarsın."
 					]
 				},
-				"Immediately after the spell ends, you must succeed on a DC 15 Constitution saving throw or suffer one level of {@condition exhaustion}."
+				"Büyü bittikten hemen sonra, DC 15 Dayanıklılık kurtulma zarı atarsın ya da bir seviye {@condition bitkinlik} kazanırsın."
 			],
 			"page": 168,
 			"damageInflict": [

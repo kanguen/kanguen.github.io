@@ -3583,7 +3583,7 @@
 			"entries": [
 				"Menzilinde bildiğin bir yerde (daha önce gördüğün) ya da bilmediğin ama bariz bir yerde (kapının arkası, köşenin ardı, korunun içi gibi) görünmez bir sensör yaratırsın. Bu sensör süre boyunca orada kalır ve saldırılamaz ya da etkileşime geçilemez.",
 				"Büyüyü yaptığında görmeyi ya da duymayı seçersin. Sanki o sensörün yerindeymişçesine seçilen duyu ile algılayabilirsin. Eylem olarak görme ve duyma arası geçiş yapabilirsin.",
-				"Sensörü görebilen bir varlık (see invisibility (görünmezi gör) büyüsünden ya da truesight (safgörü) duyusundan faydalanma gibi), bir yumruk boyutunda parlak ve soyut bir küre görür."
+				"Sensörü görebilen bir varlık (see invisibility (görünmezliği gör) büyüsünden ya da truesight (safgörü) duyusundan faydalanma gibi), bir yumruk boyutunda parlak ve soyut bir küre görür."
 			],
 			"page": 222
 		},
@@ -12315,7 +12315,7 @@
 			]
 		},
 		{
-			"name": "Harm",
+			"name": "Harm (Zarar)",
 			"level": 6,
 			"school": "N",
 			"time": [
@@ -12350,7 +12350,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You unleash a virulent disease on a creature that you can see within range. The target must make a Constitution saving throw. On a failed save, it takes {@dice 14d6} nekrotik damage, or half as much damage on a successful save. The damage can't reduce the target's hit points below 1. If the target fails the saving throw, its hit point maximum is reduced for 1 saat by an amount equal to the nekrotik damage it took. Any effect that removes a disease allows a creature's hit point maximum to return to normal before that time passes."
+				"Menzilinde görebildiğin bir varlığın üzerine ölümcül bir hastalık saçarsın. Varlık Dayanıklılık kurtulma zarı atar. Başarısız olursa, {@dice 14d6} nekrotik hasar alır, başarılı olursa bunun yarısını. Hasar hedefin HP'sini 1'in altına düşüremez. Eğer hedef kurtulma zarında başarısız olursa, 1 saatliğine HP maksimumu aldığı nekrotik hasar kadar düşer. Hastalıkları ortadan kaldıran herhangi bir etkinin varlığa uygulanması, HP maksimumunun zaman dolmadan normale dönmesini sağlar."
 			],
 			"page": 249,
 			"damageInflict": [
@@ -12458,7 +12458,7 @@
 			]
 		},
 		{
-			"name": "Heal",
+			"name": "Heal (Şifa)",
 			"level": 6,
 			"school": "V",
 			"time": [
@@ -12497,14 +12497,14 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Choose a creature that you can see within range. A surge of positive energy washes through the creature, causing it to regain 70 hit points. The spell also ends blindness, deafness, and any diseases affecting the target. This spell has no effect on constructs or undead."
+				"Menzilinde görebildiğin bir varlık seç. Varlığın içinden bir pozitif enerji dalgası geçer ve ona 70 HP yeniler. Büyü aynı zamanda hedefi etkileyen körlük, sağırlık, ve hastalıkları da ortadan kaldırır. Bu büyü yapılar ve yaşayan ölüleri etkilemez."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 7. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the amount of healing increases by 10 for each slot level above 6th."
+						"Bu büyüyü 7. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 6. üzeri her seviye için yenileme 10 artar."
 					]
 				}
 			],
@@ -12713,7 +12713,7 @@
 			]
 		},
 		{
-			"name": "Heroes' Feast",
+			"name": "Heroes' Feast (Kahramanların Şöleni)",
 			"level": 6,
 			"school": "C",
 			"time": [
@@ -12733,7 +12733,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a gem-encrusted bowl worth at least 1,000 gp, which the spell consumes",
+					"text": "en az 1000gp değerinde mücevherle bezenmiş bir kase, büyü bunu tüketir",
 					"cost": 1000,
 					"consume": true
 				}
@@ -12757,8 +12757,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You bring forth a great feast, including magnificent food and drink. The feast takes 1 saat to consume and disappears at the end of that time, and the beneficial effects don't set in until this saat is over. Up to twelve other creatures can partake of the feast.",
-				"A creature that partakes of the feast gains several benefits. The creature is cured of all diseases and zehir, becomes immune to zehir and being {@condition frightened}, and makes all Wisdom saving throws with advantage. Its hit point maximum also increases by {@dice 2d10}, and it gains the same number of hit points. These benefits last for 24 saat."
+				"Göz kamaştıran yiyecek ve içeceklerle dolu bir şölen yaratırsın. Bu şöleni tüketmek 1 saat alır ve bu sürenin sonunda ortadan kaybolur, ve yararlı etkileri bu saat dolana kadar ortaya çıkmaz. Bu şölenden 12 tane varlık faydalanabilir.",
+				"Bu şölene katılan bir varlık birkaç etkiden faydalanır. Varlık tüm hastalık ve zehirlerden kurtulur, zehire ve {@condition korkma} durumuna bağışıklık kazanır, ve tüm Akıl kurtulma zarlarını avantajlı atar. HP maksimumu {@dice 2d10} artar, ve aynı sayıda HP yeniler. Bu faydalar 24 saat sürer."
 			],
 			"page": 250,
 			"damageImmune": [
@@ -15139,7 +15139,7 @@
 			]
 		},
 		{
-			"name": "Magic Jar",
+			"name": "Magic Jar (Büyülü Kavanoz)",
 			"level": 6,
 			"school": "N",
 			"time": [
@@ -15158,7 +15158,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a gem, crystal, reliquary, or some other ornamental container worth at least 500 gp",
+					"text": "en az 500 gp değerinde bir mücevher, kristal, röliker, veya benzeri başka dekoratif bir kap",
 					"cost": 500
 				}
 			},
@@ -15180,13 +15180,13 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Your body falls into a catatonic state as your soul leaves it and enters the container you used for the spell's material component. While your soul inhabits the container, you are aware of your surroundings as if you were in the container's space. You can't move or use reactions. The only eylem you can take is to project your soul up to 100 feet out of the container, either returning to your living body (and ending the spell) or attempting to possess a humanoids body.",
-				"You can attempt to possess any humanoid within 100 feet of you that you can see (creatures warded by a protection from evil and good or magic circle spells can't be possessed). The target must make a Charisma saving throw. On a failure, your soul moves into the target's body, and the target's soul becomes trapped in the container. On a success, the target resists your efforts to possess it, and you can't attempt to possess it again for 24 saat.",
-				"Once you possess a creature's body, you control it. Your game statistics are replaced by the statistics of the creature though you retain your alignment and your Intelligence, Wisdom, and Charisma scores. You retain the benefit of your own class feature. If the target has any class levels, you can't use any of its class features.",
-				"Meanwhile, the possessed creature's soul can perceive from the container using its own senses, but it can't move or take actions at all.",
-				"While possessing a body, you can use your eylem to return from the host body to the container if it is within 100 feet of you, returning the host creature's soul to its body. If the host body dies while you're in it, the creature dies, and you must make a Charisma saving throw against your own spellcasting DC. On a success, you return to the container if it is within 100 feet of you. Otherwise, you die.",
-				"If the container is destroyed or the spell ends, your soul immediately returns to your body. If your body is more than 100 feet away from you, or if your body is dead when you attempt to return to it, you die. If another creature's soul is in the container when it is destroyed, the creature's soul returns to its body if the body is alive and within 100 feet. Otherwise, that creature dies.",
-				"When the spell ends, the container is destroyed."
+				"Ruhun bedenini terkedip materyal bileşen olarak kullandığın kaba girerken, bedenin katatonik bir duruma düşer. Ruhun kabın içerisindeyken, sanki kendin kabın içindeymişçesine çevrenin farkında olursun. Hareket edemez ve reaksiyon kullanamazsın. Gerçekleştirebileceğin tek eylem ruhunu kabın 100 fit uzağına kadar yansıtmak olur, ya hala hayatta olan bedenine dönersin (büyüyü sonlandırır) ya da başka bir insansının bedenini ele geçirmeye çalışırsın.",
+				"100 fit yakınında görebildiğin bir insansıyı ele geçirmeye çalışabilirsin (protection from evil and good (iyi ve kötüden korunma) ya da magic circle (büyülü çember) büyüleri ile korunan varlıklar ele geçirilemez). Hedef Karizma kurtulma zarı atar. Başarısız olursa, ruhun hedefin bedenine girer ve hedefin ruhu kapta hapis kalır. Başarılı olursa, hedef onu ele geçirme çabana direnir ve bunu 24 saat içerisinde bir daha deneyemezsin.",
+				"Bir varlığın bedenini ele geçirdiğinde onu kontrol edersin. Oyun istatistiklerin bu varlığın istatistikleri ile değişir ama yönelimin ve Zeka, Akıl ve Karizma skorların aynı kalır. Kendi sınıf özelliklerinden hala faydalanırsın. Eğer hedefin herhangi bir sınıf seviyesi varsa, onun hiçbir sınıf özelliğini kullanamazsın.",
+				"Bu süreçte, ele geçirilen varlığın ruhu kaptan kendi duyularını kullanarak algılar, ama hiçbir şekilde hareket edemez ve eylem gerçekleştiremez.",
+				"Bir bedeni kontrol ederken, eğer kap 100 fit yakınındaysa eylemini kullanıp bedenden yine kabın içine dönebilirsin, beden sahibi varlığın ruhu kendi bedenine döner. Eğer sen içindeyken bu beden ölürse, varlık da ölür, sonrasında kendi büyü yapma DC'ne karşı Karizma kurtulma zarı atarsın. Başarılı olursan, ve eğer kap 100 fit yakınındaysa içine dönersin. Aksi takdirde ölürsün.",
+				"Eğer kap tahrip olursa ya da büyü biterse, ruhun anında bedenine döner. Eğer bedenin senden 100 fitten daha uzaktaysa, ya da ona dönmeye çalıştığında ölüyse, sen de ölürsün. Eğer başka bir varlığın ruhu, tahrip olduğu anda kaptaysa, bedeni 100 fit yakınında ve hayatta olduğu sürece varlığın ruhu ona geri döner. Aksi takdirde, o varlık ölür.",
+				"Büyü bittiğinde kap parçalanır."
 			],
 			"page": 257,
 			"savingThrow": [
@@ -15640,7 +15640,7 @@
 			"page": 258
 		},
 		{
-			"name": "Mass Suggestion",
+			"name": "Mass Suggestion (Toplu Tavsiye)",
 			"level": 6,
 			"school": "E",
 			"time": [
@@ -15658,7 +15658,7 @@
 			},
 			"components": {
 				"v": true,
-				"m": "a snake's tongue and either a bit of honeycomb or a drop of sweet oil"
+				"m": "bir yılan dili ve ya biraz bal peteği ya da bir damla tatlı yağ"
 			},
 			"duration": [
 				{
@@ -15691,17 +15691,17 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You suggest a course of activity (limited to a sentence or two) and magically influence up to twelve creatures of your choice that you can see within range and that can hear and understand you. Creatures that can't be {@condition charmed} are immune to this effect. The suggestion must be worded in such a manner as to make the course of eylem sound reasonable. Asking the creature to stab itself, throw itself onto a spear, immolate itself, or do some other obviously harmful act automatically negates the effect of the spell.",
-				"Each target must make a Wisdom saving throw. On a failed save, it pursues the course of eylem you described to the best of its ability. The suggested course of eylem can continue for the entire duration. If the suggested activity can be completed in a shorter time, the spell ends when the subject finishes what it was asked to do.",
-				"You can also specify conditions that will trigger a special activity during the duration. For example, you might suggest that a group of soldiers give all their money to the first beggar they meet. If the condition isn't met before the spell ends, the activity isn't performed.",
-				"If you or any of your companions damage a creature affected by this spell, the spell ends for that creature."
+				"Menzilinde görebildiğin ve seni duyup anlayabilen 12 taneye kadar seçeceğin varlığı büyülü bir şekilde etkileyip onlara bir etkinlik planı (bir veya iki cümle ile sınırlı) tavsiye edersin. Cezbedilemeyen varlıklar bu büyüden etkilenmezler. Tavsiye, bahsedilen eylem planı kulağa mantıklı gelecek bir şekilde dile getirilmelidir. Varlığa kendini bıçaklamasını, mızrağın üzerine atlamasını, kendini yakmasını, ya da bariz bir şekilde hasar göreceği bir şeyi söylemek otomatik olarak bu büyünün etkisini sonlandırır.",
+				"Her hedef bir Akıl kurtulma zarı atar. Başarız olursa, elinden geldiğince tanımladığın eylem planını yerine getirmeye çalışır. Tavsiye edilen bu plan tüm büyü süresince devam edebilir. Eğer istenilen etkinlik daha kısa bir sürede tamamlanabiliyorsa, hedef istenileni yaptığında büyü biter.",
+				"Süre boyunca özel bir eylem tetikleyecek durumlar da belirleyebilirsin. Örneğin, bir grup askere tüm paralarını ilk gördükleri dilenciye vermelerini söyleyebilirsin. Eğer büyü bitene kadar bu durum tetiklenmezse, etkinlik gerçekleşmez.",
+				"Eğer sen ya da bir yoldaşın bu etki altındaki bir varlığa hasar verirseniz, büyü o varlık için sonlanır."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a 7th-level spell slot, the duration is 10 gün. When you use an 8th-level spell slot, the duration is 30 gün. When you use a 9th-level spell slot, the duration is a year and a day."
+						"Bu büyüyü 7. seviye bir yuva harcayarak kullandığında süre 10 gün, 8. seviye yuva harcayarak kullandığında süre 30 gün, 9. seviye yuva harcayarak kullandığında süre 1 yıl ve bir gün olur."
 					]
 				}
 			],
@@ -16830,7 +16830,7 @@
 			]
 		},
 		{
-			"name": "Move Earth",
+			"name": "Move Earth (Toprağı Taşı)",
 			"level": 6,
 			"school": "T",
 			"time": [
@@ -16849,7 +16849,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "an iron blade and a small bag containing a mixture of soils\u2014clay, loam, and sand"
+				"m": "demir bir bıçak ve kil, kum ve verimli toprakla dolu bir küçük çanta"
 			},
 			"duration": [
 				{
@@ -16879,11 +16879,11 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Choose an area of terrain no larger than 40 feet on a side within range. You can reshape dirt, sand, or clay in the area in any manner you choose for the duration. You can raise or lower the area's elevation, create or fill in a trench, erect or flatten a wall, or form a pillar. The extent of any such changes can't exceed half the area's largest dimension. So, if you affect a 40-foot square, you can create a pillar up to 20 feet high, raise or lower the square's elevation by up to 20 feet, dig a trench up to 20 feet deep, and so on. It takes 10 dakika for these changes to complete.",
-				"At the end of every 10 dakika you spend concentrating on the spell, you can choose a new area of terrain to affect.",
-				"Because the terrain's transformation occurs slowly, creatures in the area can't usually be trapped or injured by the ground's movement.",
-				"This spell can't manipulate natural stone or stone construction. Rocks and structures shift to accommodate the new terrain. If the way you shape the terrain would make a structure unstable, it might collapse.",
-				"Similarly, this spell doesn't directly affect plant growth. The moved earth carries any plants along with it."
+				"Menzilinde herhangi bir yanı 40 fiti geçmeyen boyutta bir araziyi seç. Süre boyunca bu alandaki toprak, kum veya kili istediğin gibi şekillendirebilirsin. Alanın yüksekliğini yükseltip alçaltabilir, siper kazabilir ya da doldurabilir, bir duvar kaldırabilir ya da indirebilir, veya bir sütun yapabilirsin. Bu tip değişimler alanın en büyük ölçüsünün yarısından fazla olamaz. Bu şekilde, eğer 40 fitlik bir kareyi etkilersen, 20 fit yükseklikte bir sütun yaratabilir, yüksekliği 20 fit yükseltip alçaltabilir, 20 fit derinlikte siper kazabilirsin. Bu değişimlerin tamamlanması 10 dakika sürer.",
+				"Büyüye konsantre olduğun her 10 dakika sonunda, etkilemek için yeni bir arazi seçebilirsin.",
+				"Arazinin dönüşümü yavaş gerçekleştiği için, alandaki varlıklar genellikle yerin hareketi dolayısıyla hapsedilemez ya da yaralanamazlar.",
+				"Bu büyü doğal taşı ya da yapı taşlarını kontrol edemez. Taşlar ve yapılar yeni araziye uyum sağlayarak kayarlar. Eğer araziye verdiğin şekil bir yapıyı dengesizleştirirse yıkılabilir.",
+				"Benzer olarak, bu büyü bitki örtüsünü doğrudan etkilemez. Taşınan toprak içindeki bitkileri de taşır."
 			],
 			"page": 263
 		},
@@ -17027,7 +17027,7 @@
 			"page": 263
 		},
 		{
-			"name": "Otiluke's Freezing Sphere",
+			"name": "Otiluke's Freezing Sphere (Otiluke'un Donduran Küresi)",
 			"level": 6,
 			"school": "V",
 			"time": [
@@ -17046,7 +17046,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a small crystal sphere"
+				"m": "küçük kristal bir küre"
 			},
 			"duration": [
 				{
@@ -17063,16 +17063,16 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"A frigid globe of soğuk energy streaks from your fingertips to a point of your choice within range, where it explodes in a 60-foot-radius sphere. Each creature within the area must make a Constitution saving throw. On a failed save, a creature takes {@dice 10d6} soğuk damage. On successful save, it takes half as much damage.",
-				"If the globe strikes a body of water or a liquid that is principally water (not including water-based creatures), it freezes the liquid to a depth of 6 inches over an area 30 feet square. This ice lasts for 1 dakika. Creatures that were swimming on the surface of frozen water are trapped in the ice. A trapped creature can use an eylem to make a Strength check against your spell save DC to break free.",
-				"You can refrain from firing the globe after completing the spell, if you wish. A small globe about the size of a sling stone, cool to the touch, appears in your hand. At any time, you or a creature you give the globe to can throw the globe (to a range of 40 feet) or hurl it with a sling (to the sling's normal range). It shatters on impact, with the same effect as the normal casting of the spell. You can also set the globe down without shattering it. After 1 dakika, if the globe hasn't already shattered, it explodes."
+				"Menzilinde seçeceğin bir noktaya doğru parmaklarından dondurucu bir soğuk enerji küresi fırlar, ve çarptığında 60 fit yarıçaplı bir küre boyunda patlar. Alandaki her varlık Dayanıklılık kurtulma zarı atar. Bir varlık başarısız olursa {@dice 10d6} soğuk hasarı alır, başarılı olursa bunun yarısını.",
+				"Eğer küre bir su ya da temelinde su olan bir sıvı kütlesine (su bazlı varlıklar dışında) çarparsa, 30 fitlik bir kare alanda 6 inç derinliğe kadar bu sıvıyı dondurur. Bu buz 1 dakika kalır. Donan suyun yüzeyinde yüzen varlıklar buzun içinde sıkışıp kalır. Sıkışmış bir varlık eylemini kullanıp senin büyü kurtulma DC'ne karşı Kuvvet zarı atarak oradan çıkmayı deneyebilir.",
+				"Eğer istersen, büyüyü yaptıktan sonra küreyi atmamayı seçebilirsin. Dokununca soğuk hissettiren, bir sapan taşı boyutunda küçük bir küre elinde belirir. İstediğin zaman, sen ya da küreyi verdiğin bir varlık bunu fırlatabilir (40 fite kadar) ya da bunu sapanla atabilirsiniz (sapanın normal menziline kadar). Darbe anında kırılır ve büyünün normal yapılma şekli ile aynı etkiyi gösterir. Küreyi kırmadan da yere bırakabilirsin. Eğer 1 dakika sonunda küre hala kırılmadıysa, patlar."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 7. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the damage increases by {@dice 1d6} for each slot level above 6th"
+						"Bu büyüyü 7. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 6. üzeri her seviye için hasar {@dice 1d6} artar."
 					]
 				}
 			],
@@ -17167,7 +17167,7 @@
 			]
 		},
 		{
-			"name": "Otto's Irresistible Dance",
+			"name": "Otto's Irresistible Dance (Otto'nun Karşı Konulmaz Dansı)",
 			"level": 6,
 			"school": "E",
 			"time": [
@@ -17210,8 +17210,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Choose one creature that you can see within range. The target begins a comic dance in place: shuffling, tapping its feet, and capering for the duration. Creatures that can't be {@condition charmed} are immune to this spell.",
-				"A dancing creature must use all its movement to dance without leaving its space and has disadvantage on Dexterity saving throws and attack rolls. While the target is affected by this spell, other creatures have advantage on attack rolls against it. As an eylem, a dancing creature makes a Wisdom saving throw to regain control of itself. On a successful save, the spell ends."
+				"Menzilinde görebildiğin bir varlık seç. Hedef yerinde komik bir dansa başlar: süre boyunca ayaklarını sürür, topuklarını vurur, ve hoplar. Cezbedilemeyen varlıklar bu büyüden etkilenmezler.",
+				"Danseden bir varlık tüm hareketini alanını terketmeden yerinde dans etmek için harcar, ve Çeviklik kurtulma ve saldırı zarlarında dezavantajlı olur. Hedef bu büyü etkisindeyken, diğer varlıkların ona karşı saldırıları avantajlı olur. Eylem olarak, danseden bir varlık Akıl kurtulma zarı atıp kendi kontrolünü kazanmaya çalışır. Başarılı olursa büyü biter."
 			],
 			"page": 264,
 			"savingThrow": [
@@ -17560,7 +17560,7 @@
 			"page": 265
 		},
 		{
-			"name": "Planar Ally",
+			"name": "Planar Ally (Boyutsal Müttefik)",
 			"level": 6,
 			"school": "C",
 			"time": [
@@ -17595,12 +17595,12 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You beseech an otherworldly entity for aid. The being must be known to you: a god, a primordial, a demon prince, or some other being of cosmic power. That entity sends a celestial, an elemental, or a fiend loyal to it to aid you, making the creature appear in an unoccupied space within range. If you know a specific creature's name, you can speak that name when you cast this spell to request that creature, though you might get a different creature anyway (DM's choice).",
-				"When the creature appears, it is under no compulsion to behave in any particular way. You can ask the creature to perform a service in exchange for payment, but it isn't obliged to do so. The requested task could range from simple (fly us across the chasm, or help us fight a battle) to complex (spy on our enemies, or protect us during our foray into the dungeon). You must be able to communicate with the creature to bargain for its services.",
-				"Payment can take a variety of forms. A celestial might require a sizable donation of gold or magic items to an allied temple, while a fiend might demand a living sacrifice or a gift of treasure. Some creatures might exchange their service for a quest undertaken by you.",
-				"As a rule of thumb, a task that can be measured in dakika requires a payment worth 100 gp per dakika. A task measured in saat requires 1,000 gp per saat. And a task measured in gün (up to 10 gün) requires 10,000 gp per day. The DM can adjust these payments based on the circumstances under which you cast the spell. If the task is aligned with the creature's ethos, the payment might be halved or even waived. Nonhazardous tasks typically require only half the suggested payment, while especially dangerous tasks might require a greater gift. Creatures rarely accept tasks that seem suicidal.",
-				"After the creature completes the task, or when the agreed-upon duration of service expires, the creature returns to its home plane after reporting back to you, if appropriate to the task and if possible. If you are unable to agree on a price for the creature's service, the creature immediately returns to its home plane.",
-				"A creature enlisted to join your group counts as a member of it, receiving a full share of experience points awarded."
+				"Dış dünyadan bir varlığa yardım için yalvarırsın. Bu varlığı bilmelisin: bir tanrı, bir primordial, bir iblis prensi, veya farklı bir kozmik güç varlığı. Bu varlık sana yardım etsin diye kendisine sadık olan bir kutsal, bir elemental, ya da bir zebaniyi gönderir ve gelen varlık menzilinde boş bir alanda belirir. Eğer belirli bir varlığın adını biliyorsan, büyüyü yaparken o ismi söyleyip kendisini rica edebilirsin, ama hala farklı bir varlık gelebilir (DM'in seçimi).",
+				"Varlık belirdiğinde, herhangi bir şekilde davranmak için bir zorlama altında değildir. Varlıktan ödeme karşılığı bir hizmet gerçekleştirmesini isteyebilirsin, ama bunu yapma zorunluluğu yoktur. İstenilen görev basitten (bizi uçurumun karşısına uçur, ya da savaşta yardım et) karmaşığa (düşmanlarımıza ajanlık yap, ya da zindana yaptığımız yağma sırasında bizi koru) uzanabilir. Varlığın hizmetleri karşılığı pazarlığa başlamak için kendisiyle iletişime girebilmen gerekir.",
+				"Bu ödeme çeşitli şekiller alabilir. Bir kutsal müttefik bir tapınağa yapılacak yüklü altın ya da büyülü eşya bağışı isteyebilir, bir zebaniyse canlı kurban ya da hazine hediyeleri bekleyebilir. Bazı varlıklar sizin gideceğiniz görevler karşılığında hizmetlerini sunabilirler.",
+				"Temel bir kural olarak, dakikalarla ölçülebilecek bir görev dakikasına 100 gp ödeme gerektirir. Saatle ölçülebilecek bir görev saatine 1000 gp olur. Ve günlerle ölçülebilecek (10 güne kadar) bir görev, günlük 10.000 altındır. DM senin bu büyüyü yapma şartlarına bağlı olarak fiyatları değiştirebilir. Eğer görev varlığın değer ve inançlarına uyuyorsa ödeme yarılanabilir, hatta yoksayılabilir. Tehlikesiz görevler genel olarak sadece tavsiye edilen ödemenin yarısını gerektirir, aşırı tehlikeli görevler ise daha üstün bir hediye gerektirebilir. Varlıklar nadiren intihar gibi görülen görevleri kabul ederler.",
+				"Varlık görevi tamamladıktan sonra, ya da hizmetin karşılıklı anlaşılan süresi dolduğunda, eğer göreve uygunsa ve mümkünse sana bildirdikten sonra kendi boyutuna döner. Eğer varlığın hizmetleri için bir fiyatta anlaşamazsanız, anında asıl boyutuna döner.",
+				"Grubunuza katılan bir varlık onun bir üyesi sayılır, ödül verilen deneyim puanlarından tam payını alır."
 			],
 			"page": 265
 		},
@@ -18531,7 +18531,7 @@
 			]
 		},
 		{
-			"name": "Programmed Illusion",
+			"name": "Programmed Illusion (Programlı İllüzyon)",
 			"level": 6,
 			"school": "I",
 			"time": [
@@ -18551,7 +18551,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a bit of fleece and jade dust worth at least 25 gp",
+					"text": "en az 25 gp değerinde yeşim tozu ve biraz yün",
 					"cost": 25
 				}
 			},
@@ -18577,10 +18577,10 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You create an illusion of an object, a creature, or some other visible phenomenon within range that activates when a specific condition occurs. The illusion is imperceptible until then. It must be no larger than a 30-foot cube, and you decide when you cast the spell how the illusion behaves and what sounds it makes. This scripted performance can last up to 5 dakika.",
-				"When the condition you specify occurs, the illusion springs into existence and performs in the manner you described. Once the illusion finishes performing, it disappears and remains dormant for 10 dakika. After this time, the illusion can be activated again.",
-				"The triggering condition can be as general or as detailed as you like, though it must be based on visual or audible conditions that occur within 30 feet of the area. For example, you could create an illusion of yourself to appear and warn off others who attempt to open a trapped door, or you could set the illusion to trigger only when a creature says the correct word or phrase.",
-				"Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses its eylem to examine the image can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and any noise it makes sounds hollow to the creature."
+				"Menzilinde belirli bir durum meydana geldiğinde etkinleşen bir nesne, varlık ya da benzer bir gözlenebilen fenomen illüzyonu yaratırsın. İllüzyon o ana kadar tespit edilemez. 30 fitlik küpten büyük olamaz, ve büyüyü yaparken illüzyonun nasıl davranacağını ve hangi sesi çıkaracağını belirlersin. Bu planlı performans 5 dakikaya kadar sürebilir.",
+				"Belirlediğin durum meydana geldiğinde, illüzyon ortaya çıkar ve tanımladığın şekilde hareket etmeye başlar. İllüzyon performansını bitirdiğinde, kaybolur ve 10 dakika etkisiz kalır. Bu süre sonunda illüzyon yeniden etkinleşebilir.",
+				"Tetikleyici durum istediğin kadar genel ya da detaylı olabilir, ama alanın 30 fit yakınında gerçekleşen bir görsel ya da işitsel durum bazlı olmalı. Örneğin, tuzaklı bir kapıyı açmaya çalışanları uyaran kendi illüzyonunu yaratabilirsin, ya da illüzyonu sadece doğru kelime ya da cümleyi söyleyenler için tetiklersin.",
+				"Görüntü ile fiziksel etkileşim onun illüzyon olduğunu belli eder, çünkü nesneler içinden geçer. Bir varlık eylemini harcayıp senin büyü kurtulma DC'ne karşı Zeka (İnceleme) zarı atarak bunun bir illüzyon olduğunu anlayabilir. Eğer bir varlık bunun illüzyon olduğunu farkederse, bu görüntü onun için saydamlaşır ve çıkardığı sesler çok boş gelmeye başlar."
 			],
 			"page": 269,
 			"opposedCheck": [
@@ -22486,7 +22486,7 @@
 			]
 		},
 		{
-			"name": "Sunbeam",
+			"name": "Sunbeam (Gün Işını)",
 			"level": 6,
 			"school": "V",
 			"time": [
@@ -22505,7 +22505,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a magnifying glass"
+				"m": "bir büyüteç"
 			},
 			"duration": [
 				{
@@ -22535,9 +22535,9 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"A beam of brilliant light flashes out from your hand in a 5-foot-wide, 60-foot-line. Each creature in the line must make a Constitution saving throw. On a failed save, a creature takes {@dice 6d8} radyant damage and is {@condition blinded} until your next turn. On a successful save, it takes half as much damage and isn't {@condition blinded} by this spell. Undead and oozes have disadvantage on this saving throw.",
-				"You can create a new line of radiance as your eylem on any turn until the spell ends.",
-				"For the duration, a mote of brilliant radiance shines in your hand. It sheds bright light in a 30-foot radius and dim light for an additional 30 feet. The light is sunlight."
+				"Elinden 5 fit genişlikte 60 fitlik bir hatta göz alıcı bir ışın gönderirsin. Hattaki her varlık Dayanıklılık kurtulma zarı atar. Bir varlık başarısız olursa, {@dice 6d8} radyant hasar alır ve bir sonraki sırana dek {@condition körlük} etkisi altındadır. Başarılı olursa, sadece yarı hasar alır ve bu büyü tarafından kör edilmez. Bu kurtulma zarında yaşayan ölüler ve balçıkların dezavantajı vardır.",
+				"Büyü bitene dek her sıranda eylem olarak yeni bir ışık hattı oluşturabilirsin.",
+				"Süre boyunca, avcunda göz alıcı parlaklıkta bir zerre ışıldar. 30 fit çevrene parlak bunun ötesinde 30 fit daha loş ışık saçar. Bu ışık gün ışığıdır."
 			],
 			"page": 279,
 			"damageInflict": [
@@ -23583,7 +23583,7 @@
 			"page": 283
 		},
 		{
-			"name": "Transport via Plants",
+			"name": "Transport via Plants (Bitkilerle Taşı)",
 			"level": 6,
 			"school": "C",
 			"time": [
@@ -23622,7 +23622,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"This spell creates a magical link between a Large or larger inanimate plant within range and another plant, at any distance, on the same plane of existence. You must have seen or touched the destination plant at least once before. For the duration, any creature can step into the target plant and exit from the destination plant by using 5 feet of movement."
+				"Bu büyü, menzilinde Büyük veya daha büyük boyda hareketsiz bir bitki ile, aynı boyutta olduğu sürece mesafe sınırı olmayan benzer boy bir bitki arasında büyülü bir bağ kurar. Gidilecek bitkiyi önceden en az bir kere görmüş ya da dokunmuş olman gerekir. Süre boyunca, herhangi bir varlık 5 fit hareket kullanarak hedef bitkiye adımını atıp gidilecek bitkiden çıkabilir."
 			],
 			"page": 283
 		},
@@ -23843,7 +23843,7 @@
 			"page": 284
 		},
 		{
-			"name": "True Seeing",
+			"name": "True Seeing (Saf Görüş)",
 			"level": 6,
 			"school": "D",
 			"time": [
@@ -23862,7 +23862,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "an ointment for the eyes that costs 25 gp, is made from mushroom powder, saffron, and fat, and is consumed by the spell",
+					"text": "25 gp değerinde gözler için bir merhem, mantar tozu, safran ve yağ ile yapılır, ve büyü bunu tüketir",
 					"cost": 25,
 					"consume": true
 				}
@@ -23902,7 +23902,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"This spell gives the willing creature you touch the ability to see things as they actually are. For the duration, the creature has truesight, notices secret doors hidden by magic, and can see into the Ethereal Plane, all out to a range of 120 feet."
+				"Bu büyü, dokunduğun istekli bir varlığa herşeyi olduğu gibi görme yeteneğini bahşeder. Süre boyunca, varlığın saf görüşü olur, büyü ile gizlenmiş kapıları farkeder, ve Ethereal Boyutu görebilir, bu görüşün 120 fit menzili vardır."
 			],
 			"page": 284
 		},
@@ -24382,7 +24382,7 @@
 			]
 		},
 		{
-			"name": "Wall of Ice",
+			"name": "Wall of Ice (Buz Duvarı)",
 			"level": 6,
 			"school": "V",
 			"time": [
@@ -24401,7 +24401,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a small piece of quartz"
+				"m": "küçük bir parça kuvars"
 			},
 			"duration": [
 				{
@@ -24423,16 +24423,16 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You create a wall of ice on a solid surface within range. You can form it into a hemispherical dome or a sphere with radium of up to 10 feet, or you can shape a flat surface made up of ten 10-foot-square panels. Each panel must be contiguous with another panel. In any form, the wall is 1 foot thick and lasts for the duration.",
-				"If the wall cuts through a creature's space when it appears, the creature within its area is pushed to one side of the wall and must make a Dexterity saving throw. On a failed save, the creature takes {@dice 10d6} soğuk damage, or half as much damage on a successful save.",
-				"The wall is an object that can be damaged and thus breached. It has AC 12 and 30 hit points per 10-foot section, and it is vulnerable to ateş damage. Reducing a 10-foot section of wall to 0 hit points destroys it and leaves behind a sheet of frigid air in the space the wall occupied. A creature moving through the sheet of frigid air for the first time on a turn must make a Constitution saving throw. The creature takes {@dice 5d6} soğuk damage on a failed save, or half as much damage on a successful one."
+				"Menzilinde katı bir yüzeyde bir buz duvarı yaratırsın. Bunu 10 fit yarıçaplı yarımküre ya da tam küre, veya 10 adet 10 fit karelik panellerden oluşan düz bir yüzey şekline sokabilirsin. Her panel başka bir panelin devamı olmalıdır. Her şekilde, duvar 1 fit kalınlıktadır ve süre boyunca kalır.",
+				"Eğer duvar ortaya çıktığında bir varlığın alanından geçiyorsa, alandaki varlık bir tarafına doğru itilir ve Çeviklik kurtulma zarı atar. Başarısız olursa varlık {@dice 10d6} soğuk hasarı alır, başarılı olursa bunun yarısını.",
+				"Duvar hasar görebilen bir nesnedir ve bu yüzden aşılabilir. Her 10 fitlik kısmının 12 AC'si ve 30 HP'si, ayrıca ateş hasarına zayıflığı vardır. Duvarın 10 fitlik bir kısmını 0 HP'ye düşürme onu yıkar ve duvarın kapladığı alanda dondurucu soğuk bir hava bırakır. Sırasında ilk defa bu soğuk havanın içinden geçen bir varlık Dayanıklılık kurtulma zarı atar. Başarısız bir varlık {@dice 5d6} soğuk hasarı alır, başarılı olursa bunun yarısını."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 7. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the damage the wall deals when it appears increases by {@dice 2d6}, and the damage from passing through the sheet of frigid air increases by {@dice 1d6} for each slot level above 6th."
+						"Bu büyüyü 7. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 6. üzeri her seviye için duvar ortaya çıktığında verdiği hasar {@dice 2d6}, ve dondurucu soğuk hava içinden geçmenin verdiği hasar {@dice 1d6} artar."
 					]
 				}
 			],
@@ -24533,7 +24533,7 @@
 			]
 		},
 		{
-			"name": "Wall of Thorns",
+			"name": "Wall of Thorns (Diken Duvar)",
 			"level": 6,
 			"school": "C",
 			"time": [
@@ -24552,7 +24552,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a handful of thorns"
+				"m": "bir avuç diken"
 			},
 			"duration": [
 				{
@@ -24574,16 +24574,16 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You create a wall of tough, pliable, tangled brush bristling with needle-sharp thorns. The wall appears within range on a solid surface and lasts for the duration. You choose to make the wall up to 60 feet long, 10 feet high, and 5 feet thick or a circle that has a 20-foot diameter and is up to 20 feet high and 5 feet thick. The wall blocks line of sight.",
-				"When the wall appears, each creature within its area must make a Dexterity saving throw. On a failed save, a creature takes {@dice 7d8} delme damage, or half as much damage on a successful save.",
-				"A creature can move through the wall, albeit slowly and painfully. For every 1 foot a creature moves through the wall, it must spend 4 feet of movement. Furthermore, the first time a creature enters the wall on a turn or ends its turn there, the creature must make a Dexterity saving throw. It takes {@dice 7d8} kesme damage on a failed save, or half as much on a successful save."
+				"İğne gibi sivri dikenlerle dolu sağlam, bükülebilen ve dolaşık bir duvar yaratırsın. Duvar menzilinde katı bir yüzeyde belirir ve süre boyunca kalır. Duvarı 60 fit uzunluk, 10 fit yükseklik, ve 5 fit kalınlıkta istediğin şekilde ya da 20 fit çaplı, 20 fit yükseklikte ve 5 fit kalınlıkta bir çember olarak yaratabilirsin. Duvar görüşü engeller.",
+				"Duvar ortaya çıktığında, alanındaki her varlık Çeviklik kurtulma zarı atar. Başarısız olan bir varlık {@dice 7d8} delme hasarı alır, başarılı olursa bunun yarısını.",
+				"Bir varlık duvardan geçebilir ama bu yavaş ve acılı olur. Duvarda gittiği her 1 fit mesafe için 4 fit hareket harcar. Fazlası, sırasında ilk defa duvarın alanına giren ya da sırasını duvarda bitiren bir varlık Çeviklik kurtulma zarı atar. Başarısız olursa {@dice 7d8} kesme hasarı alır, başarılı olursa bunun yarısını."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 7. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, both types of damage increase by {@dice 1d8} for each slot level above 6th."
+						"Bu büyüyü 7. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 6. üzeri her seviye için iki tip hasar da {@dice 1d8} artar."
 					]
 				}
 			],
@@ -24942,7 +24942,7 @@
 			]
 		},
 		{
-			"name": "Wind Walk",
+			"name": "Wind Walk (Rüzgar Yürüyüşü)",
 			"level": 6,
 			"school": "T",
 			"time": [
@@ -24961,7 +24961,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "ateş and holy water"
+				"m": "ateş ve kutsal su"
 			},
 			"duration": [
 				{
@@ -24982,8 +24982,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You and up to ten willing creatures you can see within range assume a gaseous form for the duration, appearing as wisps of cloud. While in this cloud form, a creature has a flying speed of 300 feet and has resistance to damage from nonmagical weapons. The only actions a creature can take in this form are the Dash eylem or to revert to its normal form. Reverting takes 1 dakika, during which time a creature is {@condition incapacitated} and can't move. Until the spell ends, a creature can revert to cloud form, which also requires the 1-dakika transformation.",
-				"If a creature is in cloud form and flying when the effect ends, the creature descends 60 feet per round for 1 dakika until it lands, which it does safely. If it can't land after 1 dakika, the creature falls the remaining distance."
+				"Sen ve menzilinde görebildiğin 10 taneye kadar istekli varlık süre boyunca gaz haline dönüşür ve bulut parçacıkları gibi görünürsünüz. Bu bulut formundayken, bir varlığın 300 fit uçma hızı ve büyüsüz silahlardan hasara direnci olur. Bu formdaki bir varlığın gerçekleştirebileceği eylemler sadece Depar ve normal formuna dönmedir. Forma dönme 1 dakika sürer, bu süreçte varlık {@condition etkisiz hal}dedir ve hareket edemez. Büyü bitene dek bir varlık yine bulut formuna girebilir, bu dönüşüm de 1 dakika sürer.",
+				"Etki bittiğinde bir varlık bulut formunda ve uçuyorsa, varlık 1 dakika boyunca güvenli bir şekilde yere değene kadar roundda 60 fit iner. Eğer 1 dakika içinde inemezse, geri kalan mesafeyi düşer."
 			],
 			"page": 288
 		},
@@ -25197,7 +25197,7 @@
 			]
 		},
 		{
-			"name": "Word of Recall",
+			"name": "Word of Recall (Dönüş Sözü)",
 			"level": 6,
 			"school": "C",
 			"time": [
@@ -25231,8 +25231,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You and up to five willing creatures within 5 feet of you instantly teleport to a previously designated sanctuary. You and any creatures that teleport with you appear in the nearest unoccupied space to the spot you designated when you prepared your sanctuary (see below). If you cast this spell without first preparing a sanctuary, the spell has no effect.",
-				"You must designate a sanctuary by casting this spell within a location, such as a temple, dedicated to or strongly linked to your deity. If you attempt to cast the spell in this manner in an area that isn't dedicated to your deity, the spell has no effect."
+				"Sen ve 5 fit yakınındaki 5 taneye kadar istekli varlık, daha önceden belirlediğin bir mabede anında ışınlanırsınız. Sen ve seninle ışınlanan her varlık mabedini hazırlarken belirlediğin noktanın çevresindeki en yakın boş alanlarda belirirler. Eğer mabed hazırlamadan bu büyüyü kullanırsan, büyü hiçbir etki göstermez.",
+				"Öncelikle senin tanrına adanmış ya da ona güçlü bağları olan tapınak gibi bir yerde bu büyüyü kullanıp orayı mabed olarak belirlemelisin. Eğer büyüyü bu şekilde tanrına adanmamış bir yerde kullanmaya çalışırsan büyü hiçbir etki göstermez."
 			],
 			"page": 289
 		},
