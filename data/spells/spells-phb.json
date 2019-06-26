@@ -4664,7 +4664,7 @@
 			]
 		},
 		{
-			"name": "Conjure Celestial",
+			"name": "Conjure Celestial (Kutsal Çağır)",
 			"level": 7,
 			"school": "C",
 			"time": [
@@ -4704,15 +4704,15 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You summon a celestial of challenge rating 4 or lower, which appears in an unoccupied space that you can see within range. The celestial disappears when it drops to 0 hit points or when the spell ends.",
-				"The celestial is friendly to you and your companions for the duration. Roll initiative for the celestial, which has its own turns. It obeys any verbal commands that you issue to it (no eylem required by you), as long as they don't violate its alignment. If you don't issue any commands to the celestial, it defends itself from hostile creatures but otherwise takes no actions The DM has the celestial's statistics."
+				"CR 4 ya da altında bir kutsal varlık çağırırsın, menzilinde görebildiğin boş bir alanda belirir. Kutsal varlık 0 HP'ye düştüğünde ya da büyü bittiğinde ortadan kaybolur.",
+				"Süre boyunca kutsal sana ve yoldaşlarına dosttur. Kendi sırası olan kutsal için ayrı öncelik zarı atarsın. Yönelimine ters olmadığı sürece ona verdiğin sesli komutları uygular (senin tarafından bir eylem gerektirmez). Eğer kutsala komut vermezsen, kendini düşman varlıklardan korur ama bunun dışında eylem gerçekleştirmez, kutsalın istatistiklerine DM sahiptir."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a 9th-level spell slot, you summon a celestial of challenge rating 5 or lower."
+						"Bu büyüyü 9. seviye bir büyü yuvası harcayarak kullandığında, CR 5 ve altında bir kutsal çağırabilirsin."
 					]
 				}
 			],
@@ -6601,7 +6601,7 @@
 			"page": 230
 		},
 		{
-			"name": "Delayed Blast Fireball",
+			"name": "Delayed Blast Fireball (Gecikmeli Patlamalı Alevtopu)",
 			"level": 7,
 			"school": "V",
 			"time": [
@@ -6620,7 +6620,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a tine ball of bat guano and sulfur"
+				"m": "ufak bir yarasa guanosu ve kükürt topu"
 			},
 			"duration": [
 				{
@@ -6646,17 +6646,17 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"A beam of yellow light flashes from your pointing finger, then condenses to linger at a chosen point within range as a glowing bead for the duration. When the spell ends, either because your concentration is broken or because you decide to end it, the bead blossoms with a low roar into an explosion of flame that spreads around corners. Each creature in a 20-foot-radius sphere centered on that point must make a Dexterity saving throw. A creature takes ateş damage equal to the total accumulated damage on a failed save, or half as much damage on a successful one.",
-				"The spell's base damage is {@dice 12d6}. If at the end of your turn the bead has not yet detonated, the damage increases by {@dice 1d6}.",
-				"If the glowing bead is touched before the interval has expired, the creature touching it must make a Dexterity saving throw. On a failed save, the spell ends immediately, causing the bead to erupt in flame. On a successful save, the creature can throw the bead up to 40 feet. When it strikes a creature or a solid object, the spell ends, and the bead explodes.",
-				"The ateş damages objects in the area and ignites flammable objects that aren't being worn or carried."
+				"İşaret eden parmağından bir sarı ışın çıkar ve menzilinde seçeceğin bir noktada yoğunlaşır, ve süre boyunca orada parlayan bir boncuk olarak kalır. Büyü bittiğinde, bu konsantrasyonun bozulduğu için de olabilir sen bitirmek istediğin için de, bu boncuk hafif bir gürleme ile köşelerin ardına geçen bir alev patlamasına dönüşür. O noktada 20 fit yarıçaplı küre içerisindeki her varlık Çeviklik kurtulma zarı atar. Başarısız bir varlık toplam biriken hasar kadar ateş hasarı alır, başarılı olursa bunun yarısını.",
+				"Büyünün taban hasarı {@dice 12d6}'dır. Eğer sıranın sonunda boncuk hala patlamadıysa, hasar {@dice 1d6} artar.",
+				"Eğer süre bitmeden parlayan boncuğa dokunulursa, dokunan varlık Çeviklik kurtulma zarı atar. Başarısız olursa büyü anında sonlanır ve boncuk patlar. Başarılı olursa, varlık boncuğu 40 fite kadar fırlatabilir. Bir varlık ya da sert cisime çarparsa büyü sonlanır ve boncuk patlar.",
+				"Bu ateş alandaki nesnelere hasar verir ve taşınmayan ve giyilmeyen yanıcı nesneleri tutuşturur."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 8. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, the base damage increases by {@dice 1d6} for each slot level above 7th."
+						"Bu büyüyü 8. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 7. üzeri her seviye için taban hasar {@dice 1d6} artar."
 					]
 				}
 			],
@@ -7632,7 +7632,7 @@
 			]
 		},
 		{
-			"name": "Divine Word",
+			"name": "Divine Word (Kutsal Söz)",
 			"level": 7,
 			"school": "V",
 			"time": [
@@ -7666,17 +7666,17 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You utter a divine word, imbued with the power that shaped the world at the dawn of creation. Choose any number of creatures you can see within range. Each creature that can hear you must make a Charisma saving throw. On a failed save, a creature suffers an effect based on its current hit points.",
+				"Yaratılışın şafağından beri dünyaya şekil veren güçlerle dolu bir kutsal söz söylersin. Menzilinde görebildiğin istediğin kadar varlığı seç. Seni duyabilen her varlık Karizma kurtulma zarı atar. Bir varlık başarısız olursa, o anki HP'sine bağlı olarak bir etki görür.",
 				{
 					"type": "list",
 					"items": [
-						"50 hit points or fewer: {@condition deafened} for 1 dakika",
-						"40 hit points or fewer: {@condition deafened} and {@condition blinded} for 10 dakika",
-						"30 hit points or fewer: {@condition blinded}, {@condition deafened}, and {@condition stunned} for 1 saat",
-						"20 hit points or fewer: killed instantly"
+						"50 HP veya daha az: 1 dakikalığına {@condition sağırlık}",
+						"40 HP veya daha az: 10 dakikalığına {@condition sağırlık} ve {@condition körlük}",
+						"30 HP veya daha az: 1 saatliğine {@condition körlük}, {@condition sağırlık}, ve {@condition sersemleme}",
+						"20 HP veya daha az: anında ölüm"
 					]
 				},
-				"Regardless of its current hit points, a celestial, an elemental, a fey, or a fiend that fails its save is forced back to its plane of origin (if it isn't there already) and can't return to your current plane for 24 saat by any means short of a wish spell."
+				"O anlık HP'sine bakmaksızın, bir kutsal, bir elemental, bir fey, ya da bir zebani eğer kurtulma zarında başarısız olursa asıl boyutuna (eğer zaten orada değilse) döner, ve bu boyuta wish (dilek) büyüsü yardımı olmadan 24 saat boyunca hiçbir şekilde dönemez."
 			],
 			"page": 234,
 			"savingThrow": [
@@ -8692,7 +8692,7 @@
 			]
 		},
 		{
-			"name": "Etherealness",
+			"name": "Etherealness (Ruhanilik)",
 			"level": 7,
 			"school": "T",
 			"time": [
@@ -8747,18 +8747,18 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You step into the border regions of the Ethereal Plane, in the area where it overlaps with your current plane. You remain in the Border Ethereal for the duration or until you use your eylem to dismiss the spell. During this time, you can move in any direction. If you move up or down, every foot of movement costs an extra foot. You can see and hear the plane you originated from, but everything there looks gray, and you can't see anything more than 60 feet away.",
-				"While on the Ethereal Plane, you can only affect and be affected by other creatures on that plane. Creatures that aren't on the Ethereal Plane can't perceive you and can't interact with you, unless a special ability or magic has given them the ability to do so.",
-				"You ignore all objects and effects that aren't on the Ethereal Plane, allowing you to move through objects you perceive on the plane you originated from.",
-				"When the spell ends, you immediately return to the plane you originated from in the spot you currently occupy. If you occupy the same spot as a solid object or creature when this happens, you are immediately shunted to the nearest unoccupied space that you can occupy and take güç damage equal to twice the number of feet you are moved.",
-				"This spell has no effect if you cast it while you are on the Ethereal Plane or a plane that doesn't border it, such as one of the Outer Planes."
+				"Ethereal Boyutun sınır kesimlerine girersin, senin o anki boyutun ile örtüştüğü alanlara. Sınır Ethereal'da süre boyunca ya da eylemini kullanıp büyüyü bitirene dek kalırsın. Bu süreçte istediğin yöne gidebilirsin. Eğer aşağı veya yukarı gidersen her 1 fitlik mesafe fazladan bir fit hareket harcatır. Geldiğin boyutu görüp duyabilirsin, ama oradaki herşey gri görünür ve 60 fit ötesinde hiçbir şey görünmez.",
+				"Ethereal Boyutta iken, sadece o boyutta olan varlıkları etkileyebilir ve onlar tarafından etkilenebilirsin. Ethereal Boyutta olmayan varlıklar, eğer özel bir yetenek ya da büyü onlara bu özelliği vermediyse, seni algılayamaz ve seninle iletişime geçemez.",
+				"Ethereal Boyutta olmayan tüm nesneleri ve etkileri yoksayarsın, geldiğin boyutta görebildiğin nesnelerin içinden geçmeni sağlar.",
+				"Büyü bittiğinde, o anda içinde bulunduğun noktada geldiğin boyuta dönersin. Eğer bu olduğunda bir katı nesne ya da varlığın alanındaysan, anında en yakın boş alana atılırsın ve taşındındığın fitin 2 katı kadar güç hasarı alırsın.",
+				"Eğer bu büyüyü zaten Ethereal Boyutta ya da Dış Boyutlar gibi ona sınırı olmayan boyutlarda kullanırsan büyü hiçbir etki göstermez."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"Bu büyüyü 8. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, you can target up to three willing creatures (including you) for each slot level above 7th. The creatures must be within 10 feet of you when you cast the spell."
+						"Bu büyüyü 8. seviye ve üzeri bir büyü yuvası harcayarak kullandığında, 7. üzeri her seviye için 3 taneye kadar istekli varlığı (sen dahil) hedef alabilirsin. Varlıklar sen büyüyü yaptığında 10 fit yakınında olmalılar."
 					]
 				}
 			],
@@ -9665,7 +9665,7 @@
 			"page": 240
 		},
 		{
-			"name": "Finger of Death",
+			"name": "Finger of Death (Ölüm Parmağı)",
 			"level": 7,
 			"school": "N",
 			"time": [
@@ -9708,8 +9708,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You send negative energy coursing through a creature that you can see within range, causing it searing pain. The target must make a Constitution saving throw. It takes {@dice 7d8+30} nekrotik damage on a failed save, or half as much damage on a successful one.",
-				"A humanoid killed by this spell rises at the start of your next turn as a zombie that is permanently under your command, following your verbal orders to the best of its ability."
+				"Menzilinde görebildiğin bir varlığın bedeninden negatif enerji geçirip ona kavurucu acılar çektirirsin. Varlık Dayanıklılık kurtulma zarı atar. Başarısız olursa {@dice 7d8+30} nekrotik hasar alır, başarılı olursa bunun yarısını.",
+				"Bu büyü tarafından öldürülen bir insansı, bir sonraki sıranın başında kalıcı olarak senin kontrolünde kalacak bir zombi olarak dirilir, ve senin sözlü komutlarına elinden geldiğince uyar."
 			],
 			"page": 241,
 			"damageInflict": [
@@ -9834,7 +9834,7 @@
 			]
 		},
 		{
-			"name": "Fire Storm",
+			"name": "Fire Storm (Alev Fırtınası)",
 			"level": 7,
 			"school": "V",
 			"time": [
@@ -9877,8 +9877,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"A storm made up of sheets of roaring flame appears in a location you choose within range. The area of the storm consists of up to ten 10-foot cubes, which you can arrange as you wish. Each cube must have at least one face adjacent to the face of another cube. Each creature in the area must make Dexterity saving throw. It takes {@dice 7d10} ateş damage on a failed save, or half as much damage on a successful one.",
-				"The ateş damages objects in the area and ignites flammable objects that aren't being worn or carried. If you choose, plant life in the area is unaffected by this spell."
+				"Menzilinde seçeceğin bir yerde gürleyen alev tabakalarından oluşan bir fırtına yaratırsın. Fırtına alanı 10 taneye kadar 10 fitlik küpten oluşur, ve bunları istediğin gibi sıralayabilirsin. Her küp en az bir yüz ile başka bir kübe bağlanmalıdır. Alandaki her varlık Çeviklik kurtulma zarı atar. Başarısız olursa {@dice 7d10} ateş hasarı alır, başarılı olursa bunun yarısını.",
+				"Ateş alandaki nesnelere hasar verir ve taşınmayan ve giyilmeyen nesneleri tutuşturur. Eğer istersen, alandaki bitki örtüsü bu büyüden etkilenmez."
 			],
 			"page": 242,
 			"damageInflict": [
@@ -10482,7 +10482,7 @@
 			]
 		},
 		{
-			"name": "Forcecage",
+			"name": "Forcecage (Güç Kafesi)",
 			"level": 7,
 			"school": "V",
 			"time": [
@@ -10502,7 +10502,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "ruby dust worth 1,500 gp",
+					"text": "1500 gp değerinde yakut tozu",
 					"cost": 1500
 				}
 			},
@@ -10533,12 +10533,12 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"An immobile, invisible, cube-shaped prison composed of magical güç springs into existence around an area you choose within range. The prison can be a cage or a solid box as you choose.",
-				"A prison in the shape of a cage can be up to 20 feet on a side and is made from 1/2-inch diameter bars spaced 1/2 inch apart.",
-				"A prison in the shape of a box can be up to 10 feet on a side, creating a solid barrier that prevents any matter from passing through it and blocking any spells cast into or out of the area.",
-				"When you cast the spell, any creature that is completely inside the cage's area is trapped. Creatures only partially within the area, or those too large to fit inside the area, are pushed away from the center of the area until they are completely outside the area.",
-				"A creature inside the cage can't leave it by nonmagical means. If the creature tries to use teleportation or interplanar travel to leave the cage, it must first make a Charisma saving throw. On a success, the creature can use that magic to exit the cage. On a failure, the creature can't exit the cage and wastes the use of the spell or effect. The cage also extends into the Ethereal Plane, blocking ethereal travel.",
-				"This spell can't be dispelled by dispel magic."
+				"Menzilinde seçeceğin bir alanın çevresinde hareketsiz, görünmez, büyülü güçten oluşan küp şeklinde bir hapis oluşur. Bu hapis seçimine bağlı olarak kafes ya da kapalı kutu olabilir.",
+				"Kafes şeklindeki bir hapsin bir yüzü 20 fite kadar çıkabilir ve yarım inç aralıklarla yerleşmiş yarım inç çaplı parmaklıklar ile çevrilidir.",
+				"Kutu şeklindeki bir hapsin bir yüzü 10 fite kadar çıkabilir ve buraya tüm maddelerin giriş çıkışını, ve bu alana ya da alandan dışarıya büyü yapılmasını engeller.",
+				"Büyüyü yaptığında tümüyle alanda kalan bir varlık hapsolur. Kısmi olarak alanda olan, ya da alana sığamayacak kadar büyük boyda olan varlıklar, tamamen dışında kalana kadar alanın merkezinden öteye doğru itilir.",
+				"Kafesin içindeki bir varlık büyülü yollar dışında burayı terkedemez. Eğer varlık kafesten çıkmak için ışınlanma veya boyutlararası seyahat denerse, ilk önce Karizma kurtulma zarı atar. Başarılı olursa, varlık bu büyüyü kullanıp kafesi terkedebilir. Başarısız olursa, varlık kafesi terkedemez ve o büyünün ya da etkinin kullanımı boşa gider. Kafes Ethereal Boyuta da ulaşır ve buradan seyahati engeller.",
+				"Bu büyü dispel magic (büyü defet) ile defedilemez."
 			],
 			"page": 243,
 			"savingThrow": [
@@ -16170,7 +16170,7 @@
 			]
 		},
 		{
-			"name": "Mirage Arcane",
+			"name": "Mirage Arcane (Arcane Serap)",
 			"level": 7,
 			"school": "I",
 			"time": [
@@ -16216,10 +16216,10 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You make terrain in an area up to 1 mile square look, sound, smell, and even feel like some other sort of terrain. The terrain's general shape remains the same, however. Open fields or a road could be made to resemble a swamp, hill, crevasse, or some other difficult or impassable terrain. A pond can be made to seem like a grassy meadow, a precipice like a gentle slope, or a rock-strewn gully like a wide and smooth road.",
-				"Similarly, you can alter the appearance of structures, or add them where none are present. The spell doesn't disguise, conceal, or add creatures.",
-				"The illusion includes audible, visual, tactile, and olfactory elements, so it can turn clear ground into difficult terrain (or vice versa) or otherwise impede movement through the area. Any piece of the illusory terrain (such as a rock or stick) that is removed from the spell's area disappears immediately.",
-				"Creatures with truesight can see through the illusion to the terrain's true form, however, all other elements of the illusion remain, so while the creature is aware of the illusion's presence, the creature can still physically interact with the illusion."
+				"1 mil kare alandaki arazinin, başka bir arazi gibi görünmesi, duyulması, kokması ve hissettirmesini sağlarsın. Buna rağmen arazinin genel şekli aynı kalır. Açık çayırlar veya bir yol sanki, bataklık, tepe, uçurum ya da başka geçmesi zorlu ya da imkansız bir arazi gibi gösterilebilir. Bir gölet çim dolu bir çayır, bir sarp kayalık hafif bir eğim, ya da kayalık bir vadi geniş ve düz bir yol gibi gösterilebilir.",
+				"Benzer olarak, yapıların görüntülerini değiştirebilir ve onları olmayan yerlere ekleyebilirsin. Büyü varlıkları değiştirmez, gizlemez ya da eklemez.",
+				"İllüzyon görsel, işitsel, dokunsal ve kokusal unsurlar içerir, bu yüzden temiz araziyi zorlu araziye (ya da tam tersi) çevirebilir veya başka şekilde alanda hareketi zorlaştırabilir. Hayali arazinin bir parçası (taş ya da sopa gibi) büyünün alanından çıkartıldığı anda kaybolur.",
+				"Saf görüş sahibi varlıklar illüzyonun ardını ve arazinin gerçek halini görürler, ama tüm diğer unsurlar aynı kalır. Yani varlık bunun bir illüzyon olduğunun farkında olsa da hala onunla fiziksel etkileşime girebilir."
 			],
 			"page": 260
 		},
@@ -16652,7 +16652,7 @@
 			]
 		},
 		{
-			"name": "Mordenkainen's Magnificent Mansion",
+			"name": "Mordenkainen's Magnificent Mansion (Mordenkainen'ın Muhteşem Konağı)",
 			"level": 7,
 			"school": "C",
 			"time": [
@@ -16672,7 +16672,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a miniature portal carved from ivory, a small piece of polished marble, and a tiny silver spoon, each item worth at least 5 gp",
+					"text": "her biri en az 5 gp değerinde, fildişinden oyulmuş bir minyatür portal, küçük bir parça parlatılmış mermer, ve minik bir gümüş kaşık",
 					"cost": 5
 				}
 			},
@@ -16699,9 +16699,9 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You conjure an extradimensional dwelling in range that lasts for the duration. You choose where its one entrance is located. The entrance shimmers faintly and is 5 feet wide and 10 feet tall. You and any creature you designate when you cast the spell can enter the extradimensional dwelling as long as the portal remains open. You can open or close the portal if you are within 30 feet of it. While closed, the portal is invisible.",
-				"Beyond the portal is a magnificent foyer with numerous chambers beyond. The atmosphere is clean, fresh, and warm.",
-				"You can create any floor plan you like, but the space can't exceed 50 cubes, each cube being 10 feet on each side. The place is furnished and decorated as you choose. It contains sufficient food to serve a nine course banquet for up to 100 people. A staff of 100 near-transparent servants attends all who enter. You decide the visual appearance of these servants and their attire. They are completely obedient to your orders. Each servant can perform any task a normal human servant could perform, but they can't attack or take any eylem that would directly harm another creature. Thus the servants can fetch things, clean, mend, fold clothes, light fires, serve food, pour wine, and so on. The servants can go anywhere in the mansion but can't leave it. Furnishings and other objects created by this spell dissipate into smoke if removed from the mansion. When the spell ends, any creatures inside the extradimensional space are expelled into the open spaces nearest to the entrance."
+				"Menzilinde süre boyunca kalacak boyutdışı bir konut yaratırsın. Tek girişinin nerede olduğunu seçersin. Giriş hafifçe parlar, 5 fit genişliktedir ve 10 fit yüksekliktedir. Sen ve büyüyü yaparken belirlediğin tüm varlıklar bu portal açık kaldığı sürece boyutdışı konutuna girebilirler. Eğer portalın 30 fit yakınında isen onu açıp kapayabilirsin. Kapalıyken portal görünmezdir.",
+				"Portalın ardında ihtişamlı bir giriş salonu ve ötesinde birçok oda vardır. Atmosfer temiz ve ılıktır.",
+				"İstediğin planı yaratabilirsin ama alan 50 kübü geçemez, her küp 10 fitliktir. Konak istediğin gibi dekore edilmiş ve döşenmiştir. 100 kişiye kadar 9 tabaklık bir şölen servis edebilecek yiyeceğe sahiptir. Girenlerle 100 tane neredeyse görünmez hizmetçi ilgilenir. Bu hizmetçilerin görüntüsü ve üniformalarını sen belirlersin. Senin emirlerine tamamıyla uyarlar. Her hizmetçi normal insan bir hizmetçinin yapabileceği işleri yapabilir, ama saldıramazlar ve doğrudan başka bir varlığa hasar verecek eylemler gerçekleştiremezler. Yani hizmetçiler sana bir şeyler getirebilir, temizler, yamar, kıyafet katlar, ateş yakar, yemek servis eder, şarap doldurur, ve benzeri. Hizmetçiler konakta her yere gidebilir ama onu terkedemezler. Bu büyü tarafından yaratılan döşemeler ve diğer nesneler eğer konaktan çıkarılırsa duman olup kaybolurlar. Büyü bittiğinde, hala bu boyutdışı alanda bulunan varlıklar girişin yakınındaki boş alanlara atılırlar."
 			],
 			"page": 261
 		},
@@ -16773,7 +16773,7 @@
 			"page": 262
 		},
 		{
-			"name": "Mordenkainen's Sword",
+			"name": "Mordenkainen's Sword (Mordenkainen'ın Kılıcı)",
 			"level": 7,
 			"school": "V",
 			"time": [
@@ -16793,7 +16793,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a miniature platinum sword with a grip and pommel of copper and zinc, worth 250 gp",
+					"text": "250 gp değerinde, çinko ve bakırdan kabzalı minyatür bir platin kılıç",
 					"cost": 250
 				}
 			},
@@ -16821,8 +16821,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You create a sword-shaped plane of güç that hovers within range. It lasts for the duration.",
-				"When the sword appears, you make a melee spell attack against a target of your choice within 5 feet of the sword. On a hit. the target takes {@dice 3d10} güç damage. Until the spell ends, you can use a bonus eylem on each of your turns to move the sword up to 20 feet to a spot you can see and repeat this attack against the same target or a different one."
+				"Menzilinde havada süzülen kılıç şekilli bir güç yaratırsın. Süre boyunca kalır.",
+				"Kılıç belirdiğinde, onun 5 fit yakınındaki seçeceğin bir hedefe karşı yakın dövüş büyü saldırısı yaparsın. Vurursa, hedef {@dice 3d10} güç hasarı alır. Büyü bitene dek, her sıranda bonus eylem kullanarak kılıcı görebildiğin bir noktaya 20 fite kadar hareket ettirip, aynı ya da farklı bir hedefe bu saldırıyı tekrarlayabilirsin."
 			],
 			"page": 262,
 			"damageInflict": [
@@ -17701,7 +17701,7 @@
 			]
 		},
 		{
-			"name": "Plane Shift",
+			"name": "Plane Shift (Boyut Değiştir)",
 			"level": 7,
 			"school": "C",
 			"time": [
@@ -17720,7 +17720,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a forked, metal rod worth at least 250 gp, attuned to a particular plane of existence",
+					"text": "en az 250 gp değerinde belirli bir boyuta uydurulmuş çatallı metal bir çubuk",
 					"cost": 250
 				}
 			},
@@ -17755,9 +17755,9 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You and up to eight willing creatures who link hands in a circle are transported to a different plane of existence. You can specify a target destination in general terms, such as the City of Brass on the Elemental Plane of Fire or the palace of Dispater on the second level of the Nine Hells, and you appear in or near that destination. If you are trying to reach the City of Brass, for example, you might arrive in its Street of Steel, before its Gate of Ashes, or looking at the city from across the Sea of Fire, at the DM's discretion.",
-				"Alternatively, if you know the sigil sequence of a teleportation circle on another plane of existence, this spell can take you to that circle. If the teleportation circle is too small to hold all the creatures you transported, they appear in the closest unoccupied spaces next to the circle.",
-				"You can use this spell to banish an unwilling creature to another plane. Choose a creature within your reach and make a melee spell attack against it. On a hit, the creature must make a Charisma saving throw. If the creature fails the save, it is transported to a random location on the plane of existence you specify. A creature so transported must find its own way back to your current plane of existence."
+				"Sen ve 8'e kadar istekli varlık bir çemberde ellerinizi birleştirip farklı bir boyuta geçersiniz. Hedef varış noktasını genel olarak tanımlayabilirsin, Ateş Elemental Boyutunda Brass Şehri ya da Dokuz Cehennemin ikinci katında Dispater'in sarayı gibi, ve o varış noktasında ya da yakınında belirirsin. Örneğin, Brass Şehrine gitmeye çalışıyorsan, Çelik Sokağına, Küller Kapısı önüne, ya da şehre Ateş Denizinin ötesinden bakan bir yere varabilirsin, bu DM'e kalmıştır.",
+				"Alternatif olarak, eğer başka bir boyuttaki bir ışınlanma çemberinin mühür sıralamasını biliyorsan, bu büyü seni o çembere götürebilir. Eğer ışınlanma çemberi yanında götürdüğün tüm varlıkların sığmayacağı kadar küçükse, çembere en yakın boş alanlarda belirirler.",
+				"Bu büyüyü kullanarak isteksiz bir varlığı başka bir boyuta kovabilirsin. Menzilinde bir varlık seç ve ona karşı yakın dövüş büyü saldırısı yap. Vurursa, varlık Karizma kurtulma zarı atar. Eğer varlık kurtulma zarında başarısız olursa, belirlediğin boyutta rastgele bir noktaya taşınır. Bu şekilde taşınan bir varlık eski boyutuna dönmek için kendi bir yol bulmalıdır."
 			],
 			"page": 266,
 			"savingThrow": [
@@ -18262,7 +18262,7 @@
 			"page": 267
 		},
 		{
-			"name": "Prismatic Spray",
+			"name": "Prismatic Spray (Prizmatik Sprey)",
 			"level": 7,
 			"school": "V",
 			"time": [
@@ -18301,61 +18301,61 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Eight multicolored rays of light flash from your hand. Each ray is a different color and has a different power and purpose. Each creature in a 60-foot cone must make a Dexterity saving throw. For each target, roll a {@dice d8} to determine which color ray affects it.",
+				"Elinden 8 tane renkli ışın çıkar. Her ışın farklı bir renktir, farklı bir güce ve amaca sahiptir. 60 fitlik bir konideki tüm varlıklar Çeviklik kurtulma zarı atar. Her hedef için, bir {@dice d8} atıp hangi renk ışının çarptığını belirlersin.",
 				{
 					"type": "entries",
-					"name": "1-Red",
+					"name": "1-Kırmızı",
 					"entries": [
-						"The target takes {@dice 10d6} ateş damage on a failed save, or half as much damage on a successful one."
+						"Hedef başarısız olursa {@dice 10d6} ateş hasarı alır, başarılı olursa bunun yarısını."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "2-Orange",
+					"name": "2-Turuncu",
 					"entries": [
-						"The target takes {@dice 10d6} asit damage on a failed save, or half as much damage on a successful one."
+						"Hedef başarısız olursa {@dice 10d6} asit hasarı alır, başarılı olursa bunun yarısını."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "3-Yellow",
+					"name": "3-Sarı",
 					"entries": [
-						"The target takes {@dice 10d6} yıldırım damage on a failed save, or half as much damage on a successful one."
+						"Hedef başarısız olursa {@dice 10d6} yıldırım hasarı alır, başarılı olursa bunun yarısını."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "4-Green",
+					"name": "4-Yeşil",
 					"entries": [
-						"The target takes {@dice 10d6} zehir damage on a failed save, or half as much damage on a successful one."
+						"Hedef başarısız olursa {@dice 10d6} zehir hasarı alır, başarılı olursa bunun yarısını."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "5-Blue",
+					"name": "5-Mavi",
 					"entries": [
-						"The target takes {@dice 10d6} soğuk damage on a failed save, or half as much damage on a successful one."
+						"Hedef başarısız olursa {@dice 10d6} soğuk hasarı alır, başarılı olursa bunun yarısını."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "6-Indigo",
+					"name": "6-Çivit Mavisi",
 					"entries": [
-						"On a failed save, the target is {@condition restrained}. It must then make a Constitution saving throw at the end of each of its turns. If it successfully saves three times, the spell ends. If it fails its save three times, it permanently turns to stone and is subjected to the {@condition petrified} condition. The successes and failures don't need to be consecutive, keep track of both until the target collects three of a kind."
+						"Başarısız olursa, hedef {@condition kısıtlanma} durumunda olur. Sonrasında her sırasının sonunda bir Dayanıklılık kurtulma zarı atar. Eğer 3 kere başarılı olursa büyü sonlanır. Eğer 3 kere başarısız olursa kalıcı bir şekilde taşa döner ve {@condition taşa dönme} durumunda olur. Başarılar ve başarısızlıklar art arda olmak zorunda değildir, biri 3 taneye ulaşana kadar takip edersin."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "7-Violet",
+					"name": "7-Mor",
 					"entries": [
-						"On a failed save, the target is {@condition blinded}. It must then make a Wisdom saving throw at the start of your next turn. A successful save ends the blindness. If it fails that save, the creature is transported to another plane of existence of the DM's choosing and is no longer {@condition blinded}. (Typically, a creature that is on a plane that isn't its home plane is banished home, while other creatures are usually cast into the Astral or Ethereal planes.)"
+						"Başarısız olursa, hedef {@condition körlük} durumunda olur. Bir sonraki sıranın başında Akıl kurtulma zarı atar. Başarılı olursa körlük biter. Eğer bu zarda başarısız olursa, varlık DM'in seçeceği başka bir boyuta taşınır ve artık {@condition körlük} durumunda değildir. (Genellikle, kendi boyutunda olmayan bir varlık asıl boyutuna kovulur, diğer varlıklar ise Astral ya da Ethereal boyutlara atılır.)"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "8-Special",
+					"name": "8-Özel",
 					"entries": [
-						"The target is struck by two rays. Roll twice more, rerolling any 8."
+						"Hedef iki ışın tarafından vurulur. İki kere daha at ve 8 gelirse bu zarı tekrar at."
 					]
 				}
 			],
@@ -18588,7 +18588,7 @@
 			]
 		},
 		{
-			"name": "Project Image",
+			"name": "Project Image (Görüntü Yansıt)",
 			"level": 7,
 			"school": "I",
 			"time": [
@@ -18608,7 +18608,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a small replica of you made from materials worth at least 5 gp",
+					"text": "en az 5 gp değerinde materyalden yapılmış senin küçük bir kopyan",
 					"cost": 5
 				}
 			},
@@ -18637,10 +18637,10 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You create an illusory copy of yourself that lasts for the duration. The copy can appear at any location within range that you have seen before, regardless of intervening obstacles. The illusion looks and sounds like you but is intangible. If the illusion takes any damage, it disappears, and the spell ends.",
-				"You can use your eylem to move this illusion up to twice your speed, and make it gesture, speak, and behave in whatever way you choose. It mimics your mannerisms perfectly.",
-				"You can see through its eyes and hear through its ears as if you were in its space. On your turn as a bonus eylem, you can switch from using its senses to using your own, or back again. While you are using its senses, you are {@condition blinded} and {@condition deafened} in regard to your own surroundings.",
-				"Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses its eylem to examine the image can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and any noise it makes sounds hollow to the creature."
+				"Süre boyunca kalacak kendi illüzyon kopyanı yaratırsın. Bu kopya menzilinde daha önce görmüş olduğun herhangi bir yerde belirebilir, aradaki engellere bakmaksınız. İllüzyon görüntü ve ses açısından senle aynıdır ama cismi yoktur. Eğer illüzyon hasar alırsa, ortadan kaybolur ve büyü biter.",
+				"Eylemini kullanarak bu illüzyonu hızının iki katına kadar hareket ettirebilir, istediğin jestlerle ve konuşmayla davrandırabilirsin. Senin tavırlarını kusursuz bir şekilde taklit eder.",
+				"Sanki onun yerindeymişçesine gözlerinden görüp kulaklarından duyabilirsin. Sıranda bonus eylem olarak, onun duyularından kendi duyularına, veya tam tersine geçiş yapabilirsin. Onun duyularını kullanırken, kendi çevrene karşı {@condition körlük} ve {@condition sağırlık} durumundasındır.",
+				"Görüntü ile fiziksel etkileşim bunun illüzyon olduğunu belli eder, çünkü nesneler içinden geçer. Bir varlık eylem olarak senin büyü kurtulma DC'ne karşı atacağı Zeka (İnceleme) zarı ile bunun illüzyon olduğunu anlayabilir. Eğer bir varlık illüzyonu farkederse, görüntü saydamlaşır ve çıkardığı ses boş gelmeye başlar."
 			],
 			"page": 270,
 			"opposedCheck": [
@@ -19304,7 +19304,7 @@
 			]
 		},
 		{
-			"name": "Regenerate",
+			"name": "Regenerate (Yeniden Oluştur)",
 			"level": 7,
 			"school": "T",
 			"time": [
@@ -19322,7 +19322,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a prayer wheel and holy water"
+				"m": "bir dua çarkı ve kutsal su"
 			},
 			"duration": [
 				{
@@ -19351,8 +19351,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You touch a creature and stimulate its natural healing ability. The target regains {@dice 4d8+15} hit points. For the duration of the spell, the target regains 1 hit point at the start of each of its turns (10 hit points each dakika).",
-				"The target's severed body members (fingers, legs, tails, and so on), if any, are restored after 2 dakika. If you have the severed part and hold it to the stump, the spell instantaneously causes the limb to knit to the stump."
+				"Bir varlığa dokunup onun doğal iyileşme gücünü harekete geçirirsin. Hedef {@dice 4d8+15} HP yeniler. Büyü süresince, hedef her sırasının başında 1 HP yeniler (dakikada 10 HP).",
+				"Eğer hedefin eksik uzvu varsa (parmak, bacak, kuyruk, vb.), 2 dakika sonunda yeniden oluşur. Eğer kopmuş bir kısım varsa ve bunu yerine tutarsan, büyü uzvu anında yerine bağlar."
 			],
 			"page": 271
 		},
@@ -19660,7 +19660,7 @@
 			"page": 272
 		},
 		{
-			"name": "Resurrection",
+			"name": "Resurrection (Diriliş)",
 			"level": 7,
 			"school": "N",
 			"time": [
@@ -19679,7 +19679,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a diamond worth at least 1,000 gp, which the spell consumes",
+					"text": "en az 1000 gp değerinde bir elmas, büyü bunu tüketir",
 					"cost": 1000,
 					"consume": true
 				}
@@ -19703,16 +19703,16 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You touch a dead creature that has been dead for no more than a century, that didn't die of old age, and that isn't undead. If its soul is free and willing, the target returns to life with all its hit points.",
-				"This spell neutralizes any poisons and cures normal diseases afflicting the creature when it died. It doesn't, however, remove magical diseases, curses, and the like, if such affects aren't removed prior to casting the spell, they afflict the target on its return to life.",
-				"This spell closes all mortal wounds and restores any missing body parts.",
-				"Coming back from the dead is an ordeal. The target takes a -4 penalty to all attack rolls, saving throws, and ability checks. Every time the target finishes a long rest, the penalty is reduced by 1 until it disappears.",
-				"Casting this spell to restore life to a creature that has been dead for one year or longer taxes you greatly. Until you finish a long rest, you can't cast spells again, and you have disadvantage on all attack rolls, ability checks, and saving throws."
+				"Bir asırdan fazla bir süredir ölü olmayan, yaşlılıktan ölmemiş ve yaşayan ölü olmayan, bir ölü varlığa dokunursun. Eğer ruhu özgür ve istekliyse, hedef tüm HP'si ile hayata döner.",
+				"Bu büyü, varlığı öldüğü anda etkileyen tüm zehirleri ve normal hastalıkları etkisiz hale getirir. Buna rağmen, büyülü hastalıkları, lanetleri, ve benzeri durumları eğer diriltme öncesi kaldırılmadıysa kaldırmaz, ve bunlar varlık hayata dönünce onu etkilemeye devam eder.",
+				"Bu büyü tüm ölümcül yaraları kapar ve eksik uzuvları yerine getirir.",
+				"Ölümden dönmek zorludur. Hedef tüm saldırı, kurtulma ve yetenek zarlarına -4 ceza alır. Hedef her uzun dinlenme bitirişinde bu ceza 1 azalır ve 0 olunca ortadan kalkar.",
+				"Bu büyü ile bir yıldan fazla bir süredir ölü olan bir varlığı hayata döndürmek seni çok yorar. Uzun dinlenme bitirene dek bir daha büyü yapamazsın, ve tüm saldırı, kurtulma ve yetenek zarlarında dezavantajın olur."
 			],
 			"page": 272
 		},
 		{
-			"name": "Reverse Gravity",
+			"name": "Reverse Gravity (Yerçekimini Döndür)",
 			"level": 7,
 			"school": "T",
 			"time": [
@@ -19731,7 +19731,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a lodestone and iron filings"
+				"m": "bir mıknatıs ve demir tozu"
 			},
 			"duration": [
 				{
@@ -19761,9 +19761,9 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"This spell reverses gravity in a 50-foot-radius, 100-foot high cylinder centered on a point within range. All creatures and objects that aren't somehow anchored to the ground in the area fall upward and reach the top of the area when you cast this spell. A creature can make a Dexterity saving throw to grab onto a fixed object it can reach, thus avoiding the fall.",
-				"If some solid object (such as a ceiling) is encountered in this fall, falling objects and creatures strike it just as they would during a normal downward fall. If an object or creature reaches the top of the area without striking anything, it remains there, oscillating slightly, for the duration.",
-				"At the end of the duration, affected objects and creatures fall back down."
+				"Bu büyü menzilinde 50 fit yarıçaplı 100 fit yükseklikte bir silindirin içerisinde yerçekimini tersine çevirir. Büyüyü yaptığında bu alanda bulunan ve bir şekilde yere sabitlenmemiş tüm varlık ve nesneler yukarı doğru düşmeye başlar ve tepeye ulaşırlar. Bir varlık Çeviklik kurtulma zarı atıp yakınındaki sabit bir nesneye tutunarak düşmeyi engelleyebilir.",
+				"Eğer bu düşüşte tavan gibi sert bir cisimle karşılaşılırsa, düşen nesne ve varlıklar ona normal bir düşüşteki ile aynı şekilde çarparlar. Eğer bir nesne veya varlık alanın tepesine hiçbir şeye çarpmadan varırsa, süre boyunca hafif dalgalanarak orada kalır.",
+				"Süre sonunda, etkilenen nesne ve varlıklar yeniden düşer."
 			],
 			"page": 272,
 			"savingThrow": [
@@ -20553,7 +20553,7 @@
 			"page": 274
 		},
 		{
-			"name": "Sequester",
+			"name": "Sequester (İnziva)",
 			"level": 7,
 			"school": "T",
 			"time": [
@@ -20572,7 +20572,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a powder composed of diamond, emerald, ruby, and sapphire dust worth at least 5,000 gp, which the spell consumes",
+					"text": "en az 5000 gp değerinde elmas, yakut, zümrüt ve safir tozlarından oluşan bir karışım, büyü bunu tüketir",
 					"cost": 5000,
 					"consume": true
 				}
@@ -20595,9 +20595,9 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"By means of this spell, a willing creature or an object can be hidden away, safe from detection for the duration. When you cast the spell and touch the target, it becomes {@condition invisible} and can't be targeted by {@filter divination spells|spells|school=D} or perceived through scrying sensors created by the divination of spells.",
-				"If the target is a creature, it falls into a state of suspended animation. Time ceases to flow for it, and it doesn't grow older.",
-				"You can set a condition for the spell to end early. The condition can be anything you choose, but it must occur or be visible within 1 mile of the target. Examples include after 1,000 years or when the tarrasque awakes. This spells also ends if the target takes any damage."
+				"Bu büyü aracılığıyla, istekli bir varlık ya da bir nesne gizlenebilir, süre boyunca tespit edilemez. Büyüyü kullanıp hedefe dokunduğunda, {@condition görünmezlik} durumuna girer ve divination büyülerinin hedefi olamaz, ya da bu büyülerle yaratılan sensörler ile algılanamaz.",
+				"Eğer hedef bir varlıksa, hayatı askıya alınmış bir duruma girer. Zaman onun için akmayı bırakır ve yaşlanmaz.",
+				"Büyünün erken bitmesi için bir durum belirleyebilirsin. Bu durum istediğin her şey olabilir ama hedefin 1 mil yakınında gerçekleşmeli ya da görünmelidir. Örnek olarak, 1000 yıl geçince ya da tarrasque uyanınca denebilir. Eğer hedef hasar alırsa büyü sonlanır."
 			],
 			"page": 274
 		},
@@ -21097,7 +21097,7 @@
 			]
 		},
 		{
-			"name": "Simulacrum",
+			"name": "Simulacrum (İmge)",
 			"level": 7,
 			"school": "I",
 			"time": [
@@ -21116,7 +21116,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "snow or ice in quantities sufficient to made a life-size copy of the duplicated creature some hair, fingernail clippings, or other piece of that creature's body placed inside the snow or ice and powdered ruby worth 1,500 gp, sprinkled over the duplicate and consumed by the spell",
+					"text": "çoğaltılacak varlığın gerçek boyut kopyasına yetecek miktarda kar ya da buz, varlıktan saç, kesilmiş tırnak, ya da bedeninden başka bir parça bu kar ya da buz içerisine yerleştirilir, ve 1500 gp değerinde yakut tozu kopyanın üzerine serpilir, büyü bunları tüketir",
 					"cost": 1500,
 					"consume": true
 				}
@@ -21139,10 +21139,10 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You shape an illusory duplicate of one beast or humanoid that is within range for the entire casting time of the spell. The duplicate is a creature, partially real and formed from ice or snow, and it can take actions and otherwise be affected as a normal creature. It appears to be the same as the original, but it has half the creature's hit point maximum and is formed without any equipment. Otherwise, the illusion uses all the statistics of the creature it duplicates.",
-				"The simulacrum is friendly to you and creatures you designate. It obeys your spoken commands, moving and acting in accordance with your wishes and acting on your turn in combat. The simulacrum lacks the ability to learn or become more powerful, so it never increases its level or other abilities, nor can it regain expended spell slots.",
-				"If the simulacrum is damaged, you can repair it in an alchemical laboratory, using rare herbs and minerals worth 100 gp per hit point it regains. The simulacrum lasts until it drops to 0 hit points, at which point it reverts to snow and melts instantly.",
-				"If you cast this spell again, any currently active duplicates you created with this spell are instantly destroyed."
+				"Tüm büyü yapımı sırasında menzilinde olan bir hayvan ya da insansının aldatıcı bir kopyasını şekillendirirsin. Kopya buz ve kardan yapılma kısmen gerçek bir varlıktır, ve normal bir varlık gibi eylemler gerçekleştirebilir ve etkilenebilir. Orijinali ile aynı görünür, ama varlığın HP maksimumunun yarısına sahiptir ve ekipmanı olmadan şekillenir. Bunun dışında, illüzyon kopyası olduğu varlığın istatistiklerine sahiptir.",
+				"İmge sana ve belirlediğin varlıklara dosttur. Sesli komutlarına uyar, savaşta senin sıranda isteklerine göre hareket edip davranır. İmge öğrenme ve güçlenme yeteneğinden yoksundur, bu sebeple asla seviyesi ya da diğer yetenekleri artmaz, harcanan büyü yuvalarını da yenileyemez.",
+				"Eğer imge hasar alırsa onu bir simya laboratuarında tamir edebilirsin, yenilediği her HP için 100 gp değerinde nadir ot ve mineral harcanır. İmge 0 HP'ye düşene kadar kalır, o noktada yeniden kara dönüşür ve anında erir.",
+				"Eğer bu büyüyü yeniden yaparsan, bu büyüyle yarattığın şu anda aktif olan kopyan anında yok olur."
 			],
 			"page": 276
 		},
@@ -22651,7 +22651,7 @@
 			"page": 279
 		},
 		{
-			"name": "Symbol",
+			"name": "Symbol (Sembol)",
 			"level": 7,
 			"school": "A",
 			"time": [
@@ -22670,7 +22670,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "mercury, phosphorus, and powdered diamond and opal with a total value of at least 1,000 gp, which the spell consumes",
+					"text": "toplam değeri 1000 gp olan elmas ve opal tozu, cıva, fosfor, büyü bunları tüketir",
 					"cost": 1000,
 					"consume": true
 				}
@@ -22702,65 +22702,65 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"When you cast this spell, you inscribe a harmful glyph either on a surface (such as a section of floor, a wall, or a table) or within an object that can be closed to conceal the glyph (such as a book, a scroll, or a treasure chest). If you choose a surface, the glyph can cover an area of the surface no larger than 10 feet in diameter. If you choose an object, that object must remain in its place, if the object is moved more than 10 feet from where you cast this spell, the glyph is broken, and the spell ends without being triggered.",
-				"The glyph is nearly invisible, requiring an Intelligence (Investigation) check against your spell save DC to find it.",
-				"You decide what triggers the glyph when you cast the spell. For glyphs inscribed on a surface, the most typical triggers include touching or stepping on the glyph, removing another object covering it, approaching within a certain distance of it, or manipulating the object that holds it. For glyphs inscribed within an object, the most common triggers are opening the object, approaching within a certain distance of it, or seeing or reading the glyph.",
-				"You can further refine the trigger so the spell is activated only under certain circumstances or according to a creature's physical characteristics (such as height or weight), or physical kind (for example, the ward could be set to affect hags or shapechangers). You can also specify creatures that don't trigger the glyph, such as those who say a certain password.",
-				"When you inscribe the glyph, choose one of the options below for its effect. Once triggered, the glyph glows, filling a 60-foot-radius sphere with dim light for 10 dakika, after which time the spell ends. Each creature in the sphere when the glyph activates is targeted by its effect, as is a creature that enters the sphere for the first time on a turn or ends its turn there.",
+				"Bu büyüyü yaptığında, zararlı bir glifi seçeceğin bir alana kazırsın. Bu alan ya bir yüzeydir (bir masa ya da duvar gibi) ya da gizleyebilmek için kapanabilen bir nesnenin (kitap, tomar ya da bir sandık gibi) içi olabilir. Eğer yüzey seçersen glif çapı 10 fitten geniş bir alanı kaplayamaz. Eğer nesne seçersen sabit kalmalıdır, büyüyü yaptığın yerden 10 fitten fazla uzaklaştırılırsa, glif bozulur ve büyü tetiklenmeden sona erer.",
+				"Glif neredeyse görünmezdir ve senin büyü DC'ne karşı atılacak bir Zeka (İnceleme) zarı ile tespit edilebilir.",
+				"Büyüyü yaparken glifi neyin tetiklediğini belirlersin. Yüzeye kazınan glifler için en tipik tetikleyiciler dokunma ya da üzerinde durma, glifi kapatan başka bir nesneyi hareket ettirme, glifin belirli bir mesafesine girme, ya da üzerine glif kazınmış olan nesneyi kullanmadır. Bir nesne içine kazınmış olan gliflerde en yaygın tetikleyiciler o nesneyi açma, nesnenin belirli bir mesafesine girme ve glifi görme ya da okumadır.",
+				"Bu tetikleyiciyi iyice detaylandırıp bu büyünün sadece belirli durumlar altında ya da fiziksel özelliklere göre (boy ve kilo gibi), fiziksel tipine göre (sadece cadılar ya da şekildeğiştirenler gibi) etkinleşmesini sağlayabilirsin. Aynı zamanda glifi tetiklemeyecek varlıklar için koşullar da ekleyebilirsin, belirli bir parolayı söyleyen kişiler gibi.",
+				"Glifi kazırken etkisi için aşağıdakilerden birini seç. Tetiklendiğinde glif parlar, 60 fit yarıçaplı bir küreyi 10 dakikalığına loş ışık ile doldurur, sonrasında büyü biter. Glif etkinleştiğinde kürenin içinde bulunan tüm varlıklar etkisinin hedefi olur, sırasında ilk defa o küreye giren ya da sırasını orada bitiren varlıklar da etkilenir.",
 				{
 					"type": "entries",
-					"name": "Death",
+					"name": "Ölüm",
 					"entries": [
-						"Each target must make a Constitution saving throw, taking {@dice 10d10} nekrotik damage on a failed save, or half as much damage on a successful save."
+						"Her hedef Dayanıklılık kurtulma zarı atar, başarısız olursa {@dice 10d10} nekrotik hasar, başarılı olursa bunun yarısını alır."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Discord",
+					"name": "Kargaşa",
 					"entries": [
-						"Each target must make a Constitution saving throw. On a failed save, a target bickers and argues with other creatures for 1 dakika. During this time, it is incapable of meaningful communication and has disadvantage on attack rolls and ability checks."
+						"Her hedef Dayanıklılık kurtulma zarı atar. Başarısız olursa, hedef 1 dakika boyunca diğer varlıklarla tartışıp didişir. Bu süre boyunca, mantıklı iletişim kuramaz, ve saldırı ve yetenek zarlarında dezavantajı vardır."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Fear",
+					"name": "Korku",
 					"entries": [
-						"Each target must make a Wisdom saving throw and becomes {@condition frightened} for 1 dakika on a failed save. While {@condition frightened}, the target drops whatever it is holding and must move at least 30 feet away from the glyph on each of its turns, if able."
+						"Her hedef Akıl kurtulma zarı atar ve başarısız olursa 1 dakikalığına {@condition korkma} durumunda olur. Korkma durumundayken, hedef tuttuğu şeyi düşürüp her sırasında eğer mümkünse gliften en az 30 fit uzaklaşmalıdır."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Hopelessness",
+					"name": "Umutsuzluk",
 					"entries": [
-						"Each target must make a Charisma saving throw. On a failed save, the target is overwhelmed with despair for 1 dakika. During this time, it can't attack or target any creature with harmful abilities, spells, or other magical effects."
+						"Her hedef Karizma kurtulma zarı atar. Başarısız olursa, hedef 1 dakikalığına çaresizlik içinde kalır. Bu süreçte, hiçbir varlığa saldıramaz ya da onları zararlı yetenek, büyü ve diğer büyülü etkiler ile hedef alamaz."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Insanity",
+					"name": "Delilik",
 					"entries": [
-						"Each target must make an Intelligence saving throw. On a failed save, the target is driven insane for 1 dakika. An insane creature can't take actions, can't understand what other creatures say, can't read, and speaks only in gibberish. The DM controls its movement, which is erratic."
+						"Her hedef Zeka kurtulma zarı atar. Başarısız olursa, hedef 1 dakikalığına delirir. Delirmiş bir varlık eylem gerçekleştiremez, diğer varlıkların dediğini anlayamaz, okuyamaz, ve sadece anlamsız şeyler söyler. DM hareketini yönetir ve bu çok dengesizdir."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Pain",
+					"name": "Acı",
 					"entries": [
-						"Each target must make a Constitution saving throw and becomes {@condition incapacitated} with excruciating pain for 1 dakika on a failed save."
+						"Her hedef Dayanıklılık kurtulma zarı atar, ve başarısız olursa 1 dakikalığına dayanılmaz acı ile {@condition etkisiz hal}e gelir."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Sleep",
+					"name": "Uyku",
 					"entries": [
-						"Each target must make a Wisdom saving throw and falls {@condition unconscious} for 10 dakika on a failed save. A creature awakens if it takes damage or if someone uses an eylem to shake or slap it awake."
+						"Her hedef Akıl kurtulma zarı atar, ve başarısız olursa 10 dakikalığına {@condition bilinçsizlik} durumuna düşer. Bir varlık hasar alırsa ya da başka bir varlık eylemini kullanıp onu sarsarsa uyanır."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Stunning",
+					"name": "Sersemletici",
 					"entries": [
-						"Each target must make a Wisdom saving throw and becomes {@condition stunned} for 1 dakika on a failed save."
+						"Her hedef Akıl kurtulma zarı atar, ve başarısız olursa 1 dakikalığına {@condition sersemleme} durumunda olur."
 					]
 				}
 			],
@@ -22968,7 +22968,7 @@
 			"page": 281
 		},
 		{
-			"name": "Teleport",
+			"name": "Teleport (Işınlan)",
 			"level": 7,
 			"school": "C",
 			"time": [
@@ -23010,16 +23010,16 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"This spell instantly transports you and up to eight willing creatures of your choice that you can see within range, or a single object that you can see within range, to a destination you select. If you target an object, it must be able to fit entirely inside a 10-foot cube, and it can't be held or carried by an unwilling creature. The destination you choose must be known to you, and it must be on the same plane of existence as you. Your familiarity with the destination determines whether you arrive there successfully. The DM rolls {@dice d100} and consults the table.",
+				"Bu büyü sen ve menzilinde görebildiğin 8'e kadar istekli varlığı, ya da menzilinde görebildiğin tek bir nesneyi, seçtiğin bir varış noktasına ışınlar. Eğer bir nesne seçersen, tümüyle 10 fitlik bir kübe sığabilmeli, ve isteksiz bir varlık tarafından taşınamaz veya tutulamaz. Seçtiğin varış noktasını bilmelisin, ve senle aynı boyutta olmalı. Varış noktası ile aşinalığın oraya başarılı bir şekilde varma ihtimalini belirler. DM {@dice d100} atıp tabloya bakar.",
 				{
 					"type": "table",
-					"caption": "Teleportation",
+					"caption": "Işınlanma",
 					"colLabels": [
-						"Familiarity",
-						"Mishap",
-						"Similar Area",
-						"Off Target",
-						"On Target"
+						"Aşinalık",
+						"Terslik",
+						"Benzer Alan",
+						"Hedef Dışı",
+						"Hedefte"
 					],
 					"colStyles": [
 						"col-xs-8",
@@ -23030,49 +23030,49 @@
 					],
 					"rows": [
 						[
-							"Permanent Circle",
+							"Kalıcı Çember",
 							"\u2014",
 							"\u2014",
 							"\u2014",
 							"01-100"
 						],
 						[
-							"Associated Object",
+							"İlgili Nesne",
 							"\u2014",
 							"\u2014",
 							"\u2014",
 							"01-100"
 						],
 						[
-							"Very Familiar",
+							"Çok Aşina",
 							"01-05",
 							"06-13",
 							"14-24",
 							"25-100"
 						],
 						[
-							"Seen Casually",
+							"Birkaç Kez Gördü",
 							"01-33",
 							"34-43",
 							"44-53",
 							"54-100"
 						],
 						[
-							"Viewed Once",
+							"Bir Kez Gördü",
 							"01-43",
 							"44-53",
 							"54-73",
 							"74-100"
 						],
 						[
-							"Description",
+							"Tasvir",
 							"01-43",
 							"44-53",
 							"54-73",
 							"74-100"
 						],
 						[
-							"False Description",
+							"Yanlış Tasvir",
 							"01-50",
 							"51-100",
 							"\u2014",
@@ -23082,39 +23082,39 @@
 				},
 				{
 					"type": "entries",
-					"name": "Familiarity",
+					"name": "Aşinalık",
 					"entries": [
-						"\"Permanent Circle\" means a permanent teleportation circle whose sigil sequence you know. \"Associated Object\" means that you possess an object taken from the desired destination within the last six months, such as a book from a wizard's library, bed linen from a royal suite, or a chunk of marble from a Lich's secret tomb."
+						"\"Kalıcı Çember\" mühür sıralamasını bildiğin bir ışınlanma çemberi demektir. \"İlgili Nesne\" istenilen varış noktasından son 6 ay içerisinde alınan bir nesneye sahip olduğun anlamına gelir, bu nesne büyücünün kütüphanesinden bir kitap, krallık odasından yatak çarşafı, ya da Lich'in gizli mezarından bir parça mermer."
 					]
 				},
-				"\"Very Familiar\" is a place you have been very often, a place you have carefully studied, or a place you can see when you cast the spell. \"Seen Casually\" is some place you have seen more than once but with which you aren't very familiar. \"Viewed Once\" is a place you have seen once, possibly using magic. \"Description\" is a place whose location and appearance you know through someone else's description, perhaps from a map.",
-				"\"False Description\" is a place that doesn't exist. Perhaps you tried to scry an enemy's sanctum but instead viewed an illusion, or you are attempting to teleport to a familiar location that no longer exists.",
+				"\"Çok Aşina\" sıkça gittiğin bir yer, detaylı incelediğin bir yer, ya da büyüyü yaparken görebildiğin bir yer olabilir. \"Birkaç Kez Gördü\" birden çok kez gördüğün bir yer ama çok aşina değilsin. \"Bir Kez Gördü\" sadece bir kez gördüğün bir yerdir, muhtemelen o da büyü yardımıyla. \"Tasvir\" görüntüsü ve yerini başka birinin tasviri ile öğrendiğin bir yerdir, belki bir haritadan.",
+				"\"Yanlış Tasvir\" varolmayan bir yerdir. Belki de bir düşmanın mabedini uzaktan görmeye çalıştın ama bir illüzyon gördün, ya da aşina olduğun bir yere ışınlanmaya çalışıyorsun ama artık öyle bir yer yok.",
 				{
 					"type": "entries",
-					"name": "On Target",
+					"name": "Hedefte",
 					"entries": [
-						"You and your group (or the target object) appear where you want to go."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Off Target",
-					"entries": [
-						"You and your group (or the target object) appear a random distance away from the destination in a random direction. Distance off target is {@dice 1d10} x {@dice 1d10} percent of the distance that was to be travelled. For example, if you tried to travel 120 miles, landed off target, and rolled a 5 and 3 on the two {@dice d10}s, then you would be off target by 15 percent, or 18 miles. The DM determines the direction off target randomly by rolling a {@dice d8} and designating 1 as north, 2 as north-east, 3 as east, and so on around the points of the compass. If you were teleporting to a coastal city and wound up 18 miles out at sea, you could be in trouble."
+						"Sen ve grubun (ya da hedef nesne) gitmek istediğiniz yerde belirirsiniz."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Similar Area",
+					"name": "Hedef Dışı",
 					"entries": [
-						"You and your group (or the target object) wind up in a different area that's visually or thematically similar to the target area. If you are heading for your home laboratory, for example, you might wind up in another wizard's laboratory or in an alchemical supply shop that has many of the same tools and implements as your laboratory. Generally, you appear in the closest similar place, but since the spell has no range limit, you could conceivably wind up anywhere on the plane."
+						"Sen ve grubun (ya da hedef nesne) varış yerinin rastgele bir yönünde rastgele bir mesafe dışına varırsınız. Hedeften sapma mesafesi, gidilecek toplam mesafenin yüzde {@dice 1d10} x {@dice 1d10} kadarıdır. Örneğin, 120 mil gitmek isteseydin ve hedef dışı varsaydın, iki {@dice d10} zarında 5 ve 3 atsaydın, hedeften yüzde 15 şaşardın, yani 18 mil. Hedeften şaşılma yönünü DM {@dice d8} atarak belirler ve 1'i kuzey, 2'yi kuzeydoğu, 3'ü doğu, ve bu şekilde ilerleyen şekilde pusula yönlerine yerleştirir. Eğer bir kıyı şehrine ışınlanıyorsan ve denize doğru 18 mil açıkta kalırsan problem yaşayabilirsin."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Mishap",
+					"name": "Benzer Alan",
 					"entries": [
-						"The spell's unpredictable magic results in a difficult journey. Each teleporting creature (or the target object) takes {@dice 3d10} güç damage and the DM rerolls on the table to see where you wind up (multiple mishaps can occur, dealing damage each time)."
+						"Sen ve grubun (ya da hedef nesne) hedef alana görüntü ya da tema olarak benzer farklı bir alana varırsınız. Örneğin kendi ev laboratuarına gidiyorsan başka bir büyücünün laboratuarına, ya da aynı aletlere sahip olan bir simya tedarik dükkanına varabilirsin. Genellikle, en yakın benzer yere gidersin, ama büyüde menzil sınırı olmadığı için muhtemel olarak boyutta herhangi bir yere varabilirsin."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Terslik",
+					"entries": [
+						"Büyünün öngörülemez etkisi zorlu bir yolculuk yaratır. Her ışınlanan varlık (ya da hedef nesne) {@dice 3d10} güç hasarı alır ve DM tabloda yeniden zar atıp nereye gideceğinizi görür (birden çok terslik olabilir, her seferinde hasar alırsınız)."
 					]
 				}
 			],

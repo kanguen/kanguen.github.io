@@ -1036,7 +1036,7 @@
 			"page": 152
 		},
 		{
-			"name": "Crown of Stars",
+			"name": "Crown of Stars (Yıldız Tacı)",
 			"source": "XGE",
 			"level": 7,
 			"school": "V",
@@ -1082,15 +1082,15 @@
 				]
 			},
 			"entries": [
-				"Seven star-like motes of light appear and orbit your head until the spell ends. You can use a bonus eylem to send one of the motes streaking toward one creature or object within 120 feet of you. When you do so, make a ranged spell attack. On a hit, the target takes {@dice 4d12} radyant damage. Whether you hit or miss, the mote is expended. The spell ends early if you expend the last mote.",
-				"If you have four or more motes remaining, they shed bright light in a 30-foot radius and dim light for an additional 30 feet. If you have one to three motes remaining, they shed dim light in a 30-foot radius."
+				"7 yıldız benzeri ışık taneciği belirip büyü süresince başının çevresinde dönerler. Bonus eylemini kullanıp bu taneciklerden birini 120 fit yakınındaki bir varlık ya da nesneye gönderebilirsin. Bunu yaptığında menzilli büyü saldırısı yap. Vurursa, hedef {@dice 4d12} radyant hasar alır. Vursun ya da vurmasın, o tanecik harcanır. Eğer son taneciği de harcarsan büyü erken biter.",
+				"Eğer 4 ya da fazlası taneciğin varsa, çevrene 30 fite kadar parlak ışık, ötesinde 30 fit daha loş ışık saçarlar. Eğer 1 ile 3 arasında taneciğin varsa, 30 fit çevrene loş ışık saçarlar."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell using a spell slot of 8th level or higher, the number of motes created increases by two for each slot level above 7th."
+						"Bu büyüyü 8. seviye ve üzeri bir yuva harcayarak kullandığında, 7. üzeri her seviye için yaratılan tanecik sayısı 2 artar."
 					]
 				}
 			],
@@ -3662,7 +3662,7 @@
 			]
 		},
 		{
-			"name": "Power Word Pain",
+			"name": "Power Word Pain (Güç Sözü Acı)",
 			"source": "XGE",
 			"level": 7,
 			"school": "E",
@@ -3704,9 +3704,9 @@
 				]
 			},
 			"entries": [
-				"You speak a word of power that causes waves of intense pain to assail one creature you can see within range. If the target has 100 hit points or fewer, it is subject to crippling pain. Otherwise, the spell has no effect on it. A target is also unaffected if it is immune to being {@condition charmed}.",
-				"While the target is affected by crippling pain, any speed it has can be no higher than 10 feet. The target also has disadvantage on attack rolls, ability checks, and saving throws, other than Constitution saving throws. Finally, if the target tries to cast a spell, it must first succeed on a Constitution saving throw, or the casting fails and the spell is wasted.",
-				"A target suffering this pain can make a Constitution saving throw at the end of each of its turns. On a successful save, the pain ends."
+				"Menzilinde görebildiğin bir varlığa korkunç acılar verecek bir güç sözü söylersin. Eğer hedef 100 HP ya da daha azına sahipse, felç eden acıya maruz kalır. Aksi takdirde, büyü onu etkilemez. Bir varlık eğer {@condition cezbedilme} durumuna bağışıksa da bu büyüden etkilenmez.",
+				"Hedef felç eden acı çekerken, hiçbir hızı 10 fitten fazla olamaz. Ayrıca hedefin saldırı, yetenek ve Dayanıklılık dışında kurtulma zarlarında dezavantajı vardır. Son olarak, eğer hedef büyü yapmaya çalışırsa, önce Dayanıklılık kurtulma zarı atmalıdır, yoksa o büyü başarısız olur ve boşa gider.",
+				"Bu acıyı çeken bir hedef her sırasının sonunda Dayanıklılık kurtulma zarı atar. Başarılı olursa acı son bulur."
 			],
 			"page": 163,
 			"savingThrow": [
@@ -4888,7 +4888,7 @@
 			]
 		},
 		{
-			"name": "Temple of the Gods",
+			"name": "Temple of the Gods (Tanrıların Tapınağı)",
 			"source": "XGE",
 			"level": 7,
 			"school": "C",
@@ -4909,7 +4909,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a holy symbol worth at least 5 gp",
+					"text": "en az 5 gp değerinde bir kutsal sembol",
 					"cost": 5
 				}
 			},
@@ -4931,14 +4931,14 @@
 				]
 			},
 			"entries": [
-				"You cause a temple to shimmer into existence on ground you can see within range. The temple must fit within an unoccupied cube of space, up to 120 feet on each side. The temple remains until the spell ends. It is dedicated to whatever god, pantheon, or philosophy is represented by the holy symbol used in the casting.",
-				"You make all decisions about the temple's appearance. The interior is enclosed by a floor, walls, and a roof, with one door granting access to the interior and as many windows as you wish. Only you and any creatures you designate when you cast the spell can open or close the door.",
-				"The temple's interior is an open space with an idol or altar at one end. You decide whether the temple is illuminated and whether that illumination is bright light or dim light. The smell of burning incense fills the air within, and the temperature is mild.",
-				"The temple opposes types of creatures you choose when you cast this spell. Choose one or more of the following: celestials, elementals, fey, fiends, or undead. If a creature of the chosen type attempts to enter the temple, that creature must make a Charisma saving throw. On a failed save, it can't enter the temple for 24 saat. Even if the creature can enter the temple, the magic there hinders it; whenever it makes an attack roll, an ability check, or a saving throw inside the temple, it must roll a {@dice d4} and subtract the number rolled from the {@dice d20} roll.",
-				"In addition, the sensors created by divination spells can't appear inside the temple, and creatures within can't be targeted by divination spells.",
-				"Finally, whenever any creature in the temple regains hit points from a spell of 1st level or higher, the creature regains additional hit points equal to your Wisdom modifier (minimum 1 hit point).",
-				"The temple is made from opaque magical güç that extends into the Ethereal Plane, thus blocking ethereal travel into the temple's interior. Nothing can physically pass through the temple's exterior. It can't be dispelled by dispel magic, and antimagic field has no effect on it. A disintegrate spell destroys the temple instantly.",
-				"Casting this spell on the same spot every day for a year makes this effect permanent."
+				"Menzilinde görebildiğin bir zeminde, bir tapınağın parlayıp varolmasını sağlarsın. Tapınak boş bir küp alana sığmalıdır, her yüzü 120 fite kadar çıkabilir. Tapınak büyü bitene dek kalır. Kullandığın kutsal sembolün ait olduğu tanrı, pantheon ya da felsefeye adanmış olur.",
+				"Tapınağın görüntüsü ile ilgili tüm kararları sen verirsin. İç kısmı zemin, duvarlar, bir çatı, içeriye girişi sağlayan bir kapı ve istediğin kadar pencere ile çevrilidir. Sadece sen ve büyüyü yaparken belirlediğin varlıklar bu kapıyı açıp kapayabilir.",
+				"Tapınağın içi bir ucunda idol ya da sunak bulunan açık bir alandır. Tapınağın içi aydınlatılıyor mu ve bu aydınlatma parlak mı yoksa loş ışık mı sen kadar verirsin. İçerideki havayı yanan tütsü kokusu doldurur ve derece ılıktır.",
+				"Tapınak, büyüyü kullanırken seçtiğin varlık tiplerine karşı gelir. Şunlardan bir ya da birkaçını seç: kutsallar, elementaller, feyler, zebaniler, veya yaşayan ölüler. Eğer seçilen tipte bir varlık tapınağa girmeye çalışırsa, varlık Karizma kurtulma zarı atar. Başarısız olursa, varlık tapınağa 24 saat boyunca giremez. Varlık tapınağa girebilse bile tapınaktaki büyü onu yavaşlatır; tapınağın içinde ne zaman bir saldırı, yetenek, ya da kurtulma zarı atsa, {@dice d4} atıp bunu attığı {@dice d20}den çıkarır.",
+				"Ek olarak, divination büyüleri ile yaratılan sensörler tapınağın içinde beliremez, ve içindeki varlıklar divination büyülerinin hedefi olamaz.",
+				"Son olarak, ne zaman tapınak içindeki bir varlık 1. seviye ve üzeri bir büyüden HP yenilerse, varlık senin Akıl bonusun kadar (en az 1 HP) fazladan HP yeniler.",
+				"Tapınak Ethereal Boyuta da uzanan opak bir büyü gücünden oluşur, bu yüzden tapınağın içine ethereal seyahati engeller. Hiçbir şey fiziksel olarak tapınağın dışından geçemez. Dispel magic (büyü defet) ile defedilemez, ve antimagic field (büyü karşıtı alan) onu etkilemez. Bir disintegrate (parçala) büyüsü tapınağı anında yokeder.",
+				"Bu büyüyü aynı yerde bir yıl boyunca her gün yapmak onu kalıcı hale getirir."
 			],
 			"page": 167,
 			"savingThrow": [
@@ -5736,7 +5736,7 @@
 			]
 		},
 		{
-			"name": "Whirlwind",
+			"name": "Whirlwind (Kasırga)",
 			"source": "XGE",
 			"level": 7,
 			"school": "V",
@@ -5755,7 +5755,7 @@
 			},
 			"components": {
 				"v": true,
-				"m": "a piece of straw"
+				"m": "bir saman parçası"
 			},
 			"duration": [
 				{
@@ -5784,9 +5784,9 @@
 				]
 			},
 			"entries": [
-				"A whirlwind howls down to a point that you can see on the ground within range. The whirlwind is a 10-foot-radius, 30-foot-high cylinder centered on that point. Until the spell ends, you can use your eylem to move the whirlwind up to 30 feet in any direction along the ground. The whirlwind sucks up any Medium or smaller objects that aren't secured to anything and that aren't worn or carried by anyone.",
-				"A creature must make a Dexterity saving throw the first time on a turn that it enters the whirlwind or that the whirlwind enters its space, including when the whirlwind first appears. A creature takes {@dice 10d6} ezme damage on a failed save, or half as much damage on a successful one. In addition, a Large or smaller creature that fails the save must succeed on a Strength saving throw or become {@condition restrained} in the whirlwind until the spell ends. When a creature starts its turn {@condition restrained} by the whirlwind, the creature is pulled 5 feet higher inside it, unless the creature is at the top. A {@condition restrained} creature moves with the whirlwind and falls when the spell ends, unless the creature has some means to stay aloft.",
-				"A {@condition restrained} creature can use an eylem to make a Strength or Dexterity check against your spell save DC. If successful, the creature is no longer {@condition restrained} by the whirlwind and is hurled {@dice 3d6} × 10 feet away from it in a random direction."
+				"Menzilinde görebildiğin bir noktaya bir kasırga iner. Kasırga o nokta merkezli 10 fit yarıçaplı, 30 fit yükseklikte bir silindirdir. Büyü bitene dek, eylemini kullanıp kasırgayı istediğin yöne doğru zeminden 30 fite kadar hareket ettirebilirsin. Kasırga tüm sabitlenmemiş Orta ya da daha küçük boyda kimse tarafından taşınmayan ve giyilmeyen nesneleri içine alır.",
+				"Bir varlık sırasında ilk defa kasırganın alanına girdiğinde ya da kasırga onun alanına girdiğinde Çeviklik kurtulma zarı atar, kasırga ilk çıktığı an da buna dahildir. Başarısız bir varlık {@dice 10d6} ezme hasarı alır, başarılı olursa bunun yarısını. Ek olarak, başarısız olan Büyük veya daha küçük boyda bir varlık Kuvvet kurtulma zarı atar ya da büyü bitene dek kasırga içerisinde {@condition kısıtlanma} durumunda olur. Bir varlık sırasına kasırga tarafından kısıtlanmış bir şekilde başlarsa, eğer zaten tepede değilse varlık içinde 5 fit yukarı çekilir. Kısıtlanmış bir varlık kasırga ile hareket eder ve eğer varlığın havada kalmak için bir yolu yoksa büyü bittiğinde düşer.",
+				"Kısıtlanmış bir varlık eylemini kullanıp senin büyü kurtulma DC'ne karşı Kuvvet ya da Çeviklik zarı atabilir. Eğer başarılı olursa, varlık artık {@condition kısıtlanma} durumunda olmaz ve kasırga tarafından rastgele bir yöne {@dice 3d6} × 10 fit savrulur."
 			],
 			"page": 171,
 			"damageInflict": [
