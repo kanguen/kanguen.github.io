@@ -381,7 +381,7 @@
 			"page": 212
 		},
 		{
-			"name": "Animal Shapes",
+			"name": "Animal Shapes (Hayvan Şekilleri)",
 			"level": 8,
 			"school": "T",
 			"time": [
@@ -421,9 +421,9 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Your magic turns others into beasts. Choose any number of willing creatures that you can see within range. You transform each target into the form of a large or smaller beast with a challenge rating of 4 or lower. On subsequent turns, you can use your actions to transform affected creatures into new forms.",
-				"The transformation lasts for the duration for each target, or until the target drops to 0 hit points or dies. You can choose a different form for each target. A target's game statistics are replaced by the statistics of the chosen beast, though the target retains its alignment and Intelligence, Wisdom, and Charisma scores. The target assumes the hit points of its new form, and when it reverts to its normal form, it returns to the number of hit point it had before it transformed. If it reverts as a result of dropping to 0 hit points, any excess damage carries over to its normal form. As long as the excess damage doesn't reduce the creature's normal form to 0 hit points, it isn't knocked {@condition unconscious}. The creature is limited in the actions it can perform by the nature of its new form, and it can't speak or cast spells.",
-				"The target's gear melds into the new form. The target can't activate, wield, or otherwise benefit from any of its equipment."
+				"Büyün diğerlerini hayvanlara dönüştürür. Menzilinde görebildiğin istediğin sayıda istekli varlığı seç. Her hedefi CR 4 ve altında, Büyük ya da daha küçük boyda bir hayvana dönüştürürsün. Sonraki sıralarında, eylemlerini kullanıp etkilenen varlıklara yeni şekiller verebilirsin.",
+				"Dönüşüm her hedef için süresi boyunca, hedef 0 HP'ye düşene ya da ölene kadar sürer. Her hedef için farklı bir şekil seçebilirsin. Bir hedefin oyun istatistikleri seçilen hayvanın istatistikleri ile değişir, ama hedef hala yönelimini ve Zeka, Akıl ve Karizma skorlarını korur. Hedef yeni formun HP'sini alır, ve normal formuna döndüğünde dönüşmeden önceki HP miktarına döner. Eğer formu 0 HP'ye düşme sonucu değişirse, fazlalık hasar normal formuna taşınır. Fazlalık hasar varlığın normal formunu 0 HP'ye düşürmediği sürece, {@condition bilinçsizlik} durumuna girmez. Varlık gerçekleştirebileceği eylemlerde yeni şeklinin yapısı ile sınırlıdır, konuşamaz ve büyü yapamaz.",
+				"Hedefin ekipmanı yeni şekline karışır. Hedef ekipmanını etkinleştiremez, kullanamaz ya da başka bir şekilde onlardan faydalanamaz."
 			],
 			"page": 212
 		},
@@ -720,7 +720,7 @@
 			"page": 213
 		},
 		{
-			"name": "Antimagic Field",
+			"name": "Antimagic Field (Büyü Karşıtı Alan)",
 			"level": 8,
 			"school": "A",
 			"time": [
@@ -739,7 +739,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a pinch of powdered iron or iron filings"
+				"m": "bir tutam demir tozu"
 			},
 			"duration": [
 				{
@@ -765,62 +765,62 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"A 10-foot-radius invisible sphere of antimagic surrounds you. This area is divorced from the magical energy that suffuses the multiverse. Within the sphere, spells can't be cast, summoned creatures disappear, and even magic items become mundane. Until the spell ends, the sphere moves with you, centered on you.",
-				"Spells and other magical effects, except those created by an artifact or a deity, are suppressed in the sphere and can't protrude into it. A slot expended to cast a suppressed spell is consumed. While an effect is suppressed, it doesn't function, but the time it spends suppressed counts against its duration.",
+				"10 fit çevreni görünmez bir büyü karşıtı küre kaplar. Bu alan çokluevreni kaplayan büyü enerjisinden bağımsızdır. Küre içerisinde büyü yapılamaz, yaratılan varlıklar kaybolur, büyülü eşyalar bile sıradanlaşır. Büyü bitene dek küre merkezinde seninle hareket eder.",
+				"Bir artefakt ya da tanrının yarattıkları dışında, büyüler ve diğer büyülü etkiler bu alan içerisinde baştırılır ve onun içine giremez. Bastırılan bir büyüyü kullanmak için harcanan yuva tükenir. Bir etki bastırılmışken işlev göstermez, ve bu şekilde geçirdiği zaman da süresinde sayılır.",
 				{
 					"type": "entries",
-					"name": "Targeted Effects",
+					"name": "Hedef Alınan Etkiler",
 					"entries": [
-						"Spells and other magical effects, such as magic missile and charm person, that target a creature or an object in the sphere have no effect on that target."
+						"Kürenin içindeki bir varlık ya da nesneyi hedef alan büyülü misil ve kişi cezbet gibi büyüler ve diğer büyülü etkiler, o hedef üzerinde hiçbir etki göstermez."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Areas of Magic",
+					"name": "Büyü Alanları",
 					"entries": [
-						"The area of another spell or magical effect, such as fireball, can't extend into the sphere. If the sphere overlaps an area of magic, the part of the area that is covered by the sphere is suppressed. For example, the flames created by a wall of ateş are suppressed within the sphere, creating a gap in the wall if the overlap is large enough."
+						"Alevtopu gibi başka bir büyünün ya da büyülü etkinin alanı küreye giremez. Eğer küre bir büyü alanı ile örtüşüyorsa, alanın küre ile örtülü kısmı bastırılır. Örneğin, ateş duvarı ile yaratılan alevler küre içinde bastırılır, eğer örtüşme yeterince büyükse duvarda bir boşluk yaratır."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Spells",
+					"name": "Büyüler",
 					"entries": [
-						"Any active spell or other magical effect on a creature or an object in the sphere is suppressed while the creature or object is in it."
+						"Bir varlık ya da nesne üzerinde aktif olan tüm büyü ve büyülü etkiler bu alan içerisindeyken bastırılır."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Magic Items",
+					"name": "Büyülü Eşyalar",
 					"entries": [
-						"The properties and powers of magic items are suppressed in the sphere. For example, a +1 long sword in the sphere functions as a nonmagical long sword. A magic weapon's properties and powers are suppressed if it is used against a target in the sphere or wielded by an attacker in the sphere. If a magic weapon or piece of magic ammunition fully leaves the sphere (For example, if you ateş a magic arrow or throw a magic spear at a target outside the sphere), the magic of the item ceases to be suppressed as soon as it exits."
+						"Büyülü eşyaların özellikleri ve güçleri küre içerisinde bastırılır. Örneğin, bir +1 uzun kılıç küredeyken sıradan bir uzun kılıç gibi davranır. Büyülü bir silah, küre içindeki bir hedefe karşı ya da küre içindeki biri tarafından kullanıldıysa özellikleri ve gücü bastırılır. Eğer büyülü bir silah ya da büyülü bir misil tamamen küreden çıkarsa (örneğin, kürenin dışında bir hedefe büyülü ok ya da mızrak atma gibi) çıktığı anda büyüsü geri gelir."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Magical Travel",
+					"name": "Büyülü Seyahat",
 					"entries": [
-						"Teleportation and planar travel fail to work in the sphere, whether the sphere is the destination or the departure point for such magical travel. A portal to another location, world, or plane of existence, as well as an opening to an extradimensional space such as that created by the rope trick spells, temporarily closes while in the sphere."
+						"Küre içerisinde ışınlanma ve boyutsal seyahat işlemez, küre bu büyülü seyahat için başlangıç ya da bitiş noktası olabilir. Başka bir yere, dünyaya, boyuta, hatta rope trick (halat hilesi) gibi büyülerin yarattığı boyutdışı alanlara olan portallar küre içinde geçici olarak kapanır."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Creatures and Objects",
+					"name": "Varlıklar ve Nesneler",
 					"entries": [
-						"A creature or object summoned or created by magic temporarily winks out of existence in the sphere. Such a creature instantly reappears once the space the creature occupied is no longer within the sphere."
+						"Büyü tarafından yaratılan veya çağrılan bir varlık ya da nesne küredeyken geçici olarak ortadan kaybolur. Bu tip bir varlık küre onun alanını kaplamadığı anda yeniden belirir."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Dispel Magic",
+					"name": "Büyü Defet",
 					"entries": [
-						"Spells and magical effects such as dispel magic have no effect on the sphere. Likewise, the spheres created by different antimagic field spells don't nullify each other."
+						"Dispel magic (büyü defet) gibi büyü ve büyülü etkilerin küre üzerinde hiçbir etkisi olmaz. Benzer şekilde, farklı büyü karşıtı alan büyüleri tarafından yaratılan küreler birbirini etkilemez."
 					]
 				}
 			],
 			"page": 213
 		},
 		{
-			"name": "Antipathy/Sympathy",
+			"name": "Antipathy/Sympathy (Antipati/Sempati)",
 			"level": 8,
 			"school": "E",
 			"time": [
@@ -839,7 +839,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "either a lump of alum soaked in vinegar for the antipathy effect or a drop of honey for the sympathy effect"
+				"m": "ya antipati etkisi için bir parça sirkeye batırılmış şap, ya da sempati etkisi için bir damla bal"
 			},
 			"duration": [
 				{
@@ -864,30 +864,30 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"This spell attracts or repels creatures of your choice. You target something within range, either a Huge or smaller object or creature or an area that is no larger than a 200-foot cube. Then specify a kind of intelligent creature, such as red dragons, goblins, or vampires. You invest the target with an aura that either attracts or repels the specified creatures for the duration. Choose antipathy or sympathy as the aura's effect.",
+				"Bu büyü seçeceğin varlıkları çeker ya da kovar. Menzilinde bir şeyi hedef alırsın, Dev ya da daha küçük boyda bir nesne veya varlık, ya da 200 fit küpten daha küçük bir alan. Sonra kırmızı ejderhalar, goblinler, ya da vampirler gibi zeki varlık tipi seç. Hedefi, seçtiğin varlık tipini süre boyunca çekecek ya da kovacak bir aura ile kaplarsın. Auranın etkisi olarak antipati ya da sempati seçersin.",
 				{
 					"type": "entries",
-					"name": "Antipathy",
+					"name": "Antipati",
 					"entries": [
-						"The enchantment causes creatures of the kind you designated to feel an intense urge to leave the area and avoid the target. When such a creature can see the target or comes within 60 feet of it, the creature must succeed on a Wisdom saving throw or become {@condition frightened}. The creature remains {@condition frightened} while it can see the target or is within 60 feet of it. While {@condition frightened} by the target, the creature must use its movement to move to the nearest safe spot from which it can't see the target. If the creature moves more than 60 feet from the target and can't see it, the creature is no longer {@condition frightened}, but the creature becomes {@condition frightened} again if it regains sight of the target or moves within 60 feet of it."
+						"Bu büyü, belirlediğin tipte varlıkları alanı terk etme ve hedeften uzak durma hissi ile doldurur. Bu tip bir varlık hedefi gördüğünde ya da 60 fit yakınına girdiğinde, varlık Akıl kurtulma zarı atar ya da {@condition korkma} durumuna girer. Varlık hedefi görebildiği veya 60 fit yakınında bulunduğu sürece {@condition korkma} durumunda kalır. Hedeften korkarken, varlık hareketini kullanıp hedefi göremediği en yakın güvenli noktaya gider. Eğer varlık 60 fitten uzağa gittiyse ve hedefi göremiyorsa, varlık artık {@condition korkma} durumundan çıkar, ama varlık yeniden hedefin 60 fit yakınına girer ya da görürse {@condition korkma} durumu tekrarlanır."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Sympathy",
+					"name": "Sempati",
 					"entries": [
-						"The enchantment causes the specified creatures to feel an intense urge to approach the target while within 60 feet of it or able to see it. When such a creature can see the target or comes within 60 feet of it, the creature must succeed on a Wisdom saving throw or use its movement on each of its turns to enter the area or move within reach of the target. When the creature has done so, it can't willingly move away from the target.",
-						"If the target damages or otherwise harms an affected creature, the affected creature can make a Wisdom saving throw to end the effect, as described below."
+						"Bu büyü, belirlediğin tipte varlıkları, hedefin 60 fit yakınında veya görebiliyorken hedefe yaklaşma hissi ile doldurur. Bu tip bir varlık hedefi görürse ya da 60 fit yakınına girerse, varlık Akıl kurtulma zarı atar ya da her sırasında hareketini bu alana girmek veya hedefe ulaşmak için kullanır. Varlık bunu yaptığında, istekli bir şekilde hedeften uzaklaşamaz.",
+						"Eğer hedef etki altındaki bir varlığa hasar verirse veya farklı bir şekilde incitirse, etki altındaki bir varlık Akıl kurtulma zarı atıp bu etkiyi sonlandırmayı deneyebilir."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Ending the Effect",
+					"name": "Etkiyi Sonlandırma",
 					"entries": [
-						"If an affected creature ends its turn while not within 60 feet of the target or able to see it, the creature makes a Wisdom saving throw. On a successful save, the creature is no longer affected by the target and recognizes the feeling of repugnance or attraction as magical. In addition, a creature affected by the spells is allowed another Wisdom saving throw every 24 saat while the spell persists."
+						"Eğer etki altındaki bir varlık sırasını hedefin en az 60 fit uzağında ya da onu göremezken bitirirse, varlık Akıl kurtulma zarı atar. Başarılı olursa, varlık artık hedeften etkilenmez ve bu tiksinme ya da çekim hissinin büyülü olduğunu farkeder. Ek olarak, büyü etkisi altındaki bir varlık, bu büyü sürdüğü sürece her 24 saatte bir Akıl kurtulma zarını yeniden atabilir."
 					]
 				},
-				"A creature that successfully saves against this effect is immune to it for 1 dakika, after which time it can be affected again."
+				"Bu büyüye karşı başarılı bir kurtulma zarı atan varlık, etkisine 1 dakikalığına bağışık olur, sonrasında yeniden etkilenebilir."
 			],
 			"page": 214,
 			"savingThrow": [
@@ -3588,7 +3588,7 @@
 			"page": 222
 		},
 		{
-			"name": "Clone",
+			"name": "Clone (Klon)",
 			"level": 8,
 			"school": "N",
 			"time": [
@@ -3607,7 +3607,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a diamond worth at least 1,000 gp and at least 1 cubic inch of flesh of the creature that is to be cloned, which the spell consumes, and a vessel worth at least 2,000 gp that has a sealable lid and is large enough to hold a Medium creature, such as a huge urn, coffin, mud-filled cyst in the ground, or crystal container filled with salt water",
+					"text": "en az 1000 gp değerinde bir elmas ve klonlanacak varlıktan en az 1 inç küp et, büyü bunları tüketir, ve dev bir vazo, tabut, içi tuzlu su dolu kristal bir hazne gibi Orta boy bir varlığın sığabileceği mühürlü kapağı olan en az 2000 gp değerinde bir kap",
 					"cost": 1000,
 					"consume": true
 				}
@@ -3627,8 +3627,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"This spell grows an inert duplicate of a living creature as a safeguard against death. This clone forms inside as a sealed vessel and grows to full size and maturity after 120 gün; you can also choose to have the clone be a younger version of the same creature. It remains inert and endures indefinitely, as long as its vessel remains undisturbed.",
-				"At any time after the clone matures, if the original creature dies, its soul transfers to the clone, provided that the soul is free and willing to return. The clone is physically identical to the original and has the same personality, memories, and abilities, but none of the original's equipment. The original creature's physical remains, if they still exist, become inert and can't thereafter be restored to life, since the creature's soul is elsewhere."
+				"Bu büyü, canlı bir varlığı ölümden korumak için onun eylemsiz bir kopyasını yaratır. Bu klon kapalı kabın içinde oluşur ve 120 gün sonrasında tam boyut ve olgunluğa ulaşır; bir klonun aynı varlığın daha genç bir hali olmasını sağlayabilirsin. Kabı bozulmadığı sürece eylemsiz haliyle sonsuza kadar dayanabilir.",
+				"Klon olgunlaştıktan sonra herhangi bir anda, eğer orijinal varlık ölürse ruhu klona taşınır, ruhun özgür ve istekli olma şartıyla. Klon orijinal ile fiziksel olarak birebirdir ve aynı kişilik, anılar ve yeteneklere sahiptir, ama orijinalin ekipmanına sahip değildir. Eğer hala mevcutsa orijinal varlığın fiziksel kalıntıları etkisiz hale gelir ve hayata döndürülemez, çünkü varlığın ruhu başka bir yerdedir."
 			],
 			"page": 222
 		},
@@ -5422,7 +5422,7 @@
 			]
 		},
 		{
-			"name": "Control Weather",
+			"name": "Control Weather (Hava Durumunu Yönet)",
 			"level": 8,
 			"school": "T",
 			"time": [
@@ -5441,7 +5441,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "burning incense and bits of earth and wood mixed in water"
+				"m": "yanan tütsü ve suya karıştırılmış toprak ve odun parçacıkları"
 			},
 			"duration": [
 				{
@@ -5471,15 +5471,15 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You take control of the weather within 5 miles of you for the duration. You must be outdoors to cast this spell. Moving to a place where you don't have a clear path to the sky ends the spell early.",
-				"When you cast the spell, you change the current weather conditions, which are determined by the DM based on the climate and season. You can change precipitation, temperature, and wind. It takes {@dice 1d4} x 10 dakika for the new conditions to take effect. Once they do so, you can change the conditions again. When the spell ends, the weather gradually returns to normal.",
-				"When you change the weather conditions, find a current condition on the following tables and change its stage by one, up or down. When changing the wind, you can change its direction.",
+				"Süre boyunca 5 mil çevrendeki havanın kontrolünü ele geçirirsin. Büyüyü yapabilmek için dışarıda olman gerekir. Gökyüzüne net bir yolun olmadığı bir yere girersen büyü erken sonlanır.",
+				"Büyüyü yaptığında o anki hava durumu şartlarını değiştirirsin, bunları iklim ve mevsime göre DM belirler. Yağış, ısı ve rüzgarı değiştirebilirsin. Yeni şartların etkinleşmesi {@dice 1d4} x 10 dakika sürer. Etkileri başladığında, şartları yeniden değiştirebilirsin. Büyü bittiğinde, hava durumu yavaşça normale döner.",
+				"Hava şartlarını değiştirdiğinde, güncel durumu aşağıdaki tablolarda bul ve onu aşağı ya da yukarı bir aşama değiştir. Rüzgarı değiştirirken estiği yönü de değiştirebilirsin.",
 				{
 					"type": "table",
-					"caption": "Precipitation",
+					"caption": "Yağış",
 					"colLabels": [
-						"Stage",
-						"Condition"
+						"Aşama",
+						"Durum"
 					],
 					"colStyles": [
 						"col-xs-1 text-align-center",
@@ -5488,32 +5488,32 @@
 					"rows": [
 						[
 							"1",
-							"Clear"
+							"Açık"
 						],
 						[
 							"2",
-							"Light clouds"
+							"Hafif Bulutlu"
 						],
 						[
 							"3",
-							"Overcast or ground fog"
+							"Kapalı ya da yerde sis"
 						],
 						[
 							"4",
-							"Rain, hail or snow"
+							"Yağmur, dolu ya da kar"
 						],
 						[
 							"5",
-							"Torrential rain, driving hail or blizzard"
+							"Sağanak yağmur, şiddetli dolu ya da tipi"
 						]
 					]
 				},
 				{
 					"type": "table",
-					"caption": "Temperature",
+					"caption": "Isı",
 					"colLabels": [
-						"Stage",
-						"Condition"
+						"Aşama",
+						"Durum"
 					],
 					"colStyles": [
 						"col-xs-1 text-align-center",
@@ -5522,36 +5522,36 @@
 					"rows": [
 						[
 							"1",
-							"Unbearable heat"
+							"Katlanılmaz sıcak"
 						],
 						[
 							"2",
-							"Hot"
+							"Sıcak"
 						],
 						[
 							"3",
-							"Warm"
+							"Ilık"
 						],
 						[
 							"4",
-							"Cool"
+							"Serin"
 						],
 						[
 							"5",
-							"Cold"
+							"Soğuk"
 						],
 						[
 							"6",
-							"Buzul soğuk"
+							"Buzul soğuğu"
 						]
 					]
 				},
 				{
 					"type": "table",
-					"caption": "Wind",
+					"caption": "Rüzgar",
 					"colLabels": [
-						"Stage",
-						"Condition"
+						"Aşama",
+						"Durum"
 					],
 					"colStyles": [
 						"col-xs-1 text-align-center",
@@ -5560,23 +5560,23 @@
 					"rows": [
 						[
 							"1",
-							"Calm"
+							"Sakin"
 						],
 						[
 							"2",
-							"Moderate wind"
+							"Orta rüzgar"
 						],
 						[
 							"3",
-							"Strong wind"
+							"Güçlü rüzgar"
 						],
 						[
 							"4",
-							"Gale"
+							"Şiddetli rüzgar"
 						],
 						[
 							"5",
-							"Storm"
+							"Fırtına"
 						]
 					]
 				}
@@ -6669,7 +6669,7 @@
 			]
 		},
 		{
-			"name": "Demiplane",
+			"name": "Demiplane (Yarıboyut)",
 			"level": 8,
 			"school": "C",
 			"time": [
@@ -6711,8 +6711,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You create a shadowy door on a flat solid surface that you can see within range. The door is large enough to allow Medium creatures to pass through unhindered. When opened, the door leads to a demiplane that appears to be an empty room 30 feet in each dimension, made of wood or stone. When the spell ends, the door disappears, and any creatures or objects inside the demiplane remain trapped there, as the door also disappears from the other side.",
-				"Each time you cast this spell, you can create a new demiplane, or have the shadowy door connect to a demiplane you created with a previous casting of this spell. Additionally, if you know the nature and contents of a demiplane created by a casting of this spell by another creature, you can have the shadowy door connect to its demiplane instead."
+				"Menzilinde görebildiğin düz katı bir yüzeyde gölgelerden bir kapı yaratırsın. Kapı Orta boy varlıkların kolaylıkla geçebileceği boyuttadır. Kapı, taş ya da ahşaptan yapılma 30 fitlik bir küp oda gibi görünen bir yarıboyuta açılır. Büyü bittiğinde kapı ortadan kaybolur, ve yarıboyuttaki tüm varlık ve nesneler orada hapsolur, çünkü kapı diğer taraftan da kaybolacaktır.",
+				"Bu büyüyü her kullanışında, yeni bir yarıboyut yaratabilir ya da gölge kapının daha önce bu büyü ile yarattığın bir yarıboyuta açılmasını sağlayabilirsin. Ek olarak, eğer başka bir varlık tarafından yaratılan bir yarıboyutun yapısını ve içeriğini biliyorsan, gölge kapının o yarıboyuta açılmasını sağlayabilirsin."
 			],
 			"page": 231
 		},
@@ -7790,7 +7790,7 @@
 			]
 		},
 		{
-			"name": "Dominate Monster",
+			"name": "Dominate Monster (Yaratığa Hükmet)",
 			"level": 8,
 			"school": "E",
 			"time": [
@@ -7842,17 +7842,17 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You attempt to beguile a creature that you can see within range. It must succeed on a Wisdom saving throw or be {@condition charmed} by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw.",
-				"While the creature is {@condition charmed}, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no eylem required), which it does its best to obey. You can specify a simple and general course of eylem, such as Attack that creature, Run over there, or Fetch that object. If the creature completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability.",
-				"You can use your eylem to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time, you can also cause the creature to use a reaksiyon, but this requires you to use your own reaksiyon as well.",
-				"Each time the target takes damage, it makes a new Wisdom saving throw against the spell. If the saving throw succeeds, the spell ends."
+				"Menzilinde görebildiğin bir varlığı cezbetmeye çalışırsın. Akıl kurtulma zarı atar ya da süre boyunca senin tarafından {@condition cezbedilme} etkisi altında olur. Eğer sen ya da sana dost olan varlıklar hedefle savaşıyorsa, kurtulma zarında avantajı olur.",
+				"Varlık cezbedilmişken, ikiniz aynı boyutta olduğunuz sürece telepatik bir bağınız olur. Sen bilinçli olduğun sürece bu telepatik bağı kullanarak varlığa komutlar verebilirsin (senin tarafından eylem gerektirmez), o da elinden geldiğince uygular. Şu varlığa saldır, Şuraya koş, veya Şu nesneyi getir gibi basit ve genel bir eylem belirtebilirsin. Eğer varlık komutu tamamlar ve senden yeni komut almazsa, elinden geldiğince kendini korur.",
+				"Eylemini kullanarak hedefin bütünüyle kesin kontrolünü alabilirsin. Bir sonraki sıranın sonuna kadar, varlık sadece senin seçtiğin eylemleri gerçekleştirir, ve izin vermediğin hiçbir şeyi yapmaz. Bu süreçte, varlığın reaksiyon kullanmasını da sağlayabilirsin, ama bu kendi reaksiyonunu da kullanmanı gerektirir.",
+				"Hedef her hasar aldığında, büyüye karşı yeni bir Akıl kurtulma zarı atar. Eğer kurtulma zarı başarılı olursa, büyü sonlanır."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "Üst Seviyelerde",
 					"entries": [
-						"When you cast this spell with a 9th-level spell slot, the duration is concentration, up to 8 saat."
+						"Bu büyüyü 9. seviye yuva harcayarak kullandığında, süre 8 saate kadar konsantrasyon olur."
 					]
 				}
 			],
@@ -8154,7 +8154,7 @@
 			"page": 236
 		},
 		{
-			"name": "Earthquake",
+			"name": "Earthquake (Deprem)",
 			"level": 8,
 			"school": "V",
 			"time": [
@@ -8173,7 +8173,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a pinch of dirt, a piece of rock, and a lump of clay"
+				"m": "bir tutam toprak, bir parça taş, ve bir avuç kil"
 			},
 			"duration": [
 				{
@@ -8203,12 +8203,12 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You create a seismic disturbance at a point on the ground that you can see within range. For the duration, an intense tremor rips through the ground in a 100-foot radius circle centered on that point and shakes creatures and structures in contact with the ground in that area.",
-				"The ground in the area becomes difficult terrain. Each creature on the ground that is concentrating must make a Constitution saving throw. On a failed save, the creature's concentration is broken.",
-				"When you cast this spell and at the end of each turn you spend concentrating on it, each creature on the ground in the area must make a Dexterity saving throw. On a failed save, the creature is knocked {@condition prone}.",
-				"This spell can have additional effects depending on the terrain in the area, as determined by the DM.",
-				"Fissures. Fissures open throughout the spell's area at the start of your next turn after you cast the spell. A total of {@dice 1d6} such fissures open in locations chosen by the DM. Each is {@dice 1d10} x 10 feet deep, 10 feet wide, and extends from one edge of the spell's area to the opposite side. A creature standing on a spot where a fissure opens must succeed on a Dexterity saving throw or fall in. A creature that successfully saves moves with the fissure's edge as it opens. A fissure that opens beneath a structure causes it to automatically collapse (see below).",
-				"Structures. The tremor deals 50 ezme damage to any structure in contact with the ground in the area when you cast the spell and at the start of each of your turns until the spell ends. If a structure drops to 0 hit points, it collapses and potentially damages nearby creatures. A creature within half the distance of a structure's height must make a Dexterity saving throw. On a failed save, the creature takes {@dice 5d6} ezme damage, is knocked {@condition prone}, and is buried in the rubble, requiring a DC 20 Strength (Athletics) check as an eylem to escape. The DM can adjust the DC higher or lower, depending on the nature of the rubble. On a successful save, the creature takes half as much damage and doesn't fall {@condition prone} or become buried."
+				"Menzilinde görebildiğin zemindeki bir noktada sismik bir sallantı yaratırsın. Süre boyunca, şiddetli bir deprem o seçtiğin noktada 100 fit yarıçaplı bir çember içerisine vurur ve o alanda yerle bağlantılı tüm varlık ve yapıları sarsar.",
+				"Alandaki zemin zorlu arazi olur. Yerde konsantre olan tüm varlıklar Dayanıklılık kurtulma zarı atar. Başarısız olursa, varlığın konsantrasyonu bozulur.",
+				"Bu büyüyü yaptığında ve ona konsantre olduğun her sıranın sonunda, alandaki tüm varlıklar Çeviklik kurtulma zarı atar. Başarısız olursa bir varlık yere düşer.",
+				"DM'in kararıyla bu büyü, alandaki araziye bağlı olarak fazladan etkiler gösterebilir.",
+				"Çatlaklar. Büyüyü yaptıktan sonraki sıranın başında büyünün alanında çatlaklar açılmaya başlar. Toplamda {@dice 1d6} adet çatlak DM'in seçeceği yerlerde açılır. Her biri {@dice 1d10} x 10 fit derinlikte ve 10 fit genişlikte olur, ve büyü alanının bir ucundan diğer ucuna uzanır. Çatlak açılan yerde bulunan bir varlık Çeviklik kurtulma zarı atar ya da içine düşer. Başarılı olan bir varlık açılırken çatlağın kenarı ile hareket eder. Bir yapının altında açılan çatlak onun otomatik olarak çökmesine sebep olur (aşağıya bak).",
+				"Yapılar. Deprem ilk büyüyü yaptığında ve büyüye konsantre olmaya devam ettiğin sonraki tüm sıralarının başında yerle bağlantısı olan alanındaki her yapıya 50 ezme hasarı verir. Eğer bir yapı 0 HP'ye düşerse yıkılır ve yakındaki varlıklara hasar verme ihtimali vardır. Yapının yüksekliğinin yarısı kadar mesafede olan bir varlık Çeviklik kurtulma zarı atar. Başarısız olursa, bir varlık {@dice 5d6} ezme hasarı alır, yere düşer ve molozların arasında gömülü kalır, kurtulmak için eylem olarak DC 20 Kuvvet (Atletizm) zarı gerektirir. DM, molozun yapısına göre DC'yi artırıp azaltabilir. Başarılı olursa, varlık yarı hasar alır ve düşmez ya da gömülü kalmaz."
 			],
 			"page": 236,
 			"damageInflict": [
@@ -9324,7 +9324,7 @@
 			"page": 239
 		},
 		{
-			"name": "Feeblemind",
+			"name": "Feeblemind (Aptallaştır)",
 			"level": 8,
 			"school": "E",
 			"time": [
@@ -9343,7 +9343,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a handful of clay, crystal, glass, or mineral spheres"
+				"m": "bir tutam kil, kristal, cam, ya da mineral küreleri"
 			},
 			"duration": [
 				{
@@ -9372,10 +9372,10 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You blast the mind of a creature that you can see within range, attempting to shatter its intellect and personality. The target takes {@dice 4d6} psişik damage and must make an Intelligence saving throw.",
-				"On a failed save, the creature's Intelligence and Charisma scores become 1. The creature can't cast spells, activate magic items, understand language, or communicate in any intelligible way. The creature can, however, identify its friends, follow them, and even protect them.",
-				"At the end of every 30 gün, the creature can repeat its saving throw against this spell. If it succeeds on its saving throw, the spell ends.",
-				"The spell can also be ended by greater restoration, heal or wish."
+				"Menzilinde görebildiğin bir varlığın zihnini patlatır, onun zeka ve kişiliğini kırmaya çalışırsın. Hedef {@dice 4d6} psişik hasar alır ve Zeka kurtulma zarı atar.",
+				"Başarısız olursa, varlığın Zeka ve Karizma skorları 1 olur. Varlık büyü yapamaz, büyülü eşya etkinleştiremez, dil anlayamaz, ya da anlaşılır bir şekilde iletişim kuramaz. Ama varlık arkadaşlarını tanıyabilir, onları takip edebilir ve hatta onları koruyabilir.",
+				"Her 30 günün sonunda, varlık bu büyüye karşı kurtulma zarını tekrarlayabilir. Başarılı olursa büyü sonlanır.",
+				"Bu büyü ayrıca greater restoration (üstün yenileme), heal (şifa) veya wish (dilek) büyüleri ile de sonlandırılabilir."
 			],
 			"page": 239,
 			"damageInflict": [
@@ -11124,7 +11124,7 @@
 			"page": 245
 		},
 		{
-			"name": "Glibness",
+			"name": "Glibness (Akıcı Konuşma)",
 			"level": 8,
 			"school": "T",
 			"time": [
@@ -11165,7 +11165,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Until the spell ends, when you make a Charisma check, you can replace the number you roll with a 15. Additionally, no matter what you say, magic that would determine if you are telling the truth indicates that you are being truthful."
+				"Büyü bitene dek, bir Karizma zarı attığında, attığın zarı 15 ile değiştirebilirsin. Ayrıca, ne dersen de, senin yalan söyleyip söylemediğini tespit eden büyüler doğruyu söylediğini gösterir."
 			],
 			"page": 245
 		},
@@ -13109,7 +13109,7 @@
 			]
 		},
 		{
-			"name": "Holy Aura",
+			"name": "Holy Aura (Kutsal Aura)",
 			"level": 8,
 			"school": "A",
 			"time": [
@@ -13128,7 +13128,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a tiny reliquary worth at least 1,000 gp containing a sacred relic, such as a scrap of cloth from a saint's robe or a piece of parchment from a religious text",
+					"text": "bir azizin cüppesinden kumaş parçası ya da kutsal metinden bir parşömen parçası gibi kutsal bir emanet taşıyan, en az 1000 gp değerinde minik bir röliker",
 					"cost": 1000
 				}
 			},
@@ -13152,7 +13152,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Divine light washes out from you and coalesces in a soft radiance in a 30-foot radius around you. Creatures of your choice in that radius when you cast this spell shed dim light in a 5-foot radius and have advantage on all saving throws, and other creatures have disadvantage on attack rolls against them until the spell ends. In addition, when a fiend or an undead hits an affected creature with a melee attack, the aura flashes with brilliant light. The attacker must succeed on a Constitution saving throw or be {@condition blinded} until the spell ends."
+				"Senden kutsal ışık yayılır ve 30 fit çevrene hafif bir parlaklık olarak kaynaşır. Bu büyüyü yaptığında alanda bulunan seçeceğin varlıklar 5 fit çevrelerine loş ışık saçarlar, tüm kurtulma zarlarında avantajlı olurlar, ve diğer varlıklar büyü bitene dek onlara saldırılarında dezavantajlı olurlar. Ek olarak, bir zebani ya da yaşayan ölü etkilenen bir varlığa yakın dövüş saldırısı ile vurduğunda, aura göz alıcı bir ışıkla parlar. Saldırgan Dayanıklılık kurtulma zarı atar ya da büyü bitene kadar {@condition körlük} durumunda olur."
 			],
 			"page": 251,
 			"savingThrow": [
@@ -13692,7 +13692,7 @@
 			]
 		},
 		{
-			"name": "Incendiary Cloud",
+			"name": "Incendiary Cloud (Yanıcı Bulut)",
 			"level": 8,
 			"school": "C",
 			"time": [
@@ -13736,9 +13736,9 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"A swirling cloud of smoke shot through with white-hot embers appears in a 20-foot-radius sphere centered on a point within range. The cloud spreads around corners and is heavily obscured. It lasts for the duration or until a wind of moderate or greater speed (at least 10 miles per saat) disperses it.",
-				"When the cloud appears, each creature in it must make a Dexterity saving throw. A creature takes {@dice 10d8} ateş damage on a failed save, or half as much damage on a successful one. A creature must also make this saving throw when it enters the spell's area for the first time on a turn or ends its turn there.",
-				"The cloud moves 10 feet directly away from you in a direction that you choose at the start of each of your turns."
+				"Menzilinde bir nokta merkezli 20 fit yarıçaplı bir küre, içerisinde beyaz yanan közler arasından çıkan dönen bir duman bulutu ile dolar. Bulut köşelerin ardına yayılır ve ağır bir şekilde örtülüdür. Süresi boyunca ya da orta veya daha hızlı bir rüzgar (en az saatte 10 mil) dağıtana kadar kalır.",
+				"Bulut belirdiğinde, içindeki her varlık Çeviklik kurtulma zarı atar. Başarısız olan bir varlık {@dice 10d8} ateş hasarı alır, başarılı olursa bunun yarısını. Bir varlık bu kurtulma zarını eğer büyünün alanına sırasında ilk defa girerse ya da sırasını orada bitirirse de atar.",
+				"Her sıranın başında seçeceğin bir yöne doğru bulut doğrudan 10 fit ilerler."
 			],
 			"page": 253,
 			"damageInflict": [
@@ -15711,7 +15711,7 @@
 			]
 		},
 		{
-			"name": "Maze",
+			"name": "Maze (Labirent)",
 			"level": 8,
 			"school": "C",
 			"time": [
@@ -15751,9 +15751,9 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You banish a creature that you can see within range into a labyrinthine demiplane. The target remains there for the duration or until it escapes the maze.",
-				"The target can use its eylem to attempt to escape. When it does so, it makes a DC 20 Intelligence check. If it succeeds, it escapes, and the spell ends (a minotaur or goristro demon automatically succeeds).",
-				"When the spell ends, the target reappears in the space it left or, if that space is occupied, in the nearest unoccupied space."
+				"Menzilinde görebildiğin bir varlığı labirent benzeri bir yarıboyuta kovarsın. Varlık süre boyunca ya da labirentten kaçana kadar orada kalır.",
+				"Hedef eylemini kullanıp kaçmaya çalışabilir. Bunu yaptığında, DC 20 Zeka zarı atar. Eğer başarılı olursa, kaçar ve büyü biter (bir minotaur ya da goristro iblisi otomatik olarak başarılı olur).",
+				"Büyü bittiğinde, hedef terkettiği alana ya da o alan doluysa en yakın boş alana döner."
 			],
 			"page": 258
 		},
@@ -16055,7 +16055,7 @@
 			]
 		},
 		{
-			"name": "Mind Blank",
+			"name": "Mind Blank (Zihin Boşalt)",
 			"level": 8,
 			"school": "A",
 			"time": [
@@ -16097,7 +16097,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Until the spell ends, one willing creature you touch is immune to psişik damage, any effect that would sense its emotions or read its thoughts, divination spells, and the {@condition charmed} condition. The spell even foils wish spells and spells or effects of similar power used to affect the target's mind or to gain information about the target."
+				"Büyü bitene dek, dokunduğun istekli bir varlık psişik hasara, onun hislerini ya da düşüncelerini okumaya çalışan etkilere, divination büyülerine, ve {@condition cezbedilme} durumuna bağışık olur. Büyü, hedefin zihnini etkilemeye ya da hakkında bilgi almaya çalışan, wish (dilek) büyüsü ve benzeri büyü ve etkilerin bile gücünü hiçe sayar."
 			],
 			"page": 259,
 			"damageInflict": [
@@ -18090,7 +18090,7 @@
 			"page": 266
 		},
 		{
-			"name": "Power Word Stun",
+			"name": "Power Word Stun (Güç Sözü Sersemle)",
 			"level": 8,
 			"school": "E",
 			"time": [
@@ -18136,8 +18136,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You speak a word of power that can overwhelm the mind of one creature you can see within range, leaving it dumbfounded. If the target has 150 hit points or fewer, it is {@condition stunned}. Otherwise, the spell has no effect.",
-				"The {@condition stunned} target must make a Constitution saving throw at the end of each of its turns. On a successful save, this stunning effect ends."
+				"Menzilinde görebildiğin bir varlığın zihnini kaplayıp onu sersemletebilecek bir güç sözü söylersin. Eğer hedefin 150 veya altında HP'si varsa, {@condition sersemleme} durumuna girer. Aksi takdirde büyünün hiçbir etkisi yoktur.",
+				"{@condition Sersemleme} durumundaki hedef, her sırasının sonunda Dayanıklılık kurtulma zarı atar. Başarılı olursa sersemletici etki biter."
 			],
 			"page": 267,
 			"savingThrow": [
@@ -22548,7 +22548,7 @@
 			]
 		},
 		{
-			"name": "Sunburst",
+			"name": "Sunburst (Güneş Patlaması)",
 			"level": 8,
 			"school": "V",
 			"time": [
@@ -22567,7 +22567,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "ateş and a piece of sunstone"
+				"m": "ateş ve bir parça güneş taşı"
 			},
 			"duration": [
 				{
@@ -22592,9 +22592,9 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Brilliant sunlight flashes in a 60-foot radius centered on a point you choose within range. Each creature in that light must make a Constitution saving throw. On a failed save, a creature takes {@dice 12d6} radyant damage and is {@condition blinded} for 1 dakika. On a successful save, it takes half as much damage and isn't {@condition blinded} by this spell. Undead and oozes have disadvantage on this saving throw.",
-				"A creature {@condition blinded} by this spell makes another Constitution saving throw at the end of each of its turns. On a successful save, it is no longer {@condition blinded}.",
-				"This spell dispels any darkness in its area that was created by a spell."
+				"Menzilinde seçeceğin bir nokta merkezli 60 fit yarıçapta göz alıcı güneş ışığı parlar. Bu ışıktaki her varlık Dayanıklılık kurtulma zarı atar. Başarısız olursa, bir varlık {@dice 12d6} radyant hasar alır ve 1 dakikalığına {@condition körlük} durumunda olur. Başarılı olursa, yarı hasarı alır ve bu büyü tarafından kör edilmez. Yaşayan ölüler ve balçıklar bu kurtulma zarını dezavantajlı atar.",
+				"Bu büyü tarafından {@condition körlük} etkisinde olan bir varlık her sırasının sonunda bir Dayanıklılık kurtulma zarı daha atar. Başarılı olursa, artık {@condition körlük} etkisinde değildir.",
+				"Bu büyü alanındaki büyü tarafından yaratılmış tüm karanlıkları defeder."
 			],
 			"page": 279,
 			"damageInflict": [
@@ -22923,7 +22923,7 @@
 			"page": 280
 		},
 		{
-			"name": "Telepathy",
+			"name": "Telepathy (Telepati)",
 			"level": 8,
 			"school": "V",
 			"time": [
@@ -22941,7 +22941,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a pair of linked silver rings"
+				"m": "bir çift bağlı gümüş yüzük"
 			},
 			"duration": [
 				{
@@ -22962,8 +22962,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You create a telepathic link between yourself and a willing creature with which you are familiar. The creature can be anywhere on the same plane of existence as you. The spell ends if you or the target are no longer on the same plane.",
-				"Until the spell ends, you and the target can instantaneously share words, images, sounds, and other sensory messages with one another through the link, and the target recognizes you as the creature it is communicating with. The spell enables a creature with an Intelligence score of at least 1 to understand the meaning of your words and take in the scope of any sensory messages you send to it."
+				"Sen ve aşina olduğun istekli bir varlık arasında telepatik bir bağ kurarsın. Varlık senle aynı boyut içerisinde herhangi bir yerde olabilir. Eğer sen ya da hedef farklı bir boyuta geçerse büyü sonlanır.",
+				"Büyü bitene dek, sen ve hedef anında kelime, görüntü, ses, ve diğer duyusal mesajları bağ üzerinden birbirinizle paylaşabilirsiniz, ve hedef seni iletişim kurduğu kişi olarak tanır. Büyü en az 1 Zeka skoru olan varlıkların, senin sözlerinin ve gönderdiğin duyusal mesajların anlamlarını kavrayabilmesini sağlar."
 			],
 			"page": 281
 		},
@@ -24004,10 +24004,10 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"A wall of water springs into existence at a point you choose within range. You can make the wall up to 300 feet long, 300 feet high, and 50 feet thick. The wall lasts for the duration.",
-				"When the wall appears, each creature within its area must make a Strength saving throw. On a failed save, a creature takes {@dice 6d10} ezme damage, or half as much damage on a successful save.",
-				"At the start of each of your turns after the wall appears, the wall, along with any creatures in it, moves 50 feet away from you. Any Huge or smaller creature inside the wall or whose space the wall enters when it moves must succeed on a Strength saving throw or take {@dice 5d10} ezme damage. A creature can take this damage only once per round. At the end of the turn, the wall's height is reduced by 50 feet, and the damage creatures take from the spell on subsequent rounds is reduced by {@dice 1d10}. When the wall reaches 0 feet in height, the spell ends.",
-				"A creature caught in the wall can move by swimming. Because of the güç of the wave, though, the creature must make a successful Strength (Athletics) check against your spell save DC in order to move at all. If it fails the check, it can't move. A creature that moves out of the area falls to the ground."
+				"Menzilinde seçeceğin bir noktada sudan bir duvar belirir. Bu duvarı 300 fite kadar uzunlukta, 300 fite kadar yükseklikte, ve 50 fite kadar kalınlıkta yapabilirsin. Duvar süre boyunca kalır.",
+				"Duvar ortaya çıktığında, alanında bulunan her varlık Kuvvet kurtulma zarı atar. Başarısız olursa bir varlık {@dice 6d10} ezme hasarı alır, başarılı olursa bunun yarısını.",
+				"Duvar ortaya çıktıktan sonra her sıranın başında, duvar, içindeki varlıklarla birlikte senden 50 fit uzaklaşır. Duvarın içinde olan ya da duvarın hareket ederken alanına girdiği tüm Dev veya daha küçük boydaki varlıklar Kuvvet kurtulma zarı atar ya da {@dice 5d10} ezme hasarı alır. Bir varlık bu hasarı roundda sadece 1 kere alır. Sıranın sonunda, duvarın yüksekliği 50 fit, ve sonraki sıralarda varlıkların büyüden aldıkları hasar {@dice 1d10} azalır. Duvar yüksekliği 0 fite düştüğünde, büyü biter.",
+				"Duvara yakalanan bir varlık yüzerek hareket edebilir. Ama dalganın gücünden dolayı, varlık hareket edebilmek için senin büyü kurtulma DC'ne karşı Kuvvet (Atletizm) zarı atar. Eğer başarısız olursa, hareket edemez. Alandan çıkan bir varlık yere düşer."
 			],
 			"page": 284,
 			"damageInflict": [
