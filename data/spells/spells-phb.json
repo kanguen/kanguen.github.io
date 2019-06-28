@@ -1191,7 +1191,7 @@
 			]
 		},
 		{
-			"name": "Astral Projection",
+			"name": "Astral Projection (Astral Yansıtma)",
 			"level": 9,
 			"school": "N",
 			"time": [
@@ -1211,7 +1211,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "for each creature you affect with this spell, you must provide one jacinth worth at least 1,000 gp and one ornately carved bar of silver worth at least 100 gp, all of which the spell consumes",
+					"text": "bu büyü ile etkilediğin her varlık için, en az 1000 gp değerinde bir sümbül ve oymalarla süslenmiş en az 100 gp değerinde bir gümüş çubuk, hepsini büyü tüketir",
 					"cost": 1000,
 					"consume": true
 				}
@@ -1239,12 +1239,12 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You and up to eight willing creatures within range project your astral bodies into the Astral Plane (the spell fails and the casting is wasted if you are already on that plane). The material body you leave behind is {@condition unconscious} and in a state of suspended animation, it doesn't need food or air and doesn't age.",
-				"Your astral body resembles your mortal form in almost every way, replicating your game statistics and possessions. The principal difference is the addition of a silvery cord that extends from between your shoulder blades and trails behind you, fading to invisibility after 1 foot. This cord is your tether to your material body. As long as the tether remains intact, you can find your way home. If the cord is cut-something that can happen only when an effect specifically states that it does-your soul and body are separated, killing you instantly.",
-				"Your astral form can freely travel through the Astral Plane and can pass through portals there leading to any other plane. If you enter a new plane or return to the plane you were on when casting this spell, your body and possessions are transported along the silver cord, allowing you to re-enter your body as you enter the new plane. Your astral form is a separate incarnation. Any damage or other effects that apply to it have no effect on your physical body, nor do they persist when you return to it.",
-				"The spell ends for you and your companions when you use your eylem to dismiss it. When the spell ends, the affected creature returns to its physical body, and it awakens.",
-				"The spell might also end early for you or one of your companions. A successful dispel magic spell used against an astral or physical body ends the spell for that creature. If a creature's original body or its astral form drops to 0 hit points, the spell ends for that creature. If the spell ends and the silver cord is intact, the cord pulls the creature's astral form back to its body, ending its state of suspended animation.",
-				"If you are returned to your body prematurely, your companions remain in their astral forms and must find their own way back to their bodies, usually by dropping to 0 hit points."
+				"Sen ve menzilindeki 8 taneye kadar istekli varlık astral bedenlerinizi Astral Boyuta yansıtırsınız (eğer zaten o boyuttaysan büyü başarısız olur ve kullanım harcanır). Geride bıraktığın materyal beden {@condition bilinçsizlik} durumunda ve canlılığı askıya alınmış bir haldedir, yiyecek veya hava gerektirmez ve yaşlanmaz.",
+				"Astral bedenin her yönden ölümlü bedenine benzer, oyun istatistiklerini ve ekipmanını kopyalar. Temel değişim gümüş bir bağın eklenmesidir, bu bağ kürek kemiklerinin arasından çıkar ve 1 fit geri gittikten sonra görünmez olur. Bu bağ senin materyal bedenine olan bağındır. Bağ sağlam kaldığı sürece, eve yolunu bulabilirsin. Eğer bağ kesilirse (bu sadece bir etki özellikle belirtirse gerçekleşebilir), ruhun ve bedenin birbirinden ayrılır, anında ölürsün.",
+				"Astral formun serbestçe Astral Boyutta seyahat edebilir ve oradan diğer boyutlara açılan portallara girebilir. Yeni bir boyuta girersen ya da bu büyüyü yaptığın boyuta geri dönersen, bedenin ve ekipmanın gümüş bağ üzerinde taşınır, ve yeni boyuta materyal bedeninle girmeni sağlar. Senin astral formun farklı bir cisimleşmedir. Ona gelen hasar veya diğer etkiler fiziksel bedenini etkilemez, sen bedenine döndüğünde devam da etmezler.",
+				"Sen eylemini kullanıp bunu savdığında, büyü sen ve yoldaşların için sonlanır. Büyü bittiğinde, etkilenen varlık fiziksel bedenine döner ve uyanır.",
+				"Büyü sen veya bir yoldaşın için erken de bitebilir. Bir astral ya da fiziksel beden üzerinde kullanılan başarılı bir dispel magic (büyü defet) büyüsü, o varlık için büyüyü sonlandırır. Eğer bir varlığın asıl ya da astral bedeni 0 HP'ye düşerse, büyü o varlık için sonlanır. Eğer büyü biterse ve gümüş bağ sağlamsa, bağ varlığın astral formunu bedenine çeker, ve askıya alınmış canlılık durumunu sonlandırır.",
+				"Eğer bedenine erken döndürülürsen, yoldaşların astral formlarında kalırlar ve bedenlerine kendi yollarını bulmak zorundadırlar, genellikle 0 HP'ye düşerek yapılır."
 			],
 			"page": 215
 		},
@@ -2941,7 +2941,7 @@
 			"source": "PHB",
 			"entries": [
 				"Ellerini başparmaklar birbirine dokunur ve diğer parmaklar açık halde ileri uzattığında, bu parmak uçlarından ince bir katman ateş çıkar. 15 fitlik bir konideki tüm varlıklar Çeviklik kurtulma zarı atar. Bir varlık başarısız olursa {@dice 3d6} ateş hasarı alır, başarılı olursa da yarı hasar alır.",
-				"Bu ateş alan içerisinde taşınmayan ya da giyilmeyen tüm yanıcı maddeleri tutuşturur."
+				"Bu ateş alan içerisinde taşınmayan ve giyilmeyen tüm yanıcı maddeleri tutuşturur."
 			],
 			"entriesHigherLevel": [
 				{
@@ -10546,7 +10546,7 @@
 			]
 		},
 		{
-			"name": "Foresight",
+			"name": "Foresight (Öngörü)",
 			"level": 9,
 			"school": "D",
 			"time": [
@@ -10564,7 +10564,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a hummingbird feather"
+				"m": "bir sinekkuşu tüyü"
 			},
 			"duration": [
 				{
@@ -10597,8 +10597,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You touch a willing creature and bestow a limited ability to see into the immediate future. For the duration, the target can't be surprised and has advantage on attack rolls, ability checks, and saving throws. Additionally, other creatures have disadvantage on attack rolls against the target for the duration.",
-				"This spell immediately ends if you cast it again before its duration ends."
+				"İstekli bir varlığa dokunup ona sınırlı bir şekilde çok yakın geleceği görme yeteneğini bahşedersin. Süre boyunca, hedef sürprize uğrayamaz ve saldırı, yetenek, ve kurtulma zarlarında avantajı vardır. Ayrıca, süre boyunca diğer varlıkların hedefe yaptıkları saldırılar dezavantajlı olur.",
+				"Eğer süresi bitmeden bu büyüyü yeniden kullanırsan, büyü anında biter."
 			],
 			"page": 244
 		},
@@ -10864,7 +10864,7 @@
 			]
 		},
 		{
-			"name": "Gate",
+			"name": "Gate (Geçit)",
 			"level": 9,
 			"school": "C",
 			"time": [
@@ -10884,7 +10884,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a diamond worth at least 5,000 gp",
+					"text": "en az 5000 gp değerinde bir elmas",
 					"cost": 5000
 				}
 			},
@@ -10916,10 +10916,10 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You conjure a portal linking an unoccupied space you can see within range to a precise location on a different plane of existence. The portal is a circular opening, which you can make 5 to 20 feet in diameter. You can orient the portal in any direction you choose. The portal lasts for the duration.",
-				"The portal has a front and a back on each plane where it appears. Travel through the portal is possible only by moving through its front. Anything that does so is instantly transported to the other plane, appearing in the unoccupied space nearest to the portal.",
-				"Deities and other planar rulers can prevent portals created by this spell from opening in their presence or anywhere within their domains.",
-				"When you cast this spell, you can speak the name of a specific creature (a pseudonym, title, or nickname doesn't work). If that creature is on a plane other than the one you are on, the portal opens in the named creature's immediate vicinity and draws the creature through it to the nearest unoccupied space on your side of the portal. You gain no special power over the creature, and it is free to act as the DM deems appropriate. It might leave, attack you, or help you."
+				"Menzilinde görebildiğin boş bir alanı, farklı bir boyutta kesin bir noktaya bağlayan bir portal yaratırsın. Portal yuvarlak bir açıklıktır ve bunu 5 ile 20 fit arası çapta yapabilirsin. Portalı istediğin yöne doğru açabilirsin ve süre boyunca kalır.",
+				"Portalın belirdiği boyutlarda bir önü bir de arkası vardır. Portaldan seyahat sadece önünden girmeyle mümkündür. Bunu yapan herşey anında diğer boyuta taşınır, portala en yakın boş alanda belirir.",
+				"Tanrılar ve diğer boyutsal hükümdarlar bu büyünün, onların huzurunda ya da nüfuz alanlarında portal açmasını engelleyebilir.",
+				"Bu büyüyü yaptığında, belirli bir varlığın adını söyleyebilirsin (bir mahlas, tahma ad, ya da ünvan işlemez). Eğer o varlık senden farklı bir boyutta ise, portal o varlığın hemen yanında açılır ve onu portalın senin tarafındaki en yakın boş alana çeker. Varlık üzerinde hiçbir özel güce sahip olmazsın, ve DM'in uygun gördüğü şekilde hareket etmekte serbesttir. Terkedebilir, saldırabilir ya da sana yardım edebilir."
 			],
 			"page": 244
 		},
@@ -13588,7 +13588,7 @@
 			"page": 252
 		},
 		{
-			"name": "Imprisonment",
+			"name": "Imprisonment (Hapis)",
 			"level": 9,
 			"school": "A",
 			"time": [
@@ -13608,7 +13608,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a vellum depiction or a carved statuette in the likeness of the target, and a special component that varies according to the version of the spell you choose, worth at least 500 gp per Hit Die of the target",
+					"text": "hedefine benzer bir parşömen çizim ya da oyma heykelcik, ve büyünün seçtiğin şekline göre değişen özel bir bileşen, hedefin her HD'si için en az 500 gp değerinde",
 					"cost": 500
 				}
 			},
@@ -13634,57 +13634,57 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You create a magical restraint to hold a creature that you can see within range. The target must succeed on a Wisdom saving throw or be bound by the spell, if it succeeds, it is immune to this spell if you cast it again. While affected by this spell, the creature doesn't need to breathe, eat, or drink, and it doesn't age. Divination spells can't locate or perceive the target.",
-				"When you cast the spell, you choose one of the following forms of imprisonment.",
+				"Menzilinde görebildiğin bir varlığı zaptetmek için büyülü bir engel yaratırsın. Hedef Akıl kurtulma zarı atar veya bu büyü ile bağlanır, eğer başarılı olursa, bir daha yaparsan bu büyüye bağışıklığı olur. Bu büyü etkisi altındayken, varlığın nefes alma, yeme, içme gibi ihtiyaçları olmaz ve yaşlanmaz. Divination büyüleri hedefin yerini belirleyemez ya da algılayamaz.",
+				"Büyüyü yaptığında aşağıdaki hapis şekillerinden birini seçersin.",
 				{
 					"type": "entries",
-					"name": "Burial",
+					"name": "Defin",
 					"entries": [
-						"The target is entombed far beneath the earth in a sphere of magical güç that is just large enough to contain the target. Nothing can pass through the sphere, nor can any creature teleport or use planar travel to get into or out of it."
+						"Hedef toprağın derinliklerinde sadece onun sığabileceği bir güç küresi içerisinde gömülü kalır. Hiçbir şey küreden geçemez, ve hiçbir varlık ışınlanma veya boyutsal seyahat ile bunun içine ya da dışına geçemez."
 					]
 				},
-				"The special component for this version of the spell is a small mithral orb.",
+				"Büyünün bu tipinde özel bileşen küçük mithral bir küredir.",
 				{
 					"type": "entries",
-					"name": "Chaining",
+					"name": "Zincirleme",
 					"entries": [
-						"Heavy chains, firmly rooted in the ground, hold the target in place. The target is {@condition restrained} until the spell ends, and it can't move or be moved by any means until then."
+						"Yere sağlamca bağlanmış ağır zincirler hedefi yerinde tutar. Hedef büyü bitene dek {@condition kısıtlanma} durumundadır, ve bu etki kaldığı sürece hiçbir şekilde bir yere hareket edemez ya da ettirilemez."
 					]
 				},
-				"The special component for this version of the spell is a fine chain of precious metal.",
+				"Büyünün bu tipinde özel bileşen değerli metallerden hoş bir zincirdir.",
 				{
 					"type": "entries",
-					"name": "Hedged Prison",
+					"name": "Korumalı Hapis",
 					"entries": [
-						"The spell transports the target into a tiny demiplane that is warded against teleportation and planar travel. The demiplane can be a labyrinth, a cage, a tower, or any similar confined structure or area of your choice."
+						"Büyü, hedefi ışınlanma ve boyutsal seyahate karşı korumalı minik bir yarıboyuta gönderir. Bu yarıboyut seçimine göre bir labirent, kafes, kule, veya benzeri bir kısıtlı bina ya da alan olabilir."
 					]
 				},
-				"The special component for this version of the spell is a miniature representation of the prison made from jade.",
+				"Büyünün bu tipinde özel bileşen, hapsin yeşimden yapılma bir minyatürüdür.",
 				{
 					"type": "entries",
-					"name": "Minimus Containment",
+					"name": "Minimus Kapsama",
 					"entries": [
-						"The target shrinks to a height of 1 inch and is imprisoned inside a gemstone or similar object. Light can pass through the gemstone normally (allowing the target to see out and other creatures to see in), but nothing else can pass through, even by means of teleportation or planar travel. The gemstone can't be cut or broken while the spell remains in effect."
+						"Hedef 1 inç boyuta küçülür ve bir değerli taş veya benzeri bir nesnenin içine hapsolur. Işık değerli taştan normalce geçebilir (hedefin dışarısını ve diğer varlıkların da içerisini görmesini sağlar), ama başka hiçbir şey buradan geçemez, ışınlanma ve boyutsal seyahat dahil olmak üzere. Büyü aktif olduğu sürece bu değerli taş kesilemez ya da kırılamaz."
 					]
 				},
-				"The special component for this version of the spell is a large, transparent gemstone, such as a corundum, diamond, or ruby.",
+				"Büyünün bu tipinde özel bileşen, büyük, saydam bir değerli taştır, korindon, elmas veya yakut gibi.",
 				{
 					"type": "entries",
-					"name": "Slumber",
+					"name": "Uyku",
 					"entries": [
-						"The target falls asleep and can't be awoken."
+						"Hedef uykuya dalar ve uyandırılamaz."
 					]
 				},
-				"The special component for this version of the spell consists of rare soporific herbs.",
+				"Büyünün bu tipinde özel bileşen nadir uyku getiren otlardır.",
 				{
 					"type": "entries",
-					"name": "Ending the Spell",
+					"name": "Büyüyü Sonlandırma",
 					"entries": [
-						"During the casting of the spell, in any of its versions, you can specify a condition that will cause the spell to end and release the target. The condition can be as specific or as elaborate as you choose, but the DM must agree that the condition is reasonable and has a likelihood of coming to pass. The conditions can be based on a creature's name, identity, or deity but otherwise must be based on observable actions or qualities and not based on intangibles such as level, class, or hit points."
+						"Büyüyü yaparken, her tipinde, büyünün sonlanıp hedefi salıvereceği bir durum belirleyebilirsin. Bu durum istediğin kadar belirli ve karmaşık olabilir, ama DM ile bu şartın mantıklı ve gerçekleşme ihtimali olan bir şey olduğu konusunda hemfikir olmalısınız. Durumlar bir varlığın adı, kimliği, veya tanrısı ile ilgili olabilir ama bunların dışında gözlenebilen eylemler veya niteliklere bağlı olmalıdır, seviye, sınıf ya da HP gibi soyut kavramlar değil."
 					]
 				},
-				"A dispel magic spell can end the spell only if it is cast as a 9th-level spell, targeting either the prison or the special component used to create it.",
-				"You can use a particular special component to create only one prison at a time. If you cast the spell again using the same component, the target of the first casting is immediately freed from its binding."
+				"Bir dispel magic (büyü defet) büyüsü eğer sadece 9. seviye olarak kullanılırsa bu büyüyü sonlandırabilir, ya hapsi ya da onu yaratmak için kullanılmış özel bileşeni hedef alabilir.",
+				"Belirli bir özel bileşeni kullanarak aynı anda sadece bir tane hapis yaratabilirsin. Eğer aynı bileşeni kullanarak bu büyüyü tekrar yaparsan, ilk kullanımın hedefi anında hapsinden kurtulur."
 			],
 			"page": 252,
 			"savingThrow": [
@@ -15552,7 +15552,7 @@
 			"page": 258
 		},
 		{
-			"name": "Mass Heal",
+			"name": "Mass Heal (Toplu Şifa)",
 			"level": 9,
 			"school": "V",
 			"time": [
@@ -15587,7 +15587,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"A flood of healing energy flows from you into injured creatures around you. You restore up to 700 hit points, divided as you choose among any number of creatures that you can see within range. Creatures healed by this spell are also cured of all diseases and any effect making them {@condition blinded} or {@condition deafened}. This spell has no effect on undead or constructs."
+				"Bir iyileştirici enerji seli senden çevrendeki yaralı varlıklara doğru akar. Menzilinde görebildiğin ve seçeceğin, istediğin sayıda varlık arasında paylaştıracağın 700'e kadar HP yenilersin. Bu büyü ile iyileştirilen varlıklar ayrıca onları etkileyen tüm hastalıklar ve onları {@condition körlük} ya da {@condition sağırlık} durumuna sokan tüm etkilerden kurtulurlar. Bu büyü yaşayan ölüler ve yapıları etkilemez."
 			],
 			"page": 258
 		},
@@ -16003,7 +16003,7 @@
 			"page": 259
 		},
 		{
-			"name": "Meteor Swarm",
+			"name": "Meteor Swarm (Meteor Yığını)",
 			"level": 9,
 			"school": "V",
 			"time": [
@@ -16042,8 +16042,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Blazing orbs of ateş plummet to the ground at four different points you can see within range. Each creature in a 40-foot-radius sphere centered on each point you choose must make a Dexterity saving throw. The sphere spreads around corners. A creature takes {@dice 20d6} ateş damage and {@dice 20d6} ezme damage on a failed save, or half as much damage on a successful one. A creature in the area of more than one fiery burst is affected only once.",
-				"The spell damages objects in the area and ignites flammable objects that aren't being worn or carried."
+				"Menzilinde görebildiğin 4 ayrı noktaya, yanan alev küreleri düşer. Her noktanın merkezinde 40 fit yarıçaplı bir küre içerisindeki tüm varlıklar Çeviklik kurtulma zarı atar. Küre köşelerin ardına yayılır. Bir varlık başarısız olursa {@dice 20d6} ateş hasarı ve {@dice 20d6} ezme hasarı alır, başarılı olursa bunun yarısını. Birden çok patlamanın alanında kalan bir varlık sadece birinden etkilenir.",
+				"Büyü alandaki nesnelere hasar verir ve taşınmayan ve giyilmeyen yanıcı nesneleri tutuşturur."
 			],
 			"page": 259,
 			"damageInflict": [
@@ -17922,7 +17922,7 @@
 			]
 		},
 		{
-			"name": "Polymorph (Çok Biçimli)",
+			"name": "Polymorph (Polimorf)",
 			"level": 4,
 			"school": "T",
 			"time": [
@@ -18000,7 +18000,7 @@
 			]
 		},
 		{
-			"name": "Power Word Heal",
+			"name": "Power Word Heal (Güç Sözü Şifa)",
 			"level": 9,
 			"school": "V",
 			"time": [
@@ -18034,12 +18034,12 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"A wave of healing energy washes over the creature you touch. The target regains all its hit points. If the creature is {@condition charmed}, {@condition frightened}, {@condition paralyzed}, or {@condition stunned}, the condition ends. If the creature is {@condition prone}, it can use its reaksiyon to stand up. This spell has no effect on undead or constructs."
+				"Dokunduğun varlıktan bir iyileştirici enerji dalgası geçer. Hedef tüm HP'sini yeniler. Eğer varlık {@condition cezbedilme}, {@condition korkma}, {@condition felç}, veya {@condition sersemleme} etkileri altındaysa bu durum sonlanır. Eğer varlık {@condition yere düşme} durumundaysa, reaksiyonunu kullanıp ayağa kalkabilir. Bu büyü yaşayan ölü ve yapıları etkilemez."
 			],
 			"page": 266
 		},
 		{
-			"name": "Power Word Kill",
+			"name": "Power Word Kill (Güç Sözü Öl)",
 			"level": 9,
 			"school": "E",
 			"time": [
@@ -18085,7 +18085,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You utter a word of power that can compel one creature you can see within range to die instantly. If the creature you chose has 100 hit points or fewer, it dies. Otherwise, the spell has no effect."
+				"Menzilinde görebildiğin bir varlığı anında öldürebilecek bir güç sözü söylersin. Eğer seçtiğin varlık 100 ya da altında HP'ye sahipse, ölür. Aksi takdirde, büyüden etkilenmez."
 			],
 			"page": 266
 		},
@@ -18374,7 +18374,7 @@
 			]
 		},
 		{
-			"name": "Prismatic Wall",
+			"name": "Prismatic Wall (Prizmatik Duvar)",
 			"level": 9,
 			"school": "A",
 			"time": [
@@ -18413,57 +18413,57 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"A shimmering, multicolored plane of light forms a vertical opaque wall\u2014up to 90 feet long, 30 feet high, and 1 inch thick\u2014centered on a point you can see within range. Alternatively, you can shape the wall into a sphere up to 30 feet in diameter centered on a point you choose within range.",
-				"The wall remains in place for the duration. If you position the wall so that it passes through a space occupied by a creature, the spell fails, and your eylem and the spell slot are wasted. The wall sheds bright light out to a range of 100 feet and dim light for an additional 100 feet. You and creatures you designate at the time you cast the spell can pass through and remain near the wall without harm. If another creature that can see the wall moves to within 20 feet of it or starts its turn there, the creature must succeed on a Constitution saving throw or become {@condition blinded} for 1 dakika.",
-				"The wall consists of seven layers, each with a different color. When a creature attempts to reach into or pass through the wall, it does so one layer at a time through all the wall's layers. As it passes or reaches through each layer, the creature must make a Dexterity saving throw or be affected by that layer's properties as described below.",
-				"The wall can be destroyed, also one layer at a time, in order from red to violet, by means specific to each layer. Once a layer is destroyed, it remains so for the duration of the spell. An antimagic field has no effect on a prismatic wall.",
+				"Menzilinde görebildiğin bir noktada parıldayan, çokrenkli bir opak ışık düzlemi 90 fit uzunluğa, 30 fit yüksekliğe kadar, ve 1 inç kalınlıkta dikey bir duvar yaratır. Alternatif olarak, duvarı menzilinde seçeceğin bir nokta merkezli 30 fit çapta bir küre şekline sokabilirsin.",
+				"Duvar süre boyunca yerinde kalır. Eğer duvarı başka bir varlığın alanından geçecek şekilde konumlandırırsan, büyü başarısız olur, ve senin eylemin ve büyü yuvan harcanır. Duvar 100 fite kadar parlak, sonrasında 100 fit daha loş ışık saçar. Sen ve kullanırken belirlediğin diğer varlıklar duvardan geçebilir ve sorunsuzca yakınında kalabilirsiniz. Eğer duvarı görebilen başka bir varlık duvara 20 fit yaklaşırsa ya da sırasına orada başlarsa, varlık Dayanıklılık kurtulma zarı atar ya da 1 dakikalığına {@condition körlük} durumunda olur.",
+				"Duvar yedi katmandan oluşur, her biri farklı bir renkte. Bir varlık duvarın içinden uzanmaya ya da geçmeye çalışırsa, duvarın her katmanından sırayla geçmek zorunda kalır. Her katmandan geçerken, varlık Çeviklik kurtulma zarı atar ya da aşağıda verildiği şekilde o katmanın özelliklerinden etkilenir.",
+				"Duvar katman katman yok edilebilir, sırasıyla kırmızıdan mora her katmana özel bir yol vardır. Bir katman yok edildiğinde, büyü süresince öyle kalır. Bir antimagic field (büyü karşıtı alan) prismatik duvar üzerinde etki göstermez.",
 				{
 					"type": "entries",
-					"name": "Red",
+					"name": "Kırmızı",
 					"entries": [
-						"The creature takes {@dice 10d6} ateş damage on a failed save, or half as much damage on a successful one. While this layer is in place, nonmagical ranged attacks can't pass through the wall. The layer can be destroyed by dealing at least 25 soğuk damage to it."
+						"Varlık başarısız olursa {@dice 10d6} ateş hasarı alır, başarılı olursa bunun yarısını. Bu katman yerindeyken, büyüsüz menzilli saldırılar duvardan geçemez. Bu katman ona en az 25 soğuk hasarı vererek yokedilebilir."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Orange",
+					"name": "Turuncu",
 					"entries": [
-						"The creature takes {@dice 10d6} asit damage on a failed save, or half as much damage on a successful one. While this layer is in place, magical ranged attacks can't pass through the wall. The layer is destroyed by a strong wind."
+						"Varlık başarısız olursa {@dice 10d6} asit hasarı alır, başarılı olursa bunun yarısını. Bu katman yerindeyken, büyülü menzilli saldırılar duvardan geçemez. Bu katman güçlü bir rüzgar ile yokedilebilir."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Yellow",
+					"name": "Sarı",
 					"entries": [
-						"The creature takes {@dice 10d6} yıldırım damage on a failed save, or half as much damage on a successful one. This layer can be destroyed by dealing at least 60 güç damage to it."
+						"Varlık başarısız olursa {@dice 10d6} yıldırım hasarı alır, başarılı olursa bunun yarısını. Bu katman ona en az 60 güç hasarı vererek yokedilebilir."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Green",
+					"name": "Yeşil",
 					"entries": [
-						"The creature takes {@dice 10d6} zehir damage on a failed save, or half as much damage on a successful one. A passwall spell, or another spell of equal or greater level that can open a portal on a solid surface, destroys this layer."
+						"Varlık başarısız olursa {@dice 10d6} zehir hasarı alır, başarılı olursa bunun yarısını. Bir passwall (duvar geçidi) büyüsü, veya katı bir zeminde portal açabilen eşit seviyede veya üzerinde bir büyü, bu katmanı yokeder."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Blue",
+					"name": "Mavi",
 					"entries": [
-						"The creature takes {@dice 10d6} soğuk damage on a failed save, or half as much damage on a successful one. This layer can be destroyed by dealing at least 25 ateş damage to it."
+						"Varlık başarısız olursa {@dice 10d6} soğuk hasarı alır, başarılı olursa bunun yarısını. Bu katman ona en az 25 ateş hasarı vererek yokedilebilir."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Indigo",
+					"name": "Çivit Mavisi",
 					"entries": [
-						"On a failed save, the creature is {@condition restrained}. It must then make a Constitution saving throw at the end of each of its turns. If it successfully saves three times, the spell ends. If it fails its save three times, it permanently turns to stone and is subjected to the {@condition petrified} condition. The successes and failures don't need to be consecutive, keep track of both until the creature collects three of a kind. While this layer is in place, spells can't be cast through the wall. The layer is destroyed by bright light shed by a daylight spell or a similar spell of equal or higher level."
+						"Varlık başarısız olursa, {@condition kısıtlanma} durumunda olur. Sonra her sırasının sonunda bir Dayanıklılık kurtulma zarı atar. Eğer 3 kere başarılı olursa, büyü biter. Eğer 3 kere başarısız olursa, kalıcı bir şekilde taşa döner ve {@condition taşa dönme} durumunda olur. Başarılar ve başarısızlıklar art arda olmak zorunda değildir, birinden 3 tane olana kadar takip edersin. Bu katman yerindeyken, duvarın içinden büyü geçemez. Bu katman daylight (gün ışığı) büyüsü veya aynı seviye ya da üzeri benzer bir büyünün saçtığı parlak ışık ile yokedilebilir."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Violet",
+					"name": "Mor",
 					"entries": [
-						"On a failed save, the creature is {@condition blinded}. It must then make a Wisdom saving throw at the start of your next turn. A successful save ends the blindness. If it fails that save, the creature is transported to another plane of the DM's choosing and is no longer {@condition blinded}. (Typically, a creature that is on a plane that isn't its home plane is banished home, while other creatures are usually cast into the Astral or Ethereal planes.) This layer (and only this layer) is destroyed by a dispel magic spell or a similar spell of equal or higher level that can end spells and magical effects."
+						"Varlık başarısız olursa, {@condition körlük} durumunda olur. Bir sonraki sıranın başında Akıl kurtulma zarı atar. Başarılı olursa körlük biter. Eğer başarısız olursa, varlık DM'in seçeceği başka bir boyuta gider ve artık kör değildir. (Genellikle, kendi boyutunda olmayan bir varlık asıl boyutuna döner, diğer varlıklar Astral ya da Ethereal boyutlara atılırlar.) Bu katman (ve sadece bu katman) dispel magic (büyü defet) büyüsü veya aynı seviye ya da üzeri benzer şekilde büyü ve etkilerini sonlandıran bir büyü tarafından yokedilebilir."
 					]
 				}
 			],
@@ -20602,7 +20602,7 @@
 			"page": 274
 		},
 		{
-			"name": "Shapechange",
+			"name": "Shapechange (Şekildeğiş)",
 			"level": 9,
 			"school": "T",
 			"time": [
@@ -20621,7 +20621,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a jade circlet worth at least 1,500 gp, which you must place on your head before you cast the spell",
+					"text": "büyüyü yapmadan önce başına takman gereken en az 1500 gp değerinde bir yeşim taç",
 					"cost": 1500
 				}
 			},
@@ -20649,12 +20649,12 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You assume the form of a different creature for the duration. The new form can be any creature with a challenge rating equal to your level or lower. The creature can't be a construct or an undead, and you must have seen the sort of creature at least once. You transform into an average example of that creature, one without any class levels or the Spellcasting trait.",
-				"Your game statistics are replaced by the statistics of the chosen creature, though you retain your alignment and Intelligence, Wisdom, and Charisma scores You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the creature, If the creature has the same proficiency as you, and the bonus listed in its statistics is higher than yours, use the creature's bonus in place of yours. You can't use any legendary actions or lair actions of the new form.",
-				"You assume the hit points and Hit Dice of the new form. When you revert to your normal, you return to the number of hit points you had before you transformed. If you revert as a result of dropping to 0 hit points, any excess damage carries over to your normal form. As long as the excess damage doesn't reduce your normal form to 0 hit points, you aren't knocked {@condition unconscious}.",
-				"You retain the benefit of any features from your class, race, or other source and can use them, provided that your new form is physically capable of doing so. You can't use any special senses you have (for example, darkvision) unless your new form also has that sense. You can only speak if the creature can normally speak.",
-				"When you transform, you choose whether your equipment falls to the ground, merges into the new form, or is worn by it. Worn equipment functions as normal. The DM determines whether it is practical for the new form to wear a piece of equipment, based on the creature's shape and size. Your equipment doesn't change shape or size to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge into your new form. Equipment that merges has no effect in that state.",
-				"During this spell's duration, you can use your eylem to assume a different form following the same restrictions and rules for the original form, with one exception: if your new form has more hit points than your current one, your hit points remain at their current value."
+				"Süre boyunca başka bir varlığın formuna girersin. Yeni form senin seviyene eşit ya da altında CR'da herhangi bir varlık olabilir. Varlık bir yapı ya da yaşayan ölü olamaz, ve bu tip bir varlığı daha önce en az bir kez görmüş olman gerekir. O varlığın sıradan bir örneğine dönüşürsün, sınıf seviyeleri olmayan ve Büyü yapma özelliği bulunmayan.",
+				"Oyun istatistiklerin seçilen varlığınkiyle değişir, ama yönelimin ve Zeka, Akıl ve Karizma skorların aynı kalır. Varlığınkileri almanın yanında kendi becerilerin ve kurtulma zarı uzmanlıklarını da korursun, eğer varlık senle aynı uzmanlığa sahipse ve onun bonusu seninkinden yüksekse, bu zarlarda varlığın bonusunu kullanırsın. Yeni formun efsanevi eylemlerini ya da yuva eylemlerini kullanamazsın.",
+				"Yeni formun HP ve HD'sini alırsın. Normale döndüğünde, dönüşmeden önce sahip olduğun HP'ye dönersin. Eğer 0 HP'ye düşme sonucu normale dönersen, fazlalık hasar normal formuna taşınır. Fazlalık hasar senin normal formunu da 0 HP'ye düşürmediği sürece, {@condition bilinçsizlik} durumunda olmazsın.",
+				"Sınıf, ırk veya farklı kaynaklardan gelen özelliklerini eğer yeni formun bunları fiziksel olarak kullanmaya elverişli ise hala kullanabilir ve faydalanabilirsin. Yeni formun da buna sahip değilse, gece görüşü gibi sahip olduğun özel duyuları kullanamazsın. Sadece şekline girdiğin varlık da normalde konuşabiliyorsa konuşabilirsin.",
+				"Dönüştüğünde, ekipmanın yere mi düşsün, yeni formuna mı karışsın yoksa yeni formun tarafından kullanılsın mı sen karar verirsin. Giyilen ekipman normal işlevini gösterir. DM yeni formun şekline ve boyutuna göre ekipman giymesinin uygun olup olmayacağına karar verir. Ekipmanın yeni forma uyum sağlamak için şekil ya da boyut değiştirmez, ve yeni formun kullanamadığı tüm ekipmanlar ya yere düşer ya da yeni forma karışır. Forma karışan ekipman o durumdayken hiçbir etki göstermez.",
+				"Bu büyü süresince, eylemini kullanarak önceki kısıtlamalar dahilinde başka bir şekle bürünebilirsin, tek bir istisna vardır: eğer yeni formun o anki formdan daha çok HP'ye sahipse, HP o anki değerde kalır."
 			],
 			"page": 274
 		},
@@ -22327,7 +22327,7 @@
 			]
 		},
 		{
-			"name": "Storm of Vengeance",
+			"name": "Storm of Vengeance (İntikam Fırtınası)",
 			"level": 9,
 			"school": "C",
 			"time": [
@@ -22366,34 +22366,34 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"A churning storm cloud forms, centered on a point you can see and spreading to a radius of 360 feet. Lightning flashes in the area, ses booms, and strong winds roar. Each creature under the cloud (no more than 5,000 feet beneath the cloud) when it appears must make a Constitution saving throw. On a failed save, a creature takes {@dice 2d6} ses damage and becomes {@condition deafened} for 5 dakika.",
-				"Each round you maintain concentration on this spell, the storm produces additional effects on your turn.",
+				"Görebildiğin bir noktada 360 fit yarıçaplı bir fırtına bulutu oluşur. Alanda şimşekler çakar, gök gürler, ve güçlü rüzgarlar eser. Belirdiğinde bulutun altındaki her varlık (5000 fitten fazla olmamak şartıyla) Dayanıklılık kurtulma zarı atar. Başarısız olursa, varlık {@dice 2d6} ses hasarı alır ve 5 dakikalığına {@condition sağırlık} etkisinde olur.",
+				"Bu büyüde konsantrasyonunu koruduğun her round, fırtına senin sıranda fazladan bir etki üretir.",
 				{
 					"type": "entries",
-					"name": "Round 2",
+					"name": "2. Round",
 					"entries": [
-						"Acidic rain falls from the cloud. Each creature and object under the cloud takes {@dice 1d6} asit damage."
+						"Bulutlardan asit yağmuru başlar. Bulutun altındaki her varlık ve nesne {@dice 1d6} asit hasarı alır."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Round 3",
+					"name": "3. Round",
 					"entries": [
-						"You call six bolts of yıldırım from the cloud to strike six creatures or objects of your choice beneath the cloud. A given creature or object can't be struck by more than one bolt. A struck creature must make a Dexterity saving throw. The creature takes {@dice 10d6} yıldırım damage on a failed save, or half as much damage on a successful one."
+						"Buluttan 6 tane yıldırım indirip seçtiğin bulutun altındaki 6 tane varlık ya da nesneye gönderirsin. Bir varlık ya da nesne birden fazla yıldırımla çarpılamaz. Çarpılan bir varlık Çeviklik kurtulma zarı atar. Başarısız bir varlık {@dice 10d6} yıldırım hasarı alır, başarılı olursa bunun yarısını."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Round 4",
+					"name": "4. Round",
 					"entries": [
-						"Hailstones rain down from the cloud. Each creature under the cloud takes {@dice 2d6} ezme damage."
+						"Buluttan dolu yağar. Bulutun altındaki her varlık {@dice 2d6} ezme hasarı alır."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Round 5-10",
+					"name": "5-10. Roundlar",
 					"entries": [
-						"Gusts and freezing rain assail the area under the cloud. the area becomes difficult terrain and is heavily obscured. Each creature there takes {@dice 1d6} soğuk damage. Ranged weapon attacks in the area are impossible. The wind and rain count as a severe distraction for the purposes of maintaining concentration on spells. Finally, gusts of strong wind (ranging from 20 to 50 miles per saat) automatically disperse fog, mists, and similar phenomena in the area whether mundane or magical."
+						"Bulutun altındaki alanı şiddetli rüzgarlar ve dondurucu yağmur kaplar. Alan zorlu arazi olur ve ağır bir şekilde örtülüdür. Oradaki her varlık {@dice 1d6} soğuk hasarı alır. Alanda menzilli silah saldırıları imkansızdır. Büyülerde konsantrasyon koruma açısından rüzgar ve yağmur ciddi dikkat dağıtıcı sayılırlar. Son olarak, güçlü rüzgar boraları (saatte 20 ile 50 mil arası) otomatik olarak alandaki sıradan ya da büyülü sis ve benzeri fenomenleri dağıtır."
 					]
 				}
 			],
@@ -23481,7 +23481,7 @@
 			]
 		},
 		{
-			"name": "Time Stop",
+			"name": "Time Stop (Zamanı Durdur)",
 			"level": 9,
 			"school": "T",
 			"time": [
@@ -23518,8 +23518,8 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You briefly stop the flow of time for everyone but yourself. No time passes for other creatures, while you take {@dice 1d4+1} turns in a row, during which you can use actions and move as normal.",
-				"This spell ends if one of the actions you use during this period, or any effects that you create during this period, affects a creature other than you or an object being worn or carried by someone other than you. In addition, the spell ends if you move to a place more than 1,000 feet from the location where you cast it."
+				"Kısa bir süreliğine senin dışında herkes için zaman akışını durdurursun. Diğer varlıklar için hiç zaman geçmez, bu sürede sen üstüste {@dice 1d4+1} sıra kullanırsın, bunlar sırasında normal olarak eylemlerini kullanıp hareket edebilirsin.",
+				"Eğer bu süredeki eylemlerinden ya da yarattığın etkilerden biri, senin dışında bir varlığı ya da senin dışında başka bir varlık tarafından taşınan ya da giyilen bir nesneyi etkilerse, büyü sonlanır. Ek olarak, büyüyü kullandığın yerden 1000 fitten fazla uzaklaşırsan da büyü biter."
 			],
 			"page": 283
 		},
@@ -23708,7 +23708,7 @@
 			"page": 283
 		},
 		{
-			"name": "True Polymorph",
+			"name": "True Polymorph (Saf Polimorf)",
 			"level": 9,
 			"school": "T",
 			"time": [
@@ -23727,7 +23727,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a drop of mercury, a dollop of gum arabic, and a wisp of smoke"
+				"m": "bir damla cıva, bir topak arap zamkı, ve biraz duman"
 			},
 			"duration": [
 				{
@@ -23757,34 +23757,34 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Choose one creature with at least 1 hit point or nonmagical object that you can see within range. You transform the creature into a different creature, the creature into an object, or the object into a creature (the object must be neither worn nor carried by another creature). The transformation lasts for the duration, or until the target drops to 0 hit points or dies. If you concentrate on this spell for the full duration, the transformation becomes permanent.",
-				"Shapechangers aren't affected by this spell. An unwilling creature can make a Wisdom saving throw, and if it succeeds, it isn't affected by this spell.",
+				"Menzilinde görebildiğin en az 1 HP'si olan bir varlık ya da büyüsüz bir nesne seç. Varlığı başka bir varlığa, varlığı bir nesneye, ya da nesneyi bir varlığa (nesne başka bir varlık tarafından giyilemez ve taşınamaz) dönüştürebilirsin. Dönüşüm süre boyunca, veya hedef 0 HP'ye düşene ya da ölene kadar kalır. Eğer bu büyüye tüm süresi boyunca konsantre olursan, dönüşüm kalıcı olur.",
+				"Şekildeğiştirenler bu büyüden etkilenmez. İsteksiz bir varlık Akıl kurtulma zarı atabilir, eğer başarılı olursa bu büyüden etkilenmez.",
 				{
 					"type": "entries",
-					"name": "Creature into Creature",
+					"name": "Varlığı Varlığa",
 					"entries": [
-						"If you turn a creature into another kind of creature, the new form can be any kind you choose whose challenge rating is equal to or less than the target's (or its level, if the target doesn't have a challenge rating). The target's game statistics, including mental ability scores, are replaced by the statistics of the new form. It retains its alignment and personality."
+						"Eğer bir varlığı başka bir varlığa dönüştürürsen, yeni form hedefin CR'sine eşit ya da altında olan herhangi başka bir varlık olabilir (hedefin CR'si yoksa seviyesine bakılır). Hedefin oyun istatistikleri, zihinsel yetenek skorları dahil, yeni formun istatistikleri ile değişir. Yönelim ve kişiliğini korur."
 					]
 				},
-				"The target assumes the hit points of its new form, and when it reverts to its normal form, the creature returns to the number of hit points it had before it transformed. If it reverts as a result of dropping to 0 hit points, any excess damage carries over to its normal form. As long as the excess damage doesn't reduce the creature's normal form to 0 hit points, it isn't knocked {@condition unconscious}.",
-				"The creature is limited in the actions it can perform by the nature of its new form, and it can't speak, cast spells, or take any other eylem that requires hands or speech unless its new form is capable of such actions.",
-				"The target's gear melds into the new form. The creature can't activate, use, wield, or otherwise benefit from any of its equipment.",
+				"Hedef yeni formunun HP'sini alır, ve normal formuna döndüğünde, varlık dönüşmeden önceki HP sayısına döner. Eğer 0 HP'ye düşme sonucu eski haline dönüyorsa, fazlalık hasar normal formuna taşınır. Bu fazlalık hasar varlığın normal formunu 0 HP'ye düşürmediği sürece, {@condition bilinçsizlik} durumuna girmez.",
+				"Varlık gerçekleştirebileceği eylemlerde yeni formunun yapısı ile sınırlıdır, eğer yeni formu bunları yapabilecek bir şey değilse konuşamaz, büyü yapamaz, veya el ya da konuşma gerektiren başka eylem gerçekleştiremez.",
+				"Hedefin ekipmanı yeni formuna karışır. Varlık ekipmanını etkinleştiremez, kullanamaz ya da farklı bir şekilde faydalanamaz.",
 				{
 					"type": "entries",
-					"name": "Object into Creature",
+					"name": "Nesneyi Varlığa",
 					"entries": [
-						"You can turn an object into any kind of creature, as long as the creature's size is no larger than the object's size and the creature's challenge rating is 9 or lower. The creature is friendly to you and your companions. It acts on each of your turns. You decide what eylem it takes and how it moves. The DM has the creature's statistics and resolves all of its actions and movement."
+						"Varlığın boyutunun nesneden büyük olmaması ve CR 9 veya altında olması şartıyla bir nesneyi istediğin bir varlığa çevirebilirsin. Varlık sana ve yoldaşlarına dosttur. Senin sıralarında hareket eder. Ne eylem gerçekleştireceğine ve nereye gideceğine sen karar verirsin. DM varlığın istatistiklerine sahiptir ve onun tüm eylem ve hareketlerini gerçekleştirir."
 					]
 				},
-				"If the spell becomes permanent, you no longer control the creature. It might remain friendly to you, depending on how you have treated it.",
+				"Eğer büyü kalıcı olursa artık varlığı kontrol etmezsin. Ona nasıl davrandığına bağlı olarak sana dost kalabilir.",
 				{
 					"type": "entries",
-					"name": "Creature into Object",
+					"name": "Varlığı Nesneye",
 					"entries": [
-						"If you turn a creature into an object, it transforms along with whatever it is wearing and carrying into that form. The creature's statistics become those of the object, and the creature has no memory of time spent in this form, after the spell ends and it returns to its normal form."
+						"Eğer bir varlığı nesneye çevirirsen, tüm giydiği ve taşıdığı şeylerle o forma dönüşür. Varlığın istatistikleri nesneninkine dönüşür, ve varlık bu formda geçirdiği zaman hakkında hiçbir şey hatırlamaz, büyü bittiğinde normal formuna döner."
 					]
 				},
-				"This spell can't affect a target that has 0 hit points."
+				"Bu büyü 0 HP'ye sahip bir hedefi etkileyemez."
 			],
 			"page": 283,
 			"savingThrow": [
@@ -23792,7 +23792,7 @@
 			]
 		},
 		{
-			"name": "True Resurrection",
+			"name": "True Resurrection (Saf Diriliş)",
 			"level": 9,
 			"school": "N",
 			"time": [
@@ -23811,7 +23811,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a sprinkle of holy water and diamonds worth at least 25,000 gp, which the spell consumes",
+					"text": "en az 25.000 gp değerinde elmaslar ve bir serpmelik kutsal su, büyü bunları tüketir",
 					"cost": 25000,
 					"consume": true
 				}
@@ -23835,10 +23835,10 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"You touch a creature that has been dead for no longer than 200 years and that died for any reason except old age. If the creature's soul is free and willing, the creature is restored to life with all its hit points.",
-				"This spell closes all wounds, neutralizes any zehir, cures all diseases, and lifts any curses affecting the creature when it died. The spell replaces damaged or missing organs or limbs.",
-				"The spell can even provide a new body if the original no longer exists, in which case you must speak the creature's name. The creature then appears in an unoccupied space you choose within 10 feet of you.",
-				"If the creature was undead, it is restored to its non-undead form."
+				"200 yıldan az bir süredir ölü ve yaşlılık dışında herhangi bir sebepten dolayı ölmüş olan bir varlığa dokunursun. Eğer varlığın ruhu özgür ve istekliyse, varlık tüm HP'si ile hayata döner.",
+				"Bu büyü tüm yaraları kapatır, zehirleri temizler, hastalıkları iyileştirir, ve öldüğü anda varlığı etkileyen tüm lanetleri kaldırır. Büyü hasar görmüş ya da kayıp organ ve uzuvları yeniden oluşturur.",
+				"Eğer aslı artık yoksa bu büyü yeni bir beden bile oluşturabilir, bu durumda varlığın adını söylersin. Sonrasında varlık 10 fit yakınında seçeceğin boş bir alanda belirir.",
+				"Eğer varlık bir yaşayan ölüyse, yaşayan ölü olmayan eski formuna geri döner."
 			],
 			"page": 284
 		},
@@ -24891,7 +24891,7 @@
 			]
 		},
 		{
-			"name": "Weird",
+			"name": "Weird (Tuhaf)",
 			"level": 9,
 			"school": "I",
 			"time": [
@@ -24931,7 +24931,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Drawing on the deepest fears of a group of creatures, you create illusory creatures in their minds, visible only to them. Each creature in a 30-foot-radius sphere centered on a point of your choice within range must make a Wisdom saving throw. On a failed save, a creature becomes {@condition frightened} for the duration. The illusion calls on the creature's deepest fears, manifesting its worst nightmares as an implacable threat. At the end of each of the {@condition frightened} creature's turns, it must succeed on a Wisdom saving throw or take {@dice 4d10} psişik damage. On a successful save, the spell ends for that creature."
+				"Bir grup varlığın en derin korkularını ortaya çıkarır, zihinlerinde sadece onlara görünür olan hayali varlıklar yaratırsın. Menzilinde seçeceğin bir nokta merkezli 30 fit yarıçaplı bir kürenin içindeki her varlık Akıl kurtulma zarı atar. Başarısız bir zarda, varlık süre boyunca {@condition korkma} durumunda olur. İllüzyon varlığın en büyük korkularını, en kötü kabuslarını, acımasız bir tehdit olarak karşısına çıkarır. Korkan varlığın her sırasının sonunda, Akıl kurtulma zarı atar ya da {@dice 4d10} psişik hasar alır. Başarılı olursa büyü o varlık için biter."
 			],
 			"page": 288,
 			"damageInflict": [
@@ -25058,7 +25058,7 @@
 			]
 		},
 		{
-			"name": "Wish",
+			"name": "Wish (Dilek)",
 			"level": 9,
 			"school": "C",
 			"time": [
@@ -25095,20 +25095,20 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Wish is the mightiest spell a mortal creature can cast. By simply speaking aloud, you can alter the very foundations of reality in accord with your desires.",
-				"The basic use of this spell is to duplicate any other spell of 8th level or lower. You don't need to meet any requirements in that spell, including costly components. The spell simply takes effect. Alternatively, you can create one of the following effects of your choice.",
+				"Dilek bir ölümlünün kullanabileceği en güçlü büyüdür. Sadece sesli konuşarak, gerçekliğin temellerini kendi isteklerin doğrultusunda değiştirebilirsin.",
+				"Bu büyünün basit kullanımı 8. seviye ve altında herhangi bir büyünün etkisini yaratmaktır. O büyüdeki gereksinimlerden hiçbirine uymak zorunda değilsin, masraflı bileşenler dahil. Büyü basitçe işler. Alternatif olarak, seçeceğin şu etkilerden birini yaratabilirsin.",
 				{
 					"type": "list",
 					"items": [
-						"You create one object of up to 25,000 gp in value that isn't a magic item. The object can be no more than 300 feet in any dimension, and it appears in an unoccupied space you can see on the ground.",
-						"You allow up to twenty creatures that you can see to regain all hit points, and you end all effects on them described in the greater restoration spell.",
-						"You grant up to ten creatures that you can see resistance to a damage type you choose.",
-						"You grant up to ten creatures you can see immunity to a single spell or other magical effect for 8 saat. For instance, you could make yourself and all your companions immune to a lich's life drain attack.",
-						"You undo a single recent event by forcing a reroll of any roll made within the last round (including your last turn). Reality reshapes itself to accommodate the new result. For example, a wish spell could undo an opponent's successful save, a foe's critical hit, or a friend's failed save. You can güç the reroll to be made with advantage or disadvantage, and you can choose whether to use the reroll or the original roll."
+						"25.000 altına kadar çıkabilecek değerde büyülü olmayan bir nesne yaratabilirsin. Bu nesne hiçbir ölçüde 300 fiti aşamaz, ve zeminde görebildiğin boş bir yerde belirir.",
+						"Görebildiğin 20 taneye kadar varlığın tüm HP'sini yenilersin, ve üzerilerindeki greater restoration (üstün yenileme) büyüsünde tanımlanan tüm etkileri sonlandırırsın.",
+						"Görebildiğin 10 taneye kadar varlığa seçeceğin bir hasar tipine direnç kazandırırsın.",
+						"Görebildiğin 10 taneye kadar varlığa, tek bir büyü ya da büyülü etkiye karşı 8 saatliğine bağışıklık kazandırırsın. Örneğin, sen ve tüm yoldaşlarını lich'in hayat çekme saldırısına karşı bağışık hale getirebilirsin.",
+						"Son roundda (senin son sıranda dahil) atılan bir zarı tekrar attırarak, geçen tek bir olayı geri alabilirsin. Gerçeklik yeni sonuca uyum sağlamak için yeniden şekillenir. Örneğin, bir dilek büyüsü rakibin başarılı kurtulma zarını, düşmanın kritik vuruşunu, veya bir dostun başarısız kurtulma zarını geri alabilir. Yeniden atılan zarın avantajlı ya da dezavantajlı atılmasını sağlayabilirsin, ve yeniden atılan zar ya da orijinal zarın kullanılmasına sen karar verirsin."
 					]
 				},
-				"You might be able to achieve something beyond the scope of the above examples. State your wish to the DM as precisely as possible. The DM has great latitude in ruling what occurs in such an instance, the greater the wish, the greater the likelihood that something goes wrong. This spell might simply fail, the effect you desire might only be partly achieved, or you might suffer some unforeseen consequence as a result of how you worded the wish. For example, wishing that a villain were dead might propel you forward in time to a period when that villain is no longer alive, effectively removing you from the game. Similarly, wishing for a legendary magic item or artifact might instantly transport you to the presence of the item's current owner.",
-				"The stress of casting this spell to produce any effect other than duplicating another spell weakens you. After enduring that stress, each time you cast a spell until you finish a long rest, you take {@dice 1d10} nekrotik damage per level of that spell. This damage can't be reduced or prevented in any way. In addition, your Strength drops to 3, if it isn't 3 or lower already, for {@dice 2d4} gün. For each of those gün that you spend resting and doing nothing more than light activity, your remaining recovery time decreases by 2 gün. Finally, there is a 33 percent chance that you are unable to cast Wish ever again if you suffer this stress."
+				"Yukarıdaki örneklerin ötesinde bir şey başarabilirsin. Dileğini DM'e mümkün olduğunca açık bir şekilde ilet. DM böyle bir durumda ne olacağına karar verirken büyük özgürlüğe sahiptir, dilek ne kadar büyük olursa, bir şeylerin ters gitme ihtimali o kadar artar. Büyü basitçe başarısız olabilir, istediğin etki sadece kısmen gerçekleşebilir, veya dileği dile getirmenle ilgili öngöremediğin bir sonuç ortaya çıkabilir. Örneğin, bir varlığın ölü olmasını dilemek seni zamanda ileri, o varlığın artık yaşamadığı bir zamana atabilir, seni efektif olarak oyundan çıkarır. Ayrıca, efsanevi bir büyülü eşyayı ya da artefaktı dilemek seni eşyanın o anki sahibinin yanına ışınlayabilir.",
+				"Bu büyüyü, başka bir büyünün etkisini kopyalamak için kullanma dışında bir etki için kullanmanın stresi seni zayıflatır. Bu strese maruz kaldıktan sonra, uzun dinlenme bitirene kadar ne zaman bir büyü yapsan, bu büyünün her seviyesi için {@dice 1d10} nekrotik hasar alırsın. Bu hasar hiçbir şekilde azaltılamaz ya da engellenemez. Ayrıca, {@dice 2d4} günlüğüne Kuvvetin eğer zaten 3 veya altında değilse 3 olur. Hafif aktivite ve istirahat ile geçirdiğin her gün için, toparlanma zamanın 2 gün azalır. Son olarak, bu strese maruz kaldıktan sonra %33 şansla bir daha asla dilek büyüsünü kullanamama ihtimalin vardır."
 			],
 			"page": 288,
 			"damageInflict": [

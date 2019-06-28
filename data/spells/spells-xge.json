@@ -2914,7 +2914,7 @@
 			]
 		},
 		{
-			"name": "Invulnerability",
+			"name": "Invulnerability (Dokunulmazlık)",
 			"source": "XGE",
 			"level": 9,
 			"school": "A",
@@ -2934,7 +2934,7 @@
 				"v": true,
 				"s": true,
 				"m": {
-					"text": "a small piece of adamantine worth at least 500 gp, which the spell consumes",
+					"text": "en az 500 gp değerinde küçük bir adamantin parçası, büyü bunu tüketir",
 					"cost": 500,
 					"consume": true
 				}
@@ -2958,7 +2958,7 @@
 				]
 			},
 			"entries": [
-				"You are immune to all damage until the spell ends."
+				"Büyü bitene dek tüm hasara bağışıklığın olur."
 			],
 			"page": 160
 		},
@@ -3178,7 +3178,7 @@
 			]
 		},
 		{
-			"name": "Mass Polymorph",
+			"name": "Mass Polymorph (Toplu Polimorf)",
 			"source": "XGE",
 			"level": 9,
 			"school": "T",
@@ -3198,7 +3198,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a caterpillar cocoon"
+				"m": "bir tırtıl kozası"
 			},
 			"duration": [
 				{
@@ -3227,11 +3227,11 @@
 				]
 			},
 			"entries": [
-				"You transform up to ten creatures of your choice that you can see within range. An unwilling target must succeed on a Wisdom saving throw to resist the transformation. An unwilling shapechanger automatically succeeds on the save.",
-				"Each target assumes a beast form of your choice, and you can choose the same form or a different ones for each target. The new form can be any beast you have seen whose challenge rating is equal to or less than the target's (or half the target's level, if the target doesn't have a challenge rating). The target's game statistics, including mental ability score, are replaced by the statistics of the chosen beast, but the target retains its hit points, alignment, and personality.",
-				"Each target gains a number of temporary hit points equal to hit points of its new form. These temporary hit points can't be replaced by temporary hit points from another source. A target reverts to its normal form when it has no more temporary hit points or it dies. If the spell ends before then, the creature loses all its temporary hit points and reverts to its normal form.",
-				"The creature is limited in the actions it can perform by the nature of its new form. It can't speak, cast spells, or do anything else that requires hands or speech.",
-				"The target's gear melds into the new form. The target can't activate, use, wield, or otherwise benefit from any of its equipment."
+				"Menzilinde görebildiğin seçeceğin 10 taneye kadar varlığı dönüştürürsün. İsteksiz bir varlık dönüşüme direnmek için Akıl kurtulma zarı atar. İsteksiz bir şekildeğiştiren kurtulma zarında otomatik olarak başarılı olur.",
+				"Her hedef senin seçeceğin bir hayvan şekline girer, ve her hedef için farklı ya da aynı şekli seçebilirsin. Yeni form varlığın CR'sine eşit veya daha düşük (hedefin CR'si yoksa seviyesinin yarısı alınır) daha önce görmüş olduğun herhangi bir hayvan olabilir. Hedefin oyun istatistikleri, zihinsel yetenek skorları da dahil, seçilen hayvanın istatistikleri ile değişir, ama hedef kendi HP'si, yönelimi ve kişiliğini korur.",
+				"Her hedef yeni formlarının HP'si kadar geçici HP kazanır. Bu geçici HP'ler başka bir yerden gelen geçici HP'ler ile değiştirilemez. Bir hedef artık geçici HP'si kalmadığında ya da öldüğünde normal formuna döner. Eğer büyü bundan önce biterse, varlık tüm geçici HP'yi kaybeder ve normal formuna döner.",
+				"Varlık gerçekleştirebileceği eylemlerde yeni formunun yapısı ile sınırlıdır. Konuşamaz, büyü yapamaz, veya el ya da konuşma gerektiren başka bir şey yapamaz.",
+				"Hedefin ekipmanı yeni formuna karışır. Hedef ekipmanını etkinleştiremez, kullanamaz, ya da başka bir şekilde faydalanamaz."
 			],
 			"page": 160,
 			"savingThrow": [
@@ -3810,7 +3810,7 @@
 			]
 		},
 		{
-			"name": "Psychic Scream",
+			"name": "Psychic Scream (Psişik Çığlık)",
 			"source": "XGE",
 			"level": 9,
 			"school": "E",
@@ -3856,9 +3856,9 @@
 				]
 			},
 			"entries": [
-				"You unleash the power of your mind to blast the intellect of up to ten creatures of your choice that you can see within range. Creatures that have an Intelligence score of 2 or lower are unaffected.",
-				"Each target must make an Intelligence saving throw. On a failed save, a target takes {@dice 14d6} psişik damage and is {@condition stunned}. On a successful save, a target takes half as much damage and isn't {@condition stunned}. If a target is killed by this damage, its head explodes, assuming it has one.",
-				"A {@condition stunned} target can make an Intelligence saving throw at the end of each of its turns. On a successful save, the stunning effect ends."
+				"Menzilinde görebildiğin seçeceğin 10 taneye kadar varlığın zekasını kendi zihin gücünü kullanarak patlatırsın. 2 veya altı Zeka skoruna sahip varlıklar etkilenmez.",
+				"Her hedef Zeka kurtulma zarı atar. Başarısız olursa, hedef {@dice 14d6} psişik hasar alır ve {@condition sersemleme} durumuna girer. Başarılı olursa, yarı hasarı alır ve sersemlemez. Eğer hedefin bir kafası varsa ve bu hasar ile öldürülürse, kafası patlar.",
+				"Sersemlemiş bir varlık her sırasının sonunda bir Zeka kurtulma zarı atabilir. Başarılı olursa, sersemleme etkisi üzerinde biter."
 			],
 			"page": 163,
 			"damageInflict": [
