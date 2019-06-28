@@ -234,7 +234,7 @@ function utils_makeAttChoose (attList) {
 		for (let i = 0; i < attList.length; ++i) {
 			attsTemp.push(Parser.attAbvToFull(attList[i]));
 		}
-		return attsTemp.join(" yada ") + " bonusu (seçeceğin)";
+		return attsTemp.join(" ya da ") + " bonusu (seçeceğin)";
 	}
 }
 
@@ -294,7 +294,7 @@ function utils_getAbilityData (abObj) {
 					for (let j = 0; j < item.predefined.length; ++j) {
 						const subAbs = [];
 						handleAllAbilities(subAbs, item.predefined[j]);
-						outStack += subAbs.join(", ") + (j === item.predefined.length - 1 ? "" : " yada ");
+						outStack += subAbs.join(", ") + (j === item.predefined.length - 1 ? "" : " ya da ");
 					}
 				} else {
 					const allAbilities = item.from.length === 6;
@@ -316,7 +316,7 @@ function utils_getAbilityData (abObj) {
 							let suffix = "";
 							if (item.from.length > 1) {
 								if (j === item.from.length - 2) {
-									suffix = " yada ";
+									suffix = " ya da ";
 								} else if (j < item.from.length - 2) {
 									suffix = ", "
 								}
@@ -422,7 +422,7 @@ Parser.getSpeedString = (it) => {
 		procSpeed("yüzme");
 		if (it.speed.choose) {
 			joiner = "; ";
-			stack.push(`${CollectionUtil.joinConjunct(it.speed.choose.from.sort(), ", ", ", yada ")} ${it.speed.choose.amount} ft.${it.speed.choose.note ? ` ${it.speed.choose.note}` : ""}`);
+			stack.push(`${CollectionUtil.joinConjunct(it.speed.choose.from.sort(), ", ", ", ya da ")} ${it.speed.choose.amount} ft.${it.speed.choose.note ? ` ${it.speed.choose.note}` : ""}`);
 		}
 		return stack.join(joiner);
 	} else {
@@ -616,7 +616,7 @@ Parser.spLevelSchoolMetaToFull = function (level, school, meta) {
 };
 
 Parser.spTimeListToFull = function (times) {
-	return times.map(t => `${Parser.getTimeToFull(t)}${t.condition ? `, ${EntryRenderer.getDefaultRenderer().renderEntry(t.condition)}` : ""}`).join(" yada ");
+	return times.map(t => `${Parser.getTimeToFull(t)}${t.condition ? `, ${EntryRenderer.getDefaultRenderer().renderEntry(t.condition)}` : ""}`).join(" ya da ");
 };
 
 Parser.getTimeToFull = function (time) {
@@ -708,12 +708,12 @@ Parser.spDurationToFull = function (dur) {
 				return `${d.concentration ? "Konsantrasyon, " : ""}${d.duration.upTo ? "en fazla " : ""}${d.duration.amount} ${d.duration.amount === 1 ? Parser.getSingletonUnit(d.duration.type) : d.duration.type}`;
 			case "permanent":
 				if (d.ends) {
-					return `${d.ends.map(m => m === "dispel" ? "Defedilene kadar" : m === "trigger" ? "Tetiklenene kadar" : m === "discharge" ? "Boşalana kadar" : undefined).join(" yada ")}`
+					return `${d.ends.map(m => m === "dispel" ? "Defedilene kadar" : m === "trigger" ? "Tetiklenene kadar" : m === "discharge" ? "Boşalana kadar" : undefined).join(" ya da ")}`
 				} else {
 					return "Kalıcı";
 				}
 		}
-	}).join(" yada ") + (dur.length > 1 ? " (aşağıda belirtildi)" : "");
+	}).join(" ya da ") + (dur.length > 1 ? " (aşağıda belirtildi)" : "");
 };
 
 Parser.spClassesToFull = function (classes, textOnly) {
@@ -1470,24 +1470,24 @@ Parser.DMGTYPE_JSON_TO_FULL = {
 };
 
 Parser.SKILL_JSON_TO_FULL = {
-	"Akrobasi": "Çeviklik (Akrobasi) zarın zorlu bir durumda ayakta kalabilme çabanı gösterir, buz üstünde koşma, ip üzerinde dengede durma yada sallanan bir geminin güvertesinde ayakta kalma gibi.",
-	"Hayvan İdaresi": "Eğer durum senin evcil bir hayvanı sakinleştirebilmen, bir bineğin korkmasını engellemen yada bir hayvanın amacını sezmense, DM bir Akıl (Hayvan İdaresi) zarı isteyebilir.",
+	"Akrobasi": "Çeviklik (Akrobasi) zarın zorlu bir durumda ayakta kalabilme çabanı gösterir, buz üstünde koşma, ip üzerinde dengede durma ya da sallanan bir geminin güvertesinde ayakta kalma gibi.",
+	"Hayvan İdaresi": "Eğer durum senin evcil bir hayvanı sakinleştirebilmen, bir bineğin korkmasını engellemen ya da bir hayvanın amacını sezmense, DM bir Akıl (Hayvan İdaresi) zarı isteyebilir.",
 	"Arcana": "Zeka (Arcana) zarın büyüler, büyülü eşyalar, eldritch sembolleri, büyülü gelenekler, varoluş boyutları ve o boyutların halkı hakkında bilgileri hatırlama becerindir.",
-	"Atletizm": "Kuvvet (Atletizm) zarın tırmanırken, zıplarken yada yüzerken karşılaşabileceğin zorlu durumlardaki çabanı ölçer.",
-	"Aldatma": "Karizma (Aldatma) zarın sözlü bir şekilde yada eylemlerinle gerçeği saklayabilme becerini ölçer.",
+	"Atletizm": "Kuvvet (Atletizm) zarın tırmanırken, zıplarken ya da yüzerken karşılaşabileceğin zorlu durumlardaki çabanı ölçer.",
+	"Aldatma": "Karizma (Aldatma) zarın sözlü bir şekilde ya da eylemlerinle gerçeği saklayabilme becerini ölçer.",
 	"Tarih": "Zeka (Tarih) zarın tarihi olaylar, efsanevi kişiler, antik krallıklar, eski çekişmeler, yakın dönem savaşları ve kayıp uygarlıklar hakkında bilgileri hatırlama becerindir.",
-	"Sezgi": "Akıl (Sezgi) zarın bir varlığın gerçek niyetini öğrenme çabanı gösterir, bu bir yalanı farketme yada bir varlığın sonraki hamlesini tahmin etme olabilir.",
+	"Sezgi": "Akıl (Sezgi) zarın bir varlığın gerçek niyetini öğrenme çabanı gösterir, bu bir yalanı farketme ya da bir varlığın sonraki hamlesini tahmin etme olabilir.",
 	"Gözdağı": "Birini tehditlerle, düşmanca eylemlerle ve fiziksel şiddetle etkilemeye çalıştığında DM Karizma (Gözdağı) zarı isteyebilir.",
 	"İnceleme": "Etrafta ipucu ararken ve bu ipuçları üzerinden çıkarım yaparken Zeka (İnceleme) zarı atarsın.",
-	"Tıp": "Akıl (Tıp) zarı bir hastalığa teşhis koymanı yada ölmekte olan bir dostunu stabilize etmeni sağlar.",
+	"Tıp": "Akıl (Tıp) zarı bir hastalığa teşhis koymanı ya da ölmekte olan bir dostunu stabilize etmeni sağlar.",
 	"Doğa": "Zeka (Doğa) zarın çevre, bitkiler ve hayvanlar, hava durumu ve doğal döngüler hakkında bilgileri hatırlama becerindir.",
-	"Algı": "Akıl (Algı) zarın birşeyin varlığını görmeni, duymanı yada başka bir şekilde tespit etmeni sağlar. Senin duyularının keskinliğini ve çevrene olan genel farkındalığını ölçer.",
-	"Performans": "Karizma (Performans) zarın seyircilerini müzik, dans, hikaye anlatımı yada başka bir tip eğlence ile ne denli etkileyebileceğini ölçer.",
-	"İkna": "Birini yada bir grubu zarafet, incelik yada iyi niyetle etkilemeye çalışırsan DM Karizma (İkna) zarı isteyebilir.",
+	"Algı": "Akıl (Algı) zarın birşeyin varlığını görmeni, duymanı ya da başka bir şekilde tespit etmeni sağlar. Senin duyularının keskinliğini ve çevrene olan genel farkındalığını ölçer.",
+	"Performans": "Karizma (Performans) zarın seyircilerini müzik, dans, hikaye anlatımı ya da başka bir tip eğlence ile ne denli etkileyebileceğini ölçer.",
+	"İkna": "Birini ya da bir grubu zarafet, incelik ya da iyi niyetle etkilemeye çalışırsan DM Karizma (İkna) zarı isteyebilir.",
 	"Din": "Zeka (Din) zarın tanrılar, ayinler ve dualar, dini hiyerarşiler, kutsal semboller ve gizli kültlerin uygulamaları hakkında bilgileri hatırlama becerindir.",
-	"El Çabukluğu": "Ne zaman bir el çabukluğu yada aldatmaca denersen, birinin üzerine birşey yerleştirme yada kendi üzerinde bir nesne gizleme gibi, Çeviklik (El Çabukluğu) zarı atarsın.",
-	"Gizlenme": "Düşmanlardan kendini gizlemeye, bekçilere görünmeden geçmeye, farkedilmeden sıvışmaya yada görülmeden ve duyulmadan sinsice birine yaklaşmaya çalıştığında Çeviklik (Gizlenme) zarı atarsın.",
-	"Hayatta Kalma": "İz sürme, avlanma, grubuna buz kaplı hiçliklerde yok gösterme, yakınlarda owlbear'lerin yaşadığına dair işaretleri görme, hava durumunu tahmin etme yada bataklar ve diğer doğal tehlikelerden kaçınma gibi durumlarda DM Akıl (Hayatta Kalma) zarı isteyebilir."
+	"El Çabukluğu": "Ne zaman bir el çabukluğu ya da aldatmaca denersen, birinin üzerine birşey yerleştirme ya da kendi üzerinde bir nesne gizleme gibi, Çeviklik (El Çabukluğu) zarı atarsın.",
+	"Gizlenme": "Düşmanlardan kendini gizlemeye, bekçilere görünmeden geçmeye, farkedilmeden sıvışmaya ya da görülmeden ve duyulmadan sinsice birine yaklaşmaya çalıştığında Çeviklik (Gizlenme) zarı atarsın.",
+	"Hayatta Kalma": "İz sürme, avlanma, grubuna buz kaplı hiçliklerde yok gösterme, yakınlarda owlbear'lerin yaşadığına dair işaretleri görme, hava durumunu tahmin etme ya da bataklar ve diğer doğal tehlikelerden kaçınma gibi durumlarda DM Akıl (Hayatta Kalma) zarı isteyebilir."
 };
 
 Parser.ACTION_JSON_TO_FULL = {
@@ -1496,7 +1496,7 @@ Parser.ACTION_JSON_TO_FULL = {
 	"Kaçınma": "Kaçınma eylemini kullandığında tamamen saldırılardan kaçınmaya odaklanırsın. Bir sonraki sıranın başına kadar eğer saldırganı görebiliyorsan sana karşı yapılan tüm saldırılar dezavavntajlı olur. Aynı zamanda Çeviklik kurtulma zarlarında avantajın olur.",
 	"Yardım": "Bir işin yapılması için başka bir varlığa yardım edebilirsin. Varlık senin yardım ettiğin işi yaparken atacağı bir sonraki beceri zarında avantajı olur, tabii bu zarı senin bir sonraki sıranın başına kadar atması gerekir.",
 	"Saklanma": "Saklanma eylemini kullandığında, saklanma kurallarına uyarak gizlenmeyi denemek için bir Çeviklik (Gizlenme) zarı atarsın.",
-	"Hazırlama": "Bazen bir düşmanı tuzağa düşürme yada harekete geçmeden önce belirli bir durumun gerçekleşmesi beklemek isteyebilirsin. Bunu yapmak için Hazırlama eylemini kullanırsın, bir sonraki sıranın başına kadar reaksiyonunu kullanarak hazırladığın eylemi kullanmanı sağlar."
+	"Hazırlama": "Bazen bir düşmanı tuzağa düşürme ya da harekete geçmeden önce belirli bir durumun gerçekleşmesi beklemek isteyebilirsin. Bunu yapmak için Hazırlama eylemini kullanırsın, bir sonraki sıranın başına kadar reaksiyonunu kullanarak hazırladığın eylemi kullanmanı sağlar."
 };
 
 Parser.NUMBERS_ONES = ['', 'bir', 'iki', 'üç', 'dört', 'beş', 'altı', 'yedi', 'sekiz', 'dokuz'];

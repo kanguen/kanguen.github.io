@@ -31,7 +31,7 @@
 				{
 					"name": "Uçuş",
 					"entries": [
-						"50 feet uçma hızın vardır. Bu hızı kullanabilmek için orta yada ağır zırh giyemezsin."
+						"50 feet uçma hızın vardır. Bu hızı kullanabilmek için orta ya da ağır zırh giyemezsin."
 					],
 					"type": "entries"
 				},
@@ -100,7 +100,7 @@
 						{
 							"name": "Rüzgara Katıl",
 							"entries": [
-								"{@spell Levitate} büyüsünü bu özellikle materyal bileşenlere ihtiyaç duymadan bir kez kullanabilirsin. Bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. Bu büyü için büyü yapma yeteneğin Dayanıklılıktır."
+								"{@spell Levitate (Havaya Yükselme)} büyüsünü bu özellikle materyal bileşenlere ihtiyaç duymadan bir kez kullanabilirsin. Bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. Bu büyü için büyü yapma yeteneğin Dayanıklılıktır."
 							],
 							"type": "entries"
 						}
@@ -115,14 +115,14 @@
 						{
 							"name": "Toprak Yürüyüşü",
 							"entries": [
-								"Toprak yada taştan oluşan zorlu yüzeylerden fazladan hareket harcamadan geçebilirsin."
+								"Toprak ya da taştan oluşan zorlu yüzeylerden fazladan hareket harcamadan geçebilirsin."
 							],
 							"type": "entries"
 						},
 						{
 							"name": "Taşla Birleş",
 							"entries": [
-								"{@spell Pass without trace} büyüsünü bu özellikle materyal bileşenlere ihtiyaç duymadan bir kez kullanabilirsin. Bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. Bu büyü için büyü yapma yeteneğin Dayanıklılıktır."
+								"{@spell Pass without trace (İz bırakmadan geç)} büyüsünü bu özellikle materyal bileşenlere ihtiyaç duymadan bir kez kullanabilirsin. Bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. Bu büyü için büyü yapma yeteneğin Dayanıklılıktır."
 							],
 							"type": "entries"
 						}
@@ -152,7 +152,7 @@
 						{
 							"name": "Aleve Ulaş",
 							"entries": [
-								"{@spell Alev Üret} cantripini bilirsin. 3. seviyeye ulaştığında {@spell Yanan Eller} büyüsünü bir kez 1. seviye büyü olarak kullanabilirsin. Büyüyü bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. Bu büyüler için büyü yapma yeteneğin Dayanıklılıktır."
+								"{@spell Produce Flame (Alev Üret)} cantripini bilirsin. 3. seviyeye ulaştığında {@spell Burning Hands (Yanan Eller)} büyüsünü bir kez 1. seviye büyü olarak kullanabilirsin. Büyüyü bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. Bu büyüler için büyü yapma yeteneğin Dayanıklılıktır."
 							],
 							"type": "entries"
 						}
@@ -192,7 +192,7 @@
 						{
 							"name": "Dalganın Çağrısı",
 							"entries": [
-								"{@spell Su Şekillendir|xge} cantripini bilirsin. 3. seviyeye ulaştığında {@spell Su Yarat yada Yoket} büyüsünü bir kez 2. seviye büyü olarak kullanabilirsin. Büyüyü bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. Bu büyü için büyü yapma yeteneğin Dayanıklılıktır."
+								"{@spell Shape Water (Su Şekillendir)|xge} cantripini bilirsin. 3. seviyeye ulaştığında {@spell Create or Destroy Water (Su Yarat ya da Yoket)} büyüsünü bir kez 2. seviye büyü olarak kullanabilirsin. Büyüyü bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. Bu büyü için büyü yapma yeteneğin Dayanıklılıktır."
 							],
 							"type": "entries"
 						}
@@ -282,14 +282,14 @@
 						{
 							"name": "Günışığı Hassasiyeti",
 							"entries": [
-								"Sen, hedefin yada algılamak istediğin şey doğrudan günışığında olduğu sürece görüş gerektiren saldırı ve Akıl(Algılama) zarlarında dezavantajın olur."
+								"Sen, hedefin ya da algılamak istediğin şey doğrudan günışığında olduğu sürece görüş gerektiren saldırı ve Akıl(Algılama) zarlarında dezavantajın olur."
 							],
 							"type": "entries"
 						},
 						{
 							"name": "Drow Büyüsü",
 							"entries": [
-								"{@spell Dans Eden Işıklar} cantripini bilirsin. 3. seviyeye ulaştığında {@spell Peri Ateşi} büyüsünü günde bir kere kullanabilirsin, büyüyü bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. 5. seviyeye ulaştığında {@spell Karanlık} büyüsünü de günde bir kere kullanabilirsin, büyüyü bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. Bu büyüler için büyü yapma yeteneğin Karizmadır."
+								"{@spell Dancing Lights (Dans Eden Işıklar)} cantripini bilirsin. 3. seviyeye ulaştığında {@spell Faerie Fire (Peri Ateşi)} büyüsünü günde bir kere kullanabilirsin, büyüyü bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. 5. seviyeye ulaştığında {@spell Darkness (Karanlık)} büyüsünü de günde bir kere kullanabilirsin, büyüyü bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. Bu büyüler için büyü yapma yeteneğin Karizmadır."
 							],
 							"type": "entries"
 						},
@@ -320,7 +320,7 @@
 						{
 							"name": "Fey Adımı",
 							"entries": [
-								"Bu özelliği kullanarak {@spell misty step} büyüsünü bir kere kullanabilirsin. Kısa yada uzun dinlenme bitirdikten sonra bu özellik yeniden kullanılabilir."
+								"Bu özelliği kullanarak {@spell misty step (sisli adım)} büyüsünü bir kere kullanabilirsin. Kısa ya da uzun dinlenme bitirdikten sonra bu özellik yeniden kullanılabilir."
 							],
 							"type": "entries"
 						}
@@ -410,7 +410,7 @@
 					"name": "Yönelim",
 					"type": "entries",
 					"entries": [
-						"Gnomelar genellikle iyidirler. Düzene doğru yönelenler bilge, mühendis, akademisyen, araştırmacı yada mucit olabilirler. Kaosa doğru yönelenler de ozan, hilekar, seyyah yada kuyumcu olabilirler. Gnomelar iyi kalplidirler, aralarındaki hilekarlar bile şiddettense şakaları tercih ederler."
+						"Gnomelar genellikle iyidirler. Düzene doğru yönelenler bilge, mühendis, akademisyen, araştırmacı ya da mucit olabilirler. Kaosa doğru yönelenler de ozan, hilekar, seyyah ya da kuyumcu olabilirler. Gnomelar iyi kalplidirler, aralarındaki hilekarlar bile şiddettense şakaları tercih ederler."
 					]
 				},
 				{
@@ -503,14 +503,14 @@
 						{
 							"name": "Doğal İllüzyonist",
 							"entries": [
-								"{@spell Ufak İllüzyon} cantripini bilirsin. Bunun için büyü yapma yeteneğin Zekadır."
+								"{@spell Minor Illusion (Ufak İllüzyon)} cantripini bilirsin. Bunun için büyü yapma yeteneğin Zekadır."
 							],
 							"type": "entries"
 						},
 						{
 							"name": "Küçük Hayvanlarla Konuş",
 							"entries": [
-								"Küçük yada daha küçük hayvanlar ile ses ve vücut dili yardımıyla basit kavramları konuşabilirsin. Orman gnomeları hayvanları severler ve genellikle sincap, gelincik, köstebek, tavşan, ağaçkakan gibi hayvanları evcil hayvanları olarak beslerler."
+								"Küçük ya da daha küçük hayvanlar ile ses ve vücut dili yardımıyla basit kavramları konuşabilirsin. Orman gnomeları hayvanları severler ve genellikle sincap, gelincik, köstebek, tavşan, ağaçkakan gibi hayvanları evcil hayvanları olarak beslerler."
 							],
 							"type": "entries"
 						}
@@ -525,34 +525,34 @@
 						{
 							"name": "Zanaatkarın Bilgisi",
 							"entries": [
-								"Ne zaman büyülü eşyalar, simya nesneleri yada teknolojik icatlara dair bir Zeka (Tarih) zarı atarsan, normalde eklediğin uzmanlık bonusun yerine uzmanlık bonusunun iki katını eklersin."
+								"Ne zaman büyülü eşyalar, simya nesneleri ya da teknolojik icatlara dair bir Zeka (Tarih) zarı atarsan, normalde eklediğin uzmanlık bonusun yerine uzmanlık bonusunun iki katını eklersin."
 							],
 							"type": "entries"
 						},
 						{
 							"name": "Mucit",
 							"entries": [
-								"Mucitin aletleri ile uzmanlığın olur. Bu aletleri kullanarak 1 saat ve 10 gp değerinde materyal harcayıp Ufak bir kurmalı cihaz (AC 5, 1 HP) yapabilirsin. Cihaz 1 saat harcayıp tamir etmediğin sürece 24 saat sonra bozulur, yada eylemini kullanıp sökebilirsin. Bu şekilde harcadığın materyal yeniden kullanılabilir. Aynı anda bu tip 3 aktif cihazın olabilir.",
+								"Mucitin aletleri ile uzmanlığın olur. Bu aletleri kullanarak 1 saat ve 10 gp değerinde materyal harcayıp Ufak bir kurmalı cihaz (AC 5, 1 HP) yapabilirsin. Cihaz 1 saat harcayıp tamir etmediğin sürece 24 saat sonra bozulur, ya da eylemini kullanıp sökebilirsin. Bu şekilde harcadığın materyal yeniden kullanılabilir. Aynı anda bu tip 3 aktif cihazın olabilir.",
 								"Bir cihaz yarattığında bu seçeneklerden birini seç:",
 								{
 									"type": "entries",
 									"name": "Kurmalı Oyuncak",
 									"entries": [
-										"Bu kurmalı hayvan, yaratık yada insan şekilde bir oyuncaktır. Yere koyulduğunda, oyuncak senin her sıranda yüzeyde rastgele bir yöne 5 feet ilerler. Temsil ettiği varlığa uygun sesler çıkarır."
+										"Bu kurmalı hayvan, yaratık ya da insan şekilde bir oyuncaktır. Yere koyulduğunda, oyuncak senin her sıranda yüzeyde rastgele bir yöne 5 feet ilerler. Temsil ettiği varlığa uygun sesler çıkarır."
 									]
 								},
 								{
 									"type": "entries",
 									"name": "Çakmak",
 									"entries": [
-										"Bu cihaz mum, meşale yada kamp ateşi tutuşturmak için ufak bir alev yaratır. Cihazı eylem olarak kullanabilirsin."
+										"Bu cihaz mum, meşale ya da kamp ateşi tutuşturmak için ufak bir alev yaratır. Cihazı eylem olarak kullanabilirsin."
 									]
 								},
 								{
 									"type": "entries",
 									"name": "Müzik Kutusu",
 									"entries": [
-										"Açıldığında bu müzik kutusu tek bir notayı orta bir seste çalar. Kutu kapatıldığında yada şarkının sonuna geldiğinde müzik sonlanır."
+										"Açıldığında bu müzik kutusu tek bir notayı orta bir seste çalar. Kutu kapatıldığında ya da şarkının sonuna geldiğinde müzik sonlanır."
 									]
 								}
 							],
@@ -584,7 +584,7 @@
 					"name": "Yönelim",
 					"type": "entries",
 					"entries": [
-						"Ejderdoğanlar uçlara yönelirler, kosmik savaşta iyi yada kötüyü seçerler (Bahamut ve Tiamat tarafında temsil edilir). Çoğu ejderdoğan iyidir ama Tiamat tarafında olanlar korkunç kötüler olabilirler."
+						"Ejderdoğanlar uçlara yönelirler, kosmik savaşta iyi ya da kötüyü seçerler (Bahamut ve Tiamat tarafında temsil edilir). Çoğu ejderdoğan iyidir ama Tiamat tarafında olanlar korkunç kötüler olabilirler."
 					]
 				},
 				{
@@ -665,7 +665,7 @@
 					"entries": [
 						"Eylemini kullanarak yıkıcı bir enerji nefesi üfleyebilirsin. Draconic soyun bu üflemenin şekli, boyutu ve hasar tipini belirler.",
 						"Nefes silahını kullandığında, nefesin alanındaki tüm varlıklar kurtulma zarı atar, tipi draconic soyun tarafından belirlenir. Bu kurtulma zarı DC'si 8 + Dayanıklılık bonusun + uzmanlık bonusundur. Başarısız bir varlık 2d6 hasar alır, başarılı olanlar yarısını. Hasar 6. seviyede 3d6, 11. seviyede 4d6 ve 16. seviyede 5d6 olur.",
-						"Nefes silahını kullandıktan sonra yeniden kullanabilmek için kısa yada uzun dinlenme bitirmen gerekir."
+						"Nefes silahını kullandıktan sonra yeniden kullanabilmek için kısa ya da uzun dinlenme bitirmen gerekir."
 					],
 					"type": "entries"
 				},
@@ -720,7 +720,7 @@
 				{
 					"name": "Taşın Dayanıklılığı",
 					"entries": [
-						"Zaman zaman odaklanarak yaralanmaları engelleyebilirsin. Hasar aldığında reaksiyonunu kullanıp d12 atabilirsin. Sonuca Dayanıklılık bonusunu da ekleyip toplamı aldığın hasardan düşürürsün. Bu özelliği kullandıktan sonra yeniden kullanabilmek için kısa yada uzun dinlenme bitirmen gerekir."
+						"Zaman zaman odaklanarak yaralanmaları engelleyebilirsin. Hasar aldığında reaksiyonunu kullanıp d12 atabilirsin. Sonuca Dayanıklılık bonusunu da ekleyip toplamı aldığın hasardan düşürürsün. Bu özelliği kullandıktan sonra yeniden kullanabilmek için kısa ya da uzun dinlenme bitirmen gerekir."
 					],
 					"type": "entries"
 				},
@@ -940,7 +940,7 @@
 				{
 					"name": "Alet Uzmanlığı",
 					"entries": [
-						"Demirci aletleri, taşçı aletleri yada mayacı malzemeleri seçeneklerinden birinde uzmanlık kazanırsın."
+						"Demirci aletleri, taşçı aletleri ya da mayacı malzemeleri seçeneklerinden birinde uzmanlık kazanırsın."
 					],
 					"type": "entries"
 				},
@@ -1028,14 +1028,14 @@
 						{
 							"name": "Duergar Büyüsü",
 							"entries": [
-								"3. seviyeye ulaştığında {@spell Büyüt/Küçült} büyüsünü kendi üzerinde sadece büyüme özelliği ile bir kere kullanabilirsin. 5. seviyeye ulaştığında {@spell Görünmezlik} büyüsünü kendi üzerinde bir kere kullanabilirsin. Bu büyüler için materyal bileşenlere ihtiyaç duymazsın ve doğrudan günışığında kullanamazsın. Günışığı büyüler zaten kullanılmışsa bir etki göstermez. Bu özellik ile büyüleri yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. Bu büyüler için büyü yapma yeteneğin Zekadır."
+								"3. seviyeye ulaştığında {@spell Enlarge/Reduce (Büyüt/Küçült)} büyüsünü kendi üzerinde sadece büyüme özelliği ile bir kere kullanabilirsin. 5. seviyeye ulaştığında {@spell Invisibility (Görünmezlik)} büyüsünü kendi üzerinde bir kere kullanabilirsin. Bu büyüler için materyal bileşenlere ihtiyaç duymazsın ve doğrudan günışığında kullanamazsın. Günışığı büyüler zaten kullanılmışsa bir etki göstermez. Bu özellik ile büyüleri yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. Bu büyüler için büyü yapma yeteneğin Zekadır."
 							],
 							"type": "entries"
 						},
 						{
 							"name": "Günışığı Hassasiyeti",
 							"entries": [
-								"Sen, hedefin yada algılamak istediğin şey doğrudan günışığında olduğu sürece görüş gerektiren saldırı ve Akıl(Algılama) zarlarında dezavantajın olur."
+								"Sen, hedefin ya da algılamak istediğin şey doğrudan günışığında olduğu sürece görüş gerektiren saldırı ve Akıl(Algılama) zarlarında dezavantajın olur."
 							],
 							"type": "entries"
 						}
@@ -1146,7 +1146,7 @@
 				{
 					"name": "Şanslı",
 					"entries": [
-						"Bir saldırı, yetenek yada kurtulma zarında 1 atarsan zarı yeniden atıp ikinci sonucu kullanabilirsin."
+						"Bir saldırı, yetenek ya da kurtulma zarında 1 atarsan zarı yeniden atıp ikinci sonucu kullanabilirsin."
 					],
 					"type": "entries"
 				},
@@ -1167,7 +1167,7 @@
 				{
 					"name": "Diller",
 					"entries": [
-						"Buçukluk ve Ortak dili okuyabilir, yazabilir ve konuşabilirsin. Buçukluk dili bir sır değildir ama buçukluklar onu diğerleri ile paylaşmayı sevmez. Nadir yazarlar, bu yüzden zengin bir edebiyatları yoktur. Buna rağmen sözlü gelenekleri çok güçlüdür. Neredeyse tüm buçukluklar seyahat boyunca karşılaştıkları yada birlikte yaşadıkları kişiler ile konuşabilmek için Ortak dili öğrenirler."
+						"Buçukluk ve Ortak dili okuyabilir, yazabilir ve konuşabilirsin. Buçukluk dili bir sır değildir ama buçukluklar onu diğerleri ile paylaşmayı sevmez. Nadir yazarlar, bu yüzden zengin bir edebiyatları yoktur. Buna rağmen sözlü gelenekleri çok güçlüdür. Neredeyse tüm buçukluklar seyahat boyunca karşılaştıkları ya da birlikte yaşadıkları kişiler ile konuşabilmek için Ortak dili öğrenirler."
 					],
 					"type": "entries"
 				}
@@ -1241,7 +1241,7 @@
 					"name": "Yönelim",
 					"type": "entries",
 					"entries": [
-						"Tieflinglerin doğuştan kötülüğe yatkınlığı olmayabilir ama birçoğu orada yerini bulur. Kötü yada değil, bağımsız yapıları yüzünden çoğu tiefling düzensizliğe yönelir."
+						"Tieflinglerin doğuştan kötülüğe yatkınlığı olmayabilir ama birçoğu orada yerini bulur. Kötü ya da değil, bağımsız yapıları yüzünden çoğu tiefling düzensizliğe yönelir."
 					]
 				},
 				{
@@ -1276,7 +1276,7 @@
 						{
 							"name": "Infernal Miras",
 							"entries": [
-								"{@spell Mucize} cantripini bilirsin. 3. seviyeye ulaştığında {@spell Cehennem Azarı} büyüsünü bir kez 2. seviye büyü olarak kullanabilirsin. Büyüyü bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. 5. seviyeye ulaştığında {@spell Karanlık} büyüsünü de bir kez kullanabilirsin. Bu büyüyü de bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. Bu büyüler için büyü yapma yeteneğin Karizmadır."
+								"{@spell Thaumaturgy (Mucize)} cantripini bilirsin. 3. seviyeye ulaştığında {@spell Hellish Rebuke (Cehennem Azarı)} büyüsünü bir kez 2. seviye büyü olarak kullanabilirsin. Büyüyü bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. 5. seviyeye ulaştığında {@spell Darkness (Karanlık)} büyüsünü de bir kez kullanabilirsin. Bu büyüyü de bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. Bu büyüler için büyü yapma yeteneğin Karizmadır."
 							],
 							"type": "entries"
 						}
@@ -1303,7 +1303,7 @@
 						{
 							"name": "Görünüş",
 							"entries": [
-								"Senin tieflingin diğerleri gibi görünmeyebilir. PHB'de tasvir edilen özelliklere sahip olmaktansa şu özelliklerden 1d4+1 tanesini seç: küçük boynuzlar; keskin dişler; çatallı dil; kedi benzeri gözler; her elde altı parmak; keçi gibi bacaklar; ayrık toynaklar; çatallı kuyruk; pullu deri; kırmızı yada koyu mavi ten; gölgen yada yansıman olmaz; kükürt kokusu yayarsın."
+								"Senin tieflingin diğerleri gibi görünmeyebilir. PHB'de tasvir edilen özelliklere sahip olmaktansa şu özelliklerden 1d4+1 tanesini seç: küçük boynuzlar; keskin dişler; çatallı dil; kedi benzeri gözler; her elde altı parmak; keçi gibi bacaklar; ayrık toynaklar; çatallı kuyruk; pullu deri; kırmızı ya da koyu mavi ten; gölgen ya da yansıman olmaz; kükürt kokusu yayarsın."
 							],
 							"type": "entries"
 						},
@@ -1314,21 +1314,21 @@
 								{
 									"name": "Infernal Miras (PHB)",
 									"entries": [
-										"{@spell Mucize} cantripini bilirsin. 3. seviyeye ulaştığında {@spell Cehennem Azarı} büyüsünü bir kez 2. seviye büyü olarak kullanabilirsin. Büyüyü bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. 5. seviyeye ulaştığında {@spell Karanlık} büyüsünü de bir kez kullanabilirsin. Bu büyüyü de bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. Bu büyüler için büyü yapma yeteneğin Karizmadır."
+										"{@spell Thaumaturgy (Mucize)} cantripini bilirsin. 3. seviyeye ulaştığında {@spell Hellish Rebuke (Cehennem Azarı)} büyüsünü bir kez 2. seviye büyü olarak kullanabilirsin. Büyüyü bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. 5. seviyeye ulaştığında {@spell Darkness (Karanlık)} büyüsünü de bir kez kullanabilirsin. Bu büyüyü de bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. Bu büyüler için büyü yapma yeteneğin Karizmadır."
 									],
 									"type": "entries"
 								},
 								{
 									"name": "Şeytan Dili",
 									"entries": [
-										"{@spell Acımasız Alay} cantripini bilirsin. 3. seviyeye ulaştığında {@spell Kişi Cezbet} büyüsünü bir kez 2. seviye büyü olarak kullanabilirsin. Büyüyü bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. 5. seviyeye ulaştığında {@spell enthrall} büyüsünü de bir kez kullanabilirsin. Bu büyüyü de bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. Bu büyüler için büyü yapma yeteneğin Karizmadır. Bu özellik Infernal Miras özelliğinin yerine geçer."
+										"{@spell Vicious Mockery (Acımasız Alay)} cantripini bilirsin. 3. seviyeye ulaştığında {@spell Charm Person (Kişi Cezbet)} büyüsünü bir kez 2. seviye büyü olarak kullanabilirsin. Büyüyü bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. 5. seviyeye ulaştığında {@spell Enthrall (Dikkat Çek)} büyüsünü de bir kez kullanabilirsin. Bu büyüyü de bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. Bu büyüler için büyü yapma yeteneğin Karizmadır. Bu özellik Infernal Miras özelliğinin yerine geçer."
 									],
 									"type": "entries"
 								},
 								{
 									"name": "Cehennem Ateşi",
 									"entries": [
-										"3. seviyeye ulaştığında {@spell Yanan Eller} büyüsünü bir kez 2. seviye büyü olarak kullanabilirsin. Bu özellik Infernal Miras özelliğinin {@spell Cehennem Azarı} büyüsünü değiştirir."
+										"3. seviyeye ulaştığında {@spell Burning Hands (Yanan Eller)} büyüsünü bir kez 2. seviye büyü olarak kullanabilirsin. Bu özellik Infernal Miras özelliğinin {@spell Hellish Rebuke (Cehennem Azarı)} büyüsünü değiştirir."
 									],
 									"type": "entries"
 								},
@@ -1394,7 +1394,7 @@
 				{
 					"name": "Işık Taşıyıcı",
 					"entries": [
-						"{@spell Light} cantripini bilirsin. Bunun için büyü yapma yeteneğin Karizmadır."
+						"{@spell Light (Işık)} cantripini bilirsin. Bunun için büyü yapma yeteneğin Karizmadır."
 					],
 					"type": "entries"
 				},

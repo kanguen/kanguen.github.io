@@ -1069,7 +1069,7 @@ EntryRenderer.feat = {
 						if (isShorthand) {
 							outStack.push(att.uppercaseFirst() + (attCount === pre.ability.length - 1 ? " 13+" : ""));
 						} else {
-							outStack.push(Parser.attAbvToFull(att) + (attCount === pre.ability.length - 1 ? " 13 yada üstü" : ""));
+							outStack.push(Parser.attAbvToFull(att) + (attCount === pre.ability.length - 1 ? " 13 ya da üstü" : ""));
 						}
 						attCount++;
 					}
@@ -1109,7 +1109,7 @@ EntryRenderer.feat = {
 			return outStack;
 		} else {
 			if (isShorthand) return outStack.join("/");
-			else return StrUtil.joinPhraseArray(outStack, ", ", " yada ");
+			else return StrUtil.joinPhraseArray(outStack, ", ", " ya da ");
 		}
 	},
 
@@ -1141,7 +1141,7 @@ EntryRenderer.feat = {
 						for (let j = 0; j < from.length; ++j) {
 							abbChoices.push(Parser.attAbvToFull(from[j]));
 						}
-						const abbChoicesText = StrUtil.joinPhraseArray(abbChoices, ", ", " yada ");
+						const abbChoicesText = StrUtil.joinPhraseArray(abbChoices, ", ", " ya da ");
 						abbArr.push(`Senin ${abbChoicesText} skorunu ${amount}${TO_MAX_OF_TWENTY} artırır.`);
 					}
 				}
