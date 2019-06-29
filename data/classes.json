@@ -208,14 +208,14 @@
 								]
 							},
 							"Eğer büyü yapabiliyorsan, öfkeliyken büyü kullanamazsın ya da onlara konsantre olamazsın.",
-							"Öfken 1 dakika sürer. Bir önceki sırandan beri düşman bir varlığa saldırmadan ya da hiç hasar almadan sıranı bitirirsen öfken erken biter. Eğer bilinçsiz kalırsan bu da öfkeni erken bitirir. Bonus eylem olarak öfkeni erken bitirebilirsin.",
+							"Öfken 1 dakika sürer. Bir önceki sırandan itibaren, sıranı düşman bir varlığa saldırmadan ya da hiç hasar almadan bitirirsen öfken erken biter. Eğer bilinçsiz kalırsan bu da öfkeni erken bitirir. Bonus eylem olarak öfkeni erken bitirebilirsin.",
 							"Barbar seviyene göre bulunan tüm Öfke puanlarını kullandığında, bunları yenilemek için uzun dinlenme bitirmen gerekir. Öfke puanların 1. seviyede 2, 3.de 3, 6.da 4, 12.de 5 ve 17.de 6'dır."
 						]
 					},
 					{
 						"name": "Zırhsız Savunma",
 						"entries": [
-							"Herhangi bir zırh giymiyorken, 10 + Dayanıklılık bonusu + Çeviklik bonusun kadar AC'ye sahip olursun. Kalkan kullanıp hala bu özelliği kazanabilirsin."
+							"Herhangi bir zırh giymiyorken, 10 + Dayanıklılık bonusu + Çeviklik bonusun kadar AC'ye sahip olursun. Kalkan kullanıp hala bu özellikten faydalanabilirsin."
 						]
 					}
 				],
@@ -223,7 +223,7 @@
 					{
 						"name": "Tehlike Hissi",
 						"entries": [
-							"2. seviyede çevrendeki şeylerin olması gerektiği gibi olmadığını farketmek için anlaşılmaz bir his kazanırsın ve bu tehlikeden kaçınmak için sana üstünlük verir. Görebildiğin etkilere karşı(büyü ve tuzaklar gibi) Çeviklik kurtulma zarlarında avantajın olur. Bu özelliği kazanmak için kör, sağır ya da bilinçsiz olamazsın."
+							"2. seviyede çevrendeki şeylerin olması gerektiği gibi olmadığını farketmek için anlaşılmaz bir his kazanırsın ve bu tehlikeden kaçınmak için sana üstünlük verir. Görebildiğin etkilere karşı (büyü ve tuzaklar gibi) Çeviklik kurtulma zarlarında avantajın olur. Bu özelliği kazanmak için kör, sağır ya da bilinçsiz olamazsın."
 						]
 					},
 					{
@@ -237,7 +237,7 @@
 					{
 						"name": "İlkel Yol",
 						"entries": [
-							"3. seviyede, mevcut yollar listesinden seçeceğin bir yol ile öfkenin doğasını değiştirirsin. Seçimin sana 3. seviyede, 6'da, 10'da ve 14. seviyelerde yeni özellikler kazandırır."
+							"3. seviyede, mevcut yollar listesinden seçeceğin bir yol ile öfkenin yapısını değiştirirsin. Seçimin sana 3. seviyede, 6'da, 10'da ve 14. seviyelerde yeni özellikler kazandırır."
 						],
 						"gainSubclassFeature": true
 					}
@@ -436,7 +436,7 @@
 										"type": "entries",
 										"name": "Korkutucu Görünüş",
 										"entries": [
-											"10. seviyeden itibaren, eylemini kullanarak birini görünüşün ve varlığın ile korkutabilirsin. Yaptığında 30 fit içinde bir varlığı seç. Eğer bu varlık seni görebiliyor ya da duyabiliyorsa Akıl kurtulma zarında (DC = 8 + uzmanlık bonusu + Karizma bonusu) başarılı olmalı ya da bir sonraki sıranın sonuna kadar senden korkar. Bunu izleyen sıralarda eylemini kullanarak bu etkiyi bir sonraki sıranın sonuna kadar uzatabilirsin. Bu etki varlık artık seni göremezse ya da senden 60 fit uzaklaşırsa biter.",
+											"10. seviyeden itibaren, eylemini kullanarak birini görünüşün ve varlığın ile korkutabilirsin. Yaptığında 30 fit içinde bir varlığı seç. Eğer bu varlık seni görebiliyor ya da duyabiliyorsa Akıl kurtulma zarında (DC = 8 + uzmanlık bonusu + Karizma bonusu) başarılı olur ya da bir sonraki sıranın sonuna kadar senden korkar. Bunu izleyen sıralarda eylemini kullanarak bu etkiyi bir sonraki sıranın sonuna kadar uzatabilirsin. Bu etki varlık artık seni göremezse ya da senden 60 fit uzaklaşırsa biter.",
 											"Eğer varlık kurtulma zarında başarılı olursa bu özelliği aynı varlık üzerinde 24 saat boyunca kullanamazsın."
 										]
 									}
@@ -473,14 +473,14 @@
 										"type": "entries",
 										"name": "Ruh Arayıcı",
 										"entries": [
-											"Yolun doğa ile uyum arayışında olan ve sana hayvanlarla yakınlık sağlayan bir yoldur. 3. seviyede bu yolu seçtiğinde, {@spell beast sense (hayvan duyusu)} ve {@spell speak with animals (hayvanlarla konuş)} büyülerini sadece ritüel olarak kullanmayı öğrenirsin."
+											"Yolun, doğa ile uyum arayışında olan ve sana hayvanlarla yakınlık sağlayan bir yoldur. 3. seviyede bu yolu seçtiğinde, {@spell beast sense (hayvan duyusu)} ve {@spell speak with animals (hayvanlarla konuş)} büyülerini sadece ritüel olarak kullanmayı öğrenirsin."
 										]
 									},
 									{
 										"type": "entries",
 										"name": "Totem Ruhu",
 										"entries": [
-											"3. seviyede bu yolu seçtiğinde bir totem ruhu seçip onun özelliğini kazanırsın. Totem hayvanının tüy, diş, pençe ya da kemiği gibi bedeninden parçası ile bir kolye ya da benzeri takı yapmalısın, bu senin totem nesnen olur. Senin seçimine bağlı olarak totem ruhuna benzer fiziksel özellikler kazanabilirsin. Örneğin, ayı totem ruhun varsa alışılmadık bir şekilde kıllı veya sert derili olabilirsin, ya da totemin kartalsa gözlerin parlak sarı renge dönebilir.",
+											"3. seviyede bu yolu seçtiğinde bir totem ruhu seçip onun özelliğini kazanırsın. Totem hayvanının tüy, diş, pençe ya da kemiği gibi bedeninden bir parçası ile bir kolye ya da benzeri takı yapmalısın, bu senin totem nesnen olur. Senin seçimine bağlı olarak totem ruhuna benzer fiziksel özellikler kazanabilirsin. Örneğin, ayı totem ruhun varsa alışılmadık bir şekilde kıllı veya sert derili olabilirsin, ya da totemin kartalsa gözlerin parlak sarı renge dönebilir.",
 											"Totem hayvanın burada verilen seçeneklere yakın ama anavatanına daha uygun olabilir. Örneğin, kartal yerine şahin ya da akbaba seçebilirsin.",
 											{
 												"type": "entries",
@@ -648,7 +648,7 @@
 														"type": "entries",
 														"name": "Ayı",
 														"entries": [
-															"Öfkeliyken 5 fit yakınında olan bir düşman, sen ya da bu özelliğe sahip başka biri dışındaki tüm varlıklara yaptığı saldırılarda dezavantajı vardır. Eğer düşman seni göremiyor ya da duyamıyorsa, veya korkma durumuna bağışıklığı varsa bu özellikten etkilenmez."
+															"Öfkeliyken 5 fit yakınında olan bir düşman, sen ya da bu özelliğe sahip başka biri dışındaki tüm varlıklara yaptığı saldırılarda dezavantajlı olur. Eğer düşman seni göremiyor ya da duyamıyorsa, veya korkma durumuna bağışıklığı varsa bu özellikten etkilenmez."
 														]
 													}
 												]
@@ -709,6 +709,354 @@
 					],
 					"source": "PHB",
 					"shortName": "Totem Savaşçısı"
+				},
+				{
+					"name": "Battlerager'ın Yolu",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Battlerager'ın Yolu",
+								"entries": [
+									"Cücecede Kuldjargh diye bilinen (gerçek anlamda \"baltalı ahmak\"), battlerager'lar savaş tanrılarının cüce takipçileridir ve Battlerager Yolunu izlerler. Uzmanlıkları ağır, dikenli zırhlar giyip kendilerini savaşa atmaktır, doğrudan bedenleri ile saldırıp kendilerini savaşın coşkusuna bırakırlar.",
+									{
+										"type": "entries",
+										"name": "Kısıtlama - Sadece Cüceler",
+										"entries": [
+											"Battlerager Yolunu sadece cüceler seçebilir. Battlerager cüce toplum ve kültüründe çok özel bir yeri doldurur.",
+											"DM'in hikayeye uyması için bu kısıtlamayı kaldırabilir. Kısıtlama Unutulmuş Diyarlar için vardır. DM'in dünyasına ya da onun Diyarlar yorumuna uymayabilir."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Battlerager Zırhı",
+										"entries": [
+											"3. seviyede bu yolu seçtiğinde, dikenli zırhını silah olarak kullanamayı öğrenirsin.",
+											"Dikenli zırh giymişken ve öfkeliyken, bonus eylemini kullanıp 5 fit yakınındaki bir hedefe karşı zırh dikenlerinle bir yakın dövüş silahı saldırısı yapabilirsin. Eğer saldırı vurursa, dikenler 1d4 delme hasarı verir. Saldırı ve hasar zarları için Kuvvet bonusunu kullanırsın.",
+											"Ayrıca, Saldırı eylemini bir varlığı tutmak için kullandığında, eğer tutma zarın başarılı olursa hedef 3 delme hasarı alır."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Pervasız Terk",
+										"entries": [
+											"6. seviyeden itibaren, öfkeliyken Pervasız Saldırı kullandığında, Dayanıklılık bonusun kadar (en az 1) geçici HP kazanırsın. Öfken bittiğinde bunlar hala duruyorsa, kaybolurlar."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Battlerager Hücumu",
+										"entries": [
+											"10. seviyeden itibaren, öfkeliyken Depar eylemini bonus eylem olarak kullanabilirsin."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Dikenli Karşılık",
+										"entries": [
+											"14. seviyeden itibaren, 5 fit yakınındaki bir varlık sana yakın dövüş saldırısı ile vurursa, eğer sen öfkeliysen, {@condition bilinçsizlik} durumunda değilsen, ve dikenli zırh giyiyorsan, saldırgan 3 delme hasarı alır."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "SCAG",
+					"shortName": "Battlerager"
+				},
+				{
+					"name": "Ata Muhafızı Yolu",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Ata Muhafızı Yolu",
+								"entries": [
+									"Bazı barbarlar atalarına saygı duyan kültürlerden gelir. Bu kabileler eski savaşçıların bu dünyada görkemli ruhlar olarak gezdiğini anlatır, ve bunların yaşayanlara yol gösterip onları koruduğunu. Bu yolu izleyen bir barbar öfkelendiğinde, barbar ruhlar dünyasına ulaşır ve bu muhafız ruhlardan yardım ister.",
+									"Ata muhafızlarını çağıran bir barbar kabilesi ve müttefiklerini korumak için daha iyi dövüşebilir. Ata muhafızları ile bağlarını güçlendirmek isteyen bu yoldaki barbarlar, bedenlerini atalarının başarılarını kutlayan detaylı dövmeler ile kaplarlar. Bu dövmeler korkunç yaratıklar ve berbat düşmanlara karşı kazanılan zaferlerin destanlarını anlatır.",
+									{
+										"type": "entries",
+										"name": "Koruyucu Atalar",
+										"entries": [
+											"Bu yolu 3. seviyede seçmenden itibaren, sen öfkelendiğinde spektral savaşçılar belirir. Öfkeliyken, sıranda ilk vurduğun hedef bu savaşçıların hedefi olur ve onun saldırılarını aksatırlar. Bir sonraki sıranın başına kadar, hedef sana karşı yapmadığı tüm saldırılarda dezavantajlı olur, ve hedef senin dışında bir varlığa bir saldırı ile vurursa, o varlığın bu saldırıdan gelen hasara direnci olur. Eğer öfken biterse bu etki de biter."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Ruh Kalkanı",
+										"entries": [
+											"6. seviyeden itibaren, sana yardım eden koruyucu ruhlar, senin savunduklarına doğaüstü bir koruma sağlayabilir. Eğer öfkeliysen ve 30 fit yakınında görebildiğin başka bir varlık hasar alırsa, reaksiyonunu kullanıp bu hasarı {@dice 2d6} azaltabilirsin.",
+											"Bu sınıfta belirli seviyelere ulaştığında, bu hasarı daha da düşürebilirsin: 10. seviyede 3d6 ve 14. seviyede 4d6."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Ruhlara Danış",
+										"entries": [
+											"10. seviyede, atalarının ruhlarına danışma yeteneğini kazanırsın. Bunu yaptığında, {@spell augury (falcılık)} ya da {@spell clairvoyance (duru görü)} büyüsünü, büyü yuvası veya materyal bileşen harcamadan kullanırsın. Küre bir sensör yaratmaktansa, {@spell clairvoyance (duru görü)} büyüsünün bu kullanımı, atalarının ruhlarından birini seçtiğin yere görünmez bir şekilde çağırır. Bu büyüler için büyü yapma yeteneğin Akıldır.",
+											"Bu şekilde büyülerden birini kullandığında, bu özelliği kısa ya da uzun dinlenme bitirene kadar bir daha kullanamazsın."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Kinci Atalar",
+										"entries": [
+											"14. seviyede, atalarının ruhları artık karşılık verebilecek kadar güçlenir. Ruh Kalkanı'nı bir saldırının hasarını düşürmek için kullandığında, saldırgan Ruh Kalkanı'nın engellediği hasar kadar güç hasarı alır."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "XGE",
+					"shortName": "Ata Muhafızı"
+				},
+				{
+					"name": "Fırtına Elçisinin Yolu",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Fırtına Elçisinin Yolu",
+								"entries": [
+									"Tüm barbarlar içlerinde bir hiddet barındırır. Öfkeleri onlara üstün kuvvet, dayanıklılık, ve hız verir. Fırtına Elçisinin Yolunu izleyen barbarlar bu öfkeyi ilkel bir büyü örtüsüne çevirmeyi öğrenirler ve bu güç çevrelerinde döner. Öfkeliyken, bu yoldaki bir barbar doğanın güçlerine erişip güçlü büyülü etkiler yaratır.",
+									"Fırtına Elçileri, druidler ve kolcular gibi doğayı korumaya yeminli kişilerin yanında eğitim almış seçkin savaşçılardır. Diğer fırtına elçileri, zanaatlerini fırtınalarla dolu alanlardaki yerleşimlerde, dünyanın sonundaki donmuş uçlarda, veya en sıcak çöllerin derinliklerinde geliştirir.",
+									{
+										"type": "entries",
+										"name": "Fırtına Aurası",
+										"entries": [
+											"3. seviyeden itibaren, öfkeliyken fırtınamsı büyülü bir aura saçarsın. Aura senden her yöne 10 fit yayılır, ama tam siper ardına geçmez.",
+											"Auran öfke nöbetine girdiğinde etkinleşen bir etkiye sahiptir, ve bu etkiyi her sıranda bonus eylem olarak yeniden etkinleştirebilirsin. Çöl, deniz veya tundrayı seç. Auranın etkisi seçilen çevreye göre aşağıda detayı verildiği şekilde belirlenir. Bu sınıfta her seviye atlayışında çevre seçimini değiştirebilirsin.",
+											"Eğer auranın etkisi kurtulma zarı gerektiriyorsa, DC 8 + uzmanlık bonusun + Dayanıklılık bonusuna eşit olur.",
+											{
+												"type": "options",
+												"entries": [
+													{
+														"type": "entries",
+														"name": "Çöl",
+														"entries": [
+															"Bu etki aktifleştirildiğinde, aurandaki diğer tüm varlıklar 2 ateş hasarı alır. Bu sınıfta belirli seviyelere ulaştığında bu hasar artar, 5. seviyede 3, 10. seviyede 4, 15. seviyede 5, ve 20. seviyede 6 olur."
+														]
+													},
+													{
+														"type": "entries",
+														"name": "Deniz",
+														"entries": [
+															"Bu etki aktifleştirildiğinde, auranda görebildiğin başka bir varlığı seçebilirsin. Hedef Çeviklik kurtulma zarı atar. Başarısız olursa hedef 1d6 yıldırım hasarı alır, başarılı olursa bunun yarısını. Bu sınıfta belirli seviyelere ulaştığında bu hasar artar, 10. seviyede 2d6, 15. seviyede 3d6, ve 20. seviyede 4d6 olur."
+														]
+													},
+													{
+														"type": "entries",
+														"name": "Tundra",
+														"entries": [
+															"Bu etki aktifleştirildiğinde, aurandaki seçeceğin her varlık 2 geçici HP kazanır, buzul ruhları onların acılarını uyuşturur. Bu sınıfta belirli seviyelere ulaştığında geçici HP artar, 5. seviyede 3, 10. seviyede 4, 15. seviyede 5, ve 20. seviyede 6."
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Fırtına Ruhu",
+										"entries": [
+											"6. seviyede, auran aktif olmasa bile fırtınadan faydalanırsın. Bu faydalar Fırtına Aurası için seçtiğin çevreye bağlıdır.",
+											{
+												"type": "options",
+												"entries": [
+													{
+														"type": "entries",
+														"name": "Çöl",
+														"entries": [
+															"Ateş hasarına direnç kazanırsın, ve DMG'de tanımlanan dayanılmaz sıcaklığın etkilerine maruz kalmazsın. Ayrıca, eylem olarak, kimse tarafından taşınmayan ve giyilmeyen bir yanıcı nesneye dokunup onu tutuşturabilirsin."
+														]
+													},
+													{
+														"type": "entries",
+														"name": "Deniz",
+														"entries": [
+															"Yıldırım hasarına direnç kazanırsın, ve su altında soluyabilirsin. Ayrıca 30 fit yüzme hızı kazanırsın."
+														]
+													},
+													{
+														"type": "entries",
+														"name": "Tundra",
+														"entries": [
+															"Soğuk hasarına direnç kazanırsın, ve DMG'de tanımlanan aşırı soğuğun etkilerine maruz kalmazsın. Ayrıca, eylem olarak, suya dokunup onun 5 fitlik bir kübünü buza çevirebilirsin, 1 dakika sonra erir. Eğer bir varlık kübün içerisinde ise bu eylem başarısız olur."
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Koruyan Fırtına",
+										"entries": [
+											"10. seviyede, fırtına kontrolünü diğerlerini korumak için kullanmayı öğrenirsin. Seçeceğin her varlık senin Fırtına Auranda iken Fırtına Ruhu özelliğinden gelen hasar direncine sahip olur."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Hiddetli Fırtına",
+										"entries": [
+											"14. seviyede, yönlendirdiğin fırtınanın gücü daha da görkemli olur ve düşmanlarına saldırır. Etki Fırtına Aurası için seçtiğin çevreye bağlıdır.",
+											{
+												"type": "options",
+												"entries": [
+													{
+														"type": "entries",
+														"name": "Çöl",
+														"entries": [
+															"Aurandaki bir varlığın sana bir saldırı ile vurmasının hemen ardından, reaksiyonunu kullanıp o varlığa Çeviklik kurtulma zarı attırabilirsin. Başarısız olursa, varlık senin barbar seviyenin yarısı kadar ateş hasarı alır."
+														]
+													},
+													{
+														"type": "entries",
+														"name": "Deniz",
+														"entries": [
+															"Aurandaki bir varlığa saldırı ile vurduğunda, reaksiyonunu kullanıp o varlığa Kuvvet kurtulma zarı attırabilirsin. Başarısız olursa, varlık sanki bir dalga çarpmışçasına yere düşer."
+														]
+													},
+													{
+														"type": "entries",
+														"name": "Tundra",
+														"entries": [
+															"Her Fırtına Aurası etkisi aktifleştiğinde, aurada görebildiğin bir varlık seçebilirsin. O varlık Kuvvet kurtulma zarı atar, ya da büyülü don onu kaplarken bir sonraki sıranın başına kadar hızı sıfıra düşer."
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "XGE",
+					"shortName": "Fırtına Elçisi"
+				},
+				{
+					"name": "Yobazın Yolu",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Yobazın Yolu",
+								"entries": [
+									"Bazı tanrılar müritlerine acımasız bir savaş coşkusuna kapılmaları için ilham verir. Bu barbarlar öfkelerini kutsal gücü sergilemek için kullanan yobaz savaşçılardır.",
+									"D&D evrenlerinde çeşitli tanrılar müritlerine bu yolu seçmeleri için ilham verir. Unutulmuş Diyarlardan Tempus, ve Greyhawk'tan Hextor ve Erythnul bunların baş örnekleridir. Genel olarak, yobazlara ilham veren tanrılar savaş, yıkım ve şiddet tanrılarıdır. Hepsi kötü değildir ama nadiren iyi olurlar.",
+									{
+										"type": "entries",
+										"name": "Kutsal Hiddet",
+										"entries": [
+											"3. seviyede bu yolu seçmenden itibaren, kutsal hiddetini silah darbelerine yönlendirebilirsin. Öfkeliyken, her sıranda silah saldırısı ile vurduğun ilk varlık 1d6 + barbar seviyenin yarısı kadar fazladan hasar alır. Fazladan hasar nekrotik ya da radyanttır; bu özelliği kazandığında seçersin."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Tanrıların Savaşçısı",
+										"entries": [
+											"3. seviyede, ruhun sonsuz savaş için işaretlenir. {@spell Raise Dead (Ölü Dirilt)} gibi tek amacı seni hayata döndürmek olan (yaşayan ölü olarak değil) bir büyü için, kullanıcı eğer seni hedef alıyorsa materyal bileşen gerekmez."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Fanatikçe Odaklanma",
+										"entries": [
+											"6. seviyeden itibaren, öfkeni destekleyen kutsal güç artık seni koruyabilir. Öfkeliyken bir kurtulma zarında başarısız olursan, onu yeniden atabilirsin ve yeni zarı kullanmak zorunda olursun. Bu özelliği her öfkede sadece bir kez kullanabilirsin."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Yobaz Varoluş",
+										"entries": [
+											"10. seviyede, kutsal gücünü yönlendirip yobazlığı diğerlerine de yaymayı öğrenirsin. Bonus eylem olarak, kutsal enerji ile yüklü bir savaş narası atarsın. 60 fit yakınında seni duyabilen 10 taneye kadar seçeceğin varlık, bir sonraki sıranın başına kadar saldırı ve kurtulma zarlarında avantajlı olurlar.",
+											"Bu özelliği kullandığında, uzun dinlenme bitirene kadar bir daha kullanamazsın."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Ölümün Ötesinde Öfke",
+										"entries": [
+											"14. seviyeden itibaren, öfkeni destekleyen kutsal güç senin ölümcül darbelere aldırış etmemeni sağlar.",
+											"Öfkeliyken, 0 HP'ye düşmek seni {@condition bilinçsizlik} durumuna sokmaz. Hala ölüm kurtulma zarları atarsın, ve 0 HP'de iken hasar almanın etkilerine maruz kalırsın. Ama, ölüm kurtulma zarlarında başarısız olduğun için öleceksen, öfken bitene kadar ölmezsin, ve hala 0 HP'ye sahipsen ölürsün."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "XGE",
+					"shortName": "Yobaz"
 				}
 			],
 			"fluff": [
