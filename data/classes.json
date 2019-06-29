@@ -15392,14 +15392,14 @@
 								"name": "Büyüleri Hazırlama ve Kullanma",
 								"entries": [
 									"Büyücü tablosu 1. seviye ve üzeri büyüleri kullanmak için kaç tane büyü yuvan olduğunu gösterir. Bu büyülerden birini kullanmak için büyünün seviyesi ya da üzeri bir büyü yuvası harcaman gerekir. Tüm harcanmış büyü yuvalarını uzun dinlenme sonrası yenilersin.",
-									"Mevcut olan büyücü büyülerin arasından kullanmak için bir liste oluşturursun. Bunu yapmak için, büyü kitabından Zeka bonusun + büyücü seviyen kadar (en az 1) kadar büyü seç. Büyüler sahip olduğun büyü yuvalarına uygun olmalı.",
+									"Mevcut olan büyücü büyülerinin arasından kullanmak için bir liste oluşturursun. Bunu yapmak için, büyü kitabından Zeka bonusun + büyücü seviyen kadar (en az 1) büyü seç. Büyüler sahip olduğun büyü yuvalarına uygun olmalı.",
 									"Örneğin, eğer sen bir 3. seviye büyücü isen dört adet 1. seviye büyü yuvan ve iki adet 2. seviye büyü yuvan olur. 16 Zeka skoru ile, hazırlanmış büyüler listen 1. ve 2. seviyeden toplam altı tane büyü kitabından seçilmiş büyü içerebilir. Eğer 1. seviye büyüsü {@spell magic missile (büyülü misil)} hazırlarsan bunu 1. ya da 2. seviye büyü yuvası ile kullanabilirsin. Büyüyü kullanmak onu hazırlanmış büyüler listenden çıkarmaz.",
-									"Hazırlanmış büyüler listeni uzun dinlenme sonrası değiştirebilirsin. Yeni bir büyücü büyüleri listesi hazırlamak, büyü kitabını araştırıp kullanman gereken el hareketlerini ve söylemen gereken sözleri ezberlemeye vakit ayırmanı gerektirir: listendeki her büyü için seviye başı en az 1 dakika."
+									"Hazırlanmış büyüler listeni uzun dinlenme sonrası değiştirebilirsin. Yeni bir büyücü büyüleri listesi hazırlamak, büyü kitabını araştırıp kullanman gereken el hareketlerini ve söylemen gereken sözleri ezberlemeye vakit ayırmanı gerektirir: listendeki her büyü için seviye başı en az 1 dakika harcarsın."
 								]
 							},
 							{
 								"type": "entries",
-								"name": "Spellcasting Ability",
+								"name": "Büyü Yapma Yeteneği",
 								"entries": [
 									"Büyülerini araştırma ve ezber ile öğrendiğin için büyücü büyü yapma yeteneğin Zekadır. Ne zaman bir büyü, büyü yapma yeteneğinden bahsederse Zeka kullanırsın. Ek olarak, büyücü büyülerin için kurtulma zarı DC'sini belirlerken ve bunlarla saldırı yaparken de Zeka bonusunu kullanırsın.",
 									{
@@ -15436,7 +15436,7 @@
 								"type": "entries",
 								"name": "1. Seviye ve Üzeri Büyüleri Öğrenme",
 								"entries": [
-									"Her büyücü seviyesi atladığında büyü kitabına seçeceğin iki adet büyücü büyüsü ekleyebilirsin. Büyülerin hepsi Büyücü tablosunda gösterildiği üzere sahip olduğun büyü yuvalarına uygun olmalıdır. Maceralarında büyü kitabına ekleyebileceğin diğer büyüler de bulabilirsin (\"Büyü Kitabın\" kısmına bak)."
+									"Her büyücü seviyesi atladığında büyü kitabına seçeceğin iki adet büyücü büyüsü ekleyebilirsin. Büyülerin hepsi Büyücü tablosunda gösterilen sahip olduğun büyü yuvalarına uygun olmalıdır. Maceralarında büyü kitabına ekleyebileceğin diğer büyüler de bulabilirsin (\"Büyü Kitabın\" kısmına bak)."
 								]
 							},
 							{
@@ -15468,7 +15468,7 @@
 												"name": "Kitabı Yenileme",
 												"entries": [
 													"Kendi büyü kitabından bir büyüyü başka bir kitaba kopyalayabilirsin, mesela bir yedek yaratmak istersen yapacağın gibi. Bu aynı yeni bir büyüyü kopyalamak gibidir ama daha basit ve hızlı olur, nasıl olsa kendi formüllerini anlayabiliyor ve büyüyü kullanmayı biliyorsun. Kopyalanan büyünün her seviyesi için sadece 1 saat ve 10 gp harcaman gerekir.",
-													"Eğer büyü kitabını kaybedersen, aynı prosedürü hazırlamış olduğun büyüleri yeni bir kitaba yazarken kullanabilirsin. Kitabın devamını doldurma normalde olduğu gibi yeni büyüleri bulmanı gerektirir. Bu sebepten dolayı çoğu büyücü kitaplarını yedeğini güvenli bir yerde saklarlar."
+													"Eğer büyü kitabını kaybedersen, aynı prosedürü hazırlamış olduğun büyüleri yeni bir kitaba yazarken kullanabilirsin. Kitabın devamını doldurma normalde olduğu gibi yeni büyüleri bulmanı gerektirir. Bu sebepten dolayı çoğu büyücü kitaplarının yedeğini güvenli bir yerde saklarlar."
 												]
 											}
 										]
@@ -15480,7 +15480,7 @@
 												"type": "entries",
 												"name": "Kitabın Görünüşü",
 												"entries": [
-													"Büyü kitabın kendi deseni ve notlarıyla özgün bir büyü derlemesidir. Ustandan aldığın hediye olan basit bir deri kitapta olabilir, antik bir kütüphanede bulduğun yaldızlı bir yazıtta, hatta belkide önceki kitabını kaybettikten sonra toparladığın bir parşömen yığınıdır."
+													"Büyü kitabın kendi deseni ve notlarıyla özgün bir büyü derlemesidir. Ustandan aldığın hediye olan basit bir deri kitap da olabilir, antik bir kütüphanede bulduğun yaldızlı bir yazıt da, hatta belkide önceki kitabını kaybettikten sonra toparladığın bir parşömen yığınıdır."
 												]
 											}
 										]
@@ -15494,7 +15494,7 @@
 					{
 						"name": "Arcane Gelenek",
 						"entries": [
-							"2. seviyeye ulaştığında büyü uğraşına şekil verecek olan mevcut listeden bir arcane gelenek seçersin. Seçeneğin sana 2, 6, 10 ve 14. seviyelerde özellikler kazandırır."
+							"2. seviyeye ulaştığında büyü uğraşına şekil verecek olan bir arcane geleneği mevcut listeden seçersin. Seçeneğin sana 2, 6, 10 ve 14. seviyelerde özellikler kazandırır."
 						],
 						"gainSubclassFeature": true
 					}
@@ -15601,7 +15601,7 @@
 			"subclassTitle": "Arcane Gelenek",
 			"subclasses": [
 				{
-					"name": "School of Abjuration",
+					"name": "Abjuration Okulu",
 					"subclassFeatures": [
 						[
 							{
@@ -15743,7 +15743,7 @@
 					"shortName": "Conjuration"
 				},
 				{
-					"name": "School of Divination",
+					"name": "Divination Okulu",
 					"subclassFeatures": [
 						[
 							{
@@ -16277,6 +16277,168 @@
 					],
 					"source": "PHB",
 					"shortName": "Necromancy"
+				},
+				{
+					"name": "Savaş Büyüsü",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Savaş Büyüsü",
+								"entries": [
+									"Çeşitli arcane kolejler büyücüleri savaşa hazırlamada uzmanlaşır. Savaş Büyüsü geleneği evocation ve abjuration okullarından birinde uzmanlaşmaktansa, bunların ilkelerini birleştirir. Bir büyücünün büyülerini güçlendirecek teknikler öğretirken, aynı zamanda büyücülere savunmalarını artıracak metodlar sağlar.",
+									"Bu geleneğin takipçileri savaş büyücüleri olarak bilinirler. Onlar büyülerini hem silah hem de zırh olarak görüp, bir çelik parçasından üstün olduğuna inanırlar. Savaş büyücüleri savaşta tez davranırlar, ve büyülerini kullanıp durumun taktiksel kontrolünü sağlarlar. Büyüleri sert vururken, savunma becerileri rakiplerinin karşı saldırı çabalarını engeller. Savaş büyücüleri diğer büyü kullanıcılarının enerjilerini onlara karşı kullanmada da uzmandırlar.",
+									"Büyük savaşlarda, bir savaş büyücüsü genellikle evokerlar, abjurerlar, ve diğer büyücü tipleri ile ortak çalışır. Özellikle evokerlar, dikkatlerini saldırı ve savunma arasında böldükleri için bazen savaş büyücüleri ile alay ederler. Bir savaş büyücüsünün tipik cevabı: \"Eğer kullanamadan öleceksem görkemli bir {@spell fireball (alevtopu)} atabilmenin anlamı nedir?\"",
+									{
+										"type": "entries",
+										"name": "Arcane Saptırma",
+										"entries": [
+											"2. seviyede, büyünü örüp kendini hasara karşı korumayı öğrendin. Bir saldırı sana vurursa ya da bir kurtulma zarında başarısız olursan, reaksiyonunu kullanıp o saldırıya karşı AC'ne +2 bonus ya da kurtulma zarına +4 bonus ekleyebilirsin.",
+											"Bu özelliği kullandığında, bir sonraki sıranın sonuna kadar cantrip dışında büyü kullanamazsın."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Taktik Zeka",
+										"entries": [
+											"2. seviyeden itibaren, taktik durumları değerlendirmeni sağlayan keskin yeteneklerin, savaşta çabuk davranmanı sağlar. Öncelik zarlarına Zeka bonusunu ekleyebilirsin."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Güç Taşımı",
+										"entries": [
+											"6. seviyeden itibaren, sonrasında hasar veren büyülerini güçlendirmek için içinde güç depolayabilirsin. Depolanmış halinde, bu enerjiye güç taşımı denir.",
+											"Zeka bonusun kadar (en az 1) güç taşımı depolayabilirsin. Her uzun dinlenme bitirdiğinde, güç taşımı sayın 1'e döner. Ne zaman bir büyüyü dispel magic (büyü defet) ya da counterspell (karşıbüyü) ile başarılı bir şekilde sonlandırırsan, bozduğun büyüden gücünü çalarak bir güç taşımı kazanırsın. Eğer bir kısa dinlenmeyi hiç güç taşımın olmadan bitirirsen, bir güç taşımı kazanırsın.",
+											"Her sıranda bir kereliğine, bir varlık ya da nesneye bir büyücü büyüsü ile hasar verdiğinde, bir güç taşımı harcayıp hedefe fazladan güç hasarı verebilirsin. Bu fazladan hasar büyücü seviyenin yarısıdır."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Dayanıklı Büyü",
+										"entries": [
+											"10. seviyeden itibaren, yönlendirdiğin büyü hasara karşı korunmaya yardımcı olur. Bir büyüye konsantre olurken, AC ve tüm kurtulma zarlarına +2 bonusun olur."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Saptıran Örtü",
+										"entries": [
+											"14. seviyede, Arcane Saptırman ölümcül büyü ile işlenir. Arcane Saptırma özelliğini kullandığında, büyülü enerjinin senden sıçramasını sağlarsın. 60 fit yakınında görebildiğin, seçeceğin 3 taneye kadar varlık büyücü seviyenin yarısı kadar güç hasarı alır."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "XGE",
+					"shortName": "Savaş Büyüsü"
+				},
+				{
+					"name": "Bladesinger",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Bladesinger",
+								"entries": [
+									"Bladesingerlar cesurca topraklarını ve halkını koruyan elflerdir. Arcane büyü temelli bir kılıç dövüş okulunda uzmanlaşan elf büyücülerdir. Savaşta, bir bladesinger bir seri karmaşık ama zarif manevralar ile hasarı savar, ve büyülerini yıkıcı saldırılar ve kurnaz bir savunma için yönlendirir.",
+									{
+										"type": "entries",
+										"name": "Kısıtlama: Sadece Elfler",
+										"entries": [
+											"Sadece elfler ve yarı elfler bladesinger arcane geleneğini seçebilir. Faerûn dünyasında, elfler bladesinging sırlarını sıkıca saklarlar.",
+											"DM'in hikayeye uyması için bu kısıtlamayı kaldırabilir. Bu kısıtlama Unutulmuş Diyarlarda bladesingerların hikayesini yansıtır, ama bu DM'in dünyasına ya da onun Diyarlar yorumuna uymayabilir."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Savaş ve Şarkı Eğitimi (Bladesinging)",
+										"entries": [
+											"2. seviyede bu geleneği seçtiğinde, hafif zırhlar ve seçeceğin bir tek elli yakın dövüş silahı ile uzmanlık kazanırsın.",
+											"Ayrıca zaten uzmanlığın yoksa Performans becerisinde uzmanlık kazanırsın."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Bladesong",
+										"entries": [
+											"2. seviyeden itibaren, Bladesong denen gizli bir elf büyüsünü kullanırsın, orta veya ağır zırh giymediğin ve kalkan kullanmadığın sürece bu mümkündür. Sana doğaüstü hız, çeviklik ve odaklanma bahşeder.",
+											"Bonus eylem kullanıp Bladesong'u başlatırsın, bu 1 dakika sürer. Eğer {@condition etkisiz hal} durumuna düşersen, orta veya ağır zırh ya da kalkan kullanırsan, ya da bir silahla iki elini de kullanıp saldırı yaparsan bu etki erken sonlanır. Bladesong'u istediğin bir zaman sonlandırabilirsin (eylem gerektirmez).",
+											"Bladesong aktifken, şunlardan faydalanırsın:",
+											{
+												"type": "list",
+												"items": [
+													"Zeka bonusun kadar (en az 1) AC'ne bonus eklersin.",
+													"Yürüyüş hızın 10 fit artar.",
+													"Çeviklik (Akrobasi) zarlarında avantajlı olursun.",
+													"Bir büyüde konsantrasyonunu korumak için atacağın Dayanıklılık kurtulma zarlarına bonusun olur. Bu bonus Zeka bonusun kadardır (en az +1)."
+												]
+											},
+											"Bu özelliği iki kere kullanabilirsin. Bir kısa ya da uzun dinlenme bitirdiğinde tüm harcanan kullanımları yenilenir."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Extra Saldırı",
+										"entries": [
+											"6. seviyeden itibaren sıranda Saldırı eylemini kullandığında 1 yerine 2 kere saldırabilirsin."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Savunma Şarkısı",
+										"entries": [
+											"10. seviyeden itibaren, bladesong'un aktifken büyünü hasar emmek için yönlendirebilirsin. Hasar aldığında, reaksiyonunu kullanarak bir büyü yuvası harcayıp, hasarı büyü yuvasının seviyesinin 5 katı kadar azaltabilirsin."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Zafer Şarkısı",
+										"entries": [
+											"14. seviyeden itibaren, Bladesong'un aktifken, yakın dövüş silahı saldırılarının hasarına Zeka bonusunu (en az +1) eklersin."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "SCAG",
+					"shortName": "Bladesinger"
 				}
 			],
 			"fluff": [
