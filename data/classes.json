@@ -2770,7 +2770,7 @@
 								"name": "Alan Büyüleri",
 								"entries": [
 									"Her alanın açıklamasında belirtildiği üzere, belirli seviyelerde verdiği rahip büyüleri vardır. Bir alan büyüsünü aldığında o sende daima hazırlanmış bir şekilde kalır ve günlük hazırlayabileceğin büyü sayısını etkilemez.",
-									"Eğer bir alan büyün rahip büyü listesinde yer almıyorsa o senin için yinede rahip büyüsü sayılır."
+									"Eğer bir alan büyün rahip büyü listesinde yer almıyorsa o senin için yine de rahip büyüsü sayılır."
 								]
 							}
 						],
@@ -5949,7 +5949,7 @@
 					"title": "Büyü Seviyesi Başına Büyü Slotları",
 					"subclasses": [
 						{
-							"name": "Eldritch Şövalye",
+							"name": "Eldritch Şövalyesi",
 							"source": "PHB"
 						}
 					],
@@ -13818,7 +13818,7 @@
 								"type": "entries",
 								"name": "Büyü Yapma Yeteneği",
 								"entries": [
-									"Warlock büyüleri için kullanacağın yetenek skoru Karizma'dır ve ne zaman bir büyü büyü yapma yeteneğinden bahsederse Karizma bonusunu kullanırsın. Aynı zamanda, warlock büyülerinin kurtulma zarı zorluk seviyesini(DC) belirlerken, saldırı ve hasar zarlarında Karizma bonusun kullanılır.",
+									"Warlock büyüleri için kullanacağın yetenek skoru Karizmadır ve ne zaman bir büyü, büyü yapma yeteneğinden bahsederse Karizma bonusunu kullanırsın. Aynı zamanda, warlock büyülerinin kurtulma zarı zorluk seviyesini (DC) belirlerken, saldırı ve hasar zarlarında Karizma bonusun kullanılır.",
 									{
 										"type": "abilityDc",
 										"name": "Büyü",
@@ -14269,7 +14269,7 @@
 										"name": "Kılıcın Ahdi",
 										"entries": [
 											"Eylemini kullanarak boş elinde ahit silahını yaratabilirsin. Her yaratışında bu silahın formunu seçebilirsin. Kullandığın sürece bu silah ile uzmanlığın vardır. Büyüsüz hasara karşı direnç ve bağışıklığı geçmek adına bu silah büyülü sayılır.",
-											"Ahit silahın eğer senden 5 fit uzakta 1 dakika ya da fazla geçirirse kaybolur. Bu özelliği yeniden kullandığında, öldüğünde ya da silahı savdığında (eylem gerektirmez) de silah kaybolur.",
+											"Ahit silahın eğer senden 5 fit uzakta 1 dakika ya da fazla geçirirse kaybolur. Bu özelliği yeniden kullandığında, öldüğünde ya da silahı savdığında (eylem gerektirmez) da silah kaybolur.",
 											"Büyülü bir silahı özel bir ritüel gerçekleştirerek kendi ahit silahına dönüştürebilirsin. Bu ritüeli 1 saat süresince yaparsın ve kısa dinlenme sırasında yapılabilir. İstediğinde silahı savıp farklı bir boyutta tutabilirsin ve ahit silahını yarattığında yeniden belirir. Artefakt ya da bilinçli bir silahı bu şekilde etkileyemezsin. Eğer ölürsen, 1 saatlik ritüeli farklı bir silahla yaparsan ya da bağı bozmak için 1 saatlik bir ritüeli yaparsan ahit silahın olmayı bırakır. Bağ bozulduğunda hala farklı bir boyuttaysa silah ayağının dibinde belirir."
 										]
 									},
@@ -14723,6 +14723,226 @@
 					],
 					"source": "PHB",
 					"shortName": "Kadim Olan"
+				},
+				{
+					"name": "Ölümsüz",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Ölümsüz",
+								"entries": [
+									"Ebedi yaşamın sırlarını keşfeden efendinin üzerinde ölümün hiçbir gücü yoktur, ama her güç gibi böylesi bir ödülün de bir bedeli olacaktır. Bir zamanlar ölümlü olan efendin, fanilerin ömürlerinin geçişlerini mevsimleri izler gibi izledi, sanki sonsuz gün ve gecenin yanıp sönmesi gibi. Paylaşılacak çağların sırlarına sahip, ölüm ve yaşamın sırlarına. Bu tip varlıklar, Göz ve Elin Lordu Vecna; dehşet Iuz; lich-kraliçe Vol; Aerenal'ın Ölümsüz Sarayı; githyankilerin lich-kraliçesi Vlaakith; ve ölümsüz büyücü Fistandantalus gibilerini içerir.",
+									"Diyarlarda, Ölümsüz efendiler Gölge Kralı Larloch, Warlock Kripti'nin efsanevi efendisi, ve Unther'in Tanrı-Kralı Gilgeam'ı içerir.",
+									{
+										"type": "entries",
+										"name": "Genişletilmiş Büyü Listesi",
+										"entries": [
+											"Ölümsüz warlock büyülerini daha geniş bir yelpazeden seçmeni sağlar. Aşağıdaki büyüler senin için warlock büyü listesine eklenir.",
+											{
+												"type": "table",
+												"caption": "Ölümsüz Genişletilmiş Büyüleri",
+												"colLabels": [
+													"Büyü Seviyesi",
+													"Büyüler"
+												],
+												"colStyles": [
+													"col-xs-3 text-align-center",
+													"col-xs-9"
+												],
+												"rows": [
+													[
+														"1.",
+														"{@spell false life (sahte yaşam)}, {@spell ray of sickness (Hastalık Işını)}"
+													],
+													[
+														"2.",
+														"{@spell blindness/deafness (körlük/sağırlık)}, {@spell silence (sessizlik)}"
+													],
+													[
+														"3.",
+														"{@spell feign death (Ölüm Taklidi)}, {@spell speak with dead (Ölüyle Konuş)}"
+													],
+													[
+														"4.",
+														"{@spell aura of life (yaşam aurası)}, {@spell death ward (Ölüm Kalkanı)}"
+													],
+													[
+														"5.",
+														"{@spell contagion (bulaşma)}, {@spell legend lore (efsane bilgisi)}"
+													]
+												]
+											}
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Ölülerin Arasında",
+										"entries": [
+											"1. seviyeden itibaren, {@spell spare the dying (Öleni Esirge)} cantripini öğrenirsin, bu senin için warlock cantripi sayılır. Ayrıca hastalığa karşı kurtulma zarlarında avantajın olur.",
+											"Ek olarak, yaşayan ölüler sana hasar verirken zorlanır. Eğer bir yaşayan ölü, zararlı bir büyü ya da saldırı ile seni doğrudan hedef alırsa, o varlık senin büyü kurtulma DC'ne karşı Akıl kurtulma zarı atar (bir {@spell fireball (alevtopu)} büyüsünün patlaması gibi alan etkisinin içinde kalırsan, yaşayan ölü bu kurtulma zarını atmak zorunda değildir). Başarısız olursa, varlık yeni bir hedef seçer ya da senin dışında birini hedef almaktan vazgeçer, saldırı ya da büyünün boşa gitme ihtimali olabilir. Başarılı olursa, varlık bu etkiye 24 saat bağışıklık kazanır. Bir yaşayan ölü eğer sen onu bir saldırı ya da zararlı büyü ile hedef alırsan da bu etkiye 24 saat boyunca bağışıktır."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Ölüme Karşı Gel",
+										"entries": [
+											"6. seviyeden itibaren, ölümü aldattığında ya da başkasının aldatmasına yardım ettiğinde kendine yaşam gücü verebilirsin. Bir ölüm kurtulma zarında başarılı olduğunda ya da başka bir varlığı öleni esirge cantripi ile stabilize ettiğinde, 1d8 + Dayanıklılık bonusun (en az 1 HP) kadar HP yenileyebilirsin.",
+											"Bu özelliği kullandığında, uzun dinlenme bitirene kadar bir daha kullanamazsın."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Ölümsüz Yapı",
+										"entries": [
+											"10 seviyeden itibaren, nefesini sonsuz tutabilirsin, ve yiyecek, içecek veya uyku ihtiyacın kalmaz, ama hala {@condition bitkinlik} seviyesini azaltmak için dinlenmeye ihtiyacın vardır ve hala kısa ve uzun dinlenmeden faydalanabilirsin.",
+											"Ek olarak, daha yavaş yaşlanırsın. Her geçen 10 yıl için, bedenin 1 yıl yaşlanır, ve büyülü bir şekilde yaşlandırılmaya karşı bağışıklığın olur."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Yokedilemez Yaşam",
+										"entries": [
+											"14. seviyeye ulaştığında, Ölümsüzün saf sırlarından birkaçına dahil olursun. Sıranda, bonus eylem kullanıp 1d8 + Warlock seviyen kadar HP yenileyebilirsin. Ek olarak, eğer bu özelliği kullanırken kopan bir vücut parçanı yerine tutarsan, parça yeniden birleşir.",
+											"Bu özelliği kullandığında, kısa ya da uzun dinlenme bitirene kadar bir daha kullanamazsın."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "SCAG",
+					"shortName": "Ölümsüz"
+				},
+				{
+					"name": "Kutsal",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Kutsal",
+								"entries": [
+									"Efendin Üst Boyutlardan güçlü bir varlıktır. Kendini ebedi mutluluk boyutlarından birinde yaşayan kadim bir empyrean, solar, ki-rin, unicorn, ya da benzer bir varlığa bağladın. Bu varlıkla olan ahdin çokluevrene dokunan kutsal ışığın en yalın halini deneyimleyebilmeni sağlar.",
+									"Bu tip bir güce bağlı olmak senin davranış ve inançlarında değişime yol açabilir. Kendini yaşayan ölüleri yok etme, zebanileri alt etme, ve masumları koruma gibi hislerle dolu bulabilirsin. Zaman zaman, kalbin efendinin kutsal diyarına olan özlemin ile dolabilir, ve kalan günlerinde cennette gezebilme arzusuyla. Ama bilirsin ki şu anda görevin fanilerin arasındadır, ve ahdin seni dünyanın karanlık kısımlarına ışık götürmeye bağlar.",
+									{
+										"type": "entries",
+										"name": "Genişletilmiş Büyü Listesi",
+										"entries": [
+											"Kutsal warlock büyülerini daha geniş bir yelpazeden seçmeni sağlar. Aşağıdaki büyüler senin için warlock büyü listesine eklenir.",
+											{
+												"type": "table",
+												"caption": "Kutsal Genişletilmiş Büyüleri",
+												"colLabels": [
+													"Büyü Seviyesi",
+													"Büyüler"
+												],
+												"colStyles": [
+													"col-xs-3 text-align-center",
+													"col-xs-9"
+												],
+												"rows": [
+													[
+														"1.",
+														"{@spell cure wounds (Yaraları İyileştir)}, {@spell guiding bolt (güdücü ok)}"
+													],
+													[
+														"2.",
+														"{@spell flaming sphere (alevli küre)}, {@spell lesser restoration (küçük yenileme)}"
+													],
+													[
+														"3.",
+														"{@spell daylight (günışığı)}, {@spell revivify (canlandır)}"
+													],
+													[
+														"4.",
+														"{@spell guardian of faith (İnanç Muhafızı)}, {@spell wall of fire (ateş duvarı)}"
+													],
+													[
+														"5.",
+														"{@spell flame strike (alev darbesi)}, {@spell greater restoration (Üstün Yenileme)}"
+													]
+												]
+											}
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Bonus Cantripler",
+										"entries": [
+											"1. seviyede, {@spell sacred flame (kutsal alev)} ve {@spell light (Işık)} cantriplerini öğrenirsin. Senin için warlock cantripi sayılırlar, ama bildiğin cantrip sayısına dahil olmazlar."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "İyileştiren Işık",
+										"entries": [
+											"1. seviyede, yaraları iyileştirmek için kutsal enerjiyi yönlendirme yeteneğini kazanırsın. Bu iyileştirmeyi destekleyen harcadığın bir d6 havuzun olur. Bu havuzdaki zar sayısı 1 + warlock seviyene eşittir.",
+											"Bonus eylem olarak, 60 fit yakınında görebildiğin bir varlığı havuzdan zar harcayarak iyileştirebilirsin. Bir seferde harcayabileceğin maksimum zar sayısı Karizma bonusuna (en az 1) eşittir. Harcadığın zarları at, onları topla, ve toplam kadar HP yenile.",
+											"Uzun dinlenme bitirdiğinde havuzun tüm harcanan zarları yeniler."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Parlak Ruh",
+										"entries": [
+											"6. seviyeden itibaren, Kutsala olan bağın radyant enerji için bir aracı olmanı sağlar. Radyant hasara direncin olur, ve radyant ya da ateş hasarı veren bir büyü kullandığında, o büyünün hedeflerinden birine karşı attığın bir radyant ya da ateş hasar zarına Karizma bonusunu ekleyebilirsin."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Kutsal Dayanıklılık",
+										"entries": [
+											"10. seviyeden itibaren, her kısa ya da uzun dinlenme bitirişinde geçici HP kazanırsın. Bu geçici HP senin warlock seviyen + Karizma bonusun kadardır. Ayrıca, dinlenme sonunda görebildiğin 5 taneye kadar varlık seç. O varlıklar senin warlock seviyenin yarısı + Karizma bonusun kadar geçici HP kazanır."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Dağlayan İntikam",
+										"entries": [
+											"14. seviyeden itibaren, yönlendirdiğin radyant enerji ölüme direnmeni sağlar. Sıranın başında ölüm kurtulma zarı atacağın zaman, bunun yerine bir radyant enerji patlamasıyla kendine gelebilirsin. HP maksimumunun yarısını yenilersin, ve eğer istersen ayağa kalkarsın. 30 fit çevrende seçeceğin her varlık 2d8 + Karizma bonusun kadar radyant hasar alır, ve şimdiki sıranın sonuna kadar {@condition körlük} etkisinde olurlar.",
+											"Bu özelliği kullandığında, uzun dinlenme bitirene kadar bir daha kullanamazsın."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "XGE",
+					"shortName": "Kutsal"
 				},
 				{
 					"name": "Hex Kılıcı",
