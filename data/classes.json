@@ -627,7 +627,7 @@
 										"type": "entries",
 										"name": "Ruh Gezen",
 										"entries": [
-											"10. seviyede {@spell commune with nature (Doğa İle Konuş)} büyüsünü ritüel olarak kullanabilirsin. Kullandığında, aradığın bilgiyi sana aktarmak için seçtiğin totem hayvanlarından birinin ruhu gelir."
+											"10. seviyede {@spell commune with nature (Doğa ile Konuş)} büyüsünü ritüel olarak kullanabilirsin. Kullandığında, aradığın bilgiyi sana aktarmak için seçtiğin totem hayvanlarından birinin ruhu gelir."
 										]
 									}
 								]
@@ -5029,8 +5029,8 @@
 								"items": [
 									"Senin oyun istatistiklerin hayvanınkilerle değişir ama hala kişiliğin, yönelimin ve Zeka, Akıl ve Karizma skorların aynı kalır. Varlığınkileri eklemenin yanında kendi becerilerin ve kurtulma zarı uzmanlıkların da kalır. Eğer varlık senle aynı uzmanlığa sahipse ve onun stat bloğundaki bonus daha yüksekse, kendi bonusun yerine varlığınkini kullanabilirsin. Eğer varlık herhangi bir efsanevi ya da yuva eylemine sahipse bunları kullanamazsın.",
 									"Dönüştüğünde hayvanın HP ve HD'sini kullanırsın. Eski formuna döndüğünde, dönüşmeden önceki HP sayısı ile devam edersin. Ama, eğer 0 HP'ye düşme sonucu eski formuna döndüysen fazlalık hasar normal formuna aktarılır. Örneğin, hayvan formunda 10 hasar aldın ve hayvan formunun sadece 1 HP'si kalmış, bu durumda eski formuna dönersin ve 9 hasar alırsın. Fazlalık hasar senin asıl formunu 0 HP'ye düşürmediği sürece bilinçsiz kalmazsın.",
-									"Büyü yapamazsın ve konuşman ya da elle yapılacak tüm eylemlerin hayvan formu ile sınırlıdır. Dönüşmen daha önce kullandığın bir büyünün konsantrasyonunu bozmaz ya da büyünün bir parçası olan eylemleri yapmanı engellemez, {@spell call lightning (Yıldırım Çağır)} büyüsü gibi.",
-									"Sınıfın, ırkın ya da başka kaynaktan gelen özelliklerinden yeni formunda fiziksel olarak uygunsa faydalanabilirsin. Ama yeni formunda o duyuya sahip değilse, gece görüşü gibi duyulardan faydalanamazsın.",
+									"Büyü yapamazsın ve konuşman ya da elle yapılacak tüm eylemlerin hayvan formu ile sınırlıdır. Dönüşmen, daha önce kullandığın bir büyünün konsantrasyonunu bozmaz ya da büyünün bir parçası olan eylemleri yapmanı engellemez, {@spell call lightning (Yıldırım Çağır)} büyüsü gibi.",
+									"Sınıfın, ırkın ya da başka kaynaktan gelen özelliklerinden yeni formun da fiziksel olarak uygunsa faydalanabilirsin. Ama yeni formun da o duyuya sahip değilse, gece görüşü gibi duyulardan faydalanamazsın.",
 									"Dönüştüğünde ekipmanın yere mi düşecek, yeni formun ile mi birleşecek ya da yeni formun tarafından mı kullanılacak sen seçersin. Ekipmanın normal olarak işler ama yeni formunun o ekipmanı kullanması uygun mu diye DM karar verir. Ekipmanın yeni forma uymak için şekil ya da boyut değiştirmez ve yeni formun kullanamayacağı ekipman ya yere düşer ya da yeni form ile birleşir. Formunla birleşen ekipman sen eski haline dönene dek bir etki göstermez."
 								]
 							}
@@ -5217,7 +5217,7 @@
 													],
 													[
 														"9.",
-														"{@spell commune with nature (Doğa İle Konuş)}, {@spell cone of cold (soğuk konisi)}"
+														"{@spell commune with nature (Doğa ile Konuş)}, {@spell cone of cold (soğuk konisi)}"
 													]
 												]
 											},
@@ -5307,7 +5307,7 @@
 													],
 													[
 														"9.",
-														"{@spell commune with nature (Doğa İle Konuş)}, {@spell insect plague (böcek sürüsü)}"
+														"{@spell commune with nature (Doğa ile Konuş)}, {@spell insect plague (böcek sürüsü)}"
 													]
 												]
 											},
@@ -5597,6 +5597,310 @@
 					],
 					"source": "PHB",
 					"shortName": "Ay"
+				},
+				{
+					"name": "Rüya Çemberi",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Rüya Çemberi",
+								"entries": [
+									"Rüya Çemberi üyesi druidler Feywild ve onun rüya gibi doğasına güçlü bağları olan yerlerden gelirler. Druidlerin doğal dünyayı muhafaza etmeleri onlarla iyi feyler arasında doğal bir ittifak oluşturur. Bu druidler dünyayı rüya gibi harikalarla doldurmı hedefler. Büyüleri yaraları kapar ve kederli kalplere neşe getirir, korudukları diyarlar ışıldayan, bereketli yerlerdir, buralarda gerçeklik ve rüyalar birbirine girer ve bitap olan huzur bulur.",
+									{
+										"type": "entries",
+										"name": "Yaz Sarayı Merhemi",
+										"entries": [
+											"2. seviyede, Yaz Sarayının lütufları ile dolarsın. Acıları dindiren bir enerji kaynağısındır. Druid seviyene eşit d6'lardan oluşan bir fey enerji havuzun vardır.",
+											"Bonus eylem olarak, 120 fit yakınında görebildiğin bir varlık seçip druid seviyenin yarısına ya da altında bir sayıya kadar bu zarlardan harcayabilirsin. Harcanan zarları at ve topla. Hedef toplam kadar HP yeniler. Hedef ayrıca her harcanan zar için 1 geçici HP de alır.",
+											"Tüm harcanan zarları uzun dinlenme bitirince yenilersin."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Ayışığı ve Gölge Ocağı",
+										"entries": [
+											"6. seviyede, yurdun sen neredeysen oradadır. Kısa ya da uzun dinlenme sırasında, molanı koruması için Alacakaranlık Sarayının gölge gücünü çağırabilirsin. Dinlenmenin başında, alanda bir noktaya dokunursun ve orada görünmez, 30 fit yarıçapta bir büyülü küre oluşur. Tam siper küreyi engeller.",
+											"Kürenin içindeyken, sen ve müttefiklerin Çeviklik (Gizlenme) ve Akıl (Algı) zarlarına +5 bonus alırsınız, ve küre içinde açık ateşlerden çıkan ışık (kamp ateşi, meşaleler, vb) dışarıdan görünmez.",
+											"Bu küre dinlenme bittiğinde ya da sen küreden çıktığında kaybolur."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Gizli Yollar",
+										"entries": [
+											"10. seviyeden itibaren, bazı feylerin göz açıp kapayıncaya kadar mesafe katettikleri gizli, büyülü yolları kullanabilirsin. Sıranda bonus eylem olarak, 60 fit yakınında görebildiğin boş bir alana ışınlanabilirsin. Alternatif olarak, eylemini kullanıp istekli bir varlığı 30 fit yakınında görebildiğin boş bir alana ışınlayabilirsin.",
+											"Bu özelliği Akıl bonusun kadar (en az 1) kullanabilirsin, ve uzun dinlenme bitirdiğinde tüm kullanımlar yenilenir."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Rüyalarda Yürüyen",
+										"entries": [
+											"14. seviyede, Feywild'ın büyüsü sana fiziksel ya da zihinsel olarak rüya diyarlarında seyahat etme yetisini kazandırır.",
+											"Kısa dinlenme bitirdiğinde, büyü yuvası harcamadan ya da materyal bileşen gerektirmeden şu büyülerden birini kullanabilirsin: {@spell dream (rüya)} (elçi olarak sen olursun), {@spell scrying (uzaktan görüş)}, veya {@spell teleportation circle (Işınlanma Çemberi)}.",
+											"{@spell Teleportation circle (Işınlanma Çemberi)} büyüsünün bu kullanımı özeldir. Kalıcı bir ışınlanma çemberine portal açmaktansa, aynı boyutta en son uzun dinlenme bitirdiğin yere portal açar. Eğer şu anki boyutunda uzun dinlenme bitirmediysen, büyü başarısız olur ama harcanmaz.",
+											"Bu özelliği kullandığında, uzun dinlenme bitirene kadar bir daha kullanamazsın."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "XGE",
+					"shortName": "Rüya"
+				},
+				{
+					"name": "Çoban Çemberi",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Çoban Çemberi",
+								"entries": [
+									"Çoban Çemberi druidleri doğa ruhları ile iletişimde olur, özellikle hayvanlar ve feyler ile, ve o ruhları yardım için çağırırlar. Bu druidler doğal hayatta tüm canlıların biri yeri olduğunu bilir, ama kendini korumakta zorlanan hayvan ve feyleri korumaya odaklanırlar. Bilindikleri adlarıyla Çobanlar, bu varlıkları kendi vazifeleri olarak görürler. Onları tehdit eden yaratıkları savar, gereğinden fazla avlanan avcıları azarlar, ve medeniyetin feylere kutsal olan yerler ve ender hayvan yaşam alanlarına yaklaşmasını engellerler. Bu druidlerin çoğu şehirler ve kasabalardan uzak olduklarında mutludurlar, yabanda fey varlıkları ve hayvanların dostluğu ile günlerini geçirmek onları tatmin eder.",
+									"Bu çemberin üyeleri, kendilerine vazife edindikleri varlıkları tehdit eden güçlerle savaşmak ya da onları daha iyi korumalarını sağlayacak bilgi ve gücü kazanmak için maceraya çıkarlar. Bu druidler nereye giderlerse, yabanın ruhları onlarla birliktedir.",
+									{
+										"type": "entries",
+										"name": "Ormanların Dili",
+										"entries": [
+											"2. seviyede, hayvanlar ve birçok fey ile konuşma yetisini kazanırsın.",
+											"Sylvan dilini konuşmayı, okumayı ve yazmayı öğrenirsin. Ayrıca, hayvanlar senin konuşmanı anlayabilir, ve sen de onların çıkardıkları sesleri ve hareketleri çözebilirsin. Çoğu hayvan sofistike kavramları anlayacak ya da aktaracak zekaya sahip değildir, ama dostane bir hayvan yakın zamanda gördüğü ya da duyduğu bir şeyi aktarabilir. Bu özellik sana hayvanlarla dostluk sağlamaz, ama bu özelliği armağanlarla birleştirip onları bir oyuncu olmayan karaktermişçesine (NPC) ayartabilirsin."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Ruh Totemi",
+										"entries": [
+											"2. seviyeden itibaren, doğanın ruhlarını çağırıp çevrendeki dünyayı etkileyebilirsin. Bonus eylem olarak, büyülü bir şekilde 60 fit yakınında görebildiğin bir noktaya cisimsiz bir ruh çağırabilirsin. Ruh o nokta çevresinde 30 fit yarıçaplı bir aura oluşturur. Ne varlık ne de nesne olarak sayılır, ama temsil ettiği varlığın spektral görüntüsüne sahiptir.",
+											"Bonus eylem olarak, totemi 60 fite kadar görebildiğin bir noktaya taşıyabilirsin.",
+											"Ruh 1 dakika ya da sen {@condition etkisiz hal}e gelene kadar kalır. Bu özelliği kullandığında, bir kısa ya da uzun dinlenme bitirene kadar bir daha kullanamazsın.",
+											"The effect of the spirit's aura depends on the type of spirit you summon from the options below.",
+											{
+												"type": "options",
+												"entries": [
+													{
+														"type": "entries",
+														"name": "Ayı Ruhu",
+														"entries": [
+															"Ayı ruhu sana ve dostlarına güç ve dayanıklılık verir. Ruh ortaya çıktığında aurada olan seçeceğin her varlık 5 + druid seviyen kadar geçici HP alır. Ayrıca, sen ve dostların auradayken Kuvvet zarlarında ve Kuvvet kurtulma zarlarında avantajlı olursunuz."
+														]
+													},
+													{
+														"type": "entries",
+														"name": "Şahin Ruhu",
+														"entries": [
+															"Şahin ruhu kusursuz bir avcıdır, seni ve dostlarını keskin görüşü ile destekler. Bir varlık ruhun aurasındaki bir hedefe saldırı yaptığında, reaksiyonunu kullanıp o saldırıya avantaj verebilirsin. Ayrıca, sen ve dostların auradayken Akıl (Algı) zarlarında avantajlı olursunuz."
+														]
+													},
+													{
+														"type": "entries",
+														"name": "Unicorn Ruhu",
+														"entries": [
+															"Unicorn ruhu yakındakilere koruma sağlar. Sen ve dostların ruhun aurasındaki varlıkları tespit etmek için attığınız tüm yetenek zarlarında avantajlı olursunuz. Ayrıca, auranın içinde ya da dışındaki bir varlığa bir büyü yuvası harcayarak HP yenileyen bir büyü kullandığında, auradaki seçeceğin her varlık druid seviyen kadar HP yeniler."
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Görkemli Çağrı",
+										"entries": [
+											"6. seviyeden itibaren, yarattığın hayvan ve feyler normalden daha dayanıklı olurlar. Senin kullandığın bir büyü ile yaratılan bir hayvan ya da fey aşağıdakilerden faydalanır:",
+											{
+												"type": "list",
+												"items": [
+													"Varlık normalden daha çok HP ile gelir: Her HD için 2 fazladan HP.",
+													"Büyüsüz saldırı ve hasara karşı direnç ve bağışıklığı geçmek adına doğal silahlarından gelen hasar büyülü sayılır."
+												]
+											}
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Muhafız Ruh",
+										"entries": [
+											"10. seviyeden itibaren, Ruh Totemin çağırdığın hayvan ve feyleri senin büyün ile korur. Bir büyü ile yarattığın bir hayvan ya da fey sırasını senin Ruh Toteminin aurasında bitirirse, o varlık senin druid seviyenin yarısı kadar HP yeniler."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Sadık Çağrılanlar",
+										"entries": [
+											"14. seviyeden itibaren, iletişimde olduğun doğa ruhları seni en savunmasız anında korurlar. Eğer 0 HP'ye düşersen ya da isteğin dışında {@condition etkisiz hal}e gelirsen, anında {@spell conjure animals (hayvan yarat)} büyüsünden sanki onu 9. seviyede kullanıyormuşçasına faydalanabilirsin. Seçeceğin 4 adet CR 2 veya altında hayvan çağırır. Yaratılan hayvanlar senin 20 fit yakınında belirirler. Eğer senden komut almazlarsa, seni hasardan korurlar ve düşmanlarına saldırırlar. Büyü konsantrasyon gerektirmeden 1 saat sürer, ya da sen savdığında biter (eylem gerektirmez).",
+											"Bu özelliği bir kere kullandığında, uzun dinlenme bitirene kadar bir daha kullanamazsın."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "XGE",
+					"shortName": "Çoban"
+				},
+				{
+					"name": "Spor Çemberi",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Spor Çemberi",
+								"entries": [
+									"Spor Çemberi druidleri çürümedeki güzelliği görür. Küf ve diğer mantarlarda cansız bir materyali, biraz garip de olsa bolca hayata dönüştürme yetisini görürler.",
+									"Bu druidler yaşam ve ölümün büyük bir çarkın parçaları olduğuna inanırlar, biri diğerine yol açar ve bu yine tekrarlar. Ölüm yaşamın sonu değildir, sadece şekil değişir ve hayat yeni bir forma bürünür.",
+									"Bu çemberin druidlerinin yaşayan ölülerle ilginç bir ilişkisi vardır. Diğer druidlerin aksine, yaşayan ölülükte özünde yanlış olan bir şey görmezler, bunu yaşam ve ölüme dost kabul ederler. Ama bu druidler doğal çarkın en sağlıklı halinin, her parçasının coşkun ve değişken olduğu zamanlar olduğuna inanırlar. Tüm yaşamı ölümle değiştirmeye çalışan, ya da son istirahata yatmayı kabul etmeyen yaşayan ölüler bu çarkı bozarlar ve önlenmelidirler.",
+									{
+										"type": "entries",
+										"name": "Çember Büyüleri",
+										"entries": [
+											"Mantarlarla simbiyotik bağın ve yaşam ve ölüm çarkına ulaşabilme yeteneğin sana bazı büyülere erişim sağlar. 2. seviyede, {@spell chill touch (Ürperten Dokunuş)} cantripini öğrenirsin. 3, 5, 7, ve 9. seviyelerde Spor Çemberi Büyüleri tablosunda o seviye için verilen büyülere erişim sağlarsın.",
+											"Bu büyülerden birine erişim sağladığında, bu daima hazırdır ve günlük hazırlayabileceğin büyü sayısına dahil değildir. Eğer druid büyü listesinde olmayan bir büyüye erişim sağlarsan, bu büyü senin için druid büyüsüdür.",
+											{
+												"type": "table",
+												"caption": "Spor Çemberi Büyüleri",
+												"colLabels": [
+													"Druid Seviyesi",
+													"Çember Büyüleri"
+												],
+												"colStyles": [
+													"col-3 text-align-center",
+													"col-9"
+												],
+												"rows": [
+													[
+														"3.",
+														"{@spell blindness/deafness (körlük/sağırlık)}, {@spell gentle repose (huzurlu uyku)}"
+													],
+													[
+														"5.",
+														"{@spell animate dead (Ölüye Can Ver)}, {@spell gaseous form (gaz formu)}"
+													],
+													[
+														"7.",
+														"{@spell blight (kurutma)}, {@spell confusion (Şaşkınlık)}"
+													],
+													[
+														"9.",
+														"{@spell cloudkill (Ölüm Bulutu)}, {@spell contagion (bulaşma)}"
+													]
+												]
+											}
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Spor Halesi",
+										"entries": [
+											"2. seviyeden itibaren, onları yakınındaki bir varlığa gönderene kadar zararsız olan görünmez nekrotik sporlarla çevrelenirsin. Görebildiğin bir varlık 10 fit yakınına girerse ya da sırasına orada başlarsa, reaksiyonunu kullanarak eğer senin büyü kurtulma DC'ne karşı Dayanıklılık kurtulma zarı atamazsa {@dice 1d4} nekrotik hasar verebilirsin. Bu nekrotik hasar 6. seviyede {@dice 1d6}, 10. seviyede {@dice 1d8}, ve 14. seviyede {@dice 1d10} olur."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Simbiyotik Varlık",
+										"entries": [
+											"2. seviyede, sporlarına büyü yönlendirmeyi öğrenirsin. Eylem olarak, bir Yabani Şekil kullanımını harcayıp bu sporları uyandırabilirsin, bir hayvan formuna dönüşmek yerine, bu sınıfta sahip olduğun her seviye için 4 geçici HP alırsın. Bu özellik aktifken, aşağıdaki özelliklerden faydalanırsın:",
+											{
+												"type": "list",
+												"items": [
+													"Spor Halesi hasarını verdiğinde, hasar zarını ikinci kez at ve toplama ekle.",
+													"Yakın dövüş silahı saldırıların vurdukları hedeflere fazladan {@dice 1d6} zehir hasarı verir."
+												]
+											},
+											"Bu özellikler 10 dakikalığına, tüm geçici HP'yi kaybedene kadar, ya da sen yeniden Yabani Şekil kullanana kadar sürer.",
+											{
+												"type": "inset",
+												"name": "Kural İpucu: Geçici HP istiflenemez",
+												"entries": [
+													"Eğer geçici HP'ye sahipsen ve daha fazlası gelirse, onları toplamazsın (eğer bir kural yapabilirsin demezse). Bunun yerine, hangi geçici HP'yi kullanacağını seçersin. Geçici HP hakkında detaylı bilgi oynanış kısmında verilecek."
+												]
+											}
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"name": "Mantar İstilası",
+										"type": "entries",
+										"entries": [
+											"6. seviyede, sporların bir cesede girip onu canlandırma yeteneğine sahip olurlar. Eğer Orta ya da Küçük bir hayvan ya da insansı 10 fit yakınında ölürse, reaksiyonunu kullanıp onu canlandırabilirsin, anında 1 HP ile ayağa kalkar. Varlık MM'deki zombi stat bloğunu kullanır. 1 saat boyunca canlı kalır, sonrasında yığılır ve ölür.",
+											"Savaşta, zombinin sırası senin hemen ardından gelir. Senin zihinsel komutlarına uyar, ve tek gerçekleştireceği eylem Saldırı eylemidir, tek bir yakın dövüş saldırısı yapar.",
+											"Bu özelliği Akıl bonusun kadar (en az 1) kullanabilirsin, ve uzun dinlenme bitirdiğinde tüm harcanmış kullanımlar yenilenir."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"name": "Yayılan Sporlar",
+										"type": "entries",
+										"entries": [
+											"10. seviyede, bir alana ölümcül sporlar serpmeyi öğrenirsin. Simbiyotik Varlık özelliğin aktifken bonus eylem olarak, sporları 30 fite kadar fırlatabilirsin, orada 1 dakikalığına 10 fitlik küp içinde dönerler. Eğer bu özelliği yeniden kullanırsan, onları bonus eylem olarak savarsan, ya da Simbiyotik Varlık özelliğin artık aktif olmazsa bu sporlar erken kaybolur.",
+											"Ne zaman bir varlık kübe girse ya da sırasına orada başlarsa, o varlık büyü kurtulma DC'ne karşı Dayanıklılık kurtulma zarı atar ya da senin Spor Halesi hasarını alır. Bir varlık bu hasarı her round sadece bir kere alabilir.",
+											"Bu spor kübü varolduğu sürece, Spor Halesi reaksiyonunu kullanamazsın."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"name": "Mantar Beden",
+										"type": "entries",
+										"entries": [
+											"14. seviyede, bedenindeki mantar sporları seni değiştirir: {@condition körlük}, {@condition sağırlık}, {@condition korkma}, veya {@condition zehirlenme} durumlarından etkilenmezsin, ve eğer {@condition etkisiz hal}de değilsen sana karşı yapılan kritik saldırılar normal sayılır."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "GGR",
+					"shortName": "Spor",
+					"page": 26
 				}
 			],
 			"fluff": [
@@ -9072,7 +9376,7 @@
 													],
 													[
 														"17.",
-														"{@spell commune with nature (Doğa İle Konuş)}, {@spell tree stride (ağaç geçişi)}"
+														"{@spell commune with nature (Doğa ile Konuş)}, {@spell tree stride (ağaç geçişi)}"
 													]
 												]
 											}
