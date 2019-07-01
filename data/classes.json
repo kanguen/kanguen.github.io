@@ -8558,6 +8558,323 @@
 					],
 					"source": "PHB",
 					"shortName": "Dört Element"
+				},
+
+				{
+					"name": "Sarhoş Üstadın Yolu",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Sarhoş Üstadın Yolu",
+								"entries": [
+									"Sarhoş Üstadın Yolu öğrencilerine bir sarhoşunki gibi tahmin edilemeyen, düzensiz hareketleri öğretir. Bir sarhoş üstat sallanır, sendeleyip zor ayakta durur, bu şekilde yüzleşmeyle uğraşmayacağın yeteneksiz bir dövüşçü izlenimi verir. Bir sarhoş üstadın düzensiz sallanışları aslında dikkatlice yapılan blok, savuşturma, hücum, saldırı ve geri çekilmeleri gizler.",
+									"Bir sarhoş üstat aptalı oynayıp umutsuza mutluluk getirir ya da kibirliye tevazu gösterir, ama savaşa katıldığında, sarhoş üstat delirtici, usta bir rakibe dönüşebilir.",
+									{
+										"type": "entries",
+										"name": "Bonus Uzmanlıklar",
+										"entries": [
+											"3. seviyede bu geleneği seçtiğinde, zaten sahip değilsen Performans becerisinde uzmanlık kazanırsın. Senin dövüş sanatları tekniğin bir dansçının zerafeti ile bir şaklabanın davranışını birleştirir. Ayrıca, zaten sahip değilsen mayacının kitinde uzmanlık kazanırsın."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Sarhoş Tekniği",
+										"entries": [
+											"3. seviyede, Darbe Yağmurunun bir parçası olarak hızlıca kıvrılıp dönmeyi öğrenirsin. Ne zaman Darbe Yağmurunu kullanırsan, Ayrılma eyleminden faydalanırsın, ve o anki sıranın sonuna kadar yürüme hızın 10 fit artar."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Çakırkeyif Sallanması",
+										"entries": [
+											"6. seviyeden itibaren, ani ve sallanan bir şekilde hareket edebilirsin. Şu özellikleri kazanırsın.",
+											{
+												"type": "entries",
+												"name": "Ayağa Sıçra",
+												"entries": [
+													"{@condition Yere düşme} durumundayken, hızının yarısını değil 5 fit hareket harcayarak ayağa kalkabilirsin."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Saldırıyı Yönlendir",
+												"entries": [
+													"Bir varlık seni yakın dövüş saldırısı ile ıskaladığında, reaksiyon olarak 1 ki puanı harcayıp o saldırının, saldırganın kendisi dışında 5 fit yakınında görebildiğin başka bir varlığa vurmasını sağlayabilirsin."
+												]
+											}
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Sarhoşun Şansı",
+										"entries": [
+											"11. seviyeden itibaren, doğru zamanda hep şans senin yanında gibi gözükür. Bir yetenek, saldırı veya kurtulma zarı atarken eğer bu zarda dezavantajın varsa, 2 ki puanı harcayıp o zar için dezavantajı kaldırabilirsin."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Alkollü Çıldırış",
+										"entries": [
+											"17. seviyede, bir grup düşmana karşı ezici çoklukta saldırı yapma yeteneğini kazanırsın. Darbe Yağmurunu kullandığında, eğer bu sıranda her Darbe Yağmuru saldırısı farklı bir varlığı hedef alırsa, 3 tane fazladan saldırı yapabilirsin (toplamda 5 taneye kadar Darbe Yağmuru saldırısı)."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "XGE",
+					"shortName": "Sarhoş Üstat"
+				},
+				{
+					"name": "Kensei Yolu",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Kensei Yolu",
+								"entries": [
+									"Kensei yolunun keşişleri silahlarıyla amansızca, artık silahları bedenlerinin bir uzantısı oluncaya kadar eğitim görürler. Kılıç dövüşü uzmanlığı ile başlayan gelenek şu anda birçok farklı silah çeşidinde uzmanlaşır.",
+									"Bir kensei silahını, bir hattat veya ressamın kalem ve fırçasını gördüğü gibi görür. Silah ne olursa olsun, kensei onu dövüş sanatlarının inceliği ve güzelliğini yansıtmak için bir araç olarak görür. Bu tip bir uzmanlık kenseiyi eşsiz bir savaşçı yapar ama bu yoğun fedakarlık, antrenman ve çalışma ile gelir.",
+									{
+										"type": "entries",
+										"name": "Kensei Yolu",
+										"entries": [
+											"3. seviyede bu geleneği seçtiğinde, dövüş sanatları eğitimin seni belirli silahların kullanımında ustalaştırır. Bu yol ayrıca hattatlık ve resimdeki marifetli hatların kullanımını da öğretir. Şu özellikleri kazanırsın.",
+											{
+												"type": "entries",
+												"name": "Kensei Silahları",
+												"entries": [
+													"2 silah tipini kensei silahların olarak seç: bir yakın dövüş ve bir menzili silah. Bu silahlar, ağır ve özel etiketleri olmayan istediğin basit ya da askeri silah olabilir. Uzun yay da geçerli bir seçimdir. Zaten yoksa bu silahlarla uzmanlık kazanırsın. Seçilen tipte silahlar senin için keşiş silahları olur. Bu geleneğin çoğu özelliği sadece senin kensei silahlarınla kullanılabilir. Bu sınıfta 6, 11 ve 17 seviyelerine ulaştığında, yukarıdaki kriterlere uygun olarak bir tane daha yakın dövüş ya da menzili silahı kensei silahın olarak seçebilirsin."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Çevik Savuşturma",
+												"entries": [
+													"Eğer sıranda Saldırı eyleminin bir parçası olarak silahsız bir saldırı yaparsan ve kensei silahını tutuyorsan, ve eğer bu bir yakın dövüş silahıysa onu kendini korumak için kullanabilirsin. Bir sonraki sıranın başına kadar AC'ne +2 bonus alırsın, silah elinde olmalı ve sen {@condition etkisiz hal}de olmamalısın."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Kensei'nin Atışı",
+												"entries": [
+													"Sıranda bonus eylem kullanıp kensei silahın ile yapacağın menzilli saldırılarını daha ölümcül hale getirebilirsin. Bunu yaptığında, kensei silahın ile menzilli saldırı yapıp vurduğun hedef silahın tipinde fazladan 1d4 hasar alır. Bundan o anki sıran bitene kadar faydalanırsın."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Fırçanın Yolu",
+												"entries": [
+													"Hattat malzemeleri ya da ressam malzemeleri arasından seçeceğin biri ile uzmanlık kazanırsın."
+												]
+											}
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Kılıçla Bir Bütün",
+										"entries": [
+											"6. seviyede, içindeki ki kensei silahlarına varır, şunlardan faydalanırsın.",
+											{
+												"type": "entries",
+												"name": "Büyülü Kensei Silahları",
+												"entries": [
+													"Büyüsüz saldırı ve hasara karşı direnç ve bağışıklığı aşmak adına kensei silahlarınla yaptığın saldırılar büyülü sayılır."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Marifetli Darbe",
+												"entries": [
+													"Bir kensei silahı ile hedefe vurduğunda, 1 ki puanı harcayıp hedefe fazladan Dövüş Sanatları zarın kadar hasar verebilirsin. Bu özelliği her sıranda sadece bir kere kullanabilirsin."
+												]
+											}
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Bıçağı Bile",
+										"entries": [
+											"11. seviyede, silahlarını ki ile güçlendirme yetisini kazanırsın. Bonus eylem olarak, 3'e kadar ki puanı harcayıp dokunduğun bir kensei silahının saldırı ve hasar zarlarına onu sen kullanırken bonus verebilirsin. Bonus harcadığın ki puanı kadardır. Bu bonus 1 dakika ya da sen bu özelliği bir daha kullanana kadar sürer. Bu özellik zaten saldırı ve hasar zarlarına bonusu olan bir büyülü silahta etki göstermez."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Kusursuz İsabet",
+										"entries": [
+											"17. seviyede, silahlarla olan uzmanlığın sana sıradışı isabet yeteneği verir. Eğer sıranda keşiş silahı kullanarak yaptığın bir saldırıyı ıskalarsan, bunu yeniden atabilirsin. Bu özelliği her sıranda sadece bir kere kullanabilirsin."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "XGE",
+					"shortName": "Kensei"
+				},
+				{
+					"name": "Güneş Ruhunun Yolu",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Güneş Ruhunun Yolu",
+								"entries": [
+									"Güneş Ruhunun Yolundaki keşişler kendi hayat enerjilerini kavurucu ışık oklarına çevirmeyi öğrenirler. Meditasyonun, her canlı varlığın ruhunun saçtığı yılmaz ışığı salıverme yeteneğini açığa çıkarabileceğini öğretirler.",
+									{
+										"type": "entries",
+										"name": "Radyant Güneş Oku",
+										"entries": [
+											"3. seviyede bu geleneği seçmenden itibaren, kavurucu büyülü radyans okları atabilirsin.",
+											"Saldırı eylemiyle kullanabileceğin yeni bir saldırı seçeneği kazanırsın. Bu özel saldırı 30 fit menzile kadar bir menzilli büyü saldırısıdır. Onunla uzmanlığın vardır, ve onun saldırı ve hasar zarlarına Çeviklik bonusunu eklersin. Hasarı radyanttır ve zarı d4'tür. Bu zar sen keşiş seviyesi atladıkça, Keşiş tablosunun Dövüş Sanatları sütununda görülebileceği üzere yükselir.",
+											"Sıranda Saldırı eylemini ve bu özel saldırıyı onun bir kısmı olarak kullandığında, 1 ki puanı harcayıp özel saldırıyı bonus eylem olarak 2 kere kullanabilirsin.",
+											"Extra Saldırı özelliğini kazandığında, bu özel saldırı, Saldırı eyleminde yaptığın saldırılardan istediklerinin yerine kullanılabilir."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Dağlayan Yay Darbesi",
+										"entries": [
+											"6. seviyede, ki enerjini yönlendirip dağlayan dalga enerjileri oluşturma yetisini kazanırsın. Sıranda Saldırı eylemini kullanmanın hemen ardından, 2 ki puanı harcayıp {@spell burning hands (yanan eller)} büyüsünü bonus eylem olarak kullanabilirsin.",
+											"Fazladan ki puanı harcayarak {@spell burning hands (yanan eller)} büyüsünü üst seviyede kullanabilirsin. Fazladan eklenen her ki puanı büyünün seviyesini 1 artırır. Harcayabileceğin maksimum ki puanı (2 + fazladan puanlar) keşiş seviyenin yarısına eşittir."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Dağlayan Güneş Patlaması",
+										"entries": [
+											"11. seviyede, yıkıcı bir patlamaya dönüşebilen bir ışık küresi yaratma yetisini kazanırsın. Eylem olarak, büyülü bir şekilde bir küre yaratıp onu 150 fit yakınında seçeceğin bir yere atarsın, orada kısa ama ölümcül bir anlık parlak ışık küresine dönüşür.",
+											"O 20 fit yarıçaplı küredeki her varlık Dayanıklılık kurtulma zarı atar ya da 2d6 radyant hasar alır. Bir varlık eğer opak bir tam siperin ardındaysa bu kurtulma zarını atmak zorunda değildir.",
+											"Kürenin hasarını ki puanı harcayarak artırabilirsin. Maksimum 3'e kadar harcayacağın her puan, hasarı 2d6 artırır."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Güneş Kalkanı",
+										"entries": [
+											"17. seviyede, ışıldayan, büyülü bir aura ile sarılırsın. 30 fit yarıçapta parlak ışık, ötesinde 30 fit daha loş ışık saçarsın. Bu ışığı bonus eylem olark söndürebilir ya da yeniden yakabilirsin.",
+											"Bu ışık parlarken bir varlık sana yakın dövüş saldırısı ile vurursa, reaksiyonunu kullanıp varlığa radyant hasar verebilirsin. Bu radyant hasar 5 + Akıl bonusuna eşittir."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "XGE",
+					"shortName": "Güneş Ruhu"
+				},
+				{
+					"name": "Uzun Ölümün Yolu",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Uzun Ölümün Yolu",
+								"entries": [
+									"Uzun Ölümün Yolundaki keşişler, ölümün anlamı ve işleyişine saplantı ile bağlıdırlar. Varlıkları yakalayıp ölüm anlarını gözlemek, kaydetmek ve anlamak için karmaşık deneyler hazırlarlar. Bu bilgiyi dövüş sanatları kavramlarını güçlendirmek için kullanıp ortaya ölümcül bir dövüş stili çıkarırlar.",
+									{
+										"type": "entries",
+										"name": "Ölümün Dokunuşu",
+										"entries": [
+											"3. seviyede bu geleneği seçmenden itibaren, ölüm araştırmaların, bir varlık sonuna yaklaşırken ondan yaşam enerjisi çıkarmanı sağlar. 5 fit yakınındaki bir varlığı 0 HP'ye düşürdüğünde, Akıl bonusun + keşiş seviyen kadar (en az 1 HP) geçici HP kazanırsın."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Hasat Saati",
+										"entries": [
+											"6. seviyede, ruhun ölümün gölgesi tarafından dokunulduğu için, eylem olarak çevrendekileri korkutma ya da rahatsız etme yetisini kazanırsın. Bu eylemi kullandığında, 30 fit çevrende seni görebilen her varlık Akıl kurtulma zarı atar ya da bir sonraki sıranın sonuna kadar senden {@condition korkma} durumunda olurlar."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Ölüm Uzmanlığı",
+										"entries": [
+											"11. seviyeden itibaren, ölümle aşinalığını onun kavramasından kaçmak için kullanırsın. 0 HP'ye düştüğünde, 1 ki puanı harcayıp (eylem gerektirmez) onun yerine 1 HP'ye düşebilirsin."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Uzun Ölümün Dokunuşu",
+										"entries": [
+											"17. seviyeden itibaren, dokunuşun ölüm enerjisini bir varlığa aktarabilir. Eylem olarak, 5 fit yakınındaki bir varlığa dokunursun, ve 1 ile 10 arası ki puanı harcarsın. Hedef Dayanıklılık kurtulma zarı atar, başarısız olursa harcanan her ki puanı için 2d10 nekrotik hasar alır, başarılı olursa bunun yarısını."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "SCAG",
+					"shortName": "Uzun Ölüm"
 				}
 			],
 			"fluff": [
