@@ -11697,14 +11697,14 @@
 					{
 						"name": "Ekspertiz",
 						"entries": [
-							"1. seviyede iki beceri uzmanlığını seç ya da bir beceri uzmanlığı ve hırsız aletlerini. Bu seçilenlerle atacağın zarlarda uzmanlık bonusun ikiye katlanır.",
+							"1. seviyede ya iki beceri uzmanlığını ya da bir beceri uzmanlığı ve hırsız aletlerini seç. Bu seçilenlerle atacağın zarlarda uzmanlık bonusun ikiye katlanır.",
 							"6. seviyede yine iki beceri uzmanlığını ya da bir beceri uzmanlığı ve hırsız aletlerini bu özellik için seçebilirsin."
 						]
 					},
 					{
 						"name": "Sinsi Saldırı",
 						"entries": [
-							"1. seviyeden itibaren düşmanın boşluklarını yakalayıp sinsice saldırmayı bilirsin. Her sıranda bir kere, eğer saldırıda avantajın varsa bir varlığa vurduğunda fazladan 1d6 hasar verebilirsin. Saldırı bir incelik silahı ya da menzilli bir silah ile yapılmalı.",
+							"1. seviyeden itibaren düşmanın boşluklarını yakalayıp sinsice saldırmayı bilirsin. Her sıranda bir kere, eğer saldırıda avantajın varsa bir varlığa vurduğunda fazladan 1d6 hasar verebilirsin. Saldırı bir beceri silahı ya da menzilli bir silah ile yapılmalı.",
 							"Eğer hedefin 5 fit yakınında başka bir düşman varsa (genellikle senin dostun) ve o düşman bilinçsiz değilse, senin de saldırıda dezavantajın yoksa Sinsi Saldırı için saldırıda avantaj gerekmez.",
 							"Bu sınıfta seviye atladıkça fazladan hasar miktarı Düzenbaz tablosunun Sinsi Saldırı sütununda görülebileceği üzere artar."
 						]
@@ -12168,6 +12168,304 @@
 					],
 					"source": "PHB",
 					"shortName": "Hırsız"
+				},
+				{
+					"name": "Araştırmacı",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Araştırmacı",
+								"entries": [
+									"Araştırmacı modelinde, sırları ortaya çıkarma ve gizemleri çözmede uzmanlaşırsın. Detaycı gözlerine güvendiğin gibi, diğer varlıkların asıl niyetlerini anlamak için geliştirdiğin onların sözlerini ve davranışlarını okuma yeteneğinde yardımcıdır. Sıradan halkın arasında saklanan ve onları avlayan varlıkları altetmede uzmansın. Bilgideki uzmanlığın ve keskin çıkarımların sayesinde gizlenen kötülükleri açığa çıkarıp işlerini bitirmeye çok uygunsun.",
+									{
+										"type": "entries",
+										"name": "Yalana Alışık Kulak",
+										"entries": [
+											"3. seviyede bu modeli seçtiğinde, yalanları seçebilmek için bir yetenek geliştirirsin. Bir varlığın yalan söyleyip söylemediğini anlamak için ne zaman Akıl (Sezgi) zarı atsan, d20'de 7 veya altında gelen zarları 8 sayabilirsin."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Detaycı Göz",
+										"entries": [
+											"3. seviyeden itibaren, bonus eylem kullanarak gizli bir varlık ya da nesneyi tespit etmek için Akıl (Algı) zarı atabilirsin, ya da Zeka (İnceleme) zarı atıp ipuçlarını çözebilirsin."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Sezgili Dövüş",
+										"entries": [
+											"3. seviyede, bir rakibin taktiklerini çözüp onlara karşılık geliştirme yeteneğini kazanırsın. Bonus eylem olarak, etkisiz halde olmayan görebildiğin bir varlığa karşı Akıl (Sezgi) zarı atarsın, hedef Karizma (Aldatma) zarı atar. Başarılı olursan, saldırıda avantajın olmasa bile hedefe karşı Sinsi Saldırını yapabilirsin, ama saldırı dezavantajlı olmamalı.",
+											"Bu fayda ya 1 dakikalığına ya da sen bu özelliği başarılı bir şekilde başka bir hedefe karşı kullanana kadar sürer."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Sabit Göz",
+										"entries": [
+											"9. seviyeden itibaren, eğer hızının yarısından fazla hareket etmezsen aynı sırada atacağın Akıl (Algı) ve Zeka (İnceleme) zarlarında avantajın olur."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Hatasız Göz",
+										"entries": [
+											"13. seviyeden itibaren, duyularını kandırmak neredeyse imkansızlaşır. Eylem olarak, illüzyonların varlığını, asıl formlarında olmayan şekildeğiştirenleri, ve duyuları şaşırtmak için tasarlanmış diğer büyüleri eğer bunlar 30 fit yakınındaysa ve sen {@condition körlük} ya da {@condition sağırlık} durumunda değilsen farkedersin. Bir etkinin seni şaşırtmaya çalıştığını hissedersin ama neyin gizli olduğunu ya da onun asıl halini öğrenmezsin.",
+											"Bu özelliği Akıl bonusun kadar (en az 1) kullanabilirsin, ve uzun dinlenme bitirdiğinde tüm harcanan kullanımlar yenilenir."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Zayıflığı Gören Göz",
+										"entries": [
+											"17. seviyede, bir varlığın taktik ve hareketlerini dikkatlice inceleyerek zayıflıklarını ortaya çıkarmayı öğrenirsin. Senin Sezgili Dövüş özelliğin bir varlık üzerinde aktifken, o varlığa karşı Sinsi Saldırı hasarın 3d6 artar."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "XGE",
+					"shortName": "Araştırmacı"
+				},
+				{
+					"name": "Deha",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Deha",
+								"entries": [
+									"Senin odağın kişiler ve onların sahip oldukları etki ve sırlardır. Çoğu ajan, saray mensubu, ve komplocu bu modeli takip eder ve entrika dolu yaşamlar sürerler. Senin için sözler, bıçaklar ve zehir kadar silahındır, sırlar ve kayırma ise en sevdiğin hazinelerin.",
+									{
+										"type": "entries",
+										"name": "Entrika Üstadı",
+										"entries": [
+											"3. seviyede bu modeli seçtiğinde, kılık değiştirme kiti, sahtecilik kiti, ve seçeceğin bir oyun seti ile uzmanlık kazanırsın. Seçeceğin iki dili de öğrenirsin.",
+											"Ayrıca, en az 1 dakika konuşmasını dinlediğin bir varlığın konuşma şeklini ve aksanını hatasızca taklit edebilirsin, bu dili bildiğin sürece belirli bir diyarın dilini ana dilin gibi konuşup yerli taklidi yapabilirsin."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Taktik Üstadı",
+										"entries": [
+											"3. seviyeden itibaren, Yardım eylemini bonus eylem olarak kullanabilirsin. Ayrıca, Yardım eylemini bir dostunun bir varlığa yaptığı saldırı için kullandığında, eğer o saldırının hedefi seni görebiliyor ya da duyabiliyorsa 5 fit yerine 30 fit yakınında olabilir."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Sezgili Manipülatör",
+										"entries": [
+											"9. seviyeden itibaren, eğer savaş dışında bir varlığı en az 1 dakika gözlersen ya da iletişime geçersen, onun yeteneklerini hakkında seninkilere oranla bilgi alabilirsin. DM o varlığın şunlardan seçeceğin iki nitelikte sana eşit, üstün veya astın olduğunu söyler:",
+											{
+												"type": "list",
+												"items": [
+													"Zeka skoru",
+													"Akıl skoru",
+													"Karizma skoru",
+													"Sıvıf Seviyesi (eğer varsa)"
+												]
+											},
+											"DM'e bağlı olarak, varlığın tarihinden bir şey ya da varsa kişilik özelliklerinden birini öğrenebilirsin."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Yanlış Yönlendirme",
+										"entries": [
+											"13. seviyeden itibaren, bazen başka bir varlığın sana gelecek bir saldırının hedefi olmasını sağlayabilirsin. 5 fit yakınında bir varlık sana o saldırıya karşı siper sağlıyorken bir saldırı tarafından hedef alınırsan, reaksiyonunu kullanıp saldırının seni değil o varlığı hedef almasını sağlayabilirsin."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Aldatma Ruhu",
+										"entries": [
+											"17. seviyeden itibaren, düşüncelerin telepati ya da farklı yöntemlerle sen izin vermedikçe okunamaz. Zihin okuyucunun Akıl (Sezgi) zarına karşılık Karizma (Aldatma) zarı atarak başarılı olursan sahte düşünceler sunabilirsin.",
+											"Ayrıca, ne söylersen söyle, senin yalan söyleyip söylemediğini tespit eden büyüler eğer istersen doğruyu söylediğini algılar, ve büyü ile doğruyu söylemeye zorlanamazsın."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "XGE",
+					"shortName": "Deha"
+				},
+				{
+					"name": "İzci",
+					"subclassFeatures": [
+						[
+							{
+								"name": "İzci",
+								"entries": [
+									"Şehrin sokaklarından uzakta gizlenme ve hayatta kalmada beceriklisindir, bu da keşiflerde yoldaşlarından önce gidip izcilik yapmana olanak sağlar. Bu modeli seçen düzenbazlar yabanda barbarlar ve kolcuların arasında evlerinde hissederler, ve birçok İzci savaş birliklerinin gözleri ve kulakları olarak hizmet eder. Pusucu, ajan, ödül avcısı, bunlar İzcilerin dünyayı gezerken üstleneceği sadece birkaç roldür.",
+									{
+										"type": "entries",
+										"name": "Vur Kaç",
+										"entries": [
+											"3. seviyeden itibaren, savaşta sabitlenmen zordur. Bir düşman sırasını senin 5 fit yakınında bitirdiğinde reaksiyonunu kullanıp hızının yarısına kadar ilerleyebilirsin. Bu hareket fırsat saldırısı tetiklemez."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Hayatta Kalan",
+										"entries": [
+											"3. seviyede bu modeli seçtiğinde, zaten yoksa Doğa ve Hayatta Kalma becerilerinde uzmanlık kazanırsın. Bu uzmanlıkları kullanan beceri zarı attığında uzmanlık bonusunun iki katını eklersin."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Üstün Hareketlilik",
+										"entries": [
+											"9. seviyede, yürüme hızın 10 fit artar. Eğer tırmanma veya yüzme hızın varsa bu artış onlara da etki eder."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Pusu Üstadı",
+										"entries": [
+											"13. seviyeden itibaren, pusu kurmada ve dövüşte ilk davranmada ustalaşırsın.",
+											"Öncelik zarlarında avantajın olur. Ayrıca, savaşın ilk roundunda ilk vurduğun varlık, sen ve diğerleri için kolay hedef olur; bir sonraki sıranın başına kadar o varlığa yapılan saldırılar avantajlıdır."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Ani Darbe",
+										"entries": [
+											"17. seviyeden itibaren, ölümcül hızla saldırabilirsin. Eğer sıranda Saldırı eylemini kullanırsan, bonus eylem olarak fazladan bir saldırı yapabilirsin. Bu saldırı, o sıranda kullanmış olsan bile Sinsi Saldırından faydalanabilir, ama Sinsi Saldırıyı aynı hedefe karşı bir sıranda birden çok kez kullanamazsın."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "XGE",
+					"shortName": "İzci"
+				},
+				{
+					"name": "Düellocu",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Düellocu",
+								"entries": [
+									"Kılıç sanatı eğitimine yoğunlaşırsın, hıza, zerafete ve cazibeye eşit değer verirsin. Bazıları ağır zırh içinde iri yarı savaşçılar olsalar da, senin dövüş şeklin neredeyse bir performans gibi görünür. Düellocular ve korsanlar bu modele dahildirler.",
+									"Bir düellocu teke tek dövüşte uzmanlaşır, ve güvenli bir şekilde rakipten uzaklaşabilirken iki silahla dövüşebilir.",
+									{
+										"type": "entries",
+										"name": "Süslü Ayak Çalışması",
+										"entries": [
+											"3. seviyede bu modeli seçtiğinde, bir darbe vurup karşılık gelmeden uzaklaşmayı öğrenirsin. Sıranda, eğer bir varlığa yakın dövüş saldırısı yaparsan, o varlık sıranın sonuna kadar sana fırsat saldırısı yapamaz."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Uçarı Cesaret",
+										"entries": [
+											"3. seviyeden itibaren, özgüvenin seni savaşa iter. Öncelik zarlarında kendine Karizma bonusun kadar bonus verebilirsin.",
+											"Ayrıca Sinsi Saldırını ek bir şekilde kullanabilirsin; eğer bir varlığın 5 fit yakınındaysan, başka varlık senin 5 fit yakınında değilse, ve saldırıda dezavantajın yoksa Sinsi Saldırıyı kullanmak için saldırıda avantaj gerekmez. Sinsi Saldırı için diğer tüm kurallar hala geçerlidir."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Gösteriş",
+										"entries": [
+											"9. seviyede, caziben sıradışı bir şekilde cezbedici olur. Eylem olarak, varlığın Akıl (Sezgi) zarına karşılık Karizma (İkna) zarı atabilirsin. Varlık seni duyabilmeli ve ikinizin ortak bir dili olmalı.",
+											"Eğer zarda başarılı olursan ve varlık sana düşmansa, senin dışındaki varlıklara saldırılarında dezavantajlı olur ve senin dışındaki varlıklara fırsat saldırısı yapamaz. Bu etki 1 dakikalığına, yoldaşlarından biri hedefe saldırana ya da bir büyü ile etkileyene, veya sen ve hedef 60 fit uzaklaşana kadar sürer.",
+											"Eğer zarda başarılı olursan ve varlık sana düşman değilse, 1 dakikalığına senin tarafından {@condition cezbedilme} durumundadır. Cezbedilmişken, seni dostane bir tanıdık olarak görür. Eğer sen ya da yoldaşların ona hasar verecek bir şey yaparsanız bu etki hemen sonlanır."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Zarif Manevra",
+										"entries": [
+											"13. seviyeden itibaren, sıranda bonus eylem kullanıp aynı sıra içinde yapacağın bir Çeviklik (Akrobasi) ya da Kuvvet (Atletizm) zarına avantaj verebilirsin."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Üstat Düellocu",
+										"entries": [
+											"17. seviyeden itibaren, kılıçla uzmanlığın savaşta bir başarısızlığı başarıya çevirmeni sağlar. Eğer bir saldırı zarıyla ıskalarsan, onu yeniden avantajlı bir şekilde atabilirsin. Bunu yaptığında, bu özelliği kısa ya da uzun dinlenme bitirene kadar bir daha kullanamazsın."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "XGE",
+					"shortName": "Düellocu"
 				}
 			],
 			"fluff": [
