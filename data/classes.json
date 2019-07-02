@@ -2073,6 +2073,252 @@
 					],
 					"source": "PHB",
 					"shortName": "Cesaret"
+				},
+				{
+					"name": "Cazibe Koleji",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Cazibe Koleji",
+								"entries": [
+									"Cazibe Koleji ozanları sanatlarını Feywild'ın canlı dünyasında ya da orada yaşamış birinin ustalığında geliştirirler. Satyrler, eladrinler ve diğer feyler tarafından ders gören bu ozanlar, büyüleriyle diğerlerine haz verip gönüllerini çelerler.",
+									"Bu kolejin ozanları hayranlık ve korku karışımı ile karşılanırlar. Performansları efsanevidir. Bu ozanlar öyle akıcı konuşurlar ki onların bir hitabı ya da söyledikleri bir şarkı, onları alıkoyanların ozanları salıvermesine ve hiddetli bir ejderhanın yatışmasına sebep olabilir. Hayvanları yatıştırabilen büyü aynı zamanda zihinleri de bükebilir. Bu kolejin kötü ozanları bir toplumu haftalarca sömürebilir, büyülerini kötüye kullanıp ev sahiplerini esir ederler. Bu kolejin kahraman ozanları ise güçlerini talihsizlere umut vermek ve zalimlerin kuyusunu kazmak için kullanırlar.",
+									{
+										"type": "entries",
+										"name": "İlham Örtüsü",
+										"entries": [
+											"3. seviyede Cazibe Kolejine katıldığında, dostlarını güç ve hızla dolduran bir fey büyüsü ile örülmüş şarkı öğrenirsin.",
+											"Bonus eylem olarak, Ozan İlhamının bir kullanımını harcayıp kendine harika bir görüntü verebilirsin. Bunu yaptığında, 60 fit yakınında görebildiğin ve seni görebilen Karizma bonusun kadar (en az 1) varlığı seçersin. Her biri 5 geçici HP kazanır. Bir varlık bu geçici HP'yi aldığında, anında reaksiyonunu kullanıp hızı kadar ilerleyebilir, bu hareket fırsat saldırısı tetiklemez.",
+											"Bu sınıfta belirli seviyelere ulaştığında geçici HP miktarı artar, 5'te 8, 10'da 11, ve 15. seviyede 14 olur."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Büyüleyici Performans",
+										"entries": [
+											"3. seviyeden itibaren, performanslarını cezbeden fey büyüsü ile doldurabilirsin.",
+											"Eğer en az 1 dakika performansa devam edersen, şarkıların, şiirlerin veya dansların ile seyircilerinde hayret hissi uyandırmayı deneyebilirsin. Performansın sonunda, 60 fit yakınında bunun tümünü dinleyip izleyen Karizma bonusuna kadar (en az 1) insansı seçersin. Her hedef senin büyü kurtulma DC'ne karşı Akıl kurtulma zarı atar ya da senin tarafından {@condition cezbedilme} etkisinde olur. Bu şekilde cezbedilmişken, hedef seni taparcasına sever, konuştuğu herkese seni över, ve sana karşı olan herkese karşı çıkar, ama zaten senin için savaşmaya gönüllü değilse bu etki altında şiddetten kaçınır. Bu etki bir hedefte bir saat sonunda, hasar alırsa, saldırırsan, veya onun dostlarına saldırışına ya da hasar verişine şahit olursa sonlanır.",
+											"Eğer bir hedef kurtulma zarında başarılı olursa, onu cezbetmeye çalıştığını farketmez.",
+											"Bu özelliği kullandığında, kısa ya da uzun dinlenme bitirene kadar bir daha kullanamazsın."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Görkem Örtüsü",
+										"entries": [
+											"6. seviyede, diğerlerinin sana hizmet etmek istemesini sağlayacak bir fey büyüsü ile kendini kaplama yeteneğini kazanırsın. Bonus eylem olarak, {@spell command (emret)} büyüsünü büyü yuvası harcamadan kullanırsın, ve 1 dakikalığına ya da konsantrasyonun bitene dek dünyadışı bir güzelliğin görüntüsüne bürünürsün. Bu süreçte, her sıranda bonus eylem olarak {@spell command (emret)} büyüsünü büyü yuvası harcamadan kullanabilirsin.",
+											"Senin tarafından {@condition cezbedilme} durumunda olan bir varlık, bu özellikle kullandığın {@spell command (emret)} büyüsüne karşı kurtulma zarında otomatik olarak başarısız olur.",
+											"Bu özelliği kullandığında, uzun dinlenme bitirene kadar bir daha kullanamazsın."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Bozulmaz Görkem",
+										"entries": [
+											"14. seviyede, görüntün seni kalıcı bir şekilde daha güzel ve vahşi gösterecek dünyadışı nitelikler kazanır.",
+											"Ayrıca, bonus eylem olarak, 1 dakikalığına ya da {@condition etkisiz hal}e gelene kadar görkemli bir şekle girebilirsin. Süre boyunca, ne zaman bir varlık sırasında ilk defa sana saldırmayı denerse, saldırgan büyü kurtulma DC'ne karşı Karizma kurtulma zarı atar. Başarısız olursa, o sırasında sana saldıramaz, ve saldırısı için yeni bir hedef bulur ya da o saldırı boşa gider. Başarılı olursa, o sırasında sana saldırabilir, ama senin bir sonraki sıranda yapacağın büyülere karşı kurtulma zarlarında dezavantajlı olur.",
+											"Bu görkemli şekle girdiğinde, bu özelliği kısa ya da uzun dinlenme bitirene kadar bir daha kullanamazsın."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "XGE",
+					"shortName": "Cazibe"
+				},
+				{
+					"name": "Kılıçlar Koleji",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Kılıçlar Koleji",
+								"entries": [
+									"Kılıçlar Kolejinin ozanlarına kılıç üstatları denir, bunlar silah ustalıkları ve hünerleri ile eğlendirirler. Kılıç üstatları, kılıç yutma, bıçak atma ve hokkabazlığı, ve sahte dövüşler gibi gösteriler yaparlar. Silahlarını eğlendirmek için kullansalar da, aynı zamanda iyi eğitimli ve yetenekli savaşçılardır.",
+									"Silahlarla olan yetenekleri bir çok kılıç üstadının çifte hayat sürdürmesine sebep olur. Bir üstat sirk grubunu suikast, soygun ve şantaj gibi suçları saklamak için kullanırken, diğer üstatlar kötülere karşı saldırıp zalim ve güçlülere adaleti götürür. Çoğu eğlence grubu bir kılıç üstadının yeteneklerini performanslara eklediği heyecan dolayısıyla kabul eder, ama nadiren aralarındaki kılıç üstatlarına tamamen güvenirler.",
+									"Gösteri hayatını bırakan kılıç üstatları gizli aktivitelerini sürdürmede genellikle zorluklarla karşılaşırlar. Çalarken yakalanan ya da sokak adaletine bulaşan bir kılıç üstadı çoğu grup için büyük bir yüktür. Büyüleri ve silah yetenekleri ile, bu üstatlar ya hırsız loncası için infazcı olarak çalışırlar ya da kendi başlarına maceracılığa atılırlar.",
+									{
+										"type": "entries",
+										"name": "Bonus Uzmanlıklar",
+										"entries": [
+											"3. seviyede Kılıçlar Kolejine katıldığında, orta zırhlar ve pala ile uzmanlık kazanırsın.",
+											"Eğer bir basit ya da askeri yakın dövüş silahı ile uzmanlığın varsa, onu ozan büyülerin için büyü yapma odağı olarak kullanabilirsin."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Dövüş Stili",
+										"entries": [
+											"3. seviyede, uzmanlığın olarak bir dövüş stili seçersin. Şunlardan biri seçersin. Bir Dövüş Stilini, sonradan başka bir özellik imkan sunsa bile birden çok kez seçemezsin.",
+											{
+												"type": "options",
+												"entries": [
+													{
+														"type": "entries",
+														"name": "Düello",
+														"entries": [
+															"Bir elinde yakın dövüş silahı kullanıp diğer elinde silah kullanmazsan, o silahla hasar zarlarına +2 alırsın."
+														]
+													},
+													{
+														"type": "entries",
+														"name": "İki Silahlı Dövüş",
+														"entries": [
+															"İki silahlı dövüşe girdiğinde, ikinci saldırının hasarına yetenek bonusunu ekleyebilirsin."
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Kılıç Geliştirme",
+										"entries": [
+											"3. seviyede, hız ve savaş hüneriyle etkileyici gösteriler yapmayı öğrenirsin.",
+											"Sıranda Saldırı eylemini kullandığında, sıranın sonuna kadar yürüyüş hızın 10 artar, ve bu eylemin bir parçası olarak yaptığın bir silahlı saldırı bir varlığa vurursa, aşağıdakilerden seçeceğin bir Kılıç Geliştirme kullanabilirsin. Her sıranda sadece bir Kılıç Geliştirme kullanabilirsin.",
+											{
+												"type": "options",
+												"entries": [
+													{
+														"type": "entries",
+														"name": "Savunma Geliştirmesi",
+														"entries": [
+															"Ozan İlhamının bir kullanımını harcayarak silahının vurduğun hedefe fazladan hasar vermesini sağlayabilirsin. Hasar attığın Ozan İlhamı zarına eşittir. Ayrıca gelen zarı bir sonraki sıranın başına kadar AC'ne de eklersin."
+														]
+													},
+													{
+														"type": "entries",
+														"name": "Kesme Geliştirmesi",
+														"entries": [
+															"Ozan İlhamının bir kullanımını harcayarak silahının vurduğun hedefe ve 5 fit yakınında görebildiğin seçeceğin başka bir varlığa fazladan hasar vermesini sağlayabilirsin. Hasar attığın Ozan İlhamı zarına eşittir."
+														]
+													},
+													{
+														"type": "entries",
+														"name": "Hareketli Geliştirme",
+														"entries": [
+															"Ozan İlhamının bir kullanımını harcayarak silahının vurduğun hedefe fazladan hasar vermesini sağlayabilirsin. Hasar attığın Ozan İlhamı zarına eşittir. Ayrıca hedefi 5 + zarda gelen sayı kadar fit ileri itebilirsin. Hemen ardından reaksiyonunu kullanıp yürüyüş hızına kadar mesafe ilerleyerek hedefin 5 fit yakınında boş bir alana gidebilirsin."
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Extra Saldırı",
+										"entries": [
+											"6. seviyeden itibaren sıranda Saldırı eylemini kullandığında 1 yerine 2 kere saldırabilirsin."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Üstadın Geliştirmesi",
+										"entries": [
+											"14. seviyeden itibaren, bir Kılıç Geliştirme seçeneğini kullandığında, Ozan İlhamı harcamak yerine d6 atıp onu kullanabilirsin."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "XGE",
+					"shortName": "Kılıçlar"
+				},
+				{
+					"name": "Fısıltılar Koleji",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Fısıltılar Koleji",
+								"entries": [
+									"Çoğu kişi bir ozanı zevkle aralarına kabul eder. Fısıltılar Koleji ozanları da bundan faydalanırlar. Diğer ozanlar gibi görünürler, haberler paylaşır, şarkılar söyler, ve topladıkları dinleyicilere hikayeler anlatırlar. Aslında, Fısıltılar Koleji öğrencilerine koyunlar arasında kurt olmayı öğretir. Bu ozanlar büyü bilgilerini, sırları açığa çıkarmak ve bunu diğerlerine karşı şantaj ve tehdite çevirmek için kullanırlar.",
+									"Diğer ozanların birçoğu Fısıltılar Koleji ozanlarından nefret eder, onları ozanların itibarından faydalanıp güç ve servet toplayan parazitler olarak görürler. Bu sebepten dolayı, bu kolejin üyeleri nadiren gerçek kimliklerini açıklarlar. Genellikle başka bir koleje ait olduklarını söylerler, ya da kraliyet sarayları ve diğer güç merkezlerine sızabilmek için asıl mesleklerini gizlerler.",
+									{
+										"type": "entries",
+										"name": "Psişik Kılıçlar",
+										"entries": [
+											"3. seviyede Fısıltılar Kolejine dahil olduğunda, silahlı saldırılarını büyü ile bir varlığın zihine zehirli hale getirmeyi öğrenirsin.",
+											"Bir varlığa silahlı saldırı ile vurduğunda, bir Ozan İlhamı kullanımı harcayıp hedefe fazladan 2d6 psişik hasar verebilirsin. Bunu her round sadece bir kere kendi sıranda yapabilirsin.",
+											"Bu sınıfta belirli seviyelere ulaştığında bu psişik hasar artar, 5'te 3d6, 10'da 5d6, ve 15'te 8d6 olur."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Dehşet Sözleri",
+										"entries": [
+											"3. seviyede, masum görünen sözcükleri dehşet saçan haince bir büyü ile işleyebilirsin.",
+											"Bir insansıyla en az 1 dakika yalnız konuşursan, zihnine paranoya tohumları yerleştirebilirsin. Konuşmanın sonunda, hedef senin büyü kurtulma DC'ne karşı Akıl kurtulma zarı atar ya da senden veya seçeceğin başka bir varlıktan {@condition korkma} durumunda olur. Hedef bu şekilde korkma durumunda 1 saatliğine, saldırılana ya da hasar alana, veya dostlarına saldırıldığına ya da hasar aldıklarına şahit olana kadar kalır.",
+											"Eğer hedef kurtulma zarında başarılı olursa, senin onu korkutmaya çalıştığını farketmez.",
+											"Bu özelliği kullandığında, kısa ya da uzun dinlenme bitirene kadar bir daha kullanamazsın."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Fısıltı Örtüsü",
+										"entries": [
+											"6. seviyede, bir insansının karakterine bürünebilirsin. Bir insansı 30 fit yakınında ölürse, reaksiyonunu kullanıp büyü ile onun gölgesini ele geçirebilirsin. Bu gölge onu kullanana ya da uzun dinlenme bitirene kadar sende kalır.",
+											"Bu gölgeyi eylem olarak kullanabilirsin. Bunu yaptığında, ortadan kaybolur ve senin üzerinde büyülü bir kılık oluşturur. Şimdi sen ölü kişi gibi görünürsün, ama sağlıklı ve canlı. Bu kılık 1 saat ya da sen onu bonus eylem olarak bitirene kadar sürer.",
+											"Bu kılıktayken, insansının yüzeysel tanıdığı biriyle rahatlıkla paylaşacağı tüm bilgilere sahipsindir. Bu bilgiler geçmişi ve özel hayatını içerir ama sırlar buna dahil değildir. Hafızaları emerek o kişiymiş gibi davranabilmek için gereken bilgiyi toplarsın.",
+											"Başka bir varlık bu kılığın sahte olduğunu senin Karizma (Aldatma) zarına karşılık Akıl (Sezgi) zarı atarak anlayabilir. Sen zarına +5 bonus alırsın.",
+											"Bu özellik ile bir gölge yakaladığında, kısa ya da uzun dinlenme bitirene kadar başka bir gölge yakalayamazsın."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Gölge Bilgisi",
+										"entries": [
+											"14. seviyede, kara büyüyü sözlerine örüp bir varlığın en derin korkularına ulaşmayı öğrenirsin.",
+											"Eylem olarak, büyü ile sadece 30 fit yakınında seçeceğin bir varlığın duyabileceği bir cümle fısıldarsın. Hedef senin büyü kurtulma DC'ne karşı Akıl kurtulma zarı atar. Eğer senle ortak bir dil paylaşmıyorsa ya da seni duyamıyorsa bu zarda otomatik olarak başarılı olur. Başarılı kurtulma zarında, fısıltın anlamsız homurdanma gibi duyulur ve bir etkisi yoktur.",
+											"Başarısız olursa, hedef sonraki 8 saat boyunca, sen veya dostların ona saldırana, hasar verene ya da kurtulma zarı attırana kadar senin tarafından {@condition cezbedilme} durumunda olur. Fısıltıları en korkunç sırrının tasviri olarak algılar. Bu sırrın bilgisini almazsın, ama hedef onu bildiğine ikna olmuştur.",
+											"Cezbedilen varlık onun sırrını ortaya çıkarmandan korktuğu için komutlarına uyar. Zaten baştan böyle bir eğilimi yoksa senin için savaşmaz ya da hayatını riske atmaz. Yakın bir dosta verilecek hediyeleri ve lütufları sana bahşeder.",
+											"Etki bittiğinde, varlık senden neden o kadar korktuğunu anlamaz.",
+											"Bu özelliği kullandığında, uzun dinlenme bitirene kadar bir daha kullanamazsın."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "XGE",
+					"shortName": "Fısıltılar"
 				}
 			],
 			"fluff": [
@@ -11253,6 +11499,343 @@
 					],
 					"source": "PHB",
 					"shortName": "Hayvan Üstadı"
+				},
+				{
+					"name": "Karanlık İzcisi",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Karanlık İzcisi",
+								"entries": [
+									"Karanlık İzcileri en karanlık yerlerde evlerinde hissederler: toprağın altında derinliklerde, karanlık arka sokaklarda, kadim ormanlarda, ve ışığın loşlaştığı diğer yerlerde. Çoğu kişi bu tip yerlere endişe ile girerler, ama bir Karanlık İzcisi tehlikeleri dünyaya yayılmadan pusuya düşürebilmek için karanlığa cesurca girebilir. Bu tip kolcular genelde Yeraltında bulunurlar, ama kötülüğün gölgelerde gezdiği her noktaya giderler.",
+									{
+										"type": "entries",
+										"name": "Karanlık İzcisi Büyüsü",
+										"entries": [
+											"3. seviyeden itibaren, bu sınıfta belirli seviyelere ulaştığında fazladan bir büyü öğrenirsin, bu büyüler Karanlık İzcisi Büyüleri tablosunda görülebilir. Büyü senin için kolcu büyüsü sayılır, ama bildiğin kolcu büyüsü sayısına dahil olmaz.",
+											{
+												"type": "table",
+												"caption": "Karanlık İzcisi Büyüleri",
+												"colLabels": [
+													"Kolcu Seviyesi",
+													"Büyüler"
+												],
+												"colStyles": [
+													"col-xs-3 text-align-center",
+													"col-xs-9"
+												],
+												"rows": [
+													[
+														"3.",
+														"{@spell disguise self (kılık değiştir)}"
+													],
+													[
+														"5.",
+														"{@spell rope trick (halat hilesi)}"
+													],
+													[
+														"9.",
+														"{@spell fear (korku)}"
+													],
+													[
+														"13.",
+														"{@spell greater invisibility (Üstün Görünmezlik)}"
+													],
+													[
+														"17.",
+														"{@spell seeming (görünüş)}"
+													]
+												]
+											}
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Kasvet Pusucusu",
+										"entries": [
+											"3. seviyede, pusu sanatında ustalaşırsın. Öncelik zarlarında kendine Akıl bonusun kadar bonus ekleyebilirsin.",
+											"Her savaşta ilk sıranın başında, o sıranın sonuna kadar yürüme hızın 10 fit artar. Eğer o sıranda Saldırı eylemini kullanırsan, bunun bir parçası olarak fazladan bir silahlı saldırı yapabilirsin. Eğer o saldırı vurursa, hedef silahın hasar tipinde fazladan 1d8 hasar alır."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Umbral Görüş",
+										"entries": [
+											"3. seviyede, 60 fite kadar gece görüşün olur. Eğer ırkından dolayı zaten gece görüşün varsa, menzili 30 fit artar.",
+											"Ayrıca gece görüşüne güvenen varlıkları atlatma konusunda da uzmanlaşırsın. Karanlıktayken, seni o karanlıkta görmek için gece görüşüne güvenen varlıklar için {@condition görünmezlik} durumundasındır."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Demir Zihin",
+										"entries": [
+											"7. seviyede, avının zihin değiştiren güçlerine direnme yeteneğini geliştirirsin. Akıl kurtulma zarlarında uzmanlık kazanırsın. Eğer bu uzmanlığa zaten sahipsen, Zeka ya da Karizma yeteneklerinden seçeceğin birinde uzmanlık kazanırsın."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Avcının Telaşı",
+										"entries": [
+											"11. seviyede, öyle beklenmedik bir hızla saldırmayı öğrenirsin ki bir ıskalamayı başka bir darbeye çevirirsin. Sıralarında bir kereliğine, bir silahlı saldırı ile ıskalarsan, aynı eylemin bir parçası olarak yeni bir silahlı saldırı yapabilirsin."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Gölgeli Kaçınma",
+										"entries": [
+											"15. seviyeden itibaren, doğaüstü gölgeler seni sararken görülmemiş şekillerde kaçınabilirsin. Ne zaman bir varlık sana saldırsa ve bu zarda avantajı olmazsa, reaksiyonunu kullanıp o saldırıya dezavantaj verebilirsin. Bu özelliği saldırı zarının sonucunu öğrenmeden kullanmalısın."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "XGE",
+					"shortName": "Karanlık İzcisi"
+				},
+				{
+					"name": "Ufuk Gezgini",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Ufuk Gezgini",
+								"entries": [
+									"Ufuk Gezginleri diğer boyutlardan gelen tehditlere ya da dünyadışı büyülerle dünyayı yoketmeye çalışan güçlere karşı koruyuculardır. Boyutsal portallar bulup buralarda bekçilik yaparlar, düşmanlarını izlemek için gerekirse İç ve Dış Boyutlara giderler. Bu kolcular ayrıca çokluevrenin güçlerine de dostturlar, özellikle boyutların düzenini ve üzerlerindeki yaşamı koruyan iyi huylu ejderhalar, feyler, ve elementallere.",
+									{
+										"type": "entries",
+										"name": "Ufuk Gezgini Büyüsü",
+										"entries": [
+											"3. seviyeden itibaren, bu sınıfta belirli seviyelere ulaştığında fazladan bir büyü öğrenirsin, bu büyü Ufuk Gezgini Büyüleri tablosunda görülebilir. Büyü senin için kolcu büyüsü sayılır, ama bildiğin kolcu büyüsü sayısına eklenmez.",
+											{
+												"type": "table",
+												"caption": "Ufuk Gezgini Büyüleri",
+												"colLabels": [
+													"Kolcu Seviyesi",
+													"Büyüler"
+												],
+												"colStyles": [
+													"col-xs-3 text-align-center",
+													"col-xs-9"
+												],
+												"rows": [
+													[
+														"3.",
+														"{@spell protection from evil and good (İyi ve Kötüden Korunma)}"
+													],
+													[
+														"5.",
+														"{@spell misty step (sisli adım)}"
+													],
+													[
+														"9.",
+														"{@spell haste (acele)}"
+													],
+													[
+														"13.",
+														"{@spell banishment (kovma)}"
+													],
+													[
+														"17.",
+														"{@spell teleportation circle (Işınlanma Çemberi)}"
+													]
+												]
+											}
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Portal Tespit Et",
+										"entries": [
+											"3. seviyede, büyülü bir şekilde boyutsal bir portalın varlığını hissetme yetisini kazanırsın. Eylem olarak, 1 mil yakınındaki en yakın boyutsal portalın mesafesi ve yönünü hissedebilirsin.",
+											"Bu özelliği kullandığında, kısa ya da uzun dinlenme bitirene kadar bir daha kullanmazsın.",
+											"DMG'de Boyutsal Seyahat kısmında bu portalların örnekleri vardır."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Boyutsal Savaşçı",
+										"entries": [
+											"3. seviyede, saldırılarını güçlendirebilmek için çokluevrenin enerjisini kullanmayı öğrenirsin.",
+											"Bonus eylem olarak, 30 fit yakınında görebildiğin bir varlık seç. Bu sıranda o varlığa bir sonraki silahlı saldırı ile vuruşunda, bu saldırı tarafından verilen tüm hasar güç hasarı olur, ve varlık saldırıdan fazladan 1d8 güç hasarı alır. Bu sınıfta 11. seviyeye ulaştığında, fazladan hasar 2d8 olur."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Ethereal Adım",
+										"entries": [
+											"7. seviyede, Ethereal Boyuttan geçmeyi öğrenirsin. Bonus eylem olarak, bu özellik ile {@spell etherealness (ruhanilik)} büyüsünü büyü yuvası harcamadan kullanabilirsin, ama büyü o sıranın sonunda biter.",
+											"Bu özelliği kullandığında, kısa ya da uzun dinlenme bitirene kadar bir daha kullanamazsın."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Uzak Darbe",
+										"entries": [
+											"11. seviyede, göz açıp kapayıncaya kadar boyutlar arasında geçmeyi öğrenirsin. Saldırı eylemini kullandığında, her saldırı öncesinde görebildiğin boş bir yere 10 fite kadar ışınlanabilirsin.",
+											"Eğer bu eylem ile 2 ayrı varlığa saldırdıysan, 3. bir varlığa karşı fazladan bir saldırı yapabilirsin."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Spektral Savunma",
+										"entries": [
+											"15. seviyede, boyutlar arası geçiş yeteneğin savaşta sana gelecek zararı azaltmak için boyutsal sınırlardan kaçmanı sağlar. Bir saldırıdan hasar aldığında, bu sıranda reaksiyonunu kullanarak o saldırının tüm hasarına direnç kazanabilirsin."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "XGE",
+					"shortName": "Ufuk Gezgini"
+				},
+				{
+					"name": "Yaratık Avcısı",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Yaratık Avcısı",
+								"entries": [
+									"Kendini gecenin varlıkları ve zalim büyülerin kullanıcılarını avlamaya adadın. Bir Canavar Avcısı vampir, ejderha, kötü fey, zebani, ve diğer büyülü tehditleri avlar. Bu tip yaratıkları altedebilmek için doğaüstü tekniklerde eğitimlidirler, ve avcılar bu görkemli ve mistik varlıkları ortaya çıkarıp altetmede uzmanlaşırlar.",
+									{
+										"type": "entries",
+										"name": "Yaratık Avcısı Büyüsü",
+										"entries": [
+											"3. seviyeden itibaren, bu sınıfta belirli seviyelere ulaştığında fazladan bir büyü öğrenirsin, bu büyü Yaratık Avcısı Büyüleri tablosunda görülebilir. Büyü senin için kolcu büyüsü sayılır, ama bildiğin kolcu büyüsü sayısına eklenmez.",
+											{
+												"type": "table",
+												"caption": "Yaratık Avcısı Büyüleri",
+												"colLabels": [
+													"Kolcu Seviyesi",
+													"Büyüler"
+												],
+												"colStyles": [
+													"col-xs-3 text-align-center",
+													"col-xs-9"
+												],
+												"rows": [
+													[
+														"3.",
+														"{@spell protection from evil and good (İyi ve Kötüden Korunma)}"
+													],
+													[
+														"5.",
+														"{@spell zone of truth (doğruluk alanı)}"
+													],
+													[
+														"9.",
+														"{@spell magic circle (Büyülü Çember)}"
+													],
+													[
+														"13.",
+														"{@spell banishment (kovma)}"
+													],
+													[
+														"17.",
+														"{@spell hold monster (yaratık zapt et)}"
+													]
+												]
+											}
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Avcının Hissi",
+										"entries": [
+											"3. seviyede, bir varlığa bakıp büyülü bir şekilde ona en iyi nasıl hasar verebileceğini öğrenme yeteneğine sahip olursun. Eylem olarak, 60 fit yakınında görebildiğin bir varlık seç. Anında o varlığın hasar bağışıklığı, direnci veya zayıflığı olup olmadığını ve bunların ne olduğunu öğrenirsin. Eğer varlık divination büyülerinden gizleniyorsa, hiçbir bağışıklığı, direnci veya zayıflığı olmadığını hissedersin.",
+											"Bu özelliği Akıl bonusun kadar (en az 1) kullanabilirsin. Uzun dinlenme bitirdiğinde tüm harcanan kullanımlar yenilenir."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Avcının Avı",
+										"entries": [
+											"3. seviyeden itibaren, bütün hiddetini tek bir düşman üzerine yoğunlaştırırsın, ona verdiğin hasarı arttırır. Bonus eylem olarak, 60 fit yakınında görebildiğin bir varlığı bu özelliğin hedefi olarak belirle. Her sıranda bu varlığa silahlı bir saldırı ile ilk vuruşunda, silahtan fazladan 1d6 hasar alır.",
+											"Bundan kısa ya da uzun dinlenme bitirene kadar faydalanırsın. Eğer farklı bir varlık belirlersen erken sonlanır."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Doğaüstü Savunma",
+										"entries": [
+											"7. seviyede, avının zihnin ve bedenine yapacağı saldırılara karşı fazladan direnç kazanırsın. Avcının Avı hedefin ne zaman sana kurtulma zarı attırsa ve ne zaman bu hedefin tutmasından kaçmak için bir yetenek zarı atsan, bu zara 1d6 eklersin."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Büyü Kullanıcısının Can Düşmanı",
+										"entries": [
+											"11. seviyede, başkasının büyüsünü önleme yetisini kazanırsın. Bir varlığı 60 fit yakınında büyü yaparken ya da ışınlanırken görürsen, reaksiyonunu kullanıp onu büyülü bir şekilde önlemeye çalışabilirsin. Varlık senin büyü kurtulma DC'ne karşı Akıl kurtulma zarı atar ya da büyüsü veya ışınlanması başarısız olur ve harcanır.",
+											"Bu özelliği kullandığında, kısa ya da uzun dinlenme bitirene kadar bir daha kullanamazsın."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Avcının Karşılığı",
+										"entries": [
+											"15. seviyede, avın seni sabote etmeye çalıştığında karşı saldırı yapma yetisini kazanırsın. Eğer Avcının Avı hedefin sana kurtulma zarı attırırsa, reaksiyonunu kullanıp ona karşı bir silahlı saldırı yapabilirsin. Bu saldırıyı kurtulma zarını atmadan hemen önce yaparsın. Eğer saldırın vurursa, saldırının normal etkilerinin yanında kurtulma zarın otomatik olarak başarılı olur."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "XGE",
+					"shortName": "Canavar Avcısı"
 				}
 			],
 			"fluff": [
