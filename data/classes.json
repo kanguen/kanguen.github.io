@@ -10374,6 +10374,507 @@
 					],
 					"source": "PHB",
 					"shortName": "İntikam"
+				},
+				{
+					"name": "Tacın Yemini",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Tacın Yemini",
+								"entries": [
+									"Tacın Yemini medeniyet ülkülerine, millet ruhuna, hükümdara sadakate ya da bir yasa ve hüküm tanrısına hizmet için edilir. Bu yemini eden paladinler kendilerini topluma ve özellikle toplumu bir arada tutan yasalara adarlar. Bu paladinler surlardaki yılmaz bekçilerdir, medeniyetin kurduğu herşeyi yıkmaya çalışan barbarlığın kaotik akınlarına karşı dikilirler, ve genellikle muhafızlar, timsaller veya gözcüler olarak bilinirler. Sıkça, bu yemini eden paladinler bir millet ya da hükümdara hizmet eden şövalye birliklerinin üyeleri olurlar, ve yeminlerini bu birliğe dahil olmanın bir parçası olarak ederler.",
+									{
+										"type": "entries",
+										"name": "Tacın Öğretileri",
+										"entries": [
+											"Tacın Yemininin öğretileri, hizmet yemini edilen hükümdar tarafından belirlenir ama genellikle şu öğretileri vurgular.",
+											{
+												"type": "entries",
+												"entries": [
+													{
+														"type": "entries",
+														"name": "Yasa",
+														"entries": [
+															"Yasa üstündür. Medeniyet taşlarını bir arada tutan harçtır, ve saygı duyulmalıdır."
+														]
+													}
+												]
+											},
+											{
+												"type": "entries",
+												"entries": [
+													{
+														"type": "entries",
+														"name": "Sadakat",
+														"entries": [
+															"Sözün senettir. Sadakat olmazsa, yeminler ve yasaların bir anlamı kalmaz."
+														]
+													}
+												]
+											},
+											{
+												"type": "entries",
+												"entries": [
+													{
+														"type": "entries",
+														"name": "Cesaret",
+														"entries": [
+															"Düzen için yapılması gerekeni yapmaya istekli olmalısın, ezici ihtimallere karşı bile. Eğer sen harekete geçmezsen, kim geçecek?"
+														]
+													}
+												]
+											},
+											{
+												"type": "entries",
+												"entries": [
+													{
+														"type": "entries",
+														"name": "Sorumluluk",
+														"entries": [
+															"Eylemlerinin sonuçlarıyla yüzleşmelisin, görevlerin ve yükümlülüklerini yerine getirmekle sorumlusun."
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Yemin Büyüleri",
+										"entries": [
+											"Belirtilen paladin seviyelerinde yemin büyülerini öğrenirsin.",
+											{
+												"type": "table",
+												"caption": "Tacın Yemini Büyüleri",
+												"colLabels": [
+													"Paladin Seviyesi",
+													"Büyüler"
+												],
+												"colStyles": [
+													"col-xs-3 text-align-center",
+													"col-xs-9"
+												],
+												"rows": [
+													[
+														"3.",
+														"{@spell command (emret)}, {@spell compelled duel (mecburi düello)}"
+													],
+													[
+														"5.",
+														"{@spell warding bond (koruyucu bağ)}, {@spell zone of truth (doğruluk alanı)}"
+													],
+													[
+														"9.",
+														"{@spell aura of vitality (sağlık aurası)}, {@spell spirit guardians (ruhsal muhafızlar)}"
+													],
+													[
+														"13.",
+														"{@spell banishment (kovma)}, {@spell guardian of faith (İnanç Muhafızı)}"
+													],
+													[
+														"17.",
+														"{@spell circle of power (Güç Çemberi)}, {@spell geas (ges)}"
+													]
+												]
+											}
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Kutsal Yönlendirme: Şampiyon Meydan Okuması",
+										"entries": [
+											"Bonus eylem olarak, diğer varlıkları seninle savaşmaya iten bir şekilde meydan okursun. 30 fit yakınında görebildiğin seçeceğin her varlık Akıl kurtulma zarı atar. Başarısız olursa, varlık istekli bir şekilde senden 30 fitten fazla uzaklaşamaz. Bu etki eğer sen {@condition etkisiz hal}e düşersen, ölürsen veya varlık senden 30 fitten fazla uzaklaşırsa sonlanır."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Kutsal Yönlendirme: Akışı Çevir",
+										"entries": [
+											"Bonus eylem olarak, yaralı varlıkları Kutsal Yönlendirmenle desteklersin. 30 fit yakınında seni duyabilen seçeceğin her varlık 1d6 + Karizma bonusun kadar (en az 1) HP yeniler, bu sadece varlığın HP'si toplamın yarısının altındaysa işe yarar."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Kutsal Bağlılık",
+										"entries": [
+											"7. seviyeden itibaren, 5 fit yakınında bir varlık hasar aldığında, reaksiyonunu kullanıp büyü ile hedef varlık yerine kendi sağlığını ortaya atabilirsin, o varlığın hasarı almamasını sağlarsın. Bunun yerine, hasarı sen alırsın. Bu sana gelen hasar hiçbir şekilde azaltılamaz ya da engellenemez."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Yılmaz Ruh",
+										"entries": [
+											"15. seviyeden itibaren, {@condition felç} ya da {@condition sersemleme} durumlarına girmemek için atacağın kurtulma zarlarında avantajın olur."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Yüce Şampiyon",
+										"entries": [
+											"20. seviyede, savaş alanında varlığın senin davana adanmış kişiler için bir ilham kaynağıdır. Eylemini kullanıp 1 saatliğine şu etkilerden faydalanabilirsin:",
+											{
+												"type": "list",
+												"items": [
+													"Büyüsüz silahlardan gelen ezme, delme ve kesme hasarına direncin olur.",
+													"Senin 30 fit yakınındayken müttefiklerin ölüm kurtulma zarlarında avantajlı olur.",
+													"Akıl kurtulma zarlarında avantajın olur, 30 fit yakınındaki müttefiklerin de bundan faydalanır."
+												]
+											},
+											"Eğer sen {@condition etkisiz hal}e düşersen ya da ölürsen bu etki erken sonlanır. Bu özelliği kullandığında, uzun dinlenme bitirene kadar bir daha kullanamazsın."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "SCAG",
+					"shortName": "Taç"
+				},
+				{
+					"name": "Fetih Yemini",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Fetih Yemini",
+								"entries": [
+									"Fetih Yemini düşmanlarını altedip savaşta şanlanmak isteyen paladinleri çağırır. Bu paladinler için düzen sağlamak yeterli değildir. Kaosun güçlerini ezmeleri gerekir. Bazen tiran şövalyeler ya da demir tacirleri olarak da anılırlar, bu yemini edenler düzenli güç ve savaş tanrıları ya da felsefelerine hizmet eden acımasız birliklerde toplanırlar.",
+									"Bu paladinlerin bazıları iyice ileri gidip 9 Cehennemin güçleri ile iş birliği yaparlar, merhametin merhemi yerine yasanın hükmüne değer verirler. Avernus'un savaş lordu Baş Şeytan Bel, cehennem şövalyeleri denen birçok paladini en sadık destekçileri olarak görür. Cehennem şövalyeleri zırhlarını ölen düşmanlarından aldıkları ganimetler ile süslerler, lordlarının buyruğuna ve kendilerine karşı gelenlere gaddarca bir uyarıdır. Bu şövalyelere en çok bu yemini eden başka şövalyeler direnir, onlar cehennem şövalyelerinin artık karanlığın derinliklerine düştüklerine inanırlar.",
+									{
+										"type": "entries",
+										"name": "Fethin Öğretileri",
+										"entries": [
+											"Fetih Yemini öğretileri bu yemini eden paladinlerin üst koluna dağlanır.",
+											{
+												"type": "entries",
+												"entries": [
+													{
+														"type": "entries",
+														"name": "Umut Ateşini Söndür",
+														"entries": [
+															"Bir düşmanı sadece savaşta yenmek yetmez. Zaferin öyle ezici olmalı ki düşmanın savaşma ruhu sonsuza kadar kırılmalı. Bir kılıç hayata son verebilir, korku ise bir imparatorluğa."
+														]
+													},
+													{
+														"type": "entries",
+														"name": "Demir Yumrukla Yönet",
+														"entries": [
+															"Fethettiğinde, direnişi hoşgörme. Sözün yasadır. Ona itaat eden ödüllendirilir. Ona karşı gelen diğerlerine örnek olsun diye cezalandırılır."
+														]
+													},
+													{
+														"type": "entries",
+														"name": "Hepsinin Üstünde Güç",
+														"entries": [
+															"Daha güçlü biri gelene kadar hüküm sürersin. Sonrasında ya daha da güçlenir ve meydan okumayı kabul edersin, ya da kendi sonunu görürsün."
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Yemin Büyüleri",
+										"entries": [
+											"Belirtilen paladin seviyelerinde yemin büyülerini öğrenirsin.",
+											{
+												"type": "table",
+												"caption": "Fetih Yemini Büyüleri",
+												"colLabels": [
+													"Paladin Seviyesi",
+													"Büyüler"
+												],
+												"colStyles": [
+													"col-xs-3 text-align-center",
+													"col-xs-9"
+												],
+												"rows": [
+													[
+														"3.",
+														"{@spell armor of Agathys (Agathys'in Zırhı)}, {@spell command (emret)}"
+													],
+													[
+														"5.",
+														"{@spell hold person (kişi zapt et)}, {@spell spiritual weapon (ruhsal silah)}"
+													],
+													[
+														"9.",
+														"{@spell bestow curse (lanetle)}, {@spell fear (korku)}"
+													],
+													[
+														"13.",
+														"{@spell dominate beast (hayvana hükmet)}, {@spell stoneskin (taşderi)}"
+													],
+													[
+														"17.",
+														"{@spell cloudkill (Ölüm Bulutu)}, {@spell dominate person (kişiye hükmet)}"
+													]
+												]
+											}
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Kutsal Yönlendirme: Fetheden Varlık",
+										"entries": [
+											"Kutsal Yönlendirmeni kullanıp korkunç bir varlık saçabilirsin. Eylem olarak, 30 fit yakınında görebildiğin seçeceğin her varlığa Akıl kurtulma zarı attırırsın. Başarısız olursa, varlık 1 dakikalığına senden {@condition korkma} durumunda olur. Korkmuş varlık her sırasının sonunda bu kurtulma zarını tekrarlayabilir, başarılı olursa etki üzerinde sonlanır."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Kutsal Yönlendirme: Güdümlü Darbe",
+										"entries": [
+											"Kutsal Yönlendirmeni kullanıp doğaüstü bir isabet ile saldırırsın. Bir saldırı zarı attığında, Kutsal Yönlendirmeni kullanıp o zara +10 ekleyebilirsin. Bunu zarı gördükten sonra ama DM saldırının vurup vurmadığını söylemeden önce kullanmalısın."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Fetih Aurası",
+										"entries": [
+											"7. seviyeden itibaren, etkisiz halde olmadığın sürece sürekli bir şekilde ürperten bir aura yayarsın. Aura senin 10 fit çevreni etkiler, ama tam siperin ardına geçmez.",
+											"Eğer bir varlık senden {@condition korkma} durumundaysa, auradayken hızı sıfıra düşer, ve o varlık eğer sırasına aurada başlarsa senin paladin seviyenin yarısı kadar psişik hasar alır.",
+											"18. seviyede bu auranın alanı 30 fite yükselir."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Alaycı Azar",
+										"entries": [
+											"15. seviyeden itibaren, sana vurmaya cesaret edenler bu saygısızlıklarından dolayı psişik olarak cezalandırılırlar. Bir varlık sana saldırı ile vurduğunda, eğer sen {@condition etkisiz hal}de değilsen o varlık senin Karizma bonusun kadar (en az 1) psişik hasar alır."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Dokunulmaz Fatih",
+										"entries": [
+											"20. seviyede, sıradışı savaş hünerlerini kullanma yeteneğini kazanırsın. Eylem olarak, büyülü bir şekilde fethin bir avatarına dönüşürsün, 1 dakikalığına şu etkilerden faydalanırsın:",
+											{
+												"type": "list",
+												"items": [
+													"Tüm hasara karşı direncin olur.",
+													"Sıranda Saldırı eylemini kullandığında, o eylemin bir parçası olarak fazladan bir saldırı yapabilirsin.",
+													"Yakın dövüş silahlı saldırıların d20 zarında 19 ve 20 gelirse kritik olur."
+												]
+											},
+											"Bu özelliği kullandığında, uzun dinlenme bitirene kadar bir daha kullanamazsın."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "XGE",
+					"shortName": "Fetih"
+				},
+				{
+					"name": "Kefaret Yemini",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Kefaret Yemini",
+								"entries": [
+									"Kefaret Yemini bir paladini zorlu bir yola çıkarır, kutsal savaşçının şiddeti sadece en son çare olarak göreceği bir yol. Kendini bu yemine adayan paladinler herkesin kurtarılabileceğine, iyilik ve adalet yolunda her bireyin yürüyebileceğine inanırlar. Bu paladinler kötü varlıklarla onları ışığa yönlendirebileceğini umarak yüzleşirler, düşmanlarını sadece bunun bariz bir şekilde diğer hayatları kurtaracağını bildiklerinde öldürürler. Bu yoldaki paladinlere kurtarıcı denir.",
+									"Kurtarıcılar idealist olsalar da, aptal değildirler. Kurtarıcılar yaşayan ölüler, iblisler, şeytanlar, ve diğer doğaüstü tehlikelerin içlerinde kötülük olduğunu bilirler. Bu tip düşmanlara karşı, bu yemini eden paladinler silah ve büyülerinin taşıyabileceği tüm hiddeti düşmanların üzerlerine yıkarlar. Ama hala kurtarıcılar belki bir gün, kötülüğün varlıklarının bile kendi kefaretlerini bulmaları için dua ederler.",
+									{
+										"type": "entries",
+										"name": "Kefaretin Öğretileri",
+										"entries": [
+											"Kefaret Yemininin öğretileri bir paladini üstün barış ve adalet standardına tabi tutar.",
+											{
+												"type": "entries",
+												"entries": [
+													{
+														"type": "entries",
+														"name": "Barış",
+														"entries": [
+															"Şiddet son başvurulacak silahtır. Diplomasi ve anlayış uzun süren barışın yollarıdır."
+														]
+													}
+												]
+											},
+											{
+												"type": "entries",
+												"entries": [
+													{
+														"type": "entries",
+														"name": "Masumiyet",
+														"entries": [
+															"Tüm varlıklar hayata masum başlarlar, kötülük güçlerinin ya da çevrelerinin etkisi onları kötülüğe sürükler. Uygun örneği yaratarak, ve derinden kusurlu bu dünyanın yaralarını iyileştirerek, herkesi erdem yoluna sokabilirsin."
+														]
+													}
+												]
+											},
+											{
+												"type": "entries",
+												"entries": [
+													{
+														"type": "entries",
+														"name": "Sabır",
+														"entries": [
+															"Değişim zaman alır. Öncesinde kötülüğün yolunda olanları dürüst ve saf tutmak için hatırlatmalar yapılmalıdır. Bir varlığa erdem tohumlarını ektiğinde, bu tohumu yaşatmak ve büyütmek için günbegün çalışman gerekir."
+														]
+													}
+												]
+											},
+											{
+												"type": "entries",
+												"entries": [
+													{
+														"type": "entries",
+														"name": "Akıl",
+														"entries": [
+															"Kalbin ve zihnin temiz kalmalıdır, çünkü nihayetinde yenilgiyi kabulleneceksin. Her varlık kurtarılabilse de, bazıları kötülük yolunda o kadar ilerlemişlerdir ki çoğunluğun iyiliği için onların hayatını sonlandırmak dışında seçeneğin olmaz. Bu tip eylemler dikkatlice tartılmalı ve sonuçları tamamıyla anlaşılmalıdır, ama kararı verdiğinde, yolunun doğru olduğunu bilip başladığını bitir."
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Yemin Büyüleri",
+										"entries": [
+											"Belirtilen paladin seviyelerinde yemin büyülerini öğrenirsin.",
+											{
+												"type": "table",
+												"caption": "Kefaret Yemini Büyüleri",
+												"colLabels": [
+													"Paladin Seviyesi",
+													"Büyüler"
+												],
+												"colStyles": [
+													"col-xs-3 text-align-center",
+													"col-xs-9"
+												],
+												"rows": [
+													[
+														"3.",
+														"{@spell sanctuary (mabet)}, {@spell sleep (uyku)}"
+													],
+													[
+														"5.",
+														"{@spell calm emotions (duyguları yatıştır)}, {@spell hold person (kişi zapt et)}"
+													],
+													[
+														"9.",
+														"{@spell counterspell (karşıbüyü)}, {@spell hypnotic pattern (hipnotik desen)}"
+													],
+													[
+														"13.",
+														"{@spell Otiluke's resilient sphere (Otiluke'un Dayanıklı Küresi)}, {@spell stoneskin (taşderi)}"
+													],
+													[
+														"17.",
+														"{@spell hold monster (yaratık zapt et)}, {@spell wall of force (güç duvarı)}"
+													]
+												]
+											}
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Kutsal Yönlendirme: Barış Elçisi",
+										"entries": [
+											"Kutsal Yönlendirmeni kullanıp varlığını kutsal güç ile doldurabilirsin. Bonus eylem olarak, sonraki 10 dakika için Karizma (İkna) zarlarına +5 bonus alabilirsin."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Kutsal Yönlendirme: Şiddeti Azarla",
+										"entries": [
+											"Kutsal Yönlendirmeni kullanıp şiddet kullananları azarlayabilirsin. 30 fit yakınında bir saldırgan senin dışında bir varlığa hasar verdikten hemen sonra, reaksiyonunu kullanıp saldırgana Akıl kurtulma zarı attırabilirsin. Başarısız olursa, saldırgan verdiği hasar kadar radyant hasar alır. Başarılı olursa, bunun yarısını."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Muhafızın Aurası",
+										"entries": [
+											"7. seviyeden itibaren, kendi sağlığın pahasına diğerlerini hasardan koruyabilirsin. 10 fit yakınındaki bir varlık hasar alırsa, reaksiyonunu kullanıp büyülü bir şekilde o hasarı varlığın yerine alabilirsin. Bu özellik hasarın yanında gelebilecek diğer etkileri aktarmaz, ve bu hasar hiçbir şekilde düşürülemez.",
+											"18. seviyede, bu auranın menzili 30 fite yükselir."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Koruyucu Ruh",
+										"entries": [
+											"15. seviyeden itibaren, kutsal mevcudiyet savaşta yaralarını iyileştirir. Eğer {@condition etkisiz hal}de değilsen ve savaşta sıranı bitirdiğinde HP toplamının yarısından az HP varsa, 1d6 + paladin seviyenin yarısı kadar HP yenilersin."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Kefaretin Elçisi",
+										"entries": [
+											"20. seviyede, barışın avatarı olursun ve bu sana 2 fayda sağlar:",
+											{
+												"type": "list",
+												"items": [
+													"Diğer varlıklar tarafından verilen tüm hasara (saldırıları, büyüleri ve diğer etkileri) karşı direncin olur.",
+													"Bir varlık sana bir saldırı ile vurduğunda, senin saldırıdan aldığının yarısı kadar radyant hasar alır."
+												]
+											},
+											"Eğer bir varlığa saldırırsan, büyü kullanırsan, veya bu özellik dışında herhangi bir şekilde hasar verirsen, sen uzun dinlenme bitirene kadar o varlığa karşı iki özellik de işlemez."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "XGE",
+					"shortName": "Kefaret"
 				}
 			],
 			"fluff": [
