@@ -7513,6 +7513,499 @@
 					],
 					"source": "PHB",
 					"shortName": "Eldritch Şövalyesi"
+				},
+				{
+					"name": "Mor Ejderha Şövalyeleri (Banneret)",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Mor Ejderha Şövalyeleri (Banneret)",
+								"entries": [
+									"Mor Ejderha Şövalyeleri Cormyr krallığından gelen savaşçılardır. Tacı korumaya yeminli olarak, krallığın sınırları ötesindeki kötülükle savaşırlar. Gezgin şövalyeler olarak diyarları gezme ile görevlendirilirler, kötüleri altederken cesaret, sadakat ve yargılarına güvenir, onlarla hareket ederler.",
+									"Bir Mor Ejderha Şövalyesi savaşta büyük işler başararak diğerlerinde yücelik hissi uyandırırlar. Bir köyde şövalyenin varlığı bile haydut ve orkların daha kolay hedef araması için yeterlidir. Yalnız bir şövalye yetenekli bir dövüşçüdür, ama bir grup müttefikin liderliğinde bir şövalye en kötü ekipmanlı milis gücünü bile bir çetin savaş grubuna çevirebilir.",
+									"Bir şövalye işleri ile yönetmeyi seçer, sözleri ile değil. Bir şövalye saldırının başında yer alırken, bu şövalyenin davranışları müttefiklerinde hiç sahip olduklarını düşünmedikleri cesaret ve inancı ortaya çıkarır.",
+									{
+										"type": "entries",
+										"name": "Kısıtlama: Şövalyelik",
+										"entries": [
+											"Mor Ejderha Şövalyeleri, Cormyrean şövalyeliğinde belirli bir birliğe bağlıdır.",
+											"Eğer bu modeli diğer evrenler ve hikayelerde kullanırsan, Banneret bu model için genel isimdir."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Toplanma Narası",
+										"entries": [
+											"3. seviyede bu modeli seçtiğinde, müttefiklerini yaralarına rağmen dövüşmeleri için cesaretlendirmeyi öğrenirsin.",
+											"Soluklan özelliği kullandığında, 60 fit yakınında senin tarafında olan 3 taneye kadar varlık seçersin. Varlık seni görebiliyor ya da duyabiliyorsa, her biri senin savaşçı seviyen kadar HP yeniler."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Kraliyet Elçisi",
+										"entries": [
+											"Bir Mor Ejderha Şövalyesi Cormyrean tacının elçisi olarak hizmet eder. Üst konumdan bir şövalyenin zarafetle davranması beklenir.",
+											"7. seviyede, İkna becerisinde uzmanlık kazanırsın. Eğer zaten onda uzmansan, onun yerine şu seçeneklerden birinde uzmanlaşırsın: Hayvan İdaresi, Sezgi, Gözdağı, veya Performans.",
+											"İkna kullanan her beceri zarında uzmanlık bonusun ikiye katlanır. Bu bonusu, bu özellikle aldığın uzmanlığa bakılmaksızın alırsın."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "İlham Veren Taşma",
+										"entries": [
+											"10. seviyeden itibaren, Eylem Taşması özelliğini kullandığında, 60 fit yakınında müttefikin olan bir varlık seçersin. Eğer seni görebiliyor ya da duyabiliyorsa, o varlık reaksiyonunu kullanıp bir yakın ya da menzilli silah saldırısı yapabilir.",
+											"18. seviyeden itibaren, 60 fit yakınında bir yerine iki dostunu seçersin."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Siper",
+										"entries": [
+											"15. seviyeden itibaren, Yenilmez özelliğinden bir dostun da faydalanabilir. Yenilmez özelliğini bir Zeka, Akıl veya Karizma kurtulma zarını yeniden atmak için kullandığında ve eğer {@condition etkisiz hal}de değilsen, 60 fit yakınında aynı etkiye karşı kurtulma zarında başarısız olmuş bir dostunu seçebilirsin. Eğer o varlık seni görebiliyor ya da duyabiliyorsa, kurtulma zarını yeniden atabilir ve yeni zarı kullanmalıdır."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "İlham Veren Taşma",
+										"entries": [
+											"18. seviyeden itibaren, 60 fit yakınında bir yerine iki dostunu seçebilirsin."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "SCAG",
+					"shortName": "Mor Ejderha Şövalyesi (Banneret)"
+				},
+				{
+					"name": "Arcane Okçu",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Arcane Okçu",
+								"entries": [
+									"Bir Arcane Okçu, doğaüstü etkiler ortaya çıkarabilmek için saldırıları büyü ile ören okçuluğun özgün bir elf metodunu çalışır. Arcane Okçular elfler arasında en seçkin savaşçılardandır. Elf topraklarının sınırlarında bekçilik yaparlar, işgalcilere karşı gözlerini açık tutup onlar elf yerleşimlerine ulaşmadan bu varlıkları büyü yüklü okları ile altederler. Asırlar boyunca, bu elf okçuların metodlarını arcane yatkınlık ve okçuluğu dengeleyebilen başka ırk mensupları da öğrenmiştir.",
+									{
+										"type": "entries",
+										"name": "Arcane Okçu Bilgisi",
+										"entries": [
+											"3. seviyede, bu elf savaş geleneğinin kullanıcıları arasında bilinen doğanın sırlarını ya da büyü teorisini öğrenirsin. Arcana ya da Doğa becerilerinden seçeceğin birinde uzmanlık kazanırsın, ve {@spell prestidigitation (hokkabazlık)} ya da {@spell druidcraft (druid zanaatı)} cantripini öğrenirsin."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Arcane Atış",
+										"entries": [
+											"3. seviyede, bazı atışlarında özel büyülü etkiler yaratmayı öğrenirsin. Bu özelliği kazandığında, iki Arcane Atış seçersin (aşağıdaki \"Arcane Atış Seçenekleri\" kısmına bak).",
+											"Her sıranda bir kereliğine Saldırı eyleminin bir parçası olarak kısa ya da uzun yaydan bir ok attığında, Arcane Atış seçeneklerinden birini o atışa uygulayabilirsin. Seçeneği ok varlığa vurduğunda kullanmaya karar verirsin, eğer seçenek saldırı zarı gerektirmiyorsa bu ayrıdır. Bu yeteneğin iki kullanımı vardır, ve tüm harcanmış kullanımları kısa ya da uzun dinlenme sonrası yenilersin.",
+											"Bu sınıfta belirli seviyelere ulaştığında fazladan bir Arcane Atış özelliği seçersin: 7, 10, 15, ve 18. seviyelerde. Her seçenek sen 18. seviye bir savaşçı olduğunda gelişir."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Arcane Atış Seçenekleri",
+										"entries": [
+											"Arcane Atış özelliği belirli seviyelerde seçeneklerden seçmeni sağlar. Seçenekler alfabetik sıralamayla verilmiştir. Hepsi büyülü etkilerdir, ve her biri büyü okullarından biri ile bağlantılıdır.",
+											"Eğer bir seçenek kurtulma zarı gerektirirse, Arcane Atış kurtulma DC'si şu şekilde hesaplanır:",
+											{
+												"type": "abilityDc",
+												"name": "Arcane Atış",
+												"attributes": [
+													"zek"
+												]
+											},
+											{
+												"type": "options",
+												"entries": [
+													{
+														"type": "entries",
+														"entries": [
+															{
+																"type": "entries",
+																"name": "Kovan Ok",
+																"entries": [
+																	"Abjuration büyüsünü kullanıp hedefini Feywild'da zararsız bir yere geçici olarak kovmaya çalışırsın. Okla vurulan bir varlık Karizma kurtulma zarı atar ya da kovulur. Bu şekilde kovulduğunda, hedefin hızı 0 olur ve {@condition etkisiz hal}dedir. Bir sonraki sırasının sonunda, terkettiği alana ya da o alan doluysa en yakın boş alana döner.",
+																	"Bu sınıfta 18. seviyeye ulaştıktan sonra, bir ok ona vurduğunda hedef ayrıca 2d6 güç hasarı da alır."
+																]
+															}
+														]
+													},
+													{
+														"type": "entries",
+														"entries": [
+															{
+																"type": "entries",
+																"name": "Cezbeden Ok",
+																"entries": [
+																	"Enchantment büyün bu okun hedefini geçici bir şekilde cezbetmesini sağlar. Okla vurulan varlık fazladan 2d6 psişik hasar alır, ve hedefin 30 fit yakınında bir dostunu seçersin. Hedef Akıl kurtulma zarı atar ya da bir sonraki sıranın başına kadar seçilen dostun tarafından {@condition cezbedilme} durumundadır. Bu etki eğer seçilen dost cezbedilmiş hedefe saldırırsa, hasar verirse veya kurtulma zarı attırırsa erken biter.",
+																	"Bu sınıfta 18. seviyeye ulaştığında psişik hasar 4d6'ya yükselir."
+																]
+															}
+														]
+													},
+													{
+														"type": "entries",
+														"entries": [
+															{
+																"type": "entries",
+																"name": "Patlayan Ok",
+																"entries": [
+																	"Evocation okulundan çektiğin enerji ile okuna patlayıcı güç yüklersin. Bu enerji saldırından sonra patlar. Ok varlığa vurduktan hemen sonra, varlık ve onun 10 fit yanındaki her varlık 2d6 güç hasarı alır.",
+																	"Bu sınıfta 18. seviyeye ulaştığında psişik hasar 4d6'ya yükselir."
+																]
+															}
+														]
+													},
+													{
+														"type": "entries",
+														"entries": [
+															{
+																"type": "entries",
+																"name": "Zayıflatan Ok",
+																"entries": [
+																	"Okuna necromantic büyü yüklersin. Okla vurulan varlık fazladan 2d6 nekrotik hasar alır. Hedef ayrıca Dayanıklılık kurtulma zarı atar, ya da bir sonraki sıranın başına kadar silahlı saldırılarının hasarı yarılanır.",
+																	"Bu sınıfta 18.seviyeye ulaştığında nekrotik hasar 4d6'ya yükselir."
+																]
+															}
+														]
+													},
+													{
+														"type": "entries",
+														"entries": [
+															{
+																"type": "entries",
+																"name": "Kavrayan Ok",
+																"entries": [
+																	"Bu ok hedefine vurduğunda, conjuration büyüsü hedefin etrafına dolanan, kavrayan zehirli dallar yaratır. Okla vurulan varlık fazladan 2d6 zehir hasarı alır, hızı 10 fit azalır, ve her sırasında ışınlanmadan 1 fit ya da fazla ilk hareket edişinde 2d6 kesme hasarı alır. Hedef ya da ona erişebilen başka bir varlık eylemini kullanıp Arcane Atış DC'ne karşı atacağı Kuvvet (Atletizm) zarı ile dalları ayırmayı deneyebilir. Aksi takdirde, dallar 1 dakikalığına ya da sen bu özelliği yeniden kullanana kadar kalır.",
+																	"Bu sınıfta 18. seviyeye ulaştığında hem zehir hem de kesme hasarı 4d6'ya yükselir."
+																]
+															}
+														]
+													},
+													{
+														"type": "entries",
+														"entries": [
+															{
+																"type": "entries",
+																"name": "Delen Ok",
+																"entries": [
+																	"Transmutation büyüsünü kullanıp okunu cisimsiz yapabilirsin. Bu özelliği kullandığında saldırı için zar atmazsın. Bunun yerine, ok ileri doğru 1 fit genişlikte 30 fit uzunlukta bir hat yaratır ve ortadan kaybolur. Ok nesnelerden zararsızca geçer, siperi yoksayar. Hattaki her varlık Çeviklik kurtulma zarı atar. Başarısız olursa, bir varlık sanki okla vurulmuşçasına hasar alır, ve üzerine fazladan 1d6 delme hasarı alır. Başarılı olursa, bir hedef bu hasarın yarısını alır.",
+																	"Bu sınıfta 18. seviyeye ulaştığında delme hasarı 2d6'ya yükselir."
+																]
+															}
+														]
+													},
+													{
+														"type": "entries",
+														"entries": [
+															{
+																"type": "entries",
+																"name": "Güdümlü Ok",
+																"entries": [
+																	"Divination büyüsü kullanarak, bir oka hedefini izleme gücünü verirsin. Bu özelliği kullandığında, saldırı için zar atmazsın. Bunun yerine, son bir dakika içinde gördüğün bir varlığı seçersin. Ok o varlığa doğru uçar, gerekirse köşeleri döner ve yarım ya da 3 çeyrek siperi yoksayar. Eğer hedef silahın menzilinde ise ve okun hedefe ulaşmasına yetecek büyüklükte bir yol varsa, hedef Çeviklik kurtulma zarı atar. Aksi takdirde, ok gidebildiği yere kadar gider ve ortadan kaybolur. Başarısız olursa, hedef sanki okla vurulmuşçasına hasar alır ve bunun üzerine fazladan 1d6 güç hasarı alır, ayrıca hedefin o anki yerini öğrenirsin. Başarılı olursa, hedef yarı hasar alır ve onun yerini öğrenmezsin.",
+																	"Bu sınıfta 18. seviyeye ulaştığında güç hasarı 2d6'ya çıkar."
+																]
+															}
+														]
+													},
+													{
+														"type": "entries",
+														"entries": [
+															{
+																"type": "entries",
+																"name": "Gölge Oku",
+																"entries": [
+																	"Okuna illusion büyüsünü dokursun, düşmanın görüşünü gölgelerle kaplar. Okla vurulan varlık fazladan 2d6 psişik hasar alır, ve Akıl kurtulma zarı atar ya da bir sonraki sıranın başına kadar 5 fitten sonrasını göremez.",
+																	"Bu sınıfta 18. seviyeye ulaştığında psişik hasar 4d6'ya çıkar."
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Büyülü Ok",
+										"entries": [
+											"7. seviyede, oklarını büyüyle doldurmayı öğrenirsin. Ne zaman bir kısa ya da uzun yaydan büyüsüz bir ok atsan, büyüsüz saldırı ve hasara karşı bağışıklık ve direnci geçme amacıyla onu büyülü yapabilirsin. Ok hedefi vursun ya da ıskalasın, hemen sonrasında üzerindeki büyü biter."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Kıvrılan Atış",
+										"entries": [
+											"7. seviyede, boştaki bir oku yeni bir hedefe yönlendirmeyi öğrenirsin. Büyülü bir ok ile saldırı yapıp ıskaladığında, bonus eylem kullanıp asıl hedefin 60 fit yakınındaki başka hedefe doğru yönlendirerek ona saldırı zarını yeniden atabilirsin."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Fazladan Arcane Atış Seçeneği",
+										"entries": [
+											"7. seviyeye ulaştığında fazladan bir Arcane Atış seçeneği seçebilirsin."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Fazladan Arcane Atış Seçeneği",
+										"entries": [
+											"10. seviyeye ulaştığında fazladan bir Arcane Atış seçeneği seçebilirsin."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Hazır Atış",
+										"entries": [
+											"15. seviyeden itibaren, büyülü okçuluğun ne zaman savaş başlasa hazır olur. Eğer öncelik zarı atarsan ve hiç Arcane Atış kullanım kalmamışsa, 1 kullanım yenilersin."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Fazladan Arcane Atış Seçeneği",
+										"entries": [
+											"15. seviyeye ulaştığında fazladan bir Arcane Atış seçeneği seçebilirsin."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Fazladan Arcane Atış Seçeneği",
+										"entries": [
+											"18. seviyeye ulaştığında fazladan bir Arcane Atış seçeneği seçebilirsin. 18. seviye savaşçı olduğunda her seçenek gelişir."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "XGE",
+					"shortName": "Arcane Okçu"
+				},
+				{
+					"name": "Süvari",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Süvari",
+								"entries": [
+									"Süvari modeli binek üzerinde savaşta uzmanlaşır. Genellikle soylular arasında doğup sarayda yetişen Süvari, bir süvari hücumundayken de devlet yemeklerinde hazırcevaplıkta olduğu kadar evinde hisseder. Süvariler sorumlu olduklarını zarardan korumayı da öğrenirler, genellikle hem üstlerinin hem de zayıfların koruyucusu olurlar. Yanlışları düzeltme ya da prestij kazanma peşinde, bu savaşçıların birçoğu komforlu hayatlarını bırakıp şanlı maceralara çıkarlar.",
+									{
+										"type": "entries",
+										"name": "Bonus Uzmanlıklar",
+										"entries": [
+											"Bu modeli 3. seviyede seçtiğinde, şu becerilerden seçeceğin birinde uzmanlık kazanırsın: Hayvan İdaresi, Tarih, Sezgi, Performans, veya İkna. Alternatif olarak, seçeceğin bir dili öğrenirsin."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Eğer için Doğan",
+										"entries": [
+											"3. seviyeden itibaren, bir binici olarak ustalığın belli olur. Binekten düşmemek için atacağın kurtulma zarlarında avantajın olur. Eğer binekten düşersen ve 10 fitten fazla inmezsen, etkisiz halde olmaman şartıyla ayaklarının üzerine inersin.",
+											"Son olarak, bir varlığa binme ya da inme hızının yarısı yerine sadece 5 fit hareket gerektirir."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Sarsılmaz İşaret",
+										"entries": [
+											"3. seviyeden itibaren, düşmanlarına bela olabilirsin, saldırılarını engeller ve diğerlerine zarar verdikleri için onları cezalandırırsın. Bir varlığa yakın dövüş silahı saldırısı ile vurduğunda, bir sonraki sıranın sonuna kadar o varlığı işaretleyebilirsin. Bu etki eğer {@condition etkisiz hal}e düşersen ya da ölürsen, veya başka biri o varlığı işaretlerse erken biter.",
+											"O senin 5 fit yakınındayken, senin tarafından işaretlenen bir varlık seni hedef almayan bir saldırı zarında dezavantajlı olur.",
+											"Ek olarak, eğer işaretlediğin bir varlık senin dışında birine hasar verirse, bir sonraki sıranda işaretli varlığa bonus eylem olarak özel bir yakın dövüş silahı saldırısı yapabilirsin. Bu saldırı zarında avantajın olur, ve vurursa, saldırının silahı hedefe senin savaşçı seviyenin yarısı kadar fazladan hasar verir.",
+											"Ne kadar varlık işaretlesen de, bu özel saldırıyı Kuvvet bonusun kadar (en az 1) kez yapabilirsin, ve uzun dinlenme bitirdiğinde tüm harcanmış kullanımlar yenilenir."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Koruyan Manevra",
+										"entries": [
+											"7. seviyede, sana, bineğine, veya yakınındaki bir varlığa gelen darbeleri saptırmayı öğrenirsin. Eğer 5 fit yakınında görebildiğin bir varlık bir saldırı ile vurulursa, eğer bir yakın dövüş silahı ya da kalkan kullanıyorsan reaksiyon olarak 1d8 atabilirsin. Zarı atarsın, ve gelen sayıyı o saldırıya karşı hedefin AC'sine eklersin. Eğer saldırı hala vurursa, hedefin o saldırının hasarına direnci olur.",
+											"Bu özelliği Dayanıklılık bonusun kadar (en az 1) kez kullanabilirsin, ve tüm harcanmış kulllanımlar uzun dinlenme bitirince yenilenir."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Hattı Tut",
+										"entries": [
+											"10. seviyede, düşmanlarını sabitlemede uzmanlaşırsın. Varlıklar senin erişimindeyken 5 fit ya da fazla hareket ederlerse senden fırsat saldırısı tetiklerler, ve eğer bir varlığa fırsat saldırısı ile vurursan, hedefin hızı o sırası bitene kadar 0 olur."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Acımasız Hücumcu",
+										"entries": [
+											"15. seviyeden itibaren, binekli olsan da olmasan da düşmanlarını devirebilirsin. Eğer bir varlığa saldırmadan önce düz bir hatta 10 fit ilerleyip sonra ona bu saldırı ile vurursan, hedef Kuvvet kurtulma zarı atar (DC 8 + uzmanlık bonusun + Kuvvet bonusun) ya da yere düşer. Bu özelliği her sıranda sadece bir kere kullanabilirsin."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Tetikte Savunucu",
+										"entries": [
+											"18. seviyeden itibaren, tehlikeye sıradışı tetiktelik ile tepki verirsin. Savaşta, senin dışında her varlığın sırasında bir kere kullanabileceğin özel bir reaksiyonun vardır. Bu özel reaksiyonu sadece fırsat saldırısı için kullanabilirsin, ve normal bir reaksiyon kullandığın bir sırada kullanamazsın."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "XGE",
+					"shortName": "Süvari"
+				},
+				{
+					"name": "Samuray",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Samuray",
+								"entries": [
+									"Samuray tükenmez savaş ruhundan güç alıp düşmanlarını alteden bir savaşçıdır. Bir Samurayın iradesi neredeyse kırılamayacak seviyededir, ve bir Samurayın yolundaki düşmanların iki seçeneği vardır: pes et ya da savaşırken öl.",
+									{
+										"type": "entries",
+										"name": "Bonus Uzmanlıklar",
+										"entries": [
+											"Bu modeli 3. seviyede seçtiğinde, şu becerilerden seçeceğin birinde uzmanlık kazanırsın: Tarih, Sezgi, Performans, veya İkna. Alternatif olarak, istediğin bir dili öğrenirsin."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Savaş Ruhu",
+										"entries": [
+											"3. seviyeden itibaren, savaştaki gerilimin seni korur ve darbelerine yön verir. Sıranda bonus eylem olarak, o anki sıranın sonuna kadar silahlı saldırı zarlarında kendine avantaj verebilirsin. Bunu yaptığında, 5 geçici HP de kazanırsın. Bu sınıfta belirli seviyelere ulaştığında geçici HP miktarı artar, 10'da 10'a, 15. seviyede 15'e yükselir.",
+											"Bu özelliği 3 kere kullanabilirsin, ve uzun dinlenme bitirdiğinde tüm harcanmış kullanımlar yenilenir."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Zarif Saray Mensubu",
+										"entries": [
+											"7. seviyeden itibaren, disiplinin ve detaycılığın sosyal durumlarda öne çıkmanı sağlar. Bir Karizma (İkna) zarı attığında, bu zara Akıl bonusun kadar bonus eklersin.",
+											"Kendine hakimiyetin ayrıca sana Akıl kurtulma zarlarında uzmanlık verir. Zaten bu uzmanlığa sahipsen, Zeka ya da Karizma kurtulma zarlarından seçeceğin birinde uzmanlık kazanırsın."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Yılmaz Ruh",
+										"entries": [
+											"10. seviyeden itibaren, öncelik zarı attığında eğer hiç Savaş Ruhu kullanımın yoksa, bir kullanım yenilenir."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Seri Darbe",
+										"entries": [
+											"15. seviyeden itibaren, isabet yerine seri darbelere yoğunlaşmayı öğrenirsin. Sıranda Saldırı eylemini kullanırsan ve hedeflerinden birine karşı saldırılarından birinde avantajın varsa, o zar için avantajdan vazgeçip onun yerine o hedefe karşı fazladan bir silahlı saldırı yapabilirsin, aynı eylemin bir parçasıdır. Her sıranda sadece bir kere bunu yapabilirsin."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Ölümden Önce Kuvvet",
+										"entries": [
+											"18. seviyeden itibaren, savaş ruhun ölümün kavramasını geciktirebilir. Eğer seni 0 HP'ye düşüren ve doğrudan öldürmeyen bir hasar alırsan, reaksiyonunu kullanıp {@condition bilinçsizlik} durumuna düşmeyi erteleyebilirsin, ve o anda devam eden sırayı bölerek anında bir sıra kullanırsın. Bu fazladan sırada 0 HP'de iken, hasar alma normaldeki gibi ölüm kurtulma zarı başarısızlığı sayılır, ve 3 başarısızlık hala seni öldürebilir. Fazladan sıra bittiğinde, eğer hala 0 HP'ye sahipsen {@condition bilinçsizlik} durumuna düşersin.",
+											"Bu özelliği kullandığında, uzun dinlenme bitirene kadar bir daha kullanamazsın."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "XGE",
+					"shortName": "Samuray"
 				}
 			],
 			"fluff": [
