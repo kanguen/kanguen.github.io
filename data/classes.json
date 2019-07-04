@@ -15490,7 +15490,7 @@
 							{
 								"name": "Vahşi Büyü",
 								"entries": [
-									"İçindeki büyü yaratılıştaki düzenin altında yatan kaosun vahşi güçlerinden gelir. Saf büyü gücüne maruz kalmış olabilirsin, belkide Uzak Diyar, Elemental Boyutlar ya da Limbo gibi boyutlara açılan bir portaldan geçerken olmuştur. Belkide güçlü bir fey tarafından kutsandın ya da bir iblis tarafından işaretlendin. ya da senin büyün ortada belirgin bir sebep olmaksızın doğuştan gelir. Nasıl olduysa oldu ama bu kaotik büyü içinde ve çıkmayı bekliyor.",
+									"İçindeki büyü yaratılıştaki düzenin altında yatan kaosun vahşi güçlerinden gelir. Saf büyü gücüne maruz kalmış olabilirsin, belki de Uzak Diyar, Elemental Boyutlar ya da Limbo gibi boyutlara açılan bir portaldan geçerken olmuştur. Belki de güçlü bir fey tarafından kutsandın ya da bir iblis tarafından işaretlendin. ya da senin büyün ortada belirgin bir sebep olmaksızın doğuştan gelir. Nasıl olduysa oldu ama bu kaotik büyü içinde ve çıkmayı bekliyor.",
 									{
 										"type": "entries",
 										"name": "Vahşi Büyü Taşması",
@@ -15765,6 +15765,316 @@
 					],
 					"source": "PHB",
 					"shortName": "Vahşi "
+				},
+				{
+					"name": "Kutsal Ruh",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Kutsal Ruh",
+								"entries": [
+									"Bazen bir sorcerer'ı ateşleyen büyünün kıvılcımı ruhunun derinliklerinde ışıldayan bir kutsal kaynaktan gelir. Bu tip kutsanmış bir ruha sahip olmak, kutsal bir varlığa uzaktan ama güçlü bir ailesel bağın olduğuna ve gücünün oradan geldiğine işarettir. Belki de atan bir melekti, bir faniye dönüştürülüp tanrısının adına savaşmaya gönderilmişti.",
+									"Belki doğumun kadim bir kehanete uygundu, seni tanrıların hizmetkarı ya da kutsal büyü için aracı olarak işaretledi.",
+									"Bir Kutsal Ruh, doğal çekiciliği ile bazı dini hiyerarşilerde tehdit olarak görülür. Kutsal güce hükmeden bir yabancı olarak, bir Kutsal Ruh tanrılara doğrudan bağ öne sürüp varolan düzeni baltalayabilir.",
+									"Bazı kültürlerde, sadece Kutsal Ruha sahip olanlar dini gücü yönetebilir. Bu topraklarda, dini pozisyonlar bir kaç soy tarafından yönetilir ve nesillerce aktarılır.",
+									{
+										"type": "entries",
+										"name": "Kutsal Büyü",
+										"entries": [
+											"Tanrılara olan bağın rahip sınıfından büyüleri öğrenebilmeni sağlar. Büyü Yapma özelliğin sana bir sorcerer cantripi ya da 1. seviye ve üstü büyü öğrenme veya sahip olduğunu değiştirme seçeneği sunduğunda, yeni büyüyü sorcerer ya da rahip büyü listesinden seçebilirsin. Bunun dışında büyü seçimi için tüm sınırlamalara uymalısın, ve seçimin senin için sorcerer büyüsü sayılır.",
+											"Ayrıca, kutsal gücün kaynağı için bir yönelim seç: iyi, kötü, düzen, kaos, veya tarafsızlık. Bu yönelime bağlı olarak aşağıda gösterildiği gibi fazladan büyüler öğrenirsin. Senin için sorcerer büyüsüdür, ama bildiğin sorcerer büyüsü sayısına dahil olmaz. Eğer sonrasında bu büyüyü değiştirirsen, rahip büyü listesinden bir büyü seçmelisin.",
+											{
+												"type": "table",
+												"colLabels": [
+													"Yönelim",
+													"Büyü"
+												],
+												"colStyles": [
+													"col-xs-5",
+													"col-xs-7"
+												],
+												"rows": [
+													[
+														"İyi",
+														"{@spell cure wounds (Yaraları İyileştir)}"
+													],
+													[
+														"Kötü",
+														"{@spell inflict wounds (yara aç)}"
+													],
+													[
+														"Düzen",
+														"{@spell bless (kutsama)}"
+													],
+													[
+														"Kaos",
+														"{@spell bane (felaket)}"
+													],
+													[
+														"Tarafsızlık",
+														"{@spell protection from evil and good (İyi ve Kötüden Korunma)}"
+													]
+												]
+											}
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Tanrıların Kayırdığı",
+										"entries": [
+											"1. seviyeden itibaren, kaderini kutsal güç korur. Eğer bir kurtulma zarında başarısız olursan ya da saldırıyı ıskalarsan, 2d4 atıp onu toplama ekleyebilirsin, sonucu değiştirme ihtimalin olur. Bu özelliği kullandığında, kısa ya da uzun dinlenme bitirene kadar bir daha kullanamazsın."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Güçlenmiş Şifacılık",
+										"entries": [
+											"6. seviyeden itibaren, kanındaki kutsal enerji şifa büyülerini güçlendirebilir. Ne zaman sen ya da 5 fit yakınındaki bir dostun bir büyünün ne kadar HP yenileyeceğini belirlemek için zar atarsa, 1 sorcery puanı harcayıp o zarlardan istediğin kadarını bir kerelik yeniden atabilirsin, {@condition etkisiz hal}de olmaman gerekir. Bu özelliği her sıranda sadece bir kere kullanabilirsin."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Dünyadışı Kanatlar",
+										"entries": [
+											"14. seviyeden itibaren, bonus eylem kullanıp sırtından bir çift spektral kanat çıkarabilirsin. Kanatlar mevcutken, 30 fit uçma hızın olur. Kanatlar sen {@condition etkisiz hal}e düşene, ölene, veya bonus eylem olarak onları savana kadar kalır.",
+											"Kutsal Büyün için seçtiğin yönelim bu spektral kanatların görünüşünü belirler: iyi ve düzen için kartal kanatları, kötü ve kaos için yarasa kanatları, ve tarafsızlık için yusufçuk kanatları olur."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Olağanüstü Yenilenme",
+										"entries": [
+											"18. seviyede, ölümcül yaralanmaları atlatma yeteneğini kazanırsın. Toplam HP'nin yarısından az HP'ye sahip olduğunda bonus eylem olarak, HP toplamının yarısı kadar HP yenileyebilirsin.",
+											"Bu özelliği kullandığında, uzun dinlenme bitirene kadar bir daha kullanamazsın."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "XGE",
+					"shortName": "Kutsal Ruh"
+				},
+				{
+					"name": "Gölge Büyüsü",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Gölge Büyüsü",
+								"entries": [
+									"İçindeki büyü Shadowfell'den geldiği için sen gölgeden bir varlıksındır. Soyunu oradan bir varlığa dayandırabilir, ya da belki de onun enerjisine maruz kalıp onunla dönüşmüşsündür.",
+									"Gölge büyüsünün gücü fiziksel varlığını garip bir şekilde örtüler. Seni hayatta tutan yaşam kıvılcımı bastırılmıştır, sanki ruhunu dolduran karanlık enerjiye karşı direnmekte zorlanıyormuş gibi. İstersen, Gölge Sorcerer Tuhaflığı tablosundan birini seçebilir ya da o tabloda zar atıp karakterine bir tuhaflık ekleyebilirsin.",
+									{
+										"type": "table",
+										"caption": "Gölge Sorcerer Tuhaflığı",
+										"colLabels": [
+											"d6",
+											"Büyü"
+										],
+										"colStyles": [
+											"col-xs-2 text-align-center",
+											"col-xs-10"
+										],
+										"rows": [
+											[
+												"1",
+												"Dokununca daima buz gibi soğuksundur."
+											],
+											[
+												"2",
+												"Uykudayken, nefes almıyormuşsun gibi görünür (ama hayatta kalmak için hala nefes almalısın)."
+											],
+											[
+												"3",
+												"Çok kötü yaralı olsan bile pek kanaman olmaz."
+											],
+											[
+												"4",
+												"Kalbin dakikada sadece bir kere atar. Bu olay bazen seni şaşırtır."
+											],
+											[
+												"5",
+												"Canlı varlıklar ve cesetlere farklı davranılması gerektiğini hatırlamakta güçlük çekersin."
+											],
+											[
+												"6",
+												"Göz kırptın. Bir kere. Geçen hafta."
+											]
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Karanlığın Gözleri",
+										"entries": [
+											"1. seviyeden itibaren, 120 fit menzilli gece görüşün olur.",
+											"Bu sınıfta 3. seviyeye ulaştığında, {@spell darkness (karanlık)} büyüsünü öğrenirsin, bu bildiğin sorcerer büyüsü sayısına dahil olmaz. Ayrıca, onu 2 sorcery puanı ya da büyü yuvası harcayarak kullanabilirsin. Eğer sorcery puanları ile kullanırsan, bu büyü ile yaratılan karanlıkta görebilirsin."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Mezarın Kuvveti",
+										"entries": [
+											"1. seviyeden itibaren, ölüm ve yaşam arasında alacakaranlıktaki varoluşun seni altetmeyi zorlaştırır. Bir hasar seni 0 HP'ye düşürürse, Karizma kurtulma zarı atarsın (DC 5 + alınan hasar). Başarılı olursan, onun yerine 1 HP'ye düşersin. Eğer 0 HP'ye radyant ya da kritik saldırıdan gelen hasar ile düştüysen bu özelliği kullanamazsın.",
+											"Kurtulma zarı başarılı olduğunda, bu özelliği uzun dinlenme bitirene kadar bir daha kullanamazsın."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Kötü Alametin Tazısı",
+										"entries": [
+											"6. seviyede, düşmanlarını taciz etsin diye uluyan bir karanlığın varlığını çağırma yeteneğini kazanırsın. Bonus eylem olarak, 3 sorcery puanı harcayıp 120 fit yakınında görebildiğin bir varlığı hedef almak üzere büyü ile bir kötü alamet tazısı çağırabilirsin. Tazı bir dire wolf istatistiklerini kullanır (Monster Manual'da mevcut), ama şu değişiklikler vardır:",
+											{
+												"type": "list",
+												"items": [
+													"Tazı boyutu Büyük değil Ortadır, ve hayvan değil yaratık olarak geçer.",
+													"Sorcerer seviyenin yarısı kadar geçici HP ile belirir.",
+													"Diğer varlık ve nesnelerden sanki onlar zorlu araziymişçesine geçebilir. Eğer tazı sırasını bir nesnenin içinde bitirirse 5 güç hasarı alır.",
+													"Sırasının başında, tazı otomatik olarak hedefinin yerini bilir. Eğer hedef saklanmışsa, artık tazı için gizli değildir."
+												]
+											},
+											"Tazı hedefin 30 fit yakınında seçeceğin boş bir alanda belirir. Tazı için öncelik zarı atarsın. Sırasında, sadece hedefine en direkt yoldan ilerler, ve eylemini sadece hedefine saldırmak için kullanır. Tazı fırsat saldırıları yapabilir, ama sadece hedefine karşı. Ayrıca, tazı hedefin 5 fit yakınındayken, hedef senin kullandığın büyülere karşı kurtulma zarlarında dezavantajlı olur. Tazı eğer 0 HP'ye düşerse, hedefi 0 HP'ye düşerse, veya 5 dakika sonunda ortadan kaybolur."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Gölge Yürüyüşü",
+										"entries": [
+											"14. seviyede, bir gölgeden diğerine gitme yeteneğini kazanırsın. Loş ışık ya da karanlıktayken, bonus eylem olarak, 120 fite kadar loş ışık ya da karanlıkta olan görebildiğin boş bir yere büyülü bir şekilde ışınlanabilirsin."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Umbral Şekil",
+										"entries": [
+											"18. seviyeden itibaren, bonus eylem olarak 6 sorcery puanı harcayıp büyü ile kendini gölgeli bir şekle dönüştürebilirsin. Bu formda, güç ve radyant hasar dışında tüm hasara direncin olur, ve diğer varlık ve nesnelerden sanki onlar zorlu araziymişçesine geçebilirsin. Eğer sıranı bir nesne içinde bitirirsen 5 güç hasarı alırsın.",
+											"Bu formda 1 dakika kalırsın. Eğer {@condition etkisiz hal}e düşersen, ölürsen, veya bonus eylem olarak savarsan erken sonlanır."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "XGE",
+					"shortName": "Gölge"
+				},
+				{
+					"name": "Fırtına Büyüsü",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Fırtına Büyüsü",
+								"entries": [
+									"İçindeki büyü elemental havanın gücünden gelir. Bu güce sahip olanların birçoğu büyülerini Büyük Yağmurun sebep olduğu ölüme yakın deneyime dayandırabilir, ama belki sen öyle güçlü bir fırtınada doğdun ki halk hala onun hikayelerini anlatır, veya senin soyun djinn gibi güçlü hava varlıklarını içeriyordur. Durum ne olursa olsun, fırtınanın büyüsü senin varlığına işlemiştir.",
+									"Fırtına sorcererları bir gemi mürettebatının paha biçilemez üyeleridir. Büyüleri yakın çevrelerindeki rüzgar ve havaya hükmetmelerini sağlar. Yetenekleri sahuagin, korsanlar ve sudaki diğer tehlikelerin saldırılarını püskürtmek için de çok yararlıdır.",
+									{
+										"type": "entries",
+										"name": "Rüzgarla Konuşan",
+										"entries": [
+											"Hükmettiğin arcane büyü elemental hava ile doludur. Primordial dilini okur, yazar ve konuşabilirsin. Bu dili bilmek onun lehçelerini konuşanları anlamanı ve onların da seni anlamasını sağlar: Bu lehçeler Aquan, Auran, Ignan, ve Terran'dır."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Fırtınalı Büyü",
+										"entries": [
+											"1. seviyeden itibaren, 1. seviye bir büyüyü yapmadan hemen önce ya da sonra bonus eylem kullanıp elemental hava esintilerinin seni bir anlık çevrelemesini sağlayabilirsin. Bunu yapman fırsat saldırısı tetiklemeden 10 fite kadar uçmanı sağlar."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Fırtınanın Kalbi",
+										"entries": [
+											"6. seviyede, yıldırım ve ses hasarına direnç kazanırsın. Ayrıca, 1. seviye ve üzeri yıldırım ya da ses hasarı veren bir büyüyü kullanmaya başladığında, çevrene fırtınalı büyü patlar. Bu patlama 10 fit çevrende görebildiğin ve seçeceğin varlıklara sorcerer seviyenin yarısı kadar yıldırım ya da ses (her aktive ettiğinde seçersin) hasarı verir."
+										]
+									}
+								]
+							},
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Fırtına Rehberi",
+										"entries": [
+											"6. seviyede, çevrendeki havayı zarifçe kontrol etme yetisini kazanırsın.",
+											"Eğer yağmur yağıyorsa, eylemini kullanıp merkezi sen olan 20 fit yarıçaplı bir kürenin içine yağış düşmesini engelleyebilirsin. Bu etkiyi bonus eylem olarak bitirebilirsin.",
+											"Eğer rüzgarlıysa, merkezi sen olan 100 fit yarıçaplı bir kürenin içindeki rüzgarın eseceği yönü her sıranda bonus eylem kullanarak seçebilirsin. Bir sonraki sıranın sonuna kadar rüzgar o yöne doğru eser. Bu özellik rüzgarın hızını değiştirmez."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Fırtınanın Hiddeti",
+										"entries": [
+											"14. seviyeden itibaren, bir yakın dövüş saldırısı ile vurulduğunda, reaksiyonunu kullanıp saldırgana yıldırım hasarı verebilirsin. Hasar sorcerer seviyene eşittir. Saldırgan büyü kurtulma DC'ne karşı Kuvvet kurtulma zarı da atar. Başarısız olursa, saldırgan düz bir hizada senden 20 fit ileri itilir."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Rüzgar Ruhu",
+										"entries": [
+											"18. seviyede, yıldırım ve ses hasarına bağışıklık kazanırsın.",
+											"Ayrıca 60 fit büyülü bir uçuş hızı kazanırsın. Eylem olarak, 1 saatliğine uçma hızını 30 fite düşürüp 30 fit çevrendeki 3 + Karizma bonusun kadar varlığı seçebilirsin. Seçilen varlıklar 1 saatliğine 30 fit büyülü uçma hızına sahip olurlar. Uçma hızını bu şekilde bir kere düşürdüğünde, kısa ya da uzun dinlenme bitirene kadar bir daha düşüremezsin."
+										]
+									}
+								]
+							}
+						]
+					],
+					"source": "XGE",
+					"shortName": "Fırtına"
 				}
 			],
 			"fluff": [
@@ -18196,7 +18506,7 @@
 												"type": "entries",
 												"name": "Kitabın Görünüşü",
 												"entries": [
-													"Büyü kitabın kendi deseni ve notlarıyla özgün bir büyü derlemesidir. Ustandan aldığın hediye olan basit bir deri kitap da olabilir, antik bir kütüphanede bulduğun yaldızlı bir yazıt da, hatta belkide önceki kitabını kaybettikten sonra toparladığın bir parşömen yığınıdır."
+													"Büyü kitabın kendi deseni ve notlarıyla özgün bir büyü derlemesidir. Ustandan aldığın hediye olan basit bir deri kitap da olabilir, antik bir kütüphanede bulduğun yaldızlı bir yazıt da, hatta belki de önceki kitabını kaybettikten sonra toparladığın bir parşömen yığınıdır."
 												]
 											}
 										]
