@@ -235,7 +235,7 @@
                 {
                     "type":"entries",
                     "name":"Seviye",
-                    "entries":["Genellikle, bir karakter 1. seviyede başlar ve maceralarında kazandığı {@b deneyim puanları} (XP) ile seviye atlar. 1. seviye bir karakter maceracılık dünyasında deneyimsizdir, öncesinde bir asker ya da bir korsan olup tehlike işler yapmış olsa bile.",
+                    "entries":["Genellikle, bir karakter 1. seviyede başlar ve maceralarında kazandığı {@b deneyim puanları} (XP) ile seviye atlar. 1. seviye bir karakter maceracılık dünyasında deneyimsizdir, öncesinde bir asker ya da bir korsan olup tehlikeli işler yapmış olsa bile.",
                     "1. seviyede başlama karakterinin macera hayatına girişini yansıtır. Eğer zaten oyuna aşinaysan, ya da varolan bir D&D kampanyasına dahil oluyorsan, DM'in daha yüksek seviyede başlamasına karar verebilir, burada karakterin zaten zorlu birkaç macera atlattığı varsayılır.",
                     "Seviyeni karakter kağıdına yaz. Eğer daha üst bir seviyeden başlıyorsan, birinciden sonraki seviyeler için de sınıfının verdiği özellikleri yaz. Deneyim puanlarını da not al. 1. seviye bir karakterin 0 XP'si vardır. Üst seviye bir karakter genellikle o seviyeye ulaşmak için gereken minimum miktarla başlar (bu kısımda \"1. Seviye Ötesinde\" başlığında incelenecek)."]
                 }
