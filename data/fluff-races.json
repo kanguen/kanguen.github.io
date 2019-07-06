@@ -148,16 +148,16 @@
 						},
 						{
 							"type": "entries",
-							"name": "Halflings",
+							"name": "Buçukluklar",
 							"entries": [
-								"\"Halflingler basit zevkleri olan bir halktır, bu da ayıplanacak bir şey değil. İyi topluluklardır, birbirlerini kollar ve bahçeleriyle ilgilenirler, ve gerektiğinde göründüklerinden daha sağlam oldukalrını göstermişlerdir.\""
+								"\"Buçukluklar basit zevkleri olan bir halktır, bu da ayıplanacak bir şey değil. İyi topluluklardır, birbirlerini kollar ve bahçeleriyle ilgilenirler, ve gerektiğinde göründüklerinden daha sağlam oldukalrını göstermişlerdir.\""
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Humans",
+							"name": "İnsanlar",
 							"entries": [
-								"\"Kısacık hayatları gelip geçmeden bir şeyler başarmak için onca acele, hırsları ve dürtüleri... insan uğraşılarıo bazen çok nafile gelir. Ama yaptıkalrına bakınca, başarılarını da takdir etmek gerekir. Keşke biraz rafine olmayı da öğrenseler.\""
+								"\"Kısacık hayatları gelip geçmeden bir şeyler başarmak için onca acele, hırsları ve dürtüleri... insan uğraşıları bazen çok nafile gelir. Ama yaptıklarına bakınca, başarılarını da takdir etmek gerekir. Keşke biraz rafine olmayı da öğrenseler.\""
 							]
 						}
 					]
