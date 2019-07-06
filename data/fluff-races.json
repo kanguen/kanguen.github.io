@@ -209,18 +209,14 @@
 			"name": "Elf (Drow)",
 			"source": "PHB",
 			"entries": [
-				"Descended from an earlier subrace of dark skinned elves, the drow were banished from the surface world for following the goddess Lolth down the path to evil and corruption. Now they have built their own civilization in the depths of the Underdark, patterned after the Way of Lolth.  Also called dark elves, the drow have black skin that resembles polished obsidian and stark white or pale yellow hair. They commonly have very pale eyes so pale as to be mistaken for white) in shades of pale lilac, silver, pink, and  blue. They tend to be smaller and thinner than  most elves.",
-				"The Darkness of the Drow",
-				"Were it not for one renowned exception, the race of drow would be universally reviled. Their depraved society is preoccupied with the favor of Lolth, their spider-queen goddess, who sanctions murder and the extermination of entire families noble houses vie for position.",
-				"Yet one drow, at least, broke the mold. In the world of the Forgotten Realms, Drizzt Do'Urden, ranger of the North, has proven his quality as a good-hearted defender of the weak and innocent.",
-				"Drow grow up believing that surface dwelling races are worthless except as slaves. Drow who develop a conscience or find it necessary to cooperate with members of other races find it hard to overcome that prejudice, especially when they are so often on the receiving end of hatred.",
+				"Drowlar eski ve esmer tenli bir elf ırkının soyundan gelir. Tanrıça Lolth'u kötülük ve yozlaşma yolunda takip ettikleri için yüzey dünyadan sürülmüşlerdir. Underdark'ın derinliklerinde Lolth'un yoluna uyarak kendi medeniyetlerini kurdular. Kara elfler olarak da adlandırılan drowlar cilalanmış obsidyen gibi bir cilde ve saf beyaz yada çok açık sarı saçlara sahiptirler. Beyaz sanılacak kadar açık renkli, lila, gümüş, pembe ve mavi tonlarında gözleri vardır. Diğer elflerden daha kısa ve daha incelerdir.",
 				{
 					"type": "inset",
-					"name": "The Darkness of the Drow",
+					"name": "Drowların Karanlığı",
 					"entries": [
-						"Were it not for one renowned exception, the race of drow would be universally reviled. Their depraved society is preoccupied with the favor of Lolth, their spider-queen goddess, who sanctions murder and the extermination of entire families noble houses vie for position.",
-						"Yet one drow, at least, broke the mold. In the world of the Forgotten Realms, Drizzt Do'Urden, ranger of the North, has proven his quality as a good-hearted defender of the weak and innocent.",
-						"Drow grow up believing that surface dwelling races are worthless except as slaves. Drow who develop a conscience or find it necessary to cooperate with members of other races find it hard to overcome that prejudice, especially when they are so often on the receiving end of hatred."
+						"Çok iyi bilinen bir örnek de olmasaydı, drowlar evrensel olarak tiksinilen bir ırk olurdu. Ahlakdışı toplumları, mevki için mücadele eden soylu ailelerin birbirini topyekün katletmesine cevaz veren Örümcek Kraliçe Tanrıça Lolth'un lütfunu elde etmek ile meşguldür. ",
+						"Fakat en azından bir Drow bu cenderenin dışına çıktı. Unutulmuş Diyarlar dünyasında Kuzeyin Kolcusu Drizzt Do'Urden zayıf ve masumların iyi kalpli koruyucusu olarak rüşdünü ıspatladı.",
+						"Drowlar yüzey ırklarının kölelikten başka işe yaramayacağına inanarak büyürler. Vicdan sahibi drowlar veya zorunluluktan başka ırklarla işbirliği yapanlar, özellikle maruz kaldıkları nefret sebebiyle de, bu önyargıyı aşmakta zorlanırlar."
 					]
 				}
 			]
