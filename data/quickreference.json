@@ -7,11 +7,11 @@
         }
         ,
         {
-            "name": "Equipment", "headers": ["Adventuring Gear", "Armor and kalkanlar", "Expenses", "Mounts and Vehicles", "Starting Equipment", "Tools", "Trade Goods", "Wealth", "Weapons"]
+            "name": "Ekipman", "headers": ["Macera Tertibatı", "Zırh ve Kalkanlar", "Masraflar", "Binekler ve Araçlar", "Başlangıç Ekipmanı", "Aletler", "Ticari Mallar", "Servet", "Silahlar"]
         }
         ,
         {
-            "name": "Playing the Game", "headers": ["Yetenek (Beceri) Zarları", "Yetenek Skorları ve Bonuslar", "Avantaj ve Dezavantaj", "Büyü Yapma", "Durumlar", "Düşme", "Food and Water", "How to Play", "Interacting with Objects", "Uzmanlık Bonusu", "Resting", "Saving Throws", "Skills", "Suffocating", "Using Each Ability", "Vision and Light"]
+            "name": "Playing the Game", "headers": ["Yetenek (Beceri) Zarları", "Yetenek Skorları ve Bonuslar", "Avantaj ve Dezavantaj", "Büyü Yapma", "Durumlar", "Düşme", "Food and Water", "How to Play", "Interacting with Objects", "Uzmanlık Bonusu", "Resting", "Saving Throws", "Skills", "Suffocating", "Using Each Ability", "Vision and Hafif"]
         }
         ,
         {
@@ -450,148 +450,148 @@
         "type":"entries",
         "entries":[ {
             "type":"section",
-            "name":"Adventuring Gear",
-            "entries":["This section describes items that have special rules or require further explanation.",
+            "name":"Macera Tertibatı",
+            "entries":["Bu kısım özel kuralları olan veya açıklama gerektiren eşyaları içerir.",
             {
                 "type":"table",
-                "caption":"Adventuring Gear",
-                "colLabels":["Item",
-                "Cost",
-                "Weight"],
+                "caption":"Macera Tertibatı",
+                "colLabels":["Eşya",
+                "Değer",
+                "Ağırlık"],
                 "colStyles":["col-xs-4",
                 "col-xs-4 text-align-right",
                 "col-xs-4 text-align-center"],
-                "rows":[["Abacus",
+                "rows":[["Abaküs",
                 "2 gp",
                 "2 lb."],
-                ["Acid (vial)",
+                ["Asit (şişe)",
                 "25 gp",
                 "1 lb."],
-                ["Alchemist's fire (flask)",
+                ["Simyacı Ateşi (şişe)",
                 "50 gp",
                 "1 lb."],
-                ["{@i Ammunition}",
+                ["{@i Mermi}",
                 "",
                 ""],
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Arrows (20)", "1 gp", "1 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Ok (20)", "1 gp", "1 lb."]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Blowgun needles (50)", "1 gp", "1 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Dart borusu dartı (50)", "1 gp", "1 lb."]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Crossbow bolts (20)", "1 gp", "1½ lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Arbalet oku (20)", "1 gp", "1½ lb."]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Sling bullets (20)", "4 cp", "1½ lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Sapan mermisi (20)", "4 cp", "1½ lb."]
                 }
                 ,
-                ["Antitoxin (vial)",
+                ["Antitoksin (şişe)",
                 "50 gp",
                 "—"],
-                ["{@i Arcane focus}",
+                ["{@i Arcane odak}",
                 "",
                 ""],
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Crystal", "10 gp", "1 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Kristal", "10 gp", "1 lb."]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Orb", "20 gp", "3 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Küre", "20 gp", "3 lb."]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Rod", "10 gp", "2 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Çubuk", "10 gp", "2 lb."]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Staff", "5 gp", "4 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Değnek", "5 gp", "4 lb."]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Wand", "10 gp", "1 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Asa", "10 gp", "1 lb."]
                 }
                 ,
-                ["Backpack",
+                ["Sırt çantası",
                 "2 gp",
                 "5 lb."],
-                ["Ball bearings (bag of 1,000)",
+                ["Bilye (1000'lik kese)",
                 "1 gp",
                 "2 lb."],
-                ["Barrel",
+                ["Varil",
                 "2 gp",
                 "70 lb."],
-                ["Basket",
+                ["Sepet",
                 "4 sp",
                 "2 lb."],
-                ["Bedroll",
+                ["Kamp yatağı",
                 "1 gp",
                 "7 lb."],
-                ["Bell",
+                ["Çan",
                 "1 gp",
                 "—"],
-                ["Blanket",
+                ["Battaniye",
                 "5 sp",
                 "3 lb."],
-                ["Block and tackle",
+                ["Palanga takımı",
                 "1 gp",
                 "5 lb."],
-                ["Book",
+                ["Kitap",
                 "25 gp",
                 "5 lb."],
-                ["Bottle, glass",
+                ["Şişe, cam",
                 "2 gp",
                 "2 lb."],
-                ["Bucket",
+                ["Kova",
                 "5 cp",
                 "2 lb."],
-                ["Caltrops (bag of 20)",
+                ["Demir diken (20'lik kese)",
                 "1 gp",
                 "2 lb."],
-                ["Candle",
+                ["Mum",
                 "1 cp",
                 "—"],
-                ["Case, crossbow bolt",
+                ["Kap, arbalet oku",
                 "1 gp",
                 "1 lb."],
-                ["Case, map or scroll",
+                ["Kap, harita ya da tomar",
                 "1 gp",
                 "1 lb."],
-                ["Chain (10 feet)",
+                ["Zincir (10 fit)",
                 "5 gp",
                 "10 lb."],
-                ["Chalk (1 piece)",
+                ["Tebeşir (1 parça)",
                 "1 cp",
                 "—"],
-                ["Chest",
+                ["Sandık",
                 "5 gp",
                 "25 lb."],
-                ["Clothes, common",
+                ["Kıyafet, sıradan",
                 "5 sp",
                 "3 lb."],
-                ["Clothes, costume",
+                ["Kıyafet, kostüm",
                 "5 gp",
                 "4 lb."],
-                ["Clothes, fine",
+                ["Kıyafet, kaliteli",
                 "15 gp",
                 "6 lb."],
-                ["Clothes, traveler's",
+                ["Kıyafet, seyyah",
                 "2 gp",
                 "4 lb."],
-                ["Component pouch",
+                ["Bileşen kesesi",
                 "25 gp",
                 "2 lb."],
-                ["Crowbar",
+                ["Levye",
                 "2 gp",
                 "5 lb."],
-                ["{@i Druidic focus}",
+                ["{@i Druidic odak}",
                 "",
                 ""],
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Sprig of mistletoe", "1 gp", "—"]
+                    "type": "row", "style": "row-indent-first", "row": ["Ökseotu filizi", "1 gp", "—"]
                 }
                 ,
                 {
@@ -599,206 +599,206 @@
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Wooden staff", "5 gp", "4 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Ahşap değnek", "5 gp", "4 lb."]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Yew wand", "10 gp", "1 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Porsuk ağacından asa", "10 gp", "1 lb."]
                 }
                 ,
-                ["Fishing tackle",
+                ["Olta takımı",
                 "1 gp",
                 "4 lb."],
-                ["Flask or tankard",
+                ["Matara veya maşrapa",
                 "2 cp",
                 "1 lb."],
-                ["Grappling hook",
+                ["Çengel",
                 "2 gp",
                 "4 lb."],
-                ["Hammer",
+                ["Çekiç",
                 "1 gp",
                 "3 lb."],
-                ["Hammer, sledge",
+                ["Çekiç, balyoz",
                 "2 gp",
                 "10 lb."],
-                ["Healer's Kit",
+                ["Şifacı kiti",
                 "5 gp",
                 "3 lb."],
-                ["{@i Holy symbol}",
+                ["{@i Kutsal sembol}",
                 "",
                 ""],
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Amulet", "5 gp", "1 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Kolye", "5 gp", "1 lb."]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Emblem", "5 gp", "—"]
+                    "type": "row", "style": "row-indent-first", "row": ["Sembol", "5 gp", "—"]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Reliquary", "5 gp", "2 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Röliker", "5 gp", "2 lb."]
                 }
                 ,
-                ["Holy water (flask)",
+                ["Kutsal su (matara)",
                 "25 gp",
                 "1 lb."],
-                ["Hourglass",
+                ["Kum saati",
                 "25 gp",
                 "1 lb."],
-                ["Hunting trap",
+                ["Av tuzağı",
                 "5 gp",
                 "25 lb."],
-                ["Ink (1 ounce bottle)",
+                ["Mürekkep (1 onsluk şişe (28g))",
                 "10 gp",
                 "—"],
-                ["Ink pen",
+                ["Mürekkep kalemi",
                 "2 cp",
                 "—"],
-                ["Jug or pitcher",
+                ["Testi ya da sürahi",
                 "2 cp",
                 "4 lb."],
-                ["Kit, climber's",
+                ["Kit, tırmanıcı",
                 "25 gp",
                 "12 lb."],
-                ["Kit, disguise",
+                ["Kit, kılık değiştirme",
                 "25 gp",
                 "3 lb."],
-                ["Kit, forgery",
+                ["Kit, sahtecilik",
                 "15 gp",
                 "5 lb."],
-                ["Kit, herbalism",
+                ["Kit, otacılık",
                 "5 gp",
                 "3 lb."],
-                ["Kit, healer's",
+                ["Kit, şifacı",
                 "5 gp",
                 "3 lb."],
-                ["Kit, mess",
+                ["Kit, yemek",
                 "2 sp",
                 "1 lb."],
-                ["Kit, poisoner's",
+                ["Kit, zehirci",
                 "50 gp",
                 "2 lb."],
-                ["Ladder (10-foot)",
+                ["Merdiven (10-fit)",
                 "1 sp",
                 "25 lb."],
-                ["Lamp",
+                ["Lamba",
                 "5 sp",
                 "1 lb."],
-                ["Lantern, bullseye",
+                ["Fener, hedefli",
                 "10 gp",
                 "2 lb."],
-                ["Lantern, hooded",
+                ["Fener, örtülü",
                 "5 gp",
                 "2 lb."],
-                ["Lock",
+                ["Kilit",
                 "10 gp",
                 "1 lb."],
-                ["Magnifying glass",
+                ["Büyüteç",
                 "100 gp",
                 "—"],
-                ["Manacles",
+                ["Kelepçe",
                 "2 gp",
                 "6 lb."],
-                ["Mirror, steel",
+                ["Ayna, çelik",
                 "5 gp",
                 "1/2 lb."],
-                ["Oil (flask)",
+                ["Yağ (matara)",
                 "1 sp",
                 "1 lb."],
-                ["Paper (one sheet)",
+                ["Kağıt (bir sayfa)",
                 "2 sp",
                 "—"],
-                ["Parchment (one sheet)",
+                ["Parşömen (bir sayfa)",
                 "1 sp",
                 "—"],
-                ["Perfume (vial)",
+                ["Parfüm (şişe)",
                 "5 gp",
                 "—"],
-                ["Pick, miner's",
+                ["Kazma, madenci",
                 "2 gp",
                 "10 lb."],
-                ["Piton",
+                ["Dağcı çivisi",
                 "5 cp",
                 "1/4 lb."],
-                ["Poison, basic (vial)",
+                ["Zehir, basit (şişe)",
                 "100 gp",
                 "—"],
-                ["Pole (10-foot)",
+                ["Sopa (10-fit)",
                 "5 cp",
                 "7 lb."],
-                ["Pot, iron",
+                ["Tencere, demir",
                 "2 gp",
                 "10 lb."],
-                ["Potion of healing",
+                ["Sağlık iksiri",
                 "50 gp",
                 "1/2 lb."],
-                ["Pouch",
+                ["Kese",
                 "5 sp",
                 "1 lb."],
-                ["Quiver",
+                ["Sadak",
                 "1 gp",
                 "1 lb."],
-                ["Ram, portable",
+                ["Koç başı, taşınabilir",
                 "4 gp",
                 "35 lb."],
-                ["Rations (1 day)",
+                ["Erzak (1 gün)",
                 "5 sp",
                 "2 lb."],
-                ["Robes",
+                ["Cüppe",
                 "1 gp",
                 "4 lb."],
-                ["Rope, hempen (50 feet)",
+                ["Halat, kendir (50 fit)",
                 "1 gp",
                 "10 lb."],
-                ["Rope, silk (50 feet)",
+                ["Halat, ipek (50 fit)",
                 "10 gp",
                 "5 lb."],
-                ["Sack",
+                ["Çuval",
                 "1 cp",
                 "1/2 lb."],
-                ["Scale, merchant's",
+                ["Terazi, tüccar",
                 "5 gp",
                 "3 lb."],
-                ["Sealing wax",
+                ["Mühür mumu",
                 "5 sp",
                 "—"],
-                ["Shovel",
+                ["Kürek",
                 "2 gp",
                 "5 lb."],
-                ["Signal whistle",
+                ["Uyarı düdüğü",
                 "5 cp",
                 "—"],
-                ["Signet ring",
+                ["Mühür yüzüğü",
                 "5 gp",
                 "—"],
-                ["Soap",
+                ["Sabun",
                 "2 cp",
                 "—"],
-                ["Spellbook",
+                ["Büyü kitabı",
                 "50 gp",
                 "3 lb."],
-                ["Spikes, iron (10)",
+                ["Dikenler, demir (10)",
                 "1 gp",
                 "5 lb."],
-                ["Spyglass",
+                ["Dürbün",
                 "1,000 gp",
                 "1 lb."],
-                ["Tent, two-person",
+                ["Çadır, 2 kişilik",
                 "2 gp",
                 "20 lb."],
-                ["Tinderbox",
+                ["Kav çakmak kutusu",
                 "5 sp",
                 "1 lb."],
-                ["Torch",
+                ["Meşale",
                 "1 cp",
                 "1 lb."],
-                ["Vial",
+                ["Şişe",
                 "1 gp",
                 "—"],
-                ["Waterskin",
+                ["Kırba",
                 "2 sp",
                 "5 lb. (full)"],
-                ["Whetstone",
+                ["Biley taşı",
                 "1 cp",
                 "1 lb."]]
             }
@@ -808,175 +808,175 @@
                 "entries":[ {
                     "type":"entries",
                     "entries":[ {
-                        "type": "entries", "name": "Acid", "entries": ["As an action, you can splash the contents of this vial onto a creature within 5 feet of you or throw the vial up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the acid as an improvised weapon. On a hit, the target takes 2d6 acid damage."]
+                        "type": "entries", "name": "Asit", "entries": ["Eylem olarak, bu şişenin içeriğini 5 fit yakınındaki bir varlığın üzerine serpebilirsin ya da 20 fite kadar fırlatabilirsin, darbe anında parçalanır. Her şekilde, bir varlık ya da nesneye karşı menzilli silah saldırısı yap, asidi doğaçlama silah olarak varsay. Vurursa, hedef 2d6 asit hasarı alır."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Alchemist's Fire", "entries": ["This sticky, adhesive fluid ignites when exposed to air. As an action, you can throw this flask up to 20 feet, shattering it on impact. Make a ranged attack against a creature or object, treating the alchemist's fire as an improvised weapon. On a hit, the target takes 1d4 fire damage at the start of each of its turns. A creature can end this damage by using its action to make a DC 10 Çeviklik check to extinguish the flames."]
+                        "type": "entries", "name": "Simyacı Ateşi", "entries": ["Bu yapışkan sıvı havayle etkileşime geçince ateş alır. Eylem olarak, bu şişeyi 20 fite kadar fırlatabilirsin, darbe anında parçalanır. Bir varlık ya da nesneye karşı menzilli silah saldırısı yap, simyacı ateşini doğaçlama silah olarak varsay. Vurursa, hedef her sırasının başında 1d4 ateş hasarı alır. Bir varlık eylemini kullanıp DC 10 Çeviklik zarı atarak ateşleri söndürebilir."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Antitoxin", "entries": ["A creature that drinks this vial of liquid gains advantage on saving throws against poison for 1 hour. It confers no benefit to undead or constructs."]
+                        "type": "entries", "name": "Antitoksin", "entries": ["Bu şişedeki sıvıyı içen bir varlık zehre karşı kurtulma zarlarında bir saatliğine avantajlı olur. Yaşayan ölü ya da yapılara bir fayda etmez."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Arcane Focus", "entries": ["An arcane focus is a special item—an orb, a crystal, a rod, a specially constructed staff, a wand-like length of wood, or some similar item—designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, as described in chapter 10."]
+                        "type": "entries", "name": "Arcane Odak", "entries": ["Bir arcane odak özel bir eşyadır, küre, kristal, çubuk, özel yapım değnek, asa benzeri bir odun parçası, veya benzeri bir arcane büyülerin gücünü yoğunlaştırmak için tasarlanmış eşya olabilir. Bir sorcerer, warlock, veya büyücü bu tip bir eşyayı büyü yapma odağı olarak kullanabilir."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Ball Bearings", "entries": ["As an action, you can spill these tiny metal balls from their pouch to cover a level, square area that is 10 feet on a side. A creature moving across the covered area must succeed on a DC 10 Çeviklik saving throw or fall prone. A creature moving through the area at half speed doesn't need to make this save."]
+                        "type": "entries", "name": "Bilyeler", "entries": ["Eylem olarak, bu minik metal topları bir alanı kaplasın diye dökebilirsin, toplamda 10 fitlik bir kareyi kaplarlar. Bu alandan geçen bir varlık DC 10 Çeviklik kurtulma zarı atar ya da yere düşer. Bu alandan yarı hızda geçen bir varlık bu zarı atmak zorunda değildir."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Block and Tackle", "entries": ["A set of pulleys with a cable threaded through them and a hook to attach to objects, a block and tackle allows you to hoist up to four times the weight you can normally lift."]
+                        "type": "entries", "name": "Palanga Takımı", "entries": ["İçinden kablo geçen bir set makara ve ucunda nesnelere tutturmak için bir çengel, bir palanga takımı normalde kaldırabileceğinin 4 katı yük kaldırmanı sağlar."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Book", "entries": ["A book might contain poetry, historical accounts, information pertaining to a particular field of lore, diagrams and notes on gnomish contraptions, or just about anything else that can be represented using text or pictures. A book of spells is a spellbook (described later in this section)."]
+                        "type": "entries", "name": "Kitap", "entries": ["Bir kitap şiir, tarihi kayıtlar, belirli bir alana ait bilgi, gnome icatlarına ait çizimler ve notlar, veya yazı ya da çizimlerle temsil edilebilecek herhangi bir şey içerebilir. Büyü içeren bir kitap büyü kitabıdır (bu alanda sonra açıklanır)."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Caltrops", "entries": ["As an action, you can spend a bag of caltrops to cover a square area that is 5 feet on a side. Any creature that enters the area must succeed on a DC 15 Çeviklik saving throw or stop moving this turn and take 1 piercing damage. Taking this damage reduces the creature's walking speed by 10 feet until the creature regains at least 1 hit point. A creature moving through the area at half speed doesn't need to make the save."]
+                        "type": "entries", "name": "Demir Dikenler", "entries": ["Eylem olarak, bir kese demir dikeni atıp 5 fitlik bir kareyi kaplayabilirsin. Alana giren tüm varlıklar DC 15 Çeviklik kurtulma zarı atar ya da o sıra için hareket etmeyi durdurur ve 1 delme hasarı alır. Bu hasarı alma varlık en az 1 HP yenileyene kadar yürüme hızını 10 fit azaltır. Alandan yarı hızda geçen bir varlık bu zarı atmak zorunda değildir."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Candle", "entries": ["For 1 hour, a candle sheds bright light in a 5-foot radius and dim light for an additional 5 feet."]
+                        "type": "entries", "name": "Mum", "entries": ["1 saatliğine, bir mum 5 fit boyunca parlak ötesinde 5 fit daha loş ışık saçar."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Case, Crossbow Bolt", "entries": ["This wooden case can hold up to twenty crossbow bolts"]
+                        "type": "entries", "name": "Kap, Arbalet Oku", "entries": ["Bu ahşap kap 20 taneye kadar arbalet oku tutabilir."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Case, Map or Scroll", "entries": ["This cylindrical leather case can hold up to ten rolled-up sheets of paper or five rolled-up sheets of parchment."]
+                        "type": "entries", "name": "Kap, Harita ya da Tomar", "entries": ["Bu silindir deri kap yuvarlanmış 10 tane kağıt sayfa ya da 5 tane parşömen sayfa tutabilir."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Chain", "entries": ["A chain has 10 HP. It can be burst with a successful DC 20 Kuvvet check."]
+                        "type": "entries", "name": "Zincir", "entries": ["Bir zincir 10 HP'ye sahiptir. Başarılı bir DC 20 Kuvvet zarı ile kırılabilir."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Climber's Kit", "entries": ["A climber's kit includes special pitons, boot tips, gloves, and a harness. You can use the climber's kit as an action to anchor yourself; when you do, you can't fall more than 25 feet from the point where you anchored yourself, and you can't climb more than 25 feet away from that point without undoing the anchor."]
+                        "type": "entries", "name": "Tırmanıcı Kiti", "entries": ["Bir tımanıcı kiti içerisinde özel dağcı çivileri, çizme uçları, eldivenler, ve bir emniyet kemeri içerir. Tırmanıcı kitini eylem olarak kullanıp kendini sabitleyebilirsin; bunu yaptığında, kendini sabitlediğin yerden 25 fitten fazla düşemezsin, ve bunu kaldırmadan o noktadan 25 fitten uzağa gidemezsin."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Component Pouch", "entries": ["A component pouch is a small, watertight leather belt pouch that has compartments to hold all the material components and other special items you need to cast your spells, except for those components that have a specific cost (as indicated in a spell's description)."]
+                        "type": "entries", "name": "Bileşen Kesesi", "entries": ["Bir bileşen kesesi büyülerini yapabilmen için gereken tüm bileşenleri tutan çok bölmeli küçük, su geçirmez bir deri kesedir, belirli değeri olan bileşenler dahil değildir (büyünün açıklamasında belirtilir)."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Crowbar", "entries": ["Using a crowbar grants advantage to Kuvvet checks where the crowbar's leverage can be applied."]
+                        "type": "entries", "name": "Levye", "entries": ["Bir levyenin gücünün uygulanabileceği yerlerde yapacağın Kuvvet zarlarına avantaj verir."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Druidic Focus", "entries": ["A druidic focus might be a sprig of mistletoe or holly, a wand or scepter made of yew or another special wood, a staff drawn whole out of a living tree, or a totem object incorporating feathers, fur, bones, and teeth from sacred animals. A druid (see chapter 3 of the Player's Handbook) can use such an object as a spellcasting focus, as described in chapter 10."]
+                        "type": "entries", "name": "Druidic Odak", "entries": ["Bir druidic odak ökseotu filizi, porsuk ağacından ya da başka özel bir odundan bir asa ya da baston, canlı bir ağaçtan bütünüyle alınma bir değnek, veya kutsal bir hayvandan alınma tüyler, kürk, kemik, veya diş içeren bir totem nesnesi olabilir. Bir druid bu nesneyi büyü yapma odağı olarak kullanabilir."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Fishing Tackle", "entries": ["This kit includes a wooden rod, silken line, corkwood bobbers, steel hooks, lead sinkers, velvet lures, and narrow netting."]
+                        "type": "entries", "name": "Olta Takımı", "entries": ["Bu kit içerisinde ahşap bir olta, ipek misina, olta mantarı, çelik kancalar, olta kurşunu, kadife yem, ve dar ağ içerir."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Healer's Kit", "entries": ["This kit is a leather pouch containing bandages, salves, and splints. The kit has ten uses. As an action, you can expend one use of the kit to stabilize a creature that has 0 HP, without needing to make a Akıl (Tıp) check."]
+                        "type": "entries", "name": "Şifacı Kiti", "entries": ["Bu kit, bandaj, atel ve merhemler içeren bir deri kesedir. Kitin 10 kullanımı vardır. Eylem olarak, kitin bir kullanımını harcayıp 0 HP'si olan bir varlığı stabilize edebilirsin, bunun için (Tıp) zarı gerekmez."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Holy Symbol", "entries": ["A holy symbol is a representation of a god or pantheon. It might be an amulet depicting a symbol representing a deity, the same symbol carefully engraved or inlaid as an emblem on a shield, or a tiny box holding a fragment of a sacred rite. Appendix B lists the symbols commonly associated with many gods in the multiverse. A cleric or paladin can use a holy symbol as a spell casing focus, as described in Part 3: The Rules of Magic. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield."]
+                        "type": "entries", "name": "Kutsal Sembol", "entries": ["Bir kutsal sembol bir tanrının ya da pantheonun sembolü simgesi olabilir. Bir tanrıyı simgeleyen bir kolye, aynı sembol bir kalkana oyulmuş ya da işlenmiş, veya kutsal bir ayinden bir patça taşıyan küçük bir kutu olabilir. Bir rahip ya da paladin bir kutsal sembolü büyü yapma odağı olarak kullanabilir, bunun detayı Büyü Kuralları kısmında verilecektir. Sembolü bu şekilde kullanabilmek için, kullanıcı ya bunu elinde tutmalı, görünür bir şekilde taşımalı, ya da kalkanında taşımalıdır."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Holy Water", "entries": ["As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact.", "In either case, make a ranged attack against a target creature, treating the holy water as an improvised weapon. If the target is a fiend or undead, it takes 2d6 radiant damage. A cleric or paladin may create holy water by performing a special ritual. The ritual takes 1 hour to perform, uses 25 gp worth of powdered silver, and requires the caster to expend a 1st-level spell slot."]
+                        "type": "entries", "name": "Kutsal Su", "entries": ["Eylem olarak, bu mataranın içeriğini 5 fit yakınındaki bir varlığın üzerine serpebilir ya da 20 fit uzağa fırlatabilirsin, darbe anında parçalanır.", "Her durumda, hedef varlığa karşı menzilli saldırı zarı at, kutsal suyu doğaçlama silah varsayarsın. Eğer hedef bir zebani ya da yaşayan ölüyse, 2d6 radyant hasar alır. Bir rahip ya da paladin özel bir ritüel gerçekleştirerek kutsal su yaratabilir. Bu ritüelin gerçekleştirilmesi 1 saat alır, ve 25 gp değerinde gümüş tozu gerektirir, bunun yanında kullanıcının 1. seviye bir büyü yuvası harcaması gerekir."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Hunting Trap", "entries": ["When you use your action to set it, this trap forms a saw-toothed steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a DC 13 Çeviklik saving throw or take 1d4 piercing damage and stop moving. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet long). A creature can use its action to make a DC 13 Kuvvet check, freeing itself or another creature within its reach on a success. Each failed check deals 1 piercing damage to the trapped creature."]
+                        "type": "entries", "name": "Av Tuzağı", "entries": ["Sen eylemini kullanıp onu yerleştirdiğinde, bu tuzak bir varlık ortasındaki basınç levhasına bastığı anda kapanan testere dişli bir çelik halka oluşturur. Tuzak ağır bir zincir ile hareketsiz bir nesneye sabitlenir, bu nesne bir ağaç ya da yere çakılmış bir kazık olabilir. Levhaya basan bir varlık DC 13 Çeviklik kurtulma zarı atar ya da 1d4 delme hasarı alır ve hareket etmeyi durdurur. Sonrasında, varlık tuzaktan kurtulana kadar, hareketi zincirin menzili ile sınırlıdır (genellikle 3 fit). Bir varlık eylemini kullanıp DC 13 Kuvvet zarı atabilir, başarılı olursa kendini ya da erişimindeki başka bir varlığı kurtarabilir. Her başarısız deneme kapandaki varlığa 1 delme hasarı verir."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Lamp", "entries": ["A lamp casts bright light in a 15-foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil."]
+                        "type": "entries", "name": "Lamba", "entries": ["Bir lamba 15 fit çevresine parlak, ötesinde 30 fit daha loş ışık saçar. Yakılınca, 1 matara (yarım litre) yağ ile 6 saat yanar."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Lantern, Bullseye", "entries": ["A bullseye lantern casts bright light in a 60-foot cone and dim light for an additional 60 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil."]
+                        "type": "entries", "name": "Fener, Hedefli", "entries": ["Hedefli bir fener 60 fitlik koniye parlak ışık ötesinde 60 fit daha loş ışık verir. Yakılınca, 1 matara (yarım litre) yağ ile 6 saat yanar."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Lantern, Hooded", "entries": ["A hooded lantern casts bright light in a 30-foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil. As an action, you can lower the hood, reducing the light to dim light in a 5-foot radius."]
+                        "type": "entries", "name": "Fener, Örtülü", "entries": ["Örtülü bir fener 30 fit çevresine parlak, ötesinde 30 fit daha loş ışık saçar. Yakılınca, 1 matara (yarım litre) yağ ile 6 saat yanar. Eylem olarak örtüyü indirip, ışığı 5 fit çevresine loş ışık saçar hala getirebilirsin."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Lock", "entries": ["A key is provided with the lock. Without the key, a creature proficient with thieves' tools can pick this lock with a successful DC 15 Çeviklik check. Your DM may decide that better locks are available for higher prices."]
+                        "type": "entries", "name": "Kilit", "entries": ["Kilitle birlikte bir anahtar da verilir. Anahtar olmadan, hırsız aletleri ile uzman olan bir varlık bu kilidi başarılı bir DC 15 Çeviklik zarı ile açabilir. DM'in daha yüksek fiyata daha iyi kilitler olabileceğine karar verebilir."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Magnifying Glass", "entries": ["This lens allows a closer look at small objects. It is also useful as a substitute for flint and steel when starting fires. Lighting a fire with a magnifying glass requires light as bright as sunlight to focus, tinder to ignite, and about 5 minutes for the fire to ignite. A magnifying glass grants advantage on any ability check made to appraise or inspect an item that is small or highly detailed."]
+                        "type": "entries", "name": "Büyüteç", "entries": ["Bu lens küçük nesnelere daha yakından bakılmasını sağlar. Ateş yakarken çelik ve çakmak taşı yerine de kullanılabilir. Büyüteç ile ateş yakma, yoğunlaştırmak için gün ışığı kadar parlak bir ışık, tutuşturmalık kav, ve ateşin yanması için yaklaşık 5 dakika gerektirir. Bir büyüteç, küçük ya da çok detaylı olan bir nesnenin değerlendirilmesi ya da incelenmesi sırasında atılacak yetenek zarlarına avantaj verir."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Manacles", "entries": ["These metal restraints can bind a Small or Medium creature. Escaping the manacles requires a successful DC 20 Çeviklik check. Breaking them requires a successful DC 20 Kuvvet check. Each set of manacles comes with one key. Without the key, a creature proficient with thieves' tools can pick the manacles' lock with a successful DC 15 Çeviklik check. Manacles have 15 HP."]
+                        "type": "entries", "name": "Kelepçe", "entries": ["Bu metal bağlar Küçük ya da Orta boy bir varlığı kısıtlayabilir. Kelepçelerden kaçma başarılı bir DC 20 Çeviklik zarı gerektirir. Eşyayı kırmak da başarılı bir DC 20 Kuvvet zarı gerektirir. Her kelepçe seti bir anahtar ile gelir. Anahtar olmadan, hırsız aletleri ile uzmanlığı olan bir varlık başarılı bir DC 15 Çeviklik zarı ile kelepçelerin kilidini açabilir. Kelepçelerin 15 HP'si vardır."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Mess Kit", "entries": ["This tin box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl."]
+                        "type": "entries", "name": "Yemek Kiti", "entries": ["Bu teneke kutuda basit çatal bıçaklar ve bir bardak vardır. Kutu kendine kenetlenir, ve bir yanı pişirmelik tencere olarak kullanılırken diğer yanı da bir tabak ya da kase olur."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Oil", "entries": ["Oil usually comes in a clay flask that holds 1 pint. As an action, you can splash the oil in this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. Make a ranged attack against a target creature or object, treating the oil as an improvised weapon. On a hit, the target is covered in oil. If the target takes any fire damage before the oil dries (after 1 minute), the target takes an additional 5 fire damage from the burning oil. You can also pour a flask of oil on the ground to cover a 5-foot-square area, provided that the surface is level. If lit, the oil burns for 2 rounds and deals 5 fire damage to any creature that enters the area or ends its turn in the area. A creature can take this damage only once per turn."]
+                        "type": "entries", "name": "Yağ", "entries": ["Yağ genellikle yarım litre alan bir kil matarada bulunur. Eylem olarak, bu yağı 5 fit yakınındaki bir varlığın üzerine serpebilir ya da 20 fite kadar fırlatabilirsin, darbe anında parçalanır. Hedef nesne ya da varlığa karşı bir menzilli saldırı zarı atar, yağı doğaçlama bir silah varsayarsın. Vurursa, hedef yağla kaplanır. Yağ kurumadan önce (1 dakika içinde) hedef ateş hasarı alırsa, hedef yanan yağdan fazladan 5 ateş hasarı alır. Bir matara yağı yere döküp 5 fit karelik bir alanı da kaplayabilirsin, yüzeyin eğimsiz olduğu varsayılır. Eğer yakılırsa, yağ 2 round boyunca yanar ve alanına giren ya da sırasını alanda bitiren her varlığa 5 ateş hasarı verir. Bir varlık bu hasarı her sırasında sadece bir kere alabilir."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Poison, Basic", "entries": ["You can use the poison in this vial to coat one slashing or piercing weapon or up to three pieces of ammunition. Applying the poison takes an action. A creature hit by the poisoned weapon or ammunition must make a DC 10 Dayanıklılık saving throw or take 1d4 poison damage. Once applied, the poison retains potency for 1 minute before drying."]
+                        "type": "entries", "name": "Zehir, Basit", "entries": ["Bu şişedeki zehri kullanıp bir kesici ya da delici silahı veya 3 taneye kadar misili kaplayabilirsin. Zehri uygulama bir eylem alır. Zehirli silah ya da misil ile vurulan bir varlık DC 10 Dayanıklılık kurtulma zarı atar ya da 1d4 zehir hasarı alır. Uygulandığında, 1 dakika boyunca kuruyana kadar zehir etkisini korur."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Potion of Healing", "entries": ["A character who drinks the magical red fluid in this vial regains 2d4 + 2 HP. Drinking or administering a potion takes an action."]
+                        "type": "entries", "name": "Sağlık İksiri", "entries": ["Bu şişedeki büyülü kırmızı sıvıyı içen bir karakter 2d4 + 2 HP yeniler. Bir iksiri içme ya da içirme bir eylem alır."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Pouch", "entries": ["A cloth or leather pouch can hold up to 20 sling bullets or 50 blowgun needles, among other things. A compartmentalized pouch for holding spell components is called a component pouch (described earlier in this section)."]
+                        "type": "entries", "name": "Kese", "entries": ["Bir kumaş ya da deri kese diğer şeylerin dışında, 20 taneye kadar sapan mermisi ya da 50 taneye kadar dart borusu dartı taşıyabilir. Büyü bileşenlerini tutan bölmeli bir keseye bileşen kesesi denir (bu kısımda önceden verildi)."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Quiver", "entries": ["A quiver can hold up to 20 arrows."]
+                        "type": "entries", "name": "Sadak", "entries": ["Bir sadak 20 taneye kadar ok taşıyabilir."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Ram, Portable", "entries": ["You can use a portable ram to break down doors. When doing so, you gain a +4 bonus on the Kuvvet check. One other character can help you use the ram, giving you advantage on this check."]
+                        "type": "entries", "name": "Koç Başı, Taşınabilir", "entries": ["Taşınabilir koç başını kapıları kırmak için kullanabilirsin. Bunu yaparken, Kuvvet zarlarına +4 bonus alırsın. Başka bir karakter koç başını kullanmana yardım edebilir, sana bu zarda avantaj sağlar."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Rations", "entries": ["Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts."]
+                        "type": "entries", "name": "Erzak", "entries": ["Erzaklar uzun yolculuklara dayanabilecek kuru yiyeceklerden oluşur, kurutulmuş et, meyve, peksimet ve kuruyemiş gibi."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Rope, hempen (50 feet)", "entries": ["Rope, whether made of hemp, has 2 HP and can be burst with a DC 17 Kuvvet check."]
+                        "type": "entries", "name": "Halat, kendir (50 fit)", "entries": ["Kendir ya da ipekten yapılma halatın, 2 HP'si vardır ve DC 17 Kuvvet zarı ile koparılabilir."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Rope, silk (50 feet)", "entries": ["Rope, whether made of silk, has 2 HP and can be burst with a DC 17 Kuvvet check."]
+                        "type": "entries", "name": "Halat, ipek (50 fit)", "entries": ["Kendir ya da ipekten yapılma halatın, 2 HP'si vardır ve DC 17 Kuvvet zarı ile koparılabilir."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Scale, Merchant's", "entries": ["A scale includes a small balance, pans, and a suitable assortment of weights up to 2 pounds. With it, you can measure the exact weight of small objects, such as raw precious metals or trade goods, to help determine their worth."]
+                        "type": "entries", "name": "Terazi, Tüccar", "entries": ["Bir terazi küçük bir tartı, tepsiler, ve 2 pounda kadar çeşitli ağırlıklar içerir. Bununla, küçük nesnelerin kesin ağırlığını ölçebilirsin, ticari mallar ya da değerli metaller gibi şeylerin değerlerini ölçmeye yardımcı olur."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Spellbook", "entries": ["Essential for wizards, a spellbook is a leather-bound tome with 100 blank vellum pages suitable for recording spells."]
+                        "type": "entries", "name": "Büyü Kitabı", "entries": ["Büyücüler için gerekli olan bu kitap, büyü kaydetmek için 100 boş parşömen sayfa ile doludur deri ciltlidir."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Spyglass", "entries": ["Objects viewed through a spyglass are magnified to twice their size."]
+                        "type": "entries", "name": "Dürbün", "entries": ["Dürbünden görülen nesneler iki katı boyutta görünürler."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Tent", "entries": ["A simple and portable canvas shelter, a tent sleeps two."]
+                        "type": "entries", "name": "Çadır", "entries": ["İki kişinin içinde uyuyabileceği, basit ve taşınabilir bir brandadır."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Tinderbox", "entries": ["This small container holds flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a torch—or anything else with abundant, exposed fuel—takes an action. Lighting any other fire takes 1 minute."]
+                        "type": "entries", "name": "Kav Kutusu", "entries": ["Bu küçük kap içerisinde çakmak taşı, ateş çeliği, ve kav (genellikle hafif yağlanmış kuru bez) bulunur. Bunu kullanarak meşale gibi açıkta bolca yakıtı olan şeyleri yakma bir eylem alır. Diğer ateşleri yakma ise 1 dakika."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Torch", "entries": ["A torch burns for 1 hour, providing bright light in a 20-foot radius and dim light for an additional 20 feet. If you make a melee attack with a burning torch and hit, it deals 1 fire damage."]
+                        "type": "entries", "name": "Meşale", "entries": ["Bir meşale 1 saat yanar, ve 20 fit çevresine parlak, ötesinde 20 fit daha loş ışık saçar. Yanan bir meşale ile yakın dövüş saldırısı yapıp vurursan 1 ateş hasarı verir."]
                     }
                     ]
                 }
@@ -984,39 +984,39 @@
             }
             ,
             {
-                "type": "table", "caption": "Container Capacity", "colLabels": ["Container", "Capacity"], "colStyles": ["col-xs-6", "col-xs-6"], "rows": [["Backpack*", "1 cubic foot/30 pounds of gear"], ["Barrel", "40 gallons liquid, 4 cubic feet solid"], ["Basket", "2 cubic feet/40 pounds of gear"], ["Bottle", "1 1/2 pints liquid"], ["Bucket", "3 gallons liquid, 1/2 cubic foot solid"], ["Chest", "12 cubic feet/300 pounds of gear"], ["Flask or tankard", "1 pint liquid"], ["Jug or pitcher", "1 gallon liquid"], ["Pot, iron", "1 gallon liquid"], ["Pouch", "1/5 cubic foot/6 pounds of gear"], ["Sack", "1 cubic foot/30 pounds of gear"], ["Vial", "4 ounces liquid"], ["Waterskin", "4 pints liquid"]], "footnotes": ["* You can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack."]
+                "type": "table", "caption": "Kap Kapasitesi", "colLabels": ["Kap", "Kapasite"], "colStyles": ["col-xs-6", "col-xs-6"], "rows": [["Sırt Çantası*", "1 fitlik küp/30 pound eşya"], ["Varil", "40 gallon sıvı, 4 fitlik küp katı"], ["Sepet", "2 fitlik küp/40 pound eşya"], ["Büyük Şişe", "750 ml sıvı"], ["Kova", "3 gallon sıvı, 1/2 fitlik küp katı"], ["Sandık", "12 fitlik küp/300 pound eşya"], ["Matara ya da maşrapa", "yarım litre sıvı"], ["Testi ya da sürahi", "1 gallon sıvı"], ["Tencere, demir", "1 gallon sıvı"], ["Kese", "1/5 fitlik küp/6 pound eşya"], ["Çuval", "1 fitlik küp/30 pound eşya"], ["Şişe", "4 onsluk sıvı"], ["Kırba", "2 litre sıvı"]], "footnotes": ["* Kamp yatağı ya da bir sarım halat gibi eşyaları sırt çantanın dışına tutturabilirsin."]
             }
             ,
             {
                 "type":"inset",
-                "name":"Equipment Packs",
-                "entries":["The starting equipment you get from your class includes a collection of useful adventuring gear, put together in a pack. The contents of these packs are listed here. If you are buying your starting equipment, you can purchase a pack for the price shown, which might be cheaper than buying the items individually.",
+                "name":"Ekipman Paketleri",
+                "entries":["Sınıfından edindiğin başlangıç ekipmanı bir paket içerisinde toplanmış bir çok macera tertibatı içerir. Bu paketlerin içerikleri burada verilmiştir. Eğer başlangıç ekipmanını satın alıyorsan, paketi gösterilen fiyattan alabilirsin, bu ayrı ayrı almaktan daha ucuza gelecektir.",
                 {
-                    "type": "entries", "name": "Burglar's Pack (16gp)", "entries": [" Includes a backpack, a bag of 1,000 ball bearings, 10 feet of string, a bell, 5 candles, a crowbar, a hammer, 10 pitons, a hooded lantern, 2 flasks of oil, 5 days of rations, a tinderbox, and a waterskin. The pack also has 50 feet of hempen rope strapped to the side of it."]
+                    "type": "entries", "name": "Hırsız Paketi (16gp)", "entries": ["İçerisinde bir sırt çantası, 1,000 bilye içeren bir kese, 10 fit sicim, bir çan, 5 mum, bir levye, bir çekiç, 10 dağcı çivisi, bir örtülü fener, 2 matara yağ, 5 günlük erzak, bir kav kutusu, ve bir kırba vardır. Bu paketin yanında 50 fitlik kendir halat da bağlıdır."]
                 }
                 ,
                 {
-                    "type": "entries", "name": "Diplomat's Pack (39gp)", "entries": ["Includes a chest, 2 cases for maps and scrolls, a set of fine clothes, a bottle of ink, an ink pen, a lamp, 2 flasks of oil, 5 sheets of paper, a vial of perfume, sealing wax, and soap."]
+                    "type": "entries", "name": "Diplomat Paketi (39gp)", "entries": ["İçerisinde bir sandık, harita ve tomarlar için 2 kap, bir set kaliteli kıyafet, bir şişe mürekkep, bir mürekkep kalemi, bir lamba, 2 matara yağ, 5 sayfa kağıt, bir şişe parfüm, mühür mumu, ve sabun vardır."]
                 }
                 ,
                 {
-                    "type": "entries", "name": "Dungeoneer's Pack (12gp)", "entries": [" Includes a backpack, a crowbar, a hammer, 10 pitons, 10 torches, a tinderbox, 10 days of rations, and a waterskin. The pack also has 50 feet of hempen rope strapped to the side of it."]
+                    "type": "entries", "name": "Zindancı Paketi (12gp)", "entries": ["İçerisinde bir sırt çantası, bir levye, bir çekiç, 10 dağcı çivisi, 10 meşale, bir kav kutusu, 10 günlük erzak, ve bir kırba vardır. Bu paketin yanında 50 fitlik kendir halat da bağlıdır."]
                 }
                 ,
                 {
-                    "type": "entries", "name": "Entertainer's Pack (40gp)", "entries": ["Includes a backpack, a bedroll, 2 costumes, 5 candles, 5 days of rations, a waterskin, and a disguise kit."]
+                    "type": "entries", "name": "Ozan Paketi (40gp)", "entries": ["İçerisinde bir sırt çantası, bir kamp yatağı, 2 kostüm, 5 mum, 5 günlük erzak, bir kırba, ve bir kılık değiştirme kiti vardır."]
                 }
                 ,
                 {
-                    "type": "entries", "name": "Explorer's Pack (10gp)", "entries": ["Includes a backpack, a bedroll, a mess kit, a tinderbox, 10 torches, 10 days of rations, and a waterskin. The pack also has 50 feet of hempen rope strapped to the side of it."]
+                    "type": "entries", "name": "Kaşif Paketi (10gp)", "entries": ["İçerisinde bir sırt çantası, bir kamp yatağı, bir yemek kiti, bir kav kutusu, 10 meşale, 10 günlük erzak, ve bir kırba vardır. Bu paketin yanında 50 fitlik kendir halat da bağlıdır."]
                 }
                 ,
                 {
-                    "type": "entries", "name": "Priest's Pack (19gp)", "entries": ["Includes a backpack, a blanket, 10 candles, a tinderbox, an alms box, 2 blocks of incense, a censer, vestments, 2 days of rations, and a waterskin."]
+                    "type": "entries", "name": "Rahip Paketi (19gp)", "entries": ["İçerisinde bir sırt çantası, bir battaniye, 10 mum, bir kav kutusu, bir bağış kutusu, 2 tütsü bloğu, bir buhurdan, tören kıyafetleri, 2 günlük erzak, ve bir kırba vardır."]
                 }
                 ,
                 {
-                    "type": "entries", "name": "Scholar's Pack (40gp)", "entries": ["Includes a backpack, a book of lore, a bottle of ink, an ink pen, 10 sheets of parchment, a little bag of sand, and a small knife."]
+                    "type": "entries", "name": "Bilge Paketi (40gp)", "entries": ["İçerisinde bir sırt çantası, bir bilgi kitabı, bir şişe mürekkep, bir mürekkep kalemi, 10 sayfa parşömen, bir küçük kese kum, ve küçük bir bıçak vardır."]
                 }
                 ]
             }
@@ -1025,98 +1025,98 @@
         ,
         {
             "type":"section",
-            "name":"Armor and kalkanlar",
-            "entries":["D&D worlds are a vast tapestry made up of many different cultures, each with its own technology level. For this reason, adventurers have access to a variety of armor types, ranging from leather armor to chain mail to costly plate armor, with several other kinds of armor in between. The Armor table collects the most commonly available types of armor found in the game and separates them into three categories: light armor, orta zırhlar, and ağır zırhlar. Many warriors supplement their armor with a shield.",
-            "The Armor table shows the cost, weight, and other properties of the common types of armor worn in the worlds of D&D.",
+            "name":"Zırh ve kalkanlar",
+            "entries":["D&D evrenleri her biri ayrı bir teknoloji seviyesinde farklı kültürlerden oluşan geniş bir yelpazedir. Bu sebeple, maceracıların bir çok zırh tipine erişimi vardır, bunlar arada farklı tipte zırhların da bulunduğu deri zırhtan, örme zırha, hatta pahalı plaka zırha kadar uzanır. Zırhlar tablosu oyunda en yaygın şekilde bulunabilecek zırhları listeler ve bunları 3 ayrı kategoride ele alır: hafif zırhlar, orta zırhlar, ve ağır zırhlar. Çoğu savaşçı zırhını bir kalkan ile destekler.",
+            "Zırhlar tablosu D&D evrenlerinde giyilen yaygın zırh tiplerinin değerini, ağırlığını ve diğer özelliklerini gösterir.",
             {
                 "type":"table",
-                "caption":"Armor",
-                "colLabels":["Armor",
-                "Cost",
-                "AC (AC)",
+                "caption":"Zırhlar",
+                "colLabels":["Zırh",
+                "Değer",
+                "AC",
                 "Kuvvet",
                 "Gizlenme",
-                "Weight"],
+                "Ağırlık"],
                 "colStyles":["col-xs-3",
                 "col-xs-1 text-align-right",
                 "col-xs-3 text-align-center",
                 "col-xs-1",
                 "col-xs-3",
                 "col-xs-1 text-align-center"],
-                "rows":[["{@i Light Armor}",
+                "rows":[["{@i Hafif Zırhlar}",
                 "",
                 "",
                 "",
                 "",
                 ""],
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Padded", "5 gp", "11 + Dex modifier", "—", "Disadvantage", "8 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Dolgu", "5 gp", "11 + Çev bonusu", "—", "Dezavantaj", "8 lb."]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Leather", "10 gp", "11 + Dex modifier", "—", "—", "10 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Deri", "10 gp", "11 + Çev bonusu", "—", "—", "10 lb."]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Studded leather", "45 gp", "12 + Dex modifier", "—", "—", "13 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Perçinli Deri", "45 gp", "12 + Çev bonusu", "—", "—", "13 lb."]
                 }
                 ,
-                ["{@i orta zırhlar}",
+                ["{@i Orta zırhlar}",
                 "",
                 "",
                 "",
                 "",
                 ""],
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Hide", "10 gp", "12 + Dex modifier (max 2)", "—", "—", "12 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Post", "10 gp", "12 + Çev bonusu (max 2)", "—", "—", "12 lb."]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Chain shirt", "50 gp", "13 + Dex modifier (max 2)", "—", "—", "20 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Örme gömlek", "50 gp", "13 + Çev bonusu (max 2)", "—", "—", "20 lb."]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Scale mail", "50 gp", "14 + Dex modifier (max 2)", "—", "Disadvantage", "45 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Pullu", "50 gp", "14 + Çev bonusu (max 2)", "—", "Dezavantaj", "45 lb."]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Breastplate", "400 gp", "14 + Dex modifier (max 2)", "—", "—", "20 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Göğüslük", "400 gp", "14 + Çev bonusu (max 2)", "—", "—", "20 lb."]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Half plate", "750 gp", "15 + Dex modifier (max 2)", "—", "Disadvantage", "40 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Yarı plaka", "750 gp", "15 + Çev bonusu (max 2)", "—", "Dezavantaj", "40 lb."]
                 }
                 ,
-                ["{@i ağır zırhlar}",
+                ["{@i Ağır zırhlar}",
                 "",
                 "",
                 "",
                 "",
                 ""],
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Ring mail", "30 gp", "14", "—", "Disadvantage", "40 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Halka örme", "30 gp", "14", "—", "Dezavantaj", "40 lb."]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Chain mail", "75 gp", "16", "Str 13", "Disadvantage", "55 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Örme", "75 gp", "16", "Kuv 13", "Dezavantaj", "55 lb."]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Splint", "200 gp", "17", "Str 15", "Disadvantage", "60 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Lamellar", "200 gp", "17", "Kuv 15", "Dezavantaj", "60 lb."]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Plate", "1,500 gp", "18", "Str 15", "Disadvantage", "65 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Plaka", "1,500 gp", "18", "Kuv 15", "Dezavantaj", "65 lb."]
                 }
                 ,
-                ["{@i Shield}",
+                ["{@i Kalkan}",
                 "",
                 "",
                 "",
                 "",
                 ""],
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Shield", "10 gp", "+2", "—", "—", "6 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Kalkan", "10 gp", "+2", "—", "—", "6 lb."]
                 }
                 ]
             }
@@ -1126,23 +1126,23 @@
                 "entries":[ {
                     "type":"entries",
                     "entries":[ {
-                        "type": "entries", "name": "Armor Proficiency", "entries": ["Anyone can put on a suit of armor or strap a shield to an arm. Only those proficient in the armor's use know how to wear it effectively, however.", "Your class gives you proficiency with certain types of armor. If you wear armor that you lack proficiency with, you have disadvantage on any ability check, saving throw, or attack roll that involves Kuvvet or Çeviklik, and you can't cast spells."]
+                        "type": "entries", "name": "Zırh Uzmanlığı", "entries": ["Herkes bir zırhı giyip koluna bir kalkan geçirebilir. Ama sadece o zırhın kullanımında uzman olanlar onu etkili bir şekilde giymeyi bilir.", "Sınıfın sana belirli tipte zırhlar ile uzmanlık verir. Eğer uzmanlığın olmayan bir zırh giyersen, Kuvvet veya Çeviklik temelli tüm yetenek, kurtulma ve saldırı zarlarında dezavantajlı olursun, ve büyü yapamazsın."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "AC (AC)", "entries": ["Armor protects its wearer from attacks. The armor (and shield) you wear determines your base AC."]
+                        "type": "entries", "name": "AC", "entries": ["Zırh kullanıcısını saldırılardan korur. Giydiğin zırh (ve kalkan) senin temel AC'ni belirler."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "ağır zırhlar", "entries": ["Heavier armor interferes with the wearer's ability to move quickly, stealthily, and freely. If the Armor table shows \"Str 13\" or \"Str 15\" in the Kuvvet column for an armor type, the armor reduces the wearer's speed by 10 feet unless the wearer has a Kuvvet score equal to or higher than the listed score."]
+                        "type": "entries", "name": "Ağır Zırhlar", "entries": ["Ağır zırhlar kullanıcının hızlı, gizlice ve özgürce hareket etmesini engeller. Eğer Zırhlar tablosu bir zırh tipi için Kuvvet sütununda \"Kuv 13\" ya da \"Kuv 15\" gösteriyorsa, eğer kullanıcı listelenen Kuvvet skoru veya üzerine sahip değilse zırh kullanıcının hızını 10 fit azaltır."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Gizlenme", "entries": ["If the Armor table shows \"Disadvantage\" in the Gizlenme column, the wearer has disadvantage on Çeviklik (Gizlenme) checks."]
+                        "type": "entries", "name": "Gizlenme", "entries": ["Eğer Zırhlar tablosu Gizlenme sütununda \"Dezavantaj\" gösteriyorsa, kullanıcı Çeviklik (Gizlenme) zarlarında dezavantajlı olur."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "kalkanlar", "entries": ["A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your AC by 2. You can benefit from only one shield at a time."]
+                        "type": "entries", "name": "Kalkan", "entries": ["Bir kalkan ahşap ya da metalden yapılır ve tek elde taşınır. Kalkan kullanma AC'ni 2 artırır. Aynı anda sadece 1 kalkandan faydalanabilirsin."]
                     }
                     ]
                 }
@@ -1150,55 +1150,25 @@
             }
             ,
             {
-                "type": "inset", "name": "Variant: Equipment Sizes", "entries": ["In most campaigns, you can use or wear any equipment that you find on your adventures, within the bounds of common sense. For example, a burly half-orc won't fit in a halfling's leather armor, and a gnome would be swallowed up in a cloud giant's elegant robe.", "The DM can impose more realism. For example, a suit of plate armor made for one human might not fit another one without significant alterations, and a guard's uniform might be visibly ill-fitting when an adventurer tries to wear it as a disguise.", "Using this variant, when adventurers find armor, clothing, and similar items that are made to be worn, they might need to visit an armorsmith, tailor, leatherworker, or similar expert to make the item wearable. The cost for such work varies from 10 to 40 percent of the market price of the item. The DM can either roll 1d4 × 10 or determine the increase in cost based on the extent of the alterations required."]
+                "type": "inset", "name": "Alternatif: Ekipman Boyutları", "entries": ["Çoğu kampanyada, maceralarında bulduğun tüm ekipmanları mantık dahilinde giyer ya da kullanırsın. Örneğin, iri yarı bir yarı-ork bir buçukluğun deri zırhına sığmaz, ve bir gnome bir bulut devinin cüppesinde kaybolur.", "DM gerçekçiliği artırabilir. Örneğin, bir insan için yapılan bir plaka zırh üzerinde değişiklikler yapılmadan başkasına uymayabilir, ve bir maceracı kılık değiştirmek için giydiğinde bir bekçinin üniforması bariz bir şekilde bedenine uymayabilir.", "Bu alternatif ile, maceracılar zırh, kıyafet, ve benzeri giyilecek eşyalar bulduğunda, bir zırh ustası, terzi, deri işçisi gibi bir uzmana gidip eşyayı giyilebilecek hale getirebilir. Bu tip bir işin masrafı eşyanın pazar fiyatının yüzde 10 ile 40'ı arasındadır. DM 1d4 atabilir ya da gereken değişikliklere göre fiyatı belirleyebilir."]
             }
             ,
             {
                 "type":"entries",
-                "name":"Light Armor",
-                "entries":["Made from supple and thin materials, light armor favors agile adventurers since it offers some protection without sacrificing mobility. If you wear light armor, you add your Çeviklik modifier to the base number from your armor type to determine your AC.",
+                "name":"Hafif Zırhlar",
+                "entries":["İnce ve esnek materyallerden yapılan hafif zırhlar, hareket gücünü azaltmadan koruma sağladığı için çevik maceracılar tercih eder. Eğer hafif zırh giyiyorsan, AC'ni belirlemek için zırh tipinden gelen taban sayıya Çeviklik bonusunu eklersin.",
                 {
                     "type":"entries",
                     "entries":[ {
-                        "type": "entries", "name": "Padded", "entries": ["Padded armor consists of quilted layers of cloth and batting."]
+                        "type": "entries", "name": "Dolgu", "entries": ["Dolgu zırh, pamuk ve elyaf dolgulu kumaş katmanlarından oluşur."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Leather", "entries": ["The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials."]
+                        "type": "entries", "name": "Deri", "entries": ["Bu zırhın göğüslüğü ve omuz korumaları yağda kaynatılarak sertleştirilmiş deriden yapılır. Zırhın gerisi daha yumuşak ve esnek materyallerden yapılır."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Studded Leather", "entries": ["Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes."]
-                    }
-                    ]
-                }
-                ]
-            }
-            ,
-            {
-                "type":"entries",
-                "name":"orta zırhlar",
-                "entries":["orta zırhlar offers more protection than light armor, but it also impairs movement more. If you wear orta zırhlar, you add your Çeviklik modifier, to a maximum of +2, to the base number from your armor type to determine your AC.",
-                {
-                    "type":"entries",
-                    "entries":[ {
-                        "type": "entries", "name": "Hide", "entries": ["This crude armor consists of thick furs and pelts. It is commonly worn by barbarian tribes, evil humanoids, and other folk who lack access to the tools and materials needed to create better armor."]
-                    }
-                    ,
-                    {
-                        "type": "entries", "name": "Chain Shirt", "entries": ["Made of interlocking metal rings, a chain shirt is worn between layers of clothing or leather. This armor offers modest protection to the wearer's upper body and allows the sound of the rings rubbing against one another to be muffled by outer layers."]
-                    }
-                    ,
-                    {
-                        "type": "entries", "name": "Scale Mail", "entries": ["This armor consists of a coat and leggings (and perhaps a separate skirt) of leather covered with overlapping pieces of metal, much like the scales of a fish. The suit includes gauntlets."]
-                    }
-                    ,
-                    {
-                        "type": "entries", "name": "Breastplate", "entries": ["This armor consists of a fitted metal chest piece worn with supple leather. Although it leaves the legs and arms relatively unprotected, this armor provides good protection for the wearer's vital organs while leaving the wearer relatively unencumbered."]
-                    }
-                    ,
-                    {
-                        "type": "entries", "name": "Half Plate", "entries": ["Half plate consists of shaped metal plates that cover most of the wearer's body. It does not include leg protection beyond simple greaves that are attached with leather straps."]
+                        "type": "entries", "name": "Perçinli Deri", "entries": ["Sert ama esnek deriden yapılan bu zırh, yan yana perçinler veya dikenlerle desteklenmiştir."]
                     }
                     ]
                 }
@@ -1207,24 +1177,28 @@
             ,
             {
                 "type":"entries",
-                "name":"ağır zırhlar",
-                "entries":["Of all the armor categories, ağır zırhlar offers the best protection. These suits of armor cover the entire body and are designed to stop a wide range of attacks. Only proficient warriors can manage their weight and bulk. ağır zırhlar doesn't let you add your Çeviklik modifier to your AC, but it also doesn't penalize you if your Çeviklik modifier is negative.",
+                "name":"Orta zırhlar",
+                "entries":["Orta zırhlar hafiflerden daha fazla koruma sağlarlar, ama hareketi de daha fazla kısıtlarlar. Eğer orta zırh giyiyorsan, AC'ni belirlemek için zırh tipinden gelen taban sayıya maksimum +2 olacak şekilde Çeviklik bonusunu eklersin.",
                 {
                     "type":"entries",
                     "entries":[ {
-                        "type": "entries", "name": "Ring Mail", "entries": ["This armor is leather armor with heavy rings sewn into it. The rings help reinforce the armor against blows from swords and axes. Ring mail is inferior to chain mail, and it's usually worn only by those who can't afford better armor."]
+                        "type": "entries", "name": "Post", "entries": ["Bu kaba zırh kalın kürk ve postlardan oluşur. Yaygın bir şekilde barbar kabileleri, kötü insansılar, ve daha iyi zırh yaratmak için gerekli alet ve materyallere erişimi olmayan diğer halklar tarafından giyilir."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Chain Mail", "entries": ["Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets."]
+                        "type": "entries", "name": "Örme Gömlek", "entries": ["İç içe geçmiş metal halkalardan oluşan bu örme gömlek kıyafet veya deri katmanları arasına giyilir. Bu zırh kullanıcının bedeninin üst kısmına yeterli koruma sağlar ve metal halkaların birbirine sürtmesinden çıkacak sesi de başka katmanlar arasında bulunarak bastırır."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Splint", "entries": [" This armor is made of narrow vertical strips of metal riveted to a backing of leather that is worn over cloth padding. Flexible chain mail protects the joints."]
+                        "type": "entries", "name": "Pullu", "entries": ["Bu zırh bir balığın pulları gibi üst üste binmiş metal katmanlardan oluşan bir kaban ve pantolondan (ya da ayrı bir etek) oluşur. Bu set eldiven de içerir."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Plate", "entries": ["Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body."]
+                        "type": "entries", "name": "Göğüslük", "entries": ["Bu zırh kişiye uygun yapılmış bir göğüslük metal parçadır ve esnek deri ile desteklenmiştir. Kolları ve bacakları göreceli olarak korumasız bıraksa da, bu zırh kullanıcının hayati organlarını onu hantallaştırmadan korur."]
+                    }
+                    ,
+                    {
+                        "type": "entries", "name": "Yarı Plaka", "entries": ["Yarı plaka zırh kullanıcının bedeninin çoğunu koruyan şekilli metal plakalardan oluşur. Deri kayışlarla desteklenmiş çizme ve pantolon dışında bacak koruması yoktur."]
                     }
                     ]
                 }
@@ -1233,22 +1207,48 @@
             ,
             {
                 "type":"entries",
-                "name":"Getting Into and Out of Armor",
-                "entries":["The time it takes to don or doff armor depends on the armor's category.",
+                "name":"Ağır Zırhlar",
+                "entries":["Tüm zırh kategorileri arasından, ağır zırh en iyi korumayı sağlar. Bu zırhlar tüm vücudu korur ve bir çok saldırı şeklini durdurmak için tasarlanmıştır. Sadece uzmanlık sahibi savaşçılar bunun ağırlık ve kütlesi ile başa çıkabilir. Ağır zırhlar AC'ne Çeviklik bonusunu eklemene izin vermez, ama eğer Çeviklik bonusun negatifse bundan dolayı da cezalandırmaz.",
                 {
                     "type":"entries",
                     "entries":[ {
-                        "type": "entries", "name": "Don", "entries": ["This is the time it takes to put on armor. You benefit from the armor's AC only if you take the full time to don the suit of armor."]
+                        "type": "entries", "name": "Halka Örme", "entries": ["Bu zırh üzerine ağır halkalar dikilmiş bir deri zırhtır. Bu halkalar zırhı kılıç ve baltalardan gelen darbelere karşı destekler. Halka örme zırh örme zırha oranla daha kötü kalitededir, ve genellikle daha iyi bir zırha parası yetmeyenler tarafından kullanılır."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Doff", "entries": ["This is the time it takes to take off armor. If you have help, reduce this time by half."]
+                        "type": "entries", "name": "Örme", "entries": ["İç içe geçen metal halkalardan oluşan bu örme zırh, hem sürtmeyi engellesin hem de darbelere karşı korusun diye altında dolgulu bir kumaş katmanı ile giyilir. Bu set eldiven de içerir."]
+                    }
+                    ,
+                    {
+                        "type": "entries", "name": "Lamellar", "entries": ["Bu zırh kumaş dolgu üzerine giyilen deri üzerine perçinlenmiş ince uzun metal plakalardan oluşur. Eklemleri esnek örme zırh korur."]
+                    }
+                    ,
+                    {
+                        "type": "entries", "name": "Plaka", "entries": ["Plaka zırh tüm vücudu koruyan şekillendirilip birbirine geçen plakalardan oluşur. Bir plaka seti eldiven, ağır deri botlar, siperlikli miğfer, ve zırhın altında kalın dolgu içerir. Kopça ve kayışlar ağırlığı vücuda eşit bir şekilde yayar."]
+                    }
+                    ]
+                }
+                ]
+            }
+            ,
+            {
+                "type":"entries",
+                "name":"Zırh Giyme ve Çıkarma",
+                "entries":["Bir zırhı giyme ve çıkarma süresi zırhın kategorisine göre değişir.",
+                {
+                    "type":"entries",
+                    "entries":[ {
+                        "type": "entries", "name": "Giyme", "entries": ["Bu bir zırhı giymek için gereken süredir. Bir zırhın AC'sinden sadece tüm gereken vakti harcayıp giydiğinde faydalanabilirsin."]
+                    }
+                    ,
+                    {
+                        "type": "entries", "name": "Çıkarma", "entries": ["Bu bir zırhı çıkarmak için gereken süredir. Eğer yardım alırsan, bu süreyi yarılarsın."]
                     }
                     ]
                 }
                 ,
                 {
-                    "type": "table", "caption": "Donning and Doffing Armor", "colLabels": ["Category", "Don", "Doff"], "colStyles": ["col-xs-4", "col-xs-4", "col-xs-4"], "rows": [["Light Armor", "1 minute", "1 minute"], ["orta zırhlar", "5 minutes", "1 minute"], ["ağır zırhlar", "10 minutes", "5 minutes"], ["Shield", "1 action", "1 action"]]
+                    "type": "table", "caption": "Zırh Giyme ve Çıkarma", "colLabels": ["Category", "Giyme", "Çıkarma"], "colStyles": ["col-xs-4", "col-xs-4", "col-xs-4"], "rows": [["Hafif Zırhlar", "1 dakika", "1 dakika"], ["Orta Zırhlar", "5 dakika", "1 dakika"], ["Ağır Zırhlar", "10 dakika", "5 dakika"], ["Kalkan", "1 eylem", "1 eylem"]]
                 }
                 ]
             }
@@ -1552,7 +1552,7 @@
             "type":"section",
             "name":"Starting Equipment",
             "entries":["When you create your character, you receive equipment based on a combination of your class and background. Alternatively, you can start with a number of gold pieces based on your class and spend them on items from the lists in this chapter. See the Starting Wealth by Class table to determine how much gold you have to spend.",
-            "You decide how your character came by this starting equipment. It might have been an inheritance, or goods that the character purchased during his or her upbringing. You might have been equipped with a weapon, armor, and a backpack as part of military service. You might even have stolen your gear. A weapon could be a family heirloom, passed down from generation to generation until your character finally took up the mantle and followed in an ancestor's adventurous footsteps.",
+            "You decide how your character came by this starting equipment. It might have been an inheritance, or goods that the character purchased during his or her upbringing. You might have been equipped with a weapon, armor, and bir sırt çantası as part of military service. You might even have stolen your gear. A weapon could be a family heirloom, passed down from generation to generation until your character finally took up the mantle and followed in an ancestor's adventurous footsteps.",
             {
                 "type": "table", "caption": "Starting Wealth by Class", "colLabels": ["Class", "Funds"], "colStyles": ["col-xs-6", "col-xs-6"], "rows": [["Barbarian", "2d4 × 10 gp"], ["Ozan", "5d4 × 10 gp"], ["Rahip", "5d4 × 10 gp"], ["Druid", "2d4 × 10 gp"], ["Fighter", "5d4 × 10 gp"], ["Monk", "5d4 gp"], ["Paladin", "5d4 × 10 gp"], ["Kolcu", "5d4 × 10 gp"], ["Rogue", "4d4 × 10 gp"], ["Sorcerer", "3d4 × 10 gp"], ["Warlock", "4d4 × 10 gp"], ["Wizard", "4d4 × 10 gp"]]
             }
@@ -1580,7 +1580,7 @@
                     }
                     ,
                     {
-                        "type": "entries", "name": "Gaming Set", "entries": ["This item encompasses a wide range of game pieces, including dice and decks of cards (for games such as Three-Dragon Ante). A few common examples appear on the Tools table, but other kinds of gaming sets exist. If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency."]
+                        "type": "entries", "name": "Gaming Set", "entries": ["This item encompasses a wide menzil of game pieces, including dice and decks of cards (for games such as Three-Dragon Ante). A few common examples appear on the Tools table, but other kinds of gaming sets exist. If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency."]
                     }
                     ,
                     {
@@ -1823,266 +1823,266 @@
         ,
         {
             "type":"section",
-            "name":"Weapons",
-            "entries":["Your class grants proficiency in certain weapons, reflecting both the class's focus and the tools you are most likely to use. Whether you favor a longsword or a longbow, your weapon and your ability to wield it effectively can mean the difference between life and death while adventuring.",
-            "The Weapons table shows the most common weapons used in the worlds of D&D, their price and weight, the damage they deal when they hit, and any special properties they possess. Every weapon is classified as either melee or ranged. A melee weapon is used to attack a target within 5 feet of you, whereas a ranged weapon is used to attack a target at a distance.",
+            "name":"Silahlar",
+            "entries":["Sınıfın sana belirli silahlarla uzmanlık verir, bu o sınıfın odağını ve en sık kullanacağın aletleri yansıtır. Tercihin bir uzun kılıç ya da bir uzun yay olabilir, silahını etkili bir şekilde kullanma yeteneğin maceracılıkta yaşam ve ölüm arasındaki fark anlamına gelebilir.",
+            "Silahlar tablosu D&D evrenlerinde en yaygın şekilde kullanılan silahları, değer ve ağırlıklarını, vurduklarında verdikleri hasarı, ve sahip oldukları özellikleri gösterir. Her silah ya yakın dövüş ya da menzilli olarak sınıflandırılır. Bir yakın dövüş silahı 5 fit yakınındaki bir hedefe saldırmak için kullanılır, bir menzilli silah ise uzaktaki bir hedefe saldırmak için.",
             {
                 "type":"table",
-                "caption":"Weapons",
-                "colLabels":["Name",
-                "Cost",
-                "Damage",
-                "Weight",
-                "Properties"],
+                "caption":"Silahlar",
+                "colLabels":["İsim",
+                "Değer",
+                "Hasar",
+                "Ağırlık",
+                "Özellikler"],
                 "colStyles":["col-xs-4",
                 "col-xs-1 text-align-center",
                 "col-xs-2",
                 "col-xs-1 -text-align-right",
                 "col-xs-4"],
-                "rows":[["{@i Simple Melee Weapons}",
+                "rows":[["{@i Basit Yakın Dövüş Silahları}",
                 "",
                 "",
                 "",
                 ""],
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Club", "1 sp", "1d4 bludgeoning", "2 lb.", "Light"]
+                    "type": "row", "style": "row-indent-first", "row": ["Sopa", "1 sp", "1d4 ezme", "2 lb.", "Hafif"]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Dagger", "2 gp", "1d4 piercing", "1 lb.", "Finesse, light, thrown (range 20/60)"]
+                    "type": "row", "style": "row-indent-first", "row": ["Hançer", "2 gp", "1d4 delme", "1 lb.", "Beceri, hafif, fırlatma (menzil 20/60)"]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Greatclub", "2 sp", "1d8 bludgeoning", "10 lb.", "Two-handed"]
+                    "type": "row", "style": "row-indent-first", "row": ["Büyük sopa", "2 sp", "1d8 ezme", "10 lb.", "Çift el"]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Handaxe", "5 gp", "1d6 slashing", "2 lb.", "Light, thrown (range 20/60)"]
+                    "type": "row", "style": "row-indent-first", "row": ["El baltası", "5 gp", "1d6 kesme", "2 lb.", "Hafif, fırlatma (menzil 20/60)"]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Javelin", "5 sp", "1d6 piercing", "2 lb.", "Thrown (range 30/120)"]
+                    "type": "row", "style": "row-indent-first", "row": ["Cirit", "5 sp", "1d6 delme", "2 lb.", "Fırlatma (menzil 30/120)"]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Light hammer", "2 gp", "1d4 bludgeoning", "2 lb.", "Light, thrown (range 20/60)"]
+                    "type": "row", "style": "row-indent-first", "row": ["Hafif çekiç", "2 gp", "1d4 ezme", "2 lb.", "Hafif, fırlatma (menzil 20/60)"]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Mace", "5 gp", "1d6 bludgeoning", "4 lb.", "—"]
+                    "type": "row", "style": "row-indent-first", "row": ["Gürz", "5 gp", "1d6 ezme", "4 lb.", "—"]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Quarterstaff", "2 sp", "1d6 bludgeoning", "4 lb.", "Versatile (1d8)"]
+                    "type": "row", "style": "row-indent-first", "row": ["Değnek", "2 sp", "1d6 ezme", "4 lb.", "Değişken (1d8)"]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Sickle", "1 gp", "1d4 slashing", "2 lb.", "Light"]
+                    "type": "row", "style": "row-indent-first", "row": ["Orak", "1 gp", "1d4 kesme", "2 lb.", "Hafif"]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Spear", "1 gp", "1d6 piercing", "3 lb.", "Thrown (range 20/60), versatile (1d8)"]
+                    "type": "row", "style": "row-indent-first", "row": ["Mızrak", "1 gp", "1d6 delme", "3 lb.", "Fırlatma (menzil 20/60), değişken (1d8)"]
                 }
                 ,
-                ["{@i Simple Ranged Weapons}",
+                ["{@i Basit Menzilli Silahlar}",
                 "",
                 "",
                 "",
                 ""],
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Crossbow, light", "25 gp", "1d8 piercing", "5 lb.", "Ammunition (range 80/320), loading, two-handed"]
+                    "type": "row", "style": "row-indent-first", "row": ["Arbalet, hafif", "25 gp", "1d8 delme", "5 lb.", "Cephane (menzil 80/320), kurmalı, çift el"]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Dart", "5 cp", "1d4 piercing", "1/4 lb.", "Finesse, thrown (range 20/60)"]
+                    "type": "row", "style": "row-indent-first", "row": ["Dart", "5 cp", "1d4 delme", "1/4 lb.", "Beceri, fırlatma (menzil 20/60)"]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Shortbow", "25 gp", "1d6 piercing", "2 lb.", "Ammunition (range 80/320), two-handed"]
+                    "type": "row", "style": "row-indent-first", "row": ["Kısa yay", "25 gp", "1d6 delme", "2 lb.", "Cephane (menzil 80/320), çift el"]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Sling", "1 sp", "1d4 bludgeoning", "—", "Ammunition (range 30/120)"]
+                    "type": "row", "style": "row-indent-first", "row": ["Sapan", "1 sp", "1d4 ezme", "—", "Cephane (menzil 30/120)"]
                 }
                 ,
-                ["{@i Martial Melee Weapons}",
+                ["{@i Askeri Yakın Dövüş Silahları}",
                 "",
                 "",
                 "",
                 ""],
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Battleaxe", "10 gp", "1d8 slashing", "4 lb.", "Versatile (1d10)"]
+                    "type": "row", "style": "row-indent-first", "row": ["Savaş baltası", "10 gp", "1d8 kesme", "4 lb.", "Değişken (1d10)"]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Flail", "10 gp", "1d8 bludgeoning", "2 lb.", "—"]
+                    "type": "row", "style": "row-indent-first", "row": ["Zincirli gürz", "10 gp", "1d8 ezme", "2 lb.", "—"]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Glaive", "20 gp", "1d10 slashing", "6 lb.", "Heavy, reach, two-handed"]
+                    "type": "row", "style": "row-indent-first", "row": ["Kılıçlı kargı", "20 gp", "1d10 kesme", "6 lb.", "Ağır, erişim, çift el"]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Greataxe", "30 gp", "1d12 slashing", "7 lb.", "Heavy, two-handed"]
+                    "type": "row", "style": "row-indent-first", "row": ["Büyük balta", "30 gp", "1d12 kesme", "7 lb.", "Ağır, çift el"]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Greatsword", "50 gp", "2d6 slashing", "6 lb.", "Heavy, two-handed"]
+                    "type": "row", "style": "row-indent-first", "row": ["Büyük kılıç", "50 gp", "2d6 kesme", "6 lb.", "Ağır, çift el"]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Halberd", "20 gp", "1d10 slashing", "6 lb.", "Heavy, reach, two-handed"]
+                    "type": "row", "style": "row-indent-first", "row": ["Baltalı kargı", "20 gp", "1d10 kesme", "6 lb.", "Ağır, erişim, çift el"]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Lance", "10 gp", "1d12 piercing", "6 lb.", "Reach, special"]
+                    "type": "row", "style": "row-indent-first", "row": ["Süvari Mızrağı", "10 gp", "1d12 delme", "6 lb.", "Erişim, özel"]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Longsword", "15 gp", "1d8 slashing", "3 lb.", "Versatile (1d10)"]
+                    "type": "row", "style": "row-indent-first", "row": ["Uzun kılıç", "15 gp", "1d8 kesme", "3 lb.", "Değişken (1d10)"]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Maul", "10 gp", "2d6 bludgeoning", "10 lb.", "Heavy, two-handed"]
+                    "type": "row", "style": "row-indent-first", "row": ["Tokmak", "10 gp", "2d6 ezme", "10 lb.", "Ağır, çift el"]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Morningstar", "15 gp", "1d8 piercing", "4 lb.", "—"]
+                    "type": "row", "style": "row-indent-first", "row": ["Dikenli gürz", "15 gp", "1d8 delme", "4 lb.", "—"]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Pike", "5 gp", "1d10 piercing", "18 lb.", "Heavy, reach, two-handed"]
+                    "type": "row", "style": "row-indent-first", "row": ["Kargı", "5 gp", "1d10 delme", "18 lb.", "Ağır, erişim, çift el"]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Rapier", "25 gp", "1d8 piercing", "2 lb.", "Finesse"]
+                    "type": "row", "style": "row-indent-first", "row": ["Meç", "25 gp", "1d8 delme", "2 lb.", "Beceri"]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Scimitar", "25 gp", "1d6 slashing", "3 lb.", "Finesse, light"]
+                    "type": "row", "style": "row-indent-first", "row": ["Pala", "25 gp", "1d6 kesme", "3 lb.", "Beceri, hafif"]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Shortsword", "10 gp", "1d6 piercing", "2 lb.", "Finesse, light"]
+                    "type": "row", "style": "row-indent-first", "row": ["Kısa kılıç", "10 gp", "1d6 delme", "2 lb.", "Beceri, hafif"]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Trident", "5 gp", "1d6 piercing", "4 lb.", "Thrown (range 20/60), versatile (1d8)"]
+                    "type": "row", "style": "row-indent-first", "row": ["Üç dişli mızrak", "5 gp", "1d6 delme", "4 lb.", "Fırlatma (menzil 20/60), değişken (1d8)"]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["War pick", "5 gp", "1d8 piercing", "2 lb.", "—"]
+                    "type": "row", "style": "row-indent-first", "row": ["Savaş kazması", "5 gp", "1d8 delme", "2 lb.", "—"]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Warhammer", "15 gp", "1d8 bludgeoning", "2 lb.", "Versatile (1d10)"]
+                    "type": "row", "style": "row-indent-first", "row": ["Savaş çekici", "15 gp", "1d8 ezme", "2 lb.", "Değişken (1d10)"]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Whip", "2 gp", "1d4 slashing", "3 lb.", "Finesse, reach"]
+                    "type": "row", "style": "row-indent-first", "row": ["Kırbaç", "2 gp", "1d4 kesme", "3 lb.", "Beceri, erişim"]
                 }
                 ,
-                ["{@i Martial Ranged Weapons}",
+                ["{@i Askeri Menzilli Silahlar}",
                 "",
                 "",
                 "",
                 ""],
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Blowgun", "10 gp", "1 piercing", "1 lb.", "Ammunition (range 25/100), loading"]
+                    "type": "row", "style": "row-indent-first", "row": ["Dart borusu", "10 gp", "1 delme", "1 lb.", "Cephane (menzil 25/100), kurmalı"]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Crossbow, hand", "75 gp", "1d6 piercing", "3 lb.", "Ammunition (range 30/120), light, loading"]
+                    "type": "row", "style": "row-indent-first", "row": ["Arbalet, el", "75 gp", "1d6 delme", "3 lb.", "Cephane (menzil 30/120), hafif, kurmalı"]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Crossbow, heavy", "50 gp", "1d10 piercing", "18 lb.", "Ammunition (range 100/400), heavy, loading, two-handed"]
+                    "type": "row", "style": "row-indent-first", "row": ["Arbalet, ağır", "50 gp", "1d10 delme", "18 lb.", "Cephane (menzil 100/400), ağır, kurmalı, çift el"]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Longbow", "50 gp", "1d8 piercing", "2 lb.", "Ammunition (range 150/600), heavy, two-handed"]
+                    "type": "row", "style": "row-indent-first", "row": ["Uzun yay", "50 gp", "1d8 delme", "2 lb.", "Cephane (menzil 150/600), ağır, çift el"]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Net", "1 gp", "—", "3 lb.", "Special, thrown (range 5/15)"]
+                    "type": "row", "style": "row-indent-first", "row": ["Ağ", "1 gp", "—", "3 lb.", "Özel, fırlatma (menzil 5/15)"]
                 }
                 ]
             }
             ,
             {
-                "type": "entries", "name": "Weapon Proficiency", "entries": ["Your race, class, and feats can grant you proficiency with certain weapons or categories of weapons. The two categories are simple and martial. Most people can use basit silahlar with proficiency. These weapons include clubs, maces, and other weapons often found in the hands of commoners. askeri silahlar, including swords, axes, and polearms, require more specialized training to use effectively. Most warriors use askeri silahlar because these weapons put their fighting style and training to best use.", "Proficiency with a weapon allows you to add your proficiency bonus to the attack roll for any attack you make with that weapon. If you make an attack roll using a weapon with which you lack proficiency, you do not add your proficiency bonus to the attack roll."]
+                "type": "entries", "name": "Silah Uzmanlığı", "entries": ["Irkın, sınıfın, ve hünerlerin sana belirli silahlarla veya silah kategorileriyle uzmanlık verebilir. Bu iki kategori basit ve askeridir. Çoğu kişi basit silahları uzmanlıkla kullanabilir. Bu silahlar sıradan insanların elinde bulunan sopalar, gürzler, ve benzeri silahlardır. Askeri silahlar, kılıçlar, baltalar, ve kargılı silahlarda bunlara dahildir, etkili kullanabilmek için daha uzmanlık isteyen bir eğitim gerektirir. Çoğu savaşçı askeri silah kullanır çünkü bunlar dövüş stilleri ve eğitimlerini ortaya koymak için en iyi aracılardır.", "Bir silahla uzmanlık sahibi olman, o silahla yapacağın saldırı zarlarına uzmanlık bonusunu eklemeni sağlar. Eğer uzmanlık sahibi olmadığın bir silah ile saldırırsan, bu saldırı zarına uzmanlık bonusunu eklemezsin."]
             }
             ,
             {
                 "type":"entries",
-                "name":"Weapon Properties",
-                "entries":["Many weapons have special properties related to their use, as shown in the Weapons table.",
+                "name":"Silah Özellikleri",
+                "entries":["Birçok silah, Silahlar tablosunda gösterildiği üzere kullanımlarına ilişkin özelliklere sahiptir.",
                 {
                     "type":"entries",
                     "entries":[ {
-                        "type": "entries", "name": "Ammunition", "entries": ["You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield. [new paragraph] If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon (see \"Improvised Weapons\" late in the section). A sling must be loaded to deal any damage when used in this way. Loading a one-handed weapon requires a free hand."]
+                        "type": "entries", "name": "Cephane", "entries": ["Cephane özelliği olan bir silahla menzilli saldırıyı sadece o silahtan atacak cephanen varsa kullanabilirsin. Silahla her saldırışında, bir parça cephane harcarsın. Cephaneyi sadak, kutu, veya başka bir kaptan çıkarma saldırının bir parçası sayılır (tek elli bir silahı kurma boş bir el gerektirir). Savaşın sonunda, savaş alanını 1 dakika aradıktan sonra harcanan cephanenin yarısını bulabilirsin. Eğer cephane özelliği olan bir silahı yakın dövüş saldırısı yapmak için kullanırsan, silahı doğaçlama silah sayarsın (aşağıda \"Doğaçlama Silahlar\" kısmı mevcut). Bir sapan bu şekilde kullanılabilmek için dolu olmalıdır."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Finesse", "entries": ["When making an attack with a finesse weapon, you use your choice of your Kuvvet or Çeviklik modifier for the attack and damage rolls. You must use the same modifier for both rolls."]
+                        "type": "entries", "name": "Beceri", "entries": ["Bir beceri silahıyla saldırı yaparken, bunun saldırı ve hasar zarı için Kuvvet ya da Çeviklik bonusunu kullanabilirsin. Her iki zar içinde aynı bonusu kullanırsın."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Heavy", "entries": ["Small creatures have disadvantage on attack rolls with heavy weapons. A heavy weapon's size and bulk make it too large for a Small creature to use effectively."]
+                        "type": "entries", "name": "Ağır", "entries": ["Küçük varlıkların ağır silahlarla saldırı zarları dezavantajlı olur. Bir ağır silahın boyutu ve ağırlığı bunu Küçük boyda bir varlığın etkili bir şekilde kullanmasına engel olur."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Light", "entries": ["A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons. See the rules for two-weapon fighting in chapter 9."]
+                        "type": "entries", "name": "Hafif", "entries": ["Hafif bir silah küçüktür ve kolay tutulur, bu da onu iki silahla birlikte savaşmak için ideal yapar. İlerideki iki silahla savaşma kurallarına bakabilirsin."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Loading", "entries": ["Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make."]
+                        "type": "entries", "name": "Kurmalı", "entries": ["Bu silahı kurmak için gereken zamandan dolayı, normalde yapabileceğin saldırı sayısına bakılmaksızın, eylemini, bonus eylemini, veya reaksiyonunu kullanıp onunla saldırı yaptığında sadece bir saldırı yapabilirsin."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Range", "entries": ["A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's long range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range."]
+                        "type": "entries", "name": "Menzil", "entries": ["Menzilli saldırı için kullanılabilecek bir silah için cephane ya da fırlatma özelliği sonrasında parantez içinde menzili verilir. Verilen menzil iki sayı gösterir. Birinci silahın fit bazında normal menzilidir, ikinci ise silahın uzak menzilidir. Normal menzilin ötesinde bir hedefe saldırırken, saldırı zarlarında dezavantajın olur. Bir silahın uzak menzilinin ötesinde bir hedefe saldıramazsın."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Reach", "entries": ["This weapon adds 5 feet to your reach when you attack with it. This property also determines your reach for opportunity attacks with a reach weapon."]
+                        "type": "entries", "name": "Erişim", "entries": ["Bu silah onunla saldırdığında erişim alanına 5 fit ekler. Bu özellik erişim silahları ile fırsat saldırıları için erişim alanını da belirler."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Special", "entries": [" A weapon with the special property has unusual rules governing its use, explained in the weapon's description (see \"Special Weapons\" later in this section)."]
+                        "type": "entries", "name": "Özel", "entries": ["Özel özelliği bulunan bir silahın kullanımını belirleyen alışılmadık kuralları vardır, bunlar silahın tanımında verilir (aşağıda \"Özel Silahlar\" kısmına bakın)."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Thrown", "entries": ["If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Kuvvet, but if you throw a dagger, you can use either your Kuvvet or your Çeviklik, since the dagger has the finesse property."]
+                        "type": "entries", "name": "Fırlatma", "entries": ["Eğer bir silah fırlatma özelliğine sahipse, bu silahı kullanarak bir menzilli saldırı yapabilirsin. Eğer silah bir yakın dövüş silahıysa, o silahla yakın dövüş saldırısı için saldırı ve hasar zarlarında hangi yetenek bonusunu kullanırsan, bu menzilli saldırı için de aynı yetenek bonusunu kullanırsın. Örneğin, eğer bir el baltası fırlatırsan, Kuvvet kullanırsın, ama bir hançer fırlatırsan, Kuvvet ya da Çeviklik kullanabilirsin, çünkü hançerin beceri özelliği vardır."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Two-Handed", "entries": ["This weapon requires two hands to use. This property is relevant only when you attack with the weapon, not when you simply hold it."]
+                        "type": "entries", "name": "Çift El", "entries": ["Bu silahın kullanımı iki elini de gerektirir. Bu özellik sadece silahla saldırırken dikkate alınır, onu tutarken değil."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Versatile", "entries": ["This weapon can be used with one or two hands. A damage value in parentheses appears with the property-the damage when the weapon is used with two hands to make a melee attack."]
+                        "type": "entries", "name": "Değişken", "entries": ["Bu silah tek ya da çift elle kullanılabilir. Bu özelliğin yanında parantez içinde eğer bu silah yakın dövüş saldırısı için çift elle kullanılırsa vereceği hasar gösterilir."]
                     }
                     ]
                 }
                 ,
                 {
-                    "type": "entries", "name": "Improvised Weapons", "entries": ["Sometimes characters don't have their weapons and have to attack with whatever is close at hand. An improvised weapon includes any object you can wield in one or two hands, such as broken glass, a table leg, a frying pan, a wagon wheel, or a dead goblin.", "In many cases, an improvised weapon is similar to an actual weapon and can be treated as such. For example, a table leg is akin to a club. At the DM's option, a character proficient with a weapon can use a similar object as if it were that weapon and use his or her proficiency bonus.", "An object that bears no resemblance to a weapon deals 1d4 damage (the DM assigns a damage type appropriate to the object). If a character uses a ranged weapon to make a melee attack, or throws a melee weapon that does not have the thrown property, it also deals 1d4 damage. An improvised thrown weapon has a normal range of 20 feet and a long range of 60 feet."]
+                    "type": "entries", "name": "Doğaçlama Silahlar", "entries": ["Bazen karakterlerin silahlarına erişimi olmaz ve yakınında buldukları bir şey ile saldırmak zorunda kalırlar. Bir doğaçlama silah kırık cam, masa bacağı, tava, vagon tekerleği, veya ölü bir goblin gibi tek ya da çift elle tutabileceğin bir nesnedir.", "Çoğu durumda, doğaçlama bir silah gerçek bir silaha yakındır ve o şekilde değerlendirilir. Örneğin, bir masa bacağı sopaya yakındır. DM'in kararı ile bu benzerlikteki silahlarla, bu tip silahlarla uzmanlığı olan bir karakterin sanki o silahı kullanıyormuş gibi uzmanlık bonusu ile saldırabilir.", "Bir silaha benzemeyen bir nesne 1d4 hasar verir (DM nesne tipine göre hasar tipini belirler). Eğer bir karakter menzilli bir silahı yakın dövüş saldırısı yapmak için kullanırsa, ya da fırlatma özelliği olmayan bir silahı fırlatırsa, bunlar da 1d4 hasar verir. Doğaçlama bir fırlatma silahının normal menzili 20 fit, uzak menzili 60 fittir."]
                 }
                 ,
                 {
-                    "type": "entries", "name": "Silvered Weapons", "entries": ["Some monsters that have immunity or resistance to nonmagical weapons are susceptible to silver weapons, so cautious adventurers invest extra coin to plate their weapons with silver. You can silver a single weapon or ten pieces of ammunition for 100 gp. This cost represents not only the price of the silver, but the time and expertise needed to add silver to the weapon without making it less effective."]
+                    "type": "entries", "name": "Gümüş Kaplı Silahlar", "entries": ["Büyüsüz hasara karşı direnci ya da bağışıklığı olan bazı varlıklar gümüş kaplı silahlardan hasar alabilir, bu yüzden dikkatli maceracılar biraz yatırım yapıp silahlarını gümüşle kaplatırlar. Tek bir silahı ya da 10 tane cephaneyi gümüş kaplatma bedeli 100 gpdir. Bu bedel sadece gümüşün değerini değil, silahı daha az etkili hale getirmeden gümüş eklemek için gereken uzmanlığı yansıtır."]
                 }
                 ,
                 {
                     "type":"entries",
-                    "name":"Special Weapons",
-                    "entries":["Weapons with special rules are described here.",
+                    "name":"Özel Silahlar",
+                    "entries":["Özel kuralları olan silahlar burada tanımlanır.",
                     {
-                        "type": "entries", "name": "Lance", "entries": ["You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren't mounted."]
+                        "type": "entries", "name": "Süvari Mızrağı", "entries": ["Süvari mızrağı kullanarak 5 fit yakınındaki bir hedefe yapacağın saldırılarda dezavantajın olur. Ayrıca, binek üzerinde olmadığın sürece süvari mızrağını kullanma iki elini de gerektirir."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Net", "entries": ["A Large or smaller creature hit by a net is restrained until it is freed. A net has no effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a DC 10 Kuvvet check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net. When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make."]
+                        "type": "entries", "name": "Ağ", "entries": ["Büyük veya daha küçük boyda bir varlık ağ ile vurulursa, bir şekilde serbest kalana kadar kısıtlıdır. Ağ cisimsiz, ya da Dev veya daha büyük boyda varlıkları etkilemez. Bir varlık eylemini kullanıp DC 10 Kuvvet zarı atabilir, başarılı olursa kendini ya da erişimindeki başka bir varlığı kurtarır. Ağa 5 kesme hasarı verme (AC 10) varlığa hasar vermeden onu serbest bırakır, etkiyi sonlandırır ve ağı yokeder. Ağ ile, normalde yapabileceğin saldırı sayısına bakılmaksızın, eylemini, bonus eylemini, veya reaksiyonunu kullanıp onunla saldırı yaptığında sadece bir saldırı yapabilirsin."]
                     }
                     ]
                 }
@@ -2142,7 +2142,7 @@
             "name":"Yetenek Skorları and Modifiers",
             "entries":["Each of a creature's abilities has a score, a number that defines the magnitude of that ability. An ability score is not just a measure of innate capabilities, but also encompasses a creature's training and competence in activities related to that ability.",
             "A score of 10 or 11 is the normal human average, but adventurers and many monsters are a cut above average in most abilities. A score of 18 is the highest that a person usually reaches. Adventurers can have scores as high as 20, and monsters and divine beings can have scores as high as 30.",
-            "Each ability also has a modifier, derived from the score and ranging from -5 (for an ability score of 1) to +10 (for a score of 30). The Yetenek Skorları and Modifiers table notes the ability modifiers for the range of possible ability scores, from 1 to 30.",
+            "Each ability also has a modifier, derived from the score and ranging from -5 (for an ability score of 1) to +10 (for a score of 30). The Yetenek Skorları and Modifiers table notes the ability modifiers for the menzil of possible ability scores, from 1 to 30.",
             "To determine an ability modifier without consulting the table, subtract 10 from the ability score and then divide the total by 2 (round down).",
             "Because ability modifiers affect almost every attack roll, ability check, and saving throw, ability modifiers come up in play more often than their associated scores.",
             {
@@ -2152,14 +2152,14 @@
         }
         ,
         {
-            "type": "section", "name": "Advantage and Disadvantage", "entries": ["Sometimes a special ability or spell tells you that you have advantage or disadvantage on an ability check, a saving throw, or an attack roll. When that happens, you roll a second d20 when you make the roll. Use the higher of the two rolls if you have advantage, and use the lower roll if you have disadvantage. For example, if you have disadvantage and roll a 17 and a 5, you use the 5. If you instead have advantage and roll those numbers, you use the 17.", "If multiple situations affect a roll and each one grants advantage or imposes disadvantage on it, you don't roll more than one additional d20. If two favorable situations grant advantage, for example, you still roll only one additional d20.", "If circumstances cause a roll to have both advantage and disadvantage, you are considered to have neither of them, and you roll one d20. This is true even if multiple circumstances impose disadvantage and only one grants advantage or vice versa. In such a situation, you have neither advantage nor disadvantage.", "When you have advantage or disadvantage and something in the game, such as the halfling's Lucky trait, lets you reroll the d20, you can reroll only one of the dice. You choose which one. For example, if a halfling has advantage on an ability check and rolls a 1 and a 13, the halfling could use the Lucky trait to reroll the 1.", "You usually gain advantage or disadvantage through the use of special abilities, actions, or spells. Inspiration (see chapter 4) can also give a character advantage on checks related to the character's personality, ideals, or bonds. The DM can also decide that circumstances influence a roll in one direction or the other and grant advantage or impose disadvantage as a result."]
+            "type": "section", "name": "Advantage and Dezavantaj", "entries": ["Sometimes a special ability or spell tells you that you have advantage or disadvantage on an ability check, a saving throw, or an attack roll. When that happens, you roll a second d20 when you make the roll. Use the higher of the two rolls if you have advantage, and use the lower roll if you have disadvantage. For example, if you have disadvantage and roll a 17 and a 5, you use the 5. If you instead have advantage and roll those numbers, you use the 17.", "If multiple situations affect a roll and each one grants advantage or imposes disadvantage on it, you don't roll more than one additional d20. If two favorable situations grant advantage, for example, you still roll only one additional d20.", "If circumstances cause a roll to have both advantage and disadvantage, you are considered to have neither of them, and you roll one d20. This is true even if multiple circumstances impose disadvantage and only one grants advantage or vice versa. In such a situation, you have neither advantage nor disadvantage.", "When you have advantage or disadvantage and something in the game, such as the halfling's Lucky trait, lets you reroll the d20, you can reroll only one of the dice. You choose which one. For example, if a halfling has advantage on an ability check and rolls a 1 and a 13, the halfling could use the Lucky trait to reroll the 1.", "You usually gain advantage or disadvantage through the use of special abilities, actions, or spells. Inspiration (see chapter 4) can also give a character advantage on checks related to the character's personality, ideals, or bonds. The DM can also decide that circumstances influence a roll in one direction or the other and grant advantage or impose disadvantage as a result."]
         }
         ,
         {
             "type":"section",
             "name":"Casting a Spell",
             "entries":["When a character casts any spell, the same basic rules are followed, regardless of the character's class or the spell's effects.",
-            "Each spell description in chapter 11 begins with a block of information, including the spell's name, level, school of magic, casting time, range, components, and duration. The rest of a spell entry describes the spell's effect.",
+            "Each spell description in chapter 11 begins with a block of information, including the spell's name, level, school of magic, casting time, menzil, components, and duration. The rest of a spell entry describes the spell's effect.",
             {
                 "type": "inset", "name": "Casting in Armor", "entries": ["Because of the mental focus and precise gestures required for spellcasting, you must be proficient with the armor you are wearing to cast a spell. You are otherwise too distracted and physically hampered by your armor for spellcasting."]
             }
@@ -2177,13 +2177,13 @@
                 }
                 ,
                 {
-                    "type": "entries", "name": "Longer Casting Times", "entries": ["Certain spells (including spells cast as rituals) require more time to cast: minutes or even hours. When you cast a spell with a casting time longer than a single action or reaction, you must spend your action each turn casting the spell, and you must maintain your concentration while you do so (see \"Concentration\" below). If your concentration is broken, the spell fails, but you don't expend a spell slot. If you want to try casting the spell again, you must start over."]
+                    "type": "entries", "name": "Longer Casting Times", "entries": ["Certain spells (including spells cast as rituals) require more time to cast: dakika or even hours. When you cast a spell with a casting time longer than a single action or reaction, you must spend your action each turn casting the spell, and you must maintain your concentration while you do so (see \"Concentration\" below). If your concentration is broken, the spell fails, but you don't expend a spell slot. If you want to try casting the spell again, you must start over."]
                 }
                 ]
             }
             ,
             {
-                "type": "entries", "name": "Range", "entries": ["The target of a spell must be within the spell's range. For a spell like magic missile, the target is a creature. For a spell like fireball, the target is the point in space where the ball of fire erupts.", "Most spells have ranges expressed in feet. Some spells can target only a creature (including you) that you touch. Other spells, such as the shield spell, affect only you. These spells have a range of self.", "Spells that create cones or lines of effect that originate from you also have a range of self, indicating that the origin point of the spell's effect must be you (see \"Areas of Effect\" later in the this chapter).", "Once a spell is cast, its effects aren't limited by its range, unless the spell's description says otherwise."]
+                "type": "entries", "name": "Range", "entries": ["The target of a spell must be within the spell's menzil. For a spell like magic missile, the target is a creature. For a spell like fireball, the target is the point in space where the ball of fire erupts.", "Most spells have ranges expressed in feet. Some spells can target only a creature (including you) that you touch. Other spells, such as the shield spell, affect only you. These spells have a menzil of self.", "Spells that create cones or lines of effect that originate from you also have a menzil of self, indicating that the origin point of the spell's effect must be you (see \"Areas of Effect\" later in the this chapter).", "Once a spell is cast, its effects aren't limited by its menzil, unless the spell's description says otherwise."]
             }
             ,
             {
@@ -2207,7 +2207,7 @@
             {
                 "type":"entries",
                 "name":"Duration",
-                "entries":["A spell's duration is the length of time the spell persists. A duration can be expressed in rounds, minutes, hours, or even years. Some spells specify that their effects last until the spells are dispelled or destroyed.",
+                "entries":["A spell's duration is the length of time the spell persists. A duration can be expressed in rounds, dakika, hours, or even years. Some spells specify that their effects last until the spells are dispelled or destroyed.",
                 {
                     "type": "entries", "name": "Instantaneous", "entries": ["Many spells are instantaneous. The spell harms, heals, creates, or alters a creature or an object in a way that can't be dispelled, because its magic exists only for an instant."]
                 }
@@ -2321,7 +2321,7 @@
             }
             ,
             {
-                "type": "entries", "name": "The Weave of Magic", "entries": ["The words within the D&D multiverse are magical places. All existence is suffused with magical power, and potential energy lies untapped in every rock, stream, and living creature, the mute and mindless will of existence, permeating every bit of matter and present in every manifestation of energy throughout the multiverse.", "Mortals can't directly shape this raw magic. Instead, they make use of a fabric of magic, a kind of interface between the will of a spellcaster and the stuff of raw magic. The spellcasters of the Forgotten Realms call it the Weave and recognize its essence as the goddess Mystra, but casters have varied ways of naming and visualizing this interface.", "By any name, without the Weave, raw magic is locked away and inaccessible; the most powerful archmage can't light a candle with magic in an area where the Weave has been torn. But surrounded by the Weave, a spellcaster can shape lightning to blast foes, transport hundreds of miles in the blink of an eye, or even reverse death itself.", "All magic depends on the Weave, though different kinds of magic access it in a variety of ways. The spells of wizards, warlocks, sorcerers, and bards are commonly called {@b arcane magic}. These spells rely on an understanding—learned or intuitive—of the workings of the Weave. The caster plucks directly at the strands of the Weave to create the desired effect. Eldritch knights and arcane tricksters also use arcane magic. The spells of clerics, druids, paladins, and rangers are called {@b divine magic}. These spellcasters' access to the Weave is mediated by divine power—gods, the divine forces of nature, or the sacred weight of a paladin's oath.", "Whenever a magic effect is created, the threads of the Weave intertwine, twist, and fold to make the effect possible.", "When characters use divination spells such as {@i detect magic} or {@i identify}, they glimpse the Weave. A spell such as {@i dispel magic} smooths the Weave. Spells such as {@i antimagic field} rearrange the Weave so that magic flows around, rather than through the area affected by the spell. And in places where the Weave is damaged or torn, magic works in unpredictable ways—or not at all."]
+                "type": "entries", "name": "The Weave of Magic", "entries": ["The words within the D&D multiverse are magical places. All existence is suffused with magical power, and potential energy lies untapped in every rock, stream, and living creature, the mute and mindless will of existence, permeating every bit of matter and present in every manifestation of energy throughout the multiverse.", "Mortals can't directly shape this raw magic. Instead, they make use of a fabric of magic, a kind of interface between the will of a spellcaster and the stuff of raw magic. The spellcasters of the Forgotten Realms call it the Weave and recognize its essence as the goddess Mystra, but casters have varied ways of naming and visualizing this interface.", "By any name, without the Weave, raw magic is locked away and inaccessible; the most powerful archmage can't hafif a candle with magic in an area where the Weave has been torn. But surrounded by the Weave, a spellcaster can shape lightning to blast foes, transport hundreds of miles in the blink of an eye, or even reverse death itself.", "All magic depends on the Weave, though different kinds of magic access it in a variety of ways. The spells of wizards, warlocks, sorcerers, and bards are commonly called {@b arcane magic}. These spells rely on an understanding—learned or intuitive—of the workings of the Weave. The caster plucks directly at the strands of the Weave to create the desired effect. Eldritch knights and arcane tricksters also use arcane magic. The spells of clerics, druids, paladins, and rangers are called {@b divine magic}. These spellcasters' access to the Weave is mediated by divine power—gods, the divine forces of nature, or the sacred weight of a paladin's oath.", "Whenever a magic effect is created, the threads of the Weave intertwine, twist, and fold to make the effect possible.", "When characters use divination spells such as {@i detect magic} or {@i identify}, they glimpse the Weave. A spell such as {@i dispel magic} smooths the Weave. Spells such as {@i antimagic field} rearrange the Weave so that magic flows around, rather than through the area affected by the spell. And in places where the Weave is damaged or torn, magic works in unpredictable ways—or not at all."]
             }
             ]
         }
@@ -2369,7 +2369,7 @@
         }
         ,
         {
-            "type": "section", "name": "Falling", "entries": ["A fall from a great height is one of the most common hazards facing an adventurer.", "At the end of a fall, a creature takes 1d6 bludgeoning damage for every 10 feet it fell, to a maximum of 20d6. The creature lands prone, unless it avoids taking damage from the fall."]
+            "type": "section", "name": "Falling", "entries": ["A fall from a great height is one of the most common hazards facing an adventurer.", "At the end of a fall, a creature takes 1d6 ezme damage for every 10 feet it fell, to a maximum of 20d6. The creature lands prone, unless it avoids taking damage from the fall."]
         }
         ,
         {
@@ -2411,7 +2411,7 @@
                 "type":"entries",
                 "name":"The D20",
                 "entries":["Does an adventurer's sword swing hurt a dragon or just bounce off its iron-hard scales? Will the ogre believe an outrageous bluff? Can a character swim across a raging river? Can a character avoid the main blast of a fireball, or does he or she take full damage from the blaze? In cases where the outcome of an action is uncertain, the Dungeons & Dragons game relies on rolls of a 20-sided die, a d20, to determine success or failure.",
-                "Every character and monster in the game has capabilities defined by six {@b ability scores}. The abilities are Kuvvet, Çeviklik, Dayanıklılık, Zeka, Akıl, and Karizma, and they typically range from 3 to 18 for most adventurers. (Monsters might have scores as low as 1 or as high as 30.) These ability scores, and the ability modifiers derived from them, are the basis for almost every d20 roll that a player makes on a character's or monster's behalf.",
+                "Every character and monster in the game has capabilities defined by six {@b ability scores}. The abilities are Kuvvet, Çeviklik, Dayanıklılık, Zeka, Akıl, and Karizma, and they typically menzil from 3 to 18 for most adventurers. (Monsters might have scores as low as 1 or as high as 30.) These ability scores, and the ability modifiers derived from them, are the basis for almost every d20 roll that a player makes on a character's or monster's behalf.",
                 "Ability checks, attack rolls, and saving throws are the three main kinds of d20 rolls, forming the core of the rules of the game. All three follow these simple steps.",
                 "{@b 1. Roll the die and add a modifier.} Roll a d20 and add the relevant modifier. This is typically the modifier derived from one of the six ability scores, and it sometimes includes a proficiency bonus to reflect a character's particular skill. (See chapter 1 for details on each ability and how to determine an ability's modifier.)",
                 "{@b 2. Apply circumstantial bonuses and penalties.} A class feature, a spell, a particular circumstance, or some other effect might give a bonus or penalty to the check.",
@@ -2421,7 +2421,7 @@
             }
             ,
             {
-                "type": "entries", "name": "Advantage and Disadvantage", "entries": ["Sometimes an ability check, attack roll, or saving throw is modified by special situations called advantage and disadvantage. Advantage reflects the positive circumstances surrounding a d20 roll, while disadvantage reflects the opposite. When you have either advantage or disadvantage, you roll a second d20 when you make the roll. Use the higher of the two rolls if you have advantage, and use the lower roll if you have disadvantage. For example, if you have disadvantage and roll a 17 and a 5, you use the 5. If you instead have advantage and roll those numbers, you use the 17.", "More detailed rules for advantage and disadvantage are presented in chapter 7."]
+                "type": "entries", "name": "Advantage and Dezavantaj", "entries": ["Sometimes an ability check, attack roll, or saving throw is modified by special situations called advantage and disadvantage. Advantage reflects the positive circumstances surrounding a d20 roll, while disadvantage reflects the opposite. When you have either advantage or disadvantage, you roll a second d20 when you make the roll. Use the higher of the two rolls if you have advantage, and use the lower roll if you have disadvantage. For example, if you have disadvantage and roll a 17 and a 5, you use the 5. If you instead have advantage and roll those numbers, you use the 17.", "More detailed rules for advantage and disadvantage are presented in chapter 7."]
             }
             ,
             {
@@ -2473,7 +2473,7 @@
             }
             ,
             {
-                "type": "entries", "name": "Long Rest", "entries": ["A long rest is a period of extended downtime, at least 8 hours long, during which a character sleeps or performs light activity: reading, talking, eating, or standing watch for no more than 2 hours. If the rest is interrupted by a period of strenuous activity—at least 1 hour of walking, fighting, casting spells, or similar adventuring activity, the characters must begin the rest again to gain any benefit from it.", "At the end of a long rest, a character regains all lost HP. The character also regains spent HD, up to a number of dice equal to half of the character's total number of them. You regain at least 1 Hit Die when you finish a long rest.", "For example, if a character has eight HD, he or she can regain four spent HD upon finishing a long rest.", "A character can't benefit from more than one long rest in a 24-hour period, and a character must have at least 1 hit point at the start of the rest to gain its benefits."]
+                "type": "entries", "name": "Long Rest", "entries": ["A long rest is a period of extended downtime, at least 8 hours long, during which a character sleeps or performs hafif activity: reading, talking, eating, or standing watch for no more than 2 hours. If the rest is interrupted by a period of strenuous activity—at least 1 hour of walking, fighting, casting spells, or similar adventuring activity, the characters must begin the rest again to gain any benefit from it.", "At the end of a long rest, a character regains all lost HP. The character also regains spent HD, up to a number of dice equal to half of the character's total number of them. You regain at least 1 Hit Die when you finish a long rest.", "For example, if a character has eight HD, he or she can regain four spent HD upon finishing a long rest.", "A character can't benefit from more than one long rest in a 24-hour period, and a character must have at least 1 hit point at the start of the rest to gain its benefits."]
             }
             ]
         }
@@ -2485,7 +2485,7 @@
         {
             "type":"section",
             "name":"Skills",
-            "entries":["Each ability covers a broad range of capabilities, including skills that a character or a monster can be proficient in. A skill represents a specific aspect of an ability score, and an individual's proficiency in a skill demonstrates a focus on that aspect. (A character's starting skill proficiencies are determined at character creation, and a monster's skill proficiencies appear in the monster's stat block.)",
+            "entries":["Each ability covers a broad menzil of capabilities, including skills that a character or a monster can be proficient in. A skill represents a specific aspect of an ability score, and an individual's proficiency in a skill demonstrates a focus on that aspect. (A character's starting skill proficiencies are determined at character creation, and a monster's skill proficiencies appear in the monster's stat block.)",
             "For example, a Çeviklik check might reflect a character's attempt to pull off an acrobatic stunt, to palm an object, or to stay hidden. Each of these aspects of Çeviklik has an associated skill: Akrobasi, El Çabukluğu, and Gizlenme, respectively. So a character who has proficiency in the Gizlenme skill is particularly good at Çeviklik checks related to sneaking and hiding.",
             "The skills related to each ability score are shown in the following list. (No skills are related to Dayanıklılık.) See an ability's description in the later sections of this chapter for examples of how to use a skill associated with an ability.",
             {
@@ -2501,7 +2501,7 @@
         }
         ,
         {
-            "type": "section", "name": "Suffocating", "entries": ["A creature can hold its breath for a number of minutes equal to 1 + its Dayanıklılık modifier (minimum of 30 seconds).", "When a creature runs out of breath, it can survive for a number of rounds equal to its Dayanıklılık modifier (minimum 1 round). At the start of its next turn, it drops to 0 HP and is dying.", "If you run out of breath, you can't regain HP or be stabilized until you can breathe again.", "For example, a creature with a Dayanıklılık of 14 can hold its breath for 3 minutes. If it starts suffocating, it has 2 rounds to reach air before it drops to 0 HP."]
+            "type": "section", "name": "Suffocating", "entries": ["A creature can hold its breath for a number of dakika equal to 1 + its Dayanıklılık modifier (minimum of 30 seconds).", "When a creature runs out of breath, it can survive for a number of rounds equal to its Dayanıklılık modifier (minimum 1 round). At the start of its next turn, it drops to 0 HP and is dying.", "If you run out of breath, you can't regain HP or be stabilized until you can breathe again.", "For example, a creature with a Dayanıklılık of 14 can hold its breath for 3 dakika. If it starts suffocating, it has 2 rounds to erişim air before it drops to 0 HP."]
         }
         ,
         {
@@ -2539,7 +2539,7 @@
                 }
                 ,
                 {
-                    "type": "entries", "name": "Attack Rolls and Damage", "entries": ["You add your Kuvvet modifier to your attack roll and your damage roll when attacking with a melee weapon such as a mace, a battleaxe, or a javelin. You use melee weapons to make melee attacks in hand-to-hand combat, and some of them can be thrown to make a ranged attack."]
+                    "type": "entries", "name": "Attack Rolls and Damage", "entries": ["You add your Kuvvet modifier to your attack roll and your damage roll when attacking with a melee weapon such as a mace, a battleaxe, or a javelin. You use melee weapons to make melee attacks in hand-to-hand combat, and some of them can be fırlatma to make a ranged attack."]
                 }
                 ,
                 {
@@ -2599,7 +2599,7 @@
                 }
                 ,
                 {
-                    "type": "entries", "name": "Attack Rolls and Damage", "entries": ["You add your Çeviklik modifier to your attack roll and your damage roll when attacking with a ranged weapon, such as a sling or a longbow. You can also add your Çeviklik modifier to your attack roll and your damage roll when attacking with a melee weapon that has the finesse property, such as a dagger or a rapier."]
+                    "type": "entries", "name": "Attack Rolls and Damage", "entries": ["You add your Çeviklik modifier to your attack roll and your damage roll when attacking with a ranged weapon, such as a sling or a longbow. You can also add your Çeviklik modifier to your attack roll and your damage roll when attacking with a melee weapon that has the beceri property, such as a dagger or a rapier."]
                 }
                 ,
                 {
@@ -2647,7 +2647,7 @@
                 }
                 ,
                 {
-                    "type": "entries", "name": "HP", "entries": ["Your Dayanıklılık modifier contributes to your HP. Typically, you add your Dayanıklılık modifier to each Hit Die you roll for your HP.", "If your Dayanıklılık modifier changes, your hit point maximum changes as well, as though you had the new modifier from 1st level. For example, if you raise your Dayanıklılık score when you reach 4th level and your Dayanıklılık modifier increases from +1 to +2, you adjust your hit point maximum as though the modifier had always been +2. So you add 3 HP for your first three levels, and then roll your HP for 4th level using your new modifier. Or if you're 7th level and some effect lowers your Dayanıklılık score so as to reduce your Dayanıklılık modifier by 1, your hit point maximum is reduced by 7."]
+                    "type": "entries", "name": "HP", "entries": ["Your Dayanıklılık modifier contributes to your HP. Typically, you add your Dayanıklılık modifier to each Hit Die you roll for your HP.", "If your Dayanıklılık modifier changes, your hit point maximum changes as well, as though you had the new modifier from 1st level. For example, if you raise your Dayanıklılık score when you erişim 4th level and your Dayanıklılık modifier increases from +1 to +2, you adjust your hit point maximum as though the modifier had always been +2. So you add 3 HP for your first three levels, and then roll your HP for 4th level using your new modifier. Or if you're 7th level and some effect lowers your Dayanıklılık score so as to reduce your Dayanıklılık modifier by 1, your hit point maximum is reduced by 7."]
                 }
                 ]
             }
@@ -2795,24 +2795,24 @@
         ,
         {
             "type":"section",
-            "name":"Vision and Light",
+            "name":"Vision and Hafif",
             "entries":["The most fundamental tasks of adventuring—noticing danger, finding hidden objects, hitting an enemy in combat, and targeting a spell, to name just a few—rely heavily on a character's ability to see. Darkness and other effects that obscure vision can prove a significant hindrance.",
-            "A given area might be lightly or heavily obscured. In a {@b lightly obscured} area, such as dim light, patchy fog, or moderate foliage, creatures have disadvantage on Akıl (Algı) checks that rely on sight.",
+            "A given area might be lightly or heavily obscured. In a {@b lightly obscured} area, such as dim hafif, patchy fog, or moderate foliage, creatures have disadvantage on Akıl (Algı) checks that rely on sight.",
             "{@b A heavily obscured} area—such as darkness, opaque fog, or dense foliage—blocks vision entirely. A creature in a heavily obscured area effectively suffers from the blinded condition (see the appendix). A heavily obscured area doesn't blind you, but you are effectively blinded when you try to see something obscured by it.",
-            "The presence or absence of light in an environment creates three categories of illumination: bright light, dim light, and darkness.",
-            "{@b Bright light} lets most creatures see normally. Even gloomy days provide bright light, as do torches, lanterns, fires, and other sources of illumination within a specific radius.",
-            "{@b Dim light}, also called shadows, creates a lightly obscured area. An area of dim light is usually a boundary between a source of bright light, such as a torch, and surrounding darkness. The soft light of twilight and dawn also counts as dim light. A particularly brilliant full moon might bathe the land in dim light.",
+            "The presence or absence of hafif in an environment creates three categories of illumination: bright hafif, dim hafif, and darkness.",
+            "{@b Bright hafif} lets most creatures see normally. Even gloomy days provide bright hafif, as do meşale, lanterns, fires, and other sources of illumination within a specific radius.",
+            "{@b Dim hafif}, also called shadows, creates a lightly obscured area. An area of dim hafif is usually a boundary between a source of bright hafif, such as a torch, and surrounding darkness. The soft hafif of twilight and dawn also counts as dim hafif. A particularly brilliant full moon might bathe the land in dim hafif.",
             "{@b Darkness} creates a heavily obscured area. Characters face darkness outdoors at night (even most moonlit nights), within the confines of an unlit dungeon or a subterranean vault, or in an area of magical darkness.",
             {
                 "type": "entries", "name": "Blindsight", "entries": ["A creature with blindsight can perceive its surroundings without relying on sight, within a specific radius.", "Creatures without eyes, such as oozes, and creatures with echolocation or heightened senses, such as bats and true dragons, have this sense."]
             }
             ,
             {
-                "type": "entries", "name": "Darkvision", "entries": ["Many creatures in the worlds of D&D, especially those that dwell underground, have darkvision. Within a specified range, the creature can see in dim light within 60 feet of them as if it were bright light, and in darkness as if it were dim light. However, the creature can't discern color in darkness, only shades of gray."]
+                "type": "entries", "name": "Darkvision", "entries": ["Many creatures in the worlds of D&D, especially those that dwell underground, have darkvision. Within a specified menzil, the creature can see in dim hafif within 60 feet of them as if it were bright hafif, and in darkness as if it were dim hafif. However, the creature can't discern color in darkness, only shades of gray."]
             }
             ,
             {
-                "type": "entries", "name": "Truesight", "entries": ["A creature with truesight can, out to a specific range, see in normal and magical darkness, see invisible creatures and objects, automatically detect visual illusions and succeed on saving throws against them, and perceive the original form of a shapechanger or a creature that is transformed by magic. Furthermore, the creature can see into the Ethereal Plane."]
+                "type": "entries", "name": "Truesight", "entries": ["A creature with truesight can, out to a specific menzil, see in normal and magical darkness, see invisible creatures and objects, automatically detect visual illusions and succeed on saving throws against them, and perceive the original form of a shapechanger or a creature that is transformed by magic. Furthermore, the creature can see into the Ethereal Plane."]
             }
             ]
         }
@@ -2831,7 +2831,7 @@
             }
             ,
             {
-                "type": "entries", "name": "Cast a Spell", "entries": ["Spellcasters such as wizards and clerics, as well as many monsters, have access to spells and can use them to great effect in combat. Each spell has a casting time, which specifies whether the caster must use an action, a reaction, minutes, or even hours to cast the spell. Casting a spell is, therefore, not necessarily an action. Most spells do have a casting time of 1 action, so a spellcaster often uses his or her action in combat to cast such a spell. See chapter 10 for the rules on spellcasting."]
+                "type": "entries", "name": "Cast a Spell", "entries": ["Spellcasters such as wizards and clerics, as well as many monsters, have access to spells and can use them to great effect in combat. Each spell has a casting time, which specifies whether the caster must use an action, a reaction, dakika, or even hours to cast the spell. Casting a spell is, therefore, not necessarily an action. Most spells do have a casting time of 1 action, so a spellcaster often uses his or her action in combat to cast such a spell. See chapter 10 for the rules on spellcasting."]
             }
             ,
             {
@@ -2873,7 +2873,7 @@
         }
         ,
         {
-            "type": "section", "name": "Cover", "entries": ["Walls, trees, creatures, and other obstacles can provide cover during combat, making a target more difficult to harm. A target can benefit from cover only when an attack or other effect originates on the opposite side of the cover.", "There are three degrees of cover. If a target is behind multiple sources of cover, only the most protective degree of cover applies; the degrees aren't added together. For example, if a target is behind a creature that gives half cover and a tree trunk that gives three-quarters cover, the target has three-quarters cover.", "A target with {@b half cover} has a +2 bonus to AC and Çeviklik saving throws. A target has half cover if an obstacle blocks at least half of its body. The obstacle might be a low wall, a large piece of furniture, a narrow tree trunk, or a creature, whether that creature is an enemy or a friend.", "A target with {@b three-quarters} cover has a +5 bonus to AC and Çeviklik saving throws. A target has three-quarters cover if about three-quarters of it is covered by an obstacle. The obstacle might be a portcullis, an arrow slit, or a thick tree trunk.", "A target with {@b total cover} can't be targeted directly by an attack or a spell, although some spells can reach such a target by including it in an area of effect. A target has total cover if it is completely concealed by an obstacle."]
+            "type": "section", "name": "Cover", "entries": ["Walls, trees, creatures, and other obstacles can provide cover during combat, making a target more difficult to harm. A target can benefit from cover only when an attack or other effect originates on the opposite side of the cover.", "There are three degrees of cover. If a target is behind multiple sources of cover, only the most protective degree of cover applies; the degrees aren't added together. For example, if a target is behind a creature that gives half cover and a tree trunk that gives three-quarters cover, the target has three-quarters cover.", "A target with {@b half cover} has a +2 bonus to AC and Çeviklik saving throws. A target has half cover if an obstacle blocks at least half of its body. The obstacle might be a low wall, a large piece of furniture, a narrow tree trunk, or a creature, whether that creature is an enemy or a friend.", "A target with {@b three-quarters} cover has a +5 bonus to AC and Çeviklik saving throws. A target has three-quarters cover if about three-quarters of it is covered by an obstacle. The obstacle might be a portcullis, an arrow slit, or a thick tree trunk.", "A target with {@b total cover} can't be targeted directly by an attack or a spell, although some spells can erişim such a target by including it in an area of effect. A target has total cover if it is completely concealed by an obstacle."]
         }
         ,
         {
@@ -2904,7 +2904,7 @@
                     }
                     ,
                     {
-                        "type": "entries", "name": "Bludgeoning", "entries": [" Blunt force attacks—hammers, falling, constriction, and the like—deal bludgeoning damage."]
+                        "type": "entries", "name": "Bludgeoning", "entries": [" Blunt force attacks—hammers, falling, constriction, and the like—deal ezme damage."]
                     }
                     ,
                     {
@@ -2928,7 +2928,7 @@
                     }
                     ,
                     {
-                        "type": "entries", "name": "Piercing", "entries": [" Puncturing and impaling attacks, including spears and monsters' bites, deal piercing damage."]
+                        "type": "entries", "name": "Piercing", "entries": [" Puncturing and impaling attacks, including spears and monsters' bites, deal delme damage."]
                     }
                     ,
                     {
@@ -2944,7 +2944,7 @@
                     }
                     ,
                     {
-                        "type": "entries", "name": "Slashing", "entries": [" Swords, axes, and monsters' claws deal slashing damage."]
+                        "type": "entries", "name": "Slashing", "entries": [" Swords, axes, and monsters' claws deal kesme damage."]
                     }
                     ,
                     {
@@ -2960,7 +2960,7 @@
                 "name":"Damage Resistance and Vulnerability",
                 "entries":["Some creatures and objects are exceedingly difficult or unusually easy to hurt with certain types of damage.",
                 "If a creature or an object has {@b resistance} to a damage type, damage of that type is halved against it. If a creature or an object has {@b vulnerability} to a damage type, damage of that type is doubled against it.",
-                "Resistance and then vulnerability are applied after all other modifiers to damage. For example, a creature has resistance to bludgeoning damage and is hit by an attack that deals 25 bludgeoning damage. The creature is also within a magical aura that reduces all damage by 5. The 25 damage is first reduced by 5 and then halved, so the creature takes 10 damage.",
+                "Resistance and then vulnerability are applied after all other modifiers to damage. For example, a creature has resistance to ezme damage and is hit by an attack that deals 25 ezme damage. The creature is also within a magical aura that reduces all damage by 5. The 25 damage is first reduced by 5 and then halved, so the creature takes 10 damage.",
                 "Describing the Effects of Damage",
                 "Dungeon Masters describe hit point loss in different ways.",
                 "When your current hit point total is half or more of your hit point maximum, you typically show no signs of injury. When you drop below half your hit point maximum, you show signs of injury. When you drop below half of your hit point maximum, you show signs of wear, such as cuts and bruises. An attack that reduces you to 0 HP strikes you directly, leaving a bleeding injury or other trauma, or it simply knocks you unconscious.",
@@ -3017,12 +3017,12 @@
         {
             "type":"section",
             "name":"Making an Attack",
-            "entries":["Whether you're striking with a melee weapon, firing a weapon at range, or making an attack roll as part of a spell, an attack has a simple structure.",
+            "entries":["Whether you're striking with a melee weapon, firing a weapon at menzil, or making an attack roll as part of a spell, an attack has a simple structure.",
             {
                 "type":"list",
                 "style":"list-hang-notitle",
                 "items":[ {
-                    "type": "item", "name": "1. Choose a target.", "entry": "Pick a target within your attack's range: a creature, an object, or a location."
+                    "type": "item", "name": "1. Choose a target.", "entry": "Pick a target within your attack's menzil: a creature, an object, or a location."
                 }
                 ,
                 {
@@ -3045,7 +3045,7 @@
                     "name":"Modifiers to the Roll",
                     "entries":["When a character makes an attack roll, the two most common modifiers to the roll are an ability modifier and the character's proficiency bonus. When a monster makes an attack roll, it uses whatever modifier is provided in its stat block.",
                     {
-                        "type": "entries", "name": "Ability Modifier", "entries": [" The ability modifier used for a melee weapon attack is Kuvvet, and the ability modifier used for a ranged weapon attack is Çeviklik. Weapons that have the finesse or thrown property break this rule.", "Some spells also require an attack roll. The ability modifier used for a spell attack depends on the spellcasting ability of the spellcaster, as explained in chapter 10."]
+                        "type": "entries", "name": "Ability Modifier", "entries": [" The ability modifier used for a melee weapon attack is Kuvvet, and the ability modifier used for a ranged weapon attack is Çeviklik. Weapons that have the beceri or fırlatma property break this rule.", "Some spells also require an attack roll. The ability modifier used for a spell attack depends on the spellcasting ability of the spellcaster, as explained in chapter 10."]
                     }
                     ,
                     {
@@ -3069,7 +3069,7 @@
                 "name":"Ranged Attacks",
                 "entries":["When you make a ranged attack, you fire a bow or a crossbow, hurl a handaxe, or otherwise send projectiles to strike a foe at a distance. A monster might shoot spines from its tail. Many spells also involve making a ranged attack.",
                 {
-                    "type": "entries", "name": "Range", "entries": ["You can make ranged attacks only against targets within a specified range.", "If a ranged attack, such as one made with a spell, has a single range, you can't attack a target beyond this range.", "Some ranged attacks, such as those made with a longbow or a shortbow, have two ranges. The smaller number is the normal range, and the larger number is the long range. Your attack roll has disadvantage when your target is beyond normal range, and you can't attack a target beyond the long range."]
+                    "type": "entries", "name": "Range", "entries": ["You can make ranged attacks only against targets within a specified menzil.", "If a ranged attack, such as one made with a spell, has a single menzil, you can't attack a target beyond this menzil.", "Some ranged attacks, such as those made with a longbow or a shortbow, have two ranges. The smaller number is the normal menzil, and the larger number is the long menzil. Your attack roll has disadvantage when your target is beyond normal menzil, and you can't attack a target beyond the long menzil."]
                 }
                 ,
                 {
@@ -3079,15 +3079,15 @@
             }
             ,
             {
-                "type": "entries", "name": "Melee Attacks", "entries": ["Used in hand-to-hand combat, a melee attack allows you to attack a foe within your reach. A melee attack typically uses a handheld weapon such as a sword, a warhammer, or an axe. A typical monster makes a melee attack when it strikes with its claws, horns, teeth, tentacles, or other body part. A few spells also involve making a melee attack.", "Most creatures have a 5-foot reach and can thus attack targets within 5 feet of them when making a melee attack. Certain creatures (typically those larger than Medium) have melee attacks with a greater reach than 5 feet, as noted in their descriptions.", "Instead of using a weapon to make a melee weapon attack, you can use an unarmed strike: a punch, kick, head-butt, or similar forceful blow (none of which count as weapons). On a hit, an unarmed strike deals bludgeoning damage equal to 1 + your Kuvvet modifier. You are proficient with your unarmed strikes."]
+                "type": "entries", "name": "Melee Attacks", "entries": ["Used in hand-to-hand combat, a melee attack allows you to attack a foe within your erişim. A melee attack typically uses a handheld weapon such as a sword, a warhammer, or an axe. A typical monster makes a melee attack when it strikes with its claws, horns, teeth, tentacles, or other body part. A few spells also involve making a melee attack.", "Most creatures have a 5-foot erişim and can thus attack targets within 5 feet of them when making a melee attack. Certain creatures (typically those larger than Medium) have melee attacks with a greater erişim than 5 feet, as noted in their descriptions.", "Instead of using a weapon to make a melee weapon attack, you can use an unarmed strike: a punch, kick, head-butt, or similar forceful blow (none of which count as weapons). On a hit, an unarmed strike deals ezme damage equal to 1 + your Kuvvet modifier. You are proficient with your unarmed strikes."]
             }
             ,
             {
-                "type": "entries", "name": "Opportunity Attacks", "entries": ["In a fight, everyone is constantly watching for enemies to drop their guard. You can rarely move heedlessly past your foes without putting yourself in danger; doing so provokes an opportunity attack.", "You can make an opportunity attack when a hostile creature that you can see moves out of your reach. To make the opportunity attack, you use your reaction to make one melee attack against the provoking creature. The attack interrupts the provoking creature's movement, occurring right before the creature leaves your reach.", "You can avoid provoking an opportunity attack by taking the Disengage action. You also don't provoke an opportunity attack when you teleport or when someone or something moves you without using your movement, action, or reaction. For example, you don't provoke an opportunity attack if an explosion hurls you out of a foe's reach or if gravity causes you to fall past an enemy."]
+                "type": "entries", "name": "Opportunity Attacks", "entries": ["In a fight, everyone is constantly watching for enemies to drop their guard. You can rarely move heedlessly past your foes without putting yourself in danger; doing so provokes an opportunity attack.", "You can make an opportunity attack when a hostile creature that you can see moves out of your erişim. To make the opportunity attack, you use your reaction to make one melee attack against the provoking creature. The attack interrupts the provoking creature's movement, occurring right before the creature leaves your erişim.", "You can avoid provoking an opportunity attack by taking the Disengage action. You also don't provoke an opportunity attack when you teleport or when someone or something moves you without using your movement, action, or reaction. For example, you don't provoke an opportunity attack if an explosion hurls you out of a foe's erişim or if gravity causes you to fall past an enemy."]
             }
             ,
             {
-                "type": "entries", "name": "Two-Weapon Fighting", "entries": ["When you take the Attack action and attack with a light melee weapon that you're holding in one hand, you can use a bonus action to attack with a different light melee weapon that you're holding in the other hand. You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative.", "If either weapon has the thrown property, you can throw the weapon, instead of making a melee attack with it."]
+                "type": "entries", "name": "Two-Weapon Fighting", "entries": ["When you take the Attack action and attack with a hafif melee weapon that you're holding in one hand, you can use a bonus action to attack with a different hafif melee weapon that you're holding in the other hand. You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative.", "If either weapon has the fırlatma property, you can throw the weapon, instead of making a melee attack with it."]
             }
             ,
             {
@@ -3097,7 +3097,7 @@
             {
                 "type":"entries",
                 "name":"Grappling",
-                "entries":["When you want to grab a creature or wrestle with it, you can use the Attack action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them. The target of your grapple must be no more than one size larger than you, and it must be within your reach.",
+                "entries":["When you want to grab a creature or wrestle with it, you can use the Attack action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them. The target of your grapple must be no more than one size larger than you, and it must be within your erişim.",
                 "Using at least one free hand, you try to seize the target by making a grapple check, a Kuvvet (Atletizm) check contested by the target's Kuvvet (Atletizm) or Çeviklik (Akrobasi) check (the target chooses the ability to use). If you succeed, you subject the target to the grappled condition (see the appendix). The condition specifies the things that end it, and you can release the target whenever you like (no action required).",
                 {
                     "type": "entries", "name": "Escaping a Grapple", "entries": [" A grappled creature can use its action to escape. To do so, it must succeed on a Kuvvet (Atletizm) or Çeviklik (Akrobasi) check contested by your Kuvvet (Atletizm) check."]
@@ -3110,7 +3110,7 @@
             }
             ,
             {
-                "type": "entries", "name": "Shoving a Creature", "entries": ["Using the Attack action, you can make a special melee attack to shove a creature, either to knock it prone or push it away from you. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.", "The target of your shove must be no more than one size larger than you, and it must be within your reach. You make a Kuvvet (Atletizm) check contested by the target's Kuvvet (Atletizm) or Çeviklik (Akrobasi) check (the target chooses the ability to use). If you win the contest, you either knock the target prone or push it 5 feet away from you."]
+                "type": "entries", "name": "Shoving a Creature", "entries": ["Using the Attack action, you can make a special melee attack to shove a creature, either to knock it prone or push it away from you. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.", "The target of your shove must be no more than one size larger than you, and it must be within your erişim. You make a Kuvvet (Atletizm) check contested by the target's Kuvvet (Atletizm) or Çeviklik (Akrobasi) check (the target chooses the ability to use). If you win the contest, you either knock the target prone or push it 5 feet away from you."]
             }
             ]
         }
@@ -3160,7 +3160,7 @@
             }
             ,
             {
-                "type": "entries", "name": "Moving around Other Creatures", "entries": ["You can move through a nonhostile creature's space. In contrast, you can move through a hostile creature's space only if the creature is at least two sizes larger or smaller than you. Remember that another creature's space is difficult terrain for you.", "Whether a creature is a friend or an enemy, you can't willingly end your move in its space.", "If you leave a hostile creature's reach during your move, you provoke an opportunity attack, as explained later in the chapter."]
+                "type": "entries", "name": "Moving around Other Creatures", "entries": ["You can move through a nonhostile creature's space. In contrast, you can move through a hostile creature's space only if the creature is at least two sizes larger or smaller than you. Remember that another creature's space is difficult terrain for you.", "Whether a creature is a friend or an enemy, you can't willingly end your move in its space.", "If you leave a hostile creature's erişim during your move, you provoke an opportunity attack, as explained later in the chapter."]
             }
             ,
             {
@@ -3207,7 +3207,7 @@
                 }
                 ,
                 {
-                    "name": "Ranges", "type": "entries", "entries": ["To determine the range on a grid between two things—whether creatures or objects—start counting squares from a square adjacent to one of them and stop counting in the space of the other one. Count by the shortest route."]
+                    "name": "Ranges", "type": "entries", "entries": ["To determine the menzil on a grid between two things—whether creatures or objects—start counting squares from a square adjacent to one of them and stop counting in the space of the other one. Count by the shortest route."]
                 }
                 ]
             }
@@ -3252,7 +3252,7 @@
                 "name":"Interacting with Objects Around You",
                 "entries":["Here are a few examples of the sorts of thing you can do in tandem with your movement and action:",
                 {
-                    "type": "list", "items": ["draw or sheathe a sword", "open or close a door", "withdraw a potion from your backpack", "pick up a dropped axe", "take a bauble from a table", "remove a ring from your finger", "stuff some food into your mouth", "plant a banner in the ground", "fish a few coins from your belt pouch", "drink all the ale in a flagon", "throw a lever or a switch", "pull a torch from a sconce", "take a book from a shelf you can reach", "extinguish a small flame", "don a mask", "pull the hood of your cloak up and over your head", "put your ear to a door", "kick a small stone", "turn a key in a lock", "tap the floor with a 10-foot pole", "hand an item to another character"]
+                    "type": "list", "items": ["draw or sheathe a sword", "open or close a door", "withdraw a potion from your backpack", "pick up a dropped axe", "take a bauble from a table", "remove a ring from your finger", "stuff some food into your mouth", "plant a banner in the ground", "fish a few coins from your belt pouch", "drink all the ale in a flagon", "throw a lever or a switch", "pull a torch from a sconce", "take a book from a shelf you can erişim", "extinguish a small flame", "don a mask", "pull the hood of your cloak up and over your head", "put your ear to a door", "kick a small stone", "turn a key in a lock", "tap the floor with a 10-foot pole", "hand an item to another character"]
                 }
                 ]
             }
@@ -3264,7 +3264,7 @@
             "name":"Underwater Combat",
             "entries":["When adventurers pursue sahuagin back to their undersea homes, fight off sharks in an ancient shipwreck, or find themselves in a flooded dungeon room, they must fight in a challenging environment. Underwater the following rules apply.",
             "When making a {@b melee weapon attack}, a creature that doesn't have a swimming speed (either natural or granted by magic) has disadvantage on the attack roll unless the weapon is a dagger, javelin, shortsword, spear, or trident.",
-            "A {@b ranged weapon attack} automatically misses a target beyond the weapon's normal range. Even against a target within normal range, the attack roll has disadvantage unless the weapon is a crossbow, a net, or a weapon that is thrown like a javelin (including a spear, trident, or dart).",
+            "A {@b ranged weapon attack} automatically misses a target beyond the weapon's normal menzil. Even against a target within normal menzil, the attack roll has disadvantage unless the weapon is a crossbow, a net, or a weapon that is fırlatma like a javelin (including a spear, trident, or dart).",
             "Creatures and objects that are fully immersed in water have resistance to fire damage."]
         }
         ]
@@ -3277,7 +3277,7 @@
         }
         ,
         {
-            "type": "section", "name": "Difficult Terrain", "entries": ["The travel speeds given in the Travel Pace table assume relatively simple terrain: roads, open plains, or clear dungeon corridors. But adventurers often face dense forests, deep swamps, rubble-filled ruins, steep mountains, and ice-covered ground—all considered difficult terrain.", "You move at half speed in difficult terrain—moving 1 foot in difficult terrain costs 2 feet of speed—so you can cover only half the normal distance in a minute, an hour, or a day."]
+            "type": "section", "name": "Difficult Terrain", "entries": ["The travel speeds given in the Travel Pace table assume relatively simple terrain: roads, open plains, or clear dungeon corridors. But adventurers often face dense forests, deep swamps, rubble-filled ruins, steep mountains, and ice-covered ground—all considered difficult terrain.", "You move at half speed in difficult terrain—moving 1 foot in difficult terrain costs 2 feet of speed—so you can cover only half the normal distance in a dakika, an hour, or a day."]
         }
         ,
         {
@@ -3289,7 +3289,7 @@
             }
             ,
             {
-                "type": "entries", "name": "High Jump", "entries": [" When you make a high jump, you leap into the air a number of feet equal to 3 + your Kuvvet modifier if you move at least 10 feet on foot immediately before the jump. After applying your Kuvvet modifier, a high jump is a minimum of 0 feet. When you make a standing high jump, you can jump only half that distance. Either way, each foot you clear on the jump costs a foot of movement. In some circumstances, your DM might allow you to make a Kuvvet (Atletizm) check to jump higher than you normally can.", "You can extend your arms half your height above yourself during the jump. Thus, you can reach above you a difference equal to the height of the jump plus 1 1/2 times your height."]
+                "type": "entries", "name": "High Jump", "entries": [" When you make a high jump, you leap into the air a number of feet equal to 3 + your Kuvvet modifier if you move at least 10 feet on foot immediately before the jump. After applying your Kuvvet modifier, a high jump is a minimum of 0 feet. When you make a standing high jump, you can jump only half that distance. Either way, each foot you clear on the jump costs a foot of movement. In some circumstances, your DM might allow you to make a Kuvvet (Atletizm) check to jump higher than you normally can.", "You can extend your arms half your height above yourself during the jump. Thus, you can erişim above you a difference equal to the height of the jump plus 1 1/2 times your height."]
             }
             ]
         }
