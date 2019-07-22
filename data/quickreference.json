@@ -1257,46 +1257,46 @@
         ,
         {
             "type":"section",
-            "name":"Expenses",
-            "entries":["When not descending into the depths of the earth, exploring ruins for lost treasures, or waging war against the encroaching darkness, adventurers face more mundane realities. Even in a fantastical world, people require basic necessities such as shelter, sustenance, and clothing. These things cost money, although some lifestyles cost more than others.",
+            "name":"Masraflar",
+            "entries":["Toprağın derinliklerine inmez, harabeleri kayıp hazineler için araştırmaz, veya yaklaşan karanlığa savaş açmazken, maceracılar daha sıradan gerçeklerle yüzleşirler. Bir fantastik dünyada bile, kişiler hala sığınak, besin ve kıyafet gibi temel gereksinimlere sahiptir. Bunlar para gerektirir, gerçi bazı yaşam tarzları diğerlerinden daha masraflıdır.",
             {
                 "type":"entries",
-                "name":"Lifestyle Expenses",
-                "entries":["Lifestyle expenses provide you with a simple way to account for the cost of living in a fantasy world. They cover your accommodations, food and drink, and all your other necessities. Furthermore, expenses cover the cost of maintaining your equipment so you can be ready when adventure next calls.",
-                "At the start of each week or month (your choice), choose a lifestyle from the Expenses table and pay the price to sustain that lifestyle. The prices listed are per day, so if you wish to calculate the cost of your chosen lifestyle over a thirty-day period, multiply the listed price by 30. Your lifestyle might change from one period to the next, based on the funds you have at your disposal, or you might maintain the same lifestyle throughout your character's career.",
-                "Your lifestyle choice can have consequences. Maintaining a wealthy lifestyle might help you make contacts with the rich and powerful, though you run the risk of attracting thieves. Likewise, living frugally might help you avoid criminals, but you are unlikely to make powerful connections.",
+                "name":"Yaşam Tarzı Masrafları",
+                "entries":["Yaşam tarzı masrafları bir fantazi dünyasında yaşam masraflarını basit bir şekilde hesaplamana yardımcı olur. Konaklaman, yiyecek ve içeceğin, ve diğer tüm ihtiyaçlarını kapsar. Bunun üstüne, masrafların ekipmanının bakımını da kapsar ki bir sonraki macera için daima hazır olursun.",
+                "Her hafta ya da ayın başında (senin seçimin), Masraflar tablosundan bir yaşam tarzı seçip onu sürdürebilmek için gereken bedeli ödersin. Listelenen bedeller günlüktür, bu yüzden eğer seçilen yaşam tarzını 30 günlük dönem için hesaplayacaksan 30 ile çarparsın. Yaşam tarzın sahip olduğun paraya göre bir dönemden diğerine değişebilir, veya karakterinin kariyeri boyunca aynı yaşam tarzını sürdürebilirsin.",
+                "Yaşam tarzı seçiminin sonuçları olabilir. Zengin bir yaşam tarzı sürmek zengin ve güçlüler ile bağlantılar ve dostluklar sağlarken, hırsızların da dikkatini çeker. Aynı şekilde, tutumlu yaşamak suçlulardan uzak kalmanı sağlayabilir, ama güçlü bağlantılar kurma ihtimalin düşüktür.",
                 {
-                    "type": "table", "caption": "Lifestyle Expenses", "colLabels": ["Lifestyle", "Price/Day"], "colStyles": ["col-xs-6", "col-xs-6 text-align-right"], "rows": [["Wretched", "-"], ["Squalid", "1 sp"], ["Poor", "2 sp"], ["Modest", "1 gp"], ["Comfortable", "2 gp"], ["Wealthy", "4 gp"], ["Aristocratic", "10 gp minimum"]]
+                    "type": "table", "caption": "Yaşam Tarzı Masrafları", "colLabels": ["Yaşam Tarzı", "Bedel/Gün"], "colStyles": ["col-xs-6", "col-xs-6 text-align-right"], "rows": [["Acınası", "-"], ["Sefil", "1 sp"], ["Fakir", "2 sp"], ["Mütevazı", "1 gp"], ["Konforlu", "2 gp"], ["Zengin", "4 gp"], ["Aristokrat", "10 gp minimum"]]
                 }
                 ,
                 {
                     "type":"entries",
                     "entries":[ {
-                        "type": "entries", "name": "Wretched", "entries": [" You live in inhumane conditions. With no place to call home, you shelter wherever you can, sneaking into barns, huddling in old crates, and relying on the good graces of people better off than you. A wretched lifestyle presents abundant dangers. Violence, disease, and hunger follow you wherever you go. Other wretched people covet your armor, weapons, and adventuring gear, which represent a fortune by their standards. You are beneath the notice of most people."]
+                        "type": "entries", "name": "Acınası", "entries": [" İnsanlık dışı şartlarda yaşarsın. Ev diyebileceğin bir yer olmadığı için, nereyi bulursan oraya sığınırsın, ahırlara gizlice girerek, eski kasalara saklanarak, ve senden daha iyi durumdaki kişilerin bağışlarına güvenerek yaşarsın. Acınası bir yaşam tarzı bolca tehlike barındırır. Şiddet, hastalık, ve açlık gittiğin her yerde seninledir. Diğer acınası kişiler onların standartlarında servet değerinde olan zırhın, silahların, ve maceracı tertibatına göz dikerler. Çoğu kişinin dikkatine değmezsin."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Squalid", "entries": [" You live in a leaky stable, a mud-floored hut just outside town, or a vermin-infested boarding house in the worst part of town. You have shelter from the elements, but you live in a desperate and often violent environment, in places rife with disease, hunger, and misfortune. You are beneath the notice of most people, and you have few legal protections. Most people at this lifestyle level have suffered some terrible setback. They might be disturbed, marked as exiles, or suffer from disease."]
+                        "type": "entries", "name": "Sefil", "entries": [" Tavanı akan bir ahır, şehrin hemen dışında çamur tabanlı bir baraka, veya şehrin en kötü yanında haşere dolu bir pansiyonda yaşarsın. Elementlerden korunduğun bir sığınağın vardır, ama çaresiz ve sıklıkla şiddet dolu bir çevrede yaşarsın, buralar hastalık, açlık ve talihsizlik doludur. Çoğu kişinin dikkatine değmezsin ve sadece bir kaç yasal koruman vardır. Bu yaşam tarzını süren çoğu kişi bir talihsizlikle karşılaşmıştır. Akli dengesi yerinde olmayabilir, bir hastalıktan muzdarip olabilir, veya sürgünde olabilirler."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Poor", "entries": [" A poor lifestyle means going without the comforts available in a stable community. Simple food and lodgings, threadbare clothing, and unpredictable conditions result in a sufficient, though probably unpleasant, experience. Your accommodations might be a room in a flophouse or in the common room above a tavern. You benefit from some legal protections, but you still have to contend with violence, crime, and disease. People at this lifestyle level tend to be unskilled laborers, costermongers, peddlers, thieves, mercenaries, and other disreputable types."]
+                        "type": "entries", "name": "Fakir", "entries": [" Fakir bir yaşam tarzı, düzenli bir toplumdaki mevcut konforlardan uzak kalmak demektir. Basit yemek ve barınak, yıpranmış kıyafetler, ve öngörülemeyen şartlar yeterli, fakat nahoş bir deneyim sağlar. Konaklaman bir taverna üzerindeki ortak oda ya da çok ucuz bir otelde bir oda olabilir. Bazı yasal korumalara sahip olursun, ama hala şiddet, suç ve hastalıkla karşılaşırsın. Bu yaşam tarzındaki kişiler genellikle vasıfsız işçiler, seyyar satıcılar, hırsızlar, paralı askerler ve diğer tekinsiz tipler olur."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Modest", "entries": [" A modest lifestyle keeps you out of the slums and ensures that you can maintain your equipment. You live in an older part of town, renting a room in a boarding house, inn, or temple. You don't go hungry or thirsty, and your living conditions are clean, if simple. Ordinary people living modest lifestyles include soldiers with families, laborers, students, priests, hedge wizards, and the like."]
+                        "type": "entries", "name": "Mütevazı", "entries": [" Mütevazı bir yaşam tarzı seni varoşlardan uzak tutar ve ekipmanının düzenli bakımını garantiler. Kasabanın eski bir kısmında, bir pansiyon, han veya tapınakta oda tutarak yaşarsın. Aç ya da susuz kalmazsın, ve yaşam alanın basit ama temizdir. Mütevazı yaşamlar süren sıradan kişiler ailesi olan askerler, işçiler, öğrenciler, rahipler, basit büyücüler, ve benzerlerini içerir."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Comfortable", "entries": [" Choosing a comfortable lifestyle means that you can afford nicer clothing and can easily maintain your equipment. You live in a small cottage in a middle-class neighborhood or in a private room at a fine inn. You associate with merchants, skilled tradespeople, and military officers."]
+                        "type": "entries", "name": "Konforlu", "entries": [" Konforlu bir yaşam tarzını seçmek daha güzel kıyafetler alıp ekipmanının bakımını daha rahat yapabilmeni sağlar. Orta sınıf bir mahallede küçük bir evde ya da düzgün bir handa özel bir odada yaşarsın. Çevrendeki kişiler tüccarlar, vasıflı işçiler, zanaatkarlar, ve subaylar olur."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Wealthy", "entries": [" Choosing a wealthy lifestyle means living a life of luxury, though you might not have achieved the social status associated with the old money of nobility or royalty. You live a lifestyle comparable to that of a highly successful merchant, a favored servant of the royalty, or the owner of a few small businesses. You have respectable lodgings, usually a spacious home in a good part of town or a comfortable suite at a fine inn. You likely have a small staff of servants."]
+                        "type": "entries", "name": "Zengin", "entries": [" Zengin bir yaşam tarzını seçmek lüks bir hayat sürmek demektir, gerçi hala soyluların nesillerdir sahip olduğu bir tip zenginliğe ve toplumsal statüye ulaşamayabilirsin. Yaşam tarzın başarılı bir tüccar, krallığın sevilen bir hizmetkarı, veya birkaç küçük işletmenin sahibi ile karşılaştırılabilir. Saygıdeğer bir konaklaman olur, genellikle kasabanın iyi kısmında büyükçe bir ev ya da hoş bir handa konforlu bir suit odada kalırsın. Muhtemelen küçük bir grup hizmetkarın vardır."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Aristocratic", "entries": [" You live a life of plenty and comfort. You move in circles populated by the most powerful people in the community. You have excellent lodgings, perhaps a townhouse in the nicest part of town or rooms in the finest inn. You dine at the best restaurants, retain the most skilled and fashionable tailor, and have servants attending to your every need. You receive invitations to the social gatherings of the rich and powerful, and spend evenings in the company of politicians, guild leaders, high priests, and nobility. You must also contend with the highest levels of deceit and treachery.", "The wealthier you are, the greater the chance you will be drawn into political intrigue as a pawn or participant."]
+                        "type": "entries", "name": "Aristokrat", "entries": [" Bolluk ve konfor hayatı sürersin. Toplumdaki en güçlü kişilerin bulunduğu bir çevren vardır. Muhteşem bir konaklaman olur, belki şehrin en güzel yerinde bir ev ya da en hoş hanında bir oda. En iyi restoranlarda yer, en yetenekli terziden giyinirsin, ve her ihtiyacına bakan bir hizmetkarın bulunur. Zengin ve güçlülerin sosyal etkinliklerine davetiyeler alırsın, ve akşamlarını politikacılar, lonca liderleri, baş rahipler, ve soylularla geçirirsin. En üst seviye aldatma ve ihanetlere de alışman gerekir.", "Ne kadar zenginsen, politik entrikalara bir piyon ya da taraf olarak çekilme ihtimalin o kadar artar."]
                     }
                     ]
                 }
@@ -1305,149 +1305,149 @@
             ,
             {
                 "type":"entries",
-                "name":"Food, Drink, and Lodging",
-                "entries":["The Food, Drink, and Lodging table gives prices for individual food items and a single night's lodging. These prices are included in your total lifestyle expenses.",
+                "name":"Yiyecek, İçecek, ve Konaklama",
+                "entries":["Yiyecek, İçecek, ve Konaklama tablosu sana tek gece konaklama ve tekil olarak yiyeceklerin fiyatını verir. Bu ücretler toplam yaşam tarzı masraflarına dahildir.",
                 {
                     "type":"table",
-                    "caption":"Food, Drink, and Lodging",
-                    "colLabels":["Item",
-                    "Cost"],
+                    "caption":"Yiyecek, İçecek, ve Konaklama",
+                    "colLabels":["Eşya",
+                    "Bedel"],
                     "colStyles":["col-xs-6",
                     "col-xs-6 text-align-right"],
-                    "rows":[["{@i Ale}",
+                    "rows":[["{@i Bira}",
                     ""],
                     {
-                        "type": "row", "style": "row-indent-first", "row": ["Gallon", "2 sp"]
+                        "type": "row", "style": "row-indent-first", "row": ["Galon", "2 sp"]
                     }
                     ,
                     {
-                        "type": "row", "style": "row-indent-first", "row": ["Mug", "4 cp"]
+                        "type": "row", "style": "row-indent-first", "row": ["Bardak", "4 cp"]
                     }
                     ,
-                    ["Banquet (per person)",
+                    ["Şölen (kişi başı)",
                     "10 gp"],
-                    ["Bread, loaf",
+                    ["Ekmek, somun",
                     "2 cp"],
-                    ["Cheese, hunk",
+                    ["Peynir, iri dilim",
                     "1 sp"],
-                    ["{@i Inn stay (per day)}",
+                    ["{@i Han konaklaması (günlük)}",
                     ""],
                     {
-                        "type": "row", "style": "row-indent-first", "row": ["Squalid", "7 cp"]
+                        "type": "row", "style": "row-indent-first", "row": ["Sefil", "7 cp"]
                     }
                     ,
                     {
-                        "type": "row", "style": "row-indent-first", "row": ["Poor", "1 sp"]
+                        "type": "row", "style": "row-indent-first", "row": ["Fakir", "1 sp"]
                     }
                     ,
                     {
-                        "type": "row", "style": "row-indent-first", "row": ["Modest", "5 sp"]
+                        "type": "row", "style": "row-indent-first", "row": ["Mütevazı", "5 sp"]
                     }
                     ,
                     {
-                        "type": "row", "style": "row-indent-first", "row": ["Comfortable", "8 sp"]
+                        "type": "row", "style": "row-indent-first", "row": ["Konforlu", "8 sp"]
                     }
                     ,
                     {
-                        "type": "row", "style": "row-indent-first", "row": ["Wealthy", "2 gp"]
+                        "type": "row", "style": "row-indent-first", "row": ["Zengin", "2 gp"]
                     }
                     ,
                     {
-                        "type": "row", "style": "row-indent-first", "row": ["Aristocratic", "4 gp"]
+                        "type": "row", "style": "row-indent-first", "row": ["Aristokrat", "4 gp"]
                     }
                     ,
-                    ["{@i Meals (per day)}",
+                    ["{@i Öğünler (günlük)}",
                     ""],
                     {
-                        "type": "row", "style": "row-indent-first", "row": ["Squalid", "3 cp"]
+                        "type": "row", "style": "row-indent-first", "row": ["Sefil", "3 cp"]
                     }
                     ,
                     {
-                        "type": "row", "style": "row-indent-first", "row": ["Poor", "6 cp"]
+                        "type": "row", "style": "row-indent-first", "row": ["Fakir", "6 cp"]
                     }
                     ,
                     {
-                        "type": "row", "style": "row-indent-first", "row": ["Modest", "3 sp"]
+                        "type": "row", "style": "row-indent-first", "row": ["Mütevazı", "3 sp"]
                     }
                     ,
                     {
-                        "type": "row", "style": "row-indent-first", "row": ["Comfortable", "5 sp"]
+                        "type": "row", "style": "row-indent-first", "row": ["Konforlu", "5 sp"]
                     }
                     ,
                     {
-                        "type": "row", "style": "row-indent-first", "row": ["Wealthy", "8 sp"]
+                        "type": "row", "style": "row-indent-first", "row": ["Zengin", "8 sp"]
                     }
                     ,
                     {
-                        "type": "row", "style": "row-indent-first", "row": ["Aristocratic", "2 gp"]
+                        "type": "row", "style": "row-indent-first", "row": ["Aristokrat", "2 gp"]
                     }
                     ,
-                    ["Meat, chunk",
+                    ["Et, parça",
                     "3 sp"],
-                    ["{@i Wine}",
+                    ["{@i Şarap}",
                     ""],
                     {
-                        "type": "row", "style": "row-indent-first", "row": ["Common (pitcher)", "2 sp"]
+                        "type": "row", "style": "row-indent-first", "row": ["Sıradan (sürahi)", "2 sp"]
                     }
                     ,
                     {
-                        "type": "row", "style": "row-indent-first", "row": ["Fine (bottle)", "10 gp"]
+                        "type": "row", "style": "row-indent-first", "row": ["Hoş (şişe)", "10 gp"]
                     }
                     ]
                 }
                 ,
                 {
-                    "type": "inset", "name": "Self-Sufficiency", "entries": ["The expenses and lifestyles described in this chapter assume that you are spending your time between adventures in town, availing yourself of whatever services you can afford—paying for food and shelter, paying townspeople to sharpen your sword and repair your armor, and so on. Some characters, though, might prefer to spend their time away from civilization, sustaining themselves in the wild by hunting, foraging, and repairing their own gear.", "Maintaining this kind of lifestyle doesn't require you to spend any coin, but it is time-consuming. If you spend your time between adventures practicing a profession, as described in chapter 8, you can eke out the equivalent of a poor lifestyle. Proficiency in the Hayatta Kalma skill lets you live at the equivalent of a comfortable lifestyle."]
+                    "type": "inset", "name": "Kendine Yetme", "entries": ["Bu kısımda tasvir edilen yaşam biçimleri maceralar arasında vaktini şehirde harcayıp, yiyecek ve konaklama, kılıç ve zırh tamirin gibi ödeme ile yaptırabileceğin tüm servisleri paranın yettiği kadar yaptırıp diğer işlerle uğraştığın varsayılır. Ama bazı karakterler, vakitlerini medeniyetten uzakta, avlanma, toplama ve kendi ekipmanlarının tamiri ile geçirebilir.", "Bu tip yaşam tarzını sürdürme para harcamanı gerektirmez ama çok zaman alır. Sonraki kısımlarda belirtileceği şekilde maceralar arası zamanını bir meslek icra ederek geçirirsen, fakir bir yaşam tarzını sürdürebilirsin. Hayatta Kalma becerisinde uzmanlık konforlu bir yaşam biçimini sürdürmeni sağlar."]
                 }
                 ]
             }
             ,
             {
                 "type":"entries",
-                "name":"Services",
-                "entries":["Adventurers can pay nonplayer characters to assist them or act on their behalf in a variety of circumstances. Most such hirelings have fairly ordinary skills, while others are masters of a craft or art, and a few are experts with specialized adventuring skills.",
-                "Some of the most basic types of hirelings appear on the Services table. Other common hirelings include any of the wide variety of people who inhabit a typical town or city, when the adventurers pay them to perform a specific task. For example, a wizard might pay a carpenter to construct an elaborate chest (and its miniature replica) for use in the {@spell Leomund's secret chest} spell. A fighter might commission a blacksmith to forge a special sword. A bard might pay a tailor to make exquisite clothing for an upcoming performance in front of the duke.",
-                "Other hirelings provide more expert or dangerous services. Mercenary soldiers paid to help the adventurers take on a hobgoblin army are hirelings, as are sages hired to research ancient or esoteric lore. If a high-level adventurer establishes a stronghold of some kind, he or she might hire a whole staff of servants and agents to run the place, from a castellan or steward to menial laborers to keep the stables clean. These hirelings often enjoy a long-term contract that includes a place to live within the stronghold as part of the offered compensation.",
-                "Skilled hirelings include anyone hired to perform a service that involves a proficiency (including weapon, tool, or skill): a mercenary, artisan, scribe, and so on. The pay shown is a minimum; some expert hirelings require more pay. Untrained hirelings are hired for menial work that requires no particular skill and can include laborers, porters, maids, and similar workers.",
+                "name":"Hizmetler",
+                "entries":["Maceracılar çeşitli durumlarda kendilerine yardımcı olmaları ya da bir işi onların yerine yapmaları için oyuncu olmayan karakterlere ödeme yapabilirler. Bu tip uşakların çoğu sıradan becerilere sahiptir, diğerleri de bir sanat ya da zanaatın üstadı olabilirler, ve birkaçı özel maceracılık becerilerinde uzmanlaşırlar.",
+                "Bu uşakların en yaygın ve temel tipleri Hizmetler tablosunda görülebilir. Diğer yaygın uşaklar bir kasaba ya da şehirde bulunabilecek, para karşılığı belirli bir hizmet veren çeşitli kişiler olabilirler. Örneğin, bir büyücü bir marangoza işli bir sandık ve onun minik kopyasını yaptırmak için ödeme yapabilir, bunları {@spell Leomund's secret chest (Leomund'un Gizli Sandığı)} büyüsünü kullanmak için alır. Bir savaşçı bir demirciye özel bir kılıç yaptırmak için ödeme yapabilir. Bir ozan, dükün karşında vereceği performansta giymelik etkileyici kıyafetler diktirmek için terziye ödeme yapabilir.",
+                "Diğer uşaklar daha uzmanca ya da tehlikeli hizmetler sunarlar. Bir hobgoblin ordusunu altederken maceracılara yardım etmesi için tutulan paralı askerler, kadim ve olağandışı bilgileri araştırması için tutulan bilgeler buna örnektir. Eğer üst seviye bir maceracı kendine bir tip sığınak kurarsa, burayı yönetmek için bir hizmetkar ekibi olabilir, kale muhafızı ve kahyadan ahırları temiz tutan işçiye kadar uzanabilen bir ekip. Bu uşaklar genelde sığınakta barınacak yer de dahil uzun süreli sözleşmelere sahiptir.",
+                "Vasıflı uşaklar genelde bir uzmanlık (silah, alet ya da beceri) gerektiren işleri gerçekletiren kişilerdir: bir paralı asker, zanaatkar, katip, ve benzeri. Verilen ücret minimumdur; bazı uzman uşaklar daha fazla talep ederler. Eğitimsiz uşaklar belirli bir beceri gerektirmeyen işler için tutulurlar, bunlar hamallar, işçiler, temizlikçiler gibi uşaklardır.",
                 {
                     "type":"table",
-                    "caption":"Services",
-                    "colLabels":["Service",
-                    "Pay"],
+                    "caption":"Hizmetler",
+                    "colLabels":["Hizmet",
+                    "Ödeme"],
                     "colStyles":["col-xs-6",
                     "col-xs-6"],
-                    "rows":[["{@i Coach cab}",
+                    "rows":[["{@i At Arabası}",
                     ""],
                     {
-                        "type": "row", "style": "row-indent-first", "row": ["Between towns", "3 cp per mile"]
+                        "type": "row", "style": "row-indent-first", "row": ["Şehirlerarası", "mil başına 3 cp "]
                     }
                     ,
                     {
-                        "type": "row", "style": "row-indent-first", "row": ["Coach cab, Within a city", "1 cp"]
+                        "type": "row", "style": "row-indent-first", "row": ["Şehiriçi", "1 cp"]
                     }
                     ,
-                    ["{@i Hireling}",
+                    ["{@i Uşak}",
                     ""],
                     {
-                        "type": "row", "style": "row-indent-first", "row": ["Skilled", "2 gp per day"]
+                        "type": "row", "style": "row-indent-first", "row": ["Vasıflı", "2 gp günlük"]
                     }
                     ,
                     {
-                        "type": "row", "style": "row-indent-first", "row": ["Untrained", "2 sp per day"]
+                        "type": "row", "style": "row-indent-first", "row": ["Eğitimsiz", "2 sp günlük"]
                     }
                     ,
-                    ["Messenger",
-                    "2 cp per mile"],
-                    ["Road or gate toll",
+                    ["Haberci",
+                    "mil başına 2 cp"],
+                    ["Yol ya da kapı geçiş ücreti",
                     "1 cp"],
-                    ["Ship's passage",
-                    "1 sp per mile"]]
+                    ["Gemi yolculuğu",
+                    "mil başına 1 sp"]]
                 }
                 ]
             }
             ,
             {
-                "type": "entries", "name": "Spellcasting Services", "entries": ["People who are able to cast spells don't fall into the category of ordinary hirelings. It might be possible to find someone willing to cast a spell in exchange for coin or favors, but it is rarely easy and no established pay rates exist. As a rule, the higher the level of the desired spell, the harder it is to find someone who can cast it and the more it costs.", "Hiring someone to cast a relatively common spell of 1st or 2nd level, such as cure wounds or identify, is easy enough in a city or town, and might cost 10 to 50 gold pieces (plus the cost of any expensive material components). Finding someone able and willing to cast a higher-level spell might involve traveling to a large city, perhaps one with a university or prominent temple. Once found, the spellcaster might ask for a service instead of payment—the kind of service that only adventurers can provide, such as retrieving a rare item from a dangerous locale or traversing a monster infested wilderness to deliver something important to a distant settlement."]
+                "type": "entries", "name": "Büyü Yapma Hizmetleri", "entries": ["Büyü yapabilen kişiler sıradan uşak kategorisine girmez. Para ya da iyilik karşılığı büyü yapmaya gönüllü olan biri bulunabilir, ama bu kolay değildir ve belirli bir ücreti yoktur. Kural olarak, istenilen büyünün seviyesi ne kadar zorsa, bunu yapabilen kişi bulma o kadar zorlaşır ve bedeli o kadar artar.", "1. ya da 2. seviyeden yaraları iyileştir veya tanımla gibi yaygın bir büyüyü yapacak kişi bir kasaba ya da şehirde kolaylıkla bulunabilir, ve 10 ile 50 gp (pahalı materyal bileşenlerin masrafı da eklenir) arasında bir bedeli olur. Üst seviye bir büyüyü yapacak birini bulma, belki bir üniversite ya da seçkin tapınağı olan bir büyük şehre seyahat gerektirebilir. Bulunduğunda, büyücü para yerine sadece maceracıların sunabileceği bir hizmet isteyebilir, tehlikeli bir yerden bir eşya getirme ya da uzak bir yerleşime önemli bir şey teslim etmek için tehlikeli bölgelerden geçme gibi."]
             }
             ]
         }
