@@ -5937,7 +5937,7 @@
 											"2. seviyeden itibaren, doğanın ruhlarını çağırıp çevrendeki dünyayı etkileyebilirsin. Bonus eylem olarak, büyülü bir şekilde 60 fit yakınında görebildiğin bir noktaya cisimsiz bir ruh çağırabilirsin. Ruh o nokta çevresinde 30 fit yarıçaplı bir aura oluşturur. Ne varlık ne de nesne olarak sayılır, ama temsil ettiği varlığın spektral görüntüsüne sahiptir.",
 											"Bonus eylem olarak, totemi 60 fite kadar görebildiğin bir noktaya taşıyabilirsin.",
 											"Ruh 1 dakika ya da sen {@condition etkisiz hal}e gelene kadar kalır. Bu özelliği kullandığında, bir kısa ya da uzun dinlenme bitirene kadar bir daha kullanamazsın.",
-											"The effect of the spirit's aura depends on the type of spirit you summon from the options below.",
+											"Ruhun aurasının etkisi aşağıdakilerden seçeceğin ruh tipine bağlıdır.",
 											{
 												"type": "options",
 												"entries": [

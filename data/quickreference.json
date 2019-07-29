@@ -1561,8 +1561,8 @@
         ,
         {
             "type":"section",
-            "name":"Tools",
-            "entries":["A tool helps you to do something you couldn't otherwise do, such as craft or repair an item, forge a document, or pick a lock. Your race, class, background, or feats give you proficiency with certain tools. Proficiency with a tool allows you to add your proficiency bonus to any ability check you make using that tool. Tool use is not tied to a single ability, since proficiency with a tool represents broader knowledge of its use. For example, the DM might ask you to make a Çeviklik check to carve a fine detail with your woodcarver's tools, or a Kuvvet check to make something out of particularly hard wood.",
+            "name":"Aletler",
+            "entries":["Bir alet o olmadan mümkün olmayan bir şeyi yapmanı sağlar, bu bir eşya yapımı ya da tamiri, döküman sahteciliği, veya kilit açma olabilir. Irkın, sınıfın, geçmişin, veya hünerlerin sana belirli aletlerle uzmalık verebilir. Bir alet ile uzmanlık, o aleti kullanarak atacağın yetenek zarlarına uzmanlık bonusunu eklemeni sağlar. Alet kullanımı tek bir yeteneğe bağlı değildir, çünkü bir alet uzmanlığı onun geniş çaplı kullanımında uzmanlığı yansıtır. Örneğin, sen oymacılık aletleri ile ince iş yaparken DM Çeviklik zarı atmanı isteyebilir, ya da çok sert bir odunu yontmaya çalışırken bir Kuvvet zarı.",
             {
                 "type":"entries",
                 "entries":[ {
