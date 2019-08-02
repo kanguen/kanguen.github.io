@@ -19,7 +19,7 @@
         }
         ,
         {
-            "name": "Adventuring", "headers": ["Climbing, Swimming, and Crawling", "Difficult Terrain", "Jumping", "Travel Pace"]
+            "name": "Maceracılık", "headers": ["Tırmanma, Yüzme, ve Sürünme", "Zorlu Arazi", "Zıplama", "Seyahat Temposu"]
         }
         ]
     }
@@ -131,7 +131,7 @@
                     "rows":[["{@class Barbar}",
                     "Kalkanlar, basit silahlar, askeri silahlar"],
                     ["{@class Ozan}",
-                    "Hafif zırhlar, seçeceğin bir beceri, seçeceğin bir müzikal enstrüman"],
+                    "Hafif zırhlar, seçeceğin bir beceri, seçeceğin bir müzik enstrümanı"],
                     ["{@class Rahip}",
                     "Hafif zırhlar, orta zırhlar, kalkanlar"],
                     ["{@class Druid}",
@@ -145,7 +145,7 @@
                     ["{@class Kolcu}",
                     "Hafif zırhlar, orta zırhlar, kalkanlar, basit silahlar, askeri silahlar, sınıfın beceri listesinden seçeceğin bir beceri"],
                     ["{@class Düzenbaz}",
-                    "Hafif zırhlar, sınıfın beceri listesinden seçeceğin bir beceri, hırsız aletleri"],
+                    "Hafif zırhlar, sınıfın beceri listesinden seçeceğin bir beceri, hırsızlık aletleri"],
                     ["{@class Sorcerer}",
                     "—"],
                     ["{@class Warlock}",
@@ -904,7 +904,7 @@
                     }
                     ,
                     {
-                        "type": "entries", "name": "Kilit", "entries": ["Kilitle birlikte bir anahtar da verilir. Anahtar olmadan, hırsız aletleri ile uzman olan bir varlık bu kilidi başarılı bir DC 15 Çeviklik zarı ile açabilir. DM'in daha yüksek fiyata daha iyi kilitler olabileceğine karar verebilir."]
+                        "type": "entries", "name": "Kilit", "entries": ["Kilitle birlikte bir anahtar da verilir. Anahtar olmadan, hırsızlık aletleri ile uzman olan bir varlık bu kilidi başarılı bir DC 15 Çeviklik zarı ile açabilir. DM'in daha yüksek fiyata daha iyi kilitler olabileceğine karar verebilir."]
                     }
                     ,
                     {
@@ -912,7 +912,7 @@
                     }
                     ,
                     {
-                        "type": "entries", "name": "Kelepçe", "entries": ["Bu metal bağlar Küçük ya da Orta boy bir varlığı kısıtlayabilir. Kelepçelerden kaçma başarılı bir DC 20 Çeviklik zarı gerektirir. Eşyayı kırmak da başarılı bir DC 20 Kuvvet zarı gerektirir. Her kelepçe seti bir anahtar ile gelir. Anahtar olmadan, hırsız aletleri ile uzmanlığı olan bir varlık başarılı bir DC 15 Çeviklik zarı ile kelepçelerin kilidini açabilir. Kelepçelerin 15 HP'si vardır."]
+                        "type": "entries", "name": "Kelepçe", "entries": ["Bu metal bağlar Küçük ya da Orta boy bir varlığı kısıtlayabilir. Kelepçelerden kaçma başarılı bir DC 20 Çeviklik zarı gerektirir. Eşyayı kırmak da başarılı bir DC 20 Kuvvet zarı gerektirir. Her kelepçe seti bir anahtar ile gelir. Anahtar olmadan, hırsızlık aletleri ile uzmanlığı olan bir varlık başarılı bir DC 15 Çeviklik zarı ile kelepçelerin kilidini açabilir. Kelepçelerin 15 HP'si vardır."]
                     }
                     ,
                     {
@@ -1311,7 +1311,7 @@
                     "type":"table",
                     "caption":"Yiyecek, İçecek, ve Konaklama",
                     "colLabels":["Eşya",
-                    "Bedel"],
+                    "Değer"],
                     "colStyles":["col-xs-6",
                     "col-xs-6 text-align-right"],
                     "rows":[["{@i Bira}",
@@ -1568,39 +1568,39 @@
                 "entries":[ {
                     "type":"entries",
                     "entries":[ {
-                        "type": "entries", "name": "Artisan's Tools", "entries": ["These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."]
+                        "type": "entries", "name": "Zanaatkar Aletleri", "entries": ["Bu özel aletler bir zanaat ya da mesleği icra etmek için gereken eşyaları içerir. Tablo en yaygın alet tiplerinden örnekler verir, her biri tek bir zanaate ait eşyalar sunar. Bir zanaatkar aletleri seti ile uzmanlığın, bu zanaate yönelik aletler ile atacağın tüm yetenek zarlarına uzmanlık bonusunu eklemeni sağlar. Her tip zanaatkar aleti ayrı bir uzmanlık gerektirir."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Disguise Kit", "entries": ["This pouch of cosmetics, hair dye, and small props lets you create disguises that change your physical appearance. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a visual disguise."]
+                        "type": "entries", "name": "Kılık Değiştirme Kiti", "entries": ["Bu kese kozmetik ürünleri, saç boyası, ve fiziksel görüntünü değiştirecek kılıklar yaratmalık küçük sahne malzemeleri içerir. Bu kit ile uzmanlığın görsel bir kılık yaratmak için atacağın yetenek zarlarına uzmanlık bonusunu eklemeni sağlar."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Forgery Kit", "entries": ["This small box contains a variety of papers and parchments, pens and inks, seals and sealing wax, gold and silver leaf, and other supplies necessary to create convincing forgeries of physical documents. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a physical forgery of a document."]
+                        "type": "entries", "name": "Sahtecilik Kiti", "entries": ["Bu küçük kutu çeşitli kağıt ve parşömenler, kalem ve mürekkepler, mühürler ve mühür mumu, altın ve gümüş yaprak, ve inandırıcı fiziksel döküman sahtelerini yaratmak için gereken diğer malzemeleri içerir. Bu kit ile uzmanlığın belge sahtelerini yaratmak için atacağın yetenek zarlarına uzmanlık bonusunu eklemeni sağlar."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Gaming Set", "entries": ["This item encompasses a wide menzil of game pieces, including dice and decks of cards (for games such as Three-Dragon Ante). A few common examples appear on the Tools table, but other kinds of gaming sets exist. If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency."]
+                        "type": "entries", "name": "Oyun Seti", "entries": ["Bu eşya zar ve oyun kartları (Üç-Ejder Bopu gibi oyunlar için) gibi geniş bir oyun parçaları yelpazesini kapsar. Birkaç yaygın örneği Aletler tablosunda görülür, ama diğer tip oyun setleri de vardır. Eğer bir oyun seti ile uzmanlığın varsa, bu set ile oynadığın oyunlar için atacağın tüm yetenek zarlarına uzmanlık bonusunu ekleyebilirsin. Her tip oyun seti ayrı bir uzmanlık gerektirir."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Herbalism Kit", "entries": ["This kit contains a variety of instruments such as clippers, mortar and pestle, and pouches and vials used by herbalists to create remedies and potions.", "Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to identify or apply herbs. Also, proficiency with this kit is required to create antitoxin and potions of healing."]
+                        "type": "entries", "name": "Otacılık Kiti", "entries": ["Bu kit makas, havan ve tokmak, kese ve şişeler gibi otacılar tarafından iksir ve deva üretiminde kullanılan çeşitli malzemeleri içerir.", "Bu kit ile uzmanlığın otları tanıma ve uygulama için attığın yetenek zarlarına uzmanlık bonusunu eklemeni sağlar. Ayrıca, antitoksin ve sağlık iksirleri yaratmak için bu kit ile uzmanlık gereklidir."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Musical Instrument", "entries": ["Several of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus, as described in Part 3: The Rules of Magic, Casting a Spell. Each type of musical instrument requires a separate proficiency."]
+                        "type": "entries", "name": "Müzik Enstrümanı", "entries": ["En yaygın müzik enstrümanlarından birkaçı tabloda örnek olarak verilmiştir. Bir müzik enstrümanı ile uzmanlığın varsa, o enstrüman ile çalacağın müzik için atacağın yetenek zarlarına uzmanlık bonusunu ekleyebilirsin. Bir ozan bir müzik enstrümanını büyü yapma odağı olarak kullanabilir, bu büyü yapma kısmında daha detaylı verilmiştir. Her tip müzik enstrümanı ayrı bir uzmanlık gerektirir."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Navigator's Tools", "entries": ["This set of instruments is used for navigation at sea. Proficiency with navigator's tools lets you chart a ship's course and follow navigation charts. In addition, these tools allow you to add your proficiency bonus to any ability check you make to avoid getting lost at sea."]
+                        "type": "entries", "name": "Rotacılık Aletleri", "entries": ["Bu alet seti denizde yol bulmak için kullanılır. Rotacılık aletleri ile uzmanlığın sayesinde bir geminin rotasını belirleyebilir ve rota planlarını izleyebilirsin. Ek olarak, bu aletler denizde kaybolmamak için atacağın yetenek zarlarına uzmanlık bonusunu eklemeni sağlar."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Poisoner's Kit", "entries": ["A poisoner's kit includes the vials, chemicals, and other equipment necessary for the creation of poisons. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to craft or use poisons."]
+                        "type": "entries", "name": "Zehircilik Kiti", "entries": ["Bir zehircilik kiti cam şişeler, kimyasallar, ve zehir yaratmak için gereken diğer ekipmanları içerir. Bu kit ile uzmanlığın zehir yaratma ve kullanma için atacağın yetenek zarlarına uzmanlık bonusunu eklemeni sağlar."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Thieves' Tools", "entries": ["This set of tools includes a small file, a set of lock picks, a small mirror mounted on a metal handle, a set of narrow-bladed scissors, and a pair of pliers. Proficiency with these tools lets you add your proficiency bonus to any ability checks you make to disarm traps or open locks."]
+                        "type": "entries", "name": "Hırsızlık Aletleri", "entries": ["Bu alet seti küçük bir eğe, bir maymuncuk seti, metal saplı küçük bir ayna, dar bıçaklı makas, ve pense içerir. Bu aletlerle uzmanlığın tuzakları etkisiz hale getirmek ve kilitleri açmak için atacağın yetenek zarlarına uzmanlık bonusunu eklemeni sağlar."]
                     }
                     ]
                 }
@@ -1610,209 +1610,209 @@
             {
                 "type":"table",
                 "caption":"",
-                "colLabels":["Item",
-                "Cost",
-                "Weight"],
+                "colLabels":["Eşya",
+                "Değer",
+                "Ağırlık"],
                 "colStyles":["col-xs-8",
                 "col-xs-2 text-align-right",
                 "col-xs-2 text-align-center"],
-                "rows":[["{@i Artisan's tools}",
+                "rows":[["{@i Zanaatkar Aletleri}",
                 "",
                 ""],
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Alchemist's supplies", "50 gp", "8 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Simyacılık malzemeleri", "50 gp", "8 lb."]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Brewer's supplies", "20 gp", "9 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Mayacılık malzemeleri", "20 gp", "9 lb."]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Calligrapher's supplies", "10 gp", "5 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Hattatlık malzemeleri", "10 gp", "5 lb."]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Carpenter's tools", "8 gp", "6 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Marangozluk aletleri", "8 gp", "6 lb."]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Cartographer's tools", "15 gp.", "6 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Haritacılık aletleri", "15 gp.", "6 lb."]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Cobbler's tools", "5 gp", "5 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Kunduracılık aletleri", "5 gp", "5 lb."]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Cook's utensils", "1 gp", "8 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Aşçılık ekipmanı", "1 gp", "8 lb."]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Glassblower's tools", "30 gp", "5 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Camcılık aletleri", "30 gp", "5 lb."]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Jeweler's tools", "25 gp", "2 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Kuyumculuk aletleri", "25 gp", "2 lb."]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Leatherworker's tools", "5 gp", "5 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Dericilik aletleri", "5 gp", "5 lb."]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Mason's tools", "10 gp", "8 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Taşçılık aletleri", "10 gp", "8 lb."]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Painter's supplies", "10 gp", "5 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Ressamlık malzemeleri", "10 gp", "5 lb."]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Potter's tools", "10 gp", "3 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Çömlekçilik aletleri", "10 gp", "3 lb."]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Smith's tools", "20 gp", "8 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Demircilik aletleri", "20 gp", "8 lb."]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Tinker's tools", "50 gp", "10 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Mucitlik aletleri", "50 gp", "10 lb."]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Weaver's tools", "1 gp", "5 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Dokumacılık aletleri", "1 gp", "5 lb."]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Woodcarver's tools", "1 gp", "5 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Oymacılık aletleri", "1 gp", "5 lb."]
                 }
                 ,
-                ["Disguise Kit",
+                ["Kılık Değiştirme Kiti",
                 "25 gp",
                 "3 lb."],
-                ["Forgery Kit",
+                ["Sahtecilik Kiti",
                 "15 gp",
                 "5 lb."],
-                ["{@i Gaming sets}",
+                ["{@i Oyun setleri}",
                 "",
                 ""],
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Dice set", "1 sp", "—"]
+                    "type": "row", "style": "row-indent-first", "row": ["Zar seti", "1 sp", "—"]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Playing card set", "5 sp", "—"]
+                    "type": "row", "style": "row-indent-first", "row": ["Oyun kartı seti", "5 sp", "—"]
                 }
                 ,
-                ["Herbalism Kit",
+                ["Otacılık Kiti",
                 "5 gp",
                 "3 lb."],
-                ["{@i Musical instruments}",
+                ["{@i Müzik enstrümanları}",
                 "",
                 ""],
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Bagpipes", "30 gp", "6 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Gayda", "30 gp", "6 lb."]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Drum", "6 gp", "3 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Davul", "6 gp", "3 lb."]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Dulcimer", "25 gp", "10 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Santur", "25 gp", "10 lb."]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Flute", "2 gp", "1 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Flüt", "2 gp", "1 lb."]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Lute", "35 gp", "2 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Ut", "35 gp", "2 lb."]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Lyre", "30 gp", "2 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Lir", "30 gp", "2 lb."]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Horn", "3 gp", "2 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Boru", "3 gp", "2 lb."]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Pan flute", "12 gp", "2 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Pan flütü", "12 gp", "2 lb."]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Shawm", "2 gp", "1 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Kaval", "2 gp", "1 lb."]
                 }
                 ,
                 {
-                    "type": "row", "style": "row-indent-first", "row": ["Viol", "30 gp", "1 lb."]
+                    "type": "row", "style": "row-indent-first", "row": ["Viola", "30 gp", "1 lb."]
                 }
                 ,
-                ["Navigator's tools",
+                ["Rotacılık aletleri",
                 "25 gp",
                 "2 lb."],
-                ["Poisoner's kit",
+                ["Zehircilik kiti",
                 "50 gp",
                 "2 lb."],
-                ["Thieves' tools",
+                ["Hırsızlık aletleri",
                 "25 gp",
                 "1 lb."],
-                ["Vehicles (land or water)",
+                ["Araçlar (kara ya da su)",
                 "*",
                 "*"]],
-                "footnotes":["* See the \"Mounts and Vehicles\" section."]
+                "footnotes":["* \"Binekler ve Araçlar\" kısmına bakın."]
             }
             ]
         }
         ,
         {
             "type":"section",
-            "name":"Trade Goods",
-            "entries":["Most wealth is not in coins. It is measured in livestock, grain, land, rights to collect taxes, or rights to resources (such as a mine or a forest).",
-            "Guilds, nobles, and royalty regulate trade. Chartered companies are granted rights to conduct trade along certain routes, to send merchant ships to various ports, or to buy or sell specific goods. Guilds set prices for the goods or services that they control, and determine who may or may not offer those goods and services. Merchants commonly exchange trade goods without using currency. The Trade Goods table shows the value of commonly exchanged goods.",
+            "name":"Ticari Mallar",
+            "entries":["Servetin çoğu para halinde değildir. Hayvanlar, tahıl, toprak, vergi toplama hakkı, ya da kaynaklara erişim hakkı (orman ya da maden gibi) ile ölçülür.",
+            "Loncalar, soylular, ve kraliyet ticareti düzenler. Sözleşmeli işletmelere belirli rotalarda ticaret yapabilmeleri, belirli limanlara ticaret gemileri göndermeleri, veya belirli malları alıp satabilmeleri için hak tanınır. Loncalar kontrol ettikleri mal ve hizmetlerin fiyatlarını, ve kimlerin bunları sunup sunamayacağını belirlerler. Tüccarlar genelde para kullanmadan malları takas ederler. Ticari Mallar tablosu yaygın bir şekilde ticareti yapılan malların değerlerini verir.",
             {
-                "type": "table", "caption": "Trade Goods", "colLabels": ["Cost", "Goods"], "colStyles": ["col-xs-1 text-align-right", "col-xs-11"], "rows": [["1 cp", "1 lb. of wheat"], ["2 cp", "1 lb. of flour or one chicken"], ["5 cp", "1 lb. of salt"], ["1 sp", "1 lb. of iron or 1 sq. yd. of canvas"], ["5 sp", "1 lb. of copper or 1 sq. yd. of cotton cloth"], ["1 gp", "1 lb. of ginger or one goat"], ["2 gp", "1 lb. of cinnamon or pepper, or one sheep"], ["3 gp", "1 lb. of cloves or one pig"], ["5 gp", "1 lb. of silver or 1 sq. yd. of linen"], ["10 gp", "1 sq. yd. of silk or one cow"], ["15 gp", "1 lb. of saffron or one ox"], ["50 gp", "1 lb. of gold"], ["500 gp", "1 lb. of platinum"]]
+                "type": "table", "caption": "Ticari Mallar", "colLabels": ["Değer", "Mal"], "colStyles": ["col-xs-1 text-align-right", "col-xs-11"], "rows": [["1 cp", "1 lb. buğday"], ["2 cp", "1 lb. un ya da bir tavuk"], ["5 cp", "1 lb. tuz"], ["1 sp", "1 lb. demir ya da 1 metrekare kanvas"], ["5 sp", "1 lb. bakır ya da 1 metrekare pamuk kumaş"], ["1 gp", "1 lb. zencefil ya da bir keçi"], ["2 gp", "1 lb. tarçın veya karabiber, ya da bir koyun"], ["3 gp", "1 lb. karanfil ya da bir domuz"], ["5 gp", "1 lb. gümüş ya da 1 metrekare keten kumaş"], ["10 gp", "1 metrekare ipek kumaş ya da bir inek"], ["15 gp", "1 lb. safran ya da bir öküz"], ["50 gp", "1 lb. altın"], ["500 gp", "1 lb. platin"]]
             }
             ]
         }
         ,
         {
             "type":"section",
-            "name":"Wealth",
-            "entries":["Wealth appears in many forms in a D&D world. Coins, gemstones, trade goods, art objects, animals, and property can reflect your character's financial well-being. Members of the peasantry trade in goods, bartering for what they need and paying taxes in grain and cheese. Members of the nobility trade in legal rights, such as the rights to mine, a port, or farmland, or in gold bars, measuring gold by the pound rather than by the coin. Only merchants, adventurers, and those offering professional services for hire deal in coins.",
+            "name":"Servet",
+            "entries":["D&D evreninde servet birçok şekilde karşımıza çıkar. Para, mücevher, ticari mal, sanat nesnesi, hayvan, ve karakterinin finansal durumunu gösteren bir mülk olabilir. Köylü sınıfı mallar ile alışveriş yapar, ihtiyaçları için takas yapıp vergilerini tahıl ve peynir ile öderler. Soylular ise yasal haklar ile ticaret yaparlar, bunlar maden, liman veya tarım arazisi işleme hakları olabilir. Ya da altın külçeleri ile alışverişe giderler, tane ile para yerine altını kiloyla ölçerler. Sadece tüccarlar, maceracılar, ve para karşılığı profesyonel hizmet sunanlar para kullanır.",
             {
                 "type":"entries",
-                "name":"Coinage",
-                "entries":["Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).",
-                "With one gold piece, a character can buy a quiver, 50 feet of good rope, or a goat. A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.",
-                "One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a set of dice, a flask of lamp oil, or a night's rest in a poor inn.",
-                "One silver piece is worth ten copper pieces, which are common among laborers and beggars. A single copper piece buys a candle, a torch, or a piece of chalk.",
-                "In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The electrum piece (ep) and the platinum piece (pp) originate from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. An electrum piece is worth five silver pieces, and a platinum piece is worth ten gold pieces.",
+                "name":"Para Sistemi",
+                "entries":["Yaygın paraların yapıldığı madenin göreceli değerine göre farklı değer birimleri vardır. En yaygın 3 madeni para altın pare (gold piece - gp), gümüş pare (silver piece - sp), ve bakır paredir (copper piece - cp).",
+                "Bir altın pare ile, bir karakter bir sadak, 50 fitlik halat, veya bir keçi alabilir. Bir yetenekli (ama olağanüstü değil) zanaatkar günde bir altın pare kazanabilir. Altın pare serveti ölçmek için kullanılan standart birimdir, paranın kendisi yaygın bir şekilde kullanılmasa bile. Tüccarlar yüzler ya da binlerce altın pare değerinde mal ve hizmetlerden bahsederlerken, bu alışveriş genelde para aktarımı içermez. Bunun yerine, altın pare değer için standart birimdir, ve asıl takas altın külçeler, kredi mektupları, ya da değerli mallar ile yapılır.",
+                "Bir altın pare 10 gümüş pareye eşittir, halkın arasındaki en yaygın para çeşidine. Bir gümüş pare bir zar seti, bir matara lamba yağı, veya basit bir handa gecelik konaklama satın alabilir.",
+                "Bir gümüş pare 10 bakır pareye eşittir, bunlar işçi ve dilenciler arasında yaygındır. Tek bir bakır pare bir mum, bir meşale, veya bir parça tebeşir satın alabilir.",
+                "Ek olarak, bazen hazine yığınlarında farklı değerli metallerden yapılma alışılmadık paralar da görülür. Elektrum pare (electrum piece - ep) ve platin pare (platinum piece - pp) yıkılmış imparatorluklar ve kayıp krallıklardan gelir, ve alışverişte kullanıldığında bazen şüphe uyandırabilir. Bir elektrum pare 5 gümüş pareye eşittir, ve bir platin pare ise 10 altın pareye eşit olur.",
                 "A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.",
                 {
-                    "type": "table", "caption": "Standard Exchange Rates", "colLabels": ["Coin", "cp", "sp", "ep", "gp", "pp"], "colStyles": ["col-xs-2", "col-xs-2", "col-xs-2", "col-xs-2", "col-xs-2", "col-xs-2"], "rows": [["Copper (cp)", "1", "1/10", "1/50", "1/100", "1/1,000"], ["Silver (sp)", "10", "1", "1/5", "1/10", "1/100"], ["Electrum (ep)", "50", "5", "1", "1/2", "1/20"], ["Gold (gp)", "100", "10", "2", "1", "1/10"], ["Platinum (pp)", "1,000", "100", "20", "10", "1"]]
+                    "type": "table", "caption": "Standart Takas Oranları", "colLabels": ["Para", "cp", "sp", "ep", "gp", "pp"], "colStyles": ["col-xs-2", "col-xs-2", "col-xs-2", "col-xs-2", "col-xs-2", "col-xs-2"], "rows": [["Bakır (cp)", "1", "1/10", "1/50", "1/100", "1/1,000"], ["Gümüş (sp)", "10", "1", "1/5", "1/10", "1/100"], ["Elektrum (ep)", "50", "5", "1", "1/2", "1/20"], ["Altın (gp)", "100", "10", "2", "1", "1/10"], ["Platin (pp)", "1,000", "100", "20", "10", "1"]]
                 }
                 ]
             }
             ,
             {
                 "type":"entries",
-                "name":"Selling Treasure",
-                "entries":["Opportunities abound to find treasure, equipment, weapons, armor, and more in the dungeons you explore. Normally, you can sell your treasures and trinkets when you return to a town or other settlement, provided that you can find buyers and merchants interested in your loot.",
+                "name":"Hazine Satma",
+                "entries":["Keşfettiğin zindanlarda hazine, ekipman, silah, zırh ve çok daha fazlasını bulma fırsatın olur. Normalde, bulduğun hazine ve değerli eşyaları kasaba veya farklı bir yerleşime döndüğünde satabilirsin, tabii ki satacağın şeylere ilgi duyan alıcılar ve tüccarlar bulabilirsen.",
                 {
                     "type":"entries",
                     "entries":[ {
-                        "type": "entries", "name": "Arms, Armor, and Other Equipment", "entries": ["As a general rule, undamaged weapons, armor, and other equipment fetch half their cost when sold in a market. Weapons and armor used by monsters are rarely in good enough condition to sell."]
+                        "type": "entries", "name": "Silahlar, Zırhlar, ve Diğer Ekipmanlar", "entries": ["Genel kural olarak, hasarsız silahlar, zırhlar, ve diğer ekipmanlar pazarda satıldığında yarı fiyatına gider. Yaratıklar tarafından kullanılmış silah ve zırhlar nadiren satılabilecek durumda olurlar."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Magic Items", "entries": ["Selling magic items is problematic. Finding someone to buy a potion or a scroll isn't too hard, but other items are out of the realm of most but the wealthiest nobles. Likewise, aside from a few common magic items, you won't normally come across magic items or spells to purchase. The value of magic is far beyond simple gold and should always be treated as such."]
+                        "type": "entries", "name": "Büyülü Eşyalar", "entries": ["Büyülü bir eşyayı satma problemlidir. Bir iksir ya da tomarı satmak için birini bulmak çok zor olmaz, ama diğer eşyalar en zengin soylular dışındakilerin erişimini aşar. Benzer şekilde, bazı yaygın büyülü eşyalar dışında, satın almak için pek büyülü eşya ya da büyülerle karşılaşmazsın. Büyünün değeri daima basit altının üzerindedir ve o şekilde davranılmalıdır."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Gems, Jewelry, and Art Objects", "entries": ["These items retain their full value in the marketplace, and you can either trade them in for coin or use them as currency for other transactions. For exceptionally valuable treasures, the DM might require you to find a buyer in a large town or larger community first."]
+                        "type": "entries", "name": "Değerli Taşlar, Mücevherler, ve Sanat Nesneleri", "entries": ["Bu eşyalar pazarda tam değerlerini korurlar, ve onları ya para için takas edersin ya da farklı alışverişler için para yerine kullanırsın. Fevkalade değerli hazineler için, DM öncelikle büyük bir kasaba ya da şehirde alıcı bulmanızı isteyebilir."]
                     }
                     ]
                 }
@@ -3273,42 +3273,42 @@
     {
         "type":"entries",
         "entries":[ {
-            "type": "section", "name": "Climbing, Swimming, and Crawling", "entries": ["While climbing or swimming, each foot of movement costs 1 extra foot (2 extra feet in difficult terrain), unless a creature has a climbing or swimming speed. At the DM's option, climbing a slippery vertical surface or one with few handholds requires a successful Kuvvet (Atletizm) check. Similarly, gaining any distance in rough water might require a successful Kuvvet (Atletizm) check."]
+            "type": "section", "name": "Tırmanma, Yüzme, ve Sürünme", "entries": ["Tırmanırken ya da yüzerken, her fitlik hareket 1 fazladan fit hareket harcar (zorlu arazide 2 fazladan fit), tabii ki bu varlığın tırmanma ya da yüzme hızının olmadığı durumlarda geçerlidir. DM'in seçimine bağlı olarak, kaygan dikey bir yüzey ya da tutunacak yeri az olan bir yüzeye tırmanırken başarılı bir Kuvvet (Atletizm) zarı gerekebilir. Benzer olarak, akıntı olan bir suda mesafe katetmek için başarılı bir Kuvvet (Atletizm) zarı gerekebilir."]
         }
         ,
         {
-            "type": "section", "name": "Difficult Terrain", "entries": ["The travel speeds given in the Travel Pace table assume relatively simple terrain: roads, open plains, or clear dungeon corridors. But adventurers often face dense forests, deep swamps, rubble-filled ruins, steep mountains, and ice-covered ground—all considered difficult terrain.", "You move at half speed in difficult terrain—moving 1 foot in difficult terrain costs 2 feet of speed—so you can cover only half the normal distance in a dakika, an hour, or a day."]
+            "type": "section", "name": "Zorlu Arazi", "entries": ["Seyahat Temposunda verilen hızlar basit araziler varsayar: yollar, açık kırlıklar, veya temiz zindan koridorları. Ama maceracılar genelde sık ormanlar, derin bataklıklar, yıkıntı dolu harabeler, sarp dağlar, ve buz kaplı yüzeyler ile yüzleşirler, bunların hepsi zorlu arazidir.", "Zorlu arazide yarı hızda ilerlersin, burada 1 fit hareket 2 fit hızını harcamanı gerektirir. Bu yüzden bir dakika, saat, veya günde normalde gidebileceğinin yarısı kadar gidersin."]
         }
         ,
         {
             "type":"section",
-            "name":"Jumping",
-            "entries":["Your Kuvvet determines how far you can jump.",
+            "name":"Zıplama",
+            "entries":["Kuvvetin ne kadar zıplayabileceğini belirler.",
             {
-                "type": "entries", "name": "Long Jump", "entries": [" When you make a long jump, you cover a number of feet up to your Kuvvet score if you move at least 10 feet on foot immediately before the jump. When you make a standing long jump, you can leap only half that distance. Either way, each foot you clear on the jump costs a foot of movement.", "This rule assumes that the height of your jump doesn't matter, such as a jump across a stream or chasm. At your DM's option, you must succeed on a DC 10 Kuvvet (Atletizm) check to clear a low obstacle (no taller than a quarter of the jump's distance), such as a hedge or low wall. Otherwise, you hit it.", "When you land in difficult terrain, you must succeed on a DC 10 Çeviklik (Akrobasi) check to land on your feet. Otherwise, you land prone."]
+                "type": "entries", "name": "Uzun Atlama", "entries": [" Uzun atlama yaptığında, zıplamadan hemen önce en az 10 fit hareket edersen Kuvvet skorun kadar fit atlayabilirsin. Bulunduğun yerden uzun atladığında, bu mesafenin sadece yarısını gidersin. Her şekilde, bu atlamada gittiğin her fit bir fit harekete mal olur.", "Bu kural atlamanın yüksekliğinin önemsiz olduğunu varsayar, bir dere veya yarık üzerinden atlama gibi. DM'in seçimine bağlı olarak, bir çalı veya çit duvarı gibi alçak bir engeli (atlama mesafesinin çeyreğinden yüksek olamaz) aşmak için DC 10 Kuvvet (Atletizm) zarı gerekebilir. Aksi taktirde, ona çarparsın.", "Zorlu bir araziye iniş yaparsan, DC 10 Çeviklik (Akrobasi) zarı atıp ayağının üzerine inersin. Aksi taktirde, yere düşersin."]
             }
             ,
             {
-                "type": "entries", "name": "High Jump", "entries": [" When you make a high jump, you leap into the air a number of feet equal to 3 + your Kuvvet modifier if you move at least 10 feet on foot immediately before the jump. After applying your Kuvvet modifier, a high jump is a minimum of 0 feet. When you make a standing high jump, you can jump only half that distance. Either way, each foot you clear on the jump costs a foot of movement. In some circumstances, your DM might allow you to make a Kuvvet (Atletizm) check to jump higher than you normally can.", "You can extend your arms half your height above yourself during the jump. Thus, you can erişim above you a difference equal to the height of the jump plus 1 1/2 times your height."]
+                "type": "entries", "name": "Yüksek Atlama", "entries": [" Yüksek atlama yaptığında, eğer zıplamadan hemen önce en az 10 fit hareket edersen havaya 3 + Kuvvet bonusun kadar fit yükselirsin. Kuvvet bonusunu ekledikten sonra, bir yüksek atlamanın minimumu 0 fittir. Bulunduğun yerden yüksek atladığında, bu mesafenin sadece yarısını zıplayabilirsin. Her şekilde, zıplama ile gittiğin her fit bir fit harekete mal olur. Bazı durumlarda, DM'in Kuvvet (Atletizm) zarı ile normalden daha yükseğe zıplamanı sağlayabilir.", "Zıplama sırasında kollarını boyunun yarısı kadar yukarı uzatabilirsin. Bu şekilde, zıplama mesafesi + boyunun 1.5 katı kadar yüksekte bir yere erişebilirsin."]
             }
             ]
         }
         ,
         {
             "type":"section",
-            "name":"Travel Pace",
-            "entries":["While traveling, a group of adventurers can move at a normal, fast, or slow pace, as shown on the Travel Pace table. The table states how far the party can move in a period of time and whether the pace has any effect. A fast pace makes characters less perceptive, while a slow pace makes it possible to sneak around and to search an area more carefully (see the \"Activity While Traveling\" section later in this chapter for more information).",
+            "name":"Seyahat Temposu",
+            "entries":["Seyahat ederken, bir maceracı grubu normal, hızlı veya yavaş tempoda hareket edebilir, bunlar Seyahat Temposu tablosunda gösterilir. Bu tablo partinin belirli bir zaman diliminde ne kadar hareket edebileceğini ve bu temponun onlara herhangi bir etkisi olup olmadığını gösterir. Hızlı bir tempo karakterlerin algısını düşürür, yavaş tempo ise gizlenmeyi ve bir alanı daha dikkatli aramayı sağlayabilir (daha fazla bilgi için bu kısımdaki \"Seyahat Sırasında Faaliyetler\" bölümüne bakın).",
             {
-                "type": "entries", "name": "Forced March", "entries": [" The Travel Pace table assumes that characters travel for 8 hours in day. They can push on beyond that limit, at the risk of exhaustion."]
+                "type": "entries", "name": "Zoraki Yürüyüş", "entries": [" Seyahat Temposu tablosu karakterlerin günde 8 saat seyahat ettiğini varsayar. Bitkinlik riskini göze alarak bu limiti aşabilirler."]
             }
             ,
-            "For each additional hour of travel beyond 8 hours, the characters cover the distance shown in the Hour column for their pace, and each character must make a Dayanıklılık saving throw at the end of the hour. The DC is 10 + 1 for each hour past 8 hours. On a failed saving throw, a character suffers one level of exhaustion (see the appendix).",
+            "8'in ötesinde her fazladan saat için karakterler tempolarının Saat sütununda görülen mesafeyi katederler, ve her karakter bu saatin sonunda Dayanıklılık kurtulma zarı atar. DC'si 10 + sekizin ötesinde her saat için +1'dir. Başarısız bir kurtulma zarında, karakter bir seviye bitkinlik puanı alır.",
             {
-                "type": "entries", "name": "Mounts and Vehicles", "entries": [" For short spans of time (up to an hour), many animals move much faster than humanoids. A mounted character can ride at a gallop for about an hour, covering twice the usual distance for a fast pace. If fresh mounts are available every 8 to 10 miles, characters can cover larger distances at this pace, but this is very rare except in densely populated areas.", "Characters in wagons, carriages, or other land vehicles choose a pace as normal. Characters in a waterborne vessel are limited to the speed of the vessel (see chapter 5), and they don't suffer penalties for a fast pace or gain benefits from a slow pace. Depending on the vessel and the size of the crew, ships might be able to travel for up to 24 hours per day.", "Certain special mounts, such as a pegasus or griffon, or special vehicles, such as a carpet of flying, allow you to travel more swiftly. The Dungeon Master's Guide contains more information on special methods of travel."]
+                "type": "entries", "name": "Binekler ve Araçlar", "entries": [" Kısa zaman dilimlerinde (1 saate kadar), birçok hayvan insansılardan daha hızlı hareket eder. Binek üzerindeki bir karakter 1 saate kadar dört nala giderek, hızlı temponun iki katı kadar mesafe katedebilir. Eğer her 8-10 milde yeni binek mevcutsa, karakterler bu hızda uzun mesafeler katedebilirler, ama bu yoğun nüfuslu alanlar dışında çok nadirdir.", "Yolcu vagonu ve benzerleri gibi kara araçları ile normal hızda ilerlenir. Su üzerindeki bir araçta olan karakterler bu aracın hızı ile sınırlıdır, ve hızlı temponun cezaları ya da yavaş temponun faydalarından etkilenmezler. Bu aracın tipi ve mürettebatın sayısına bağlı olarak, gemiler her gün 24 saate kadar seyahat edebilir.", "Pegasus ya da griffon gibi bazı özel binekler, ve uçan halı gibi özel araçlar daha hızlı gitmeni sağlayabilir. DMG bu tip özel seyahat metodları hakkında daha detaylı bilgi sunar."]
             }
             ,
             {
-                "type": "table", "caption": "Travel Pace", "colLabels": ["Pace", "Distance Traveled per Minute", "Distance Traveled per Hour", "Distance Traveled per Day", "Effect"], "colStyles": ["col-xs-2", "col-xs-2", "col-xs-2", "col-xs-2", "col-xs-4"], "rows": [["Fast", "400 feet", "4 miles", "30 miles", "-5 penalty to passive Akıl (Algı) scores"], ["Normal", "300 feet", "3 miles", "24 miles", "-"], ["Slow", "200 feet", "2 miles", "18 miles", "Able to use stealth"]]
+                "type": "table", "caption": "Seyahat Temposu", "colLabels": ["Tempo", "Dakikada Katedilen Mesafe", "Saatte Katedilen Mesafe", "Günde Katedilen Mesafe", "Etki"], "colStyles": ["col-xs-2", "col-xs-2", "col-xs-2", "col-xs-2", "col-xs-4"], "rows": [["Hızlı", "400 fit", "4 mil", "30 mil", "tüm pasif Akıl (Algı) skorlarına -5 ceza"], ["Normal", "300 fit", "3 mil", "24 mil", "-"], ["Yavaş", "200 fit", "2 mil", "18 mil", "Gizlenme kullanılabilir"]]
             }
             ]
         }

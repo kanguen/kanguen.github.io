@@ -1652,7 +1652,7 @@
 					"kısa kılıçlar"
 				],
 				"tools": [
-					"3 müzikal enstrüman"
+					"3 müzik enstrümanı"
 				],
 				"skills": {
 					"choose": 3,
@@ -1683,7 +1683,7 @@
 				"default": [
 					"(a) bir meç, (b) bir uzun kılıç, ya da (c) herhangi bir basit silah",
 					"(a) bir diplomat paketi ya da (b) bir ozan paketi",
-					"(a) bir lut ya da (b) herhangi bir müzik enstrümanı",
+					"(a) bir ut ya da (b) herhangi bir müzik enstrümanı",
 					"Deri zırh, ve bir hançer"
 				],
 				"goldAlternative": "5d4 × 10"
@@ -1759,7 +1759,7 @@
 								"type": "entries",
 								"name": "Büyü Yapma Odağı",
 								"entries": [
-									"Ozan büyülerini kullanmak için gereken büyü yapma odağı için bir müzikal enstrüman kullanabilirsin."
+									"Ozan büyülerini kullanmak için gereken büyü yapma odağı için bir müzik enstrümanı kullanabilirsin."
 								]
 							}
 						]
@@ -1823,7 +1823,7 @@
 					{
 						"name": "Karşı Cazibe",
 						"entries": [
-							"6. seviyede müzikal notaları ya da güçlü sözlerini zihin ekilerini bozmak için kullanmayı öğrenirsin. Eylem olarak bir sonraki sıranın sonuna kadar sürecek olan bir performansa başlayabilirsın. Bu süre içinde sen ve 30 fit yakınındaki dostların korkutulma ve cezbedilmeye karşı attıkları kurtulma zarlarında avantajlı olurlar. Bir varlık bu özellikten faydalanmak için seni duyabilmelidir. Eğer bilinçsiz düşersen, susturulursan ya da sen istersen (eylem gerektirmez) performans erken biter."
+							"6. seviyede müzik notalarını ya da güçlü sözlerini zihin ekilerini bozmak için kullanmayı öğrenirsin. Eylem olarak bir sonraki sıranın sonuna kadar sürecek olan bir performansa başlayabilirsın. Bu süre içinde sen ve 30 fit yakınındaki dostların korkutulma ve cezbedilmeye karşı attıkları kurtulma zarlarında avantajlı olurlar. Bir varlık bu özellikten faydalanmak için seni duyabilmelidir. Eğer bilinçsiz düşersen, susturulursan ya da sen istersen (eylem gerektirmez) performans erken biter."
 						]
 					},
 					{
@@ -8599,7 +8599,7 @@
 					"kısa kılıçlar"
 				],
 				"tools": [
-					"bir tip zanaatkar aleti ya da seçeceğin bir müzikal alet"
+					"bir tip zanaatkar aleti ya da seçeceğin bir müzik enstrümanı"
 				],
 				"skills": {
 					"choose": 2,
@@ -8889,7 +8889,7 @@
 							{
 								"name": "Gölgenin Yolu",
 								"entries": [
-									"Gölgenin Yolunu izleyen keşişler hile ve gizlenmeye önem veren bir geleneğe sahiptir. Bu keşişlere gölge dansçısı ya da ninja denebilir ve genelde ajan ya da suikastçi olarak hizmet ederler. Bazen bir ninja manastırının üyeleri aile bireyleri olur ve sanatları ve görevleri hakkında gizlilik yemini etmiş bir klan oluştururlar. Diğer manastırlar bir hırsız locasına benzeyebilir, hizmetlerini soylular, zengin tüccarlar ya da ücretlerini ödeyebilecek herkese sunarlar. Metodları gözetmeksizin, bu manastırların başları öğrencilerinin sorgusuz itaatlerini beklerler.",
+									"Gölgenin Yolunu izleyen keşişler hile ve gizlenmeye önem veren bir geleneğe sahiptir. Bu keşişlere gölge dansçısı ya da ninja denebilir ve genelde ajan ya da suikastçi olarak hizmet ederler. Bazen bir ninja manastırının üyeleri aile bireyleri olur ve sanatları ve görevleri hakkında gizlilik yemini etmiş bir klan oluştururlar. Diğer manastırlar bir hırsız loncasına benzeyebilir, hizmetlerini soylular, zengin tüccarlar ya da ücretlerini ödeyebilecek herkese sunarlar. Metodları gözetmeksizin, bu manastırların başları öğrencilerinin sorgusuz itaatlerini beklerler.",
 									{
 										"type": "entries",
 										"name": "Gölge Sanatları",
@@ -10701,7 +10701,7 @@
 							{
 								"name": "İntikam Yemini",
 								"entries": [
-									"İntikam Yemini ölümcül günah işleyenleri cezalandırmaya kendini adamaktır. Kötüler muhtaç köylüleri katlettiğinde, insanlar tanrıların iradesine karşı geldiklerinde, hırsız locası çok güçlendiğinde ve şiddet uyguladığında, bir ejderha kırsal bölgeleri mahvettiğinde, işte böyle zamanlarda paladinler ortaya çıkarak İntikam Yemini edip yanlışları düzeltirler. Bazen intikamcılar ya da kara şövalyeler olarak bilinen bu paladinler için kendi saflıkları adalet sağlamaktan önemli değildir.",
+									"İntikam Yemini ölümcül günah işleyenleri cezalandırmaya kendini adamaktır. Kötüler muhtaç köylüleri katlettiğinde, insanlar tanrıların iradesine karşı geldiklerinde, hırsız loncası çok güçlendiğinde ve şiddet uyguladığında, bir ejderha kırsal bölgeleri mahvettiğinde, işte böyle zamanlarda paladinler ortaya çıkarak İntikam Yemini edip yanlışları düzeltirler. Bazen intikamcılar ya da kara şövalyeler olarak bilinen bu paladinler için kendi saflıkları adalet sağlamaktan önemli değildir.",
 									{
 										"type": "entries",
 										"name": "İntikam Öğretileri",
@@ -13557,7 +13557,7 @@
 					"kısa kılıçlar"
 				],
 				"tools": [
-					"hırsız aletleri"
+					"hırsızlık aletleri"
 				],
 				"skills": {
 					"choose": 4,
@@ -13582,7 +13582,7 @@
 					"(a) bir meç ya da (b) bir kısa kılıç",
 					"(a) bir kısa yay ve 20 okluk sadak ya da (b) bir kısa kılıç",
 					"(a) bir hırsız paketi, (b) bir zindancı paketi, ya da (c) bir kaşif paketi",
-					"Deri zırh, iki hançer, ve hırsız aletleri"
+					"Deri zırh, iki hançer, ve hırsızlık aletleri"
 				],
 				"goldAlternative": "4d4 × 10"
 			},
@@ -13591,8 +13591,8 @@
 					{
 						"name": "Ekspertiz",
 						"entries": [
-							"1. seviyede ya iki beceri uzmanlığını ya da bir beceri uzmanlığı ve hırsız aletlerini seç. Bu seçilenlerle atacağın zarlarda uzmanlık bonusun ikiye katlanır.",
-							"6. seviyede yine iki beceri uzmanlığını ya da bir beceri uzmanlığı ve hırsız aletlerini bu özellik için seçebilirsin."
+							"1. seviyede ya iki beceri uzmanlığını ya da bir beceri uzmanlığı ve hırsızlık aletlerini seç. Bu seçilenlerle atacağın zarlarda uzmanlık bonusun ikiye katlanır.",
+							"6. seviyede yine iki beceri uzmanlığını ya da bir beceri uzmanlığı ve hırsızlık aletlerini bu özellik için seçebilirsin."
 						]
 					},
 					{
@@ -13607,7 +13607,7 @@
 						"name": "Hırsız Argosu",
 						"entries": [
 							"Eğitimin sırasında şive, jargon ve kod karışımı olan ve çok sıradan görünen konuşmalara gizli mesajlar saklayabildiğin hırsız argosunu öğrendin. Sadece başka hırsız argosunu bilen bir varlık bu gizli mesajları anlayabilir. Bir fikri açıkça konuşmaya oranla bu argoyla bilgi aktarımı 4 kat daha uzun sürer.",
-							"Ek olarak, bir alanın tehlikeli ya da bir hırsız locasına ait olup olmadığı, yakında ganimet olup olmadığı, bir alandaki insanların hırsızlık için kolay hedef oldukları ya da kaçan hırsızlara sığınak verecekleri gibi kısa mesajlar aktaran gizli sembolleri bilirsin."
+							"Ek olarak, bir alanın tehlikeli ya da bir hırsız loncasına ait olup olmadığı, yakında ganimet olup olmadığı, bir alandaki insanların hırsızlık için kolay hedef oldukları ya da kaçan hırsızlara sığınak verecekleri gibi kısa mesajlar aktaran gizli sembolleri bilirsin."
 						]
 					}
 				],
@@ -13649,7 +13649,7 @@
 					{
 						"name": "Ekspertiz",
 						"entries": [
-							"6. seviyede iki tane daha beceri uzmanlığını ya da bir beceri uzmanlığı ve hırsız aletlerini Ekspertiz özelliği için seçebilirsin."
+							"6. seviyede iki tane daha beceri uzmanlığını ya da bir beceri uzmanlığı ve hırsızlık aletlerini Ekspertiz özelliği için seçebilirsin."
 						]
 					}
 				],
@@ -13795,7 +13795,7 @@
 												"items": [
 													"Elin tuttuğu bir nesneyi başka bir varlığın tuttuğu ya da taşıdığı bir kaba yerleştirebilirsin.",
 													"Başka bir varlığın tuttuğu ya da taşıdığı kaptan bir nesnee alabilirsin.",
-													"Hırsız aletlerini kullanıp kilit açma ya da tuzak kaldırmayı uzaktan yapabilirsin."
+													"Hırsızlık aletlerini kullanıp kilit açma ya da tuzak kaldırmayı uzaktan yapabilirsin."
 												]
 											},
 											"Bunlardan birini eğer senin Çeviklik (El Çabukluğu) zarın diğer varlıkların Akıl (Algı) zarından yüksek olursa farkedilmeden yapabilirsin.",
@@ -14006,7 +14006,7 @@
 										"type": "entries",
 										"name": "Çabuk Eller",
 										"entries": [
-											"3. seviyeden itibaren Kurnaz Eylemin sağladığı bonus eylem ile Çeviklik (El Çabukluğu) zarı atabilir, hırsız aletlerini kullanıp kilit açabilir ya da tuzak etkisiz hale getirebilir, ya da Nesne Kullan eylemini kullanabilirsin."
+											"3. seviyeden itibaren Kurnaz Eylemin sağladığı bonus eylem ile Çeviklik (El Çabukluğu) zarı atabilir, hırsızlık aletlerini kullanıp kilit açabilir ya da tuzak etkisiz hale getirebilir, ya da Nesne Kullan eylemini kullanabilirsin."
 										]
 									},
 									{
