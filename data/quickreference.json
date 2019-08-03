@@ -11,7 +11,7 @@
         }
         ,
         {
-            "name": "Playing the Game", "headers": ["Yetenek (Beceri) Zarları", "Yetenek Skorları ve Bonuslar", "Avantaj ve Dezavantaj", "Büyü Yapma", "Durumlar", "Düşme", "Food and Water", "How to Play", "Interacting with Objects", "Uzmanlık Bonusu", "Resting", "Saving Throws", "Skills", "Suffocating", "Using Each Ability", "Vision and Hafif"]
+            "name": "Oyunu Oynama", "headers": ["Yetenek Zarları", "Yetenek Skorları ve Bonuslar", "Avantaj ve Dezavantaj", "Büyü Yapma", "Durumlar", "Düşme", "Yiyecek ve İçecek", "Nasıl Oynanır", "Nesnelerle Etkileşim", "Uzmanlık Bonusu", "Dinlenme", "Kurtulma Zarları", "Beceriler", "Boğulma", "Her Yeteneği Kullanma", "Görüş ve Işık"]
         }
         ,
         {
@@ -2097,40 +2097,40 @@
         "type":"entries",
         "entries":[ {
             "type":"section",
-            "name":"Yetenek (Beceri) Zarları",
+            "name":"Yetenek Zarları",
             "entries":["Yetenek zarları bir karakterin yada yaratığın bir zorluğu aşmak için gösterdiği çabada doğuştan gelen ve eğitimle kazanılmış yeteneklerini ölçer. Bir karakter yada yaratık, başarısız olma ihtimali olan saldırı dışında bir eylem denediğinde DM yetenek zarı isteyebilir. Netice belirsizse, zar sonuçları belirler.",
             "Her yetenek zarında, DM 6 yetenekten hangisinin duruma uygun olduğunu ve görevin zorluğunu belirler, bu zorluğa Difficulty Class (DC) yani Zorluk Sınıfı denir. Görev ne kadar zor olursa DC o kadar yüksek olur. Tipik Zorluk Sınıfları tablosu en yaygın DC'leri gösterir.",
             {
                 "type": "table", "caption": "Tipik Zorluk Sınıfları", "colLabels": ["Görev Zorluğu", "DC"], "colStyles": ["col-xs-9", "col-xs-3 text-align-center"], "rows": [["Çok kolay", "5"], ["Kolay", "10"], ["Orta", "15"], ["Zor", "20"], ["Çok zor", "25"], ["Neredeyse imkansız", "30"]]
             }
             ,
-            "To make an ability check, roll a d20 and add the relevant ability modifier.",
-            "As with other d20 rolls, apply bonuses and penalties, and compare the total to the DC. If the total equals or exceeds the DC, the ability check is a success—the creature overcomes the challenge at hand. Otherwise, it's a failure, which means the character or monster makes no progress toward the objective or makes progress combined with a setback determined by the DM.",
+            "Bir yetenek zarı atmak için, d20 atarsın ve ilgili yetenek bonusunu eklersin.",
+            "Diğer d20 zarları gibi, bonusları ve cezaları uygularsın, ve toplamını DC ile karşılaştırırsın. Eğer toplam DC'ye eşitse veya aşıyorsa, yetenek zarı başarılıdır, varlık bu zorlukla başa çıkabilmiştir. Aksi taktirde, bu bir başarısızlıktır, yani karakter ya da yaratık hedef doğrultusunda bir ilerleme kaydedemez ya da DM'in kararına bağlı olarak bir aksilik ile birlikte ilerleme kaydeder.",
             {
-                "type": "entries", "name": "Contests", "entries": ["Sometimes once character's or monster's efforts are directly opposed to another's. This can occur when both of them are trying to do the same thing and only one can succeed, such as attempting to snatch up a magic ring that has fallen to the floor. This situation also applies when one of them is trying to prevent the other one from accomplishing a goal—for example, when a monster tries to force open a door that an adventurer is holding closed. In situations like these, the outcome is determined by a special form of ability check, called a contest.", "Both participants in a contest make ability checks appropriate to their efforts. They apply all appropriate bonuses and penalties, but instead of comparing the total to a DC, they compare the totals of their two checks. The participant with the higher check total wins the contest. That character or monster either succeeds at the action or prevents the other one from succeeding.", "If the contest results in a tie, the situation remains the same as it was before the contest. Thus, one contestant might win the contest by default. If two characters tie in a contest to snatch a ring off the floor, neither character grabs it. In a contest between a monster trying to open a door and an adventurer trying to keep the door closed, a tie means that the door remains shut."]
+                "type": "entries", "name": "Çekişmeler", "entries": ["Bazen bir karakterin veya canavarın çabaları doğrudan bir diğerine karşı olabilir. Bu durum ikisi de aynı şeyi denerken ama sadece birinin başarılı olabileceği durumlar olabilir, yerden büyülü bir yüzüğü kapmaya çalışmak gibi. Bu durum biri diğerinin amacına ulaşmasını engellemek istediğinde de geçerlidir, örneğin, bir yaratık maceracının kapalı tuttuğu kapıyı açmaya çalışırsa. Bu durumlarda, sonuç çekişme denen özel bir yetenek zarı ile belirlenir.", "Bir çekişmedeki iki taraf da çabalarına uygun birer yetenek zarı atar. İlgili tüm bonus ve cezaları uygularlar, ama toplamı DC'ye karşılaştırmak yerine, birbirinin toplamlarıyla karşılaştırırlar. Çekişmeyi toplamı daha yüksek olan taraf kazanır. Bu karakter ya da canavar ya eyleminde başarılı olur ya da diğerinin başarılı olmasını engeller.", "Eğer çekişme sonucu bir beraberlikse, durum çekişme öncesindeki haliyle kalır. Yani, bir taraf hükmen kazanabilir. Eğer iki karakter yerdeki yüzüğü kapmak için berabere kalırlarsa, yüzüğü kimse kapamaz. Bir maceracının kapıyı tuttuğu ve bir canavarın kapıyı açmaya çalıştığı çekişmede, beraberlik kapının kapalı kalması anlamına gelir."]
             }
             ,
             {
                 "type":"entries",
-                "name":"Passive Checks",
-                "entries":["A passive check is a special kind of ability check that doesn't involve any die rolls. Such a check can represent the average result for a task done repeatedly, such as searching for secret doors over and over again, or can be used when the DM wants to secretly determine whether the characters succeed at something without rolling dice, such as noticing a hidden monster.",
-                "Here's how to determine a character's total for a passive check:",
+                "name":"Pasif Zarlar",
+                "entries":["Adına rağmen bir pasif zar, herhangi bir zar atılmasını gerektirmeyen özel bir yetenek zarı çeşididir. Bu tip bir zar sürekli tekrarlanan bir işin ortalama sonucunu temsil edebilir, gizli bir kapıyı defalarca aramak gibi, veya DM gizlice bir karakterin zar atmadan bir şeyde başarılı olup olmayacağını ölçmek için kullanabilir, gizli bir yaratığı farketmek gibi.",
+                "Bir karakterin pasif zar için toplamını şu şekilde belirlersin:",
                 {
-                    "type": "abilityGeneric", "text": "10 + all modifiers that normally apply to the check"
+                    "type": "abilityGeneric", "text": "10 + zara normalde uygulanan tüm bonuslar ve cezalar"
                 }
                 ,
-                "If the character has advantage on the check, add 5. For disadvantage, subtract 5. The game refers to a passive check total as a score.",
-                "For example, if a 1st-level character has a Akıl of 15 and proficiency in Algı, he or she has a passive Akıl (Algı) score of 14.",
-                "The rules on hiding in the \"Çeviklik\" section below rely on passive checks, as do the exploration rules in chapter 8."]
+                "Eğer bir karakterin zarda avantajı varsa 5 eklersin. Dezavantaj için 5 çıkarırsın. Oyun pasif zar toplamına skor der (yetenek skoru gibi).",
+                "Örneğin, eğer bir 1. seviye karakterin 15 Akıl skoru ve Algı becerisinde uzmanlığı varsa, onun pasif Akıl (Algı) skoru 14 olur.",
+                "\"Çeviklik\" kısmındaki gizlenme kuralları pasif zarlara bağlıdır, keşif kuralları da bu skoru kullanır."]
             }
             ,
             {
                 "type":"entries",
-                "name":"Working Together",
-                "entries":["Sometimes two or more characters team up to attempt a task. The character who's leading the effort—or the one with the highest ability modifier—can make an ability check with advantage, reflecting the help provided by the other characters. In combat, this requires the Help action (see chapter 9).",
-                "A character can only provide help if the task is one that he or she could attempt alone. For example, trying to open a lock requires proficiency with thieves' tools, so a character who lacks that proficiency can't help another character in that task. Moreover, a character can help only when two or more individuals working together would actually be productive. Some tasks, such as threading a needle, are no easier with help.",
+                "name":"Birlikte Çalışma",
+                "entries":["Bazen 2 veya daha fazla karakter bir işi denemek için güçlerini birleştirir. Bu çabayı yöneten kişi, veya en yüksek yetenek bonusuna sahip olan kişi, yetenek zarını avantajla atabilir, bu diğer karakterlerden gelen yardımı yansıtır. Savaşta, bu Yardım eylemini gerektirir.",
+                "Bir karakter sadece eğer bu işi yalnız başına da deneyebiliyorsa yardım edebilir. Örneğin, bir kilidi açma hırsızlık aletleri ile uzmanlık gerektirir, yani bu uzmanlığa sahip olmayan bir karakter başkasına bu iş için yardım edemez. Bunun ötesinde, bir karakter sadece iki ya da fazla bireyin birlikte çalışmasının yararlı olacağı durumlarda yardım edebilir. İğneye iplik geçirme gibi bazı işler yardım olsa bile kolaylaşmaz.",
                 {
-                    "type": "entries", "name": "Group Checks", "entries": ["When a number of individuals are trying to accomplish something as a group, the DM might ask for a group ability check. In such a situation, the characters who are skilled at a particular task help cover those who aren't.", "To make a group ability check, everyone in the group makes the ability check. If at least half the group succeeds, the whole group succeeds. Otherwise, the group fails.", "Group checks don't come up very often, and they're most useful when all the characters succeed or fail as a group. For example, when adventurers are navigating a swamp, the DM might call for a group Akıl (Hayatta Kalma) check to see if the characters can avoid the quicksand, sinkholes, and other natural hazards of the environment. If at least half the group succeeds, the successful characters are able to guide their companions out of danger. Otherwise, the group stumbles into one of these hazards."]
+                    "type": "entries", "name": "Grup Zarları", "entries": ["Birçok birey grup olarak bir şeyi yapmayı denerlerse, DM grup yetenek zarı isteyebilir. Bu tip durumlarda, o işte yetenekli olan karakterler diğerlerine yardım edip eksiklerini kaparlar.", "Bir grup yetenek zarı için, gruptaki herkes yetenek zarı atar. Eğer grubun en az yarısı başarılı olursa, tüm grup başarılı sayılır. Aksi taktirde, grup başarısız olur.", "Grup zarları çok sık karşınıza çıkmaz, ve onların en yararlı olduğu durum bir grubun beraber başarılı veya başarısız olması gereken anlardır. Örneğin, maceracılar bir bataklıktan geçerken, DM bir grup Akıl (Hayatta Kalma) zarı isteyip karakterlerin bataklardan ve çevredeki diğer doğal tehlikelerden kurtulup kurtulamayacağını görebilir. Eğer grubun en az yarısı başarılı olursa, başarılı olanlar yoldaşlarını tehlikeden kurtarabilir. Aksi taktirde, grup bu tehlikelerden biri ile karşılaşır."]
                 }
                 ]
             }
@@ -2139,154 +2139,154 @@
         ,
         {
             "type":"section",
-            "name":"Yetenek Skorları and Modifiers",
-            "entries":["Each of a creature's abilities has a score, a number that defines the magnitude of that ability. An ability score is not just a measure of innate capabilities, but also encompasses a creature's training and competence in activities related to that ability.",
-            "A score of 10 or 11 is the normal human average, but adventurers and many monsters are a cut above average in most abilities. A score of 18 is the highest that a person usually reaches. Adventurers can have scores as high as 20, and monsters and divine beings can have scores as high as 30.",
-            "Each ability also has a modifier, derived from the score and ranging from -5 (for an ability score of 1) to +10 (for a score of 30). The Yetenek Skorları and Modifiers table notes the ability modifiers for the menzil of possible ability scores, from 1 to 30.",
-            "To determine an ability modifier without consulting the table, subtract 10 from the ability score and then divide the total by 2 (round down).",
-            "Because ability modifiers affect almost every attack roll, ability check, and saving throw, ability modifiers come up in play more often than their associated scores.",
+            "name":"Yetenek Skorları ve Bonusları",
+            "entries":["Bir varlığın her yeteneğinin bir skoru vardır, bu sayı o yeteneğin seviyesini gösterir. Bir yetenek skoru sadece doğuştan gelen kabiliyeti değil, ayrıca bu yeteneğe bağlı alınan eğitim ve ilgili işlerde yeterliği yansıtır.",
+            "Bir skorda 10 veya 11 insanlar için ortalamadır, ama maceracılar ve birçok yaratık çoğu yetenekte ortalama üzerindedirler. 18 skoru bir kişinin normalde ulaşabileceği en yüksek skordur. Maceracılar 20'ye kadar çıkabilen skorlara sahip olabilirler, yaratıklar ve kutsal varlıkların skorları 30'a çıkabilir.",
+            "Her yeteneğin bir bonusu da vardır (Araya çevirmen notu gireceğim. Bu kısımda bonus diye çevirdiğim kelimenin orijinali modifier, yani niteleyici veya değiştirici gibi bir çeviri tam karşılığını verecek olsa da kullanım rahatlığı açısından bonusu tercih ettim. Yani bu bonusun negatif de olabileceğini unutmayın.), skora bağlı olarak belirlenen -5'ten (1 yetenek skoru için) +10'a (30 yetenek skoru için) kadar giden bir değişken. Yetenek Skorları ve Bonusları tablosu 1'den 30'a kadar tüm olası yetenek skorlarını ve bonuslarını verir.",
+            "Bir yetenek bonusunu tabloya bakmadan belirlemek için, yetenek skorundan 10 çıkarıp sonucu ikiye bölersin (aşağı yuvarlanır).",
+            "Yetenek bonusları neredeyse tüm saldırı, yetenek ve kurtulma zarlarını etkilediği için, oyun sırasında yetenek bonusları ilgili skorlarından daha sık karşımıza çıkar.",
             {
-                "type": "table", "caption": "Yetenek Skorları and Modifiers", "colLabels": ["Score", "Modifier", "Score", "Modifier"], "colStyles": ["col-xs-3 text-align-center", "col-xs-3 text-align-center", "col-xs-3 text-align-center", "col-xs-3 text-align-center"], "rows": [["1", "-5", "16-17", "+3"], ["2-3", "-4", "18-19", "+4"], ["4-5", "-3", "20-21", "+5"], ["6-7", "-2", "22-23", "+6"], ["8-9", "-1", "24-25", "+7"], ["10-11", "+0", "26-27", "+8"], ["12-13", "+1", "28-29", "+9"], ["14-15", "+2", "30", "+10"]]
+                "type": "table", "caption": "Yetenek Skorları ve Bonusları", "colLabels": ["Skor", "Bonus", "Skor", "Bonus"], "colStyles": ["col-xs-3 text-align-center", "col-xs-3 text-align-center", "col-xs-3 text-align-center", "col-xs-3 text-align-center"], "rows": [["1", "-5", "16-17", "+3"], ["2-3", "-4", "18-19", "+4"], ["4-5", "-3", "20-21", "+5"], ["6-7", "-2", "22-23", "+6"], ["8-9", "-1", "24-25", "+7"], ["10-11", "+0", "26-27", "+8"], ["12-13", "+1", "28-29", "+9"], ["14-15", "+2", "30", "+10"]]
             }
             ]
         }
         ,
         {
-            "type": "section", "name": "Advantage and Dezavantaj", "entries": ["Sometimes a special ability or spell tells you that you have advantage or disadvantage on an ability check, a saving throw, or an attack roll. When that happens, you roll a second d20 when you make the roll. Use the higher of the two rolls if you have advantage, and use the lower roll if you have disadvantage. For example, if you have disadvantage and roll a 17 and a 5, you use the 5. If you instead have advantage and roll those numbers, you use the 17.", "If multiple situations affect a roll and each one grants advantage or imposes disadvantage on it, you don't roll more than one additional d20. If two favorable situations grant advantage, for example, you still roll only one additional d20.", "If circumstances cause a roll to have both advantage and disadvantage, you are considered to have neither of them, and you roll one d20. This is true even if multiple circumstances impose disadvantage and only one grants advantage or vice versa. In such a situation, you have neither advantage nor disadvantage.", "When you have advantage or disadvantage and something in the game, such as the halfling's Lucky trait, lets you reroll the d20, you can reroll only one of the dice. You choose which one. For example, if a halfling has advantage on an ability check and rolls a 1 and a 13, the halfling could use the Lucky trait to reroll the 1.", "You usually gain advantage or disadvantage through the use of special abilities, actions, or spells. Inspiration (see chapter 4) can also give a character advantage on checks related to the character's personality, ideals, or bonds. The DM can also decide that circumstances influence a roll in one direction or the other and grant advantage or impose disadvantage as a result."]
+            "type": "section", "name": "Avantaj ve Dezavantaj", "entries": ["Bazen bir özel yetenek ya da büyü sana bir yetenek, kurtulma veya saldırı zarında avantaj ya da dezavantajın olduğunu söyler. Bu olduğunda zarı atarken ikinci bir d20 atarsın. Eğer avantajın varsa attığın 2 zardan yüksek olanı kullanırsın, dezavantajın varsa düşük olanı. Örneğin, dezavantajın varsa ve 17 ve 5 attıysan, 5'i kullanırsın. Eğer avantajın varsa ve bu sayıları atarsan, 17'yi kullanırsın.", "Eğer birden çok durum bir zarı etkiliyorsa ve her biri avantaj ya da dezavantaj veriyorsa, hala fazladan sadece 1 d20 atarsın. Örneğin, eğer 2 ayrı faydalı durum sana avantaj sağlıyorsa, hala sadece 1 tane fazladan d20 atarsın.", "Eğer durum bir zarın hem avantaj hem de dezavantaj almasını gerektiriyorsa, ikiside yokmuş sayılır ve normal bir şekilde tek d20 atarsın. Bu durum bir çok şey dezavantaj verirken sadece bir şeyin avantaj verdiği durumlarda, ya da bunun tam tersinde bile geçerlidir. Bu durumlarda, ne avantajın ne de dezavantajın olur.", "Avantaj ya da dezavantajın varsa ve oyundaki bir şey senin d20'yi yeniden atmanı sağlıyorsa, buçuklukların Şanslı özelliği gibi, zarlardan sadece birini yeniden atabilirsin. Hangisi olduğunu sen seçersin. Örneğin, bir buçukluğun yetenek zarında avantajı varsa ve 1 ve 13 atarsa, bu buçukluk Şanslı özelliğini kullanıp 1'i yeniden atabilir.", "Avantaj ya da dezavantajı genellikle özel yetenekler, eylemler, veya büyüler aracılığı ile kazanırsın. İlham (4. kısıma bakın) bir karaktere onun kişiliği, idealleri veya bağları doğrultusunda avantaj verebilir. Ayrıca DM, bir durumunun şartlarına göre bir zara avantaj ya da dezavantaj verip vermeyeceğine karar verir."]
         }
         ,
         {
             "type":"section",
-            "name":"Casting a Spell",
-            "entries":["When a character casts any spell, the same basic rules are followed, regardless of the character's class or the spell's effects.",
-            "Each spell description in chapter 11 begins with a block of information, including the spell's name, level, school of magic, casting time, menzil, components, and duration. The rest of a spell entry describes the spell's effect.",
+            "name":"Büyü Yapma",
+            "entries":["Bir karakter herhangi bir büyü yaparken, karakterin sınıfı ya da büyünün etkilerine bakılmaksızın aynı temel kurallar izlenir.",
+            "Büyüler kısmındaki her büyü tanımı bir bilgi bloğu ile başlar, burada büyünün adı, seviyesi, büyü okulu, kullanma süresi, menzili, bileşenleri, ve süresi verilmiştir. Büyü tanımının devamı büyünün etkisini açıklar.",
             {
-                "type": "inset", "name": "Casting in Armor", "entries": ["Because of the mental focus and precise gestures required for spellcasting, you must be proficient with the armor you are wearing to cast a spell. You are otherwise too distracted and physically hampered by your armor for spellcasting."]
+                "type": "inset", "name": "Zırhla Büyü Yapma", "entries": ["Büyü yapmak için gerekli olan zihinsel odaklanma ve hassas hareketlerden dolayı, büyü yaparken giydiğin zırh ile uzmanlık sahibi olmalısın. Aksi taktirde, giydiğin zırh senin için büyü yapamayacak seviyede dikkat dağıtıcı ve engelleyicidir."]
             }
             ,
             {
                 "type":"entries",
-                "name":"Casting Time",
-                "entries":["Most spells require a single action to cast, but some spells require a bonus action, a reaction, or much more time to cast.",
+                "name":"Kullanma Süresi",
+                "entries":["Çoğu büyü kullanım için tek bir eylem gerektirir, ama bazıları bir bonus eylem, bir reaksiyon, veya çok daha fazla zaman gerektirebilir.",
                 {
-                    "type": "entries", "name": "Bonus Action", "entries": ["A spell cast with a bonus action is especially swift. You must use a bonus action on your turn to cast the spell, provided that you haven't already taken a bonus action this turn. You can't cast another spell during the same turn, except for a cantrip with a casting time of 1 action."]
+                    "type": "entries", "name": "Bonus Eylem", "entries": ["Bonus eylem olarak kullanılabilen bir büyü çok seridir. O sıranda başka bonus eylem kullanmadıysan, o büyüyü yapmak için bonus eylemini kullanırsın. Aynı sıranda 1 eylem kullanım süreli bir cantrip dışında başka bir büyü kullanamazsın."]
                 }
                 ,
                 {
-                    "type": "entries", "name": "Reactions", "entries": ["Some spells can be cast as reactions. These spells take a fraction of a second to bring about and are cast in response to some event. If a spell can be cast as a reaction, the spell description tells you exactly when you can do so."]
+                    "type": "entries", "name": "Reaksiyon", "entries": ["Bazı büyüler reaksiyon olarak kullanılabilir. Bu büyülerin ortaya çıkması anlık bir durumdur ve belli bir olayın karşılığında kullanılır. Eğer bir büyü reaksiyon olarak kullanılıyorsa, büyü tanımı bunu kesin bir şekilde ne zaman kullanabileceğini verir."]
                 }
                 ,
                 {
-                    "type": "entries", "name": "Longer Casting Times", "entries": ["Certain spells (including spells cast as rituals) require more time to cast: dakika or even hours. When you cast a spell with a casting time longer than a single action or reaction, you must spend your action each turn casting the spell, and you must maintain your concentration while you do so (see \"Concentration\" below). If your concentration is broken, the spell fails, but you don't expend a spell slot. If you want to try casting the spell again, you must start over."]
+                    "type": "entries", "name": "Uzun Kullanım Süresi", "entries": ["Bazı büyüler (ritüel olarak kullanılan büyüler dahil) kullanım için çok daha fazla zaman gerektirir: dakikalar hatta saatler. Tek bir eylem ya da reaksiyondan daha uzun süreli bir büyü kullandığında, her sıranda eylemini büyüyü yapmak için kullanmalısın, ve bunu yaparken konsantrasyonunu korumalısın (aşağıda \"Konsantrasyon\" kısmına bakın). Eğer konsantrasyonun bozulursa, büyü başarısız olur ama sen büyü yuvasını harcamazsın. Eğer büyüyü yeniden kullanmak istersen, sıfırdan başlarsın."]
                 }
                 ]
             }
             ,
             {
-                "type": "entries", "name": "Range", "entries": ["The target of a spell must be within the spell's menzil. For a spell like magic missile, the target is a creature. For a spell like fireball, the target is the point in space where the ball of fire erupts.", "Most spells have ranges expressed in feet. Some spells can target only a creature (including you) that you touch. Other spells, such as the shield spell, affect only you. These spells have a menzil of self.", "Spells that create cones or lines of effect that originate from you also have a menzil of self, indicating that the origin point of the spell's effect must be you (see \"Areas of Effect\" later in the this chapter).", "Once a spell is cast, its effects aren't limited by its menzil, unless the spell's description says otherwise."]
+                "type": "entries", "name": "Menzil", "entries": ["Bir büyünün hedefi o büyünün menzilinde olmalıdır. Büyülü misil gibi bir büyü için, hedef bir varlıktır. Alevtopu gibi bir büyü için, hedef alev topunun patladığı uzaydaki bir noktadır.", "Çoğu büyünün menzilleri fit ile verilir. Bazı büyüler sadece dokunduğun bir varlığı etkiler (sen dahil). Kalkan büyüsü gibi diğer büyüler sadece seni etkiler. Bu büyülerin menzili kendin olarak geçer.", "Senden çıkıp koni ya da hat yaratan büyülerinden de menzili sensindir (kendin), büyünün etkisinin senden başlaması gerektiğini gösterir (bu kısımdaki \"Etki Alanları\" kısmına bakın).", "Büyü yapıldığında, büyünün tanımı aksini söylemediği sürece etkileri menzili ile sınırlanmaz."]
             }
             ,
             {
                 "type":"entries",
-                "name":"Components",
-                "entries":["A spell's components are the physical requirements you must meet in order to cast it. Each spell's description indicates whether it requires verbal (V), somatic (S), or material (M) components. If you can't provide one or more of a spell's components, you are unable to cast the spell.",
+                "name":"Bileşenler",
+                "entries":["Bir büyünün bileşenleri onu yapabilmek için karşılaman gereken fiziksel gereksinimlerdir. Her büyünün tanımı onun sözlü (S), bedensel (B), veya materyal (M) bileşen gereksinimi olup olmadığını gösterir. Eğer bir büyünün bileşenlerinden bir ya da daha fazlasını karşılayamıyorsan büyüyü yapamazsın.",
                 {
-                    "type": "entries", "name": "Verbal (V)", "entries": ["Most spells require the chanting of mystic words. The words themselves aren't the source of the spell's power; rather, the particular combination of sounds, with specific pitch and resonance, sets the threads of magic in motion. Thus, a character who is gagged or in an area of silence, such as one created by the silence spell, can't cast a spell with a verbal component."]
+                    "type": "entries", "name": "Sözlü (S)", "entries": ["Çoğu büyü mistik sözlerin söylenmesini gerektirir. Bu sözlerin kendileri büyü gücünün kaynağı değildir; bunun yerine, bu seslerin aralığı ve tınısının belirli bir kombinasyonu büyü dokularını harekete geçirir. Bu yüzden, ağzı kapatılmış ya da sessizlik büyüsü ile yaratılanlar gibi sessizlik alanındaki bir karakter, sözlü bileşenleri olan bir büyüyü kullanamaz."]
                 }
                 ,
                 {
-                    "type": "entries", "name": "Somatic (S)", "entries": ["Spellcasting gestures might include a forceful gesticulation or an intricate set of gestures. If a spell requires a somatic component, the caster must have free use of at least one hand to perform these gestures."]
+                    "type": "entries", "name": "Bedensel (B)", "entries": ["Büyü yapma güçlü ve detaylı bir şekilde yapılması gereken el kol hareketleri ve jestler gerektirebilir. Eğer bir büyü bedensel bileşen gerektiriyorsa, bu hareketleri gerçekleştirmek için kullanıcının boşta en az bir ele ihtiyacı vardır."]
                 }
                 ,
                 {
-                    "type": "entries", "name": "Material (M)", "entries": ["Casting some spells requires particular objects, specified in parentheses in the component entry. A character can use a component pouch or a spellcasting focus (found in chapter 5) in place of the components specified for a spell. But if a cost is indicated for a component, a character must have that specific component before he or she can cast the spell.", "If a spell states that a material component is consumed by the spell, the caster must provide this component for each casting of the spell.", "A spellcaster must have a hand free to access these components, but it can be the same hand that he or she uses to perform somatic components."]
+                    "type": "entries", "name": "Materyal (M)", "entries": ["Bazı büyüleri yapma belirli nesneleri gerektirir, bunlar bileşen girdisinde parantez içinde verilir. Bir karakter büyü için belirlenen bileşenler yerine bileşen kesesi ya da büyü yapma odağı kullanabilir. Ama bir bileşen için para değeri verilmişse, bir karakterin büyüyü yapabilmesi için o belirli bileşene sahip olması gereklidir.", "Eğer bir büyü materyal bileşenin büyü tarafından tüketileceğini belirtirse, kullanıcı bu bileşeni büyünün her kullanımı için ayrıca sağlamalıdır.", "Bir büyü kullanıcısının bu bileşenlere ulaşmak için boş bir ele ihtiyacı vardır, ama bu bedensel bileşenleri yapmak için kullandığı aynı eli olabilir."]
                 }
                 ]
             }
             ,
             {
                 "type":"entries",
-                "name":"Duration",
-                "entries":["A spell's duration is the length of time the spell persists. A duration can be expressed in rounds, dakika, hours, or even years. Some spells specify that their effects last until the spells are dispelled or destroyed.",
+                "name":"Süre",
+                "entries":["Bir büyünün süresi, o büyünün aktif kalacağı zaman dilimidir. Bir süre round, dakika, saat, hatta yıl ile verilebilir. Bazı büyüler etkilerinin defedilene ya da yokedilene kadar sürdüğünü belirtir.",
                 {
-                    "type": "entries", "name": "Instantaneous", "entries": ["Many spells are instantaneous. The spell harms, heals, creates, or alters a creature or an object in a way that can't be dispelled, because its magic exists only for an instant."]
+                    "type": "entries", "name": "Anlık", "entries": ["Birçok büyü anlıktır. Büyü bir varlık ya da nesneyi defedilemeyecek bir şekilde incitir, iyileştirir, yaratır, veya değiştirir çünkü büyüsü sadece bir anlık ortaya çıkar."]
                 }
                 ,
                 {
                     "type":"entries",
-                    "name":"Concentration",
-                    "entries":["Some spells require you to maintain concentration in order to keep their magic active. If you lose concentration, such a spell ends.",
-                    "If a spell must be maintained with concentration, that fact appears in its Duration entry, and the spell specifies how long you can concentrate on it. You can end concentration at any time (no action required).",
-                    "Normal activity, such as moving and attacking, doesn't interfere with concentration. The following factors can break concentration:",
+                    "name":"Konsantrasyon",
+                    "entries":["Bazı büyüler onların büyüsünü aktif tutabilmek için konsantre olmanı gerektirir. Eğer konsantrasyonun bozulursa, bu tip bir büyü sonlanır.",
+                    "Eğer bir büyü konsantrasyon gerektiriyorsa, bu gerçek Süre girdisinde belirtilir, ve büyü onun üzerinde ne kadarlık bir süre boyunca konsantre olabileceğini belirtir. Konsantrasyonunu istediğin an bitirebilirsin (eylem gerektirmez).",
+                    "Hareket etme ya da saldırma gibi normal faaliyet konsantrasyona engel olmaz. Şu etkenler konsantrasyonunu bozabilir:",
                     {
                         "type":"list",
-                        "items":["{@b Casting another spell that requires concentration.} You lose concentration on a spell if you cast another spell that requires concentration. You can't concentrate on two spells at once.",
-                        "{@b Taking damage.} Whenever you take damage while you are concentrating on a spell, you must make a Dayanıklılık saving throw to maintain your concentration. The DC equals 10 or half the damage you take, whichever number is higher. If you take damage from multiple sources, such as an arrow and a dragon's breath, you make a separate saving throw for each source of damage.",
-                        "{@b Being incapacitated or killed.} You lose concentration on a spell if you are incapacitated or if you die."]
+                        "items":["{@b Başka konsantrasyon gerektiren bir büyü yapma.} Başka bir konsantrasyon gerektiren büyü yaptığında önceki büyünün konsantrasyonunu kaybedersin. Aynı anda iki büyüye birden konsantre olamazsın.",
+                        "{@b Hasar alma.} Bir büyüye konsantre olurken hasar aldığında, konsantrasyonunu korumak için bir Dayanıklılık kurtulma zarı atarsın. DC 10 ya da aldığın hasarın yarısı olur, hangisi daha yüksekse onu kullanırsın. Eğer birden çok kaynaktan hasar alırsan, bir ok ve ejderha nefesi gibi, her hasar kaynağı için ayrı bir kurtulma zarı atarsın.",
+                        "{@b Etkisiz hale gelme ya da ölme.} Eğer etkisiz hale gelirsen ya da ölürsen bir büyüdeki konsantrasyonunu kaybedersin."]
                     }
                     ]
                 }
                 ,
-                "The DM might also decide that certain environmental phenomena, such as a wave crashing over you while you're on a storm-tossed ship, require you to succeed on a DC 10 Dayanıklılık saving throw to maintain concentration on a spell."]
+                "DM bunların dışında fırtına içindeki bir gemide dalga çarpması gibi çeşitli çevresel etkenlerin konsantrasyonunu bozabileceğine karar verip DC 10 Dayanıklılık kurtulma zarı atmanı isteyebilir."]
             }
             ,
             {
                 "type":"entries",
-                "name":"Targets",
-                "entries":["A typical spell requires you to pick one or more targets to be affected by the spell's magic. A spell's description tells you whether the spell targets creatures, objects, or a point of origin for an area of effect (described below).",
-                "Unless a spell has a perceptible effect, a creature might not know it was targeted by a spell at all. An effect like crackling lightning is obvious, but a more subtle effect, such as an attempt to read a creature's thoughts, typically goes unnoticed, unless a spell says otherwise.",
+                "name":"Hedefler",
+                "entries":["Tipik bir büyü bu büyüden etkilenmesi için bir ya da daha çok hedef seçmeni gerektirir. Bir büyünün tanımı, o büyünün hedefinin varlık mı, nesne mi, yoksa bir etki alanında başlangıç noktası (aşağıda verilecek) mı olduğunu belirtir.",
+                "Eğer büyü gözlenebilir bir etkiye sahip değilse, bir varlık bir büyünün hedefi olduğunu farketmeyebilir bile. Çatırdayan bir yıldırım gibi bir etki barizdir, ama bir varlığın düşüncelerini okuma girişimi gibi daha güç algılanan bir etki, eğer büyü aksini belirtmezse genellikle farkedilmez.",
                 {
-                    "type": "entries", "name": "A Clear Path to the Target", "entries": ["To target something, you must have a clear path to it, so it can't be behind total cover.", "If you place an area of effect at a point that you can't see and an obstruction, such as a wall, is between you and that point, the point of origin comes into being on the near side of that obstruction."]
+                    "type": "entries", "name": "Hedefe Açık bir Yol", "entries": ["Bir şeyi hedef alabilmek için ona açık bir yolun olmalı, yani tam siper ardında olamaz.", "Eğer göremediğin bir noktaya etki alanı yerleştirirsen, ve duvar gibi bir engel o nokta ile senin arandaysa, bu başlangıç noktası engelin sana yakın tarafında oluşur."]
                 }
                 ,
                 {
-                    "type": "entries", "name": "Targeting Yourself", "entries": ["If a spell targets a creature of your choice, you can choose yourself, unless the creature must be hostile or specifically a creature other than you. If you are in the area of effect of a spell you cast, you can target yourself."]
+                    "type": "entries", "name": "Kendini Hedef Alma", "entries": ["Eğer büyü seçeceğin bir varlığı hedef alıyorsa bu hedef olarak kendini seçebilirsin, tabii ki varlığın düşman olması ya da belirli bir şekilde senin dışında bir varlık olması gerektiği durumlar dışında. Eğer kullandığın bir büyünün etki alanındaysan, kendini hedef alabilirsin."]
                 }
                 ]
             }
             ,
             {
                 "type":"inset",
-                "name":"The Schools of Magic",
+                "name":"Büyü Okulları",
                 "entries":[ {
-                    "type": "entries", "name": "Abjuration", "entries": ["spells are protective in nature, though some of them have aggressive uses. They create magical barriers, negate harmful effects, harm trespassers, or banish creatures to other planes of existence."]
+                    "type": "entries", "name": "Abjuration", "entries": ["büyüleri yapısı gereği korumacıdır, ama bazılarının agresif kullanımları da olabilir. Büyülü bariyerler yaratır, zararlı etkileri kaldırır, işgalcileri incitir, veya varlıkları diğer boyutlara sürerler."]
                 }
                 ,
                 {
-                    "type": "entries", "name": "Conjuration", "entries": ["spells involve the transportation of objects and creatures from one location to another. Some spells summon creatures or objects to the caster's side, whereas others allow the caster to teleport to another location. Some conjurations create objects or effects out of nothing."]
+                    "type": "entries", "name": "Conjuration", "entries": ["büyüleri nesne ve varlıkların bir yerden diğerine taşınması ile ilgilidir. Bazı büyüleri kullanıcının tarafına varlıklar ya da nesneler çağırır, diğerleri ise kullanıcıyı ayrı bir noktaya ışınlar. Bazıları ise bir hiçlikten nesne ve etki yaratabilirler."]
                 }
                 ,
                 {
-                    "type": "entries", "name": "Divination", "entries": ["spells reveal information, whether in the form of secrets long forgotten, glimpses of the future, the locations of hidden things, the truth behind illusions, or visions of distant people or places."]
+                    "type": "entries", "name": "Divination", "entries": ["büyüleri bilgi ortaya çıkarır. Bu çoktan unutulmuş sırlar, gelecekten görüler, saklı şeylerin yerleri, illüzyonların ardındaki gerçekler, veya uzak yerlerdeki kişi ya da yerlerin görüntüsü olabilir."]
                 }
                 ,
                 {
-                    "type": "entries", "name": "Enchantment", "entries": ["spells affect the minds of others, influencing or controlling their behavior. Such spells can make enemies see the caster as a friend, force creatures to take a course of action, or even control another creature like a puppet."]
+                    "type": "entries", "name": "Enchantment", "entries": ["büyüleri diğerlerinin zihnini etkiler, onların davranışını etkiler ya da kontrol eder. Bu tip büyüler düşmanların kullanıcıyı dost olarak görmesini, varlıkların istediğin eylemi gerçekleştirmesini, ve hatta başka bir varlığı kukla gibi kontrol edebilmeni sağlar."]
                 }
                 ,
                 {
-                    "type": "entries", "name": "Evocation", "entries": ["spells manipulate magical energy to produce a desired effect. Some call up blasts of fire or lightning. Others channel positive energy to heal wounds."]
+                    "type": "entries", "name": "Evocation", "entries": ["büyüleri enerjiyi kontrol ederek istenen etkiyi üretir. Bazıları ateş patlamaları ya da yıldırımlar oluşturur. Diğerleri pozitif enerjiyi yönlendirip yaraları iyileştirir."]
                 }
                 ,
                 {
-                    "type": "entries", "name": "Illusion", "entries": ["spells deceive the senses or minds of others. They cause people to see things that are not there, to miss things that are there, to hear phantom noises, or to remember things that never happened. Some illusions create phantom images that any creature can see, but the most insidious illusions plant an image directly in the mind of a creature."]
+                    "type": "entries", "name": "Illusion", "entries": ["büyüleri diğerlerinin duyuları ve zihinlerini kandırır. Kişilere orada olmayan şeyleri gösterir, orada olan şeyleri gizler, hayali sesler duydurur, veya olmayan şeyleri hatırlatır. Bazı illüzyonlar her varlığın görebileceği hayali görüntüler yaratır, ama en sinsi illüzyonlar bu görüntüyü doğrudan varlığın zihnine yerleştirir."]
                 }
                 ,
                 {
-                    "type": "entries", "name": "Necromancy", "entries": ["spells manipulate the energies of life and death. Such spells can grant an extra reserve of life force, drain the life energy from another creature, create the undead, or even bring the dead back to life.", "Creating the undead through the use of necromancy spells such as animate dead is not a good act, and only evil casters use such spells frequently."]
+                    "type": "entries", "name": "Necromancy", "entries": ["büyüleri yaşam ve ölüm enerjilerini kontrol eder. Bu tip büyüler fazladan yaşam gücü kaynağı verebilir, başka bir varlıktan yaşam enerjisi çekebilir, yaşayan ölü yaratabilir, ve hatta ölüyü hayata döndürebilirler.", "Ölüye can ver gibi büyülerle necromancy kullanıp yaşayan ölü yaratmak iyi bir davranış değildir ve sadece kötü büyü kullanıcıları bu tip büyüleri sıkça kullanır."]
                 }
                 ,
                 {
-                    "type": "entries", "name": "Transmutation", "entries": ["spells change the properties of a creature, object, or environment. They might turn an enemy into a harmless creature, bolster the strength of an ally, make an object move at the caster's command, or enhance a creature's innate healing abilities to rapidly recover from injury."]
+                    "type": "entries", "name": "Transmutation", "entries": ["büyüleri bir varlık, nesne veya çevrenin yapısını değiştirir. Bir düşmanı zararsız bir varlığa dönüştürebilir, bir dostun gücünü destekleyebilir, bir nesneyi kullanıcının emri ile hareket ettirebilir, veya bir varlığın doğal iyileşme kabiliyetini artırıp hızlıca yaralarının kapanmasını sağlayabilirler."]
                 }
                 ]
             }
             ,
             {
                 "type":"entries",
-                "name":"Areas of Effect",
-                "entries":["Spells such as burning hands and cone of cold cover an area, allowing them to affect multiple creatures at once. A spell's description specifies its area of effect, which typically has one of five different shapes: cone, cube, cylinder, line, or sphere. Every area of effect has a point of origin, a location from which the spell's energy erupts. The rules for each shape specify how you position its point of origin. Typically, a point of origin is a point in space, but some spells have an area whose origin is a creature or an object.",
-                "A spell's effect expands in straight lines from the point of origin. If no unblocked straight line extends from the point of origin to a location within the area of effect, that location isn't included in the spell's area. To block one of these imaginary lines, an obstruction must provide total cover, as explained in chapter 9.",
+                "name":"Etki Alanları",
+                "entries":["Yanan eller ve soğuk konisi gibi büyüler bir alanı kaplar, aynı anda birden çok hedefi etkilemeni sağlar. Bir büyünün tanımı onun etki alanını belirler, bu tipik olarak 5 farklı şekilden biridir: koni, küp, silindir, hat, veya küre. Her etki alanının bir başlangıç noktası vardır, büyünün enerjisinin saçıldığı kaynak bir nokta. Her şekil için kurallar onun başlangıç noktasının nasıl konumlanacağını belirtir. Tipik olarak, bir başlangıç noktası uzayda bir noktadır, ama bazı büyülerin alanının başlangıç noktası bir varlık ya da nesne olabilir.",
+                "Bir büyünün etkisi başlangıç noktasından doğrusal olarak yayılır. Eğer başlangıç noktasından etki alanındaki bir yere engellenmeyen bir doğru ulaşamıyorsa, o alan büyünün etki alanına dahil değildir. Bu hayali doğrulardan birini engellemek için, bir engel 9. kısımda açıklandığı üzere tam siper sağlamalıdır.",
                 {
                     "type":"image",
                     "href": {
@@ -2295,73 +2295,73 @@
                 }
                 ,
                 {
-                    "type": "entries", "name": "Cone", "entries": ["A cone extends in a direction you choose from its point of origin. A cone's width at a given point along its length is equal to that point's distance from the point of origin. A cone's area of effect specifies its maximum length.", "A cone's point of origin is not included in the cone's area of effect, unless you decide otherwise."]
+                    "type": "entries", "name": "Koni", "entries": ["Bir koni başlangıç noktasından senin seçeceğin bir yöne doğru uzanır. Bir koninin boyundaki bir noktada genişliği, o noktanın başlangıç noktasından mesafesi kadardır. Bir koninin etki alanı onun maksimum uzunluğunu belirtir.", "Sen aksini söylemediğin sürece bir koninin başlangıç noktası onun etki alanına dahil değildir."]
                 }
                 ,
                 {
-                    "type": "entries", "name": "Cube", "entries": ["You select a cube's point of origin, which lies anywhere on a face of the cubic effect. The cube's size is expressed as the length of each side.", "A cube's point of origin is not included in the cube's area of effect, unless you decide otherwise."]
+                    "type": "entries", "name": "Küp", "entries": ["Kübün başlangıç noktasını seçersin, bu nokta kübik etkinin yüzlerinden herhangi biri olabilir. Kübün boyutu her yüzünün uzunluğu şeklinde verilir.", "Sen aksini söylemediğin sürece bir kübün başlangıç noktası onun etki alanına dahil değildir."]
                 }
                 ,
                 {
-                    "type": "entries", "name": "Cylinder", "entries": ["A cylinder's point of origin is the center of a circle of a particular radius, as given in the spell description. The circle must either be on the ground or at the height of the spell effect. The energy in a cylinder expands in straight lines from the point of origin to the perimeter of the circle, forming the base of the cylinder. The spell's effect then shoots up from the base or down from the top, to a distance equal to the height of the cylinder.", "A cylinder's point of origin is included in the cylinder's area of effect."]
+                    "type": "entries", "name": "Silindir", "entries": ["Bir silindirin başlangıç noktası belirli çaptaki çemberin merkezidir, bu çap büyü tanımında verilir. Bu çember yerde ya da büyü etkisinin yüksekliğinde olmalıdır. Silindirdeki enerji başlangıç noktasından çemberin çeperine doğru doğrusal bir şekilde yayılır, bu şekilde silindirin tabanını oluşturur. Sonrasında büyünün etkisi alttan üste ya da üstten alta yayılır, silindirin yüksekliği kadar mesafe gider.", "Bir silindirin başlangıç noktası etki alanının içindedir."]
                 }
                 ,
                 {
-                    "type": "entries", "name": "Line", "entries": ["A line extends from its point of origin in a straight path up to its length and covers an area defined by its width.", "A line's point of origin is not included in the line's area of effect, unless you decide otherwise."]
+                    "type": "entries", "name": "Hat", "entries": ["Bir hat başlangıç noktasından doğrusal bir şekilde boyu kadar ilerler ve genişliği kadar bir alanı kaplar.", "Sen aksini söylemediğin sürece bir hattın başlangıç noktası onun etki alanına dahil değildir."]
                 }
                 ,
                 {
-                    "type": "entries", "name": "Sphere", "entries": ["You select a sphere's point of origin, and the sphere extends outward from that point. The sphere's size is expressed as a radius in feet that extends from the point.", "A sphere's point of origin is included in the sphere's area of effect."]
+                    "type": "entries", "name": "Küre", "entries": ["Kürenin başlangıç noktasını seçersin, ve küre oradan dışarı doğru yayılır. Kürenin boyutu o noktadan dışarı çıkan mesafenin fit ile verilmesi ile belirlenir.", "Bir kürenin başlangıç noktası etki alanının içindedir."]
                 }
                 ]
             }
             ,
             {
-                "type": "entries", "name": "Combining Magical Effects", "entries": ["The effects of different spells add together while the durations of those spells overlap. The effects of the same spell cast multiple times don't combine, however. Instead, the most potent effect—such as the highest bonus—from those castings applies while their durations overlap.", "For example, if two clerics cast bless on the same target, that character gains the spell's benefit only once; he or she doesn't get to roll two bonus dice."]
+                "type": "entries", "name": "Büyülü Etkileri Birleştirme", "entries": ["Farklı büyülerin etkileri süreleri örtüştüğü sürece birleşebilir. Ama aynı büyünün birden çok kez kullanılmasının etkisi birleşmez. Bunun yerine, süreleri örtüştüğü sürece en güçlü etkisi olan (en yüksek bonusu olan gibi) uygulanır.", "Örneğin, eğer bir hedefe iki rahip birden kutsama büyüsünü kullanırsa, o karakter bu büyünün etkisinden sadece bir kez faydalanır; 2 bonus zar atmaz."]
             }
             ,
             {
-                "type": "entries", "name": "The Weave of Magic", "entries": ["The words within the D&D multiverse are magical places. All existence is suffused with magical power, and potential energy lies untapped in every rock, stream, and living creature, the mute and mindless will of existence, permeating every bit of matter and present in every manifestation of energy throughout the multiverse.", "Mortals can't directly shape this raw magic. Instead, they make use of a fabric of magic, a kind of interface between the will of a spellcaster and the stuff of raw magic. The spellcasters of the Forgotten Realms call it the Weave and recognize its essence as the goddess Mystra, but casters have varied ways of naming and visualizing this interface.", "By any name, without the Weave, raw magic is locked away and inaccessible; the most powerful archmage can't hafif a candle with magic in an area where the Weave has been torn. But surrounded by the Weave, a spellcaster can shape lightning to blast foes, transport hundreds of miles in the blink of an eye, or even reverse death itself.", "All magic depends on the Weave, though different kinds of magic access it in a variety of ways. The spells of wizards, warlocks, sorcerers, and bards are commonly called {@b arcane magic}. These spells rely on an understanding—learned or intuitive—of the workings of the Weave. The caster plucks directly at the strands of the Weave to create the desired effect. Eldritch knights and arcane tricksters also use arcane magic. The spells of clerics, druids, paladins, and rangers are called {@b divine magic}. These spellcasters' access to the Weave is mediated by divine power—gods, the divine forces of nature, or the sacred weight of a paladin's oath.", "Whenever a magic effect is created, the threads of the Weave intertwine, twist, and fold to make the effect possible.", "When characters use divination spells such as {@i detect magic} or {@i identify}, they glimpse the Weave. A spell such as {@i dispel magic} smooths the Weave. Spells such as {@i antimagic field} rearrange the Weave so that magic flows around, rather than through the area affected by the spell. And in places where the Weave is damaged or torn, magic works in unpredictable ways—or not at all."]
+                "type": "entries", "name": "Büyünün Dokusu", "entries": ["D&D çokluevrenindeki dünyalar büyülü yerlerdir. Tüm varoluş büyü gücü ile doludur, ve potansiyel enerji her taşta, derede ve yaşayan varlıkta dokunulmamış halde durur. Varoluşun dilsiz ve akılsız iradesi maddenin her noktasına işler ve çokluevrendeki her tip enerjide mevcuttur.", "Ölümlüler bu saf büyüyü doğrudan şekillendiremezler. Bunun yerine, büyünün dokusundan faydalanırlar. Bu saf büyü ile büyü kullanıcısının arasında kalan bir arayüz gibidir. Unutulmuş Diyarlardaki büyü kullanıcıları buna Doku der, ve onun özünü tanrıça Mystra olarak görür, ama büyü kullanıcıları bu arayüze farklı isimler verir ve görselleştirir.", "Ne isimle olursa olsun, Doku olmadan, saf büyü saklıdır ve erişilemez; en güçlü büyücü bile Dokunun yırtıldığı yerlerde büyüyle bir mum bile yakamaz. Ama Doku ile sarıldığında, bir büyü kullanıcısı yıldırıma şekil verip düşmanlarını çarpabilir, göz açıp kapayıncaya kadar yüzlerce mil ışınlanabilir, hatta ölümü bile geri alabilir.", "Tüm büyü Dokuya bağlıdır, ama farklı tipte büyüler buna farklı şekillerde erişirler. Büyücüler, warlocklar, sorcererlar, ve ozanların büyülerine genellikle {@b arcane büyü} denir. Bu büyüler Doku hakkında bir kavrayışa (öğrenilmiş ya da içgüdüsel) dayanır. Büyü kullanıcı doğrudan Dokunun iplerine dokunup oradan istediği etkiyi yaratır. Eldritch şövalyeler ve arcane hilekarlar da arcane büyü kullanır. Rahipler, druidler, paladinler ve kolcuların büyülerine {@b kutsal büyü} denir. Bu büyücülerin Dokuya erişimi, tanrıların aracılığı, doğanın kutsal güçleri, veya bir paladin yemininin kutsal ağırlığı gibi güçler sayesinde olur.", "Ne zaman bir büyü etkisi yaratılsa, Dokunun iplikleri bu etkiyi mümkün kılmak için dolanır, döner ve katlanır.", "Karakterler {@i büyü hisset} ya da {@i tanımla} gibi divination büyüleri kullandığında, Dokuyu görürler. {@i Büyü defet} gibi bir büyü Dokuyu düzeltir. {@i Büyü karşıtı alan} gibi büyüler Dokuyu yeniden düzenleyip büyünün bu alanın içinden değil de çevresinden akmasını sağlar. Ve Dokunun hasar gördüğü veya yırtıldığı yerlerde, büyü öngörülemeyen şekillerde işler ya da hiç işlemez."]
             }
             ]
         }
         ,
         {
             "type":"section",
-            "name":"Conditions",
-            "entries":["Conditions alter a creature's capabilities in a variety of ways and can arise as a result of a spell, a class feature, a monster's attack, or other effect. Most conditions, such as blinded, are impairments, but a few, such as invisible, can be advantageous.",
-            "A condition lasts either until it is countered (the prone condition is countered by standing up, for example) or for a duration specified by the effect that imposed the condition.",
-            "If multiple effects impose the same condition on a creature, each instance of the condition has its own duration, but the condition's effects don't get worse. A creature either has a condition or doesn't.",
+            "name":"Durumlar",
+            "entries":["Durumlar bir varlığın kabiliyetlerini bir çok şekilde değiştirir ve bir büyü, sınıf özelliği, yaratığın saldırısı, veya farklı bir etkiden kaynaklanabilir. Körlük gibi çoğu durum bir zayıflıktır, ama görünmezlik gibi bazıları da avantajlı olabilir.",
+            "Bir durum ya karşı gelene kadar (örneğin, yere düşme durumuna ayağa kalkarak karşı gelinebilir) ya da durumu oluşturan etkide belirtilmiş bir süre boyunca sürer.",
+            "Eğer birden çok etki bir varlık üzerinde aynı durumu yaratıyorsa, her birinin kendi süresi vardır ama durumun etkileri daha kötüye gitmez. Bir varlık ya durumdan etkilenir ya da etkilenmez.",
             {
                 "type":"inlineBlock",
-                "entries":["For a full list of the conditions, see the ",
+                "entries":["Durumların tam listesi için ",
                 {
                     "type":"link",
                     "href": {
                         "type": "internal", "path": "conditions.html"
                     }
                     ,
-                    "text":"conditions"
+                    "text":"durumlar"
                 }
                 ,
-                " page. The conditions are:",
+                " sayfasına bakın. Bu durumlar:",
                 {
                     "type":"list",
-                    "items":["{@condition blinded}",
-                    "{@condition charmed}",
-                    "{@condition deafened}",
-                    "{@condition exhaustion}",
-                    "{@condition frightened}",
-                    "{@condition grappled}",
-                    "{@condition incapacitated}",
-                    "{@condition invisible}",
-                    "{@condition paralyzed}",
-                    "{@condition petrified}",
-                    "{@condition poisoned}",
-                    "{@condition prone}",
-                    "{@condition restrained}",
-                    "{@condition stunned}",
-                    "{@condition unconscious}"]
+                    "items":["{@condition Körlük}",
+                    "{@condition Cezbedilme}",
+                    "{@condition Sağırlık}",
+                    "{@condition Bitkinlik}",
+                    "{@condition Korkma}",
+                    "{@condition Yakalanma}",
+                    "{@condition Etkisiz hal}",
+                    "{@condition Görünmezlik}",
+                    "{@condition Felç}",
+                    "{@condition Taşa dönme}",
+                    "{@condition Zehirlenme}",
+                    "{@condition Yere düşme}",
+                    "{@condition Kısıtlanma}",
+                    "{@condition Sersemleme}",
+                    "{@condition Bilinçsizlik}"]
                 }
                 ]
             }
@@ -2369,19 +2369,19 @@
         }
         ,
         {
-            "type": "section", "name": "Falling", "entries": ["A fall from a great height is one of the most common hazards facing an adventurer.", "At the end of a fall, a creature takes 1d6 ezme damage for every 10 feet it fell, to a maximum of 20d6. The creature lands prone, unless it avoids taking damage from the fall."]
+            "type": "section", "name": "Düşme", "entries": ["Yüksekten düşme bir maceracının başına gelebilecek en yaygın tehlikelerden biridir.", "Bir düşüşün sonunda, bir varlık düştüğü her 10 fit için 1d6 ezme hasarı alır, bu en fazla 20d6'ya çıkar. Düşüşten hasar almayı engelleyemediği sürece indiğinde yere düşmüş durumdadır."]
         }
         ,
         {
             "type":"section",
-            "name":"Food and Water",
-            "entries":["Characters who don't eat or drink suffer the effects of exhaustion (see the appendix). Exhaustion caused by lack of food or water can't be removed until the character eats and drinks the full required amount.",
+            "name":"Yiyecek ve İçecek",
+            "entries":["Yiyip içemeyen karakterler bitkinlik etkisi altına girer. Yiyecek ve içecek eksikliğinden kaynaklanan bitkinlik karakter gereken tam miktarı tüketene kadar kaldırılamaz.",
             {
-                "type": "entries", "name": "Food", "entries": ["A character needs one pound of food per day and can make food last longer by subsisting on half rations. Eating half a pound of food in a day counts as half a day without food.", "A character can go without food for a number of days equal to 3 + his or her Dayanıklılık modifier (minimum 1). At the end of each day beyond that limit, a character automatically suffers one level of exhaustion.", "A normal day of eating resets the count of days without food to zero."]
+                "type": "entries", "name": "Yiyecek", "entries": ["Bir karakterin her gün bir pound yemeğe ihtiyacı vardır ve yarım öğünlerle yemeğin daha uzun süre kalmasını sağlayabilir. Gün içinde yarı miktarda yemek, yarım gün aç kalmak sayılır.", "Bir karakter 3 + Dayanıklılık bonusu kadar (en az 1) gün yemek yemeden dayanabilir. Bu limitin sonrasında her günün sonunda otomatik olarak 1 bitkinlik puanı alır.", "Bir gün normal yemek aç kalınan gün sayacını sıfırlar."]
             }
             ,
             {
-                "type": "entries", "name": "Water", "entries": ["A character needs one gallon of water per day, or two gallons per day if the weather is hot. A character who drinks only half that much water must succeed on a DC 15 Dayanıklılık saving throw or suffer one level of exhaustion at the end of the day. A character with access to even less water automatically suffers one level of exhaustion at the end of the day.", "If the character already has one or more levels of exhaustion, the character takes two levels in either case."]
+                "type": "entries", "name": "İçecek", "entries": ["Bir karakterin her gün bir galon suya ihtiyacı vardır, eğer hava sıcaksa bu ihtiyaç 2 galon olur. İhtiyacının yarısı kadar su içebilen bir karakter DC 15 Dayanıklılık kurtulma zarı atar ya da gün sonunda bir bitkinlik puanı alır. Daha da az suya erişimi olan bir karakter gün sonunda otomatik olarak 1 bitkinlik puanı alır.", "Eğer karakterin zaten bir ya da daha fazla bitkinlik puanına sahipse, her iki durumda da 2 puan bitkinlik eklenir."]
             }
             ]
         }
