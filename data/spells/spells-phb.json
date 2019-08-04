@@ -3780,7 +3780,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Menzilinde seçeceğin bir noktada 20 fit yarıçaplı sarı-yeşil zehirli bir sis küresi oluşturursun. Sis köşelerin ardına geçer. Süre boyunca ya da güçlü bir rüzgar bu sisi dağıtana ve büyüyü sonlandırana kadar kalır. Alanı ağır bir şekilde örtülüdür.",
+				"Menzilinde seçeceğin bir noktada 20 fit yarıçaplı sarı-yeşil zehirli bir sis küresi oluşturursun. Sis köşelerin ardına geçer. Süre boyunca ya da güçlü bir rüzgar bu sisi dağıtana ve büyüyü sonlandırana kadar kalır. Alanı ağırca örtülüdür.",
 				"Bir varlık sırasında büyü alanına ilk defa girişinde ya da sırasına orada başlarsa Dayanıklılık kurtulma zarı atar. Varlık başarısız olursa {@dice 5d8} zehir hasarı alır, başarılı olursa bunun yarısını. Varlıklar nefes ihtiyacı duymasa ya da nefeslerini tutsalar da etkilenirler.",
 				"Her sıranın başında sis senden 10 fit uzaklaşır, arazinin yüzeyinde ilerler. Buharlar havadan daha ağır oldukları için yerin en alt seviyesine inerler, hatta açıklıklardan aşağı bile dökülürler."
 			],
@@ -10411,7 +10411,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Merkezi menzilinde bir nokta olan 20 fit çapında bir sis küresi oluşturursun. Küre köşelerin ardına yayılır, ve alanı ağır bir şekilde örtülüdür. Süresi boyunca veya orta ya da daha hızlı bir rüzgar (saatte en az 10 mil) onu dağıtıncaya kadar sürer."
+				"Merkezi menzilinde bir nokta olan 20 fit çapında bir sis küresi oluşturursun. Küre köşelerin ardına yayılır, ve alanı ağırca örtülüdür. Süresi boyunca veya orta ya da daha hızlı bir rüzgar (saatte en az 10 mil) onu dağıtıncaya kadar sürer."
 			],
 			"entriesHigherLevel": [
 				{
@@ -11798,7 +11798,7 @@
 					"type": "entries",
 					"name": "Koridorlar",
 					"entries": [
-						"Tüm korunan koridorları sis doldurur, onları ağır bir şekilde örtülü hale getirir. Ek olarak, farklı yön sunan her ayrımda senin dışında bir varlık için, %50 gittiği yönün tam tersi yönde gittiğine inanma şansı vardır."
+						"Tüm korunan koridorları sis doldurur, onları ağırca örtülü hale getirir. Ek olarak, farklı yön sunan her ayrımda senin dışında bir varlık için, %50 gittiği yönün tam tersi yönde gittiğine inanma şansı vardır."
 					]
 				},
 				{
@@ -13736,7 +13736,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Menzilinde bir nokta merkezli 20 fit yarıçaplı bir küre, içerisinde beyaz yanan közler arasından çıkan dönen bir duman bulutu ile dolar. Bulut köşelerin ardına yayılır ve ağır bir şekilde örtülüdür. Süresi boyunca ya da orta veya daha hızlı bir rüzgar (en az saatte 10 mil) dağıtana kadar kalır.",
+				"Menzilinde bir nokta merkezli 20 fit yarıçaplı bir küre, içerisinde beyaz yanan közler arasından çıkan dönen bir duman bulutu ile dolar. Bulut köşelerin ardına yayılır ve ağırca örtülüdür. Süresi boyunca ya da orta veya daha hızlı bir rüzgar (en az saatte 10 mil) dağıtana kadar kalır.",
 				"Bulut belirdiğinde, içindeki her varlık Çeviklik kurtulma zarı atar. Başarısız olan bir varlık {@dice 10d8} ateş hasarı alır, başarılı olursa bunun yarısını. Bir varlık bu kurtulma zarını eğer büyünün alanına sırasında ilk defa girerse ya da sırasını orada bitirirse de atar.",
 				"Her sıranın başında seçeceğin bir yöne doğru bulut doğrudan 10 fit ilerler."
 			],
@@ -13937,7 +13937,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Menzilinde seçeceğin bir noktada 20 fit yarıçaplı bir küre içerisini sürü halinde çekirgeler doldurur. Küre köşelerin ardına geçer. Küre süre boyunca kalır ve alanı hafif bir şekilde örtülüdür. Kürenin alanı zorlu arazidir.",
+				"Menzilinde seçeceğin bir noktada 20 fit yarıçaplı bir küre içerisini sürü halinde çekirgeler doldurur. Küre köşelerin ardına geçer. Küre süre boyunca kalır ve alanı hafifçe örtülüdür. Kürenin alanı zorlu arazidir.",
 				"Alan ortaya çıktığında içinde kalan her varlık Dayanıklılık kurtulma zarı atar. Başarısız bir varlık {@dice 4d10} delme hasarı alır, başarılı olursa bunun yarısını. Bir varlık sırasında ilk defa alana girdiğinde ya da sırasını o alanda bitirdiğinde de bu kurtulma zarını atar."
 			],
 			"entriesHigherLevel": [
@@ -21305,7 +21305,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Büyü süresince, menzilinde seçeceğin bir noktanın çevresinde 40 fit yarıçaplı 20 fit uzunlukta bir silindire dondurucu yağmur ve dolu yağmaya başlar. Bu alan ağır bir şekilde örtülüdür ve tüm açık ateşler söner.",
+				"Büyü süresince, menzilinde seçeceğin bir noktanın çevresinde 40 fit yarıçaplı 20 fit uzunlukta bir silindire dondurucu yağmur ve dolu yağmaya başlar. Bu alan ağırca örtülüdür ve tüm açık ateşler söner.",
 				"Alandaki arazi kaygan buz ile kaplanır ve zorlu araziye dönüşür. Bir varlık büyünün alanına ilk defa girdiğinde ya da sırasına orada başladığında, Çeviklik kurtulma zarı atar. Başarısız olursa yere düşer.",
 				"Eğer bir varlık büyünün alanında konsantre oluyorsa, senin büyü DC'ne karşı Dayanıklılık kurtulma zarı atar ya da konsantrasyonunu kaybeder."
 			],
@@ -22127,7 +22127,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Menzilinde bir noktada 20 fit yarıçaplı bir sarı mide bulandırıcı gaz küresi yaratırsın. Bulut köşelerin ardına geçer ve alanı ağır bir şekilde örtülüdür. Bulut süresi boyunca havada kalır.",
+				"Menzilinde bir noktada 20 fit yarıçaplı bir sarı mide bulandırıcı gaz küresi yaratırsın. Bulut köşelerin ardına geçer ve alanı ağırca örtülüdür. Bulut süresi boyunca havada kalır.",
 				"Sırasının başında tamamıyla gazın içinde olan her varlık zehire karşı Dayanıklılık kurtulma zarı atar. Başarısız olursa varlık o sırasında eylemini öğürüp kıvrınarak geçirir. Nefes alma ihtiyacı duymayan ya da zehire bağışıklığı olan varlıklar bu kurtulma zarında otomatik olarak başarılı olur.",
 				"Ortalama bir rüzgar (en az saatte 10 mil hızda) bulutu 4 round sonrası dağıtır. Güçlü bir rüzgar (en az saatte 20 mil hızda) 1 round sonrası dağıtır."
 			],
@@ -22393,7 +22393,7 @@
 					"type": "entries",
 					"name": "5-10. Roundlar",
 					"entries": [
-						"Bulutun altındaki alanı şiddetli rüzgarlar ve dondurucu yağmur kaplar. Alan zorlu arazi olur ve ağır bir şekilde örtülüdür. Oradaki her varlık {@dice 1d6} soğuk hasarı alır. Alanda menzilli silah saldırıları imkansızdır. Büyülerde konsantrasyon koruma açısından rüzgar ve yağmur ciddi dikkat dağıtıcı sayılırlar. Son olarak, güçlü rüzgar boraları (saatte 20 ile 50 mil arası) otomatik olarak alandaki sıradan ya da büyülü sis ve benzeri fenomenleri dağıtır."
+						"Bulutun altındaki alanı şiddetli rüzgarlar ve dondurucu yağmur kaplar. Alan zorlu arazi olur ve ağırca örtülüdür. Oradaki her varlık {@dice 1d6} soğuk hasarı alır. Alanda menzilli silah saldırıları imkansızdır. Büyülerde konsantrasyon koruma açısından rüzgar ve yağmur ciddi dikkat dağıtıcı sayılırlar. Son olarak, güçlü rüzgar boraları (saatte 20 ile 50 mil arası) otomatik olarak alandaki sıradan ya da büyülü sis ve benzeri fenomenleri dağıtır."
 					]
 				}
 			],

@@ -2388,67 +2388,62 @@
         ,
         {
             "type":"section",
-            "name":"How to Play",
-            "entries":["{@b 1. The DM describes the environment.} The DM tells the players where their adventurers are and what's around them, presenting the basic scope of options that present themselves (how many doors lead out of a room, what's on a table, who's in the tavern, and so on).",
-            "{@b 2. The players describe what they want to do.} Sometimes one player speaks for the whole party, saying, \"We'll take the east door,\" for example. Other times, different adventurers do different things: one adventurer might search a treasure chest while a second examines an esoteric symbol engraved on a wall and a third keeps watch for monsters. The players don't need to take turns, but the DM listens to every player and decides how to resolve those actions.",
-            "Sometimes, resolving a task is easy. If an adventurer wants to walk across a room and open a door, the DM might just say that the door opens and describe what lies beyond. But the door might be locked, the floor might hide a deadly trap, or some other circumstance might make it challenging for an adventurer to complete a task. In those cases, the DM decides what happens, often relying on the roll of a die to determine the results of an action.",
-            "{@b 3. The DM narrates the results of the adventurers' actions.} Describing the results often leads to another decision point, which brings the flow of the game right back to step 1.",
-            "This pattern holds whether the adventurers are cautiously exploring a ruin, talking to a devious prince, or locked in mortal combat against a mighty dragon.",
-            "In certain situations, particularly combat, the action is more structured and the players (and DM) do take turns choosing and resolving actions. But most of the time, play is fluid and flexible, adapting to the circumstances of the adventure.",
-            "Often the action of an adventure takes place in the imagination of the players and DM, relying on the DM's verbal descriptions to set the scene. Some DMs like to use music, art, or recorded sound effects to help set the mood, and many players and DMs alike adopt different voices for the various adventurers, monsters, and other characters they play in the game. Sometimes, a DM might lay out a map and use tokens or miniature figures to represent each creature involved in a scene to help the players keep track of where everyone is.",
+            "name":"Nasıl Oynanır",
+            "entries":["{@b 1. DM çevreyi tasvir eder.} DM oyunculara maceracılar nerede ve çevrelerinde ne var söyler, görünen seçeneklerin temel olarak neleri kapsadığını sunar (odada kaç kapı var, masanın üzerinde neler var, tavernada kimler var, vb.).",
+            "{@b 2. Oyuncular ne yapmak istediklerini tasvir ederler.} Bazen tek oyuncu tüm parti için konuşur ve örneğin, \"Doğu'daki kapıyı kullanacağız\" der. Diğer zamanlarda, farklı maceracılar farklı şeyler yapar: bir maceracı bir hazine sandığını araştırırken diğeri duvara kazınmış anlaşılması güç sembolü inceler, bu sırada üçüncü de yaratıklara karşı nöbet tutar. Oyuncuların sıra sıra oynamasına gerek yoktur, DM her oyuncuyu dinler ve sonrasında bu eylemleri nasıl çözümleyeceğine karar verir.",
+            "Bazen, bir işi çözmek kolaydır. Eğer bir maceracı odayı geçip kapıyı açmak isterse, DM kapının açıldığını söyleyip ardında neler olduğunu tasvir etmeye başlayabilir. Ama bu kapı kilitli de olabilir, zeminde ölümcül bir tuzak gizli olabilir, veya farklı bir durum maceracı için bu işi tamamlamayı güçleştirebilir. O durumlarda, DM ne olacağına karar verir, genellikle bir eylemin sonucunu belirlemek için zar sonucuna başvurur.",
+            "{@b 3. DM maceracıların eylemlerinin sonuçlarını anlatır.} Sonuçların tasviri genelde başka bir karar noktasına yol açar, bu da oyunun akışını yeniden 1. adıma döndürür.",
+            "Bu düzen maceracılar dikkatlice harabeleri araştırırken de, sinsi bir prensle konuşurken de, veya görkemli bir ejderha ile dövüşürken de aynıdır.",
+            "Bazı belirli durumlarda, özellikle savaşta, eylemler daha düzenlidir ve oyuncular (ve DM) sırayla eylemlerini seçip bunları sonuçlandırırlar. Ama çoğu zaman, oynanış akıcı ve esnektir, maceranın şartlarına uyum sağlar.",
+            "Genelde bir maceranın eylemi oyuncular ve DM'in hayal güçlerinde gerçekleşir, sahnenin canlandırılması için DM'in sözlü tasvirlerinden faydalanılır. Bazı DM'ler müzik, çizim, veya kayıtlı ses efektleri kullanıp atmosferi yaratmaya yardımcı olur, ve birçok oyuncu ve DM oyunda canlandırdıkları farklı maceracılar, yaratıklar ve diğer karakterler için çeşitli sesler denerler. Bazen, bir DM harita yaratıp üzerinde her varlığı temsil edecek pullar ya da minyatür figürler kullanarak kimin nerede olduğunu takip etmeyi kolaylaştırır.",
             {
                 "type":"entries",
-                "name":"Game Dice",
-                "entries":["The game uses polyhedral dice with different numbers of sides. You can find dice like these in game stores and in many bookstores.",
-                "In these rules, the different dice are referred to by the letter {@b d} followed by the number of sides - d4, d6, d8, d10, d12, and d20. For instance, a d6 is a six-sided die (the typical cube that many games use).",
-                "Percentile dice, or d100, work a little differently. You generate a number between 1 and 100 by rolling two different ten-sided dice numbered from 0 to 9.",
-                "One die (designated before you roll) gives the tens digit, and the other gives the ones digit. If you roll a 7 and a 1, for example, the number rolled is 71. Two 0s represent 100. Some ten-sided dice are numbered in tens (00, 10, 20, and so on), making it easier to distinguish the tens digit from the ones digit. In this case, a roll of 70 and 1 is 71, and 00 and 0 is 100.",
-                "When you need to roll dice, the rules tell you how many dice to roll of a certain type, as well as what modifiers to add. For example, \"3d8 + 5\" means you roll three eight-sided dice, add them together, and add 5 to the total.",
-                "The same d notation appears in the expressions \"1d3\" and \"1d2.\" To simulate the roll of 1d3, roll a d6 and divide the number rolled by 2 (round up). To simulate the roll of 1d2, roll any die and assign a 1 or 2 to the roll depending on whether it was odd or even. (Alternatively, if the number rolled is more than half the number of sides on the die, it's a 2.)"]
+                "name":"Oyun Zarı",
+                "entries":["Oyun yanlarında farklı sayılar bulunan çok yüzlü zarlar kullanır. Bu tip zarları ülkemizde genelde hobi dükkanları ve FRP kafelerde bulabilirsiniz.",
+                "Bu kurallarda, farklı zarlar hemen ardında kaç yüzü olduğunu belirten sayı ile birlikte {@b d} harfi ile temsil edilir - d4, d6, d8, d10, d12, ve d20. Örneğin, bir d6 altı yüzlü bir zardır (çoğu oyunun kullandığı tipik zar).",
+                "Yüzdelik zar, veya d100, biraz farklı işler. 1 ile 100 arasında bir sayıyı iki adet 10 yüzlü zar atarak belirlersin, bunların üzerindeki sayılar 0 ile 9 arasındadır.",
+                "Bir zar (atmadan önce belirlersin) onlar basamağını verir, ve diğeri de birler basamağını. Örneğin, eğer bir 7 ve 1 atarsan, sonuç 71'dir. İki tane 0 atman 100'ü temsil eder. Bazı 10 yüzlü zarların yüzlerinde onlar basamağı vardır (00, 10, 20, ve benzeri), onlar ile birler basamağını ayırt etmeyi kolaylaştırır. Bu durumda, 70 ve 1 atınca 71, 00 ve 0 atınca 100 atmış olursun.",
+                "Zar atman gerektiğinde, kurallar hangi tipte kaç tane zar atman gerektiğini belirtir, bunun yanında eklemen gereken bonusları da söyler. Örneğin, \"3d8 + 5\" sana 3 tane sekiz yüzlü zar atıp, sonuçlarını toplayıp, bu toplama 5 eklemen gerektiğini söyler.",
+                "Aynı d formülü \"1d3\" ve \"1d2\" olarak da karşımıza çıkar. 1d3 zarını temsil etmek için bir 1d6 atarsın ve sonucu ikiye bölersin (üste yuvarlanır). 1d2 zarını temsil etmek için herhangi bir zarı atarsın ve gelen sayının tek mi çift mi oluşuna göre belirlersin. (Alternatif olarak, eğer attığın sayı zarın toplam yüz sayısının yarısından fazlaysa bu 2'dir.)"]
             }
             ,
             {
                 "type":"entries",
-                "name":"The D20",
-                "entries":["Does an adventurer's sword swing hurt a dragon or just bounce off its iron-hard scales? Will the ogre believe an outrageous bluff? Can a character swim across a raging river? Can a character avoid the main blast of a fireball, or does he or she take full damage from the blaze? In cases where the outcome of an action is uncertain, the Dungeons & Dragons game relies on rolls of a 20-sided die, a d20, to determine success or failure.",
-                "Every character and monster in the game has capabilities defined by six {@b ability scores}. The abilities are Kuvvet, Çeviklik, Dayanıklılık, Zeka, Akıl, and Karizma, and they typically menzil from 3 to 18 for most adventurers. (Monsters might have scores as low as 1 or as high as 30.) These ability scores, and the ability modifiers derived from them, are the basis for almost every d20 roll that a player makes on a character's or monster's behalf.",
-                "Ability checks, attack rolls, and saving throws are the three main kinds of d20 rolls, forming the core of the rules of the game. All three follow these simple steps.",
-                "{@b 1. Roll the die and add a modifier.} Roll a d20 and add the relevant modifier. This is typically the modifier derived from one of the six ability scores, and it sometimes includes a proficiency bonus to reflect a character's particular skill. (See chapter 1 for details on each ability and how to determine an ability's modifier.)",
-                "{@b 2. Apply circumstantial bonuses and penalties.} A class feature, a spell, a particular circumstance, or some other effect might give a bonus or penalty to the check.",
-                "{@b 3. Compare the total to a target number. }If the total equals or exceeds the target number, the ability check, attack roll, or saving throw is a success. Otherwise, it's a failure. The DM is usually the one who determines target numbers and tells players whether their ability checks, attack rolls, and saving throws succeed or fail.",
-                "The target number for an ability check or a saving throw is called a {@b Difficulty Class} (DC). The target number for an attack roll is called an {@b AC} (AC).",
-                "This simple rule governs the resolution of most tasks in D&D play. Chapter 7 provides more detailed rules for using the d20 in the game."]
+                "name":"D20",
+                "entries":["Bir maceracının savurduğu kılıç ejderhaya zarar verecek mi yoksa çelik gibi pullarından sekecek mi? Ogre bu abartı yalana inanacak mı? Karakter taşkın derede karşıya yüzebilecek mi? Karakter alevtopu patlamasının asıl gücünden kurtulabilecek mi, yoksa alevin tüm hasarını alacak mı? Sonucun belirsiz olduğu tüm durumlarda, başarı ya da başarısızlığı belirlemek için Dungeons & Dragons oyunu yirmi yüzlü bir zarın atımına, yani d20'ye güvenir.",
+                "Oyundaki her karakter ve yaratığın kabiliyetleri 6 {@b yetenek skoru} ile gösterilir. Bu yetenekler Kuvvet, Çeviklik, Dayanıklılık, Zeka, Akıl, ve Karizmadır, ve çoğu maceracı için bu aralık 3 ve 18 arasındadır. (Yaratıklar için bu aralık 1 ile 30 arasındadır.) Bu yetenek skorları, ve onlardan elde edilen yetenek bonusları, karakter veya yaratığın adına atılan neredeyse her d20 zarının temelini oluşturur.",
+                "Yetenek, saldırı ve kurtulma zarları üç temel d20 zarı tipidir, oyunun kurallarının çekirdeğini oluştururlar. Üçü de şu basit adımları izler.",
+                "{@b 1. Zarı at ve bonusu ekle.} Bir d20 at ve ilgili bonusu ekle. Bu genellikle altı yetenek skorundan birinin bonusudur, ve bazen karakterin belirli bir beceri ile uzmanlığını yansıtmak için uzmanlık bonusunu da içerir. (1. kısımda yetenekler ve onların bonuslarının belirlenmesi hakkında daha fazla bilgi mevcuttur.)",
+                "{@b 2. Durumsal bonus ve cezaları uygula.} Bir sınıf özelliği, büyü, belirli bir durum, veya başka bir etki bu zara bonus ya da ceza verebilir.",
+                "{@b 3. Toplamı hedef bir sayıyla karşılaştır.} Eğer toplam hedef sayıya eşitse veya aşıyorsa, yetenek, saldırı, veya kurtulma zarı başarılıdır. Aksi taktirde, başarısızdır. Genellikle hedef sayıyı belirleyen DM olur ve oyunculara yetenek, saldırı ya da kurtulma zarlarının başarılı olup olmadığını söyler.",
+                "Bir yetenek ya da kurtulma zarı için hedef sayıya {@b Difficulty Class (Zorluk Sınıfı)} (DC) denir. Bir saldırı zarı için hedef sayıya {@b Armor Class (Zırh Sınıfı)} (AC) denir.",
+                "Bu basit kural D&D oynanışında bir çok işin çözümünü yönetir."]
             }
             ,
             {
-                "type": "entries", "name": "Advantage and Dezavantaj", "entries": ["Sometimes an ability check, attack roll, or saving throw is modified by special situations called advantage and disadvantage. Advantage reflects the positive circumstances surrounding a d20 roll, while disadvantage reflects the opposite. When you have either advantage or disadvantage, you roll a second d20 when you make the roll. Use the higher of the two rolls if you have advantage, and use the lower roll if you have disadvantage. For example, if you have disadvantage and roll a 17 and a 5, you use the 5. If you instead have advantage and roll those numbers, you use the 17.", "More detailed rules for advantage and disadvantage are presented in chapter 7."]
-            }
-            ,
-            {
-                "type": "entries", "name": "Specific Beats General", "entries": ["This book contains rules, especially in parts 2 and 3, that govern how the game plays. That said, many racial traits, class features, spells, magic items, monster abilities, and other game elements break the general rules in some way, creating an exception to how the rest of the game works. Remember this: If a specific rule contradicts a general rule, the specific rule wins.", "Exceptions to the rules are often minor. For instance, many adventurers don't have proficiency with longbows, but every wood elf does because of a racial trait. That trait creates a minor exception in the game. Other examples of rule-breaking are more conspicuous. For instance, an adventurer can't normally pass through walls, but some spells make that possible. Magic accounts for most of the major exceptions to the rules.", "Round Down", "There's one more general rule you need to know at the outset. Whenever you divide a number in the game, round down if you end up with a fraction, even if the fraction is one-half or greater."]
+                "type": "entries", "name": "Özel Geneli Yener", "entries": ["Bu kitap oyunun oynanışını belirten kurallar içerir. Bununla birlikte, çoğu ırksal özellik, sınıf özelliği, büyüler, büyülü eşyalar, yaratık yetenekleri, ve diğer oyun faktörleri genel kuralları bir şekilde bozar, oyunun devamının nasıl işleyeceğine dair istisnalar yaratırlar. Bunu hatırla: Eğer özel bir kural genel bir kural ile çelişiyorsa, özel kural kazanır.", "Kurallara bu istisnalar genelde küçüktür. Örneğin, çoğu maceracının uzun yaylarla uzmanlığı yoktur, ama tüm orman elfleri ırksal özelliklerinden dolayı buna sahiptir. Bu özellik oyunda küçük bir istisna yaratır. Diğer kural bozma örnekleri daha barizdir. Örneğin, bir maceracı normalde duvarlardan geçemez, ama bazı büyüler bunu mümkün kılar. Kurallarda oluşan en büyük istisnaları büyü yaratır.", "Aşağı Yuvarla", "Yola çıkarken bilmen gereken bir genel kural daha vardır. Ne zaman oyunda bir sayıyı bölsen, eğer sonuç kesirli bir sayı çıkarsa aşağı yuvarla, bu kesirli kısım yarısı ya da fazlası olsa bile."]
             }
             ,
             {
                 "type":"section",
-                "name":"Adventures",
-                "entries":["The Dungeons & Dragons game consists of a group of characters embarking on an adventure that the Dungeon Master presents to them. Each character brings particular capabilities to the adventure in the form of ability scores and skills, class features, racial traits, equipment, and magic items. Every character is different, with various strengths and weaknesses, so the best party of adventurers is one in which the characters complement each other and cover the weaknesses of their companions. The adventurers must cooperate to successfully complete the adventure.",
-                "The adventure is the heart of the game, a story with a beginning, a middle, and an end. An adventure might be created by the Dungeon Master or purchased off the shelf, tweaked and modified to suit the DM's needs and desires. In either case, an adventure features a fantastic setting, whether it's an underground dungeon, a crumbling castle, a stretch of wilderness, or a bustling city. It features a rich cast of characters: the adventurers created and played by the other players at the table, as well as nonplayer characters (NPCs). Those characters might be patrons, allies, enemies, hirelings, or just background extras in an adventure. Often, one of the NPCs is a villain whose agenda drives much of an adventure's action.",
-                "Over the course of their adventures, the characters are confronted by a variety of creatures, objects, and situations that they must deal with in some way. Sometimes the adventurers and other creatures do their best to kill or capture each other in combat. At other times, the adventurers talk to another creature (or even a magical object) with a goal in mind. And often, the adventurers spend time trying to solve a puzzle, bypass an obstacle, find something hidden, or unravel the current situation. Meanwhile, the adventurers explore the world, making decisions about which way to travel and what they'll try to do next.",
-                "Adventures vary in length and complexity. A short adventure might present only a few challenges, and it might take no more than a single game session to complete. A long adventure can involve hundreds of combats, interactions, and other challenges, and take dozens of sessions to play through, stretching over weeks or months of real time. Usually, the end of an adventure is marked by the adventurers heading back to civilization to rest and enjoy the spoils of their labors.",
-                "But that's not the end of the story. You can think of an adventure as a single episode of a TV series, made up of multiple exciting scenes. A campaign is the whole series—a string of adventures joined together, with a consistent group of adventurers following the narrative from start to finish.",
+                "name":"Maceralar",
+                "entries":["Dungeons & Dragons oyunu bir grup karakterin DM'in onlara sunduğu bir maceraya çıkmasını konu alır. Her karakter maceraya yetenek skorları, beceriler, sınıf özellikleri, ırksal özellikler, ekipman ve büyülü eşyalar gibi şekillerde belirli kabiliyetlerini katar. Her karakter çeşitli güç ve zayıflıkları ile farklıdır, bu yüzden en iyi maceracı partisi birbirini tamamlayan ve zayıflıklarını kapatan karakterlerden oluşur. Maceracılar serüveni başarı ile tamamlayabilmek için işbirliği yapmak zorundadır.",
+                "Macera oyunun kalbidir, başı, ortası ve sonu olan bir hikayedir bu. Bir macera DM tarafından yaratılabilir ya da satın alınıp DM'in ihtiyaçları ve arzularını karşılayacak şekilde değiştirilebilir. Her durumda macera fantastik bir dünyada geçer, bu yer altı zindanı, dökülen bir kale, bakir doğa, veya kalabalık bir şehir olabilir. Zengin bir karakter kadrosu vardır: masadaki oyuncular tarafından yaratılmış ve oynanan karakterler, ve oyuncu olmayan karakterler (OOK - NPC). O karakterler patron, müttefik, düşman, uşak, veya macerada sadece birer arkaplan figüranı olabilir. Sıkça, o OOK'lerden biri davranışları maceranın yönünü belirleyen kötü karakterdir.",
+                "Maceraları süresince, karakterler bir şekilde alt etmeleri gereken çeşitli varlıklar, nesneler ve durumlar ile karşılaşırlar. Bazen maceracılar ve diğer varlıklar savaşta birbirlerini öldürmek ya da ele geçirmek için ellerinden geleni yaparlar. Diğer zamanlarda, maceracılar diğer varlıklarla (hatta büyülü eşyalarla) bir amaç doğrultusunda konuşurlar. Ve sıkça, maceracılar bir bulmacayı çözmek, engeli aşmak, gizli birşeyi bulmak, veya mevcut durumu çözmek için vakit harcarlar. Aynı zamanda, maceracılar dünyayı keşfederken, ne tarafa gidecekleri ve ne yapacakları konusunda kararlar verirler.",
+                "Maceralar süre ve karmaşıklıkta çeşitlidirler. Kısa bir macera sadece birkaç zorluk çıkarabilir, ve tek bir oyun seansında bile tamamlanabilir. Uzun bir macera yüzlerce savaş, etkileşim, ve diğer zorluklar içerip, onlarca oyun seansı ile gerçek zamanda haftalarca hatta aylarca sürebilir. Genel olarak, bir maceranın sonu maceracıların işlerinin sonucunun tadını çıkarmak ve dinlenmek için medeniyete dönmesi ile belirlenir.",
+                "Ama bu hikayenin sonu değildir. Macerayı bir TV dizisinin tek bölümü gibi görebilirsin, bir çok heyecanlı sahneden oluşur. Bir serüven (kampanya da denir) ise dizinin tümüdür, bir seri maceranın birbirine bağlanması ile oluşur ve sürekli bir grup maceracı hikayenin başından sonuna kadar kalır.",
                 {
                     "type":"entries",
-                    "name":"The Three Pillars of Adventure",
-                    "entries":["Adventurers can try to do anything their players can imagine, but it can be helpful to talk about their activities in three broad categories: exploration, social interaction, and combat.",
-                    "{@b Exploration} includes both the adventurers' movement through the world and their interaction with objects and situations that require their attention. Exploration is the give-and-take of the players describing what they want their characters to do, and the Dungeon Master telling the players what happens as a result.",
-                    "On a large scale, that might involve the characters spending a day crossing a rolling plain or an hour making their way through caverns underground. On the smallest scale, it could mean one character pulling a lever in a dungeon room to see what happens.",
-                    "{@b Social-interaction} features the adventurers talking to someone (or something) else. It might mean demanding that a captured scout reveal the secret entrance to the goblin lair, getting information from a rescued prisoner, pleading for mercy from an orc chieftain, or persuading a talkative magic mirror to show a distant location to the adventurers.",
-                    "The rules in chapters 7 and 8 support exploration and social interaction, as do many class features in chapter 3 and personality traits in chapter 4.",
-                    "{@b Combat,} the focus of chapter 9, involves characters and other creatures swinging weapons, casting spells, maneuvering for position, and so on-all in an effort to defeat their opponents, whether that means killing every enemy, taking captives, or forcing a rout. Combat is the most structured element of a D&D session, with creatures taking turns to make sure that everyone gets a chance to act. Even in the context of a pitched battle, there's still plenty of opportunity for adventurers to attempt wacky stunts like surfing down a flight of stairs on a shield, to examine the environment (perhaps by pulling a mysterious lever), and to interact with other creatures, including allies, enemies, and neutral parties."]
+                    "name":"Maceranın 3 Sütunu",
+                    "entries":["Maceracılar oyuncuların hayal edebildiği herşeyi yapmayı deneyebilirler, ama faaliyetlerini üç genel kategoride incelemek yardımcı olabilir: keşif, sosyal etkileşim, ve savaş.",
+                    "{@b Keşif} hem maceracıların dünyadaki hareketlerini hem de dikkatlerini gerektiren nesne ve durumlarla etkileşimlerini içerir. Keşif, oyuncuların karakterlerine yaptırmak istedikleri şeyi tasvir etmesi, ve DM'in sonuç olarak ne olduğunu söylemesinin uzlaşmasıdır.",
+                    "Büyük çapta, bu karakterlerin bir tepeyi aşmak için bir gün harcaması ya da yeraltı mağaralarından geçtikleri bir saati içerebilir. En küçük çapta ise, bir karakterin zindandaki kolu çekip ne olduğunu görmek istemesidir.",
+                    "{@b Sosyal etkileşim} maceracıların başka bir kişi (ya da şey) ile konuşmasıdır. Bu, yakalanan izcinin gizli goblin yuvasına girişi söylemesini istemek, kurtarılan bir tutsaktan bilgi almak, bir ork kabile şefinden merhamet dilenmek, veya konuşkan bir büyülü aynayı maceracılara uzak bir diyarı göstermesi için ikna etmek olabilir.",
+                    "{@b Savaş,} karakterlerin silahlarını savurması, büyü yapması, pozisyona manevra yapması gibi rakiplerini yenmek için, ki bu onları öldürme, rehin alma ya da kaçmalarını sağlama olabilir, yaptıkları şeyleri içerir. Savaş bir D&D seansının en yapısal kısmıdır, herkesin eylem şansı olması için varlıklar sırayla harekete geçer. Bir sıkı savaş bağlamında bile, hala maceracılar için merdivenlerden aşağı kalkan üzerinde kayarak inme gibi tuhaf numaralara girişecek, çevreyi inceleyecek (belki de gizemli bir kolu çekerek), ve dostlar, düşmanlar ve tarafsız partileri içeren diğer varlıklarla etkileşime geçecek fırsat olur."]
                 }
                 ,
                 {
-                    "type": "entries", "name": "The Wonders of Magic", "entries": ["Few D&D adventures end without something magical happening. Whether helpful or harmful, magic appears frequently in the life of an adventurer, and it is the focus of chapters 10 and 11.", "In the worlds of Dungeons & Dragons, practitioners of magic are rare, set apart from the masses of people by their extraordinary talent. Common folk might see evidence of magic on a regular basis, but it's usually minor—a fantastic monster, a visibly answered prayer, a wizard walking through the streets with an animated shield guardian as a bodyguard.", "For adventurers, though, magic is key to their survival. Without the healing magic of clerics and paladins, adventurers would quickly succumb to their wounds. Without the uplifting magical support of bards and clerics, warriors might be overwhelmed by powerful foes. Without the sheer magical power and versatility of wizards and druids, every threat would be magnified tenfold.", "Magic is also a favored tool of villains. Many adventures are driven by the machinations of spellcasters who are hellbent on using magic for some ill end. A cult leader seeks to awaken a god who slumbers beneath the sea, a hag kidnaps youths to magically drain them of their vigor, a mad wizard labors to invest an army of automatons with a facsimile of life, a dragon begins a mystical ritual to rise up as a god of destruction—these are just a few of the magical threats that adventurers might face. With magic of their own, in the form of spells and magic items, the adventurers might prevail!"]
+                    "type": "entries", "name": "Büyünün Harikaları", "entries": ["Nadir D&D macerası büyülü bir şey olmadan biter. Yardımcı ya da zararlı, büyü bir maceracının hayatında sıkça karşısına çıkar.", "Dungeons & Dragons evrenlerinde büyü yapabilenler nadirdir, olağandışı yetenekleri ile sıradan kitlenin üzerinde olurlar. Sıradan halk büyünün kanıtını düzenli bir şekilde görür, ama bu genelde küçüktür, fantastik bir yaratık, gözle görülür bir şekilde cevaplanan dua, yanında koruma olarak gezdirdiği canlanmış bir kalkan muhafızı ile sokaktan geçen bir büyücü gibi.", "Maceracılara ise büyü hayatta kalmaları için kilit noktasıdır. Rahip ve paladinlerin iyileştirici büyüleri olmadan maceracılar çabucak yaralarına yenik düşerler. Rahip ve ozanların destekleyici büyüleri olmadan savaşçılar güçlü rakipler karşısında yıkılabilirler. Ellerinden her iş gelen büyücü ve druidlerin büyü gücü olmasa her tehdit ona katlanırdı.", "Büyü kötü karakterlerin de favori aletidir. Çoğu macera büyü kullanıcılarının bu büyüyü fena bir sonuç elde etmek için kullanma çabaları ile ortaya çıkar. Bir kült lideri denizlerin dibinde uyuyan bir tanrıyı uyandırmaya çalışır, bir cadı gençleri kaçırıp büyü ile yaşam güçlerini çeker, bir deli büyücü otomaton ordusunu sahte yaşam ile doldurur, bir ejderha yıkım tanrısı olarak yükselebilmek için mistik bir ritüele başlar, bunlar maceracıların yüzleşebileceği tehditlerden sadece birkaçıdır. Büyülü eşyalar ve kullandıkları büyüler şeklinde maceracılar kendi büyü güçleri ile galip gelebilecektir!"]
                 }
                 ]
             }
@@ -2456,82 +2451,82 @@
         }
         ,
         {
-            "type": "section", "name": "Interacting with Objects", "entries": ["A character's interaction with objects in an environment is often simple to resolve in the game. The player tells the DM that his or her character is doing something, such a moving a lever, and the DM describes what, if anything happens.", "For example, a character might decide to pull a lever, which might, in turn, raise a portcullis, cause a room to flood with water, or open a secret door in a nearby wall. If the lever is rusted in position, though, a character might need to force it. In such a situation, the DM might call for a Kuvvet check to see whether the character can wrench the lever into place. The DM sets the DC for any such check based on the difficulty of the task.", "Characters can also damage objects with their weapons and spells. Objects are immune to poison and psychic damage, but otherwise they can be affected by physical and magical attacks much like creatures can. The DM determines an object's AC and HP, and might decide that certain objects have resistance or immunity to certain kinds of attacks. (It's hard to cut a rope with a club, for example.) Objects always fail Kuvvet and Çeviklik saving throws, and they are immune to effects that require other saves.", "When an object drops to 0 HP, it breaks.", "A character can also attempt a Kuvvet check to break an object. The DM sets the DC for any such check."]
+            "type": "section", "name": "Nesnelerle Etkileşim", "entries": ["Oyunda bir karakterin çevresindeki nesnelerle etkileşimi genelde kolay çözülür. Oyuncu DM'e karakterinin kolu çekmek gibi bir şey yaptığını söyler, ve DM de eğer bir şey oluyorsa ne olduğunu söyler.", "Örneğin, bir karakter kolu çekmeye karar verebilir, bu da bir kapıyı kaldırıp odanın su ile dolmasını sağlayabilir, ya da yandaki duvarda gizli bir kapı açabilir. Eğer kol yerinde paslandıysa, karakterin bunu biraz zorlaması gerekebilir. Bu tip bir durumda, karakterin kolu yerine oturtabilmesini sınamak için DM bir Kuvvet zarı isteyebilir. İşin zorluğuna göre DM bu tip zarların DC'sini belirler.", "Karakterler nesnelere silahları ve büyüleri ile de hasar verebilir. Nesneler zehir ve psişik hasara bağışıktır, ama bunun dışında fiziksel ve büyülü hasardan aynı varlıklar gibi etkilenir. DM bir nesnenin AC ve HP'sini belirler, ve bazı nesnelerin belirli tipte saldırılara karşı direnç ya da bağışıklığı olduğuna karar verebilir. (Mesela bir halatı sopa ile kesmek zordur.) Nesneler daima Kuvvet ve Çeviklik kurtulma zarlarında başarısız olurlar, ve diğer kurtulma zarı gerektiren etkilere bağışıktırlar.", "Bir nesne 0 HP'ye düştüğünde kırılır.", "Bir karakter bir nesneyi kırmak için Kuvvet zarı atabilir. Bu tip bir zar için DC'yi DM belirler."]
         }
         ,
         {
-            "type": "section", "name": "Uzmanlık Bonusu", "entries": ["Characters have a proficiency bonus determined by level, as detailed in chapter 1. Monsters also have this bonus, which is incorporated in their stat blocks. The bonus is used in the rules on ability checks, saving throws, and attack rolls.", "Your proficiency bonus can't be added to a single die roll or other number more than once. For example, if two different rules say you can add your proficiency bonus to a Akıl saving throw, you nevertheless add the bonus only once when you make the save.", "Occasionally, your proficiency bonus might be multiplied or divided (doubled or halved, for example) before you apply it. For example, the rogue's Expertise feature doubles the proficiency bonus for certain ability checks. If a circumstance suggests that your proficiency bonus applies more than once to the same roll, you still add it only once and multiply or divide it only once.", "By the same token, if a feature or effect allows you to multiply your proficiency bonus when making an ability check that wouldn't normally benefit from your proficiency bonus, you still don't add the bonus to the check. For that check your proficiency bonus is 0, given the fact that multiplying 0 by any number is still 0. For instance, if you lack proficiency in the Tarih skill, you gain no benefit from a feature that lets you double your proficiency bonus when you make Zeka (Tarih) checks.", "In general, you don't multiply your proficiency bonus for attack rolls or saving throws. If a feature or effect allows you to do so, these same rules apply."]
+            "type": "section", "name": "Uzmanlık Bonusu", "entries": ["İlk kısımda verildiği üzere karakterlerin seviyelerine bağlı olarak uzmanlık bonusları vardır. Yaratıkların da bu bonusu vardır, ve bu onların stat bloklarına dahil edilmiştir. Bu bonus kurallarda yetenek, saldırı ve kurtulma zarlarında kullanılır.", "Uzmanlık bonusun tek bir zara ya da farklı bir sayıya birden çok kez eklenemez. Örneğin, eğer iki farklı kural sana uzmanlık bonusunu Akıl kurtulma zarlarına eklemeni söylerse, sen yine de bu kurtulma zarını attığında sadece bir kere eklersin.", "Nadiren, uzmanlık bonusun uygulanmadan önce katlanabilir ya da bölünebilir (mesela ikiye katlanabilir ya da yarılanabilir). Örneğin, düzenbazın Ekspertiz özelliği belirli yetenek zarlarında uzmanlık bonusunu ikiye katlar. Eğer bir durum uzmanlık bonusunun aynı zara birden çok kez uygulandığını gösterirse, sen yine de sadece bir kere eklersin ve sadece bir kere katlar ya da bölersin.", "Aynı şekilde, eğer bir özellik ya da etki bir yetenek zarında uzmanlık bonusunu katlıyorsa ama normalde o zara uzmanlık bonusun eklenmiyorsa, hala bu zara bonusu eklemezsin. O zar için uzmanlık bonusun sıfırdır, ve sıfırı kaça katlarsan katla sonuç yine sıfır çıkar. Örneğin, eğer Tarih becerisinde uzmanlığın yoksa, senin Zeka (Tarih) zarlarında uzmanlık bonusunu ikiye katlayan bir özellikten faydalanamazsın.", "Genel olarak, uzmanlık bonusun saldırı ve kurtulma zarları için katlanmaz. Eğer bir özellik ya da etki buna izin veriyorsa, aynı kurallar geçerli olur."]
         }
         ,
         {
             "type":"section",
-            "name":"Resting",
-            "entries":["Heroic though they might be, adventurers can't spend every hour of the day in the thick of exploration, social interaction, and combat. They need rest-time to sleep and eat, tend their wounds, refresh their minds and spirits for spellcasting, and brace themselves for further adventure.",
-            "Adventurers, and creatures, can take short rests in the midst of an adventuring day and a long rest to end the day.",
+            "name":"Dinlenme",
+            "entries":["Kahraman olsalar da, maceracılar günün her saatini keşif, sosyal etkileşim ve savaş içerisinde geçiremezler. Uyku ve yemek, yara sarma, büyü yapma için zihin ve ruh ferahlatma, ve kendilerini yine maceraya hazırlama için dinlenme vaktine ihtiyaç duyarlar.",
+            "Maceracılar ve varlıklar, bir macera gününün ortasında kısa dinlenmeler ve günün sonunda uzun dinlenme yapabilirler.",
             {
-                "type": "entries", "name": "Short Rest", "entries": ["A short rest is a period of downtime, at least 1 hour long, during which a character does nothing more strenuous than eating, drinking, reading, and tending to wounds.", "A character can spend one or more HD at the end of a short rest, up to the character's maximum number of HD, which is equal to the character's level. For each Hit Die spent in this way, the player rolls the die and adds the character's Dayanıklılık modifier to it. The character regains HP equal to the total. After applying your Dayanıklılık modifier to a Hit Die roll, you regain a minimum of 0 HP. The player can decide to spend an additional Hit Die after each roll. A character regains some spent HD upon finishing a long rest, as explained below."]
+                "type": "entries", "name": "Kısa Dinlenme", "entries": ["Bir kısa dinlenme en az 1 saat uzunlukta, bu süreçte karakterlerin yemek, içmek, okumak ve yaraları sarmak dışında daha zorlu bir aktivite yapmadığı bir boş zamandır.", "Bir karakter kısa dinlenme sonunda bir ya da karakterin maksimum HD'sine kadar (karakterin seviyesine eşittir) HD harcayabilir. Bu şekilde harcanan her HD için, oyuncu zarı atar ve buna karakterin Dayanıklılık bonusunu ekler. Karakter toplamı kadar HP yeniler. HD zarına Dayanıklılık bonusunu ekledikten sonra, en az 0 HP yenileyebilirsin. Oyuncu her zardan sonra fazladan bir HD harcamaya karar verebilir. Bir karakter uzun dinlenme bitirdiğinde aşağıda açıklanacağı şekilde biraz HD yeniler."]
             }
             ,
             {
-                "type": "entries", "name": "Long Rest", "entries": ["A long rest is a period of extended downtime, at least 8 hours long, during which a character sleeps or performs hafif activity: reading, talking, eating, or standing watch for no more than 2 hours. If the rest is interrupted by a period of strenuous activity—at least 1 hour of walking, fighting, casting spells, or similar adventuring activity, the characters must begin the rest again to gain any benefit from it.", "At the end of a long rest, a character regains all lost HP. The character also regains spent HD, up to a number of dice equal to half of the character's total number of them. You regain at least 1 Hit Die when you finish a long rest.", "For example, if a character has eight HD, he or she can regain four spent HD upon finishing a long rest.", "A character can't benefit from more than one long rest in a 24-hour period, and a character must have at least 1 hit point at the start of the rest to gain its benefits."]
+                "type": "entries", "name": "Uzun Dinlenme", "entries": ["Bir uzun dinlenme en az 8 saat uzunlukta, bu süreçte karakterlerin uyuduğu ya da 2 saati geçmeyecek şekilde okuma, konuşma, yeme veya nöbet tutma gibi hafif faaliyette bulunduğu bir boş zamandır. Eğer dinlenme en az 1 saatliğine yürüme, savaşma, büyü yapma, veya benzeri yorucu maceracılık faaliyeti ile bölünürse, karakterler bu dinlenmeden faydalanabilmek için yeniden başlamalıdırlar.", "Uzun dinlenme sonunda, bir karakter tüm kayıp HP'yi yeniler. Karakter ayrıca toplamın yarısı kadar sayıda harcanmış HD'leri de yeniler. Uzun dinlenme bitirdiğinde en az 1 HD yenilersin.", "Örneğin, eğer bir karakter 8 HD'ye sahipse, o dinlenme sonrasında 4 harcanmış HD'yi yenileyebilir.", "Bir karakter 24 saatlik süreçte birden çok uzun dinlenmeden faydalanamaz, ve bu dinlenmeden faydalanabilmek için karakterin dinlenme başında en az 1 HP'ye sahip olması gerekir."]
             }
             ]
         }
         ,
         {
-            "type": "section", "name": "Saving Throws", "entries": ["A saving throw—also called a save—represents an attempt to resist a spell, a trap, a poison, a disease, or a similar threat. You don't normally decide to make a saving throw; you are forced to make one because your character or monster is at risk of harm.", "To make a saving throw, roll a d20 and add the appropriate ability modifier. For example, you use your Çeviklik modifier for a Çeviklik saving throw.", "A saving throw can be modified by a situational bonus or penalty and can be affected by advantage and disadvantage, as determined by the DM.", "Each class gives proficiency in at least two saving throws. The wizard, for example, is proficient in Zeka saves. As with skill proficiencies, proficiency in a saving throw lets a character add his or her proficiency bonus to saving throws made using a particular ability score. Some monsters have saving throw proficiencies as well.", "The Difficulty Class for a saving throw is determined by the effect that causes it. For example, the DC for a saving throw allowed by a spell is determined by the caster's spellcasting ability and proficiency bonus.", "The result of a successful or failed saving throw is also detailed in the effect that allows the save. Usually, a successful save means that a creature suffers no harm, or reduced harm, from an effect."]
+            "type": "section", "name": "Kurtulma Zarları", "entries": ["Bir kurtulma zarı, bir büyüye, tuzağa, zehire, hastalığa, veya benzeri bir tehdite karşı direnme çabasını gösterir. Sen normalde kurtulma zarı atmaya karar vermezsin; bunu yapmaya zorlanırsın çünkü karakterin ya da bir yaratık hasar tehditi altındadır.", "Bir kurtulma zarı atmak için bir d20 at ve ilgili yetenek bonusunu ekle. Örneğin, Çeviklik kurtulma zarı için Çeviklik bonusunu kullanırsın.", "Bir kurtulma zarı DM'in kararıyla durumsal bonuslar veya cezalar ile değişebilir ve avantaj ve dezavantaj etkisi altında olabilir.", "Her sınıf en az 2 kurtulma zarına uzmanlık verir. Örneğin büyücü, Zeka kurtulma zarlarında uzmandır. Aynı becerilerde olduğu gibi, kurtulma zarlarında uzmanlık bir karakterin o yetenek skoru ile atacağı kurtulma zarlarına uzmanlık bonusunu eklemesini sağlar. Bazı yaratıkların da kurtulma zarı uzmanlıkları vardır.", "Bir kurtulma zarı için DC ona yol açan etki tarafından belirlenir. Örneğin, bir büyü için DC, kullanıcının büyü yapma yeteneği ve uzmanlık bonusu ile belirlenir.", "Başarılı veya başarısız bir kurtulma zarının sonuçları da kurtulma zarını attıran etkide detaylı bir şekilde verilir. Genellikle, başarılı bir zar varlığın bu etki karşısında hiç zarar görmemesi, ya da daha az zarar görmesi anlamına gelir."]
         }
         ,
         {
             "type":"section",
-            "name":"Skills",
-            "entries":["Each ability covers a broad menzil of capabilities, including skills that a character or a monster can be proficient in. A skill represents a specific aspect of an ability score, and an individual's proficiency in a skill demonstrates a focus on that aspect. (A character's starting skill proficiencies are determined at character creation, and a monster's skill proficiencies appear in the monster's stat block.)",
-            "For example, a Çeviklik check might reflect a character's attempt to pull off an acrobatic stunt, to palm an object, or to stay hidden. Each of these aspects of Çeviklik has an associated skill: Akrobasi, El Çabukluğu, and Gizlenme, respectively. So a character who has proficiency in the Gizlenme skill is particularly good at Çeviklik checks related to sneaking and hiding.",
-            "The skills related to each ability score are shown in the following list. (No skills are related to Dayanıklılık.) See an ability's description in the later sections of this chapter for examples of how to use a skill associated with an ability.",
+            "name":"Beceriler",
+            "entries":["Her yetenek kabiliyetlerde geniş bir yelpazeyi kapsar, bunlar bir karakter ya da yaratığın uzmanlaşabileceği becerileri de içerir. Bir beceri, bir yetenek skorunun belirli bir yönünü temsil eder, ve bir bireyin bu beceride uzmanlığı o yöne odağını gösterir. (Bir karakterin başlangıç beceri uzmanlıkları karakter yaratımında belirlenir, ve bir yaratığın beceri uzmanlıkları yaratığın stat bloğunda görülür.)",
+            "Örneğin, bir Çeviklik zarı bir karakterin akrobatik bir numara, nesne aşırma, veya gizli kalma denemesini yansıtabilir. Bunların her biri Çevikliğin bir yönünü ve ilgili becerisini yansıtır: sırasıyla Akrobasi, El Çabukluğu, ve Gizlenme. Yani Gizlenme becerisinde uzmanlığı olan bir karakter özellikle gizlenme ve sinsice dolaşmayla alakalı Çeviklik zarlarında iyidir.",
+            "Aşağıdaki listede her yetenek skoruyla ilgili beceriler verilmiştir. (Dayanıklılıkla ilgili bir beceri yoktur.) Bu kısmın ilerisinde her yetenek ile ilgili bir beceriyi en iyi şekilde kullanmak için açıklama ve örneklerine bakabilirsin.",
             {
-                "type": "table", "colLabels": ["Ability", "Skills"], "colStyles": ["col-xs-2", "col-xs-10"], "rows": [["Kuvvet", "Atletizm"], ["Çeviklik", "Çeviklik, Akrobasi, El Çabukluğu, Gizlenme"], ["Zeka", "Arcana, Tarih, İnceleme, Doğa, Din"], ["Akıl", "Hayvan İdaresi, Sezgi, Tıp, Algı, Hayatta Kalma"], ["Karizma", "Aldatma, Gözdağı, Performans, İkna"]]
+                "type": "table", "colLabels": ["Yetenek", "Beceriler"], "colStyles": ["col-xs-2", "col-xs-10"], "rows": [["Kuvvet", "Atletizm"], ["Çeviklik", "Akrobasi, El Çabukluğu, Gizlenme"], ["Zeka", "Arcana, Tarih, İnceleme, Doğa, Din"], ["Akıl", "Hayvan İdaresi, Sezgi, Tıp, Algı, Hayatta Kalma"], ["Karizma", "Aldatma, Gözdağı, Performans, İkna"]]
             }
             ,
-            "Sometimes, the DM might ask for an ability check using a specific skill—for example, \"Make a Akıl (Algı) check.\" At other times, a player might ask the DM if proficiency in a particular skill applies to a check. In either case, proficiency in a skill means an individual can add his or her proficiency bonus to ability checks that involve that skill. Without proficiency in the skill, the individual makes a normal ability check.",
-            "For example, if a character attempts to climb up a dangerous cliff, the Dungeon Master might ask for a Kuvvet (Atletizm) check. If the character is proficient in Atletizm, the character's proficiency bonus is added to the Kuvvet check. If the character lacks that proficiency, he or she just makes a Kuvvet check.",
+            "Bazen, DM belirli bir beceri üzerinden yetenek zarı isteyebilir, \"Akıl (Algı) zarı at.\" gibi. Diğer zamanlarda, oyuncu DM'e bir becerideki uzmanlığın o zarda geçerliliğini sorabilir. Her iki durumda da, bir becerideki uzmanlık bir bireyin o beceriyle alakalı yetenek zarlarına uzmanlık bonusunu ekleyebileceği anlamına gelir. Beceride uzmanlık yoksa, birey normal yetenek zarı atar.",
+            "Örneğin, eğer bir karakter tehlikeli bir yamaca tırmanmaya çalışırsa, DM bir Kuvvet (Atletizm) zarı isteyebilir. Eğer karakter Atletizmde uzmansa, uzmanlık bonusu bu Kuvvet zarına eklenir. Eğer karakter bu uzmanlığa sahip değilse, sadece bir Kuvvet zarı atar.",
             {
-                "type": "entries", "name": "Variant: Skills with Different Abilities", "entries": ["Normally, your proficiency in a skill applies only to a specific kind of ability check. Proficiency in Atletizm, for example, usually applies to Kuvvet checks. In some situations, though, your proficiency might reasonably apply to a different kind of check. In such cases, the DM might ask for a check using an unusual combination of ability and skill, or you might ask your DM if you can apply a proficiency to a different check. For example, if you have to swim from an offshore island to the mainland, your DM might call for a Dayanıklılık check to see if you have the stamina to make it that far. In this case, your DM might allow you to apply your proficiency in Atletizm and ask for a Dayanıklılık (Atletizm) check. So if you're proficient in Atletizm, you apply your proficiency bonus to the Dayanıklılık check just as you would normally do for a Kuvvet (Atletizm) check.", "Similarly, when your dwarf fighter uses a display of raw strength to intimidate an enemy, your DM might ask for a Kuvvet (Gözdağı) check, even though Gözdağı is normally associated with Karizma."]
+                "type": "entries", "name": "Alternatif: Farklı Yeteneklerle Beceriler", "entries": ["Normalde, bir beceri ile uzmanlığın sadece belirli bir tip yetenek zarına uygulanır. Örneğin Atletizm uzmanlığı, genelde Kuvvet zarlarına uygulanır. Ama bazı durumlarda, bu uzmanlığın mantıklı bir şekilde başka bir zara uygulanabilir. Bu durumlarda, DM alışılmadık bir yetenek ve beceri kombinasyonunda zar isteyebilir, ya da oyuncu bu becerideki uzmanlığının farklı bir yetenekte geçerliliğini sorabilir. Örneğin, eğer kıyıdan uzaktaki bir adadan kıyıya yüzmen gerekirse, DM'in senin o kadar dayanma gücün var mı diye Dayanıklılık zarı isteyebilir. Bu durumda, DM'in Atletizmdeki uzmanlık bonusunu eklemene izin verip senden bir Dayanıklılık (Atletizm) zarı isteyebilir. Eğer Atletizmde uzmansan, bu Dayanıklılık zarına normalde Kuvvet (Atletizm) zarına eklermiş gibi uzmanlık bonusunu ekleyebilirsin.", "Aynı şekilde, senin cüce savaşçın saf kuvvet ile bir düşmanın gözünü korkutmak isterse, DM bir Kuvvet (Gözdağı) zarı isteyebilir, Gözdağının normalde Karizma ile bağlantılı olmasına rağmen."]
             }
             ]
         }
         ,
         {
-            "type": "section", "name": "Suffocating", "entries": ["A creature can hold its breath for a number of dakika equal to 1 + its Dayanıklılık modifier (minimum of 30 seconds).", "When a creature runs out of breath, it can survive for a number of rounds equal to its Dayanıklılık modifier (minimum 1 round). At the start of its next turn, it drops to 0 HP and is dying.", "If you run out of breath, you can't regain HP or be stabilized until you can breathe again.", "For example, a creature with a Dayanıklılık of 14 can hold its breath for 3 dakika. If it starts suffocating, it has 2 rounds to erişim air before it drops to 0 HP."]
+            "type": "section", "name": "Boğulma", "entries": ["Bir varlık nefesini 1 + Dayanıklılık bonusu (en az 30 saniye) kadar dakika tutabilir.", "Bir varlık nefessiz kalırsa, Dayanıklılık bonusu kadar round daha hayatta kalabilir (en az 1 round). Bir sonraki sırasının başında, 0 HP'ye düşer ve ölmeye başlar.", "Eğer nefessiz kalırsan, yeniden nefes alana kadar HP yenileyemezsin ya da stabilize edilemezsin.", "Örneğin, Dayanıklılık skoru 14 olan bir varlık nefesini 3 dakika tutabilir. Eğer boğulmaya başlarsa, 0 HP'ye düşene kadar havaya erişmelik 2 round vakti olur."]
         }
         ,
         {
             "type":"section",
-            "name":"Using Each Ability",
-            "entries":["Every task that a character or monster might attempt in the game is covered by one of the six abilities. This section explains in more detail what those abilities mean and the ways they are used in the game.",
+            "name":"Her Yeteneği Kullanma",
+            "entries":["Bir karakter ya da yaratığın oyun içerisinde deneyeceği her iş altı yetenekten biri tarafından kapsanır. Bu kısım o yeteneklerin ne demek olduğunu ve oyun içerisinde nasıl kullanıldıklarını anlatır.",
             {
                 "type":"entries",
                 "name":"Kuvvet",
-                "entries":["Kuvvet measures bodily power, athletic training, and the extent to which you can exert raw physical force.",
+                "entries":["Kuvvet yeteneği bedensel gücü, atletik eğitimi, ve saf fiziksel gücü ne seviyede kullanabileceğini ölçer.",
                 {
                     "type":"entries",
-                    "name":"Kuvvet Checks",
-                    "entries":["A Kuvvet check can model any attempt to lift, push, pull, or break something, to force your body through a space, or to otherwise apply brute force to a situation. The Atletizm skill reflects aptitude in certain kinds of Kuvvet checks.",
+                    "name":"Kuvvet Zarları",
+                    "entries":["Bir Kuvvet zarı tüm kaldırma, itme, çekme, birşey kırma, bedenini bir alandan zorla geçirme, veya bir duruma kaba kuvvet uygulamayı modeller. Atletizm becerisi belirli tipte Kuvvet zarlarına yatkınlığı temsil eder.",
                     {
                         "type":"entries",
                         "name":"Atletizm",
-                        "entries":[" Your Kuvvet (Atletizm) check covers difficult situations you encounter while climbing, jumping, or swimming. Examples include the following activities:",
+                        "entries":["Kuvvet (Atletizm) zarların tırmanma, atlama ve yüzme sırasında karşılaşabileceğin zorlukları kapsar. Örnekleri şu faaliyetler olabilir:",
                         {
-                            "type": "list", "items": ["You attempt to climb a sheer or slippery cliff, avoid hazards while scaling a wall, or cling to a surface while something is trying to knock you off.", "You try to jump an unusually long distance or pull off a stunt mid jump.", "You struggle to swim or stay afloat in treacherous currents, storm-tossed waves, or areas of thick seaweed. Or another creature tries to push or pull you underwater or otherwise interfere with your swimming."]
+                            "type": "list", "items": ["Çok dik ya da kaygan bir yamaca tırmanmaya çalışman, duvara tırmanırken tehlikelerden kaçman, veya bir şey seni itmeye çalışırken yüzeye tutunman.", "Alışılmadık mesafede bir atlayış denemen ya da atlamanın tam ortasında bir numara yapman.", "Tehlikeli akımlarda, fırtına dalgalarında, veya çok yoğun yosun olan yerlerde su üstünde kalmaya veya yüzmeye çalışman. Veya başka bir varlık seni suyun altına çekmeye çalışırken ya da farklı bir şekilde yüzmene engel olmaya çalışırken yüzmeyi denemen."]
                         }
                         ]
                     }
                     ,
                     {
                         "type":"entries",
-                        "name":"Other Kuvvet Checks",
-                        "entries":[" The DM might also call for a Kuvvet check when you try to accomplish tasks like the following:",
+                        "name":"Diğer Kuvvet Zarları",
+                        "entries":[" DM şu tip işler yapmaya çalıştığında da Kuvvet zarı isteyebilir:",
                         {
-                            "type": "list", "items": ["Force open a stuck, locked, or barred door", "Break free of bonds", "Push through a tunnel that is too small", "Hang on to a wagon while being dragged behind it", "Tip over a statue", "Keep a boulder from rolling"]
+                            "type": "list", "items": ["Sıkışmış, kilitli, ya da demirli kapıyı zorla açma", "Kelepçeleri kırma", "Çok küçük bir tünelden geçme", "Ardında sürüklenirken vagona tutunma", "Heykeli devirme", "Kayanın yuvarlanmasını engelleme"]
                         }
                         ]
                     }
@@ -2539,29 +2534,29 @@
                 }
                 ,
                 {
-                    "type": "entries", "name": "Attack Rolls and Damage", "entries": ["You add your Kuvvet modifier to your attack roll and your damage roll when attacking with a melee weapon such as a mace, a battleaxe, or a javelin. You use melee weapons to make melee attacks in hand-to-hand combat, and some of them can be fırlatma to make a ranged attack."]
+                    "type": "entries", "name": "Saldırı Zarları ve Hasar", "entries": ["Gürz, savaş baltası veya cirit gibi bir yakın dövüş silahı ile saldırırken saldırı ve hasar zarlarına Kuvvet bonusunu eklersin. Yakın dövüş silahları ile göğüs göğüse savaşlarda yakından saldırı yaparsın, ve bazıları menzilli saldırı yapmak için fırlatılabilir."]
                 }
                 ,
                 {
                     "type":"entries",
-                    "name":"Lifting and Carrying",
-                    "entries":["Your Kuvvet score determines the amount of weight you can bear. The following terms define what you can lift or carry.",
+                    "name":"Kaldırma ve Taşıma",
+                    "entries":["Kuvvet skorun taşıyabileceğin yükü belirler. Aşağıdaki terimler ne kaldırıp taşıyabileceğini gösterir.",
                     {
-                        "type": "entries", "name": "Carrying Capacity", "entries": [" Your carrying capacity is your Kuvvet score multiplied by 15. This is the weight (in pounds) that you can carry, which is high enough that most characters don't usually have to worry about it."]
+                        "type": "entries", "name": "Taşıma Kapasitesi", "entries": [" Taşıma kapasiten Kuvvet skorunun 15 katıdır. Bu pound bazlı olarak taşıma sınırındır, ve genel olarak birçok karakterin umursamayacağı kadar yüksektir."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Push, Drag, or Lift", "entries": [" You can push, drag, or lift a weight in pounds up to twice your carrying capacity (or 30 times your Kuvvet score). While pushing or dragging weight in excess of your carrying capacity, your speed drops to 5 feet."]
+                        "type": "entries", "name": "İtme, Çekme veya Kaldırma", "entries": [" Taşıma kapasitenin iki katı kadar (ya da Kuvvet skorunun 30 katı kadar) itme, çekme veya kaldırma yapabilirsin. Taşıma kapasitenin üstünde bir ağırlığı iter veya çekerken hızın 5 fite düşer."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Size and Kuvvet", "entries": [" Larger creatures can bear more weight, whereas Tiny creatures can carry less. For each size category above Medium, double the creature's carrying capacity and the amount it can push, drag, or lift. For a Tiny creature, halve these weights."]
+                        "type": "entries", "name": "Boy ve Kuvvet", "entries": [" Büyük varlıklar daha çok yük taşıyabilirken, Ufak varlıklar daha az taşır. Orta üzerindeki her boyut kategorisi için, varlığın taşıma ve itme, çekme, veya kaldırma kapasitesini ikiye katlarsın. Ufak bir varlık için bunları yarılarsın."]
                     }
                     ]
                 }
                 ,
                 {
-                    "type": "entries", "name": "Variant: Encumbrance", "entries": ["The rules for lifting and carrying are intentionally simple. Here is a variant if you are looking for more detailed rules for determining how a character is hindered by the weight of equipment. When you use this variant, ignore the Kuvvet column of the Armor table in chapter 5.", "If you carry weight in excess of 5 times your Kuvvet score, you are encumbered, which means your speed drops by 10 feet.", "If you carry weight in excess of 10 times your Kuvvet score, up to your maximum carrying capacity, you are instead heavily encumbered, which means your speed drops by 20 feet and you have disadvantage on ability checks, attack rolls, and saving throws that use Kuvvet, Çeviklik, or Dayanıklılık."]
+                    "type": "entries", "name": "Alternatif: Yük", "entries": ["Kaldırma ve taşıma için kurallar kasıtlı olarak basittir. Bir karakterin ekipmanı tarafından nasıl ağırlaştığını hesaplamak için size bir alternatif kural sunalım. Bu alternatifi kullandığında, Zırh tablosunun Kuvvet satırını yoksayarsın.", "Eğer Kuvvet skorunun 5 katını aşan ağırlık taşıyorsan, yüklüsündür, bu da hızının 10 fit düşmesi anlamına gelir.", "Eğer Kuvvet skorunun 10 katını aşan (maksimum taşıma kapasitene kadar) bir yük taşıyorsan, ağır yüklüsündür, bununla birlikte hızın 20 fit azalır ve Kuvvet, Çeviklik, veya Dayanıklılık kullanan yetenek, saldırı ve kurtulma zarlarında dezavantajlı olursun."]
                 }
                 ]
             }
@@ -2569,29 +2564,29 @@
             {
                 "type":"entries",
                 "name":"Çeviklik",
-                "entries":["Çeviklik measures agility, reflexes, and balance.",
+                "entries":["Çeviklik yeteneği kıvraklık, refleks, ve denge ölçer.",
                 {
                     "type":"entries",
-                    "name":"Çeviklik Checks",
-                    "entries":["A Çeviklik check can model any attempt to move nimbly, quickly, or quietly, or to keep from falling on tricky footing. The Akrobasi, El Çabukluğu, and Gizlenme skills reflect aptitude in certain kinds of Çeviklik checks.",
+                    "name":"Çeviklik Zarları",
+                    "entries":["Bir Çeviklik zarı seri ya da sessizce hareket etmeyi, veya zeminin kötü olduğu yerlerde düşmemeye çalışmayı modeller. Akrobasi, El Çabukluğu, ve Gizlenme becerileri belirli tipte Çeviklik zarlarına yatkınlığı yansıtır.",
                     {
-                        "type": "entries", "name": "Akrobasi", "entries": [" Your Çeviklik (Akrobasi) check covers your attempt to stay on your feet in a tricky situation, such as when you're trying to run across a sheet of ice, balance on a tightrope, or stay upright on a rocking ship's deck. The DM might also call for a Çeviklik (Akrobasi) check to see if you can perform acrobatic stunts, including dives, rolls, somersaults, and flips."]
+                        "type": "entries", "name": "Akrobasi", "entries": [" Çeviklik (Akrobasi) zarın zorlu bir durumda ayaklarının üstünde kalma denemeni yansıtabilir, buzlu yüzeyin üzerinde koşma, gergin ipte dengede durma, veya sallanan bir gemide ayakta kalma gibi durumlar örnekleridir. DM ayrıca sen dalma, takla, yuvarlanma gibi akrobatik numaralara giriştiğinde de bir Çeviklik (Akrobasi) zarı isteyebilir."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "El Çabukluğu", "entries": [" Whenever you attempt an act of legerdemain or manual trickery, such as planting something on someone else or concealing an object on your person, make a Çeviklik (El Çabukluğu) check. The DM might also call for a Çeviklik (El Çabukluğu) check to determine whether you can lift a coin purse off another person or slip something out of another person's pocket."]
+                        "type": "entries", "name": "El Çabukluğu", "entries": [" Ne zaman birinin üzerine birşey yerleştirme ya da üzerinde bir şey gizleme gibi bir hokkabazlık ya da aldatmaca denesen, bir Çeviklik (El Çabukluğu) zarı atarsın. Ayrıca sen başkasının para kesesini çalmayı ya da cebinden bir şeyi çıkarmayı denediğinde DM bir Çeviklik (El Çabukluğu) zarı isteyebilir."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Gizlenme", "entries": [" Make a Çeviklik (Gizlenme) check when you attempt to conceal yourself from enemies, slink past guards, slip away without being noticed, or sneak up on someone without being seen or heard."]
+                        "type": "entries", "name": "Gizlenme", "entries": [" Kendini düşmanlardan gizlemeye, bekçilerin yanından sızmaya, farkedilmeden geçmeye, veya görülmeden ve duyulmadan birine yaklaşmaya çalışırsan bir Çeviklik (Gizlenme) zarı atarsın."]
                     }
                     ,
                     {
                         "type":"entries",
-                        "name":"Other Çeviklik Checks",
-                        "entries":["The DM might call for a Çeviklik check when you try to accomplish tasks like the following:",
+                        "name":"Diğer Çeviklik Zarları",
+                        "entries":["DM şu tip işler yapmaya çalıştığında da Çeviklik zarı isteyebilir:",
                         {
-                            "type": "list", "items": ["Control a heavily laden cart on a steep descent", "Steer a chariot around a tight turn", "Pick a lock", "Disable a trap", "Securely tie up a prisoner", "Wriggle free of bonds", "Play a stringed instrument", "Craft a small or detailed object"]
+                            "type": "list", "items": ["Dik yokuşta ağır yüklü bir arabayı kontrol etme", "Savaş arabasını keskin bir virajda döndürme", "Bir kilidi açma", "Tuzağı etkisiz hale getirme", "Bir tutsağı güvenli bir şekilde bağlama", "Bağlardan kurtulma", "Telli bir çalgı çalma", "Küçük veya detaylı bir nesne yapma"]
                         }
                         ]
                     }
@@ -2599,31 +2594,31 @@
                 }
                 ,
                 {
-                    "type": "entries", "name": "Attack Rolls and Damage", "entries": ["You add your Çeviklik modifier to your attack roll and your damage roll when attacking with a ranged weapon, such as a sling or a longbow. You can also add your Çeviklik modifier to your attack roll and your damage roll when attacking with a melee weapon that has the beceri property, such as a dagger or a rapier."]
+                    "type": "entries", "name": "Saldırı Zarları ve Hasar", "entries": ["Bir uzun yay ya da sapan gibi menzilli bir silah ile yaptığın saldırıların saldırı ve hasar zarlarına Çeviklik bonusunu eklersin. Ayrıca bir meç ya da hançer gibi beceri özelliği olan bir yakın dövüş silahı ile yaptığın saldırıların da saldırı ve hasar zarlarına Çeviklik bonusunu ekleyebilirsin."]
                 }
                 ,
                 {
-                    "type": "entries", "name": "AC", "entries": ["Depending on the armor you wear, you might add some or all of your Çeviklik modifier to your AC, as described in chapter 5."]
+                    "type": "entries", "name": "AC", "entries": ["Giydiğin zırh tipine bağlı olarak, Çeviklik bonusunun hepsini ya da bir kısmını AC'ne ekleyebilirsin."]
                 }
                 ,
                 {
-                    "type": "entries", "name": "Initiative", "entries": ["At the beginning of every combat, you roll initiative by making a Çeviklik check. Initiative determines the order of creatures' turns in combat, as described in chapter 9."]
+                    "type": "entries", "name": "Öncelik (Initiative)", "entries": ["Her savaşın başında, öncelik sırasını bir Çeviklik zarı atarak belirlersin. Öncelik varlıkların savaştaki sıralarını belirler."]
                 }
                 ,
                 {
                     "type":"inset",
-                    "name":"Hiding",
-                    "entries":["When you try to hide, make a Çeviklik (Gizlenme) check. Until you are discovered or you stop hiding, that check's total is contested by the Akıl (Algı) check of any creature that actively searches for signs of your presence.",
-                    "You can't hide from a creature that can see you, and if you make noise (such as shouting a warning or knocking over a vase), you give away your position. An invisible creature can't be seen, so it can always try to hide. Signs of its passage might still be noticed, however, and it still has to stay quiet.",
-                    "In combat, most creatures stay alert for signs of danger all around, so if you come out of hiding and approach a creature, it usually sees you. However, under certain circumstances, the Dungeon Master might allow you to stay hidden as you approach a creature that is distracted, allowing you to gain advantage on an attack before you are seen.",
-                    "The DM decides when circumstances are appropriate for hiding. Also, the question isn't whether a creature can see you when you're hiding. The question is whether it can see you clearly.",
+                    "name":"Gizlenme",
+                    "entries":["Gizlenmeye çalıştığında, bir Çeviklik (Gizlenme) zarı at. Farkedilene ya da sen saklanmayı bırakana kadar, bu zarın toplamı seni aktif olarak arayan varlıkların Akıl (Algı) zarlarına karşı çekişme içindedir.",
+                    "Seni görebilen bir varlıktan gizlenemezsin, ve eğer gürültü yaparsan (bir uyarı bağırmak ya da vazo düşürmek gibi), pozisyonunu ele verirsin. Görünmez bir varlık görülemez, bu yüzden daima saklanmaya çalışabilir. Ama geçişinin izleri hala farkedilebilir, ve hala sessiz kalmalıdır.",
+                    "Savaşta, çoğu varlık çevredeki tehditlere karşı uyanıktır, bu yüzden eğer saklandığın yerden çıkıp bir varlığa yaklaşırsan seni genellikle görür. Buna rağmen, bazı şartlar altında, dikkati dağılmış bir varlığa yaklaşırken DM senin gizli kalmana izin verebilir, görülmeden yapacağın saldırıda avantajlı olursun.",
+                    "Şartların gizlenme için ne zaman uygun olduğuna DM karar verir. Ayrıca, sorulması gereken soru sen gizlenirken bir varlığın seni görüp göremediği değildir. Soru, onun seni net bir şekilde görüp görememesidir.",
                     {
-                        "type": "entries", "name": "Passive Algı", "entries": [" When you hide, there's a chance someone will notice you even if they aren't searching. To determine whether such a creature notices you, the DM compares your Çeviklik (Gizlenme) check with that creature's passive Akıl (Algı) score, which equals 10 + the creature's Akıl modifier, as well as any other bonuses or penalties. If the creature has advantage, add 5. For disadvantage, subtract 5."]
+                        "type": "entries", "name": "Pasif Algı", "entries": [" Gizlendiğinde, daima birinin seni aramasa bile görme şansı vardır. Böyle bir varlığın seni farketme durumunu belirlemek için, DM senin Çeviklik (Gizlenme) zarını o varlığın pasif Akıl (Algı) skoruyla karşılaştırır, bu skor 10 + varlığın Akıl bonusu ve diğer uygulanan bonus veya cezalardır. Eğer varlığın avantajı varsa 5 eklersin. Dezavantajı varsa 5 çıkarırsın."]
                     }
                     ,
-                    "For example, if a 1st-level character (with a proficiency bonus of +2) has a Akıl of 15 (a +2 modifier) and a proficiency in Algı, he or she has a passive Akıl (Algı) of 14.",
+                    "Örneğin, eğer 1. seviye bir karakter (uzmanlık bonusu +2 olan) 15 Akıl skoruna (+2 bonus) ve Algı becerisinde uzmanlığa sahipse, onun pasif Akıl (Algı) skoru 14 olur.",
                     {
-                        "type": "entries", "name": "What Can you See?", "entries": [" One of the main factors in determining whether you can find a hidden creature or object is how well you can see in an area, which might be lightly or heavily obscured, as explained in chapter 8."]
+                        "type": "entries", "name": "Ne Görebiliyorsun?", "entries": [" Gizli bir nesne ya da varlığı görmeyi belirlerken en baş etkenlerden biri o alanda ne kadar iyi görebildiğindir, alan hafifçe ya da ağırca örtülü olabilir."]
                     }
                     ]
                 }
@@ -2633,21 +2628,21 @@
             {
                 "type":"entries",
                 "name":"Dayanıklılık",
-                "entries":["Dayanıklılık measures health, stamina, and vital force.",
+                "entries":["Dayanıklılık yeteneği sağlık, direnç ve yaşam gücünü ölçer.",
                 {
                     "type":"entries",
-                    "name":"Dayanıklılık Checks",
-                    "entries":["Dayanıklılık checks are uncommon, and no skills apply to Dayanıklılık checks, because the endurance this ability represents is largely passive rather than involving a specific effort on the part of a character or monster.",
-                    "A Dayanıklılık check can model your attempt to push beyond normal limits, however.",
-                    "The DM might call for a Dayanıklılık check when you try to accomplish tasks like the following:",
+                    "name":"Dayanıklılık Zarları",
+                    "entries":["Dayanıklılık zarları nadirdir, ve Dayanıklılık zarlarına hiçbir beceri uygulanmaz, bu yeteneğin temsil ettiği bedensel dayanıklılık bir karakter ya da canavarın gösterdiği özel bir çaba yerine daha pasif bir şeydir.",
+                    "Bir Dayanıklılık zarı senin normal limitlerin ötesine zorlanmanı modeller.",
+                    " DM şu tip işler yapmaya çalıştığında Dayanıklılık zarı isteyebilir:",
                     {
-                        "type": "list", "items": ["Hold your breath", "March or labor for hours without rest", "Go without sleep", "Survive without food or water", "Quaff an entire stein of ale in one go"]
+                        "type": "list", "items": ["Nefes tutma", "Dinlenmeden saatlerce yürüme veya çalışma", "Uykusuz kalma", "Yemek ve su olmadan hayatta kalma", "Koca bir bardak birayı tek seferde içme"]
                     }
                     ]
                 }
                 ,
                 {
-                    "type": "entries", "name": "HP", "entries": ["Your Dayanıklılık modifier contributes to your HP. Typically, you add your Dayanıklılık modifier to each Hit Die you roll for your HP.", "If your Dayanıklılık modifier changes, your hit point maximum changes as well, as though you had the new modifier from 1st level. For example, if you raise your Dayanıklılık score when you erişim 4th level and your Dayanıklılık modifier increases from +1 to +2, you adjust your hit point maximum as though the modifier had always been +2. So you add 3 HP for your first three levels, and then roll your HP for 4th level using your new modifier. Or if you're 7th level and some effect lowers your Dayanıklılık score so as to reduce your Dayanıklılık modifier by 1, your hit point maximum is reduced by 7."]
+                    "type": "entries", "name": "HP", "entries": ["Dayanıklılık bonusun HP'ne katkı yapar. Tipik olarak, HP için attığın her HD'ye Dayanıklılık bonusunu da eklersin.", "Eğer Dayanıklılık bonusun değişirse, HP maksimumun da değişir, sanki o bonusa 1. seviyeden beri sahipmişsin gibi. Örneğin, eğer Dayanıklılık skorunu 4. seviyeye eriştiğinde yükseltirsen ve Dayanıklılık bonusun +1'den +2'ye çıkarsa, HP maksimumunu sanki Dayanıklılık bonusun hep +2'ymiş gibi düzenlersin. Yani ilk üç seviyen için 3 HP eklersin, ve 4. seviyen için HP'yi yeni bonusla belirlersin. Veya 7. seviyedeysen ve bir etki Dayanıklılık skorunu bonus 1 azalacak şekilde düşürürse, HP maksimumun 7 azalır."]
                 }
                 ]
             }
@@ -2655,37 +2650,37 @@
             {
                 "type":"entries",
                 "name":"Zeka",
-                "entries":["Zeka measures mental acuity, accuracy of recall, and the ability to reason.",
+                "entries":["Zeka yeteneği zihinsel keskinlik, hatırlama doğruluğu, ve muhakeme yeteneğini ölçer.",
                 {
                     "type":"entries",
-                    "name":"Zeka Checks",
-                    "entries":["An Zeka check comes into play when you need to draw on logic, education, memory, or deductive reasoning. The Arcana, Tarih, İnceleme, Doğa, and Din skills reflect aptitude in certain kinds of Zeka checks.",
+                    "name":"Zeka Zarları",
+                    "entries":["Bir Zeka zarı, mantık, eğitim, hafıza, veya çıkarımsal düşünce gerektiğinde kullanılır. Arcana, Tarih, İnceleme, Doğa, ve Din becerileri belirli tipte Zeka zarlarına yatkınlığı yansıtır.",
                     {
-                        "type": "entries", "name": "Arcana", "entries": [" Your Zeka (Arcana) check measures your ability to recall lore about spells, magic items, eldritch symbols, magical traditions, the planes of existence, and the inhabitants of those planes."]
+                        "type": "entries", "name": "Arcana", "entries": [" Zeka (Arcana) zarı senin büyüler, büyülü eşyalar, eldritch sembolleri, büyülü gelenekler, varoluş boyutları ve o boyutların halkı hakkında bilgi hatırlama yeteneğini ölçer."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Tarih", "entries": [" Your Zeka (Tarih) check measures your ability to recall lore about historical events, legendary people, ancient kingdoms, past disputes, recent wars, and lost civilizations."]
+                        "type": "entries", "name": "Tarih", "entries": [" Zeka (Tarih) zarı senin tarihi olaylar, efsanevi kişiler, kadim krallıklar, eski anlaşmazlıklar, yakın zamandaki savaşlar, ve kayıp medeniyetler hakkında bilgi hatırlama yeteneğini ölçer."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "İnceleme", "entries": [" When you look around for clues and make deductions based on those clues, you make an Zeka (İnceleme) check. You might deduce the location of a hidden object, discern from the appearance of a wound what kind of weapon dealt it, or determine the weakest point in a tunnel that could cause it to collapse. Poring through ancient scrolls in search of a hidden fragment of knowledge might also call for an Zeka (İnceleme) check."]
+                        "type": "entries", "name": "İnceleme", "entries": [" Çevrene ipuçları için baktığında ve bu ipuçlarından çıkarımlar yaptığında, Zeka (İnceleme) zarı atarsın. Gizli bir nesnenin yerini, bir yarayı ne tip bir silahın açtığını, veya bir tünelde onun çökmesini sağlayacak en zayıf noktayı anlamak için kullanabilirsin. Gizli bir bilgi parçacığı için kadim yazıtları araştırmak da Zeka (İnceleme) zarı gerektirebilir."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Doğa", "entries": [" Your Zeka (Doğa) check measures your ability to recall lore about terrain, plants and animals, the weather, and natural cycles."]
+                        "type": "entries", "name": "Doğa", "entries": [" Zeka (Doğa) zarı senin arazi, bitki ve hayvanlar, hava durumu, ve doğal döngüler hakkında bilgi hatırlama yeteneğini ölçer."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Din", "entries": [" Your Zeka (Din) check measures your ability to recall lore about deities, rites and prayers, religious hierarchies, holy symbols, and the practices of secret cults."]
+                        "type": "entries", "name": "Din", "entries": [" Zeka (Din) zarı senin tanrılar, ritüeller ve dualar, dini hiyerarşiler, kutsal semboller, ve gizli kültlerin uygulamaları hakkında bilgi hatırlama yeteneğini ölçer."]
                     }
                     ,
                     {
                         "type":"entries",
-                        "name":"Other Zeka Checks",
-                        "entries":[" The DM might call for an Zeka check when you try to accomplish tasks like the following:",
+                        "name":"Diğer Zeka Zarları",
+                        "entries":[" DM şu tip işler yapmaya çalıştığında da Zeka zarı isteyebilir:",
                         {
-                            "type": "list", "items": ["Communicate with a creature without using words", "Estimate the value of a precious item", "Pull together a disguise to pass as a city guard", "Forge a document", "Recall lore about a craft or trade", "Win a game of skill"]
+                            "type": "list", "items": ["Söz kullanmadan bir varlıkla iletişime geçme", "Değerli bir eşyanın değerini belirleme", "Şehir muhafızı gibi görünmek için bir kılık toparlama", "Belge sahteciliği", "Bir zanaat ya da meslek hakkında bilgi hatırlama", "Beceri oyunu kazanma"]
                         }
                         ]
                     }
@@ -2693,7 +2688,7 @@
                 }
                 ,
                 {
-                    "type": "entries", "name": "Spellcasting Ability", "entries": ["Wizards use Zeka as their spellcasting ability, which helps determine the saving throw DCs of spells they cast."]
+                    "type": "entries", "name": "Büyü Yapma Yeteneği", "entries": ["Büyücüler Zekayı büyü yapma yeteneği olarak kullanır, bu kullandıkları büyülerin DC'lerini belirlemede yardımcı olur."]
                 }
                 ]
             }
@@ -2701,38 +2696,38 @@
             {
                 "type":"entries",
                 "name":"Akıl",
-                "entries":["Akıl reflects how attuned you are to the world around you and represents perceptiveness and intuition.",
+                "entries":["Akıl çevrendeki evren ile ne kadar ahenk içinde olduğunu yansıtır ve algı ve içgüdülerini temsil eder.",
                 {
                     "type":"entries",
-                    "name":"Akıl Checks",
-                    "entries":["A Akıl check might reflect an effort to read body language, understand someone's feelings, notice things about the environment, or care for an injured person. The Hayvan İdaresi, Sezgi, Tıp, Algı, and Hayatta Kalma skills reflect aptitude in certain kinds of Akıl checks.",
+                    "name":"Akıl Zarları",
+                    "entries":["Bir Akıl zarı vücut dili okuma, birinin hislerini anlama, çevre hakkında bir şeyleri farketme, veya yaralı bir kişiye bakma gibi durumlarda çabalarını yansıtır. Hayvan İdaresi, Sezgi, Tıp, Algı, ve Hayatta Kalma becerileri belirli tipte Akıl zarlarına yatkınlığı yansıtır.",
                     {
-                        "type": "entries", "name": "Hayvan İdaresi", "entries": [" When there is any question whether you can calm down a domesticated animal, keep a mount from getting spooked, or intuit an animal's intentions, the DM might call for a Akıl (Hayvan İdaresi) check. You also make a Akıl (Hayvan İdaresi) check to control your mount when you attempt a risky maneuver."]
+                        "type": "entries", "name": "Hayvan İdaresi", "entries": [" Evcilleştirilmiş bir hayvanı sakinleştirme, bir bineğin korkmasını engelleme, veya bir hayvanın niyetini anlama durumlarında DM bir Akıl (Hayvan İdaresi) zarı isteyebilir. Ayrıca bineğinle riskli bir manevra denediğinde de Akıl (Hayvan İdaresi) zarı atman gerekebilir."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Sezgi", "entries": [" Your Akıl (Sezgi) check decides whether you can determine the true intentions of a creature, such as when searching out a lie or predicting someone's next move. Doing so involves gleaning clues from body language, speech habits, and changes in mannerisms."]
+                        "type": "entries", "name": "Sezgi", "entries": [" Akıl (Sezgi) zarın bir varlığın gerçek niyetini anlama konusunda, bir yalanı görme ya da birinin sonraki hareketini tahmin etme gibi durumlarda gereklidir. Bunu yapma vücut dilinden, konuşma alışkanlıkları, ve davranıştaki değişimden ipuçları toplamayı gerektirir."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Tıp", "entries": [" A Akıl (Tıp) check lets you try to stabilize a dying companion or diagnose an illness."]
+                        "type": "entries", "name": "Tıp", "entries": [" Bir Akıl (Tıp) zarı ölmekte olan bir yoldaşı stabilize etmek ya da bir hastalığı tespit etmek için kullanılır."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Algı", "entries": [" Your Akıl (Algı) check lets you spot, hear, or otherwise detect the presence of something. It measures your general awareness of your surroundings and the keenness of your senses."]
+                        "type": "entries", "name": "Algı", "entries": [" Akıl (Algı) zarı birşeyin varlığını görmen, duyman, ya da farklı bir şekilde tespit etmeni sağlar. Senin genel durumsal farkındalığını ve duyularının keskinliğini ölçer."]
                     }
                     ,
-                    "For example, you might try to hear a conversation through a closed door, eavesdrop under an open window, or hear monsters moving stealthily in the forest. Or you might try to spot things that are obscured or easy to miss, whether they are orcs lying in ambush on a road, thugs hiding in the shadows of an alley, or candlelight under a closed secret door.",
+                    "Örneğin, kapalı bir kapıdan bir konuşmayı dinlemeyi, açık bir pencere altından kulak misafiri olmayı, veya ormanda sessizce ilerleyen canavarları duymayı deneyebilirsin. Veya örtülü ve gözardı etmesi kolay şeyleri görmeyi deneyebilirsin, bu yolda pusu kuran orklar, ara yolun gölgelerinde saklanmış haydutlar, veya kapalı bir gizli kapının altından gelen mum ışığı olabilir.",
                     {
-                        "type": "entries", "name": "Hayatta Kalma", "entries": [" The DM might ask you to make a Akıl (Hayatta Kalma) check to follow tracks, hunt wild game, guide your group through frozen wastelands, identify signs that owlbears live nearby, predict the weather, or avoid quicksand and other natural hazards."]
+                        "type": "entries", "name": "Hayatta Kalma", "entries": [" İz sürme, yaban hayvanı avlama, grubuna donmuş hiçlikte rehberlik etme, yakınlarda owlbear yaşadığına dair izleri farketme, havayı tahmin etme, batak ve benzeri doğal tehlikelerden uzak durma gibi durumlarda DM senden Akıl (Hayatta Kalma) zarı isteyebilir."]
                     }
                     ,
                     {
                         "type":"entries",
-                        "name":"Other Akıl Checks",
-                        "entries":[" The DM might call for a Akıl check when you try to accomplish tasks like the following:",
+                        "name":"Diğer Akıl Zarları",
+                        "entries":[" DM şu tip işler yapmaya çalıştığında da Akıl zarı isteyebilir:",
                         {
-                            "type": "list", "items": ["Get a gut feeling about what course of action to follow", "Discern whether a seemingly dead or living creature is undead"]
+                            "type": "list", "items": ["Ne yapman gerektiği konusunda içindeki sese güvenme", "Görünüşte ölü ya da diri olan bir varlığın yaşayan ölü olup olmadığını tespit etme"]
                         }
                         ]
                     }
@@ -2740,11 +2735,11 @@
                 }
                 ,
                 {
-                    "type": "entries", "name": "Spellcasting Ability", "entries": ["Clerics, druids, and rangers use Akıl as their spellcasting ability, which helps determine the saving throw DCs of spells they cast."]
+                    "type": "entries", "name": "Büyü Yapma Yeteneği", "entries": ["Rahipler, druidler, ve kolcular büyü yapma yeteneği olarak Akıl kullanırlar, bu kullandıkları büyülerin DC'lerini belirlemede yardımcı olur."]
                 }
                 ,
                 {
-                    "type": "inset", "name": "Finding a Hidden Object", "entries": ["When your character searches for a hidden object such as a secret door or a trap, the DM typically asks you to make a Akıl (Algı) check. Such a check can be used to find hidden details or other information and clues that you might otherwise overlook.", "In most cases, you need to describe where you are looking in order for the DM to determine your chance of success. For example, a key is hidden beneath a set of folded clothes in the top drawer of a bureau. If you tell the DM that you pace around the room, looking at the walls and furniture for clues, you have no chance of finding the key, regardless of your Akıl (Algı) check result. You would have to specify that you were opening the drawers or searching the bureau in order to have any chance of success."]
+                    "type": "inset", "name": "Gizli bir Nesne Bulma", "entries": ["Karakterin gizli bir kapı ya da tuzak gibi bir nesne aradığında, DM genellikle senden Akıl (Algı) zarı ister. Bu tip bir zar ile normalde gözardı edeceğin gizli detaylar veya farklı bilgiler bulabilirsin.", "Çoğu durumda, DM'in başarı şansını belirlemesi için nereye baktığını söylemen gerekir. Örneğin, bir anahtar çalışma masasının en üst çekmecesinde katlı çamaşırlar arasında gizli. Eğer sen DM'e odada gezinip gizli ipuçları için duvarlara ve mobilyalara baktığını söylersen, anahtarı bulma şansın olmaz, attığın Akıl (Algı) zarı sonucu ne olursa olsun. Bir başarı şansı olması için çalışma masasını aradığını ya da çekmeceyi açtığını söylemen gerekir."]
                 }
                 ]
             }
@@ -2752,33 +2747,33 @@
             {
                 "type":"entries",
                 "name":"Karizma",
-                "entries":["Karizma measures your ability to interact effectively with others. It includes such factors as confidence and eloquence, and it can represent a charming or commanding personality.",
+                "entries":["Karizma yeteneği senin diğerleri ile etkili etkileşimini ölçer. Özgüven ve akıcı konuşma gibi etkenleri de içerir, ve cezbedici veya hükmedici bir kişiliği de temsil edebilir.",
                 {
                     "type":"entries",
-                    "name":"Karizma Checks",
-                    "entries":["A Karizma check might arise when you try to influence or entertain others, when you try to make an impression or tell a convincing lie, or when you are navigating a tricky social situation. The Aldatma, Gözdağı, Performans, and İkna skills reflect aptitude in certain kinds of Karizma checks.",
+                    "name":"Karizma Zarları",
+                    "entries":["Bir Karizma zarı, sen diğerlerini etkilemeye ya da eğlendirmeye, bir izlenim yaratmaya ya da inandırıcı bir yalan söylemeye, veya zorlu bir sosyal durumdan çıkmaya çalıştığında gereklidir. Aldatma, Gözdağı, Performans, ve İkna becerileri belirli tipte Karizma zarlarına yatkınlığı yansıtır.",
                     {
-                        "type": "entries", "name": "Aldatma", "entries": [" Your Karizma (Aldatma) check determines whether you can convincingly hide the truth, either verbally or through your actions. This deception can encompass everything from misleading others through ambiguity to telling outright lies. Typical situations include trying to fast-talk a guard, con a merchant, earn money through gambling, pass yourself off in a disguise, dull someone's suspicions with false assurances, or maintain a straight face while telling a blatant lie."]
+                        "type": "entries", "name": "Aldatma", "entries": [" Karizma (Aldatma) zarın inandırıcı bir şekilde gerçeği gizleyebilmeni ölçer, hem sözlü hem de vücut diliyle. Bu aldatma belirsizlik ile diğerlerini yanlış yönlendirmeden, doğrudan yalan söylemeye kadar herşeyi kapsar. Tipik durumlar bir bekçiyi kandırma, tüccarı dolandırma, kumardan para kazanma, farklı bir kılıkta inandırıcı olma, sahte garantiler ile birinin şüphelerini azaltma, veya bariz bir yalan söylerken yüzünde bunu göstermeme olabilir."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Gözdağı", "entries": [" When you attempt to influence someone through overt threats, hostile actions, and physical violence, the DM might ask you to make a Karizma (Gözdağı) check. Examples include trying to pry information out of a prisoner, convincing street thugs to back down from a confrontation, or using the edge of a broken bottle to convince a sneering vizier to reconsider a decision."]
+                        "type": "entries", "name": "Gözdağı", "entries": [" Birini bariz tehditler, düşmanca eylemler, ve fiziksel şiddet ile etkilemeye çalışırsan DM senden bir Karizma (Gözdağı) zarı isteyebilir. Örnekler arasında bir mahkumdan bilgi alma, sokak haydutlarını bir karşılaşmadan vazgeçirme, veya kırık bir şişenin ucunu kullanarak sırıtan bir vezirin fikrini değiştirme verilebilir."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Performans", "entries": [" Your Karizma (Performans) check determines how well you can delight an audience with music, dance, acting, storytelling, or some other form of entertainment."]
+                        "type": "entries", "name": "Performans", "entries": [" Karizma (Performans) zarın müzik, dans, oyunculuk, hikaye anlatımı, veya farklı bir eğlence şekli ile bir kitleyi ne denli eğlendirebileceğini ölçer."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "İkna", "entries": [" When you attempt to influence someone or a group of people with tact, social graces, or good nature, the DM might ask you to make a Karizma (İkna) check. Typically, you use persuasion when acting in good faith, to foster friendships, make cordial requests, or exhibit proper etiquette. Examples of persuading others include convincing a chamberlain to let your party see the king, negotiating peace between warring tribes, or inspiring a crowd of townsfolk."]
+                        "type": "entries", "name": "İkna", "entries": [" Birini ya da bir grup kişiyi nezaket, sosyal incelik, veya iyi niyet ile etkilemeye çalışırsan DM senden bir Karizma (İkna) zarı isteyebilir. Tipik olarak iknayı iyi niyetli olduğunda, dostluk ilerletmekte, içten ricalarda, veya görgü kurallarına uygun davranmakta kullanırsın. Diğerlerini ikna örnekleri arasında, kahyayı partini kralı görmek için götürmeye ikna etme, savaşan kabileler arası barış arabuluculuğu yapma, veya halktan bir kalabalığa ilham verme sayılabilir."]
                     }
                     ,
                     {
                         "type":"entries",
-                        "name":"Other Karizma Checks",
-                        "entries":["The DM might call for a Karizma check when you try to accomplish tasks like the following:",
+                        "name":"Diğer Karizma Zarları",
+                        "entries":["DM şu tip işler yapmaya çalıştığında da Karizma zarı isteyebilir:",
                         {
-                            "type": "list", "items": ["Find the best person to talk to for news, rumors, and gossip", "Blend into a crowd to get the sense of key topics of conversation"]
+                            "type": "list", "items": ["Haber ve dedikodu için en iyi kişiyi bulma", "Sohbetin konusunu anlamak için kalabalığa karışma"]
                         }
                         ]
                     }
@@ -2786,7 +2781,7 @@
                 }
                 ,
                 {
-                    "type": "entries", "name": "Spellcasting Ability", "entries": ["Bards, paladins, sorcerers, and warlocks use Karizma as their spellcasting ability, which helps determine the saving throw DCs of spells they cast."]
+                    "type": "entries", "name": "Büyü Yapma Yeteneği", "entries": ["Ozanlar, paladinler, sorcererlar, ve warlocklar büyü yapma yeteneği olarak Karizma kullanırlar, bu kullandıkları büyülerin DC'lerini belirlemede yardımcı olur."]
                 }
                 ]
             }
@@ -2795,24 +2790,24 @@
         ,
         {
             "type":"section",
-            "name":"Vision and Hafif",
-            "entries":["The most fundamental tasks of adventuring—noticing danger, finding hidden objects, hitting an enemy in combat, and targeting a spell, to name just a few—rely heavily on a character's ability to see. Darkness and other effects that obscure vision can prove a significant hindrance.",
-            "A given area might be lightly or heavily obscured. In a {@b lightly obscured} area, such as dim hafif, patchy fog, or moderate foliage, creatures have disadvantage on Akıl (Algı) checks that rely on sight.",
-            "{@b A heavily obscured} area—such as darkness, opaque fog, or dense foliage—blocks vision entirely. A creature in a heavily obscured area effectively suffers from the blinded condition (see the appendix). A heavily obscured area doesn't blind you, but you are effectively blinded when you try to see something obscured by it.",
-            "The presence or absence of hafif in an environment creates three categories of illumination: bright hafif, dim hafif, and darkness.",
-            "{@b Bright hafif} lets most creatures see normally. Even gloomy days provide bright hafif, as do meşale, lanterns, fires, and other sources of illumination within a specific radius.",
-            "{@b Dim hafif}, also called shadows, creates a lightly obscured area. An area of dim hafif is usually a boundary between a source of bright hafif, such as a torch, and surrounding darkness. The soft hafif of twilight and dawn also counts as dim hafif. A particularly brilliant full moon might bathe the land in dim hafif.",
-            "{@b Darkness} creates a heavily obscured area. Characters face darkness outdoors at night (even most moonlit nights), within the confines of an unlit dungeon or a subterranean vault, or in an area of magical darkness.",
+            "name":"Görüş ve Işık",
+            "entries":["Maceracılığın en temel işleri, tehlikeyi farketme, gizli nesne bulma, savaşta bir düşmana vurma, ve büyüyle hedef alma bunlara örnektir, bir karakterin görüş yeteneğine bağlıdır. Karanlık ve diğer görüşü engelleyen etkiler büyük bir engel teşkil edebilir.",
+            "Bir alan hafifçe veya ağırca örtülü olabilir.{@b Hafifçe örtülü} bir alanda, loş ışık, parçalı sis, veya ortalama çalılık gibi örneklenebilir, varlıkların görüşe bağlı Akıl (Algı) zarları dezavantajlı olur.",
+            "{@b Ağırca örtülü} bir alanda, karanlık, opak sis, veya yoğun çalılık gibi örneklenebilir, görüşü tamamen engeller. Ağırca örtülü alandaki bir varlık körlük durumunda sayılır. Ağırca örtülü bir alan seni kör etmez, ama onunla örtülü bir şeyi görmeye çalıştığında kör sayılırsın.",
+            "Bir alandaki ışığın varlığı ya da yokluğu aydınlatmanın 3 kategorisini oluşturur: parlak ışık, loş ışık, ve karanlık.",
+            "{@b Parlak ışık} çoğu varlığın normal görmesini sağlar. En kasvetli günler bile parlak ışık sağlar, meşaleler, fenerler, ateşler, ve belirli bir çaptaki diğer ışık kaynakları da aynısını sunar.",
+            "{@b Loş ışık}, gölgeler de denir, hafifçe örtülü bir alan yaratır. Bir loş ışık alanı genellikle bir meşale gibi parlak ışık kaynağı ile karanlık arasındaki sınırdır. Şafak ve alacakaranlığın yumuşak ışınları da loş ışık olarak sayılır. Özellikle parlak bir dolunay yeryüzünü loş ışık ile doldurabilir.",
+            "{@b Karanlık} ağırca örtülü bir alan yaratır. Karakterler geceleri dışarıda (çoğu ay ışıklı gece dahil), aydınlatılmamış bir zindan ya da yeraltı deposunda, veya bir büyülü karanlık alanında karanlıkla yüzleşirler.",
             {
-                "type": "entries", "name": "Blindsight", "entries": ["A creature with blindsight can perceive its surroundings without relying on sight, within a specific radius.", "Creatures without eyes, such as oozes, and creatures with echolocation or heightened senses, such as bats and true dragons, have this sense."]
+                "type": "entries", "name": "Kör Görüş", "entries": ["Kör görüşü olan bir varlık belirli bir yarıçapta görüşe ihtiyaç duymadan çevresini algılayabilir.", "Balçıklar gibi gözleri olmayan varlıklar, ve yarasalar ve saf ejderhalar gibi ekolokasyon veya gelişmiş hisleri olan varlıklar, bu duyuya sahiptir."]
             }
             ,
             {
-                "type": "entries", "name": "Darkvision", "entries": ["Many creatures in the worlds of D&D, especially those that dwell underground, have darkvision. Within a specified menzil, the creature can see in dim hafif within 60 feet of them as if it were bright hafif, and in darkness as if it were dim hafif. However, the creature can't discern color in darkness, only shades of gray."]
+                "type": "entries", "name": "Gece Görüşü", "entries": ["D&D dünyasında birçok varlığın, özellikle yeraltında yaşayanların gece görüşü vardır. 60 fit ile belirtilen menzilde, varlık loş ışıkta parlak ışık gibi, karanlıkta ise loş ışık gibi görebilir. Ama, varlık karanlıkta renkleri seçemez, sadece grinin tonlarını görür."]
             }
             ,
             {
-                "type": "entries", "name": "Truesight", "entries": ["A creature with truesight can, out to a specific menzil, see in normal and magical darkness, see invisible creatures and objects, automatically detect visual illusions and succeed on saving throws against them, and perceive the original form of a shapechanger or a creature that is transformed by magic. Furthermore, the creature can see into the Ethereal Plane."]
+                "type": "entries", "name": "Saf Görüş", "entries": ["Saf görüşü olan bir varlık belirli bir menzile kadar, normal ve büyülü karanlıkta görebilir, görünmez varlık ve nesneleri görebilir, otomatik olarak görsel illüzyonları tespit eder ve bunlara karşı kurtulma zarlarında başarılı olur, ve büyü ile şekil değiştirmiş bir varlığın ya da şekildeğiştirenin asıl formunu algılar. Bunların ötesinde, varlık Ethereal boyutu görebilir."]
             }
             ]
         }
