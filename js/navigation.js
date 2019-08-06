@@ -34,18 +34,19 @@ function currentPage () {
 
 function navigation () {
 	LI('navbar', 'index.html', 'Anasayfa');
+	LI('navbar', 'quickreference.html', 'Oynanış ve Kurallar')
 
 	LIDropdown('navbar', 'players', 'dropdown');
 	A('players', 'playerOption', 'dropdown-toggle', 'dropdown', '#', 'button', 'true', 'false', "Oyuncu Seçenekleri <span class='caret'></span>");
 	UL('players', 'ul_players', 'dropdown-menu');
 	LI('ul_players', 'classes.html', 'Sınıflar');
+	LI('ul_players', 'spells.html', 'Büyüler');
+	LI('ul_players', 'races.html', 'Irklar');
 	LI('ul_players', 'backgrounds.html', 'Karakter Geçmişleri');
 	LI('ul_players', 'feats.html', 'Hünerler');
 	//LI('ul_players', 'invocations.html', 'Yakarışlar');
-	LI('ul_players', 'races.html', 'Irklar');
 	//LI('ul_players', 'lifegen.html', 'Hayatın Bu');
 	LI('ul_players', 'names.html', 'İsimler');
-	LI('ul_players', 'spells.html', 'Büyüler');
 	LI('ul_players', 'conditions.html', 'Durumlar');
 
 	//LIDropdown('navbar', 'references', 'dropdown');

@@ -15,7 +15,7 @@
         }
         ,
         {
-            "name": "Combat", "headers": ["Actions in Combat", "Cover", "Damage and Healing", "Making an Attack", "Mounted Combat", "Movement and Positioning", "The Order of Combat", "Underwater Combat"]
+            "name": "Savaş", "headers": ["Savaşta Eylemler", "Siper", "Hasar ve İyileşme", "Saldırı Yapma", "Binekli Savaş", "Hareket ve Konumlanma", "Savaş Düzeni", "Sualtı Savaş"]
         }
         ,
         {
@@ -2818,132 +2818,132 @@
         "type":"entries",
         "entries":[ {
             "type":"section",
-            "name":"Actions in Combat",
-            "entries":["When you take your action on your turn, you can take one of the actions presented here, an action you gained from your class or a special feature, or an action that you improvise. Many monsters have action options of their own in their stat blocks.",
-            "When you describe an action not detailed elsewhere in the rules, the DM tells you whether that action is possible and what kind of roll you need to make, if any, to determine success or failure.",
+            "name":"Savaşta Eylemler",
+            "entries":["Sıranda bir eylem kullandığında, burada sunulanlardan birini, sınıfın ya da farklı özelliklerinden gelen birini, veya doğaçladığın birini kullanabilirsin. Çoğu yaratığın eylem seçenekleri kendi stat bloklarında verilir.",
+            "Kurallarda başka bir yerde detaylı verilmemiş bir eylem tasvir ettiğinde, DM sana o eylemin mümkün olup olmadığını ve eğer gerekiyorsa başarısını ölçmek için ne zarı atman gerektiğini söyler.",
             {
-                "type": "entries", "name": "Attack", "entries": ["The most common action to take in combat is the Attack action, whether you are swinging a sword, firing an arrow from a bow, or brawling with your fists.", "With this action, you make one melee or ranged attack. See the \"Making an Attack\" section for the rules that govern attacks.", "Certain features, such as the Extra Attack feature of the fighter, allow you to make more than one attack with this action."]
+                "type": "entries", "name": "Saldırı", "entries": ["Savaşta en yaygın eylem Saldırı eylemidir, kılıcını da savursan, yayından ok da atsan, yumruk yumruğa da dövüşsen bu eylem kullanılır.", "Bu eylem ile, bir yakın dövüş ya da menzilli saldırı yaparsın. Saldırılar ile ilgili kuralları okumak için \"Saldırı Yapma\" kısmına bakın.", "Savaşçının Extra Saldırı özelliği gibi bazı özellikler, bu eylem ile birden çok saldırı yapmanı sağlayabilir."]
             }
             ,
             {
-                "type": "entries", "name": "Cast a Spell", "entries": ["Spellcasters such as wizards and clerics, as well as many monsters, have access to spells and can use them to great effect in combat. Each spell has a casting time, which specifies whether the caster must use an action, a reaction, dakika, or even hours to cast the spell. Casting a spell is, therefore, not necessarily an action. Most spells do have a casting time of 1 action, so a spellcaster often uses his or her action in combat to cast such a spell. See chapter 10 for the rules on spellcasting."]
+                "type": "entries", "name": "Büyü Yapma", "entries": ["Büyücüler ve rahipler gibi büyü kullanıcılarının ve birçok yaratığın büyülere erişimi vardır ve bunları savaşta etkili bir şekilde kullanabilirler. Her büyünün bir kullanım süresi vardır ve orada kullanıcının bir eylem mi, reaksiyon mu, dakika mı, hatta saatler mi harcaması gerektiği bildirilir. Bu yüzden büyü yapma bir eylem olmak zorunda değildir. Çoğu büyünün kullanım süresi 1 eylemdir, bu yüzden bir büyü kullanıcısı savaşta eylemini genelde bu tip büyüleri kullanmak için harcar."]
             }
             ,
             {
-                "type": "entries", "name": "Dash", "entries": ["When you take the Dash action, you gain extra movement for the current turn. The increase equals your speed, after applying any modifiers. With a speed of 30 feet, for example, you can move up to 60 feet on your turn if you dash.", "Any increase or decrease to your speed changes this additional movement by the same amount. If your speed of 30 feet is reduced to 15 feet, for instance, you can move up to 30 feet this turn if you dash."]
+                "type": "entries", "name": "Depar", "entries": ["Depar eylemini kullandığında o sıran için fazladan hareket kazanırsın. Artış bonusları ekledikten sonra senin hızına eşittir. Örneğin, 30 fit hız ile, eğer depar atarsan sıranda 60 fit hareket edebilirsin.", "Hızına gelecek herhangi bir artış ya da azalış bu fazladan gelen hareketi de aynı miktarda etkiler. Eğer 30 fitlik hızın 15 fite düşerse, depar attığında o sıranda 30 fit gidersin."]
             }
             ,
             {
-                "type": "entries", "name": "Disengage", "entries": ["If you take the Disengage action, your movement doesn't provoke opportunity attacks for the rest of the turn."]
+                "type": "entries", "name": "Ayrılma", "entries": ["Eğer Ayrılma eylemini kullanırsan, hareketin sıranın sonuna kadar fırsat saldırısı tetiklemez."]
             }
             ,
             {
-                "type": "entries", "name": "Dodge", "entries": ["When you take the Dodge action, you focus entirely on avoiding attacks. Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Çeviklik saving throws with advantage. You lose this benefit if you are incapacitated (as explained in the appendix) or if your speed drops to 0."]
+                "type": "entries", "name": "Kaçınma", "entries": ["Kaçınma eylemini kullandığında, sadece saldırılardan kaçınmaya odaklanırsın. Bir sonraki sıranın başına kadar, eğer saldırganı görebiliyorsan sana yapılan tüm saldırılar dezavantajlı olur ve Çeviklik kurtulma zarlarını avantajlı atarsın. Eğer etkisiz hale girersen ya da hızın sıfıra düşerse bundan faydalanamazsın."]
             }
             ,
             {
-                "type": "entries", "name": "Help", "entries": ["You can lend your aid to another creature in the completion of a task. When you take the Help action, the creature you aid gains advantage on the next ability check it makes to perform the task you are helping with, provided that it makes the check before the start of your next turn.", "Alternatively, you can aid a friendly creature in attacking a creature within 5 feet of you. You feint, distract the target, or in some other way team up to make your ally's attack more effective. If your ally attacks the target before your next turn, the first attack roll is made with advantage."]
+                "type": "entries", "name": "Yardım", "entries": ["Bir işin tamamlanması için başka bir varlığa yardım edebilirsin. Yardım eylemini kullandığında, yardım ettiğin varlık yardım ettiğin işi tamamlamak için atacağı ilk yetenek zarında avantajlı olur, bu zarı senin bir sonraki sıran başlamadan atması gereklidir.", "Alternatif olarak, dost bir varlığın senin 5 fit yakınında bulunan bir varlığa saldırmasına yardım edebilirsin. Bir aldatmaca ile hedefin dikkatini dağıtırsın ve dostunun saldırısını daha etkili hale getirirsin. Eğer dostun hedefe bir sonraki sıran başlayana kadar saldırırsa, ilk saldırı zarı avantajlı olur."]
             }
             ,
             {
-                "type": "entries", "name": "Hide", "entries": ["When you take the Hide action, you make a Çeviklik (Gizlenme) check in an attempt to hide, following the rules in chapter 7 for hiding. If you succeed, you gain certain benefits, as described in the \"Unseen Attackers and Targets\" section later in this chapter."]
+                "type": "entries", "name": "Gizlenme", "entries": ["Gizlenme eylemini kullandığında, \"Gizlenme\" kısmında verilen kurallar doğrultusunda bir Çeviklik (Gizlenme) zarı atarsın. Eğer başarılı olursan, \"Görünmez Saldırganlar ve Hedefler\" kısmında anlatılan faydaları sağlarsın."]
             }
             ,
             {
-                "type": "entries", "name": "Ready", "entries": ["Sometimes you want to get the jump on a foe or wait for a particular circumstance before you act. To do so, you can take the Ready action on your turn so that you can act later in the round using your reaction.", "First, you decide what perceivable circumstance will trigger your reaction. Then, you choose the action you will take in response to that trigger, or you choose to move up to your speed in response to it. Examples include \"If the cultist steps on the trapdoor, I'll pull the lever that opens it,\" and \"If the goblin steps next to me, I move away.\"", "When the trigger occurs, you can either take your reaction right after the trigger finishes or ignore the trigger. Remember that you can take only one reaction per round.", "When you ready a spell, you cast it as normal but hold its energy, which you release with your reaction when the trigger occurs. To be readied, a spell must have a casting time of 1 action, and holding onto the spell's magic requires concentration (explained in chapter 10). If your concentration is broken, the spell dissipates without taking effect. For example, if you are concentrating on the web spell and ready magic missile, your web spell ends, and if you take damage before you release magic missile with your reaction, your concentration might be broken.", "You have until the start of your next turn to use a readied action."]
+                "type": "entries", "name": "Hazırla", "entries": ["Bazen düşmana sürpriz yapmak ya da harekete geçmeden önce belirli bir durumun gerçekleşmesini beklemek isteyebilirsin. Bunu yapmak için, sıranda Hazırla eylemini kullanıp roundda daha sonra reaksiyonunu kullanarak harekete geçebilirsin.", "Öncelikle, hangi algılanabilir durum reaksiyonunu tetikleyecek belirlersin. Sonrasında, bu tetiğe karşılık olarak yapılacak eylemi belirlersin, veya eylem yerine hızın kadar ilerleyebilirsin. Örnek olarak \"Eğer kültist tuzak kapısının üzerine basarsa onu açan kolu çekeceğim,\" ve \"Eğer goblin yanıma gelirse ben uzaklaşacağım.\" verilebilir.", "Tetiklendiğinde, reaksiyonunu tetikleyici bittikten hemen sonra kullanabilirsin ya da bu tetikleyiciyi yoksayabilirsin. Her round sadece 1 reaksiyon kullanabileceğini unutma.", "Büyü hazırladığında, onu normal bir şekilde kullanırsın ama enerjisini tutarsın, ve bunu tetikleyiciyi ortaya çıktığında bırakırsın. Hazırlanabilmek için, bir büyünün 1 eylem kullanım süresi olmalıdır, ve büyünün gücünü tutmak konsantrasyon gerektirir. Eğer konsantrasyonun bozulursa, büyü etkisi ortaya çıkmadan kaybolur. Örneğin, eğer ağ büyüsüne konsantre oluyorsan ve büyülü misil hazırlarsan, ağ büyüsü biter, ve eğer reaksiyon olarak büyülü misil büyüsünü kullanamadan hasar alırsan, konsantrasyonun bozulabilir.", "Hazırlanmış bir büyüyü bir sonraki sıranın başına kadar kullanman gerekir."]
             }
             ,
             {
-                "type": "entries", "name": "Search", "entries": ["When you take the Search action, you devote your attention to finding something. Depending on the nature of your search, the DM might have you make a Akıl (Algı) check or an Zeka (İnceleme) check."]
+                "type": "entries", "name": "Arama", "entries": ["Arama eylemini kullandığında, dikkatini birşeyi bulmaya verirsin. Araştırmanın yapısına bağlı olarak, DM senden bir Akıl (Algı) ya da bir Zeka (İnceleme) zarı isteyebilir."]
             }
             ,
             {
-                "type": "entries", "name": "Use an Object", "entries": ["You normally interact with an object while doing something else, such as when you draw a sword as part of an attack. When an object requires your action for its use, you take the Use an Object action. This action is also useful when you want to interact with more than one object on your turn."]
+                "type": "entries", "name": "Nesne Kullanma", "entries": ["Normalde başka bir şey yaparken bir nesne ile etkileşime geçersin, mesela saldırının bir parçası olarak kılıcını çekmen gibi. Bir nesne kullanımı için senin eylemini gerektiriyorsa, sen Nesne Kullanma eylemini kullanırsın. Bu eylem sıranda birden çok nesne ile etkileşime girmen gerektiğinde de işine yarar."]
             }
             ,
             {
-                "type": "inset", "name": "Improvising an Action", "entries": ["Your character can do things not covered by the actions in this chapter, such as breaking down doors, intimidating enemies, sensing weaknesses in magical defenses, or calling for a parley with a foe. The only limits to the actions you can attempt are your imagination and your character's ability scores. See the descriptions of the ability scores in chapter 7 for inspiration as you improvise.", "When you describe an action not detailed elsewhere in the rules, the DM tells you whether that action is possible and what kind of roll you need to make, if any, to determine success or failure."]
+                "type": "inset", "name": "Doğaçlama Eylem", "entries": ["Karakterin bu kısımdaki eylemler ile kapsanmamış şeyler de yapabilir, mesela kapı kırma, düşmana gözdağı verme, büyülü savunmalarda zayıf nokta hissetme, veya bir düşman ile görüşme ayarlama gibi. Deneyebileceğin eylemlerin tek sınırı senin hayal gücün ve karakterinin yetenek skorlarıdır. Doğaçlarken ilham olması için yetenek skorlarının tanımlarına bakabilirsin.", "Kurallarda başka bir yerde detaylı verilmemiş bir eylem tasvir ettiğinde, DM sana o eylemin mümkün olup olmadığını ve eğer gerekiyorsa başarısını ölçmek için ne zarı atman gerektiğini söyler."]
             }
             ]
         }
         ,
         {
-            "type": "section", "name": "Cover", "entries": ["Walls, trees, creatures, and other obstacles can provide cover during combat, making a target more difficult to harm. A target can benefit from cover only when an attack or other effect originates on the opposite side of the cover.", "There are three degrees of cover. If a target is behind multiple sources of cover, only the most protective degree of cover applies; the degrees aren't added together. For example, if a target is behind a creature that gives half cover and a tree trunk that gives three-quarters cover, the target has three-quarters cover.", "A target with {@b half cover} has a +2 bonus to AC and Çeviklik saving throws. A target has half cover if an obstacle blocks at least half of its body. The obstacle might be a low wall, a large piece of furniture, a narrow tree trunk, or a creature, whether that creature is an enemy or a friend.", "A target with {@b three-quarters} cover has a +5 bonus to AC and Çeviklik saving throws. A target has three-quarters cover if about three-quarters of it is covered by an obstacle. The obstacle might be a portcullis, an arrow slit, or a thick tree trunk.", "A target with {@b total cover} can't be targeted directly by an attack or a spell, although some spells can erişim such a target by including it in an area of effect. A target has total cover if it is completely concealed by an obstacle."]
+            "type": "section", "name": "Siper", "entries": ["Duvarlar, ağaçlar, varlıklar ve diğer engeller savaş sırasında siper sağlayıp hedefe zarar vermeyi güçleştirebilir. Bir hedefin siperden faydalanabilmesi için bir saldırı ya da etkinin o siperin diğer tarafında gelmesi gerekir.", "Siperin üç seviyesi vardır. Eğer bir hedef birçok siper kaynağının ardındaysa, bunlardan sadece en çok koruyanı etki eder, etkileri toplanmaz. Örneğin, eğer bir hedef hem yarım siper veren bir varlığın hem de üç çeyrek siper veren bir ağaç gövdesinin ardındaysa, hedefin üç çeyrek siperi olur.", "{@b Yarı siperi} olan bir hedefin AC ve Çeviklik kurtulma zarlarına +2 bonusu olur. Bir hedefin yarı sipere sahip olması için bir engelin bedeninin en az yarısını kaplaması gerekir. Engel bir alçak duvar, büyük bir mobilya, dar bir ağaç gövdesi, veya dost ya da düşman bir varlık olabilir.", "{@b Üç çeyrek siperi} olan bir hedefin AC ve Çeviklik kurtulma zarlarına +5 bonusu olur. Bir hedefin üç çeyrek sipere sahip olması için bir engelin bedeninin dörtte üçünü kaplaması gerekir. Bu engel bir kale kapısı, bir ok yarığı, veya kalın bir ağaç gövdesi olabilir.", "{@b Tam siperi} olan bir hedef doğrudan bir saldırı ya da büyü ile hedef alınamaz, ama bazı büyüler etki alanı kullanarak bu tip hedeflere erişebilir. Bir hedef eğer bir engel tarafından tamamıyla kaplanıyorsa tam siperi vardır."]
         }
         ,
         {
             "type":"section",
-            "name":"Damage and Healing",
-            "entries":["Injury and the risk of death are constant companions of those who explore the worlds of D&D. The thrust of a sword, a well-placed arrow, or a blast of flame from a fireball spell all have the potential to damage, or even kill, the hardiest of creatures.",
+            "name":"Hasar ve İyileşme",
+            "entries":["D&D dünyalarını keşfe çıkanların sürekli yoldaşları olmuştur yaralanma ve ölüm tehlikesi. Bir kılıç hamlesi, tam yerine gelen bir ok, veya bir alevtopu büyüsünden gelen bir ateş patlamasının her birinin en dayanıklı varlıklara bile hasar verme, hatta onları öldürme ihtimali vardır.",
             {
-                "type": "entries", "name": "HP", "entries": ["HP represent a combination of physical and mental durability, the will to live, and luck. Creatures with more HP are more difficult to kill. Those with fewer HP are more fragile.", "A creature's current HP (usually just called HP) can be any number from the creature's hit point maximum down to 0. This number changes frequently as a creature takes damage or receives healing. Whenever a creature takes damage, that damage is subtracted from its HP. The loss of HP has no effect on a creature's capabilities until the creature drops to 0 HP."]
+                "type": "entries", "name": "HP", "entries": ["HP şans, hayatta kalma iradesi, ve hem fiziksel hem de zihinsel dayanıklılığın kombinasyonudur. Çok HP'si olan varlıkları öldürmek daha zordur. Az HP'si olanlar daha kırılgan olur.", "Bir varlığın mevcut HP'si onun HP maksimumu ile 0 arasında herhangi bir sayı olabilir. Bu sayı, varlık hasar aldıkça ve iyileştikçe sıkça değişir. Bir varlık hasar aldığında, bu hasar onun HP'sinden çıkarılır. Sıfıra düşene kadar HP kaybı bir varlığın kabiliyetlerini etkilemez."]
             }
             ,
             {
                 "type":"entries",
-                "name":"Damage Rolls",
-                "entries":["Each weapon, spell, and harmful monster ability specifies the damage it deals. You roll the damage die or dice, add any modifiers, and apply the damage to your target. Magic weapons, special abilities, and other factors can grant a bonus to damage.",
-                "When attacking with a {@b weapon}, you add your ability modifier—the same modifier used for the attack roll to the damage. A {@b spell} tells you which dice to roll for damage and whether to add any modifiers.",
-                "If a spell or other effect deals damage to {@b more than one target} at the same time, roll the damage once for all of them. For example, when a wizard casts fireball or a cleric casts flame strike, the spell's damage is rolled once for all creatures caught in the blast.",
+                "name":"Hasar Zarları",
+                "entries":["Her silah, büyü, ve zararlı canavar yeteneği verdiği hasarı belirtir. Hasar zarını ya da zarlarını atar, bonusları ekler ve hasarı hedefine uygularsın. Büyülü silahlar, özel yetenekler, ve diğer etkenler hasara bonus verebilir.",
+                "Bir {@b silah} ile saldırırken, saldırı zarı için kullandığın yeteneğin bonusunu hasara eklersin. Bir {@b büyü} sana hasar için hangi zarları atacağını ve bonus eklenip eklenmeyeceğini belirtir.",
+                "Eğer bir büyü ya da farklı etki {@b birden çok hedefe} aynı anda hasar verirse, hepsi için hasarı bir kere atarsın. Örneğin, bir büyücü alevtopu ya da bir rahip alev darbesi kullandığında, patlama alanında kalan tüm varlıklar için hasar bir kere atılır.",
                 {
-                    "type": "entries", "name": "Critical Hits", "entries": ["When you score a critical hit, you get to roll extra dice for the attack's damage against the target. Roll all of the attack's damage dice twice and add them together. Then add any relevant modifiers as normal. To speed up play, you can roll all the damage dice at once.", "For example, if you score a critical hit with a dagger, roll 2d4 for the damage, rather than 1d4, and then add your relevant ability modifier. If the attack involves other damage dice, such as from the rogue's Sneak Attack feature, you roll those dice twice as well."]
+                    "type": "entries", "name": "Kritik Vuruşlar", "entries": ["Bir kritik darbe vurduğunda, hedefe karşı saldırının hasarı için fazladan zar atarsın. Saldırının tüm hasar zarlarını iki kez at ve onları topla. Sonra normaldeki gibi ilgili bonusları ekle. Oyun hızlansın diye tüm hasar zarlarını aynı anda atabilirsin.", "Örneğin, bir hançer ile kritik vurursan hasar için 1d4 yerine 2d4 atarsın, sonrasında ilgili yetenek bonusunu eklersin. Eğer saldırı farklı hasar zarları da içeriyorsa, düzenbazın Sinsi Saldırı özelliği gibi, o zarları da iki kez atarsın."]
                 }
                 ,
                 {
                     "type":"entries",
-                    "name":"Damage Types",
-                    "entries":["Different attacks, damaging spells, and other harmful effects deal different types of damage. Damage types have no rules of their own, but other rules, such as damage resistance, rely on the types.",
-                    "The damage types follow, with examples to help a DM assign a damage type to a new effect.",
+                    "name":"Hasar Tipleri",
+                    "entries":["Farklı saldırılar, hasar büyüleri, ve diğer zararlı etkiler farklı tipte hasarlar verirler. Hasar tiplerinin kendi başlarına ayrı kuralları yoktur, ama hasar direnci gibi diğer kurallar bu tiplere bağlıdır.",
+                    "DM'e yeni etkilere hasar tipi belirlemek için yardımcı olması amacıyla örnekleri ile birlikte hasar tipleri şunlardır.",
                     {
-                        "type": "entries", "name": "Acid.", "entries": [" The corrosive spray of a black dragon's breath and the dissolving enzymes secreted by a black pudding deal acid damage."]
+                        "type": "entries", "name": "Asit", "entries": [" Bir siyah ejderhanın aşındırıcı spreyi ve siyah pudingin çözücü enzimleri asit hasarı verir."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Bludgeoning", "entries": [" Blunt force attacks—hammers, falling, constriction, and the like—deal ezme damage."]
+                        "type": "entries", "name": "Ezme", "entries": [" Düşme, sıkıştırma ve çekiç gibi küt uçlu silahlar ezme hasarı verir."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Cold", "entries": [" The infernal chill radiating from an ice devil's spear and the frigid blast of a white dragon's breath deal cold damage."]
+                        "type": "entries", "name": "Soğuk", "entries": [" Bir buz şeytanının mızrağından çıkan cehennem soğuğu ve beyaz bir ejderhanın nefesinin buz gibi tesiri soğuk hasarı verir."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Fire", "entries": [" Red dragons breathe fire, and many spells conjure flames to deal fire damage."]
+                        "type": "entries", "name": "Ateş", "entries": [" Kırmızı ejderhalar ateş üfler, ve birçok büyü ateş hasarı vermek için ortaya alevler çıkarır."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Force", "entries": [" Force is pure magical energy focused into a damaging form. Most effects that deal force damage are spells, including magic missile and spiritual weapon."]
+                        "type": "entries", "name": "Güç", "entries": [" Güç, saf büyü enerjisinin hasar verici şekle dönüştürülmesidir. Çoğu güç hasarı veren şey büyüdür, büyülü misil ve ruhsal silah gibi."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Lightning", "entries": [" A lightning bolt spell and a blue dragon's breath deal lightning damage."]
+                        "type": "entries", "name": "Yıldırım", "entries": [" Bir yıldırım büyüsü ya da mavi bir ejderhanın nefesi yıldırım hasarı verir."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Necrotic", "entries": [" Necrotic damage, dealt by certain undead and some spells, withers matter and even the soul."]
+                        "type": "entries", "name": "Nekrotik", "entries": [" Bazı yaşayan ölüler ve büyüler tarafından verilen nekrotik hasar, maddeyi hatta ruhu kurutur."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Piercing", "entries": [" Puncturing and impaling attacks, including spears and monsters' bites, deal delme damage."]
+                        "type": "entries", "name": "Delme", "entries": [" Delen ve saplanan saldırılar, buna mızraklar ve yaratıkların ısırıkları dahildir, delme hasarı verir."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Poison", "entries": [" Venomous stings and the toxic gas of a green dragon's breath deal poison damage."]
+                        "type": "entries", "name": "Zehir", "entries": [" Zehirli iğneler ve bir yeşil ejderhanın üflediği gaz zehir hasarı verir."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Psychic", "entries": [" Mental abilities such as a mind flayer's psionic blast deal psychic damage."]
+                        "type": "entries", "name": "Psişik", "entries": [" Bir zihin yüzücünün psionik patlaması gibi zihinsel yetenekler psişik hasar verir."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Radiant", "entries": [" Radiant damage, dealt by a cleric's flame strike spell or an angel's smiting weapon, sears the flesh like fire and overloads the spirit with power."]
+                        "type": "entries", "name": "Radyant", "entries": [" Bir rahibin alev darbesi büyüsü ya da bir meleğin çarpan silahından gelen radyant hasar, teni ateş gibi dağlar ve ruha güç yükler."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Slashing", "entries": [" Swords, axes, and monsters' claws deal kesme damage."]
+                        "type": "entries", "name": "Kesme", "entries": [" Kılıçlar, baltalar, ve yaratıkların pençeleri kesme hasarı verir."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Thunder", "entries": [" A concussive burst of sound, such as the effect of the thunderwave spell, deals thunder damage."]
+                        "type": "entries", "name": "Ses", "entries": [" Gürleyen dalga büyüsü gibi sarsıcı bir ses patlaması ses hasarı verir."]
                     }
                     ]
                 }
@@ -2952,59 +2952,59 @@
             ,
             {
                 "type":"entries",
-                "name":"Damage Resistance and Vulnerability",
-                "entries":["Some creatures and objects are exceedingly difficult or unusually easy to hurt with certain types of damage.",
-                "If a creature or an object has {@b resistance} to a damage type, damage of that type is halved against it. If a creature or an object has {@b vulnerability} to a damage type, damage of that type is doubled against it.",
-                "Resistance and then vulnerability are applied after all other modifiers to damage. For example, a creature has resistance to ezme damage and is hit by an attack that deals 25 ezme damage. The creature is also within a magical aura that reduces all damage by 5. The 25 damage is first reduced by 5 and then halved, so the creature takes 10 damage.",
-                "Describing the Effects of Damage",
-                "Dungeon Masters describe hit point loss in different ways.",
-                "When your current hit point total is half or more of your hit point maximum, you typically show no signs of injury. When you drop below half your hit point maximum, you show signs of injury. When you drop below half of your hit point maximum, you show signs of wear, such as cuts and bruises. An attack that reduces you to 0 HP strikes you directly, leaving a bleeding injury or other trauma, or it simply knocks you unconscious.",
-                "Multiple instances of resistance or vulnerability that affect the same damage type count as only one instance. For example, if a creature has resistance to fire damage as well as resistance to all nonmagical damage, the damage of a nonmagical fire is reduced by half against the creature, not reduced by three-quarters."]
+                "name":"Hasar Direnci ve Zayıflık",
+                "entries":["Bazı varlık ve nesnelerin, belirli hasar tipleri ile canlarını yakmak oldukça zor ya da alışılmadık bir şekilde kolay olabilir.",
+                "Eğer bir varlık ya da nesnenin bir hasar tipine {@b direnci} varsa, aldığı o tipte hasar yarılanır. Eğer bir varlık ya da nesnenin bir hasar tipine {@b zayıflığı} varsa, o tipte aldığı hasar ikiye katlanır.",
+                "Direnç ve zayıflık, hasara diğer tüm bonuslar eklendikten sonra uygulanır. Örneğin, bir varlığın ezme hasarına direnci var ve 25 ezme hasarı veren bir darbe aldı. Varlık ayrıca tüm gelen hasarı 5 azaltan büyülü bir auranın içerisinde. Bu 25 hasardan önce 5 çıkartılır ve sonra yarılanır, yani varlık 10 hasar alır.",
+                "Hasarın Etkilerini Tasvir Etme",
+                "DM'ler HP kaybını farklı şekillerde tasvir ederler.",
+                "Mevcut HP miktarın eğer HP maksimumunun yarısından fazlaysa, genelde yaralanmış görünmezsin. HP maksimumunun yarısının altına indiğinde, kesikler ve çürükler ile yaralanmış ve yıpranmış görünmeye başlarsın. Seni 0 HP'ye düşüren bir saldırı sana doğrudan vurur, kanama ya da farklı bir travma bırakır, veya basitçe seni bayıltır.",
+                "Bir hasar tipini etkileyen birden çok direnç ve zayıflık sadece bir kere sayılır. Örneğin, bir varlığın ateş hasarına ve tüm büyüsüz hasarlara direnci varsa, büyüsüz bir ateş hasarı varlığa karşı yarılanır, çeyreğe düşmez."]
             }
             ,
             {
-                "type": "entries", "name": "Healing", "entries": ["Unless it results in death, damage isn't permanent. Even death is reversible through powerful magic. Rest can restore a creature's HP (as explained in chapter 8), and magical methods such as a cure wounds spell or a potion of healing can remove damage in an instant.", "When a creature receives healing of any kind, HP regained are added to its current HP. A creature's HP can't exceed its hit point maximum, so any HP regained in excess of this number are lost. For example, a druid grants a ranger 8 HP of healing. If the ranger has 14 current HP and has a hit point maximum of 20, the ranger regains 6 HP from the druid, not 8.", "A creature that has died can't regain HP until magic such as the revivify spell has restored it to life."]
+                "type": "entries", "name": "İyileşme", "entries": ["Ölüme yol açmadığı sürece hasar kalıcı değildir. Güçlü büyüler ile ölüm bile geri çevrilebilir. Dinlenme bir varlığın HP'sini yenileyebilir, ve yaraları iyileştir büyüsü ya da bir sağlık iksiri gibi büyülü metodlar hasarı anında ortadan kaldırabilir.", "Bir varlık herhangi bir şekilde iyileştirme aldığında, yenilenen HP mevcut HP'sine eklenir. Bir varlığın HP'si HP maksimumunu aşamaz, bu yüzden bu sayıyı aşan tüm HP yenilemesi boşa gider. Örneğin, bir druid bir kolcuya 8 HP yeniler. Eğer kolcunun mevcut HP'si 14 ise ve HP maksimumu 20 ise, kolcu druidden 8 yerine 6 HP yeniler.", "Ölmüş bir varlık, canlandır gibi bir büyü ile hayata dönmediği sürece HP yenileyemez."]
             }
             ,
             {
                 "type":"entries",
-                "name":"Dropping to 0 HP",
-                "entries":["When you drop to 0 HP, you either die outright or fall unconscious, as explained in the following sections.",
+                "name":"0 HP'ye düşme",
+                "entries":["0 HP'ye düştüğünde, ya doğrudan ölürsün ya da bilinçsiz kalırsın, bunlar aşağıda açıklanır.",
                 {
-                    "type": "entries", "name": "Instant Death", "entries": ["Massive damage can kill you instantly. When damage reduces you to 0 HP and there is damage remaining, you die if the remaining damage equals or exceeds your hit point maximum.", "For example, a cleric with a maximum of 12 HP currently has 6 HP. If she takes 18 damage from an attack, she is reduced to 0 HP, but 12 damage remains. Because the remaining damage equals her hit point maximum, the cleric dies."]
+                    "type": "entries", "name": "Anında Ölüm", "entries": ["Muazzam hasarlar seni anında öldürebilir. Eğer hasar seni 0 HP'ye düşürdüyse ve hala hasar kaldıysa, ve bu kalan hasar eğer senin HP maksimumuna eşitse ya da aşıyorsa anında ölürsün.", "Örneğin, maksimum 12 HP'si olan bir rahibin şu anda 6 HP'si var. Eğer bir saldırıdan 18 hasar alırsa, 0 HP'ye düşer ama geri 12 hasar kalır. Geriye kalan hasar onun HP maksimumuna eşit olduğu için rahip ölür."]
                 }
                 ,
                 {
-                    "type": "entries", "name": "Falling Unconscious", "entries": ["If damage reduces you to 0 HP and fails to kill you, you fall unconscious (see the appendix). This unconsciousness ends if you regain any HP."]
+                    "type": "entries", "name": "Bilinçsiz Kalma", "entries": ["Eğer bir hasar seni 0 HP'ye düşürürse ama öldürmezse, bilinçsiz ({@condition bilinçsizlik}) kalırsın. Eğer HP yenilersen bu durum sona erer."]
                 }
                 ,
                 {
-                    "type": "entries", "name": "Death Saving Throws", "entries": ["Whenever you start your turn with 0 HP, you must make a special saving throw, called a death saving throw, to determine whether you creep closer to death or hang onto life. Unlike other saving throws, this one isn't tied to any ability score. You are in the hands of fate now, aided only by spells and features that improve your chances of succeeding on a saving throw.", "Roll a d20. If the roll is 10 or higher, you succeed. Otherwise, you fail. A success or failure has no effect by itself. On your third success, you become stable (see below). On your third failure, you die. The successes and failures don't need to be consecutive; keep track of both until you collect three of a kind. The number of both is reset to zero when you regain any HP or become stable.", {
-                        "type": "entries", "name": "Rolling 1 or 20", "entries": [" When you make a death saving throw and roll a 1 on the d20, it counts as two failures. If you roll a 20 on the d20, you regain 1 hit point."]
+                    "type": "entries", "name": "Ölüm Kurtulma Zarları", "entries": ["Sırana 0 HP ile başladığında, ölüme daha da yaklaşacak mısın yoksa hayata tutunacak mısın belirlemek için ölüm kurtulma zarı denen özel bir zar atarsın. Diğer kurtulma zarlarının aksine bu hiçbir yetenek skoruna bağlı değildir. Artık herşey kaderine bağlıdır, bu zara sadece kurtulma zarlarını etkileyen büyüler ve özellikler yardımcı olur.", "D20 atarsın. Eğer zar 10 ya da üzeri gelirse başarılı olursun. Aksi taktirde başarısız olursun. Bir başarı veya başarısızlığın tek başına bir etkisi yoktur. Üçüncü başarında stabil (aşağıda açıklanacak) olursun. Üçüncü başarısızlıkta ölürsün. Başarı ve başarısızlıklar art arda olmak zorunda değildir; biri üçe ulaşana kadar takip edersin. HP yenilersen ya da stabilize olursan ikisinin de sayısı sıfırlanır.", {
+                        "type": "entries", "name": "1 ya da 20 Atma", "entries": [" Bir ölüm kurtulma zarı attığında d20'de 1 atarsan bu iki başarısızlık olarak sayılır. Eğer d20'de 20 atarsan, 1 HP yenilersin."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Damage at 0 HP", "entries": [" If you take any damage while you have 0 HP, you suffer a death saving throw failure. If the damage is from a critical hit, you suffer two failures instead. If the damage equals or exceeds your hit point maximum, you suffer instant death."]
+                        "type": "entries", "name": "0 HP'de Hasar", "entries": [" Eğer 0 HP'ye sahipken herhangi bir hasar alırsan bu bir ölüm kurtulma başarızlığı sayılır. Eğer hasar bir kritik darbeden ise, bunun yerine iki başarısızlık sayılır. Eğer hasar HP maksimumuna eşitse ya da aşıyorsa, anında ölürsün."]
                     }
                     ]
                 }
                 ,
                 {
-                    "type": "entries", "name": "Stabilizing a Creature", "entries": ["The best way to save a creature with 0 HP is to heal it. If healing is unavailable, the creature can at least be stabilized so that it isn't killed by a failed death saving throw.", "You can use your action to administer first aid to an unconscious creature and attempt to stabilize it, which requires a successful DC 10 Akıl (Tıp) check.", "A stable creature doesn't make death saving throws, even though it has 0 HP, but it does remain unconscious. The creature stops being stable, and must start making death saving throws again, if it takes any damage. A stable creature that isn't healed regains 1 hit point after 1d4 hours."]
+                    "type": "entries", "name": "Bir Varlığı Stabilize Etme", "entries": ["Bir varlık 0 HP'de iken onu kurtarmanın en iyi yolu iyileştirmektir. Eğer iyileştirme mevcut değilse, varlık ölüm kurtulma zarı ile ölmesin diye en azından stabilize edilebilir.", "Bilinçsiz bir varlığı stabilize etmek için eylemini kullanıp bir DC 10 Akıl (Tıp) zarı ile ona ilk yardım yapabilirsin.", "Stabil bir varlık 0 HP'de olmasına rağmen ölüm kurtulma zarları atmaz, ama bilinçsizliği devam eder. Varlık eğer hasar alırsa stabilliği bozulur ve yeniden ölüm kurtulma zarları atması gerekir. İyileştirilmemiş stabil bir varlık 1d4 saat sonra 1 HP yeniler."]
                 }
                 ,
                 {
-                    "type": "entries", "name": "Monsters and Death", "entries": ["Most DMs have a monster die the instant it drops to 0 HP, rather than having it fall unconscious and make death saving throws.", "Mighty villains and special nonplayer characters are common exceptions; the DM might have them fall unconscious and follow the same rules as player characters."]
+                    "type": "entries", "name": "Yaratıklar ve Ölüm", "entries": ["Çoğu DM yaratıkları 0 HP'ye düştüğü anda öldürür, bilinçsiz kalma ve ölüm kurtulma zarları atma kısmını atlar.", "Görkemli kötü adamlar ve özel oyuncu olmayan karakterler bu durumda sıkça görülen istisnalardır; DM onları bilinçsiz bırakıp oyuncu karakterler ile aynı kuralları uygulayabilir."]
                 }
                 ]
             }
             ,
             {
-                "type": "entries", "name": "Knocking a Creature Out", "entries": ["Sometimes an attacker wants to incapacitate a foe, rather than deal a killing blow. When an attacker reduces a creature to 0 HP with a melee attack, the attacker can knock the creature out. The attacker can make this choice the instant the damage is dealt. The creature falls unconscious and is stable."]
+                "type": "entries", "name": "Bir Varlığı Bayıltma", "entries": ["Bazen bir saldırgan öldürmek yerine bir rakibi bayıltmak isteyebilir. Bir saldırgan bir varlığı yakın dövüş saldırısı ile 0 HP'ye düşürürse, saldırgan varlığı bayıltabilir. Saldırgan bu kararı hasar verildiği anda verir. Varlık bilinçsiz kalır ve stabildir."]
             }
             ,
             {
-                "type": "entries", "name": "Temporary HP", "entries": ["Some spells and special abilities confer temporary HP to a creature. Temporary HP aren't actual HP; they are a buffer against damage, a pool of HP that protect you from injury.", "When you have temporary HP and take damage, the temporary HP are lost first, and any leftover damage carries over to your normal HP. For example, if you have 5 temporary HP and take 7 damage, you lose the temporary HP and then take 2 damage.", "Because temporary HP are separate from your actual HP, they can exceed your hit point maximum. A character can, therefore, be at full HP and receive temporary HP.", "Healing can't restore temporary HP, and they can't be added together. If you have temporary HP and receive more of them, you decide whether to keep the ones you have or to gain the new ones. For example, if a spell grants you 12 temporary HP when you already have 10, you can have 12 or 10, not 22.", "If you have 0 HP, receiving temporary HP doesn't restore you to consciousness or stabilize you.", "They can still absorb damage directed at you while you're in that state, but only true healing can save you.", "Unless a feature that grants you temporary HP has a duration, they last until they're depleted or you finish a long rest."]
+                "type": "entries", "name": "Geçici HP", "entries": ["Bazı büyüler ve özellikler bir varlığa geçici HP verebilir. Geçici HP gerçek HP değildir; onlar hasara karşı bir tampon, seni yaralanmaya karşı koruyan bir HP havuzu görevi görür.", "Geçici HP'ye sahipsen ve hasar alırsan, ilk önce geçici HP kaybolur, ve arda kalan hasar varsa o normal HP'ye işler. Örneğin, eğer 5 geçici HP'ye sahipsen ve 7 hasar alırsan, geçici HP'yi kaybedersin ve 2 hasar alırsın.", "Geçici HP senin asıl HP'nden farklı olduğu için, onlar senin HP maksimumunu aşabilir. Bu yüzden bir karakter dolu HP'de olup üzerine geçici HP alabilir.", "İyileştirme geçici HP'yi yerine getiremez, ve bunlar birbirine eklenemez. Eğer geçici HP'ye sahipsen ve fazlasını alırsan, sahip olduklarını korumak ya da yenilerini almak arasında seçim yapman gerekir. Örneğin, eğer sen zaten 10 geçici HP'ye sahipken bir büyü sana 12 geçici HP sağlarsa, 12 ya da 10'a sahip olabilirsin, 22'ye değil.", "Eğer 0 HP'ye sahipsen, geçici HP almak sana bilincini geri kazandırmaz ya da seni stabilize etmez.", "Hala seni hedef alan hasarı emebilirler ama sadece saf iyileştirme seni kurtarabilir.", "Eğer sana geçici HP veren özellik bir süre belirtmemişse, bitene ya da sen uzun dinlenme bitirene kadar sürerler."]
             }
             ]
         }
