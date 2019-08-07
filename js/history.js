@@ -30,7 +30,7 @@ class History {
 					const id = $el.attr("id");
 					History.lastLoadedId = id;
 					loadhash(id);
-					document.title = decodeURIComponent($el.attr("title")) + " - 5etools";
+					document.title = decodeURIComponent($el.attr("title")) + " - 5eTürkçe";
 				}
 			}
 		}

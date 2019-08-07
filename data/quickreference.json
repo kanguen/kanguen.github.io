@@ -15,7 +15,7 @@
         }
         ,
         {
-            "name": "Savaş", "headers": ["Savaşta Eylemler", "Siper", "Hasar ve İyileşme", "Saldırı Yapma", "Binekli Savaş", "Hareket ve Konumlanma", "Savaş Düzeni", "Sualtı Savaş"]
+            "name": "Savaş", "headers": ["Savaşta Eylemler", "Siper", "Hasar ve İyileşme", "Saldırı Yapma", "Binekli Savaş", "Hareket ve Konumlanma", "Savaş Düzeni", "Sualtı Savaşı"]
         }
         ,
         {
@@ -2429,7 +2429,7 @@
                 "name":"Maceralar",
                 "entries":["Dungeons & Dragons oyunu bir grup karakterin DM'in onlara sunduğu bir maceraya çıkmasını konu alır. Her karakter maceraya yetenek skorları, beceriler, sınıf özellikleri, ırksal özellikler, ekipman ve büyülü eşyalar gibi şekillerde belirli kabiliyetlerini katar. Her karakter çeşitli güç ve zayıflıkları ile farklıdır, bu yüzden en iyi maceracı partisi birbirini tamamlayan ve zayıflıklarını kapatan karakterlerden oluşur. Maceracılar serüveni başarı ile tamamlayabilmek için işbirliği yapmak zorundadır.",
                 "Macera oyunun kalbidir, başı, ortası ve sonu olan bir hikayedir bu. Bir macera DM tarafından yaratılabilir ya da satın alınıp DM'in ihtiyaçları ve arzularını karşılayacak şekilde değiştirilebilir. Her durumda macera fantastik bir dünyada geçer, bu yer altı zindanı, dökülen bir kale, bakir doğa, veya kalabalık bir şehir olabilir. Zengin bir karakter kadrosu vardır: masadaki oyuncular tarafından yaratılmış ve oynanan karakterler, ve oyuncu olmayan karakterler (OOK - NPC). O karakterler patron, müttefik, düşman, uşak, veya macerada sadece birer arkaplan figüranı olabilir. Sıkça, o OOK'lerden biri davranışları maceranın yönünü belirleyen kötü karakterdir.",
-                "Maceraları süresince, karakterler bir şekilde alt etmeleri gereken çeşitli varlıklar, nesneler ve durumlar ile karşılaşırlar. Bazen maceracılar ve diğer varlıklar savaşta birbirlerini öldürmek ya da ele geçirmek için ellerinden geleni yaparlar. Diğer zamanlarda, maceracılar diğer varlıklarla (hatta büyülü eşyalarla) bir amaç doğrultusunda konuşurlar. Ve sıkça, maceracılar bir bulmacayı çözmek, engeli aşmak, gizli birşeyi bulmak, veya mevcut durumu çözmek için vakit harcarlar. Aynı zamanda, maceracılar dünyayı keşfederken, ne tarafa gidecekleri ve ne yapacakları konusunda kararlar verirler.",
+                "Maceraları süresince, karakterler bir şekilde alt etmeleri gereken çeşitli varlıklar, nesneler ve durumlar ile karşılaşırlar. Bazen maceracılar ve diğer varlıklar savaşta birbirlerini öldürmek ya da ele geçirmek için ellerinden geleni yaparlar. Diğer zamanlarda, maceracılar diğer varlıklarla (hatta büyülü eşyalarla) bir amaç doğrultusunda konuşurlar. Ve sıkça, maceracılar bir bulmacayı çözmek, engeli aşmak, gizli bir şeyi bulmak, veya mevcut durumu çözmek için vakit harcarlar. Aynı zamanda, maceracılar dünyayı keşfederken, ne tarafa gidecekleri ve ne yapacakları konusunda kararlar verirler.",
                 "Maceralar süre ve karmaşıklıkta çeşitlidirler. Kısa bir macera sadece birkaç zorluk çıkarabilir, ve tek bir oyun seansında bile tamamlanabilir. Uzun bir macera yüzlerce savaş, etkileşim, ve diğer zorluklar içerip, onlarca oyun seansı ile gerçek zamanda haftalarca hatta aylarca sürebilir. Genel olarak, bir maceranın sonu maceracıların işlerinin sonucunun tadını çıkarmak ve dinlenmek için medeniyete dönmesi ile belirlenir.",
                 "Ama bu hikayenin sonu değildir. Macerayı bir TV dizisinin tek bölümü gibi görebilirsin, bir çok heyecanlı sahneden oluşur. Bir serüven (kampanya da denir) ise dizinin tümüdür, bir seri maceranın birbirine bağlanması ile oluşur ve sürekli bir grup maceracı hikayenin başından sonuna kadar kalır.",
                 {
@@ -2510,7 +2510,7 @@
                 {
                     "type":"entries",
                     "name":"Kuvvet Zarları",
-                    "entries":["Bir Kuvvet zarı tüm kaldırma, itme, çekme, birşey kırma, bedenini bir alandan zorla geçirme, veya bir duruma kaba kuvvet uygulamayı modeller. Atletizm becerisi belirli tipte Kuvvet zarlarına yatkınlığı temsil eder.",
+                    "entries":["Bir Kuvvet zarı tüm kaldırma, itme, çekme, bir şey kırma, bedenini bir alandan zorla geçirme, veya bir duruma kaba kuvvet uygulamayı modeller. Atletizm becerisi belirli tipte Kuvvet zarlarına yatkınlığı temsil eder.",
                     {
                         "type":"entries",
                         "name":"Atletizm",
@@ -2574,7 +2574,7 @@
                     }
                     ,
                     {
-                        "type": "entries", "name": "El Çabukluğu", "entries": [" Ne zaman birinin üzerine birşey yerleştirme ya da üzerinde bir şey gizleme gibi bir hokkabazlık ya da aldatmaca denesen, bir Çeviklik (El Çabukluğu) zarı atarsın. Ayrıca sen başkasının para kesesini çalmayı ya da cebinden bir şeyi çıkarmayı denediğinde DM bir Çeviklik (El Çabukluğu) zarı isteyebilir."]
+                        "type": "entries", "name": "El Çabukluğu", "entries": [" Ne zaman birinin üzerine bir şey yerleştirme ya da üzerinde bir şey gizleme gibi bir hokkabazlık ya da aldatmaca denesen, bir Çeviklik (El Çabukluğu) zarı atarsın. Ayrıca sen başkasının para kesesini çalmayı ya da cebinden bir şeyi çıkarmayı denediğinde DM bir Çeviklik (El Çabukluğu) zarı isteyebilir."]
                     }
                     ,
                     {
@@ -2714,7 +2714,7 @@
                     }
                     ,
                     {
-                        "type": "entries", "name": "Algı", "entries": [" Akıl (Algı) zarı birşeyin varlığını görmen, duyman, ya da farklı bir şekilde tespit etmeni sağlar. Senin genel durumsal farkındalığını ve duyularının keskinliğini ölçer."]
+                        "type": "entries", "name": "Algı", "entries": [" Akıl (Algı) zarı bir şeyin varlığını görmen, duyman, ya da farklı bir şekilde tespit etmeni sağlar. Senin genel durumsal farkındalığını ve duyularının keskinliğini ölçer."]
                     }
                     ,
                     "Örneğin, kapalı bir kapıdan bir konuşmayı dinlemeyi, açık bir pencere altından kulak misafiri olmayı, veya ormanda sessizce ilerleyen canavarları duymayı deneyebilirsin. Veya örtülü ve gözardı etmesi kolay şeyleri görmeyi deneyebilirsin, bu yolda pusu kuran orklar, ara yolun gölgelerinde saklanmış haydutlar, veya kapalı bir gizli kapının altından gelen mum ışığı olabilir.",
@@ -2854,7 +2854,7 @@
             }
             ,
             {
-                "type": "entries", "name": "Arama", "entries": ["Arama eylemini kullandığında, dikkatini birşeyi bulmaya verirsin. Araştırmanın yapısına bağlı olarak, DM senden bir Akıl (Algı) ya da bir Zeka (İnceleme) zarı isteyebilir."]
+                "type": "entries", "name": "Arama", "entries": ["Arama eylemini kullandığında, dikkatini bir şeyi bulmaya verirsin. Araştırmanın yapısına bağlı olarak, DM senden bir Akıl (Algı) ya da bir Zeka (İnceleme) zarı isteyebilir."]
             }
             ,
             {
@@ -3011,198 +3011,198 @@
         ,
         {
             "type":"section",
-            "name":"Making an Attack",
-            "entries":["Whether you're striking with a melee weapon, firing a weapon at menzil, or making an attack roll as part of a spell, an attack has a simple structure.",
+            "name":"Saldırı Yapma",
+            "entries":["Yakın dövüş silahını da savursan, menzilde bir silahtan ateş de etsen, veya bir büyünün parçası olarak saldırı zarı da atsan, bir saldırının basit bir yapısı vardır.",
             {
                 "type":"list",
                 "style":"list-hang-notitle",
                 "items":[ {
-                    "type": "item", "name": "1. Choose a target.", "entry": "Pick a target within your attack's menzil: a creature, an object, or a location."
+                    "type": "item", "name": "1. Hedef seç.", "entry": "Saldırının menzilinde bir hedef seç: bir varlık, nesne ya da yer."
                 }
                 ,
                 {
-                    "type": "item", "name": "2. Determine modifiers.", "entry": "The DM determines whether the target has cover and whether you have advantage or disadvantage against the target. In addition, spells, special abilities, and other effects can apply penalties or bonuses to your attack roll."
+                    "type": "item", "name": "2. Bonusları belirle.", "entry": "DM hedefin siperi olup olmadığını ve senin o saldırıda avantaj ya da dezavantajın olup olmadığını belirler. Ayrıca, büyüler, özel yetenekler, ve diğer etkiler saldırı zarına bonus ya da ceza uygulayabilir."
                 }
                 ,
                 {
-                    "type": "item", "name": "3. Resolve the attack.", "entry": "You make the attack roll. On a hit, you roll damage, unless the particular attack has rules that specify otherwise. Some attacks cause special effects in addition to or instead of damage."
+                    "type": "item", "name": "3. Saldırıyı sonuçlandır.", "entry": "Saldırı zarını atarsın. Vurursa, hasar zarı atarsın, eğer o saldırı için aksini belirten kurallar verilmemişse tabii ki. Bazı saldırılar hasarın yanında ya da yerine özel etkiler oluşturabilir."
                 }
                 ]
             }
             ,
-            "If there's ever any question whether something you're doing counts as an attack, the rule is simple: if you're making an attack roll, you're making an attack.",
+            "Eğer yaptığın şeyin saldırı sayılıp sayılmaması konusunda şüphe olursa kural basittir: eğer saldırı zarı atıyorsan, bu bir saldırıdır.",
             {
                 "type":"entries",
-                "name":"Attack Rolls",
-                "entries":["When you make an attack, your attack roll determines whether the attack hits or misses. To make an attack roll, roll a d20 and add the appropriate modifiers. If the total of the roll plus modifiers equals or exceeds the target's AC (AC), the attack hits. The AC of a character is determined at character creation, whereas the AC of a monster is in its stat block.",
+                "name":"Saldırı Zarları",
+                "entries":["Bir saldırı yaptığında, saldırı zarın bunun vurup vurmadığını belirler. Saldırı zarını atmak için, bir d20 at ve uygun bonusları ekle. Eğer zar sonucu ve bonus toplamı hedefin AC'sine eşitse ya da aşıyorsa, saldırı vurur. Bir karakterin AC'si karakter yaratırken belirlenir, bir yaratığın AC'si onun stat bloğunda mevcuttur.",
                 {
                     "type":"entries",
-                    "name":"Modifiers to the Roll",
-                    "entries":["When a character makes an attack roll, the two most common modifiers to the roll are an ability modifier and the character's proficiency bonus. When a monster makes an attack roll, it uses whatever modifier is provided in its stat block.",
+                    "name":"Zarın Bonusları",
+                    "entries":["Bir karakter saldırı zarı attığında, bu zara eklenen en yaygın iki bonus, yetenek bonusu ve karakterin uzmanlık bonusudur. Bir yaratık saldırı yaptığında, stat bloğunda verilen bonusu kullanır.",
                     {
-                        "type": "entries", "name": "Ability Modifier", "entries": [" The ability modifier used for a melee weapon attack is Kuvvet, and the ability modifier used for a ranged weapon attack is Çeviklik. Weapons that have the beceri or fırlatma property break this rule.", "Some spells also require an attack roll. The ability modifier used for a spell attack depends on the spellcasting ability of the spellcaster, as explained in chapter 10."]
+                        "type": "entries", "name": "Yetenek Bonusu", "entries": [" Yakın dövüş silahlı saldırısı için kullanılan yetenek Kuvvettir, ve menzilli silah saldırısı için Çeviklik kullanılır. Beceri ve fırlatma özelliğine sahip silahlar bu kuralı bozar.", "Bazı büyüler de saldırı zarı gerektirir. Bir büyü saldırısı için kullanılan yetenek bonusu o büyü kullanıcısının büyü yapma yeteneğine bağlıdır."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Uzmanlık Bonusu", "entries": ["You add your proficiency bonus to your attack roll when you attack using a weapon with which you have proficiency, as well as when you attack with a spell."]
+                        "type": "entries", "name": "Uzmanlık Bonusu", "entries": ["Bir büyü ile ya da uzmalık sahibi olduğun bir silah ile saldırı yaptığında, bu zara uzmanlık bonusunu eklersin."]
                     }
                     ]
                 }
                 ,
                 {
-                    "type": "entries", "name": "Rolling 1 or 20", "entries": ["Sometimes fate blesses or curses a combatant, causing the novice to hit and the veteran to miss.", "If the d20 roll for an attack is a 20, the attack hits regardless of any modifiers or the target's AC. In addition, the attack is a critical hit, as explained later in this chapter.", "If the d20 roll for an attack is a 1, the attack misses regardless of any modifiers or the target's AC."]
+                    "type": "entries", "name": "1 ya da 20 Atma", "entries": ["Bazen kader bir savaşçıyı kutsar ya da lanetler, aceminin vurmasını deneyimlinin de ıskalamasını sağlar.", "Eğer saldırı için attığın d20 zarında sonuç 20 gelirse, bonuslara ya da hedefin AC'sine bakılmaksızın saldırı vurur. Ek olarak, saldırı kritiktir.", "Eğer saldırı için atılan d20 zarında sonuç 1 ise, bonus ve hedefin AC'sine bakılmaksızın saldırı ıskalar."]
                 }
                 ]
             }
             ,
             {
-                "type": "entries", "name": "Unseen Attackers and Targets", "entries": ["Combatants often try to escape their foes' notice by hiding, casting the invisibility spell, or lurking in darkness.", "When you attack a target that you can't see, you have disadvantage on the attack roll. This is true whether you're guessing the target's location or you're targeting a creature you can hear but not see. If the target isn't in the location you targeted, you automatically miss, but the DM typically just says that the attack missed, not whether you guessed the target's location correctly.", "When a creature can't see you, you have advantage on attack rolls against it.", "If you are hidden—both unseen and unheard—when you make an attack, you give away your location when the attack hits or misses."]
+                "type": "entries", "name": "Görünmez Saldırganlar ve Hedefler", "entries": ["Savaşanlar sıkça rakiplerinin dikkatinden saklanarak, görünmezlik büyüsü kullanarak, ya da karanlıkta gezerek kaçmaya çalışırlar.", "Göremediğin bir hedefe saldırırken, saldırı zarında dezavantajın olur. Bu hem yerini tahmin ettiğin bir hedef, hem de duyduğun ama göremediğin bir hedef için geçerlidir. Eğer hedef senin hedef aldığın yerde değilse, otomatik olarak ıskalarsın, ama genelde DM sadece saldırının ıskaladığını söyler, senin hedefin yerini doğru tahmin edip etmediğini değil.", "Bir varlık seni göremezken, ona karşı saldırı zarlarında avantajın olur.", "Saldırı yaptığında eğer gizlenmişsen (hem görülmez hem de duyulamazken), saldırı vursa da ıskalasa da yerini belli edersin."]
             }
             ,
             {
                 "type":"entries",
-                "name":"Ranged Attacks",
-                "entries":["When you make a ranged attack, you fire a bow or a crossbow, hurl a handaxe, or otherwise send projectiles to strike a foe at a distance. A monster might shoot spines from its tail. Many spells also involve making a ranged attack.",
+                "name":"Menzilli Saldırılar",
+                "entries":["Bir menzilli saldırı yaptığında, bir yay ya da arbalet ateşlersin, el baltası fırlatırsın, veya farklı bir şekilde menzildeki rakibi vurmak için misiller gönderirsin. Bir yaratık kuyruğundan dikenler atabilir. Birçok büyü de menzilli saldırı gerektirir.",
                 {
-                    "type": "entries", "name": "Range", "entries": ["You can make ranged attacks only against targets within a specified menzil.", "If a ranged attack, such as one made with a spell, has a single menzil, you can't attack a target beyond this menzil.", "Some ranged attacks, such as those made with a longbow or a shortbow, have two ranges. The smaller number is the normal menzil, and the larger number is the long menzil. Your attack roll has disadvantage when your target is beyond normal menzil, and you can't attack a target beyond the long menzil."]
+                    "type": "entries", "name": "Menzil", "entries": ["Menzilli saldırıları sadece belirli menzilin içerisindeki hedeflere karşı yaparsın.", "Eğer bir büyünün ki gibi bir menzilli saldırının tek menzili varsa, bu menzilin dışındaki bir hedefe saldıramazsın.", "Uzun ve kısa yay ile yapılanlar gibi bazı menzilli saldırıların iki menzili vardır. Küçük sayı normal menzil, ve büyük sayı uzun menzildir. Hedefin normal menzilin dışındaysa saldırın dezavantajlı olur, ve uzun menzilin dışındaki bir hedefe saldıramazsın."]
                 }
                 ,
                 {
-                    "type": "entries", "name": "Ranged Attacks in Close Combat", "entries": ["Aiming a ranged attack is more difficult when a foe is next to you. When you make a ranged attack with a weapon, a spell, or some other means, you have disadvantage on the attack roll if you are within 5 feet of a hostile creature who can see you and who isn't incapacitated."]
+                    "type": "entries", "name": "Yakın Dövüşte Menzilli Saldırılar", "entries": ["Yanında bir rakip varken menzilli saldırı için hedef almak daha güçtür. Bir silah veya büyü ile ya da farklı bir şekilde menzilli saldırı yaparken, eğer 5 fit yakınında seni görebilen ve etkisiz halde olmayan bir düşman varsa bu saldırın dezavantajlı olur."]
                 }
                 ]
             }
             ,
             {
-                "type": "entries", "name": "Melee Attacks", "entries": ["Used in hand-to-hand combat, a melee attack allows you to attack a foe within your erişim. A melee attack typically uses a handheld weapon such as a sword, a warhammer, or an axe. A typical monster makes a melee attack when it strikes with its claws, horns, teeth, tentacles, or other body part. A few spells also involve making a melee attack.", "Most creatures have a 5-foot erişim and can thus attack targets within 5 feet of them when making a melee attack. Certain creatures (typically those larger than Medium) have melee attacks with a greater erişim than 5 feet, as noted in their descriptions.", "Instead of using a weapon to make a melee weapon attack, you can use an unarmed strike: a punch, kick, head-butt, or similar forceful blow (none of which count as weapons). On a hit, an unarmed strike deals ezme damage equal to 1 + your Kuvvet modifier. You are proficient with your unarmed strikes."]
+                "type": "entries", "name": "Yakın Dövüş Saldırıları", "entries": ["Göğüs göğüse dövüşte kullanılan yakın dövüş saldırıları erişimdeki düşmanlara saldırmanı sağlar. Bir yakın dövüş saldırısı tipik olarak kılıç, savaş çekici, veya bir balta gibi elde tutulan silahlar ile yapılır. Tipik bir yaratık ise yakın dövüş saldırısını pençeleri, boynuzları, dişleri, dokunaçları, veya diğer uzuvları ile yapar. Bazı büyüler de yakın dövüş saldırısı gerektirir.", "Çoğu varlığın 5 fit erişimi vardır ve bu yüzden yakın dövüş saldırısı yaptıklarında 5 fit yakınlarındaki hedeflere saldırırlar. Belirli varlıklar (genellikle Orta boydan büyük olanlar) 5 fitten fazla erişimi olan yakın dövüş saldırılarına sahiptir, bu açıklamalarında verilir.", "Yakın dövüş saldırısı için silah kullanmak yerine silahsız bir darbe vurabilirsin: bir yumruk, tekme, kafa atma, veya benzeri güçlü bir darbe (hiçbiri silah sayılmaz) gibi. Vurursa, bir silahsız darbe 1 + Kuvvet bonusun kadar ezme hasarı verir. Silahsız saldırılarınla uzmanlığın vardır."]
             }
             ,
             {
-                "type": "entries", "name": "Opportunity Attacks", "entries": ["In a fight, everyone is constantly watching for enemies to drop their guard. You can rarely move heedlessly past your foes without putting yourself in danger; doing so provokes an opportunity attack.", "You can make an opportunity attack when a hostile creature that you can see moves out of your erişim. To make the opportunity attack, you use your reaction to make one melee attack against the provoking creature. The attack interrupts the provoking creature's movement, occurring right before the creature leaves your erişim.", "You can avoid provoking an opportunity attack by taking the Disengage action. You also don't provoke an opportunity attack when you teleport or when someone or something moves you without using your movement, action, or reaction. For example, you don't provoke an opportunity attack if an explosion hurls you out of a foe's erişim or if gravity causes you to fall past an enemy."]
+                "type": "entries", "name": "Fırsat Saldırıları", "entries": ["Savaşta, herkes sürekli olarak düşmanlarının gardını düşürmesini bekler. Nadiren kendini tehlikeye atmadan düşmanların yanından geçebilirsin; bunu yapman bir fırsat saldırısı tetikler.", "Görebildiğin bir düşman varlık senin erişiminden çıktığı anda bir fırsat saldırısı yapabilirsin. Fırsat saldırısını yaparken, reaksiyonunu kullanıp bunu tetikleyen varlığa karşı tek bir yakın dövüş saldırısı yaparsın. Saldırı varlığın hareketinin arasına girer, tam erişimini terketmeden önce olur.", "Bir fırsat saldırısı tetiklemekten Ayrılma eylemini kullanarak kaçınabilirsin. Ayrıca eğer ışınlanırsan ya da biri veya bir şey seni, senin hareket, eylem ya da reaksiyonunu kullanmadan hareket ettirirse fırsat saldırısı tetiklemezsin. Örneğin, eğer bir patlama seni bir düşmanın erişiminden çıkarırsa ya da yerçekimi ile bir düşmanın yanından düşerek geçersen fırsat saldırısı tetiklemezsin."]
             }
             ,
             {
-                "type": "entries", "name": "Two-Weapon Fighting", "entries": ["When you take the Attack action and attack with a hafif melee weapon that you're holding in one hand, you can use a bonus action to attack with a different hafif melee weapon that you're holding in the other hand. You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative.", "If either weapon has the fırlatma property, you can throw the weapon, instead of making a melee attack with it."]
+                "type": "entries", "name": "Çift Silahlı Dövüşme", "entries": ["Saldırı eylemini kullanıp bir elinde tuttuğun hafif bir yakın dövüş silahı ile saldırırsan, bonus eylem kullanıp diğer elinde tuttuğun farklı bir hafif yakın dövüş silahı ile de saldırabilirsin. Bonus saldırının hasarına yetenek bonusunu eklemezsin, bu bonus negatif olmadığı sürece.", "Eğer silahlar fırlatma özelliğine sahipse, yakın dövüş saldırısı yapma yerine onu fırlatabilirsin."]
             }
             ,
             {
-                "type": "inset", "name": "Contests in Combat", "entries": ["Battle often involves pitting your prowess against that of your foe. Such a challenge is represented by a contest. This section includes the most common contests that require an action in combat: grappling and shoving a creature. The DM can use these contests as models for improvising others."]
+                "type": "inset", "name": "Savaşta Çekişmeler", "entries": ["Savaş sıkça gücünü düşmanlarınkiyle karşılaştırma gerektirir. Bu tip zorluklar bir çekişme ile temsil edilir. Bu kısım savaşta eylem gerektiren en sık gördüğümüz çekişmeleri içerir: bir varlığı yakalama ve itme. DM bu çekişmeleri örnek alıp diğerlerini doğaçlayabilir."]
             }
             ,
             {
                 "type":"entries",
-                "name":"Grappling",
-                "entries":["When you want to grab a creature or wrestle with it, you can use the Attack action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them. The target of your grapple must be no more than one size larger than you, and it must be within your erişim.",
-                "Using at least one free hand, you try to seize the target by making a grapple check, a Kuvvet (Atletizm) check contested by the target's Kuvvet (Atletizm) or Çeviklik (Akrobasi) check (the target chooses the ability to use). If you succeed, you subject the target to the grappled condition (see the appendix). The condition specifies the things that end it, and you can release the target whenever you like (no action required).",
+                "name":"Yakalama",
+                "entries":["Bir varlığı yakalamak ya da onla güreşmek istersen, Saldırı eylemini özel bir yakın dövüş saldırısı yapmak için kullanabilirsin, bir yakalama. Eğer Saldırı eylemi ile birden çok saldırı yapabiliyorsan, bu saldırı onlardan birinin yerine geçer. Yakalama hedefin senden bir boydan fazla olamaz ve erişiminde olmalıdır.",
+                "En az bir boş el kullanıp, yakalama zarı atarak hedefi tutmaya çalışırsın, bu zar senin atacağın bir Kuvvet (Atletizm) zarına karşı hedefin atacağı bir Kuvvet (Atletizm) ya da Çeviklik (Akrobasi) zarıdır (hedef istediği yeteneği kullanır). Eğer başarılı olursan, hedefi {@condition yakalanma} durumuna maruz bırakırsın. Bu durum onu sonlandıran şeyleri belirtir, ve sen hedefi istediğin an salabilirsin (eylem gerektirmez).",
                 {
-                    "type": "entries", "name": "Escaping a Grapple", "entries": [" A grappled creature can use its action to escape. To do so, it must succeed on a Kuvvet (Atletizm) or Çeviklik (Akrobasi) check contested by your Kuvvet (Atletizm) check."]
+                    "type": "entries", "name": "Yakalanmadan Kaçma", "entries": [" Yakalanmış bir varlık eylemini kullanıp kaçabilir. Bunu yapabilmek için, senin Kuvvet (Atletizm) zarına karşılık bir Çeviklik (Akrobasi) ya da Kuvvet (Atletizm) zarı atıp çekişmeyi kazanmalıdır."]
                 }
                 ,
                 {
-                    "type": "entries", "name": "Moving a Grappled Target", "entries": [" When you move, you can drag or carry the grappled creature with you, but your speed is halved, unless the creature is two or more sizes smaller than you."]
+                    "type": "entries", "name": "Yakalanmış bir Hedefi Hareket Ettirme", "entries": [" Hareket ettiğinde yakalanmış varlığı da sürükleyebilirsin, ama eğer varlık senden 2 ya da daha fazla boy küçük değilse hızın yarılanır."]
                 }
                 ]
             }
             ,
             {
-                "type": "entries", "name": "Shoving a Creature", "entries": ["Using the Attack action, you can make a special melee attack to shove a creature, either to knock it prone or push it away from you. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.", "The target of your shove must be no more than one size larger than you, and it must be within your erişim. You make a Kuvvet (Atletizm) check contested by the target's Kuvvet (Atletizm) or Çeviklik (Akrobasi) check (the target chooses the ability to use). If you win the contest, you either knock the target prone or push it 5 feet away from you."]
+                "type": "entries", "name": "Bir Varlığı İtme", "entries": ["Saldırı eylemini kullanarak, özel bir yakın dövüş saldırısı yapıp bir varlığı itebilirsin, burada ya yere düşürmeye çalışırsın ya da senden öteye itersin. Eğer Saldırı eylemi ile birden çok saldırı yapabiliyorsan, bu saldırı onlardan birinin yerine geçer.", "İtmenin hedefi senden bir boydan fazla büyük olamaz, ve erişiminde olmalıdır. Sen bir Kuvvet (Atletizm) zarı atıp hedefin Kuvvet (Atletizm) ya da Çeviklik (Akrobasi) zarına karşı çekişmeye girersin (hedef hangi yeteneği kullanacağını seçer). Eğer çekişmeyi kazanırsan, ya hedefi yere düşürürsün ya da senden 5 fit öteye itersin."]
             }
             ]
         }
         ,
         {
             "type":"section",
-            "name":"Mounted Combat",
-            "entries":["A knight charging into battle on a warhorse, a wizard casting spells from the back of a griffon, or a cleric soaring through the sky on a pegasus all enjoy the benefits of speed and mobility that a mount can provide.",
-            "A willing creature that is at least one size larger than you and that has an appropriate anatomy can serve as a mount, using the following rules.",
+            "name":"Binekli Savaş",
+            "entries":["Savaş atıyla hücum eden bir şövalye, griffon sırtından büyüler atan bir büyücü, veya pegasus sırtında göklerde süzülen bir rahip, bir bineğin sağlayacağı hız ve hareketlilikten faydalanır.",
+            "Senden en az bir boy büyük olan ve uygun anatomiye sahip istekli bir varlık aşağıdaki kuralları kullanarak bir binek olarak hizmet edebilir.",
             {
-                "type": "entries", "name": "Mounting and Dismounting", "entries": ["Once during your move, you can mount a creature that is within 5 feet of you or dismount. Doing so costs an amount of movement equal to half your speed. For example, if your speed is 30 feet, you must spend 15 feet of movement to mount a horse. Therefore, you can't mount it if you don't have 15 feet of movement left or if your speed is 0.", "If an effect moves your mount against its will while you're on it, you must succeed on a DC 10 Çeviklik saving throw or fall off the mount, landing prone in a space within 5 feet of it. If you're knocked prone while mounted, you must make the same saving throw.", "If your mount is knocked prone, you can use your reaction to dismount it as it falls and land on your feet. Otherwise, you are dismounted and fall prone in a space within 5 feet it."]
+                "type": "entries", "name": "Binme ve İnme", "entries": ["Hareketin sırasında bir kere, 5 fit yakınındaki bir varlığa binebilir ya da inebilirsin. Bunu yapman hızının yarısına mal olur. Örneğin, eğer hızın 30 fit ise, bir ata binmek için 15 fit hareket harcaman gerekir. Bu yüzden, eğer 15 fit hareketin yoksa ya da hızın sıfırsa binemezsin.", "Eğer bir etki sen üzerindeyken bineğini isteği dışında hareket ettirirse, DC 10 Çeviklik kurtulma zarında başarılı olur ya da binekten düşersin, 5 fit yakınında yere düşersin. Eğer binek üstünde yere düşersen, aynı kurtulma zarını atarsın.", "Eğer bineğin yere düşerse, reaksiyonunu kullanıp atlayarak ayaklarının üstüne inebilirsin. Aksi taktirde, inmiş olursun ve 5 fit yakınında bir alana düşersin."]
             }
             ,
             {
-                "type": "entries", "name": "Controlling a Mount", "entries": ["While you're mounted, you have two options. You can either control the mount or allow it to act independently. Intelligent creatures, such as dragons, act independently.", "You can control a mount only if it has been trained to accept a rider. Domesticated horses, donkeys, and similar creatures are assumed to have such training.", "The initiative of a controlled mount changes to match yours when you mount it. It moves as you direct it, and it has only three action options: Dash, Disengage, and Dodge. A controlled mount can move and act even on the turn that you mount it.", "An independent mount retains its place in the initiative order. Bearing a rider puts no restrictions on the actions the mount can take, and it moves and acts as it wishes. It might flee from combat, rush to attack and devour a badly injured foe, or otherwise act against your wishes.", "In either case, if the mount provokes an opportunity attack while you're on it, the attacker can target you or the mount."]
+                "type": "entries", "name": "Bineği Kontrol Etme", "entries": ["Binekliyken iki seçeneğin vardır. Ya bineği kontrol edersin ya da o özgürce hareket eder. Ejderhalar gibi zeki varlıklar özgürce hareket eder.", "Bir bineği sadece binici taşımak için eğitildiyse kontrol edebilirsin. Evcilleştirilmiş atlar, eşekler ve benzeri hayvanların bu tip eğitimleri olduğu varsayılır.", "Kontrol edilen bir bineğin önceliği sen ona bindiğinde seninkiyle aynı olur. Senin yönlendirmene göre hareket eder, ve sadece üç eylem seçeneği vardır: Depar, Ayrılma, ve Kaçınma. Kontrol edilen bir binek senin bindiğin sırada bile hareket edip eylem gerçekleştirebilir.", "Bağımsız bir binek öncelik sıralamasında yerini korur. Binicisinin olması kullanabileceği eylemleri sınırlamaz, istediği gibi hareket edip eylem gerçekleştirebilir. Savaştan kaçabilir, çok yaralı durumdaki bir düşmanı yemek için hücum edebilir, veya farklı bir şekilde senin isteğinin dışında davranabilir.", "Her durumda, eğer binek sen onun sırtındayken bir fırsat saldırısı tetiklerse, saldırgan onu ya da seni hedef alabilir."]
             }
             ]
         }
         ,
         {
             "type":"section",
-            "name":"Movement and Positioning",
-            "entries":["In combat, characters and monsters are in constant motion, often using movement and position to gain the upper hand.",
-            "On your turn, you can move a distance up to your speed. You can use as much or as little of your speed as you like on your turn, following the rules here.",
-            "Your movement can include jumping, climbing, and swimming. These different modes of movement can be combined with walking, or they can constitute your entire move. However you're moving, you deduct the distance of each part of your move from your speed until it is used up or until you are done moving.",
-            "The \"Special Types of Movement\" section in chapter 8 gives the particulars for jumping, climbing, and swimming.",
+            "name":"Hareket ve Konumlanma",
+            "entries":["Savaşta, karakterler ve yaratıklar sürekli hareket halindedirler, sıkça hareket ve konumu üstünlüğü elde etmek için kullanırlar.",
+            "Sıranda, hızın kadar mesafe ilerleyebilirsin. Buradaki kurallara bağlı kalarak sıranda hızının istediğin kadarını kullanabilirsin.",
+            "Hareketin zıplama, tırmanma, ve yüzme içerebilir. Bu farklı hareket tipleri yürüme ile birleştirilebilir, veya onlar tüm hareketini oluşturabilir. Nasıl hareket edersen et, her kısmın mesafesini tükenene kadar hızından düşersin.",
+            "\"Özel Hareket Tipleri\" kısmı zıplama, tırmanma ve yüzme için detayları verir.",
             {
                 "type":"entries",
-                "name":"Breaking Up Your Move",
-                "entries":["You can break up your movement on your turn, using some of your speed before and after your action. For example, if you have a speed of 30 feet, you can move 10 feet, take your action, and then move 20 feet.",
+                "name":"Hareketini Bölme",
+                "entries":["Sıranda hareketini bölebilirsin, bir kısmını eyleminden önce devamını da sonrasında kullanabilirsin. Örneğin, 30 fit hızın varsa, 10 fit ilerleyip eylemini kullanıp sonrasında 20 fit ilerleyebilirsin.",
                 {
-                    "type": "entries", "name": "Moving between Attacks", "entries": ["If you take an action that includes more than one weapon attack, you can break up your movement even further by moving between those attacks. For example, a fighter who can make two attacks with the Extra Attack feature and who has a speed of 25 feet could move 10 feet, make an attack, move 15 feet, and then attack again."]
+                    "type": "entries", "name": "Saldırılar Arasında Hareket Etme", "entries": ["Eğer birden çok silah saldırısını içeren bir eylem kullanırsan, o saldırıların arasında da hareket edebilirsin. Örneğin, Extra Saldırı özelliği ile iki saldırı yapabilen ve 25 hızı olan bir savaşçı 10 fit hareket ettikten sonra saldırı yapıp, sonrasında yine 15 fit hareket ettikten sonra saldırı yapmasını sağlayabilirsin."]
                 }
                 ,
                 {
-                    "type": "entries", "name": "Using Different Speeds", "entries": ["If you have more than one speed, such as your walking speed and a flying speed, you can switch back and forth between your speeds during your move. Whenever you switch, subtract the distance you've already moved from the new speed. The result determines how much farther you can move. If the result is 0 or less, you can't use the new speed during the current move.", "For example, if you have a speed of 30 and a flying speed of 60 because a wizard cast the fly spell on you, you could fly 20 feet, then walk 10 feet, and then leap into the air to fly 30 feet more."]
+                    "type": "entries", "name": "Farklı Hızları Kullanma", "entries": ["Eğer yürüme ve uçma hızı gibi birden çok hızın varsa, hareketin boyunca bu hızlar arasında geçiş yapabilirsin. Her geçiş yapışında, zaten gitmiş olduğun mesafeyi yeni hızdan düşür. Sonuç ne kadar gidebileceğini belirler. Eğer sonuç 0 ya da altıysa, o sıran boyunca yeni hızı kullanamazsın.", "Örneğin, eğer 30 hızın ve bir büyücü sana uçma büyüsü kullandığı için 60 uçma hızın varsa, 20 fit uçup, sonrasında 10 fit yürüyüp, yine havaya sıçrayıp 30 fit daha uçabilirsin."]
                 }
                 ]
             }
             ,
             {
-                "type": "entries", "name": "Difficult Terrain", "entries": ["Combat rarely takes place in bare rooms or on featureless plains.", "Boulder-strewn caverns, briar-choked forests, treacherous staircases—the setting of a typical fight contains difficult terrain.", "Every foot of movement in difficult terrain costs 1 extra foot. This rule is true even if multiple things in a space count as difficult terrain.", "Low furniture, rubble, undergrowth, steep stairs, snow, and shallow bogs are examples of difficult terrain. The space of another creature, whether hostile or not, also counts as difficult terrain."]
+                "type": "entries", "name": "Zorlu Arazi", "entries": ["Savaş nadiren boş odalarda ya da düz ovalarda olur.", "Kaya dolu mağaralar, sarmaşık dolu ormanlar, zorlu merdivenler, tipik bir savaşın yeri zorlu arazi içerir.", "Zorlu arazideki her fit hareket fazladan 1 fite mal olur. Bu kural bir alanda birden çok şey zorlu arazi olarak geçse bile geçerlidir.", "Alçak mobilyalar, yıkıntı, çalılık, dik merdivenler, kar, ve sığ su birikintileri zorlu arazi örnekleridir. Başka bir varlığın alanı, dost ya da düşman olması farketmeden zorlu arazi sayılır."]
             }
             ,
             {
-                "type": "entries", "name": "Being Prone", "entries": ["Combatants often find themselves lying on the ground, either because they are knocked down or because they throw themselves down. In the game, they are prone, a condition described in the appendix.", "You can drop prone without using any of your speed. Standing up takes more effort; doing so costs an amount of movement equal to half your speed. For example, if your speed is 30 feet, you must spend 15 feet of movement to stand up. You can't stand up if you don't have enough movement left or if your speed is 0.", "To move while prone, you must crawl or use magic such as teleportation. Every foot of movement while crawling costs 1 extra foot. Crawling 1 foot in difficult terrain, therefore, costs 3 feet of movement."]
+                "type": "entries", "name": "Yerde Olma", "entries": ["Savaşçılar sıklıkla kendilerini yerde yatarken bulurlar, ya devrilmişlerdir ya da kendileri atlamışlardır. Oyunda, {@condition yere düşme} durumundadırlar.", "Hızını kullanmadan yere düşebilirsin. Ayağa kalkma daha çok çaba gerektirir; bunu yapman hızının yarısına mal olur. Örneğin, eğer hızın 30 fit ise, ayağa kalkmak için 15 fit harcaman gerekir. Eğer yeterli hareketin yoksa ya da hızın sıfırsa ayağa kalkamazsın.", "Yerdeyken hareket etmek için, sürünürsün ya da ışınlanma gibi büyü kullanırsın. Sürünürken her fit hareket fazladan 1 fite mal olur. Bu şekilde, zorlu arazide 1 fit sürünme 3 fit harekete mal olur."]
             }
             ,
             {
-                "type": "entries", "name": "Moving around Other Creatures", "entries": ["You can move through a nonhostile creature's space. In contrast, you can move through a hostile creature's space only if the creature is at least two sizes larger or smaller than you. Remember that another creature's space is difficult terrain for you.", "Whether a creature is a friend or an enemy, you can't willingly end your move in its space.", "If you leave a hostile creature's erişim during your move, you provoke an opportunity attack, as explained later in the chapter."]
+                "type": "entries", "name": "Diğer Varlıkların Çevresinden Geçme", "entries": ["Düşman olmayan bir varlığın alanından geçebilirsin. Bunun aksine, bir düşman varlığın alanından sadece o varlık senden 2 boy büyük ya da küçükse geçebilirsin. Başka bir varlığın alanının senin için zorlu arazi olduğunu unutma.", "Varlığın dost ya da düşman olması farketmeden, istekli bir şekilde hareketini onun alanında bitiremezsin.", "Eğer hareketinde düşman bir varlığın erişiminden çıkarsan, fırsat saldırısı tetiklersin."]
             }
             ,
             {
-                "type": "entries", "name": "Flying Movement", "entries": ["Flying creatures enjoy many benefits of mobility, but they must also deal with the danger of falling. If a flying creature is knocked prone, has its speed reduced to 0, or is otherwise deprived of the ability to move, the creature falls, unless it has the ability to hover or it is being held aloft by magic, such as by the fly spell."]
+                "type": "entries", "name": "Uçarak Hareket", "entries": ["Uçan varlıklar hareketliliğin bir çok özelliğinden faydalanırlar ama düşme tehlikesiyle de yüzleşmelilerdir. Eğer uçan bir varlık yere düşerse, hızı sıfıra iner veya başka bir şekilde hareket yeteneğini kaybeder, varlık uçma büyüsü gibi bir büyü ile desteklenmiyorsa ya da süzülme özelliğine sahip değilse aşağı düşer."]
             }
             ,
             {
                 "type":"entries",
-                "name":"Creature Size",
-                "entries":["Each creature takes up a different amount of space.",
-                "The Size Categories table shows how much space a creature of a particular size controls in combat. Objects sometimes use the same size categories.",
+                "name":"Varlık Boyu",
+                "entries":["Her varlık farklı miktarda yer kaplar.",
+                "Boy Kategorileri tablosu belirli boydaki bir varlığın savaşta ne kadar alan kapladığını gösterir. Nesneler de bazen aynı boy kategorilerini kullanır.",
                 {
-                    "type": "table", "caption": "Size Categories", "colLabels": ["Size", "Space"], "colStyles": ["col-xs-6", "col-xs-6"], "rows": [["Tiny", "2½ by 2½ ft."], ["Small", "5 by 5 ft."], ["Medium", "5 by 5 ft."], ["Large", "10 by 10 ft."], ["Huge", "15 by 15 ft."], ["Gargantuan", "20 by 20 ft. or larger"]]
+                    "type": "table", "caption": "Boy Kategorileri", "colLabels": ["Boy", "Alan"], "colStyles": ["col-xs-6", "col-xs-6"], "rows": [["Ufak", "2½ x 2½ ft."], ["Küçük", "5 x 5 ft."], ["Orta", "5 x 5 ft."], ["Büyük", "10 x 10 ft."], ["Dev", "15 x 15 ft."], ["Kocaman", "20 x 20 ft. veya üstü"]]
                 }
                 ,
                 {
-                    "type": "entries", "name": "Space", "entries": ["A creature's space is the area in feet that it effectively controls in combat, not an expression of its physical dimensions. A typical Medium creature isn't 5 feet wide, for example, but it does control a space that wide. If a Medium hobgoblin stands in a 5-foot-wide doorway, other creatures can't get through unless the hobgoblin lets them.", "A creature's space also reflects the area it needs to fight effectively. For that reason, there's a limit to the number of creatures that can surround another creature in combat. Assuming Medium combatants, eight creatures can fit in a 5-foot radius around another one.", "Because larger creatures take up more space, fewer of them can surround a creature.", "If five Large creatures crowd around a Medium or smaller one, there's little room for anyone else. In contrast, as many as twenty Medium creatures can surround a Gargantuan one."]
+                    "type": "entries", "name": "Alan", "entries": ["Bir varlığın alanı savaş anında etkili bir şekilde kontrol ettiği alandır, fiziksel boyutları değil. Örneğin, tipik bir Orta boy varlık 5 fit genişlikte değildir, ama o genişlikte alanı kontrol eder. Eğer Orta boy bir hobgoblin 5 fit genişlikte bir kapıda dikiliyorsa, diğer varlıklar hobgoblin izin vermediği sürece geçemez.", "Bir varlığın alanı ayrıca onun etkili bir şekilde savaşabilmek için ihtiyaç duyduğu alandır. Bu sebepten, savaşta bir varlığın çevresini sarabilecek düşman sayısı sınırlıdır. Orta boy savaşanları varsayarsak, 5 fitlik bir yarıçapta birinin çevresine 8 varlık sığabilir.", "Büyük varlıklar daha çok yer kapladığı için onlardan daha azı bir varlığı çevreleyebilir.", "Eğer bir Orta veya daha küçük varlığın çevresini beş Büyük varlık sararsa, diğerleri için yer kalmaz. Bunun aksine, Kocaman bir varlığın çevresini 20 taneye kadar Orta boy varlık sarabilir."]
                 }
                 ,
                 {
-                    "type": "entries", "name": "Squeezing into a Smaller Space", "entries": ["A creature can squeeze through a space that is large enough for a creature one size smaller than it. Thus, a Large creature can squeeze through a passage that's only 5 feet wide. While squeezing through a space, a creature must spend 1 extra foot for every foot it moves there, and it has disadvantage on attack rolls and Çeviklik saving throws. Attack rolls against the creature have advantage while it's in the smaller space."]
+                    "type": "entries", "name": "Daha Küçük bir Alana Sıkışma", "entries": ["Bir varlık kendisinden bir boy küçük bir varlığa uygun bir alana sıkışabilir. Yani, Büyük boy bir varlık 5 fitlik bir geçitten sıkışarak geçebilir. Bir alandan sıkışarak geçerken, bir varlık orada hareket ettiği her fit için fazladan bir fit harcar, ve saldırı ve Çeviklik kurtulma zarlarında dezavantajlı olur. Varlık daha küçük alanda olduğu sürece ona karşı yapılan saldırılar avantajlı olur."]
                 }
                 ]
             }
             ,
             {
                 "type":"inset",
-                "name":"Variant: Playing on a Grid",
-                "entries":["If you play out a combat using a square grid and miniatures or other tokens, follow these rules.",
+                "name":"Alternatif: Izgara Üzerinde Oynama",
+                "entries":["Eğer savaşı kare ızgara plan üzerinde minyatür veya benzeri pullar ile oynuyorsan bu kuralları izlersin.",
                 {
-                    "name": "Squares", "type": "entries", "entries": ["Each square on the grid represents 5 feet."]
+                    "name": "Kareler", "type": "entries", "entries": ["Izgaradaki her kare 5 fiti temsil eder."]
                 }
                 ,
                 {
-                    "name": "Speed", "type": "entries", "entries": ["Rather than moving foot by foot, move square by square on the grid. This means you use your speed in 5-foot segments. This is particularly easy if you translate your speed into squares by dividing the speed by 5. For example, a speed of 30 feet translates into a speed of 6 squares.", "If you use a grid often, consider writing your speed in squares on your character sheet."]
+                    "name": "Hız", "type": "entries", "entries": ["Adım adım gitmektense, ızgarada kare kare ilerlenir. Bu da hızını 5 fitlik bölümlerle kullandığın anlamına gelir. Hızını beşe bölüp onu kare hesabına çevirdiğinde bu çok kolay olur. Örneğin, 30 fitlik hız 6 karelik hıza dönüşür.", "Eğer bir ızgarayı sıkça kullanıyorsan, karakter kağıdına hızını kare olarak yazmayı düşünebilirsin."]
                 }
                 ,
                 {
-                    "name": "Entering a Square", "type": "entries", "entries": ["To enter a square, you must have at least 1 square of movement left, even if the square is diagonally adjacent to the square you're in. (The rule for diagonal movement sacrifices realism for the sake of smooth play. The Dungeon Master's Guide provides guidance on using a more realistic approach.)", "If a square costs extra movement, as a square of difficult terrain does, you must have enough movement left to pay for entering it. For example, you must have at least 2 squares of movement left to enter a square of difficult terrain."]
+                    "name": "Bir Kareye Girme", "type": "entries", "entries": ["Bir kareye girmek için en az 1 kare hareketinin kalmış olması gerekir, bu kare çaprazında bulunsa bile. (Bu çapraz hareket kuralı oynanış kolaylığı için gerçekçilikten fedakarlık eder. DMG'de daha gerçekçi yaklaşım için bilgi verilmiştir.)", "Eğer bir kare fazladan harekete mal oluyorsa (zorlu arazi karesi gibi), buna girmek için harcamalık yeterli hareketin olmalıdır. Örneğin, zorlu arazi karesine girebilmek için en az 2 kare hareketin olmalıdır."]
                 }
                 ,
                 {
-                    "name": "Corners", "type": "entries", "entries": ["Diagonal movement can't cross the corner of a wall, large tree, or other terrain feature that fills its space."]
+                    "name": "Köşeler", "type": "entries", "entries": ["Çapraz hareket bir duvar köşesi, büyük ağaç, veya alanını dolduran farklı bir özelliği geçemez."]
                 }
                 ,
                 {
-                    "name": "Ranges", "type": "entries", "entries": ["To determine the menzil on a grid between two things—whether creatures or objects—start counting squares from a square adjacent to one of them and stop counting in the space of the other one. Count by the shortest route."]
+                    "name": "Menziller", "type": "entries", "entries": ["Izgarada iki şey arasında menzili ölçerken birine bitişik olan bir kareden saymaya başlayıp diğerinin karesinde bitirirsin. En kısa yoldan sayarsın."]
                 }
                 ]
             }
@@ -3211,43 +3211,43 @@
         ,
         {
             "type":"section",
-            "name":"The Order of Combat",
-            "entries":["A typical combat encounter is a clash between two sides, a flurry of weapon swings, feints, parries, footwork, and spellcasting. The game organizes the chaos of combat into a cycle of rounds and turns. A round represents about 6 seconds in the game world. During a round, each participant in a battle takes a turn. The order of turns is determined at the beginning of a combat encounter, when everyone rolls initiative. Once everyone has taken a turn, the fight continues to the next round if neither side has defeated the other.",
+            "name":"Savaş Düzeni",
+            "entries":["Tipik bir savaş karşılaşması iki taraf arasında çatışmadır, bir nevi silah savuruşu, aldatmaca, savuşturma, ve büyü yağmurudur. Oyun savaşın karmaşasını round ve sıra düzenine sokar. Bir round oyun dünyasında 6 saniyeyi temsil eder. Round sırasında, savaştaki her katılımcı bir sıraya sahiptir. Bu sıraların sıralaması savaş karşılaşmasının başında belirlenir, herkes öncelik zarını attığında. Herkes sırasını bitirdiğinde, eğer hiçbir taraf diğerini alt edemediyse savaş bir sonraki rounda geçip devam eder.",
             {
-                "type": "entries", "name": "Surprise", "entries": ["A band of adventurers sneaks up on a bandit camp, springing from the trees to attack them. A gelatinous cube glides down a dungeon passage, unnoticed by the adventurers until the cube engulfs one of them. In these situations, one side of the battle gains surprise over the other.", "The DM determines who might be surprised. If neither side tries to be stealthy, they automatically notice each other. Otherwise, the DM compares the Çeviklik (Gizlenme) checks of anyone hiding with the passive Akıl (Algı) score of each creature on the opposing side. Any character or monster that doesn't notice a threat is surprised at the start of the encounter.", "If you're surprised, you can't move or take an action on your first turn of the combat, and you can't take a reaction until that turn ends. A member of a group can be surprised even if the other members aren't."]
+                "type": "entries", "name": "Sürpriz", "entries": ["Bir maceracı grubu haydut kampına sinsice yaklaşır, ağaçların arasından sıçrayıp onlara saldırır. Bir jelatin kübü zindan geçidinden sürünür, aralarından birini yutana kadar maceracılar farketmez. Bu durumlarda, savaşın bir tarafı diğerine karşı sürpriz yapar.", "Kimin sürprize uğradığını DM belirler. Eğer her iki tarafta gizlenmeyi denemezse, otomatik olarak birbirlerini farkederler. Aksi taktirde, DM gizlenenlerin Çeviklik (Gizlenme) zarlarını diğer tarafın pasif Akıl (Algı) skorlarıyla karşılaştırır. Bir tehditi farkedemeyen her karakter ve yaratık karşılaşmanın başında sürprize uğramıştır.", "Eğer sürprize uğradıysan, savaşta ilk sıranda hareket edemez ve eylem kullanamazsın, ve o sıran bitene kadar reaksiyon kullanamazsın. Bir grubun üyesi o grubun diğer üyeleri bunu yaşamasa da sürprize uğrayabilir."]
             }
             ,
             {
-                "type": "entries", "name": "Initiative", "entries": ["Initiative determines the order of turns during combat. When combat starts, every participant makes a Çeviklik check to determine their place in the initiative order. The DM makes one roll for an entire group of identical creatures, so each member of the group acts at the same time.", "The DM ranks the combatants in order from the one with the highest Çeviklik check total to the one with the lowest. This is the order (called the initiative order) in which they act during each round. The initiative order remains the same from round to round.", "If a tie occurs, the DM decides the order among tied DM-controlled creatures, and the players decide the order among their tied characters. The DM can decide the order if the tie is between a monster and a player character. Optionally, the DM can have the tied characters and monsters each roll a d20 to determine the order, highest roll going first."]
+                "type": "entries", "name": "Öncelik", "entries": ["Öncelik (Initiative) savaşta sıraların sıralamasını belirler. Savaş başladığında, her katılımcı bir Çeviklik zarı atarak öncelik sıralamasında yerlerini belirler. DM aynı tipteki varlıklar için tek bir grup zarı atar, bu şekilde grubun her üyesi aynı anda harekete geçer.", "DM savaşanları en yüksek Çeviklik zarı atandan en düşüğe doğru sıralar. Bu her roundda harekete geçtikleri sıralamadır (öncelik sıralaması denir). Öncelik sıralaması roundlar arasında aynı kalır.", "Eğer bir eşitlik olursa, DM kendisinin kontrol ettiği varlıklarda sıralamayı kendi belirler, ve oyuncular da karakterleri arasında sıralamayı belirlerler. Bir yaratık ile oyuncu karakteri arasındaki eşitlikte sıralamayı DM belirleyebilir. İsterse DM eşitlikteki taraflara d20 attırıp yüksek olanın önde olmasına karar verebilir."]
             }
             ,
             {
                 "type":"entries",
-                "name":"Your Turn",
-                "entries":["On your turn, you can {@b move} a distance up to your speed and {@b take one action}. You decide whether to move first or take your action first. Your speed—sometimes called your walking speed—is noted on your character sheet.",
-                "The most common actions you can take are described in the \"Actions in Combat\" section later in this chapter. Many class features and other abilities provide additional options for your action.",
-                "The \"Movement and Position\" section later in this chapter gives the rules for your move.",
-                "You can forgo moving, taking an action, or doing anything at all on your turn. If you can't decide what to do on your turn, consider taking the Dodge or Ready action, as described in \"Actions in Combat.\"",
+                "name":"Senin Sıran",
+                "entries":["Sıranda, hızın kadar {@b hareket} edebilir ve {@b bir eylem} gerçekleştirebilirsin. İlk hareket mi yoksa eylem mi kullanacağına sen karar verirsin.",
+                "Kullanabileceğin çoğu eylem bu kısımdaki \"Savaşta Eylemler\" kısmında verilmiştir. Çoğu sınıf özellikleri ve diğer yetenekler eylemlerin için fazladan seçenek sunar.",
+                "Bu kısımdaki \"Hareket ve Konumlanma\" hareketin için kuralları açıklar.",
+                "Sıranda hareket etmemeyi, eylem kullanmamayı, hatta hiçbir şey yapmamayı seçebilirsin. Eğer sıranda ne yapacağına karar veremiyorsan, Kaçınma ya da Hazırla eylemini kullanmayı düşünebilirsin.",
                 {
-                    "type": "entries", "name": "Bonus Actions", "entries": ["Various class features, spells, and other abilities let you take an additional action on your turn called a bonus action. The Cunning Action feature, for example, allows a rogue to take a bonus action. You can take a bonus action only when a special ability, spell, or other feature of the game states that you can do something as a bonus action. You otherwise don't have a bonus action to take.", "You can take only one bonus action on your turn, so you must choose which bonus action to use when you have more than one available.", "You choose when to take a bonus action during your turn, unless the bonus action's timing is specified, and anything that deprives you of your ability to take actions also prevents you from taking a bonus action."]
+                    "type": "entries", "name": "Bonus Eylemler", "entries": ["Çeşitli sınıf özellikleri, büyüler, ve diğer yetenekler senin sıranda bonus eylem denen fazladan bir eylem kullanmanı sağlayabilir. Örneğin Kurnaz Eylem özelliği, bir düzenbazın bonus eylem kullanmasını sağlar. Bir bonus eylemi sadece oyundaki bir özel yetenek, büyü ya da diğer özellik bir şeyi bonus eylem olarak yapabileceğini söylediğinde kullanırsın. Aksi taktirde kullanabilecek bir bonus eylemin yoktur.", "Sıranda sadece bir tane bonus eylem kullanabilirsin, bu yüzden eğer birden çok seçeceğin varsa hangisini kullanacağını seçmelisin.", "Bonus eylemin zamanlaması belirtilmediyse bunu sıranda ne zaman kullanacağına sen karar verirsin, ve senin eylem kullanma yeteneğini elinden alan herhangi bir şey bonus eylem kullanmanı da engeller."]
                 }
                 ,
                 {
-                    "type": "entries", "name": "Other Activity on Your Turn", "entries": ["Your turn can include a variety of flourishes that require neither your action nor your move.", "You can communicate however you are able, through brief utterances and gestures, as you take your turn.", "You can also interact with one object or feature of the environment for free, during either your move or your action. For example, you could open a door during your move as you stride toward a foe, or you could draw your weapon as part of the same action you use to attack.", "If you want to interact with a second object, you need to use your action. Some magic items and other special objects always require an action to use, as stated in their descriptions.", "The DM might require you to use an action for any of these activities when it needs special care or when it presents an unusual obstacle. For instance, the DM could reasonably expect you to use an action to open a stuck door or turn a crank to lower a drawbridge."]
+                    "type": "entries", "name": "Sıranda Diğer Faaliyetler", "entries": ["Sıranda eylemini ya da hareketini gerektirmeyen çeşitli şeyler olabilir.", "Sıranda kısa mırıldanmalar ve jestler ile iletişime geçebilirsin.", "Ayrıca eylemin ya da hareketin sırasında bir şey harcamadan bir nesne ya da çevrenin bir özelliği ile etkileşime girebilirsin. Örneğin, bir düşmana doğru koşarken kapıyı açabilir, ya da saldırı eyleminin bir parçası olarak silahını çekebilirsin.", "İkinci bir nesne ile etkileşime girmek istersen, eylemini kullanman gerekir. Bazı büyülü eşyalar ve özel nesnelerin kullanımı daima eylem gerektirir, bu açıklamalarında verilmiştir.", "Bu faaliyetler için eğer özel bir durum varsa ya da alışılmadık bir zorluk çıkmışsa DM eylemini kullanmanı isteyebilir. Örneğin, mantık dahilinde DM senden sıkışmış bir kapıyı açarken ya da köprüyü indirmek için kolu çevirirken eylemini kullanmanı isteyebilir."]
                 }
                 ]
             }
             ,
             {
-                "type": "entries", "name": "Reactions", "entries": ["Certain special abilities, spells, and situations allow you to take a special action called a reaction. A reaction is an instant response to a trigger of some kind, which can occur on your turn or on someone else's. The opportunity attack, described later in this chapter, is the most common type of reaction.", "When you take a reaction, you can't take another one until the start of your next turn. If the reaction interrupts another creature's turn, that creature can continue its turn right after the reaction."]
+                "type": "entries", "name": "Reaksiyon", "entries": ["Belirli özel yetenekler, büyüler, ve durumlar senin reaksiyon denen özel bir eylem tipini kullanmanı sağlayabilir. Bir reaksiyon belirli bir tip tetikleyiciye anında gösterilen tepkidir, bu senin ya da başkasının sırasında oluşabilir. Bu kısımda açıklanan fırsat saldırıları, en yaygın reaksiyonlardır.", "Bir reaksiyon kullandığında, bir sonraki sıranın başına kadar bir daha kullanamazsın. Eğer bir reaksiyon başka bir varlığın sırasını bölerse, o varlık sırasına reaksiyondan hemen sonra devam edebilir."]
             }
             ,
             {
                 "type":"inset",
-                "name":"Interacting with Objects Around You",
-                "entries":["Here are a few examples of the sorts of thing you can do in tandem with your movement and action:",
+                "name":"Çevrendeki Nesnelerle Etkileşime Girme",
+                "entries":["Hareket ve eyleminin yanısıra yapabileceğin şeylere birkaç örnek şunlar verilebilir:",
                 {
-                    "type": "list", "items": ["draw or sheathe a sword", "open or close a door", "withdraw a potion from your backpack", "pick up a dropped axe", "take a bauble from a table", "remove a ring from your finger", "stuff some food into your mouth", "plant a banner in the ground", "fish a few coins from your belt pouch", "drink all the ale in a flagon", "throw a lever or a switch", "pull a torch from a sconce", "take a book from a shelf you can erişim", "extinguish a small flame", "don a mask", "pull the hood of your cloak up and over your head", "put your ear to a door", "kick a small stone", "turn a key in a lock", "tap the floor with a 10-foot pole", "hand an item to another character"]
+                    "type": "list", "items": ["bir kılıcı çekme ya da kınına sokma", "kapı açma ya da kapama", "çantandan bir iksir çıkarma", "düşmüş bir baltayı alma", "masadan bir şey alma", "parmağından yüzük çıkarma", "ağzına biraz yemek tıkma", "yere bir bayrak dikme", "kemer kesenden birkaç para çıkarma", "bir bardaktaki tüm birayı içme", "bir düğme ya da kolu çevirme", "yuvasından bir meşaleyi çıkarma", "erişebildiğin bir raftan kitap alma", "küçük bir ateş söndürme", "maske takma", "pelerininin başlığını kaldırıp başına geçirme", "kulağını kapıya dayama", "küçük bir taşa tekme atma", "kilitte anahtarı çevirme", "zemine 10 fitlik sopa ile dokunma", "bir eşyayı başka bir karaktere verme"]
                 }
                 ]
             }
@@ -3256,11 +3256,11 @@
         ,
         {
             "type":"section",
-            "name":"Underwater Combat",
-            "entries":["When adventurers pursue sahuagin back to their undersea homes, fight off sharks in an ancient shipwreck, or find themselves in a flooded dungeon room, they must fight in a challenging environment. Underwater the following rules apply.",
-            "When making a {@b melee weapon attack}, a creature that doesn't have a swimming speed (either natural or granted by magic) has disadvantage on the attack roll unless the weapon is a dagger, javelin, shortsword, spear, or trident.",
-            "A {@b ranged weapon attack} automatically misses a target beyond the weapon's normal menzil. Even against a target within normal menzil, the attack roll has disadvantage unless the weapon is a crossbow, a net, or a weapon that is fırlatma like a javelin (including a spear, trident, or dart).",
-            "Creatures and objects that are fully immersed in water have resistance to fire damage."]
+            "name":"Sualtı Savaşı",
+            "entries":["Maceracılar sahuaginleri sualtı evlerine kadar takip ettiklerinde, eski bir gemi enkazında köpek balıklarıyla dövüşürken, veya kendilerini su dolu bir zindan odasında bulduklarında, zorlu bir çevrede savaşmaları gerekir. Sualtında şu kurallar geçerlidir.",
+            "Bir {@b yakın dövüş silahlı saldırı} yaparken, yüzme hızı (doğal ya da büyülü) olmayan bir varlığın, eğer kullandığı silah bir hançer, cirit, kısa kılıç, mızrak, veya üç dişli mızrak değilse dezavantajı olur.",
+            "Bir {@b menzilli silah saldırısı} normal menzilinin dışında kalan bir hedefi otomatik olarak ıskalar. Normal menzilindeki hedefe karşı bile, eğer silah bir arbalet, ağ, veya cirit gibi (mızrak, üç dişli mızrak ve dart dahil) bir fırlatma silahı değilse saldırı zarı dezavantajlı olur.",
+            "Tamamıyla sualtında olan varlık ve nesnelerin ateş hasarına direnci olur."]
         }
         ]
     }

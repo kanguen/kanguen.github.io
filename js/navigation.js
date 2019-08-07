@@ -16,7 +16,7 @@ function currentPage () {
 	let currentPage = window.location.pathname;
 	currentPage = currentPage.substr(currentPage.lastIndexOf('/') + 1);
 
-	if (!currentPage) currentPage = "5etools.html";
+	if (!currentPage) currentPage = "index.html";
 	if (CHILD_PAGES[currentPage]) currentPage = CHILD_PAGES[currentPage];
 
 	if (currentPage.toLowerCase() === "book.html") {

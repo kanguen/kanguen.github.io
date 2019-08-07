@@ -236,7 +236,7 @@ const BookUtil = {
 		const [bookId, ...hashParts] = window.location.hash.slice(1).split(HASH_PART_SEP);
 		const fromIndex = BookUtil.bookIndex.filter(bk => UrlUtil.encodeForHash(bk.id) === UrlUtil.encodeForHash(bookId));
 		if (fromIndex.length) {
-			document.title = `${fromIndex[0].name} - 5etools`;
+			document.title = `${fromIndex[0].name} - 5eTürkçe`;
 			$(`.book-head-header`).html(cleanName(fromIndex[0].name));
 			$(`.book-head-message`).html("Browse content. Press F to find.");
 			BookUtil.loadBook(fromIndex[0], bookId, hashParts);

@@ -2726,7 +2726,7 @@ EntryRenderer.dice = {
 			if ($roll.length) {
 				return $roll.data("name");
 			}
-			return document.title.replace("- 5etools", "").trim();
+			return document.title.replace("- 5eTürkçe", "").trim();
 		}
 
 		function getThRoll (total) {
