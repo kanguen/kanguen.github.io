@@ -2882,7 +2882,7 @@
             {
                 "type":"entries",
                 "name":"Hasar Zarları",
-                "entries":["Her silah, büyü, ve zararlı canavar yeteneği verdiği hasarı belirtir. Hasar zarını ya da zarlarını atar, bonusları ekler ve hasarı hedefine uygularsın. Büyülü silahlar, özel yetenekler, ve diğer etkenler hasara bonus verebilir.",
+                "entries":["Her silah, büyü, ve canavarın zararlı yeteneği verdiği hasarı belirtir. Hasar zarını ya da zarlarını atar, bonusları ekler ve hasarı hedefine uygularsın. Büyülü silahlar, özel yetenekler, ve diğer etkenler hasara bonus verebilir.",
                 "Bir {@b silah} ile saldırırken, saldırı zarı için kullandığın yeteneğin bonusunu hasara eklersin. Bir {@b büyü} sana hasar için hangi zarları atacağını ve bonus eklenip eklenmeyeceğini belirtir.",
                 "Eğer bir büyü ya da farklı etki {@b birden çok hedefe} aynı anda hasar verirse, hepsi için hasarı bir kere atarsın. Örneğin, bir büyücü alevtopu ya da bir rahip alev darbesi kullandığında, patlama alanında kalan tüm varlıklar için hasar bir kere atılır.",
                 {
