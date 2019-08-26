@@ -2139,14 +2139,14 @@
         ,
         {
             "type":"section",
-            "name":"Yetenek Skorları ve Bonusları",
+            "name":"Yetenek Skorları ve Bonuslar",
             "entries":["Bir varlığın her yeteneğinin bir skoru vardır, bu sayı o yeteneğin seviyesini gösterir. Bir yetenek skoru sadece doğuştan gelen kabiliyeti değil, ayrıca bu yeteneğe bağlı alınan eğitim ve ilgili işlerde yeterliği yansıtır.",
             "Bir skorda 10 veya 11 insanlar için ortalamadır, ama maceracılar ve birçok yaratık çoğu yetenekte ortalama üzerindedirler. 18 skoru bir kişinin normalde ulaşabileceği en yüksek skordur. Maceracılar 20'ye kadar çıkabilen skorlara sahip olabilirler, yaratıklar ve kutsal varlıkların skorları 30'a çıkabilir.",
             "Her yeteneğin bir bonusu da vardır (Araya çevirmen notu gireceğim. Bu kısımda bonus diye çevirdiğim kelimenin orijinali modifier, yani niteleyici veya değiştirici gibi bir çeviri tam karşılığını verecek olsa da kullanım rahatlığı açısından bonusu tercih ettim. Yani bu bonusun negatif de olabileceğini unutmayın.), skora bağlı olarak belirlenen -5'ten (1 yetenek skoru için) +10'a (30 yetenek skoru için) kadar giden bir değişken. Yetenek Skorları ve Bonusları tablosu 1'den 30'a kadar tüm olası yetenek skorlarını ve bonuslarını verir.",
             "Bir yetenek bonusunu tabloya bakmadan belirlemek için, yetenek skorundan 10 çıkarıp sonucu ikiye bölersin (aşağı yuvarlanır).",
             "Yetenek bonusları neredeyse tüm saldırı, yetenek ve kurtulma zarlarını etkilediği için, oyun sırasında yetenek bonusları ilgili skorlarından daha sık karşımıza çıkar.",
             {
-                "type": "table", "caption": "Yetenek Skorları ve Bonusları", "colLabels": ["Skor", "Bonus", "Skor", "Bonus"], "colStyles": ["col-xs-3 text-align-center", "col-xs-3 text-align-center", "col-xs-3 text-align-center", "col-xs-3 text-align-center"], "rows": [["1", "-5", "16-17", "+3"], ["2-3", "-4", "18-19", "+4"], ["4-5", "-3", "20-21", "+5"], ["6-7", "-2", "22-23", "+6"], ["8-9", "-1", "24-25", "+7"], ["10-11", "+0", "26-27", "+8"], ["12-13", "+1", "28-29", "+9"], ["14-15", "+2", "30", "+10"]]
+                "type": "table", "caption": "Yetenek Skorları ve Bonuslar", "colLabels": ["Skor", "Bonus", "Skor", "Bonus"], "colStyles": ["col-xs-3 text-align-center", "col-xs-3 text-align-center", "col-xs-3 text-align-center", "col-xs-3 text-align-center"], "rows": [["1", "-5", "16-17", "+3"], ["2-3", "-4", "18-19", "+4"], ["4-5", "-3", "20-21", "+5"], ["6-7", "-2", "22-23", "+6"], ["8-9", "-1", "24-25", "+7"], ["10-11", "+0", "26-27", "+8"], ["12-13", "+1", "28-29", "+9"], ["14-15", "+2", "30", "+10"]]
             }
             ]
         }
