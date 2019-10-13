@@ -1048,7 +1048,7 @@
 										"name": "Ölümün Ötesinde Öfke",
 										"entries": [
 											"14. seviyeden itibaren, öfkeni destekleyen kutsal güç senin ölümcül darbelere aldırış etmemeni sağlar.",
-											"Öfkeliyken, 0 HP'ye düşmek seni {@condition bilinçsizlik} durumuna sokmaz. Hala ölüm kurtulma zarları atarsın, ve 0 HP'de iken hasar almanın etkilerine maruz kalırsın. Ama, ölüm kurtulma zarlarında başarısız olduğun için öleceksen, öfken bitene kadar ölmezsin, ve hala 0 HP'ye sahipsen ölürsün."
+											"Öfkeliyken, 0 HP'ye düşmek seni {@condition bilinçsizlik} durumuna sokmaz. Hala ölüm kurtulma zarları atarsın, ve 0 HP'de iken hasar almanın etkilerine maruz kalırsın. Fakat ölüm kurtulma zarlarında başarısız olduğun için öleceksen, öfken bitene kadar ölmezsin, ve hala 0 HP'ye sahipsen ölürsün."
 										]
 									}
 								]
@@ -1067,18 +1067,18 @@
 					],
 					"by": "Seret, baş büyücü"
 				},
-				"Normal bir kişinin hissettiği öfke bir barbarın öfkesi ile kıyaslanırsa, bu hafif bir meltem ile hiddetli bir fırtınayı kıyaslamak gibi olur. Barbarın bu itici gücü duyguların ötesinde bir yerden gelir, bu yüzden bunun dışavurumu korkunç olur. Bu öfkenin gücü tamamen kendinden de gelse, bir ruh hayvanı ile bağından da gelse, öfke içerisindeki bir barbar doğaüstü güç ve dayanıklılık sergiler. Bu taşkınlık geçicidir ama varolduğu sürece beden ve zihni kaplar, son düşman düşene kadar barbarı tüm yaralanmalara ve tehlikelere rağmen savaşmaya iter.",
-				"Barbar bir karakter oynarken klasik model olan, diğerlerinin yaklaşmaya korktukları yerlere hücum eden vahşi ama ahmak karakter çekici gelebilir. Ama evrendeki tüm barbarlar bu şekilde değildir, kesinlikle bir şeylere kendi yorumunu katabilirsin. Bir şekilde barbarını diğerlerinden ayıracak detaylar eklemeyi düşün; aşağıdaki kısımlara fikir almak için bakabilirsin.",
+				"Normal bir kişinin hissettiği öfke bir barbarın öfkesi ile kıyaslanırsa, bu hafif bir meltem ile hiddetli bir fırtınayı kıyaslamak gibi olur. Barbarın bu itici gücü duyguların ötesinde bir yerden gelir, bu yüzden bunun dışa vurumu korkunç olur. Bu öfkenin gücü tümüyle özünden ya da bir ruh hayvanı ile bağından gelebilir ve öfke içerisindeki bir barbar doğaüstü güç ve dayanıklılık sergiler. Bu taşkınlık geçicidir ama varolduğu sürece beden ve zihni kaplar, son düşman düşene kadar barbarı tüm yaralanmalara ve tehlikelere rağmen savaşmaya iter.",
+				"Barbar bir karakter oynarken klasik model olan, diğerlerinin yaklaşmaya korktukları yerlere hücum eden vahşi ama ahmak karakter çekici gelebilir. Fakat evrendeki tüm barbarlar bu şekilde değildir, kesinlikle bir şeylere kendi yorumunu katabilirsin. Bir şekilde barbarını diğerlerinden ayıracak detaylar eklemeyi düşün; aşağıdaki kısımlara fikir almak için bakabilirsin.",
 				{
 					"type": "entries",
-					"name": "Personal Totems",
+					"name": "Kişisel Totemler",
 					"entries": [
-						"Barbarians tend to travel light, carrying little in the way of personal effects or other unnecessary gear. The few possessions they do carry often include small items that have special significance. A personal totem is significant because it has a mystical origin or is tied to an important moment in the character's life\u2014perhaps a remembrance from the barbarian's past or a harbinger of what lies ahead.",
-						"A personal totem of this sort might be associated with a barbarian's spirit animal, or might actually be the totem object for the animal, but such a connection is not essential. One who has a bear totem spirit, for instance, could still carry an eagle's feather as a personal totem.",
-						"Consider creating one or more personal totems for your character\u2014objects that hold a special link to your character's past or future. Think about how a totem might affect your character's actions.",
+						"Barbarlar genelde kişisel eşyalar ve gereksiz ekipmanlar taşımayıp hafif seyahat ederler. Taşıdıkları nadir malların arasında özel anlam taşıyan küçük eşyalar da bulunur. Kişisel bir totem önemlidir çünkü ya mistik bir kaynaktan gelir ya da karakterin hayatında önemli bir ana bağlıdır, \u2014belki barbarın geçmişinden bir anı ya da gelecek bir şeyin alameti.",
+						"Bu tip bir kişisel totem barbarın ruh hayvanına da bağlı olabilir, veya doğrudan hayvandan bir totem nesnesidir ama bu tip bir bağlantı zorunlu değildir. Örneğin ayı totem ruhuna sahip olan biri hala bir kartal tüyü taşıyabilir.",
+						"Karakterinin geçmişi ya da geleceğine özel bir bağı olan bu tip bir kişisel totem yaratmayı düşünebilirsin. Bu totemin karakterinin davranışlarını nasıl etkileyeceğini düşün.",
 						{
 							"type": "table",
-							"caption": "Personal Totems",
+							"caption": "Kişisel Totemler",
 							"colLabels": [
 								"{@dice d6}",
 								"Totem"
@@ -1095,7 +1095,7 @@
 											"exact": 1
 										}
 									},
-									"A tuft of fur from a solitary wolf that you befriended during a hunt"
+									"Av sırasında dost edindiğin yalnız bir kurttan bir tutam kürk"
 								],
 								[
 									{
@@ -1104,7 +1104,7 @@
 											"exact": 2
 										}
 									},
-									"Three eagle feathers given to you by a wise shaman, who told you they would play a role in determining your fate"
+									"Bilge bir şaman tarafından sana verilen üç kartal tüyü, şaman sana bunların kaderini belirlerken önemli rol oynayacağını söyledi"
 								],
 								[
 									{
@@ -1113,7 +1113,7 @@
 											"exact": 3
 										}
 									},
-									"A necklace made from the claws of a young cave bear that you slew singlehandedly as a child"
+									"Çocukken kendi başına öldürdüğün bir ayının pençesinden yapılma bir kolye"
 								],
 								[
 									{
@@ -1122,7 +1122,7 @@
 											"exact": 4
 										}
 									},
-									"A small leather pouch holding three stones that represent your ancestors"
+									"Atalarını simgeleyen üç taşı taşıdığın küçük bir deri kese"
 								],
 								[
 									{
@@ -1131,7 +1131,7 @@
 											"exact": 5
 										}
 									},
-									"A few small bones from the first beast you killed, tied together with colored wool"
+									"Öldürdüğün ilk hayvandan birkaç küçük kemik, renkli yün ile birbirine bağlanmış durumda"
 								],
 								[
 									{
@@ -1140,7 +1140,7 @@
 											"exact": 6
 										}
 									},
-									"An egg-sized stone in the shape of your spirit animal that appeared one day in your belt pouch"
+									"Bir gün kemerindeki kesede beliren ruh hayvanının şeklinde yumurta boyunda bir taş"
 								]
 							]
 						}
@@ -1148,16 +1148,16 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tattoos",
+					"name": "Dövmeler",
 					"entries": [
-						"The members of many barbarian clans decorate their bodies with tattoos, each of which represents a significant moment in the life of the bearer or the bearer's ancestors, or which symbolizes a feeling or an attitude. As with personal totems, a barbarian's tattoos might or might not be related to an animal spirit.",
-						"Each tattoo a barbarian displays contributes to that individual's identity. If your character wears tattoos, what do they look like, and what do they represent?",
+						"Birçok barbar klanının üyeleri bedenlerini dövmelerle kaplarlar, bunlar kişinin ya da atalarının hayatındaki önemli bir anı temsil edebilir, veya bir duygu ya da duruşu simgeleyebilir. Kişisel totemler gibi, bir barbarın dövmeleri ruh hayvanına bağlı olabilir.",
+						"Bir barbarın sergilediği her dövme o bireyin kimliğine katkıda bulunur. Eğer karakterinin dövmeleri varsa bunlar neye benziyor ve neyi temsil ediyor?",
 						{
 							"type": "table",
-							"caption": "Tattoos",
+							"caption": "Dövmeler",
 							"colLabels": [
 								"{@dice d6}",
-								"Tattoo"
+								"Dövme"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -1171,7 +1171,7 @@
 											"exact": 1
 										}
 									},
-									"The wings of an eagle are spread wide across your upper back."
+									"Sırtının üst kısmında açık şekilde bir kartalın kanatları."
 								],
 								[
 									{
@@ -1180,7 +1180,7 @@
 											"exact": 2
 										}
 									},
-									"Etched on the backs of your hands are the paws of a cave bear."
+									"Ellerinin üstünde bir ayının pençeleri."
 								],
 								[
 									{
@@ -1189,7 +1189,7 @@
 											"exact": 3
 										}
 									},
-									"The symbols of your clan are displayed in viny patterns along your arms."
+									"Kollarında sarmaşık gibi desenlerle klanının sembolleri."
 								],
 								[
 									{
@@ -1198,7 +1198,7 @@
 											"exact": 4
 										}
 									},
-									"The antlers of an elk are inked across your back."
+									"Sırtında bir geyiğin boynuzları."
 								],
 								[
 									{
@@ -1207,7 +1207,7 @@
 											"exact": 5
 										}
 									},
-									"Images of your spirit animal are tattooed along your weapon arm and hand."
+									"Silah tutan kolun ve elinde ruh hayvanının görüntüsü."
 								],
 								[
 									{
@@ -1216,7 +1216,7 @@
 											"exact": 6
 										}
 									},
-									"The eyes of a wolf are marked on your back to help you see and ward off evil spirits."
+									"Kötü ruhlardan korunmak için sırtında bir kurdun gözleri."
 								]
 							]
 						}
@@ -1224,18 +1224,18 @@
 				},
 				{
 					"type": "entries",
-					"name": "Superstitions",
+					"name": "Batıl İnançları",
 					"entries": [
-						"Barbarians vary widely in how they understand life. Some follow gods and look for guidance from those deities in the cycles of nature and the animals they encounter. These barbarians believe that spirits inhabit the plants and animals of the world, and the barbarians look to them for omens and power.",
-						"Other barbarians trust only in the blood that runs in their veins and the steel they hold in their hands. They have no use for the invisible world, instead relying on their senses to hunt and survive like the wild beasts they emulate.",
-						"Both of these attitudes can give rise to superstitions. These beliefs are often passed down within a family or shared among the members of a clan or a hunting group.",
-						"If your barbarian character has any superstitions, were they ingrained in you by your family, or are they the result of personal experience?",
+						"Barbarlar hayatı anlayış şekillerinde çeşitlidirler. Bazıları tanrıları izler ve doğanın döngüleri ve hayvanlar ile karşılaşmalarında bu tanrılardan yardım ve rehberlik bekler. Bu barbarlar dünyanın hayvan ve bitkilerinde ruhlar olduğuna inanır ve alamet ve güç için onlardan medet umarlar.",
+						"Diğer barbarlar ise sadece damarlarındaki kana ve ellerindeki çeliğe güvenirler. Görünmeyen dünya ile ilişkileri yoktur, bunun yerine aynı taklit ettikleri hayvanlar gibi duyularına güvenip avlanarak hayatta kalırlar.",
+						"Bu tutumların ikisi de batıl inançlara yol açabilir. Bu inanışlar genelde aileden gelir ya da bir klan veya av grubu arasında paylaşılır.",
+						"Eğer barbar karakterinin bir batıl inancı varsa bu ailenden mi geliyor, yoksa kişisel deneyimden mi kaynaklanıyor?",
 						{
 							"type": "table",
-							"caption": "Superstition",
+							"caption": "Batıl İnançlar",
 							"colLabels": [
 								"{@dice d6}",
-								"Superstition"
+								"İnanç"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -1249,7 +1249,7 @@
 											"exact": 1
 										}
 									},
-									"If you disturb the bones of the dead, you inherit all the troubles that plagued them in life."
+									"Eğer ölülerin kemiklerine dokunursan onları yaşamda rahatsız eden bütün sorunlar sana geçer."
 								],
 								[
 									{
@@ -1258,7 +1258,7 @@
 											"exact": 2
 										}
 									},
-									"Never trust a wizard. They're all devils in disguise, especially the friendly ones."
+									"Asla bir büyücüye güvenme. Her biri kılık değiştirmiş şeytanlardır, özellikle dostane olanlar."
 								],
 								[
 									{
@@ -1267,7 +1267,7 @@
 											"exact": 3
 										}
 									},
-									"Dwarves have lost their spirits, and are almost like the undead. That's why they live underground."
+									"Cüceler ruhlarını kaybetmişler ve neredeyse yaşayan ölüler gibidirler. Bu yüzden yer altında yaşarlar."
 								],
 								[
 									{
@@ -1276,7 +1276,7 @@
 											"exact": 4
 										}
 									},
-									"Magical things bring trouble. Never sleep with a magic object within ten fit of you."
+									"Büyülü şeyler sorun yaratır. Asla on fit yakınında bir büyülü nesne varken uyuma."
 								],
 								[
 									{
@@ -1285,7 +1285,7 @@
 											"exact": 5
 										}
 									},
-									"When you walk through a graveyard, be sure to wear silver, or a ghost might jump into your body."
+									"Bir mezarlıktan geçerken gümüş bir şey taşı, yoksa bir hayalet bedenine girebilir."
 								],
 								[
 									{
@@ -1294,7 +1294,7 @@
 											"exact": 6
 										}
 									},
-									"If an elf looks you in the eyes, she's trying to read your thoughts."
+									"Eğer bir elf gözlerine bakarsa düşüncelerini okumaya çalışıyordur."
 								]
 							]
 						}
@@ -5274,9 +5274,9 @@
 								"type": "list",
 								"items": [
 									"Senin oyun istatistiklerin hayvanınkilerle değişir ama hala kişiliğin, yönelimin ve Zeka, Akıl ve Karizma skorların aynı kalır. Varlığınkileri eklemenin yanında kendi becerilerin ve kurtulma zarı uzmanlıkların da kalır. Eğer varlık senle aynı uzmanlığa sahipse ve onun stat bloğundaki bonus daha yüksekse, kendi bonusun yerine varlığınkini kullanabilirsin. Eğer varlık herhangi bir efsanevi ya da yuva eylemine sahipse bunları kullanamazsın.",
-									"Dönüştüğünde hayvanın HP ve HD'sini kullanırsın. Eski formuna döndüğünde, dönüşmeden önceki HP sayısı ile devam edersin. Ama, eğer 0 HP'ye düşme sonucu eski formuna döndüysen fazlalık hasar normal formuna aktarılır. Örneğin, hayvan formunda 10 hasar aldın ve hayvan formunun sadece 1 HP'si kalmış, bu durumda eski formuna dönersin ve 9 hasar alırsın. Fazlalık hasar senin asıl formunu 0 HP'ye düşürmediği sürece bilinçsiz kalmazsın.",
+									"Dönüştüğünde hayvanın HP ve HD'sini kullanırsın. Eski formuna döndüğünde, dönüşmeden önceki HP sayısı ile devam edersin. Fakat, eğer 0 HP'ye düşme sonucu eski formuna döndüysen fazlalık hasar normal formuna aktarılır. Örneğin, hayvan formunda 10 hasar aldın ve hayvan formunun sadece 1 HP'si kalmış, bu durumda eski formuna dönersin ve 9 hasar alırsın. Fazlalık hasar senin asıl formunu 0 HP'ye düşürmediği sürece bilinçsiz kalmazsın.",
 									"Büyü yapamazsın ve konuşman ya da elle yapılacak tüm eylemlerin hayvan formu ile sınırlıdır. Dönüşmen, daha önce kullandığın bir büyünün konsantrasyonunu bozmaz ya da büyünün bir parçası olan eylemleri yapmanı engellemez, {@spell call lightning (Yıldırım Çağır)} büyüsü gibi.",
-									"Sınıfın, ırkın ya da başka kaynaktan gelen özelliklerinden yeni formun da fiziksel olarak uygunsa faydalanabilirsin. Ama yeni formun da o duyuya sahip değilse, gece görüşü gibi duyulardan faydalanamazsın.",
+									"Sınıfın, ırkın ya da başka kaynaktan gelen özelliklerinden yeni formun da fiziksel olarak uygunsa faydalanabilirsin. Fakat yeni formun da o duyuya sahip değilse, gece görüşü gibi duyulardan faydalanamazsın.",
 									"Dönüştüğünde ekipmanın yere mi düşecek, yeni formun ile mi birleşecek ya da yeni formun tarafından mı kullanılacak sen seçersin. Ekipmanın normal olarak işler ama yeni formunun o ekipmanı kullanması uygun mu diye DM karar verir. Ekipmanın yeni forma uymak için şekil ya da boyut değiştirmez ve yeni formun kullanamayacağı ekipman ya yere düşer ya da yeni form ile birleşir. Formunla birleşen ekipman sen eski haline dönene dek bir etki göstermez."
 								]
 							}
@@ -6029,7 +6029,7 @@
 								"entries": [
 									"Spor Çemberi druidleri çürümedeki güzelliği görür. Küf ve diğer mantarlarda cansız bir materyali, biraz garip de olsa bolca hayata dönüştürme yetisini görürler.",
 									"Bu druidler yaşam ve ölümün büyük bir çarkın parçaları olduğuna inanırlar, biri diğerine yol açar ve bu yine tekrarlar. Ölüm yaşamın sonu değildir, sadece şekil değişir ve hayat yeni bir forma bürünür.",
-									"Bu çemberin druidlerinin yaşayan ölülerle ilginç bir ilişkisi vardır. Diğer druidlerin aksine, yaşayan ölülükte özünde yanlış olan bir şey görmezler, bunu yaşam ve ölüme dost kabul ederler. Ama bu druidler doğal çarkın en sağlıklı halinin, her parçasının coşkun ve değişken olduğu zamanlar olduğuna inanırlar. Tüm yaşamı ölümle değiştirmeye çalışan, ya da son istirahata yatmayı kabul etmeyen yaşayan ölüler bu çarkı bozarlar ve önlenmelidirler.",
+									"Bu çemberin druidlerinin yaşayan ölülerle ilginç bir ilişkisi vardır. Diğer druidlerin aksine, yaşayan ölülükte özünde yanlış olan bir şey görmezler, bunu yaşam ve ölüme dost kabul ederler. Fakat bu druidler doğal çarkın en sağlıklı halinin, her parçasının coşkun ve değişken olduğu zamanlar olduğuna inanırlar. Tüm yaşamı ölümle değiştirmeye çalışan, ya da son istirahata yatmayı kabul etmeyen yaşayan ölüler bu çarkı bozarlar ve önlenmelidirler.",
 									{
 										"type": "entries",
 										"name": "Çember Büyüleri",
@@ -11203,7 +11203,7 @@
 								"name": "Kefaret Yemini",
 								"entries": [
 									"Kefaret Yemini bir paladini zorlu bir yola çıkarır, kutsal savaşçının şiddeti sadece en son çare olarak göreceği bir yol. Kendini bu yemine adayan paladinler herkesin kurtarılabileceğine, iyilik ve adalet yolunda her bireyin yürüyebileceğine inanırlar. Bu paladinler kötü varlıklarla onları ışığa yönlendirebileceğini umarak yüzleşirler, düşmanlarını sadece bunun bariz bir şekilde diğer hayatları kurtaracağını bildiklerinde öldürürler. Bu yoldaki paladinlere kurtarıcı denir.",
-									"Kurtarıcılar idealist olsalar da, aptal değildirler. Kurtarıcılar yaşayan ölüler, iblisler, şeytanlar, ve diğer doğaüstü tehlikelerin içlerinde kötülük olduğunu bilirler. Bu tip düşmanlara karşı, bu yemini eden paladinler silah ve büyülerinin taşıyabileceği tüm hiddeti düşmanların üzerlerine yıkarlar. Ama hala kurtarıcılar belki bir gün, kötülüğün varlıklarının bile kendi kefaretlerini bulmaları için dua ederler.",
+									"Kurtarıcılar idealist olsalar da, aptal değildirler. Kurtarıcılar yaşayan ölüler, iblisler, şeytanlar, ve diğer doğaüstü tehlikelerin içlerinde kötülük olduğunu bilirler. Bu tip düşmanlara karşı, bu yemini eden paladinler silah ve büyülerinin taşıyabileceği tüm hiddeti düşmanların üzerlerine yıkarlar. Fakat hala kurtarıcılar belki bir gün, kötülüğün varlıklarının bile kendi kefaretlerini bulmaları için dua ederler.",
 									{
 										"type": "entries",
 										"name": "Kefaretin Öğretileri",
@@ -16081,11 +16081,11 @@
 				{
 					"type": "quote",
 					"entries": [
-						"Practice and study are for amateurs. True power is a birthright."
+						"Egzersiz ve çalışma amatörler içindir. Gerçek güç doğuştan gelir."
 					],
-					"by": "Hennet, scion of Tiamat"
+					"by": "Hennet, Tiamat'ın evladı"
 				},
-				"When it comes to drawing forth their abilities in times of need, sorcerers have it easy compared to other characters. Their power not only rests within them, but it likely takes some effort to keep it at bay. Every sorcerer is born to the role, or stumbles into it through cosmic chance. Unlike other characters, who must actively learn, embrace, and pursue their talents, sorcerers have their power thrust upon them.",
+				"Mevzubahis ihtiyaç anında yeteneklerini ortaya çıkarmak olunca, sorcererların işi diğer karakterlere göre daha kolaydır. Güçleri içlerinde yatmakla kalmaz, genelde onları etkisiz halde tutmak için efor sarfedilir. Her sorcerer ya bu rol için doğar ya da kozmik şans sonucu buna rastlar. Yeteneklerini aktif halde kovalayıp öğrenen ve kucaklayan diğer karakterlerin aksine, sorcererlara güçleri iradeleri dışında gelir.",
 				"Because the idea of an innately magical being traveling among them does not sit well with many folk, sorcerers tend to breed mistrust and suspicion in others they come across. Nonetheless, many sorcerers succeed in overcoming that prejudice through deeds that benefit their less magically gifted contemporaries.",
 				"Sorcerers are often defined by the events surrounding the manifestation of their power. For those who receive it as an expected birthright, its appearance is a cause for celebration. Other sorcerers are treated as outcasts, banished from their homes after the sudden, terrifying arrival of their abilities.",
 				"Playing a sorcerer character can be as rewarding as it is challenging. The sections below offer suggestions on how to flesh out and personalize your persona.",
@@ -17645,7 +17645,7 @@
 								"name": "Kutsal",
 								"entries": [
 									"Efendin Üst Boyutlardan güçlü bir varlıktır. Kendini ebedi mutluluk boyutlarından birinde yaşayan kadim bir empyrean, solar, ki-rin, unicorn, ya da benzer bir varlığa bağladın. Bu varlıkla olan ahdin çokluevrene dokunan kutsal ışığın en yalın halini deneyimleyebilmeni sağlar.",
-									"Bu tip bir güce bağlı olmak senin davranış ve inançlarında değişime yol açabilir. Kendini yaşayan ölüleri yok etme, zebanileri alt etme, ve masumları koruma gibi hislerle dolu bulabilirsin. Zaman zaman, kalbin efendinin kutsal diyarına olan özlemin ile dolabilir, ve kalan günlerinde cennette gezebilme arzusuyla. Ama bilirsin ki şu anda görevin fanilerin arasındadır, ve ahdin seni dünyanın karanlık kısımlarına ışık götürmeye bağlar.",
+									"Bu tip bir güce bağlı olmak senin davranış ve inançlarında değişime yol açabilir. Kendini yaşayan ölüleri yok etme, zebanileri alt etme, ve masumları koruma gibi hislerle dolu bulabilirsin. Zaman zaman, kalbin efendinin kutsal diyarına olan özlemin ile dolabilir, ve kalan günlerinde cennette gezebilme arzusuyla. Fakat bilirsin ki şu anda görevin fanilerin arasındadır, ve ahdin seni dünyanın karanlık kısımlarına ışık götürmeye bağlar.",
 									{
 										"type": "entries",
 										"name": "Genişletilmiş Büyü Listesi",
@@ -18633,7 +18633,7 @@
 							{
 								"name": "Abjuration Okulu",
 								"entries": [
-									"Abjuration okulu bloklayan, koruyan ya da kovan büyüler üzerinde yoğunlaşır. Bu okulun aleyhinde konuşanlar bu geleneğin pozitif ifadedense, inkar ve etkisizleştirme üzerine yoğunlaştığını söyler. Ama sen kötüleri kovma, zayıfı koruma ve zararlı etkileri defetmenin felsefi bir boşluktan fazlası olduğunu anlarsın. Gururlu ve saygı duyulan bir sanattır.",
+									"Abjuration okulu bloklayan, koruyan ya da kovan büyüler üzerinde yoğunlaşır. Bu okulun aleyhinde konuşanlar bu geleneğin pozitif ifadedense, inkar ve etkisizleştirme üzerine yoğunlaştığını söyler. Fakat sen kötüleri kovma, zayıfı koruma ve zararlı etkileri defetmenin felsefi bir boşluktan fazlası olduğunu anlarsın. Gururlu ve saygı duyulan bir sanattır.",
 									"Abjurer olarak bilinen bu okulun üyeleri öfkeli ruhları kovmada, önemli yerlerin büyülü izlenmeden korunmasında ve diğer boyutlara açılan portalların kapatılmasında ilk ulaşılan kişiler olurlar.",
 									{
 										"type": "entries",
@@ -18905,7 +18905,7 @@
 										"name": "Hipnotik Bakış",
 										"entries": [
 											"2. seviyeden itibaren senin yumuşak sözlerin ve büyülü bakışların diğer varlıkları cezbedebilir. Eylem olarak 5 fit yakınında görebildiğin bir varlık seç. Eğer hedef seni görebiliyor ya da duyabiliyorsa senin büyücü kurtulma zarı DC'ne karşı bir Akıl kurtulma zarı atar. Eğer başarısız olursa bir sonraki sıranın sonuna kadar senin tarafından cezbedebilir. Cezbedilen varlığın hızı 0'a düşer ve varlık görünür bir şekilde sersemler ve etkisiz hale gelir.",
-											"Sonraki sıralarında eylemini kullanarak bu etkiyi devam ettirebilir ve süresini bir sonraki sıranın sonuna kadar uzatabilirsin. Ama bu etki eğer sen varlıktan 5 fitten fazla uzaklaşırsan, varlık seni hem duyamaz hemde göremezse ya da varlık hasar alırsa sona erer.",
+											"Sonraki sıralarında eylemini kullanarak bu etkiyi devam ettirebilir ve süresini bir sonraki sıranın sonuna kadar uzatabilirsin. Fakat bu etki eğer sen varlıktan 5 fitten fazla uzaklaşırsan, varlık seni hem duyamaz hemde göremezse ya da varlık hasar alırsa sona erer.",
 											"Bu etki bittiğinde ya da varlık ilk kurtulma zarında başarılı olursa, bu özelliği aynı varlık üzerinde bir uzun dinlenme bitirene kadar bir daha kullanamazsın."
 										]
 									}

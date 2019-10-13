@@ -6355,7 +6355,7 @@
 			"source": "PHB",
 			"entries": [
 				"Süre boyunca, menzilinde seçeceğin bir nokta merkezli 15 fit çapında bir küreyi büyülü karanlık kaplar. Karanlık köşelerin ardına geçer. Gece görüşü olan bir varlık bu karanlığın içini göremez ve büyüsüz ışık burayı aydınlatamaz.",
-				"Eğer seçtiğin nokta senin tuttuğun ya da taşınmayan ya da giyilmeyen bir nesne ise, karanlık bu nesneden çıkar ve onunla hareket eder. Karanlığın kaynağını miğfer ya da kase gibi opak bir nesne ile tamamen kapatmak karanlığı bloklar.",
+				"Eğer seçtiğin nokta senin tuttuğun ya da taşınmayan ve giyilmeyen bir nesne ise, karanlık bu nesneden çıkar ve onunla hareket eder. Karanlığın kaynağını miğfer ya da kase gibi opak bir nesne ile tamamen kapatmak karanlığı bloklar.",
 				"Eğer bu büyünün alanı, 2. seviye ya da altı bir büyü tarafından yaratılmış bir ışık etkisinin alanı ile örtüşürse, ışığı yaratan büyü defedilir."
 			],
 			"page": 230
@@ -10209,7 +10209,7 @@
 			"entries": [
 				"5 fit çapında bir alev küresi menzilinde seçeceğin boş bir yerde ortaya çıkar ve büyü sonuna kadar kalır. Sırasını bu kürenin 5 fit yakınında bitiren her varlık Çeviklik kurtulma zarı atar. Varlık başarısız bir zarda {@dice 2d6} ateş hasarı alır, başarılı olursa bunun yarısını.",
 				"Bonus eylem olarak küreyi 30 fite kadar hareket ettirebilirsin. Eğer küreyi bir varlığa çarptırırsan, o varlık kürenin hasarı için bir kurtulma zarı atar ve küre bu sıra için hareket etmeyi bırakır.",
-				"Küreyi hareket ettirdiğinde, 5 fit yüksekliğinde bariyerleri ya da 10 fitlik çukurları aştırabilirsin. Küre taşınmayan ya da giyilmeyen nesneleri yakar, ve 20 fit çevresine parlak ışık ötesinde 20 fit daha loş ışık saçar."
+				"Küreyi hareket ettirdiğinde, 5 fit yüksekliğinde bariyerleri ya da 10 fitlik çukurları aştırabilirsin. Küre taşınmayan ya da giyilmeyen nesneleri yakar ve 20 fit çevresine parlak ışık ötesinde 20 fit daha loş ışık saçar."
 			],
 			"entriesHigherLevel": [
 				{
