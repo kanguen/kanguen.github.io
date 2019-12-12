@@ -467,7 +467,7 @@
                 ["Asit (şişe)",
                 "25 gp",
                 "1 lb."],
-                ["Simyacı Ateşi (şişe)",
+                ["Simyacı Ateşi (matara)",
                 "50 gp",
                 "1 lb."],
                 ["{@i Mermi}",
@@ -702,7 +702,7 @@
                 ["Ayna, çelik",
                 "5 gp",
                 "1/2 lb."],
-                ["Yağ (matara)",
+                ["Gazyağı (matara)",
                 "1 sp",
                 "1 lb."],
                 ["Kağıt (bir sayfa)",
@@ -892,15 +892,15 @@
                     }
                     ,
                     {
-                        "type": "entries", "name": "Lamba", "entries": ["Bir lamba 15 fit çevresine parlak, ötesinde 30 fit daha loş ışık saçar. Yakılınca, 1 matara (yarım litre) yağ ile 6 saat yanar."]
+                        "type": "entries", "name": "Lamba", "entries": ["Bir lamba 15 fit çevresine parlak, ötesinde 30 fit daha loş ışık saçar. Yakılınca, 1 matara (yarım litre) gazyağı ile 6 saat yanar."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Fener, Hedefli", "entries": ["Hedefli bir fener 60 fitlik koniye parlak ışık ötesinde 60 fit daha loş ışık verir. Yakılınca, 1 matara (yarım litre) yağ ile 6 saat yanar."]
+                        "type": "entries", "name": "Fener, Hedefli", "entries": ["Hedefli bir fener 60 fitlik koniye parlak ışık ötesinde 60 fit daha loş ışık verir. Yakılınca, 1 matara (yarım litre) gazyağı ile 6 saat yanar."]
                     }
                     ,
                     {
-                        "type": "entries", "name": "Fener, Örtülü", "entries": ["Örtülü bir fener 30 fit çevresine parlak, ötesinde 30 fit daha loş ışık saçar. Yakılınca, 1 matara (yarım litre) yağ ile 6 saat yanar. Eylem olarak örtüyü indirip, ışığı 5 fit çevresine loş ışık saçar hala getirebilirsin."]
+                        "type": "entries", "name": "Fener, Örtülü", "entries": ["Örtülü bir fener 30 fit çevresine parlak, ötesinde 30 fit daha loş ışık saçar. Yakılınca, 1 matara (yarım litre) gazyağı ile 6 saat yanar. Eylem olarak örtüyü indirip, ışığı 5 fit çevresine loş ışık saçar hala getirebilirsin."]
                     }
                     ,
                     {
@@ -920,7 +920,7 @@
                     }
                     ,
                     {
-                        "type": "entries", "name": "Yağ", "entries": ["Yağ genellikle yarım litre alan bir kil matarada bulunur. Eylem olarak, bu yağı 5 fit yakınındaki bir varlığın üzerine serpebilir ya da 20 fite kadar fırlatabilirsin, darbe anında parçalanır. Hedef nesne ya da varlığa karşı bir menzilli saldırı zarı atar, yağı doğaçlama bir silah varsayarsın. Vurursa, hedef yağla kaplanır. Yağ kurumadan önce (1 dakika içinde) hedef ateş hasarı alırsa, hedef yanan yağdan fazladan 5 ateş hasarı alır. Bir matara yağı yere döküp 5 fit karelik bir alanı da kaplayabilirsin, yüzeyin eğimsiz olduğu varsayılır. Eğer yakılırsa, yağ 2 round boyunca yanar ve alanına giren ya da sırasını alanda bitiren her varlığa 5 ateş hasarı verir. Bir varlık bu hasarı her sırasında sadece bir kere alabilir."]
+                        "type": "entries", "name": "Gazyağı", "entries": ["Gazyağı genellikle yarım litre alan bir kil matarada bulunur. Eylem olarak, bu gazyağını 5 fit yakınındaki bir varlığın üzerine serpebilir ya da 20 fite kadar fırlatabilirsin, darbe anında parçalanır. Hedef nesne ya da varlığa karşı bir menzilli saldırı zarı atar, gazyağını doğaçlama bir silah varsayarsın. Vurursa, hedef gazyağıyla kaplanır. Gazyağı kurumadan önce (1 dakika içinde) hedef ateş hasarı alırsa, hedef yanan gazyağından fazladan 5 ateş hasarı alır. Bir matara gazyağını yere döküp 5 fit karelik bir alanı da kaplayabilirsin, yüzeyin eğimsiz olduğu varsayılır. Eğer yakılırsa, gazyağı 2 round boyunca yanar ve alanına giren ya da sırasını alanda bitiren her varlığa 5 ateş hasarı verir. Bir varlık bu hasarı her sırasında sadece bir kere alabilir."]
                     }
                     ,
                     {
@@ -992,11 +992,11 @@
                 "name":"Ekipman Paketleri",
                 "entries":["Sınıfından edindiğin başlangıç ekipmanı bir paket içerisinde toplanmış bir çok macera tertibatı içerir. Bu paketlerin içerikleri burada verilmiştir. Eğer başlangıç ekipmanını satın alıyorsan, paketi gösterilen fiyattan alabilirsin, bu ayrı ayrı almaktan daha ucuza gelecektir.",
                 {
-                    "type": "entries", "name": "Hırsız Paketi (16gp)", "entries": ["İçerisinde bir sırt çantası, 1,000 bilye içeren bir kese, 10 fit sicim, bir çan, 5 mum, bir levye, bir çekiç, 10 dağcı çivisi, bir örtülü fener, 2 matara yağ, 5 günlük erzak, bir kav kutusu, ve bir kırba vardır. Bu paketin yanında 50 fitlik kendir halat da bağlıdır."]
+                    "type": "entries", "name": "Hırsız Paketi (16gp)", "entries": ["İçerisinde bir sırt çantası, 1,000 bilye içeren bir kese, 10 fit sicim, bir çan, 5 mum, bir levye, bir çekiç, 10 dağcı çivisi, bir örtülü fener, 2 matara gazyağı, 5 günlük erzak, bir kav kutusu, ve bir kırba vardır. Bu paketin yanında 50 fitlik kendir halat da bağlıdır."]
                 }
                 ,
                 {
-                    "type": "entries", "name": "Diplomat Paketi (39gp)", "entries": ["İçerisinde bir sandık, harita ve tomarlar için 2 kap, bir set kaliteli kıyafet, bir şişe mürekkep, bir mürekkep kalemi, bir lamba, 2 matara yağ, 5 sayfa kağıt, bir şişe parfüm, mühür mumu, ve sabun vardır."]
+                    "type": "entries", "name": "Diplomat Paketi (39gp)", "entries": ["İçerisinde bir sandık, harita ve tomarlar için 2 kap, bir set kaliteli kıyafet, bir şişe mürekkep, bir mürekkep kalemi, bir lamba, 2 matara gazyağı, 5 sayfa kağıt, bir şişe parfüm, mühür mumu, ve sabun vardır."]
                 }
                 ,
                 {

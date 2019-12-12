@@ -44,6 +44,7 @@ function navigation () {
 	LI('ul_players', 'races.html', 'Irklar');
 	LI('ul_players', 'backgrounds.html', 'Karakter Geçmişleri');
 	LI('ul_players', 'feats.html', 'Hünerler');
+	LI('ul_players', 'items.html', 'Eşyalar');
 	//LI('ul_players', 'invocations.html', 'Yakarışlar');
 	//LI('ul_players', 'lifegen.html', 'Hayatın Bu');
 	LI('ul_players', 'names.html', 'İsimler');

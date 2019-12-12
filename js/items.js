@@ -65,21 +65,21 @@ let mundanelist;
 let magiclist;
 const sourceFilter = getSourceFilter();
 const typeFilter = new Filter({header: "Type", deselFn: deselectFilter("type", "$")});
-const tierFilter = new Filter({header: "Tier", items: ["None", "Minor", "Major"]});
+const tierFilter = new Filter({header: "Tier", items: ["Minor", "Major"]});
 const propertyFilter = new Filter({header: "Property", displayFn: StrUtil.uppercaseFirst});
 let filterBox;
 function populateTablesAndFilters (data) {
 	const rarityFilter = new Filter({
-		header: "Rarity",
-		items: ["None", "Common", "Uncommon", "Rare", "Very Rare", "Legendary", "Artifact", "Unknown"]
+		header: "Enderlik",
+		items: ["Hiç", "Yaygın", "Seyrek", "Nadir", "Çok Nadir", "Efsanevi", "Artefakt", "Bilinmiyor"]
 	});
-	const attunementFilter = new Filter({header: "Attunement", items: ["Yes", "By...", "Optional", "No"]});
+	const attunementFilter = new Filter({header: "Bağlanma", items: ["Evet", "Sınırlama:", "İsteğe Bağlı", "Hayır"]});
 	const categoryFilter = new Filter({
-		header: "Category",
-		items: ["Basic", "Generic Variant", "Specific Variant", "Other"],
-		deselFn: deselectFilter("category", "Specific Variant")
+		header: "Kategori",
+		items: ["Temel", "Genel Alternatif", "Özel Alternatif", "Diğer"],
+		deselFn: deselectFilter("category", "Özel Alternatif")
 	});
-	const miscFilter = new Filter({header: "Miscellaneous", items: ["Magic", "Mundane", "Sentient"]});
+	const miscFilter = new Filter({header: "Çeşitli", items: ["Büyülü", "Sıradan", "Bilinçli"]});
 
 	filterBox = initFilterBox(sourceFilter, typeFilter, tierFilter, rarityFilter, propertyFilter, attunementFilter, categoryFilter, miscFilter);
 
@@ -201,7 +201,7 @@ function addItems (data) {
 		curitem._fTier = tierTags;
 		curitem._fProperties = curitem.property ? curitem.property.map(p => curitem._allPropertiesPtr[p].name).filter(n => n) : [];
 		curitem._fMisc = curitem.sentient ? ["Sentient"] : [];
-		const isMundane = rarity === "None" || rarity === "Unknown" || category === "Basic";
+		const isMundane = rarity === "Empty" || rarity === "Empty" || category === "Empty";
 		curitem._fMisc.push(isMundane ? "Mundane" : "Magic");
 
 		if (isMundane) {

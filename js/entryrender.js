@@ -1911,12 +1911,12 @@ EntryRenderer.item = {
 
 		// bake in types
 		const type = [];
-		if (item.wondrous) type.push("Wondrous Item");
+		if (item.wondrous) type.push("Mucizevi Eşya");
 		if (item.technology) type.push(item.technology);
 		if (item.age) type.push(item.age);
-		if (item.weaponCategory) type.push(item.weaponCategory + " Weapon");
+		if (item.weaponCategory) type.push(item.weaponCategory + " Silah");
 		if (item.type) type.push(Parser.itemTypeToAbv(item.type));
-		if (item.poison) type.push("Poison");
+		if (item.poison) type.push("Zehir");
 		item.procType = type;
 		item.typeText = type.join(", ");
 
@@ -1925,16 +1925,16 @@ EntryRenderer.item = {
 		if (item.reqAttune !== undefined) {
 			if (item.reqAttune === "YES") {
 				attunement = "Yes";
-				item.reqAttune = "(Requires Attunement)"
+				item.reqAttune = "(Bağlanma Gerektirir)"
 			} else if (item.reqAttune === "OPTIONAL") {
 				attunement = "Optional";
-				item.reqAttune = "(Attunement Optional)"
-			} else if (item.reqAttune.toLowerCase().startsWith("by")) {
-				attunement = "By...";
-				item.reqAttune = "(Requires Attunement " + item.reqAttune + ")";
+				item.reqAttune = "(Bağlanma İsteğe Bağlıdır)"
+			} else if (item.reqAttune.startsWith("Sınırlama:")) {
+				attunement = "Sınırlama:";
+				item.reqAttune = "(" + item.reqAttune + ")";
 			} else {
 				attunement = "Yes"; // throw any weird ones in the "Yes" category (e.g. "outdoors at night")
-				item.reqAttune = "(Requires Attunement " + item.reqAttune + ")";
+				item.reqAttune = "(Bağlanma Gerektirir " + item.reqAttune + ")";
 			}
 		}
 		item.attunementCategory = attunement;
