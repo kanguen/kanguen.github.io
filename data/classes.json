@@ -8012,25 +8012,25 @@
 				{
 					"type": "quote",
 					"entries": [
-						"Let me know when you're all done talking."
+						"Konuşmanız bittiğinde bana haber verin."
 					],
 					"by": "Tordek"
 				},
-				"Of all the adventurers in the worlds of D&D, the fighter is perhaps the greatest paradox. On the one hand, a singular feature of the class is that no two fighters ply their craft in quite the same way; their weapons, armor, and tactics differ across a vast spectrum. On the other hand, regardless of the tools and methods one uses, at the heart of every fighter's motivation lies the same basic truth: it is better to wound than to be wounded.",
-				"Although some adventuring fighters risk their lives fighting for glory or treasure, others are primarily concerned with the welfare of others. They put more value on the well-being of the society, the village, or the group than on their own safety. Even if there's gold in the offing, the true reward for most fighters comes from sending enemies to their doom.",
-				"The sections below offer ways to add a little depth and a few personal touches to your fighter character.",
+				"D&D evrenlerindeki maceracıların arasında, savaşçı belki de en büyük çelişkidir. Bir yanda, sınıfın bir özelliği, hiçbir savaşçının zanaatını aynı şekilde icra etmemesidir; silahları, zırhları ve taktikleri geniş bir yelpazeye yayılır. Diğer yanda, kullandığı alet ve teknik farketmeksizin, her savaşçının motivasyonunun kalbinde aynı hakikat yatar: yaralamak, yaralanmaktan iyidir.",
+				"Bazı maceracı savaşçılar hayatlarını şöhret ve hazine için riske atsa da, diğerlerinin asıl kaygısı halkın refahıdır. Toplumun, köyün veya grubun esenliği kendi güvenliklerinden daha değerlidir. Ufukta altın olsa da, çoğu savaşçı için esas ödül düşmanlarını hakettiği sona göndermektir.",
+				"Aşağıdaki kısımlar savaşçı karakterine biraz derinlik ve birkaç kişisel dokunuş katmanı sağlayabilir.",
 				{
 					"type": "entries",
-					"name": "Heraldic Sign",
+					"name": "Hanedan Nişanı",
 					"entries": [
-						"Fighters typically do battle for a cause. Some fight on behalf of kingdoms besieged by monsters, while others quest only for personal glory. In either case, a fighter often displays a heraldic sign that represents that cause, either adopting the symbol of a nation or a royal line, or creating a crest to represent one's self-interest.",
-						"Your character could be affiliated with an organization or a cause, and thus might already travel under a banner of some sort. If that's not the case, consider devising a heraldic sign that symbolizes an aspect of your nature or speaks to what you see as your purpose in the world.",
+						"Savaşçılar genelde bir amaç uğruna savaşır. Bazıları yaratık istilası altındaki krallıklar adına, bazıları da sadece kişisel şan ve şöhret için savaşır. Her iki durumda da, bir savaşçı bu amacı temsil eden bir hanedan nişanı taşır. Ya bir millet veya soylunun sembolünü alır, ya da kişinin kendi çıkarlarını temsil eden bir nişan yaratır.",
+						"Karakterin bir örgüt ya da amaç ile bağlantılı olabilir, ve bu yüzden bir sancak altında seyahat eder. Eğer durum bu değilse, senin doğanın bir yönünü veya dünyadaki amacını temsil eden bir nişan yaratmayı düşün.",
 						{
 							"type": "table",
-							"caption": "Heraldic Signs",
+							"caption": "Hanedan Nişanları",
 							"colLabels": [
 								"{@dice d6}",
-								"Heraldic Signs"
+								"Hanedan Nişanları"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -8044,7 +8044,7 @@
 											"exact": 1
 										}
 									},
-									"A rampant golden dragon on a green field, representing valor and a quest for wealth"
+									"Yeşil bir kırda şahlanmış bir altın ejderha, yiğitlik ve zenginliği temsil eder"
 								],
 								[
 									{
@@ -8053,7 +8053,7 @@
 											"exact": 2
 										}
 									},
-									"The fist of a storm giant clutching lightning before a storm cloud, symbolizing wrath and power"
+									"Bir fırtına bulutu önünde avucunda yıldırım kavrayan bir fırtına devinin yumruğu, hiddet ve gücü temsil eder"
 								],
 								[
 									{
@@ -8062,7 +8062,7 @@
 											"exact": 3
 										}
 									},
-									"Crossed greatswords in front of a castle gate, signifying the defense of a city or kingdom"
+									"Kale kapısı önünde çapraz duran kılıçlar, bir şehir ya da krallığın savunmasını temsil eder"
 								],
 								[
 									{
@@ -8071,7 +8071,7 @@
 											"exact": 4
 										}
 									},
-									"A skull with a dagger through it, representing the doom you bring to your enemies"
+									"İçinden hançer geçen bir kafatası, düşmanlarına getirdiğin hazin sonu temsil eder"
 								],
 								[
 									{
@@ -8080,7 +8080,7 @@
 											"exact": 5
 										}
 									},
-									"A phoenix in a ring of fire, an expression of an indomitable spirit"
+									"Alev çemberinde bir anka kuşu, yılmaz bir ruhun dışa vurumudur"
 								],
 								[
 									{
@@ -8089,7 +8089,7 @@
 											"exact": 6
 										}
 									},
-									"Three drops of blood beneath a horizontal sword blade on a black background, symbolizing three foes you have sworn to kill"
+									"Siyah arkaplan üzerinde yatay duran bir kılıçtan akan üç damla kan, öldürmeye yemin ettiğin üç düşmanı temsil eder"
 								]
 							]
 						}
@@ -8097,17 +8097,17 @@
 				},
 				{
 					"type": "entries",
-					"name": "Instructor",
+					"name": "Eğitmen",
 					"entries": [
-						"Some fighters are natural-born combatants who have a talent for surviving in battle. Others learned the basics of their combat prowess in their formative years from spending time in a military or some other martial organization, when they were taught by the leaders of the group.",
-						"A third type of fighter comes from the ranks of those who received one-on-one instruction from an accomplished veteran of the craft. That instructor was, or perhaps still is, well versed in a certain aspect of combat that relates to the student's background.",
-						"If you decide that your character had an individual instructor, what is that person's specialty? Do you emulate your instructor in how you fight, or did you take the instructor's teachings and adapt them to your own purposes?",
+						"Bazı savaşçıların dövüşte hayatta kalmak için doğuştan yeteneği olur. Diğerleri ise muharebe hünerlerini, daha önce zaman geçirdikleri askeri örgütlerin liderleri tarafından aldıkları eğitim ile öğrenir.",
+						"Üçüncü bir tip ise bu zanaatın ustası bir kişiden birebir eğitim almış bir savaşçıdır. O eğitmen, öğrencinin geçmişine bağlanan muharebenin bazı yönlerinde uzman olabilir.",
+						"Eğer karakterinin bireysel bir eğitmeni olduğuna karar verirsen, bu kişinin uzmanlığı neydi? Dövüş stilinde eğitmenini taklit ediyor musun, yoksa eğitmenin öğretilerini alıp kendi yorumunu mu kattın?",
 						{
 							"type": "table",
-							"caption": "Instructor",
+							"caption": "Eğitmen",
 							"colLabels": [
 								"{@dice d6}",
-								"Instructor"
+								"Eğitmen"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -8121,7 +8121,7 @@
 											"exact": 1
 										}
 									},
-									"Gladiator. Your instructor was a slave who fought for freedom in the arena, or one who willingly chose the gladiator's life to earn money and fame."
+									"Gladyatör. Eğitmenin arenada özgürlüğü için dövüşen bir köleydi, veya para ve şöhret için gönüllü bir şekilde gladyatörlük hayatını seçti."
 								],
 								[
 									{
@@ -8130,7 +8130,7 @@
 											"exact": 2
 										}
 									},
-									"Military. Your trainer served with a group of soldiers and knows much about working as a team."
+									"Askeriye. Eğitmenin bir grup asker ile çalıştı ve takım çalışması hakkında çok şey biliyor."
 								],
 								[
 									{
@@ -8139,7 +8139,7 @@
 											"exact": 3
 										}
 									},
-									"City Watch. Crowd control and peacekeeping are your instructor's specialties."
+									"Şehir Muhafızı. Kitle kontrolü ve huzuru sağlama eğitmeninin uzmanlıkları."
 								],
 								[
 									{
@@ -8148,7 +8148,7 @@
 											"exact": 4
 										}
 									},
-									"Tribal Warrior. Your instructor grew up in a tribe, where fighting for one's life was practically an every­day occurrence."
+									"Kabile Savaşçısı. Eğitmenin, hayatını korumak için savaşmanın günlük bir durum olduğu bir kabilede büyüdü."
 								],
 								[
 									{
@@ -8157,7 +8157,7 @@
 											"exact": 5
 										}
 									},
-									"Street Fighter. Your trainer excels at urban combat, combining close-quarters work with silence and efficiency."
+									"Sokak Dövüşçüsü. Eğitmenin şehir muharebelerinde uzmanlaşır, yakın mesafe dövüşünü sessizlik ve hızla harmanlar."
 								],
 								[
 									{
@@ -8166,7 +8166,7 @@
 											"exact": 6
 										}
 									},
-									"Weapon Master. Your mentor helped you to become one with your chosen weapon, by imparting highly specialized knowledge of how to wield it most effectively."
+									"Silah Üstadı. Akıl hocan, onu en etkili şekilde nasıl kullanacağını göstererek senin seçtiğin silah ile bir bütün olmana yardım etti."
 								]
 							]
 						}
@@ -8174,16 +8174,16 @@
 				},
 				{
 					"type": "entries",
-					"name": "Style",
+					"name": "Stil",
 					"entries": [
-						"Many fighters distinguish themselves from their peers by adopting and perfecting a particular style or method of waging combat. Although this style might be a natural outgrowth of a fighter's personality, that's not always the case\u2014someone's approach to the world in general does not necessarily dictate how that person operates when lives are on the line.",
-						"Do you have a combat style that mirrors your outlook on life, or is something else inside you unleashed when weapons are drawn?",
+						"Çoğu savaşçı kendilerini akranlarında belirli bir savaş stili seçip onda uzmanlaşarak ayırır. Bu savaşçının kişiliğinin doğal dışavurumu olabileceği gibi, durum her zaman bundan ibaret değildir. Birinin dünyaya yaklaşımı o kişinin hayati tehlike içerisinde vereceği kararları etkilemeyebilir.",
+						"Senin dövüş stilin hayata bakışını yansıtır mı, yoksa silahlar çekildiğinde içinde farklı bir şey mi uyanır?",
 						{
 							"type": "table",
-							"caption": "Style",
+							"caption": "Stil",
 							"colLabels": [
 								"{@dice d6}",
-								"Style"
+								"Stil"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -8197,7 +8197,7 @@
 											"exact": 1
 										}
 									},
-									"Elegant. You move with precise grace and total control, never using more energy than you need."
+									"Zarif. İnce bir zerafet ve tümüyle kontrol içerisinde hareket edersin, asla gerekenden fazla enerji kullanmazsın."
 								],
 								[
 									{
@@ -8206,7 +8206,7 @@
 											"exact": 2
 										}
 									},
-									"Brutal. Your attacks rain down like hammer blows, meant to splinter bone or send blood flying."
+									"Acımasız. Saldırıların çekiç darbeleri gibi yağar, kemiği kırıp kanı saçmayı hedefler."
 								],
 								[
 									{
@@ -8215,7 +8215,7 @@
 											"exact": 3
 										}
 									},
-									"Cunning. You dart in to attack at just the right moment and use small-scale tactics to tilt the odds in your favor."
+									"Kurnazca. Tam doğru zamanda saldırmak için atılıp küçük çaplı taktikler kullanarak üstünlüğü kendi tarafına çekersin."
 								],
 								[
 									{
@@ -8224,7 +8224,7 @@
 											"exact": 4
 										}
 									},
-									"Effortless. You rarely perspire or display anything other than a stoic expression in battle."
+									"Zahmetsiz. Dövüşte nadiren terler ya da yüzündeki çetin ifade dışında bir şey yansıtırsın."
 								],
 								[
 									{
@@ -8233,7 +8233,7 @@
 											"exact": 5
 										}
 									},
-									"Energetic. You sing and laugh during combat as your spirit soars. You are happiest when you have a foe in front of you and a weapon in hand."
+									"Enerjik. Ruhun taşarken dövüşte şarkı söyler ve gülersin. En mutlu olduğun an, karşında bir düşman ve elinde bir silah olan andır."
 								],
 								[
 									{
@@ -8242,7 +8242,7 @@
 											"exact": 6
 										}
 									},
-									"Sinister. You scowl and sneer while fighting, and you enjoy mocking your foes as you defeat them."
+									"Sinsi. Dövüşürken kaşlarını çatar ve alaycı bakarsın, düşmanlarını alt ederken onlarla alay etmekten zevk alırsın."
 								]
 							]
 						}
@@ -9620,25 +9620,25 @@
 				{
 					"type": "entries",
 					"entries": [
-						"Do not mistake my silence for acceptance of your villainy. While you blustered and threatened, I've planned four different ways to snap your neck with my bare hands."
+						"Sükunetimi zulmünün kabulü ile karıştırma. Sen bağırıp tehditler savururken, ben çıplak ellerimle boynunu kırmak için dört ayrı plan yaptım."
 					],
-					"by": "Ember, grand master of flowers"
+					"by": "Çiçeklerin yüce üstadı Ember"
 				},
-				"Monks walk a path of contradiction. They study their art as a wizard does, and like a wizard, they wear no armor and typically eschew weapons. Yet they are deadly combatants, their abilities on a par with those of a raging barbarian or a superbly trained fighter. Monks embrace this seeming contradiction, for it speaks to the core of all monastic study. By coming to know oneself completely, one learns much of the wider world.",
-				"A monk's focus on inner mastery leads many such individuals to become detached from society, more concerned with their personal experience than with happenings elsewhere. Adventuring monks are a rare breed of an already rare type of character, taking their quest for perfection beyond the walls of the monastery into the world at large.",
-				"Playing a monk character offers many intriguing opportunities to try something different. To distinguish your monk character even further, consider the options in the sections that follow.",
+				"Keşişler bir tezat yolunda yürürler. Sanatlarına bir büyücü gibi çalışıp, bir büyücü gibi zırh giymez ve genelde silah kuşanmazlar. Buna rağmen ölümcül savaşçılardır, ve yetenekleri öfkeli bir barbar ya da inanılmaz eğitimli bir savaçı ile aynı seviyede görülebilir. Keşişler bu tezatlığı benimserler, çünkü bu manastır eğitiminin temelini anlatır. Kendini tümüyle bilerek, evren hakkında çok şey öğrenebilirsin.",
+				"Bir keşişin kendini keşfetme odağı bu tip birçok bireyin toplumdan uzaklaşmasına yol açar. Çevrede olan bitenden çok bireysel deneyimleri onlar için daha önemlidir. Maceracı keşişler zaten nadir olan bir karakter tipinin daha da nadir bir grubudur, kusursuzluk ülkülerini manastır duvarları dışına, evrenin tümüne taşırlar.",
+				"Keşiş bir karakter oynama farklı bir şey denemek için birçok ilginç fırsat sunar. Keşiş karakterini daha da belirlemek için aşağıdaki kısımlardan seçenekleri düşünebilirsin.",
 				{
 					"type": "entries",
-					"name": "Monastery",
+					"name": "Manastır",
 					"entries": [
-						"A monk studies in a monastery in preparation for a life of asceticism. Most of those who enter a monastery make it their home for the rest of their lives, with the exception of adventurers and others who have reason to leave. For those individuals, a monastery might serve as a refuge between excursions to the world or as a source of support in times of need.",
-						"What sort of place was your monastery, and where is it located? Did attending it contribute to your experience in an unusual or distinctive way?",
+						"Bir keşiş sofuluk hayatına hazırlanmak için bir manastırda öğrenim görür. Bu manastıra girenlerin çoğu orayı ömürlerinin sonuna dek evi bilir, buna istisna maceracılar ve başka sebeplerden dolayı terkedenlerdir. Bu bireyler için bir manastır, görevler arası bir sığınak ya da zor zamanlarda yardım kaynağıdır.",
+						"Senin manastırın nasıl bir yerdi ve nerede yer alıyor? Buraya gitmek senin deneyimine sıradışı veya belirgin bir şekilde katkıda bulundu mu?",
 						{
 							"type": "table",
-							"caption": "Monastery",
+							"caption": "Manastır",
 							"colLabels": [
 								"{@dice d6}",
-								"Monastery"
+								"Manastır"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -9652,7 +9652,7 @@
 											"exact": 1
 										}
 									},
-									"Your monastery is carved out of a mountainside, where it looms over a treacherous pass."
+									"Manastırın dağ yamacına oyulmuştur ve zorlu bir geçide bakar."
 								],
 								[
 									{
@@ -9661,7 +9661,7 @@
 											"exact": 2
 										}
 									},
-									"Your monastery is high in the branches of an immense tree in the Feywild."
+									"Manastırın Feywild'da dev bir ağacın dalları arasındadır."
 								],
 								[
 									{
@@ -9670,7 +9670,7 @@
 											"exact": 3
 										}
 									},
-									"Your monastery was founded long ago by a cloud giant and is inside a cloud castle that can be reached only by flying."
+									"Manastırın uzun zaman önce bir bulut devi tarafından bulutlar arasına kurulmuş bir kaledir ve sadece uçarak erişilebilir."
 								],
 								[
 									{
@@ -9679,7 +9679,7 @@
 											"exact": 4
 										}
 									},
-									"Your monastery is built beside a volcanic system of hot springs, geysers, and sulfur pools. You regularly received visits from azer traders."
+									"Manastırın kaplıcalar, kükürt havuzları ve gayzerlerin yakınında bir volkanik sistemde kurulmuştur. Düzenli bir şekilde azer tüccarlar tarafından ziyaret edilirdiniz."
 								],
 								[
 									{
@@ -9688,7 +9688,7 @@
 											"exact": 5
 										}
 									},
-									"Your monastery was founded by gnomes and is an underground labyrinth of tunnels and rooms."
+									"Manastırın gnomelar tarafından yapılmış, bu yüzden tüneller ve odalardan oluşan bir yeraltı labirentidir."
 								],
 								[
 									{
@@ -9697,7 +9697,7 @@
 											"exact": 6
 										}
 									},
-									"Your monastery was carved from an iceberg in the frozen reaches of the world."
+									"Manastırın dünyanın en soğuk yerlerinde bir buzdağına oyulmuştur."
 								]
 							]
 						}
@@ -9705,16 +9705,16 @@
 				},
 				{
 					"type": "entries",
-					"name": "Icon",
+					"name": "İkona",
 					"entries": [
-						"Even in the monastic lifestyle, which eschews materialism and personal possessions, symbolism plays an important part in defining the identity of an order. Some monastic orders treat certain creatures with special regard, either because the creature is tied to the order's history or because it serves as an example of a quality the monks seek to emulate.",
-						"If your character's monastery had a special icon, you might wear a crude image of the creature somewhere inconspicuous on your clothing to serve as an identifying mark. Or perhaps your order's icon does not have a physical form but is expressed through a gesture or a posture that you adopt, and which other monks might know how to interpret.",
+						"Materyalizm ve kişisel malları hiçe sayan bir keşiş yaşam biçiminde bile sembolizm, tarikatının kimliğini belirlemede büyük bir rol oynar. Bazı keşiş tarikatları belirli varlıkları özel sayar, bu varlık ya tarikatın geçmişine bağlıdır ya da keşişlerin taklit ettiği bir niteliğe sahiptir.",
+						"Eğer karakterinin manastırının özel bir ikonası varsa, bu varlığın kaba bir tasvirini kıyafetinde dikkat çekmeyen bir yerde taşıyıp tanıtıcı bir sembol olarak kullanabilirsin. Belki de tarikatının ikonasının bir fiziksel formu yoktur ve yaptığın bir jest ya da duruş ile yansıtılır, diğer keşişlerin bunu nasıl algılayacağını bilebilir.",
 						{
 							"type": "table",
-							"caption": "Icon",
+							"caption": "İkona",
 							"colLabels": [
 								"{@dice d6}",
-								"Icon"
+								"İkona"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -9728,7 +9728,7 @@
 											"exact": 1
 										}
 									},
-									"Monkey. Quick reflexes and the ability to travel through the treetops are two of the reasons why your order admires the monkey."
+									"Maymun. Hızlı refleksler ve ağaç tepelerinden seyahat edebilme yetisi tarikatının maymuna imrenmesinin sebeplerinden sadece ikisidir."
 								],
 								[
 									{
@@ -9737,7 +9737,7 @@
 											"exact": 2
 										}
 									},
-									"Dragon Turtle. The monks of your seaside monastery venerate the dragon turtle, reciting ancient prayers and offering garlands of flowers to honor this living spirit of the sea."
+									"Ejderha Kaplumbağası. Deniz kenarı manastırındaki keşişler ejderha kaplumbağasını yüce sayar, bu yaşayan deniz ruhunu onurlandırmak için kadim dualar okuyup çelenkler sunarlar."
 								],
 								[
 									{
@@ -9746,7 +9746,7 @@
 											"exact": 3
 										}
 									},
-									"Ki-rin. Your monastery sees its main purpose as watching over and protecting the land in the manner of the ki-rin."
+									"Ki-rin. Manastırın aynı bir ki-rin gibi diyarı bekleyip muhafaza etmeyi asıl amacı görür."
 								],
 								[
 									{
@@ -9755,7 +9755,7 @@
 											"exact": 4
 										}
 									},
-									"Owlbear. The monks of your monastery revere a family of owlbears and have coexisted with them for generations."
+									"Owlbear. Manastırının keşişleri bir owlbear ailesi ile nesillerdir birlikte yaşar ve onlara saygı duyar."
 								],
 								[
 									{
@@ -9764,7 +9764,7 @@
 											"exact": 5
 										}
 									},
-									"Hydra. Your order singles out the hydra for its ability to unleash several attacks simultaneously."
+									"Hydra. Tarikatın hydrayı aynı anda birçok saldırı yapabilme yetisinden dolayı diğerlerinden ayrı tutar."
 								],
 								[
 									{
@@ -9773,7 +9773,7 @@
 											"exact": 6
 										}
 									},
-									"Dragon. A dragon once laired within your monastery. Its influence remains long after its departure."
+									"Ejderha. Manastırın eskiden bir ejderha yuvasıymış. Etkisi o çoktan gitmesine rağmen hala orada."
 								]
 							]
 						}
@@ -9781,15 +9781,15 @@
 				},
 				{
 					"type": "entries",
-					"name": "Master",
+					"name": "Üstat",
 					"entries": [
-						"During your studies, you were likely under the tutelage of a master who imparted to you the precepts of the order. Your master was the one most responsible for shaping your understanding of the martial arts and your attitude toward the world. What sort of person was your master, and how did your relationship with your master affect you?",
+						"Öğrenimin sırasında, muhtemelen sana tarikatının ilkelerini aşılayan bir üstadın eğitimindeydin. Senin dünyaya karşı tavrın ve dövüş sanatları bilginin sorumlusu bu üstattır. Üstadın ne tip biriydi, ve üstadın ile ilişkin seni nasıl etkiledi?",
 						{
 							"type": "table",
-							"caption": "Master",
+							"caption": "Üstat",
 							"colLabels": [
 								"{@dice d6}",
-								"Master"
+								"Üstat"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -9803,7 +9803,7 @@
 											"exact": 1
 										}
 									},
-									"Your master was a tyrant whom you had to defeat in single combat to complete your instruction."
+									"Üstadın, eğitimini tamamlayabilmek için birebir dövüşte yenmek zorunda olduğun bir tirandı."
 								],
 								[
 									{
@@ -9812,7 +9812,7 @@
 											"exact": 2
 										}
 									},
-									"Your master was kindly and taught you to pursue the cause of peace."
+									"Üstadın nazik biriydi ve sana barışı hedeflemeyi öğretti."
 								],
 								[
 									{
@@ -9821,7 +9821,7 @@
 											"exact": 3
 										}
 									},
-									"Your master was merciless in pushing you to your limits. You nearly lost an eye during one especially brutal practice session."
+									"Üstadın seni sınırlarına iterken acımasızdı. Bu acımasız idman seanslarından birinde neredeyse gözünü kaybediyordun."
 								],
 								[
 									{
@@ -9830,7 +9830,7 @@
 											"exact": 4
 										}
 									},
-									"Your master seemed goodhearted while tutoring you, but betrayed your monastery in the end."
+									"Üstadın seni eğitirken çok iyi niyetli görünüyordu ama nihayetinde manastıra ihanet etti."
 								],
 								[
 									{
@@ -9839,7 +9839,7 @@
 											"exact": 5
 										}
 									},
-									"Your master was cold and distant. You suspect that the two of you might be related."
+									"Üstadın soğuk ve mesafeliydi. Kan bağınız olabileceğinden şüpheleniyorsun."
 								],
 								[
 									{
@@ -9848,7 +9848,7 @@
 											"exact": 6
 										}
 									},
-									"Your master was kind and generous, never critical of your progress. Nevertheless, you feel you never fully lived up to the expectations placed on you."
+									"Üstadın nazik ve cömertti, ilerlemeni hiç eleştirmezdi. Buna rağmen, sanki senden beklentilerini hiç karşılayamamışsın gibi hissediyorsun."
 								]
 							]
 						}
