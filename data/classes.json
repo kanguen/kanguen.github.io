@@ -1969,7 +1969,7 @@
 							{
 								"name": "Bilgi Koleji",
 								"entries": [
-									"Bilgi Kolejindeki ozanlar hemen herşey hakkında bir fikir sahibidir, kaynakları akademik yazıtlardan çiftçi hikayelerine kadar uzanır. Tavernalarda türküler ya da kraliyet huzurunda çalınan karmaşık besteler farketmeksizin bu ozanlar seyircilerini yetenekleriyle büyülerler. Alkış dindiğinde seyirciler kendilerini o ana kadar bağlı oldukları bütün doğruları sorgular bulabilirler, bu rahiplerin inancı ya da bir şövalyenin sadakati olabilir.",
+									"Bilgi Kolejindeki ozanlar hemen her şey hakkında bir fikir sahibidir, kaynakları akademik yazıtlardan çiftçi hikayelerine kadar uzanır. Tavernalarda türküler ya da kraliyet huzurunda çalınan karmaşık besteler farketmeksizin bu ozanlar seyircilerini yetenekleriyle büyülerler. Alkış dindiğinde seyirciler kendilerini o ana kadar bağlı oldukları bütün doğruları sorgular bulabilirler, bu rahiplerin inancı ya da bir şövalyenin sadakati olabilir.",
 									"Bu ozanların sadakati güzellik ve doğruluğun arayışınadır, bir monarşi üyesine ya da bir tanrının öğretilerine değil. Bu tip bir ozanı danışman olarak tutan bir soylu, ozanın politik olmaktansa dürüst olmayı tercih edeceğini bilir.",
 									"Kolej üyeleri kütüphanelerde ve bazen kolejlerde toplanıp bilgi birikimlerini birbirleri ile paylaşırlar. Bazen festival ve devlet işlerinde de buluşup yozlaşma ve yalanları ortaya çıkarıp, otorite figürleriyle alay ederler.",
 									{
@@ -2329,7 +2329,7 @@
 					],
 					"by": "Fletcher Danairia, üstad ozan"
 				},
-				"Ozanlar zor zamanları hafifletirler; cehaleti giderecek akıl verirler; ve rezili yüce gösterirler. Ozanlar kadim tarihin koruyucularıdır, büyük olaylar hakkında bilgiler onların öyküleri ve şarkıları ile ezberlenip sözel tarih olarak nesillerce aktarılarak hiç yazılı kaynak kalmasa da korunur.",
+				"Ozanlar zor zamanları hafifletir, cehaleti giderecek akıl verir ve rezili yüceltebilirler. Ozanlar kadim tarihin koruyucularıdır, büyük olaylar hakkında bilgiler onların öyküleri ve şarkıları ile ezberlenip sözel tarih olarak nesillerce aktarılarak hiç yazılı kaynak kalmasa da korunur.",
 				"Daha küçük ve güncel işleri de kaydedip yaymak ozanların görevidir, günümüz kahramanlarının hikayeleri, onların savaştaki hünerleri ve çok da etkileyici olmayan yenilgileri gibi.",
 				"Elbette, dünya bir ezgi çalıp güzel bir hikaye anlatabilen kişilerle dolu, ve maceracı bir ozanda akıcı bir dil ve hoş bir sesten çok daha fazlası var. Fakat ozanları diğerlerinden, hatta birbirlerinden ayıran şey, tarzları ve performanslarının içeriğidir.",
 				"Seyirci kitlesinin dikkatini çekip koruyabilmek için ozanlar performanslarında genellikle gösterişli ve canayakın olurlar. En ünlü olanları özünde D&D evreninin pop yıldızlarıdır. Eğer bir ozan oynuyorsan, favori müzisyenlerinden birini karakterine örnek almayı düşünebilirsin.",
@@ -3466,7 +3466,7 @@
 							{
 								"name": "Bilgi Alanı",
 								"entries": [
-									"Oghma, Boccob, Gilean, Aureon, ve Thoth gibi bilgi tanrıları öğrenme ve anlamayı herşeyin üzerinde tutarlar. Bazıları bilginin toplanıp kütüphane ve üniversitelerde paylaşılmasını ya da buluş ve zanaat gibi uygulanan bilgilerin yayılmasını öğütler. Bazı tanrılarsa bilgileri toplar ve sırlarını kendilerine saklarlar. Bazıları müritlerine çoklu evrenin sırlarını keşfederlerse inanılmaz güçlere sahip olacakları sözünü verir. Bu tanrıların müritleri nadir bilgileri kovalar, eski yazıtları toplar, dünyanın gizli yerlerine gider ve öğrenebilecekleri herşeyi öğrenirler.",
+									"Oghma, Boccob, Gilean, Aureon, ve Thoth gibi bilgi tanrıları öğrenme ve anlamayı her şeyin üzerinde tutarlar. Bazıları bilginin toplanıp kütüphane ve üniversitelerde paylaşılmasını ya da buluş ve zanaat gibi uygulanan bilgilerin yayılmasını öğütler. Bazı tanrılarsa bilgileri toplar ve sırlarını kendilerine saklarlar. Bazıları müritlerine çoklu evrenin sırlarını keşfederlerse inanılmaz güçlere sahip olacakları sözünü verir. Bu tanrıların müritleri nadir bilgileri kovalar, eski yazıtları toplar, dünyanın gizli yerlerine gider ve öğrenebilecekleri her şeyi öğrenirler.",
 									"Belirtilen rahip seviyelerinde bu büyüleri hazırlanmış büyü listene eklersin.",
 									{
 										"type": "table",
@@ -4552,25 +4552,25 @@
 				{
 					"type": "quote",
 					"entries": [
-						"To become a cleric is to become a messenger of the gods. The power the divine offers is great, but it always comes with tremendous responsibility."
+						"Bir rahip olmak tanrıların elçisi olmak demektir. Tanrıların sunduğu güç yücedir, ama bu daima zorlu yükümlülükler de getirir."
 					],
-					"by": "Riggby the patriarch"
+					"by": "Patrik Riggby"
 				},
-				"Almost all the folk in the world who revere a deity live their lives without ever being directly touched by a divine being. As such, they can never know what it feels like to be a cleric\u2014someone who is not only a devout worshiper, but who has also been invested with a measure of a deity's power.",
-				"The question has long been debated: Does a mortal become a cleric as a consequence of deep devotion to one's deity, thereby attracting the god's favor? Or is it the deity who sees the potential in a person and calls that individual into service? Ultimately, perhaps, the answer doesn't matter. However clerics come into being, the world needs clerics as much as clerics and deities need each other.",
-				"If you're playing a cleric character, the following sections offer ways to add some detail to that character's history and personality.",
+				"Dünyada bir tanrıya inanan neredeyse herkes, ömürlerini bu kutsal varlık tarafından bir kere bile doğrudan dokunulmadan geçirirler. Bu yüzden, bir rahip olmanın nasıl bir şey olduğunu asla bilemezler. Bir rahip sadece dinine bağlı bir kimse değildir, ayrıca tanrının gücünün bir kısmı da bahşedilmiştir.",
+				"Soru uzun süredir tartışılır: Bir ölümlü, tanrısına olan derin bağlılığının sonucu olarak mı onun lütfunu alır ve rahip olur? Yoksa bir tanrı mı ölümlüde potansiyeli görür ve onu hizmetine alır? Belki de nihayetinde, cevabın önemi yoktur. Rahipler nasıl bu yolu seçerlerse seçsinler, dünya, rahiplere en az tanrılar ve rahiplerin birbirine ihtiyacı kadar muhtaçtır.",
+				"Eğer bir rahip karakter oynuyorsan, karakterinin geçmişi ve kişiliğine şu kısımlarda sunulan detaylardan ekleyebilirsin.",
 				{
 					"type": "entries",
-					"name": "Temple",
+					"name": "Tapınak",
 					"entries": [
-						"Most clerics start their lives of service as priests in an order, then later realize that they have been blessed by their god with the qualities needed to become a cleric. To prepare for this new duty, candidates typically receive instruction from a cleric of a temple or another place of study devoted to their deity.",
-						"Some temples are cut off from the world so that their occupants can focus on devotions, while other temples open their doors to minister to and heal the masses. What is noteworthy about the temple you studied at?",
+						"Çoğu rahip hizmet hayatlarına bir tarikatta dini görevli olarak başlar, sonrasında bir rahip olmak için gereken nitelikler ile tanrısı tarafından kutsandığını farkeder. Bu yeni göreve hazırlanmak için, adaylar genellikle tanrılarına adanmış başka bir tapınak ya da eğitim yerindeki rahiplerden talimat alırlar.",
+						"Bazı tapınaklar içindekiler ibadetlerine odaklanabilsin diye dış dünyadan kopuktur, diğer tapınaklar ise kapılarını açıp kitleleri iyileştirerek vaizlik yaparlar. Senin eğitim aldığın tapınağın öne çıkan özelliği neydi?",
 						{
 							"type": "table",
-							"caption": "Temple",
+							"caption": "Tapınak",
 							"colLabels": [
 								"{@dice d6}",
-								"Temple"
+								"Tapınak"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -4584,7 +4584,7 @@
 											"exact": 1
 										}
 									},
-									"Your temple is said to be the oldest surviving structure built to honor your god."
+									"Tapınağının tanrına adanmış en eski yapı olduğu söylenir."
 								],
 								[
 									{
@@ -4593,7 +4593,7 @@
 											"exact": 2
 										}
 									},
-									"Acolytes of several like-minded deities all received instruction together in your temple."
+									"Senin tapınağında hemfikir tanrıların müritleri ortak eğitim aldı."
 								],
 								[
 									{
@@ -4602,7 +4602,7 @@
 											"exact": 3
 										}
 									},
-									"You come from a temple famed for the brewery it operates. Some say you smell like one of its ales."
+									"İşlettiği bira imalathanesi ile ünlü bir tapınaktan gelirsin. Bazıları oranın biralarından biri gibi koktuğunu söyler."
 								],
 								[
 									{
@@ -4611,7 +4611,7 @@
 											"exact": 4
 										}
 									},
-									"Your temple is a fortress and a proving ground that trains warrior-priests."
+									"Tapınağın bir kale ve savaşçı rahip yetiştiren bir tecrübe sahasıdır."
 								],
 								[
 									{
@@ -4620,7 +4620,7 @@
 											"exact": 5
 										}
 									},
-									"Your temple is a peaceful, humble place, filled with vegetable gardens and simple priests."
+									"Tapınağın sebze bahçeleri ve sade dinadamları ile dolu, huzurlu ve mütevazı bir yerdir."
 								],
 								[
 									{
@@ -4629,21 +4629,21 @@
 											"exact": 6
 										}
 									},
-									"You served in a temple in the Outer Planes."
+									"Dış boyutlardaki bir tapınakta hizmet verdin."
 								]
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Keepsake",
+							"name": "Yadigar",
 							"entries": [
-								"Many clerics have items among their personal gear that symbolize their faith, remind them of their vows, or otherwise help to keep them on their chosen paths. Even though such an item is not imbued with divine power, it is vitally important to its owner because of what it represents.",
+								"Çoğu rahip üzerlerinde onların inancını temsil eden, yeminlerini hatırlatan, veya onları seçtikleri yolda tutan bir kişisel eşya taşır. Bu tip bir eşya kutsal güç ile dolu olmasa da, temsil ettiği şeyden dolayı sahibine hayati önem taşır.",
 								{
 									"type": "table",
-									"caption": "Keepsake",
+									"caption": "Yadigar",
 									"colLabels": [
 										"{@dice d6}",
-										"Keepsake"
+										"Yadigar"
 									],
 									"colStyles": [
 										"col-xs-1 text-align-center",
@@ -4657,7 +4657,7 @@
 													"exact": 1
 												}
 											},
-											"The finger bone of a saint"
+											"Bir azizin parmak kemiği"
 										],
 										[
 											{
@@ -4666,7 +4666,7 @@
 													"exact": 2
 												}
 											},
-											"A metal-bound book that tells how to hunt and destroy infernal creatures"
+											"Nasıl cehennem varlıklarını avlayıp yok edeceğini anlatan metal kaplı bir kitap"
 										],
 										[
 											{
@@ -4675,7 +4675,7 @@
 													"exact": 3
 												}
 											},
-											"A pig's whistle that reminds you of your humble and beloved mentor"
+											"Sana mütevazı ve sevilen akıl hocanı hatırlatan bir eşya"
 										],
 										[
 											{
@@ -4684,7 +4684,7 @@
 													"exact": 4
 												}
 											},
-											"A braid of hair woven from the tail of a unicorn"
+											"Unicorn kuyruğundan örülmüş bir saç örgüsü"
 										],
 										[
 											{
@@ -4693,7 +4693,7 @@
 													"exact": 5
 												}
 											},
-											"A scroll that describes how best to rid the world of necromancers"
+											"Dünyayı nasıl necromancerlardan arındıracağını anlatan bir tomar"
 										],
 										[
 											{
@@ -4702,7 +4702,7 @@
 													"exact": 6
 												}
 											},
-											"A runestone said to be blessed by your god"
+											"Tanrın tarafından kutsandığı söylenen bir rün taşı"
 										]
 									]
 								}
@@ -4710,16 +4710,16 @@
 						},
 						{
 							"type": "entries",
-							"name": "Secret",
+							"name": "Sır",
 							"entries": [
-								"No mortal soul is entirely free of second thoughts or doubt. Even a cleric must grapple with dark desires or the forbidden attraction of turning against the teachings of one's deity.",
-								"If you haven't considered this aspect of your character yet, see the table entries for some possibilities, or use them for inspiration. Your deep, dark secret might involve something you did (or are doing), or it could be rooted in the way you feel about the world and your role in it.",
+								"Hiçbir ölümlü ruh şüphelerden tümüyle arındırılamaz. Bir rahip bile karanlık arzular ile cebelleşip, tanrısının öğretilerine karşı gelmek için duyduğu yasaklı çekim ile savaşır.",
+								"Eğer karakterinin bu yönünü hala düşünmediysen, tablodaki girdileri fikir vermesi açısından inceleyebilirsin, veya onlardan ilham için faydalanabilirsin. Senin derin, karanlık sırrın yaptığın (ya da hala yapmakta olduğun) bir şeyi içerebilir, veya bu dünya hakkındaki hislerin ve senin bunun içindeki rolün hakkında da olabilir.",
 								{
 									"type": "table",
-									"caption": "Secret",
+									"caption": "Sır",
 									"colLabels": [
 										"{@dice d6}",
-										"Secret"
+										"Sır"
 									],
 									"colStyles": [
 										"col-xs-1 text-align-center",
@@ -4733,7 +4733,7 @@
 													"exact": 1
 												}
 											},
-											"An imp offers you counsel. You try to ignore the creature, but sometimes its advice is helpful."
+											"Bir imp sana danışmanlık yapar. Varlığı görmezden gelmeye çalışırsın ama bazen tavsiyeleri işine yarar."
 										],
 										[
 											{
@@ -4742,7 +4742,7 @@
 													"exact": 2
 												}
 											},
-											"You believe that, in the final analysis, the gods are nothing more than ultrapowerful mortal creatures."
+											"Son analizine göre, tanrıların ultra güçlü ölümlü varlıklar olduğuna inanıyorsun."
 										],
 										[
 											{
@@ -4751,7 +4751,7 @@
 													"exact": 3
 												}
 											},
-											"You acknowledge the power of the gods, but you think that most events are dictated by pure chance."
+											"Tanrıların gücünü tanıyorsun, ama çoğu olayın şans ve tesadüflerle gerçekleştiğine inanıyorsun."
 										],
 										[
 											{
@@ -4760,7 +4760,7 @@
 													"exact": 4
 												}
 											},
-											"Even though you can work divine magic, you have never truly felt the presence of a divine essence within yourself."
+											"Kutsal gücü kullanabilsen bile, asla kendi içinde kutsal bir özü hissetmedin."
 										],
 										[
 											{
@@ -4769,7 +4769,7 @@
 													"exact": 5
 												}
 											},
-											"You are plagued by nightmares that you believe are sent by your god as punishment for some unknown transgression."
+											"Tanrın tarafından, bilmediğin bir günahın cezası olarak gönderildiğine inandığın kabuslar görüyorsun."
 										],
 										[
 											{
@@ -4778,7 +4778,7 @@
 													"exact": 6
 												}
 											},
-											"In times of despair, you feel that you are but a plaything of the gods, and you resent their remoteness."
+											"Çaresiz zamanlarda, sadece tanrıların oyuncağı gibi hissedip, mesafeli olmalarına kızıyorsun."
 										]
 									]
 								}
@@ -4786,12 +4786,12 @@
 						},
 						{
 							"type": "inset",
-							"name": "Serving a Pantheon, Philosophy, or Force",
+							"name": "Bir Pantheon, Felsefe, veya Güce hizmet etme",
 							"entries": [
-								"The typical cleric is an ordained servant of a particular god and chooses a Divine Domain associated with that deity. The cleric's magic flows from the god or the god's sacred realm, and often the cleric bears a holy symbol that represents that divinity.",
-								"Some clerics, especially in a world like Eberron, serve a whole pantheon, rather than a single deity. In certain campaigns, a cleric might instead serve a cosmic force, such as life or death, or a philosophy or concept, such as love, peace, or one of the nine alignments. Chapter 1 of the Dungeon Master's Guide explores options like these, in the section \"Gods of Your World.\"",
-								"Talk with your DM about the divine options available in your campaign, whether they're gods, pantheons, philosophies, or cosmic forces. Whatever being or thing your cleric ends up serving, choose a Divine Domain that is appropriate for it, and if it doesn't have a holy symbol, work with your DM to design one.",
-								"The cleric's class features often refer to your deity. If you are devoted to a pantheon, cosmic force, or philosophy, your cleric features still work for you as written. Think of the references to a god as references to the divine thing you serve that gives you your magic."
+								"Tipik bir rahip, belirli bir tanrının buyruğunda hizmetkardır ve o tanrı ile bağdaştırılan bir Kutsal Alan seçer. Rahibin büyüsü tanrıdan ya da tanrının kutsal diyarından gelir, ve genellikle rahip bu kutsallığı temsil eden bir kutsal sembol taşır.",
+								"Özellikle Eberron gibi evrenlerde bazı rahipler, tek bir tanrı yerine tüm pantheona hizmet ederler. Bazı serüvenlerde, bir rahip yaşam ya da ölüm gibi kozmik bir güce hizmet edebilir, veya aşk, barış, dokuz yönelimden biri gibi bir kavram ya da felsefeye de hizmet edebilir.",
+								"Tanrılar, pantheonlar, felsefeler veya kozmik güçler farketmeden seçeneklerin için DM'in ile konuş. Sonunda rahibinin hizmet ettiği varlık ya da şeye uygun bir Kutsal Alan seç, ve eğer bir kutsal sembolü yoksa DM ile birlikte bir tane tasarla.",
+								"Rahibin sınıf özellikleri sıklıkla tanrına atıfta bulunur. Eğer bir pantheon, kozmik güç veya felsefeye bağlıysan özellikler hala senin için de yazıldığı şekliyle işler. Tanrına yapılan atıfları, sana gücünü veren kutsal şey olarak düşün."
 							]
 						}
 					]
@@ -6153,24 +6153,24 @@
 				{
 					"type": "quote",
 					"entries": [
-						"Even in death, each creature plays its part in maintaining the Great Balance. But now an imbalance grows, a force that seeks to hold sway over nature. This is the destructive behavior of the mortal races. The farther away from nature their actions take them, the more corrupting their influence becomes. As druids, we seek mainly to protect and educate, to preserve the Great Balance, but there are times when we must rise up against danger and eradicate it."
+						"Ölümde bile, her varlık Yüce Dengeyi korumak için üzerine düşeni yapar. Ama şimdi bir dengesizlik yükselişte, doğa üzerinde kontrolü sağlamak isteyen bir güç. Ölümlü ırkların yıkıcı davranışıdır bu. Eylemleri onları doğadan ne kadar uzaklaştırırsa, etkileri o kadar yozlaştırıcı olur. Druidler olarak biz aslen Yüce Dengeyi koruyabilmek adına savunur ve eğitiriz, ama bazen tehlikeye karşı gelip ondan kurtulmamız gereken zamanlar olur."
 					],
-					"by": "Safhran, archdruid"
+					"by": "Başdruid Safhran"
 				},
-				"Druids are the caretakers of the natural world, and it is said that in time a druid becomes the voice of nature, speaking the truth that is too subtle for the general populace to hear. Many who become druids find that they naturally gravitate toward nature; its forces, cycles, and movements fill their minds and spirits with wonder and insight. Many sages and wise folk have studied nature, writing volumes about its mystery and power, but druids are a special kind of being: at some point, they begin to embody these natural forces, producing magical phenomena that link them to the spirit of nature and the flow of life. Because of their strange and mysterious power, druids are often revered, shunned, or considered dangerous by the people around them.",
-				"Your druid character might be a true worshiper of nature, one who has always scorned civilization and found solace in the wild. Or your character could be a child of the city who now strives to bring the civilized world into harmony with the wilderness. You can use the sections that follow to flesh out your druid, regardless of how your character came to the profession.",
+				"Druidler doğal yaşamın bakıcılarıdırlar, ve denir ki bir druid zamanla doğanın sesine dönüşür, ama gerçeği sıradan toplumun anlayamayacağı incelikte paylaşır. Druid olanlar zamanla doğaya doğru yöneldiklerini farkederler; onun güçleri, döngüleri ve hareketleri ruh ve zihinlerini, hayranlık ve sezgi ile doldurur. Nice bilge ve alim doğayı incelemiş, sırları ve gücü hakkında ciltler yazmıştır, ama druidler farklıdır: bir noktada bu doğal güçlerin beden bulmuş haline dönerler, onları doğa ruhu ve yaşam akışına bağlayan büyülü fenomenleri üretebilirler. Bu garip ve gizemli güçlerinden dolayı, druidler çevresindeki kişiler tarafından saygı görebilir, dışlanabilir veya tehlikeli olarak görülebilirler.",
+				"Druid karakterin doğanın gerçek bir müridi olabilir, daima medeniyetten haz etmeyip huzuru doğada bulan biri. Veya karakterin şehirde büyümüş bir çocuk olabilir, şimdilerde medeni dünyayı yaban ile uyum içerisine sokmak için uğraşır. Karakterin mesleğe nasıl girdiği farketmeksizin şu kısımları druidine şekil vermek için kullanabilirsin.",
 				{
 					"type": "entries",
-					"name": "Treasured Item",
+					"name": "Değer Verilen Eşya",
 					"entries": [
-						"Some druids carry one or more items that are sacred to them or have deep personal significance. Such items are not necessarily magical, but every one is an object whose meaning connects the druid's mind and heart to a profound concept or spiritual outlook.",
-						"When you decide what your character's treasured item is, think about giving it an origin story: how did you come by the item, and why is it important to you?",
+						"Bazı druidler onlara kutsal olan ya da derin kişisel önem taşıyan eşyalara sahiptir. Bu tip eşyalar büyülü olmak zorunda değildirler, ama her biri druidin ruh ve kalbini özlü bir kavram ya da ruhsal bakışa bağlayan anlamlar taşıyan şeylerdir.",
+						"Karakterinin değer verdiği eşyasının ne olduğuna karar verdiğinde, ona bir başlangıç hikayesi vermeyi düşün: bu eşya ile nasıl karşılaştın ve senin için neden önemli?",
 						{
 							"type": "table",
-							"caption": "Treasured Item",
+							"caption": "Değer Verilen Eşya",
 							"colLabels": [
 								"{@dice d6}",
-								"Treasured Item"
+								"Değer Verilen Eşya"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -6184,7 +6184,7 @@
 											"exact": 1
 										}
 									},
-									"A twig from the meeting tree that stands in the center of your village"
+									"Köyünün ortasında duran buluşma ağacından bir dal"
 								],
 								[
 									{
@@ -6193,7 +6193,7 @@
 											"exact": 2
 										}
 									},
-									"A vial of water from the source of a sacred river"
+									"Kutsal bir derenin kaynağından alınmış bir şişe su"
 								],
 								[
 									{
@@ -6202,7 +6202,7 @@
 											"exact": 3
 										}
 									},
-									"Special herbs tied together in a bundle"
+									"Bir demet halinde bağlanmış özel otlar"
 								],
 								[
 									{
@@ -6211,7 +6211,7 @@
 											"exact": 4
 										}
 									},
-									"A small bronze bowl engraved with animal images"
+									"Hayvan figürleri ile bezenmiş küçük bronz bir kase"
 								],
 								[
 									{
@@ -6220,7 +6220,7 @@
 											"exact": 5
 										}
 									},
-									"A rattle made from a dried gourd and holly berries"
+									"Holly böğürtlenleri ve kurutulmuş su kabağından yapılma bir çıngırak"
 								],
 								[
 									{
@@ -6229,7 +6229,7 @@
 											"exact": 6
 										}
 									},
-									"A miniature golden sickle handed down to you by your mentor"
+									"Akıl hocan tarafından sana verilen minyatür ve altın bir orak"
 								]
 							]
 						}
@@ -6237,15 +6237,15 @@
 				},
 				{
 					"type": "entries",
-					"name": "Guiding Aspects",
+					"name": "Rehberlik Eden Çehreler",
 					"entries": [
-						"Many druids feel a strong link to a specific aspect of the natural world, such as a body of water, an animal, a type of tree, or some other sort of plant. You identify with your chosen aspect; by its behavior or its very nature, it sets an example that you seek to emulate.",
+						"Birçok druid, doğal evrenin vücut bulduğu belirli bir çehreye güçlü bir bağ hisseder, bu bir su kütlesi, bir hayvan, bir tip ağaç veya bir tip bitki olabilir. Seçtiğin çehre ile tanımlarsın kendini; onun davranışı ya da yapısıyla, sana taklit etmen için bir örnek ortaya koyar.",
 						{
 							"type": "table",
-							"caption": "Guiding Aspects",
+							"caption": "Rehberlik Eden Çehreler",
 							"colLabels": [
 								"{@dice d6}",
-								"Guiding Aspects"
+								"Rehberlik Eden Çehreler"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -6259,7 +6259,7 @@
 											"exact": 1
 										}
 									},
-									"Yew trees remind you of renewing your mind and spirit, letting the old die and the new spring forth."
+									"Porsuk ağaçları sana ruh ve zihnin yenilenmesini hatırlatır, eskinin ölmesine izin verip yeninin doğmasını beklersin."
 								],
 								[
 									{
@@ -6268,7 +6268,7 @@
 											"exact": 2
 										}
 									},
-									"Oak trees represent strength and vitality. Meditating under an oak fills your body and mind with resolve and fortitude."
+									"Meşe ağaçları güç ve sağlığı simgeler. Bir meşe altında meditasyon yapma bedenini irade ve dayanıklılık ile doldurur."
 								],
 								[
 									{
@@ -6277,7 +6277,7 @@
 											"exact": 3
 										}
 									},
-									"The river's endless flow reminds you of the great span of the world. You seek to act with the long-term interests of nature in mind."
+									"Derenin sonsuz akışı sana evrenin kapsamını hatırlatır. Doğanın uzun süreli ihtiyaçlarını düşünerek hareket edersin."
 								],
 								[
 									{
@@ -6286,7 +6286,7 @@
 											"exact": 4
 										}
 									},
-									"The sea is a constant, churning cauldron of power and chaos. It reminds you that accepting change is necessary to sustain yourself in the world."
+									"Deniz, güç ve kaosun ebedi bir şekilde çalkalandığı bir kazandır. Sana, evrende hayatta kalabilmek için değişimi kabul etmenin gerekliliğini hatırlatır."
 								],
 								[
 									{
@@ -6295,7 +6295,7 @@
 											"exact": 5
 										}
 									},
-									"The birds in the sky are evidence that even the smallest creatures can survive if they remain above the fray."
+									"Göklerdeki kuşlar, sana en küçük varlıkların bile diğerlerinin üstünde olduğu sürece hayatta kalabileceğini kanıtlar."
 								],
 								[
 									{
@@ -6304,7 +6304,7 @@
 											"exact": 6
 										}
 									},
-									"As demonstrated by the actions of the wolf, an individual's strength is nothing compared to the power of the pack."
+									"Kurtların eylemleri ile gösterildiği şekilde, bir bireyin gücü sürünün gücüyle karşılaştırılamaz."
 								]
 							]
 						}
@@ -6312,16 +6312,16 @@
 				},
 				{
 					"type": "entries",
-					"name": "Mentors",
+					"name": "Akıl Hocaları",
 					"entries": [
-						"It's not unusual for would-be druids to seek out (or be sought out by) instructors or elders who teach them the basics of their magical arts. Most druids who learn from a mentor begin their training at a young age, and the mentor has a vital role in shaping a student's attitudes and beliefs.",
-						"If your character received training from someone else, who or what was that individual, and what was the nature of your relationship? Did your mentor imbue you with a particular outlook or otherwise influence your approach to achieving the goals of your chosen path?",
+						"Druid adaylarının, büyülü sanatlarını örenmek için bir öğretmen ya da ihtiyar arayışları sıradışı değildir. Bir akıl hocasından ders almış druid eğitimine genç yaşta başlar, ve bu akıl hocası genç öğrencinin davranış ve inanışlarını belirlemede büyük rol oynar.",
+						"Eğer karakterin başka birinden eğitim aldıysa, bu birey kim ya da neydi, ve ilişkinizin yapısı nasıldı? Akıl hocan sana belirli bir bakış açısı verdi mi ya da seçtiğin yolun hedeflerine ulaşmak için yaklaşımlarını etkiledi mi?",
 						{
 							"type": "table",
-							"caption": "Mentors",
+							"caption": "Akıl Hocaları",
 							"colLabels": [
 								"{@dice d6}",
-								"Mentors"
+								"Akıl Hocaları"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -6335,7 +6335,7 @@
 											"exact": 1
 										}
 									},
-									"Your mentor was a wise treant who taught you to think in terms of years and decades rather than days or months."
+									"Akıl hocan bilge bir treanttı ve sana gün ve ay yerine yıl ve on yıllık dilimlerle düşünmeyi öğretti."
 								],
 								[
 									{
@@ -6344,7 +6344,7 @@
 											"exact": 2
 										}
 									},
-									"You were tutored by a dryad who watched over a slumbering portal to the Abyss. During your training, you were tasked with watching for hidden threats to the world."
+									"Uyuyan bir Abyss portalını gözleyen bir dryad tarafından eğitim gördün. Eğitimin sırasında, dünyaya gelebilecek gizli tehlikelere karşı gözünü açmanı öğütledi."
 								],
 								[
 									{
@@ -6353,7 +6353,7 @@
 											"exact": 3
 										}
 									},
-									"Your tutor always interacted with you in the form of a falcon. You never saw the tutor's humanoid form."
+									"Hocan daima bir doğan formunda seninle iletişime geçti. Onun insansı formunu hiç görmedin."
 								],
 								[
 									{
@@ -6362,7 +6362,7 @@
 											"exact": 4
 										}
 									},
-									"You were one of several youngsters who were mentored by an old druid, until one of your fellow pupils betrayed your group and killed your master."
+									"Yaşlı bir druid tarafından eğitim gören birkaç gençten biriydin, ta ki diğer öğrencilerden biri gruba ihanet edip üstadı öldürene kadar."
 								],
 								[
 									{
@@ -6371,7 +6371,7 @@
 											"exact": 5
 										}
 									},
-									"Your mentor has appeared to you only in visions. You have yet to meet this person, and you are not sure such a person exists in mortal form."
+									"Hocan sana sadece düşlerde belirdi. Bu kişiyle hiç tanışmadın, ve bu kişinin ölümlü formunda varolduğundan emin değilsin."
 								],
 								[
 									{
@@ -6380,7 +6380,7 @@
 											"exact": 6
 										}
 									},
-									"Your mentor was a werebear who taught you to treat all living things with equal regard."
+									"Akıl hocan, tüm canlılara eşit saygıyla yaklaşmayı öğreten bir ayıadamdı."
 								]
 							]
 						}
@@ -10875,7 +10875,7 @@
 							{
 								"name": "Tacın Yemini",
 								"entries": [
-									"Tacın Yemini medeniyet ülkülerine, millet ruhuna, hükümdara sadakate ya da bir yasa ve hüküm tanrısına hizmet için edilir. Bu yemini eden paladinler kendilerini topluma ve özellikle toplumu bir arada tutan yasalara adarlar. Bu paladinler surlardaki yılmaz bekçilerdir, medeniyetin kurduğu herşeyi yıkmaya çalışan barbarlığın kaotik akınlarına karşı dikilirler, ve genellikle muhafızlar, timsaller veya gözcüler olarak bilinirler. Sıkça, bu yemini eden paladinler bir millet ya da hükümdara hizmet eden şövalye birliklerinin üyeleri olurlar, ve yeminlerini bu birliğe dahil olmanın bir parçası olarak ederler.",
+									"Tacın Yemini medeniyet ülkülerine, millet ruhuna, hükümdara sadakate ya da bir yasa ve hüküm tanrısına hizmet için edilir. Bu yemini eden paladinler kendilerini topluma ve özellikle toplumu bir arada tutan yasalara adarlar. Bu paladinler surlardaki yılmaz bekçilerdir, medeniyetin kurduğu her şeyi yıkmaya çalışan barbarlığın kaotik akınlarına karşı dikilirler, ve genellikle muhafızlar, timsaller veya gözcüler olarak bilinirler. Sıkça, bu yemini eden paladinler bir millet ya da hükümdara hizmet eden şövalye birliklerinin üyeleri olurlar, ve yeminlerini bu birliğe dahil olmanın bir parçası olarak ederler.",
 									{
 										"type": "entries",
 										"name": "Tacın Öğretileri",
@@ -14372,7 +14372,7 @@
 				},
 				"Kaba kuvvet işi çözmediğinde veya büyü mevcut ya da uygun olmadığında, işi düzenbazlar devralır. Gizlenme, sabotaj ve kandırmaca üzerine yoğunlaşan becerileri ile bir düzenbaz diğer karakterlerin zorlukla taklit edebileceği şekilde tehlikeye girip çıkabilir.",
 				"Bazı düzenbazlar eski hayatlarında suçlu olan ve yaratıkları atlatmayı yasalardan kaçmaya yeğleyen maceracılardır. Diğerleri ise kontratlar arasında yeteneklerini karlı bir şekilde kullanma peşinde olan profesyonel katillerdir. Bazıları ise sadece yoluna çıkan zorlukları altetmekten zevk alır.",
-				"Maceralarda bir düzenbaz, hazine için arzusunu herşeye dikkatli yaklaşımı ile birleştirir. Bir düzenbaz nadiren savaşmaktan hoşlanır. Çoğu zaman bir düzenbazın zihninde, bir varlığa karşı silahlanmak onu öldürmek değil, onun hazinesinin yeni sahibi olmaktır.",
+				"Maceralarda bir düzenbaz, hazine için arzusunu her şeye dikkatli yaklaşımı ile birleştirir. Bir düzenbaz nadiren savaşmaktan hoşlanır. Çoğu zaman bir düzenbazın zihninde, bir varlığa karşı silahlanmak onu öldürmek değil, onun hazinesinin yeni sahibi olmaktır.",
 				"Aşağıdaki kısımlar bir düzenbaz olmanın belirli yüzlerini inceler, bunları karakterine derinlik katmak için kullanabilirsin.",
 				{
 					"type": "entries",
@@ -17328,7 +17328,7 @@
 							{
 								"name": "Zebani",
 								"entries": [
-									"Sen buna karşı ol ya da olma amacı kötülük olan, varoluşun alt boyutlarından bir zebani ile antlaştın. Bu tip varlıklar nihayetinde sende dahil olmak üzere herşeyin yozlaşması ve yok olmasını arzu ederler. Bir ahit bağı kuracak kadar güçlü zebaniler arasında Demogorgon, Orcus, Fraz'Urb-luu, ve Baphomet gibi iblis lordları; Asmodeus, Dispater, Mephistopheles, ve Belial gibi baş şeytanlar; özellikle güçlü pit fiend'ler ve balor'lar; ultroloth'lar ve yugoloth'ların diğer lordları sayılabilir.",
+									"Sen buna karşı ol ya da olma amacı kötülük olan, varoluşun alt boyutlarından bir zebani ile antlaştın. Bu tip varlıklar nihayetinde sende dahil olmak üzere her şeyin yozlaşması ve yok olmasını arzu ederler. Bir ahit bağı kuracak kadar güçlü zebaniler arasında Demogorgon, Orcus, Fraz'Urb-luu, ve Baphomet gibi iblis lordları; Asmodeus, Dispater, Mephistopheles, ve Belial gibi baş şeytanlar; özellikle güçlü pit fiend'ler ve balor'lar; ultroloth'lar ve yugoloth'ların diğer lordları sayılabilir.",
 									{
 										"type": "entries",
 										"name": "Genişletilmiş Büyü Listesi",
