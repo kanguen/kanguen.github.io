@@ -11374,25 +11374,25 @@
 				{
 					"type": "quote",
 					"entries": [
-						"The true worth of a paladin is measured not in foes defeated or dungeons plundered. It is measured in lives saved and hearts turned to the causes of mercy and justice."
+						"Bir paladinin değeri alt ettiği düşmanlar veya yağmaladığı zindanlar ile ölçülmez. Kurtarılan hayatlar ve merhamet ve adalet yoluna çevrilmiş gönüller ile ölçülür."
 					],
 					"by": "Isteval"
 				},
-				"A paladin is a living embodiment of an oath\u2014a promise or a vow made manifest in the person of a holy warrior who has the skill and the determination to see the cause through to the end. Some paladins devote themselves expressly to protecting the innocent and spreading justice in the world, while others resolve to attain that goal by conquering those who stand defiant and bringing them under the rule of law.",
-				"Although no paladin in the world could be described as typical, a number of them are narrow-minded do-gooders who refuse to tolerate even the smallest deviation from their own outlook. Paladins who take up the adventuring life, however, rarely remain so rigid in their attitudes\u2014if only to keep from alienating their companions.",
-				"You can flesh out your paladin character by using the suggestions below. It's important to keep in mind that most paladins aren't robots. They have doubts and prejudices and harbor contradictory thoughts just as any other character does. Some are compelled by an internal motivation that might sometimes be at odds with the principles of their oaths.",
+				"Bir paladin yeminin beden bulmuş halidir\u2014bir yemin ya da söz, ülküsünü sonuca ulaştıracak beceri ve kararlılıktaki kutsal savaşçıda ortaya çıkar. Bazı paladinler kendilerini masumları korumaya ve dünyada adaleti yaymaya adarlar, diğerleri ise bu amaca direnenleri fethedip yasaların hakimiyetine sokarak ulaşırlar.",
+				"Evrendeki hiçbir paladin tipik diye tasvir edilemese de, bazıları dar görüşlü iyilik severlerdir ve kendi görüşlerinden azıcık sapkınlığı bile hoşgörmezler. Maceracılık hayatına atılmış paladinlerde bu huy nadiren bu kadar katı olur\u2014belki de sadece yoldaşlarına uyum sağlayabilmek adınadır.",
+				"Aşağıdaki tavsiyeleri kullanarak paladin karakterini şekillendirebilirsin. Çoğu paladinin robot olmadığını akılda bulundurmak önemlidir. Onların da şüpheleri ve önyargıları olur ve diğer karakterler gibi çelişkili düşünceler barındırırlar. Bazıları yeminleri ile çelişebilecek içsel motivasyonlara sahip olabilir.",
 				{
 					"type": "entries",
-					"name": "Personal Goal",
+					"name": "Bireysel Hedef",
 					"entries": [
-						"The precepts of a paladin's oath provide purpose to the character and dictate an ultimate goal or an overall intent that the paladin abides by and advances. Aside from that, some paladins are driven by a personal goal that either complements or transcends the dictates of their oaths. Paladins who swear different oaths might have the same personal goal, differing only in how they apply that goal to their actions when upholding their oaths.",
-						"If your paladin character has a personal goal, it might be drawn from some life event and thus not directly tied to the oath.",
+						"Bir paladin yemininin ilkeleri bu karaktere yön ve nihai bir hedef belirtir, veya paladinin uyup hayatını buna göre sürdüreceği bir gaye verir. Bunun dışında, bazı paladinlerin bireysel hedefleri yeminlerine uyum sağlar ya da bunu aşar. Farklı yeminler etmiş paladinlerin ortak bireysel amaçları olabilir, burada değişen şey yeminlerine uyarken bu hedefe nasıl ulaştıklarıdır.",
+						"Eğer paladin karakterinin bireysel bir hedefi varsa, bu hayatındaki bir deneyimden dolayı ve dolayısıyla yeminden bağımsız olabilir.",
 						{
 							"type": "table",
-							"caption": "Personal Goal",
+							"caption": "Bireysel Hedef",
 							"colLabels": [
 								"{@dice d6}",
-								"Personal Goal"
+								"Bireysel Hedef"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -11406,7 +11406,7 @@
 											"exact": 1
 										}
 									},
-									"Peace. You fight so that future generations will not have to."
+									"Barış. Gelecek nesiller savaşmasın diye savaşırsın."
 								],
 								[
 									{
@@ -11415,7 +11415,7 @@
 											"exact": 2
 										}
 									},
-									"Revenge. Your oath is the vehicle through which you will right an ancient wrong."
+									"İntikam. Yeminin, kadim bir yanlışı düzeltmek için aracındır."
 								],
 								[
 									{
@@ -11424,7 +11424,7 @@
 											"exact": 3
 										}
 									},
-									"Duty. You will live up to what you have sworn to do, or die trying."
+									"Görev. Yapmaya yemin ettiğin şeyi yaparsın, ya da denerken ölürsün."
 								],
 								[
 									{
@@ -11433,7 +11433,7 @@
 											"exact": 4
 										}
 									},
-									"Leadership. You will win a great battle that bards will sing about, and in so doing, you will become an example to inspire others."
+									"Liderlik. Ozanların dillerinden düşmeyecek büyük bir savaş kazanacaksın, ve bu şekilde diğerlerine ilham olacak bir örnek oluşturacaksın."
 								],
 								[
 									{
@@ -11442,7 +11442,7 @@
 											"exact": 5
 										}
 									},
-									"Faith. You know your path is righteous, or else the gods would not have set you upon it."
+									"İnanç. Yolunun erdemli olduğunu bilirsin, yoksa tanrılar seni bu yola sokmazdı."
 								],
 								[
 									{
@@ -11451,7 +11451,7 @@
 											"exact": 6
 										}
 									},
-									"Glory. You will lead the world into a grand new era, one that will be branded with your name."
+									"Şan. Dünya senin liderliğinde yeni ve yüce bir çağa girecek, senin adını alan bir çağa."
 								]
 							]
 						}
@@ -11459,16 +11459,16 @@
 				},
 				{
 					"type": "entries",
-					"name": "Symbol",
+					"name": "Sembol",
 					"entries": [
-						"Paladins are mindful of the influence of symbols, and many of them adopt or design an artistic device that bears a distinctive image. Your symbol exemplifies the oath you have taken and communicates that message to those around you, friend and foe alike.",
-						"Your symbol might be displayed on a banner, a flag, or your clothing for all to see. Or it could be less obvious, such as a trinket or a token that you carry concealed on your person.",
+						"Paladinler sembollerin etkisinin farkındadırlar, ve birçoğu belirgin bir görsel taşıyan araçlar benimser ya da tasarlarlar. Sembolün ettiğin yemini yansıtır ve bu mesajı çevrendekilere yayar, dosta ve düşmana.",
+						"Sembolün herkesin görmesi için bir flamada, sancakta veya kıyafetinde gösterilebilir. Veya bu kadar bariz olmayabilir, üzerinde saklı taşıdığın bir eşya ya da nişan gibi.",
 						{
 							"type": "table",
-							"caption": "Symbol",
+							"caption": "Sembol",
 							"colLabels": [
 								"{@dice d6}",
-								"Symbol"
+								"Sembol"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -11482,7 +11482,7 @@
 											"exact": 1
 										}
 									},
-									"A dragon, emblematic of your nobility in peace and your ferocity in combat"
+									"Bir ejderha, barıştaki asaletini ve savaştaki hiddetini yansıtır"
 								],
 								[
 									{
@@ -11491,7 +11491,7 @@
 											"exact": 2
 										}
 									},
-									"A clenched fist, because you are always ready to fight for your beliefs"
+									"Sıkılmış bir yumruk, çünkü daima inançların için savaşmaya hazırsındır"
 								],
 								[
 									{
@@ -11500,7 +11500,7 @@
 											"exact": 3
 										}
 									},
-									"An upraised open hand, indicating your preference for diplomacy over combat"
+									"Yukarı bakan açık bir el, dövüşten önce diplomasi tercihini gösterir"
 								],
 								[
 									{
@@ -11509,7 +11509,7 @@
 											"exact": 4
 										}
 									},
-									"A red heart, showing the world your commitment to justice"
+									"Kırmızı bir kalp, dünyaya adalete bağlılığını gösterir"
 								],
 								[
 									{
@@ -11518,7 +11518,7 @@
 											"exact": 5
 										}
 									},
-									"A black heart, signifying that emotions such as pity do not sway your dedication to your oath"
+									"Kara bir kalp, acıma gibi duyguların yeminine olan bağını zayıflatmadığını gösterir"
 								],
 								[
 									{
@@ -11527,7 +11527,7 @@
 											"exact": 6
 										}
 									},
-									"An unblinking eye, meaning that you are ever alert to all threats against your cause"
+									"Kapaksız bir göz, ülküne karşı gelecek tüm tehlikelere karşı daima tetikte olduğunu gösterir"
 								]
 							]
 						}
@@ -11535,16 +11535,16 @@
 				},
 				{
 					"type": "entries",
-					"name": "Nemesis",
+					"name": "Baş Düşman",
 					"entries": [
-						"Their adherence to a sacred oath demands that paladins take an active stance in carrying their beliefs into the world. This activity naturally leads to conflict with creatures or entities that oppose those beliefs. Among those opponents, one often stands out as a paladin's most persistent or most formidable foe\u2014a nemesis whose presence or influence is a constant factor in a paladin's life.",
-						"Your paladin character might have an enemy that dates from the days before you took up your path. Or you could be a target because when you became a paladin, you immediately attracted the attention of those that would do you in. If you have a nemesis, who or what is it? Whom among your enemies do you consider to be the biggest threat to achieving your goals?",
+						"Kutsal bir yemine olan bağlılıkları, paladinlerin inançlarını dünyaya taşıma uğruna aktif bir duruş sergilemelerini gerektirir. Bu eylem doğal olarak bu inanca karşı olan varlıklar veya oluşumlarla zıtlaşmaya yol açar. Bu rakipler arasından genelde bir tanesi, bu paladinin en ısrarcı veya çetin düşmanı olur\u2014varlığı veya etkisi daima paladinin yaşamında bir etken olan bir baş düşman.",
+						"Paladin karakterinin düşmanı bu yola girmeden önceki zamanlardan gelebilir. Veya paladin olduğun için hedef olmuş olabilirsin, anında senin sonunu getirmek isteyecek kişilerin dikkatini çektin. Eğer bir baş düşmanın varsa, bu kim ya da ne? Düşmanların arasından kimi hedeflerine ulaşmana en büyük engel olarak görüyorsun?",
 						{
 							"type": "table",
-							"caption": "Nemesis",
+							"caption": "Baş Düşman",
 							"colLabels": [
 								"{@dice d6}",
-								"Nemesis"
+								"Baş Düşman"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -11558,7 +11558,7 @@
 											"exact": 1
 										}
 									},
-									"A mighty orc war chief who threatens to overrun and destroy everything you hold sacred"
+									"Kutsal saydığın herşeyi yok etmek isteyen ulu bir orc şefi"
 								],
 								[
 									{
@@ -11567,7 +11567,7 @@
 											"exact": 2
 										}
 									},
-									"A fiend or a celestial, the agent of a power of the Outer Planes, who has been charged with corrupting or redeeming you, as appropriate"
+									"Bir zebani ya da kutsal, Dış Boyutların gücünün bir aracısı, sana uygun olarak seni yozlaştırma ya da arındırma ile görevlendirilmiş"
 								],
 								[
 									{
@@ -11576,7 +11576,7 @@
 											"exact": 3
 										}
 									},
-									"A dragon whose servants dog your steps"
+									"Hizmetkarları seni yakından izleyen bir ejderha"
 								],
 								[
 									{
@@ -11585,7 +11585,7 @@
 											"exact": 4
 										}
 									},
-									"A high priest who sees you as a misguided fool and wants you to abandon your religion"
+									"Senin yoldan çıkmış bir ahmak olduğunu düşünen ve dinini bırakmanı isteyen bir başrahip"
 								],
 								[
 									{
@@ -11594,7 +11594,7 @@
 											"exact": 5
 										}
 									},
-									"A rival paladin who trained with you but became an oath-breaker and holds you responsible"
+									"Seninle eğitim gören ama yemin bozup bundan seni sorumlu tutan bir rakip paladin"
 								],
 								[
 									{
@@ -11603,7 +11603,7 @@
 											"exact": 6
 										}
 									},
-									"A vampire who has sworn revenge against all paladins after being defeated by one"
+									"Bir paladin tarafından yenildikten sonra, hepsine karşı intikam yemini eden bir vampir"
 								]
 							]
 						}
@@ -11611,16 +11611,16 @@
 				},
 				{
 					"type": "entries",
-					"name": "Temptation",
+					"name": "Sapkınlık",
 					"entries": [
-						"Although paladins are dedicated to their oaths, they are mortals, and thus they are flawed. Many of them exhibit a type of behavior or hold to an attitude that is not in keeping with the highest ideals of their calling.",
-						"What is the temptation that your character succumbs to or finds it difficult to resist?",
+						"Paladinler yeminlerine bağlı olsalar da nihayetinde ölümlüdürler ve bu yüzden de kusurludurlar. Birçoğu yollarının istediği üstün kişi modeline uymayan davranış ve huylar sergiler.",
+						"Karakterinin yoldan çıkmasına sebep olan ya da zor direndiği bu sapkınlık nedir?",
 						{
 							"type": "table",
-							"caption": "Temptation",
+							"caption": "Sapkınlık",
 							"colLabels": [
 								"{@dice d6}",
-								"Temptation"
+								"Sapkınlık"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -11634,7 +11634,7 @@
 											"exact": 1
 										}
 									},
-									"Fury. When your anger is roused, you have trouble thinking straight, and you fear you might do something you'll regret."
+									"Öfke. Öfkelendiğinde, düzgün düşünemezsin ve pişman olacağın bir şey yapmaktan korkarsın."
 								],
 								[
 									{
@@ -11643,7 +11643,7 @@
 											"exact": 2
 										}
 									},
-									"Pride. Your deeds are noteworthy, and no one takes note of them more often than you."
+									"Gurur. Yaptıkların dikkat çeker, ama bunları en çok yücelten kişi sensin."
 								],
 								[
 									{
@@ -11652,7 +11652,7 @@
 											"exact": 3
 										}
 									},
-									"Lust. You can't resist an attractive face and a pleasant smile."
+									"Şehvet. Güzel bir yüz ve tatlı bir gülüşe direnemezsin."
 								],
 								[
 									{
@@ -11661,7 +11661,7 @@
 											"exact": 4
 										}
 									},
-									"Envy. You are mindful of what some famous folk have accomplished, and you feel inadequate when your deeds don't compare to theirs."
+									"Kıskançlık. Ünlü kişilerin yaptıklarına dikkat edersin, ve yaptıkların onlarınki ile karşılaştırılamazsa kendini eksik hissedersin."
 								],
 								[
 									{
@@ -11670,7 +11670,7 @@
 											"exact": 5
 										}
 									},
-									"Despair. You consider the great strength of the enemies you must defeat, and at times you see no way to achieve final victory."
+									"Çaresizlik. Alt etmen gereken düşmanların güçlerini düşünürsün, ve zaman zaman nihai zafere ulaşmanın yolu olmadığına inanırsın."
 								],
 								[
 									{
@@ -11679,7 +11679,7 @@
 											"exact": 6
 										}
 									},
-									"Greed. Regardless of how much glory and treasure you amass, it's never enough for you."
+									"Açgözlülük. Ne kadar şan ve hazine kazansan da sana asla yeterli gelmez."
 								]
 							]
 						}
@@ -12836,25 +12836,25 @@
 				{
 					"type": "quote",
 					"entries": [
-						"I spend a lot of my life away from civilization, keeping to its fringes to protect it. Don't assume that because I don't bend the knee to your king that I haven't done more to protect him than all his knights put together."
+						"Vaktimin çoğunu medeniyetten uzakta geçiririm, onu korumak için sınırlarında kalırım. Kralına diz çökmediğim için onun güvenliği sağlansın diye tüm şövalyelerinin toplamından fazla çalışmadığımı düşünme sakın."
 					],
 					"by": "Soveliss"
 				},
-				"Rangers are free-minded wanderers and seekers who patrol the edges of civilized territory, turning back the denizens of the wild lands beyond. It is a thankless job, since their efforts are rarely understood and almost never rewarded. Yet rangers persist in their duties, never doubting that their work makes the world a safer place.",
-				"A relationship with civilization informs every ranger's personality and history. Some rangers see themselves as enforcers of the law and bringers of justice on civilization's frontier, answering to no sovereign power. Others are survivalists who eschew civilization altogether. They vanquish monsters to keep themselves safe while they live in and travel through the perilous wild areas of the world. If their efforts also benefit the kingdoms and other civilized realms that they avoid, so be it.",
-				"If you're creating or playing a ranger character, the following sections offer ideas for embellishing the character and enhancing your roleplaying experience.",
+				"Kolcular, medeni alanların uçlarında, ötesindeki yabanlardan gelenleri geri püskürten hür zihinli seyyahlardır. Karşılıksız bir iştir, çünkü yaptıkları hiç anlaşılmaz ve ödüllendirilmez. Fakat kolcular hala görevlerinde ısrarcıdırlar, asla işlerinin dünyayı daha güvenli bir hale getirdiğinden şüphe etmezler.",
+				"Bir medeniyet ile ilişkisi her kolcunun geçmişi ve kişiliğini belirler. Bazı kolcular kendilerini medeniyetin sınırlarına düzen ve adaleti getirenler olarak görürler, hiçbir soyluya hesap vermezler. Diğerleri ise doğrudan medeniyeti hor gören doğal yaşamcılardır. Dünyanın tehlikeli yaban alanlarından geçerken kendilerini korumak için yaratıkları defederler. Eğer çabaları bu kaçındıkları krallıklara ve medeniyete de yardım ediyorsa, bırak öyle olsun.",
+				"Eğer bir kolcu karakter yaratıyorsan, şu kısımlar sana karakteri zenginleştirip oyun deneyimini geliştirmek için fikirler sunabilir.",
 				{
 					"type": "entries",
-					"name": "View of the World",
+					"name": "Dünya Görüşü",
 					"entries": [
-						"A ranger's view of the world begins (and sometimes ends) with that character's outlook toward civilized folk and the places they occupy. Some rangers have an attitude toward civilization that's deeply rooted in disdain, while others pity the people they have sworn to protect\u2014though on the battlefield, it's impossible to tell the difference between one ranger and another. Indeed, to those who have seen them operate and been the beneficiaries of their prowess, it scarcely matters why rangers do what they do. That said, no two rangers are likely to express their opinions on any matter in the same way.",
-						"If you haven't yet thought about the details of your character's worldview, consider putting a finer point on things by summarizing that viewpoint in a short statement (such as the entries on the following table). How might that feeling affect the way you conduct yourself?",
+						"Bir kolcunun dünya görüşü, bu karakterin medeni halka ve yaşadıklara yerlere bakış açısı ile başlar (ve bazen biter). Bazı kolcuların medeniyete karşı tutumları küçümsemeye dayanır, diğerleri ise korumaya yeminli oldukları kişilere acırlar. Tabii ki onları iş başında gören ve hünerlerinden faydalanan kişiler için bunu neden yaptıkları önemsizdir. Bunun yanında, kolcular bir konudaki fikirlerini aynı şekilde beyan etmezler.",
+						"Eğer hala karakterinin dünya görüşü detayları hakkında düşünmediysen, bu görüşü bir cümlede özetleyip (tablodaki girdiler gibi) işleri kolaylaştırmayı düşün. Bu his kendini ifade ederken seni nasıl etkiler?",
 						{
 							"type": "table",
-							"caption": "View of the World",
+							"caption": "Dünya Görüşü",
 							"colLabels": [
 								"{@dice d6}",
-								"View"
+								"Görüş"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -12868,7 +12868,7 @@
 											"exact": 1
 										}
 									},
-									"Towns and cities are the best places for those who can't survive on their own."
+									"Kasabalar ve şehirler kendi başına hayatta kalamayanlar için en uygun yerlerdir."
 								],
 								[
 									{
@@ -12877,7 +12877,7 @@
 											"exact": 2
 										}
 									},
-									"The advancement of civilization is the best way to thwart chaos, but its reach must be monitored."
+									"Medeniyetin gelişimi kaosa karşı gelmek için en iyi yoldur, ama erişimi gözlenmelidir."
 								],
 								[
 									{
@@ -12886,7 +12886,7 @@
 											"exact": 3
 										}
 									},
-									"Towns and cities are a necessary evil, but once the wilderness is purged of supernatural threats, we will need them no more."
+									"Kasabalar ve şehirler gerekli musibetlerdir, ama yaban doğaüstü tehlikelerden arındığında onlara ihtiyacımız kalmayacak."
 								],
 								[
 									{
@@ -12895,7 +12895,7 @@
 											"exact": 4
 										}
 									},
-									"Walls are for cowards, who huddle behind them while others do the work of making the world safe."
+									"Surlar, diğerleri dünyayı daha güvenli kılarken ardına sığınan korkaklar içindir."
 								],
 								[
 									{
@@ -12904,7 +12904,7 @@
 											"exact": 5
 										}
 									},
-									"Visiting a town is not unpleasant, but after a few days I feel the irresistible call to return to the wild."
+									"Bir kasaba ziyareti fena değildir, ama birkaç gün içinde yabana dönmek için karşıkonulamaz bir his kaplar içimi."
 								],
 								[
 									{
@@ -12913,7 +12913,7 @@
 											"exact": 6
 										}
 									},
-									"Cities breed weakness by isolating folk from the harsh lessons of the wild."
+									"Şehirler, halkı yabanın acımasız derslerinden uzaklaştırıp zayıflığı destekler."
 								]
 							]
 						}
@@ -12921,16 +12921,16 @@
 				},
 				{
 					"type": "entries",
-					"name": "Homelands",
+					"name": "Memleket",
 					"entries": [
-						"All rangers, regardless of how they came to take up the profession, have a strong connection to the natural world and its various terrains. For some rangers, the wilderness is where they grew up, either as a result of being born there or moving there at a young age. For other rangers, civilization was originally home, but the wilderness became a second homeland.",
-						"Think of your character's backstory and decide what terrain feels most like home, whether or not you were born there. What does that terrain say about your personality? Does it influence which spells you choose to learn? Have your experiences there shaped who your favored enemies are?",
+						"Mesleğe nasıl dahil oldukları farketmeksizin tüm kolcuların, doğal yaşama ve onun farklı arazilerine güçlü bağları vardır. Bazı kolcular için yaban büyüdükleri yerdir, ya orada doğmuşlardır ya da genç yaşta oraya gitmişlerdir. Diğerleri için medeniyet aslında evleridir, ama yaban artık ikinci memleket olmuştur.",
+						"Karakterinin geçmişini düşün ve orda doğup doğmaman farketmeden hangi arazinin yurt gibi hissettirdiğini bul. Bu arazi kişiliğin hakkında ne der? Senin öğreneceğin büyüleri etkiler mi? Oradaki deneyimlerin kayrılan düşmanlarını belirledi mi?",
 						{
 							"type": "table",
-							"caption": "Homelands",
+							"caption": "Memleket",
 							"colLabels": [
 								"{@dice d6}",
-								"Homeland"
+								"Memleket"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -12944,7 +12944,7 @@
 											"exact": 1
 										}
 									},
-									"You patrolled an ancient forest, darkened and corrupted by several crossings to the Shadowfell."
+									"Shadowfell ile kesişen birkaç yerden dolayı yozlaşmış kadim bir ormanda devriye gezdin."
 								],
 								[
 									{
@@ -12953,7 +12953,7 @@
 											"exact": 2
 										}
 									},
-									"As part of a group of nomads, you acquired the skills for surviving in the desert."
+									"Bir grup göçebenin yanında, çölde hayatta kalmak için gereken becerileri öğrendin."
 								],
 								[
 									{
@@ -12962,7 +12962,7 @@
 											"exact": 3
 										}
 									},
-									"Your early life in the Underdark prepared you for the challenges of combating its denizens."
+									"Yeraltında geçirdiğin gençlik yılların, seni onun halkıyla yapacağın savaşına hazırladı."
 								],
 								[
 									{
@@ -12971,7 +12971,7 @@
 											"exact": 4
 										}
 									},
-									"You dwelled on the edge of a swamp, in an area imperiled by land creatures as well as aquatic ones."
+									"Bir bataklığın sınırında, hem kara hem de su canlıları yüzünden zorda kalan bir yerde yaşadın."
 								],
 								[
 									{
@@ -12980,7 +12980,7 @@
 											"exact": 5
 										}
 									},
-									"Because you grew up among the peaks, finding the best path through the mountains is second nature to you."
+									"Tepelerin arasında büyüdüğün için, dağların içinden geçen en iyi yolu bulma senin için işten bile değil."
 								],
 								[
 									{
@@ -12989,7 +12989,7 @@
 											"exact": 6
 										}
 									},
-									"You wandered the far north, learning how to protect yourself and prosper in a realm overrun by ice."
+									"Kuzeyde gezip buzla kaplı diyarlarda kendini korumayı ve yaşamayı öğrendin."
 								]
 							]
 						}
@@ -12997,16 +12997,16 @@
 				},
 				{
 					"type": "entries",
-					"name": "Sworn Enemy",
+					"name": "Can Düşmanı",
 					"entries": [
-						"Every ranger begins with a favored enemy (or two). The determination of a favored enemy might be tied to a specific event in the character's early life, or it might be entirely a matter of choice.",
-						"What spurred your character to select a particular enemy? Was the choice made because of tradition or curiosity, or do you have a grudge to settle?",
+						"Her kolcu bir (bazen iki) kayrılan düşman ile başlar. Kayrılan düşmanın belirlenmesi karakterin geçmişinden bir olaya bağlı olabilir, veya bu sadece bir seçimdir.",
+						"Senin karakterinin o düşmanı seçmesine ne sebep oldu? Seçim gelenek ya da merak yüzünden miydi, yoksa çözmen gereken bir garezin mi var?",
 						{
 							"type": "table",
-							"caption": "Sworn Enemies",
+							"caption": "Can Düşmanı",
 							"colLabels": [
 								"{@dice d6}",
-								"Enemy"
+								"Düşman"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -13020,7 +13020,7 @@
 											"exact": 1
 										}
 									},
-									"You seek revenge on nature's behalf for the great transgressions your foe has committed."
+									"Düşmanının büyük ihlalleri yüzünden doğanın adına intikam arıyorsun."
 								],
 								[
 									{
@@ -13029,7 +13029,7 @@
 											"exact": 2
 										}
 									},
-									"Your forebears or predecessors fought these creatures, and so shall you."
+									"Senin ataların bu varlıklarla savaştı, sıra sende."
 								],
 								[
 									{
@@ -13038,7 +13038,7 @@
 											"exact": 3
 										}
 									},
-									"You bear no enmity toward your foe. You stalk such creatures as a hunter tracks down a wild animal."
+									"Rakibine bir düşmanlık beslemiyorsun. Bir avcının avını takip ettiği gibi izliyorsun bu varlıkları."
 								],
 								[
 									{
@@ -13047,7 +13047,7 @@
 											"exact": 4
 										}
 									},
-									"You find your foe fascinating, and you collect books of tales and history concerning it."
+									"Rakibine hayranlık duyarsın, bu yüzden de onun hakkında hikaye ve tarih kitapları toplarsın."
 								],
 								[
 									{
@@ -13056,7 +13056,7 @@
 											"exact": 5
 										}
 									},
-									"You collect tokens of your fallen enemies to remind you of each kill."
+									"Her ölümü hatırlatsın diye düşen düşmanlarından parçalar toplarsın."
 								],
 								[
 									{
@@ -13065,7 +13065,7 @@
 											"exact": 6
 										}
 									},
-									"You respect your chosen enemy, and you see your battles as a test of respective skills."
+									"Seçtiğin düşmana saygı duyarsın ve dövüşlerinizi becerilerin imtihanı olarak görürsün."
 								]
 							]
 						}
