@@ -16081,26 +16081,26 @@
 				{
 					"type": "quote",
 					"entries": [
-						"Egzersiz ve çalışma amatörler içindir. Gerçek güç doğuştan gelir."
+						"Pratik ve çalışma amatörler içindir. Gerçek güç doğuştan gelir."
 					],
 					"by": "Hennet, Tiamat'ın evladı"
 				},
-				"Mevzubahis ihtiyaç anında yeteneklerini ortaya çıkarmak olunca, sorcererların işi diğer karakterlere göre daha kolaydır. Güçleri içlerinde yatmakla kalmaz, genelde onları etkisiz halde tutmak için efor sarfedilir. Her sorcerer ya bu rol için doğar ya da kozmik şans sonucu buna rastlar. Yeteneklerini aktif halde kovalayıp öğrenen ve kucaklayan diğer karakterlerin aksine, sorcererlara güçleri iradeleri dışında gelir.",
-				"Because the idea of an innately magical being traveling among them does not sit well with many folk, sorcerers tend to breed mistrust and suspicion in others they come across. Nonetheless, many sorcerers succeed in overcoming that prejudice through deeds that benefit their less magically gifted contemporaries.",
-				"Sorcerers are often defined by the events surrounding the manifestation of their power. For those who receive it as an expected birthright, its appearance is a cause for celebration. Other sorcerers are treated as outcasts, banished from their homes after the sudden, terrifying arrival of their abilities.",
-				"Playing a sorcerer character can be as rewarding as it is challenging. The sections below offer suggestions on how to flesh out and personalize your persona.",
+				"Konu ihtiyaç anında yeteneklerini ortaya çıkarmak olunca, sorcererların işi diğer karakterlere göre daha kolaydır. Güçleri içlerinde yatmakla kalmaz, genelde onları etkisiz halde tutmak için efor sarfederler. Her sorcerer ya bu rol için doğar ya da kozmik şans sonucu buna rastlar. Yeteneklerini aktif halde kovalayıp öğrenen ve kucaklayan diğer karakterlerin aksine, sorcererlara güçleri iradeleri dışında gelir.",
+				"Özünde büyülü olan bir varlığın aralarında gezmesi fikrine alışamayan halk yüzünden, sorcererlar diğerlerinde şüphe ve güvensizlik yaratır. Buna rağmen, çoğu sorcerer çevresindeki büyü bahşedilmemişlere sağladığı faydalar ile bu önyargıları aşar.",
+				"Sorcererlar genelde güçlerinin ortaya çıkış olayları ile bilinirler. Doğumdan itibaren beklenen bir hak ise, onun görülmesi kutlanır. Diğer sorcererlar ise toplumdan dışlanır, yeteneklerinin ani ve korkutucu bir şekilde gelmesi yüzünden evlerinden kovulurlar.",
+				"Sorcerer bir karakter oynama zorlu olduğu kadar tatmin edici de olur. Aşağıdaki kısımlar kişiliğini belirlemene yardımcı olacak tavsiyeler barındırır.",
 				{
 					"type": "entries",
-					"name": "Arcane Origins",
+					"name": "Arcane Köken",
 					"entries": [
-						"Some sorcerers understand where their power came from, based on how their abilities manifested. Others can only speculate, since their powers came to them in a way that suggests no particular cause.",
-						"Does your character know the source of your magical power? Does it tie back to some distant relative, a cosmic event, or blind chance? If your sorcerer doesn't know where their power arose from, your DM can use this table (or select an origin) and reveal it to you when the information plays a role in the campaign.",
+						"Bazı sorcererlar yeteneklerinin ortaya çıkış şeklinden dolayı bu güçlerinin nereden geldiğini anlar. Diğerlerinin güçleri onlara belirli bir sebepten dolayı gelmediği için sadece tahmin edebilirler.",
+						"Karakterin büyü gücünün kökenini biliyor mu? Bu uzak bir akrabaya, bir kozmik olaya veya kör talihe mi bağlı? Eğer sorcererın bu gücün nereden geldiğini bilmiyorsa, DM bu tabloyu kullanıp (ya da kendi bir köken seçip), serüvende önemli bir rol oynadığı anda ortaya çıkarabilir.",
 						{
 							"type": "table",
-							"caption": "Arcane Origins",
+							"caption": "Arcane Köken",
 							"colLabels": [
 								"{@dice d6}",
-								"Origin"
+								"Köken"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -16114,7 +16114,7 @@
 											"exact": 1
 										}
 									},
-									"Your power arises from your family's bloodline. You are related to some powerful creature, or you inherited a blessing or a curse."
+									"Gücün ailenin kanından gelir. Güçlü bir varlıkla kan bağın vardır veya bir kutsama ya da laneti devralmışsındır."
 								],
 								[
 									{
@@ -16123,7 +16123,7 @@
 											"exact": 2
 										}
 									},
-									"You are the reincarnation of a being from another plane of existence."
+									"Başka bir boyuttan varlığın reenkarnasyonusun."
 								],
 								[
 									{
@@ -16132,7 +16132,7 @@
 											"exact": 3
 										}
 									},
-									"A powerful entity entered the world. Its magic changed you."
+									"Güçlü bir varlık dünyana girdi. Onun büyüsü seni değiştirdi."
 								],
 								[
 									{
@@ -16141,7 +16141,7 @@
 											"exact": 4
 										}
 									},
-									"Your birth was prophesied in an ancient text, and you are foretold to use your power for terrible ends."
+									"Doğumun kadim bir metindeki kehanette yazılmıştı, ve senin gücünü korkunç bir son için kullanacağın yazılı."
 								],
 								[
 									{
@@ -16150,7 +16150,7 @@
 											"exact": 5
 										}
 									},
-									"You are the product of generations of careful, selective breeding."
+									"Nesillerce yapılan seçici üremenin bir ürünüsün."
 								],
 								[
 									{
@@ -16159,7 +16159,7 @@
 											"exact": 6
 										}
 									},
-									"You were made in a vat by an alchemist."
+									"Bir simyacı tarafından tüpte yapıldın."
 								]
 							]
 						}
@@ -16167,16 +16167,16 @@
 				},
 				{
 					"type": "entries",
-					"name": "Reaction",
+					"name": "Tepki",
 					"entries": [
-						"When a new sorcerer enters the world, either at birth or later when one's power becomes evident, the consequences of that event depend greatly on how its witnesses react to what they have seen.",
-						"When your sorcerer's powers appeared, how did the world around you respond? Were other people supportive, fearful, or somewhere in between?",
+						"Yeni bir sorcerer dünyaya girdiğinde, bu doğumda da olabilir sonradan kişinin gücünün ortaya çıkmasıyla da, bu olayın sonuçları yoğun bir şekilde buna tanık olan kişilerin tepkisine bağlıdır.",
+						"Sorcererının güçleri ortaya çıktığında, çevren buna nasıl tepki verdi? Diğerleri destekçi miydi, korktular mı, yoksa arada bir yerde mi kaldılar?",
 						{
 							"type": "table",
-							"caption": "Reactions",
+							"caption": "Tepkiler",
 							"colLabels": [
 								"{@dice d6}",
-								"Reaction"
+								"Tepki"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -16190,7 +16190,7 @@
 											"exact": 1
 										}
 									},
-									"Your powers are seen as a great blessing by those around you, and you are expected to use them in service to your community."
+									"Çevrendekiler tarafından güçlerin bir kutsama olarak görülüyor, ve senin bu güçleri toplumuna hizmet için kullanman bekleniyor."
 								],
 								[
 									{
@@ -16199,7 +16199,7 @@
 											"exact": 2
 										}
 									},
-									"Your powers caused destruction and even a death when they became evident, and you were treated as a criminal."
+									"Ortaya çıktıklarında güçlerin yıkım ve hatta ölüm getirdi, ve sen de bir suçlu olarak görüldün."
 								],
 								[
 									{
@@ -16208,7 +16208,7 @@
 											"exact": 3
 										}
 									},
-									"Your neighbors hate and fear your power, causing them to shun you."
+									"Komşuların gücünden korkup nefret ediyorlar, bu da onların seni dışlamasına yol açıyor."
 								],
 								[
 									{
@@ -16217,7 +16217,7 @@
 											"exact": 4
 										}
 									},
-									"You came to the attention of a sinister cult that plans on exploiting your abilities."
+									"Senin yeteneklerini kullanmak isteyen bir kültün dikkatini çektin."
 								],
 								[
 									{
@@ -16226,7 +16226,7 @@
 											"exact": 5
 										}
 									},
-									"People around you believe that your powers are a curse levied on your family for a past transgression."
+									"Çevrendekiler güçlerinin eski bir günah yüzünden ailene gelmiş bir lanet olduğunu düşünüyor."
 								],
 								[
 									{
@@ -16235,7 +16235,7 @@
 											"exact": 6
 										}
 									},
-									"Your powers are believed to be tied to an ancient line of mad kings that supposedly ended in a bloody revolt over a century ago."
+									"Güçlerinin, bir asırdan uzun zaman önce kanlı bir devrim ile bitmiş deli krallar soyuna dayandığı düşünülüyor."
 								]
 							]
 						}
@@ -16243,16 +16243,16 @@
 				},
 				{
 					"type": "entries",
-					"name": "Supernatural Mark",
+					"name": "Doğaüstü Nişan",
 					"entries": [
-						"A sorcerer at rest is almost indistinguishable from a normal person; it's only when their magic flies forth that sorcerers reveal their true nature. Even so, many sorcerers have a subtle but telling physical trait that sets them apart from other folk.",
-						"If your sorcerer has a supernatural mark, it might be one that's easily concealed, or it could be a source of pride that you keep on constant display.",
+						"Güçlerini kullanmazken bir sorcerer normal bir insandan neredeyse farksızdır; sadece güçleri ortaya çıktığında sorcererlar gerçek doğalarını ortaya çıkarır. Öyle bile olsa, çoğu sorcererın onları diğerlerinden farklı kılan ve zor farkedilen bir fiziksel özelliği vardır.",
+						"Eğer sorcererının bir doğaüstü nişanı varsa, bu kolayca gizlenebilen bir şey olabilir, ya da daima gösterdiğin bir gurur kaynağı da olabilir.",
 						{
 							"type": "table",
-							"caption": "Supernatural Marks",
+							"caption": "Doğaüstü Nişanlar",
 							"colLabels": [
 								"{@dice d6}",
-								"Mark"
+								"Nişan"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -16266,7 +16266,7 @@
 											"exact": 1
 										}
 									},
-									"Your eyes are an unusual color, such as red."
+									"Gözlerin kırmızı gibi alışılmadık bir renkte."
 								],
 								[
 									{
@@ -16275,7 +16275,7 @@
 											"exact": 2
 										}
 									},
-									"You have an extra toe on one foot."
+									"Bir ayağında fazladan bir parmağın var."
 								],
 								[
 									{
@@ -16284,7 +16284,7 @@
 											"exact": 3
 										}
 									},
-									"One of your ears is noticeably larger than the other."
+									"Kulaklarından biri diğerinden gözle görülür şekilde büyük."
 								],
 								[
 									{
@@ -16293,7 +16293,7 @@
 											"exact": 4
 										}
 									},
-									"Your hair grows at a prodigious rate."
+									"Saçların inanılmaz bir hızda uzuyor."
 								],
 								[
 									{
@@ -16302,7 +16302,7 @@
 											"exact": 5
 										}
 									},
-									"You wrinkle your nose repeatedly while you are chewing."
+									"Çiğnerken sürekli burnunu büküyorsun."
 								],
 								[
 									{
@@ -16311,7 +16311,7 @@
 											"exact": 6
 										}
 									},
-									"A red splotch appears on your neck once a day, then vanishes after an hour."
+									"Her gün boynunda kırmızı bir leke belirir, ve bir saat sonra kaybolur."
 								]
 							]
 						}
@@ -16319,16 +16319,16 @@
 				},
 				{
 					"type": "entries",
-					"name": "Signs of Sorcery",
+					"name": "Sorcery Alametleri",
 					"entries": [
-						"As the world well knows, some sorcerers are better than others at controlling their spellcasting. Sometimes a wild display of magic gone awry emanates from a sorcerer who casts a spell. But even when one's magic goes off as planned, the act of casting is often accompanied by a telltale sign that makes it clear where that magical energy came from.",
-						"When your sorcerer character casts a spell, does the effort reveal itself in a sign of sorcery? Is this sign tied to your origin or some other aspect of who you are, or is it a seemingly random phenomenon?",
+						"Dünyanın çok iyi bildiği gibi, bazı sorcererlar büyülerinin kontrollerinde diğerlerinden çok daha iyidir. Bazen büyü yapan bir sorcererdan, yolunda gitmeyen bir büyünün vahşi şovu izlenir. Fakat birinin büyüsü istediği gibi gitse de, büyüyü yapma işlemi o enerjinin nereden geldiğini açıkça gösteren bir alameti taşır.",
+						"Sorcererın büyü yaptığında, bu çaba kendini sorcery alameti olarak gösterir mi? Bu alamet senin kökenine veya kimliğinin başka bir yönüne bağlı mı, yoksa rastgele bir fenomen mi?",
 						{
 							"type": "table",
-							"caption": "Signs of Sorcery",
+							"caption": "Sorcery Alametleri",
 							"colLabels": [
 								"{@dice d6}",
-								"Sign"
+								"Alamet"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -16342,7 +16342,7 @@
 											"exact": 1
 										}
 									},
-									"You deliver the verbal components of your spells in the booming voice of a titan."
+									"Büyülerinin sözlü bileşenlerini bir titanın gürleyen sesi ile kullanırsın."
 								],
 								[
 									{
@@ -16351,7 +16351,7 @@
 											"exact": 2
 										}
 									},
-									"For a moment after you cast a spell, the area around you grows dark and gloomy."
+									"Büyü yaptıktan sonra bir anlığına çevrendeki alan karanlık ve kasvetli bir yere dönüşür."
 								],
 								[
 									{
@@ -16360,7 +16360,7 @@
 											"exact": 3
 										}
 									},
-									"You sweat profusely while casting a spell and for a few seconds thereafter."
+									"Büyü yaparken ve yaptıktan sonra birkaç saniye ecel terleri dökersin."
 								],
 								[
 									{
@@ -16369,7 +16369,7 @@
 											"exact": 4
 										}
 									},
-									"Your hair and garments are briefly buffeted about, as if by a breeze, whenever you call forth a spell."
+									"Bir büyü yaptığında sanki rüzgar varmışçasına saçların ve giysilerin bir anlığına havalanır."
 								],
 								[
 									{
@@ -16378,7 +16378,7 @@
 											"exact": 5
 										}
 									},
-									"If you are standing when you cast a spell, you rise six inches into the air and gently float back down."
+									"Eğer büyü yaparken ayaktaysan, yerden bir karış yükselir ve sonra yavaşça inersin."
 								],
 								[
 									{
@@ -16387,7 +16387,7 @@
 											"exact": 6
 										}
 									},
-									"Illusory blue flames wreathe your head as you begin your casting, then abruptly disappear."
+									"Büyü yapmaya başladığında, kafanı mavi hayali alevler sarar ve sonra bir anda kaybolur."
 								]
 							]
 						}
@@ -17877,25 +17877,25 @@
 				{
 					"type": "quote",
 					"entries": [
-						"You think me mad? I think true insanity is being content to live a life of mortal drudgery when knowledge and power is there for the taking in the realm beyond."
+						"Benim deli olduğumu mu düşünüyorsun? Bence gerçek delilik, güç ve bilgi öte diyarlarda alınmayı beklerken ölümlü yaşamının angaryası ile yetinmektir."
 					],
-					"by": "Xarren, herald of Acamar"
+					"by": "Acamar'ın Elçisi Xarren"
 				},
-				"Warlocks are finders and keepers of secrets. They push at the edge of our understanding of the world, always seeking to expand their expertise. Where sages or wizards might heed a clear sign of danger and end their research, a warlock plunges ahead, heedless of the cost. Thus, it takes a peculiar mixture of intelligence, curiosity, and recklessness to produce a warlock. Many folk would describe that combination as evidence of madness. Warlocks see it as a demonstration of bravery.",
-				"Warlocks are defined by two elements that work in concert to forge their path into this class. The first element is the event or circumstances that led to a warlock's entering into a pact with a planar entity. The second one is the nature of the entity a warlock is bound to. Unlike clerics, who typically embrace a deity and that god's ethos, a warlock might have no love for a patron, or vice versa.",
-				"The sections that follow provide ways to embellish a warlock character that could generate some intriguing story and roleplaying opportunities.",
+				"Warlocklar sırların bulucusu ve tutucusudur. Dünya anlayışımızın sınırlarını zorlarlar, daima uzmanlıklarını genişletme peşinde olurlar. Alimler ve büyücülerin bariz bir tehlike alameti görüp araştırmalarını bıraktığı yerlerde, bir warlock doğrudan dalar, ne pahasına olursa olsun. Bu yüzden, bir warlock olabilmek için ilginç bir zeka, merak ve pervasızlığın birleşimi gereklidir. Çoğu kişi bu birleşimi deliliğin kanıtı olarak tanımlar. Warlocklar bunu cesaretin kanıtı olarak görür.",
+				"Warlocklar onları bu sınıfa sokan yolu hazırlamak için gereken ortak iki unsur ile bilinirler. Birincisi, bir warlocku boyutsal bir varlık ile ahde girmeye itecek olay ya da durumdur. İkincisi ise warlockun bağlandığı varlığın doğasıdır. Tanrısının kendisini ve görüşünü benimseyen rahiplerin aksine, bir warlock ya da patronu birbirlerini sevmeyebilirler.",
+				"Aşağıdaki kısımlarda ilgi uyandıran hikaye ve rol yapma fırsatları sunabilecek şekillerde warlock karakterini zenginleştirmen için tavsiyeler verilmiştir.",
 				{
 					"type": "entries",
-					"name": "Patron's Attitude",
+					"name": "Patronun Tavrı",
 					"entries": [
-						"Every relationship is a two-way street, but in the case of warlocks and their patrons it's not necessarily true that both sides of the street are the same width or made of the same stuff. The feeling that a warlock holds for their patron, whether positive or negative, might be reciprocated by the patron, or the two participants in the pact might view one another with opposing emotions.",
-						"When you determine the attitude your warlock character holds toward your patron, also consider how things look from the patron's perspective. How does your patron behave toward you? Is your patron a friend and ally, or an enemy that grants you power only because you forced a pact upon it?",
+						"Her ilişki çift yönlü bir yoldur, ama warlocklar ve patronları için bu yolun iki yönünün aynı genişlikte olması ya da aynı materyalden yapılması gerekmez. Bir warlockun patronuna karşı beslediği duygular, olumlu ya da olumsuz, patronu ile karşılıklı olabilir, ya da bu ikili birbirlerine zıt duygular besleyebilirler.",
+						"Karakterinin patronuna karşı tavrını belirlerken, patronun bakış açısından işlerin nasıl göründüğünü de düşün. Patronun sana karşı nasıl davranır? Patronun bir dost ve müttefik midir, yoksa onu zorla ahde soktuğun için güç veren bir düşman mı?",
 						{
 							"type": "table",
-							"caption": "Patron Attitudes",
+							"caption": "Patron Tavırları",
 							"colLabels": [
 								"{@dice d6}",
-								"Attitude"
+								"Tavır"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -17909,7 +17909,7 @@
 											"exact": 1
 										}
 									},
-									"Your patron has guided and helped your family for generations and is kindly toward you."
+									"Patronun ailene nesillerdir rehberlik edip yardım etti, sana da nazik davranır."
 								],
 								[
 									{
@@ -17918,7 +17918,7 @@
 											"exact": 2
 										}
 									},
-									"Each interaction with your capricious patron is a surprise, whether pleasant or painful."
+									"Kaprisli patronun ile her etkileşim bir sürprizdir, hoş ya da acı olabilir."
 								],
 								[
 									{
@@ -17927,7 +17927,7 @@
 											"exact": 3
 										}
 									},
-									"Your patron is the spirit of a long-dead hero who sees your pact as a way for it to continue to influence the world."
+									"Patronun çoktan ölmüş bir kahramanın ruhudur, o bu ahit sayesinde dünyayı hala etkileyebildiğini düşünür."
 								],
 								[
 									{
@@ -17936,7 +17936,7 @@
 											"exact": 4
 										}
 									},
-									"Your patron is a strict disciplinarian but treats you with a measure of respect."
+									"Patronun çok sert disiplinli biridir ama sana ölçülü ve saygılı davranır."
 								],
 								[
 									{
@@ -17945,7 +17945,7 @@
 											"exact": 5
 										}
 									},
-									"Your patron tricked you into a pact and treats you as a slave."
+									"Patronun seni ahit için kandırdı ve şimdi sana köle gibi davranır."
 								],
 								[
 									{
@@ -17954,7 +17954,7 @@
 											"exact": 6
 										}
 									},
-									"You are mostly left to your own devices with no interference from your patron. Sometimes you dread the demands it will make when it does appear."
+									"Patronun araya girmez, kendi başına bırakılmışsındır. Bazen ortaya çıktığında isteyeceklerinden korkarsın."
 								]
 							]
 						}
@@ -17962,16 +17962,16 @@
 				},
 				{
 					"type": "entries",
-					"name": "Special Terms of the Pact",
+					"name": "Ahdin Özel Koşulları",
 					"entries": [
-						"A pact can range from a loose agreement to a formal contract with lengthy, detailed clauses and lists of requirements. The terms of a pact\u2014what a warlock must do to receive a patron's favor\u2014are always dictated by the patron. On occasion, those terms include a special proviso that might seem odd or whimsical, but warlocks take these dictates as seriously as they do the other requirements of their pacts.",
-						"Does your character have a pact that requires you to change your behavior in an unusual or seemingly frivolous way? Even if your patron hasn't imposed such a duty on you already, that's not to say it couldn't still happen.",
+						"Ahit gevşek bir anlaşmadan uzun ve detaylı ibarelerle dolu koşullar listesi barındıran sözleşmeye kadar farklılık gösterebilir. Bir ahdin şartları\u2014patronun lütfunu almak için warlockun yapması gerekenler\u2014daima patron tarafından belirlenir. Nadiren bu şartlar arasında garip ve acayip şeyler çıkabilir, ama warlocklar bu şartları da en az diğerleri kadar önemserler.",
+						"Karakterinin ahdi senin davranışlarını manasız ve alışılmadık bir şekilde değiştirmeni gerektiriyor mu? Patronun böyle bir görevi sana hala vermediyse, bu sonradan vermeyeceği anlamına gelmez.",
 						{
 							"type": "table",
-							"caption": "Special Terms",
+							"caption": "Özel Koşullar",
 							"colLabels": [
 								"{@dice d6}",
-								"Term"
+								"Koşul"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -17985,7 +17985,7 @@
 											"exact": 1
 										}
 									},
-									"When directed, you must take immediate action against a specific enemy of your patron."
+									"Yönlendirdiğinde, patronunun belirttiği düşmanları üzerine derhal harekete geçmen gerekir."
 								],
 								[
 									{
@@ -17994,7 +17994,7 @@
 											"exact": 2
 										}
 									},
-									"Your pact tests your willpower; you are required to abstain from alcohol and other intoxicants."
+									"Ahdin iradeni sınar; alkol ve diğer sarhoş edici şeylerden uzak durmalısın."
 								],
 								[
 									{
@@ -18003,7 +18003,7 @@
 											"exact": 3
 										}
 									},
-									"At least once a day, you must inscribe or carve your patron's name or symbol on the wall of a building."
+									"Günde en az bir kere, patronunun adını veya sembolünü bir binaya yazmalı ya da oymalısın."
 								],
 								[
 									{
@@ -18012,7 +18012,7 @@
 											"exact": 4
 										}
 									},
-									"You must occasionally conduct bizarre rituals to maintain your pact."
+									"Ahdini korumak için ara sıra garip ritüeller yapman gerekir."
 								],
 								[
 									{
@@ -18021,7 +18021,7 @@
 											"exact": 5
 										}
 									},
-									"You can never wear the same outfit twice, since your patron finds such predictability to be boring."
+									"Aynı kıyafeti iki kere giyemezsin, patronun bu tip tahmin edilebilirliği sıkıcı bulur."
 								],
 								[
 									{
@@ -18030,7 +18030,7 @@
 											"exact": 6
 										}
 									},
-									"When you use an eldritch invocation, you must speak your patron's name aloud or risk incurring its displeasure."
+									"Bir eldritch yakarışı kullandığında, patronunun adını sesli söylemelisin yoksa onu öfkelendirme riskin vardır."
 								]
 							]
 						}
@@ -19471,24 +19471,24 @@
 				{
 					"type": "quote",
 					"entries": [
-						"Wizardry requires understanding. The knowledge of how and why magic works, and our efforts to broaden that understanding, have brought about the key advances in civilization over the centuries."
+						"Büyücülük anlayış gerektirir. Büyünün neden ve nasıl işlediğinin bilgisi ve bizim bu anlayışı geliştirme çabamız, yüzyıllardır medeniyetteki gelişmeleri ortaya çıkardı."
 					],
-					"by": "Gimble the illusionist"
+					"by": "İllüzyonist Gimble"
 				},
-				"Only a select few people in the world are wielders of magic. Of all those, wizards stand at the pinnacle of the craft. Even the least of them can manipulate forces that flout the laws of nature, and the most accomplished among them can cast spells with world-shaking effects.",
-				"The price that wizards pay for their mastery is that most valuable of commodities: time. It takes years of study, instruction, and experimentation to learn how to harness magical energy and carry spells around in one's own mind. For adventuring wizards and other spellcasters who aspire to the highest echelons of the profession, the studying never ends, nor does the quest for knowledge and power.",
-				"If you're playing a wizard, take advantage of the opportunity to make your character more than just a stereotypical spell-slinger. Use the advice that follows to add some intriguing details to how your wizard interacts with the world.",
+				"Dünyada seçilmiş bir avuç kişi büyü kullanabilir. Bunların arasında, zanaatın zirvesinde büyücüler vardır. En beceriksizleri bile doğanın kurallarını hiçe sayacak güçleri kontrol edebilir, ve en iyileri dünyayı sarsacak etkileri olan büyüleri kullanabilir.",
+				"Uzmanlıkları için büyücülerin ödediği şey pahada en ağır olan şeydir: zaman. Büyü enerjisini kontrol etme ve zihninde büyüleri taşıma bir kişinin yıllarca araştırma, eğitim ve deneyler yapmasını gerektirir. Maceracı büyücüler ve mesleğin en üst kademelerine yükselmek isteyen diğer büyü kullanıcıları için, ne araştırma ne de bilgi ve güç arayışları asla bitmez.",
+				"Eğer bir büyücü oynuyorsan, karakterini basmakalıp bir büyü savurucusundan öteye taşıma fırsatından faydalan. Büyücünün dünya ile etkileşimini belirlerken aşağıdaki tavsiyelerden ilginç detaylar seçebilirsin.",
 				{
 					"type": "entries",
-					"name": "Spellbook",
+					"name": "Büyü Kitabı",
 					"entries": [
-						"Your wizard character's most prized possession\u2014your spellbook\u2014might be an innocuous-looking volume whose covers show no hint of what's inside. Or you might display some flair, as many wizards do, by carrying a spellbook of an unusual sort. If you don't own such an item already, one of your goals might be to find a spellbook that sets you apart by its appearance or its means of manufacture.",
+						"Büyücünün en değerli malı\u2014büyü kitabın\u2014sıradan görünümlü, dışı içindeki hakkında hiç bilgi vermeyen bir cilt olabilir. Veya birçok büyücü gibi, alışılmadık tipte bir kitap taşıyarak hava atabilirsin. Eğer böyle bir eşyaya sahip değilsen, amaçlarından biri görüntüsü ve yapım şekli ile seni diğerlerinden ayıracak bir kitap bulmak olabilir.",
 						{
 							"type": "table",
-							"caption": "Spellbooks",
+							"caption": "Büyü Kitapları",
 							"colLabels": [
 								"{@dice d6}",
-								"Spellbook"
+								"Büyü Kitabı"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -19502,7 +19502,7 @@
 											"exact": 1
 										}
 									},
-									"A tome with pages that are thin sheets of metal, spells etched into them with acid"
+									"Büyülerin üzerine asitle işlendiği, ince metal levhadan sayfaları olan bir kitap"
 								],
 								[
 									{
@@ -19511,7 +19511,7 @@
 											"exact": 2
 										}
 									},
-									"Long straps of leather on which spells are written, wrapped around a staff for ease of transport"
+									"Büyüler üzerine yazılan uzun deri kayışlar, taşıma kolaylığı için bir değneğe sarılırlar"
 								],
 								[
 									{
@@ -19520,7 +19520,7 @@
 											"exact": 3
 										}
 									},
-									"A battered tome filled with pictographs that only you can understand"
+									"Sadece senin anlayabildiğin piktograflarla dolu eski bir cilt"
 								],
 								[
 									{
@@ -19529,7 +19529,7 @@
 											"exact": 4
 										}
 									},
-									"Small stones inscribed with spells and kept in a cloth bag"
+									"Bez bir torbada taşınan üzerine büyüler yazılmış taşlar"
 								],
 								[
 									{
@@ -19538,7 +19538,7 @@
 											"exact": 5
 										}
 									},
-									"A scorched book, ravaged by dragon fire, with the script of your spells barely visible on its pages"
+									"Ejder ateşiyle yanmış bir kitap, büyülerinin yazısı zar zor görülür"
 								],
 								[
 									{
@@ -19547,7 +19547,7 @@
 											"exact": 6
 										}
 									},
-									"A tome full of black pages whose writing is visible only in dim light or darkness"
+									"Yazısı sadece loş ışık ya da karanlıkta ortaya çıkan kara sayfalarla dolu bir cilt"
 								]
 							]
 						}
@@ -19555,16 +19555,16 @@
 				},
 				{
 					"type": "entries",
-					"name": "Ambition",
+					"name": "Hırs",
 					"entries": [
-						"Few aspiring wizards undertake the study of magic without some personal goal in mind. Many wizards use their spells as a tool to produce a tangible benefit, in material goods or in status, for themselves or their companions. For others, the theoretical aspect of magic might have a strong appeal, pushing those wizards to seek out knowledge that supports new theories of the arcane or confirms old ones.",
-						"Beyond the obvious, why does your wizard character study magic, and what do you want to achieve? If you haven't given these questions much thought, you can do so now, and the answers you come up with will likely affect how your future unfolds.",
+						"Büyü araştırmasına başlayan hevesli büyücülerin arasında, nadiren bireysel hedefi olmadan bu yola çıkan olur. Birçok büyücü büyülerini somut faydalar sağlamak için kullanır, kendileri ya da yoldaşları için mal ya da statü olabilir bu fayda. Diğerleri için büyünün teorik yönü daha çekici olabilir, bu da büyücüleri arcane büyüyü destekleyen yeni teoriler ya da eskileri doğrulayacak bilgileri aramaya iter.",
+						"Bariz olanların dışında, büyücü karakterinin büyü araştırma sebebi nedir ve ne başarmaya çalışır? Eğer bu sorulara pek kafa yormadıysan şimdi tam zamanı, bulduğun cevaplar muhtemelen geleceğini etkileyecektir.",
 						{
 							"type": "table",
-							"caption": "Ambitions",
+							"caption": "Hırslar",
 							"colLabels": [
 								"{@dice d6}",
-								"Ambition"
+								"Hırs"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -19578,7 +19578,7 @@
 											"exact": 1
 										}
 									},
-									"You will prove that the gods aren't as powerful as folk believe."
+									"Tanrıların, halkın düşündüğü kadar güçlü olmadığını kanıtlayacaksın."
 								],
 								[
 									{
@@ -19587,7 +19587,7 @@
 											"exact": 2
 										}
 									},
-									"Immortality is the end goal of your studies."
+									"Araştırmalarının son hedefi ölümsüzlüktür."
 								],
 								[
 									{
@@ -19596,7 +19596,7 @@
 											"exact": 3
 										}
 									},
-									"If you can fully understand magic, you can unlock its use for all and usher in an era of equality."
+									"Eğer büyüyü tümüyle anlayabilirsen, kullanımını herkese açıp bir eşitlik çağında yaşayabilirsiniz."
 								],
 								[
 									{
@@ -19605,7 +19605,7 @@
 											"exact": 4
 										}
 									},
-									"Magic is a dangerous tool. You use it to protect what you treasure."
+									"Büyü tehlikeli bir araçtır. Sen bunu değer verdiklerini korumak için kullanırsın."
 								],
 								[
 									{
@@ -19614,7 +19614,7 @@
 											"exact": 5
 										}
 									},
-									"Arcane power must be taken away from those who would abuse it."
+									"Arcane güç onu kötüye kullanacakların ellerinden alınmalıdır."
 								],
 								[
 									{
@@ -19623,7 +19623,7 @@
 											"exact": 6
 										}
 									},
-									"You will become the greatest wizard the world has seen in generations."
+									"Dünyanın nesillerdir gördüğü en iyi büyücü olacaksın."
 								]
 							]
 						}
@@ -19631,16 +19631,16 @@
 				},
 				{
 					"type": "entries",
-					"name": "Eccentricity",
+					"name": "Tuhaflık",
 					"entries": [
-						"Endless hours of solitary study and research can have a negative effect on anyone's social skills. Wizards, who are a breed apart to begin with, are no exception. An odd mannerism or two is not necessarily a drawback, though; an eccentricity of this sort is usually harmless and could provide a source of amusement or serve as a calling card of sorts.",
-						"If your character has an eccentricity, is it a physical tic or a mental one? Are you well known in some circles because of it? Do you fight to overcome it, or do you embrace this minor claim to fame of yours?",
+						"Sayısız saatlerce yalnız çalışma ve araştırma kişinin sosyal becerilerini olumsuz etkileyebilir. Zaten diğerlerinden farklı olan büyücüler de bundan muaf değildir. Bir iki garip davranış pek de dezavantaj sayılmaz; bu tip bir tuhaflık genelde zararsızdır ve bir eğlence kaynağı olabilir.",
+						"Eğer karakterinin bir tuhaflığı varsa, bu fiziksel bir tik mi yoksa zihinsel mi? Bazı çevrelerde bunun yüzünden iyi tanınır mısın? Bunla başa çıkmak için savaşır mısın, yoksa bu küçük şöhret kaynağını benimsiyor musun?",
 						{
 							"type": "table",
-							"caption": "Eccentricities",
+							"caption": "Tuhaflıklar",
 							"colLabels": [
 								"{@dice d6}",
-								"Eccentricity"
+								"Tuhaflık"
 							],
 							"colStyles": [
 								"col-xs-1 text-align-center",
@@ -19654,7 +19654,7 @@
 											"exact": 1
 										}
 									},
-									"You have the habit of tapping your foot incessantly, which often annoys those around you."
+									"Aralıksız bir şekilde ayağını sallama huyun var, çevrendekilerin sinirini bozuyor."
 								],
 								[
 									{
@@ -19663,7 +19663,7 @@
 											"exact": 2
 										}
 									},
-									"Your memory is quite good, but you have no trouble pretending to be absentminded when it suits your purposes."
+									"Hafızan çok iyidir, ama işine geldiğinde aklın başında değilmiş gibi davranmak hoşuna gidiyor."
 								],
 								[
 									{
@@ -19672,7 +19672,7 @@
 											"exact": 3
 										}
 									},
-									"You never enter a room without looking to see what's hanging from the ceiling."
+									"Tavandan neyin sarktığına bakmadan asla bir odaya girmezsin."
 								],
 								[
 									{
@@ -19681,7 +19681,7 @@
 											"exact": 4
 										}
 									},
-									"Your most prized possession is a dead worm that you keep inside a potion vial."
+									"En değerli eşyan bir iksir şişesinde sakladığın ölü bir solucan."
 								],
 								[
 									{
@@ -19690,7 +19690,7 @@
 											"exact": 5
 										}
 									},
-									"When you want people to leave you alone, you start talking to yourself. That usually does the trick."
+									"Kişilerin seni yalnız bırakmasını istediğinde kendi kendine konuşmaya başlarsın. Bu genelde işi görür."
 								],
 								[
 									{
@@ -19699,7 +19699,7 @@
 											"exact": 6
 										}
 									},
-									"Your fashion sense and grooming, or more accurately lack thereof, sometimes cause others to assume you are a beggar."
+									"Moda anlayışın ve kendine bakman, ya da daha isabetli olacaksa bakmaman, bazen diğerlerinin seni dilenci sanmasına sebep oluyor."
 								]
 							]
 						}
