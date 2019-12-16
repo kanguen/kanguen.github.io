@@ -195,14 +195,14 @@ function addItems (data) {
 		const sourceAbv = Parser.sourceJsonToAbv(source);
 		const sourceFull = Parser.sourceJsonToFull(source);
 		const tierTags = [];
-		tierTags.push(curitem.tier ? curitem.tier : "None");
+		tierTags.push(curitem.tier ? curitem.tier : "Hiç");
 
 		// for filter to use
 		curitem._fTier = tierTags;
 		curitem._fProperties = curitem.property ? curitem.property.map(p => curitem._allPropertiesPtr[p].name).filter(n => n) : [];
-		curitem._fMisc = curitem.sentient ? ["Sentient"] : [];
+		curitem._fMisc = curitem.sentient ? ["Bilinçli"] : [];
 		const isMundane = rarity === "Empty" || rarity === "Empty" || category === "Empty";
-		curitem._fMisc.push(isMundane ? "Mundane" : "Magic");
+		curitem._fMisc.push(isMundane ? "Sıradan" : "Büyülü");
 
 		if (isMundane) {
 			liList["mundane"] += `

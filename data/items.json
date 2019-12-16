@@ -325,14 +325,14 @@
 			]
 		},
 		{
-			"name": "Assassin's Blood (Ingested)",
+			"name": "Suikastçinin Kanı (Sindirme)",
 			"type": "G",
 			"rarity": "Hiç",
 			"value": "150gp",
 			"source": "DMG",
 			"page": 258,
 			"entries": [
-				"A creature subjected to this poison must make a DC 10 Constitution saving throw. On a failed save, it takes 6 (1d12) poison damage and is {@condition poisoned} for 24 hours. On a successful save, the creature takes half damage and isn't {@condition poisoned}."
+				"Bu zehre maruz kalan bir varlık DC 10 Dayanıklılık kurtulma zarı atar. Başarısız olursa, 6 (1d12) zehir hasarı alır ve 24 saatliğine {@condition zehirlenme} durumunda olur. Başarılı olursa, yarı hasarı alır ve zehirlenmez."
 			],
 			"poison": true
 		},
@@ -720,14 +720,14 @@
 			]
 		},
 		{
-			"name": "Basic Poison (vial)",
+			"name": "Basit Zehir (şişe)",
 			"type": "G",
 			"rarity": "Hiç",
 			"value": "100gp",
 			"source": "DMG",
 			"page": 153,
 			"entries": [
-				"You can use the poison in this vial to coat one slashing or piercing weapon or up to three pieces of ammunition. Applying the poison takes an action. A creature hit by the {@condition poisoned} weapon or ammunition must make a DC 10 Constitution saving throw or take 1d4 poison damage. Once applied, the poison retains potency for 1 minute before drying."
+				"Bu bir şişe zehri bir kesme ya da delme silahını, veya 3 adet cephaneyi kaplamak için kullanabilirsin. Zehri uygulama eylemini gerektirir. Bu zehirli silah tarafından vurulan bir varlık DC 10 Dayanıklılık kurtulma zarı atar ya da 1d4 zehir hasarı alır. Uygulandığında, zehir kurumadan önce 1 dakika boyunca gücünü korur."
 			],
 			"poison": true
 		},
@@ -1177,14 +1177,14 @@
 			]
 		},
 		{
-			"name": "Burnt Othur Fumes (Inhaled)",
+			"name": "Yanık Othur Dumanı (Soluma)",
 			"type": "G",
 			"rarity": "Hiç",
 			"value": "500gp",
 			"source": "DMG",
 			"page": 258,
 			"entries": [
-				"A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or take 10 (3d6) poison damage, and must repeat the saving throw at the start of each of its turns. On each successive failed save, the character takes 3 (1d6) poison damage. After three successful saves, the poison ends."
+				"Bu zehre maruz kalan bir varlık DC 13 Dayanıklılık kurtulma zarı atar ya da 10 (3d6) zehir hasarı alır, ve kurtulma zarını her sırasının başında tekrarlar. Her takip eden başarısız kurtulma zarında, karakter 3 (1d6) zehir hasarı alır. 3 başarılı kurtulma zarından sonra, zehir sonlanır."
 			],
 			"poison": true
 		},
@@ -1324,7 +1324,7 @@
 			]
 		},
 		{
-			"name": "Carrion Crawler Mucus (Contact)",
+			"name": "Leş Sürüngeni Sümüğü (Temas)",
 			"type": "G",
 			"tier": "Üst",
 			"rarity": "Hiç",
@@ -1332,7 +1332,7 @@
 			"source": "DMG",
 			"page": 258,
 			"entries": [
-				"This poison must be harvested from a dead or {@condition incapacitated} {@creature carrion crawler}. A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or be {@condition poisoned} for 1 minute. The {@condition poisoned} creature is {@condition paralyzed}. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+				"Bu zehir ölü ya da {@condition etkisiz hal}deki bir {@creature leş sürüngeni}nden alınabilir. Bu zehre maruz kalan bir varlık DC 13 Dayanıklılık kurtulma zarı atar ya da 1 dakikalığına {@condition zehirlenme} durumunda olur. Zehirlenen varlık {@condition felç} durumundadır. Varlık her sırasının sonunda kurtulma zarını tekrarlayabilir, başarılı olursa üzerindeki etki sonlanır."
 			],
 			"poison": true
 		},
@@ -2059,14 +2059,14 @@
 			]
 		},
 		{
-			"name": "Drow Poison (Injury)",
+			"name": "Drow Zehri (Yaralama)",
 			"type": "G",
 			"rarity": "Hiç",
 			"value": "200gp",
 			"source": "DMG",
 			"page": 258,
 			"entries": [
-				"This poison is typically made only by the {@creature drow}, and only in a place far removed from sunlight. A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or be {@condition poisoned} for 1 hour. If the saving throw fails by 5 or more, the creature is also {@condition unconscious} while {@condition poisoned} in this way. The creature wakes up if it takes damage or if another creature takes an action to shake it awake."
+				"Bu zehir genellikle {@creature drow}lar tarafından yapılır, ve gün ışığından uzak yerlerde olur. Bu zehre maruz kalan bir varlık DC 13 Dayanıklılık kurtulma zarı atar ya da 1 saatliğine {@condition zehirlenme} durumunda olur. Eğer kurtulma zarı 5 veya daha fazla farkla başarısız olursa, varlık bu şekilde zehirliyken ayrıca {@condition bilinçsizlik} durumunda olur. Eğer hasar alırsa veya başka bir varlık eylemini kullanıp onu sarsarsa varlık uyanır."
 			],
 			"poison": true
 		},
@@ -2279,14 +2279,14 @@
 			]
 		},
 		{
-			"name": "Essence of Ether (Inhaled)",
+			"name": "Etherin Özü (Soluma)",
 			"type": "G",
 			"rarity": "Hiç",
 			"value": "300gp",
 			"source": "DMG",
 			"page": 258,
 			"entries": [
-				"A creature subjected to this poison must succeed on a DC 15 Constitution saving throw or become {@condition poisoned} for 8 hours. The {@condition poisoned} creature is {@condition unconscious}. The creature wakes up if it takes damage or if another creature takes an action to shake it awake."
+				"Bu zehre maruz kalan bir varlık DC 15 Dayanıklılık kurtulma zarı atar ya da 8 saatliğine {@condition zehirlenme} durumunda olur. Zehirlenen varlık {@condition bilinçsizlik} halindedir. Eğer hasar alırsa ya da başka bir varlık eylemini kullanıp onu sarsarsa varlık uyanır."
 			],
 			"poison": true
 		},
@@ -3575,14 +3575,14 @@
 			]
 		},
 		{
-			"name": "Malice (Inhaled)",
+			"name": "Haset (Soluma)",
 			"type": "G",
 			"rarity": "Hiç",
 			"value": "250gp",
 			"source": "DMG",
 			"page": 258,
 			"entries": [
-				"A creature subjected to this poison must succeed on a DC 15 Constitution saving throw or become {@condition poisoned} for 1 hour. The {@condition poisoned} creature is {@condition blinded}."
+				"Bu zehre maruz kalan bir varlık DC 15 Dayanıklılık kurtulma zarı atar ya da 1 saatliğine {@condition zehirlenme} durumunda olur. Zehirlenen varlık {@condition körlük} durumundadır."
 			],
 			"poison": true
 		},
@@ -3700,14 +3700,14 @@
 			]
 		},
 		{
-			"name": "Midnight Tears (Ingested)",
+			"name": "Gece Gözyaşları (Sindirme)",
 			"type": "G",
 			"rarity": "Hiç",
 			"value": "1500gp",
 			"source": "DMG",
 			"page": 258,
 			"entries": [
-				"A creature that ingests this poison suffers no effect until the stroke of midnight. If the poison has not been neutralized before then, the creature must succeed on a DC 17 Constitution saving throw, taking 31 (9d6) poison damage on a failed save, or half as much damage on a successful one."
+				"Bu zehri sindiren bir varlık gece yarısı olana dek bir etkiye maruz kalmaz. Eğer zehir bundan önce ortadan kaldırılmadıysa varlık DC 17 Dayanıklılık kurtulma zarı atar, başarısız olursa 31 (9d6) zehir hasarı alır, başarılı olursa bunun yarısını."
 			],
 			"poison": true
 		},
@@ -3983,14 +3983,14 @@
 			]
 		},
 		{
-			"name": "Oil of Taggit (Contact)",
+			"name": "Taggit Yağı (Temas)",
 			"type": "G",
 			"rarity": "Hiç",
 			"value": "400gp",
 			"source": "DMG",
 			"page": 258,
 			"entries": [
-				"A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or become {@condition poisoned} for 24 hours. The {@condition poisoned} creature is {@condition unconscious}. The creature wakes up if it takes damage."
+				"Bu zehre maruz kalan bir varlık DC 13 Dayanıklılık kurtulma zarı atar ya da 24 saatliğine {@condition zehirlenme} durumunda olur. Zehirlenen varlık {@condition bilinçsizlik} durumundadır. Varlık hasar alırsa uyanır."
 			],
 			"poison": true
 		},
@@ -4023,14 +4023,14 @@
 			]
 		},
 		{
-			"name": "Pale Tincture (Ingested)",
+			"name": "Soluk Karışım (Sindirme)",
 			"type": "G",
 			"rarity": "Hiç",
 			"value": "250gp",
 			"source": "DMG",
 			"page": 258,
 			"entries": [
-				"A creature subjected to this poison must succeed on a DC 16 Constitution saving throw or take 3 (1d6) poison damage and become {@condition poisoned}. The {@condition poisoned} creature must repeat the saving throw every 24 hours, taking 3 (1d6) poison damage on a failed save. Until this poison ends, the damage the poison deals can't be healed by any means. After seven successful saving throws, the effect ends and the creature can heal normally."
+				"Bu zehre maruz kalan bir varlık DC 16 Dayanıklılık kurtulma zarı atar ya da 3 (1d6) zehir hasarı alır ve {@condition zehirlenme} durumunda olur. Zehirlenen varlık her 24 saatte bir kurtulma zarını tekrarlar, başarısız olursa 3 (1d6) zehir hasarı alır. Zehir bitene dek, bu zehrin verdiği hasar hiçbir şekilde iyileştirilemez. Yedi başarılı kurtulma zarı sonrasında etki sonlanır ve varlık normal iyileşebilir."
 			],
 			"poison": true
 		},
@@ -4572,14 +4572,14 @@
 			]
 		},
 		{
-			"name": "Purple Worm Poison (Injury)",
+			"name": "Mor Solucan Zehri (Yaralama)",
 			"type": "G",
 			"rarity": "Hiç",
 			"value": "2000gp",
 			"source": "DMG",
 			"page": 258,
 			"entries": [
-				"This poison must be harvested from a dead or {@condition incapacitated} {@creature purple worm}. A creature subjected to this poison must make a DC 19 Constitution saving throw, taking 42 (12d6) poison damage on a failed save, or half as much damage on a successful one."
+				"Bu zehir ölü ya da {@condition etkisiz hal}deki bir {@creature mor solucan}dan alınabilir. Bu zehre maruz kalan bir varlık DC 19 Dayanıklılık kurtulma zarı atar, başarısız olursa 42 (12d6) zehir hasarı alır, başarılı olursa bunun yarısını."
 			],
 			"poison": true
 		},
@@ -5718,14 +5718,14 @@
 			]
 		},
 		{
-			"name": "Serpent Venom (Injury)",
+			"name": "Yılan Zehri (Yaralama)",
 			"type": "G",
 			"rarity": "Hiç",
 			"value": "200gp",
 			"source": "DMG",
 			"page": 258,
 			"entries": [
-				"This poison must be harvested from a dead or {@condition incapacitated} {@creature giant poisonous snake}. A creature subjected to this poison must succeed on a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one."
+				"Bu zehir ölü ya da {@condition etkisiz hal}deki bir {@creature dev zehirli yılan}dan alınabilir. Bu zehre maruz kalan bir varlık DC 11 Dayanıklılık kurtulma zarı atar, başarısız olursa 10 (3d6) zehir hasarı alır, başarılı olursa bunun yarısını."
 			],
 			"poison": true
 		},
@@ -6499,14 +6499,14 @@
 			]
 		},
 		{
-			"name": "Torpor (Ingested)",
+			"name": "Uyuşturucu (Sindirme)",
 			"type": "G",
 			"rarity": "Hiç",
 			"value": "600gp",
 			"source": "DMG",
 			"page": 258,
 			"entries": [
-				"A creature subjected to this poison must succeed on a DC 15 Constitution saving throw or become {@condition poisoned} for 4d6 hours. The {@condition poisoned} creature is {@condition incapacitated}."
+				"Bu zehre maruz kalan bir varlık DC 15 Dayanıklılık kurtulma zarı atar ya da 4d6 saatliğine {@condition zehirlenme} durumunda olur. Zehirlenen varlık {@condition etkisiz hal}dedir."
 			],
 			"poison": true
 		},
@@ -6533,14 +6533,14 @@
 			]
 		},
 		{
-			"name": "Truth Serum (Ingested)",
+			"name": "Gerçeklik Serumu (Sindirme)",
 			"type": "G",
 			"rarity": "Hiç",
 			"value": "150gp",
 			"source": "DMG",
 			"page": 258,
 			"entries": [
-				"A creature subjected to this poison must succeed on a DC 11 Constitution saving throw or become {@condition poisoned} for 1 hour. The {@condition poisoned} creature can't knowingly speak a lie, as if under the effect of a {@spell zone of truth} spell."
+				"Bu zehre maruz kalan bir varlık DC 11 Dayanıklılık kurtulma zarı atar ya da 1 saatliğine {@condition zehirlenme} durumunda olur. Zehirlenen varlık, {@spell zone of truth (doğruluk alanı)} büyüsü etkisindeymiş gibi kasıtlı bir şekilde yalan söyleyemez."
 			],
 			"poison": true
 		},
@@ -7058,14 +7058,14 @@
 			]
 		},
 		{
-			"name": "Wyvern Poison (Injury)",
+			"name": "Wyvern Zehri (Yaralama)",
 			"type": "G",
 			"rarity": "Hiç",
 			"value": "1200gp",
 			"source": "DMG",
 			"page": 258,
 			"entries": [
-				"This poison must be harvested from a dead or {@condition incapacitated} {@creature wyvern}. A creature subjected to this poison must make a DC 15 Constitution saving throw, taking 24 (7d6) poison damage on a failed save, or half as much damage on a successful one."
+				"Bu zehir ölü ya da {@condition etkisiz hal}deki bir {@creature wyvern}den alınabilir. Bu zehre maruz kalan bir varlık DC 15 Dayanıklılık kurtulma zarı atar, başarısız olursa 24 (7d6) zehir hasarı alır, başarılı olursa bunun yarısını."
 			],
 			"poison": true
 		},

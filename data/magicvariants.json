@@ -857,7 +857,7 @@
 			}
 		},
 		{
-			"name": "Frost Brand",
+			"name": "Buz Mührü",
 			"type": "GV",
 			"requires": {
 				"sword": true
@@ -870,14 +870,14 @@
 				"reqAttune": "YES",
 				"namePrefix": "Frost Brand ",
 				"entries": [
-					"When you hit with an attack using this magic sword, the target takes an extra 1d6 cold damage. In addition, while you hold the sword, you have resistance to ateş damage.",
-					"In freezing temperatures, the blade sheds bright light in a 10-foot radius and dim light for an additional 10 feet.",
-					"When you draw this weapon, you can extinguish all nonmagical flames within 30 feet of you. This property can be used no more than once per hour."
+					"Bu büyülü kılıç ile vurduğunda, hedef fazladan 1d6 soğuk hasarı alır. Ayrıca kılıcı tutarken ateş hasarına direncin olur.",
+					"Dondurucu soğuklarda, kılıç 10 fit çevresine parlak, 10 fit daha da loş ışık saçar.",
+					"Bu kılıcı çektiğinde, 30 fit çevrendeki tüm büyüsüz ateşleri söndürebilirsin. Bu özellik saatte birden fazla kullanılamaz."
 				]
 			}
 		},
 		{
-			"name": "Giant Slayer",
+			"name": "Dev Katili",
 			"type": "GV",
 			"requires": {
 				"axe": true
@@ -889,8 +889,8 @@
 				"page": "172",
 				"namePrefix": "Giant Slayer ",
 				"entries": [
-					"You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-					"When you hit a giant with it, the giant takes an extra 2d6 damage of the weapon's type and must succeed on a DC 15 Strength saving throw or fall {@condition prone}. For the purpose of this weapon, \"giant\" refers to any creature with the giant type, including ettins and trolls."
+					"Bu büyülü silahla yapılan saldırı ve hasar zarlarına +1 bonusun olur.",
+					"Bununla bir deve vurduğunda, dev silahın hasar tipinde fazladan 2d6 hasar alır ve DC 15 Kuvvet kurtulma zarı atar ya da yere düşer. Bu silah için \"dev\", dev tipinde tüm varlıkları kapsar, ettin ve troller de dahil."
 				],
 				"modifier": [
 					{
@@ -911,7 +911,7 @@
 			}
 		},
 		{
-			"name": "Giant Slayer Sword",
+			"name": "Dev Katili Kılıç",
 			"requires": {
 				"sword": true
 			},
@@ -922,8 +922,8 @@
 				"page": "172",
 				"namePrefix": "Giant Slayer ",
 				"entries": [
-					"You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-					"When you hit a giant with it, the giant takes an extra 2d6 damage of the weapon's type and must succeed on a DC 15 Strength saving throw or fall {@condition prone}. For the purpose of this weapon, \"giant\" refers to any creature with the giant type, including ettins and trolls."
+					"Bu büyülü silahla yapılan saldırı ve hasar zarlarına +1 bonusun olur.",
+					"Bununla bir deve vurduğunda, dev silahın hasar tipinde fazladan 2d6 hasar alır ve DC 15 Kuvvet kurtulma zarı atar ya da yere düşer. Bu silah için \"dev\", dev tipinde tüm varlıkları kapsar, ettin ve troller de dahil."
 				],
 				"modifier": [
 					{
@@ -945,7 +945,7 @@
 			"noDisplay": true
 		},
 		{
-			"name": "Holy Avenger",
+			"name": "Kutsal İntikamcı",
 			"type": "GV",
 			"requires": {
 				"sword": true
@@ -958,8 +958,8 @@
 				"namePrefix": "Holy Avenger ",
 				"reqAttune": "by a Paladin",
 				"entries": [
-					"You gain a +3 bonus to attack and damage rolls made with this magic weapon. When you hit a fiend or an undead with it, that creature takes an extra 2d10 radiant damage.",
-					"While you hold the drawn sword, it creates an aura in a 10-foot radius around you. You and all creatures friendly to you in the aura have advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the paladin class, the radius of the aura increases to 30 feet."
+					"Bu büyülü silahla yapılan saldırı ve hasar zarlarına +3 bonusun olur. Bununla bir zebani ya da yaşayan ölüye vurduğunda, o varlık fazladan 2d10 radyant hasar alır.",
+					"Çekilmiş kılıcı tutarken, 10 fit çevrende bir aura yaratırsın. Sen ve aura içindeki tüm dost varlıklar, büyüler ve diğer büyülü etkilere karşı atılacak kurtulma zarlarında avantajlı olursunuz. Eğer paladin sınıfında 17 veya fazla seviyeye sahipsen, bu auranın çapı 30 fite yükselir."
 				],
 				"modifier": [
 					{
@@ -980,22 +980,22 @@
 			}
 		},
 		{
-			"name": "Luck Blade",
+			"name": "Şans Kılıcı",
 			"type": "GV",
 			"entries": [
-				"You gain a +1 bonus to attack and damage rolls made with this magic weapon. While the sword is on your person, you also gain a +1 bonus to saving throws.",
+				"Bu büyülü silahla yapılan saldırı ve hasar zarlarına +1 bonusun olur. Kılıç üzerindeyken, kurtulma zarlarına da +1 bonusun olur.",
 				{
 					"type": "entries",
-					"name": "Luck",
+					"name": "Şans",
 					"entries": [
-						"If the sword is on your person, you can call on its luck (no action required) to reroll one attack roll, ability check, or saving throw you dislike. You must use the second roll. This property can't be used again until the next dawn."
+						"Eğer kılıç üzerinde ise, beğenmediğin bir saldırı, yetenek veya kurtulma zarını yeniden atmak için şansını kullanabilirsin (eylem gerektirmez). İkinci zarı kullanırsın. Bu özellik bir sonraki şafağa kadar bir daha kullanılamaz."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Wish",
+					"name": "Dilek",
 					"entries": [
-						"The sword has 1d4-1 charges. While holding it, you can use an action to expend 1 charge and cast the {@spell wish|phb} spell from it. This property can't be used again until the next dawn. The sword loses this property if it has no charges."
+						"Kılıcın 1d4-1 yükü vardır. Onu tutarken, eylemini kullanıp 1 yük harcayarak {@spell wish (dilek)} büyüsünü kullanabilirsin. Bu özellik sonraki şafağa kadar bir daha kullanılamaz. Eğer hiç yükü kalmazsa kılıç bu özelliği kaybeder."
 					]
 				}
 			],
@@ -1010,19 +1010,19 @@
 				"namePrefix": "Luck Blade ",
 				"reqAttune": "YES",
 				"entries": [
-					"You gain a +1 bonus to attack and damage rolls made with this magic weapon. While the sword is on your person, you also gain a +1 bonus to saving throws.",
+					"Bu büyülü silahla yapılan saldırı ve hasar zarlarına +1 bonusun olur. Kılıç üzerindeyken, kurtulma zarlarına da +1 bonusun olur.",
 					{
 						"type": "entries",
 						"name": "Luck",
 						"entries": [
-							"If the sword is on your person, you can call on its luck (no action required) to reroll one attack roll, ability check, or saving throw you dislike. You must use the second roll. This property can't be used again until the next dawn."
+							"Eğer kılıç üzerinde ise, beğenmediğin bir saldırı, yetenek veya kurtulma zarını yeniden atmak için şansını kullanabilirsin (eylem gerektirmez). İkinci zarı kullanırsın. Bu özellik bir sonraki şafağa kadar bir daha kullanılamaz."
 						]
 					},
 					{
 						"type": "entries",
 						"name": "Wish",
 						"entries": [
-							"The sword has 1d4-1 charges. While holding it, you can use an action to expend 1 charge and cast the {@spell wish|phb} spell from it. This property can't be used again until the next dawn. The sword loses this property if it has no charges."
+							"Kılıcın 1d4-1 yükü vardır. Onu tutarken, eylemini kullanıp 1 yük harcayarak {@spell wish (dilek)} büyüsünü kullanabilirsin. Bu özellik sonraki şafağa kadar bir daha kullanılamaz. Eğer hiç yükü kalmazsa kılıç bu özelliği kaybeder."
 						]
 					}
 				],
@@ -1052,7 +1052,7 @@
 			}
 		},
 		{
-			"name": "Nine Lives Stealer",
+			"name": "Dokuz Can Çalan",
 			"type": "GV",
 			"requires": {
 				"sword": true
@@ -1065,8 +1065,8 @@
 				"namePrefix": "Nine Lives Stealer ",
 				"reqAttune": "YES",
 				"entries": [
-					"You gain a +2 bonus to attack and damage rolls made with this magic weapon.",
-					"The sword has 1d8+1 charges. If you score a critical hit against a creature that has fewer than 100 hit points, it must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body (a construct or an undead is immune). The sword loses 1 charge if the creature is slain. When the sword has no charges remaining, it loses this property."
+					"Bu büyülü silahla yapılan saldırı ve hasar zarlarına +2 bonusun olur.",
+					"Kılıcın 1d8+1 yükü vardır. Eğer 100'den az HP'si olan bir varlığa karşı kritik hasar vurursan, DC 15 Dayanıklılık kurtulma zarı atar ya da kılıç onun yaşam gücünü bedeninden ayırdığı için anında ölür (bir yapı ya da yaşayan ölü bundan etkilenmez). Eğer varlık ölürse kılıç 1 yük kaybeder. Kılıcın hiç yükü kalmadığında, bu özelliği kaybolur."
 				],
 				"modifier": [
 					{
@@ -1087,7 +1087,7 @@
 			}
 		},
 		{
-			"name": "Sword of Life Stealing",
+			"name": "Can Çalma Kılıcı",
 			"type": "GV",
 			"requires": {
 				"sword": true
@@ -1100,13 +1100,12 @@
 				"nameSuffix": " of Life Stealing",
 				"reqAttune": "YES",
 				"entries": [
-					"When you attack a creature with this magic weapon and roll a 20 on the attack roll, that target takes an extra 10 necrotic damage if it isn't a construct or an undead. You also gain 10 temporary hit points.",
-					"{@i Note: According to the SRD, it is an extra 3d6 necrotic damage.}"
+					"Bir varlığa bu büyülü silah ile saldırdığında saldırı zarı 20 gelirse, hedefin fazladan 10 nekrotik hasar alır (yapı ve yaşayan ölüler etkilenmez). Sen de 10 geçici HP kazanırsın."
 				]
 			}
 		},
 		{
-			"name": "Sword of Sharpness",
+			"name": "Keskinlik Kılıcı",
 			"type": "GV",
 			"requires": {
 				"sword": true,
@@ -1120,14 +1119,14 @@
 				"nameSuffix": " of Sharpness",
 				"reqAttune": "YES",
 				"entries": [
-					"When you attack an object with this magic sword and hit, maximize your weapon damage dice against the target.",
-					"When you attack a creature with this weapon and roll a 20 on the attack roll, that target takes an extra 14 slashing damage. Then roll another d20. If you roll a 20, you lop off one of the target's limbs, with the effect of such loss determined by the DM. If the creature has no limb to sever, you lop off a portion of its body instead.",
-					"In addition, you can speak the sword's command to cause the blade to shed bright light in a 10-foot radius and dim light for an additional 10 feet. Speaking the command word again or sheathing the sword puts out the light."
+					"Bu büyülü kılıç ile bir nesneye saldırıp vurusan, hedefe karşı hasar zarlarının maksimumunu alırsın.",
+					"Bir varlığa bu büyülü silah ile saldırdığında saldırı zarı 20 gelirse, hedefin fazladan 14 kesme hasar alır. Sonrasında yeniden d20 atarsın. Eğer 20 gelirse hedefin uzuvlarından birini koparırsın, bu tip bir kaybın etkilerini DM belirler. Eğer varlığın kesilecek bir uzvu yoksa, bedeninin bir kısmını kesersin.",
+					"Ayrıca, kılıcın komut sözünü söyleyip 10 fit çevresine parlak, 10 fit ötesine de loş ışık saçmasını sağlayabilirsin. Komut sözünü yeniden söyleme ya da kılıcı kınına sokma ışığı söndürür."
 				]
 			}
 		},
 		{
-			"name": "Sword of Vengeance",
+			"name": "İntikam Kılıcı",
 			"type": "GV",
 			"requires": {
 				"sword": true
@@ -1140,10 +1139,10 @@
 				"nameSuffix": " of Vengeance",
 				"reqAttune": "YES",
 				"entries": [
-					"You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-					"Curse. This sword is cursed and possessed by a vengeful spirit. Becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the sword, keeping it on your person at all times. While attuned to this weapon, you have disadvantage on attack rolls made with weapons other than this one.",
-					"In addition, while the sword is on your person, you must succeed on a DC 15 Wisdom saving throw whenever you take damage in combat. On a failed save you must attack the creature that damaged you until you drop to 0 hit points or it does, or until you can't reach the creature to make a melee attack against it.",
-					"You can break the curse in the usual ways. Alternatively, casting {@spell banishment|phb} on the sword forces the vengeful spirit to leave it. The sword then becomes a +1 weapon with no other properties."
+					"Bu büyülü silahla yapılan saldırı ve hasar zarlarına +1 bonusun olur.",
+					"Lanet. Bu kılıç lanetlidir ve içinde kinci bir ruh vardır. Buna bağlanmak laneti sana da bulaştırır. Lanetli kaldığın sürece, kılıçtan ayrılmak istemezsin ve daima üzerinde taşırsın. Bu silaha bağlıyken, bunun dışındaki silahlarla yaptığın saldırılarda dezavantajlı olursun.",
+					"Ayrıcak kılıç üzerindeyken, savaşta ne zaman hasar alsan DC 15 Akıl kurtulma zarı atman gerekir. Başarısız bir kurtulma zarında, ya o varlık ya da sen 0 HP'ye düşene kadar, veya ona yakın dövüş saldırısı yapmak için erişemeyeceğin duruma gelene kadar saldırman gerekir.",
+					"Laneti sıradan yöntemlerle kaldırabilirsin. Alternatif olarak, kılıca {@spell banishment (kovma)} büyüsü kullanılarak ruhun onu terk etmesi sağlanabilir. Sonrasında kılıç başka özelliği olmayan +1 bir silaha dönüşür."
 				],
 				"modifier": [
 					{
@@ -1164,7 +1163,7 @@
 			}
 		},
 		{
-			"name": "Sword of Wounding",
+			"name": "Yaralama Kılıcı",
 			"type": "GV",
 			"requires": {
 				"sword": true
@@ -1177,13 +1176,13 @@
 				"nameSuffix": " of Wounding",
 				"reqAttune": "YES",
 				"entries": [
-					"Hit points lost to this weapon's damage can be regained only through a short or long rest, rather than by regeneration, magic, or any other means.",
-					"Once per turn, when you hit a creature with an attack using this magic weapon, you can wound the target. At the start of each of the wounded creature's turns, it takes 1d4 necrotic damage for each time you've wounded it, and it can then make a DC 15 Constitution saving throw, ending the effect of all such wounds on itself on a success. Alternatively, the wounded creature, or a creature within 5 feet of it, can use an action to make a DC 15 Wisdom ({@skill Medicine}) check, ending the effect of such wounds on it on a success."
+					"Bu silahın hasarına kaybedilen HP sadece kısa ya da uzun dinlenme ile yenilenebilir, yenileme, büyü veya diğer yöntemler işe yaramaz.",
+					"Her sıranda bir kereliğine, bir varlığa bu büyülü silahı kullanarak vurduğunda hedefi yaralayabilirsin. Yaralı varlığın her sırasının başında, ona açtığın her yara için 1d4 nekrotik hasar alır, ve sonrasında DC 15 Dayanıklılık kurtulma zarı atıp başarılı olursa bu yaraların hepsini kaplatabilir. Alternatif olarak, yaralı varlık veya onun 5 fit yakınındaki bir varlık, eylemini kullanıp DC 15 Akıl (Tıp) zarı atarak tüm yaraları kaplatabilir."
 				]
 			}
 		},
 		{
-			"name": "Vicious Weapon",
+			"name": "Hırçın Silah",
 			"type": "GV",
 			"requires": {
 				"weapon": true
@@ -1198,13 +1197,12 @@
 				"page": "209",
 				"namePrefix": "Vicious ",
 				"entries": [
-					"When you roll a 20 with this magic weapon, the target takes an extra 7 {@dmgType} damage.",
-					"{@i Note: According to the SRD, it is an extra 2d6 {@dmgType} damage.}"
+					"Bu büyülü silah ile saldırı zarında 20 atarsan, hedef silahın tipinde fazladan 7 hasar alır."
 				]
 			}
 		},
 		{
-			"name": "Vorpal Sword",
+			"name": "Vorpal Kılıç",
 			"type": "GV",
 			"requires": {
 				"sword": true,
@@ -1218,8 +1216,8 @@
 				"namePrefix": "Vorpal ",
 				"reqAttune": "YES",
 				"entries": [
-					"You gain a +3 bonus to attack and damage rolls made with this magic weapon. In addition, the weapon ignores resistance to slashing damage.",
-					"When you attack a creature that has at least one head with this weapon and roll a 20 on the attack roll, you cut off one of the creature's heads. The creature dies if it can't survive without the lost head. A creature is immune to this effect if it is immune to slashing damage, doesn't have or need a head, has legendary actions, or the DM decides that the creature is too big for its head to be cut off with this weapon. Such a creature instead takes an extra 6d8 slashing damage from the hit."
+					"Bu büyülü silahla yapılan saldırı ve hasar zarlarına +3 bonusun olur. Ayrıca kılıç kesme hasarına direnci yoksayar.",
+					"Bu silah ile en az bir başı olan bir varlığa saldırıp zarda 20 atarsan, varlığın başlarından birini kesersin. Eğer varlık bu baş olmadan yaşayamıyorsa ölür. Bir varlık eğer ki kesme hasarına bağışıksa, bir başa sahip değilse ya da ihtiyaç duymuyorsa, efsanevi eylemlere sahipse, veya DM varlığın kafasının bu silah ile kesilemeyecek kadar büyük olduğuna karar verirse kafası kesilmez. Bu tip bir varlık, onun yerine darbeden fazladan 6d8 kesme hasarı alır."
 				],
 				"modifier": [
 					{

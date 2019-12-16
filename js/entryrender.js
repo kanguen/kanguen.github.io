@@ -1879,7 +1879,7 @@ EntryRenderer.item = {
 	enhanceItem (item) {
 		item._isEnhanced = true;
 		if (item.noDisplay) return;
-		if (item.type === "GV") item.category = "Generic Variant";
+		if (item.type === "GV") item.category = "Genel Alternatif";
 		if (item.category === undefined) item.category = "Other";
 		if (item.entries === undefined) item.entries = [];
 		if (item.type && EntryRenderer.item._typeList[item.type]) for (let j = 0; j < EntryRenderer.item._typeList[item.type].entries.length; j++) item.entries.push(EntryRenderer.item._typeList[item.type].entries[j]);
