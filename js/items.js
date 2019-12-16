@@ -64,9 +64,9 @@ function deselectFilter (deselectProperty, deselectValue) {
 let mundanelist;
 let magiclist;
 const sourceFilter = getSourceFilter();
-const typeFilter = new Filter({header: "Type", deselFn: deselectFilter("type", "$")});
-const tierFilter = new Filter({header: "Tier", items: ["Minor", "Major"]});
-const propertyFilter = new Filter({header: "Property", displayFn: StrUtil.uppercaseFirst});
+const typeFilter = new Filter({header: "Tip", deselFn: deselectFilter("type", "$")});
+const tierFilter = new Filter({header: "Seviye", items: ["Alt", "Üst"]});
+const propertyFilter = new Filter({header: "Özellik", displayFn: StrUtil.uppercaseFirst});
 let filterBox;
 function populateTablesAndFilters (data) {
 	const rarityFilter = new Filter({

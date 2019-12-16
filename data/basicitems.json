@@ -27,41 +27,12 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Ammunition",
+					"name": "Cephane",
 					"entries": [
-						"You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. Loading a one-handed weapon requires a free hand. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield."
+						"Cephane özelliği olan bir silahla menzilli saldırıyı sadece o silahtan atacak cephanen varsa kullanabilirsin. Silahla her saldırışında, bir parça cephane harcarsın. Cephaneyi sadak, kutu, veya başka bir kaptan çıkarma saldırının bir parçası sayılır (tek elli bir silahı kurma boş bir el gerektirir). Savaşın sonunda, savaş alanını 1 dakika aradıktan sonra harcanan cephanenin yarısını bulabilirsin."
 					]
 				},
-				"If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon. A sling must be loaded to deal any damage when used in this way."
-			]
-		},
-		{
-			"abbreviation": "AF",
-			"source": "DMG",
-			"page": 267,
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Ammunition",
-					"entries": [
-						"You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. Loading a one-handed weapon requires a free hand. The ammunition of a firearm is destroyed upon use."
-					]
-				},
-				"If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon. A sling must be loaded to deal any damage when used in this way."
-			]
-		},
-		{
-			"abbreviation": "BF",
-			"source": "DMG",
-			"page": 267,
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Burst Fire",
-					"entries": [
-						"A weapon that has the burst fire property can make a single-target attack, or it can spray a 10-foot-cube area within normal range with shots. Each creature in the area must succeed on a DC 15 Dexterity saving throw or take the weapon's normal damage. This action uses ten pieces of ammunition."
-					]
-				}
+				"Eğer cephane özelliği olan bir silahı yakın dövüş saldırısı yapmak için kullanırsan, silahı doğaçlama silah sayarsın. Bir sapan bu şekilde kullanılabilmek için dolu olmalıdır."
 			]
 		},
 		{
@@ -71,9 +42,9 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Finesse",
+					"name": "Beceri",
 					"entries": [
-						"When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls."
+						"Bir beceri silahıyla saldırı yaparken, bunun saldırı ve hasar zarı için Kuvvet ya da Çeviklik bonusunu kullanabilirsin. Her iki zar içinde aynı bonusu kullanırsın."
 					]
 				}
 			]
@@ -85,9 +56,9 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Heavy",
+					"name": "Ağır",
 					"entries": [
-						"Small creatures have disadvantage on attack rolls with heavy weapons. A heavy weapon's size and bulk make it too large for a Small creature to use effectively."
+						"Küçük varlıkların ağır silahlarla saldırı zarları dezavantajlı olur. Bir ağır silahın boyutu ve ağırlığı bunu Küçük boyda bir varlığın etkili bir şekilde kullanmasına engel olur."
 					]
 				}
 			]
@@ -99,9 +70,9 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Light",
+					"name": "Hafif",
 					"entries": [
-						"A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons."
+						"Hafif bir silah küçüktür ve kolay tutulur, bu da onu iki silahla birlikte savaşmak için ideal yapar."
 					]
 				}
 			]
@@ -113,9 +84,9 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Loading",
+					"name": "Kurmalı",
 					"entries": [
-						"Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make."
+						"Bu silahı kurmak için gereken zamandan dolayı, normalde yapabileceğin saldırı sayısına bakılmaksızın, eylemini, bonus eylemini, veya reaksiyonunu kullanıp onunla saldırı yaptığında sadece bir saldırı yapabilirsin."
 					]
 				}
 			]
@@ -127,23 +98,9 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Reach",
+					"name": "Erişim",
 					"entries": [
-						"This weapon adds 5 feet to your reach when you attack with it. This property also determines your reach for opportunity attacks with a reach weapon."
-					]
-				}
-			]
-		},
-		{
-			"abbreviation": "RLD",
-			"source": "DMG",
-			"page": 267,
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Reload",
-					"entries": [
-						"A limited number of shots can be made with a weapon that has the reload property. A character must then reload it using an action or a bonus action (the character's choice)."
+						"Bu silah onunla saldırdığında erişim alanına 5 fit ekler. Bu özellik erişim silahları ile fırsat saldırıları için erişim alanını da belirler."
 					]
 				}
 			]
@@ -152,7 +109,7 @@
 			"abbreviation": "S",
 			"source": "PHB",
 			"page": 147,
-			"name": "special"
+			"name": "özel"
 		},
 		{
 			"abbreviation": "T",
@@ -161,9 +118,9 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Thrown",
+					"name": "Fırlatma",
 					"entries": [
-						"If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property."
+						"Eğer bir silah fırlatma özelliğine sahipse, bu silahı kullanarak bir menzilli saldırı yapabilirsin. Eğer silah bir yakın dövüş silahıysa, o silahla yakın dövüş saldırısı için saldırı ve hasar zarlarında hangi yetenek bonusunu kullanırsan, bu menzilli saldırı için de aynı yetenek bonusunu kullanırsın. Örneğin, eğer bir el baltası fırlatırsan, Kuvvet kullanırsın, ama bir hançer fırlatırsan, Kuvvet ya da Çeviklik kullanabilirsin, çünkü hançerin beceri özelliği vardır."
 					]
 				}
 			]
@@ -175,9 +132,9 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Two-Handed",
+					"name": "Çift El",
 					"entries": [
-						"This weapon requires two hands to use. This property is relevant only when you attack with the weapon, not when you simply hold it."
+						"Bu silahın kullanımı iki elini de gerektirir. Bu özellik sadece silahla saldırırken dikkate alınır, onu tutarken değil."
 					]
 				}
 			]
@@ -189,9 +146,9 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Versatile",
+					"name": "Değişken",
 					"entries": [
-						"This weapon can be used with one or two hands. A damage value in parentheses appears with the property\u2014the damage when the weapon is used with two hands to make a melee attack."
+						"Bu silah tek ya da çift elle kullanılabilir. Bu özelliğin yanında parantez içinde, bu silah yakın dövüş saldırısı için çift elle kullanılırsa vereceği hasar gösterilir."
 					]
 				}
 			]
@@ -205,45 +162,12 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Ammunition",
+					"name": "Cephane",
 					"entries": [
-						"You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. Loading a one-handed weapon requires a free hand. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield."
+						"Cephane özelliği olan bir silahla menzilli saldırıyı sadece o silahtan atacak cephanen varsa kullanabilirsin. Silahla her saldırışında, bir parça cephane harcarsın. Cephaneyi sadak, kutu, veya başka bir kaptan çıkarma saldırının bir parçası sayılır (tek elli bir silahı kurma boş bir el gerektirir). Savaşın sonunda, savaş alanını 1 dakika aradıktan sonra harcanan cephanenin yarısını bulabilirsin."
 					]
 				},
-				"If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon. A sling must be loaded to deal any damage when used in this way."
-			]
-		},
-		{
-			"abbreviation": "AF",
-			"source": "DMG",
-			"page": 267,
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Ammunition",
-					"entries": [
-						"You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. Loading a one-handed weapon requires a free hand. The ammunition of a firearm is destroyed upon use."
-					]
-				},
-				"If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon. A sling must be loaded to deal any damage when used in this way."
-			]
-		},
-		{
-			"abbreviation": "AT",
-			"source": "PHB",
-			"page": 154,
-			"name": "Artisan Tools",
-			"entries": [
-				"These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
-			]
-		},
-		{
-			"abbreviation": "GS",
-			"source": "PHB",
-			"page": 154,
-			"name": "Gaming Set",
-			"entries": [
-				"If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency."
+				"Eğer cephane özelliği olan bir silahı yakın dövüş saldırısı yapmak için kullanırsan, silahı doğaçlama silah sayarsın. Bir sapan bu şekilde kullanılabilmek için dolu olmalıdır."
 			]
 		},
 		{
@@ -269,16 +193,6 @@
 						"A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range."
 					]
 				}
-			]
-		},
-		{
-			"abbreviation": "TG",
-			"source": "PHB",
-			"page": 146,
-			"name": "Trade Good",
-			"entries": [
-				"Most wealth is not in coins. It is measured in livestock, grain, land, rights to collect taxes, or rights to resources (such as a mine or a forest).",
-				"Guilds, nobles, and royalty regulate trade. Chartered companies are granted rights to conduct trade along certain routes, to send merchant ships to various ports, or to buy or sell specific goods. Guilds set prices for the goods or services that they control, and determine who may or may not offer those goods and services. Merchants commonly exchange trade goods without using currency."
 			]
 		},
 		{

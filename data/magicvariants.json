@@ -1,23 +1,23 @@
 {
 	"variant": [
 		{
-			"name": "Armor +1",
+			"name": "Zırh +1",
 			"type": "GV",
 			"entries": [
-				"You have a +1 bonus to AC while wearing this armor."
+				"Bu zırhı giyerken AC'ye +1 bonusun olur."
 			],
 			"requires": {
 				"armor": true
 			},
 			"inherits": {
 				"genericBonus": "+1",
-				"tier": "Major",
-				"rarity": "Rare",
+				"tier": "Üst",
+				"rarity": "Nadir",
 				"source": "DMG",
 				"page": "152",
 				"nameSuffix": " +1",
 				"entries": [
-					"You have a {@genericBonus} bonus to AC while wearing this armor."
+					"Bu zırhı giyerken AC'ye {@genericBonus} bonusun olur."
 				],
 				"modifier": [
 					{
@@ -31,23 +31,23 @@
 			}
 		},
 		{
-			"name": "Armor +2",
+			"name": "Zırh +2",
 			"type": "GV",
 			"entries": [
-				"You have a +2 bonus to AC while wearing this armor."
+				"Bu zırhı giyerken AC'ye +2 bonusun olur."
 			],
 			"requires": {
 				"armor": true
 			},
 			"inherits": {
 				"genericBonus": "+2",
-				"tier": "Major",
-				"rarity": "Very Rare",
+				"tier": "Üst",
+				"rarity": "Çok Nadir",
 				"source": "DMG",
 				"page": "152",
 				"nameSuffix": " +2",
 				"entries": [
-					"You have a {@genericBonus} bonus to AC while wearing this armor."
+					"Bu zırhı giyerken AC'ye {@genericBonus} bonusun olur."
 				],
 				"modifier": [
 					{
@@ -61,23 +61,23 @@
 			}
 		},
 		{
-			"name": "Armor +3",
+			"name": "Zırh +3",
 			"type": "GV",
 			"entries": [
-				"You have a +3 bonus to AC while wearing this armor."
+				"Bu zırhı giyerken AC'ye +3 bonusun olur."
 			],
 			"requires": {
 				"armor": true
 			},
 			"inherits": {
 				"genericBonus": "+3",
-				"tier": "Major",
-				"rarity": "Legendary",
+				"tier": "Üst",
+				"rarity": "Efsanevi",
 				"source": "DMG",
 				"page": "152",
 				"nameSuffix": " +3",
 				"entries": [
-					"You have a {@genericBonus} bonus to AC while wearing this armor."
+					"Bu zırhı giyerken AC'ye {@genericBonus} bonusun olur."
 				],
 				"modifier": [
 					{
@@ -91,23 +91,23 @@
 			}
 		},
 		{
-			"name": "Shield +1",
+			"name": "Kalkan +1",
 			"type": "GV",
 			"entries": [
-				"While holding this shield, you have a +1 bonus to AC. This bonus is in addition to the shield's normal bonus to AC."
+				"Bu kalkanı kullanırken, AC'ye +1 bonusun olur. Bu bonus kalkanın AC'ye normal bonusuna eklenir."
 			],
 			"requires": {
 				"type": "S"
 			},
 			"inherits": {
 				"genericBonus": "+1",
-				"tier": "Major",
-				"rarity": "Uncommon",
+				"tier": "Üst",
+				"rarity": "Seyrek",
 				"source": "DMG",
 				"page": "200",
 				"nameSuffix": " +1",
 				"entries": [
-					"While holding this shield, you have a {@genericBonus} bonus to AC. This bonus is in addition to the shield's normal bonus to AC."
+					"Bu kalkanı kullanırken, AC'ye {@genericBonus} bonusun olur. Bu bonus kalkanın AC'ye normal bonusuna eklenir."
 				],
 				"modifier": [
 					{
@@ -121,23 +121,23 @@
 			}
 		},
 		{
-			"name": "Shield +2",
+			"name": "Kalkan +2",
 			"type": "GV",
 			"entries": [
-				"While holding this shield, you have a +2 bonus to AC. This bonus is in addition to the shield's normal bonus to AC."
+				"Bu kalkanı kullanırken, AC'ye +2 bonusun olur. Bu bonus kalkanın AC'ye normal bonusuna eklenir."
 			],
 			"requires": {
 				"type": "S"
 			},
 			"inherits": {
 				"genericBonus": "+2",
-				"tier": "Major",
-				"rarity": "Rare",
+				"tier": "Üst",
+				"rarity": "Nadir",
 				"source": "DMG",
 				"page": "200",
 				"nameSuffix": " +2",
 				"entries": [
-					"While holding this shield, you have a {@genericBonus} bonus to AC. This bonus is in addition to the shield's normal bonus to AC."
+					"Bu kalkanı kullanırken, AC'ye {@genericBonus} bonusun olur. Bu bonus kalkanın AC'ye normal bonusuna eklenir."
 				],
 				"modifier": [
 					{
@@ -151,23 +151,23 @@
 			}
 		},
 		{
-			"name": "Shield +3",
+			"name": "Kalkan +3",
 			"type": "GV",
 			"entries": [
-				"While holding this shield, you have a +3 bonus to AC. This bonus is in addition to the shield's normal bonus to AC."
+				"Bu kalkanı kullanırken, AC'ye +3 bonusun olur. Bu bonus kalkanın AC'ye normal bonusuna eklenir."
 			],
 			"requires": {
 				"type": "S"
 			},
 			"inherits": {
 				"genericBonus": "+3",
-				"tier": "Major",
-				"rarity": "Very Rare",
+				"tier": "Üst",
+				"rarity": "Çok Nadir",
 				"source": "DMG",
 				"page": "200",
 				"nameSuffix": " +3",
 				"entries": [
-					"While holding this shield, you have a {@genericBonus} bonus to AC. This bonus is in addition to the shield's normal bonus to AC."
+					"Bu kalkanı kullanırken, AC'ye {@genericBonus} bonusun olur. Bu bonus kalkanın AC'ye normal bonusuna eklenir."
 				],
 				"modifier": [
 					{
@@ -181,32 +181,15 @@
 			}
 		},
 		{
-			"name": "Armor of Gleaming",
+			"name": "Asit Direnci Zırhı",
 			"type": "GV",
 			"requires": {
 				"armor": true
 			},
 			"inherits": {
-				"tier": "Minor",
-				"rarity": "Common",
-				"source": "XGE",
-				"page": "136",
-				"nameSuffix": " of Gleaming",
-				"entries": [
-					"This armor never gets dirty."
-				]
-			}
-		},
-		{
-			"name": "Armor of Acid Resistance",
-			"type": "GV",
-			"requires": {
-				"armor": true
-			},
-			"inherits": {
-				"resist": "acid",
-				"tier": "Major",
-				"rarity": "Rare",
+				"resist": "asit",
+				"tier": "Üst",
+				"rarity": "Nadir",
 				"source": "DMG",
 				"page": "162",
 				"reqAttune": "YES",
@@ -214,15 +197,15 @@
 			}
 		},
 		{
-			"name": "Armor of Cold Resistance",
+			"name": "Soğuk Direnci Zırhı",
 			"type": "GV",
 			"requires": {
 				"armor": true
 			},
 			"inherits": {
-				"resist": "cold",
-				"tier": "Major",
-				"rarity": "Rare",
+				"resist": "soğuk",
+				"tier": "Üst",
+				"rarity": "Nadir",
 				"source": "DMG",
 				"page": "162",
 				"reqAttune": "YES",
@@ -230,15 +213,15 @@
 			}
 		},
 		{
-			"name": "Armor of Fire Resistance",
+			"name": "Ateş Direnci Zırhı",
 			"type": "GV",
 			"requires": {
 				"armor": true
 			},
 			"inherits": {
-				"resist": "fire",
-				"tier": "Major",
-				"rarity": "Rare",
+				"resist": "ateş",
+				"tier": "Üst",
+				"rarity": "Nadir",
 				"source": "DMG",
 				"page": "162",
 				"reqAttune": "YES",
@@ -246,15 +229,15 @@
 			}
 		},
 		{
-			"name": "Armor of Force Resistance",
+			"name": "Güç Direnci Zırhı",
 			"type": "GV",
 			"requires": {
 				"armor": true
 			},
 			"inherits": {
-				"resist": "force",
-				"tier": "Major",
-				"rarity": "Rare",
+				"resist": "güç",
+				"tier": "Üst",
+				"rarity": "Nadir",
 				"source": "DMG",
 				"page": "162",
 				"reqAttune": "YES",
@@ -262,15 +245,15 @@
 			}
 		},
 		{
-			"name": "Armor of Lightning Resistance",
+			"name": "Yıldırım Direnci Zırhı",
 			"type": "GV",
 			"requires": {
 				"armor": true
 			},
 			"inherits": {
-				"resist": "lightning",
-				"tier": "Major",
-				"rarity": "Rare",
+				"resist": "yıldırım",
+				"tier": "Üst",
+				"rarity": "Nadir",
 				"source": "DMG",
 				"page": "162",
 				"reqAttune": "YES",
@@ -278,15 +261,15 @@
 			}
 		},
 		{
-			"name": "Armor of Necrotic Resistance",
+			"name": "Nekrotik Direnç Zırhı",
 			"type": "GV",
 			"requires": {
 				"armor": true
 			},
 			"inherits": {
-				"resist": "necrotic",
-				"tier": "Major",
-				"rarity": "Rare",
+				"resist": "nekrotik",
+				"tier": "Üst",
+				"rarity": "Nadir",
 				"source": "DMG",
 				"page": "162",
 				"reqAttune": "YES",
@@ -294,15 +277,15 @@
 			}
 		},
 		{
-			"name": "Armor of Poison Resistance",
+			"name": "Zehir Direnci Zırhı",
 			"type": "GV",
 			"requires": {
 				"armor": true
 			},
 			"inherits": {
-				"resist": "poison",
-				"tier": "Major",
-				"rarity": "Rare",
+				"resist": "zehir",
+				"tier": "Üst",
+				"rarity": "Nadir",
 				"source": "DMG",
 				"page": "162",
 				"reqAttune": "YES",
@@ -310,15 +293,15 @@
 			}
 		},
 		{
-			"name": "Armor of Psychic Resistance",
+			"name": "Psişik Direnç Zırhı",
 			"type": "GV",
 			"requires": {
 				"armor": true
 			},
 			"inherits": {
-				"resist": "psychic",
-				"tier": "Major",
-				"rarity": "Rare",
+				"resist": "psişik",
+				"tier": "Üst",
+				"rarity": "Nadir",
 				"source": "DMG",
 				"page": "162",
 				"reqAttune": "YES",
@@ -326,15 +309,15 @@
 			}
 		},
 		{
-			"name": "Armor of Radiant Resistance",
+			"name": "Radyant Direnç Zırhı",
 			"type": "GV",
 			"requires": {
 				"armor": true
 			},
 			"inherits": {
-				"resist": "radiant",
-				"tier": "Major",
-				"rarity": "Rare",
+				"resist": "radyant",
+				"tier": "Üst",
+				"rarity": "Nadir",
 				"source": "DMG",
 				"page": "162",
 				"reqAttune": "YES",
@@ -342,15 +325,15 @@
 			}
 		},
 		{
-			"name": "Armor of Thunder Resistance",
+			"name": "Ses Direnci Zırhı",
 			"type": "GV",
 			"requires": {
 				"armor": true
 			},
 			"inherits": {
-				"resist": "thunder",
-				"tier": "Major",
-				"rarity": "Rare",
+				"resist": "ses",
+				"tier": "Üst",
+				"rarity": "Nadir",
 				"source": "DMG",
 				"page": "162",
 				"reqAttune": "YES",
@@ -358,24 +341,24 @@
 			}
 		},
 		{
-			"name": "Adamantine Armor",
+			"name": "Adamantine Zırh",
 			"type": "GV",
 			"requires": {
 				"type": "HA"
 			},
 			"inherits": {
-				"tier": "Major",
-				"rarity": "Uncommon",
+				"tier": "Üst",
+				"rarity": "Seyrek",
 				"source": "DMG",
 				"page": "150",
 				"namePrefix": "Adamantine ",
 				"entries": [
-					"This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any critical hit against you becomes a normal hit."
+					"Bu zırh seti varolan en sert maddelerden biri olan adamantine ile güçlendirilmiştir. Bunu giyerken, sana karşı gelen tüm kritik saldırılar normale dönüşür."
 				]
 			}
 		},
 		{
-			"name": "Adamantine Armor Medium",
+			"name": "Adamantine Orta Zırh",
 			"requires": {
 				"type": "MA"
 			},
@@ -383,88 +366,54 @@
 				"name": "Hide Armor"
 			},
 			"inherits": {
-				"tier": "Major",
-				"rarity": "Uncommon",
+				"tier": "Üst",
+				"rarity": "Seyrek",
 				"source": "DMG",
 				"page": "150",
 				"namePrefix": "Adamantine ",
 				"entries": [
-					"This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any critical hit against you becomes a normal hit."
+					"Bu zırh seti varolan en sert maddelerden biri olan adamantine ile güçlendirilmiştir. Bunu giyerken, sana karşı gelen tüm kritik saldırılar normale dönüşür"
 				]
 			},
 			"noDisplay": true
 		},
 		{
-			"name": "Cast-Off Armor",
+			"name": "Denizci Zırhı",
 			"type": "GV",
 			"requires": {
 				"armor": true
 			},
 			"inherits": {
-				"tier": "Minor",
-				"rarity": "Common",
-				"source": "XGE",
-				"page": "136",
-				"namePrefix": "Cast-Off ",
-				"entries": [
-					"You can doff this armor as an action."
-				]
-			}
-		},
-		{
-			"name": "Mariner's Armor",
-			"type": "GV",
-			"requires": {
-				"armor": true
-			},
-			"inherits": {
-				"tier": "Minor",
-				"rarity": "Uncommon",
+				"tier": "Alt",
+				"rarity": "Seyrek",
 				"source": "DMG",
 				"page": "181",
-				"namePrefix": "Mariner's ",
+				"namePrefix": "Denizci ",
 				"entries": [
-					"While wearing this armor, you have a swimming speed equal to your walking speed. In addition, whenever you start your turn underwater with 0 hit points, the armor causes you to rise 60 feet toward the surface. The armor is decorated with fish and shell motifs."
+					"Bu zırhı giyerken, yürüme hızına eşit yüzme hızın olur. Ayrıca, sırana su altında 0 HP ile başlarsan, zırh seni 60 fit yukarı çıkarır. Zırh balık ve deniz kabuğu motifleri ile bezenmiştir."
 				]
 			}
 		},
 		{
-			"name": "Mind Carapace Armor",
+			"name": "Mithral Zırh",
 			"type": "GV",
 			"requires": {
 				"type": "HA"
 			},
 			"inherits": {
-				"rarity": "Uncommon",
-				"source": "VGM",
-				"page": "81",
-				"namePrefix": "Mind Carapace ",
-				"reqAttune": "by a specific individual",
-				"entries": [
-					"Any nonmagical suit of heavy armor can be turned by mind flayers into mind carapace armor. Only one creature can attune to it: either a specific mind flayer or one of its thralls. While worn by any other creature, the mind carapace armor functions as normal armor of its kind. To its intended wearer, the armor grants advantage on Intelligence, Wisdom, and Charisma saving throws and makes its wearer immune to the {@condition frightened} condition."
-				]
-			}
-		},
-		{
-			"name": "Mithral Armor",
-			"type": "GV",
-			"requires": {
-				"type": "HA"
-			},
-			"inherits": {
-				"tier": "Minor",
-				"rarity": "Uncommon",
+				"tier": "Alt",
+				"rarity": "Seyrek",
 				"source": "DMG",
 				"page": "182",
 				"stealth": false,
 				"namePrefix": "Mithral ",
 				"entries": [
-					"Mithral is a light, flexible metal. A mithral chain shirt or breastplate can be worn under normal clothes. If the armor normally imposes disadvantage on Dexterity ({@skill Stealth}) checks or has a Strength requirement, the mithral version of the armor doesn't."
+					"Mithral hafif ve esnek bir metaldir. Bir mithral örme gömlek ya da göğüslük normal giysilerin altından giyilebilir. Eğer zırh normalde Çeviklik ({@skill Gizlenme}) zarlarında dezavantaj veriyorsa ya da Kuvvet gereksinimi varsa, zırhın mithral versiyonunda bunlar bulunmaz."
 				]
 			}
 		},
 		{
-			"name": "Mithral Armor Medium",
+			"name": "Mithral Orta Zırh",
 			"requires": {
 				"type": "MA"
 			},
@@ -472,59 +421,25 @@
 				"name": "Hide Armor"
 			},
 			"inherits": {
-				"tier": "Minor",
-				"rarity": "Uncommon",
+				"tier": "Alt",
+				"rarity": "Seyrek",
 				"source": "DMG",
 				"page": "182",
 				"stealth": false,
 				"namePrefix": "Mithral ",
 				"entries": [
-					"Mithral is a light, flexible metal. A mithral chain shirt or breastplate can be worn under normal clothes. If the armor normally imposes disadvantage on Dexterity ({@skill Stealth}) checks or has a Strength requirement, the mithral version of the armor doesn't."
+					"Mithral hafif ve esnek bir metaldir. Bir mithral örme gömlek ya da göğüslük normal giysilerin altından giyilebilir. Eğer zırh normalde Çeviklik ({@skill Gizlenme}) zarlarında dezavantaj veriyorsa ya da Kuvvet gereksinimi varsa, zırhın mithral versiyonunda bunlar bulunmaz."
 				]
 			},
 			"noDisplay": true
 		},
 		{
-			"name": "Moon-Touched Sword",
-			"type": "GV",
-			"requires": {
-				"sword": true
-			},
-			"inherits": {
-				"tier": "Minor",
-				"rarity": "Common",
-				"source": "XGE",
-				"page": "138",
-				"namePrefix": "Moon-Touched ",
-				"entries": [
-					"In darkness, the unsheathed blade of this sword sheds moonlight, creating bright light in a 15-foot radius and dim light for an additional 15 feet."
-				]
-			}
-		},
-		{
-			"name": "Smoldering Armor",
-			"type": "GV",
-			"requires": {
-				"armor": true
-			},
-			"inherits": {
-				"tier": "Minor",
-				"rarity": "Common",
-				"source": "XGE",
-				"page": "139",
-				"namePrefix": "Smoldering ",
-				"entries": [
-					"Wisps of harmless, odorless smoke rise from this armor while it is worn."
-				]
-			}
-		},
-		{
-			"name": "Arrow of Slaying (Generic)",
+			"name": "Katletme Oku (Genel)",
 			"type": "GV",
 			"entries": [
-				"An {@italic arrow of slaying} is a magic weapon meant to slay a particular kind of creature. Some are more focused than others; for example, there are both {@italic arrows of dragon slaying} and {@italic arrows of blue dragon slaying}. If a creature belonging to the type, race, or group associated with an {@italic arrow of slaying} takes damage from the arrow, the creature must make a DC 17 Constitution saving throw, taking an extra 6d10 piercing damage on a failed save, or half as much extra damage on a successful one.",
-				"Once an {@italic arrow of slaying} deals its extra damage to a creature, it becomes a nonmagical arrow.",
-				"Other types of magic ammunition of this kind exist, such as bolts of slaying meant for a crossbow, though arrows are most common."
+				"Bir {@italic katletme oku}, belirli bir tipte varlığı öldürmek için tasarlanmış büyülü bir silahtır. Bazıları diğerlerinden daha odaklı olabilir; örneğin, hem {@italic ejderha katletme okları} hem de {@italic mavi ejderha katletme okları} mevcuttur. Eğer {@italic katletme oku} ile ilişkili tip, ırk veya gruba bağlı bir varlık bu oktan hasar alırsa, varlık DC 17 Dayanıklılık kurtulma zarı atar, başarısız olursa fazladan 6d10 delme hasarı, başarılı olursa bunun yarısını alır.",
+				"Bir {@italic katletme oku} bir varlığa fazladan hasarını verdiğinde, büyüsüz bir oka dönüşür.",
+				"Bu tipte diğer cephane çeşitlerinden de büyülü olanları vardır, bir arbalet için katletme kısa okları gibi, ama en yaygını oklardır."
 			],
 			"requires": {
 				"ammunition": true
@@ -533,8 +448,8 @@
 				"page": "268"
 			},
 			"inherits": {
-				"tier": "Minor",
-				"rarity": "Very Rare",
+				"tier": "Alt",
+				"rarity": "Çok Nadir",
 				"source": "DMG",
 				"page": "152",
 				"nameSuffix": " of Slaying",
@@ -545,35 +460,35 @@
 			}
 		},
 		{
-			"name": "Ammunition +1",
+			"name": "Cephane +1",
 			"type": "GV",
 			"entries": [
-				"You have a +1 bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical."
+				"Bu büyülü cephane ile yapılan saldırı ve hasar zarlarında +1 bonusun olur. Bir hedefe vurduğunda, cephane büyüsünü kaybeder."
 			],
 			"requires": {
 				"ammunition": true
 			},
 			"inherits": {
 				"genericBonus": "+1",
-				"tier": "Minor",
-				"rarity": "Uncommon",
+				"tier": "Alt",
+				"rarity": "Seyrek",
 				"source": "DMG",
 				"page": "150",
 				"nameSuffix": " +1",
 				"entries": [
-					"You have a {@genericBonus} bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical."
+					"Bu büyülü cephane ile yapılan saldırı ve hasar zarlarında {@genericBonus} bonusun olur. Bir hedefe vurduğunda, cephane büyüsünü kaybeder."
 				],
 				"modifier": [
 					{
 						"_category": "bonus",
-						"__text": "ranged attacks +1",
+						"__text": "menzilli saldırılar +1",
 						"toString": [
 							null
 						]
 					},
 					{
 						"_category": "bonus",
-						"__text": "ranged damage +1",
+						"__text": "menzilli hasar +1",
 						"toString": [
 							null
 						]
@@ -582,35 +497,35 @@
 			}
 		},
 		{
-			"name": "Ammunition +2",
+			"name": "Cephane +2",
 			"type": "GV",
 			"entries": [
-				"You have a +2 bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical."
+				"Bu büyülü cephane ile yapılan saldırı ve hasar zarlarında +2 bonusun olur. Bir hedefe vurduğunda, cephane büyüsünü kaybeder."
 			],
 			"requires": {
 				"ammunition": true
 			},
 			"inherits": {
 				"genericBonus": "+2",
-				"tier": "Minor",
-				"rarity": "Rare",
+				"tier": "Alt",
+				"rarity": "Nadir",
 				"source": "DMG",
 				"page": "150",
 				"nameSuffix": " +2",
 				"entries": [
-					"You have a {@genericBonus} bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical."
+					"Bu büyülü cephane ile yapılan saldırı ve hasar zarlarında {@genericBonus} bonusun olur. Bir hedefe vurduğunda, cephane büyüsünü kaybeder."
 				],
 				"modifier": [
 					{
 						"_category": "bonus",
-						"__text": "ranged attacks +2",
+						"__text": "menzilli saldırılar +2",
 						"toString": [
 							null
 						]
 					},
 					{
 						"_category": "bonus",
-						"__text": "ranged damage +2",
+						"__text": "menzilli hasar +2",
 						"toString": [
 							null
 						]
@@ -619,35 +534,35 @@
 			}
 		},
 		{
-			"name": "Ammunition +3",
+			"name": "Cephane +3",
 			"type": "GV",
 			"entries": [
-				"You have a +3 bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical."
+				"Bu büyülü cephane ile yapılan saldırı ve hasar zarlarında +3 bonusun olur. Bir hedefe vurduğunda, cephane büyüsünü kaybeder."
 			],
 			"requires": {
 				"ammunition": true
 			},
 			"inherits": {
 				"genericBonus": "+3",
-				"tier": "Minor",
-				"rarity": "Very Rare",
+				"tier": "Alt",
+				"rarity": "Çok Nadir",
 				"source": "DMG",
 				"page": "150",
 				"nameSuffix": " +3",
 				"entries": [
-					"You have a {@genericBonus} bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical."
+					"Bu büyülü cephane ile yapılan saldırı ve hasar zarlarında {@genericBonus} bonusun olur. Bir hedefe vurduğunda, cephane büyüsünü kaybeder."
 				],
 				"modifier": [
 					{
 						"_category": "bonus",
-						"__text": "ranged attacks +3",
+						"__text": "menzilli saldırılar +3",
 						"toString": [
 							null
 						]
 					},
 					{
 						"_category": "bonus",
-						"__text": "ranged damage +3",
+						"__text": "menzilli hasar +3",
 						"toString": [
 							null
 						]
@@ -656,90 +571,73 @@
 			}
 		},
 		{
-			"name": "Walloping Ammunition",
-			"type": "GV",
-			"requires": {
-				"ammunition": true
-			},
-			"inherits": {
-				"tier": "Minor",
-				"rarity": "Common",
-				"source": "XGE",
-				"page": "139",
-				"namePrefix": "Walloping ",
-				"entries": [
-					" This ammunition packs a wallop. A creature hit by the ammunition must succeed on a DC 10 Strength saving throw or be knocked {@condition prone}."
-				]
-			}
-		},
-		{
-			"name": "Weapon (no damage) +1",
+			"name": "Silah (hasarsız) +1",
 			"type": "GV",
 			"entries": [
-				"You have a +1 bonus to attack rolls made with this weapon."
+				"Bu silah ile yapılan saldırı zarlarına +1 bonusun olur."
 			],
 			"requires": {
 				"name": "Net"
 			},
 			"inherits": {
 				"genericBonus": "+1",
-				"tier": "Major",
-				"rarity": "Uncommon",
+				"tier": "Üst",
+				"rarity": "Seyrek",
 				"source": "DMG",
 				"page": "213",
 				"nameSuffix": " +1",
 				"entries": [
-					"You have a {@genericBonus} bonus to attack rolls made with this weapon."
+					"Bu silah ile yapılan saldırı zarlarına {@genericBonus} bonusun olur."
 				]
 			}
 		},
 		{
-			"name": "Weapon (no damage) +2",
+			"name": "Silah (hasarsız) +2",
 			"type": "GV",
 			"entries": [
-				"You have a +2 bonus to attack rolls made with this weapon."
+				"Bu silah ile yapılan saldırı zarlarına +2 bonusun olur."
 			],
 			"requires": {
 				"name": "Net"
 			},
 			"inherits": {
 				"genericBonus": "+2",
-				"tier": "Major",
-				"rarity": "Rare",
+				"tier": "Üst",
+				"rarity": "Nadir",
 				"source": "DMG",
 				"page": "213",
 				"nameSuffix": " +2",
 				"entries": [
-					"You have a {@genericBonus} bonus to attack rolls made with this weapon."
+					"Bu silah ile yapılan saldırı zarlarına {@genericBonus} bonusun olur."
 				]
 			}
 		},
 		{
-			"name": "Weapon (no damage) +3",
+			"name": "Silah (hasarsız) +3",
 			"type": "GV",
 			"entries": [
-				"You have a +3 bonus to attack rolls made with this weapon."
+				"Bu silah ile yapılan saldırı zarlarına +3 bonusun olur."
 			],
 			"requires": {
 				"name": "Net"
 			},
 			"inherits": {
 				"genericBonus": "+3",
-				"tier": "Major",
-				"rarity": "Very Rare",
+				"tier": "Üst",
+				"rarity": "Çok Nadir",
 				"source": "DMG",
 				"page": "213",
 				"nameSuffix": " +3",
 				"entries": [
-					"You have a {@genericBonus} bonus to attack rolls made with this weapon."
+					"Bu silah ile yapılan saldırı zarlarına {@genericBonus} bonusun olur."
 				]
 			}
 		},
 		{
-			"name": "Weapon +1",
+			"name": "Silah +1",
 			"type": "GV",
 			"entries": [
-				"You have a +1 bonus to attack and damage rolls made with this weapon."
+				"Bu silah ile yapılan saldırı ve hasar zarlarına +1 bonusun olur."
 			],
 			"requires": {
 				"weapon": true
@@ -749,21 +647,21 @@
 			},
 			"inherits": {
 				"genericBonus": "+1",
-				"tier": "Major",
-				"rarity": "Uncommon",
+				"tier": "Üst",
+				"rarity": "Seyrek",
 				"source": "DMG",
 				"page": "213",
 				"nameSuffix": " +1",
 				"entries": [
-					"You have a {@genericBonus} bonus to attack and damage rolls made with this weapon."
+					"Bu silah ile yapılan saldırı ve hasar zarlarına {@genericBonus} bonusun olur"
 				]
 			}
 		},
 		{
-			"name": "Weapon +2",
+			"name": "Silah +2",
 			"type": "GV",
 			"entries": [
-				"You have a +2 bonus to attack and damage rolls made with this weapon."
+				"Bu silah ile yapılan saldırı ve hasar zarlarına +2 bonusun olur"
 			],
 			"requires": {
 				"weapon": true
@@ -773,21 +671,21 @@
 			},
 			"inherits": {
 				"genericBonus": "+2",
-				"tier": "Major",
-				"rarity": "Rare",
+				"tier": "Üst",
+				"rarity": "Nadir",
 				"source": "DMG",
 				"page": "213",
 				"nameSuffix": " +2",
 				"entries": [
-					"You have a {@genericBonus} bonus to attack and damage rolls made with this weapon."
+					"Bu silah ile yapılan saldırı ve hasar zarlarına {@genericBonus} bonusun olur"
 				]
 			}
 		},
 		{
-			"name": "Weapon +3",
+			"name": "Silah +3",
 			"type": "GV",
 			"entries": [
-				"You have a +3 bonus to attack and damage rolls made with this weapon."
+				"Bu silah ile yapılan saldırı ve hasar zarlarına +3 bonusun olur"
 			],
 			"requires": {
 				"weapon": true
@@ -797,69 +695,69 @@
 			},
 			"inherits": {
 				"genericBonus": "+3",
-				"tier": "Major",
-				"rarity": "Very Rare",
+				"tier": "Üst",
+				"rarity": "Çok Nadir",
 				"source": "DMG",
 				"page": "213",
 				"nameSuffix": " +3",
 				"entries": [
-					"You have a {@genericBonus} bonus to attack and damage rolls made with this weapon."
+					"Bu silah ile yapılan saldırı ve hasar zarlarına {@genericBonus} bonusun olur."
 				]
 			}
 		},
 		{
-			"name": "Weapon of Warning",
+			"name": "Uyarı Silahı",
 			"type": "GV",
 			"requires": {
 				"weapon": true
 			},
 			"inherits": {
-				"tier": "Major",
-				"rarity": "Uncommon",
+				"tier": "Üst",
+				"rarity": "Seyrek",
 				"source": "DMG",
 				"page": "213",
 				"nameSuffix": " of Warning",
 				"reqAttune": "YES",
 				"entries": [
-					"This magic weapon warns you of danger. While the weapon is on your person, you have advantage on initiative rolls. In addition, you and any of your companions within 30 feet of you can't be surprised, except when {@condition incapacitated} by something other than nonmagical sleep. The weapon magically awakens you and your companions within range if any of you are sleeping naturally when combat begins."
+					"Bu büyülü silah seni tehlikeye karşı uyarır. Silah üzerinde iken, öncelik zarlarında avantajlı olursun. Ayrıca, sen ve senin 30 fit çevrendeki tüm yoldaşların sürprize uğratılamaz, büyüsüz uyku dışında başka bir koşul ile {@condition etkisiz hal} durumunda olmanın haricinde. Savaş başladığında silah seni ve menzilindeki yoldaşlarını, eğer doğal bir şekilde uyuyorsanız büyülü bir şekilde uyandırır."
 				]
 			}
 		},
 		{
-			"name": "Berserker Axe",
+			"name": "Berserker Baltası",
 			"type": "GV",
 			"requires": {
 				"axe": true
 			},
 			"inherits": {
-				"tier": "Major",
-				"rarity": "Rare",
+				"tier": "Üst",
+				"rarity": "Nadir",
 				"source": "DMG",
 				"page": "155",
 				"reqAttune": "YES",
 				"namePrefix": "Berserker ",
 				"entries": [
-					"You gain a +1 bonus to attack and damage rolls made with this magic weapon. In addition, while you are attuned to this weapon, your hit point maximum increases by 1 for each level you have attained.",
+					"Bu büyülü silah ile yapacağın saldırı ve hasar zarlarında +1 bonusun olur. Ayrıca bu silaha bağlıyken, sahip olduğun her seviye için HP maksimumun 1 artar.",
 					{
 						"type": "entries",
-						"name": "Curse",
+						"name": "Lanet",
 						"entries": [
-							"This axe is cursed, and becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the axe, keeping it within reach at all times. You also have disadvantage on attack rolls with weapons other than this one, unless no foe is within 60 feet of you that you can see or hear."
+							"Bu balta lanetlidir ve ona bağlanmak laneti sana da bulaştırır. Lanetli kaldığın sürece, baltadan ayrılmak istemezsin ve onu daima erişiminde bulundurursun. Bunun dışında başka silahlarla yapılan saldırı zarlarında da dezavantajın olur, eğer 60 fit yakınında görebildiğin veya duyabildiğin bir düşman yoksa bu dezavantaj uygulanmaz."
 						]
 					},
-					"Whenever a hostile creature damages you while the axe is in your possession, you must succeed on a DC 15 Wisdom saving throw or go berserk. While berserk, you must use your action each round to attack the creature nearest to you with the axe. If you can make extra attacks as part of the Attack action, you use those extra attacks, moving to attack the next nearest creature after you fell your current target. If you have multiple possible targets, you attack one at random. You are berserk until you start your turn with no creatures within 60 feet of you that you can see or hear."
+					"Balta üzerindeyken bir düşman varlık sana hasar verirse, DC 15 Akıl kurtulma zarı atarsın ya da berserk olursun. Berserk haldeyken, her roundda eylemini en yakınındaki varlığa bu balta ile saldırmak için kullanmalısın. Eğer Saldırı eyleminin parçası olarak fazladan saldırı yapabiliyorsan, bu saldırıları da yaparsın ve eğer hedefin düşerse yenisine koşmak için hareketini kullanırsın. Birden çok hedef ihtimalin varsa, rastgele birine saldırırsın. 60 fit yakınında görebildiğin veya duyabildiğin bir varlık kalmayana kadar berserk halde olursun."
 				],
 				"modifier": [
 					{
 						"_category": "bonus",
-						"__text": "melee attacks +1",
+						"__text": "yakın dövüş saldırıları +1",
 						"toString": [
 							null
 						]
 					},
 					{
 						"_category": "bonus",
-						"__text": "melee damage +1",
+						"__text": "yakın dövüş hasarı +1",
 						"toString": [
 							null
 						]
@@ -868,59 +766,59 @@
 			}
 		},
 		{
-			"name": "Dancing Sword",
+			"name": "Dans Eden Kılıç",
 			"type": "GV",
 			"requires": {
 				"sword": true
 			},
 			"inherits": {
-				"tier": "Major",
-				"rarity": "Very Rare",
+				"tier": "Üst",
+				"rarity": "Çok Nadir",
 				"source": "DMG",
 				"page": "161",
 				"reqAttune": "YES",
 				"namePrefix": "Dancing ",
 				"entries": [
-					"You can use a bonus action to toss this magic sword into the air and speak the command word. When you do so, the sword begins to hover, flies up to 30 feet, and attacks one creature of your choice within 5 feet of it. The sword uses your attack roll and ability score modifier to damage rolls.",
-					"While the sword hovers, you can use a bonus action to cause it to fly up to 30 feet to another spot within 30 feet of you. As part of the same bonus action, you can cause the sword to attack one creature within 5 feet of it.",
-					"After the hovering sword attacks for the fourth time, it flies up to 30 feet and tries to return to your hand. If you have no hand free, it falls to the ground at your feet. If the sword has no unobstructed path to you, it moves as close to you as it can and then falls to the ground. It also ceases to hover if you grasp it or move more than 30 feet away from it."
+					"Bonus eylemini kullanıp bu büyülü kılıcı havaya atarak komut sözünü söyleyebilirsin. Bunu yaptığında kılıç uçmaya başlar, 30 fite kadar uçar ve seçeceğin 5 fit yakınındaki bir varlığa saldırır. Kılıç saldırı ve hasar zarları için senin bonuslarını kullanır.",
+					"Kılıç uçarken, bonus eylemini kullanıp onun senin 30 fit yakınında başka bir noktaya 30 fite kadar uçmasını sağlayabilirsin. Aynı bonus eylemin bir parçası olarak, kılıcın 5 fit yakınındaki bir varlığa saldırmasını sağlayabilirsin.",
+					"Uçan kılıç dördüncü kez saldırdıktan sonra, 30 fite kadar uçup eline dönmeye çalışır. Eğer boşta elin yoksa, ayağının yanına düşer. Eğer kılıcın sana doğru engellenmeyen bir yolu yoksa, sana en yakın mesafeye kadar ilerler ve sonra yere düşer. Eğer sen onu tutarsan ya da 30 fitten fazla uzaklaşırsan da uçmayı keser."
 				]
 			}
 		},
 		{
-			"name": "Defender",
+			"name": "Muhafız",
 			"type": "GV",
 			"requires": {
 				"sword": true
 			},
 			"inherits": {
-				"tier": "Major",
-				"rarity": "Legendary",
+				"tier": "Üst",
+				"rarity": "Efsanevi",
 				"source": "DMG",
 				"page": "164",
 				"reqAttune": "YES",
 				"namePrefix": "Defender ",
 				"entries": [
-					"You gain a +3 bonus to attack and damage rolls made with this magic weapon.",
-					"The first time you attack with the sword on each of your turns, you can transfer some or all of the sword's bonus to your Armor Class, instead of using the bonus on any attacks that turn. For example, you could reduce the bonus to your attack and damage rolls to +1 and gain a +2 bonus to AC. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the sword to gain a bonus to AC from it."
+					"Bu büyülü silahla yaptığın saldırı ve hasar zarlarına +3 bonusun olur.",
+					"Her sıranda bu kılıçla ilk saldırışında, saldırılarda ve hasarlarda bonus kullanmak yerine kılıcın bonusunun tümünü ya da bir kısmını AC'ne taşıyabilirsin. Örneğin, saldırılarında ve hasarında bonusunu +1'e düşürüp AC'ne +2 ekleyebilirsin. Ayarlanmış bonuslar bir sonraki sıranın başına kadar sürer, tabii AC bonusunu almak için kılıcı tutuyor olman gerekir."
 				]
 			}
 		},
 		{
-			"name": "Dragon Slayer",
+			"name": "Ejder Katili",
 			"type": "GV",
 			"requires": {
 				"sword": true
 			},
 			"inherits": {
-				"tier": "Major",
-				"rarity": "Rare",
+				"tier": "Üst",
+				"rarity": "Nadir",
 				"source": "DMG",
 				"page": "166",
 				"namePrefix": "Dragon Slayer ",
 				"entries": [
-					"You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-					"When you hit a dragon with this weapon, the dragon takes an extra 3d6 damage of the weapon's type. For the purpose of this weapon, \"dragon\" refers to any creature with the dragon type, including dragon turtles and wyverns."
+					"Bu büyülü silahla yapılan saldırı ve hasar zarlarına +1 bonusun olur.",
+					"Bu silah ile bir ejdere vurduğunda, ejder silahın tipinde 3d6 fazladan hasar alır. Bu silah için \"ejder\", ejder tipine sahip tüm varlıklardır, ejder kaplumbağaları ve wyvernlar da dahil."
 				],
 				"modifier": [
 					{
@@ -941,20 +839,20 @@
 			}
 		},
 		{
-			"name": "Flame Tongue",
+			"name": "Alev Dil",
 			"type": "GV",
 			"requires": {
 				"sword": true
 			},
 			"inherits": {
-				"tier": "Major",
-				"rarity": "Rare",
+				"tier": "Üst",
+				"rarity": "Nadir",
 				"source": "DMG",
 				"page": "170",
 				"reqAttune": "YES",
 				"namePrefix": "Flame Tongue ",
 				"entries": [
-					"You can use a bonus action to speak this magic sword's command word, causing flames to erupt from the blade. These flames shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is ablaze, it deals an extra 2d6 fire damage to any target it hits. The flames last until you use a bonus action to speak the command word again or until you drop or sheathe the sword."
+					"Bonus eylem kullanıp bu kılıcın komut sözünü söylersin ve kılıcı alevler kaplar. Bu alevler 40 fit çevresine parlak, 40 fit daha loş ışık saçar. Kılıç alevliyken vurduğu tüm hedeflere fazladan 2d6 ateş hasarı verir. Alevler sen bonus eylem kullanıp yeniden komut sözünü söylene, kılıcı kınına sokana veya düşürene kadar sürer."
 				]
 			}
 		},
@@ -965,14 +863,14 @@
 				"sword": true
 			},
 			"inherits": {
-				"tier": "Major",
-				"rarity": "Very Rare",
+				"tier": "Üst",
+				"rarity": "Çok Nadir",
 				"source": "DMG",
 				"page": "171",
 				"reqAttune": "YES",
 				"namePrefix": "Frost Brand ",
 				"entries": [
-					"When you hit with an attack using this magic sword, the target takes an extra 1d6 cold damage. In addition, while you hold the sword, you have resistance to fire damage.",
+					"When you hit with an attack using this magic sword, the target takes an extra 1d6 cold damage. In addition, while you hold the sword, you have resistance to ateş damage.",
 					"In freezing temperatures, the blade sheds bright light in a 10-foot radius and dim light for an additional 10 feet.",
 					"When you draw this weapon, you can extinguish all nonmagical flames within 30 feet of you. This property can be used no more than once per hour."
 				]
@@ -985,8 +883,8 @@
 				"axe": true
 			},
 			"inherits": {
-				"tier": "Major",
-				"rarity": "Rare",
+				"tier": "Üst",
+				"rarity": "Nadir",
 				"source": "DMG",
 				"page": "172",
 				"namePrefix": "Giant Slayer ",
@@ -1018,8 +916,8 @@
 				"sword": true
 			},
 			"inherits": {
-				"tier": "Major",
-				"rarity": "Rare",
+				"tier": "Üst",
+				"rarity": "Nadir",
 				"source": "DMG",
 				"page": "172",
 				"namePrefix": "Giant Slayer ",
@@ -1053,8 +951,8 @@
 				"sword": true
 			},
 			"inherits": {
-				"tier": "Major",
-				"rarity": "Legendary",
+				"tier": "Üst",
+				"rarity": "Efsanevi",
 				"source": "DMG",
 				"page": "174",
 				"namePrefix": "Holy Avenger ",
@@ -1105,8 +1003,8 @@
 				"sword": true
 			},
 			"inherits": {
-				"tier": "Major",
-				"rarity": "Legendary",
+				"tier": "Üst",
+				"rarity": "Efsanevi",
 				"source": "DMG",
 				"page": "179",
 				"namePrefix": "Luck Blade ",
@@ -1154,31 +1052,14 @@
 			}
 		},
 		{
-			"name": "Mind Blade",
-			"type": "GV",
-			"requires": {
-				"sword": true
-			},
-			"inherits": {
-				"rarity": "Rare",
-				"source": "VGM",
-				"page": "81",
-				"namePrefix": "Mind Blade ",
-				"reqAttune": "by a specific individual",
-				"entries": [
-					"Mind flayers can turn any nonmagical sword into a mind blade. Only one creature can attune to it: either a specific mind flayer or one of its thralls. In the hands of any other creature, the mind blade functions as a normal sword of its kind. In the hands of its intended wielder, the mind blade is a magic weapon that deals an extra 2d6 psychic damage to any target it hits."
-				]
-			}
-		},
-		{
 			"name": "Nine Lives Stealer",
 			"type": "GV",
 			"requires": {
 				"sword": true
 			},
 			"inherits": {
-				"tier": "Major",
-				"rarity": "Very Rare",
+				"tier": "Üst",
+				"rarity": "Çok Nadir",
 				"source": "DMG",
 				"page": "183",
 				"namePrefix": "Nine Lives Stealer ",
@@ -1212,8 +1093,8 @@
 				"sword": true
 			},
 			"inherits": {
-				"tier": "Major",
-				"rarity": "Rare",
+				"tier": "Üst",
+				"rarity": "Nadir",
 				"source": "DMG",
 				"page": "206",
 				"nameSuffix": " of Life Stealing",
@@ -1232,8 +1113,8 @@
 				"dmgType": "S"
 			},
 			"inherits": {
-				"tier": "Major",
-				"rarity": "Very Rare",
+				"tier": "Üst",
+				"rarity": "Çok Nadir",
 				"source": "DMG",
 				"page": "206",
 				"nameSuffix": " of Sharpness",
@@ -1241,7 +1122,6 @@
 				"entries": [
 					"When you attack an object with this magic sword and hit, maximize your weapon damage dice against the target.",
 					"When you attack a creature with this weapon and roll a 20 on the attack roll, that target takes an extra 14 slashing damage. Then roll another d20. If you roll a 20, you lop off one of the target's limbs, with the effect of such loss determined by the DM. If the creature has no limb to sever, you lop off a portion of its body instead.",
-					"{@i Note: According to the SRD, it is an extra 4d6 slashing damage, although {@link this is incorrect|https://twitter.com/JeremyECrawford/status/949111823990534144}.",
 					"In addition, you can speak the sword's command to cause the blade to shed bright light in a 10-foot radius and dim light for an additional 10 feet. Speaking the command word again or sheathing the sword puts out the light."
 				]
 			}
@@ -1253,8 +1133,8 @@
 				"sword": true
 			},
 			"inherits": {
-				"tier": "Major",
-				"rarity": "Uncommon",
+				"tier": "Üst",
+				"rarity": "Seyrek",
 				"source": "DMG",
 				"page": "206",
 				"nameSuffix": " of Vengeance",
@@ -1290,8 +1170,8 @@
 				"sword": true
 			},
 			"inherits": {
-				"tier": "Major",
-				"rarity": "Rare",
+				"tier": "Üst",
+				"rarity": "Nadir",
 				"source": "DMG",
 				"page": "207",
 				"nameSuffix": " of Wounding",
@@ -1312,8 +1192,8 @@
 				"name": "Net"
 			},
 			"inherits": {
-				"tier": "Major",
-				"rarity": "Rare",
+				"tier": "Üst",
+				"rarity": "Nadir",
 				"source": "DMG",
 				"page": "209",
 				"namePrefix": "Vicious ",
@@ -1331,8 +1211,8 @@
 				"dmgType": "S"
 			},
 			"inherits": {
-				"tier": "Major",
-				"rarity": "Legendary",
+				"tier": "Üst",
+				"rarity": "Efsanevi",
 				"source": "DMG",
 				"page": "209",
 				"namePrefix": "Vorpal ",
@@ -1360,11 +1240,11 @@
 			}
 		},
 		{
-			"name": "Adamantine Weapon",
+			"name": "Adamantine Silah",
 			"type": "GV",
 			"entries": [
-				"Melee weapons made of or coated with adamantine are unusually effective when used to break objects. Whenever an adamantine weapon hits an object, the hit is a critical hit.",
-				"The adamantine version of a melee weapon costs 500 gp more than the normal version, whether the weapon is made of the metal or coated with it."
+				"Adamantineden yapılma ya da kaplama yakın dövüş silahları, nesneleri kırmak için kullanıldığında çok etkilidirler. Bir adamantine silah nesneye vurduğunda, darbe kritik olur.",
+				"Bir yakın dövüş silahının adamantine versiyonu normalinden 500 gp daha pahalıdır, silah bu metalden yapılma da kaplama da olsa aynıdır."
 			],
 			"requires": {
 				"weapon": true
@@ -1373,42 +1253,42 @@
 				"name": "Net"
 			},
 			"inherits": {
-				"rarity": "Unknown",
-				"tier": "Major",
-				"source": "XGE",
+				"rarity": "Bilinmeyen",
+				"tier": "Üst",
+				"source": "DMG",
 				"page": "71",
 				"namePrefix": "Adamantine ",
 				"entries": [
-					"Whenever you hit an object with this weapon, the hit is a critical hit."
+					"Bu silah ile bir nesneye vurduğunda, darbe kritik olur."
 				]
 			}
 		},
 		{
-			"name": "Adamantine Ammunition",
+			"name": "Adamantine Cephane",
 			"type": "GV",
 			"entries": [
-				"Ammunition made of or coated with adamantine is unusually effective when used to break objects. Whenever a piece of adamantine ammunition hits an object, the hit is a critical hit.",
-				"The adamantine version of ten pieces of ammunition costs 500 gp more than the normal version, whether the ammunition is made of the metal or coated with it."
+				"Adamantineden yapılma ya da kaplama cephaneler, nesneleri kırmak için kullanıldığında çok etkilidirler. Bir adamantine cephane nesneye vurduğunda, darbe kritik olur.",
+				"10 parça cephanenin adamantine versiyonu normalinden 500 gp daha pahalıdır, cephane bu metalden yapılma da kaplama da olsa aynıdır."
 			],
 			"requires": {
 				"ammunition": true
 			},
 			"inherits": {
-				"tier": "Minor",
-				"rarity": "Unknown",
-				"source": "XGE",
+				"tier": "Alt",
+				"rarity": "Bilinmeyen",
+				"source": "DMG",
 				"page": "71",
 				"namePrefix": "Adamantine ",
 				"entries": [
-					"Whenever you hit an object using this ammunition, the hit is a critical hit."
+					"Bu cephane ile bir nesneye vurduğunda, darbe kritik olur."
 				]
 			}
 		},
 		{
-			"name": "Silvered Weapon",
+			"name": "Gümüş Kaplı Silah",
 			"type": "GV",
 			"entries": [
-				"Some monsters that have immunity or resistance to nonmagical weapons are susceptible to silver weapons, so cautious adventurers invest extra coin to plate their weapons with silver. You can silver a single weapon for 100 gp. This cost represents not only the price of the silver, but the time and expertise needed to add silver to the weapon without making it less effective."
+				"Bazı yaratıkların büyüsüz silahlardan gelen hasara karşı direnç ya da bağışıklıkları olsa da gümüşe karşı zayıftırlar, bu yüzden temkinli maceracılar biraz yatırım yapıp silahlarını gümüş kaplatırlar. Tek bir silahı 100 gp karşılığı gümüş kaplatabilirsin. Bu masraf sadece harcanan gümüşü değil, bu silahın etkisini azaltmadan onu gümüş kaplamak için gereken zaman ve ustalığı da yansıtır."
 			],
 			"requires": {
 				"weapon": true
@@ -1417,26 +1297,26 @@
 				"name": "Net"
 			},
 			"inherits": {
-				"rarity": "Unknown",
-				"tier": "Major",
-				"source": "PHB",
+				"rarity": "Bilinmeyen",
+				"tier": "Üst",
+				"source": "DMG",
 				"page": "148",
 				"namePrefix": "Silvered "
 			}
 		},
 		{
-			"name": "Silvered Ammunition",
+			"name": "Gümüş Kaplı Cephane",
 			"type": "GV",
 			"entries": [
-				"Some monsters that have immunity or resistance to nonmagical weapons are susceptible to silver ammunition, so cautious adventurers invest extra coin to plate their ammunition in silver. You can silver ten pieces of ammunition for 100 gp. This cost represents not only the price of the silver, but the time and expertise needed to add silver to the ammunition without making it less effective."
+				"Bazı yaratıkların büyüsüz silahlardan gelen hasara karşı direnç ya da bağışıklıkları olsa da gümüşe karşı zayıftırlar, bu yüzden temkinli maceracılar biraz yatırım yapıp cephanelerini gümüş kaplatırlar. 10 parça cephaneyi 100 gp karşılığı gümüş kaplatabilirsin. Bu masraf sadece harcanan gümüşü değil, bu cephanenin etkisini azaltmadan onu gümüş kaplamak için gereken zaman ve ustalığı da yansıtır."
 			],
 			"requires": {
 				"ammunition": true
 			},
 			"inherits": {
-				"tier": "Minor",
-				"rarity": "Unknown",
-				"source": "PHB",
+				"tier": "Alt",
+				"rarity": "Bilinmeyen",
+				"source": "DMG",
 				"page": "148",
 				"namePrefix": "Silvered "
 			}

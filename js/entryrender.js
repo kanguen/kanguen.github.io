@@ -1888,12 +1888,12 @@ EntryRenderer.item = {
 		}
 		// The following could be encoded in JSON, but they depend on more than one JSON property; maybe fix if really bored later
 		if (item.armor) {
-			if (item.resist) item.entries.push("You have resistance to " + item.resist + " damage while you wear this armor.");
+			if (item.resist) item.entries.push("Bu zırhı giyerken " + item.resist + " hasarına direncin olur.");
 			if (item.armor && item.stealth) item.entries.push("The wearer has disadvantage on Stealth (Dexterity) checks.");
 			if (item.type === "HA" && item.strength) item.entries.push("If the wearer has a Strength score lower than " + item.strength + ", their speed is reduced by 10 feet.");
 		} else if (item.resist) {
-			if (item.type === "P") item.entries.push("When you drink this potion, you gain resistance to " + item.resist + " damage for 1 hour.");
-			if (item.type === "RG") item.entries.push("You have resistance to " + item.resist + " damage while wearing this ring.");
+			if (item.type === "P") item.entries.push("Bu iksiri içtiğinde, 1 saatliğine " + item.resist + " hasarına direncin olur.");
+			if (item.type === "RG") item.entries.push("Bu yüzüğü takarken " + item.resist + " hasarına direncin olur.");
 		}
 		if (item.type === "SCF") {
 			if (item.scfType === "arcane") item.entries.push("An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, using it in place of any material component which does not list a cost.");
