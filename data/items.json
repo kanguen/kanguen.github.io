@@ -4140,8 +4140,8 @@
 			]
 		},
 		{
-			"name": "Potion of Acid Resistance",
-			"resist": "acid",
+			"name": "Asit Direnci İksiri",
+			"resist": "asit",
 			"type": "P",
 			"weight": "0.5",
 			"tier": "Alt",
@@ -4150,7 +4150,7 @@
 			"page": 188
 		},
 		{
-			"name": "Potion of Animal Friendship",
+			"name": "Hayvan Dostluğu İksiri",
 			"type": "P",
 			"weight": "0.5",
 			"tier": "Alt",
@@ -4158,11 +4158,11 @@
 			"source": "DMG",
 			"page": 187,
 			"entries": [
-				"When you drink this potion, you can cast the {@spell animal friendship} spell (save DC 13) for 1 hour at will. Agitating this muddy liquid brings little bits into view: a fish scale, a hummingbird tongue, a cat claw, or a squirrel hair."
+				"Bu iksiri içtiğinde, 1 saat boyunca {@spell animal friendship (hayvan dostluğu)} büyüsünü (kurtulma DC'si 13) istediğin kadar kullanabilirsin. Bu bulanık sıvıyı çalkalama birkaç parçayı görünür kılar: balık pulu, sinekkuşu dili, kedi pençesi, veya sincap tüyü."
 			]
 		},
 		{
-			"name": "Potion of Clairvoyance",
+			"name": "Duru Görü İksiri",
 			"type": "P",
 			"weight": "0.5",
 			"tier": "Alt",
@@ -4170,11 +4170,11 @@
 			"source": "DMG",
 			"page": 187,
 			"entries": [
-				"When you drink this potion, you gain the effect of the {@spell clairvoyance} spell. An eyeball bobs in this yellowish liquid but vanishes when the potion is opened."
+				"Bu iksiri içtiğinde, {@spell clairvoyance (duru görü)} büyüsünün etkisini kazanırsın. Bu sarımtırak sıvının içinde bir göz yüzer ama şişe açıldığı anda kaybolur."
 			]
 		},
 		{
-			"name": "Potion of Climbing",
+			"name": "Tırmanma İksiri",
 			"type": "P",
 			"weight": "0.5",
 			"tier": "Alt",
@@ -4182,11 +4182,11 @@
 			"source": "DMG",
 			"page": 187,
 			"entries": [
-				"When you drink this potion, you gain a climbing speed equal to your walking speed for 1 hour. During this time, you have advantage on Strength ({@skill Athletics}) checks you make to climb. The potion is separated into brown, silver, and gray layers resembling bands of stone. Shaking the bottle fails to mix the colors."
+				"Bu iksiri içtiğinde, 1 saatliğine yürüme hızın kadar tırmanma hızına sahip olursun. Bu süreçte, tırmanmak için atacağın Kuvvet ({@skill Atletizm}) zarlarında avantajlı olursun. İksir kaya katmanlarına benzer şekilde kahverengi, gümüş ve gri renkte bantlardan oluşur, ve şişeyi çalkalama bunları birbirine karıştırmaz."
 			]
 		},
 		{
-			"name": "Potion of Cloud Giant Strength",
+			"name": "Bulut Devi Kuvveti İksiri",
 			"type": "P",
 			"weight": "0.5",
 			"tier": "Alt",
@@ -4194,13 +4194,13 @@
 			"source": "DMG",
 			"page": 187,
 			"entries": [
-				"When you drink this potion, your Strength score changes to 27 for 1 hour. The potion has no effect on you if your Strength is equal to or greater than that score.",
-				"This potion's transparent liquid has floating in it a sliver of fingernail from a {@creature cloud giant}."
+				"Bu iksiri içtiğinde, 1 saatliğine Kuvvet skorun 27 olur. Eğer Kuvvetin zaten bu skora eşitse veya daha yüksekse iksirin bir etkisi olmaz.",
+				"Bu iksirin saydam sıvısında yüzen bir {@creature bulut devi} tırnak parçası görülür."
 			]
 		},
 		{
-			"name": "Potion of Cold Resistance",
-			"resist": "cold",
+			"name": "Soğuk Direnci İksiri",
+			"resist": "soğuk",
 			"type": "P",
 			"weight": "0.5",
 			"tier": "Alt",
@@ -4209,7 +4209,7 @@
 			"page": 188
 		},
 		{
-			"name": "Potion of Diminution",
+			"name": "Küçülme İksiri",
 			"type": "P",
 			"weight": "0.5",
 			"tier": "Alt",
@@ -4217,11 +4217,11 @@
 			"source": "DMG",
 			"page": 187,
 			"entries": [
-				"When you drink this potion, you gain the \"reduce\" effect of the {@spell enlarge/reduce|phb} spell for 1d4 hours (no concentration required). The red in the potion's liquid continuously contracts to a tiny bead and then expands to color the clear liquid around it. Shaking the bottle fails to interrupt this process."
+				"Bu iksiri içtiğinde, 1d4 saatliğine (konsantrasyon gerekmez) {@spell enlarge/reduce (büyüt/küçült)} büyüsünün \"küçült\" etkisi altında olursun. İksirin sıvısındaki kırmızılık sürekli bir noktaya kadar küçülür ve sonra büyüyüp çevresini kırmızıya boyar, şişeyi sallamak bu süreci bozmaz."
 			]
 		},
 		{
-			"name": "Potion of Fire Breath",
+			"name": "Ateş Nefesi İksiri",
 			"type": "P",
 			"weight": "0.5",
 			"tier": "Alt",
@@ -4229,11 +4229,11 @@
 			"source": "DMG",
 			"page": 187,
 			"entries": [
-				"After drinking this potion, you can use a bonus action to exhale fire at a target within 30 feet of you. The target must make a DC 13 Dexterity saving throw, taking 4d6 fire damage on a failed save, or half as much damage on a successful one. The effect ends after you exhale the fire three times or when 1 hour has passed. This potion's orange liquid flickers, and smoke fills the top of the container and wafts out whenever it is opened."
+				"Bu iksiri içtikten sonra, bonus eylemini kullanıp 30 fit yakınındaki bir hedefe alev üfleyebilirsin. Hedef DC 13 Çeviklik kurtulma zarı atar, başarısız olursa 4d6 ateş hasarı alır, başarılı olursa bunun yarısını. Etki 1 saat geçince ya da sen ateşini 3 kere üflediğinde sonlanır. Bu iksirin turuncu sıvısı yanıp söner, ve şişenin üst kısmını açılınca dışarı çıkan bir duman kaplamıştır."
 			]
 		},
 		{
-			"name": "Potion of Fire Giant Strength",
+			"name": "Ateş Devi Kuvveti İksiri",
 			"type": "P",
 			"weight": "0.5",
 			"tier": "Alt",
@@ -4241,13 +4241,13 @@
 			"source": "DMG",
 			"page": 187,
 			"entries": [
-				"When you drink this potion, your Strength score changes to 25 for 1 hour. The potion has no effect on you if your Strength is equal to or greater than that score.",
-				"This potion's transparent liquid has floating in it a sliver of fingernail from a {@creature fire giant}."
+				"Bu iksiri içtiğinde, 1 saatliğine Kuvvet skorun 25 olur. Eğer Kuvvetin zaten bu skora eşitse veya daha yüksekse iksirin bir etkisi olmaz.",
+				"Bu iksirin saydam sıvısında yüzen bir {@creature ateş devi} tırnak parçası görülür."
 			]
 		},
 		{
-			"name": "Potion of Fire Resistance",
-			"resist": "fire",
+			"name": "Ateş Direnci İksiri",
+			"resist": "ateş",
 			"type": "P",
 			"weight": "0.5",
 			"tier": "Alt",
@@ -4256,7 +4256,7 @@
 			"page": 188
 		},
 		{
-			"name": "Potion of Flying",
+			"name": "Uçma İksiri",
 			"type": "P",
 			"weight": "0.5",
 			"tier": "Alt",
@@ -4264,11 +4264,11 @@
 			"source": "DMG",
 			"page": 187,
 			"entries": [
-				"When you drink this potion, you gain a flying speed equal to your walking speed for 1 hour and can hover. If you're in the air when the potion wears off, you fall unless you have some other means of staying aloft. This potion's clear liquid floats at the top of its container and has cloudy white impurities drifting in it."
+				"Bu iksiri içtiğinde, 1 saatliğine yürüme hızına eşit uçma hızın olur ve havada kalabilirsin. İksirin gücü bittiğinde eğer havadaysan, başka şekilde havada kalma fırsatın yoksa düşersin. Bu iksirin saydam sıvısı kabın en üstünde süzülür ve içinde yüzen bulutsu beyaz parçacıklar vardır."
 			]
 		},
 		{
-			"name": "Potion of Force Resistance",
+			"name": "Güç Direnci İksiri",
 			"resist": "force",
 			"type": "P",
 			"weight": "0.5",
@@ -4278,7 +4278,7 @@
 			"page": 188
 		},
 		{
-			"name": "Potion of Frost Giant Strength",
+			"name": "Buz Devi Kuvveti İksiri",
 			"type": "P",
 			"weight": "0.5",
 			"tier": "Alt",
@@ -4286,12 +4286,12 @@
 			"source": "DMG",
 			"page": 187,
 			"entries": [
-				"When you drink this potion, your Strength score changes to 23 for 1 hour. The potion has no effect on you if your Strength is equal to or greater than that score.",
-				"This potion's transparent liquid has floating in it a sliver of fingernail from a {@creature frost giant}."
+				"Bu iksiri içtiğinde, 1 saatliğine Kuvvet skorun 23 olur. Eğer Kuvvetin zaten bu skora eşitse veya daha yüksekse iksirin bir etkisi olmaz.",
+				"Bu iksirin saydam sıvısında yüzen bir {@creature buz devi} tırnak parçası görülür."
 			]
 		},
 		{
-			"name": "Potion of Gaseous Form",
+			"name": "Gaz Formu İksiri",
 			"type": "P",
 			"weight": "0.5",
 			"tier": "Alt",
@@ -4299,11 +4299,11 @@
 			"source": "DMG",
 			"page": 187,
 			"entries": [
-				"When you drink this potion, you gain the effect of the {@spell gaseous form} spell for 1 hour (no concentration required) or until you end the effect as a bonus action. This potion's container seems to hold fog that moves and pours like water."
+				"Bu iksiri içtiğinde, 1 saatliğine (konsantrasyon gerekmez) veya sen bonus eylem olarak sonlandırana dek {@spell gaseous form (gaz formu)} büyüsünün etkisi altında olursun. Bu iksirin kabındaki sıvı, su gibi hareket edip akabilen bir sis gibidir."
 			]
 		},
 		{
-			"name": "Potion of Greater Healing",
+			"name": "Üstün Şifa İksiri",
 			"type": "P",
 			"weight": "0.5",
 			"tier": "Alt",
@@ -4311,11 +4311,11 @@
 			"source": "DMG",
 			"page": 187,
 			"entries": [
-				"You regain 4d4+4 hit points when you drink this potion. The potion's red liquid glimmers when agitated."
+				"Bu iksiri içtiğinde 4d4+4 HP yenilersin. İksirin kırmızı sıvısı çalkalandığında ışıldar."
 			]
 		},
 		{
-			"name": "Potion of Growth",
+			"name": "Büyüme İksiri",
 			"type": "P",
 			"weight": "0.5",
 			"tier": "Alt",
@@ -4323,11 +4323,11 @@
 			"source": "DMG",
 			"page": 187,
 			"entries": [
-				"When you drink this potion, you gain the \"enlarge\" effect of the {@spell enlarge/reduce|phb} spell for 1d4 hours (no concentration required). The red in the potion's liquid continuously expands from a tiny bead to color the clear liquid around it and then contracts. Shaking the bottle fails to interrupt this process."
+				"Bu iksiri içtiğinde, 1d4 saatliğine (konsantrasyon gerekmez) {@spell enlarge/reduce (büyüt/küçült)} büyüsünün \"büyüt\" etkisi altında olursun. İksirin sıvısındaki kırmızılık sürekli bir noktaya kadar küçülür ve sonra büyüyüp çevresini kırmızıya boyar, şişeyi sallamak bu süreci bozmaz."
 			]
 		},
 		{
-			"name": "Potion of Healing",
+			"name": "Şifa İksiri",
 			"type": "P",
 			"weight": "0.5",
 			"tier": "Alt",
@@ -4335,12 +4335,12 @@
 			"source": "DMG",
 			"page": 187,
 			"entries": [
-				"You regain 2d4+2 hit points when you drink this potion. The potion's red liquid glimmers when agitated."
+				"Bu iksiri içtiğinde 2d4+2 HP yenilersin. İksirin kırmızı sıvısı çalkalandığında ışıldar."
 			],
 			"value": "50gp"
 		},
 		{
-			"name": "Potion of Heroism",
+			"name": "Kahramanlık İksiri",
 			"type": "P",
 			"weight": "0.5",
 			"tier": "Alt",
@@ -4348,11 +4348,11 @@
 			"source": "DMG",
 			"page": 188,
 			"entries": [
-				"For 1 hour after drinking it, you gain 10 temporary hit points that last for 1 hour. For the same duration, you are under the effect of the {@spell bless} spell (no concentration required). This blue potion bubbles and steams as if boiling."
+				"İçtikten sonra 1 saatliğine, 10 geçici HP kazanırsın. Aynı süreçte, {@spell bless (kutsama)} büyüsünün etkisi altında olursun (konsantrasyon gerekmez). Bu mavi iksir baloncuklar çıkarıp kaynar gibi görünür."
 			]
 		},
 		{
-			"name": "Potion of Hill Giant Strength",
+			"name": "Tepe Devi Kuvveti İksiri",
 			"type": "P",
 			"weight": "0.5",
 			"tier": "Alt",
@@ -4360,12 +4360,12 @@
 			"source": "DMG",
 			"page": 187,
 			"entries": [
-				"When you drink this potion, your Strength score changes to 21 for 1 hour. The potion has no effect on you if your Strength is equal to or greater than that score.",
-				"This potion's transparent liquid has floating in it a sliver of fingernail from a {@creature hill giant}."
+				"Bu iksiri içtiğinde, 1 saatliğine Kuvvet skorun 21 olur. Eğer Kuvvetin zaten bu skora eşitse veya daha yüksekse iksirin bir etkisi olmaz.",
+				"Bu iksirin saydam sıvısında yüzen bir {@creature tepe devi} tırnak parçası görülür."
 			]
 		},
 		{
-			"name": "Potion of Invisibility",
+			"name": "Görünmezlik İksiri",
 			"type": "P",
 			"weight": "0.5",
 			"tier": "Alt",
@@ -4373,11 +4373,11 @@
 			"source": "DMG",
 			"page": 188,
 			"entries": [
-				"This potion's container looks empty but feels as though it holds liquid. When you drink it, you become {@condition invisible} for 1 hour. Anything you wear or carry is {@condition invisible} with you. The effect ends early if you attack or cast a spell."
+				"Bu iksirin kabı boş görünür ama içinde sıvı varmış gibi hissettirir. İçtiğinde, 1 saatliğine {@condition görünmezlik} etkisinde olursun. Giydiğin ve taşıdığın her şey seninle görünmez olur. Eğer saldırırsan ya da büyü yaparsan etki erken sonlanır."
 			]
 		},
 		{
-			"name": "Potion of Invulnerability",
+			"name": "Dokunulmazlık İksiri",
 			"type": "P",
 			"weight": "0.5",
 			"tier": "Alt",
@@ -4385,12 +4385,12 @@
 			"source": "DMG",
 			"page": 188,
 			"entries": [
-				"For 1 minute after you drink this potion, you have resistance to all damage. The potion's syrupy liquid looks like liquefied iron."
+				"Bu iksiri içtikten sonra 1 dakikalığına tüm hasara direncin olur. İksirin yoğun sıvısı erimiş demir gibi görünür."
 			]
 		},
 		{
-			"name": "Potion of Lightning Resistance",
-			"resist": "lightning",
+			"name": "Yıldırım Direnci İksiri",
+			"resist": "yıldırım",
 			"type": "P",
 			"weight": "0.5",
 			"tier": "Alt",
@@ -4399,7 +4399,7 @@
 			"page": 188
 		},
 		{
-			"name": "Potion of Longevity",
+			"name": "Uzun Ömür İksiri",
 			"type": "P",
 			"weight": "0.5",
 			"tier": "Alt",
@@ -4407,11 +4407,11 @@
 			"source": "DMG",
 			"page": 188,
 			"entries": [
-				"When you drink this potion, your physical age is reduced by 1d6+6 years, to a minimum of 13 years. Each time you subsequently drink a potion of longevity, there is 10 percent cumulative chance that you instead age by 1d6+6 years. Suspended in this amber liquid are a scorpion's tail, an adder's fang, a dead spider, and a tiny heart that, against all reason, is still beating. These ingredients vanish when the potion is opened."
+				"Bu iksiri içtiğinde, fiziksel yaşın en az 13'e inecek şekilde 1d6+6 yıl azalır. Sonrasında bu iksiri her içişinde, eklenerek artan yüzde onluk bir şans ile 1d6+6 yıl yaşlanma ihtimalin vardır. Bu kehribar renkli sıvının içinde akrep kuyruğu, engerek dişi, ölü örümcek ve hala atan minik bir kalp vardır. Bu malzemeler iksir açıldığında kaybolur."
 			]
 		},
 		{
-			"name": "Potion of Mind Reading",
+			"name": "Zihin Okuma İksiri",
 			"type": "P",
 			"weight": "0.5",
 			"tier": "Alt",
@@ -4419,12 +4419,12 @@
 			"source": "DMG",
 			"page": 188,
 			"entries": [
-				"When you drink this potion, you gain the effect of the {@spell detect thoughts} spell (save DC 13). The potion's dense, purple liquid has an ovoid cloud of pink floating in it."
+				"Bu iksiri içtiğinde, {@spell detect thoughts (zihin okuma)} büyüsünün etkisinde olursun (kurtulma DC'si 13). İksirin yoğun ve mor sıvısının içinde oval bir pembelik yüzer."
 			]
 		},
 		{
-			"name": "Potion of Necrotic Resistance",
-			"resist": "necrotic",
+			"name": "Nekrotik Direnç İksiri",
+			"resist": "nekrotik",
 			"type": "P",
 			"weight": "0.5",
 			"tier": "Alt",
@@ -4433,7 +4433,7 @@
 			"page": 188
 		},
 		{
-			"name": "Potion of Poison",
+			"name": "Zehir İksiri",
 			"type": "P",
 			"weight": "0.5",
 			"tier": "Alt",
@@ -4441,13 +4441,13 @@
 			"source": "DMG",
 			"page": 188,
 			"entries": [
-				"This concoction looks, smells, and tastes like a {@item potion of healing} or other beneficial potion. However, it is actually poison masked by illusion magic. An {@spell identify} spell reveals its true nature.",
-				"If you drink it, you take 3d6 poison damage, and you must succeed on a DC 13 Constitution saving throw or be {@condition poisoned}. At the start of each of your turns while you are {@condition poisoned} in this way, you take 3d6 poison damage. At the end of each of your turns, you can repeat the saving throw. On a successful save, the poison damage you take on your subsequent turns decreases by 1d6. The poison ends when the damage decreases to 0."
+				"Bu karışım görüntü, koku ve tat olarak bir {@item Şifa İksiri} veya benzeri yararlı iksire benzer. Aslında illüzyon büyüsü ile gizlenmiş bir zehirdir. Bir {@spell identify (tanımla)} büyüsü gerçek doğasını ortaya çıkarır.",
+				"Eğer içersen, 3d6 zehir hasarı alırsın ve DC 13 Dayanıklılık kurtulma zarı atarsın ya da {@condition zehirlenme} durumunda olursun. Bu şekilde zehirlenmişken her sıranın başında 3d6 zehir hasarı alırsın. Her sıranın sonunda kurtulma zarını tekrarlayabilirsin. Başarılı olursan, sonraki sıranda alacağın zehir hasarı 1d6 azalır. Hasar sıfıra indiğinde zehir sonlanır."
 			]
 		},
 		{
-			"name": "Potion of Poison Resistance",
-			"resist": "poison",
+			"name": "Zehir Direnci İksiri",
+			"resist": "zehir",
 			"type": "P",
 			"weight": "0.5",
 			"tier": "Alt",
@@ -4456,8 +4456,8 @@
 			"page": 188
 		},
 		{
-			"name": "Potion of Psychic Resistance",
-			"resist": "psychic",
+			"name": "Psişik Direnç İksiri",
+			"resist": "psişik",
 			"type": "P",
 			"weight": "0.5",
 			"tier": "Alt",
@@ -4466,8 +4466,8 @@
 			"page": 188
 		},
 		{
-			"name": "Potion of Radiant Resistance",
-			"resist": "radiant",
+			"name": "Radyant Direnç İksiri",
+			"resist": "radyant",
 			"type": "P",
 			"weight": "0.5",
 			"tier": "Alt",
@@ -4476,7 +4476,7 @@
 			"page": 188
 		},
 		{
-			"name": "Potion of Speed",
+			"name": "Hız İksiri",
 			"type": "P",
 			"weight": "0.5",
 			"tier": "Alt",
@@ -4484,11 +4484,11 @@
 			"source": "DMG",
 			"page": 188,
 			"entries": [
-				"When you drink this potion, you gain the effect of the {@spell haste} spell for 1 minute (no concentration required). The potion's yellow fluid is streaked with black and swirl on its own."
+				"Bu iksiri içtiğinde, 1 dakikalığına (konsantrasyon gerekmez) {@spell haste (acele)} büyüsünün etkisi altında olursun. İksirin sarı sıvısının içinde siyah çizgiler vardır ve kendi kendine döner."
 			]
 		},
 		{
-			"name": "Potion of Stone Giant Strength",
+			"name": "Taş Devi Kuvveti İksiri",
 			"type": "P",
 			"weight": "0.5",
 			"tier": "Alt",
@@ -4496,12 +4496,12 @@
 			"source": "DMG",
 			"page": 187,
 			"entries": [
-				"When you drink this potion, your Strength score changes to 23 for 1 hour. The potion has no effect on you if your Strength is equal to or greater than that score.",
-				"This potion's transparent liquid has floating in it a sliver of fingernail from a {@creature stone giant}."
+				"Bu iksiri içtiğinde, 1 saatliğine Kuvvet skorun 23 olur. Eğer Kuvvetin zaten bu skora eşitse veya daha yüksekse iksirin bir etkisi olmaz.",
+				"Bu iksirin saydam sıvısında yüzen bir {@creature taş devi} tırnak parçası görülür."
 			]
 		},
 		{
-			"name": "Potion of Storm Giant Strength",
+			"name": "Fırtına Devi Kuvveti İksiri",
 			"type": "P",
 			"weight": "0.5",
 			"tier": "Alt",
@@ -4509,12 +4509,12 @@
 			"source": "DMG",
 			"page": 187,
 			"entries": [
-				"When you drink this potion, your Strength score changes to 29 for 1 hour. The potion has no effect on you if your Strength is equal to or greater than that score.",
-				"This potion's transparent liquid has floating in it a sliver of fingernail from a {@creature storm giant}."
+				"Bu iksiri içtiğinde, 1 saatliğine Kuvvet skorun 29 olur. Eğer Kuvvetin zaten bu skora eşitse veya daha yüksekse iksirin bir etkisi olmaz.",
+				"Bu iksirin saydam sıvısında yüzen bir {@creature fırtına devi} tırnak parçası görülür."
 			]
 		},
 		{
-			"name": "Potion of Superior Healing",
+			"name": "Olağanüstü Şifa İksiri",
 			"type": "P",
 			"weight": "0.5",
 			"tier": "Alt",
@@ -4522,11 +4522,11 @@
 			"source": "DMG",
 			"page": 187,
 			"entries": [
-				"You regain 8d4+8 hit points when you drink this potion. The potion's red liquid glimmers when agitated."
+				"Bu iksiri içtiğinde 8d4+8 HP yenilersin. İksirin kırmızı sıvısı çalkalandığında ışıldar."
 			]
 		},
 		{
-			"name": "Potion of Supreme Healing",
+			"name": "Yüce Şifa İksiri",
 			"type": "P",
 			"weight": "0.5",
 			"tier": "Alt",
@@ -4534,12 +4534,12 @@
 			"source": "DMG",
 			"page": 187,
 			"entries": [
-				"You regain 10d4+20 hit points when you drink this potion. The potion's red liquid glimmers when agitated."
+				"Bu iksiri içtiğinde 10d4+20 HP yenilersin. İksirin kırmızı sıvısı çalkalandığında ışıldar."
 			]
 		},
 		{
-			"name": "Potion of Thunder Resistance",
-			"resist": "thunder",
+			"name": "Ses Direnci İksiri",
+			"resist": "ses",
 			"type": "P",
 			"weight": "0.5",
 			"tier": "Alt",
@@ -4548,7 +4548,7 @@
 			"page": 188
 		},
 		{
-			"name": "Potion of Vitality",
+			"name": "Yaşam İksiri",
 			"type": "P",
 			"weight": "0.5",
 			"tier": "Alt",
@@ -4556,11 +4556,11 @@
 			"source": "DMG",
 			"page": 188,
 			"entries": [
-				"When you drink this potion, it removes any {@condition exhaustion} you are suffering and cures any disease or poison affecting you. For the next 24 hours, you regain the maximum number of hit points for any Hit Die you spend. The potion's crimson liquid regularly pulses with dull light, calling to mind a heartbeat."
+				"Bu iksiri içtiğinde, seni etkileyen tüm zehir, hastalık ve {@condition bitkinlik} durumlarını ortadan kaldırır. Sonraki 24 saat boyunca, harcadığın her HD için maksimum HP yenilersin. İksirin kızıl sıvısı içinde kap atışı benzeri bir ışık yanıp söner."
 			]
 		},
 		{
-			"name": "Potion of Water Breathing",
+			"name": "Su Soluma İksiri",
 			"type": "P",
 			"weight": "0.5",
 			"tier": "Alt",
@@ -4568,7 +4568,7 @@
 			"source": "DMG",
 			"page": 188,
 			"entries": [
-				"You can breathe underwater for 1 hour after drinking this potion. Its cloudy green fluid smells of the sea and has a jellyfish-like bubble floating in it."
+				"İksiri içtikten sonra 1 saatliğine su altında soluyabilirsin. Bulutumsu yeşil sıvısı deniz gibi kokar ve içinde denizanası benzeri bir baloncuk yüzer."
 			]
 		},
 		{
@@ -5801,153 +5801,153 @@
 			]
 		},
 		{
-			"name": "Spell Scroll (1st Level)",
+			"name": "Büyü Tomarı (1. Seviye)",
 			"type": "SC",
 			"tier": "Alt",
 			"rarity": "Yaygın",
 			"source": "DMG",
 			"page": 200,
 			"entries": [
-				"A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.",
-				"If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 11. On a failed check, the spell disappears from the scroll with no other effect.",
-				"Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.",
-				"A spell cast from this scroll has a save DC of 13 and an attack bonus of +5.",
-				"A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on a DC 11 Intelligence ({@skill Arcana}) check. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed."
+				"Bir büyü tomarı mistik kodla yazılmış tek bir büyünün sözlerini taşır. Eğer büyü senin sınıfının büyü listesindeyse, tomarı okuyup büyünün hiçbir bileşenine gerek duymadan onu kullanabilirsin. Eğer listede değilse, tomar anlaşılamaz. Tomarı okuyarak büyüyü yapma büyünün normal kullanma süresini gerektirir. Büyü kullanıldığında tomardaki sözler kaybolur ve tomar toza dönüşür. Eğer kullanım engellenirse, tomar kaybolmaz.",
+				"Eğer büyü sınıfının büyü listesinde ama senin normalde kullanabileceğin bir seviyenin üzerinde ise, bunu başarılı bir şekilde kullanıp kullanamayacağını görmek için büyü yapma yeteneğin ile bir yetenek zarı atarsın. DC 11 olur. Başarısız olursa, başka bir etki yaratmadan büyü tomardan kaybolur.",
+				"Büyü kullanıldığında tomardaki sözler kaybolur ve tomar toza dönüşür.",
+				"Bu tomardan kullanılan bir büyünün kurtulma DC'si 13, saldırı bonusu +5 olur.",
+				"Bir büyü tomarı üzerindeki büyücü büyüsü, aynı büyü kitabındaki büyüler gibi kopyalanabilir. Bir tomardan büyü kopyalandığında, kopyalayan DC 11 Zeka ({@skill Arcana}) zarı atar. Eğer başarılı olursa büyü başarılı bir şekilde kopyalanır. Zar başarılı olsa da olmasa da, büyü tomarı yok olur."
 			]
 		},
 		{
-			"name": "Spell Scroll (2nd Level)",
+			"name": "Büyü Tomarı (2. Seviye)",
 			"type": "SC",
 			"tier": "Alt",
 			"rarity": "Seyrek",
 			"source": "DMG",
 			"page": 201,
 			"entries": [
-				"A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.",
-				"If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 12. On a failed check, the spell disappears from the scroll with no other effect.",
-				"Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.",
-				"A spell cast from this scroll has a save DC of 13 and an attack bonus of +5.",
-				"A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on a DC 12 Intelligence ({@skill Arcana}) check. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed."
+				"Bir büyü tomarı mistik kodla yazılmış tek bir büyünün sözlerini taşır. Eğer büyü senin sınıfının büyü listesindeyse, tomarı okuyup büyünün hiçbir bileşenine gerek duymadan onu kullanabilirsin. Eğer listede değilse, tomar anlaşılamaz. Tomarı okuyarak büyüyü yapma büyünün normal kullanma süresini gerektirir. Büyü kullanıldığında tomardaki sözler kaybolur ve tomar toza dönüşür. Eğer kullanım engellenirse, tomar kaybolmaz.",
+				"Eğer büyü sınıfının büyü listesinde ama senin normalde kullanabileceğin bir seviyenin üzerinde ise, bunu başarılı bir şekilde kullanıp kullanamayacağını görmek için büyü yapma yeteneğin ile bir yetenek zarı atarsın. DC 12 olur. Başarısız olursa, başka bir etki yaratmadan büyü tomardan kaybolur.",
+				"Büyü kullanıldığında tomardaki sözler kaybolur ve tomar toza dönüşür.",
+				"Bu tomardan kullanılan bir büyünün kurtulma DC'si 13, saldırı bonusu +5 olur.",
+				"Bir büyü tomarı üzerindeki büyücü büyüsü, aynı büyü kitabındaki büyüler gibi kopyalanabilir. Bir tomardan büyü kopyalandığında, kopyalayan DC 12 Zeka ({@skill Arcana}) zarı atar. Eğer başarılı olursa büyü başarılı bir şekilde kopyalanır. Zar başarılı olsa da olmasa da, büyü tomarı yok olur"
 			]
 		},
 		{
-			"name": "Spell Scroll (3rd Level)",
+			"name": "Büyü Tomarı (3. Seviye)",
 			"type": "SC",
 			"tier": "Alt",
 			"rarity": "Seyrek",
 			"source": "DMG",
 			"page": 202,
 			"entries": [
-				"A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.",
-				"If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 13. On a failed check, the spell disappears from the scroll with no other effect.",
-				"Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.",
-				"A spell cast from this scroll has a save DC of 15 and an attack bonus of +7.",
-				"A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on a DC 13 Intelligence ({@skill Arcana}) check. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed."
+				"Bir büyü tomarı mistik kodla yazılmış tek bir büyünün sözlerini taşır. Eğer büyü senin sınıfının büyü listesindeyse, tomarı okuyup büyünün hiçbir bileşenine gerek duymadan onu kullanabilirsin. Eğer listede değilse, tomar anlaşılamaz. Tomarı okuyarak büyüyü yapma büyünün normal kullanma süresini gerektirir. Büyü kullanıldığında tomardaki sözler kaybolur ve tomar toza dönüşür. Eğer kullanım engellenirse, tomar kaybolmaz.",
+				"Eğer büyü sınıfının büyü listesinde ama senin normalde kullanabileceğin bir seviyenin üzerinde ise, bunu başarılı bir şekilde kullanıp kullanamayacağını görmek için büyü yapma yeteneğin ile bir yetenek zarı atarsın. DC 13 olur. Başarısız olursa, başka bir etki yaratmadan büyü tomardan kaybolur.",
+				"Büyü kullanıldığında tomardaki sözler kaybolur ve tomar toza dönüşür.",
+				"Bu tomardan kullanılan bir büyünün kurtulma DC'si 15, saldırı bonusu +7 olur.",
+				"Bir büyü tomarı üzerindeki büyücü büyüsü, aynı büyü kitabındaki büyüler gibi kopyalanabilir. Bir tomardan büyü kopyalandığında, kopyalayan DC 13 Zeka ({@skill Arcana}) zarı atar. Eğer başarılı olursa büyü başarılı bir şekilde kopyalanır. Zar başarılı olsa da olmasa da, büyü tomarı yok olur"
 			]
 		},
 		{
-			"name": "Spell Scroll (4th Level)",
+			"name": "Büyü Tomarı (4. Seviye)",
 			"type": "SC",
 			"tier": "Alt",
 			"rarity": "Nadir",
 			"source": "DMG",
 			"page": 203,
 			"entries": [
-				"A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.",
-				"If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 14. On a failed check, the spell disappears from the scroll with no other effect.",
-				"Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.",
-				"A spell cast from this scroll has a save DC of 15 and an attack bonus of +7.",
-				"A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on a DC 14 Intelligence ({@skill Arcana}) check. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed."
+				"Bir büyü tomarı mistik kodla yazılmış tek bir büyünün sözlerini taşır. Eğer büyü senin sınıfının büyü listesindeyse, tomarı okuyup büyünün hiçbir bileşenine gerek duymadan onu kullanabilirsin. Eğer listede değilse, tomar anlaşılamaz. Tomarı okuyarak büyüyü yapma büyünün normal kullanma süresini gerektirir. Büyü kullanıldığında tomardaki sözler kaybolur ve tomar toza dönüşür. Eğer kullanım engellenirse, tomar kaybolmaz.",
+				"Eğer büyü sınıfının büyü listesinde ama senin normalde kullanabileceğin bir seviyenin üzerinde ise, bunu başarılı bir şekilde kullanıp kullanamayacağını görmek için büyü yapma yeteneğin ile bir yetenek zarı atarsın. DC 14 olur. Başarısız olursa, başka bir etki yaratmadan büyü tomardan kaybolur.",
+				"Büyü kullanıldığında tomardaki sözler kaybolur ve tomar toza dönüşür.",
+				"Bu tomardan kullanılan bir büyünün kurtulma DC'si 15, saldırı bonusu +7 olur.",
+				"Bir büyü tomarı üzerindeki büyücü büyüsü, aynı büyü kitabındaki büyüler gibi kopyalanabilir. Bir tomardan büyü kopyalandığında, kopyalayan DC 14 Zeka ({@skill Arcana}) zarı atar. Eğer başarılı olursa büyü başarılı bir şekilde kopyalanır. Zar başarılı olsa da olmasa da, büyü tomarı yok olur"
 			]
 		},
 		{
-			"name": "Spell Scroll (5th Level)",
+			"name": "Büyü Tomarı (5. Seviye)",
 			"type": "SC",
 			"tier": "Alt",
 			"rarity": "Nadir",
 			"source": "DMG",
 			"page": 204,
 			"entries": [
-				"A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.",
-				"If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 15. On a failed check, the spell disappears from the scroll with no other effect.",
-				"Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.",
-				"A spell cast from this scroll has a save DC of 17 and an attack bonus of +9.",
-				"A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on a DC 15 Intelligence ({@skill Arcana}) check. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed."
+				"Bir büyü tomarı mistik kodla yazılmış tek bir büyünün sözlerini taşır. Eğer büyü senin sınıfının büyü listesindeyse, tomarı okuyup büyünün hiçbir bileşenine gerek duymadan onu kullanabilirsin. Eğer listede değilse, tomar anlaşılamaz. Tomarı okuyarak büyüyü yapma büyünün normal kullanma süresini gerektirir. Büyü kullanıldığında tomardaki sözler kaybolur ve tomar toza dönüşür. Eğer kullanım engellenirse, tomar kaybolmaz.",
+				"Eğer büyü sınıfının büyü listesinde ama senin normalde kullanabileceğin bir seviyenin üzerinde ise, bunu başarılı bir şekilde kullanıp kullanamayacağını görmek için büyü yapma yeteneğin ile bir yetenek zarı atarsın. DC 15 olur. Başarısız olursa, başka bir etki yaratmadan büyü tomardan kaybolur.",
+				"Büyü kullanıldığında tomardaki sözler kaybolur ve tomar toza dönüşür.",
+				"Bu tomardan kullanılan bir büyünün kurtulma DC'si 17, saldırı bonusu +9 olur.",
+				"Bir büyü tomarı üzerindeki büyücü büyüsü, aynı büyü kitabındaki büyüler gibi kopyalanabilir. Bir tomardan büyü kopyalandığında, kopyalayan DC 15 Zeka ({@skill Arcana}) zarı atar. Eğer başarılı olursa büyü başarılı bir şekilde kopyalanır. Zar başarılı olsa da olmasa da, büyü tomarı yok olur"
 			]
 		},
 		{
-			"name": "Spell Scroll (6th Level)",
+			"name": "Büyü Tomarı (6. Seviye)",
 			"type": "SC",
 			"tier": "Alt",
 			"rarity": "Çok Nadir",
 			"source": "DMG",
 			"page": 205,
 			"entries": [
-				"A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.",
-				"If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 16. On a failed check, the spell disappears from the scroll with no other effect.",
-				"Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.",
-				"A spell cast from this scroll has a save DC of 17 and an attack bonus of +9.",
-				"A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on a DC 16 Intelligence ({@skill Arcana}) check. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed."
+				"Bir büyü tomarı mistik kodla yazılmış tek bir büyünün sözlerini taşır. Eğer büyü senin sınıfının büyü listesindeyse, tomarı okuyup büyünün hiçbir bileşenine gerek duymadan onu kullanabilirsin. Eğer listede değilse, tomar anlaşılamaz. Tomarı okuyarak büyüyü yapma büyünün normal kullanma süresini gerektirir. Büyü kullanıldığında tomardaki sözler kaybolur ve tomar toza dönüşür. Eğer kullanım engellenirse, tomar kaybolmaz.",
+				"Eğer büyü sınıfının büyü listesinde ama senin normalde kullanabileceğin bir seviyenin üzerinde ise, bunu başarılı bir şekilde kullanıp kullanamayacağını görmek için büyü yapma yeteneğin ile bir yetenek zarı atarsın. DC 16 olur. Başarısız olursa, başka bir etki yaratmadan büyü tomardan kaybolur.",
+				"Büyü kullanıldığında tomardaki sözler kaybolur ve tomar toza dönüşür.",
+				"Bu tomardan kullanılan bir büyünün kurtulma DC'si 17, saldırı bonusu +9 olur.",
+				"Bir büyü tomarı üzerindeki büyücü büyüsü, aynı büyü kitabındaki büyüler gibi kopyalanabilir. Bir tomardan büyü kopyalandığında, kopyalayan DC 16 Zeka ({@skill Arcana}) zarı atar. Eğer başarılı olursa büyü başarılı bir şekilde kopyalanır. Zar başarılı olsa da olmasa da, büyü tomarı yok olur"
 			]
 		},
 		{
-			"name": "Spell Scroll (7th Level)",
+			"name": "Büyü Tomarı (7. Seviye)",
 			"type": "SC",
 			"tier": "Alt",
 			"rarity": "Çok Nadir",
 			"source": "DMG",
 			"page": 206,
 			"entries": [
-				"A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.",
-				"If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 17. On a failed check, the spell disappears from the scroll with no other effect.",
-				"Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.",
-				"A spell cast from this scroll has a save DC of 18 and an attack bonus of +10.",
-				"A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on a DC 17 Intelligence ({@skill Arcana}) check. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed."
+				"Bir büyü tomarı mistik kodla yazılmış tek bir büyünün sözlerini taşır. Eğer büyü senin sınıfının büyü listesindeyse, tomarı okuyup büyünün hiçbir bileşenine gerek duymadan onu kullanabilirsin. Eğer listede değilse, tomar anlaşılamaz. Tomarı okuyarak büyüyü yapma büyünün normal kullanma süresini gerektirir. Büyü kullanıldığında tomardaki sözler kaybolur ve tomar toza dönüşür. Eğer kullanım engellenirse, tomar kaybolmaz.",
+				"Eğer büyü sınıfının büyü listesinde ama senin normalde kullanabileceğin bir seviyenin üzerinde ise, bunu başarılı bir şekilde kullanıp kullanamayacağını görmek için büyü yapma yeteneğin ile bir yetenek zarı atarsın. DC 17 olur. Başarısız olursa, başka bir etki yaratmadan büyü tomardan kaybolur.",
+				"Büyü kullanıldığında tomardaki sözler kaybolur ve tomar toza dönüşür.",
+				"Bu tomardan kullanılan bir büyünün kurtulma DC'si 18, saldırı bonusu +10 olur.",
+				"Bir büyü tomarı üzerindeki büyücü büyüsü, aynı büyü kitabındaki büyüler gibi kopyalanabilir. Bir tomardan büyü kopyalandığında, kopyalayan DC 17 Zeka ({@skill Arcana}) zarı atar. Eğer başarılı olursa büyü başarılı bir şekilde kopyalanır. Zar başarılı olsa da olmasa da, büyü tomarı yok olur"
 			]
 		},
 		{
-			"name": "Spell Scroll (8th Level)",
+			"name": "Büyü Tomarı (8. Seviye)",
 			"type": "SC",
 			"tier": "Alt",
 			"rarity": "Çok Nadir",
 			"source": "DMG",
 			"page": 207,
 			"entries": [
-				"A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.",
-				"If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 18. On a failed check, the spell disappears from the scroll with no other effect.",
-				"Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.",
-				"A spell cast from this scroll has a save DC of 18 and an attack bonus of +10.",
-				"A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on a DC 18 Intelligence ({@skill Arcana}) check. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed."
+				"Bir büyü tomarı mistik kodla yazılmış tek bir büyünün sözlerini taşır. Eğer büyü senin sınıfının büyü listesindeyse, tomarı okuyup büyünün hiçbir bileşenine gerek duymadan onu kullanabilirsin. Eğer listede değilse, tomar anlaşılamaz. Tomarı okuyarak büyüyü yapma büyünün normal kullanma süresini gerektirir. Büyü kullanıldığında tomardaki sözler kaybolur ve tomar toza dönüşür. Eğer kullanım engellenirse, tomar kaybolmaz.",
+				"Eğer büyü sınıfının büyü listesinde ama senin normalde kullanabileceğin bir seviyenin üzerinde ise, bunu başarılı bir şekilde kullanıp kullanamayacağını görmek için büyü yapma yeteneğin ile bir yetenek zarı atarsın. DC 18 olur. Başarısız olursa, başka bir etki yaratmadan büyü tomardan kaybolur.",
+				"Büyü kullanıldığında tomardaki sözler kaybolur ve tomar toza dönüşür.",
+				"Bu tomardan kullanılan bir büyünün kurtulma DC'si 18, saldırı bonusu +10 olur.",
+				"Bir büyü tomarı üzerindeki büyücü büyüsü, aynı büyü kitabındaki büyüler gibi kopyalanabilir. Bir tomardan büyü kopyalandığında, kopyalayan DC 18 Zeka ({@skill Arcana}) zarı atar. Eğer başarılı olursa büyü başarılı bir şekilde kopyalanır. Zar başarılı olsa da olmasa da, büyü tomarı yok olur"
 			]
 		},
 		{
-			"name": "Spell Scroll (9th Level)",
+			"name": "Büyü Tomarı (9. Seviye)",
 			"type": "SC",
 			"tier": "Alt",
 			"rarity": "Efsanevi",
 			"source": "DMG",
 			"page": 208,
 			"entries": [
-				"A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.",
-				"If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 19. On a failed check, the spell disappears from the scroll with no other effect.",
-				"Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.",
-				"A spell cast from this scroll has a save DC of 19 and an attack bonus of +11.",
-				"A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on a DC 19 Intelligence ({@skill Arcana}) check. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed."
+				"Bir büyü tomarı mistik kodla yazılmış tek bir büyünün sözlerini taşır. Eğer büyü senin sınıfının büyü listesindeyse, tomarı okuyup büyünün hiçbir bileşenine gerek duymadan onu kullanabilirsin. Eğer listede değilse, tomar anlaşılamaz. Tomarı okuyarak büyüyü yapma büyünün normal kullanma süresini gerektirir. Büyü kullanıldığında tomardaki sözler kaybolur ve tomar toza dönüşür. Eğer kullanım engellenirse, tomar kaybolmaz.",
+				"Eğer büyü sınıfının büyü listesinde ama senin normalde kullanabileceğin bir seviyenin üzerinde ise, bunu başarılı bir şekilde kullanıp kullanamayacağını görmek için büyü yapma yeteneğin ile bir yetenek zarı atarsın. DC 19 olur. Başarısız olursa, başka bir etki yaratmadan büyü tomardan kaybolur.",
+				"Büyü kullanıldığında tomardaki sözler kaybolur ve tomar toza dönüşür.",
+				"Bu tomardan kullanılan bir büyünün kurtulma DC'si 19, saldırı bonusu +11 olur.",
+				"Bir büyü tomarı üzerindeki büyücü büyüsü, aynı büyü kitabındaki büyüler gibi kopyalanabilir. Bir tomardan büyü kopyalandığında, kopyalayan DC 19 Zeka ({@skill Arcana}) zarı atar. Eğer başarılı olursa büyü başarılı bir şekilde kopyalanır. Zar başarılı olsa da olmasa da, büyü tomarı yok olur"
 			]
 		},
 		{
-			"name": "Spell Scroll (Cantrip)",
+			"name": "Büyü Tomarı (Cantrip)",
 			"type": "SC",
 			"tier": "Alt",
 			"rarity": "Yaygın",
 			"source": "DMG",
 			"page": 199,
 			"entries": [
-				"A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without having to provide any of the spell's components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.",
-				"If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10. On a failed check, the spell disappears from the scroll with no other effect.",
-				"Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.",
-				"A spell cast from this scroll has a save DC of 13 and an attack bonus of +5.",
-				"A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on an Intelligence ({@skill Arcana}) check with a DC equal to 10. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed."
+				"Bir büyü tomarı mistik kodla yazılmış tek bir büyünün sözlerini taşır. Eğer büyü senin sınıfının büyü listesindeyse, tomarı okuyup büyünün hiçbir bileşenine gerek duymadan onu kullanabilirsin. Eğer listede değilse, tomar anlaşılamaz. Tomarı okuyarak büyüyü yapma büyünün normal kullanma süresini gerektirir. Büyü kullanıldığında tomardaki sözler kaybolur ve tomar toza dönüşür. Eğer kullanım engellenirse, tomar kaybolmaz.",
+				"Eğer büyü sınıfının büyü listesinde ama senin normalde kullanabileceğin bir seviyenin üzerinde ise, bunu başarılı bir şekilde kullanıp kullanamayacağını görmek için büyü yapma yeteneğin ile bir yetenek zarı atarsın. DC 10 olur. Başarısız olursa, başka bir etki yaratmadan büyü tomardan kaybolur.",
+				"Büyü kullanıldığında tomardaki sözler kaybolur ve tomar toza dönüşür.",
+				"Bu tomardan kullanılan bir büyünün kurtulma DC'si 13, saldırı bonusu +5 olur.",
+				"Bir büyü tomarı üzerindeki büyücü büyüsü, aynı büyü kitabındaki büyüler gibi kopyalanabilir. Bir tomardan büyü kopyalandığında, kopyalayan DC 10 Zeka ({@skill Arcana}) zarı atar. Eğer başarılı olursa büyü başarılı bir şekilde kopyalanır. Zar başarılı olsa da olmasa da, büyü tomarı yok olur"
 			]
 		},
 		{
