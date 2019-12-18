@@ -2435,7 +2435,7 @@
                 {
                     "type":"entries",
                     "name":"Maceranın 3 Sütunu",
-                    "entries":["Maceracılar oyuncuların hayal edebildiği herşeyi yapmayı deneyebilirler, ama faaliyetlerini üç genel kategoride incelemek yardımcı olabilir: keşif, sosyal etkileşim, ve savaş.",
+                    "entries":["Maceracılar oyuncuların hayal edebildiği her şeyi yapmayı deneyebilirler, ama faaliyetlerini üç genel kategoride incelemek yardımcı olabilir: keşif, sosyal etkileşim, ve savaş.",
                     "{@b Keşif} hem maceracıların dünyadaki hareketlerini hem de dikkatlerini gerektiren nesne ve durumlarla etkileşimlerini içerir. Keşif, oyuncuların karakterlerine yaptırmak istedikleri şeyi tasvir etmesi, ve DM'in sonuç olarak ne olduğunu söylemesinin uzlaşmasıdır.",
                     "Büyük çapta, bu karakterlerin bir tepeyi aşmak için bir gün harcaması ya da yeraltı mağaralarından geçtikleri bir saati içerebilir. En küçük çapta ise, bir karakterin zindandaki kolu çekip ne olduğunu görmek istemesidir.",
                     "{@b Sosyal etkileşim} maceracıların başka bir kişi (ya da şey) ile konuşmasıdır. Bu, yakalanan izcinin gizli goblin yuvasına girişi söylemesini istemek, kurtarılan bir tutsaktan bilgi almak, bir ork kabile şefinden merhamet dilenmek, veya konuşkan bir büyülü aynayı maceracılara uzak bir diyarı göstermesi için ikna etmek olabilir.",
@@ -2556,7 +2556,7 @@
                 }
                 ,
                 {
-                    "type": "entries", "name": "Alternatif: Yük", "entries": ["Kaldırma ve taşıma için kurallar kasıtlı olarak basittir. Bir karakterin ekipmanı tarafından nasıl ağırlaştığını hesaplamak için size bir alternatif kural sunalım. Bu alternatifi kullandığında, Zırh tablosunun Kuvvet satırını yoksayarsın.", "Eğer Kuvvet skorunun 5 katını aşan ağırlık taşıyorsan, yüklüsündür, bu da hızının 10 fit düşmesi anlamına gelir.", "Eğer Kuvvet skorunun 10 katını aşan (maksimum taşıma kapasitene kadar) bir yük taşıyorsan, ağır yüklüsündür, bununla birlikte hızın 20 fit azalır ve Kuvvet, Çeviklik, veya Dayanıklılık kullanan yetenek, saldırı ve kurtulma zarlarında dezavantajlı olursun."]
+                    "type": "entries", "name": "Alternatif: Yük", "entries": ["Kaldırma ve taşıma için kurallar kasıtlı olarak basittir. Bir karakterin ekipmanı tarafından nasıl ağırlaştığını hesaplamak için size bir alternatif kural sunalım. Bu alternatifi kullandığında, Zırh tablosunun Kuvvet satırını yok sayarsın.", "Eğer Kuvvet skorunun 5 katını aşan ağırlık taşıyorsan, yüklüsündür, bu da hızının 10 fit düşmesi anlamına gelir.", "Eğer Kuvvet skorunun 10 katını aşan (maksimum taşıma kapasitene kadar) bir yük taşıyorsan, ağır yüklüsündür, bununla birlikte hızın 20 fit azalır ve Kuvvet, Çeviklik, veya Dayanıklılık kullanan yetenek, saldırı ve kurtulma zarlarında dezavantajlı olursun."]
                 }
                 ]
             }
@@ -2618,7 +2618,7 @@
                     ,
                     "Örneğin, eğer 1. seviye bir karakter (uzmanlık bonusu +2 olan) 15 Akıl skoruna (+2 bonus) ve Algı becerisinde uzmanlığa sahipse, onun pasif Akıl (Algı) skoru 14 olur.",
                     {
-                        "type": "entries", "name": "Ne Görebiliyorsun?", "entries": [" Gizli bir nesne ya da varlığı görmeyi belirlerken en baş etkenlerden biri o alanda ne kadar iyi görebildiğindir, alan hafifçe ya da ağırca örtülü olabilir."]
+                        "type": "entries", "name": "Ne Görebiliyorsun?", "entries": [" Gizli bir nesne ya da varlığı görmeyi belirlerken en baş etkenlerden biri o alanda ne kadar iyi görebildiğindir, alan hafifçe ya da yoğun örtülü olabilir."]
                     }
                     ]
                 }
@@ -2753,7 +2753,7 @@
                     "name":"Karizma Zarları",
                     "entries":["Bir Karizma zarı, sen diğerlerini etkilemeye ya da eğlendirmeye, bir izlenim yaratmaya ya da inandırıcı bir yalan söylemeye, veya zorlu bir sosyal durumdan çıkmaya çalıştığında gereklidir. Aldatma, Gözdağı, Performans, ve İkna becerileri belirli tipte Karizma zarlarına yatkınlığı yansıtır.",
                     {
-                        "type": "entries", "name": "Aldatma", "entries": [" Karizma (Aldatma) zarın inandırıcı bir şekilde gerçeği gizleyebilmeni ölçer, hem sözlü hem de vücut diliyle. Bu aldatma belirsizlik ile diğerlerini yanlış yönlendirmeden, doğrudan yalan söylemeye kadar herşeyi kapsar. Tipik durumlar bir bekçiyi kandırma, tüccarı dolandırma, kumardan para kazanma, farklı bir kılıkta inandırıcı olma, sahte garantiler ile birinin şüphelerini azaltma, veya bariz bir yalan söylerken yüzünde bunu göstermeme olabilir."]
+                        "type": "entries", "name": "Aldatma", "entries": [" Karizma (Aldatma) zarın inandırıcı bir şekilde gerçeği gizleyebilmeni ölçer, hem sözlü hem de vücut diliyle. Bu aldatma belirsizlik ile diğerlerini yanlış yönlendirmeden, doğrudan yalan söylemeye kadar her şeyi kapsar. Tipik durumlar bir bekçiyi kandırma, tüccarı dolandırma, kumardan para kazanma, farklı bir kılıkta inandırıcı olma, sahte garantiler ile birinin şüphelerini azaltma, veya bariz bir yalan söylerken yüzünde bunu göstermeme olabilir."]
                     }
                     ,
                     {
@@ -2792,12 +2792,12 @@
             "type":"section",
             "name":"Görüş ve Işık",
             "entries":["Maceracılığın en temel işleri, tehlikeyi farketme, gizli nesne bulma, savaşta bir düşmana vurma, ve büyüyle hedef alma bunlara örnektir, bir karakterin görüş yeteneğine bağlıdır. Karanlık ve diğer görüşü engelleyen etkiler büyük bir engel teşkil edebilir.",
-            "Bir alan hafifçe veya ağırca örtülü olabilir.{@b Hafifçe örtülü} bir alanda, loş ışık, parçalı sis, veya ortalama çalılık gibi örneklenebilir, varlıkların görüşe bağlı Akıl (Algı) zarları dezavantajlı olur.",
-            "{@b Ağırca örtülü} bir alanda, karanlık, opak sis, veya yoğun çalılık gibi örneklenebilir, görüşü tamamen engeller. Ağırca örtülü alandaki bir varlık körlük durumunda sayılır. Ağırca örtülü bir alan seni kör etmez, ama onunla örtülü bir şeyi görmeye çalıştığında kör sayılırsın.",
+            "Bir alan hafifçe veya yoğun örtülü olabilir.{@b Hafifçe örtülü} bir alanda, loş ışık, parçalı sis, veya ortalama çalılık gibi örneklenebilir, varlıkların görüşe bağlı Akıl (Algı) zarları dezavantajlı olur.",
+            "{@b Yoğun örtülü} bir alanda, karanlık, opak sis, veya yoğun çalılık gibi örneklenebilir, görüşü tamamen engeller. Yoğun örtülü alandaki bir varlık körlük durumunda sayılır. Yoğun örtülü bir alan seni kör etmez, ama onunla örtülü bir şeyi görmeye çalıştığında kör sayılırsın.",
             "Bir alandaki ışığın varlığı ya da yokluğu aydınlatmanın 3 kategorisini oluşturur: parlak ışık, loş ışık, ve karanlık.",
             "{@b Parlak ışık} çoğu varlığın normal görmesini sağlar. En kasvetli günler bile parlak ışık sağlar, meşaleler, fenerler, ateşler, ve belirli bir çaptaki diğer ışık kaynakları da aynısını sunar.",
             "{@b Loş ışık}, gölgeler de denir, hafifçe örtülü bir alan yaratır. Bir loş ışık alanı genellikle bir meşale gibi parlak ışık kaynağı ile karanlık arasındaki sınırdır. Şafak ve alacakaranlığın yumuşak ışınları da loş ışık olarak sayılır. Özellikle parlak bir dolunay yeryüzünü loş ışık ile doldurabilir.",
-            "{@b Karanlık} ağırca örtülü bir alan yaratır. Karakterler geceleri dışarıda (çoğu ay ışıklı gece dahil), aydınlatılmamış bir zindan ya da yeraltı deposunda, veya bir büyülü karanlık alanında karanlıkla yüzleşirler.",
+            "{@b Karanlık} yoğun örtülü bir alan yaratır. Karakterler geceleri dışarıda (çoğu ay ışıklı gece dahil), aydınlatılmamış bir zindan ya da yeraltı deposunda, veya bir büyülü karanlık alanında karanlıkla yüzleşirler.",
             {
                 "type": "entries", "name": "Kör Görüş", "entries": ["Kör görüşü olan bir varlık belirli bir yarıçapta görüşe ihtiyaç duymadan çevresini algılayabilir.", "Balçıklar gibi gözleri olmayan varlıklar, ve yarasalar ve saf ejderhalar gibi ekolokasyon veya gelişmiş hisleri olan varlıklar, bu duyuya sahiptir."]
             }
@@ -2850,7 +2850,7 @@
             }
             ,
             {
-                "type": "entries", "name": "Hazırla", "entries": ["Bazen düşmana sürpriz yapmak ya da harekete geçmeden önce belirli bir durumun gerçekleşmesini beklemek isteyebilirsin. Bunu yapmak için, sıranda Hazırla eylemini kullanıp roundda daha sonra reaksiyonunu kullanarak harekete geçebilirsin.", "Öncelikle, hangi algılanabilir durum reaksiyonunu tetikleyecek belirlersin. Sonrasında, bu tetiğe karşılık olarak yapılacak eylemi belirlersin, veya eylem yerine hızın kadar ilerleyebilirsin. Örnek olarak \"Eğer kültist tuzak kapısının üzerine basarsa onu açan kolu çekeceğim,\" ve \"Eğer goblin yanıma gelirse ben uzaklaşacağım.\" verilebilir.", "Tetiklendiğinde, reaksiyonunu tetikleyici bittikten hemen sonra kullanabilirsin ya da bu tetikleyiciyi yoksayabilirsin. Her round sadece 1 reaksiyon kullanabileceğini unutma.", "Büyü hazırladığında, onu normal bir şekilde kullanırsın ama enerjisini tutarsın, ve bunu tetikleyiciyi ortaya çıktığında bırakırsın. Hazırlanabilmek için, bir büyünün 1 eylem kullanım süresi olmalıdır, ve büyünün gücünü tutmak konsantrasyon gerektirir. Eğer konsantrasyonun bozulursa, büyü etkisi ortaya çıkmadan kaybolur. Örneğin, eğer ağ büyüsüne konsantre oluyorsan ve büyülü misil hazırlarsan, ağ büyüsü biter, ve eğer reaksiyon olarak büyülü misil büyüsünü kullanamadan hasar alırsan, konsantrasyonun bozulabilir.", "Hazırlanmış bir büyüyü bir sonraki sıranın başına kadar kullanman gerekir."]
+                "type": "entries", "name": "Hazırla", "entries": ["Bazen düşmana sürpriz yapmak ya da harekete geçmeden önce belirli bir durumun gerçekleşmesini beklemek isteyebilirsin. Bunu yapmak için, sıranda Hazırla eylemini kullanıp roundda daha sonra reaksiyonunu kullanarak harekete geçebilirsin.", "Öncelikle, hangi algılanabilir durum reaksiyonunu tetikleyecek belirlersin. Sonrasında, bu tetiğe karşılık olarak yapılacak eylemi belirlersin, veya eylem yerine hızın kadar ilerleyebilirsin. Örnek olarak \"Eğer kültist tuzak kapısının üzerine basarsa onu açan kolu çekeceğim,\" ve \"Eğer goblin yanıma gelirse ben uzaklaşacağım.\" verilebilir.", "Tetiklendiğinde, reaksiyonunu tetikleyici bittikten hemen sonra kullanabilirsin ya da bu tetikleyiciyi yok sayabilirsin. Her round sadece 1 reaksiyon kullanabileceğini unutma.", "Büyü hazırladığında, onu normal bir şekilde kullanırsın ama enerjisini tutarsın, ve bunu tetikleyiciyi ortaya çıktığında bırakırsın. Hazırlanabilmek için, bir büyünün 1 eylem kullanım süresi olmalıdır, ve büyünün gücünü tutmak konsantrasyon gerektirir. Eğer konsantrasyonun bozulursa, büyü etkisi ortaya çıkmadan kaybolur. Örneğin, eğer ağ büyüsüne konsantre oluyorsan ve büyülü misil hazırlarsan, ağ büyüsü biter, ve eğer reaksiyon olarak büyülü misil büyüsünü kullanamadan hasar alırsan, konsantrasyonun bozulabilir.", "Hazırlanmış bir büyüyü bir sonraki sıranın başına kadar kullanman gerekir."]
             }
             ,
             {
@@ -2979,7 +2979,7 @@
                 }
                 ,
                 {
-                    "type": "entries", "name": "Ölüm Kurtulma Zarları", "entries": ["Sırana 0 HP ile başladığında, ölüme daha da yaklaşacak mısın yoksa hayata tutunacak mısın belirlemek için ölüm kurtulma zarı denen özel bir zar atarsın. Diğer kurtulma zarlarının aksine bu hiçbir yetenek skoruna bağlı değildir. Artık herşey kaderine bağlıdır, bu zara sadece kurtulma zarlarını etkileyen büyüler ve özellikler yardımcı olur.", "D20 atarsın. Eğer zar 10 ya da üzeri gelirse başarılı olursun. Aksi taktirde başarısız olursun. Bir başarı veya başarısızlığın tek başına bir etkisi yoktur. Üçüncü başarında stabil (aşağıda açıklanacak) olursun. Üçüncü başarısızlıkta ölürsün. Başarı ve başarısızlıklar art arda olmak zorunda değildir; biri üçe ulaşana kadar takip edersin. HP yenilersen ya da stabilize olursan ikisinin de sayısı sıfırlanır.", {
+                    "type": "entries", "name": "Ölüm Kurtulma Zarları", "entries": ["Sırana 0 HP ile başladığında, ölüme daha da yaklaşacak mısın yoksa hayata tutunacak mısın belirlemek için ölüm kurtulma zarı denen özel bir zar atarsın. Diğer kurtulma zarlarının aksine bu hiçbir yetenek skoruna bağlı değildir. Artık her şey kaderine bağlıdır, bu zara sadece kurtulma zarlarını etkileyen büyüler ve özellikler yardımcı olur.", "D20 atarsın. Eğer zar 10 ya da üzeri gelirse başarılı olursun. Aksi taktirde başarısız olursun. Bir başarı veya başarısızlığın tek başına bir etkisi yoktur. Üçüncü başarında stabil (aşağıda açıklanacak) olursun. Üçüncü başarısızlıkta ölürsün. Başarı ve başarısızlıklar art arda olmak zorunda değildir; biri üçe ulaşana kadar takip edersin. HP yenilersen ya da stabilize olursan ikisinin de sayısı sıfırlanır.", {
                         "type": "entries", "name": "1 ya da 20 Atma", "entries": [" Bir ölüm kurtulma zarı attığında d20'de 1 atarsan bu iki başarısızlık olarak sayılır. Eğer d20'de 20 atarsan, 1 HP yenilersin."]
                     }
                     ,

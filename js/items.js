@@ -378,20 +378,6 @@ function loadhash (id) {
 	renderer.recursiveEntryRender(entryList, renderStack, 1);
 
 	// tools, artisan tools, instruments, gaming sets
-	if (type === "T" || type === "AT" || type === "INS" || type === "GS") {
-		renderStack.push(`<p class="text-align-center"><i>See the <a href="${renderer.baseUrl}variantrules.html#${UrlUtil.encodeForHash(["Tool Proficiencies", "XGE"])}" target="_blank">Tool Proficiencies</a> entry of the Variant and Optional rules page for more information</i></p>`);
-		if (type === "INS") {
-			const additionEntriesList = {type: "entries", entries: TOOL_INS_ADDITIONAL_ENTRIES};
-			renderer.recursiveEntryRender(additionEntriesList, renderStack, 1);
-		} else if (type === "GS") {
-			const additionEntriesList = {type: "entries", entries: TOOL_GS_ADDITIONAL_ENTRIES};
-			renderer.recursiveEntryRender(additionEntriesList, renderStack, 1);
-		}
-	}
-	if (item.additionalEntries) {
-		const additionEntriesList = {type: "entries", entries: item.additionalEntries};
-		renderer.recursiveEntryRender(additionEntriesList, renderStack, 1);
-	}
 
 	$content.find("tr#text").after(`
 		<tr class="text">

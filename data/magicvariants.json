@@ -1216,7 +1216,7 @@
 				"namePrefix": "Vorpal ",
 				"reqAttune": "YES",
 				"entries": [
-					"Bu büyülü silahla yapılan saldırı ve hasar zarlarına +3 bonusun olur. Ayrıca kılıç kesme hasarına direnci yoksayar.",
+					"Bu büyülü silahla yapılan saldırı ve hasar zarlarına +3 bonusun olur. Ayrıca kılıç kesme hasarına direnci yok sayar.",
 					"Bu silah ile en az bir başı olan bir varlığa saldırıp zarda 20 atarsan, varlığın başlarından birini kesersin. Eğer varlık bu baş olmadan yaşayamıyorsa ölür. Bir varlık eğer ki kesme hasarına bağışıksa, bir başa sahip değilse ya da ihtiyaç duymuyorsa, efsanevi eylemlere sahipse, veya DM varlığın kafasının bu silah ile kesilemeyecek kadar büyük olduğuna karar verirse kafası kesilmez. Bu tip bir varlık, onun yerine darbeden fazladan 6d8 kesme hasarı alır."
 				],
 				"modifier": [

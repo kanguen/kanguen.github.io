@@ -2737,7 +2737,7 @@
 			"source": "PHB",
 			"entries": [
 				"Büyü süresince her sıranın sonunda bir {@dice d20} at. 11 ve üzeri gelen zarlarda, o an bulunduğun boyuttan ayrılır ve Ethereal boyuta geçersin (zaten o boyuttaysan büyü başarısız olur ve o kullanım harcanır). Bir sonraki sıranın başında ya da Ethereal boyutta iken büyü bittiğinde, kaybolduğun yerin 10 fit yakınında görebildiğin boş bir alana geri dönersin. Eğer o mesafede uygun bir alan yoksa, uygun olabilecek en yakın alanda belirirsin (eğer aynı mesafede birden çok yer varsa rastgele seçilir). Eylem olarak büyüyü sonlandırabilirsin.",
-				"Ethereal boyuttayken çıktığın boyutu görüp duyabilirsin, herşey gri tonlarında olur ve 60 fit ötesinde hiçbir şey görünmez. Sadece Ethereal boyutta olan diğer varlıklar ile etkileşime geçebilirsin. Orada olmayan varlıklar eğer buna elverişli özel yetenekleri yoksa seni algılayamaz ya da etkileşime geçemez."
+				"Ethereal boyuttayken çıktığın boyutu görüp duyabilirsin, her şey gri tonlarında olur ve 60 fit ötesinde hiçbir şey görünmez. Sadece Ethereal boyutta olan diğer varlıklar ile etkileşime geçebilirsin. Orada olmayan varlıklar eğer buna elverişli özel yetenekleri yoksa seni algılayamaz ya da etkileşime geçemez."
 			],
 			"page": 219
 		},
@@ -3250,7 +3250,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Menzilinde görebildiğin bir insansıyı cezbetmeyi denersin. Bir Akıl kurtulma zarı atar, eğer sen ya da dostların onunla savaşıyorsa avantajla atar. Eğer başarısız olursa, büyü bitene ya da sen veya dostların ona zarar verecek birşey yapana kadar senin tarafından cezbedilir. Cezbedilen varlık seni dostane bir tanıdık olarak görür. Büyü sona erdiğinde varlık senin tarafından cezbedildiğini bilir."
+				"Menzilinde görebildiğin bir insansıyı cezbetmeyi denersin. Bir Akıl kurtulma zarı atar, eğer sen ya da dostların onunla savaşıyorsa avantajla atar. Eğer başarısız olursa, büyü bitene ya da sen veya dostların ona zarar verecek bir şey yapana kadar senin tarafından cezbedilir. Cezbedilen varlık seni dostane bir tanıdık olarak görür. Büyü sona erdiğinde varlık senin tarafından cezbedildiğini bilir."
 			],
 			"entriesHigherLevel": [
 				{
@@ -3780,7 +3780,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Menzilinde seçeceğin bir noktada 20 fit yarıçaplı sarı-yeşil zehirli bir sis küresi oluşturursun. Sis köşelerin ardına geçer. Süre boyunca ya da güçlü bir rüzgar bu sisi dağıtana ve büyüyü sonlandırana kadar kalır. Alanı ağırca örtülüdür.",
+				"Menzilinde seçeceğin bir noktada 20 fit yarıçaplı sarı-yeşil zehirli bir sis küresi oluşturursun. Sis köşelerin ardına geçer. Süre boyunca ya da güçlü bir rüzgar bu sisi dağıtana ve büyüyü sonlandırana kadar kalır. Alanı yoğun örtülüdür.",
 				"Bir varlık sırasında büyü alanına ilk defa girişinde ya da sırasına orada başlarsa Dayanıklılık kurtulma zarı atar. Varlık başarısız olursa {@dice 5d8} zehir hasarı alır, başarılı olursa bunun yarısını. Varlıklar nefes ihtiyacı duymasa ya da nefeslerini tutsalar da etkilenirler.",
 				"Her sıranın başında sis senden 10 fit uzaklaşır, arazinin yüzeyinde ilerler. Buharlar havadan daha ağır oldukları için yerin en alt seviyesine inerler, hatta açıklıklardan aşağı bile dökülürler."
 			],
@@ -3846,7 +3846,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Elinden şaşırtıcı bir renk düzeninde ışıklar çıkar. {@dice 6d10} at, sonuç toplamı bu büyünün kaç HP'lik varlığı etkileyebileceğini gösterir. Kaynağı sen olan 15 fitlik bir koni içerisinde kalan varlıklar, o anlık HP puanlarına göre artan sıralamayla etkilenirler (bilinçsiz ve göremeyen varlıklar yoksayılır).",
+				"Elinden şaşırtıcı bir renk düzeninde ışıklar çıkar. {@dice 6d10} at, sonuç toplamı bu büyünün kaç HP'lik varlığı etkileyebileceğini gösterir. Kaynağı sen olan 15 fitlik bir koni içerisinde kalan varlıklar, o anlık HP puanlarına göre artan sıralamayla etkilenirler (bilinçsiz ve göremeyen varlıklar yok sayılır).",
 				"En az HP'si olan varlıkla başlayarak, bu büyü tarafından etkilenen tüm varlıklar büyü bitene kadar kör olurlar. Etkilenen her varlığın HP'sini toplamdan çıkarıp bir sonraki en düşük HP'li varlığa geç. Bir varlığın etkilenebilmesi için HP'si toplama eşit ya da daha az olmalıdır."
 			],
 			"entriesHigherLevel": [
@@ -4053,7 +4053,7 @@
 			},
 			"entries": [
 				"Tanrına ya da bir kutsal aracıya ulaşır ve evet ya da hayır ile yanıtlanabilecek 3 adet soru sorarsın. Sorularını büyü bitmeden sormalısın. Her soru için doğru cevabı alırsın.",
-				"Kutsal varlıklar herşeyi bilemeyebilirler, bu yüzden eğer soru tanrının bilgisi dışında kalıyorsa \"belirsiz\" cevap olarak alınabilir. Tek kelimelik cevapların yanlış yönlendirebileceği ya da tanrının hedefleri ile çelişeceği durumlarda DM, kısa bir cümle ile cevap verebilir.",
+				"Kutsal varlıklar her şeyi bilemeyebilirler, bu yüzden eğer soru tanrının bilgisi dışında kalıyorsa \"belirsiz\" cevap olarak alınabilir. Tek kelimelik cevapların yanlış yönlendirebileceği ya da tanrının hedefleri ile çelişeceği durumlarda DM, kısa bir cümle ile cevap verebilir.",
 				"Uzun dinlenme bitirmeden bu büyüyü eğer 2 ya da daha fazla kez kullanırsan, birinciden sonraki her kullanım için biriken %25 cevap almama şansı vardır. DM bu zarı gizli atar."
 			],
 			"page": 223
@@ -5625,7 +5625,7 @@
 			"source": "PHB",
 			"entries": [
 				"Menzilindeki zemine dört adet büyüsüz ok yerleştirirsin ve o alanı koruması için üzerlerine büyü yaparsın. Büyü bitene kadar, ne zaman senin dışında bir varlık bu okların 30 fit yakınına, sırasında ilk defa gelirse ya da sırasını orada bitirirse, bir ok uçar ve ona saldırır. Varlık Çeviklik kurtulma zarında başarılı olur ya da {@dice 1d6} delme hasarı alır. Ok sonrasında yok olur. Geriye ok kalmadığında büyü sona erer.",
-				"Bu büyüyü kullandığında, istediğin varlıkları seçip bu büyünün yoksaymasını sağlayabilirsin."
+				"Bu büyüyü kullandığında, istediğin varlıkları seçip bu büyünün yok saymasını sağlayabilirsin."
 			],
 			"entriesHigherLevel": [
 				{
@@ -7242,7 +7242,7 @@
 			"entries": [
 				"Menzilinde görebildiğin bir hedefe doğru parmağından ince yeşil bir ışın çıkar. Hedef bir varlık, nesne ya da Güç Duvarı büyüsüyle yaratılmış bir duvar gibi bir güç alanı olabilir.",
 				"Bu büyü tarafından hedef alınan bir varlık Çeviklik kurtulma zarı atar. Başarısız olursa, hedef {@dice 10d6+40} güç hasarı alır. Eğer bu hasar bir hedefi 0 HP'ye indirirse, hedef parçalanır.",
-				"Parçalanan bir varlık ve büyülü eşyaları dışında giydiği ve taşıdığı herşey, incecik gri tozdan bir yığına dönüşür. Varlık sadece true resurrection (saf diriliş) ya da wish (dilek) büyüleri yoluyla hayata döndürülebilir.",
+				"Parçalanan bir varlık ve büyülü eşyaları dışında giydiği ve taşıdığı her şey, incecik gri tozdan bir yığına dönüşür. Varlık sadece true resurrection (saf diriliş) ya da wish (dilek) büyüleri yoluyla hayata döndürülebilir.",
 				"Bu büyü Büyük ya da daha küçük boyda bir büyüsüz nesneyi veya büyülü güç alanını otomatik olarak parçalar. Eğer hedef Dev ya da daha büyük boyda bir nesne veya büyülü güç alanı ise, bu büyü onun 10 fit küplük bir alanını parçalar. Büyülü bir eşya bu büyüden etkilenmez."
 			],
 			"entriesHigherLevel": [
@@ -8747,9 +8747,9 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Ethereal Boyutun sınır kesimlerine girersin, senin o anki boyutun ile örtüştüğü alanlara. Sınır Ethereal'da süre boyunca ya da eylemini kullanıp büyüyü bitirene dek kalırsın. Bu süreçte istediğin yöne gidebilirsin. Eğer aşağı veya yukarı gidersen her 1 fitlik mesafe fazladan bir fit hareket harcatır. Geldiğin boyutu görüp duyabilirsin, ama oradaki herşey gri görünür ve 60 fit ötesinde hiçbir şey görünmez.",
+				"Ethereal Boyutun sınır kesimlerine girersin, senin o anki boyutun ile örtüştüğü alanlara. Sınır Ethereal'da süre boyunca ya da eylemini kullanıp büyüyü bitirene dek kalırsın. Bu süreçte istediğin yöne gidebilirsin. Eğer aşağı veya yukarı gidersen her 1 fitlik mesafe fazladan bir fit hareket harcatır. Geldiğin boyutu görüp duyabilirsin, ama oradaki her şey gri görünür ve 60 fit ötesinde hiçbir şey görünmez.",
 				"Ethereal Boyutta iken, sadece o boyutta olan varlıkları etkileyebilir ve onlar tarafından etkilenebilirsin. Ethereal Boyutta olmayan varlıklar, eğer özel bir yetenek ya da büyü onlara bu özelliği vermediyse, seni algılayamaz ve seninle iletişime geçemez.",
-				"Ethereal Boyutta olmayan tüm nesneleri ve etkileri yoksayarsın, geldiğin boyutta görebildiğin nesnelerin içinden geçmeni sağlar.",
+				"Ethereal Boyutta olmayan tüm nesneleri ve etkileri yok sayarsın, geldiğin boyutta görebildiğin nesnelerin içinden geçmeni sağlar.",
 				"Büyü bittiğinde, o anda içinde bulunduğun noktada geldiğin boyuta dönersin. Eğer bu olduğunda bir katı nesne ya da varlığın alanındaysan, anında en yakın boş alana atılırsın ve taşındındığın fitin 2 katı kadar güç hasarı alırsın.",
 				"Eğer bu büyüyü zaten Ethereal Boyutta ya da Dış Boyutlar gibi ona sınırı olmayan boyutlarda kullanırsan büyü hiçbir etki göstermez."
 			],
@@ -10411,7 +10411,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Merkezi menzilinde bir nokta olan 20 fit çapında bir sis küresi oluşturursun. Küre köşelerin ardına yayılır, ve alanı ağırca örtülüdür. Süresi boyunca veya orta ya da daha hızlı bir rüzgar (saatte en az 10 mil) onu dağıtıncaya kadar sürer."
+				"Merkezi menzilinde bir nokta olan 20 fit çapında bir sis küresi oluşturursun. Küre köşelerin ardına yayılır, ve alanı yoğun örtülüdür. Süresi boyunca veya orta ya da daha hızlı bir rüzgar (saatte en az 10 mil) onu dağıtıncaya kadar sürer."
 			],
 			"entriesHigherLevel": [
 				{
@@ -10854,7 +10854,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Dokunduğun istekli bir varlığı süre boyunca, giydiği ve taşıdığı herşeyle birlikte bir sis bulutuna çevirirsin. Eğer varlık 0 HP'ye düşerse büyü sonlanır. Cisimsiz bir varlık bu büyüden etkilenmez.",
+				"Dokunduğun istekli bir varlığı süre boyunca, giydiği ve taşıdığı her şeyle birlikte bir sis bulutuna çevirirsin. Eğer varlık 0 HP'ye düşerse büyü sonlanır. Cisimsiz bir varlık bu büyüden etkilenmez.",
 				"Bu formdayken hedefin tek hareket şekli 10 fitlik uçma hızıdır. Hedef başka bir varlığın alanına girip orada kalabilir. Hedefin büyülü olmayan hasara direnci olur ve Kuvvet, Çeviklik ve Dayanıklılık kurtulma zarlarında avantajlıdır. Hedef küçük delikler, dar açıklıklar ve ince çatlaklardan bile geçebilir ama sıvı yüzeyler onun için katı sayılır. Hedef düşemez ve {@condition sersemleme} ya da başka bir yolla {@condition etkisiz hal} durumlarına düştüğünde bile havada kalır.",
 				"Sis bulutu halindeyken hedef konuşamaz ya da nesneleri kullanamaz, ve dönüşmeden önce tuttuğu ya da taşıdığı hiçbir nesne bırakılamaz, kullanılamaz ya da başka bir şekilde etkileşime geçilemez. Hedef saldıramaz ya da büyü yapamaz."
 			],
@@ -10917,7 +10917,7 @@
 			"source": "PHB",
 			"entries": [
 				"Menzilinde görebildiğin boş bir alanı, farklı bir boyutta kesin bir noktaya bağlayan bir portal yaratırsın. Portal yuvarlak bir açıklıktır ve bunu 5 ile 20 fit arası çapta yapabilirsin. Portalı istediğin yöne doğru açabilirsin ve süre boyunca kalır.",
-				"Portalın belirdiği boyutlarda bir önü bir de arkası vardır. Portaldan seyahat sadece önünden girmeyle mümkündür. Bunu yapan herşey anında diğer boyuta taşınır, portala en yakın boş alanda belirir.",
+				"Portalın belirdiği boyutlarda bir önü bir de arkası vardır. Portaldan seyahat sadece önünden girmeyle mümkündür. Bunu yapan her şey anında diğer boyuta taşınır, portala en yakın boş alanda belirir.",
 				"Tanrılar ve diğer boyutsal hükümdarlar bu büyünün, onların huzurunda ya da nüfuz alanlarında portal açmasını engelleyebilir.",
 				"Bu büyüyü yaptığında, belirli bir varlığın adını söyleyebilirsin (bir mahlas, takma ad, ya da ünvan işlemez). Eğer o varlık senden farklı bir boyutta ise, portal o varlığın hemen yanında açılır ve onu portalın senin tarafındaki en yakın boş alana çeker. Varlık üzerinde hiçbir özel güce sahip olmazsın, ve DM'in uygun gördüğü şekilde hareket etmekte serbesttir. Terkedebilir, saldırabilir ya da sana yardım edebilir."
 			],
@@ -11798,7 +11798,7 @@
 					"type": "entries",
 					"name": "Koridorlar",
 					"entries": [
-						"Tüm korunan koridorları sis doldurur, onları ağırca örtülü hale getirir. Ek olarak, farklı yön sunan her ayrımda senin dışında bir varlık için, %50 gittiği yönün tam tersi yönde gittiğine inanma şansı vardır."
+						"Tüm korunan koridorları sis doldurur, onları yoğun örtülü hale getirir. Ek olarak, farklı yön sunan her ayrımda senin dışında bir varlık için, %50 gittiği yönün tam tersi yönde gittiğine inanma şansı vardır."
 					]
 				},
 				{
@@ -12139,7 +12139,7 @@
 			"entries": [
 				"Bir noktaya dokunur ve alanı kutsal (ya da fena) güç ile doldurursun. Bu alan 60 fit yarıçapa kadar çıkabilir, ve eğer bu alan zaten bu büyünün etkisi altında bir yeri kapsarsa başarısız olur. Etkilenen alan şu etkiler altında olur.",
 				"İlk olarak, kutsallar, elementaller, feyler, zebaniler, ve yaşayan ölüler alana giremez ve bu alan içerisindeki varlıkları cezbedemez, korkutamaz veya ele geçiremez. Bu tip varlıklar tarafından halihazırda {@condition cezbedilme}, {@condition korkma}, ya da ele geçirilme etkisi altında olan varlıklar alana girdiklerinde bu etkilerden kurtulurlar. Bu varlık tiplerinden bir ya da birkaçını etkilenmemesi için seçebilirsin.",
-				"İkinci olarak, alana fazladan bir etki bağlayabilirsin. Bu etkiyi aşağıdaki listeden seç, ya da DM tarafından sunulan farklı bir etki olabilir. Bu etkilerin bazıları alanın içindeki varlıklara işler, bu etkinin tüm varlıkları, belirli bir tanrı ya da lideri izleyenleri, ya da orc ve troll gibi belirli tipte varlıkları etkilemesini belirleyebilirsin. Etkilenecek bir varlık bu alana sırasında ilk girdiğinde ya da sırasına orada başlarsa, Karizma kurtulma zarı atabilir. Başarılı olursa varlık alanı terk edene kadar ikincil etkiyi yoksayar.",
+				"İkinci olarak, alana fazladan bir etki bağlayabilirsin. Bu etkiyi aşağıdaki listeden seç, ya da DM tarafından sunulan farklı bir etki olabilir. Bu etkilerin bazıları alanın içindeki varlıklara işler, bu etkinin tüm varlıkları, belirli bir tanrı ya da lideri izleyenleri, ya da orc ve troll gibi belirli tipte varlıkları etkilemesini belirleyebilirsin. Etkilenecek bir varlık bu alana sırasında ilk girdiğinde ya da sırasına orada başlarsa, Karizma kurtulma zarı atabilir. Başarılı olursa varlık alanı terk edene kadar ikincil etkiyi yok sayar.",
 				{
 					"type": "entries",
 					"name": "Cesaret",
@@ -13736,7 +13736,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Menzilinde bir nokta merkezli 20 fit yarıçaplı bir küre, içerisinde beyaz yanan közler arasından çıkan dönen bir duman bulutu ile dolar. Bulut köşelerin ardına yayılır ve ağırca örtülüdür. Süresi boyunca ya da orta veya daha hızlı bir rüzgar (en az saatte 10 mil) dağıtana kadar kalır.",
+				"Menzilinde bir nokta merkezli 20 fit yarıçaplı bir küre, içerisinde beyaz yanan közler arasından çıkan dönen bir duman bulutu ile dolar. Bulut köşelerin ardına yayılır ve yoğun örtülüdür. Süresi boyunca ya da orta veya daha hızlı bir rüzgar (en az saatte 10 mil) dağıtana kadar kalır.",
 				"Bulut belirdiğinde, içindeki her varlık Çeviklik kurtulma zarı atar. Başarısız olan bir varlık {@dice 10d8} ateş hasarı alır, başarılı olursa bunun yarısını. Bir varlık bu kurtulma zarını eğer büyünün alanına sırasında ilk defa girerse ya da sırasını orada bitirirse de atar.",
 				"Her sıranın başında seçeceğin bir yöne doğru bulut doğrudan 10 fit ilerler."
 			],
@@ -16643,7 +16643,7 @@
 			"source": "PHB",
 			"entries": [
 				"Menzilinde görebildiğin boş bir alanda hayalet bir bekçi köpeği yaratırsın. Orada süre boyunca, eylem olarak defedene kadar ya da sen ondan 100 fitten fazla uzaklaşana kadar kalır.",
-				"Köpek senin dışında tüm varlıklara görünmezdir ve hasar verilemez. Bir Küçük ya da daha büyük varlık sen büyüyü yaparken belirleyeceğin parolayı söylemeden 30 fit yakınına yaklaşırsa köpek sesli bir şekilde havlamaya başlar. Köpek {@condition görünmezlik} etkisi altındaki varlıkları ve Ethereal boyutu görebilir. İllüzyonları yoksayar.",
+				"Köpek senin dışında tüm varlıklara görünmezdir ve hasar verilemez. Bir Küçük ya da daha büyük varlık sen büyüyü yaparken belirleyeceğin parolayı söylemeden 30 fit yakınına yaklaşırsa köpek sesli bir şekilde havlamaya başlar. Köpek {@condition görünmezlik} etkisi altındaki varlıkları ve Ethereal boyutu görebilir. İllüzyonları yok sayar.",
 				"Her sıranın başında, köpek sana düşman olan ve onun 5 fit yakınında olan bir varlığı ısırmaya çalışır. Köpeğin saldırı bonusu senin büyü yapma yetenek bonusun + uzmanlık bonusuna eşittir. Vurursa {@dice 4d8} delme hasarı verir."
 			],
 			"page": 261,
@@ -17598,7 +17598,7 @@
 				"Dış dünyadan bir varlığa yardım için yalvarırsın. Bu varlığı bilmelisin: bir tanrı, bir primordial, bir iblis prensi, veya farklı bir kozmik güç varlığı. Bu varlık sana yardım etsin diye kendisine sadık olan bir kutsal, bir elemental, ya da bir zebaniyi gönderir ve gelen varlık menzilinde boş bir alanda belirir. Eğer belirli bir varlığın adını biliyorsan, büyüyü yaparken o ismi söyleyip kendisini rica edebilirsin, ama hala farklı bir varlık gelebilir (DM'in seçimi).",
 				"Varlık belirdiğinde, herhangi bir şekilde davranmak için bir zorlama altında değildir. Varlıktan ödeme karşılığı bir hizmet gerçekleştirmesini isteyebilirsin, ama bunu yapma zorunluluğu yoktur. İstenilen görev basitten (bizi uçurumun karşısına uçur, ya da savaşta yardım et) karmaşığa (düşmanlarımıza ajanlık yap, ya da zindana yaptığımız yağma sırasında bizi koru) uzanabilir. Varlığın hizmetleri karşılığı pazarlığa başlamak için kendisiyle iletişime girebilmen gerekir.",
 				"Bu ödeme çeşitli şekiller alabilir. Bir kutsal müttefik bir tapınağa yapılacak yüklü altın ya da büyülü eşya bağışı isteyebilir, bir zebaniyse canlı kurban ya da hazine hediyeleri bekleyebilir. Bazı varlıklar sizin gideceğiniz görevler karşılığında hizmetlerini sunabilirler.",
-				"Temel bir kural olarak, dakikalarla ölçülebilecek bir görev dakikasına 100 gp ödeme gerektirir. Saatle ölçülebilecek bir görev saatine 1000 gp olur. Ve günlerle ölçülebilecek (10 güne kadar) bir görev, günlük 10.000 altındır. DM senin bu büyüyü yapma şartlarına bağlı olarak fiyatları değiştirebilir. Eğer görev varlığın değer ve inançlarına uyuyorsa ödeme yarılanabilir, hatta yoksayılabilir. Tehlikesiz görevler genel olarak sadece tavsiye edilen ödemenin yarısını gerektirir, aşırı tehlikeli görevler ise daha üstün bir hediye gerektirebilir. Varlıklar nadiren intihar gibi görülen görevleri kabul ederler.",
+				"Temel bir kural olarak, dakikalarla ölçülebilecek bir görev dakikasına 100 gp ödeme gerektirir. Saatle ölçülebilecek bir görev saatine 1000 gp olur. Ve günlerle ölçülebilecek (10 güne kadar) bir görev, günlük 10.000 altındır. DM senin bu büyüyü yapma şartlarına bağlı olarak fiyatları değiştirebilir. Eğer görev varlığın değer ve inançlarına uyuyorsa ödeme yarılanabilir, hatta yok sayılabilir. Tehlikesiz görevler genel olarak sadece tavsiye edilen ödemenin yarısını gerektirir, aşırı tehlikeli görevler ise daha üstün bir hediye gerektirebilir. Varlıklar nadiren intihar gibi görülen görevleri kabul ederler.",
 				"Varlık görevi tamamladıktan sonra, ya da hizmetin karşılıklı anlaşılan süresi dolduğunda, eğer göreve uygunsa ve mümkünse sana bildirdikten sonra kendi boyutuna döner. Eğer varlığın hizmetleri için bir fiyatta anlaşamazsanız, anında asıl boyutuna döner.",
 				"Grubunuza katılan bir varlık onun bir üyesi sayılır, ödül verilen deneyim puanlarından tam payını alır."
 			],
@@ -21217,7 +21217,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Bu büyü varlıkları büyülü bir uykuya daldırır.{@dice 5d8} zar at, toplamı bu büyünün kaç HP'lik varlığı etkileyebileceğini gösterir. Menzilinde seçtiğin bir noktanın 20 fit çevresindeki varlıklar, o anlık HP'lerine göre artan sıralamayla etkilenirler (bilinçsiz varlıklar yoksayılır).",
+				"Bu büyü varlıkları büyülü bir uykuya daldırır.{@dice 5d8} zar at, toplamı bu büyünün kaç HP'lik varlığı etkileyebileceğini gösterir. Menzilinde seçtiğin bir noktanın 20 fit çevresindeki varlıklar, o anlık HP'lerine göre artan sıralamayla etkilenirler (bilinçsiz varlıklar yok sayılır).",
 				"O anlık en az HP'ye sahip varlıkla başlayıp, bu büyüden etkilenen tüm varlıklar büyü sonuna, uyuyan hasar alana, ya da biri eylemini kullanıp onu uyandırana kadar bilinçsiz kalırlar. Her etkilenen varlığın HP'sini kalan toplamdan çıkarıp sonraki en düşük HP'li varlığa geç. Bir varlığın etkilenebilmesi için HP'si kalan toplama eşit ya da daha düşük olmalıdır.",
 				"Yaşayan ölüler ve cezbedilmeye bağışıklığı olan varlıklar bu büyüden etkilenmez."
 			],
@@ -21305,7 +21305,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Büyü süresince, menzilinde seçeceğin bir noktanın çevresinde 40 fit yarıçaplı 20 fit uzunlukta bir silindire dondurucu yağmur ve dolu yağmaya başlar. Bu alan ağırca örtülüdür ve tüm açık ateşler söner.",
+				"Büyü süresince, menzilinde seçeceğin bir noktanın çevresinde 40 fit yarıçaplı 20 fit uzunlukta bir silindire dondurucu yağmur ve dolu yağmaya başlar. Bu alan yoğun örtülüdür ve tüm açık ateşler söner.",
 				"Alandaki arazi kaygan buz ile kaplanır ve zorlu araziye dönüşür. Bir varlık büyünün alanına ilk defa girdiğinde ya da sırasına orada başladığında, Çeviklik kurtulma zarı atar. Başarısız olursa yere düşer.",
 				"Eğer bir varlık büyünün alanında konsantre oluyorsa, senin büyü DC'ne karşı Dayanıklılık kurtulma zarı atar ya da konsantrasyonunu kaybeder."
 			],
@@ -22127,7 +22127,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Menzilinde bir noktada 20 fit yarıçaplı bir sarı mide bulandırıcı gaz küresi yaratırsın. Bulut köşelerin ardına geçer ve alanı ağırca örtülüdür. Bulut süresi boyunca havada kalır.",
+				"Menzilinde bir noktada 20 fit yarıçaplı bir sarı mide bulandırıcı gaz küresi yaratırsın. Bulut köşelerin ardına geçer ve alanı yoğun örtülüdür. Bulut süresi boyunca havada kalır.",
 				"Sırasının başında tamamıyla gazın içinde olan her varlık zehire karşı Dayanıklılık kurtulma zarı atar. Başarısız olursa varlık o sırasında eylemini öğürüp kıvrınarak geçirir. Nefes alma ihtiyacı duymayan ya da zehire bağışıklığı olan varlıklar bu kurtulma zarında otomatik olarak başarılı olur.",
 				"Ortalama bir rüzgar (en az saatte 10 mil hızda) bulutu 4 round sonrası dağıtır. Güçlü bir rüzgar (en az saatte 20 mil hızda) 1 round sonrası dağıtır."
 			],
@@ -22393,7 +22393,7 @@
 					"type": "entries",
 					"name": "5-10. Roundlar",
 					"entries": [
-						"Bulutun altındaki alanı şiddetli rüzgarlar ve dondurucu yağmur kaplar. Alan zorlu arazi olur ve ağırca örtülüdür. Oradaki her varlık {@dice 1d6} soğuk hasarı alır. Alanda menzilli silah saldırıları imkansızdır. Büyülerde konsantrasyon koruma açısından rüzgar ve yağmur ciddi dikkat dağıtıcı sayılırlar. Son olarak, güçlü rüzgar boraları (saatte 20 ile 50 mil arası) otomatik olarak alandaki sıradan ya da büyülü sis ve benzeri fenomenleri dağıtır."
+						"Bulutun altındaki alanı şiddetli rüzgarlar ve dondurucu yağmur kaplar. Alan zorlu arazi olur ve yoğun örtülüdür. Oradaki her varlık {@dice 1d6} soğuk hasarı alır. Alanda menzilli silah saldırıları imkansızdır. Büyülerde konsantrasyon koruma açısından rüzgar ve yağmur ciddi dikkat dağıtıcı sayılırlar. Son olarak, güçlü rüzgar boraları (saatte 20 ile 50 mil arası) otomatik olarak alandaki sıradan ya da büyülü sis ve benzeri fenomenleri dağıtır."
 					]
 				}
 			],
@@ -22836,7 +22836,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Senin seçeceğin menzilinde görebildiğin bir varlık, eğer bu büyü onu etkilerse herşeyi çok komik algılar ve kahkaha krizine girer. Hedef bir Akıl kurtulma zarında başarılı olur ya da yere düşer, etkisiz hale gelir ve süre boyunca ayağa kalkamaz. Zeka skoru 4 ve altında olan bir varlık bu büyüden etkilenmez.",
+				"Senin seçeceğin menzilinde görebildiğin bir varlık, eğer bu büyü onu etkilerse her şeyi çok komik algılar ve kahkaha krizine girer. Hedef bir Akıl kurtulma zarında başarılı olur ya da yere düşer, etkisiz hale gelir ve süre boyunca ayağa kalkamaz. Zeka skoru 4 ve altında olan bir varlık bu büyüden etkilenmez.",
 				"Her sırasının sonunda, ve her hasar alışında, hedef yeni bir Akıl kurtulma zarı atar. Eğer bu kurtulma zarını hasar tetiklediyse, hedef bunu avantajla atar. Başarılı olursa, büyü sonlanır."
 			],
 			"page": 280,
@@ -23902,7 +23902,7 @@
 			},
 			"source": "PHB",
 			"entries": [
-				"Bu büyü, dokunduğun istekli bir varlığa herşeyi olduğu gibi görme yeteneğini bahşeder. Süre boyunca, varlığın saf görüşü olur, büyü ile gizlenmiş kapıları farkeder, ve Ethereal Boyutu görebilir, bu görüşün 120 fit menzili vardır."
+				"Bu büyü, dokunduğun istekli bir varlığa her şeyi olduğu gibi görme yeteneğini bahşeder. Süre boyunca, varlığın saf görüşü olur, büyü ile gizlenmiş kapıları farkeder, ve Ethereal Boyutu görebilir, bu görüşün 120 fit menzili vardır."
 			],
 			"page": 284
 		},

@@ -4995,7 +4995,7 @@
 						"Bir hedefe silahlı saldırı ile vurduğunda, hedef fazladan {@dice 2d12} güç hasarı alır.",
 						"Tüm zırhlar, kalkanlar, basit ve askeri silahlarla uzmanlığın olur.",
 						"Kuvvet ve Dayanıklılık kurtulma zarlarında uzmanlığın olur.",
-						"Sıranda Saldırı eylemini kullandığında bir yerine iki kez saldırabilirsin. Eğer Fazladan Saldırı özelliği gibi zaten sana fazladan saldırı veren bir özelliğe sahipsen bu kısmı yoksayarsın."
+						"Sıranda Saldırı eylemini kullandığında bir yerine iki kez saldırabilirsin. Eğer Fazladan Saldırı özelliği gibi zaten sana fazladan saldırı veren bir özelliğe sahipsen bu kısmı yok sayarsın."
 					]
 				},
 				"Büyü bittikten hemen sonra, DC 15 Dayanıklılık kurtulma zarı atarsın ya da bir seviye {@condition bitkinlik} kazanırsın."

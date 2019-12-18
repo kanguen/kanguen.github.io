@@ -1,7 +1,7 @@
 {
 	"item": [
 		{
-			"name": "Alchemy Jug",
+			"name": "Simya Sürahisi",
 			"wondrous": true,
 			"weight": "12",
 			"tier": "Alt",
@@ -9,14 +9,14 @@
 			"source": "DMG",
 			"page": 150,
 			"entries": [
-				"This ceramic jug appears to be able to hold a gallon of liquid and weighs 12 pounds whether full or empty. Sloshing sounds can be heard from within the jug when it is shaken, even if the jug is empty.",
-				"You can use an action and name one liquid from the table below to cause the jug to produce the chosen liquid. Afterward, you can uncork the jug as an action and pour that liquid out, up to 2 gallons per minute. The maximum amount of liquid the jug can produce depends on the liquid you named.",
-				"Once the jug starts producing a liquid, it can't produce a different one, or more of one that has reached its maximum, until the next dawn.",
+				"Bu seramik sürahi bir galon sıvı tutabilecek gibi görünür ve dolu ya da boş olması farketmeksizin 12 pound ağırlıktadır. Sürahi boşken bile sallandığında içinden çalkalanma sesleri gelir.",
+				"Eylemini kullanıp aşağıdaki tablodan bir sıvının adını söyleyerek sürahinin bu sıvıyı üretmesini sağlayabilirsin. Sonrasında, eylem olarak sürahinin tıpasını açıp sıvıyı dökmeye başlayabilirsin, en fazla dakikada 2 galon akar. Sürahinin üretebileceği maksimum sıvı miktarı seçtiğin sıvıya bağlıdır.",
+				"Sürahi bir sıvıyı üretmeye başladıktan sonra, bir sonraki şafağa kadar başka birini ya da maksimumuna ulaştıysa aynı sıvıdan daha fazla üretemez.",
 				{
 					"type": "table",
 					"colLabels": [
-						"Liquid",
-						"Max Amount"
+						"Sıvı",
+						"Maksimum Miktar"
 					],
 					"colStyles": [
 						"col-xs-2",
@@ -24,51 +24,51 @@
 					],
 					"rows": [
 						[
-							"Acid",
-							"8 ounces"
+							"Asit",
+							"8 ons"
 						],
 						[
-							"Basic poison",
-							"½ ounce"
+							"Basit zehir",
+							"½ ons"
 						],
 						[
-							"Beer",
-							"4 gallons"
+							"Bira",
+							"4 galon"
 						],
 						[
-							"Honey",
-							"1 gallon"
+							"Bal",
+							"1 galon"
 						],
 						[
-							"Mayonnaise",
-							"2 gallons"
+							"Mayonez",
+							"2 galon"
 						],
 						[
-							"Oil",
-							"1 quart"
+							"Yağ",
+							"Çeyrek galon"
 						],
 						[
-							"Vinegar",
-							"2 gallons"
+							"Sirke",
+							"2 galon"
 						],
 						[
-							"Water, fresh",
-							"8 gallons"
+							"Su, temiz",
+							"8 galon"
 						],
 						[
-							"Water, salt",
-							"12 gallons"
+							"Su, tuzlu",
+							"12 galon"
 						],
 						[
-							"Wine",
-							"1 gallon"
+							"Şarap",
+							"1 galon"
 						]
 					]
 				}
 			]
 		},
 		{
-			"name": "Amulet of Health",
+			"name": "Sağlık Kolyesi",
 			"wondrous": true,
 			"weight": "1",
 			"tier": "Üst",
@@ -77,11 +77,11 @@
 			"page": 150,
 			"reqAttune": "YES",
 			"entries": [
-				"Your Constitution score is 19 while you wear this amulet. It has no effect on you if your Constitution score is already 19 or higher without it."
+				"Bu kolyeyi takarken Dayanıklılık skorun 19 olur. Eğer Dayanıklılık skorun zaten 19 ya da üzerinde ise herhangi bir etkisi olmaz."
 			]
 		},
 		{
-			"name": "Amulet of Proof Against Detection and Location",
+			"name": "Tespit ve Bulunmaya Karşı Koruma Kolyesi",
 			"wondrous": true,
 			"weight": "1",
 			"tier": "Üst",
@@ -90,11 +90,11 @@
 			"page": 150,
 			"reqAttune": "YES",
 			"entries": [
-				"While wearing this amulet, you are hidden from {@filter divination|spells|school=D} magic. You can't be targeted by such magic or perceived through magical scrying sensors."
+				"Bu kolyeyi takarken, divination büyülerinden gizlenirsin. Bu tip büyüler tarafından hedef alınamazsın ya da büyülü görüş sensörleri tarafından algılanamazsın."
 			]
 		},
 		{
-			"name": "Amulet of the Planes",
+			"name": "Boyutlar Kolyesi",
 			"wondrous": true,
 			"weight": "1",
 			"tier": "Üst",
@@ -103,11 +103,11 @@
 			"page": 150,
 			"reqAttune": "YES",
 			"entries": [
-				"While wearing this amulet, you can use an action to name a location that you are familiar with on another plane of existence. Then make a DC 15 Intelligence check. On a successful check, you cast the {@spell plane shift} spell. On a failure, you and each creature and object within 15 feet of you travel to a random destination. Roll a d100. On a 1-60, you travel to a random location on the plane you named. On a 61-100, you travel to a randomly determined plane of existence."
+				"Bu kolyeyi takarken, eylemini kullanıp başka bir boyutta aşina olduğun bir yerin adını verebilirsin. Sonrasında DC 15 Zeka zarı atarsın. Başarılı olursa, {@spell plane shift (boyut değiştir)} büyüsünü kullanırsın. Başarısız olursa, sen ve 15 fit yakınındaki tüm varlık ve nesneler rastgele bir yere ışınlanırsınız. Bir d100 at. 1-60 arası gelirse, adını verdiğin boyutta rastgele bir yere gidersiniz. 61-100 arasında, rastgele belirlenmiş bir boyuta gidersiniz."
 			]
 		},
 		{
-			"name": "Animated Shield",
+			"name": "Canlı Kalkan",
 			"type": "S",
 			"weight": "6",
 			"ac": 2,
@@ -117,7 +117,7 @@
 			"page": 183,
 			"reqAttune": "YES",
 			"entries": [
-				"While holding this shield, you can speak its command word as a bonus action to cause it to animate. The shield leaps into the air and hovers in your space to protect you as if you were wielding it, leaving your hands free. The shield remains animated for 1 minute, until you use a bonus action to end this effect, or until you are {@condition incapacitated} or die, at which point the shield falls to the ground or into your hand if you have one free."
+				"Bu kalkanı tutarken, bonus eylem olarak onun komut sözünü söyleyip canlandırabilirsin. Kalkan havaya yükselir ve senin alanında kalıp sanki sen onu tutuyormuşsun gibi seni korumaya devam eder, ellerin boş kalabilir. Kalkan 1 dakikalığına, bonus eylem kullanıp bitirene, veya sen {@condition etkisiz hal}e gelene ya da ölene dek canlı kalır, büyü sonlandığında kalkan yere düşer ya da boş elin varsa eline döner."
 			]
 		},
 		{
@@ -205,7 +205,7 @@
 			]
 		},
 		{
-			"name": "Armor of Invulnerability",
+			"name": "Dokunulmazlık Zırhı",
 			"type": "HA",
 			"armor": true,
 			"weight": "65",
@@ -218,11 +218,11 @@
 			"page": 152,
 			"reqAttune": "YES",
 			"entries": [
-				"You have resistance to nonmagical damage while you wear this armor. Additionally, you can use an action to make yourself immune to nonmagical damage for 10 minutes or until you are no longer wearing the armor. Once this special action is used, it can't be used again until the next dawn."
+				"Bu zırhı giyerken büyüsüz hasara karşı direncin olur. Ayrıca, eylemini kullanıp 10 dakikalığına ya da sen zırhı çıkarıncaya dek büyüsüz hasara bağışıklık kazanabilirsin. Bu özel eylem kullanıldığında, bir sonraki şafağa kadar bir daha kullanılamaz."
 			]
 		},
 		{
-			"name": "Plate Armor of Etherealness",
+			"name": "Ruhaniliğin Plaka Zırhı",
 			"type": "HA",
 			"armor": true,
 			"weight": "65",
@@ -235,11 +235,11 @@
 			"page": 185,
 			"reqAttune": "YES",
 			"entries": [
-				"While you're wearing this armor, you can speak its command word as an action to gain the effect of the {@spell etherealness} spell, which lasts for 10 minutes or until you remove the armor or use an action to speak the command word again. This property of the armor can't be used again until the next dawn."
+				"Bu zırhı giyerken, eylem olarak onun komut sözünü söyleyip {@spell etherealness (ruhanilik)} büyüsünün etkisi altına girebilirsin. Bu 10 dakika, sen zırhı çıkarıncaya veya eylemini kullanıp komut sözünü söyleyene kadar sürer. Zırhın bu özelliği bir sonraki şafağa kadar bir daha kullanılamaz."
 			]
 		},
 		{
-			"name": "Armor of Vulnerability (Bludgeoning)",
+			"name": "Zayıflık Zırhı (Ezme)",
 			"type": "HA",
 			"armor": true,
 			"weight": "65",
@@ -252,18 +252,18 @@
 			"page": 152,
 			"reqAttune": "YES",
 			"entries": [
-				"While wearing this armor, you have resistance to bludgeoning damage.",
+				"Bu zırhı giyerken, ezme hasarına direncin olur.",
 				{
 					"type": "entries",
-					"name": "Curse",
+					"name": "Lanet",
 					"entries": [
-						"This armor is cursed, a fact that is revealed only when an {@spell identify} spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by the {@spell remove curse} spell or similar magic; removing the armor fails to end the curse. While cursed you have vulnerability to piercing and slashing damage."
+						"Bu zırh lanetlidir, bu durum zırhın üzerinde {@spell identify (tanımla)} büyüsü kullanılırsa ya da ona bağlanılırsa ortaya çıkar. Zırha bağlanma {@spell remove curse (laneti kaldır)} ve benzeri büyüler ile hedef alınıncaya kadar seni lanetler; zırhı çıkarmak laneti sonlandırmaz. Lanetliyken delme ve kesme hasarına zayıflığın olur."
 					]
 				}
 			]
 		},
 		{
-			"name": "Armor of Vulnerability (Piercing)",
+			"name": "Zayıflık Zırhı (Delme)",
 			"type": "HA",
 			"armor": true,
 			"weight": "65",
@@ -276,18 +276,18 @@
 			"page": 152,
 			"reqAttune": "YES",
 			"entries": [
-				"While wearing this armor, you have resistance to piercing damage.",
+				"Bu zırhı giyerken, delme hasarına direncin olur.",
 				{
 					"type": "entries",
-					"name": "Curse",
+					"name": "Lanet",
 					"entries": [
-						"This armor is cursed, a fact that is revealed only when an {@spell identify} spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by the {@spell remove curse} spell or similar magic; removing the armor fails to end the curse. While cursed you have vulnerability to bludgeoning and slashing damage."
+						"Bu zırh lanetlidir, bu durum zırhın üzerinde {@spell identify (tanımla)} büyüsü kullanılırsa ya da ona bağlanılırsa ortaya çıkar. Zırha bağlanma {@spell remove curse (laneti kaldır)} ve benzeri büyüler ile hedef alınıncaya kadar seni lanetler; zırhı çıkarmak laneti sonlandırmaz. Lanetliyken ezme ve kesme hasarına zayıflığın olur."
 					]
 				}
 			]
 		},
 		{
-			"name": "Armor of Vulnerability (Slashing)",
+			"name": "Zayıflık Zırhı (Kesme)",
 			"type": "HA",
 			"armor": true,
 			"weight": "65",
@@ -300,18 +300,18 @@
 			"page": 152,
 			"reqAttune": "YES",
 			"entries": [
-				"While wearing this armor, you have resistance to slashing damage.",
+				"Bu zırhı giyerken, kesme hasarına direncin olur.",
 				{
 					"type": "entries",
-					"name": "Curse",
+					"name": "Lanet",
 					"entries": [
-						"This armor is cursed, a fact that is revealed only when an {@spell identify} spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by the {@spell remove curse} spell or similar magic; removing the armor fails to end the curse. While cursed you have vulnerability to bludgeoning and piercing damage."
+						"Bu zırh lanetlidir, bu durum zırhın üzerinde {@spell identify (tanımla)} büyüsü kullanılırsa ya da ona bağlanılırsa ortaya çıkar. Zırha bağlanma {@spell remove curse (laneti kaldır)} ve benzeri büyüler ile hedef alınıncaya kadar seni lanetler; zırhı çıkarmak laneti sonlandırmaz. Lanetliyken delme ve ezme hasarına zayıflığın olur."
 					]
 				}
 			]
 		},
 		{
-			"name": "Arrow-Catching Shield",
+			"name": "Ok Kapan Kalkan",
 			"type": "S",
 			"weight": "6",
 			"ac": 2,
@@ -321,7 +321,7 @@
 			"page": 152,
 			"reqAttune": "YES",
 			"entries": [
-				"You gain a +2 bonus to AC against ranged attacks while you wield this shield. This bonus is in addition to the shield's normal bonus to AC. In addition, whenever an attacker makes a ranged attack against a target within 5 feet of you, you can use your reaction to become the target of the attack instead."
+				"Bu kalkanı kullanırken menzilli saldırılara karşı +2 AC bonusun olur. Bu, kalkanın normal AC bonusunun üzerine eklenir. Ayrıca, biri 5 fit yakınındaki bir hedefe menzilli saldırı yaparsa, reaksiyonunu kullanıp bu saldırının hedefi olabilirsin."
 			]
 		},
 		{
@@ -526,7 +526,7 @@
 			]
 		},
 		{
-			"name": "Bag of Holding",
+			"name": "Stok Çantası",
 			"wondrous": true,
 			"weight": "15",
 			"tier": "Alt",
@@ -534,13 +534,13 @@
 			"source": "DMG",
 			"page": 153,
 			"entries": [
-				"This bag has an interior space considerably larger than its outside dimensions, roughly 2 feet in diameter at the mouth and 4 feet deep. The bag can hold up to 500 pounds, not exceeding a volume of 64 cubic feet. The bag weighs 15 pounds, regardless of its contents. Retrieving an item from the bag requires an action.",
-				"If the bag is overloaded, pierced, or torn, it ruptures and is destroyed, and its contents are scattered in the Astral Plane. If the bag is turned inside out, its contents spill forth, unharmed, but the bag must be put right before it can be used again. Breathing creatures inside the bag can survive up to a number of minutes equal to 10 divided by the number of creatures (minimum 1 minute), after which time they begin to suffocate.",
-				"Placing a bag of holding inside an extradimensional space created by a {@item Heward's handy haversack}, {@item portable hole}, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it to a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened."
+				"Bu çantanın iç haznesi dışına oranla çok daha büyüktür, ağzı 2 fit çapındadır ve 4 fit derinliktedir. Çanta 500 pounda kadar ağırlık taşıyabilir, 64 fit küp boyutu geçmemek şartıyla. Çantanın kendi ağırlığı, içeriğine bakılmaksızın 15 pounddur. Çantadan bir eşya çıkarma eylem gerektirir.",
+				"Eğer çanta fazla yüklenirse, delinirse veya yırtılırsa bozulur ve mahvolur, ve içeriği Astral Boyuta saçılır. Eğer çanta iç dış edilirse, içeriği zarar görmeden dışarı dökülür ama çantanın yeniden kullanılmadan önce eski haline getirilmesi gerekir. Çantadaki nefes alan varlıklar, içeride 10'un içerideki varlık sayısına bölünmesi kadar dakika (en az 1) soluyabilirler, bu süreden sonra boğulma başlar.",
+				"Bir stok çantasını, {@item Heward'ın kullanışlı sırt çantası}, {@item taşınabilir delik} ve benzeri dışboyut yaratan başka bir eşyanın yarattığı boyuta geçirmeyi denersen, anında iki eşyayı yok eder ve Astral Boyuta bir kapı açarsın. Kapının başlangıç noktası eşyaların birbiri içine geçtiği yer olur. Kapının 10 fit yakınındaki tüm varlıklar içine çekilir ve Astral Boyutta rastgele bir yere gönderilirler. Sonrasında kapı kapanır. Kapı tek yönlüdür ve yeniden açılamaz."
 			]
 		},
 		{
-			"name": "Bag of Tricks, Gray",
+			"name": "Hile Çantası, Gri",
 			"wondrous": true,
 			"weight": "0.5",
 			"tier": "Üst",
@@ -548,15 +548,15 @@
 			"source": "DMG",
 			"page": 154,
 			"entries": [
-				"This ordinary bag, made from gray cloth, appears empty. Reaching inside the bag, however, reveals the presence of a small, fuzzy object.",
-				"You can use an action to pull the fuzzy object from the bag and throw it up to 20 feet. When the object lands, it transforms into a creature you determine by rolling a d8 and consulting the table. The creature vanishes at the next dawn or when it is reduced to 0 hit points.",
-				"The creature is friendly to you and your companions, and it acts on your turn. You can use a bonus action to command how the creature moves and what action it takes on its next turn, or to give it general orders, such as to attack your enemies. In the absence of such orders, the creature acts in a fashion appropriate to its nature.",
-				"Once three fuzzy objects have been pulled from the bag, the bag can't be used again until the next dawn.",
+				"Bu gri kumaştan yapılma sıradan çanta boş gibi görünür. Ama çantanın içine uzanınca küçük tüylü bir nesnenin varlığı hissedilir.",
+				"Eylemini kullanarak çantadan bu tüylü nesneyi çekip 20 fite kadar fırlatabilirsin. nesne yere indiğinde d8 atıp aşağıdaki tabloya bakarak belirleyeceğin bir varlığa dönüşür. Varlık şafakta ya da 0 HP'ye düştüğünde kaybolur.",
+				"Varlık sana ve yoldaşlarına dosttur ve senin sıranda hareket eder. Bonus eylemini kullanıp varlığa bir sonraki sırasında nereye gitmesi ve ne yapması gerektiğinin komutunu verebilirsin, ya da ona düşmanlarına saldır gibi genel bir komut da verebilirsin. Bu tip komutların yokluğunda, varlık doğasına uygun bir şekilde davranır.",
+				"Çantadan üç tüylü nesne çekildikten sonra, çanta sonraki şafağa kadar bir daha kullanılamaz.",
 				{
 					"type": "table",
 					"colLabels": [
 						"d8",
-						"Creature"
+						"Varlık"
 					],
 					"colStyles": [
 						"col-xs-1 text-align-center",
@@ -565,42 +565,42 @@
 					"rows": [
 						[
 							"1",
-							"{@creature Weasel}"
+							"{@creature Gelincik}"
 						],
 						[
 							"2",
-							"{@creature Giant rat}"
+							"{@creature Dev sıçan}"
 						],
 						[
 							"3",
-							"{@creature Badger}"
+							"{@creature Porsuk}"
 						],
 						[
 							"4",
-							"{@creature Boar}"
+							"{@creature Yaban domuzu}"
 						],
 						[
 							"5",
-							"{@creature Panther}"
+							"{@creature Panter}"
 						],
 						[
 							"6",
-							"{@creature Giant badger}"
+							"{@creature Dev porsuk}"
 						],
 						[
 							"7",
-							"{@creature Dire wolf}"
+							"{@creature İri kurt}"
 						],
 						[
 							"8",
-							"{@creature Giant elk}"
+							"{@creature Dev elk}"
 						]
 					]
 				}
 			]
 		},
 		{
-			"name": "Bag of Tricks, Rust",
+			"name": "Hile Çantası, Pas Rengi",
 			"wondrous": true,
 			"weight": "0.5",
 			"tier": "Üst",
@@ -608,15 +608,15 @@
 			"source": "DMG",
 			"page": 154,
 			"entries": [
-				"This ordinary bag, made from rust cloth, appears empty. Reaching inside the bag, however, reveals the presence of a small, fuzzy object.",
-				"You can use an action to pull the fuzzy object from the bag and throw it up to 20 feet. When the object lands, it transforms into a creature you determine by rolling a d8 and consulting the table. The creature vanishes at the next dawn or when it is reduced to 0 hit points.",
-				"The creature is friendly to you and your companions, and it acts on your turn. You can use a bonus action to command how the creature moves and what action it takes on its next turn, or to give it general orders, such as to attack your enemies. In the absence of such orders, the creature acts in a fashion appropriate to its nature.",
-				"Once three fuzzy objects have been pulled from the bag, the bag can't be used again until the next dawn.",
+				"Bu pas rengi kumaştan yapılma sıradan çanta boş gibi görünür. Ama çantanın içine uzanınca küçük tüylü bir nesnenin varlığı hissedilir.",
+				"Eylemini kullanarak çantadan bu tüylü nesneyi çekip 20 fite kadar fırlatabilirsin. nesne yere indiğinde d8 atıp aşağıdaki tabloya bakarak belirleyeceğin bir varlığa dönüşür. Varlık şafakta ya da 0 HP'ye düştüğünde kaybolur.",
+				"Varlık sana ve yoldaşlarına dosttur ve senin sıranda hareket eder. Bonus eylemini kullanıp varlığa bir sonraki sırasında nereye gitmesi ve ne yapması gerektiğinin komutunu verebilirsin, ya da ona düşmanlarına saldır gibi genel bir komut da verebilirsin. Bu tip komutların yokluğunda, varlık doğasına uygun bir şekilde davranır.",
+				"Çantadan üç tüylü nesne çekildikten sonra, çanta sonraki şafağa kadar bir daha kullanılamaz.",
 				{
 					"type": "table",
 					"colLabels": [
 						"d8",
-						"Creature"
+						"Varlık"
 					],
 					"colStyles": [
 						"col-xs-1 text-align-center",
@@ -625,42 +625,42 @@
 					"rows": [
 						[
 							"1",
-							"{@creature Rat}"
+							"{@creature Sıçan}"
 						],
 						[
 							"2",
-							"{@creature Owl}"
+							"{@creature Baykuş}"
 						],
 						[
 							"3",
-							"{@creature Mastiff}"
+							"{@creature Mastı}"
 						],
 						[
 							"4",
-							"{@creature Goat}"
+							"{@creature Keçi}"
 						],
 						[
 							"5",
-							"{@creature Giant goat}"
+							"{@creature Dev keçi}"
 						],
 						[
 							"6",
-							"{@creature Giant boar}"
+							"{@creature Dev yaban domuzu}"
 						],
 						[
 							"7",
-							"{@creature Lion}"
+							"{@creature Aslan}"
 						],
 						[
 							"8",
-							"{@creature Brown bear}"
+							"{@creature Boz ayı}"
 						]
 					]
 				}
 			]
 		},
 		{
-			"name": "Bag of Tricks, Tan",
+			"name": "Hile Çantası, Ten Rengi",
 			"wondrous": true,
 			"weight": "0.5",
 			"tier": "Üst",
@@ -668,15 +668,15 @@
 			"source": "DMG",
 			"page": 154,
 			"entries": [
-				"This ordinary bag, made from tan cloth, appears empty. Reaching inside the bag, however, reveals the presence of a small, fuzzy object.",
-				"You can use an action to pull the fuzzy object from the bag and throw it up to 20 feet. When the object lands, it transforms into a creature you determine by rolling a d8 and consulting the table. The creature vanishes at the next dawn or when it is reduced to 0 hit points.",
-				"The creature is friendly to you and your companions, and it acts on your turn. You can use a bonus action to command how the creature moves and what action it takes on its next turn, or to give it general orders, such as to attack your enemies. In the absence of such orders, the creature acts in a fashion appropriate to its nature.",
-				"Once three fuzzy objects have been pulled from the bag, the bag can't be used again until the next dawn.",
+				"Bu ten rengi kumaştan yapılma sıradan çanta boş gibi görünür. Ama çantanın içine uzanınca küçük tüylü bir nesnenin varlığı hissedilir.",
+				"Eylemini kullanarak çantadan bu tüylü nesneyi çekip 20 fite kadar fırlatabilirsin. nesne yere indiğinde d8 atıp aşağıdaki tabloya bakarak belirleyeceğin bir varlığa dönüşür. Varlık şafakta ya da 0 HP'ye düştüğünde kaybolur.",
+				"Varlık sana ve yoldaşlarına dosttur ve senin sıranda hareket eder. Bonus eylemini kullanıp varlığa bir sonraki sırasında nereye gitmesi ve ne yapması gerektiğinin komutunu verebilirsin, ya da ona düşmanlarına saldır gibi genel bir komut da verebilirsin. Bu tip komutların yokluğunda, varlık doğasına uygun bir şekilde davranır.",
+				"Çantadan üç tüylü nesne çekildikten sonra, çanta sonraki şafağa kadar bir daha kullanılamaz.",
 				{
 					"type": "table",
 					"colLabels": [
 						"d8",
-						"Creature"
+						"Varlık"
 					],
 					"colStyles": [
 						"col-xs-1 text-align-center",
@@ -685,35 +685,35 @@
 					"rows": [
 						[
 							"1",
-							"{@creature Jackal}"
+							"{@creature Çakal}"
 						],
 						[
 							"2",
-							"{@creature Ape}"
+							"{@creature Primat}"
 						],
 						[
 							"3",
-							"{@creature Baboon}"
+							"{@creature Babun}"
 						],
 						[
 							"4",
-							"{@creature Axe beak}"
+							"{@creature Balta gaga}"
 						],
 						[
 							"5",
-							"{@creature Black bear}"
+							"{@creature Kara ayı}"
 						],
 						[
 							"6",
-							"{@creature Giant weasel}"
+							"{@creature Dev gelincik}"
 						],
 						[
 							"7",
-							"{@creature Giant hyena}"
+							"{@creature Dev sırtlan}"
 						],
 						[
 							"8",
-							"{@creature Tiger}"
+							"{@creature Kaplan}"
 						]
 					]
 				}
@@ -746,7 +746,7 @@
 			]
 		},
 		{
-			"name": "Belt of Cloud Giant Strength",
+			"name": "Bulut Devi Kuvveti Kemeri",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Efsanevi",
@@ -754,7 +754,7 @@
 			"page": 155,
 			"reqAttune": "YES",
 			"entries": [
-				"While wearing this belt, your Strength score changes to 27. The item has no effect on your if your Strength without the belt is equal to or greater than the belt's score."
+				"Bu kemeri takarken, Kuvvet skorun 27 olur. Eğer zaten bu kemerin Kuvvet skoruna eşit ya da daha yüksek bir skora sahipsen bir etki göstermez."
 			]
 		},
 		{
@@ -796,7 +796,7 @@
 			]
 		},
 		{
-			"name": "Belt of Fire Giant Strength",
+			"name": "Ateş Devi Kuvveti Kemeri",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Çok Nadir",
@@ -804,11 +804,11 @@
 			"page": 155,
 			"reqAttune": "YES",
 			"entries": [
-				"While wearing this belt, your Strength score changes to 25. The item has no effect on your if your Strength without the belt is equal to or greater than the belt's score."
+				"Bu kemeri takarken, Kuvvet skorun 25 olur. Eğer zaten bu kemerin Kuvvet skoruna eşit ya da daha yüksek bir skora sahipsen bir etki göstermez."
 			]
 		},
 		{
-			"name": "Belt of Frost Giant Strength",
+			"name": "Buz Devi Kuvveti Kemeri",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Çok Nadir",
@@ -816,11 +816,11 @@
 			"page": 155,
 			"reqAttune": "YES",
 			"entries": [
-				"While wearing this belt, your Strength score changes to 23. The item has no effect on your if your Strength without the belt is equal to or greater than the belt's score."
+				"Bu kemeri takarken, Kuvvet skorun 23 olur. Eğer zaten bu kemerin Kuvvet skoruna eşit ya da daha yüksek bir skora sahipsen bir etki göstermez."
 			]
 		},
 		{
-			"name": "Belt of Hill Giant Strength",
+			"name": "Tepe Devi Kuvveti Kemeri",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Nadir",
@@ -828,11 +828,11 @@
 			"page": 155,
 			"reqAttune": "YES",
 			"entries": [
-				"While wearing this belt, your Strength score changes to 21. The item has no effect on your if your Strength without the belt is equal to or greater than the belt's score."
+				"Bu kemeri takarken, Kuvvet skorun 21 olur. Eğer zaten bu kemerin Kuvvet skoruna eşit ya da daha yüksek bir skora sahipsen bir etki göstermez."
 			]
 		},
 		{
-			"name": "Belt of Stone Giant Strength",
+			"name": "Taş Devi Kuvveti Kemeri",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Çok Nadir",
@@ -840,11 +840,11 @@
 			"page": 155,
 			"reqAttune": "YES",
 			"entries": [
-				"While wearing this belt, your Strength score changes to 23. The item has no effect on your if your Strength without the belt is equal to or greater than the belt's score."
+				"Bu kemeri takarken, Kuvvet skorun 23 olur. Eğer zaten bu kemerin Kuvvet skoruna eşit ya da daha yüksek bir skora sahipsen bir etki göstermez."
 			]
 		},
 		{
-			"name": "Belt of Storm Giant Strength",
+			"name": "Fırtına Devi Kuvveti Kemeri",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Efsanevi",
@@ -852,7 +852,7 @@
 			"page": 155,
 			"reqAttune": "YES",
 			"entries": [
-				"While wearing this belt, your Strength score changes to 29. The item has no effect on your if your Strength without the belt is equal to or greater than the belt's score."
+				"Bu kemeri takarken, Kuvvet skorun 29 olur. Eğer zaten bu kemerin Kuvvet skoruna eşit ya da daha yüksek bir skora sahipsen bir etki göstermez."
 			]
 		},
 		{
@@ -1004,18 +1004,18 @@
 			]
 		},
 		{
-			"name": "Boots of Elvenkind",
+			"name": "Elf Halkının Çizmeleri",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Seyrek",
 			"source": "DMG",
 			"page": 155,
 			"entries": [
-				"While you wear these boots, your steps make no sound, regardless of the surface you are moving across. You also have advantage on Dexterity ({@skill Stealth}) checks that rely on moving silently."
+				"Bu çizmeleri giyerken, üzerinde yürüdüğün yüzey farketmeksizin adımların hiçbir ses çıkarmaz. Sessiz hareket etme bazlı Çeviklik ({@skill Gizlenme}) zarlarında avantajlı olursun."
 			]
 		},
 		{
-			"name": "Boots of Levitation",
+			"name": "Havaya Yükselme Çizmeleri",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Nadir",
@@ -1023,11 +1023,11 @@
 			"page": 155,
 			"reqAttune": "YES",
 			"entries": [
-				"While you wear these boots, you can use an action to cast the {@spell levitate} spell on yourself at will."
+				"Bu çizmeleri giyerken, istediğin zaman eylemini kullanıp {@spell levitate (havaya yükselme)} büyüsünü kendi üzerinde kullanabilirsin."
 			]
 		},
 		{
-			"name": "Boots of Speed",
+			"name": "Hız Çizmeleri",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Nadir",
@@ -1035,12 +1035,12 @@
 			"page": 155,
 			"reqAttune": "YES",
 			"entries": [
-				"While you wear these boots, you can use a bonus action and click the boots' heels together. If you do, the boots double your walking speed, and any creature that makes an opportunity attack against you has disadvantage on the attack roll. If you click your heels together again, you end the effect.",
-				"When the boots' property has been used for a total of 10 minutes, the magic ceases to function until you finish a long rest."
+				"Bu çizmeleri giyerken, bonus eylemini kullanıp çizmelerin topuklarını birbirine vurabilirsin. Eğer vurursan, çizmeler yürüme hızını ikiye katlar ve sana karşı yapılan fırsat saldırıları dezavantajlı olur. Eğer topuklarını yeniden vurursan etkiyi sonlandırırsın.",
+				"Çizmelerin özelliği toplamda 10 dakika kullanıldığında, sen uzun dinlenme bitirene dek bu büyü işlemez."
 			]
 		},
 		{
-			"name": "Boots of Striding and Springing",
+			"name": "Seyahat ve Sıçrama Çizmeleri",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Seyrek",
@@ -1048,11 +1048,11 @@
 			"page": 156,
 			"reqAttune": "YES",
 			"entries": [
-				"While you wear these boots, your walking speed becomes 30 feet, unless your walking speed is higher, and your speed isn't reduced if you are encumbered or wearing heavy armor. In addition, you can jump three times the normal distance, though you can't jump farther than your remaining movement would allow."
+				"Bu çizmeleri giyerken, yürüme hızın eğer daha yüksek değilse 30 fit olur ve eğer ağır yük altındaysan veya ağır zırh giyiyorsan hızın azalmaz. Ayrıca, normalin üç katı sıçrayabilirsin ama hala kalan hareketinden fazla gidemezsin."
 			]
 		},
 		{
-			"name": "Boots of the Winterlands",
+			"name": "Kış Diyarının Çizmeleri",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Seyrek",
@@ -1060,13 +1060,13 @@
 			"page": 156,
 			"reqAttune": "YES",
 			"entries": [
-				"These furred boots are snug and feel quite warm. While you wear them, you gain the following benefits:",
+				"Bu kürklü çizmeler rahat ve sıcak hissettirir. Bunları giyerken şu özellikleri kazanırsın:",
 				{
 					"type": "list",
 					"items": [
-						"You have resistance to cold damage.",
-						"You ignore difficult terrain created by ice or snow.",
-						"You can tolerate temperatures as low as -50 degrees Fahrenheit without any additional protection. If you wear heavy clothes, you can tolerate temperatures as low as -100 degrees Fahrenheit."
+						"Soğuk hasarına direncin olur.",
+						"Buz ve kar yüzünden oluşmuş zorlu arazileri yok sayarsın.",
+						"Fazladan korumaya ihtiyaç duymadan -45 dereceye kadar soğuklara katlanabilirsin. Eğer kalın giysilerin varsa, -73 dereceye kadar dayanabilirsin."
 					]
 				}
 			]
@@ -1085,7 +1085,7 @@
 			]
 		},
 		{
-			"name": "Bracers of Archery",
+			"name": "Okçuluk Kolçakları",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Seyrek",
@@ -1093,11 +1093,11 @@
 			"page": 156,
 			"reqAttune": "YES",
 			"entries": [
-				"While wearing these bracers, you have proficiency with the longbow and shortbow, and you gain a +2 bonus to damage rolls on ranged attacks made with such weapons."
+				"Bu kolçakları giyerken, uzun ve kısa yay ile uzmanlığın olur ve bu silahlarla yapacağın menzilli saldırıların hasar zarlarına +2 bonus eklersin."
 			]
 		},
 		{
-			"name": "Bracers of Defense",
+			"name": "Savunma Kolçakları",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Nadir",
@@ -1105,7 +1105,7 @@
 			"page": 156,
 			"reqAttune": "YES",
 			"entries": [
-				"While wearing these bracers, you gain a +2 bonus to AC if you are wearing no armor and using no shield."
+				"Bu kolçakları giyerken, eğer zırh giymiyor ve kalkan kullanmıyorsan AC'ne +2 bonus eklersin."
 			],
 			"modifier": [
 				{
@@ -1152,7 +1152,7 @@
 			]
 		},
 		{
-			"name": "Brooch of Shielding",
+			"name": "Korunma Broşu",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Seyrek",
@@ -1160,11 +1160,11 @@
 			"page": 156,
 			"reqAttune": "YES",
 			"entries": [
-				"While wearing this brooch, you have resistance to force damage, and you have immunity to damage from the {@spell magic missile} spell."
+				"Bu broşu takarken, güç hasarına direncin ve {@spell magic missile (büyülü misil)} büyüsünden gelen hasara bağışıklığın olur."
 			]
 		},
 		{
-			"name": "Broom of Flying",
+			"name": "Uçuş Süpürgesi",
 			"wondrous": true,
 			"weight": "3",
 			"tier": "Üst",
@@ -1172,8 +1172,8 @@
 			"source": "DMG",
 			"page": 156,
 			"entries": [
-				"This wooden broom, which weighs 3 pounds, functions like a mundane broom until you stand astride it and speak its command word. It then hovers beneath you and can be ridden in the air. It has a flying speed of 50 feet. It can carry up to 400 pounds, but its flying speed becomes 30 feet while carrying over 200 pounds. The broom stops hovering when you land.",
-				"You can send the broom to travel alone to a destination within 1 mile of you if you speak the command word, name the location, and are familiar with that place. The broom comes back to you when you speak another command word, provided that the broom is still within 1 mile of you."
+				"Bu 3 pound ağırlığındaki ahşap süpürge, sen onun üzerinde durup komut sözünü söyleyene dek normal bir süpürge gibidir. Sonrasında altına doğru yükselir ve havada binilebilir. 50 fitlik uçma hızı vardır. 400 pounda kadar taşıyabilir ama 200 pound üzeri taşırken hızı 30 fite düşer. Yere indiğinde süpürge uçmayı bırakır.",
+				"Eğer komut sözünü söylersen, yerin ismini verirsen ve bu yer ile aşina isen, süpürgeyi tek başına 1 mil yakınındaki bir yere gönderebilirsin. Başka bir komut sözü söylediğinde süpürge sana geri döner, tabii süpürgenin hala 1 mil yakınında olması gerekir."
 			]
 		},
 		{
@@ -1253,14 +1253,14 @@
 			]
 		},
 		{
-			"name": "Cap of Water Breathing",
+			"name": "Suda Soluma Başlığı",
 			"wondrous": true,
 			"tier": "Alt",
 			"rarity": "Seyrek",
 			"source": "DMG",
 			"page": 157,
 			"entries": [
-				"While wearing this cap underwater, you can speak its command word as an action to create a bubble of air around your head. It allows you to breathe normally underwater. This bubble stays with you until you speak the command word again, the cap is removed, or you are no longer underwater."
+				"Su altında bu başlığı takarken, eylem olarak komut sözünü söyleyip başının etrafında bir hava baloncuğu oluşturursun. Su altında normal solumanı sağlar. Bu balon sen komut sözünü yeniden söyleyene, başlık çıkana veya sen sudan çıkana kadar kalır."
 			]
 		},
 		{
@@ -1363,14 +1363,14 @@
 			]
 		},
 		{
-			"name": "Circlet of Blasting",
+			"name": "Patlatma Tacı",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Seyrek",
 			"source": "DMG",
 			"page": 158,
 			"entries": [
-				"While wearing this circlet, you can use an action to cast the {@spell scorching ray} spell with it. When you make the spell's attacks, you do so with an attack bonus of +5. The circlet can't be used this way again until the next dawn."
+				"Bu tacı takarken, eylemini kullanıp taçtan {@spell scorching ray (Kavurucu Işın)} büyüsünü kullanabilirsin. Büyünün saldırılarını yaparken, +5 saldırı bonusu ile yaparsın. Taç bir sonraki şafağa kadar bir daha kullanılamaz."
 			]
 		},
 		{
@@ -1408,7 +1408,7 @@
 			]
 		},
 		{
-			"name": "Cloak of Elvenkind",
+			"name": "Elf Halkının Pelerini",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Seyrek",
@@ -1416,7 +1416,7 @@
 			"page": 158,
 			"reqAttune": "YES",
 			"entries": [
-				"While you wear this cloak with its hood up, Wisdom ({@skill Perception}) checks made to see you have disadvantage. and you have advantage on Dexterity ({@skill Stealth}) checks made to hide, as the cloak's color shifts to camouflage you. Pulling the hood up or down requires an action."
+				"Bu pelerini başlığı kapalı bir şekilde giyerken, seni görmek için atılacak Akıl ({@skill Algı}) zarları dezavantajlı olur, ve pelerinin rengi kamuflaj için renk değiştirdiği için saklanmak için atacağın Çeviklik ({@skill Gizlenme}) zarlarında avantajın olur. Başlığı açma ya da kapama bir eylem gerektirir."
 			]
 		},
 		{
@@ -1433,7 +1433,7 @@
 			]
 		},
 		{
-			"name": "Cloak of Protection",
+			"name": "Korunma Pelerini",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Seyrek",
@@ -1441,7 +1441,7 @@
 			"page": 159,
 			"reqAttune": "YES",
 			"entries": [
-				"You gain a +1 bonus to AC and saving throws while you wear this cloak."
+				"Bu pelerini giyerken AC ve kurtulma zarlarına +1 bonusun olur."
 			]
 		},
 		{
@@ -1458,14 +1458,14 @@
 			]
 		},
 		{
-			"name": "Cloak of the Manta Ray",
+			"name": "Vatozun Pelerini",
 			"wondrous": true,
 			"tier": "Alt",
 			"rarity": "Seyrek",
 			"source": "DMG",
 			"page": 159,
 			"entries": [
-				"While wearing this cloak with its hood up, you can breathe underwater, and you have a swimming speed of 60 feet. Pulling the hood up or down requires an action."
+				"Bu pelerini başlığı kapalı bir şekilde giyerken, su altında nefes alabilirsin ve 60 fit yüzme hızın olur. Başlığı açma ya da kapama eylem gerektirir."
 			]
 		},
 		{
@@ -1683,7 +1683,7 @@
 			]
 		},
 		{
-			"name": "Decanter of Endless Water",
+			"name": "Sonsuz Su Karafı",
 			"wondrous": true,
 			"weight": "2",
 			"tier": "Alt",
@@ -1691,35 +1691,35 @@
 			"source": "DMG",
 			"page": 161,
 			"entries": [
-				"This stoppered flask sloshes when shaken, as if it contains water. The decanter weighs 2 pounds.",
-				"You can use an action to remove the stopper and speak one of three command words, whereupon an amount of fresh water or salt water (your choice) pours out of the flask. The water stops pouring out at the start of your next turn. Choose from the following options:",
+				"Bu tapalı karaf sallandığında sanki içinde su varmışçasına çalkalanma sesi verir. Karafın ağırlığı 2 pounddur.",
+				"Eylemini kullanıp tapayı çıkararak 3 komut sözünden birini söylersin, bunun üzerine tatlı ya da tuzlu su (sen seçersin) karaftan boşalmaya başlar. Bir sonraki sıranın başında su akışı durur. Şunlardan birini seçersin:",
 				{
 					"type": "list",
 					"items": [
-						"\"Stream\" produces 1 gallon of water.",
-						"\"Fountain\" produces 5 gallons of water.",
-						"\"Geyser\" produces 30 gallons of water that gushes forth in a geyser 30 feet long and 1 foot wide. As a bonus action while holding the decanter, you can aim the geyser at a creature you can see within 30 feet of you. The target must succeed on a DC 13 Strength saving throw or take 1d4 bludgeoning damage and fall {@condition prone}. Instead of a creature, you can target an object that isn't being worn or carried and that weighs no more than 200 pounds. The object is either knocked over or pushed up to 15 feet away from you."
+						"\"Dere\" 1 galon su yaratır.",
+						"\"Kaynak\" 5 galon su yaratır.",
+						"\"Gayzer\" 30 fit uzunlukta ve 1 fit genişlikte bir gayzerden fışkıran 30 galon su yaratır. Karafı tutarken bonus eylem olarak, gayzeri 30 fit yakınındaki görebildiğin bir varlığa doğru çevirebilirsin. Hedef DC 13 Kuvvet kurtulma zarı atar ya da 1d4 ezme hasarı alır ve yere düşer. Bir varlık yerine, taşınmayan, giyilmeyen ve 200 pound ağırlığı geçmeyen bir nesneyi hedef alabilirsin. Nesne ya devrilir ya da senden 15 fite kadar uzağa itilir."
 					]
 				}
 			]
 		},
 		{
-			"name": "Deck of Illusions",
+			"name": "İllüzyon Destesi",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Seyrek",
 			"source": "DMG",
 			"page": 161,
 			"entries": [
-				"This box contains a set of parchment cards. A full deck has 34 cards. A deck found as treasure is usually missing 1d20-1 cards.",
-				"The magic of the deck functions only if cards are drawn at random (you can use an altered deck of playing cards to simulate the deck). You can use an action to draw a card at random from the deck and throw it to the ground at a point within 30 feet of you.",
-				"An illusion of one or more creatures forms over the thrown card and remains until dispelled. An illusory creature appears real, of the appropriate size, and behaves as if it were a real creature, except that it can do no harm. While you are within 120 feet of the illusory creature and can see it, you can use an action to move it magically anywhere within 30 feet of its card. Any physical interaction with the illusory creature reveals it to be an illusion, because objects pass through it. Someone who uses an action to visually inspect the creature identifies it as illusory with a successful DC 15 Intelligence ({@skill Investigation}) check. The creature then appears translucent.",
-				"The illusion lasts until its card is moved or the illusion is dispelled. When the illusion ends, the image on its card disappears, and that card can't be used again.",
+				"Bu kutu bir set parşömen kartı bulundurur. Dolu bir deste 34 kart içerir. Hazine olarak bulunan bir destenin genelde 1d20-1 eksik kartı vardır.",
+				"Destenin büyüsü sadece kartlar rastgele çekilirse geçerlidir (desteyi temsilen değiştirilmiş oyun kartları kullanılabilir). Eylemini kullanıp desteden rastgele bir kart çekerek bunu 30 fit yakınında bir zemine fırlatabilirsin.",
+				"Atılan kartın üzerinde bir veya fazla varlık illüzyonu oluşup defedilene kadar orada kalır. Bir illüzyon varlık gerçek görünür, uygun boyuttadır ve gerçekmiş gibi hareket eder, ama hasar veremez. İllüzyon varlığın 120 fit yakınında onu görebiliyorken, eylemini kullanıp onu kartın 30 fit yakınında bir yere hareket ettirebilirsin. İllüzyon varlıkla herhangi bir fiziksel etkileşim onun illüzyon olduğunu belli eder, çünkü nesneler içinden geçebilir. Varlığı görsel bir şekilde incelemek isteyen biri eylemini kullanıp yapacağı bir DC 15 Zeka ({@skill İnceleme}) zarı ile onun illüzyon olduğunu anlayabilir. Sonrasında varlık saydamlaşır.",
+				"İllüzyon kart hareket ettirilene ya da illüzyon defedilene kadar sürer. İllüzyon sonlandığında, karttaki görsel ortadan kalkar ve o kart bir daha kullanılamaz.",
 				{
 					"type": "table",
 					"colLabels": [
-						"Playing Card",
-						"Illusion"
+						"Oyun Kartı",
+						"İllüzyon"
 					],
 					"colStyles": [
 						"col-xs-3",
@@ -1727,136 +1727,136 @@
 					],
 					"rows": [
 						[
-							"Ace of hearts",
-							"{@creature adult red dragon|mm|Red dragon}"
+							"Kupa ası",
+							"{@creature yetişkin kırmızı ejder|mm|Kırmızı Ejder}"
 						],
 						[
-							"King of hearts",
-							"{@creature Knight} and four {@creature guard|mm|guards}"
+							"Kupa papazı",
+							"{@creature Şövalye} ve dört {@creature muhafız|mm|muhafız}"
 						],
 						[
-							"Queen of hearts",
+							"Kupa kızı",
 							"{@creature Succubus|mm|Succubus/Incubus}"
 						],
 						[
-							"Jack of hearts",
+							"Kupa valesi",
 							"{@creature Druid}"
 						],
 						[
-							"Ten of hearts",
-							"{@creature Cloud giant}"
+							"Kupa onlusu",
+							"{@creature Bulut devi}"
 						],
 						[
-							"Nine of hearts",
+							"Kupa dokuzlusu",
 							"{@creature Ettin}"
 						],
 						[
-							"Eight of hearts",
+							"Kupa sekizlisi",
 							"{@creature Bugbear}"
 						],
 						[
-							"Two of hearts",
+							"Kupa ikilisi",
 							"{@creature Goblin}"
 						],
 						[
-							"Ace of diamonds",
+							"Karo ası",
 							"{@creature Beholder}"
 						],
 						[
-							"King of diamonds",
-							"{@creature Archmage} and {@creature mage} apprentice"
+							"Karo papazı",
+							"{@creature Baş büyücü} ve {@creature büyücü} çırağı"
 						],
 						[
-							"Queen of diamonds",
-							"{@creature Night hag}"
+							"Karo kızı",
+							"{@creature Gece cadısı}"
 						],
 						[
-							"Jack of diamonds",
-							"{@creature Assassin}"
+							"Karo valesi",
+							"{@creature Suikastçi}"
 						],
 						[
-							"Ten of diamonds",
-							"{@creature Fire giant}"
+							"Karo onlusu",
+							"{@creature Ateş devi}"
 						],
 						[
-							"Nine of diamonds",
-							"Ogre mage"
+							"Karo dokuzlusu",
+							"Ogre büyücü"
 						],
 						[
-							"Eight of diamonds",
+							"Karo sekizlisi",
 							"{@creature Gnoll}"
 						],
 						[
-							"Two of diamonds",
+							"Karo ikilisi",
 							"{@creature Kobold}"
 						],
 						[
-							"Ace of spades",
+							"Maça ası",
 							"{@creature Lich}"
 						],
 						[
-							"King of spades",
-							"{@creature Priest} and two {@creature acolyte|mm|acolytes}"
+							"Maça papazı",
+							"{@creature Rahip} ve iki {@creature mürit|mm|müridi}"
 						],
 						[
-							"Queen of spades",
+							"Maça kızı",
 							"{@creature Medusa}"
 						],
 						[
-							"Jack of spades",
-							"{@creature Veteran}"
+							"Maça valesi",
+							"{@creature Gazi}"
 						],
 						[
-							"Ten of spades",
-							"{@creature Frost giant}"
+							"Maça onlusu",
+							"{@creature Buz devi}"
 						],
 						[
-							"Nine of spades",
+							"Maça dokuzlusu",
 							"{@creature Troll}"
 						],
 						[
-							"Eight of spades",
+							"Maça sekizlisi",
 							"{@creature Hobgoblin}"
 						],
 						[
-							"Two of spades",
+							"Maça ikilisi",
 							"{@creature Goblin}"
 						],
 						[
-							"Ace of clubs",
-							"{@creature Iron golem}"
+							"Sinek ası",
+							"{@creature Demir golem}"
 						],
 						[
-							"King of clubs",
-							"{@creature Bandit captain} and three {@creature bandit|mm|bandits}"
+							"Sinek papazı",
+							"{@creature Haydut lideri} ve üç {@creature haydut|mm|haydut}"
 						],
 						[
-							"Queen of clubs",
+							"Sinek kızı",
 							"{@creature Erinyes}"
 						],
 						[
-							"Jack of clubs",
+							"Sinek valesi",
 							"{@creature Berserker}"
 						],
 						[
-							"Ten of clubs",
-							"{@creature Hill giant}"
+							"Sinek onlusu",
+							"{@creature Tepe devi}"
 						],
 						[
-							"Nine of clubs",
+							"Sinek dokuzlusu",
 							"{@creature Ogre}"
 						],
 						[
-							"Eight of clubs",
+							"Sinek sekizlisi",
 							"{@creature Orc}"
 						],
 						[
-							"Two of clubs",
+							"Sinek ikilisi",
 							"{@creature Kobold}"
 						],
 						[
-							"jokers (2)",
-							"You (the deck's owner)"
+							"Jokerler (2)",
+							"Sen (destenin sahibi)"
 						]
 					]
 				}
@@ -2046,7 +2046,7 @@
 			]
 		},
 		{
-			"name": "Driftglobe",
+			"name": "Süzülen Küre",
 			"wondrous": true,
 			"weight": "1",
 			"tier": "Alt",
@@ -2054,8 +2054,8 @@
 			"source": "DMG",
 			"page": 166,
 			"entries": [
-				"This small sphere of thick glass weighs 1 pound. If you are within 60 feet of it, you can speak its command word and cause it to emanate the {@spell light} or {@spell daylight} spell. Once used, the {@spell daylight} effect can't be used again until the next dawn.",
-				"You can speak another command word as an action to make the illuminated globe rise into the air and float no more than 5 feet off the ground. The globe hovers in this way until you or another creature grasps it. If you move more than 60 feet from the hovering globe, it follows you until it is within 60 feet of you. It takes the shortest route to do so. If prevented from moving, the globe sinks gently to the ground and becomes inactive, and its light winks out."
+				"Bu kalın camdan küçük küre 1 pound ağırlıktadır. Eğer 60 fit yakınındaysan, komut sözünü söyleyip onun {@spell light (Işık)} ya da {@spell daylight (Günışığı)} büyülerinden biri ile ışık saçmasını sağlayabilirsin. Bir kere kullanıldığında, {@spell daylight (Günışığı)} etkisi bir sonraki şafağa kadar tekrar kullanılamaz.",
+				"Eylem olarak başka bir komut sözü söyleyip ışıldayan kürenin havaya yükselerek yerden en fazla 5 fit yukarıda uçmasını sağlayabilirsin. Küre bu şekilde, sen ya da başka bir varlık onu kavrayana kadar uçar. Eğer küreden 60 fitten fazla uzaklaşırsan, yine aynı mesafeye girene kadar seni takip eder. Bunu yapmak için en kısa yolu seçer. Eğer hareketi engellenirse, küre yavaşça yere iner ve etkisizleşir, ışığı söner."
 			]
 		},
 		{
@@ -2071,39 +2071,39 @@
 			"poison": true
 		},
 		{
-			"name": "Dust of Disappearance",
+			"name": "Kaybolma Tozu",
 			"wondrous": true,
 			"tier": "Alt",
 			"rarity": "Seyrek",
 			"source": "DMG",
 			"page": 166,
 			"entries": [
-				"Found in a small packet, this powder resembles very fine sand. There is enough of it for one use. When you use an action to throw the dust into the air, you and each creature and object within 10 feet of you become {@condition invisible} for 2d4 minutes. The duration is the same for all subjects, and the dust is consumed when its magic takes effect. If a creature affected by the dust attacks or casts a spell, the invisibility ends for that creature."
+				"Küçük bir pakette bulunan bu toz, çok ince kumu andırır. Tek kullanıma yetecek kadar vardır. Eylemini kullanıp tozu havaya attığında, sen ve 10 fit çevrendeki tüm varlık ve nesneler 2d4 dakikalığına {@condition görünmezlik} etkisinde olursunuz. Süre herkes için aynıdır ve bu toz büyü etkinleşince tükenir. Eğer tozun etkisi altındaki bir varlık saldırır ya da büyü kullanırsa, onun için görünmezlik sonlanır."
 			]
 		},
 		{
-			"name": "Dust of Dryness",
+			"name": "Kuruluk Tozu",
 			"wondrous": true,
 			"tier": "Alt",
 			"rarity": "Seyrek",
 			"source": "DMG",
 			"page": 166,
 			"entries": [
-				"This small packet contains 1d6+4 pinches of dust. You can use an action to sprinkle a pinch of it over water. The dust turns a cube of water 15 feet on a side into one marble-sized pellet, which floats or rests near where the dust was sprinkled. The pellet's weight is negligible.",
-				"Someone can use an action to smash the pellet against a hard surface, causing the pellet to shatter and release the water the dust absorbed. Doing so ends that pellet's magic.",
-				"An elemental composed mostly of water that is exposed to a pinch of the dust must make a DC 13 Constitution saving throw, taking 10d6 necrotic damage on a failed save, or half as much damage on a successful one."
+				"Bu küçük paket 1d6+4 tutam toz içerir. Eylemini kullanıp bir tutamını su üzerine serpebilirsin. Toz, her yüzü 15 fit uzunlukta bir küplük suyu bilye boyutunda bir parçacığa dönüştürür, bu tozun atıldığı yerde yüzer ya da durur. Parçacığın ağırlığı görmezden gelinebilir.",
+				"Biri eylemini kullanıp bu parçacığı sert bir yüzeye çarparak veya ezerek parçacığın emdiği suyu salmasını sağlayabilir. Bunu yapma parçacığın büyüsünü bitirir.",
+				"Çoğunluğu sudan oluşan bir elemental, bu tozun bir tutamına maruz kalırsa DC 13 Dayanıklılık kurtulma zarı atar, başarısız olursa 10d6 nekrotik hasar alır, başarılı olursa bunun yarısını."
 			]
 		},
 		{
-			"name": "Dust of Sneezing and Choking",
+			"name": "Hapşırma ve Boğulma Tozu",
 			"wondrous": true,
 			"tier": "Alt",
 			"rarity": "Seyrek",
 			"source": "DMG",
 			"page": 166,
 			"entries": [
-				"Found in a small container, this powder resembles very fine sand. It appears to be {@item dust of disappearance}, and an {@spell identify} spell reveals it to be such. There is enough of it for one use.",
-				"When you use an action to throw a handful of the dust into the air, you and each creature that needs to breathe within 30 feet of you must succeed on a DC 15 Constitution saving throw or become unable to breathe while sneezing uncontrollably. A creature affected in this way is {@condition incapacitated} and suffocating. As long as it is conscious, a creature can repeat the saving throw at the end of each of its turns, ending the effect on it on a success. The {@spell lesser restoration} spell can also end the effect on a creature."
+				"Küçük bir kapta bulunan bu toz çok ince kumu andırır. Bir {@item kaybolma tozu}na benzer, ve bir {@spell identify (tanımla)} büyüsü bu sonucu verir. Tek kullanıma yetecek kadar vardır.",
+				"Eylem kullanıp bir avuç tozu havaya attığında, sen ve 30 fit çevrende soluma ihtiyacı olan her varlık DC 15 Dayanıklılık kurtulma zarı atar ya da kontrol dışı hapşırırken nefes alamaz. Bu şekilde etkilenen bir varlık {@condition etkisiz hal}dedir ve boğulur. Bilinçli kaldığı sürece, bir varlık kurtulma zarını her sırasının sonunda tekrarlayabilir, başarılı olursa etki sonlanır.{@spell Lesser restoration (küçük yenileme)} büyüsü de bir varlıkta bu etkiyi sonlandırabilir."
 			]
 		},
 		{
@@ -2209,47 +2209,47 @@
 			]
 		},
 		{
-			"name": "Elemental Gem, Blue Sapphire",
+			"name": "Elemental Cevher, Mavi Safir",
 			"wondrous": true,
 			"tier": "Alt",
 			"rarity": "Seyrek",
 			"source": "DMG",
 			"page": 167,
 			"entries": [
-				"This gem contains a mote of elemental energy. When you use an action to break the gem, an {@creature air elemental} is summoned as if you had cast the {@spell conjure elemental} spell, and the gem's magic is lost."
+				"Bu cevher içinde elemental enerji zerresi vardır. Eylemini kullanıp cevheri kırdığında, bir {@creature hava elementali} sanki sen {@spell conjure elemental (elemental yarat)} büyüsünü kullanmışsın gibi belirir, ve cevherin büyüsü kaybolur."
 			]
 		},
 		{
-			"name": "Elemental Gem, Emerald",
+			"name": "Elemental Cevher, Zümrüt",
 			"wondrous": true,
 			"tier": "Alt",
 			"rarity": "Seyrek",
 			"source": "DMG",
 			"page": 167,
 			"entries": [
-				"This gem contains a mote of elemental energy. When you use an action to break the gem, a {@creature water elemental} is summoned as if you had cast the {@spell conjure elemental} spell, and the gem's magic is lost."
+				"Bu cevher içinde elemental enerji zerresi vardır. Eylemini kullanıp cevheri kırdığında, bir {@creature su elementali} sanki sen {@spell conjure elemental (elemental yarat)} büyüsünü kullanmışsın gibi belirir, ve cevherin büyüsü kaybolur."
 			]
 		},
 		{
-			"name": "Elemental Gem, Red Corundum",
+			"name": "Elemental Cevher, Kırmızı Korindon",
 			"wondrous": true,
 			"tier": "Alt",
 			"rarity": "Seyrek",
 			"source": "DMG",
 			"page": 167,
 			"entries": [
-				"This gem contains a mote of elemental energy. When you use an action to break the gem, a {@creature fire elemental} is summoned as if you had cast the {@spell conjure elemental} spell, and the gem's magic is lost."
+				"Bu cevher içinde elemental enerji zerresi vardır. Eylemini kullanıp cevheri kırdığında, bir {@creature ateş elementali} sanki sen {@spell conjure elemental (elemental yarat)} büyüsünü kullanmışsın gibi belirir, ve cevherin büyüsü kaybolur."
 			]
 		},
 		{
-			"name": "Elemental Gem, Yellow Diamond",
+			"name": "Elemental Cevher, Sarı Elmas",
 			"wondrous": true,
 			"tier": "Alt",
 			"rarity": "Seyrek",
 			"source": "DMG",
 			"page": 167,
 			"entries": [
-				"This gem contains a mote of elemental energy. When you use an action to break the gem, an {@creature earth elemental} is summoned as if you had cast the {@spell conjure elemental} spell, and the gem's magic is lost."
+				"Bu cevher içinde elemental enerji zerresi vardır. Eylemini kullanıp cevheri kırdığında, bir {@creature toprak elementali} sanki sen {@spell conjure elemental (elemental yarat)} büyüsünü kullanmışsın gibi belirir, ve cevherin büyüsü kaybolur."
 			]
 		},
 		{
@@ -2291,7 +2291,7 @@
 			"poison": true
 		},
 		{
-			"name": "Eversmoking Bottle",
+			"name": "Tüten Şişe",
 			"wondrous": true,
 			"weight": "1",
 			"tier": "Üst",
@@ -2299,8 +2299,8 @@
 			"source": "DMG",
 			"page": 168,
 			"entries": [
-				"Smoke leaks from the lead-stoppered mouth of this brass bottle, which weighs 1 pound. When you use an action to remove the stopper, a cloud of thick smoke pours out in a 60-foot radius from the bottle. The cloud's area is heavily obscured. Each minute the bottle remains open and within the cloud, the radius increases by 10 feet until it reaches its maximum radius of 120 feet.",
-				"The cloud persists as long as the bottle is open. Closing the bottle requires you to speak its command word as an action. Once the bottle is closed, the cloud disperses after 10 minutes. A moderate wind (11 to 20 miles per hour) can also disperse the smoke after 1 minute, and a strong wind (21 or more miles per hour) can do so after 1 round."
+				"Bu 1 pound ağırlıktaki pirinçten şişenin kurşun tapalı ağzından dumanı sızar. Eylemini kullanıp tapayı çıkardığında, şişenin 60 fit etrafına yoğun duman bulutu dolar. Bulutun alanı yoğun örtülüdür. Şişenin bulutun içinde açık olarak geçirdiği her dakikada yarıçapı 10 fit daha artar ve maksimum 120 fite kadar çıkabilir.",
+				"Şişe açık olduğu sürece bulut kalır. Şişeyi kapatma, eylem olarak onun komut sözünü söylemeni gerektirir. Şişe kapandığında, bulut 10 dakika sonra kaybolur. Bir orta rüzgar (saatte 11-20 mil) dumanı 1 dakika sonunda, ve bir güçlü rüzgar (saatte 21 mil ve üstü) 1 round sonunda bulutu ortadan kaldırabilir."
 			]
 		},
 		{
@@ -2351,7 +2351,7 @@
 			]
 		},
 		{
-			"name": "Eyes of Charming",
+			"name": "Cazibe Gözleri",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Seyrek",
@@ -2359,22 +2359,22 @@
 			"page": 168,
 			"reqAttune": "YES",
 			"entries": [
-				"These crystal lenses fit over the eyes. They have 3 charges. While wearing them, you can expend 1 charge as an action to cast the {@spell charm person} spell (save DC 13) on a humanoid within 30 feet of you, provided that you and the target can see each other. The lenses regain all expended charges daily at dawn."
+				"Bu kristal lensler gözlerin üzerine yerleşir. 3 yükleri vardır. Onları takarken, eylem olarak 1 yükü harcayıp {@spell charm person (kişi cezbet)} büyüsünü (kurtulma DC'si 13) 30 fit yakınındaki bir insansı üzerinde kullanabilirsin, sen ve hedef birbirinizi görmeniz gerekir. Lensler harcanan tüm yükleri her gün şafakta yeniler."
 			]
 		},
 		{
-			"name": "Eyes of Minute Seeing",
+			"name": "Detay Görme Gözleri",
 			"wondrous": true,
 			"tier": "Alt",
 			"rarity": "Seyrek",
 			"source": "DMG",
 			"page": 168,
 			"entries": [
-				"These crystal lenses fit over the eyes. While wearing them, you can see much better than normal out to a range of 1 foot. You have advantage on Intelligence ({@skill Investigation}) checks that rely on sight while searching an area or studying an object within that range."
+				"Bu kristal lensler gözlerin üzerine yerleşir. Onları takarken, 1 fit mesafeye kadar görüşün normalden daha iyi olur. Bu menzilde bir yeri ya da nesneyi araştırırken görüş bazlı Zeka ({@skill İnceleme}) zarlarında avantajın olur."
 			]
 		},
 		{
-			"name": "Eyes of the Eagle",
+			"name": "Kartal Gözleri",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Seyrek",
@@ -2382,151 +2382,151 @@
 			"page": 168,
 			"reqAttune": "YES",
 			"entries": [
-				"These crystal lenses fit over the eyes. While wearing them, you have advantage on Wisdom ({@skill Perception}) checks that rely on sight. In conditions of clear visibility, you can make out details of even extremely distant creatures and objects as small as 2 feet across."
+				"Bu kristal lensler gözlerin üzerine yerleşir. Onları takarken, görüş bazlı Akıl ({@skill Algı}) zarlarında avantajın olur. Temiz görüş koşullarında, 2 fit genişliğindeki küçük nesnelerin bile aşırı uzaklıklardan detaylarını seçebilirsin."
 			]
 		},
 		{
-			"name": "Figurine of Wondrous Power, Bronze Griffon",
+			"name": "Muhteşem Güç Figürü, Bronz Griffon",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Nadir",
 			"source": "DMG",
 			"page": 169,
 			"entries": [
-				"A figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn't enough space for the creature, the figurine doesn't become a creature.",
-				"The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.",
-				"The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can't be used again until a certain amount of time has passed, as specified in the figurine's description.",
-				"{@creature griffon|mm|Bronze Griffon}.",
-				"This bronze statuette is of a {@creature griffon} rampant. It can become a {@creature griffon} for up to 6 hours. Once it has been used, it can't be used again until 5 days have passed."
+				"Bir muhteşem güç figürü, cebine sığabilecek boyda küçük bir hayvan heykelciğidir. Eylemini kullanıp komut sözünü söyleyerek figürü 60 fit yakınında bir yere atarsan, figür yaşayan bir varlığa dönüşür. Eğer varlığın ortaya çıkacağı yer başka varlıklar ya da nesneler tarafından işgal ediliyorsa, veya varlık için yeterli yer yoksa, figür varlığa dönüşmez.",
+				"Varlık sana ve yoldaşlarına dosttur. Senin dillerini anlar ve sözlü komutlarına uyar. Eğer komut vermezsen, varlık kendini korur ama başka bir şey yapmaz.",
+				"Varlığın kalacağı süre her figür için değişir. Süresinin sonunda, varlık yeniden figür formuna döner. Eğer 0 HP'ye düşerse ya da sen ona dokunup komut sözünü yeniden söylersen de figür formuna döner. Varlık yeniden figür olduğunda, bu özelliği belirli bir zaman geçmeden yeniden kullanılamaz, bu süre figürün açıklamasında verilir.",
+				"{@creature griffon|mm|Bronz Griffon}.",
+				"Bu heykelcik bronzdan şahlanmış bir griffondur. 6 saatliğine {@creature griffon}a dönüşebilir. Kullanıldığında, 5 gün geçene kadar bir daha kullanılamaz."
 			]
 		},
 		{
-			"name": "Figurine of Wondrous Power, Ebony Fly",
+			"name": "Muhteşem Güç Figürü, Abanoz Sinek",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Nadir",
 			"source": "DMG",
 			"page": 169,
 			"entries": [
-				"A figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn't enough space for the creature, the figurine doesn't become a creature.",
-				"The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.",
-				"The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can't be used again until a certain amount of time has passed, as specified in the figurine's description.",
-				"{@creature giant fly|dmg|Ebony Fly}.",
-				"This ebony statuette is carved in the likeness of a horsefly. It can become a {@creature giant fly|dmg} for up to 12 hours and can be ridden as a mount. Once it has been used, it can't be used again until 2 days have passed."
+				"Bir muhteşem güç figürü, cebine sığabilecek boyda küçük bir hayvan heykelciğidir. Eylemini kullanıp komut sözünü söyleyerek figürü 60 fit yakınında bir yere atarsan, figür yaşayan bir varlığa dönüşür. Eğer varlığın ortaya çıkacağı yer başka varlıklar ya da nesneler tarafından işgal ediliyorsa, veya varlık için yeterli yer yoksa, figür varlığa dönüşmez.",
+				"Varlık sana ve yoldaşlarına dosttur. Senin dillerini anlar ve sözlü komutlarına uyar. Eğer komut vermezsen, varlık kendini korur ama başka bir şey yapmaz.",
+				"Varlığın kalacağı süre her figür için değişir. Süresinin sonunda, varlık yeniden figür formuna döner. Eğer 0 HP'ye düşerse ya da sen ona dokunup komut sözünü yeniden söylersen de figür formuna döner. Varlık yeniden figür olduğunda, bu özelliği belirli bir zaman geçmeden yeniden kullanılamaz, bu süre figürün açıklamasında verilir.",
+				"{@creature dev sinek|dmg|Abanoz Sinek}.",
+				"Bu abanozdan heykelcik bir atsineği şeklinde yapılmıştır. 12 saatliğine bir {@creature dev sinek|dmg} şekline bürünebilir ve binek olarak kullanılabilir. Kullanıldığında, 2 gün geçene kadar bir daha kullanılamaz."
 			]
 		},
 		{
-			"name": "Figurine of Wondrous Power, Golden Lions",
+			"name": "Muhteşem Güç Figürü, Altın Aslanlar",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Nadir",
 			"source": "DMG",
 			"page": 169,
 			"entries": [
-				"A figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn't enough space for the creature, the figurine doesn't become a creature.",
-				"The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.",
-				"The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can't be used again until a certain amount of time has passed, as specified in the figurine's description.",
-				"{@creature lion|mm|Golden Lions}.",
-				"These gold statuettes of lions are always created in pairs. You can use one figurine or both simultaneously. Each can become a {@creature lion} for up to 1 hour. Once a {@creature lion} has been used, it can't be used again until 7 days have passed."
+				"Bir muhteşem güç figürü, cebine sığabilecek boyda küçük bir hayvan heykelciğidir. Eylemini kullanıp komut sözünü söyleyerek figürü 60 fit yakınında bir yere atarsan, figür yaşayan bir varlığa dönüşür. Eğer varlığın ortaya çıkacağı yer başka varlıklar ya da nesneler tarafından işgal ediliyorsa, veya varlık için yeterli yer yoksa, figür varlığa dönüşmez.",
+				"Varlık sana ve yoldaşlarına dosttur. Senin dillerini anlar ve sözlü komutlarına uyar. Eğer komut vermezsen, varlık kendini korur ama başka bir şey yapmaz.",
+				"Varlığın kalacağı süre her figür için değişir. Süresinin sonunda, varlık yeniden figür formuna döner. Eğer 0 HP'ye düşerse ya da sen ona dokunup komut sözünü yeniden söylersen de figür formuna döner. Varlık yeniden figür olduğunda, bu özelliği belirli bir zaman geçmeden yeniden kullanılamaz, bu süre figürün açıklamasında verilir.",
+				"{@creature aslan|mm|Altın Aslanlar}.",
+				"Bu altın aslan heykelcikleri daima çift olarak yaratılır. Figürleri tek tek ya da aynı anda kullanabilirsin. Her biri 1 saatliğine {@creature aslan}a dönüşebilir. Bir aslan kullanıldığında, 7 gün geçene kadar bir daha kullanılamaz."
 			]
 		},
 		{
-			"name": "Figurine of Wondrous Power, Ivory Goats",
+			"name": "Muhteşem Güç Figürü, Fildişi Keçiler",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Nadir",
 			"source": "DMG",
 			"page": 169,
 			"entries": [
-				"A figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn't enough space for the creature, the figurine doesn't become a creature.",
-				"The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.",
-				"The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can't be used again until a certain amount of time has passed, as specified in the figurine's description.",
-				"{@creature riding horse|mm|Ivory Goats}.",
-				"These ivory statuettes of goats are always created in sets of three. Each goat looks unique and functions differently from the others. Their properties are as follows:",
+				"Bir muhteşem güç figürü, cebine sığabilecek boyda küçük bir hayvan heykelciğidir. Eylemini kullanıp komut sözünü söyleyerek figürü 60 fit yakınında bir yere atarsan, figür yaşayan bir varlığa dönüşür. Eğer varlığın ortaya çıkacağı yer başka varlıklar ya da nesneler tarafından işgal ediliyorsa, veya varlık için yeterli yer yoksa, figür varlığa dönüşmez.",
+				"Varlık sana ve yoldaşlarına dosttur. Senin dillerini anlar ve sözlü komutlarına uyar. Eğer komut vermezsen, varlık kendini korur ama başka bir şey yapmaz.",
+				"Varlığın kalacağı süre her figür için değişir. Süresinin sonunda, varlık yeniden figür formuna döner. Eğer 0 HP'ye düşerse ya da sen ona dokunup komut sözünü yeniden söylersen de figür formuna döner. Varlık yeniden figür olduğunda, bu özelliği belirli bir zaman geçmeden yeniden kullanılamaz, bu süre figürün açıklamasında verilir.",
+				"{@creature binek atı|mm|Fildişi Keçiler}.",
+				"Bu fildişinden yapılma keçi heykelcikleri daima üçlü set halinde yaratılır. Her keçi özgün görünür ve diğerlerinden farklı özelliklere sahiptir. Özellikleri şöyledir:",
 				{
 					"type": "list",
 					"items": [
-						"The goat of traveling can become a Large goat with the same statistics as a {@creature riding horse}. It has 24 charges, and each hour or portion thereof it spends in beast form costs 1 charge. While it has charges, you can use it as often as you wish. When it runs out of charges, it reverts to a figurine and can't be used again until 7 days have passed, when it regains all its charges.",
-						"The goat of travail becomes a {@creature giant goat} for up to 3 hours. Once it has been used, it can't be used again until 30 days have passed.",
-						"The goat of terror becomes a {@creature giant goat} for up to 3 hours. The goat can't attack, but you can remove its horns and use them as weapons. One horn becomes a +1 lance, and the other becomes a +2 longsword. Removing a horn requires an action, and the weapons disappear and the horns return when the goat reverts to figurine form. In addition, the goat radiates a 30-foot-radius aura of terror while you are riding it. Any creature hostile to you that starts its turn in the aura must succeed on a DC 15 Wisdom saving throw or be {@condition frightened} of the goat for 1 minute, or until the goat reverts to figurine form. The {@condition frightened} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Once it successfully saves against the effect, a creature is immune to the goat's aura for the next 24 hours. Once the figurine has been used, it can't be used again until 15 days have passed."
+						"Seyahat keçisi Büyük boy bir keçiye dönüşüp {@creature binek atı} ile aynı istatistikleri kullanır. 24 yükü vardır ve hayvan formunda geçirdiği her saat ya da saat dilimi için 1 yük harcar. Yükleri varken onu istediğin sıklıkta kullanabilirsin. Yükleri tükendiğinde figür formuna geri döner ve 7 gün sonunda yükleri tümüyle yenilenene kadar bir daha kullanılamaz.",
+						"Eziyet keçisi 3 saatliğine bir {@creature dev keçi}ye dönüşür. Bir kere kullanıldığında 30 gün geçene kadar bir daha kullanılamaz.",
+						"Dehşet keçisi 3 saatliğine bir {@creature dev keçi}ye dönüşür. Keçi saldıramaz ama boynuzlarını söküp silah olarak kullanabilirsin. Bir boynuz +1 süvari mızrağı olur, diğeri de +2 uzun kılıç. Bir boynuzu sökme eylem gerektirir, ve keçi figür formuna döndüğünde boynuzlar yerine döner ve silahlar kaybolur. Ayrıca, sen keçiye biniyorsan 30 fit çevresine bir dehşet aurası saçar. Sana düşman olan ve sırasına aurada başlayan her varlık DC 15 Akıl kurtulma zarı atar ya da 1 dakikalığına keçiden {@condition korkma} durumunda olurlar, keçi figür formuna dönerse de etki sonlanır. {@condition Korkma} durumundaki varlık her sırasının sonunda kurtulma zarını tekrarlayabilir, başarılı olursa üzerindeki etki sonlanır. Etkiye karşı bir kez başarılı kurtulma zarı atarsa, bir varlık keçinin aurasına 24 saat boyunca bağışıklık kazanır. Figür kullanıldıktan sonra, 15 gün geçmeden bir daha kullanılamaz."
 					]
 				}
 			]
 		},
 		{
-			"name": "Figurine of Wondrous Power, Marble Elephant",
+			"name": "Muhteşem Güç Figürü, Mermer Fil",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Nadir",
 			"source": "DMG",
 			"page": 170,
 			"entries": [
-				"A figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn't enough space for the creature, the figurine doesn't become a creature.",
-				"The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.",
-				"The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can't be used again until a certain amount of time has passed, as specified in the figurine's description.",
-				"{@creature elephant|mm|Marble Elephant}.",
-				"This marble statuette is about 4 inches high and long. It can become an {@creature elephant} for up to 24 hours. Once it has been used, it can't be used again until 7 days have passed."
+				"Bir muhteşem güç figürü, cebine sığabilecek boyda küçük bir hayvan heykelciğidir. Eylemini kullanıp komut sözünü söyleyerek figürü 60 fit yakınında bir yere atarsan, figür yaşayan bir varlığa dönüşür. Eğer varlığın ortaya çıkacağı yer başka varlıklar ya da nesneler tarafından işgal ediliyorsa, veya varlık için yeterli yer yoksa, figür varlığa dönüşmez.",
+				"Varlık sana ve yoldaşlarına dosttur. Senin dillerini anlar ve sözlü komutlarına uyar. Eğer komut vermezsen, varlık kendini korur ama başka bir şey yapmaz.",
+				"Varlığın kalacağı süre her figür için değişir. Süresinin sonunda, varlık yeniden figür formuna döner. Eğer 0 HP'ye düşerse ya da sen ona dokunup komut sözünü yeniden söylersen de figür formuna döner. Varlık yeniden figür olduğunda, bu özelliği belirli bir zaman geçmeden yeniden kullanılamaz, bu süre figürün açıklamasında verilir.",
+				"{@creature fil|mm|Mermer Fil}.",
+				"Bu mermer heykelcik yaklaşık 4 inç yükseklikte ve uzunluktadır. 24 saate kadar bir {@creature fil}e dönüşebilir. Kullanıldığında, 7 gün geçene kadar bir daha kullanılamaz."
 			]
 		},
 		{
-			"name": "Figurine of Wondrous Power, Obsidian Steed",
+			"name": "Muhteşem Güç Figürü, Obsidyen Binek",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Çok Nadir",
 			"source": "DMG",
 			"page": 170,
 			"entries": [
-				"A figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn't enough space for the creature, the figurine doesn't become a creature.",
-				"The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.",
-				"The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can't be used again until a certain amount of time has passed, as specified in the figurine's description.",
-				"{@creature nightmare|mm|Obsidian Steed}.",
-				"This polished obsidian horse can become a {@creature nightmare} for up to 24 hours. The {@creature nightmare} fights only to defend itself. Once it has been used, it can't be used again until 5 days have passed.",
-				"If you have a good alignment, the figurine has a 10 percent chance each time you use it to ignore your orders, including a command to revert to figurine form. If you mount the {@creature nightmare} while it is ignoring your orders, you and the {@creature nightmare} are instantly transported to a random location on the plane of Hades, where the {@creature nightmare} reverts to figurine form."
+				"Bir muhteşem güç figürü, cebine sığabilecek boyda küçük bir hayvan heykelciğidir. Eylemini kullanıp komut sözünü söyleyerek figürü 60 fit yakınında bir yere atarsan, figür yaşayan bir varlığa dönüşür. Eğer varlığın ortaya çıkacağı yer başka varlıklar ya da nesneler tarafından işgal ediliyorsa, veya varlık için yeterli yer yoksa, figür varlığa dönüşmez.",
+				"Varlık sana ve yoldaşlarına dosttur. Senin dillerini anlar ve sözlü komutlarına uyar. Eğer komut vermezsen, varlık kendini korur ama başka bir şey yapmaz.",
+				"Varlığın kalacağı süre her figür için değişir. Süresinin sonunda, varlık yeniden figür formuna döner. Eğer 0 HP'ye düşerse ya da sen ona dokunup komut sözünü yeniden söylersen de figür formuna döner. Varlık yeniden figür olduğunda, bu özelliği belirli bir zaman geçmeden yeniden kullanılamaz, bu süre figürün açıklamasında verilir.",
+				"{@creature kabus|mm|Obsidyen Binek}.",
+				"Bu parlak obsidyen at heykelciği 24 saatliğine bir {@creature kabus}a dönüşebilir. {@creature Kabus} sadece kendini korumak için dövüşür. Kullanıldığında, 5 gün geçene kadar bir daha kullanılamaz.",
+				"Eğer iyi bir yönelimin varsa, figürü her kullanışında %10 şans ile komutlarına uymama ihtimali vardır, figür formuna geri dönme komutu dahil. Eğer komutlarına uymazken kabusa binersen, sen ve {@creature kabus} Hades boyutunda rastgele bir yere ışınlanırsınız, burada {@creature kabus} figür formuna döner."
 			]
 		},
 		{
-			"name": "Figurine of Wondrous Power, Onyx Dog",
+			"name": "Muhteşem Güç Figürü, Oniks Köpek",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Nadir",
 			"source": "DMG",
 			"page": 170,
 			"entries": [
-				"A figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn't enough space for the creature, the figurine doesn't become a creature.",
-				"The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.",
-				"The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can't be used again until a certain amount of time has passed, as specified in the figurine's description.",
-				"{@creature mastiff|mm|Onyx Dog}.",
-				"This onyx statuette of a dog can become a {@creature mastiff} for up to 6 hours. The {@creature mastiff} has an Intelligence of 8 and can speak Yaygın. It also has dark vision out to a range of 60 feet and can see {@condition invisible} creatures and objects within that range. Once it has been used, it can't be used again until 7 days have passed."
+				"Bir muhteşem güç figürü, cebine sığabilecek boyda küçük bir hayvan heykelciğidir. Eylemini kullanıp komut sözünü söyleyerek figürü 60 fit yakınında bir yere atarsan, figür yaşayan bir varlığa dönüşür. Eğer varlığın ortaya çıkacağı yer başka varlıklar ya da nesneler tarafından işgal ediliyorsa, veya varlık için yeterli yer yoksa, figür varlığa dönüşmez.",
+				"Varlık sana ve yoldaşlarına dosttur. Senin dillerini anlar ve sözlü komutlarına uyar. Eğer komut vermezsen, varlık kendini korur ama başka bir şey yapmaz.",
+				"Varlığın kalacağı süre her figür için değişir. Süresinin sonunda, varlık yeniden figür formuna döner. Eğer 0 HP'ye düşerse ya da sen ona dokunup komut sözünü yeniden söylersen de figür formuna döner. Varlık yeniden figür olduğunda, bu özelliği belirli bir zaman geçmeden yeniden kullanılamaz, bu süre figürün açıklamasında verilir.",
+				"{@creature mastı|mm|Oniks Köpek}.",
+				"Bu oniks köpek heykelciği 6 saatliğine bir {@creature mastı}ya dönüşebilir.{@creature Mastı}nın 8 Zekası olur ve Ortak dili konuşabilir. 60 fite kadar gece görüşü vardır ve bu menzildeki görünmez varlık ve nesneleri görebilir. Kullanıldığında, 7 gün geçene kadar bir daha kullanılamaz."
 			]
 		},
 		{
-			"name": "Figurine of Wondrous Power, Serpentine Owl",
+			"name": "Muhteşem Güç Figürü, Yılantaşı Baykuş",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Nadir",
 			"source": "DMG",
 			"page": 170,
 			"entries": [
-				"A figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn't enough space for the creature, the figurine doesn't become a creature.",
-				"The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.",
-				"The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can't be used again until a certain amount of time has passed, as specified in the figurine's description.",
-				"{@creature giant owl|mm|Serpentine Owl}.",
-				"This serpentine statuette of an owl can become a {@creature giant owl} for up to 8 hours. Once it has been used, it can't be used again until 2 days have passed. The owl can telepathically communicate with you at any range if you and it are on the same plane of existence."
+				"Bir muhteşem güç figürü, cebine sığabilecek boyda küçük bir hayvan heykelciğidir. Eylemini kullanıp komut sözünü söyleyerek figürü 60 fit yakınında bir yere atarsan, figür yaşayan bir varlığa dönüşür. Eğer varlığın ortaya çıkacağı yer başka varlıklar ya da nesneler tarafından işgal ediliyorsa, veya varlık için yeterli yer yoksa, figür varlığa dönüşmez.",
+				"Varlık sana ve yoldaşlarına dosttur. Senin dillerini anlar ve sözlü komutlarına uyar. Eğer komut vermezsen, varlık kendini korur ama başka bir şey yapmaz.",
+				"Varlığın kalacağı süre her figür için değişir. Süresinin sonunda, varlık yeniden figür formuna döner. Eğer 0 HP'ye düşerse ya da sen ona dokunup komut sözünü yeniden söylersen de figür formuna döner. Varlık yeniden figür olduğunda, bu özelliği belirli bir zaman geçmeden yeniden kullanılamaz, bu süre figürün açıklamasında verilir.",
+				"{@creature dev baykuş|mm|Yılantaşı Baykuş}.",
+				"Bu yılantaşından baykuş heykelciği 8 saatliğine bir {@creature dev baykuş}a dönüşebilir. Kullanıldığında, 2 gün geçene kadar bir daha kullanılamaz. Eğer onunla aynı boyuttaysanız, baykuş seninle mesafe sınırı olmadan telepatik iletişime geçebilir."
 			]
 		},
 		{
-			"name": "Figurine of Wondrous Power, Silver Raven",
+			"name": "Muhteşem Güç Figürü, Gümüş Kuzgun",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Seyrek",
 			"source": "DMG",
 			"page": 170,
 			"entries": [
-				"A figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn't enough space for the creature, the figurine doesn't become a creature.",
-				"The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.",
-				"The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can't be used again until a certain amount of time has passed, as specified in the figurine's description.",
-				"{@creature raven|mm|Silver Raven}.",
-				"This silver statuette of a raven can become a raven for up to 12 hours. Once it has been used, it can't be used again until 2 days have passed. While in raven form, the figurine allows you to cast the {@spell animal messenger} spell on it at will."
+				"Bir muhteşem güç figürü, cebine sığabilecek boyda küçük bir hayvan heykelciğidir. Eylemini kullanıp komut sözünü söyleyerek figürü 60 fit yakınında bir yere atarsan, figür yaşayan bir varlığa dönüşür. Eğer varlığın ortaya çıkacağı yer başka varlıklar ya da nesneler tarafından işgal ediliyorsa, veya varlık için yeterli yer yoksa, figür varlığa dönüşmez.",
+				"Varlık sana ve yoldaşlarına dosttur. Senin dillerini anlar ve sözlü komutlarına uyar. Eğer komut vermezsen, varlık kendini korur ama başka bir şey yapmaz.",
+				"Varlığın kalacağı süre her figür için değişir. Süresinin sonunda, varlık yeniden figür formuna döner. Eğer 0 HP'ye düşerse ya da sen ona dokunup komut sözünü yeniden söylersen de figür formuna döner. Varlık yeniden figür olduğunda, bu özelliği belirli bir zaman geçmeden yeniden kullanılamaz, bu süre figürün açıklamasında verilir.",
+				"{@creature kuzgun|mm|Gümüş Kuzgun}.",
+				"Bu gümüşten kuzgun heykelciği 12 saatliğine gerçek bir kuzguna dönebilir. Kullanıldığında, 2 gün geçene kadar tekrar kullanamazsın. Kuzgun formundayken, figür onun üzerinde {@spell animal messenger (haberci hayvan)} büyüsünü istediğin kadar kullanmanı sağlar."
 			]
 		},
 		{
@@ -2546,7 +2546,7 @@
 			]
 		},
 		{
-			"name": "Gauntlets of Ogre Power",
+			"name": "Ogre Gücü Eldivenleri",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Seyrek",
@@ -2554,11 +2554,11 @@
 			"page": 171,
 			"reqAttune": "YES",
 			"entries": [
-				"Your Strength score is 19 while you wear these gauntlets. They have no effect on you if your Strength is already 19 or higher without them."
+				"Bu eldivenleri giyerken Kuvvet skorun 19 olur. Eğer Kuvvet skorun zaten 19 veya üzerinde ise seni etkilemez."
 			]
 		},
 		{
-			"name": "Gem of Brightness",
+			"name": "Parlaklık Cevheri",
 			"wondrous": true,
 			"weight": "1",
 			"tier": "Üst",
@@ -2566,16 +2566,16 @@
 			"source": "DMG",
 			"page": 171,
 			"entries": [
-				"This prism has 50 charges. While you are holding it, you can use an action to speak one of three command words to cause one of the following effects:",
+				"Bu prizmanın 50 yükü vardır. Onu tutarken eylemini kullanıp 3 komut sözünden birini söyleyerek şu etkilerden birini yaratabilirsin:",
 				{
 					"type": "list",
 					"items": [
-						"The first command word causes the gem to shed bright light in a 30-foot radius and dim light for an additional 30 feet. This effect doesn't expend a charge. It lasts until you use a bonus action to repeat the command word or until you use another function of the gem.",
-						"The second command word expends 1 charge and causes the gem to fire a brilliant beam of light at one creature you can see within 60 feet of you. The creature must succeed on a DC 15 Constitution saving throw or become {@condition blinded} for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
-						"The third command word expends 5 charges and causes the gem to flare with blinding light in a 30-foot cone originating from it. Each creature in the cone must make a saving throw as if struck by the beam created with the second command word."
+						"Birinci komut sözü cevherin 30 fite kadar parlak, 30 fit ötesinde de loş ışık saçmasını sağlar. Bu etki yük harcamaz. Sen bonus eylem kullanıp bu komut sözünü tekrar edene ya da cevherin başka bir özelliğini kullanana dek sürer.",
+						"İkinci komut sözü 1 yük harcar ve cevherden 60 fit yakınında görebildiğin bir varlığa ışıldayan bir huzme atmanı sağlar. Varlık DC 15 Dayanıklılık kurtulma zarı atar ya da 1 dakikalığına {@condition körlük} durumunda olur. Varlık kurtulma zarını her sırasının sonunda tekrarlar, başarılı olursa üzerindeki etki sonlanır.",
+						"Üçüncü komut sözü 5 yük harcar ve cevherden çıkan 30 fitlik bir koniye kör edici bir ışık parlaması yaratır. Konideki her varlık sanki ikinci komut sözündeki huzme ile çarpılmışçasına kurtulma zarı atar."
 					]
 				},
-				"When all of the gem's charges are expended, the gem becomes a nonmagical jewel worth 50 gp."
+				"Cevherin tüm yükleri harcandığında, büyüsüz 50 gp değerinde bir cevhere dönüşür."
 			]
 		},
 		{
@@ -2616,7 +2616,7 @@
 			]
 		},
 		{
-			"name": "Gloves of Missile Snaring",
+			"name": "Misil Kapma Eldivenleri",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Seyrek",
@@ -2624,11 +2624,11 @@
 			"page": 172,
 			"reqAttune": "YES",
 			"entries": [
-				"These gloves seem to almost meld into your hands when you don them. When a ranged weapon attack hits you while you're wearing them, you can use your reaction to reduce the damage by 1d10 + your Dexterity modifier, provided that you have a free hand. If you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in that hand."
+				"Bu eldivenler onları giydiğinde neredeyse elinle bütünleşir. Onları takarken bir menzilli silah saldırısı sana vurursa, reaksiyonunu kullanıp aldığın hasarı 1d10 + Çeviklik bonusun kadar düşürebilirsin, bunun için boş elin olması gerekir. Eğer hasarı sıfıra indirirsen, misil elinde tutabileceğin kadar küçükse onu yakalayabilirsin."
 			]
 		},
 		{
-			"name": "Gloves of Swimming and Climbing",
+			"name": "Yüzme ve Tırmanma Eldivenleri",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Seyrek",
@@ -2636,29 +2636,29 @@
 			"page": 172,
 			"reqAttune": "YES",
 			"entries": [
-				"While wearing these gloves, climbing and swimming don't cost you extra movement, and you gain a +5 bonus to Strength ({@skill Athletics}) checks made to climb or swim."
+				"Bu eldivenleri giyerken yüzme ve tırmanma sana fazladan harekete mal olmaz, ve bunlar için atacağın Kuvvet ({@skill Atletizm}) zarlarına +5 bonusun olur."
 			]
 		},
 		{
-			"name": "Gloves of Thievery",
+			"name": "Hırsızlık Eldivenleri",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Seyrek",
 			"source": "DMG",
 			"page": 172,
 			"entries": [
-				"These gloves are {@condition invisible} while worn. While wearing them, you gain a +5 bonus to Dexterity ({@skill Sleight of Hand}) checks and Dexterity checks made to pick locks."
+				"Bu eldivenler giyildiğinde görünmez olurlar. Onları giyerken, Çeviklik ({@skill El Çabukluğu}) ve kilit açmak için atılacak Çeviklik zarlarına +5 bonusun olur."
 			]
 		},
 		{
-			"name": "Goggles of Night",
+			"name": "Gece Gözlükleri",
 			"wondrous": true,
 			"tier": "Alt",
 			"rarity": "Seyrek",
 			"source": "DMG",
 			"page": 172,
 			"entries": [
-				"While wearing these dark lenses, you have darkvision out to a range of 60 feet. If you already have darkvision. wearing the goggles increases its range by 60 feet."
+				"Bu kara lensleri takarken, 60 fite kadar gece görüşün olur. Eğer zaten gece görüşün varsa, bu gözlükleri takman onun mesafesini 60 fit artırır."
 			]
 		},
 		{
@@ -2779,7 +2779,7 @@
 			]
 		},
 		{
-			"name": "Hat of Disguise",
+			"name": "Kılık Değiştirme Şapkası",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Seyrek",
@@ -2787,11 +2787,11 @@
 			"page": 173,
 			"reqAttune": "YES",
 			"entries": [
-				"While wearing this hat, you can use an action to cast the {@spell disguise self} spell from it at will. The spell ends if the hat is removed."
+				"Şapkayı takarken, eylemini kullanıp istediğin kadar {@spell disguise self (kılık değiştir)} büyüsünü kullanabilirsin. Şapka çıkarılırsa büyü sonlanır."
 			]
 		},
 		{
-			"name": "Headband of Intellect",
+			"name": "Zekanın Baş Bağı",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Seyrek",
@@ -2799,7 +2799,7 @@
 			"page": 173,
 			"reqAttune": "YES",
 			"entries": [
-				"Your Intelligence score is 19 while you wear this headband. It has no effect on you if your Intelligence is already 19 or higher without it."
+				"Bu baş bağını takarken Zeka skorun 19 olur. Eğer Zeka skorun zaten 19 veya üstünde ise seni etkilemez."
 			]
 		},
 		{
@@ -2826,18 +2826,18 @@
 			]
 		},
 		{
-			"name": "Helm of Comprehending Languages",
+			"name": "Dilleri Anlama Miğferi",
 			"wondrous": true,
 			"tier": "Alt",
 			"rarity": "Seyrek",
 			"source": "DMG",
 			"page": 173,
 			"entries": [
-				"While wearing this helm, you can use an action to cast the {@spell comprehend languages} spell from it at will."
+				"Bu miğferi takarken, eylemini kullanıp istediğin zaman {@spell comprehend languages (dilleri anla)} büyüsünü kullanabilirsin."
 			]
 		},
 		{
-			"name": "Helm of Telepathy",
+			"name": "Telepati Miğferi",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Seyrek",
@@ -2845,8 +2845,8 @@
 			"page": 174,
 			"reqAttune": "YES",
 			"entries": [
-				"While wearing this helm, you can use an action to cast the {@spell detect thoughts} spell (save DC 13) from it. As long as you maintain concentration on the spell, you can use a bonus action to send a telepathic message to a creature you are focused on. It can reply \u2014 using a bonus action to do so \u2014 while your focus on it continues.",
-				"While focusing on a creature with {@spell detect thoughts}, you can use an action to cast the {@spell suggestion} spell (save DC 13) from the helm on that creature. Once used, the suggestion property can't be used again until the next dawn."
+				"Bu miğferi takarken, eylemini kullanıp {@spell detect thoughts (zihin okuma)} büyüsünü (kurtulma DC'si 13) kullanabilirsin. Büyüde konsantrasyonunu koruduğun sürece, odaklandığın varlığa bonus eylemini kullanıp telepatik mesajlar gönderebilirsin. Onda odağın devam ettiği sürece, o da bonus eylemini kullanarak cevap verebilir.",
+				"Bu büyü ile bir varlığa odaklanırken, eylemini kullanıp {@spell suggestion (tavsiye)} büyüsünü (kurtulma DC'si 13) o varlık üzerinde kullanabilirsin. Kullanıldığında, tavsiye özelliği sonraki şafağa kadar yeniden kullanılamaz."
 			]
 		},
 		{
@@ -2862,7 +2862,7 @@
 			]
 		},
 		{
-			"name": "Heward's Handy Haversack",
+			"name": "Heward'ın Kullanışlı Sırt Çantası",
 			"wondrous": true,
 			"weight": "5",
 			"tier": "Alt",
@@ -2870,10 +2870,10 @@
 			"source": "DMG",
 			"page": 174,
 			"entries": [
-				"This backpack has a central pouch and two side pouches, each of which is an extradimensional space. Each side pouch can hold up to 20 pounds of material, not exceeding a volume of 2 cubic feet. The large central pouch can hold up to 8 cubic feet or 80 pounds of material. The backpack always weighs 5 pounds, regardless of its contents.",
-				"Placing an object in the haversack follows the normal rules for interacting with objects. Retrieving an item from the haversack requires you to use an action. When you reach into the haversack for a specific item, the item is always magically on top.",
-				"The haversack has a few limitations. If it is overloaded, or if a sharp object pierces it or tears it, the haversack ruptures and is destroyed. If the haversack is destroyed, its contents are lost forever, although an artifact always turns up again somewhere. If the haversack is turned inside out, its contents spill forth, unharmed, and the haversack must be put right before it can be used again. If a breathing creature is placed within the haversack, the creature can survive for up to 10 minutes, after which time it begins to suffocate.",
-				"Placing the haversack inside an extradimensional space created by a {@item bag of holding}, {@item portable hole}, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10-feet of the gate is sucked through it and deposited in a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened."
+				"Bu sırt çantasının bir orta iki de yan cebi vardır, her biri bir boyutdışı alandır. Her yan cep 20 pounda kadar materyal tutabilir ve bu boyut olarak 2 fit kübü geçemez. Geniş orta cep 8 fit küp veya 80 pound materyal taşıyabilir. Sırt çantası içeriği farketmeksizin hep 5 pound ağırlıktadır.",
+				"Bir nesneyi sırt çantasına koyma, normal nesnelerle etkileşim kurallarını izler. Sırt çantasından bir eşya alma ise eylem gerektirir. Sırt çantasına belirli bir eşya için uzandığında, eşya daima büyülü bir şekilde en üsttedir.",
+				"Sırt çantasının bazı sınırlamaları vardır. Eğer aşırı yüklenirse, sert bir cisim onu delerse ya da yırtarsa, sırt çantası bozulur ve mahvolur. Eğer sırt çantası mahvolursa içeriği sonsuza kadar kaybolur, ama bir artefakt daima bir yerlerde yeniden belirir. Eğer sırt çantası iç dış edilirse içeriği zarar görmeden boşalır ve sırt çantasını yeniden kullanabilmek için eski haline getirilmesi gerekir. Eğer nefes alan bir varlık sırt çantasına koyulursa, varlık 10 dakikaya kadar hayatta kalabilir, sonrasında boğulmaya başlar.",
+				"Heward'ın kullanışlı sırt çantasını, {@item stok çantası}, {@item taşınabilir delik} ve benzeri dışboyut yaratan başka bir eşyanın yarattığı boyuta geçirmeyi denersen, anında iki eşyayı yok eder ve Astral Boyuta bir kapı açarsın. Kapının başlangıç noktası eşyaların birbiri içine geçtiği yer olur. Kapının 10 fit yakınındaki tüm varlıklar içine çekilir ve Astral Boyutta rastgele bir yere gönderilirler. Sonrasında kapı kapanır. Kapı tek yönlüdür ve yeniden açılamaz."
 			]
 		},
 		{
@@ -2968,7 +2968,7 @@
 			]
 		},
 		{
-			"name": "Immovable Rod",
+			"name": "Hareketsiz Çubuk",
 			"type": "RD",
 			"weight": "2",
 			"tier": "Alt",
@@ -2976,11 +2976,11 @@
 			"source": "DMG",
 			"page": 175,
 			"entries": [
-				"This flat iron rod has a button on one end. You can use an action to press the button, which causes the rod to become magically fixed in place. Until you or another creature uses an action to push the button again, the rod doesn't move, even if it is defying gravity. The rod can hold up to 8,000 pounds of weight. More weight causes the rod to deactivate and fall. A creature can use an action to make a DC 30 Strength check, moving the fixed rod up to 10 feet on a success"
+				"Bu demirden düz çubuğun bir ucunda düğmesi vardır. Eylemini kullanıp bu düğmeye bastığında çubuğun büyü ile yerine sabitlenmesini sağlar. Sen ya da başka bir varlık, eylemini kullanıp bu düğmeye yeniden basana kadar çubuk hareket etmez, yerçekimine karşı gelse bile. Bu çubuk 8.000 pounda kadar yük taşıyabilir. Daha fazla yük çubuğu etkisizleştirir ve düşer. Bir varlık eylemini kullanıp DC 30 Kuvvet zarı atarak başarılı olursa sabit çubuğu 10 fit hareket ettirebilir."
 			]
 		},
 		{
-			"name": "Instrument of the Bards, Anstruth Harp",
+			"name": "Ozanların Enstrümanı, Anstruth Harpi",
 			"type": "INS",
 			"wondrous": true,
 			"weight": "2",
@@ -2990,15 +2990,15 @@
 			"page": 176,
 			"reqAttune": "by a Bard",
 			"entries": [
-				"An instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 psychic damage.",
-				"You can use an action to play the instrument and cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.",
-				"When you use the instrument to cast a spell that causes targets to become {@condition charmed} on a failed save, the targets have disadvantage on the saving throw. This effect applies whether you are using the instrument as the source of the spell or as a spellcasting focus.",
-				"All instruments of the bards can be used to cast the following spells: {@spell fly}, {@spell invisibility}, {@spell levitate}, and {@spell protection from evil and good}.",
-				"In addition, the Anstruth harp can be used to cast {@spell control weather}, {@spell cure wounds} (5th level), and {@spell wall of thorns}."
+				"Bir ozanların enstrümanı türünün öne çıkan örneklerinden biridir, sıradan bir enstrümana her yönüyle üstündür. Bu enstrümanlardan 7 çeşit vardır, her biri efsanevi bir ozan koleji ile adlandırılır. Enstrümana bağlanmadan çalmaya çalışan bir varlık DC 15 Akıl kurtulma zarı atar ya da 2d4 psişik hasar alır.",
+				"Eylemini kullanıp enstrümanı çalarak büyülerinden birini kullanabilirsin. Enstrüman bir büyüyü yapmak için kullanıldığında, sonraki şafağa kadar o büyüyü yapmak için tekrar kullanılamaz. Büyüler senin büyü yapma yeteneğini ve büyü kurtulma DC'ni kullanır.",
+				"Enstrümanı, başarısız kurtulma zarında hedefin {@condition cezbedilme} durumuna girmesini sağlayan bir büyü yapmak için kullanıldığında, hedeflerin kurtulma zarında dezavantajı olur. Bu etki enstrümanı büyünün kaynağı olarak da, büyü yapma odağı olarak da kullansan işler.",
+				"Tüm ozanların enstrümanları şu büyüleri yapmak için kullanılabilir: {@spell fly (uç)}, {@spell invisibility (görünmezlik)}, {@spell levitate (havaya yükselme)} ve {@spell protection from evil and good (İyi ve Kötüden Korunma)}.",
+				"Ayrıca, Anstruth harpi şunları da yapmak için kullanılabilir: {@spell control weather (hava durumunu yönet)}, {@spell cure wounds (Yaraları İyileştir)} (5. seviye) ve {@spell wall of thorns (diken duvar)}."
 			]
 		},
 		{
-			"name": "Instrument of the Bards, Canaith Mandolin",
+			"name": "Ozanların Enstrümanı, Canaith Mandolini",
 			"type": "INS",
 			"wondrous": true,
 			"weight": "2",
@@ -3008,15 +3008,15 @@
 			"page": 176,
 			"reqAttune": "by a Bard",
 			"entries": [
-				"An instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 psychic damage.",
-				"You can use an action to play the instrument and cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.",
-				"When you use the instrument to cast a spell that causes targets to become {@condition charmed} on a failed save, the targets have disadvantage on the saving throw. This effect applies whether you are using the instrument as the source of the spell or as a spellcasting focus.",
-				"All instruments of the bards can be used to cast the following spells: {@spell fly}, {@spell invisibility}, {@spell levitate}, and {@spell protection from evil and good}.",
-				"In addition, the Canaith mandolin can be used to cast {@spell cure wounds} (3rd level), {@spell dispel magic}, and {@spell protection from energy} (lightning only)."
+				"Bir ozanların enstrümanı türünün öne çıkan örneklerinden biridir, sıradan bir enstrümana her yönüyle üstündür. Bu enstrümanlardan 7 çeşit vardır, her biri efsanevi bir ozan koleji ile adlandırılır. Enstrümana bağlanmadan çalmaya çalışan bir varlık DC 15 Akıl kurtulma zarı atar ya da 2d4 psişik hasar alır.",
+				"Eylemini kullanıp enstrümanı çalarak büyülerinden birini kullanabilirsin. Enstrüman bir büyüyü yapmak için kullanıldığında, sonraki şafağa kadar o büyüyü yapmak için tekrar kullanılamaz. Büyüler senin büyü yapma yeteneğini ve büyü kurtulma DC'ni kullanır.",
+				"Enstrümanı, başarısız kurtulma zarında hedefin {@condition cezbedilme} durumuna girmesini sağlayan bir büyü yapmak için kullanıldığında, hedeflerin kurtulma zarında dezavantajı olur. Bu etki enstrümanı büyünün kaynağı olarak da, büyü yapma odağı olarak da kullansan işler.",
+				"Tüm ozanların enstrümanları şu büyüleri yapmak için kullanılabilir: {@spell fly (uç)}, {@spell invisibility (görünmezlik)}, {@spell levitate (havaya yükselme)} ve {@spell protection from evil and good (İyi ve Kötüden Korunma)}.",
+				"Ayrıca, Canaith mandolini şunları da yapmak için kullanılabilir: {@spell cure wounds (Yaraları İyileştir)} (3. seviye), {@spell dispel magic (büyü defet)} ve {@spell protection from energy (enerjiden korunma)} (sadece yıldırım)."
 			]
 		},
 		{
-			"name": "Instrument of the Bards, Cli Lyre",
+			"name": "Ozanların Enstrümanı, Cli Liri",
 			"type": "INS",
 			"wondrous": true,
 			"weight": "2",
@@ -3026,15 +3026,15 @@
 			"page": 176,
 			"reqAttune": "by a Bard",
 			"entries": [
-				"An instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 psychic damage.",
-				"You can use an action to play the instrument and cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.",
-				"When you use the instrument to cast a spell that causes targets to become {@condition charmed} on a failed save, the targets have disadvantage on the saving throw. This effect applies whether you are using the instrument as the source of the spell or as a spellcasting focus.",
-				"All instruments of the bards can be used to cast the following spells: {@spell fly}, {@spell invisibility}, {@spell levitate}, and {@spell protection from evil and good}.",
-				"In addition, the Cli lyre can be used to cast {@spell stone shape}, {@spell wall of fire}, and {@spell wind wall}."
+				"Bir ozanların enstrümanı türünün öne çıkan örneklerinden biridir, sıradan bir enstrümana her yönüyle üstündür. Bu enstrümanlardan 7 çeşit vardır, her biri efsanevi bir ozan koleji ile adlandırılır. Enstrümana bağlanmadan çalmaya çalışan bir varlık DC 15 Akıl kurtulma zarı atar ya da 2d4 psişik hasar alır.",
+				"Eylemini kullanıp enstrümanı çalarak büyülerinden birini kullanabilirsin. Enstrüman bir büyüyü yapmak için kullanıldığında, sonraki şafağa kadar o büyüyü yapmak için tekrar kullanılamaz. Büyüler senin büyü yapma yeteneğini ve büyü kurtulma DC'ni kullanır.",
+				"Enstrümanı, başarısız kurtulma zarında hedefin {@condition cezbedilme} durumuna girmesini sağlayan bir büyü yapmak için kullanıldığında, hedeflerin kurtulma zarında dezavantajı olur. Bu etki enstrümanı büyünün kaynağı olarak da, büyü yapma odağı olarak da kullansan işler.",
+				"Tüm ozanların enstrümanları şu büyüleri yapmak için kullanılabilir: {@spell fly (uç)}, {@spell invisibility (görünmezlik)}, {@spell levitate (havaya yükselme)} ve {@spell protection from evil and good (İyi ve Kötüden Korunma)}.",
+				"Ayrıca, Cli liri şunları da yapmak için kullanılabilir: {@spell stone shape (Taş Şekillendir)}, {@spell wall of fire (ateş duvarı)} ve {@spell wind wall (rüzgar duvarı)}."
 			]
 		},
 		{
-			"name": "Instrument of the Bards, Doss Lute",
+			"name": "Ozanların Enstrümanı, Doss Udu",
 			"type": "INS",
 			"wondrous": true,
 			"weight": "2",
@@ -3044,15 +3044,15 @@
 			"page": 176,
 			"reqAttune": "by a Bard",
 			"entries": [
-				"An instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 psychic damage.",
-				"You can use an action to play the instrument and cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.",
-				"When you use the instrument to cast a spell that causes targets to become {@condition charmed} on a failed save, the targets have disadvantage on the saving throw. This effect applies whether you are using the instrument as the source of the spell or as a spellcasting focus.",
-				"All instruments of the bards can be used to cast the following spells: {@spell fly}, {@spell invisibility}, {@spell levitate}, and {@spell protection from evil and good}.",
-				"In addition, the Doss lute can be used to cast {@spell animal friendship}, {@spell protection from energy} (fire only), and {@spell protection from poison}."
+				"Bir ozanların enstrümanı türünün öne çıkan örneklerinden biridir, sıradan bir enstrümana her yönüyle üstündür. Bu enstrümanlardan 7 çeşit vardır, her biri efsanevi bir ozan koleji ile adlandırılır. Enstrümana bağlanmadan çalmaya çalışan bir varlık DC 15 Akıl kurtulma zarı atar ya da 2d4 psişik hasar alır.",
+				"Eylemini kullanıp enstrümanı çalarak büyülerinden birini kullanabilirsin. Enstrüman bir büyüyü yapmak için kullanıldığında, sonraki şafağa kadar o büyüyü yapmak için tekrar kullanılamaz. Büyüler senin büyü yapma yeteneğini ve büyü kurtulma DC'ni kullanır.",
+				"Enstrümanı, başarısız kurtulma zarında hedefin {@condition cezbedilme} durumuna girmesini sağlayan bir büyü yapmak için kullanıldığında, hedeflerin kurtulma zarında dezavantajı olur. Bu etki enstrümanı büyünün kaynağı olarak da, büyü yapma odağı olarak da kullansan işler.",
+				"Tüm ozanların enstrümanları şu büyüleri yapmak için kullanılabilir: {@spell fly (uç)}, {@spell invisibility (görünmezlik)}, {@spell levitate (havaya yükselme)} ve {@spell protection from evil and good (İyi ve Kötüden Korunma)}.",
+				"Ayrıca, Doss udu şunları da yapmak için kullanılabilir: {@spell animal friendship (hayvan dostluğu)}, {@spell protection from energy (enerjiden korunma)} (sadece ateş) ve {@spell protection from poison (zehirden korunma)}."
 			]
 		},
 		{
-			"name": "Instrument of the Bards, Fochlucan Bandore",
+			"name": "Ozanların Enstrümanı, Fochlucan Bandoresi",
 			"type": "INS",
 			"wondrous": true,
 			"weight": "2",
@@ -3062,15 +3062,15 @@
 			"page": 176,
 			"reqAttune": "by a Bard",
 			"entries": [
-				"An instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 psychic damage.",
-				"You can use an action to play the instrument and cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.",
-				"When you use the instrument to cast a spell that causes targets to become {@condition charmed} on a failed save, the targets have disadvantage on the saving throw. This effect applies whether you are using the instrument as the source of the spell or as a spellcasting focus.",
-				"All instruments of the bards can be used to cast the following spells: {@spell fly}, {@spell invisibility}, {@spell levitate}, and {@spell protection from evil and good}.",
-				"In addition, the Fochlucan bandore can be used to cast {@spell entangle}, {@spell faerie fire}, {@spell shillelagh}, and {@spell speak with animals}."
+				"Bir ozanların enstrümanı türünün öne çıkan örneklerinden biridir, sıradan bir enstrümana her yönüyle üstündür. Bu enstrümanlardan 7 çeşit vardır, her biri efsanevi bir ozan koleji ile adlandırılır. Enstrümana bağlanmadan çalmaya çalışan bir varlık DC 15 Akıl kurtulma zarı atar ya da 2d4 psişik hasar alır.",
+				"Eylemini kullanıp enstrümanı çalarak büyülerinden birini kullanabilirsin. Enstrüman bir büyüyü yapmak için kullanıldığında, sonraki şafağa kadar o büyüyü yapmak için tekrar kullanılamaz. Büyüler senin büyü yapma yeteneğini ve büyü kurtulma DC'ni kullanır.",
+				"Enstrümanı, başarısız kurtulma zarında hedefin {@condition cezbedilme} durumuna girmesini sağlayan bir büyü yapmak için kullanıldığında, hedeflerin kurtulma zarında dezavantajı olur. Bu etki enstrümanı büyünün kaynağı olarak da, büyü yapma odağı olarak da kullansan işler.",
+				"Tüm ozanların enstrümanları şu büyüleri yapmak için kullanılabilir: {@spell fly (uç)}, {@spell invisibility (görünmezlik)}, {@spell levitate (havaya yükselme)} ve {@spell protection from evil and good (İyi ve Kötüden Korunma)}.",
+				"Ayrıca, Fochlucan bandoresi şunları da yapmak için kullanılabilir: {@spell entangle (dolaşıklık)}, {@spell faerie fire (peri ateşi)}, {@spell shillelagh (Şileyla)} ve {@spell speak with animals (hayvanlarla konuş)}."
 			]
 		},
 		{
-			"name": "Instrument of the Bards, Mac-Fuirmidh Cittern",
+			"name": "Ozanların Enstrümanı, Mac-Fuirmidh Citterni",
 			"type": "INS",
 			"wondrous": true,
 			"weight": "2",
@@ -3080,15 +3080,15 @@
 			"page": 176,
 			"reqAttune": "by a Bard",
 			"entries": [
-				"An instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 psychic damage.",
-				"You can use an action to play the instrument and cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.",
-				"When you use the instrument to cast a spell that causes targets to become {@condition charmed} on a failed save, the targets have disadvantage on the saving throw. This effect applies whether you are using the instrument as the source of the spell or as a spellcasting focus.",
-				"All instruments of the bards can be used to cast the following spells: {@spell fly}, {@spell invisibility}, {@spell levitate}, and {@spell protection from evil and good}.",
-				"In addition, the Mac-Fuirmidh cittern can be used to cast {@spell barkskin}, {@spell cure wounds}, and {@spell fog cloud}."
+				"Bir ozanların enstrümanı türünün öne çıkan örneklerinden biridir, sıradan bir enstrümana her yönüyle üstündür. Bu enstrümanlardan 7 çeşit vardır, her biri efsanevi bir ozan koleji ile adlandırılır. Enstrümana bağlanmadan çalmaya çalışan bir varlık DC 15 Akıl kurtulma zarı atar ya da 2d4 psişik hasar alır.",
+				"Eylemini kullanıp enstrümanı çalarak büyülerinden birini kullanabilirsin. Enstrüman bir büyüyü yapmak için kullanıldığında, sonraki şafağa kadar o büyüyü yapmak için tekrar kullanılamaz. Büyüler senin büyü yapma yeteneğini ve büyü kurtulma DC'ni kullanır.",
+				"Enstrümanı, başarısız kurtulma zarında hedefin {@condition cezbedilme} durumuna girmesini sağlayan bir büyü yapmak için kullanıldığında, hedeflerin kurtulma zarında dezavantajı olur. Bu etki enstrümanı büyünün kaynağı olarak da, büyü yapma odağı olarak da kullansan işler.",
+				"Tüm ozanların enstrümanları şu büyüleri yapmak için kullanılabilir: {@spell fly (uç)}, {@spell invisibility (görünmezlik)}, {@spell levitate (havaya yükselme)} ve {@spell protection from evil and good (İyi ve Kötüden Korunma)}.",
+				"Ayrıca, Mac-Fuirmidh Citterni şunları da yapmak için kullanılabilir: {@spell barkskin (kabukderi)}, {@spell cure wounds (Yaraları İyileştir)} ve {@spell fog cloud (sis bulutu)}."
 			]
 		},
 		{
-			"name": "Instrument of the Bards, Ollamh Harp",
+			"name": "Ozanların Enstrümanı, Ollamh Harpi",
 			"type": "INS",
 			"wondrous": true,
 			"weight": "2",
@@ -3098,15 +3098,15 @@
 			"page": 176,
 			"reqAttune": "by a Bard",
 			"entries": [
-				"An instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 psychic damage.",
-				"You can use an action to play the instrument and cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.",
-				"When you use the instrument to cast a spell that causes targets to become {@condition charmed} on a failed save, the targets have disadvantage on the saving throw. This effect applies whether you are using the instrument as the source of the spell or as a spellcasting focus.",
-				"All instruments of the bards can be used to cast the following spells: {@spell fly}, {@spell invisibility}, {@spell levitate}, and {@spell protection from evil and good}.",
-				"In addition, the Ollamh harp can be used to cast {@spell confusion}, {@spell control weather}, and {@spell fire storm}."
+				"Bir ozanların enstrümanı türünün öne çıkan örneklerinden biridir, sıradan bir enstrümana her yönüyle üstündür. Bu enstrümanlardan 7 çeşit vardır, her biri efsanevi bir ozan koleji ile adlandırılır. Enstrümana bağlanmadan çalmaya çalışan bir varlık DC 15 Akıl kurtulma zarı atar ya da 2d4 psişik hasar alır.",
+				"Eylemini kullanıp enstrümanı çalarak büyülerinden birini kullanabilirsin. Enstrüman bir büyüyü yapmak için kullanıldığında, sonraki şafağa kadar o büyüyü yapmak için tekrar kullanılamaz. Büyüler senin büyü yapma yeteneğini ve büyü kurtulma DC'ni kullanır.",
+				"Enstrümanı, başarısız kurtulma zarında hedefin {@condition cezbedilme} durumuna girmesini sağlayan bir büyü yapmak için kullanıldığında, hedeflerin kurtulma zarında dezavantajı olur. Bu etki enstrümanı büyünün kaynağı olarak da, büyü yapma odağı olarak da kullansan işler.",
+				"Tüm ozanların enstrümanları şu büyüleri yapmak için kullanılabilir: {@spell fly (uç)}, {@spell invisibility (görünmezlik)}, {@spell levitate (havaya yükselme)} ve {@spell protection from evil and good (İyi ve Kötüden Korunma)}.",
+				"Ayrıca, Ollamh Harpi şunları da yapmak için kullanılabilir: {@spell confusion (Şaşkınlık)}, {@spell control weather (hava durumunu yönet)} ve {@spell fire storm (alev fırtınası)}."
 			]
 		},
 		{
-			"name": "Ioun Stone, Absorption",
+			"name": "Ioun Taşı, Emme",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Çok Nadir",
@@ -3114,15 +3114,15 @@
 			"page": 176,
 			"reqAttune": "YES",
 			"entries": [
-				"An {@italic Ioun stone} is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of {@italic Ioun stone} exist, each type a distinct combination of shape and color.",
-				"When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity ({@skill Acrobatics}) check. You can use an action to seize and stow the stone, ending its effect.",
-				"A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.",
-				"While this pale lavender ellipsoid orbits your head, you can use your reaction to cancel a spell of 4th level or lower cast by a creature you can see and targeting only you.",
-				"Once the stone has canceled 20 levels of spells, it burns out and turns dull gray, losing its magic. If you are targeted by a spell whose level is higher than the number of spell levels the stone has left, the stone can't cancel it."
+				"Bir {@italic Ioun taşı} adını bazı evrenlerin saygı gören bilgi ve kehanet tanrısı Ioun'dan alır. Birçok tip {@italic Ioun taşı} mevcuttur, her tip farklı renk ve şekillerin birleşimi olur.",
+				"Eylemini kullanıp bu taşlardan birini havaya attığında, taş başının etrafında 1d3 fit yörüngede dönmeye başlar ve faydalarını sana aktarır. Sonrasında, taşı senden ayırmak için başka bir varlığın eylemini kullanıp onu el ya da ağ ile yakalaması gerekir, ya 24 AC'ye karşı başarılı bir saldırı zarı atar ya da DC 24 Çeviklik ({@skill Akrobasi}) zarı. Sen eylemini kullanarak taşı alıp kaldırabilirsin, bu şekilde etkisi sonlanır.",
+				"Bir taşın 24 AC'si, 10 HP'si ve tüm hasara direnci vardır. Başının etrafında dönerken giyilen bir nesne sayılır.",
+				"Bu soluk lavanta rengi elips başının etrafında dönerken, reaksiyonunu kullanıp gördüğün bir varlık tarafından sadece seni hedef alan bir 4. seviye ve altındaki büyüyü iptal edebilirsin.",
+				"Taş toplam 20 seviye büyü engelledikten sonra yanar, rengi mat gri olur ve büyüsünü kaybeder. Eğer seviyesi taşında kalan seviyelerden yüksek olan bir büyünün hedefi olursan, taş bunu iptal edemez."
 			]
 		},
 		{
-			"name": "Ioun Stone, Agility",
+			"name": "Ioun Taşı, Çeviklik",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Çok Nadir",
@@ -3130,14 +3130,14 @@
 			"page": 176,
 			"reqAttune": "YES",
 			"entries": [
-				"An {@italic Ioun stone} is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of {@italic Ioun stone} exist, each type a distinct combination of shape and color.",
-				"When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity ({@skill Acrobatics}) check. You can use an action to seize and stow the stone, ending its effect.",
-				"A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.",
-				"Your Dexterity score increases by 2, to a maximum of 20, while this deep red sphere orbits your head."
+				"Bir {@italic Ioun taşı} adını bazı evrenlerin saygı gören bilgi ve kehanet tanrısı Ioun'dan alır. Birçok tip {@italic Ioun taşı} mevcuttur, her tip farklı renk ve şekillerin birleşimi olur.",
+				"Eylemini kullanıp bu taşlardan birini havaya attığında, taş başının etrafında 1d3 fit yörüngede dönmeye başlar ve faydalarını sana aktarır. Sonrasında, taşı senden ayırmak için başka bir varlığın eylemini kullanıp onu el ya da ağ ile yakalaması gerekir, ya 24 AC'ye karşı başarılı bir saldırı zarı atar ya da DC 24 Çeviklik ({@skill Akrobasi}) zarı. Sen eylemini kullanarak taşı alıp kaldırabilirsin, bu şekilde etkisi sonlanır.",
+				"Bir taşın 24 AC'si, 10 HP'si ve tüm hasara direnci vardır. Başının etrafında dönerken giyilen bir nesne sayılır.",
+				"Bu derin kırmızı küre başının etrafında dönerken Çeviklik skorun maksimum 20 olacak şekilde 2 artar."
 			]
 		},
 		{
-			"name": "Ioun Stone, Awareness",
+			"name": "Ioun Taşı, Farkındalık",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Nadir",
@@ -3145,14 +3145,14 @@
 			"page": 176,
 			"reqAttune": "YES",
 			"entries": [
-				"An {@italic Ioun stone} is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of {@italic Ioun stone} exist, each type a distinct combination of shape and color.",
-				"When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity ({@skill Acrobatics}) check. You can use an action to seize and stow the stone, ending its effect.",
-				"A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.",
-				"You can't be surprised while this dark blue rhomboid orbits your head."
+				"Bir {@italic Ioun taşı} adını bazı evrenlerin saygı gören bilgi ve kehanet tanrısı Ioun'dan alır. Birçok tip {@italic Ioun taşı} mevcuttur, her tip farklı renk ve şekillerin birleşimi olur.",
+				"Eylemini kullanıp bu taşlardan birini havaya attığında, taş başının etrafında 1d3 fit yörüngede dönmeye başlar ve faydalarını sana aktarır. Sonrasında, taşı senden ayırmak için başka bir varlığın eylemini kullanıp onu el ya da ağ ile yakalaması gerekir, ya 24 AC'ye karşı başarılı bir saldırı zarı atar ya da DC 24 Çeviklik ({@skill Akrobasi}) zarı. Sen eylemini kullanarak taşı alıp kaldırabilirsin, bu şekilde etkisi sonlanır.",
+				"Bir taşın 24 AC'si, 10 HP'si ve tüm hasara direnci vardır. Başının etrafında dönerken giyilen bir nesne sayılır.",
+				"Bu koyu mavi paralelkenar başının etrafında dönerken sürprize uğratılamazsın."
 			]
 		},
 		{
-			"name": "Ioun Stone, Fortitude",
+			"name": "Ioun Taşı, Dayanıklılık",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Çok Nadir",
@@ -3160,14 +3160,14 @@
 			"page": 176,
 			"reqAttune": "YES",
 			"entries": [
-				"An {@italic Ioun stone} is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of {@italic Ioun stone} exist, each type a distinct combination of shape and color.",
-				"When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity ({@skill Acrobatics}) check. You can use an action to seize and stow the stone, ending its effect.",
-				"A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.",
-				"Your Constitution score increases by 2, to a maximum of 20, while this pink rhomboid orbits your head."
+				"Bir {@italic Ioun taşı} adını bazı evrenlerin saygı gören bilgi ve kehanet tanrısı Ioun'dan alır. Birçok tip {@italic Ioun taşı} mevcuttur, her tip farklı renk ve şekillerin birleşimi olur.",
+				"Eylemini kullanıp bu taşlardan birini havaya attığında, taş başının etrafında 1d3 fit yörüngede dönmeye başlar ve faydalarını sana aktarır. Sonrasında, taşı senden ayırmak için başka bir varlığın eylemini kullanıp onu el ya da ağ ile yakalaması gerekir, ya 24 AC'ye karşı başarılı bir saldırı zarı atar ya da DC 24 Çeviklik ({@skill Akrobasi}) zarı. Sen eylemini kullanarak taşı alıp kaldırabilirsin, bu şekilde etkisi sonlanır.",
+				"Bir taşın 24 AC'si, 10 HP'si ve tüm hasara direnci vardır. Başının etrafında dönerken giyilen bir nesne sayılır.",
+				"Bu pembe paralelkenar başının etrafında dönerken Dayanıklılık skorun maksimum 20 olacak şekilde 2 artar."
 			]
 		},
 		{
-			"name": "Ioun Stone, Greater Absorption",
+			"name": "Ioun Taşı, Üstün Emme",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Efsanevi",
@@ -3175,14 +3175,14 @@
 			"page": 176,
 			"reqAttune": "YES",
 			"entries": [
-				"An {@italic Ioun stone} is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of {@italic Ioun stone} exist, each type a distinct combination of shape and color.",
-				"When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity ({@skill Acrobatics}) check. You can use an action to seize and stow the stone, ending its effect.",
-				"A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.",
-				"While this marbled lavender and green ellipsoid orbits your head, you can use your reaction to cancel a spell of 8th level or lower cast by a creature you can see and targeting only you. Once the stone has canceled 50 levels of spells, it burns out and turns dull gray, losing its magic. If you are targeted by a spell whose level is higher than the number of spell levels the stone has left, the stone can't cancel it."
+				"Bir {@italic Ioun taşı} adını bazı evrenlerin saygı gören bilgi ve kehanet tanrısı Ioun'dan alır. Birçok tip {@italic Ioun taşı} mevcuttur, her tip farklı renk ve şekillerin birleşimi olur.",
+				"Eylemini kullanıp bu taşlardan birini havaya attığında, taş başının etrafında 1d3 fit yörüngede dönmeye başlar ve faydalarını sana aktarır. Sonrasında, taşı senden ayırmak için başka bir varlığın eylemini kullanıp onu el ya da ağ ile yakalaması gerekir, ya 24 AC'ye karşı başarılı bir saldırı zarı atar ya da DC 24 Çeviklik ({@skill Akrobasi}) zarı. Sen eylemini kullanarak taşı alıp kaldırabilirsin, bu şekilde etkisi sonlanır.",
+				"Bir taşın 24 AC'si, 10 HP'si ve tüm hasara direnci vardır. Başının etrafında dönerken giyilen bir nesne sayılır.",
+				"Bu soluk lavanta ve yeşil rengi elips başının etrafında dönerken, reaksiyonunu kullanıp gördüğün bir varlık tarafından sadece seni hedef alan bir 8. seviye ve altındaki büyüyü iptal edebilirsin. Taş toplam 50 seviye büyü engelledikten sonra yanar, rengi mat gri olur ve büyüsünü kaybeder. Eğer seviyesi taşında kalan seviyelerden yüksek olan bir büyünün hedefi olursan, taş bunu iptal edemez."
 			]
 		},
 		{
-			"name": "Ioun Stone, Insight",
+			"name": "Ioun Taşı, Akıl",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Çok Nadir",
@@ -3190,14 +3190,14 @@
 			"page": 176,
 			"reqAttune": "YES",
 			"entries": [
-				"An {@italic Ioun stone} is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of {@italic Ioun stone} exist, each type a distinct combination of shape and color.",
-				"When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity ({@skill Acrobatics}) check. You can use an action to seize and stow the stone, ending its effect.",
-				"A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.",
-				"Your Wisdom score increases by 2, to a maximum of 20, while this incandescent blue sphere orbits your head."
+				"Bir {@italic Ioun taşı} adını bazı evrenlerin saygı gören bilgi ve kehanet tanrısı Ioun'dan alır. Birçok tip {@italic Ioun taşı} mevcuttur, her tip farklı renk ve şekillerin birleşimi olur.",
+				"Eylemini kullanıp bu taşlardan birini havaya attığında, taş başının etrafında 1d3 fit yörüngede dönmeye başlar ve faydalarını sana aktarır. Sonrasında, taşı senden ayırmak için başka bir varlığın eylemini kullanıp onu el ya da ağ ile yakalaması gerekir, ya 24 AC'ye karşı başarılı bir saldırı zarı atar ya da DC 24 Çeviklik ({@skill Akrobasi}) zarı. Sen eylemini kullanarak taşı alıp kaldırabilirsin, bu şekilde etkisi sonlanır.",
+				"Bir taşın 24 AC'si, 10 HP'si ve tüm hasara direnci vardır. Başının etrafında dönerken giyilen bir nesne sayılır.",
+				"Bu akkor mavi küre başının etrafında dönerken Akıl skorun maksimum 20 olacak şekilde 2 artar."
 			]
 		},
 		{
-			"name": "Ioun Stone, Intellect",
+			"name": "Ioun Taşı, Zeka",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Çok Nadir",
@@ -3205,14 +3205,14 @@
 			"page": 176,
 			"reqAttune": "YES",
 			"entries": [
-				"An {@italic Ioun stone} is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of {@italic Ioun stone} exist, each type a distinct combination of shape and color.",
-				"When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity ({@skill Acrobatics}) check. You can use an action to seize and stow the stone, ending its effect.",
-				"A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.",
-				"Your Intelligence score increases by 2, to a maximum of 20, while this marbled scarlet and blue sphere orbits your head."
+				"Bir {@italic Ioun taşı} adını bazı evrenlerin saygı gören bilgi ve kehanet tanrısı Ioun'dan alır. Birçok tip {@italic Ioun taşı} mevcuttur, her tip farklı renk ve şekillerin birleşimi olur.",
+				"Eylemini kullanıp bu taşlardan birini havaya attığında, taş başının etrafında 1d3 fit yörüngede dönmeye başlar ve faydalarını sana aktarır. Sonrasında, taşı senden ayırmak için başka bir varlığın eylemini kullanıp onu el ya da ağ ile yakalaması gerekir, ya 24 AC'ye karşı başarılı bir saldırı zarı atar ya da DC 24 Çeviklik ({@skill Akrobasi}) zarı. Sen eylemini kullanarak taşı alıp kaldırabilirsin, bu şekilde etkisi sonlanır.",
+				"Bir taşın 24 AC'si, 10 HP'si ve tüm hasara direnci vardır. Başının etrafında dönerken giyilen bir nesne sayılır.",
+				"Bu kızıl ve mavi küre başının etrafında dönerken Zeka skorun maksimum 20 olacak şekilde 2 artar."
 			]
 		},
 		{
-			"name": "Ioun Stone, Leadership",
+			"name": "Ioun Taşı, Karizma",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Çok Nadir",
@@ -3220,14 +3220,14 @@
 			"page": 176,
 			"reqAttune": "YES",
 			"entries": [
-				"An {@italic Ioun stone} is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of {@italic Ioun stone} exist, each type a distinct combination of shape and color.",
-				"When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity ({@skill Acrobatics}) check. You can use an action to seize and stow the stone, ending its effect.",
-				"A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.",
-				"Your Charisma score increases by 2, to a maximum of 20, while this marbled pink and green sphere orbits your head."
+				"Bir {@italic Ioun taşı} adını bazı evrenlerin saygı gören bilgi ve kehanet tanrısı Ioun'dan alır. Birçok tip {@italic Ioun taşı} mevcuttur, her tip farklı renk ve şekillerin birleşimi olur.",
+				"Eylemini kullanıp bu taşlardan birini havaya attığında, taş başının etrafında 1d3 fit yörüngede dönmeye başlar ve faydalarını sana aktarır. Sonrasında, taşı senden ayırmak için başka bir varlığın eylemini kullanıp onu el ya da ağ ile yakalaması gerekir, ya 24 AC'ye karşı başarılı bir saldırı zarı atar ya da DC 24 Çeviklik ({@skill Akrobasi}) zarı. Sen eylemini kullanarak taşı alıp kaldırabilirsin, bu şekilde etkisi sonlanır.",
+				"Bir taşın 24 AC'si, 10 HP'si ve tüm hasara direnci vardır. Başının etrafında dönerken giyilen bir nesne sayılır.",
+				"Bu pembe ve yeşil küre başının etrafında dönerken Karizma skorun maksimum 20 olacak şekilde 2 artar."
 			]
 		},
 		{
-			"name": "Ioun Stone, Mastery",
+			"name": "Ioun Taşı, Ustalık",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Efsanevi",
@@ -3235,14 +3235,14 @@
 			"page": 176,
 			"reqAttune": "YES",
 			"entries": [
-				"An {@italic Ioun stone} is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of {@italic Ioun stone} exist, each type a distinct combination of shape and color.",
-				"When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity ({@skill Acrobatics}) check. You can use an action to seize and stow the stone, ending its effect.",
-				"A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.",
-				"Your proficiency bonus increases by 1 while this pale green prism orbits your head."
+				"Bir {@italic Ioun taşı} adını bazı evrenlerin saygı gören bilgi ve kehanet tanrısı Ioun'dan alır. Birçok tip {@italic Ioun taşı} mevcuttur, her tip farklı renk ve şekillerin birleşimi olur.",
+				"Eylemini kullanıp bu taşlardan birini havaya attığında, taş başının etrafında 1d3 fit yörüngede dönmeye başlar ve faydalarını sana aktarır. Sonrasında, taşı senden ayırmak için başka bir varlığın eylemini kullanıp onu el ya da ağ ile yakalaması gerekir, ya 24 AC'ye karşı başarılı bir saldırı zarı atar ya da DC 24 Çeviklik ({@skill Akrobasi}) zarı. Sen eylemini kullanarak taşı alıp kaldırabilirsin, bu şekilde etkisi sonlanır.",
+				"Bir taşın 24 AC'si, 10 HP'si ve tüm hasara direnci vardır. Başının etrafında dönerken giyilen bir nesne sayılır.",
+				"Bu açık yeşil prizma başının etrafında dönerken uzmanlık bonusun 1 artar."
 			]
 		},
 		{
-			"name": "Ioun Stone, Protection",
+			"name": "Ioun Taşı, Korunma",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Nadir",
@@ -3250,14 +3250,14 @@
 			"page": 176,
 			"reqAttune": "YES",
 			"entries": [
-				"An {@italic Ioun stone} is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of {@italic Ioun stone} exist, each type a distinct combination of shape and color.",
-				"When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity ({@skill Acrobatics}) check. You can use an action to seize and stow the stone, ending its effect.",
-				"A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.",
-				"You gain a +1 bonus to AC while this dusty rose prism orbits your head."
+				"Bir {@italic Ioun taşı} adını bazı evrenlerin saygı gören bilgi ve kehanet tanrısı Ioun'dan alır. Birçok tip {@italic Ioun taşı} mevcuttur, her tip farklı renk ve şekillerin birleşimi olur.",
+				"Eylemini kullanıp bu taşlardan birini havaya attığında, taş başının etrafında 1d3 fit yörüngede dönmeye başlar ve faydalarını sana aktarır. Sonrasında, taşı senden ayırmak için başka bir varlığın eylemini kullanıp onu el ya da ağ ile yakalaması gerekir, ya 24 AC'ye karşı başarılı bir saldırı zarı atar ya da DC 24 Çeviklik ({@skill Akrobasi}) zarı. Sen eylemini kullanarak taşı alıp kaldırabilirsin, bu şekilde etkisi sonlanır.",
+				"Bir taşın 24 AC'si, 10 HP'si ve tüm hasara direnci vardır. Başının etrafında dönerken giyilen bir nesne sayılır.",
+				"Bu toz pembe prizma başının etrafında dönerken AC'ye +1 bonus alırsın."
 			]
 		},
 		{
-			"name": "Ioun Stone, Regeneration",
+			"name": "Ioun Taşı, Yenilenme",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Efsanevi",
@@ -3265,14 +3265,14 @@
 			"page": 176,
 			"reqAttune": "YES",
 			"entries": [
-				"An {@italic Ioun stone} is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of {@italic Ioun stone} exist, each type a distinct combination of shape and color.",
-				"When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity ({@skill Acrobatics}) check. You can use an action to seize and stow the stone, ending its effect.",
-				"A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.",
-				"You regain 15 hit points at the end of each hour this pearly white spindle orbits your head, provided that you have at least 1 hit point."
+				"Bir {@italic Ioun taşı} adını bazı evrenlerin saygı gören bilgi ve kehanet tanrısı Ioun'dan alır. Birçok tip {@italic Ioun taşı} mevcuttur, her tip farklı renk ve şekillerin birleşimi olur.",
+				"Eylemini kullanıp bu taşlardan birini havaya attığında, taş başının etrafında 1d3 fit yörüngede dönmeye başlar ve faydalarını sana aktarır. Sonrasında, taşı senden ayırmak için başka bir varlığın eylemini kullanıp onu el ya da ağ ile yakalaması gerekir, ya 24 AC'ye karşı başarılı bir saldırı zarı atar ya da DC 24 Çeviklik ({@skill Akrobasi}) zarı. Sen eylemini kullanarak taşı alıp kaldırabilirsin, bu şekilde etkisi sonlanır.",
+				"Bir taşın 24 AC'si, 10 HP'si ve tüm hasara direnci vardır. Başının etrafında dönerken giyilen bir nesne sayılır.",
+				"Bu inci beyazı çubuk başının etrafında dönerken her saatin sonunda en az 1 HP'ye sahipsen 15 HP yenilersin."
 			]
 		},
 		{
-			"name": "Ioun Stone, Reserve",
+			"name": "Ioun Taşı, Rezerv",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Nadir",
@@ -3280,16 +3280,16 @@
 			"page": 176,
 			"reqAttune": "YES",
 			"entries": [
-				"An {@italic Ioun stone} is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of {@italic Ioun stone} exist, each type a distinct combination of shape and color.",
-				"When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity ({@skill Acrobatics}) check. You can use an action to seize and stow the stone, ending its effect.",
-				"A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.",
-				"This vibrant purple prism stores spells cast into it, holding them until you use them. The stone can store up to 3 levels worth of spells at a time. When found, it contains 1d4-1 levels of stored spells chosen by the DM.",
-				"Any creature can cast a spell of 1st through 3rd level into the stone by touching it as the spell is cast. The spell has no effect, other than to be stored in the stone. If the stone can't hold the spell, the spell is expended without effect. The level of the slot used to cast the spell determines how much space it uses.",
-				"While this stone orbits your head, you can cast any spell stored in it. The spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster, but is otherwise treated as if you cast the spell. The spell cast from the stone is no longer stored in it, freeing up space."
+				"Bir {@italic Ioun taşı} adını bazı evrenlerin saygı gören bilgi ve kehanet tanrısı Ioun'dan alır. Birçok tip {@italic Ioun taşı} mevcuttur, her tip farklı renk ve şekillerin birleşimi olur.",
+				"Eylemini kullanıp bu taşlardan birini havaya attığında, taş başının etrafında 1d3 fit yörüngede dönmeye başlar ve faydalarını sana aktarır. Sonrasında, taşı senden ayırmak için başka bir varlığın eylemini kullanıp onu el ya da ağ ile yakalaması gerekir, ya 24 AC'ye karşı başarılı bir saldırı zarı atar ya da DC 24 Çeviklik ({@skill Akrobasi}) zarı. Sen eylemini kullanarak taşı alıp kaldırabilirsin, bu şekilde etkisi sonlanır.",
+				"Bir taşın 24 AC'si, 10 HP'si ve tüm hasara direnci vardır. Başının etrafında dönerken giyilen bir nesne sayılır.",
+				"Bu parlak mor prizma içine yaptığın büyüleri saklar, sen kullanana kadar tutar. Taş aynı anda 3 seviyelik büyü tutabilir. Bulunduğunda, içinde DM tarafından seçilmiş 1d4-1 seviye büyü olur.",
+				"Herhangi bir varlık büyüyü yaparken taşa dokunarak onu 1 ile 3. seviye arası bir büyü ile doldurabilir. Büyünün taşa depolanma dışında bir etkisi olmaz. Eğer taş büyüyü tutamazsa, büyü herhangi bir etkisi olmadan harcanır. Büyüyü kullanırken harcanan büyü yuvası, bu büyünün ne kadar yer kaplayacağını belirler.",
+				"Bu taş başının etrafında dönerken içinde depolanmış herhangi bir büyüyü kullanabilirsin. Büyü için yuva seviyesi, kurtulma DC'si, saldırı bonusu ve büyü yapma yeteneği orijinal kullanıcıdan alınır ama büyüyü sen yapmış sayılırsın. Taştan yapılan bir büyü artık orada depolanmaz, rezervde yer açılır."
 			]
 		},
 		{
-			"name": "Ioun Stone, Strength",
+			"name": "Ioun Taşı, Kuvvet",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Çok Nadir",
@@ -3297,14 +3297,14 @@
 			"page": 176,
 			"reqAttune": "YES",
 			"entries": [
-				"An {@italic Ioun stone} is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of {@italic Ioun stone} exist, each type a distinct combination of shape and color.",
-				"When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity ({@skill Acrobatics}) check. You can use an action to seize and stow the stone, ending its effect.",
-				"A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.",
-				"Your Strength score increases by 2, to a maximum of 20, while this pale blue rhomboid orbits your head."
+				"Bir {@italic Ioun taşı} adını bazı evrenlerin saygı gören bilgi ve kehanet tanrısı Ioun'dan alır. Birçok tip {@italic Ioun taşı} mevcuttur, her tip farklı renk ve şekillerin birleşimi olur.",
+				"Eylemini kullanıp bu taşlardan birini havaya attığında, taş başının etrafında 1d3 fit yörüngede dönmeye başlar ve faydalarını sana aktarır. Sonrasında, taşı senden ayırmak için başka bir varlığın eylemini kullanıp onu el ya da ağ ile yakalaması gerekir, ya 24 AC'ye karşı başarılı bir saldırı zarı atar ya da DC 24 Çeviklik ({@skill Akrobasi}) zarı. Sen eylemini kullanarak taşı alıp kaldırabilirsin, bu şekilde etkisi sonlanır.",
+				"Bir taşın 24 AC'si, 10 HP'si ve tüm hasara direnci vardır. Başının etrafında dönerken giyilen bir nesne sayılır.",
+				"Bu soluk mavi paralelkenar başının etrafında dönerken Kuvvet skorun maksimum 20 olacak şekilde 2 artar."
 			]
 		},
 		{
-			"name": "Ioun Stone, Sustenance",
+			"name": "Ioun Taşı, Besin",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Nadir",
@@ -3312,10 +3312,10 @@
 			"page": 176,
 			"reqAttune": "YES",
 			"entries": [
-				"An {@italic Ioun stone} is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of {@italic Ioun stone} exist, each type a distinct combination of shape and color.",
-				"When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity ({@skill Acrobatics}) check. You can use an action to seize and stow the stone, ending its effect.",
-				"A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.",
-				"You don't need to eat or drink while this clear spindle orbits your head."
+				"Bir {@italic Ioun taşı} adını bazı evrenlerin saygı gören bilgi ve kehanet tanrısı Ioun'dan alır. Birçok tip {@italic Ioun taşı} mevcuttur, her tip farklı renk ve şekillerin birleşimi olur.",
+				"Eylemini kullanıp bu taşlardan birini havaya attığında, taş başının etrafında 1d3 fit yörüngede dönmeye başlar ve faydalarını sana aktarır. Sonrasında, taşı senden ayırmak için başka bir varlığın eylemini kullanıp onu el ya da ağ ile yakalaması gerekir, ya 24 AC'ye karşı başarılı bir saldırı zarı atar ya da DC 24 Çeviklik ({@skill Akrobasi}) zarı. Sen eylemini kullanarak taşı alıp kaldırabilirsin, bu şekilde etkisi sonlanır.",
+				"Bir taşın 24 AC'si, 10 HP'si ve tüm hasara direnci vardır. Başının etrafında dönerken giyilen bir nesne sayılır.",
+				"Bu saydam çubuk başının etrafında dönerken yeme içme ihtiyacı duymazsın."
 			]
 		},
 		{
@@ -5596,91 +5596,91 @@
 			]
 		},
 		{
-			"name": "Scroll of Protection from Aberrations",
+			"name": "Aberasyonlardan Korunma Tomarı",
 			"type": "SC",
 			"tier": "Alt",
 			"rarity": "Nadir",
 			"source": "DMG",
 			"page": 199,
 			"entries": [
-				"Using an action to read the scroll encloses you in an {@condition invisible} barrier that extends from you to form a 5-foot-radius, 10-foot-high cylinder. For 5 minutes, this barrier prevents aberrations from entering or affecting anything within the cylinder. The cylinder moves with you and remains centered on you. However, if you move in such a way that an aberration would be inside the cylinder, the effect ends. A creature can attempt to overcome the barrier by using an action to make a DC 15 Charisma check. On a success, the creature ceases to be affected by the barrier."
+				"Eylemini kullanıp tomarı okuduğunda, 5 fit yarıçaplı 10 fit yükseklikte görünmez bir silindir bariyer çevreni sarar. 5 dakika boyunca bu bariyer, aberasyonların bariyere girişini ve içerideki şeylerle etkileşimini engeller. Silindir senle hareket eder ve merkezinde sen olursun. Fakat, bir aberasyonu silindirin içine alacak şekilde hareket edersen bu etki sonlanır. Bir varlık eylemini kullanıp DC 15 Karizma zarı atarak bariyeri aşmayı deneyebilir. Başarılı olursa, varlık artık bu bariyerden etkilenmez."
 			]
 		},
 		{
-			"name": "Scroll of Protection from Beasts",
+			"name": "Hayvanlardan Korunma Tomarı",
 			"type": "SC",
 			"tier": "Alt",
 			"rarity": "Nadir",
 			"source": "DMG",
 			"page": 199,
 			"entries": [
-				"Using an action to read the scroll encloses you in an {@condition invisible} barrier that extends from you to form a 5-foot-radius, 10-foot-high cylinder. For 5 minutes, this barrier prevents beasts from entering or affecting anything within the cylinder. The cylinder moves with you and remains centered on you. However, if you move in such a way that a beast would be inside the cylinder, the effect ends. A creature can attempt to overcome the barrier by using an action to make a DC 15 Charisma check. On a success, the creature ceases to be affected by the barrier."
+				"Eylemini kullanıp tomarı okuduğunda, 5 fit yarıçaplı 10 fit yükseklikte görünmez bir silindir bariyer çevreni sarar. 5 dakika boyunca bu bariyer, hayvanların bariyere girişini ve içerideki şeylerle etkileşimini engeller. Silindir senle hareket eder ve merkezinde sen olursun. Fakat, bir hayvanı silindirin içine alacak şekilde hareket edersen bu etki sonlanır. Bir varlık eylemini kullanıp DC 15 Karizma zarı atarak bariyeri aşmayı deneyebilir. Başarılı olursa, varlık artık bu bariyerden etkilenmez."
 			]
 		},
 		{
-			"name": "Scroll of Protection from Celestials",
+			"name": "Kutsallardan Korunma Tomarı",
 			"type": "SC",
 			"tier": "Alt",
 			"rarity": "Nadir",
 			"source": "DMG",
 			"page": 199,
 			"entries": [
-				"Using an action to read the scroll encloses you in an {@condition invisible} barrier that extends from you to form a 5-foot-radius, 10-foot-high cylinder. For 5 minutes, this barrier prevents celestials from entering or affecting anything within the cylinder. The cylinder moves with you and remains centered on you. However, if you move in such a way that a celestial would be inside the cylinder, the effect ends. A creature can attempt to overcome the barrier by using an action to make a DC 15 Charisma check. On a success, the creature ceases to be affected by the barrier."
+				"Eylemini kullanıp tomarı okuduğunda, 5 fit yarıçaplı 10 fit yükseklikte görünmez bir silindir bariyer çevreni sarar. 5 dakika boyunca bu bariyer, kutsalların bariyere girişini ve içerideki şeylerle etkileşimini engeller. Silindir senle hareket eder ve merkezinde sen olursun. Fakat, bir kutsalı silindirin içine alacak şekilde hareket edersen bu etki sonlanır. Bir varlık eylemini kullanıp DC 15 Karizma zarı atarak bariyeri aşmayı deneyebilir. Başarılı olursa, varlık artık bu bariyerden etkilenmez."
 			]
 		},
 		{
-			"name": "Scroll of Protection from Elementals",
+			"name": "Elementallerden Korunma Tomarı",
 			"type": "SC",
 			"tier": "Alt",
 			"rarity": "Nadir",
 			"source": "DMG",
 			"page": 199,
 			"entries": [
-				"Using an action to read the scroll encloses you in an {@condition invisible} barrier that extends from you to form a 5-foot-radius, 10-foot-high cylinder. For 5 minutes, this barrier prevents elementals from entering or affecting anything within the cylinder. The cylinder moves with you and remains centered on you. However, if you move in such a way that an elemental would be inside the cylinder, the effect ends. A creature can attempt to overcome the barrier by using an action to make a DC 15 Charisma check. On a success, the creature ceases to be affected by the barrier."
+				"Eylemini kullanıp tomarı okuduğunda, 5 fit yarıçaplı 10 fit yükseklikte görünmez bir silindir bariyer çevreni sarar. 5 dakika boyunca bu bariyer, elementallerin bariyere girişini ve içerideki şeylerle etkileşimini engeller. Silindir senle hareket eder ve merkezinde sen olursun. Fakat, bir elementali silindirin içine alacak şekilde hareket edersen bu etki sonlanır. Bir varlık eylemini kullanıp DC 15 Karizma zarı atarak bariyeri aşmayı deneyebilir. Başarılı olursa, varlık artık bu bariyerden etkilenmez."
 			]
 		},
 		{
-			"name": "Scroll of Protection from Fey",
+			"name": "Feylerden Korunma Tomarı",
 			"type": "SC",
 			"tier": "Alt",
 			"rarity": "Nadir",
 			"source": "DMG",
 			"page": 199,
 			"entries": [
-				"Using an action to read the scroll encloses you in an {@condition invisible} barrier that extends from you to form a 5-foot-radius, 10-foot-high cylinder. For 5 minutes, this barrier prevents fey from entering or affecting anything within the cylinder. The cylinder moves with you and remains centered on you. However, if you move in such a way that a fey would be inside the cylinder, the effect ends. A creature can attempt to overcome the barrier by using an action to make a DC 15 Charisma check. On a success, the creature ceases to be affected by the barrier."
+				"Eylemini kullanıp tomarı okuduğunda, 5 fit yarıçaplı 10 fit yükseklikte görünmez bir silindir bariyer çevreni sarar. 5 dakika boyunca bu bariyer, feylerin bariyere girişini ve içerideki şeylerle etkileşimini engeller. Silindir senle hareket eder ve merkezinde sen olursun. Fakat, bir feyi silindirin içine alacak şekilde hareket edersen bu etki sonlanır. Bir varlık eylemini kullanıp DC 15 Karizma zarı atarak bariyeri aşmayı deneyebilir. Başarılı olursa, varlık artık bu bariyerden etkilenmez."
 			]
 		},
 		{
-			"name": "Scroll of Protection from Fiends",
+			"name": "Zebanilerden Korunma Tomarı",
 			"type": "SC",
 			"tier": "Alt",
 			"rarity": "Nadir",
 			"source": "DMG",
 			"page": 199,
 			"entries": [
-				"Using an action to read the scroll encloses you in an {@condition invisible} barrier that extends from you to form a 5-foot-radius, 10-foot-high cylinder. For 5 minutes, this barrier prevents fiends from entering or affecting anything within the cylinder. The cylinder moves with you and remains centered on you. However, if you move in such a way that a fiend would be inside the cylinder, the effect ends. A creature can attempt to overcome the barrier by using an action to make a DC 15 Charisma check. On a success, the creature ceases to be affected by the barrier."
+				"Eylemini kullanıp tomarı okuduğunda, 5 fit yarıçaplı 10 fit yükseklikte görünmez bir silindir bariyer çevreni sarar. 5 dakika boyunca bu bariyer, zebanilerin bariyere girişini ve içerideki şeylerle etkileşimini engeller. Silindir senle hareket eder ve merkezinde sen olursun. Fakat, bir zebaniyi silindirin içine alacak şekilde hareket edersen bu etki sonlanır. Bir varlık eylemini kullanıp DC 15 Karizma zarı atarak bariyeri aşmayı deneyebilir. Başarılı olursa, varlık artık bu bariyerden etkilenmez."
 			]
 		},
 		{
-			"name": "Scroll of Protection from Plants",
+			"name": "Bitkilerden Korunma Tomarı",
 			"type": "SC",
 			"tier": "Alt",
 			"rarity": "Nadir",
 			"source": "DMG",
 			"page": 199,
 			"entries": [
-				"Using an action to read the scroll encloses you in an {@condition invisible} barrier that extends from you to form a 5-foot-radius, 10-foot-high cylinder. For 5 minutes, this barrier prevents plants from entering or affecting anything within the cylinder. The cylinder moves with you and remains centered on you. However, if you move in such a way that a plant would be inside the cylinder, the effect ends. A creature can attempt to overcome the barrier by using an action to make a DC 15 Charisma check. On a success, the creature ceases to be affected by the barrier."
+				"Eylemini kullanıp tomarı okuduğunda, 5 fit yarıçaplı 10 fit yükseklikte görünmez bir silindir bariyer çevreni sarar. 5 dakika boyunca bu bariyer, bitkilerin bariyere girişini ve içerideki şeylerle etkileşimini engeller. Silindir senle hareket eder ve merkezinde sen olursun. Fakat, bir bitkiyi silindirin içine alacak şekilde hareket edersen bu etki sonlanır. Bir varlık eylemini kullanıp DC 15 Karizma zarı atarak bariyeri aşmayı deneyebilir. Başarılı olursa, varlık artık bu bariyerden etkilenmez."
 			]
 		},
 		{
-			"name": "Scroll of Protection from Undead",
+			"name": "Yaşayan Ölülerden Korunma Tomarı",
 			"type": "SC",
 			"tier": "Alt",
 			"rarity": "Nadir",
 			"source": "DMG",
 			"page": 199,
 			"entries": [
-				"Using an action to read the scroll encloses you in an {@condition invisible} barrier that extends from you to form a 5-foot-radius, 10-foot-high cylinder. For 5 minutes, this barrier prevents undead from entering or affecting anything within the cylinder. The cylinder moves with you and remains centered on you. However, if you move in such a way that an undead would be inside the cylinder, the effect ends. A creature can attempt to overcome the barrier by using an action to make a DC 15 Charisma check. On a success, the creature ceases to be affected by the barrier."
+				"Eylemini kullanıp tomarı okuduğunda, 5 fit yarıçaplı 10 fit yükseklikte görünmez bir silindir bariyer çevreni sarar. 5 dakika boyunca bu bariyer, yaşayan ölülerin bariyere girişini ve içerideki şeylerle etkileşimini engeller. Silindir senle hareket eder ve merkezinde sen olursun. Fakat, bir yaşayan ölüyü silindirin içine alacak şekilde hareket edersen bu etki sonlanır. Bir varlık eylemini kullanıp DC 15 Karizma zarı atarak bariyeri aşmayı deneyebilir. Başarılı olursa, varlık artık bu bariyerden etkilenmez."
 			]
 		},
 		{
@@ -6886,7 +6886,7 @@
 			]
 		},
 		{
-			"name": "Wand of the War Mage, +1",
+			"name": "Savaş Büyücüsünün Asası, +1",
 			"type": "WD",
 			"weight": "1",
 			"tier": "Üst",
@@ -6895,11 +6895,11 @@
 			"page": 212,
 			"reqAttune": "by a Spellcaster",
 			"entries": [
-				"While you are holding this wand, you gain a +1 bonus to spell attack rolls. In addition, you ignore half cover when making a spell attack."
+				"Bu asayı tutarken, büyü saldırı zarlarına +1 bonus alırsın. Ayrıca, büyü saldırısı yaparken yarı siperi yok sayarsın."
 			]
 		},
 		{
-			"name": "Wand of the War Mage, +2",
+			"name": "Savaş Büyücüsünün Asası, +2",
 			"type": "WD",
 			"weight": "1",
 			"tier": "Üst",
@@ -6908,11 +6908,11 @@
 			"page": 212,
 			"reqAttune": "by a Spellcaster",
 			"entries": [
-				"While you are holding this wand, you gain a +2 bonus to spell attack rolls. In addition, you ignore half cover when making a spell attack."
+				"Bu asayı tutarken, büyü saldırı zarlarına +2 bonus alırsın. Ayrıca, büyü saldırısı yaparken yarı siperi yok sayarsın."
 			]
 		},
 		{
-			"name": "Wand of the War Mage, +3",
+			"name": "Savaş Büyücüsünün Asası, +3",
 			"type": "WD",
 			"weight": "1",
 			"tier": "Üst",
@@ -6921,7 +6921,7 @@
 			"page": 212,
 			"reqAttune": "by a Spellcaster",
 			"entries": [
-				"While you are holding this wand, you gain a +3 bonus to spell attack rolls. In addition, you ignore half cover when making a spell attack."
+				"Bu asayı tutarken, büyü saldırı zarlarına +3 bonus alırsın. Ayrıca, büyü saldırısı yaparken yarı siperi yok sayarsın."
 			]
 		},
 		{

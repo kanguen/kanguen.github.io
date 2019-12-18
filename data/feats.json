@@ -79,7 +79,7 @@
 				{
 					"type": "list",
 					"items": [
-						"Uzman olduğun arbaletlerde Kurmalı özelliğini yoksayarsın.",
+						"Uzman olduğun arbaletlerde Kurmalı özelliğini yok sayarsın.",
 						"Düşman bir varlığın 5 feet yakınında olması menzilli saldırı zarlarında dezavantaj vermez.",
 						"Saldırı eylemini kullanıp tek elli bir silah ile saldırdığında, bonus eylemini kullanıp tuttuğun bir el arbaleti ile saldırı yapabilirsin."
 					]
@@ -163,7 +163,7 @@
 			],
 			"entries": [
 				"Bu hüneri kazandığında şunlardan bir hasar tipi seç: asit, soğuk, ateş, yıldırım, yada ses.",
-				"Kullandığın büyüler bu hasar tipine olan direnci yoksayar. Ek olarak bu hasar tipinde hasar veren bir büyü için hasar zarı attığında, zarda gelen 1'leri 2 sayabilirsin.",
+				"Kullandığın büyüler bu hasar tipine olan direnci yok sayar. Ek olarak bu hasar tipinde hasar veren bir büyü için hasar zarı attığında, zarda gelen 1'leri 2 sayabilirsin.",
 				"Bu hüneri birden çok kez seçebilirsin. Her seferinde farklı bir hasar tipi seçmen gerekir."
 			]
 		},
@@ -301,7 +301,7 @@
 					"items": [
 						"Daima hangi yönün kuzey olduğunu bilirsin.",
 						"Daima bir sonraki gün doğumu yada batımına kalan saati bilirsin.",
-						"Son ay içinde gördüğün yada duyduğun herşeyi doğru bir şekilde hatırlarsın."
+						"Son ay içinde gördüğün yada duyduğun her şeyi doğru bir şekilde hatırlarsın."
 					]
 				}
 			],
@@ -621,7 +621,7 @@
 					"type": "list",
 					"items": [
 						"Uzun menzilde menzilli silah saldırısı yapma sana dezavantaj vermez.",
-						"Menzilli silah saldırıların yarı ve üç çeyrek siperi yoksayar.",
+						"Menzilli silah saldırıların yarı ve üç çeyrek siperi yok sayar.",
 						"Uzman olduğun bir menzilli silahla saldırı yapmadan önce, saldırı zarına -5 almayı seçebilirsin. Eğer saldırı vurursa hasara +10 eklersin."
 					]
 				}
@@ -691,7 +691,7 @@
 					"type": "list",
 					"items": [
 						"Saldırı zarı atmanı gerektiren bir büyü kullandığında büyünün menzili ikiye katlanır.",
-						"Menzilli büyü saldırıların yarı ve üç çeyrek siperi yoksayar.",
+						"Menzilli büyü saldırıların yarı ve üç çeyrek siperi yok sayar.",
 						"Saldırı zarı gerektiren bir cantrip öğrenirsin. Cantripi ozan, rahip, druid, sorcerer, warlock, yada büyücü listesinden seç. Bu büyü için büyü yapma yeteneğin seçtiğin listeye bağlıdır: ozan, sorcerer, yada warlock için Karizma; rahip yada druid için Akıl; yada büyücü için Zeka."
 					]
 				}

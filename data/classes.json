@@ -660,7 +660,7 @@
 														"type": "entries",
 														"name": "Kartal",
 														"entries": [
-															"Öfkeliyken yürüme hızına eşit uçma hızı kazanırsın. Bu özellik sadece kısa hamlelerde etkilidir; eğer sıranı seni başka birşey havada tutmazken bitirirsen düşersin."
+															"Öfkeliyken yürüme hızına eşit uçma hızı kazanırsın. Bu özellik sadece kısa hamlelerde etkilidir; eğer sıranı seni başka bir şey havada tutmazken bitirirsen düşersin."
 														]
 													}
 												]
@@ -3423,7 +3423,7 @@
 										"type": "entries",
 										"name": "Kaçışı Olmayan Yıkım",
 										"entries": [
-											"6. seviyeden itibaren rahibin negatif enerji yönlendirmesi güçlenir. Rahibin Kutsal Yönlendirme özelliği ve büyüleri ile verdiği nekrotik hasar, hedefin nekrotik direncini yoksayar."
+											"6. seviyeden itibaren rahibin negatif enerji yönlendirmesi güçlenir. Rahibin Kutsal Yönlendirme özelliği ve büyüleri ile verdiği nekrotik hasar, hedefin nekrotik direncini yok sayar."
 										]
 									}
 								]
@@ -5748,7 +5748,7 @@
 										"type": "entries",
 										"name": "Çember Formları",
 										"entries": [
-											"Çemberinin öğretileri sana daha tehlikeli hayvanların formuna girme yeteneğini kazandırır. 2. seviyeden itibaren Yabani Şekil özelliğini kullanıp  {@filter zorluk seviyesi (CR) 1'e kadar çıkan bir hayvan|bestiary|cr=0;1/8;1/4;1/2;1|type=beast|speed=!fly;!swim|miscellaneous=!swarm} formuna girebilirsin (Yabani Şekiller tablosunun Max. CR sütununu yoksayarsın ama diğer kısıtlamalara uymalısın).",
+											"Çemberinin öğretileri sana daha tehlikeli hayvanların formuna girme yeteneğini kazandırır. 2. seviyeden itibaren Yabani Şekil özelliğini kullanıp  {@filter zorluk seviyesi (CR) 1'e kadar çıkan bir hayvan|bestiary|cr=0;1/8;1/4;1/2;1|type=beast|speed=!fly;!swim|miscellaneous=!swarm} formuna girebilirsin (Yabani Şekiller tablosunun Max. CR sütununu yok sayarsın ama diğer kısıtlamalara uymalısın).",
 											"6. seviyeden itibaren druid seviyenin üçte biri (alta yuvarlanır) kadar zorluk seviyesinde (CR) hayvanlara dönüşebilirsin.",
 											{
 												"type": "table",
@@ -7714,7 +7714,7 @@
 																"type": "entries",
 																"name": "Delen Ok",
 																"entries": [
-																	"Transmutation büyüsünü kullanıp okunu cisimsiz yapabilirsin. Bu özelliği kullandığında saldırı için zar atmazsın. Bunun yerine, ok ileri doğru 1 fit genişlikte 30 fit uzunlukta bir hat yaratır ve ortadan kaybolur. Ok nesnelerden zararsızca geçer, siperi yoksayar. Hattaki her varlık Çeviklik kurtulma zarı atar. Başarısız olursa, bir varlık sanki okla vurulmuşçasına hasar alır, ve üzerine fazladan 1d6 delme hasarı alır. Başarılı olursa, bir hedef bu hasarın yarısını alır.",
+																	"Transmutation büyüsünü kullanıp okunu cisimsiz yapabilirsin. Bu özelliği kullandığında saldırı için zar atmazsın. Bunun yerine, ok ileri doğru 1 fit genişlikte 30 fit uzunlukta bir hat yaratır ve ortadan kaybolur. Ok nesnelerden zararsızca geçer, siperi yok sayar. Hattaki her varlık Çeviklik kurtulma zarı atar. Başarısız olursa, bir varlık sanki okla vurulmuşçasına hasar alır, ve üzerine fazladan 1d6 delme hasarı alır. Başarılı olursa, bir hedef bu hasarın yarısını alır.",
 																	"Bu sınıfta 18. seviyeye ulaştığında delme hasarı 2d6'ya yükselir."
 																]
 															}
@@ -7727,7 +7727,7 @@
 																"type": "entries",
 																"name": "Güdümlü Ok",
 																"entries": [
-																	"Divination büyüsü kullanarak, bir oka hedefini izleme gücünü verirsin. Bu özelliği kullandığında, saldırı için zar atmazsın. Bunun yerine, son bir dakika içinde gördüğün bir varlığı seçersin. Ok o varlığa doğru uçar, gerekirse köşeleri döner ve yarım ya da 3 çeyrek siperi yoksayar. Eğer hedef silahın menzilinde ise ve okun hedefe ulaşmasına yetecek büyüklükte bir yol varsa, hedef Çeviklik kurtulma zarı atar. Aksi takdirde, ok gidebildiği yere kadar gider ve ortadan kaybolur. Başarısız olursa, hedef sanki okla vurulmuşçasına hasar alır ve bunun üzerine fazladan 1d6 güç hasarı alır, ayrıca hedefin o anki yerini öğrenirsin. Başarılı olursa, hedef yarı hasar alır ve onun yerini öğrenmezsin.",
+																	"Divination büyüsü kullanarak, bir oka hedefini izleme gücünü verirsin. Bu özelliği kullandığında, saldırı için zar atmazsın. Bunun yerine, son bir dakika içinde gördüğün bir varlığı seçersin. Ok o varlığa doğru uçar, gerekirse köşeleri döner ve yarım ya da 3 çeyrek siperi yok sayar. Eğer hedef silahın menzilinde ise ve okun hedefe ulaşmasına yetecek büyüklükte bir yol varsa, hedef Çeviklik kurtulma zarı atar. Aksi takdirde, ok gidebildiği yere kadar gider ve ortadan kaybolur. Başarısız olursa, hedef sanki okla vurulmuşçasına hasar alır ve bunun üzerine fazladan 1d6 güç hasarı alır, ayrıca hedefin o anki yerini öğrenirsin. Başarılı olursa, hedef yarı hasar alır ve onun yerini öğrenmezsin.",
 																	"Bu sınıfta 18. seviyeye ulaştığında güç hasarı 2d6'ya çıkar."
 																]
 															}
@@ -11558,7 +11558,7 @@
 											"exact": 1
 										}
 									},
-									"Kutsal saydığın herşeyi yok etmek isteyen ulu bir orc şefi"
+									"Kutsal saydığın her şeyi yok etmek isteyen ulu bir orc şefi"
 								],
 								[
 									{
@@ -13912,7 +13912,7 @@
 										"name": "Büyü Hırsızı",
 										"entries": [
 											"17. seviyede başka bir büyü kullanıcısından bir büyüyü kullanma bilgisini çalmayı öğrenirsin.",
-											"Bir varlık seni hedefleyen ya da seni etki alanının içinde bulunduran bir büyü kullandığında, hemen ardından reaksiyonunu kullanıp varlığı kendi büyü yapma yeteneği bonusu ile bir kurtulma zarı atmaya zorlarsın. DC senin büyü kurtulma zarı DC'sine eşittir. Başarısız olursa büyünün senin üzerindeki etkisini yoksayarsın ve eğer senin kullanabileceğin bir seviyede ise (büyücü büyüsü olmak zorunda değil) ve en az 1. seviye ise bu büyünün kullanım bilgisini çalarsın. Sonraki 8 saat boyunca bu büyüyü bilirsin ve kendi büyü yuvalarını harcayarak kullanabilirsin. Varlık bu büyüyü 8 saat geçene kadar kullanamaz.",
+											"Bir varlık seni hedefleyen ya da seni etki alanının içinde bulunduran bir büyü kullandığında, hemen ardından reaksiyonunu kullanıp varlığı kendi büyü yapma yeteneği bonusu ile bir kurtulma zarı atmaya zorlarsın. DC senin büyü kurtulma zarı DC'sine eşittir. Başarısız olursa büyünün senin üzerindeki etkisini yok sayarsın ve eğer senin kullanabileceğin bir seviyede ise (büyücü büyüsü olmak zorunda değil) ve en az 1. seviye ise bu büyünün kullanım bilgisini çalarsın. Sonraki 8 saat boyunca bu büyüyü bilirsin ve kendi büyü yuvalarını harcayarak kullanabilirsin. Varlık bu büyüyü 8 saat geçene kadar kullanamaz.",
 											"Bu özelliği kullandığında bir daha kullanabilmek için uzun dinlenme bitirmen gerekir."
 										]
 									}
@@ -14040,7 +14040,7 @@
 										"type": "entries",
 										"name": "Büyülü Alet Kullan",
 										"entries": [
-											"13. seviyeye kadar büyünün işleyişi hakkında topladığın bilgi sayesinde senin kullanımına uygun olmayan büyülü eşyaları bile kullanabilirsin. Büyülü eşyalar üzerindeki tüm sınıf, ırk ve seviye gereksinimlerini yoksayarsın."
+											"13. seviyeye kadar büyünün işleyişi hakkında topladığın bilgi sayesinde senin kullanımına uygun olmayan büyülü eşyaları bile kullanabilirsin. Büyülü eşyalar üzerindeki tüm sınıf, ırk ve seviye gereksinimlerini yok sayarsın."
 										]
 									}
 								]
@@ -15510,7 +15510,7 @@
 												"rows": [
 													[
 														"01-02",
-														"Bir dakika boyunca her sıranın başında bu tabloda zar at ve bu sonucu yeniden gelirse yoksay."
+														"Bir dakika boyunca her sıranın başında bu tabloda zar at ve bu sonucu yeniden gelirse yok say."
 													],
 													[
 														"03-04",
@@ -19016,7 +19016,7 @@
 										"name": "Aşırı Yönlendir",
 										"entries": [
 											"14. seviyeden itibaren basit büyülerinin güçlerini artırabilirsin. 1 ile 5. seviye arası hasar veren bir büyücü büyüsü kullandığında o büyü ile maksimum hasar verebilirsin.",
-											"Bunu ilk kullanışında herhangi bir yan etki görülmez. Eğer bu özelliği uzun dinlenme bitirmeden bir daha kullanırsan, kullanımın hemen ardında büyünün her seviyesi için 2d12 nekrotik hasar alırsın. Uzun dinlenme bitirmeden bu özelliği her kullanışında bu büyü seviyesi başı nekrotik hasar 1d12 artar. Bu hasar direnci ve bağışıklığını yoksayar."
+											"Bunu ilk kullanışında herhangi bir yan etki görülmez. Eğer bu özelliği uzun dinlenme bitirmeden bir daha kullanırsan, kullanımın hemen ardında büyünün her seviyesi için 2d12 nekrotik hasar alırsın. Uzun dinlenme bitirmeden bu özelliği her kullanışında bu büyü seviyesi başı nekrotik hasar 1d12 artar. Bu hasar direnci ve bağışıklığını yok sayar."
 										]
 									}
 								]
