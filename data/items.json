@@ -3481,7 +3481,7 @@
 			]
 		},
 		{
-			"name": "Javelin of Lightning",
+			"name": "Yıldırım Ciriti",
 			"type": "M",
 			"weaponCategory": "Basit",
 			"weight": "2",
@@ -3496,24 +3496,24 @@
 			"source": "DMG",
 			"page": 178,
 			"entries": [
-				"This javelin is a magic weapon. When you hurl it and speak its command word, it transforms into a bolt of lightning, forming a line 5 feet wide that extends out from you to a target within 120 feet. Each creature in the line excluding you and the target must make a DC 13 Dexterity saving throw, taking 4d6 lightning damage on a failed save, and half as much damage on a successful one. The lightning bolt turns back into a javelin when it reaches the target. Make a ranged weapon attack against the target. On a hit, the target takes damage from the javelin plus 4d6 lightning damage.",
-				"The javelin's property can't be used again until the next dawn. In the meantime, the javelin can still be used as a magic weapon."
+				"Bu cirit büyülü bir silahtır. Onu fırlatıp komut sözünü söylediğinde, senden hedefine 120 fite kadar uzanan 5 fit genişliğinde bir yıldırıma dönüşür. Hattaki sen ve hedefin dışındaki her varlık DC 13 Çeviklik kurtulma zarı atar, başarısız olursa 4d6 yıldırım hasarı alır, başarılı olursa bunun yarısını. Bu yıldırım hedefe vardığında yeniden cirite dönüşür. Hedefe karşı menzilli silah saldırısı yap. Vurursa, hedef hem ciritin hasarını hem de 4d6 yıldırım hasarını alır.",
+				"Sonraki şafağa kadar ciritin bu özelliği bir daha kullanılamaz. Bu süreçte, cirit hala büyülü bir silah olarak kullanılabilir."
 			]
 		},
 		{
-			"name": "Keoghtom's Ointment",
+			"name": "Keoghtom'un Merhemi",
 			"wondrous": true,
 			"tier": "Alt",
 			"rarity": "Seyrek",
 			"source": "DMG",
 			"page": 179,
 			"entries": [
-				"This glass jar, 3 inches in diameter, contains 1d4+1 doses of a thick mixture that smells faintly of aloe. The jar and its contents weigh ½ pound.",
-				"As an action, one dose of the ointment can be swallowed or applied to the skin. The creature that receives it regains 2d8+2 hit points, ceases to be {@condition poisoned}, and is cured of any disease."
+				"Bu 3 inç çapındaki cam kavanoz, 1d4+1 doz aloe kokan bir yoğun karışım içerir. Kavanoz ve içeriğinin ağırlığı yarım pounddur.",
+				"Eylem olarak, bir doz merhem deriye sürülebilir ya da yutulabilir. Bunu alan varlık 2d8+2 HP yeniler, {@condition zehirlenme} durumu sonlanır ve tüm hastalıklardan kurtulur."
 			]
 		},
 		{
-			"name": "Lantern of Revealing",
+			"name": "Meydana Çıkarma Feneri",
 			"wondrous": true,
 			"weight": "2",
 			"tier": "Alt",
@@ -3521,7 +3521,7 @@
 			"source": "DMG",
 			"page": 179,
 			"entries": [
-				"While lit, this {@item hooded lantern|phb} burns for 6 hours on 1 pint of oil, shedding bright light in a 30-foot radius and dim light for an additional 30 feet. {@condition Invisible} creatures and objects are visible as long as they are in the lantern's bright light. You can use an action to lower the hood, reducing the light to dim light in a 5-foot radius."
+				"Yanıkken, bu örtülü fener yarım litre yağla 6 saat yanabilir, 30 fit çevresine parlak, ötesinde 30 fit daha loş ışık saçar. {@condition Görünmezlik} etkisindeki varlıklar ve nesneler fenerin parlak ışığındayken görünür olurlar. Eylemini kullanıp örtüyü kapatabilirsin, ışığı 5 fit çapında loş ışığa dönüşür."
 			]
 		},
 		{
@@ -3687,7 +3687,7 @@
 			]
 		},
 		{
-			"name": "Medallion of Thoughts",
+			"name": "Düşüncelerin Madalyonu",
 			"wondrous": true,
 			"weight": "1",
 			"tier": "Üst",
@@ -3696,7 +3696,7 @@
 			"page": 181,
 			"reqAttune": "YES",
 			"entries": [
-				"The medallion has 3 charges. While wearing it, you can use an action and expend 1 charge to cast the {@spell detect thoughts} spell (save DC 13) from it. The medallion regains 1d3 expended charges daily at dawn."
+				"Bu madalyonun 3 yükü vardır. Onu takarken, eylemini kullanıp 1 yük harcayarak {@spell detect thoughts (zihin okuma)} büyüsünü (kurtulma DC'si 13) kullanabilirsin. Madalyon her şafakta 1d3 harcanmış yükü yeniler."
 			]
 		},
 		{
@@ -3821,7 +3821,7 @@
 			]
 		},
 		{
-			"name": "Necklace of Adaptation",
+			"name": "Adaptasyon Kolyesi",
 			"wondrous": true,
 			"weight": "1",
 			"tier": "Üst",
@@ -3830,7 +3830,7 @@
 			"page": 182,
 			"reqAttune": "YES",
 			"entries": [
-				"While wearing this necklace, you can breathe normally in any environment, and you have advantage on saving throws made against harmful gases and vapors (such as {@spell cloudkill} and {@spell stinking cloud} effects, inhaled poisons, and the breath weapons of some dragons)."
+				"Bu kolyeyi takarken, tüm çevrelerde rahat bir şekilde soluyabilirsin ve zararlı gaz ve buharlara ({@spell cloudkill (Ölüm bulutu)} ve {@spell stinking cloud (kokuşmuş bulut)} büyüleri, solunan zehirler ve bazı ejderlerin nefesleri gibi) karşı atacağın kurtulma zarlarında avantajlı olursun."
 			]
 		},
 		{
@@ -3970,7 +3970,7 @@
 			]
 		},
 		{
-			"name": "Oil of Slipperiness",
+			"name": "Kayganlık Yağı",
 			"type": "P",
 			"weight": "0.5",
 			"tier": "Alt",
@@ -3978,8 +3978,8 @@
 			"source": "DMG",
 			"page": 184,
 			"entries": [
-				"This sticky black unguent is thick and heavy in the container, but it flows quickly when poured. The oil can cover a Medium or smaller creature, along with the equipment it's wearing and carrying (one additional vial is required for each size category above Medium). Applying the oil takes 10 minutes. The affected creature then gains the effect of a {@spell freedom of movement} spell for 8 hours.",
-				"Alternatively, the oil can be poured on the ground as an action, where it covers a 10-foot square, duplicating the effect of the {@spell grease} spell in that area for 8 hours."
+				"Bu yapışkan kara merhem kabındayken yoğun ve ağırdır, ama döküldüğünde rahatlıkla akar. Yağ, bir Orta boy veya altı varlığı taşıdığı ve giydiği ekipman ile birlikte kaplamaya yeterlidir (Ortanın üzerindeki her boy kategorisi için fazladan bir şişe gerekir). Yağı sürme 10 dakika alır. Etkilenen varlık 8 saatliğine {@spell freedom of movement (Hareket Özgürlüğü)} büyüsü etkisinde olur.",
+				"Alternatif olarak, yağ eylem olarak yere dökülebilir, burada 10 fitlik bir kareyi kaplayıp 8 saatliğine o alanda {@spell grease (yağla)} büyüsünün etkisini yaratır."
 			]
 		},
 		{
@@ -4035,7 +4035,7 @@
 			"poison": true
 		},
 		{
-			"name": "Pearl of Power",
+			"name": "Güç İncisi",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Seyrek",
@@ -4043,11 +4043,11 @@
 			"page": 184,
 			"reqAttune": "by a Spellcaster",
 			"entries": [
-				"While this pearl is on your person, you can use an action to speak its command word and regain one expended spell slot. If the expended slot was of 4th level or higher, the new slot is 3rd level. Once you have used the pearl, it can't be used again until the next dawn."
+				"Bu inci üzerindeyken, eylemini kullanıp onun komut sözünü söyleyerek harcadığın bir büyü yuvasını geri alırsın. Eğer harcanan yuva 4. seviye ve üzerinde ise, yeni yuva 3. seviye olur. İnciyi kullanıldığında, sonraki şafağa kadar bir daha kullanılamaz."
 			]
 		},
 		{
-			"name": "Periapt of Health",
+			"name": "Sağlık Tılsımı",
 			"wondrous": true,
 			"weight": "1",
 			"tier": "Alt",
@@ -4055,7 +4055,7 @@
 			"source": "DMG",
 			"page": 184,
 			"entries": [
-				"You are immune to contracting any disease while you wear this pendant. If you are already infected with a disease, the effects of the disease are suppressed you while you wear the pendant."
+				"Bu kolyeyi takarken hastalık kapmaya bağışıklığın olur. Eğer zaten bir hastalığın varsa, bu kolyeyi takarken hastalığın etkileri bastırılır."
 			]
 		},
 		{
@@ -4071,7 +4071,7 @@
 			]
 		},
 		{
-			"name": "Periapt of Wound Closure",
+			"name": "Yara Kapanma Tılsımı",
 			"wondrous": true,
 			"weight": "1",
 			"tier": "Üst",
@@ -4080,11 +4080,11 @@
 			"page": 184,
 			"reqAttune": "YES",
 			"entries": [
-				"While you wear this pendant, you stabilize whenever you are dying at the start of your turn. In addition, whenever you roll a Hit Die to regain hit points, double the number of hit points it restores."
+				"Bu kolyeyi takarken, eğer sıran başladığında ölüyorsan stabilize olursun. Ayrıca, HP yenilemek için HD attığında, zarın yenilediği HP'yi ikiye katlarsın."
 			]
 		},
 		{
-			"name": "Philter of Love",
+			"name": "Aşk İksiri",
 			"type": "P",
 			"weight": "0.5",
 			"tier": "Alt",
@@ -4092,11 +4092,11 @@
 			"source": "DMG",
 			"page": 184,
 			"entries": [
-				"The next time you see a creature within 10 minutes after drinking this philter, you become {@condition charmed} by that creature for 1 hour. If the creature is of a species and gender you are normally attracted to, you regard it as your true love while you are {@condition charmed}. This potion's rose-hued, effervescent liquid contains one easy-to-miss bubble shaped like a heart."
+				"Bu iksiri içtikten sonra 10 dakika içerisinde ilk gördüğün varlık tarafından 1 saatliğine {@condition cezbedilme} durumunda olursun. Eğer bu varlık normalde çekim duyduğun bir ırk ve cinsiyetteyse, {@condition cezbedilme} durumundayken onu tek aşkın olarak görürsün. Bu iksirin gül rengi kabaran sıvısı arasında seçmesi zor olan tek bir kalp şeklinde baloncuk vardır."
 			]
 		},
 		{
-			"name": "Pipes of Haunting",
+			"name": "Korkutma Gaydası",
 			"type": "INS",
 			"wondrous": true,
 			"weight": "2",
@@ -4105,11 +4105,11 @@
 			"source": "DMG",
 			"page": 185,
 			"entries": [
-				"You must be proficient with wind instruments to use these pipes. They have 3 charges. You can use an action to play them and expend 1 charge to create an eerie, spellbinding tune. Each creature within 30 feet of you that hears you play must succeed on a DC 15 Wisdom saving throw or become {@condition frightened} of you for 1 minute. If you wish, all creatures in the area that aren't hostile toward you automatically succeed on the saving throw. A creature that fails the saving throw can repeat it at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on its saving throw is immune to the effect of these pipes for 24 hours. The pipes regain 1d3 expended charges daily at dawn."
+				"Bu gaydayı çalabilmek için üflemeli çalgılar ile uzmanlık gerekir. 3 yükü vardır. Eylemini kullanıp 1 yük harcayarak gaydayı çalıp korkutucu, büyülü bir ezgi çalarsın. 30 fit yakınında senin çaldığını duyan her varlık DC 15 Akıl kurtulma zarı atar ya da 1 dakikalığına senden {@condition korkma} durumunda olur. Eğer istersen, alanda sana düşman olmayan tüm varlıklar otomatik olarak kurtulma zarında başarılı olabilir. Kurtulma zarında başarısız olan bir varlık her sırasının sonunda kurtulma zarını tekrarlayabilir, başarılı olursa üzerindeki etki sonlanır. Kurtulma zarında başarılı olan bir varlık bu etkiye 24 saat bağışıklık kazanır. Gayda her şafakta 1d3 harcanmış yükü yeniler."
 			]
 		},
 		{
-			"name": "Pipes of the Sewers",
+			"name": "Lağımların Gaydası",
 			"type": "INS",
 			"wondrous": true,
 			"weight": "2",
@@ -4119,9 +4119,9 @@
 			"page": 185,
 			"reqAttune": "YES",
 			"entries": [
-				"You must be proficient with wind instruments to use these pipes. While you are attuned to the pipes, ordinary rats and giant rats are indifferent toward you and will not attack you unless you threaten or harm them.",
-				"The pipes have 3 charges. If you play the pipes as an action, you can use a bonus action to expend 1 to 3 charges, calling forth one swarm of {@creature rat|mm|rats} with each expended charge, provided that enough rats are within half a mile of you to be called in this fashion (as determined by the DM). If there aren't enough rats to form a swarm, the charge is wasted. Called swarms move toward the music by the shortest available route but aren't under your control otherwise. The pipes regain 1d3 expended charges daily at dawn.",
-				"Whenever a {@creature swarm of rats} that isn't under another creature's control comes within 30 feet of you while you are playing the pipes, you can make a Charisma check contested by the swarm's Wisdom check. If you lose the contest, the swarm behaves as it normally would and can't be swayed by the pipes' music for the next 24 hours. If you win the contest, the swarm is swayed by the pipes' music and becomes friendly to you and your companions for as long as you continue to play the pipes each round as an action. A friendly swarm obeys your commands. If you issue no commands to a friendly swarm, it defends itself but otherwise takes no actions. If a friendly swarm starts its turn and can't hear the pipes' music, your control over that swarm ends, and the swarm behaves as it normally would and can't be swayed by the pipes' music for the next 24 hours."
+				"Bu gaydayı çalabilmek için üflemeli çalgılar ile uzmanlık gerekir. Bu gaydaya bağlıyken, sıradan ve dev sıçanlar sana karşı nötr olurlar ve onları tehdit etmezsen ya da saldırmazsan sana saldırmazlar.",
+				"Gaydanın 3 yükü vardır. Eğer gaydayı eylem olarak çalarsan, bonus eylem olarak 1 ile 3 arası yük harcayıp her harcanan yük için bir {@creature sıçan sürüsü} çağırırsın, tabii yarım mil çevrende gelebilecek o kadar sıçan olması gerekir (DM karar verir). Eğer sürü oluşturacak kadar sıçan yoksa, yük boşa harcanır. Çağrılan sürüler en kısa yoldan müziğe doğru hareket ederler ama senin kontrolünde olmazlar. Gayda her şafak 1d3 harcanmış yükü yeniler.",
+				"Sen gaydayı çalarken başka bir varlığın kontrolünde olmayan bir {@creature sıçan sürüsü} 30 fit yakınına gelirse, sürünün Akıl zarına karşılık bir Karizma zarı atabilirsin. Eğer çekişmeyi kaybedersen, sürü normalde nasıl davranırsa öyle davranır ve sonraki 24 saat boyunca gaydanın müziğinden etkilenmez. Eğer çekişmeyi kazanırsan, sürünün aklı gayda müziği ile çelinir ve sen her sıranda eylem olarak gaydayı çalmaya devam ettiğin sürece sana ve yoldaşlarına dost olurlar. Dost bir sürü komutlarına uyar. Eğer dost bir sürüye komut vermezsen, kendini savunur ama başka eylem kullanmaz. Eğer dost bir sürü sırasına başlar ve gaydanın sesini duyamazsa onun üzerindeki kontrolün sona erer, sürü normalde nasıl davranırsa öyle davranır ve sonraki 24 saat boyunca gaydanın müziğinden etkilenmez."
 			]
 		},
 		{
@@ -4657,7 +4657,7 @@
 			]
 		},
 		{
-			"name": "Quiver of Ehlonna",
+			"name": "Ehlonna'nın Sadağı",
 			"wondrous": true,
 			"weight": "2",
 			"tier": "Üst",
@@ -4665,8 +4665,8 @@
 			"source": "DMG",
 			"page": 189,
 			"entries": [
-				"Each of the quiver's three compartments connects to an extradimensional space that allows the quiver to hold numerous items while never weighing more than 2 pounds. The shortest compartment can hold up to sixty arrows, bolts, or similar objects. The midsize compartment holds up to eighteen javelins or similar objects. The longest compartment holds up to six long objects, such as bows, quarterstaffs, or spears.",
-				"You can draw any item the quiver contains as if doing so from a regular quiver or scabbard."
+				"Sadağın her üç bölmesi de boyutdışı alanlara bağlanır ve bu şekilde sadağın bolca şey tutup asla 2 pounddan fazla ağırlığa sahip olmamasını sağlar. En kısa bölme 60 taneye kadar ok, kısa ok veya benzeri nesne alabilir. Orta boy bölme 18 taneye kadar cirit veya benzeri nesne tutabilir. En uzun bölme ise 6 taneye kadar yay, değnek veya mızrak gibi uzun nesne tutabilir.",
+				"Sadağın bulundurduğu her nesneyi normal bir sadak ya da kından çekercesine çıkarabilirsin."
 			]
 		},
 		{
@@ -4885,7 +4885,7 @@
 			]
 		},
 		{
-			"name": "Ring of Jumping",
+			"name": "Sıçrama Yüzüğü",
 			"type": "RG",
 			"tier": "Üst",
 			"rarity": "Seyrek",
@@ -4893,7 +4893,7 @@
 			"page": 191,
 			"reqAttune": "YES",
 			"entries": [
-				"While wearing this ring, you can cast the {@spell jump} spell from it as a bonus action at will, but can target only yourself when you do so."
+				"Bu yüzüğü takarken, istediğin zaman bonus eylem olarak {@spell jump (zıpla)} büyüsünü kullanabilirsin, ama kullanırken sadece kendini hedef alabilirsin."
 			]
 		},
 		{
@@ -4907,7 +4907,7 @@
 			"reqAttune": "YES"
 		},
 		{
-			"name": "Ring of Mind Shielding",
+			"name": "Zihin Koruma Yüzüğü",
 			"type": "RG",
 			"tier": "Üst",
 			"rarity": "Seyrek",
@@ -4915,9 +4915,9 @@
 			"page": 191,
 			"reqAttune": "YES",
 			"entries": [
-				"While wearing this ring, you are immune to magic that allows other creatures to read your thoughts, determine whether you are lying, know your alignment, or know your creature type. Creatures can telepathically communicate with you only if you allow it.",
-				"You can use an action to cause the ring to become {@condition invisible} until you use another action to make it visible, until you remove the ring, or until you die.",
-				"If you die while wearing the ring, your soul enters it, unless it already houses a soul. You can remain in the ring or depart for the afterlife. As long as your soul is in the ring, you can telepathically communicate with any creature wearing it. A wearer can't prevent this telepathic communication."
+				"Bu yüzüğü takarken, diğer varlıkların senin zihnini okumasını, yalan söyleyip söylemediğini belirlemesini, yönelimini bilmesini veya varlık tipini öğrenmesini sağlayan büyülere karşı korunursun. Varlıklar senle telepatik iletişime sadece sen istersen geçebilirler.",
+				"Eylemini kullanıp yüzüğün görünmez olmasını sağlayabilirsin, bu durum sen bir daha eylemini kullanıp onu görünür yapana, yüzüğü çıkarana veya ölene dek kalır.",
+				"Eğer yüzüğü takarken ölürsen ruhun ona girer, tabii içinde başka ruh yoksa. Yüzükte kalabilir ya da ahiret için ayrılabilirsin. Ruhun yüzükte olduğu sürece onu takan varlıkla telepatik iletişime geçebilirsin. Yüzüğü takan kişi bu telepatik iletişimi engelleyemez."
 			]
 		},
 		{
@@ -5046,14 +5046,14 @@
 			]
 		},
 		{
-			"name": "Ring of Swimming",
+			"name": "Yüzme Yüzüğü",
 			"type": "RG",
 			"tier": "Alt",
 			"rarity": "Seyrek",
 			"source": "DMG",
 			"page": 193,
 			"entries": [
-				"You have a swimming speed of 40 feet while wearing this ring."
+				"Bu yüzüğü takarken 40 fit yüzme hızın olur."
 			]
 		},
 		{
@@ -5090,7 +5090,7 @@
 			"reqAttune": "YES"
 		},
 		{
-			"name": "Ring of Warmth",
+			"name": "Sıcaklık Yüzüğü",
 			"type": "RG",
 			"tier": "Üst",
 			"rarity": "Seyrek",
@@ -5098,7 +5098,7 @@
 			"page": 193,
 			"reqAttune": "YES",
 			"entries": [
-				"While wearing this ring, you have resistance to cold damage. In addition, you and everything you wear and carry are unharmed by temperatures as low as -50 degrees Fahrenheit."
+				"Bu yüzüğü takarken soğuk hasarına direncin olur. Ayrıca sen ve taşıdığın ve giydiğin her şey -45 dereceye kadar soğuktan etkilenmezsiniz."
 			]
 		},
 		{
@@ -5124,14 +5124,14 @@
 			]
 		},
 		{
-			"name": "Ring of Water Walking",
+			"name": "Suda Yürüme Yüzüğü",
 			"type": "RG",
 			"tier": "Üst",
 			"rarity": "Seyrek",
 			"source": "DMG",
 			"page": 193,
 			"entries": [
-				"While wearing this ring, you can stand on and move across any liquid surface as if it were solid ground."
+				"Bu yüzüğü takarken, tüm sıvı yüzeylerde sanki katıymışçasına durup yürüyebilirsin."
 			]
 		},
 		{
@@ -5218,32 +5218,32 @@
 			]
 		},
 		{
-			"name": "Robe of Useful Items",
+			"name": "Kullanışlı Eşyalar Cübbesi",
 			"wondrous": true,
 			"tier": "Alt",
 			"rarity": "Seyrek",
 			"source": "DMG",
 			"page": 195,
 			"entries": [
-				"This robe has cloth patches of various shapes and colors covering it. While wearing the robe. you can use an action to detach one of the patches, causing it to become the object or creature it represents. Once the last patch is removed, the robe becomes an ordinary garment.",
-				"The robe has two of each of the following patches:",
+				"Bu cübbenin üzerinde çeşitli şekil ve renklerde yamalar vardır. Cübbeyi giyerken eylemini kullanıp bu yamalardan birini sökerek onun temsil ettiği nesne ya da varlık olmasını sağlayabilirsin. Son yama da söküldüğünde cübbe sıradan bir giysiye dönüşür.",
+				"Cübbede şu yamalardan ikişer tane vardır:",
 				{
 					"type": "list",
 					"items": [
-						"Dagger",
-						"Bullseye lantern (filled and lit)",
-						"Steel mirror",
-						"10-foot pole",
-						"Hempen rope (50 feet, coiled)",
-						"Sack"
+						"Hançer",
+						"Hedefli fener (dolu ve yanık)",
+						"Çelik ayna",
+						"10 fitlik sırık",
+						"Kendir halat (50 fit, yuvarlanmış)",
+						"Çuval"
 					]
 				},
-				"In addition, the robe has 4d4 other patches. The DM chooses the patches or determines them randomly.",
+				"Ayrıca, cübbede 4d4 fazladan yama da vardır. Yamaları DM seçer ya da rastgele belirler.",
 				{
 					"type": "table",
 					"colLabels": [
 						"d100",
-						"Patch"
+						"Yama"
 					],
 					"colStyles": [
 						"col-xs-1 text-align-center",
@@ -5252,55 +5252,55 @@
 					"rows": [
 						[
 							"01-08",
-							"Bag of 100 gp"
+							"100 gp içeren kese"
 						],
 						[
 							"09-15",
-							"Silver coffer (1 foot long, 6 inches wide and deep) worth 500 gp"
+							"500 gp değerinde gümüş kutu (1 fit uzunlukta, 6 inç genişlik ve derinlikte)"
 						],
 						[
 							"16-22",
-							"Iron door (up to 10 feet wide and 10 feet high, barred on one side of your choice), which you can place in an opening you can reach; it conforms to fit the opening, attaching and hinging itself"
+							"Demir kapı (10 fit yükseklik ve genişliğe kadar, istediğin bir taraftan kilitli), bunu erişebileceğin bir açıklığa yerleştirebilirsin; açıklığın şeklini alır ve oraya sabitlenip kendini menteşeler"
 						],
 						[
 							"23-30",
-							"10 gems worth 100 gp each"
+							"100 gp değerinde 10 cevher"
 						],
 						[
 							"31-44",
-							"Wooden ladder (24 feet long)"
+							"24 fit uzunlukta ahşap merdiven"
 						],
 						[
 							"45-51",
-							"A {@creature riding horse} with saddle bags"
+							"Eyer ve hurçları ile birlikte bir {@creature binek atı}"
 						],
 						[
 							"52-59",
-							"Pit (a cube 10 feet on a side), which you can place on the ground within 10 feet of you"
+							"Çukur (her yüzü 10 fit olan bir küp), 10 fit yakınında yerdeki zemine yerleştirebilirsin"
 						],
 						[
 							"60-68",
-							"4 {@item potion of healing|dmg|potions of healing}"
+							"4 {@item Şifa İksiri}"
 						],
 						[
 							"69-75",
-							"{@item Rowboat} (12 feet long)"
+							"Sandal (12 fit uzunlukta)"
 						],
 						[
 							"76-83",
-							"Spell scroll containing one spell of 1st to 3rd level"
+							"1 ile 3 seviye arası bir büyü içeren bir büyü tomarı"
 						],
 						[
 							"84-90",
-							"2 {@creature mastiff|mm|mastiffs}"
+							"2 {@creature mastı}"
 						],
 						[
 							"91-96",
-							"Window (2 feet by 4 feet, up to 2 feet deep), which you can place on a vertical surface you can reach"
+							"Pencere (2 fite 4 fit, 2 fite kadar derinlikte), erişebileceğin bir dikey yüzeye yerleştirebilirsin"
 						],
 						[
 							"97-00",
-							"{@item Portable ram|phb}"
+							"Koçbaşı"
 						]
 					]
 				}
@@ -5448,7 +5448,7 @@
 			]
 		},
 		{
-			"name": "Rod of the Pact Keeper, +1",
+			"name": "Ahit Bekçisinin Bastonu, +1",
 			"type": "RD",
 			"weight": "2",
 			"tier": "Üst",
@@ -5457,8 +5457,8 @@
 			"page": 197,
 			"reqAttune": "by a Warlock",
 			"entries": [
-				"While holding this rod, you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your warlock spells.",
-				"In addition, you can regain one warlock spell slot as an action while holding the rod. You can't use this property again until you finish a long rest."
+				"Bu bastonu tutarken warlock büyülerinin saldırı zarlarına ve kurtulma DC'lerine +1 bonusun olur.",
+				"Ayrıca, bu asayı tutarken eylem olarak bir warlock büyü yuvasını yenileyebilirsin. Bu özelliği bir uzun dinlenme bitirene dek yeniden kullanamazsın."
 			],
 			"modifier": [
 				{
@@ -5478,7 +5478,7 @@
 			]
 		},
 		{
-			"name": "Rod of the Pact Keeper, +2",
+			"name": "Ahit Bekçisinin Bastonu, +2",
 			"type": "RD",
 			"weight": "2",
 			"tier": "Üst",
@@ -5487,8 +5487,8 @@
 			"page": 197,
 			"reqAttune": "by a Warlock",
 			"entries": [
-				"While holding this rod, you gain a +2 bonus to spell attack rolls and to the saving throw DCs of your warlock spells.",
-				"In addition, you can regain one warlock spell slot as an action while holding the rod. You can't use this property again until you finish a long rest."
+				"Bu bastonu tutarken warlock büyülerinin saldırı zarlarına ve kurtulma DC'lerine +2 bonusun olur.",
+				"Ayrıca, bu asayı tutarken eylem olarak bir warlock büyü yuvasını yenileyebilirsin. Bu özelliği bir uzun dinlenme bitirene dek yeniden kullanamazsın."
 			],
 			"modifier": [
 				{
@@ -5508,7 +5508,7 @@
 			]
 		},
 		{
-			"name": "Rod of the Pact Keeper, +3",
+			"name": "Ahit Bekçisinin Bastonu, +3",
 			"type": "RD",
 			"weight": "2",
 			"tier": "Üst",
@@ -5517,8 +5517,8 @@
 			"page": 197,
 			"reqAttune": "by a Warlock",
 			"entries": [
-				"While holding this rod, you gain a +3 bonus to spell attack rolls and to the saving throw DCs of your warlock spells.",
-				"In addition, you can regain one warlock spell slot as an action while holding the rod. You can't use this property again until you finish a long rest."
+				"Bu bastonu tutarken warlock büyülerinin saldırı zarlarına ve kurtulma DC'lerine +3 bonusun olur.",
+				"Ayrıca, bu asayı tutarken eylem olarak bir warlock büyü yuvasını yenileyebilirsin. Bu özelliği bir uzun dinlenme bitirene dek yeniden kullanamazsın."
 			],
 			"modifier": [
 				{
@@ -5538,7 +5538,7 @@
 			]
 		},
 		{
-			"name": "Rope of Climbing",
+			"name": "Tırmanma İpi",
 			"wondrous": true,
 			"weight": "3",
 			"tier": "Alt",
@@ -5546,9 +5546,9 @@
 			"source": "DMG",
 			"page": 197,
 			"entries": [
-				"This 60-foot length of silk rope weighs 3 pounds and can hold up to 3,000 pounds. If you hold one end of the rope and use an action to speak the command word, the rope animates. As a bonus action, you can command the other end to move toward a destination you choose. That end moves 10 feet on your turn when you first command it and 10 feet on each of your turns until reaching its destination, up to its maximum length away, or until you tell it to stop. You can also tell the rope to fasten itself securely to an object or to unfasten itself, to knot or unknot itself, or to coil itself for carrying.",
-				"If you tell the rope to knot, large knots appear at 1-foot intervals along the rope. While knotted, the rope shortens to a 50-foot length and grants advantage on checks made to climb it.",
-				"The rope has AC 20 and 20 hit points. It regains 1 hit point every 5 minutes as long as it has at least 1 hit point. If the rope drops to 0 hit points, it is destroyed."
+				"Bu 60 fitlik ipek halat 3 pound ağırlıktadır ve 3.000 pounda kadar yük taşıyabilir. Eğer halatın bir ucunu tutarsan ve eylemini kullanıp komut sözünü söylersen, halat canlanır. Bonus eylem olarak, diğer ucunu seçeceğin bir yere gönderebilirsin. O uç, sıranda ilk komut verdiğinde 10 fit ilerler ve sonraki sıralarda da hedefine ulaşana, maksimum uzunluğa erişene veya sen durdurana dek 10 fit ilerler. Halata kendini bir yere sağlamca bağlamasını ya da çözmesini, kendine düğüm atmasını ya da çözmesini, veya taşımak için kendini yuvarlamasını da söyleyebilirsin.",
+				"Eğer halata düğüm at dersen, 1 fit aralıklarla halatta büyük düğümler oluşur. Düğümlüyken, halat 50 fite uzunluğa düşer ve tırmanma zarlarına avantaj verir.",
+				"Halatın 20 AC'si ve 20 HP'si vardır. En az 1 HP'si olduğu sürece, her 5 dakikada 1 HP yeniler. Eğer halat 0 HP'ye düşerse, mahvolur."
 			]
 		},
 		{
@@ -5566,14 +5566,14 @@
 			]
 		},
 		{
-			"name": "Saddle of the Cavalier",
+			"name": "Süvari Eyeri",
 			"wondrous": true,
 			"tier": "Alt",
 			"rarity": "Seyrek",
 			"source": "DMG",
 			"page": 199,
 			"entries": [
-				"While in this saddle on a mount, you can't be dismounted against your will if you're conscious, and attack rolls against the mount have disadvantage."
+				"Bir binek üzerinde bu eyerdeysen, bilinçli olduğun sürece isteğin dışında bineğinden düşürülemezsin ve bineğine karşı saldırı zarları dezavantajlı olur."
 			]
 		},
 		{
@@ -5684,19 +5684,19 @@
 			]
 		},
 		{
-			"name": "Sending Stones",
+			"name": "Gönderme Taşları",
 			"wondrous": true,
 			"tier": "Alt",
 			"rarity": "Seyrek",
 			"source": "DMG",
 			"page": 199,
 			"entries": [
-				"Sending stones come in pairs, with each smooth stone carved to match the other so the pairing is easily recognized. While you touch one stone, you can use an action to cast the {@spell sending} spell from it. The target is the bearer of the other stone. If no creature bears the other stone, you know that fact as soon as you use the stone and don't cast the spell.",
-				"Once {@spell sending} is cast through the stones, they can't be used again until the next dawn. If one of the stones in a pair is destroyed, the other one becomes nonmagical."
+				"Gönderme taşları çift olarak gelirler, her taş diğeri ile aynı oyulur ki çiftler rahatlıkla tanınabilsin. Bir taşa dokunurken, eylemini kullanıp ondan {@spell sending (gönderme)} büyüsünü kullanabilirsin. Hedef diğer taşın sahibi olur. Eğer diğer taşı kimse taşımıyorsa, taşı kullandığın anda bu gerçeği farkedersin ve büyüyü kullanmazsın.",
+				"Taşlardan {@spell sending (gönderme)} büyüsü kullanıldığında, sonraki şafağa kadar bir daha kullanılamazlar. Eğer taşlardan biri yok edilirse, çifti büyüsüzleşir."
 			]
 		},
 		{
-			"name": "Sentinel Shield",
+			"name": "Muhafız Kalkan",
 			"type": "S",
 			"weight": "6",
 			"ac": 2,
@@ -5705,7 +5705,7 @@
 			"source": "DMG",
 			"page": 199,
 			"entries": [
-				"While holding this shield, you have advantage on initiative rolls and Wisdom ({@skill Perception}) checks. The shield is emblazoned with a symbol of an eye."
+				"Bu kalkanı tutarken öncelik ve Akıl ({@skill Algı}) zarlarında avantajın olur. Kalkanın üzerinde bir göz sembolü vardır."
 			],
 			"modifier": [
 				{
@@ -5777,7 +5777,7 @@
 			]
 		},
 		{
-			"name": "Slippers of Spider Climbing",
+			"name": "Örümcek Tırmanışı Terlikleri",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Seyrek",
@@ -5785,7 +5785,7 @@
 			"page": 200,
 			"reqAttune": "YES",
 			"entries": [
-				"While you wear these light shoes, you can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free. You have a climbing speed equal to your walking speed. However, the slippers don't allow you to move this way on a slippery surface, such as one covered by ice or oil."
+				"Bu hafif ayakkabıları giyerken, dikey yüzeylerde ve tavanlarda ters bir şekilde yukarı, aşağı ve yanlara rahatlıkla hareket edip ellerini boşta bırakabilirsin. Yürüme hızına eşit tırmanma hızın olur. Fakat terlikler buz ve yağla kaplanmış yüzeyler gibi kaygan yerlerde bu şekilde hareket etmeni sağlamaz."
 			]
 		},
 		{
@@ -6192,7 +6192,7 @@
 			]
 		},
 		{
-			"name": "Değneği the Adder",
+			"name": "Engerek Değneği",
 			"technology": "Değnek",
 			"weight": "4",
 			"tier": "Üst",
@@ -6201,9 +6201,9 @@
 			"page": 203,
 			"reqAttune": "by a Cleric, Druid, or Warlock",
 			"entries": [
-				"You can use a bonus action to speak this staff's command word and make the head of the staff become that of an animate poisonous snake for 1 minute. By using another bonus action to speak the command word again, you return the staff to its normal inanimate form.",
-				"You can make a melee attack using the snake head, which has a reach of 5 feet. Your proficiency bonus applies to the attack roll. On a hit, the target takes 1d6 piercing damage and must succeed on a DC 15 Constitution saving throw or take 3d6 poison damage.",
-				"The snake head can be attacked while it is animate. It has an Armor Class of 15 and 20 hit points. If the head drops to 0 hit points, the staff is destroyed. As long as it's not destroyed, the staff regains all lost hit points when it reverts to its inanimate form."
+				"Bonus eylem kullanıp komut sözünü söyleyerek bu değneğin başını 1 dakikalığına canlı bir zehirli yılan başına çevirebilirsin. Başka bir bonus eylem kullanıp komut sözünü yeniden söyleyerek değneği normal cansız formuna döndürebilirsin.",
+				"Yılan başını kullanarak bir yakın dövüş saldırısı yapabilirsin ve bunun 5 fit erişimi olur. Uzmanlık bonusun saldırı zarına eklenir. Vurursa, hedef 1d6 delme hasarı alır ve DC 15 Dayanıklılık kurtulma zarı atar ya da 3d6 zehir hasarı alır.",
+				"Canlıyken yılan başına saldırabilirler. 15 AC'si ve 20 HP'si vardır. Eğer baş 0 HP'ye düşerse değnek mahvolur. Mahvolmadığı sürece, değnek cansız formuna döndüğünde kaybolan tüm HP'sini yeniler."
 			]
 		},
 		{
@@ -6251,7 +6251,7 @@
 			]
 		},
 		{
-			"name": "Değneği the Python",
+			"name": "Piton Değneği",
 			"technology": "Değnek",
 			"weight": "4",
 			"tier": "Üst",
@@ -6260,9 +6260,9 @@
 			"reqAttune": "by a Cleric, Druid, or Warlock",
 			"page": 204,
 			"entries": [
-				"You can use an action to speak this staff's command word and throw the staff on the ground within 10 feet of you. The staff becomes a {@creature giant constrictor snake} under your control and acts on its own initiative count. By using a bonus action to speak the command word again, you return the staff to its normal form in a space formerly occupied by the snake.",
-				"On your turn, you can mentally command the snake if it is within 60 feet of you and you aren't {@condition incapacitated}. You decide what action the snake takes and where it moves during its next turn, or you can issue it a general command, such as to attack your enemies or guard a location.",
-				"If the snake is reduced to 0 hit points, it dies and reverts to its staff form. The staff then shatters and is destroyed. If the snake reverts to staff form before losing all its hit points, it regains all of them."
+				"Eylemini kullanıp bu değneğin komut sözünü söyleyerek değneği 10 fit önünde yere atabilirsin. Değnek senin kontrolünde bir {@creature dev boa yılanı}na dönüşür ve kendi öncelik sırası olur. Bonus eylem kullanıp komut sözünü yeniden söyleyerek değneği yılanın bulunduğu yerde normal formuna geri döndürürsün.",
+				"Sıranda, eğer yılan 60 fit yakınındaysa ve sen {@condition etkisiz hal}de değilsen, zihinsel olarak komut verebilirsin. Bir sonraki sırasında yılanın nereye gidip ne yapacağına sen karar verirsin, veya düşmanlarına saldır ya da şurayı koru gibi genel bir komut da verebilirsin.",
+				"Eğer yılan 0 HP'ye düşerse ölür ve değnek haline döner. Sonrasında değnek parçalanır ve mahvolur. Eğer yılan tüm HP'sini kaybetmeden değnek formuna dönerse, onların hepsini yeniler."
 			]
 		},
 		{
@@ -6307,7 +6307,7 @@
 			]
 		},
 		{
-			"name": "Stone of Good Luck",
+			"name": "İyi Şans Taşı",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Seyrek",
@@ -6315,7 +6315,7 @@
 			"page": 205,
 			"reqAttune": "YES",
 			"entries": [
-				"While this polished agate is on your person, you gain a +1 bonus to ability checks and saving throws."
+				"Bu cilalı agat taşı üzerindeyken, yetenek ve kurtulma zarlarına +1 bonusun olur."
 			],
 			"modifier": [
 				{
@@ -6511,7 +6511,7 @@
 			"poison": true
 		},
 		{
-			"name": "Trident of Fish Command",
+			"name": "Balık Yöneten Üç Dişli Mızrak",
 			"type": "M",
 			"weaponCategory": "Askeri",
 			"weight": "4",
@@ -6529,7 +6529,7 @@
 			"page": 209,
 			"reqAttune": "YES",
 			"entries": [
-				"This trident is a magic weapon. It has 3 charges. While you carry it, you can use an action and expend 1 charge to cast {@spell dominate beast} (save DC 15) from it on a beast that has an innate swimming speed. The trident regains 1d3 expended charges daily at dawn."
+				"Bu üç dişli mızrak büyülü bir silahtır. 3 yükü vardır. Bunu taşırken eylemini kullanıp 1 yük harcayarak {@spell dominate beast (hayvana hükmet)} büyüsünü (kurtulma DC'si 15), özünde yüzme hızı olan bir hayvan üzerinde kullanabilirsin. Mızrak her şafakta 1d3 harcanmış yükü yeniler."
 			]
 		},
 		{
@@ -6628,7 +6628,7 @@
 			]
 		},
 		{
-			"name": "Wand of Magic Detection",
+			"name": "Büyü Tespiti Asası",
 			"type": "WD",
 			"weight": "1",
 			"tier": "Alt",
@@ -6636,11 +6636,11 @@
 			"source": "DMG",
 			"page": 211,
 			"entries": [
-				" This wand has 3 charges. While holding it, you can expend 1 charge as an action to cast the {@spell detect magic} spell from it. The wand regains 1d3 expended charges daily at dawn."
+				"Bu asanın 3 yükü vardır. Onu tutarken, eylem olarak 1 yükünü harcayarak {@spell detect magic (büyüyü hisset)} büyüsünü kullanabilirsin. Asa her şafakta 1d3 harcanmış yükü yeniler."
 			]
 		},
 		{
-			"name": "Wand of Magic Missiles",
+			"name": "Büyülü Misillerin Asası",
 			"type": "WD",
 			"weight": "1",
 			"tier": "Üst",
@@ -6648,8 +6648,8 @@
 			"source": "DMG",
 			"page": 211,
 			"entries": [
-				" This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the {@spell magic missile} spell from it. For 1 charge, you cast the 1st-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.",
-				"The wand regains 1d6+1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed."
+				"Bu asanın 7 yükü vardır. Onu tutarken, eylemini kullanıp 1 veya fazlası yük harcayarak {@spell magic missile (büyülü misil)} büyüsünü kullanabilirsin. 1 yük için büyünün 1. seviye halini kullanırsın. Büyü yuvası seviyesini fazladan harcadığın her yük için 1 artırabilirsin.",
+				"Asa her şafakta 1d6+1 harcanmış yükü yeniler. Eğer asanın son yükünü harcarsan, d20 atarsın. 1 gelirse, asa küle dönüşür ve yok olur."
 			]
 		},
 		{
@@ -6743,7 +6743,7 @@
 			]
 		},
 		{
-			"name": "Wand of Secrets",
+			"name": "Sırların Asası",
 			"type": "WD",
 			"weight": "1",
 			"tier": "Alt",
@@ -6751,11 +6751,11 @@
 			"source": "DMG",
 			"page": 211,
 			"entries": [
-				"The wand has 3 charges. While holding it. you can use an action to expend 1 of its charges, and if a secret door or trap is within 30 feet of you, the wand pulses and points at the one nearest to you. The wand regains 1d3 expended charges daily at dawn."
+				"Asanın 3 yükü vardır. Onu tutarken eylemini kullanıp 1 yükünü harcayarak, eğer 30 fit yakınında gizli bir kapı ya da tuzak varsa, asanın yanıp sönerek sana en yakın olana doğru yönelmesini sağlayabilirsin. Asa her şafakta 1d3 harcanmış yükü yeniler."
 			]
 		},
 		{
-			"name": "Wand of Web",
+			"name": "Ağ Asası",
 			"type": "WD",
 			"weight": "1",
 			"tier": "Üst",
@@ -6764,8 +6764,8 @@
 			"page": 212,
 			"reqAttune": "by a Spellcaster",
 			"entries": [
-				" This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cast the {@spell web} spell (save DC 15) from it.",
-				"The wand regains 1d6+1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed."
+				"Bu asanın 7 yükü vardır. Onu tutarken eylemini kullanıp 1 yükünü harcayarak {@spell web (ağ)} büyüsünü (kurtulma DC'si 15) kullanabilirsin.",
+				"Asa her şafakta 1d6+1 harcanmış yükü yeniler. Eğer asanın son yükünü harcarsan, d20 atarsın. 1 gelirse, asa küle dönüşür ve yok olur."
 			]
 		},
 		{
@@ -7022,18 +7022,18 @@
 			]
 		},
 		{
-			"name": "Wind Fan",
+			"name": "Rüzgar Yelpazesi",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Seyrek",
 			"source": "DMG",
 			"page": 213,
 			"entries": [
-				"While holding this fan, you can use an action to cast the {@spell gust of wind} spell (save DC 13) from it. Once used, the fan shouldn't be used again until the next dawn. Each time it is used again before then, it has a cumulative 20 percent chance of not working and tearing into useless, nonmagical tatters."
+				"Bu yelpazeyi tutarken eylemini kullanıp {@spell gust of wind (kuvvetli rüzgar)} büyüsünü (kurtulma DC'si 13) kullanabilirsin. Kullanıldığında, yelpaze sonraki şafağa kadar bir daha kullanılmamalı. Öncesinde her kullanılışında, eklenerek artan %20 işlememe ve parçalanıp yok olma ihtimali vardır."
 			]
 		},
 		{
-			"name": "Winged Boots",
+			"name": "Kanatlı Çizmeler",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Seyrek",
@@ -7041,8 +7041,8 @@
 			"page": 214,
 			"reqAttune": "YES",
 			"entries": [
-				"While you wear these boots, you have a flying speed equal to your walking speed. You can use the boots to fly for up to 4 hours, all at once or in several shorter flights, each one using a minimum of 1 minute from the duration. If you are flying when the duration expires, you descend at a rate of 30 feet per round until you land.",
-				"The boots regain 2 hours of flying capability for every 12 hours they aren't in use."
+				"Bu çizmeleri giyerken yürüme hızına eşit uçma hızın olur. Çizmeleri kullanıp 4 saate kadar uçabilirsin, hepsi bir anda da olabilir kısa kısa uçuşlar da, her uçuş en az 1 dakika harcar. Süre bittiğinde hala uçuyorsan, inene kadar her round 30 fit hızla inersin.",
+				"Çizmeler kullanımda olmadıkları her 12 saatlik süreç için 2 saatlik uçuş yeniler."
 			]
 		},
 		{
