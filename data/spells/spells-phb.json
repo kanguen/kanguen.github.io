@@ -3513,7 +3513,7 @@
 			"page": 221
 		},
 		{
-			"name": "Clairvoyance (Duru Görü)",
+			"name": "Clairvoyance (Durugörü)",
 			"level": 3,
 			"school": "D",
 			"time": [
@@ -3583,7 +3583,7 @@
 			"entries": [
 				"Menzilinde bildiğin bir yerde (daha önce gördüğün) ya da bilmediğin ama bariz bir yerde (kapının arkası, köşenin ardı, korunun içi gibi) görünmez bir sensör yaratırsın. Bu sensör süre boyunca orada kalır ve saldırılamaz ya da etkileşime geçilemez.",
 				"Büyüyü yaptığında görmeyi ya da duymayı seçersin. Sanki o sensörün yerindeymişçesine seçilen duyu ile algılayabilirsin. Eylem olarak görme ve duyma arası geçiş yapabilirsin.",
-				"Sensörü görebilen bir varlık (see invisibility (görünmezliği gör) büyüsünden ya da truesight (safgörü) duyusundan faydalanma gibi), bir yumruk boyutunda parlak ve soyut bir küre görür."
+				"Sensörü görebilen bir varlık ({@spell see invisibility (görünmezliği gör)} büyüsünden ya da {@spell truesight (safgörü)} duyusundan faydalanma gibi), bir yumruk boyutunda parlak ve soyut bir küre görür."
 			],
 			"page": 222
 		},
@@ -10546,7 +10546,7 @@
 			]
 		},
 		{
-			"name": "Foresight (Öngörü)",
+			"name": "Foresight (Uzgörü)",
 			"level": 9,
 			"school": "D",
 			"time": [

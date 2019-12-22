@@ -436,7 +436,7 @@
 			]
 		},
 		{
-			"name": "Bag of Beans",
+			"name": "Fasulye Kesesi",
 			"wondrous": true,
 			"weight": "0.5",
 			"tier": "Alt",
@@ -444,14 +444,14 @@
 			"source": "DMG",
 			"page": 152,
 			"entries": [
-				"Inside this heavy cloth bag are 3d4 dry beans. The bag weighs ½ pound plus ¼ pound for each bean it contains.",
-				"If you dump the bag's contents out on the ground, they explode in a 10-foot radius, extending from the beans. Each creature in the area, including you, must make a DC 15 Dexterity saving throw, taking 5d4 fire damage on a failed save, or half as much damage on a successful one. The fire ignites flammable objects in the area that aren't being worn or carried.",
-				"If you remove a bean from the bag, plant it in dirt or sand, and then water it, the bean produces an effect 1 minute later from the ground where it was planted. The DM can choose an effect from the following table, determine it randomly, or create an effect.",
+				"Bu bez çantanın içinde 3d4 kuru fasulye vardır. Çantanın ağırlığı ½ pounddur ve içerdiği her fasulye için ¼ pound eklenir.",
+				"Eğer çantanın içeriğini yere dökersen, fasulyelerden çevreye 10 fit yarıçapında patlar. Sen dahil alandaki her varlık DC 15 Çeviklik kurtulma zarı atar, başarısız olursa 5d4 ateş hasarı alır, başarılı olursa bunun yarısını. Ateş, alandaki giyilmeyen ve taşınmayan yanıcı nesneleri tutuşturur.",
+				"Eğer bir fasulyeyi çantadan çıkarıp toprağa ya da kuma ekersen ve sonrasında sularsan, fasulye 1 dakika sonra ekildiği yerden etkisini gösterir. DM şu tablodan bir etki seçebilir, buna rastgele karar verebilir veya kendi bir etki yaratabilir.",
 				{
 					"type": "table",
 					"colLabels": [
 						"d100",
-						"Effect"
+						"Etki"
 					],
 					"colStyles": [
 						"col-xs-1 text-align-center",
@@ -460,58 +460,58 @@
 					"rows": [
 						[
 							"01",
-							"5d4 toadstools sprout. If a creature eats a toadstool, roll any die. On an odd roll, the eater must succeed on a DC 15 Constitution saving throw or take 5d6 poison damage and become {@condition poisoned} for 1 hour. On an even roll, the eater gains 5d6 temporary hit points for 1 hour."
+							"5d4 zehirli mantar çıkar. Eğer bir varlık zehirli mantarı yerse, herhangi bir zar atarsın. Tek gelen bir zarda, yiyen DC 15 Dayanıklılık kurtulma zarı atar ya da 5d6 zehir hasarı alıp 1 saatliğine {@condition zehirlenme} durumunda olur. Çift gelen bir zarda, yiyen 5d6 geçici HP kazanır."
 						],
 						[
 							"02-10",
-							"A geyser erupts and spouts water, beer, berry juice, tea, vinegar, wine, or oil (DM's choice) 30 feet into the air for 1d12 rounds."
+							"Bir gayzer çıkıp 1d12 round boyunca 30 fit havaya su, bira, böğürtlen suyu, çay, sirke, şarap veya yağ (DM seçer) fışkırtır."
 						],
 						[
 							"11-20",
-							"A {@creature treant} sprouts. There's a 50 percent chance that the treant is chaotic evil and attacks."
+							"Bir {@creature treant} çıkar. %50 şans ile treant düzensiz kötü olur ve saldırmaya başlar."
 						],
 						[
 							"21-30",
-							"An animate, immobile stone statue in your likeness rises. It makes verbal threats against you. If you leave it and others come near, it describes you as the most heinous of villains and directs the newcomers to find and attack you. If you are on the same plane of existence as the statue, it knows where you are. The statue becomes inanimate after 24 hours."
+							"Sana benzeyen cansız ve sabit bir taş heykel çıkar. Sana karşı sözlü tehditler savurur. Eğer onu bırakırsan ve diğerleri ona yaklaşırsa, seni zalimlerim en kötüsü gibi tasvir eder ve yeni gelenleri seni bulmaları ve öldürmeleri için gönderir. Eğer sen heykel ile aynı boyuttaysan nerede olduğunu bilir. 24 saat sonunda heykel cansızlaşır."
 						],
 						[
 							"31-40",
-							"A campfire with blue flames springs forth and burns for 24 hours (or until it is extinguished)."
+							"Mavi alevleri olan bir kamp ateşi ortaya çıkar ve 24 saat boyunca (ya da söndürene kadar) yanar."
 						],
 						[
 							"41-50",
-							"1d6+6 {@creature shrieker|mm|shriekers} sprout."
+							"1d6+6 {@creature shrieker} çıkar."
 						],
 						[
 							"51-60",
-							"1d4+8 bright pink toads crawl forth. Whenever a toad is touched, it transforms into a Large or smaller monster of the DM's choice. The monster remains for 1 minute, then disappears in a puff of bright pink smoke."
+							"1d4+8 açık pembe kurbağa çıkar. Ne zaman bir kurbağaya dokunulsa DM'in seçeceği Büyük ya da daha küçük bir yaratığa dönüşür. Yaratık 1 dakika kalır ve sonrasında açık pembe bir dumanla kaybolur."
 						],
 						[
 							"61-70",
-							"A hungry {@creature bulette} burrows up and attacks."
+							"Aç bir {@creature bulette} çıkar ve saldırır."
 						],
 						[
 							"71-80",
-							"A fruit tree grows. It has 1d10+20 fruit, 1d8 of which act as randomly determined magic potions, while one acts as an ingested poison of the DM's choice. The tree vanishes after 1 hour. Picked fruit remains, retaining any magic for 30 days."
+							"Bir meyve ağacı çıkar. 1d10+20 meyvesi vardır ve 1d8 tanesi rastgele belirlenmiş iksirlerin etkisini yaratır, bir tanesi de DM'in seçeceği bir sindirme zehri yerine geçer. Ağaç 1 saat sonra kaybolur. Toplanan meyveler büyülerini 30 gün boyunca korur."
 						],
 						[
 							"81-90",
-							"A nest of 1d4+3 eggs springs up. Any creature that eats an egg must make a DC 20 Constitution saving throw. On a successful save, a creature permanently increases its lowest ability score by 1, randomly choosing among equally low scores. On a failed save, the creature takes 10d6 force damage from an internal magical explosion."
+							"1d4+3 yumurta içeren bir yuva çıkar. Yumurta yiyen bir varlık DC 20 Dayanıklılık zarı atar. Başarılı olursa varlık en düşük yetenek skorunu kalıcı olarak 1 artırır, eşit skorlar varsa aralarında rastgele seçilir. Başarısız olursa, varlık içinde yaşadığı büyü patlaması ile 10d6 güç hasarı alır."
 						],
 						[
 							"91-99",
-							"A pyramid with a 60-foot-square base bursts upward. Inside is a sarcophagus containing a {@creature mummy lord}. The pyramid is treated as the {@creature mummy lord|mm|mummy lord's} lair, and its sarcophagus contains treasure of the DM's choice."
+							"Temeli 60 fitlik kare olan bir piramid yükselir. İçinde {@creature mumya lordu} bulunan bir lahit vardır. Piramid {@creature mumya lordu}nun yuvası olarak görülür ve lahdi DM'in seçeceği hazineler barındırır."
 						],
 						[
 							"00",
-							"A giant beanstalk sprouts, growing to a height of the DM's choice. The top leads where the DM chooses, such as to a great view, a {@creature cloud giant|mm|cloud giant's} castle, or a different plane of existence."
+							"Dev bir fasulye filizi yükselir ve DM'in seçeceği bir yüksekliğe kadar uzar. Üstü DM'in seçeceği bir yere gider, bu nefes kesen bir manzara, bir {@creature bulut devi}nin kalesi veya başka bir boyut olabilir."
 						]
 					]
 				}
 			]
 		},
 		{
-			"name": "Bag of Devouring",
+			"name": "Yutan Çanta",
 			"wondrous": true,
 			"weight": "0.5",
 			"tier": "Alt",
@@ -519,10 +519,10 @@
 			"source": "DMG",
 			"page": 153,
 			"entries": [
-				"This bag superficially resembles a {@item bag of holding} but is a feeding orifice for a gigantic extradimensional creature. Turning the bag inside out closes the orifice.",
-				"The extradimensional creature attached to the bag can sense whatever is placed inside the bag. Animal or vegetable matter placed wholly in the bag is devoured and lost forever. When part of a living creature is placed in the bag, as happens when someone reaches inside it, there is a 50 percent chance that the creature is pulled inside the bag. A creature inside the bag can use its action to try to escape with a successful DC 15 Strength check. Another creature can use its action to reach into the bag to pull a creature out, doing so with a successful DC 20 Strength check (provided it isn't pulled inside the bag first). Any creature that starts its turn inside the bag is devoured, its body destroyed.",
-				"Inanimate objects can be stored in the bag, which can hold a cubic foot of such material. However, once each day, the bag swallows any objects inside it and spits them out into another plane of existence. The DM determines the time and plane.",
-				"If the bag is pierced or torn, it is destroyed, and anything contained within it is transported to a random location on the Astral Plane."
+				"Bu çanta yüzeysel olarak bir {@item stok çantası}nı andırır ama aslında boyutdışı devasa bir varlığın beslenme açıklığıdır. Çantayı iç dış etme bu açıklığı kapar.",
+				"Çantaya bağlı olan boyutdışı varlık çantanın içine koyulan şeyleri hisseder. Tümüyle çantanın içine koyulan hayvan ya da sebzeler tüketilir ve sonsuza kadar kaybolur. Biri çantanın içine uzandığında olduğu gibi, eğer canlı bir varlığın bir kısmı çantaya girerse, %50 şans ile bu varlık çantaya çekilir. Çantanın içerisindeki bir varlık eylemini kullanıp DC 15 Kuvvet zarı atarak kurtulmayı deneyebilir. Başka bir varlık da eylemini kullanıp çantanın içine erişerek bu varlığı çekmeye çalışabilir, bunun için başarılı bir DC 20 Kuvvet zarı gerekir (eğer o da çantaya çekilmezse tabii). Sırasına çantanın içinde başlayan bir varlık tüketilir, bedeni yok olur.",
+				"Cansız nesneler çantada depolanabilir ve çanta bir fit küplik materyal tutabilir. Fakat her gün bir kere, çanta içindeki nesneleri yutar ve onları başka bir boyuta tükürür. Zaman ve boyutu DM belirler.",
+				"Eğer çanta delinir ya da yırtılırsa mahvolur ve içindeki herşey Astral Boyutta rastgele bir yere atılır."
 			]
 		},
 		{
@@ -732,7 +732,7 @@
 			"poison": true
 		},
 		{
-			"name": "Bead of Force",
+			"name": "Güç Boncuğu",
 			"wondrous": true,
 			"weight": "0.0625",
 			"tier": "Alt",
@@ -740,9 +740,9 @@
 			"source": "DMG",
 			"page": 154,
 			"entries": [
-				"This small black sphere measures ¾ of an inch in diameter and weighs an ounce. Typically, 1d4+4{@italic beads of force} are found together.",
-				"You can use an action to throw the bead up to 60 feet. The bead explodes on impact and is destroyed. Each creature within a 10-foot radius of where the bead landed must succeed on a DC 15 Dexterity saving throw or take 5d4 force damage. A sphere of transparent force then encloses the area for 1 minute. Any creature that failed the save and is completely within the area is trapped inside this sphere. Creatures that succeeded on the save, or are partially within the area, are pushed away from the center of the sphere until they are no longer inside it. Only breathable air can pass through the sphere's wall. No attack or other effect can.",
-				"An enclosed creature can use its action to push against the sphere's wall, moving the sphere up to half the creature's walking speed. The sphere can be picked up, and its magic causes it to weigh only 1 pound, regardless of the weight of creatures inside."
+				"Bu küçük siyah kürenin çapı çeyrek inçin altındadır ve bir ons ağırlıktadır. Genellikle, 1d4+4{@italic güç boncuğu} bir arada bulunur.",
+				"Eylemini kullanıp boncuğu 60 fite kadar atabilirsin. Boncuk darbe anında patlar ve yok olur. Boncuğun çarptığı yerin 10 fit çevresindeki her varlık DC 15 Çeviklik kurtulma zarı atar ya da 5d4 güç hasarı alır. Sonrasında 1 dakikalığına bir şeffaf güç küresi alanı kaplar. Kurtulma zarında başarısız olan ve tümüyle alanda kalan her varlık bu küre içine hapsolur. Kurtulma zarında başarılı olan ya da kısmi olarak alanda bulunan varlıklar içinde kalmayana kadar kürenin merkezinden dışarı doğru itilirler. Kürenin duvarlarından sadece solunabilen hava geçer. Saldırı ya da başka etkiler geçemez.",
+				"Kapalı kalan bir varlık eylemini kullanıp kürenin duvarlarını itebilir, bu şekilde varlığın yürüme hızının yarısı kadar küreyi hareket ettirebilir. Küre kaldırılabilir ve içindeki varlıkların ağırlığına bakılmaksızın büyüsü onu sadece 1 pound ağırlıkta yapar."
 			]
 		},
 		{
@@ -758,7 +758,7 @@
 			]
 		},
 		{
-			"name": "Belt of Dwarvenkind",
+			"name": "Cüce Halkın Kemeri",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Nadir",
@@ -766,22 +766,22 @@
 			"page": 155,
 			"reqAttune": "YES",
 			"entries": [
-				"While wearing this belt, you gain the following benefits:",
+				"Bu kemeri takarken şu özellikleri kazanırsın:",
 				{
 					"type": "list",
 					"items": [
-						"Your Constitution score increases by 2, to a maximum of 20.",
-						"You have advantage on Charisma ({@skill Persuasion}) checks made to interact with dwarves."
+						"Dayanıklılık bonusun maksimum 20 olacak şekilde 2 artar.",
+						"Cücelerle iletişimlerinde atacağın Karizma ({@skill İkna}) zarlarında avantajın olur."
 					]
 				},
-				"In addition, while attuned to the belt, you have a 50 percent chance each day at dawn of growing a full beard if you're capable of growing one, or a visibly thicker beard if you already have one.",
-				"If you aren't a dwarf, you gain the following additional benefits while wearing the belt:",
+				"Ayrıca bu kemere bağlıyken her gün şafakta, %50 şans ile eğer sakal çıkarabiliyorsan dolu dolu bir sakal çıkabilir veya zaten sakalın varsa o belirgin bir şekilde daha da kalınlaşabilir.",
+				"Eğer cüce değilsen, kemeri takarken şu fazladan özellikleri de kazanırsın:",
 				{
 					"type": "list",
 					"items": [
-						"You have advantage on saving throws against poison, and you have resistance against poison damage.",
-						"You have darkvision out to a range of 60 feet.",
-						"You can speak, read, and write Dwarvish."
+						"Zehre karşı atacağın kurtulma zarlarında avantajlı olursun ve zehir hasarına direncin olur.",
+						"60 fite kadar gece görüşün olur.",
+						"Cüce dilini konuşur, okur ve yazabilirsin."
 					]
 				}
 			],
@@ -856,7 +856,7 @@
 			]
 		},
 		{
-			"name": "Black Dragon Scale Mail",
+			"name": "Siyah Ejderha Pulu Zırh",
 			"type": "MA",
 			"armor": true,
 			"weight": "45",
@@ -868,8 +868,8 @@
 			"page": 165,
 			"reqAttune": "YES",
 			"entries": [
-				"Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued. While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to acid damage.",
-				"Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest black dragon within 30 miles of you. This special action can't be used again until the next dawn."
+				"Ejderha pulu zırhlar belirli bir tip ejderhanın pullarından yapılır. Bazen ejderhalar döktükleri pulları toplarlar ve insansılara hediye ederler. Diğer zamanlarda ise avcılar ölü ejderhaların derilerini özenle yüzüp hazırlarlar. İki durumda da bir ejderha pulu zırh çok değerlidir. Bu zırhı giyerken AC'ne +1 bonusun olur, ejderhaların nefes silahları ve Korkunç Varoluşuna karşı kurtulma zarlarında avantajın olur ve asit hasarına direncin olur.",
+				"Ayrıca eylem olarak hislerini yoğunlaştırıp 30 mil yakınındaki en yakın siyah ejderhanın mesafe ve yönünü büyülü bir şekilde öğrenebilirsin. Bu özel eylem sonraki şafağa kadar bir daha kullanılamaz."
 			],
 			"modifier": [
 				{
@@ -914,7 +914,7 @@
 			]
 		},
 		{
-			"name": "Blue Dragon Scale Mail",
+			"name": "Mavi Ejderha Pulu Zırh",
 			"type": "MA",
 			"armor": true,
 			"weight": "45",
@@ -926,8 +926,8 @@
 			"page": 165,
 			"reqAttune": "YES",
 			"entries": [
-				"Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued. While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to lightning damage.",
-				"Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest blue dragon within 30 miles of you. This special action can't be used again until the next dawn."
+				"Ejderha pulu zırhlar belirli bir tip ejderhanın pullarından yapılır. Bazen ejderhalar döktükleri pulları toplarlar ve insansılara hediye ederler. Diğer zamanlarda ise avcılar ölü ejderhaların derilerini özenle yüzüp hazırlarlar. İki durumda da bir ejderha pulu zırh çok değerlidir. Bu zırhı giyerken AC'ne +1 bonusun olur, ejderhaların nefes silahları ve Korkunç Varoluşuna karşı kurtulma zarlarında avantajın olur ve yıldırım hasarına direncin olur.",
+				"Ayrıca eylem olarak hislerini yoğunlaştırıp 30 mil yakınındaki en yakın mavi ejderhanın mesafe ve yönünü büyülü bir şekilde öğrenebilirsin. Bu özel eylem sonraki şafağa kadar bir daha kullanılamaz."
 			],
 			"modifier": [
 				{
@@ -1072,7 +1072,7 @@
 			]
 		},
 		{
-			"name": "Bowl of Commanding Water Elementals",
+			"name": "Su Elementallerini Kontrol Kasesi",
 			"wondrous": true,
 			"weight": "3",
 			"tier": "Üst",
@@ -1080,8 +1080,8 @@
 			"source": "DMG",
 			"page": 156,
 			"entries": [
-				"While this bowl is filled with water, you can use an action to speak the bowl's command word and summon a {@creature water elemental}, as if you had cast the {@spell conjure elemental} spell. The bowl can't be used this way again until the next dawn.",
-				"The bowl is about 1 foot in diameter and half as deep. It weighs 3 pounds and holds about 3 gallons."
+				"Bu kase su ile doluyken, eylemini kullanıp kasenin komut sözünü söyleyerek sanki {@spell conjure elemental (elemental yarat)} büyüsünü yapmışçasına bir {@creature su elementali} yaratabilirsin. Kase sonraki şafağa kadar bir daha bu şekilde kullanılamaz.",
+				"Kase yaklaşık 1 fit çapında ve bunun yarısı kadar da derinliktedir. 3 pound ağırlıktadır ve 3 galon civarı alır."
 			]
 		},
 		{
@@ -1118,7 +1118,7 @@
 			]
 		},
 		{
-			"name": "Brass Dragon Scale Mail",
+			"name": "Pirinç Ejderha Pulu Zırh",
 			"type": "MA",
 			"armor": true,
 			"weight": "45",
@@ -1130,12 +1130,12 @@
 			"page": 165,
 			"reqAttune": "YES",
 			"entries": [
-				"Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued. While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to fire damage.",
-				"Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest brass dragon within 30 miles of you. This special action can't be used again until the next dawn."
+				"Ejderha pulu zırhlar belirli bir tip ejderhanın pullarından yapılır. Bazen ejderhalar döktükleri pulları toplarlar ve insansılara hediye ederler. Diğer zamanlarda ise avcılar ölü ejderhaların derilerini özenle yüzüp hazırlarlar. İki durumda da bir ejderha pulu zırh çok değerlidir. Bu zırhı giyerken AC'ne +1 bonusun olur, ejderhaların nefes silahları ve Korkunç Varoluşuna karşı kurtulma zarlarında avantajın olur ve ateş hasarına direncin olur.",
+				"Ayrıca eylem olarak hislerini yoğunlaştırıp 30 mil yakınındaki en yakın pirinç ejderhanın mesafe ve yönünü büyülü bir şekilde öğrenebilirsin. Bu özel eylem sonraki şafağa kadar bir daha kullanılamaz."
 			]
 		},
 		{
-			"name": "Bronze Dragon Scale Mail",
+			"name": "Bronz Ejderha Pulu Zırh",
 			"type": "MA",
 			"armor": true,
 			"weight": "45",
@@ -1147,8 +1147,8 @@
 			"page": 165,
 			"reqAttune": "YES",
 			"entries": [
-				"Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued. While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to lightning damage.",
-				"Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest bronze dragon within 30 miles of you. This special action can't be used again until the next dawn."
+				"Ejderha pulu zırhlar belirli bir tip ejderhanın pullarından yapılır. Bazen ejderhalar döktükleri pulları toplarlar ve insansılara hediye ederler. Diğer zamanlarda ise avcılar ölü ejderhaların derilerini özenle yüzüp hazırlarlar. İki durumda da bir ejderha pulu zırh çok değerlidir. Bu zırhı giyerken AC'ne +1 bonusun olur, ejderhaların nefes silahları ve Korkunç Varoluşuna karşı kurtulma zarlarında avantajın olur ve yıldırım hasarına direncin olur.",
+				"Ayrıca eylem olarak hislerini yoğunlaştırıp 30 mil yakınındaki en yakın bronz ejderhanın mesafe ve yönünü büyülü bir şekilde öğrenebilirsin. Bu özel eylem sonraki şafağa kadar bir daha kullanılamaz."
 			]
 		},
 		{
@@ -1189,7 +1189,7 @@
 			"poison": true
 		},
 		{
-			"name": "Candle of Invocation",
+			"name": "Dua Mumu",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Çok Nadir",
@@ -1197,12 +1197,12 @@
 			"page": 157,
 			"reqAttune": "YES",
 			"entries": [
-				"This slender taper is dedicated to a deity and shares that deity's alignment. The candle's alignment can be detected with the {@spell detect evil and good} spell. The DM chooses the god and associated alignment or determines the alignment randomly.",
+				"Bu ince mum bir tanrıya adanmıştır ve tanrının yönelimini paylaşır. Mumun yönelimi {@spell detect evil and good (İyi ve Kötüyü Hisset)} büyüsü ile tespit edilebilir. DM tanrıyı ve ilgili yönelimi seçer ya da rastgele belirler.",
 				{
 					"type": "table",
 					"colLabels": [
 						"d20",
-						"Alignment"
+						"Yönelim"
 					],
 					"colStyles": [
 						"col-xs-1 text-align-center",
@@ -1211,45 +1211,45 @@
 					"rows": [
 						[
 							"1-2",
-							"Chaotic evil"
+							"Düzensiz kötü"
 						],
 						[
 							"3-4",
-							"Chaotic neutral"
+							"Düzensiz nötr"
 						],
 						[
 							"5-7",
-							"Chaotic good"
+							"Düzensiz iyi"
 						],
 						[
 							"8-9",
-							"Neutral evil"
+							"Nötr kötü"
 						],
 						[
 							"10-11",
-							"Neutral"
+							"Nötr"
 						],
 						[
 							"12-13",
-							"Neutral good"
+							"Nötr iyi"
 						],
 						[
 							"14-15",
-							"Lawful evil"
+							"Düzenli kötü"
 						],
 						[
 							"16-17",
-							"Lawful neutral"
+							"Düzenli nötr"
 						],
 						[
 							"18-20",
-							"Lawful good"
+							"Düzenli iyi"
 						]
 					]
 				},
-				"The candle's magic is activated when the candle is lit, which requires an action. After burning for 4 hours, the candle is destroyed. You can snuff it out early for use at a later time. Deduct the time it burned in increments of 1 minute from the candle's total burn time.",
-				"While lit, the candle sheds dim light in a 30-foot radius. Any creature within that light whose alignment matches that of the candle makes attack rolls, saving throws, and ability checks with advantage. In addition, a cleric or druid in the light whose alignment matches the candle's can cast 1st-level spells he or she has prepared without expending spell slots, though the spell's effect is as if cast with a 1st-level slot.",
-				"Alternatively, when you light the candle for the first time, you can cast the {@spell gate} spell with it. Doing so destroys the candle."
+				"Mumun büyüsü yakıldığında etkinleşir ve bunu yapma bir eylem gerektirir. 4 saat yandıktan sonra mum yok olur. Sonra kullanmak için erken söndürebilirsin. 1 dakikalık dilimlerle, yanan zamanı mumun toplam yanma vaktinden çıkarırsın.",
+				"Yanıkken mum 30 fit çevresine loş ışık saçar. Bu ışık içerisinde mumla yönelimi aynı olan bir varlık saldırı, kurtulma ve yetenek zarlarını avantajla atar. Ayrıca, ışığın içinde mumla aynı yönelime sahip bir rahip ya da druid hazırladığı 1. seviye büyüleri büyü yuvası harcamadan kullanabilir, büyüler 1. seviyeden kullanılmış sayılırlar.",
+				"Alternatif olarak, mumu ilk yaktığında onunla {@spell gate (geçit)} büyüsünü kullanabilirsin. Bunu yapma mumu yok eder."
 			]
 		},
 		{
@@ -1264,63 +1264,63 @@
 			]
 		},
 		{
-			"name": "Cape of the Mountebank",
+			"name": "Şarlatanın Pelerini",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Nadir",
 			"source": "DMG",
 			"page": 157,
 			"entries": [
-				" This cape smells faintly of brimstone. While wearing it, you can use it to cast the {@spell dimension door} spell as an action. This property of the cape can't be used again until the next dawn.",
-				"When you disappear, you leave behind a cloud of smoke, and you appear in a similar cloud of smoke at your destination. The smoke lightly obscures the space you left and the space you appear in, and it dissipates at the end of your next turn. A light or stronger wind disperses the smoke."
+				"Bu pelerin hafifçe kükürt kokar. Bunu giyerken eylemini kullanıp {@spell dimension door (boyut kapısı)} büyüsünü kullanabilirsin. Pelerinin bu özelliği sonraki şafağa kadar bir daha kullanılamaz.",
+				"Kaybolduğunda, ardında bir duman bulutu bırakırsın ve varış yerinde de aynı duman ile belirirsin. Duman terkettiğin ve vardığın alanları hafifçe örtüler ve bir sonraki sıranın sonunda dağılır. Hafif veya daha güçlü bir rüzgar dumanı dağıtır."
 			]
 		},
 		{
-			"name": "Carpet of Flying, 3 ft. x 5 ft.",
+			"name": "Uçan Halı, 3 ft. x 5 ft.",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Çok Nadir",
 			"source": "DMG",
 			"page": 157,
 			"entries": [
-				"You can speak the carpet's command word as an action to make the carpet hover and fly. It moves according to your spoken directions, provided that you are within 30 feet of it.",
-				"A 3 ft. x 5 ft. carpet can carry up to 200 lb. at a fly speed of 80 feet. A carpet can carry up to twice this weight, but it flies at half speed if it carries more than its normal capacity."
+				"Eylem olarak halının komut sözünü söyleyerek onun havalanıp uçmasını sağlayabilirsin. Sözlü talimatlarına uygun bir şekilde hareket eder ama 30 fit yakınında olman gerekir.",
+				"3 ft. x 5 ft. bir halı 80 fit uçma hızında 200 pounda kadar taşıyabilir. Halı bunun iki katını da taşıyabilir ama normal kapasitesini aşarsa uçuş hızı yarılanır."
 			]
 		},
 		{
-			"name": "Carpet of Flying, 4 ft. x 6 ft.",
+			"name": "Uçan Halı, 4 ft. x 6 ft.",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Çok Nadir",
 			"source": "DMG",
 			"page": 157,
 			"entries": [
-				"You can speak the carpet's command word as an action to make the carpet hover and fly. It moves according to your spoken directions, provided that you are within 30 feet of it.",
-				"A 4 ft. x 6 ft. carpet can carry up to 400 lb. at a fly speed of 60 feet. A carpet can carry up to twice this weight, but it flies at half speed if it carries more than its normal capacity."
+				"Eylem olarak halının komut sözünü söyleyerek onun havalanıp uçmasını sağlayabilirsin. Sözlü talimatlarına uygun bir şekilde hareket eder ama 30 fit yakınında olman gerekir.",
+				"4 ft. x 6 ft. bir halı 60 fit uçma hızında 400 pounda kadar taşıyabilir. Halı bunun iki katını da taşıyabilir ama normal kapasitesini aşarsa uçuş hızı yarılanır."
 			]
 		},
 		{
-			"name": "Carpet of Flying, 5 ft. x 7 ft.",
+			"name": "Uçan Halı, 5 ft. x 7 ft.",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Çok Nadir",
 			"source": "DMG",
 			"page": 157,
 			"entries": [
-				"You can speak the carpet's command word as an action to make the carpet hover and fly. It moves according to your spoken directions, provided that you are within 30 feet of it.",
-				"A 5 ft. x 7 ft. carpet can carry up to 600 lb. at a fly speed of 40 feet. A carpet can carry up to twice this weight, but it flies at half speed if it carries more than its normal capacity."
+				"Eylem olarak halının komut sözünü söyleyerek onun havalanıp uçmasını sağlayabilirsin. Sözlü talimatlarına uygun bir şekilde hareket eder ama 30 fit yakınında olman gerekir.",
+				"5 ft. x 7 ft. bir halı 40 fit uçma hızında 600 pounda kadar taşıyabilir. Halı bunun iki katını da taşıyabilir ama normal kapasitesini aşarsa uçuş hızı yarılanır."
 			]
 		},
 		{
-			"name": "Carpet of Flying, 6 ft. x 9 ft.",
+			"name": "Uçan Halı, 6 ft. x 9 ft.",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Çok Nadir",
 			"source": "DMG",
 			"page": 157,
 			"entries": [
-				"You can speak the carpet's command word as an action to make the carpet hover and fly. It moves according to your spoken directions, provided that you are within 30 feet of it.",
-				"A 6 ft. x 9 ft. carpet can carry up to 800 lb. at a fly speed of 30 feet. A carpet can carry up to twice this weight, but it flies at half speed if it carries more than its normal capacity."
+				"Eylem olarak halının komut sözünü söyleyerek onun havalanıp uçmasını sağlayabilirsin. Sözlü talimatlarına uygun bir şekilde hareket eder ama 30 fit yakınında olman gerekir.",
+				"6 ft. x 9 ft. bir halı 30 fit uçma hızında 800 pounda kadar taşıyabilir. Halı bunun iki katını da taşıyabilir ama normal kapasitesini aşarsa uçuş hızı yarılanır."
 			]
 		},
 		{
@@ -1337,7 +1337,7 @@
 			"poison": true
 		},
 		{
-			"name": "Censer of Controlling Air Elementals",
+			"name": "Hava Elementallerini Kontrol Buhurdanı",
 			"wondrous": true,
 			"weight": "1",
 			"tier": "Üst",
@@ -1345,12 +1345,12 @@
 			"source": "DMG",
 			"page": 158,
 			"entries": [
-				"While incense is burning in this censer, you can use an action to speak the censer's command word and summon an {@creature air elemental}, as if you had cast the {@spell conjure elemental} spell. The censer can't be used this way again until the next dawn.",
-				"This 6-inch-wide, 1-foot-high vessel resembles a chalice with a decorated lid. It weighs 1 pound."
+				"Bu buhurdanda tütsü yanarken, eylemini kullanıp komut sözünü söyleyerek sanki {@spell conjure elemental (elemental yarat)} büyüsünü kullanmışçasına bir {@creature hava elementali} yaratabilirsin. Buhurdan sonraki şafağa kadar bir daha kullanılamaz.",
+				"Bu 6 inç genişlikte ve 1 fit uzunluktaki kap, bezemeli kapağı olan bir kadehi andırır. 1 pound ağırlıktadır."
 			]
 		},
 		{
-			"name": "Chime of Opening",
+			"name": "Açılış Çanı",
 			"wondrous": true,
 			"weight": "1",
 			"tier": "Alt",
@@ -1358,8 +1358,8 @@
 			"source": "DMG",
 			"page": 158,
 			"entries": [
-				"This hollow metal tube measures about 1 foot long and weighs 1 pound. You can strike it as an action, pointing it at an object within 120 feet of you that can be opened, such as a door, lid, or lock. The chime issues a clear tone, and one lock or latch on the object opens unless the sound can't reach the object. If no locks or latches remain, the object itself opens.",
-				"The chime can be used ten times. After the tenth time it cracks and becomes useless."
+				"Bu boş metal tüp 1 fit civarı uzunlukta ve 1 pound ağırlıktadır. Eylem olarak onu çalıp 120 fit yakınında kapı, kapak veya kilit gibi açılabilen bir nesneye doğrultabilirsin. Çan temiz bir tonda çınlar ve eğer sesin nesneye ulaşmasına engel yoksa nesnenin üzerindeki bir kilit ya da mandal açılır. Eğer bir kilit ya da mandal kalmadıysa nesnenin kendisi açılır.",
+				"Çan 10 kere kullanılabilir. 10. kullanımdan sonra çatlar ve işe yaramaz hale gelir."
 			]
 		},
 		{
@@ -1469,7 +1469,7 @@
 			]
 		},
 		{
-			"name": "Copper Dragon Scale Mail",
+			"name": "Bakır Ejderha Pulu Zırh",
 			"type": "MA",
 			"armor": true,
 			"weight": "45",
@@ -1481,8 +1481,8 @@
 			"page": 165,
 			"reqAttune": "YES",
 			"entries": [
-				"Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued. While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to acid damage.",
-				"Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest copper dragon within 30 miles of you. This special action can't be used again until the next dawn."
+				"Ejderha pulu zırhlar belirli bir tip ejderhanın pullarından yapılır. Bazen ejderhalar döktükleri pulları toplarlar ve insansılara hediye ederler. Diğer zamanlarda ise avcılar ölü ejderhaların derilerini özenle yüzüp hazırlarlar. İki durumda da bir ejderha pulu zırh çok değerlidir. Bu zırhı giyerken AC'ne +1 bonusun olur, ejderhaların nefes silahları ve Korkunç Varoluşuna karşı kurtulma zarlarında avantajın olur ve asit hasarına direncin olur.",
+				"Ayrıca eylem olarak hislerini yoğunlaştırıp 30 mil yakınındaki en yakın bakır ejderhanın mesafe ve yönünü büyülü bir şekilde öğrenebilirsin. Bu özel eylem sonraki şafağa kadar bir daha kullanılamaz."
 			]
 		},
 		{
@@ -2662,7 +2662,7 @@
 			]
 		},
 		{
-			"name": "Gold Dragon Scale Mail",
+			"name": "Altın Ejderha Pulu Zırh",
 			"type": "MA",
 			"armor": true,
 			"weight": "45",
@@ -2674,8 +2674,8 @@
 			"page": 165,
 			"reqAttune": "YES",
 			"entries": [
-				"Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued. While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to fire damage.",
-				"Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest gold dragon within 30 miles of you. This special action can't be used again until the next dawn."
+				"Ejderha pulu zırhlar belirli bir tip ejderhanın pullarından yapılır. Bazen ejderhalar döktükleri pulları toplarlar ve insansılara hediye ederler. Diğer zamanlarda ise avcılar ölü ejderhaların derilerini özenle yüzüp hazırlarlar. İki durumda da bir ejderha pulu zırh çok değerlidir. Bu zırhı giyerken AC'ne +1 bonusun olur, ejderhaların nefes silahları ve Korkunç Varoluşuna karşı kurtulma zarlarında avantajın olur ve ateş hasarına direncin olur.",
+				"Ayrıca eylem olarak hislerini yoğunlaştırıp 30 mil yakınındaki en yakın altın ejderhanın mesafe ve yönünü büyülü bir şekilde öğrenebilirsin. Bu özel eylem sonraki şafağa kadar bir daha kullanılamaz."
 			],
 			"modifier": [
 				{
@@ -2688,7 +2688,7 @@
 			]
 		},
 		{
-			"name": "Green Dragon Scale Mail",
+			"name": "Yeşil Ejderha Pulu Zırh",
 			"type": "MA",
 			"armor": true,
 			"weight": "45",
@@ -2700,8 +2700,8 @@
 			"page": 165,
 			"reqAttune": "YES",
 			"entries": [
-				"Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued. While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to poison damage.",
-				"Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest green dragon within 30 miles of you. This special action can't be used again until the next dawn."
+				"Ejderha pulu zırhlar belirli bir tip ejderhanın pullarından yapılır. Bazen ejderhalar döktükleri pulları toplarlar ve insansılara hediye ederler. Diğer zamanlarda ise avcılar ölü ejderhaların derilerini özenle yüzüp hazırlarlar. İki durumda da bir ejderha pulu zırh çok değerlidir. Bu zırhı giyerken AC'ne +1 bonusun olur, ejderhaların nefes silahları ve Korkunç Varoluşuna karşı kurtulma zarlarında avantajın olur ve zehir hasarına direncin olur.",
+				"Ayrıca eylem olarak hislerini yoğunlaştırıp 30 mil yakınındaki en yakın yeşil ejderhanın mesafe ve yönünü büyülü bir şekilde öğrenebilirsin. Bu özel eylem sonraki şafağa kadar bir daha kullanılamaz."
 			]
 		},
 		{
@@ -4670,7 +4670,7 @@
 			]
 		},
 		{
-			"name": "Red Dragon Scale Mail",
+			"name": "Kırmızı Ejderha Pulu Zırh",
 			"type": "MA",
 			"armor": true,
 			"weight": "45",
@@ -4682,8 +4682,8 @@
 			"page": 165,
 			"reqAttune": "YES",
 			"entries": [
-				"Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued. While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to fire damage.",
-				"Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest red dragon within 30 miles of you. This special action can't be used again until the next dawn."
+				"Ejderha pulu zırhlar belirli bir tip ejderhanın pullarından yapılır. Bazen ejderhalar döktükleri pulları toplarlar ve insansılara hediye ederler. Diğer zamanlarda ise avcılar ölü ejderhaların derilerini özenle yüzüp hazırlarlar. İki durumda da bir ejderha pulu zırh çok değerlidir. Bu zırhı giyerken AC'ne +1 bonusun olur, ejderhaların nefes silahları ve Korkunç Varoluşuna karşı kurtulma zarlarında avantajın olur ve ateş hasarına direncin olur.",
+				"Ayrıca eylem olarak hislerini yoğunlaştırıp 30 mil yakınındaki en yakın kırmızı ejderhanın mesafe ve yönünü büyülü bir şekilde öğrenebilirsin. Bu özel eylem sonraki şafağa kadar bir daha kullanılamaz."
 			],
 			"modifier": [
 				{
@@ -5751,7 +5751,7 @@
 			]
 		},
 		{
-			"name": "Silver Dragon Scale Mail",
+			"name": "Gümüş Ejderha Pulu Zırh",
 			"type": "MA",
 			"armor": true,
 			"weight": "45",
@@ -5763,8 +5763,8 @@
 			"page": 165,
 			"reqAttune": "YES",
 			"entries": [
-				"Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued. While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to cold damage.",
-				"Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest silver dragon within 30 miles of you. This special action can't be used again until the next dawn."
+				"Ejderha pulu zırhlar belirli bir tip ejderhanın pullarından yapılır. Bazen ejderhalar döktükleri pulları toplarlar ve insansılara hediye ederler. Diğer zamanlarda ise avcılar ölü ejderhaların derilerini özenle yüzüp hazırlarlar. İki durumda da bir ejderha pulu zırh çok değerlidir. Bu zırhı giyerken AC'ne +1 bonusun olur, ejderhaların nefes silahları ve Korkunç Varoluşuna karşı kurtulma zarlarında avantajın olur ve soğuk hasarına direncin olur.",
+				"Ayrıca eylem olarak hislerini yoğunlaştırıp 30 mil yakınındaki en yakın gümüş ejderhanın mesafe ve yönünü büyülü bir şekilde öğrenebilirsin. Bu özel eylem sonraki şafağa kadar bir daha kullanılamaz."
 			],
 			"modifier": [
 				{
@@ -6996,7 +6996,7 @@
 			]
 		},
 		{
-			"name": "White Dragon Scale Mail",
+			"name": "Beyaz Ejderha Pulu Zırh",
 			"type": "MA",
 			"armor": true,
 			"weight": "45",
@@ -7008,8 +7008,8 @@
 			"page": 165,
 			"reqAttune": "YES",
 			"entries": [
-				"Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued. While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to cold damage.",
-				"Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest white dragon within 30 miles of you. This special action can't be used again until the next dawn."
+				"Ejderha pulu zırhlar belirli bir tip ejderhanın pullarından yapılır. Bazen ejderhalar döktükleri pulları toplarlar ve insansılara hediye ederler. Diğer zamanlarda ise avcılar ölü ejderhaların derilerini özenle yüzüp hazırlarlar. İki durumda da bir ejderha pulu zırh çok değerlidir. Bu zırhı giyerken AC'ne +1 bonusun olur, ejderhaların nefes silahları ve Korkunç Varoluşuna karşı kurtulma zarlarında avantajın olur ve soğuk hasarına direncin olur.",
+				"Ayrıca eylem olarak hislerini yoğunlaştırıp 30 mil yakınındaki en yakın beyaz ejderhanın mesafe ve yönünü büyülü bir şekilde öğrenebilirsin. Bu özel eylem sonraki şafağa kadar bir daha kullanılamaz."
 			],
 			"modifier": [
 				{
