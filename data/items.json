@@ -1374,7 +1374,7 @@
 			]
 		},
 		{
-			"name": "Cloak of Arachnida",
+			"name": "Araknida Pelerini",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Çok Nadir",
@@ -1382,21 +1382,21 @@
 			"page": 158,
 			"reqAttune": "YES",
 			"entries": [
-				"This fine garment is made of black silk interwoven with faint silvery threads. While wearing it, you gain the following benefits:",
+				"Bu hoş pelerin soluk gümüşi iplerle siyah ipeğin birlikte dokunmasıyla yapılmıştır. Bunu giyerken, şu özellikleri kazanırsın:",
 				{
 					"type": "list",
 					"items": [
-						"You have resistance to poison damage.",
-						"You have a climbing speed equal to your walking speed.",
-						"You can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free.",
-						"You can't be caught in webs of any sort and can move through webs as if they were difficult terrain.",
-						"You can use an action to cast the {@spell web} spell (save DC 13). The web created by the spell fills twice its normal area. Once used, this property of the cloak can't be used again until the next dawn."
+						"Zehir hasarına direncin olur.",
+						"Yürüme hızına eşit tırmanma hızın olur.",
+						"Ellerini kullanmadan, dikey yüzeylerde yukarı, aşağı ya da yanlara doğru, tavanda da ters halde yürüyebilirsin.",
+						"Hiçbir ağa yakalanmazsın ve ağlardan zorlu araziymiş gibi geçebilirsin.",
+						"Eylemini kullanıp {@spell web (ağ)} büyüsünü (kurtulma DC'si 13) kullanabilirsin. Bu büyü ile yaratılan ağ normal alanının iki katı yeri kaplar. Kullanıldığında, pelerinin bu özelliği sonraki şafağa kadar bir daha kullanılamaz."
 					]
 				}
 			]
 		},
 		{
-			"name": "Cloak of Displacement",
+			"name": "Yer Değişim Pelerini",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Nadir",
@@ -1404,7 +1404,7 @@
 			"page": 158,
 			"reqAttune": "YES",
 			"entries": [
-				"While you wear this cloak, it projects an illusion that makes you appear to be standing in a place near your actual location, causing any creature to have disadvantage on attack rolls against you. If you take damage, the property ceases to function until the start of your next turn. This property is suppressed while you are {@condition incapacitated}, {@condition restrained}, or otherwise unable to move."
+				"Bu pelerini giyerken, asıl yerinin yanında görünmeni sağlayan bir illüzyon yansıtır ve varlıkların sana karşı saldırı zarlarında dezavantajlı olmasını sağlar. Eğer hasar alırsan, bu özellik bir sonraki sıranın başına kadar etkisini yitirir. Sen {@condition etkisiz hal} veya {@condition kısıtlanma} etkisindeyken ya da başka bir şekilde hareket edemezken bu etki geçerli olmaz."
 			]
 		},
 		{
@@ -1420,7 +1420,7 @@
 			]
 		},
 		{
-			"name": "Cloak of Invisibility",
+			"name": "Görünmezlik Pelerini",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Efsanevi",
@@ -1428,8 +1428,8 @@
 			"page": 158,
 			"reqAttune": "YES",
 			"entries": [
-				"While wearing this cloak, you can pull its hood over your head to cause yourself to become {@condition invisible}. While you are {@condition invisible}, anything you are carrying or wearing is {@condition invisible} with you. You become visible when you cease wearing the hood. Pulling the hood up or down requires an action.",
-				"Deduct the time you are invisible, in increments of 1 minute, from the cloak's maximum duration of 2 hours. After 2 hours of use, the cloak ceases to function. For every uninterrupted period of 12 hours the cloak goes unused, it regains 1 hour of duration."
+				"Bu pelerini giyerken, başlığını başına geçirip {@condition görünmezlik} etkisine girebilirsin. Görünmezken, giydiğin ve taşıdığın her şey de seninle görünmez olur. Başlığı açtığında görünmezliğin sonlanır. Başlığı kaldırma ya da indirme bir eylem gerektirir.",
+				"Görünmez geçirdiğin zamanı 1 dakikalık dilimler ile pelerinin süresi olan 2 saatten düşür. 2 saat kullanımdan sonra pelerin etkisini yitirir. Kullanılmadan geçirdiği aralıksız her 12 saat için pelerin 1 saatlik süresini yeniler."
 			]
 		},
 		{
@@ -1445,7 +1445,7 @@
 			]
 		},
 		{
-			"name": "Cloak of the Bat",
+			"name": "Yarasa Pelerini",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Nadir",
@@ -1453,8 +1453,8 @@
 			"page": 159,
 			"reqAttune": "YES",
 			"entries": [
-				"While wearing this cloak, you have advantage on Dexterity ({@skill Stealth}) checks. In an area of dim light or darkness, you can grip the edges of the cloak with both hands and use it to fly at a speed of 40 feet. If you ever fail to grip the cloak's edges while flying in this way, or if you are no longer in dim light or darkness, you lose this flying speed.",
-				"While wearing the cloak in an area of dim light or darkness, you can use your action to cast {@spell polymorph} on yourself, transforming into a {@creature bat}. While you are in the form of the {@creature bat}, you retain your Intelligence, Wisdom, and Charisma scores. The cloak can't be used this way again until the next dawn."
+				"Bu pelerini giyerken Çeviklik ({@skill Gizlenme}) zarlarında avantajın olur. Karanlık ya da loş olan bir alanda iki elinle pelerinin uçlarını tutup 40 fit hızla uçabilirsin. Bu şekilde uçarken pelerinin uçlarını tutamazsan ya da artık loş ışık veya karanlıkta değilsen bu uçma hızını kaybedersin.",
+				"Bu pelerini bir karanlık ya da loş ışıklı ortamda giyerken, eylemini kullanıp kendi üzerinde {@spell polymorph (polimorf)} büyüsünü kullanabilir ve {@creature yarasa}ya dönüşebilirsin. {@creature Yarasa} formundayken kendi Zeka, Akıl, ve Karizma skorlarını korursun. Pelerinin bu özelliği sonraki şafağa kadar bir daha kullanılamaz."
 			]
 		},
 		{
@@ -1486,7 +1486,7 @@
 			]
 		},
 		{
-			"name": "Crystal Ball",
+			"name": "Kristal Küre",
 			"wondrous": true,
 			"weight": "3",
 			"tier": "Üst",
@@ -1495,7 +1495,7 @@
 			"page": 159,
 			"reqAttune": "YES",
 			"entries": [
-				"This crystal ball is about 6 inches in diameter. While touching it, you can cast the {@spell scrying} spell (save DC 17) with it."
+				"Bu kristal küre yaklaşık 6 inç çaptadır. Ona dokunurken, {@spell scrying (uzaktan görüş)} büyüsünü (kurtulma DC'si 17) kullanabilirsin."
 			]
 		},
 		{
@@ -1541,7 +1541,7 @@
 			]
 		},
 		{
-			"name": "Cube of Force",
+			"name": "Güç Kübü",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Nadir",
@@ -1549,15 +1549,15 @@
 			"page": 159,
 			"reqAttune": "YES",
 			"entries": [
-				"This cube is about an inch across. Each face has a distinct marking on it that can be pressed. The cube starts with 36 charges, and it regains 1d20 expended charges daily at dawn.",
-				"You can use an action to press one of the cube's faces, expending a number of charges based on the chosen face, as shown in the Cube of Force Faces table. Each face has a different effect. If the cube has insufficient charges remaining, nothing happens. Otherwise, a barrier of {@condition invisible} force springs into existence, forming a cube 15 feet on a side. The barrier is centered on you, moves with you, and lasts for 1 minute, until you use an action to press the cube's sixth face, or the cube runs out of charges. You can change the barrier's effect by pressing a different face of the cube and expending the requisite number of charges, resetting the duration. If your movement causes the barrier to come into contact with a solid object that can't pass through the cube, you can't move any closer to that object as long as the barrier remains.",
+				"Bu kübün bir kenarı yaklaşık 1 inçtir. Her yüzünde üzerine basılabilecek özgün bir çizime sahiptir. Küp 36 yük ile başlar ve her şafakta 1d20 harcanmış yükü yeniler.",
+				"Eylemini kullanıp kübün yüzlerinden birine basabilirsin, aşağıdaki Güç Kübü Yüzleri tablosunda belirlendiği kadarıyla seçtiğin yüze göre yük harcarsın. Her yüzün farklı etkisi vardır. Eğer kübün yetersiz yükü varsa hiçbir şey gerçekleşmez. Eğer yük yeterliyse, her yüzü 15 fit uzunlukta görünmez bir bariyer oluşur. Bariyerin merkezi sen olursun, seninle hareket eder ve 1 dakikalığına, eylemini kullanıp kübün altıncı yüzüne basana ya da yükü bitene kadar sürer. Bariyerin etkisini kübün farklı bir yüzüne basıp gerekli yükü harcayarak değiştirebilirsin, bu süresini de yeniler. Eğer hareketin sırasında bariyerin içinden geçemeyeceği bir katı nesne ile karşılaşırsan, bariyer olduğu sürece bu nesneye yaklaşamazsın.",
 				{
 					"type": "table",
-					"caption": "Cube of Force Faces",
+					"caption": "Güç Kübü Yüzleri",
 					"colLabels": [
-						"Face",
-						"Charges",
-						"Effect"
+						"Yüz",
+						"Yük",
+						"Etki"
 					],
 					"colStyles": [
 						"col-xs-1 text-align-center",
@@ -1568,41 +1568,41 @@
 						[
 							"1",
 							"1",
-							"Gases, wind, and fog can't pass through the barrier."
+							"Gazlar, rüzgar ve sis bariyerden geçemez."
 						],
 						[
 							"2",
 							"2",
-							"Nonliving matter can't pass through the barrier. Walls, floors, and ceilings can pass through at your discretion."
+							"Cansız maddeler bariyerden geçemez. Senin isteğine bağlı olarak duvarlar, zemin ve tavan geçebilir."
 						],
 						[
 							"3",
 							"3",
-							"Living matter can't pass through the barrier."
+							"Canlı maddeler bariyerden geçemez."
 						],
 						[
 							"4",
 							"4",
-							"Spell effects can't pass through the barrier."
+							"Büyü etkileri bariyerden geçemez."
 						],
 						[
 							"5",
 							"5",
-							"Nothing can pass through the barrier. Walls, floors, and ceilings can pass through at your discretion."
+							"Hiçbir şey bariyerden geçemez. Senin isteğine bağlı olarak duvarlar, zemin ve tavan geçebilir."
 						],
 						[
 							"6",
 							"0",
-							"The barrier deactivates."
+							"Bariyer kapanır."
 						]
 					]
 				},
-				"The cube loses charges when the barrier is targeted by certain spells or comes into contact with certain spell or magic item effects, as shown in the table below.",
+				"Küp belirli büyüler ile hedef alındığında ya da büyüler veya büyülü eşya etkileri ile temas ettiğinde, aşağıdaki tabloda belirtildiği kadar yük kaybeder.",
 				{
 					"type": "table",
 					"colLabels": [
-						"Spell or item",
-						"Charges Lost"
+						"Büyü ya da eşya",
+						"Kaybedilen yük"
 					],
 					"colStyles": [
 						"col-xs-3",
@@ -1610,23 +1610,23 @@
 					],
 					"rows": [
 						[
-							"{@spell Disintegrate}",
+							"{@spell Disintegrate (Parçala)}",
 							"1d12"
 						],
 						[
-							"{@item Horn of blasting}",
+							"{@item Horn of blasting (Patlatma borusu)}",
 							"1d10"
 						],
 						[
-							"{@spell Passwall}",
+							"{@spell Passwall (Duvar geçidi)}",
 							"1d6"
 						],
 						[
-							"{@spell Prismatic spray}",
+							"{@spell Prismatic spray (Prizmatik sprey)}",
 							"1d20"
 						],
 						[
-							"{@spell Wall of fire}",
+							"{@spell Wall of fire (Ateş duvarı)}",
 							"1d4"
 						]
 					]
@@ -1647,21 +1647,21 @@
 			]
 		},
 		{
-			"name": "Daern's Instant Fortress",
+			"name": "Daern'in Anlık Kalesi",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Nadir",
 			"source": "DMG",
 			"page": 160,
 			"entries": [
-				"You can use an action to place this 1-inch metal cube on the ground and speak its command word. The cube rapidly grows into a fortress that remains until you use an action to speak the command word that dismisses it, which works only if the fortress is empty.",
-				"The fortress is a square tower, 20 feet on a side and 30 feet high, with arrow slits on all sides and a battlement atop it. Its interior is divided into two floors. with a ladder running along one wall to connect them. The ladder ends at a trapdoor leading to the roof. When activated, the tower has a small door on the side facing you. The door opens only at your command, which you can speak as a bonus action. It is immune to the {@spell knock} spell and similar magic, such as that of a {@item chime of opening}.",
-				"Each creature in the area where the fortress appears must make a DC 15 Dexterity saving throw, taking 10d10 bludgeoning damage on a failed save, or half as much damage on a successful one. In either case, the creature is pushed to an unoccupied space outside but next to the fortress. Objects in the area that aren't being worn or carried take this damage and are pushed automatically.",
-				"The tower is made of adamantine, and its magic prevents it from being tipped over. The roof, the door, and the walls each have 100 hit points, immunity to damage from nonmagical weapons excluding siege weapons, and resistance to all other damage. Only a {@spell wish} spell can repair the fortress (this use of the spell counts as replicating a spell of 8th level or lower). Each casting of {@spell wish} causes the roof, the door, or one wall to regain 50 hit points."
+				"Eylemini kullanıp bu 1 inçlik metal kübü yere koyarak komut sözünü söyleyebilirsin. Küp hızlıca bir kaleye dönüşür ve sen onu kaldıran komut sözünü söyleyene kadar kalır, kale sadece boşken eski haline dönebilir.",
+				"Bu kale kare bir kuledir ve yanları 20 fit, yüksekliği ise 30 fittir. Her yanında ok yarıkları ve tepesinde de mazgallar vardır. İçi iki kata bölünmüştür, bir duvarda bunları birbirine bağlayan asma bir merdiven bulunur. Merdiven çatıya açılan bir tavan kapağına gider. Etkinleştirildiğinde, kulenin sana bakan yönünde küçük bir kapısı olur. Kapı sadece senin komutun ile açılır, bunu bonus eylem olarak açabilirsin. {spell Knock (tıkla)} büyüsü ve {@item Açılış Çanı} gibi büyü ve etkilerden de etkilenmez.",
+				"Kalenin ortaya çıktığı alandaki her varlık DC 15 Çeviklik kurtulma zarı atar, başarısız olursa 10d10 ezme hasarı alır, başarılı olursa bunun yarısını. Her iki durumda da varlık kalenin dışındaki ama ona bitişik boş bir alana itilir. Alandaki taşınmayan ya da giyilmeyen nesneler otomatik olarak bu hasarı alır ve itilir.",
+				"Kule adamantinden yapılmadır ve büyüsü onu devrilmekten korur. Çatı, kapı ve duvarların 100 HP'si, kuşatma silahları dışındaki büyüsüz silahlardan hasara karşı bağışıklığı ve tüm diğer hasar tiplerine de direnci vardır. Sadece bir {@spell wish (dilek)} büyüsü kuleyi tamir edebilir (büyünün bu kullanımı 8. seviye ve altında bir büyünün etkisini yaratma sayılır). {@spell Wish (dilek)} büyüsünün her kullanımı çatı, kapı veya bir duvarın 50 hp yenilemesini sağlar."
 			]
 		},
 		{
-			"name": "Dagger of Venom",
+			"name": "Zehir Hançeri",
 			"type": "M",
 			"weaponCategory": "Basit",
 			"weight": "1",
@@ -1678,8 +1678,8 @@
 			"source": "DMG",
 			"page": 161,
 			"entries": [
-				"You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-				"You can use an action to cause thick, black poison to coat the blade. The poison remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 15 Constitution saving throw or take 2d10 poison damage and become {@condition poisoned} for 1 minute. The dagger can't be used this way again until the next dawn."
+				"Bu büyülü silah ile yapılan saldırı ve hasar zarlarına +1 bonus eklersin.",
+				"Eylemini kullanıp yoğun, kara bir zehrin hançeri kaplamasını sağlayabilirsin. Zehir 1 dakikalığına ya da bu silah ile yapılmış bir saldırı bir varlığa vurana kadar kalır. Varlık DC 15 Dayanıklılık kurtulma zarı atar ya da 2d10 zehir hasarı alır ve 1 dakikalığına {@condition zehirlenme} etkisinde olur. Hançer sonraki şafağa kadar bir daha bu şekilde kullanılamaz."
 			]
 		},
 		{
@@ -2010,7 +2010,7 @@
 			]
 		},
 		{
-			"name": "Demon Armor",
+			"name": "İblis Zırhı",
 			"type": "HA",
 			"armor": true,
 			"weight": "65",
@@ -2023,26 +2023,26 @@
 			"page": 165,
 			"reqAttune": "YES",
 			"entries": [
-				"While wearing this armor, you gain a +1 bonus to AC, and you can understand and speak Abyssal. In addition, the armor's clawed gauntlets turn unarmed strikes with your hands into magic weapons that deal slashing damage, with a +1 bonus to attack and damage rolls and a damage die of 1d8.",
+				"Bu zırhı giyerken AC'ye +1 bonusun olur ve Abyssal dilini anlayıp konuşabilirsin. Ayrıca zırhın pençeli eldivenleri, ellerinle yapacağın silahsız saldırılarını kesme hasarı veren büyülü silah saldırılarına çevirir, bunun saldırı ve hasar zarlarına +1 bonusu vardır ve zar olarak 1d8 kullanır.",
 				{
 					"type": "entries",
-					"name": "Curse",
+					"name": "Lanet",
 					"entries": [
-						"Once you don this cursed armor, you can't doff it unless you are targeted by the {@spell remove curse} spell or similar magic. While wearing the armor, you have disadvantage on attack rolls against demons and on saving throws against their spells and special abilities."
+						"Bu lanetli zırhı giydiğinde, {@spell remove curse (lanet kaldır)} ya da benzeri bir büyü ile hedef alınmadığın sürece çıkartamazsın. Zırhı giyerken, iblislere karşı yapacağın saldırı zarlarında ve onların özel yetenek ve büyülerine karşı atacağın kurtulma zarlarında dezavantajlı olursun."
 					]
 				}
 			]
 		},
 		{
-			"name": "Dimensional Shackles",
+			"name": "Boyutsal Prangalar",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Nadir",
 			"source": "DMG",
 			"page": 165,
 			"entries": [
-				"You can use an action to place these shackles on an {@condition incapacitated} creature. The shackles adjust to fit a creature of Small to Large size. In addition to serving as mundane manacles, the shackles prevent a creature bound by them from using any method of extradimensional movement, including teleportation or travel to a different plane of existence. They don't prevent the creature from passing-through an interdimensional portal.",
-				"You and any creature you designate when you use the shackles can use an action to remove them. Once every 30 days, the bound creature can make a DC 30 Strength ({@skill Athletics}) check. On a success, the creature breaks free and destroys the shackles."
+				"Eylemini kullanıp bu prangaları {@condition etkisiz hal}deki bir varlığa takabilirsin. Prangalar Küçük ile Büyük boy arası varlıklara uymak için boyut değiştirir. Sıradan pranga olarak kullanılabilmesinin yanında, prangalar onlarla bağlanan bir varlığın herhangi bir boyutdışı hareket yöntemini kullanmasını engeller, bu ışınlanma ve başka boyuta geçmeyi de kapsar. Bunlar bir varlığın boyutlar arası portallardan geçmesini engellemez.",
+				"Sen ve kullanırken belirlediğin varlıklar bir eylem kullanarak prangaları çıkartabilir. Her 30 günde bir, bağlı olan varlık DC 30 Kuvvet ({@skill Atletizm}) zarı atabilir. Başarılı olursa, varlık prangaları kırıp serbest kalır."
 			]
 		},
 		{
@@ -2107,7 +2107,7 @@
 			]
 		},
 		{
-			"name": "Dwarven Plate",
+			"name": "Cüce Levhası",
 			"type": "HA",
 			"armor": true,
 			"weight": "65",
@@ -2119,7 +2119,7 @@
 			"source": "DMG",
 			"page": 167,
 			"entries": [
-				"While wearing this armor, you gain a +2 bonus to AC. In addition, if an effect moves you against your will along the ground, you can use your reaction to reduce the distance you are moved by up to 10 feet."
+				"Bu zırhı giyerken AC'ye +2 bonusun olur. Ayrıca eğer bir etki seni zeminde isteğin dışı hareket ettiriyorsa, reaksiyonunu kullanıp gittiğin mesafeyi 10 fite kadar azaltabilirsin."
 			]
 		},
 		{
@@ -2253,7 +2253,7 @@
 			]
 		},
 		{
-			"name": "Elixir of Health",
+			"name": "Sıhhat İksiri",
 			"type": "P",
 			"weight": "0.5",
 			"tier": "Alt",
@@ -2261,11 +2261,11 @@
 			"source": "DMG",
 			"page": 168,
 			"entries": [
-				"When you drink this potion, it cures any disease afflicting you, and it removes the {@condition blinded}, {@condition deafened}, {@condition paralyzed}, and {@condition poisoned} conditions. The clear red liquid has tiny bubbles of light in it."
+				"Bu iksiri içtiğinde, seni etkileyen tüm hastalıkları iyileştirir ve {@condition körlük}, {@condition sağırlık}, {@condition felç} ve {@condition zehirlenme} durumlarını ortadan kaldırır. Bu berrak sıvının içerisinde ışık baloncukları vardır."
 			]
 		},
 		{
-			"name": "Elven Chain",
+			"name": "Elf Zinciri",
 			"type": "MA",
 			"armor": true,
 			"weight": "20",
@@ -2275,7 +2275,7 @@
 			"source": "DMG",
 			"page": 209,
 			"entries": [
-				"You gain a +1 bonus to AC while you wear this armor. You are considered proficient with this armor even if you lack proficiency with medium armor."
+				"Bu zırhı giyerken AC'ye +1 bonusun olur. Orta zırhlarla uzmanlığın olmasa bile bu zırhı giyerken uzmanlığın var sayılır."
 			]
 		},
 		{
@@ -2530,7 +2530,7 @@
 			]
 		},
 		{
-			"name": "Folding Boat",
+			"name": "Katlanan Tekne",
 			"wondrous": true,
 			"weight": "4",
 			"tier": "Alt",
@@ -2538,11 +2538,11 @@
 			"source": "DMG",
 			"page": 170,
 			"entries": [
-				"This object appears as a wooden box that measures 12 inches long, 6 inches wide, and 6 inches deep. It weighs 4 pounds and floats. It can be opened to store items inside. This item also has three command words, each requiring you to use an action to speak it.",
-				"One command word causes the box to unfold into a boat 10 feet long, 4 feet wide, and 2 feet deep. The boat has one pair of oars, an anchor, a mast, and a lateen sail. The boat can hold up to four Medium creatures comfortably.",
-				"The second command word causes the box to unfold into a ship 24 feet long, 8 feet wide; and 6 feet deep. The ship has a deck, rowing seats, five sets of oars, a steering oar, an anchor, a deck cabin, and a mast with a square sail. The ship can hold fifteen Medium creatures comfortably.",
-				"When the box becomes a vessel, its weight becomes that of a normal vessel its size, and anything that was stored in the box remains in the boat.",
-				"The third command word causes the folding boat to fold back into a box, provided that no creatures are aboard. Any objects in the vessel that can't fit inside the box remain outside the box as it folds. Any objects in the vessel that can fit inside the box do so."
+				"Bu nesne 12 inç uzunlukta, 6 inç genişlikte ve 6 inç derinlikte bir ahşap kutu olarak görünür. 4 pound ağırlıktadır ve su üstünde kalabilir. İçine eşya koymak için açılabilir. Ayrıca eşyanın üç komut sözü vardır, her biri onu söylemek için bir eylemini gerektirir.",
+				"Bir komut sözü kutunun 10 fit uzunlukta, 4 fit genişlikte ve 2 fit derinlikte bir tekneye dönüşmesini sağlar. Teknenin bir çift küreği, bir çapası, bir direği ve bir de üçgen yelkeni vardır. Tekne dörde kadar Orta boy varlığı rahatlıkla taşıyabilir.",
+				"İkinci komut sözü kutunun 24 fit uzunlukta, 8 fit genişlikte ve 6 fit derinlikte bir gemiye dönüşmesini sağlar. Geminin bir güvertesi, kürek bankları, 5 set küreği, bir dümen kolu, bir çapası, bir güverte kabini ve kare yelkenli bir direği vardır. Gemi 15'e kadar Orta boy varlığı rahatlıkla taşıyabilir.",
+				"Kutu bir tekneye (gemi de bu tanıma dahil) dönüştüğünde, ağırlığı o tip bir teknenin ağırlığı ile aynı olur ve kutuya koyulmuş şeyler teknede kalır.",
+				"Üçüncü komut sözü katlanan teknenin yeniden bir kutuya dönüşmesini sağlar, bunun için teknede bir varlık olmaması gerekir. Katlandıktan sonra kutuya sığmayacak olan teknedeki tüm nesneler kutunun dışında kalır, sığabilecek olanlar da kutunun içinde."
 			]
 		},
 		{
@@ -2579,7 +2579,7 @@
 			]
 		},
 		{
-			"name": "Gem of Seeing",
+			"name": "Görüş Cevheri",
 			"wondrous": true,
 			"weight": "1",
 			"tier": "Üst",
@@ -2588,12 +2588,12 @@
 			"page": 172,
 			"reqAttune": "YES",
 			"entries": [
-				"This gem has 3 charges. As an action, you can speak the gem's command word and expend 1 charge. For the next 10 minutes, you have truesight out to 120 feet when you peer through the gem.",
-				"The gem regains 1d3 expended charges daily at dawn."
+				"Bu cevherin 3 yükü vardır. Eylem olarak cevherin komut sözünü söyleyip 1 yük harcayabilirsin. Sonraki 10 dakika için cevherden baktığın sürece 120 fite kadar saf görüşün olur.",
+				"Cevher her şafakta 1d3 harcanmış yük yeniler."
 			]
 		},
 		{
-			"name": "Glamoured Studded Leather",
+			"name": "İhtişamlı Perçinli Deri",
 			"type": "LA",
 			"armor": true,
 			"weight": "13",
@@ -2603,7 +2603,7 @@
 			"source": "DMG",
 			"page": 172,
 			"entries": [
-				"While wearing this armor, you gain a +1 bonus to AC. You can also use a bonus action to speak the armor's command word and cause the armor to assume the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like, including color, style, and accessories, but the armor retains its normal bulk and weight. The illusory appearance last until you use this property again or remove the armor."
+				"Bu zırhı giyerken AC'ye +1 bonusun olur. Ayrıca bonus eylemini kullanıp zırhın komut sözünü söyleyerek, zırhın farklı bir zırh tipinde ya da sıradan kıyafet gibi görünmesini sağlayabilirsin. Renk, stil ve aksesuarları dahil nasıl göründüğünü sen belirlersin ama zırh normal hacim ve ağırlığını korur. Bu illüzyon görünüşü sen zırhı çıkarana ya da bu özelliği bir daha kullanana kadar kalır."
 			],
 			"modifier": [
 				{
@@ -2850,7 +2850,7 @@
 			]
 		},
 		{
-			"name": "Helm of Teleportation",
+			"name": "Işınlanma Miğferi",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Nadir",
@@ -2858,7 +2858,7 @@
 			"page": 174,
 			"reqAttune": "YES",
 			"entries": [
-				"This helm has 3 charges. While wearing it, you can use an action and expend 1 charge to cast the {@spell teleport} spell from it. The helm regains 1d3 expended charges daily at dawn."
+				"Bu miğferin 3 yükü vardır. Onu takarken eylemini kullanıp 1 yük harcayarak {@spell teleport (Işınlanma)} büyüsünü kullanabilirsin. Miğfer her şafakta 1d3 harcanmış yük yeniler."
 			]
 		},
 		{
@@ -2904,7 +2904,7 @@
 			]
 		},
 		{
-			"name": "Horn of Valhalla, Bronze",
+			"name": "Valhalla Borusu, Bronz",
 			"wondrous": true,
 			"weight": "2",
 			"tier": "Üst",
@@ -2912,13 +2912,13 @@
 			"source": "DMG",
 			"page": 175,
 			"entries": [
-				"You can use an action to blow this horn. In response, warrior spirits from the plane of Ysgard appear within 60 feet of you. These spirits use the {@creature berserker} statistics. They return to Ysgard after 1 hour or when they drop to 0 hit points. Once you use the horn, it can't be used again until 7 days have passed.",
-				"A bronze horn summons 4d4+4 berserkers. To use the bronze horn, you must be proficient with medium armor.",
-				"If you blow the horn without meeting its requirement, the summoned berserkers attack you. If you meet the requirement, they are friendly to you and your companions and follow your commands."
+				"Eylemini kullanıp bu boruya üfleyebilirsin. Sonrasında Ysgard boyutundan savaşçı ruhlar 60 fit çevrende belirir. Bu ruhlar {@creature berserker} istatistiklerini kullanırlar. 1 saat sonra ya da 0 HP'ye düştüklerinde Ysgard'a dönerler. Boruyu kullandıktan sonra 7 gün geçmeden bir daha kullanılamaz.",
+				"Bir bronz boru 4d4+4 berserker çağırır. Bronz boruyu kullanabilmek için orta zırhlarla uzmanlığa sahip olman gerekir.",
+				"Eğer gereksinimlerine sahip olmadan boruyu üflersen, gelen berserkerlar sana saldırır. Eğer gereksinimlere sahipsen, sana ve yoldaşlarına dostturlar ve komutlarına uyarlar."
 			]
 		},
 		{
-			"name": "Horn of Valhalla, Iron",
+			"name": "Valhalla Borusu, Demir",
 			"wondrous": true,
 			"weight": "2",
 			"tier": "Üst",
@@ -2926,13 +2926,13 @@
 			"source": "DMG",
 			"page": 175,
 			"entries": [
-				"You can use an action to blow this horn. In response, warrior spirits from the plane of Ysgard appear within 60 feet of you. These spirits use the {@creature berserker} statistics. They return to Ysgard after 1 hour or when they drop to 0 hit points. Once you use the horn, it can't be used again until 7 days have passed.",
-				"The iron horn summons 5d4+5 berserkers. To use the iron horn, you must be proficient with all martial weapons.",
-				"If you blow the horn without meeting its requirement, the summoned berserkers attack you. If you meet the requirement, they are friendly to you and your companions and follow your commands."
+				"Eylemini kullanıp bu boruya üfleyebilirsin. Sonrasında Ysgard boyutundan savaşçı ruhlar 60 fit çevrende belirir. Bu ruhlar {@creature berserker} istatistiklerini kullanırlar. 1 saat sonra ya da 0 HP'ye düştüklerinde Ysgard'a dönerler. Boruyu kullandıktan sonra 7 gün geçmeden bir daha kullanılamaz.",
+				"Demir boru 5d4+5 berserker çağırır. Demir boruyu kullanabilmek için tüm askeri silahlarla uzmanlığa sahip olman gerekir.",
+				"Eğer gereksinimlerine sahip olmadan boruyu üflersen, gelen berserkerlar sana saldırır. Eğer gereksinimlere sahipsen, sana ve yoldaşlarına dostturlar ve komutlarına uyarlar."
 			]
 		},
 		{
-			"name": "Horn of Valhalla, Silver",
+			"name": "Valhalla Borusu, Gümüş",
 			"wondrous": true,
 			"weight": "2",
 			"tier": "Üst",
@@ -2940,31 +2940,31 @@
 			"source": "DMG",
 			"page": 175,
 			"entries": [
-				"You can use an action to blow this horn. In response, warrior spirits from the plane of Ysgard appear within 60 feet of you. These spirits use the {@creature berserker} statistics. They return to Ysgard after 1 hour or when they drop to 0 hit points. Once you use the horn, it can't be used again until 7 days have passed.",
-				"The silver horn summons 2d4+2 berserkers.",
-				"The berserkers are friendly to you and your companions and follow your commands."
+				"Eylemini kullanıp bu boruya üfleyebilirsin. Sonrasında Ysgard boyutundan savaşçı ruhlar 60 fit çevrende belirir. Bu ruhlar {@creature berserker} istatistiklerini kullanırlar. 1 saat sonra ya da 0 HP'ye düştüklerinde Ysgard'a dönerler. Boruyu kullandıktan sonra 7 gün geçmeden bir daha kullanılamaz.",
+				"Gümüş boru 2d4+2 berserker çağırır.",
+				"Berserkerlar sana ve yoldaşlarına dostturlar ve komutlarına uyarlar."
 			]
 		},
 		{
-			"name": "Horseshoes of Speed",
+			"name": "Hız Nalları",
 			"wondrous": true,
 			"tier": "Alt",
 			"rarity": "Nadir",
 			"source": "DMG",
 			"page": 175,
 			"entries": [
-				"These iron horseshoes come in a set of four. While all four shoes are affixed to the hooves of a horse or similar creature, they increase the creature's walking speed by 30 feet."
+				"Bu demir at nalları dörtlü set olarak gelir. Hepsi bir at ya da benzeri varlığın toynaklarına sabitlenmişken, bu varlığın yürüme hızını 30 fit artırırlar."
 			]
 		},
 		{
-			"name": "Horseshoes of a Zephyr",
+			"name": "Zephyr'in Nalları",
 			"wondrous": true,
 			"tier": "Alt",
 			"rarity": "Çok Nadir",
 			"source": "DMG",
 			"page": 175,
 			"entries": [
-				"These iron horseshoes come in a set of four. While all four shoes are affixed to the hooves of a horse or similar creature, they allow the creature to move normally while floating 4 inches above the ground. This effect means the creature can cross or stand above nonsolid or unstable surfaces, such as water or lava. The creature leaves no tracks and ignores difficult terrain. In addition, the creature can move at normal speed for up to 12 hours a day without suffering {@condition exhaustion} from a forced march."
+				"Bu demir at nalları dörtlü set olarak gelir. Hepsi bir at ya da benzeri varlığın toynaklarına sabitlenmişken, varlığın yerden 4 inç yukarıda süzülerek normal hareket etmesini sağlarlar. Bu etki, varlığın su veya lav gibi katı olmayan ya da dengesiz yüzeylerden geçebilmesi anlamına gelir. Varlık iz bırakmaz ve zorlu araziyi yok sayar. Ayrıca, varlık zoraki yürüyüşten dolayı {@condition bitkinlik} yaşamadan günde 12 saate kadar yol gidebilir."
 			]
 		},
 		{
@@ -3319,7 +3319,7 @@
 			]
 		},
 		{
-			"name": "Iron Bands of Bilarro",
+			"name": "Bilarro'nun Demir Bantları",
 			"wondrous": true,
 			"weight": "1",
 			"tier": "Üst",
@@ -3327,10 +3327,10 @@
 			"source": "DMG",
 			"page": 177,
 			"entries": [
-				"This rusty iron sphere measures 3 inches in diameter and weighs 1 pound. You can use an action to speak the command word and throw the sphere at a Huge or smaller creature you can see within 60 feet of you. As the sphere moves through the air, it opens into a tangle of metal bands.",
-				"Make a ranged attack roll with an attack bonus equal to your Dexterity modifier plus your proficiency bonus. On a hit, the target is {@condition restrained} until you take a bonus action to speak the command word again to release it. Doing so, or missing with the attack, causes the bands to contract and become a sphere once more.",
-				"A creature, including the one {@condition restrained}, can use an action to make a DC 20 Strength check to break the iron bands. On a success, the item is destroyed, and the {@condition restrained} creature is freed. If the check fails, any further attempts made by that creature automatically fail until 24 hours have elapsed.",
-				"Once the bands are used, they can't be used again until the next dawn."
+				"Bu paslı demir kürenin çapı 3 inç, ağırlığı 1 pounddur. Eylemini kullanıp komut sözünü söyleyerek bu küreyi 60 fit yakınında görebildiğin Dev veya daha küçük boyda bir varlığa fırlatabilirsin. Küre havada ilerlerken açılıp bir metal bant yığınına dönüşür.",
+				"Saldırı bonusu senin Çeviklik bonusun + uzmanlık bonusuna eşit olan bir menzilli saldırı yap. Vurursa, hedef sen bonus eylem kullanıp komut sözünü söyleyerek onu salana kadar {@condition kısıtlanma} durumunda olur. Bunu yapman ya da saldırıyı ıskalaman, bantların yeniden toplanıp küre haline dönüşmesini sağlar.",
+				"{@condition Kısıtlanma} durumunda olan dahil bir varlık eylemini kullanıp DC 20 Kuvvet zarı atarak demir bantları kırabilir. Başarılı olursa eşya yok olur ve {@condition kısıtlanma} etkisindeki varlık serbest kalır. Eğer zar başarısız olursa, o varlık tarafından yapılacak diğer denemeler de 24 saat geçene kadar başarısız olacaktır.",
+				"Bantlar kullanıldığında, sonraki şafağa kadar bir daha kullanılamazlar."
 			]
 		},
 		{
