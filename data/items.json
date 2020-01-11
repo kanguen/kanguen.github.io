@@ -3330,7 +3330,7 @@
 				"Bu paslı demir kürenin çapı 3 inç, ağırlığı 1 pounddur. Eylemini kullanıp komut sözünü söyleyerek bu küreyi 60 fit yakınında görebildiğin Dev veya daha küçük boyda bir varlığa fırlatabilirsin. Küre havada ilerlerken açılıp bir metal bant yığınına dönüşür.",
 				"Saldırı bonusu senin Çeviklik bonusun + uzmanlık bonusuna eşit olan bir menzilli saldırı yap. Vurursa, hedef sen bonus eylem kullanıp komut sözünü söyleyerek onu salana kadar {@condition kısıtlanma} durumunda olur. Bunu yapman ya da saldırıyı ıskalaman, bantların yeniden toplanıp küre haline dönüşmesini sağlar.",
 				"{@condition Kısıtlanma} durumunda olan dahil bir varlık eylemini kullanıp DC 20 Kuvvet zarı atarak demir bantları kırabilir. Başarılı olursa eşya yok olur ve {@condition kısıtlanma} etkisindeki varlık serbest kalır. Eğer zar başarısız olursa, o varlık tarafından yapılacak diğer denemeler de 24 saat geçene kadar başarısız olacaktır.",
-				"Bantlar kullanıldığında, sonraki şafağa kadar bir daha kullanılamazlar."
+				"Bantlar kullanıldığında bir sonraki şafağa kadar bir daha kullanılamazlar."
 			]
 		},
 		{
@@ -3525,7 +3525,7 @@
 			]
 		},
 		{
-			"name": "Mace of Disruption",
+			"name": "Parçalama Gürzü",
 			"type": "M",
 			"weaponCategory": "Basit",
 			"weight": "4",
@@ -3537,12 +3537,12 @@
 			"page": 179,
 			"reqAttune": "YES",
 			"entries": [
-				"When you hit a fiend or an undead with this magic weapon, that creature takes an extra 2d6 radiant damage. If the target has 25 hit points or fewer after taking this damage, it must succeed on a DC 15 Wisdom saving throw or be destroyed. On a successful save, the creature becomes {@condition frightened} of you until the end of your next turn.",
-				"While you hold this weapon, it sheds bright light in a 20-foot radius and dim light for an additional 20 feet."
+				"Bu büyülü silah ile bir zebani ya da yaşayan ölüye vurduğunda, o varlık fazladan 2d6 radyant hasar alır. Eğer hedefin bu hasarı aldıktan sonra 25 veya daha az HP'si kalırsa DC 15 Akıl kurtulma zarı atar ya da yok olur. Başarılı olursa, bu varlık senin sonraki sıranın sonuna kadar senden {@condition korkma} durumunda olur.",
+				"Bu silahı tutarken 20 fit çevresine parlak, ötesinde 20 fit daha loş ışık saçar."
 			]
 		},
 		{
-			"name": "Mace of Smiting",
+			"name": "Çarpma Gürzü",
 			"type": "M",
 			"weaponCategory": "Basit",
 			"weight": "4",
@@ -3553,12 +3553,12 @@
 			"source": "DMG",
 			"page": 179,
 			"entries": [
-				"You gain a +1 bonus to attack and damage rolls made with this magic weapon. The bonus increases to +3 when you use the mace to attack a construct.",
-				"When you roll a 20 on an attack roll made with this weapon, the target takes an extra 7 bludgeoning damage, or an extra 14 bludgeoning damage if it's a construct. If a construct has 25 hit points or fewer after taking this damage, it is destroyed."
+				"Bu büyülü silah ile saldırı ve hasar zarlarına +1 bonusun olur. Gürzü bir yapıya (varlık tipi, bina değil) vurmak için kullanırsan bonus +3'e çıkar.",
+				"Bu silah ile yapılan bir saldırı zarında 20 atarsan hedef fazladan 7 ezme hasarı alır, eğer bir yapı ise bu hasar 14'e çıkar. Eğer bu hasarı aldıktan sonra bir yapının 25 veya daha az HP'si kalmışsa yok olur."
 			]
 		},
 		{
-			"name": "Mace of Terror",
+			"name": "Dehşet Gürzü",
 			"type": "M",
 			"weaponCategory": "Basit",
 			"weight": "4",
@@ -3570,8 +3570,8 @@
 			"page": 180,
 			"reqAttune": "YES",
 			"entries": [
-				"This magic weapon has 3 charges. While holding it, you can use an action and expend 1 charge to release a wave of terror. Each creature of your choice in a 30-foot radius extending from you must succeed on a DC 15 Wisdom saving throw or become {@condition frightened} of you for 1 minute. While it is {@condition frightened} in this way, a creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action it can use only the {@action Dash} action or try to escape from an effect that prevents it from moving. If it has nowhere it can move, the creature can use the {@action Dodge} action. At the end of each of its turns, a creature can repeat the saving throw, ending the effect on itself on a success.",
-				"The mace regains 1d3 expended charges daily at dawn."
+				"Bu büyülü silahın 3 yükü vardır. Onu tutarken eylemini kullanıp 1 yük harcayarak bir dehşet dalgası yayabilirsin. Senin 30 fit çevrende seçeceğin her varlık DC 15 Akıl kurtulma zarı atar ya da 1 dakikalığına senden {@condition korkma} durumunda olurlar. Bu şekilde korkarken bir varlık sırasını senden olabildiğince uzaklaşmak için kullanmalıdır, ve istekli bir şekilde senin 30 fit yakınına yaklaşamaz. Reaksiyon da kullanamaz. Eylemi için sadece Depar kullanır ya da onun hareketi engelleyen bir etkiden kaçmaya çalışabilir. Eğer hareket edebileceği bir yer yoksa varlık Kaçınma eylemini kullanır. Her sırasının sonunda bir varlık kurtulma zarını yenileyebilir, başarılı olursa üzerindeki etki sonlanır.",
+				"Gürz her şafakta 1d3 harcanmış yük yeniler."
 			]
 		},
 		{
@@ -3587,7 +3587,7 @@
 			"poison": true
 		},
 		{
-			"name": "Mantle of Spell Resistance",
+			"name": "Büyü Direnci Pelerini",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Nadir",
@@ -3595,11 +3595,11 @@
 			"page": 180,
 			"reqAttune": "YES",
 			"entries": [
-				"You have advantage on saving throws against spells while you wear this cloak."
+				"Bu pelerini giyerken büyülere karşı atacağın kurtulma zarlarında avantajın olur."
 			]
 		},
 		{
-			"name": "Manual of Bodily Health",
+			"name": "Bedensel Sağlık Kılavuzu",
 			"wondrous": true,
 			"weight": "5",
 			"tier": "Üst",
@@ -3607,11 +3607,11 @@
 			"source": "DMG",
 			"page": 180,
 			"entries": [
-				"This book contains health and diet tips, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the book's contents and practicing its guidelines, your Constitution score increases by 2, as does your maximum for that score. The manual then loses its magic, but regains it in a century."
+				"Bu kitap sağlık ve beslenme ipuçları içerir ve yazıları büyü ile işlenmiştir. Eğer 6 günlük bir süre içerisinde 48 saat harcayarak kitabın içeriğini inceleyip tavsiyelerine uyarsan, Dayanıklılık skorun ve onun maksimumu 2 artar. Kılavuz sonrasında büyüsünü kaybeder ama bir asır sonra yeniden kazanır."
 			]
 		},
 		{
-			"name": "Manual of Clay Golems",
+			"name": "Kil Golem Kılavuzu",
 			"wondrous": true,
 			"weight": "5",
 			"tier": "Üst",
@@ -3619,12 +3619,12 @@
 			"source": "DMG",
 			"page": 180,
 			"entries": [
-				"This tome contains information and incantations necessary to make a particular type of golem. The DM chooses the type or determines it randomly. To decipher and use the manual, you must be a spellcaster with at least two 5th-level spell slots. A creature that can't use a manual of golems and attempts to read it takes 6d6 psychic damage.",
-				"To create a {@creature clay golem}, you must spend 30 days, working without interruption with the manual at hand and resting no more than 8 hours per day. You must also pay 65,000 gp to purchase supplies. Once you finish creating the golem, the book is consumed in eldritch flames. The golem becomes animate when the ashes of the manual are sprinkled on it. It is under your control, and it understands and obeys your spoken commands."
+				"Bu kitap belirli bir tipte golem yaratmak için gereken bilgi ve büyülü sözleri içerir. DM tipi seçer ya da rastgele belirler. Kılavuzu anlayıp kullanabilmek için, en az 2 adet 5. seviye büyü yuvasına sahip bir büyü kullanıcısı olman gerekir. Bir golem kılavuzunu kullanamayan ve bunu okumaya çalışan bir varlık 6d6 psişik hasar alır.",
+				"Bir {@creature kil golem} yaratmak için, kılavuz yanındayken günde 8 saatten fazla dinlenmemek şartıyla aralıksız 30 gün çalışmalısın. Ayrıca malzemeleri almak için 65.000 gp harcaman gerekir. Golemi yaratmayı bitirdiğinde kitap eldritch alevleri ile yanar. Kılavuzun külleri golemin üzerine serpildiğinde golem hayat bulur. Senin kontrolün altındadır ve sözlü komutlarını anlar ve uyar."
 			]
 		},
 		{
-			"name": "Manual of Flesh Golems",
+			"name": "Et Golem Kılavuzu",
 			"wondrous": true,
 			"weight": "5",
 			"tier": "Üst",
@@ -3632,12 +3632,12 @@
 			"source": "DMG",
 			"page": 180,
 			"entries": [
-				"This tome contains information and incantations necessary to make a particular type of golem. The DM chooses the type or determines it randomly. To decipher and use the manual, you must be a spellcaster with at least two 5th-level spell slots. A creature that can't use a manual of golems and attempts to read it takes 6d6 psychic damage.",
-				"To create a {@creature flesh golem}, you must spend 60 days, working without interruption with the manual at hand and resting no more than 8 hours per day. You must also pay 50,000 gp to purchase supplies. Once you finish creating the golem, the book is consumed in eldritch flames. The golem becomes animate when the ashes of the manual are sprinkled on it. It is under your control, and it understands and obeys your spoken commands."
+				"Bu kitap belirli bir tipte golem yaratmak için gereken bilgi ve büyülü sözleri içerir. DM tipi seçer ya da rastgele belirler. Kılavuzu anlayıp kullanabilmek için, en az 2 adet 5. seviye büyü yuvasına sahip bir büyü kullanıcısı olman gerekir. Bir golem kılavuzunu kullanamayan ve bunu okumaya çalışan bir varlık 6d6 psişik hasar alır.",
+				"Bir {@creature et golem} yaratmak için, kılavuz yanındayken günde 8 saatten fazla dinlenmemek şartıyla aralıksız 60 gün çalışmalısın. Ayrıca malzemeleri almak için 50.000 gp harcaman gerekir. Golemi yaratmayı bitirdiğinde kitap eldritch alevleri ile yanar. Kılavuzun külleri golemin üzerine serpildiğinde golem hayat bulur. Senin kontrolün altındadır ve sözlü komutlarını anlar ve uyar."
 			]
 		},
 		{
-			"name": "Manual of Gainful Exercise",
+			"name": "Kazançlı Egzersiz Kılavuzu",
 			"wondrous": true,
 			"weight": "5",
 			"tier": "Üst",
@@ -3645,11 +3645,11 @@
 			"source": "DMG",
 			"page": 180,
 			"entries": [
-				"This book describes fitness exercises, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the book's contents and practicing its guidelines, your Strength score increases by 2, as does your maximum for that score. The manual then loses its magic, but regains it in a century."
+				"Bu kitap bedensel egzersizleri tasvir eder ve yazıları büyü ile işlenmiştir. Eğer 6 günlük bir süre içerisinde 48 saat harcayarak kitabın içeriğini inceleyip tavsiyelerine uyarsan, Kuvvet skorun ve onun maksimumu 2 artar. Kılavuz sonrasında büyüsünü kaybeder ama bir asır sonra yeniden kazanır."
 			]
 		},
 		{
-			"name": "Manual of Iron Golems",
+			"name": "Demir Golem Kılavuzu",
 			"wondrous": true,
 			"weight": "5",
 			"tier": "Üst",
@@ -3657,12 +3657,12 @@
 			"source": "DMG",
 			"page": 180,
 			"entries": [
-				"This tome contains information and incantations necessary to make a particular type of golem. The DM chooses the type or determines it randomly. To decipher and use the manual, you must be a spellcaster with at least two 5th-level spell slots. A creature that can't use a manual of golems and attempts to read it takes 6d6 psychic damage.",
-				"To create an {@creature iron golem}, you must spend 120 days, working without interruption with the manual at hand and resting no more than 8 hours per day. You must also pay 100,000 gp to purchase supplies. Once you finish creating the golem, the book is consumed in eldritch flames. The golem becomes animate when the ashes of the manual are sprinkled on it. It is under your control, and it understands and obeys your spoken commands."
+				"Bu kitap belirli bir tipte golem yaratmak için gereken bilgi ve büyülü sözleri içerir. DM tipi seçer ya da rastgele belirler. Kılavuzu anlayıp kullanabilmek için, en az 2 adet 5. seviye büyü yuvasına sahip bir büyü kullanıcısı olman gerekir. Bir golem kılavuzunu kullanamayan ve bunu okumaya çalışan bir varlık 6d6 psişik hasar alır.",
+				"Bir {@creature demir golem} yaratmak için, kılavuz yanındayken günde 8 saatten fazla dinlenmemek şartıyla aralıksız 120 gün çalışmalısın. Ayrıca malzemeleri almak için 100.000 gp harcaman gerekir. Golemi yaratmayı bitirdiğinde kitap eldritch alevleri ile yanar. Kılavuzun külleri golemin üzerine serpildiğinde golem hayat bulur. Senin kontrolün altındadır ve sözlü komutlarını anlar ve uyar."
 			]
 		},
 		{
-			"name": "Manual of Quickness of Action",
+			"name": "Eylem Çabukluğu Kılavuzu",
 			"wondrous": true,
 			"weight": "5",
 			"tier": "Üst",
@@ -3670,11 +3670,11 @@
 			"source": "DMG",
 			"page": 181,
 			"entries": [
-				"This book contains coordination and balance exercises, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the book's contents and practicing its guidelines, your Dexterity score increases by 2, as does your maximum for that score. The manual then loses its magic, but regains it in a century."
+				"Bu kitap koordinasyon ve denge egzersizleri içerir ve yazıları büyü ile işlenmiştir. Eğer 6 günlük bir süre içerisinde 48 saat harcayarak kitabın içeriğini inceleyip tavsiyelerine uyarsan, Çeviklik skorun ve onun maksimumu 2 artar. Kılavuz sonrasında büyüsünü kaybeder ama bir asır sonra yeniden kazanır."
 			]
 		},
 		{
-			"name": "Manual of Stone Golems",
+			"name": "Taş Golem Kılavuzu",
 			"wondrous": true,
 			"weight": "5",
 			"tier": "Üst",
@@ -3682,8 +3682,8 @@
 			"source": "DMG",
 			"page": 180,
 			"entries": [
-				"This tome contains information and incantations necessary to make a particular type of golem. The DM chooses the type or determines it randomly. To decipher and use the manual, you must be a spellcaster with at least two 5th-level spell slots. A creature that can't use a manual of golems and attempts to read it takes 6d6 psychic damage.",
-				"To create a {@creature stone golem}, you must spend 90 days, working without interruption with the manual at hand and resting no more than 8 hours per day. You must also pay 80,000 gp to purchase supplies. Once you finish creating the golem, the book is consumed in eldritch flames. The golem becomes animate when the ashes of the manual are sprinkled on it. It is under your control, and it understands and obeys your spoken commands."
+				"Bu kitap belirli bir tipte golem yaratmak için gereken bilgi ve büyülü sözleri içerir. DM tipi seçer ya da rastgele belirler. Kılavuzu anlayıp kullanabilmek için, en az 2 adet 5. seviye büyü yuvasına sahip bir büyü kullanıcısı olman gerekir. Bir golem kılavuzunu kullanamayan ve bunu okumaya çalışan bir varlık 6d6 psişik hasar alır.",
+				"Bir {@creature taş golem} yaratmak için, kılavuz yanındayken günde 8 saatten fazla dinlenmemek şartıyla aralıksız 90 gün çalışmalısın. Ayrıca malzemeleri almak için 80.000 gp harcaman gerekir. Golemi yaratmayı bitirdiğinde kitap eldritch alevleri ile yanar. Kılavuzun külleri golemin üzerine serpildiğinde golem hayat bulur. Senin kontrolün altındadır ve sözlü komutlarını anlar ve uyar."
 			]
 		},
 		{
@@ -3834,7 +3834,7 @@
 			]
 		},
 		{
-			"name": "Necklace of Fireballs",
+			"name": "Alevtopu Kolyesi",
 			"wondrous": true,
 			"weight": "1",
 			"tier": "Alt",
@@ -3842,12 +3842,12 @@
 			"source": "DMG",
 			"page": 182,
 			"entries": [
-				"This necklace has 1d6+3 beads hanging from it. You can use an action to detach a bead and throw it up to 60 feet away. When it reaches the end of its trajectory, the bead detonates as a 3rd-level {@spell fireball} spell (save DC 15).",
-				"You can hurl multiple beads, or even the whole necklace, as one action. When you do so, increase the level of the {@spell fireball} by 1 for each bead beyond the first."
+				"Bu kolyede 1d6+3 boncuk sarkar. Eylemini kullanıp bir boncuğu ayırarak 60 fite kadar fırlatabilirsin. Yolunun sonuna geldiğinde bu boncuk 3. seviye bir {@spell fireball (alevtopu)} büyüsü (kurtulma DC'si 15) olarak patlar.",
+				"Birden çok boncuğu ya da tüm kolyeyi de bir eylem olarak fırlatabilirsin. Bunu yaptığında ilk boncuğun ötesindeki her boncuk için {@spell fireball (alevtopu)} büyüsünün seviyesini 1 arttırırsın."
 			]
 		},
 		{
-			"name": "Necklace of Prayer Beads",
+			"name": "Dua Boncukları Kolyesi",
 			"wondrous": true,
 			"weight": "1",
 			"tier": "Üst",
@@ -3856,14 +3856,14 @@
 			"page": 182,
 			"reqAttune": "by a Cleric, Druid, or Paladin",
 			"entries": [
-				"This necklace has 1d4+2 magic beads made from aquamarine, black pearl, or topaz. It also has many nonmagical beads made from stones such as amber, bloodstone, citrine, coral, jade, pearl, or quartz. If a magic bead is removed from the necklace, that bead loses its magic.",
-				"Six types of magic beads exist. The DM decides the type of each bead on the necklace or determines it randomly. A necklace can have more than one bead of the same type. To use one, you must be wearing the necklace. Each bead contains a spell that you can cast from it as a bonus action (using your spell save DC if a save is necessary). Once a magic bead's spell is cast, that bead can't be used again until the next dawn.",
+				"Bu kolyede akuamarin, kara inci veya topazdan yapılma 1d4+2 büyülü boncuk vardır. Ayrıca amber, kantaşı, sitrin, mercan, yeşim, inci veya kuvarsdan yapılma bolca büyüsüz boncukları da vardır. Eğer büyülü boncuklardan biri kolyeden ayrılırsa, boncuk büyüsünü kaybeder.",
+				"6 tip büyülü boncuk vardır. Kolyedeki her boncuğun tipini DM seçer ya da rastgele belirler. Bir kolye aynı tipte birden çok boncuğa sahip olabilir. Boncuklardan birini kullanmak için kolyeyi takıyor olman gerekir. Her boncuk, ondan bonus eylem olarak kullanabileceğin bir büyü içerir (eğer DC gerekirse kendi büyü kurtulma DC'ni kullanırsın). Bir büyülü boncuğun büyüsü kullanıldığında, o boncuk sonraki şafağa kadar bir daha kullanılamaz.",
 				{
 					"type": "table",
 					"colLabels": [
 						"d20",
-						"Bead of ...",
-						"Spell"
+						"... boncuğu",
+						"Büyü"
 					],
 					"colStyles": [
 						"col-xs-1 text-align-center",
@@ -3873,33 +3873,33 @@
 					"rows": [
 						[
 							"1-6",
-							"Blessing",
-							"{@spell Bless}"
+							"Kutsama",
+							"{@spell Bless (Kutsama)}"
 						],
 						[
 							"7-12",
-							"Curing",
-							"{@spell Cure wounds} (2nd level) or {@spell lesser restoration}"
+							"İyileştirme",
+							"{@spell Cure wounds (Yaraları İyileştir)} (2. seviye) ya da {@spell lesser restoration (küçük yenileme)}"
 						],
 						[
 							"13-16",
-							"Favor",
-							"{@spell greater restoration}"
+							"Lütuf",
+							"{@spell Greater Restoration (Üstün Yenileme)}"
 						],
 						[
 							"17-18",
-							"Smiting",
-							"{@spell Branding smite}"
+							"Çarpma",
+							"{@spell Branding smite (Damgalayan Çarpma)}"
 						],
 						[
 							"19",
-							"Summons",
-							"{@spell Planar ally}"
+							"Çağrı",
+							"{@spell Planar ally (Boyutsal müttefik)}"
 						],
 						[
 							"20",
-							"Wind walking",
-							"{@spell Wind walk}"
+							"Rüzgar yürüyüşü",
+							"{@spell Wind walk (Rüzgar yürüyüşü)}"
 						]
 					]
 				}
@@ -3946,7 +3946,7 @@
 			]
 		},
 		{
-			"name": "Oil of Etherealness",
+			"name": "Ruhanilik Yağı",
 			"type": "P",
 			"weight": "0.5",
 			"tier": "Alt",
@@ -3954,11 +3954,11 @@
 			"source": "DMG",
 			"page": 183,
 			"entries": [
-				"Beads of this cloudy gray oil form on the outside of its container and quickly evaporate. The oil can cover a Medium or smaller creature, along with the equipment it's wearing and carrying (one additional vial is required for each size category above Medium). Applying the oil takes 10 minutes. The affected creature then gains the effect of the {@spell etherealness} spell for 1 hour."
+				"Bu bulutsu gri yağın damlaları kabının dışında oluşur ve hızlıca buharlaşır. Yağ Orta veya daha küçük bir varlığı taşıdığı ve giydiği ekipmanı ile birlikte kaplayabilir (Orta boy üzerindeki her boy kategorisi için fazladan bir şişe gerekir). Yağı uygulama 10 dakika sürer. Etkilenen varlık sonrasında 1 saatliğine {@spell etherealness (ruhanilik)} büyüsü etkisinde olur."
 			]
 		},
 		{
-			"name": "Oil of Sharpness",
+			"name": "Keskinlik Yağı",
 			"type": "P",
 			"weight": "0.5",
 			"tier": "Alt",
@@ -3966,7 +3966,7 @@
 			"source": "DMG",
 			"page": 184,
 			"entries": [
-				"This clear, gelatinous oil sparkles with tiny, ultrathin silver shards. The oil can coat one slashing or piercing weapon or up to 5 pieces of slashing or piercing ammunition. Applying the oil takes 1 minute. For 1 hour, the coated item is magical and has a +3 bonus to attack and damage rolls."
+				"Bu berrak, jelimsi yağ incecik ve ufak gümüş parçacıkları ile ışıldar. Yağ bir adet kesme ya da delme silahını ya da 5 parça kesme ya da delme cephanesini kaplayabilir. Yağı uygulama 1 dakika sürer. 1 saatliğine kaplanan silah büyülü olur ve saldırı ve hasar zarlarına +3 bonus alır."
 			]
 		},
 		{
@@ -4059,7 +4059,7 @@
 			]
 		},
 		{
-			"name": "Periapt of Proof Against Poison",
+			"name": "Zehre Karşı Koruma Tılsımı",
 			"wondrous": true,
 			"weight": "1",
 			"tier": "Üst",
@@ -4067,7 +4067,7 @@
 			"source": "DMG",
 			"page": 184,
 			"entries": [
-				"This delicate silver chain has a brilliant-cut black gem pendant. While you wear it, poisons have no effect on you. You are immune to the {@condition poisoned} condition and have immunity to poison damage."
+				"Bu hassas gümüş zincir kolyede ustaca kesilmiş kara bir cevher vardır. Onu takarken zehirler seni etkilemez. {@condition Zehirlenme} durumuna ve zehir hasarına bağışıklığın olur."
 			]
 		},
 		{
@@ -4125,18 +4125,18 @@
 			]
 		},
 		{
-			"name": "Portable Hole",
+			"name": "Taşınabilir Delik",
 			"wondrous": true,
 			"tier": "Alt",
 			"rarity": "Nadir",
 			"source": "DMG",
 			"page": 185,
 			"entries": [
-				"This fine black cloth, soft as silk, is folded up to the dimensions of a handkerchief. It unfolds into a circular sheet 6 feet in diameter.",
-				"You can use an action to unfold a portable hole and place it on or against a solid surface, whereupon the portable hole creates an extradimensional hole 10 feet deep. The cylindrical space within the hole exists on a different plane, so it can't be used to create open passages. Any creature inside an open portable hole can exit the hole by climbing out of it.",
-				"You can use an action to close a portable hole by taking hold of the edges of the cloth and folding it up. Folding the cloth closes the hole, and any creatures or objects within remain in the extradimensional space. No matter what's in it, the hole weighs next to nothing.",
-				"If the hole is folded up, a creature within the hole's extradimensional space can use an action to make a DC 10 Strength check. On a successful check, the creature forces its way out and appears within 5 feet of the portable hole or the creature carrying it. A breathing creature within a closed portable hole can survive for up to 10 minutes, after which time it begins to suffocate.",
-				"Placing a portable hole inside an extradimensional space created by a {@item bag of holding}, {@item Heward's handy haversack}, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it and deposited in a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened."
+				"Bu ipek kadar yumuşak narin siyah kumaş mendil boyutuna katlanmıştır. Açınca 6 fit çapında bir daireye dönüşür.",
+				"Eylemini kullanıp taşınabilir deliği açarak bir katı yüzeye yerleştirebilirsin, burada taşınabilir delik 10 fit derinlikte boyutdışı bir çukur açar. Bu delikteki silindir alan farklı bir boyuta açılır, bu yüzden geçit açmak için kullanılamaz. Açık bir taşınabilir deliğin içindeki varlık ondan dışarı tırmanarak çıkabilir.",
+				"Eylemini kullanıp taşınabilir deliğin uçlarından tutarak katlayabilir ve onu kapayabilirsin. Kumaşı katlama deliği kapatır ve içindeki tüm varlıklar ve nesneler bu boyutdışı yerde kalır. İçinde ne olursa olsun deliğin neredeyse bir ağırlığı yoktur.",
+				"Eğer bir delik katlanmışsa, boyutdışı alandaki bir varlık DC 10 Kuvvet zarı atabilir. Başarılı olursa, varlık zorla dışarı çıkar ve taşınabilir deliğin ya da onu taşıyan varlığın 5 fit yakınında bir boş alanda belirir. Kapalı bir taşınabilir deliğin içindeki soluyan bir varlık 10 dakikaya kadar hayatta kalabilir, sonrasında boğulmaya başlar.",
+				"Taşınabilir deliği {@item Stok Çantası} veya {@item Heward'ın Kullanışlı Sırt Çantası} gibi farklı bir eşyanın yarattığı boyutdışı alana sokarsan, anında iki eşya da yok olur ve Astral Boyuta kapı açılır. Kapı bir eşyanın diğerine girdiği yerde açılır. Kapının 10 fit çevresindeki tüm varlıklar buradan içeri çekilir ve Astral Boyutta rastgele bir yere gider. Kapı sonrasında kapanır. Kapı tek taraflıdır ve yeniden açılamaz."
 			]
 		},
 		{
@@ -4584,76 +4584,76 @@
 			"poison": true
 		},
 		{
-			"name": "Quaal's Feather Token, Anchor",
+			"name": "Quaal'ın Tüy Nişanı, Çapa",
 			"wondrous": true,
 			"tier": "Alt",
 			"rarity": "Nadir",
 			"source": "DMG",
 			"page": 188,
 			"entries": [
-				"This tiny object looks like a feather.",
-				"Anchor. You can use an action to touch the token to a boat or ship. For the next 24 hours, the vessel can't be moved by any means. Touching the token to the vessel again ends the effect. When the effect ends, the token disappears."
+				"Bu ufak nesne bir tüy gibi görünür.",
+				"Çapa. Eylemini kullanıp bu nişanı bir tekne ya da gemiye dokundurursun. Sonraki 24 saat boyunca tekne hiçbir şekilde hareket ettirilemez. Nişanı tekneye yeniden değdirme etkiyi sonlandırır. Etki sonlandığında, nişan ortadan kaybolur."
 			]
 		},
 		{
-			"name": "Quaal's Feather Token, Bird",
+			"name": "Quaal'ın Tüy Nişanı, Bird",
 			"wondrous": true,
 			"tier": "Alt",
 			"rarity": "Nadir",
 			"source": "DMG",
 			"page": 188,
 			"entries": [
-				"This tiny object looks like a feather.",
-				"Bird. You can use an action to toss the token 5 feet into the air. The token disappears and an enormous, multicolored bird takes its place. The bird has the statistics of a {@creature roc}, but it obeys your simple commands and can't attack. It can carry up to 500 pounds while flying at its maximum speed (16 miles an hour for a maximum of 144 miles per day. with a one-hour rest for every 3 hours of flying), or 1,000 pounds at half that speed. The bird disappears after flying its maximum distance for a day or if it drops to 0 hit points. You can dismiss the bird as an action."
+				"Bu ufak nesne bir tüy gibi görünür.",
+				"Kuş. Eylemini kullanıp nişanı 5 fit havaya atabilirsin. Nişan ortadan kaybolur ve yerini devasa, çokrenkli bir kuş alır. Kuş {@creature roc} istatistiklerini kullanır, basit komutlarına uyar ama saldıramaz. Maksimum hızında uçarken (Saatte 16 mil hızla günde maksimum 144 mil. Her 3 saat uçuş için 1 saat dinlenme gerekir) 500 pound yük taşıyabilir veya 1,000 pounda kadar yük taşıyorsa bu hızın yarısında gidebilir. Kuş gün boyunca maksimum mesafesini uçtuktan sonra ya da 0 HP'ye düşerse kaybolur. Kuşu eylem olarak defedebilirsin."
 			]
 		},
 		{
-			"name": "Quaal's Feather Token, Fan",
+			"name": "Quaal'ın Tüy Nişanı, Yelpaze",
 			"wondrous": true,
 			"tier": "Alt",
 			"rarity": "Nadir",
 			"source": "DMG",
 			"page": 188,
 			"entries": [
-				"This tiny object looks like a feather.",
-				"Fan. If you are on a boat or ship, you can use an action to toss the token up to 10 feet in the air. The token disappears, and a giant flapping fan takes its place. The fan floats and creates a wind strong enough to fill the sails of one ship, increasing its speed by 5 miles per hour for 8 hours. You can dismiss the fan as an action."
+				"Bu ufak nesne bir tüy gibi görünür.",
+				"Yelpaze. Eğer bir tekne ya da gemideysen, eylemini kullanıp nişanı 10 fit havaya atabilirsin. Nişan ortadan kaybolur ve yerine devasa bir sallanan yelpaze alır. Fan havada kalır ve bir geminin yelkenlerini dolduracak kadar rüzgar yaratır, 8 saatliğine onun hızını saatte 5 mil arttırır. Yelpazeyi eylem olarak defedebilirsin."
 			]
 		},
 		{
-			"name": "Quaal's Feather Token, Swan Boat",
+			"name": "Quaal'ın Tüy Nişanı, Kuğu Teknesi",
 			"wondrous": true,
 			"tier": "Alt",
 			"rarity": "Nadir",
 			"source": "DMG",
 			"page": 188,
 			"entries": [
-				"This tiny object looks like a feather.",
-				"Swan Boat. You can use an action to touch the token to a body of water at least 60 feet in diameter. The token disappears, and a 50-foot-long, 20-foot-wide boat shaped like a swan takes its place. The boat is self-propelled and moves across water at a speed of 6 miles per hour. You can use an action while on the boat to command it to move or to turn up to 90 degrees. The boat can carry up to thirty-two Medium or smaller creatures. A Large creature counts as four Medium creatures, while a Huge creature counts as nine. The boat remains for 24 hours and then disappears. You can dismiss the boat as an action."
+				"Bu ufak nesne bir tüy gibi görünür.",
+				"Kuğu Teknesi. Eylemini kullanıp nişanı çapı en az 60 fit olan bir su kütlesine değdirirsin. Nişan ortadan kaybolur ve 50 fit uzunlukta, 20 fit genişlikte, kuğuya benzeyen bir tekne onun yerini alır. Tekne kendi kendine hareket edebilir ve suda saatte 6 mil hızla ilerler. Teknedeyken eylemini kullanıp ona hareket etme ya da 90 dereceye kadar dönme komutu verebilirsin. Tekne 32'ye kadar Orta veya daha küçük varlık taşıyabilir. Büyük boy bir varlık 4 Orta, Dev boy bir varlık ise 9 Orta varlık sayılır. Tekne 24 saat kalır ve sonrasında kaybolur. Tekneyi eylem olarak defedebilirsin."
 			]
 		},
 		{
-			"name": "Quaal's Feather Token, Tree",
+			"name": "Quaal'ın Tüy Nişanı, Ağaç",
 			"wondrous": true,
 			"tier": "Alt",
 			"rarity": "Nadir",
 			"source": "DMG",
 			"page": 188,
 			"entries": [
-				"This tiny object looks like a feather.",
-				"Tree. You must be outdoors to use this token. You can use an action to touch it to an unoccupied space on the ground. The token disappears, and in its place a nonmagical oak tree springs into existence. The tree is 60 feet tall and has a 5-foot-diameter trunk, and its branches at the top spread out in a 20-foot radius."
+				"Bu ufak nesne bir tüy gibi görünür.",
+				"Ağaç. Bu nişanı kullanabilmek için dışarıda olman gerekir. Eylemini kullanıp nişanı zeminde boş bir yere değdirirsin. Nişan ortadan kaybolur ve yerinde büyüsüz bir meşe ağacı belirir. Ağaç 60 fit uzunluktadır ve gövdesi 5 fit çapındadır, üzerindeki dalları çevresinde 20 fite kadar yayılır."
 			]
 		},
 		{
-			"name": "Quaal's Feather Token, Whip",
+			"name": "Quaal'ın Tüy Nişanı, Kırbaç",
 			"wondrous": true,
 			"tier": "Alt",
 			"rarity": "Nadir",
 			"source": "DMG",
 			"page": 188,
 			"entries": [
-				"This tiny object looks like a feather.",
-				"Whip. You can use an action to throw the token to a point within 10 feet of you. The token disappears, and a floating whip takes its place. You can then use a bonus action to make a melee spell attack against a creature within 10 feet of the whip, with an attack bonus of +9. On a hit, the target takes 1d6+5 force damage.",
-				"As a bonus action on your turn, you can direct the whip to fly up to 20 feet and repeat the attack against a creature within 10 feet of it. The whip disappears after 1 hour, when you use an action to dismiss it, or when you are {@condition incapacitated} or die."
+				"Bu ufak nesne bir tüy gibi görünür.",
+				"Kırbaç. Eylemini kullanıp nişanı 10 fit yakınında bir yere atabilirsin. Nişan ortadan kaybolur ve havada uçan bir kırbaç onun yerini alır. Bonus eylemini kullanıp kırbaçın 10 fit yakınındaki bir varlığa karşı yakın dövüş büyü saldırısı yapabilirsin, saldırı bonusu olarak +9 kullanılır. Vurursa, hedef 1d6+5 güç hasarı alır.",
+				"Sıranda bonus eylem olarak, kırbaçı 20 fite kadar hareket ettirip 10 fit çevresindeki bir varlığa karşı saldırıyı tekrarlayabilirsin. Kırbaç 1 saat sonra, sen eylemini kullanıp savdığında, {@condition etkisiz hal}e geldiğinde veya öldüğünde kaybolur."
 			]
 		},
 		{
@@ -4696,7 +4696,7 @@
 			]
 		},
 		{
-			"name": "Ring of Acid Resistance",
+			"name": "Asit Direnci Yüzüğü",
 			"resist": "acid",
 			"type": "RG",
 			"tier": "Üst",
@@ -4729,26 +4729,26 @@
 			]
 		},
 		{
-			"name": "Ring of Animal Influence",
+			"name": "Hayvan Etkisi Yüzüğü",
 			"type": "RG",
 			"tier": "Üst",
 			"rarity": "Nadir",
 			"source": "DMG",
 			"page": 189,
 			"entries": [
-				"This ring has 3 charges, and it regains 1d3 expended charges daily at dawn. While wearing the ring, you can use an action to expend 1 of its charges to cast one of the following spells:",
+				"Bu yüzüğün 3 yükü vardır ve her şafakta 1d3 harcanmış yükü yeniler. Bu yüzüğü takarken eylemini kullanıp 1 yükünü harcayarak şu büyülerden birini kullanabilirsin:",
 				{
 					"type": "list",
 					"items": [
-						"{@spell Animal friendship} (save DC 13)",
-						"{@spell Fear} (save DC 13), targeting only beasts that have an Intelligence of 3 or lower",
-						"{@spell Speak with animals}"
+						"{@spell Animal friendship (hayvan dostuluğu)} (kurtulma DC'si 13)",
+						"{@spell Fear (korku)} (kurtulma DC'si 13), sadece 3 ya da altında Zekası olan hayvanları etkiler",
+						"{@spell Speak with animals (hayvanlarla konuş)}"
 					]
 				}
 			]
 		},
 		{
-			"name": "Ring of Cold Resistance",
+			"name": "Soğuk Direnci Yüzüğü",
 			"resist": "cold",
 			"type": "RG",
 			"tier": "Üst",
@@ -4795,7 +4795,7 @@
 			]
 		},
 		{
-			"name": "Ring of Evasion",
+			"name": "Sıyrılma Yüzüğü",
 			"type": "RG",
 			"tier": "Üst",
 			"rarity": "Nadir",
@@ -4803,11 +4803,11 @@
 			"page": 191,
 			"reqAttune": "YES",
 			"entries": [
-				"This ring has 3 charges, and it regains 1d3 expended charges daily at dawn. When you fail a Dexterity saving throw while wearing it, you can use your reaction to expend 1 of its charges to succeed on that saving throw instead."
+				"Bu yüzüğün 3 yükü vardır ve her şafakta 1d3 harcanmış yükü yeniler. Bunu takarken bir Çeviklik kurtulma zarında başarısız olursan, reaksiyonunu kullanıp 1 yükünü harcayarak o zarda başarılı olabilirsin."
 			]
 		},
 		{
-			"name": "Ring of Feather Falling",
+			"name": "Tüy Düşüşü Yüzüğü",
 			"type": "RG",
 			"tier": "Üst",
 			"rarity": "Nadir",
@@ -4815,7 +4815,7 @@
 			"page": 191,
 			"reqAttune": "YES",
 			"entries": [
-				"When you fall while wearing this ring, you descend 60 feet per round and take no damage from falling."
+				"Bu yüzüğü takarken düşersen, her round 60 fit hızla inersin ve düşüşten hasar almazsın."
 			]
 		},
 		{
@@ -4841,7 +4841,7 @@
 			]
 		},
 		{
-			"name": "Ring of Fire Resistance",
+			"name": "Ateş Direnci Yüzüğü",
 			"resist": "fire",
 			"type": "RG",
 			"tier": "Üst",
@@ -4851,7 +4851,7 @@
 			"reqAttune": "YES"
 		},
 		{
-			"name": "Ring of Force Resistance",
+			"name": "Güç Direnci Yüzüğü",
 			"resist": "force",
 			"type": "RG",
 			"tier": "Üst",
@@ -4861,7 +4861,7 @@
 			"reqAttune": "YES"
 		},
 		{
-			"name": "Ring of Free Action",
+			"name": "Serbest Eylem Yüzüğü",
 			"type": "RG",
 			"tier": "Üst",
 			"rarity": "Nadir",
@@ -4869,7 +4869,7 @@
 			"page": 191,
 			"reqAttune": "YES",
 			"entries": [
-				"While you wear this ring, difficult terrain doesn't cost you extra movement. In addition, magic can neither reduce your speed nor cause you to be {@condition paralyzed} or {@condition restrained}."
+				"Bu yüzüğü takarken zorlu arazi sana fazladan harekete mal olmaz. Ayrıca, büyü senin hızını düşüremez ya da {@condition felç} veya {@condition kısıtlanma} durumuna sokamaz."
 			]
 		},
 		{
@@ -4897,7 +4897,7 @@
 			]
 		},
 		{
-			"name": "Ring of Lightning Resistance",
+			"name": "Yıldırım Direnci Yüzüğü",
 			"resist": "lightning",
 			"type": "RG",
 			"tier": "Üst",
@@ -4921,7 +4921,7 @@
 			]
 		},
 		{
-			"name": "Ring of Necrotic Resistance",
+			"name": "Nekrotik Direnç Yüzüğü",
 			"resist": "necrotic",
 			"type": "RG",
 			"tier": "Üst",
@@ -4931,7 +4931,7 @@
 			"reqAttune": "YES"
 		},
 		{
-			"name": "Ring of Poison Resistance",
+			"name": "Zehir Direnci Yüzüğü",
 			"resist": "poison",
 			"type": "RG",
 			"tier": "Üst",
@@ -4941,7 +4941,7 @@
 			"reqAttune": "YES"
 		},
 		{
-			"name": "Ring of Protection",
+			"name": "Koruma Yüzüğü",
 			"type": "RG",
 			"tier": "Üst",
 			"rarity": "Nadir",
@@ -4949,7 +4949,7 @@
 			"page": 191,
 			"reqAttune": "YES",
 			"entries": [
-				"You gain a +1 bonus to AC and saving throws while wearing this ring."
+				"Bu yüzüğü takarken AC ve kurtulma zarlarına +1 bonusun olur."
 			],
 			"modifier": [
 				{
@@ -4969,7 +4969,7 @@
 			]
 		},
 		{
-			"name": "Ring of Psychic Resistance",
+			"name": "Psişik Direnci Yüzüğü",
 			"resist": "psychic",
 			"type": "RG",
 			"tier": "Üst",
@@ -4979,7 +4979,7 @@
 			"reqAttune": "YES"
 		},
 		{
-			"name": "Ring of Radiant Resistance",
+			"name": "Radyant Direnç Yüzüğü",
 			"resist": "radiant",
 			"type": "RG",
 			"tier": "Üst",
@@ -4989,7 +4989,7 @@
 			"reqAttune": "YES"
 		},
 		{
-			"name": "Ring of Regeneration",
+			"name": "Yenilenme Yüzüğü",
 			"type": "RG",
 			"tier": "Üst",
 			"rarity": "Çok Nadir",
@@ -4997,7 +4997,7 @@
 			"page": 191,
 			"reqAttune": "YES",
 			"entries": [
-				"While wearing this ring, you regain 1d6 hit points every 10 minutes, provided that you have at least 1 hit point. If you lose a body part, the ring causes the missing part to regrow and return to full functionality after 1d6+1 days if you have at least 1 hit point the whole time."
+				"Bu yüzüğü takarken en az 1 HP'ye sahip olduğun sürece 10 dakikada bir 1d6 HP yenilersin. Eğer bir vücut parçanı kaybedersen, bütün zaman boyunca en az 1 HP'ye sahip olduğun sürece yüzük 1d6+1 gün içerisinde bu parçanın yeniden oluşup eski işlevine dönmesini sağlar."
 			]
 		},
 		{
@@ -5020,7 +5020,7 @@
 			]
 		},
 		{
-			"name": "Ring of Spell Storing",
+			"name": "Büyü Depolama Yüzüğü",
 			"type": "RG",
 			"tier": "Üst",
 			"rarity": "Nadir",
@@ -5028,9 +5028,9 @@
 			"page": 192,
 			"reqAttune": "YES",
 			"entries": [
-				"This ring stores spells cast into it, holding them until the attuned wearer uses them. The ring can store up to 5 levels worth of spells at a time. When found, it contains 1d6-1 levels of stored spells chosen by the DM.",
-				"Any creature can cast a spell of 1st through 5th level into the ring by touching the ring as the spell is cast. The spell has no effect, other than to be stored in the ring. If the ring can't hold the spell, the spell is expended without effect. The level of the slot used to cast the spell determines how much space it uses.",
-				"While wearing this ring, you can cast any spell stored in it. The spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster, but is otherwise treated as if you cast the spell. The spell cast from the ring is no longer stored in it, freeing up space."
+				"Bu yüzük üzerinde kullanılan büyüleri ona bağlı kişi kullanana dek saklar. Yüzük aynı anda 5 seviyeye kadar büyü depolayabilir. Bulunduğunda, DM'in seçeceği 1d6-1 seviye büyü içerir.",
+				"Tüm varlıklar büyüyü yaparken yüzüğe dokunarak birden beşe kadar seviyede bir büyüyü depolayabilir. Kullanılan büyü bir etki göstermez, sadece yüzükte depolanır. Eğer yüzük büyüyü depolayamazsa, büyü etki göstermeden harcanır. Büyüyü yapmak için kullanılan yuva seviyesi ne kadar yer tutacağını belirler.",
+				"Yüzüğü takarken içinde depolanmış büyüleri kullanabilirsin. Büyü, onu depolayan kişinin büyü yuvasını, kurtulma DC'sini, saldırı bonusunu ve büyü yapma yeteneğini kullanır, ama bunların dışında büyüyü sen yaptın sayılır. Yüzükten kullanılan bir büyü artık orada depolanmaz ve içinde yer açılır."
 			]
 		},
 		{
@@ -5057,7 +5057,7 @@
 			]
 		},
 		{
-			"name": "Ring of Telekinesis",
+			"name": "Telekinezi Yüzüğü",
 			"type": "RG",
 			"tier": "Üst",
 			"rarity": "Çok Nadir",
@@ -5065,22 +5065,22 @@
 			"page": 193,
 			"reqAttune": "YES",
 			"entries": [
-				"While wearing this ring, you can cast the {@spell telekinesis} spell at will, but you can target only objects that aren't being worn or carried."
+				"Bu yüzüğü takarken, istediğin zaman {@spell telekinesis (telekinezi)} büyüsünü kullanabilirsin ama sadece taşınmayan ya da giyilmeyen nesneleri hedef alabilirsin."
 			]
 		},
 		{
-			"name": "Ring of Three Wishes",
+			"name": "Üç Dilek Yüzüğü",
 			"type": "RG",
 			"tier": "Üst",
 			"rarity": "Efsanevi",
 			"source": "DMG",
 			"page": 193,
 			"entries": [
-				"While wearing this ring, you can use an action to expend 1 of its 3 charges to cast the {@spell wish} spell from it. The ring becomes nonmagical when you use the last charge."
+				"Bu yüzüğü takarken, 3 yükünden birini harcayıp {@spell wish (dilek)} büyüsünü kullanabilirsin. Son yükü harcadığında yüzük büyüsünü kaybeder."
 			]
 		},
 		{
-			"name": "Ring of Thunder Resistance",
+			"name": "Ses Direnci Yüzüğü",
 			"resist": "thunder",
 			"type": "RG",
 			"tier": "Üst",
@@ -5135,7 +5135,7 @@
 			]
 		},
 		{
-			"name": "Ring of X-ray Vision",
+			"name": "X-ray Görüşü Yüzüğü",
 			"type": "RG",
 			"tier": "Üst",
 			"rarity": "Nadir",
@@ -5143,12 +5143,12 @@
 			"page": 193,
 			"reqAttune": "YES",
 			"entries": [
-				"While wearing this ring, you can use an action to speak its command word. When you do so, you can see into and through solid matter for 1 minute. This vision has a radius of 30 feet. To you, solid objects within that radius appear transparent and don't prevent light from passing through them. The vision can penetrate 1 foot of stone, 1 inch of common metal, or up to 3 feet of wood or dirt. Thicker substances block the vision, as does a thin sheet of lead.",
-				"Whenever you use the ring again before taking a long rest, you must succeed on a DC 15 Constitution saving throw or gain one level of {@condition exhaustion}."
+				"Bu yüzüğü takarken eylemini kullanıp komut sözünü söyleyebilirsin. Bunu yaptığında katı maddelerin içini ve ardını 1 dakikalığına görebilirsin. Bu görüşün 30 fit menzili vardır. Senin için bu alandaki katı cisimler saydamdır ve içlerinden ışığın geçişini engellemezler. Görüş 1 fit taş, 1 inç yaygın metal veya 3 fit ahşap ya da toprağı aşabilir. Daha kalın maddeler ya da ince bir kurşun plaka görüşü engeller.",
+				"Uzun dinlenme bitirmeden yüzüğü sonraki kullanışlarında, DC 15 Dayanıklılık kurtulma zarı atarsın ya da 1 {@condition bitkinlik} seviyesi kazanırsın."
 			]
 		},
 		{
-			"name": "Ring of the Ram",
+			"name": "Koç Yüzüğü",
 			"type": "RG",
 			"tier": "Üst",
 			"rarity": "Nadir",
@@ -5156,12 +5156,12 @@
 			"page": 193,
 			"reqAttune": "YES",
 			"entries": [
-				"This ring has 3 charges, and it regains 1d3 expended charges daily at dawn. While wearing the ring, you can use an action to expend 1 to 3 of its charges to attack one creature you can see within 60 feet of you. The ring produces a spectral ram's head and makes its attack roll with a +7 bonus. On a hit, for each charge you spend, the target takes 2d10 force damage and is pushed 5 feet away from you.",
-				"Alternatively, you can expend 1 to 3 of the ring's charges as an action to try to break an object you can see within 60 feet of you that isn't being worn or carried. The ring makes a Strength check with a +5 bonus for each charge you spend."
+				"Bu yüzüğün 3 yükü vardır ve her şafakta 1d3 harcanmış yükü yeniler. Bu yüzüğü takarken eylemini kullanıp 1 ile 3 arası yükünü harcayarak 60 fit yakınında görebildiğin bir varlığa saldırabilirsin. Yüzük spektral bir koçbaşı yaratır ve +7 saldırı bonusu ile saldırır. Vurursa, harcadığın her yük için hedef 2d10 güç hasarı alır ve senden 5 fit öteye itilir.",
+				"Alternatif olarak, eylemini kullanıp 1 ile 3 arası yükünü harcayarak 60 fit yakınında görebildiğin, taşınmayan ya da giyilmeyen bir nesneyi kırmaya çalışabilirsin. Yüzük harcadığın her yük için +5 bonusla Kuvvet zarı atar."
 			]
 		},
 		{
-			"name": "Robe of Eyes",
+			"name": "Gözlerin Cübbesi",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Nadir",
@@ -5169,17 +5169,17 @@
 			"page": 193,
 			"reqAttune": "YES",
 			"entries": [
-				"This robe is adorned with eyelike patterns. While you wear the robe, you gain the following benefits:",
+				"Bu cübbe göz benzeri desenlerle bezelidir. Bu cübbeyi giyerken şu özellikleri kazanırsın:",
 				{
 					"type": "list",
 					"items": [
-						"The robe lets you see in all directions, and you have advantage on Wisdom ({@skill Perception}) checks that rely on sight.",
-						"You have darkvision out to a range of 120 feet.",
-						"You can see {@condition invisible} creatures and objects, as well as see into the Ethereal Plane, out to a range of 120 feet."
+						"Cübbe her yönü görmeni sağlar ve görüş bazlı Akıl ({@skill Algı}) zarlarında avantajlı olursun.",
+						"120 fite kadar gece görüşün olur.",
+						"{@condition Görünmezlik} etkisi altındaki varlık ve nesneleri, ve Ethereal Boyutu da 120 fite kadar görebilirsin."
 					]
 				},
-				"The eyes on the robe can't be closed or averted. Although you can close or avert your own eyes, you are never considered to be doing so while wearing this robe.",
-				"A {@spell light} spell cast on the robe or a {@spell daylight} spell cast within 5 feet of the robe causes you to be {@condition blinded} for 1 minute. At the end of each of your turns, you can make a Constitution saving throw (DC 11 for {@spell light} or DC 15 for {@spell daylight}), ending the blindness on a success."
+				"Cübbedeki gözler kapanamaz ya da çevrilemez. Kendi gözlerini kapayıp çevirebilsen de, bu cübbeyi giyerken asla onu yapmış sayılmazsın.",
+				"Cübbeye yapılmış bir {@spell light (Işık)} büyüsü ya da cübbenin 5 fit yakınında yapılan bir {@spell daylight (Gün Işığı)} büyüsü senin 1 dakikalığına {@condition körlük} etkisinde olmanı sağlar. Her sıranın sonunda bir Dayanıklılık kurtulma zarı atıp ({@spell light (Işık)} için DC 11 ya da {@spell daylight (Gün Işığı)} için DC 15) başarılı olursan körlüğü sonlandırabilirsin."
 			]
 		},
 		{
@@ -5421,7 +5421,7 @@
 			]
 		},
 		{
-			"name": "Rod of Rulership",
+			"name": "Yöneticilik Bastonu",
 			"type": "RD",
 			"weight": "2",
 			"tier": "Üst",
@@ -5430,7 +5430,7 @@
 			"page": 197,
 			"reqAttune": "YES",
 			"entries": [
-				"You can use an action to present the rod and command obedience from each creature of your choice that you can see within 120 feet of you. Each target must succeed on a DC 15 Wisdom saving throw or be {@condition charmed} by you for 8 hours. While {@condition charmed} in this way, the creature regards you as its trusted leader. If harmed by you or your companions, or commanded to do something contrary to its nature, a target ceases to be {@condition charmed} in this way. The rod can't be used again until the next dawn."
+				"Eylem olarak bastonu gösterip 120 fit yakınında görebildiğin ve seçeceğin her varlığın itaatini isteyebilirsin. Her hedef DC 15 Akıl kurtulma zarı atar ya da 8 saatliğine senin tarafından {@condition cezbedilme} etkisinde olur. Bu şekilde cezbedilmişken varlık seni güvenilir lideri sayar. Eğer senin yoldaşların tarafından hasar alırsa ya da doğasının aksi bir şey yapması istenirse, varlık bu şekilde cezbedilmekten çıkar. Baston sonraki şafağa kadar bir daha kullanılamaz."
 			]
 		},
 		{
@@ -5552,7 +5552,7 @@
 			]
 		},
 		{
-			"name": "Rope of Entanglement",
+			"name": "Dolaşıklık İpi",
 			"wondrous": true,
 			"weight": "3",
 			"tier": "Üst",
@@ -5560,9 +5560,9 @@
 			"source": "DMG",
 			"page": 197,
 			"entries": [
-				"This rope is 30 feet long and weighs 3 pounds. If you hold one end of the rope and use an action to speak its command word, the other end darts forward to entangle a creature you can see within 20 feet of you. The target must succeed on a DC 15 Dexterity saving throw or become {@condition restrained}.",
-				"You can release the creature by using a bonus action to speak a second command word. A target {@condition restrained} by the rope can use an action to make a DC 15 Strength or Dexterity check (target's choice). On a success, the creature is no longer {@condition restrained} by the rope.",
-				"The rope has AC 20 and 20 hit points. It regains 1 hit point every 5 minutes as long as it has at least 1 hit point. If the rope drops to 0 hit points, it is destroyed."
+				"Bu ip 30 fit uzunlukta ve 3 pound ağırlıktadır. Eğer ipin bir ucunu tutup eylem olarak komut sözünü söylersen, diğer ucu ileri doğru fırlayıp 20 fit yakınında görebildiğin bir varlığa dolanır. Hedef DC 15 Çeviklik kurtulma zarı atar ya da {@condition kısıtlanma} durumuna girer.",
+				"Varlığı bonus eylem olarak bir komut sözü söyleyerek salabilirsin. İp tarafından kısıtlanan bir varlık eylemini kullanıp DC 15 Kuvvet ya da Çeviklik (kendi seçimi) zarı atabilir. Başarılı olursa, varlık ip tarafından {@condition kısıtlanma} durumunda olmaz.",
+				"İpin 20 AC'si ve 20 HP'si vardır. En az 1 HP'si olduğu sürece her 5 dakikada 1 HP yeniler. Eğer ip 0 HP'ye düşerse yok olur."
 			]
 		},
 		{
@@ -5730,7 +5730,7 @@
 			"poison": true
 		},
 		{
-			"name": "Shield of Missile Attraction",
+			"name": "Mermi Çekme Kalkanı",
 			"type": "S",
 			"weight": "6",
 			"ac": 2,
@@ -5740,12 +5740,12 @@
 			"page": 200,
 			"reqAttune": "YES",
 			"entries": [
-				"While holding this shield, you have resistance to damage from ranged weapon attacks.",
+				"Kalkanı tutarken menzilli silahlardan gelen hasara karşı direncin olur.",
 				{
 					"type": "entries",
-					"name": "Curse",
+					"name": "Lanet",
 					"entries": [
-						"This shield is cursed. Attuning to it curses you until you are targeted by the {@spell remove curse} spell or similar magic. Removing the shield fails to end the curse on you. Whenever a ranged weapon attack is made against a target within 10 feet of you, the curse causes you to become the target instead."
+						"Bu kalkan lanetlidir. Ona bağlanmak sen {@spell remove curse (lanet kaldır)} veya benzeri bir büyü ile hedef alınana kadar seni lanetler. Kalkanı bırakma üzerindeki laneti ortadan kaldırmaz. 10 fit yakınındaki bir varlığa menzilli silahla saldırı yapıldığında, lanet yüzünden bu saldırının hedefi sen olursun."
 					]
 				}
 			]
@@ -5951,7 +5951,7 @@
 			]
 		},
 		{
-			"name": "Spellguard Shield",
+			"name": "Büyü Koruma Kalkanı",
 			"type": "S",
 			"weight": "6",
 			"ac": 2,
@@ -5961,7 +5961,7 @@
 			"page": 201,
 			"reqAttune": "YES",
 			"entries": [
-				"While holding this shield, you have advantage on saving throws against spells and other magical effects, and spell attacks have disadvantage against you"
+				"Bu kalkanı tutarken büyüler ve diğer büyülü etkilere karşı kurtulma zarlarında avantajlı olursun ve sana yapılan büyülü saldırılar dezavantajlı olur."
 			]
 		},
 		{
@@ -6005,7 +6005,7 @@
 			]
 		},
 		{
-			"name": "Değneği Charming",
+			"name": "Cazibe Değneği",
 			"technology": "Değnek",
 			"weight": "4",
 			"tier": "Üst",
@@ -6014,13 +6014,13 @@
 			"page": 201,
 			"reqAttune": "by a Bard, Cleric, Druid, Sorcerer, Warlock, or Wizard",
 			"entries": [
-				"While holding this staff, you can use an action to expend 1 of its 10 charges to cast {@spell charm person}, {@spell command}, or {@spell comprehend languages} from it using your spell save DC. The staff can also be used as a magic quarterstaff.",
-				"If you are holding the staff and fail a saving throw against an enchantment spell that targets only you, you can turn your failed save into a successful one. You can't use this property of the staff again until the next dawn. If you succeed on a save against an enchantment spell that targets only you, with or without the staff's intervention, you can use your reaction to expend 1 charge from the staff and turn the spell back on its caster as if you had cast the spell.",
-				"The staff regains 1d8+2 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff becomes a nonmagical quarterstaff."
+				"Bu değneği tutarken eylemini kullanıp 10 yükünden birini harcayarak {@spell charm person (kişi cezbet)}, {@spell command (emret)} veya {@spell comprehend languages (dilleri anla)} büyülerinden birini kendi büyü kurtulma DC'n ile kullanabilirsin. Değnek ayrıca bir büyülü savaş değneği olarak da kullanılabilir.",
+				"Eğer değneği tutuyorsan ve sadece seni hedef alan bir enchantment büyüsüne karşı kurtulma zarında başarısız olursan, başarısız zarını başarılı sayabilirsin. Değneğin bu özelliğini bir sonraki şafağa kadar bir daha kullanamazsın. Eğer sadece seni hedef alan bir enchantment büyüsüne karşı kurtulma zarında başarılı olursan, değneğin yardımı olup olmaması farketmeksizin, reaksiyonunu kullanıp değnekten 1 yük harcayarak sanki büyüyü sen yapmışsıncasına bunu kullanan kişiye geri döndürebilirsin.",
+				"Değnek her şafakta 1d8+2 harcanmış yükü yeniler. Eğer son yükü harcarsan d20 atarsın. 1 gelirse, değnek büyüsünü yitirir."
 			]
 		},
 		{
-			"name": "Değneği Fire",
+			"name": "Ateş Değneği",
 			"technology": "Değnek",
 			"weight": "4",
 			"tier": "Üst",
@@ -6029,13 +6029,13 @@
 			"page": 201,
 			"reqAttune": "by a Druid, Sorcerer, Warlock, or Wizard",
 			"entries": [
-				"You have resistance to fire damage while you hold this staff.",
-				"The staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC: {@spell burning hands} (1 charge), {@spell fireball} (3 charges), or {@spell wall of fire} (4 charges).",
-				"The staff regains 1d6+4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff blackens, crumbles into cinders, and is destroyed."
+				"Bu değneği tutarken ateş hasarına direncin olur.",
+				"Değneğin 10 yükü vardır. Onu tutarken, eylemini kullanıp 1 veya daha fazla yükünü harcayarak kendi büyü kurtulma DC'n ile şu büyülerden birini kullanabilirsin: {@spell burning hands (yanan eller)} (1 yük), {@spell fireball (alevtopu)} (3 yük) veya {@spell wall of fire (ateş duvarı)} (4 yük).",
+				"Değnek her şafakta 1d6+4 harcanmış yükü yeniler. Eğer son yükü harcarsan d20 atarsın. 1 gelirse, değnek kararır, küle dönüşür ve yok olur."
 			]
 		},
 		{
-			"name": "Değneği Frost",
+			"name": "Buz Değneği",
 			"technology": "Değnek",
 			"weight": "4",
 			"tier": "Üst",
@@ -6044,13 +6044,13 @@
 			"page": 202,
 			"reqAttune": "by a Druid, Sorcerer, Warlock, or Wizard",
 			"entries": [
-				"You have resistance to cold damage while you hold this staff.",
-				"The staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC: {@spell cone of cold} (5 charges), {@spell fog cloud} (1 charge), {@spell ice storm} (4 charges), or {@spell wall of ice} (4 charges).",
-				"The staff regains 1d6+4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1. the staff turns to water and is destroyed."
+				"Bu değneği tutarken soğuk hasarına direncin olur.",
+				"Değneğin 10 yükü vardır. Onu tutarken, eylemini kullanıp 1 veya daha fazla yükünü harcayarak kendi büyü kurtulma DC'n ile şu büyülerden birini kullanabilirsin: {@spell cone of cold (soğuk konisi)} (5 yük), {@spell fog cloud (sis bulutu)} (1 yük), {@spell ice storm (buz fırtınası)} (4 yük) veya {@spell wall of ice (buz duvarı)} (4 yük).",
+				"Değnek her şafakta 1d6+4 harcanmış yükü yeniler. Eğer son yükü harcarsan d20 atarsın. 1 gelirse, değnek suya döner ve yok olur."
 			]
 		},
 		{
-			"name": "Değneği Healing",
+			"name": "Şifa Değneği",
 			"technology": "Değnek",
 			"weight": "4",
 			"tier": "Üst",
@@ -6059,12 +6059,12 @@
 			"page": 202,
 			"reqAttune": "by a Bard, Cleric, or Druid",
 			"entries": [
-				" This staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC and spellcasting ability modifier: {@spell cure wounds} (1 charge per spell level, up to 4th), {@spell lesser restoration} (2 charges). or {@spell mass cure wounds} (5 charges).",
-				"The staff regains 1d6+4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1. the staff vanishes in a flash of light, lost forever."
+				"Bu değneğin 10 yükü vardır. Onu tutarken, eylemini kullanıp 1 veya daha fazla yükünü harcayarak kendi büyü DC'n ve büyü yapma yetenek bonusun ile şu büyülerden birini kullanabilirsin: {@spell cure wounds (Yaraları İyileştir)} (büyü seviyesi başına 1 yük, max 4. seviye), {@spell lesser restoration (küçük yenileme)} (2 yük) veya {@spell mass cure wounds (Toplu Yara İyileştirme)} (5 yük).",
+				"Değnek her şafakta 1d6+4 harcanmış yükü yeniler. Eğer son yükü harcarsan d20 atarsın. 1 gelirse, değnek bir ışık ile sonsuza dek kaybolur."
 			]
 		},
 		{
-			"name": "Değneği Power",
+			"name": "Güç Değneği",
 			"technology": "Değnek",
 			"weight": "4",
 			"tier": "Üst",
@@ -6073,23 +6073,23 @@
 			"page": 202,
 			"reqAttune": "by a Sorcerer, Warlock, or Wizard",
 			"entries": [
-				"This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While holding it, you gain a +2 bonus to Armor Class, saving throws, and spell attack rolls.",
-				"The staff has 20 charges for the following properties. The staff regains 2d8+4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff retains its +2 bonus to attack and damage roll but loses all other properties. On a 20, the staff regain 1d8+2 charges.",
-				"Power Strike. When you hit with a melee attack using the staff, you can expend 1 charge to deal an extra 1d6 force damage to the target.",
+				"Bu değnek onunla yapılan saldırı ve hasar zarlarına +2 bonus veren bir savaş değneği olarak kullanılabilir. Onu tutarken, AC'ne, kurtulma zarlarına ve büyü saldırı zarlarına +2 bonusun olur.",
+				"Değneğin aşağıdaki özellikler için 20 yükü vardır. Değnek her şafakta 2d8+4 harcanmış yükü yeniler. Eğer son yükü harcarsan d20 atarsın. 1 gelirse, değnek saldırı ve hasar zarlarına +2 bonusunu korur ama diğer tüm özelliklerini yitirir. 20 gelirse, değnek 1d8+2 yük yeniler.",
+				"Güç Darbesi. Değnek ile yaptığın bir yakın dövüş saldırısında vurduğunda, 1 yük harcayıp fazladan 1d6 güç hasarı verebilirsin.",
 				{
 					"type": "entries",
-					"name": "Spells",
+					"name": "Büyüler",
 					"entries": [
-						"While holding this staff, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC and spell attack bonus: {@spell cone of cold} (5 charges), {@spell fireball} (5th-level version, 5 charges), {@spell globe of invulnerability} (6 charges), {@spell hold monster} (5 charges), {@spell levitate} (2 charges). {@spell lightning bolt} (5th-level version, 5 charges), {@spell magic missile} (1 charge), {@spell ray of enfeeblement} (1 charge), or {@spell wall of force} (5 charges)."
+						"Bu değneği tutarken, eylemini kullanıp 1 veya daha fazla yükü harcayarak kendi büyü DC'n ve büyü saldırı bonusun ile şu büyülerden birini kullanabilirsin: {@spell cone of cold (soğuk konisi)} (5 yük), {@spell fireball (alevtopu)} (5. seviye hali, 5 yük), {@spell globe of invulnerability (dokunulmazlık küresi)} (6 yük), {@spell hold monster (yaratık zapt et)} (5 yük), {@spell levitate (havaya yükselme)} (2 yük), {@spell lightning bolt (yıldırım)} (5. seviye hali, 5 yük), {@spell magic missile (büyülü misil)} (1 yük), {@spell ray of enfeeblement (zayıflatma Işını)} (1 yük) veya {@spell wall of force (güç duvarı)} (5 yük)."
 					]
 				},
-				"Retributive Strike. You can use an action to break the staff over your knee or against a solid surface, performing a retributive strike. The staff is destroyed and releases its remaining magic in an explosion that expands to fill a 30-foot-radius sphere centered on it.",
-				"You have a 50 percent chance to instantly travel to a random plane of existence, avoiding the explosion. If you fail to avoid the effect, you take force damage equal to 16 x the number of charges in the staff. Every other creature in the area must make a DC 17 Dexterity saving throw. On a failed save, a creature takes an amount of damage based on how far away it is from the point of origin, as shown in the following table. On a successful save, a creature takes half as much damage.",
+				"Kinci Darbe. Eylemini kullanıp değneği dizinde ya da sert bir zeminde kırıp kinci darbe gerçekleştirebilirsin. Değnek yok olur ve içinde kalan büyüsünü çevresinde 30 fite yayılan bir küre içini dolduracak bir patlama ile serbest bırakır.",
+				"Yüzde elli şans ile anında farklı bir boyuta gidebilirsin, bu şekilde patlamadan korunmuş olursun. Eğer etkiden kaçınamazsan, değnekte kalan yük x 16 güç hasarı alırsın. Alandaki diğer varlıklar DC 17 Çeviklik kurtulma zarı atar. Başarısız olursa bir varlık merkez noktasından uzaklığına bağlı olarak hasar alır, bu aşağıdaki tabloda belirlenmiştir. Başarılı olursa bir varlık bu hasarın yarısını alır.",
 				{
 					"type": "table",
 					"colLabels": [
-						"Distance from Origin",
-						"Effect"
+						"Merkezden Mesafe",
+						"Etki"
 					],
 					"colStyles": [
 						"col-xs-3",
@@ -6097,23 +6097,23 @@
 					],
 					"rows": [
 						[
-							"10 ft. away or closer",
-							"8 x the number of charges in the staff"
+							"10 fit ya da daha yakın",
+							"8 x değnekte kalan yük"
 						],
 						[
-							"11 to 20 ft. away",
-							"6 x the number of charges in the staff"
+							"11 ile 20 fit arası",
+							"6 x değnekte kalan yük"
 						],
 						[
-							"21 to 30 ft. away",
-							"4 x the number of charges in the staff"
+							"21 ile 30 fit arası",
+							"4 x değnekte kalan yük"
 						]
 					]
 				}
 			]
 		},
 		{
-			"name": "Değneği Striking",
+			"name": "Vurucu Değnek",
 			"technology": "Değnek",
 			"weight": "4",
 			"tier": "Üst",
@@ -6122,12 +6122,12 @@
 			"page": 203,
 			"reqAttune": "YES",
 			"entries": [
-				"This staff can be wielded as a magic quarterstaff that grants a +3 bonus to attack and damage rolls made with it.",
-				"The staff has 10 charges. When you hit with a melee attack using it, you can expend up to 3 of its charges. For each charge you expend, the target takes an extra 1d6 force damage. The staff regains 1d6+4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff becomes a nonmagical quarterstaff."
+				"Bu değnek saldırı ve hasar zarlarına +3 bonus veren bir savaş değneği olarak kullanılabilir.",
+				"Değneğin 10 yükü vardır. Değnek ile yaptığın bir yakın dövüş darbesini vurduğunda, 3 taneye kadar yükünü harcayabilirsin. Harcadığın her yük için, hedef fazladan 1d6 güç hasarı alır. Değnek her şafakta 1d6+4 harcanmış yükü yeniler. Eğer son yükü harcarsan d20 atarsın. 1 gelirse, değnek büyüsünü yitirir."
 			]
 		},
 		{
-			"name": "Değneği Swarming Insects",
+			"name": "Böcek Sürüsü Değneği",
 			"technology": "Değnek",
 			"weight": "4",
 			"tier": "Üst",
@@ -6136,13 +6136,13 @@
 			"page": 203,
 			"reqAttune": "by a Bard, Cleric, Druid, Sorcerer, Warlock, or Wizard",
 			"entries": [
-				"This staff has 10 charges and regains 1d6+4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, a {@creature swarm of insects} consumes and destroys the staff, then disperses.",
-				"Spells. While holding the staff, you can use an action to expend some of its charges to cast one of the following spells from it, using your spell save DC: {@spell giant insect} (4 charges) or {@spell insect plague} (5 charges).",
-				"Insect Cloud. While holding the staff, you can use an action and expend 1 charge to cause a swarm of harmless flying insects to spread out in a 30-foot radius from you. The insects remain for 10 minutes, making the area heavily obscured for creatures other than you. The swarm moves with you, remaining centered on you. A wind of at least 10 miles per hour disperses the swarm and ends the effect."
+				"Bu değneğin 10 yükü vardır ve her şafakta 1d6+4 harcanmış yükü yeniler. Eğer son yükü harcarsan d20 atarsın. 1 gelirse, bir {@creature böcek sürüsü} asayı tüketir, yok eder ve sonrasında dağılır.",
+				"Büyüler. Değneği tutarken eylemini kullanıp birkaç yükünü harcayarak kendi büyü DC'n ile şu büyülerden birini kullanabilirsin: {@spell giant insect (dev böcek)} (4 yük) ya da {@spell insect plague (böcek sürüsü)} (5 yük).",
+				"Böcek Bulutu. Değneği tutarken eylemini kullanıp 1 yük harcayarak 30 fit çevrene zararsız ve uçan böceklerin saçılmasını sağlayabilirsin. Böcekler 10 dakika boyunca kalırlar ve alanı senin dışındaki tüm varlıklar için yoğun örtülü hale getirirler. Sürü senle hareket eder ve merkezinde sen olursun. En az saatte 10 mil hızda bir rüzgar sürüyü dağıtıp etkiyi sonlandırabilir."
 			]
 		},
 		{
-			"name": "Değneği Thunder and Lightning",
+			"name": "Ses ve Yıldırım Değneği",
 			"technology": "Değnek",
 			"weight": "4",
 			"tier": "Üst",
@@ -6151,7 +6151,7 @@
 			"page": 204,
 			"reqAttune": "YES",
 			"entries": [
-				"This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. It also has the following additional properties. When one of these properties is used, it can't be used again until the next dawn.",
+				" This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. It also has the following additional properties. When one of these properties is used, it can't be used again until the next dawn.",
 				"Lightning. When you hit with a melee attack using the staff, you can cause the target to take an extra 2d6 lightning damage.",
 				"Thunder. When you hit with a melee attack using the staff, you can cause the staff to emit a crack of thunder, audible out to 300 feet. The target you hit must succeed on a DC 17 Constitution saving throw or become {@condition stunned} until the end of your next turn.",
 				{
@@ -6447,7 +6447,7 @@
 			]
 		},
 		{
-			"name": "Tome of Clear Thought",
+			"name": "Berrak Düşünce Kılavuzu",
 			"wondrous": true,
 			"weight": "5",
 			"tier": "Üst",
@@ -6455,11 +6455,11 @@
 			"source": "DMG",
 			"page": 208,
 			"entries": [
-				"This book contains memory and logic exercises, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the book's contents and practicing its guidelines, your Intelligence score increases by 2, as does your maximum for that score. The manual then loses its magic, but regains it in a century."
+				"Bu kitap hafıza ve mantık egzersizleri içerir ve yazıları büyü ile işlenmiştir. Eğer 6 günlük bir süre içerisinde 48 saat harcayarak kitabın içeriğini inceleyip tavsiyelerine uyarsan, Zeka skorun ve onun maksimumu 2 artar. Kılavuz sonrasında büyüsünü kaybeder ama bir asır sonra yeniden kazanır."
 			]
 		},
 		{
-			"name": "Tome of Leadership and Influence",
+			"name": "Liderlik ve Etki Kılavuzu",
 			"wondrous": true,
 			"weight": "5",
 			"tier": "Üst",
@@ -6467,11 +6467,11 @@
 			"source": "DMG",
 			"page": 208,
 			"entries": [
-				"This book contains guidelines for influencing and charming others, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the book's contents and practicing its guidelines, your Charisma score increases by 2, as does your maximum for that score. The manual then loses its magic, but regains it in a century."
+				"Bu kitap diğerlerini cezbetme ve etki altına almanın temel hatlarını anlatır ve yazıları büyü ile işlenmiştir. Eğer 6 günlük bir süre içerisinde 48 saat harcayarak kitabın içeriğini inceleyip tavsiyelerine uyarsan, Karizma skorun ve onun maksimumu 2 artar. Kılavuz sonrasında büyüsünü kaybeder ama bir asır sonra yeniden kazanır."
 			]
 		},
 		{
-			"name": "Tome of Understanding",
+			"name": "Anlayış Kılavuzu",
 			"wondrous": true,
 			"weight": "5",
 			"tier": "Üst",
@@ -6479,7 +6479,7 @@
 			"source": "DMG",
 			"page": 209,
 			"entries": [
-				"This book contains intuition and insight exercises, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the book's contents and practicing its guidelines, your Wisdom score increases by 2, as does your maximum for that score. The manual then loses its magic, but regains it in a century."
+				"Bu kitap tahmin ve sezgi egzersizleri içerir ve yazıları büyü ile işlenmiştir. Eğer 6 günlük bir süre içerisinde 48 saat harcayarak kitabın içeriğini inceleyip tavsiyelerine uyarsan, Akıl skorun ve onun maksimumu 2 artar. Kılavuz sonrasında büyüsünü kaybeder ama bir asır sonra yeniden kazanır."
 			]
 		},
 		{
