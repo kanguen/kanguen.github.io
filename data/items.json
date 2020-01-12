@@ -311,7 +311,7 @@
 			]
 		},
 		{
-			"name": "Ok Kapan Kalkan",
+			"name": "Ok Çeken Kalkan",
 			"type": "S",
 			"weight": "6",
 			"ac": 2,
@@ -1614,7 +1614,7 @@
 							"1d12"
 						],
 						[
-							"{@item Horn of blasting (Patlatma borusu)}",
+							"{@item Patlatma borusu}",
 							"1d10"
 						],
 						[
@@ -2877,7 +2877,7 @@
 			]
 		},
 		{
-			"name": "Horn of Blasting",
+			"name": "Patlatma Borusu",
 			"wondrous": true,
 			"weight": "2",
 			"tier": "Üst",
@@ -2885,12 +2885,12 @@
 			"source": "DMG",
 			"page": 174,
 			"entries": [
-				"You can use an action to speak the horn's command word and then blow the horn, which emits a thunderous blast in a 30-foot cone that is audible 600 feet away. Each creature in the cone must make a DC 15 Constitution saving throw. On a failed save, a creature takes 5d6 thunder damage and is {@condition deafened} for 1 minute. On a successful save, a creature takes half as much damage and isn't {@condition deafened}. Creatures and objects made of glass or crystal have disadvantage on the saving throw and take 10d6 thunder damage instead of 5d6.",
-				"Each use of the horn's magic has a 20 percent chance of causing the horn to explode. The explosion deals 10d6 fire damage to the blower and destroys the horn."
+				"Eylemini kullanıp borunun komut sözünü söyledikten sonra ona üfleyebilirsin, bu 600 fit öteden duyulabilecek 30 fitlik koniye bir ses patlaması yaratır. Konideki her varlık DC 15 Dayanıklılık kurtulma zarı atar. Başarısız olursa, bir varlık 5d6 ses hasarı alır ve 1 dakikalığına {@condition sağırlık} durumuna girer. Başarılı olursa, varlık hasarın yarısını alır ve sağır olmaz. Cam ya da kristalden olma varlık veya nesnelerin kurtulma zarında dezavantajı vardır ve 5d6 yerine 10d6 ses hasarı alırlar.",
+				"Borunun büyüsünün her kullanımının yüzde 20 şans ile onu patlatma ihtimali vardır. Bu patlama üfleyene 10d6 ateş hasarı verir ve boruyu yok eder."
 			]
 		},
 		{
-			"name": "Horn of Valhalla, Brass",
+			"name": "Valhalla Borusu, Pirinç",
 			"wondrous": true,
 			"weight": "2",
 			"tier": "Üst",
@@ -2898,9 +2898,9 @@
 			"source": "DMG",
 			"page": 175,
 			"entries": [
-				"You can use an action to blow this horn. In response, warrior spirits from the plane of Ysgard appear within 60 feet of you. These spirits use the {@creature berserker} statistics. They return to Ysgard after 1 hour or when they drop to 0 hit points. Once you use the horn, it can't be used again until 7 days have passed.",
-				"A brass horn summons 3d4+3 berserkers. To use the brass horn, you must be proficient with all simple weapons.",
-				"If you blow the horn without meeting its requirement, the summoned berserkers attack you. If you meet the requirement, they are friendly to you and your companions and follow your commands."
+				"Eylemini kullanıp bu boruya üfleyebilirsin. Sonrasında Ysgard boyutundan savaşçı ruhlar 60 fit çevrende belirir. Bu ruhlar {@creature berserker} istatistiklerini kullanırlar. 1 saat sonra ya da 0 HP'ye düştüklerinde Ysgard'a dönerler. Boruyu kullandıktan sonra 7 gün geçmeden bir daha kullanılamaz.",
+				"Bir pirinç boru 3d4+3 berserker çağırır. Pirinç boruyu kullanabilmek için tüm basit silahlarla uzmanlığa sahip olman gerekir.",
+				"Eğer gereksinimlerine sahip olmadan boruyu üflersen, gelen berserkerlar sana saldırır. Eğer gereksinimlere sahipsen, sana ve yoldaşlarına dostturlar ve komutlarına uyarlar."
 			]
 		},
 		{
@@ -6073,7 +6073,7 @@
 			"page": 202,
 			"reqAttune": "by a Sorcerer, Warlock, or Wizard",
 			"entries": [
-				"Bu değnek onunla yapılan saldırı ve hasar zarlarına +2 bonus veren bir savaş değneği olarak kullanılabilir. Onu tutarken, AC'ne, kurtulma zarlarına ve büyü saldırı zarlarına +2 bonusun olur.",
+				"Bu değnek onunla yapılan saldırı ve hasar zarlarına +2 bonus veren büyülü bir savaş değneği olarak kullanılabilir. Onu tutarken, AC'ne, kurtulma zarlarına ve büyü saldırı zarlarına +2 bonusun olur.",
 				"Değneğin aşağıdaki özellikler için 20 yükü vardır. Değnek her şafakta 2d8+4 harcanmış yükü yeniler. Eğer son yükü harcarsan d20 atarsın. 1 gelirse, değnek saldırı ve hasar zarlarına +2 bonusunu korur ama diğer tüm özelliklerini yitirir. 20 gelirse, değnek 1d8+2 yük yeniler.",
 				"Güç Darbesi. Değnek ile yaptığın bir yakın dövüş saldırısında vurduğunda, 1 yük harcayıp fazladan 1d6 güç hasarı verebilirsin.",
 				{
@@ -6122,7 +6122,7 @@
 			"page": 203,
 			"reqAttune": "YES",
 			"entries": [
-				"Bu değnek saldırı ve hasar zarlarına +3 bonus veren bir savaş değneği olarak kullanılabilir.",
+				"Bu değnek saldırı ve hasar zarlarına +3 bonus veren büyülü bir savaş değneği olarak kullanılabilir.",
 				"Değneğin 10 yükü vardır. Değnek ile yaptığın bir yakın dövüş darbesini vurduğunda, 3 taneye kadar yükünü harcayabilirsin. Harcadığın her yük için, hedef fazladan 1d6 güç hasarı alır. Değnek her şafakta 1d6+4 harcanmış yükü yeniler. Eğer son yükü harcarsan d20 atarsın. 1 gelirse, değnek büyüsünü yitirir."
 			]
 		},
@@ -6151,34 +6151,34 @@
 			"page": 204,
 			"reqAttune": "YES",
 			"entries": [
-				" This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. It also has the following additional properties. When one of these properties is used, it can't be used again until the next dawn.",
-				"Lightning. When you hit with a melee attack using the staff, you can cause the target to take an extra 2d6 lightning damage.",
-				"Thunder. When you hit with a melee attack using the staff, you can cause the staff to emit a crack of thunder, audible out to 300 feet. The target you hit must succeed on a DC 17 Constitution saving throw or become {@condition stunned} until the end of your next turn.",
+				"Bu değnek saldırı ve hasar zarlarına +2 bonus veren büyülü bir savaş değneği olarak kullanılabilir. Ayrıca şu özelliklere de sahiptir. Bu özelliklerden biri kullanıldığında, sonraki şafağa kadar bir daha kullanılamaz.",
+				"Yıldırım. Değneği kullanarak yaptığın bir yakın dövüş saldırısı ile vurduğunda, hedefe fazladan 2d6 yıldırım hasarı verebilirsin.",
+				"Ses. Değneği kullanarak yaptığın bir yakın dövüş saldırısı ile vurduğunda, değneğin 300 fitten duyulabilecek bir gök gürültüsü yaratmasını sağlayabilirsin. Hedef DC 17 Dayanıklılık kurtulma zarı atar ya da bir sonraki sıranın sonuna dek {@condition sersemleme} etkisinde olur.",
 				{
 				    "type": "entries",
-				    "name": "Lightning Strike",
+				    "name": "Yıldırım Darbesi",
 				    "entries": [
-						"You can use an action to cause a bolt of lightning to leap from the staff's tip in a line that is 5 feet wide and 120 feet long. Each creature in that line must make a DC 17 Dexterity saving throw, taking 9d6 lightning damage on a failed save, or half as much damage on a successful one."
+						"Eylemini kullanıp değneğin ucundan 5 fit genişlikte 120 fit uzunlukta bir hatta yıldırım atmasını sağlayabilirsin. Bu hattaki her varlık DC 17 Çeviklik kurtulma zarı atar, başarısız olursa 9d6 yıldırım hasarı, başarılı olursa bunun yarısını alır."
 				    ]
 				},
 				{
 				    "type": "entries",
-				    "name": "Thunderclap",
+				    "name": "Gök Gürültüsü",
 				    "entries": [
-						"You can use an action to cause the staff to issue a deafening thunderclap, audible out to 600 feet. Each creature within 60 feet of you (not including you) must make a DC 17 Constitution saving throw. On a failed save, a creature takes 2d6 thunder damage and becomes {@condition deafened} for 1 minute. On a successful save, a creature takes half damage and isn't {@condition deafened}."
+						"Eylemini kullanıp değneğin 600 fitten duyulabilecek sağır eden bir gök gürültüsü yaratmasını sağlayabilirsin. 60 fit yakınındaki (senin dışında) her varlık DC 17 Dayanıklılık kurtulma zarı atar. Başarısız olursa bir varlık 2d6 ses hasarı alır ve 1 dakikalığına {@condition sağırlık} durumunda olur. Başarılı olursa bir varlık yarı hasar alır ve {@condition sağırlık} durumuna girmez."
 				    ]
 				},
 				{
 				    "type": "entries",
-				    "name": "Thunder and Lightning",
+				    "name": "Gök Gürültüsü ve Yıldırım",
 				    "entries": [
-						"You can use an action to use the Lightning Strike and Thunderclap properties at the same time. Doing so doesn't expend the daily use of those properties, only the use of this one."
+						"Eylemini kullanıp Yıldırım Darbesi ve Gök Gürültüsü özelliklerini aynı anda kullanabilirsin. Bunu yapman o özelliklerin günlük kullanımını harcamaz, sadece bunun harcar."
 				    ]
 				}
 			]
 		},
 		{
-			"name": "Değneği Withering",
+			"name": "Kurutma Değneği",
 			"technology": "Değnek",
 			"weight": "4",
 			"tier": "Üst",
@@ -6187,8 +6187,8 @@
 			"page": 205,
 			"reqAttune": "by a Cleric, Druid, or Warlock",
 			"entries": [
-				"This staff has 3 charges and regains 1d3 expended charges daily at dawn.",
-				"The staff can be wielded as a magic quarterstaff. On a hit, it deals damage as a normal quarterstaff, and you can expend 1 charge to deal an extra 2d10 necrotic damage to the target. In addition, the target must succeed on a DC 15 Constitution saving throw or have disadvantage for 1 hour on any ability check or saving throw that uses Strength or Constitution."
+				"Bu değneğin 3 yükü vardır ve her şafakta 1d3 harcanmış yükü yeniler.",
+				"Değnek büyülü bir savaş değneği olarak kullanılabilir. Vurunca, normal bir savaş değneği gibi hasar verir ve 1 yük harcayıp hedefe fazladan 2d10 nekrotik hasar verebilirsin. Ayrıca, hedef DC 15 Dayanıklılık kurtulma zarı atar ya da 1 saatliğine Kuvvet veya Dayanıklılık kullanan tüm yetenek ve kurtulma zarlarında dezavantajlı olur."
 			]
 		},
 		{
@@ -6266,7 +6266,7 @@
 			]
 		},
 		{
-			"name": "Değneği the Woodlands",
+			"name": "Ormanların Değneği",
 			"technology": "Değnek",
 			"weight": "4",
 			"tier": "Üst",
@@ -6275,27 +6275,27 @@
 			"page": 204,
 			"reqAttune": "by a Druid",
 			"entries": [
-				"This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While holding it, you have a +2 bonus to spell attack rolls.",
-				"The staff has 10 charges for the following properties. It regains 1d6+4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff loses its properties and becomes a nonmagical quarterstaff.",
+				"Bu değnek saldırı ve hasar zarlarına +2 bonus veren büyülü bir savaş değneği olarak kullanılabilir. Onu tutarken, büyü saldırı zarlarına da +2 bonusun olur.",
+				"Değneğin aşağıdaki özellikler için 10 yükü vardır. Her şafakta 1d6+4 harcanmış yükü yeniler. Eğer son yükü harcarsan d20 atarsın. 1 gelirse, değnek özelliklerini ve büyüsünü kaybeder.",
 				{
 				    "type": "entries",
-					"name": "Spells",
+					"name": "Büyüler",
 					"entries": [
-						"You can use an action to expend 1 or more of the staff's charges to cast one of the following spells from it, using your spell save DC: {@spell animal friendship} (1 charge), {@spell awaken} (5 charges), {@spell barkskin} (2 charges), {@spell locate animals or plants} (2 charges), {@spell speak with animals} (1 charge), {@spell speak with plants} (3 charges), or {@spell wall of thorns} (6 charges).",
-						"You can also use an action to cast the {@spell pass without trace} spell from the staff without using any charges."
+						"Eylemini kullanıp asanın 1 veya daha fazla yükünü harcayarak kendi büyü kurtulma DC'n ile şu büyülerden birini kullanabilirsin: {@spell animal friendship (hayvan dosluğu)} (1 yük), {@spell awaken (uyandır)} (5 yük), {@spell barkskin (kabukderi)} (2 yük), {@spell locate animals or plants (hayvan ya da bitki bul)} (2 yük), {@spell speak with animals (hayvanlarla konuş)} (1 yük), {@spell speak with plants (bitkilerle konuş)} (3 yük) veya {@spell wall of thorns (diken duvar)} (6 yük).",
+						"Ayrıca eylemini kullanıp hiç yük harcamadan asadan {@spell pass without trace (İz bırakmadan geç)} büyüsünü kullanabilirsin."
 					]
 				},
 				{
 				    "type": "entries",
-					"name": "Tree Form",
+					"name": "Ağaç Formu",
 					"entries": [
-						"You can use an action to plant one end of the staff in fertile earth and expend 1 charge to transform the staff into a healthy tree. The tree is 60 feet tall and has a 5-foot-diameter trunk, and its branches at the top spread out in a 20-foot radius. The tree appears ordinary but radiates a faint aura of transmutation magic if targeted by {@spell detect magic}. While touching the tree and using another action to speak its command word, you return the staff to its normal form. Any creature in the tree falls when it reverts to a staff."
+						"Eylemini kullanıp değneğin bir ucunu bereketli toprağa yerleştirdikten sonra 1 yük harcayarak onun sağlıklı bir ağaca dönüşmesini sağlayabilirsin. Ağaç 60 fit uzunluktadır ve gövdesi 5 fit çapındadır, üzerindeki dalları 20 fit çevresine yayılır. Ağaç sıradan görünür ama bir {@spell detect magic (büyüyü hisset)} büyüsü ile hedef alınırsa hafif bir transmutation büyü aurasına sahiptir. Ağaca dokunup bir eylem daha kullanarak komut sözünü söylersen, değnek normal formuna döner. Değnek asıl formuna döndüğünde üzerindeki tüm varlıklar düşer."
 					]
 				}
 			]
 		},
 		{
-			"name": "Stone of Controlling Earth Elementals",
+			"name": "Toprak Elementallerini Kontrol Taşı",
 			"wondrous": true,
 			"weight": "5",
 			"tier": "Üst",
@@ -6303,7 +6303,7 @@
 			"source": "DMG",
 			"page": 205,
 			"entries": [
-				"If the stone is touching the ground, you can use an action to speak its command word and summon an {@creature earth elemental}, as if you had cast the {@spell conjure elemental} spell. The stone can't be used this way again until the next dawn. The stone weighs 5 pounds."
+				"Eğer taş yere değiyorsa, eylemini kullanıp komut sözünü söyleyerek bir {@creature toprak elementali} yaratabilirsin, sanki {@spell conjure elemental (elemental Çağır)} büyüsünü kullanmışsın gibi. Taş bu şekilde sonraki şafağa dek kullanılamaz. Taşın ağırlığı 5 pounddur."
 			]
 		},
 		{
@@ -6328,7 +6328,7 @@
 			]
 		},
 		{
-			"name": "Sun Blade",
+			"name": "Güneş Kılıcı",
 			"type": "M",
 			"weaponCategory": "Askeri",
 			"weight": "3",
@@ -6345,9 +6345,9 @@
 			"page": 205,
 			"reqAttune": "YES",
 			"entries": [
-				"This item appears to be a longsword hilt. While grasping the hilt, you can use a bonus action to cause a blade of pure radiance to spring into existence, or make the blade disappear. While the blade exists, this magic longsword has the finesse property. If you are proficient with {@item shortsword|phb|shortswords} or {@item longsword|phb|longswords}, you are proficient with the sun blade.",
-				"You gain a +2 bonus to attack and damage rolls made with this weapon, which deals radiant damage instead of slashing damage. When you hit an undead with it, that target takes an extra 1d8 radiant damage.",
-				"The sword's luminous blade emits bright light in a 15-foot radius and dim light for an additional 15 feet. The light is sunlight. While the blade persists, you can use an action to expand or reduce its radius of bright and dim light by 5 feet each, to a maximum of 30 feet each or a minimum of 10 feet each."
+				"Bu eşya bir uzun kılıç kabzasına benzer. Bu kabzayı tutarken, bonus eylem kullanıp saf ışıktan oluşan bir kılıcın ortaya çıkmasını sağlayabilirsin, ya da kılıcın ortadan kaybolmasını sağlayabilirsin. Kılıç ortadayken, bu büyülü uzun kılıcın beceri özelliği vardır. Eğer kısa kılıç veya uzun kılıç silahları ile uzmanlığın varsa, güneş kılıcı ile uzmanlığın var sayılır.",
+				"Bu silahla yaptığın saldırı ve hasar zarlarına +2 bonusun olur ve kesme yerine radyant hasar verir. Bu silahla bir yaşayan ölüye vurduğunda, bu hedef fazladan 1d8 radyant hasar alır.",
+				"Kılıcın ışıldayan kısmı 15 fit çevresine parlak, 15 fit ötesinde loş ışık saçar. Bu ışık güneş ışığıdır. Kılıç ortadayken, eylemini kullanıp bu ışığın çapını beşer fit düşürebilir ya da artırabilirsin, bunun maksimumu 30 fit, minimumu 10 fittir."
 			]
 		},
 		{
@@ -6434,7 +6434,7 @@
 			]
 		},
 		{
-			"name": "Tentacle Rod",
+			"name": "Dokunaç Bastonu",
 			"type": "RD",
 			"weight": "2",
 			"tier": "Üst",
@@ -6443,7 +6443,7 @@
 			"page": 208,
 			"reqAttune": "YES",
 			"entries": [
-				"Made by the {@creature drow}, this rod is a magic weapon that ends in three rubbery tentacles. While holding the rod, you can use an action to direct each tentacle to attack a creature you can see within 15 feet of you. Each tentacle makes a melee attack roll with a +9 bonus. On a hit, the tentacle deals 1d6 bludgeoning damage. If you hit a target with all three tentacles, it must make a DC 15 Constitution saving throw. On a failure, the creature's speed is halved, it has disadvantage on Dexterity saving throws, and it can't use reactions for 1 minute. Moreover, on each of its turns, it can take either an action or a bonus action, but not both. At the end of each of its turns, it can repeat the saving throw, ending the effect on itself on a success."
+				"{@creature Drow}lar tarafında yapılan bu büyülü bastonun ucunda 3 adet kauçuksu dokunaç vardır. Bastonu tutarken, eylemini kullanıp her dokunaçın 15 fit yakınında görebildiğin bir varlığa saldırmasını sağlayabilirsin. Her dokunaç +9 bonus ile bir yakın dövüş saldırısı yapar. Vurursa dokunaç 1d6 ezme hasarı verir. Eğer bir hedefe her 3 dokunaç ile vurursan, DC 15 Dayanıklılık kurtulma zarı atar. Başarısız olursa, 1 dakikalığına varlığın hızı yarılanır, Çeviklik kurtulma zarlarında dezavantajlı olur ve reaksiyon kullanamaz. Hatta her sırasında ya eylem ya da bonus eylem kullanabilir, ikisini birden değil. Her sırasının sonunda kurtulma zarını tekrarlayabilir, başarılı olursa üzerindeki etki sonlanır."
 			]
 		},
 		{
@@ -6556,7 +6556,7 @@
 			]
 		},
 		{
-			"name": "Wand of Binding",
+			"name": "Bağlama Asası",
 			"type": "WD",
 			"weight": "1",
 			"tier": "Üst",
@@ -6565,13 +6565,13 @@
 			"page": 209,
 			"reqAttune": "by a Spellcaster",
 			"entries": [
-				"This wand has 7 charges for the following properties. It regains 1d6+1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.",
-				"Spells. While holding the wand, you can use an action to expend some of its charges to cast one of the following spells (save DC 17): {@spell hold monster} (5 charges) or {@spell hold person} (2 charges).",
-				"Assisted Escape. While holding the wand, you can use your reaction to expend 1 charge and gain advantage on a saving throw you make to avoid being {@condition paralyzed} or {@condition restrained}, or you can expend 1 charge and gain advantage on any check you make to escape a grapple."
+				"Bu asanın aşağıdaki özellikler için 7 yükü vardır. Her şafakta 1d6+1 harcanmış yükü yeniler. Eğer asanın son yükünü harcarsan d20 atarsın. 1 gelirse asa toza döner ve yok olur.",
+				"Büyüler. Asayı tutarken eylemini kullanıp asanın 1 veya daha fazla yükünü harcayarak şu büyülerden birini kullanabilirsin (kurtulma DC'si 17): {@spell hold monster (yaratık zapt et)} (5 yük) ya da {@spell hold person (kişi zapt et)} (2 yük).",
+				"Yardımlı Kaçış. Asayı tutarken, reaksiyonunu kullanıp 1 yük harcayarak {@condition felç} ya da {@condition kısıtlanma} durumuna girmeye karşı atacağın bir kurtulma zarına avantaj alabilirsin, veya 1 yük harcayıp yakalanmadan kaçabilmek için atacağın bir zara avantaj alabilirsin."
 			]
 		},
 		{
-			"name": "Wand of Enemy Detection",
+			"name": "Düşman Tespiti Asası",
 			"type": "WD",
 			"weight": "1",
 			"tier": "Üst",
@@ -6580,12 +6580,12 @@
 			"page": 210,
 			"reqAttune": "YES",
 			"entries": [
-				" This wand has 7 charges. While holding it, you can use an action and expend 1 charge to speak its command word. For the next minute, you know the direction of the nearest creature hostile to you within 60 feet, but not its distance from you. The wand can sense the presence of hostile creatures that are ethereal, {@condition invisible}, disguised, or hidden, as well as those in plain sight. The effect ends if you stop holding the wand.",
-				"The wand regains 1d6+1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed."
+				"Bu asanın 7 yükü vardır. Onu tutarken eylemini kullanıp 1 yük harcadıktan sonra komut sözünü söyleyebilirsin. Sonraki dakika boyunca, 60 fit çevrendeki sana düşman olan en yakın varlığın yönünü bilirsin ama senden uzaklığını bilemezsin. Asa ruhani, görünmez, kılık değiştirmiş veya gizlenmiş düşman varlıkları hissedebildiği gibi bariz görünenleri de hisseder. Eğer asayı tutmayı bırakırsan etki sonlanır.",
+				"Asa her şafakta 1d6+1 harcanmış yükü yeniler. Eğer asanın son yükünü harcarsan d20 atarsın. 1 gelirse, asa toza döner ve yok olur."
 			]
 		},
 		{
-			"name": "Wand of Fear",
+			"name": "Korku Asası",
 			"type": "WD",
 			"weight": "1",
 			"tier": "Üst",
@@ -6594,13 +6594,13 @@
 			"page": 210,
 			"reqAttune": "YES",
 			"entries": [
-				"This wand has 7 charges for the following properties. It regains 1d6+1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.",
-				"Command. While holding the wand, you can use an action to expend 1 charge and command another creature to flee or grovel, as with the {@spell command} spell (save DC 15).",
-				"Cone of Fear. While holding the wand, you can use an action to expend 2 charges, causing the wand's tip to emit a 60-foot cone of amber light. Each creature in the cone must succeed on a DC 15 Wisdom saving throw or become {@condition frightened} of you for 1 minute. While it is {@condition frightened} in this way, a creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevent it from moving. If it has nowhere it can move, the creature can use the Dodge action. At the end of each of its turns, a creature can repeat the saving throw, ending the effect on itself on a success."
+				"Bu asanın aşağıdaki özellikler için 7 yükü vardır. Her şafakta 1d6+1 harcanmış yükü yeniler. Eğer asanın son yükünü harcarsan d20 atarsın. 1 gelirse, asa toza döner ve yok olur.",
+				"Emret. Asayı tutarken eylemini kullanıp 1 yük harcayarak başka bir varlığa kaçma ya da yere yatma komutunu verebilirsin, aynı {@spell command (emret)} büyüsünü kullanmış gibi (kurtulma DC'si 15).",
+				"Korku Konisi. Asayı tutarken, eylemini kullanıp 2 yük harcayarak asanın ucundan kehribar rengi bir ışık konisini 60 fite saçarsın. Konideki her varlık DC 15 Akıl kurtulma zarı atar ya da 1 dakikalığına senden {@condition korkma} durumunda olurlar. Bu şekilde korkmuşken, bir varlık sırasını senden elinden geldiğince uzaklaşmak için harcar ve istekli bir şekilde senin 30 fit yakınında bir alana giremez. Reaksiyon da kullanamaz. Eylemi için, sadece Depar eylemini kullanır ya da hareket etmesini engelleyen bir etkiden kurtulmaya çalışır. Eğer kaçabilecek bir yeri yoksa Kaçınma eylemini kullanır. Her sırasının sonunda bir varlık kurtulma zarını tekrarlayabilir, başarılı olursa üzerindeki etki sonlanır."
 			]
 		},
 		{
-			"name": "Wand of Fireballs",
+			"name": "Alevtopu Asası",
 			"type": "WD",
 			"weight": "1",
 			"tier": "Üst",
@@ -6609,12 +6609,12 @@
 			"page": 210,
 			"reqAttune": "by a Spellcaster",
 			"entries": [
-				" This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the {@spell fireball} spell (save DC 15) from it. For 1 charge, you cast the 3rd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.",
-				"The wand regains 1d6+1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed"
+				"Bu asanın 7 yükü vardır. Onu tutarken eylemini kullanıp 1 veya daha fazla yükünü harcayarak ondan {@spell fireball (alevtopu)} büyüsünü kullanabilirsin (kurtulma DC'si 15). 1 yük için büyünün 3. seviye halini kullanırsın. Harcadığın fazladan her yük için büyü yuvası seviyesini 1 artırabilirsin.",
+				"Asa her şafakta 1d6+1 harcanmış yükü yeniler. Eğer asanın son yükünü harcarsan d20 atarsın. 1 gelirse, asa toza döner ve yok olur."
 			]
 		},
 		{
-			"name": "Wand of Lightning Bolts",
+			"name": "Yıldırım Asası",
 			"type": "WD",
 			"weight": "1",
 			"tier": "Üst",
@@ -6623,8 +6623,8 @@
 			"page": 211,
 			"reqAttune": "by a Spellcaster",
 			"entries": [
-				" This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the {@spell lightning bolt} spell (save DC 15) from it. For 1 charge, you cast the 3rd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.",
-				"The wand regains 1d6+1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed."
+				"Bu asanın 7 yükü vardır. Onu tutarken eylemini kullanıp 1 veya daha fazla yükünü harcayarak ondan {@spell lightning bolt (yıldırım)} büyüsünü kullanabilirsin (kurtulma DC'si 15). 1 yük için büyünün 3. seviye halini kullanırsın. Harcadığın fazladan her yük için büyü yuvası seviyesini 1 artırabilirsin.",
+				"Asa her şafakta 1d6+1 harcanmış yükü yeniler. Eğer asanın son yükünü harcarsan d20 atarsın. 1 gelirse, asa toza döner ve yok olur."
 			]
 		},
 		{
@@ -6715,7 +6715,7 @@
 			]
 		},
 		{
-			"name": "Wand of Paralysis",
+			"name": "Felç Asası",
 			"type": "WD",
 			"weight": "1",
 			"tier": "Üst",
@@ -6724,12 +6724,12 @@
 			"page": 211,
 			"reqAttune": "by a Spellcaster",
 			"entries": [
-				" This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cause a thin blue ray to streak from the tip toward a creature you can see within 60 feet of you. The target must succeed on a DC 15 Constitution saving throw or be {@condition paralyzed} for 1 minute. At the end of each of the target's turns, it can repeat the saving throw, ending the effect on itself on a success.",
-				"The wand regains 1d6+1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed."
+				"Bu asanın 7 yükü vardır. Onu tutarken eylemini kullanıp 1 veya daha fazla yükünü harcayarak 60 fit yakınında görebildiğin bir varlığa doğru asanın ucundan mavi bir ışını gönderebilirsin. Varlık DC 15 Dayanıklılık kurtulma zarı atar ya da 1 dakikalığına {@condition felç} durumuna girer. Hedef her sırasının sonunda kurtulma zarını tekrarlayabilir, başarılı olursa üzerindeki etkiyi sonlandırır.",
+				"Asa her şafakta 1d6+1 harcanmış yükü yeniler. Eğer asanın son yükünü harcarsan d20 atarsın. 1 gelirse, asa toza döner ve yok olur."
 			]
 		},
 		{
-			"name": "Wand of Polymorph",
+			"name": "Polimorf Asası",
 			"type": "WD",
 			"weight": "1",
 			"tier": "Üst",
@@ -6738,8 +6738,8 @@
 			"page": 211,
 			"reqAttune": "by a Spellcaster",
 			"entries": [
-				" This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cast the {@spell polymorph} spell (save DC 15) from it.",
-				"The wand regains 1d6+1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed."
+				"Bu asanın 7 yükü vardır. Ona dokunurken eylemini kullanıp yüklerinden birini harcayarak ondan {@spell polymorph (polimorf)} büyüsünü kullanabilirsin (kurtulma DC'si 15).",
+				"Asa her şafakta 1d6+1 harcanmış yükü yeniler. Eğer asanın son yükünü harcarsan d20 atarsın. 1 gelirse, asa toza döner ve yok olur."
 			]
 		},
 		{
@@ -6769,7 +6769,7 @@
 			]
 		},
 		{
-			"name": "Wand of Wonder",
+			"name": "Mucize Asası",
 			"type": "WD",
 			"weight": "1",
 			"tier": "Üst",
@@ -6778,15 +6778,15 @@
 			"page": 212,
 			"reqAttune": "by a Spellcaster",
 			"entries": [
-				" This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges and choose a target within 120 feet of you. The target can be a creature, an object, or a point in space. Roll d100 and consult the following table to discover what happens.",
-				"If the effect causes you to cast a spell from the wand, the spell's save DC is 15. If the spell normally has a range expressed in feet, its range becomes 120 feet if it isn't already.",
-				"If an effect covers an area, you must center the spell on and include the target. If an effect has multiple possible subjects, the DM randomly determines which ones are affected.",
-				"The wand regains 1d6+1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into dust and is destroyed.",
+				"Bu asanın 7 yükü vardır. Onu tutarken eylemini kullanıp yüklerinden birini harcayarak 120 fit yakınındaki bir hedefi seçebilirsin. Bu hedef bir varlık, nesne ya da boşlukta bir nokta olabilir. Ne olduğunu öğrenmek için d100 atıp aşağıdaki tabloya bakarsın.",
+				"Eğer etki asadan bir büyü atmanı sağlıyorsa, bu büyünün kurtulma DC'si 15'tir. Eğer büyünün normalde fit ile ifade edilen bir menzili varsa, bu menzil 120 fit olur.",
+				"Eğer bir etki alanı kapsıyorsa, büyü merkezini hedefin üzerine yerleştirmeli ve onu etkiye dahil etmelisin. Eğer etkinin birden çok şeyi etkileme ihtimali varsa, DM rastgele hangilerinin etkilendiğini belirler.",
+				"Asa her şafakta 1d6+1 harcanmış yükü yeniler. Eğer asanın son yükünü harcarsan d20 atarsın. 1 gelirse, asa toza döner ve yok olur.",
 				{
 					"type": "table",
 					"colLabels": [
 						"d100",
-						"Effect"
+						"Etki"
 					],
 					"colStyles": [
 						"col-xs-1 text-align-center",
@@ -6795,91 +6795,91 @@
 					"rows": [
 						[
 							"01-05",
-							"You cast {@spell slow}."
+							"{@spell Slow (yavaşlat)} büyüsünü yaparsın."
 						],
 						[
 							"06-10",
-							"You cast {@spell faerie fire}."
+							"{@spell Faerie fire (peri ateşi)} büyüsünü yaparsın."
 						],
 						[
 							"11-15",
-							"You are {@condition stunned} until the start of your next turn, believing something awesome just happened."
+							"Bir sonraki sıranın başına kadar {@condition sersemleme} durumunda olursun, o sırada inanılmaz bir şeyin gerçekleştiğine inanırsın."
 						],
 						[
 							"16-20",
-							"You cast {@spell gust of wind}."
+							"{@spell Gust of wind (kuvvetli rüzgar)} büyüsünü yaparsın."
 						],
 						[
 							"21-25",
-							"You cast {@spell detect thoughts} on the target you chose. If you didn't target a creature, you instead take 1d6 psychic damage."
+							"Seçtiğin hedefe {@spell detect thoughts (zihin oku)} büyüsünü yaparsın. Eğer bir varlık hedef almadıysan bunun yerine 1d6 psişik hasar alırsın."
 						],
 						[
 							"26-30",
-							"You cast {@spell stinking cloud}."
+							"{@spell Stinking cloud (kokuşmuş bulut)} büyüsünü yaparsın."
 						],
 						[
 							"31-33",
-							"Heavy rain falls in a 60-foot radius centered on the target. The area becomes lightly obscured. The rain falls until the start of your next turn."
+							"Hedefin 60 fit çevresine sağanak yağmur yağar. Alan hafifçe örtülü olur. Bir sonraki sıranın başına dek yağmur devam eder."
 						],
 						[
 							"34-36",
-							"An animal appears in the unoccupied space nearest the target. The animal isn't under your control and acts as it normally would. Roll a d100 to determine which animal appears. On a 01-25, a {@creature rhinoceros} appears; on a 26-50, an {@creature elephant} appears; and on a 51-100, a {@creature rat} appears."
+							"Hedefe en yakın boş alanda bir hayvan belirir. Hayvan senin kontrolünde değildir ve normalde davranacağı gibi davranır. Hangi hayvanın geleceğini belirlemek için d100 atarsın. 01-25 arasında bir {@creature gergedan}, 26-50 arasında bir {@creature fil} ve 51-100 arasında bir {@creature sıçan} belirir."
 						],
 						[
 							"37-46",
-							"You cast {@spell lightning bolt}."
+							"{@spell Lightning bolt (yıldırım)} büyüsünü yaparsın."
 						],
 						[
 							"47-49",
-							"A cloud of 600 oversized butterflies fills a 30-foot radius centered on the target. The area becomes heavily obscured. The butterflies remain for 10 minutes."
+							"600 adet normalden büyük kelebeğin yarattığı bir bulut hedefin 30 fit çevresini sarar. Alan yoğun örtülü olur. Kelebekler 10 dakika boyunca kalır."
 						],
 						[
 							"50-53",
-							"You enlarge the target as if you had cast {@spell enlarge/reduce|phb}. If the target can't be affected by that spell or if you didn't target a creature, you become the target."
+							"Sanki {@spell enlarge/reduce (büyüt/küçült)} büyüsünü yapmışsıncasına hedefini büyüt. Eğer hedef bu büyüden etkilenemezse ya da bir varlığı hedef almadıysan, büyünün hedefi sen olursun."
 						],
 						[
 							"54-58",
-							"You cast {@spell darkness}."
+							"{@spell Darkness (karanlık)} büyüsünü yaparsın."
 						],
 						[
 							"59-62",
-							"Grass grows on the ground in a 60-foot radius centered on the target. If grass is already there, it grows to ten times its normal size and remains overgrown for 1 minute."
+							"Hedefin 60 fit çevresindeki zeminde çimler çıkar. Eğer zaten çim varsa, 10 katı boyutuna çıkar ve 1 dakikalığına bu boyutta kalır."
 						],
 						[
 							"63-65",
-							"An object of the DM 's choice disappears into the Ethereal Plane. The object must be neither worn nor carried, within 120 feet of the target, and no larger than 10 feet in any dimension."
+							"DM'in seçeceği bir nesne Ethereal Boyuta gider. Nesne taşınmamalı ya da giyilmemeli, hedefin 120 fit yakınında olmalı ve herhangi bir boyutunda 10 fitin üzerinde olmamalıdır."
 						],
 						[
 							"66-69",
-							"You shrink yourself as if you had cast {@spell enlarge/reduce|phb} on yourself."
+							"Sanki {@spell enlarge/reduce (büyüt/küçült)} büyüsünü kendi üzerinde yapmışsıncasına küçülürsün."
 						],
 						[
 							"70-79",
-							"You cast {@spell fireball}."
+							"{@spell Fireball (alevtopu)} büyüsünü yaparsın."
 						],
 						[
 							"80-84",
-							"You cast {@spell invisibility}."
+							"{@spell Invisibility (görünmezlik)} büyüsünü yaparsın."
 						],
 						[
 							"85-87",
-							"Leaves grow from the target. If you chose a point in space as the target, leaves sprout from the creature nearest to that point. Unless they are picked off, the leaves turn brown and fall off after 24 hours."
+							"Hedeften yapraklar çıkar. Eğer hedef olarak boşlukta bir nokta seçtiysen, o noktaya en yakın varlıktan yapraklar çıkar. Koparılmazlarsa, bu yapraklar 24 sonunda kuruyup düşerler."
 						],
 						[
 							"88-90",
-							"A stream of 1d4 x 10 gems, each worth 1 gp, shoots from the wand 's tip in a line 30 feet long and 5 feet wide. Each gem deals 1 bludgeoning damage, and the total damage of the gems is divided equally among all creatures in the line."
+							"1d4 x 10 cevherden oluşan bir şey asanın ucundan 30 fit uzunlukta ve 5 fit genişlikte bir hatta püskürür, her birinin 1 gp değeri vardır. Her cevher 1 ezme hasarı verir ve bunların toplam hasarı, hatta kalan tüm varlıklar arasında eşit paylaştırılır."
 						],
 						[
 							"91-95",
-							"A burst of colorful shimmering light extends from you in a 30-foot radius. You and each creature in the area that can see must succeed on a DC 15 Constitution saving throw or become {@condition blinded} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+							"30 fit çevrene renkli parıldayan bir ışık patlaması saçılır. Sen ve bu alandaki her varlık DC 15 Dayanıklılık kurtulma zarı atar ya da 1 dakikalığına {@condition körlük} durumunda olur. Bir varlık her sırasının sonunda kurtulma zarını tekrarlayabilir, başarılı olursa üzerindeki etki sonlanır."
 						],
 						[
 							"96-97",
-							"The target's skin turns bright blue for 1d10 days. If you chose a point in space, the creature nearest to that point is affected."
+							"Hedefin ten rengi 1d10 günlüğüne açık mavi olur. Eğer boşlukta bir alan seçtiysen, o noktaya en yakın varlık etkilenir."
 						],
 						[
 							"98-00",
-							"If you targeted a creature, it must make a DC 15 Constitution saving throw. If you didn't target a creature, you become the target and must make the saving throw. If the saving throw fails by 5 or more, the target is instantly {@condition petrified}. On any other failed save, the target is {@condition restrained} and begins to turn to stone. While {@condition restrained} in this way, the target must repeat the saving throw at the end of its next turn, becoming {@condition petrified} on a failure or ending the effect on a success. The petrification lasts until the target is freed by the {@spell greater restoration} spell or similar magic."
+							"Eğer bir varlığı hedef aldıysan, o varlık DC 15 Dayanıklılık kurtulma zarı atar. Eğer bir varlığı hedef almadıysan, hedef kendin olursun ve bu kurtulma zarını atarsın. Eğer kurtulma zarı 5 veya daha fazla farkla başarısız olursa, hedef anında {@condition taşa dönme} durumuna girer. Diğer başarısızlıklarda, hedef {@condition kısıtlanma} durumuna girer ve taşa dönmeye başlar. Bu şekilde kısıtlanmışken, hedef sonraki sırasının sonunda kurtulma zarını tekrarlar, eğer başarısız olursa taşa döner ya da başarılı olursa etkiyi sonlandırır. Taşa dönme durumu hedef {@spell greater restoration (Üstün yenileme)} veya benzeri bir büyü ile kurtarılana kadar kalır."
 						]
 					]
 				}
@@ -7046,7 +7046,7 @@
 			]
 		},
 		{
-			"name": "Wings of Flying",
+			"name": "Uçuş Kanatları",
 			"wondrous": true,
 			"tier": "Üst",
 			"rarity": "Nadir",
@@ -7054,7 +7054,7 @@
 			"page": 214,
 			"reqAttune": "YES",
 			"entries": [
-				"While wearing this cloak, you can use an action to speak its command word. This turns the cloak into a pair of bat wings or bird wings on your back for 1 hour or until you repeat the command word as an action. The wings give you a flying speed of 60 feet. When they disappear, you can't use them again for 1d12 hours."
+				"Bu pelerini giyerken eylemnii kullanıp komut sözünü söyleyebilirsin. Bu pelerini bir saatliğine ya da sen eylem olarak komut sözünü tekrar edene kadar bir çift yarasa ya da kuş kanadına çevirir. Kanatlar sana 60 fit uçma hızı verir. Kaybolduklarında, onları 1d12 saat kullanamazsın."
 			]
 		},
 		{
@@ -7070,7 +7070,7 @@
 			"poison": true
 		},
 		{
-			"name": "Scimitar of Speed",
+			"name": "Hız Palası",
 			"type": "M",
 			"weaponCategory": "Askeri",
 			"weight": "3",
@@ -7086,7 +7086,7 @@
 			"page": 199,
 			"reqAttune": "YES",
 			"entries": [
-				"You gain a +2 bonus to attack and damage rolls made with this magic weapon. In addition, you can make one attack with it as a bonus action on each of your turns."
+				"Bu büyülü silah ile saldırı ve hasar zarlarında +2 bonusun olur. Ayrıca, her sıranda onunla bonus eylem olarak da bir saldırı yapabilirsin."
 			]
 		},
 		{
