@@ -269,7 +269,7 @@
 					{
 						"name": "Yol Özelliği",
 						"entries": [
-							"6. seviyede seçtiğin İlkel Yol sana bir özellik ekler."
+							"6. seviyeye eriştiğinde seçtiğin İlkel Yol sana bir özellik ekler."
 						],
 						"gainSubclassFeature": true
 					}
@@ -305,7 +305,7 @@
 					{
 						"name": "Yol Özelliği",
 						"entries": [
-							"6. seviyede seçtiğin ilkel Yol sana bir özellik ekler."
+							"10. seviyeye eriştiğinde seçtiğin İlkel Yol sana bir özellik ekler."
 						],
 						"gainSubclassFeature": true
 					}
@@ -340,7 +340,7 @@
 					{
 						"name": "Yol Özelliği",
 						"entries": [
-							"14. seviyede seçtiğin İlkel Yol sana bir özellik ekler."
+							"14. seviyeye eriştiğinde seçtiğin İlkel Yol sana bir özellik ekler."
 						],
 						"gainSubclassFeature": true
 					}
