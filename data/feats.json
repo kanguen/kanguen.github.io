@@ -10,7 +10,7 @@
 					"type": "list",
 					"items": [
 						"Kendini başka bir kişi olarak göstermeye çalışırken atacağın Karizma ({@skill Aldatma}) ve Karizma ({@skill Performans}) zarlarında avanatajın olur.",
-						"Başka bir kişinin konuşmasını yada bir varlığın seslerini taklit edebilirsin. En az 1 dakika boyunca kişiyi konuşurken dinlemiş yada varlığı sesi çıkarırken duymuş olmalısın. Senin Karizma ({@skill Aldatma}) zarına karşı atılmış başarılı bir Akıl ({@skill Sezgi}) zarı ile etkinin sahte olduğu anlaşılabilir."
+						"Başka bir kişinin konuşmasını ya da bir varlığın seslerini taklit edebilirsin. En az 1 dakika boyunca kişiyi konuşurken dinlemiş ya da varlığı sesi çıkarırken duymuş olmalısın. Senin Karizma ({@skill Aldatma}) zarına karşı atılmış başarılı bir Akıl ({@skill Sezgi}) zarı ile etkinin sahte olduğu anlaşılabilir."
 					]
 				}
 			],
@@ -45,7 +45,7 @@
 					"items": [
 						"Yerdeyken ayağa kalkmak sadece 5 feet hareket kullanır.",
 						"Tırmanma sana fazladan harekete mal olmaz.",
-						"10 feet yerine sadece 5 feet giderek koşup uzun atlama yada yüksek atlama yapabilirsin."
+						"10 feet yerine sadece 5 feet giderek koşup uzun atlama ya da yüksek atlama yapabilirsin."
 					]
 				}
 			],
@@ -66,8 +66,8 @@
 			"source": "PHB",
 			"page": 165,
 			"entries": [
-				"Eylemini Depar için kullandığında, bonus eylemin ile bir yakın dövüş silahı saldırısı yapabilir yada bir varlığı itebilirsin.",
-				"Eğer bu bonus eylemi kullanmadan hemen önce düz hizada en az 10 feet gidersen, ya saldırının hasar zarına +5 alırsın (saldırı yapmayı seçip vurursan) yada varlığı 10 feet itersin (eğer itmeyi seçip başarılı olursan)."
+				"Eylemini Depar için kullandığında, bonus eylemin ile bir yakın dövüş silahı saldırısı yapabilir ya da bir varlığı itebilirsin.",
+				"Eğer bu bonus eylemi kullanmadan hemen önce düz hizada en az 10 feet gidersen, ya saldırının hasar zarına +5 alırsın (saldırı yapmayı seçip vurursan) ya da varlığı 10 feet itersin (eğer itmeyi seçip başarılı olursan)."
 			]
 		},
 		{
@@ -129,7 +129,7 @@
 					"type": "list",
 					"items": [
 						"Gizli kapıların varlığını tespit etmek için atacağın Akıl ({@skill Algılama}) ve Zeka ({@skill Araştırma}) zarlarında avantajın olur.",
-						"Tuzaklara karşı direnmek yada kaçınmak için atacağın kurtulma zarlarında avantajın olur.",
+						"Tuzaklara karşı direnmek ya da kaçınmak için atacağın kurtulma zarlarında avantajın olur.",
 						"Tuzaklardan gelen hasarlara karşı direncin olur."
 					]
 				}
@@ -162,7 +162,7 @@
 				}
 			],
 			"entries": [
-				"Bu hüneri kazandığında şunlardan bir hasar tipi seç: asit, soğuk, ateş, yıldırım, yada ses.",
+				"Bu hüneri kazandığında şunlardan bir hasar tipi seç: asit, soğuk, ateş, yıldırım, ya da ses.",
 				"Kullandığın büyüler bu hasar tipine olan direnci yok sayar. Ek olarak bu hasar tipinde hasar veren bir büyü için hasar zarı attığında, zarda gelen 1'leri 2 sayabilirsin.",
 				"Bu hüneri birden çok kez seçebilirsin. Her seferinde farklı bir hasar tipi seçmen gerekir."
 			]
@@ -200,7 +200,7 @@
 				{
 					"type": "list",
 					"items": [
-						"Sıranda bir yakın dövüş silahı ile kritik vurduğunda yada bir varlığı 0 HP'ye düşürdüğünde bonus eylem olarak bir yakın dövüş saldırısı daha yapabilirsin.",
+						"Sıranda bir yakın dövüş silahı ile kritik vurduğunda ya da bir varlığı 0 HP'ye düşürdüğünde bonus eylem olarak bir yakın dövüş saldırısı daha yapabilirsin.",
 						"Uzman olduğun ağır bir silah ile yakın dövüş saldırısı yapmadan önce, saldırı zarına -5 almayı seçebilirsin. Eğer saldırı vurursa, saldırının hasarına +10 eklersin."
 					]
 				}
@@ -216,7 +216,7 @@
 					"type": "list",
 					"items": [
 						"Ölmekte olan bir varlığı stabilize etmek için bir şifacı kiti kullandığında varlık aynı zamanda 1 HP yeniler.",
-						"Eylem olarak, şifacı kitinin 1 kullanımını harcayıp bir varlığı {@dice 1d6+4} + maksimum HD sayısı kadar HP iyileştirirsin. Varlık bu hüner ile kısa yada uzun dinlenme bitirmeden yeniden iyileşemez."
+						"Eylem olarak, şifacı kitinin 1 kullanımını harcayıp bir varlığı {@dice 1d6+4} + maksimum HD sayısı kadar HP iyileştirirsin. Varlık bu hüner ile kısa ya da uzun dinlenme bitirmeden yeniden iyileşemez."
 					]
 				}
 			]
@@ -287,7 +287,7 @@
 				}
 			],
 			"entries": [
-				"10 dakika harcayarak dostlarına ilham verip savaşma azimlerini artırırsın. Bunu yaptığında 30 feet çevrende seni anlayabilen ve gören yada duyan 6'ya kadar dost varlık (buna kendini de dahil edebilirsin) seç. Her varlık senin seviyen + Karizma bonusun kadar geçici HP kazanır. Bir varlık kısa yada uzun dinlenme bitirmeden bu hünerden yeniden geçici HP kazanamaz."
+				"10 dakika harcayarak dostlarına ilham verip savaşma azimlerini artırırsın. Bunu yaptığında 30 feet çevrende seni anlayabilen ve gören ya da duyan 6'ya kadar dost varlık (buna kendini de dahil edebilirsin) seç. Her varlık senin seviyen + Karizma bonusun kadar geçici HP kazanır. Bir varlık kısa ya da uzun dinlenme bitirmeden bu hünerden yeniden geçici HP kazanamaz."
 			]
 		},
 		{
@@ -300,8 +300,8 @@
 					"type": "list",
 					"items": [
 						"Daima hangi yönün kuzey olduğunu bilirsin.",
-						"Daima bir sonraki gün doğumu yada batımına kalan saati bilirsin.",
-						"Son ay içinde gördüğün yada duyduğun her şeyi doğru bir şekilde hatırlarsın."
+						"Daima bir sonraki gün doğumu ya da batımına kalan saati bilirsin.",
+						"Son ay içinde gördüğün ya da duyduğun her şeyi doğru bir şekilde hatırlarsın."
 					]
 				}
 			],
@@ -343,8 +343,8 @@
 				{
 					"type": "list",
 					"items": [
-						"Seçeceğin 3 dili öğren.",
-						"Başarılı bir şekilde yazılı kodlar oluşturabilirsin. Diğerlerinin kodu çözebilmesi için ya sen öğretirsin, ya Zeka zarı atarlar (DC Zeka skorun + uzmanlık bonusundur), yada büyü yardımı alırlar."
+						"Seçeceğin 3 dili öğrenirsin.",
+						"Becerikli bir şekilde yazılı kodlar oluşturabilirsin. Diğerlerinin kodu çözebilmeleri için, bunu senin öğretmen, Zeka zarı atmaları (DC = Zeka skorun + uzmanlık bonusundur), ya da büyü kullanmaları gerekir."
 					]
 				}
 			],
@@ -358,7 +358,7 @@
 			"page": 167,
 			"entries": [
 				"Tam zamanında kendini gösteren açıklanamaz bir şansın var.",
-				"3 şans puanın var. Ne zaman bir saldırı, beceri yada kurtulma zarı atsan bir şans puanı harcayıp fazladan bir d20 atabilirsin. Şans puanını zarı attıktan sonra harcamaya karar verebilirsin, ama sonuç açıklanmadan önce olmalı. Hangi d20'nin saldırı, beceri yada kurtulma zarı için kullanılacağına sen karar verirsin.",
+				"3 şans puanın var. Ne zaman bir saldırı, beceri ya da kurtulma zarı atsan bir şans puanı harcayıp fazladan bir d20 atabilirsin. Şans puanını zarı attıktan sonra harcamaya karar verebilirsin, ama sonuç açıklanmadan önce olmalı. Hangi d20'nin saldırı, beceri ya da kurtulma zarı için kullanılacağına sen karar verirsin.",
 				"Sana karşı bir saldırı yapıldığında da şans puanı harcayabilirsin. d20'lik bir zar at ve sonra saldırının hangi zarı kullanacağına karar ver. Eğer birden fazla varlık bir sonucu etkilemek için şans puanı harcarsa, puanlar birbirini iptal eder, fazladan bir zar atılmaz.",
 				"Harcadığın şans puanları uzun dinlenme bitirdiğinde yenilenir."
 			]
@@ -384,9 +384,9 @@
 			"source": "PHB",
 			"page": 168,
 			"entries": [
-				"Bir sınıf seç: {@filter ozan|spells|level=0;1|class=bard}, {@filter rahip|spells|level=0;1|class=cleric}, {@filter druid|spells|level=0;1|class=druid}, {@filter sorcerer|spells|level=0;1|class=sorcerer}, {@filter warlock|spells|level=0;1|class=warlock}, yada {@filter büyücü|spells|level=0;1|class=wizard}. O sınıfın büyü listesinden iki cantrip seçip öğrenebilirsin.",
+				"Bir sınıf seç: {@filter ozan|spells|level=0;1|class=bard}, {@filter rahip|spells|level=0;1|class=cleric}, {@filter druid|spells|level=0;1|class=druid}, {@filter sorcerer|spells|level=0;1|class=sorcerer}, {@filter warlock|spells|level=0;1|class=warlock}, ya da {@filter büyücü|spells|level=0;1|class=wizard}. O sınıfın büyü listesinden iki cantrip seçip öğrenebilirsin.",
 				"Ek olarak aynı listeden bir 1. seviye büyü seç. O büyüyü öğrenirsin ve en düşük seviyede kullanabilirsin. Kullandığında, bu özellik ile yeniden kullanabilmek için uzun dinlenme bitirmen gerekir.",
-				"Bu büyüler için büyü yapma yeteneğin seçtiğin sınıfa göre değişir: {@filter ozan|spells|level=0;1|class=bard}, {@filter sorcerer|spells|level=0;1|class=sorcerer}, yada {@filter warlock|spells|level=0;1|class=warlock} için Karizma; {@filter rahip|spells|level=0;1|class=cleric} yada {@filter druid|spells|level=0;1|class=druid} için Akıl; yada {@filter büyücü|spells|level=0;1|class=wizard} için Zeka."
+				"Bu büyüler için büyü yapma yeteneğin seçtiğin sınıfa göre değişir: {@filter ozan|spells|level=0;1|class=bard}, {@filter sorcerer|spells|level=0;1|class=sorcerer}, ya da {@filter warlock|spells|level=0;1|class=warlock} için Karizma; {@filter rahip|spells|level=0;1|class=cleric} ya da {@filter druid|spells|level=0;1|class=druid} için Akıl; ya da {@filter büyücü|spells|level=0;1|class=wizard} için Zeka."
 			]
 		},
 		{
@@ -398,8 +398,8 @@
 				{
 					"type": "list",
 					"items": [
-						"Savaşçı sınıfının {@class Savaşçı|phb|Savaş Üstadı|Savaş Üstadı|phb|Savaş Modeli 3} modeli için mevcut olan manevralardan 2 tane seçersin. Eğer manevra hedefinin kurtulma zarı atmasını gerektiriyorsa, kurtulma zarı DC'si 8 + uzmanlık bonusun + Kuvvet yada Çeviklik bonusun (senin seçimin) olur.",
-						"Eğer üstünlük zarın varsa mevcut havuza bir tane daha eklersin; yoksa, bir üstünlük zarın olur, buda d6'dır. Bu zar manevralarını yapmanı sağlar. Bir üstünlük zarı onu kullandığında harcanır. Harcanmış üstünlük zarını kısa yada uzun dinlenme bitirdiğinde yenilersin."
+						"Savaşçı sınıfının {@class Savaşçı|phb|Savaş Üstadı|Savaş Üstadı|phb|Savaş Modeli 3} modeli için mevcut olan manevralardan 2 tane seçersin. Eğer manevra hedefinin kurtulma zarı atmasını gerektiriyorsa, kurtulma zarı DC'si 8 + uzmanlık bonusun + Kuvvet ya da Çeviklik bonusun (senin seçimin) olur.",
+						"Eğer üstünlük zarın varsa mevcut havuza bir tane daha eklersin; yoksa, bir üstünlük zarın olur, buda d6'dır. Bu zar manevralarını yapmanı sağlar. Bir üstünlük zarı onu kullandığında harcanır. Harcanmış üstünlük zarını kısa ya da uzun dinlenme bitirdiğinde yenilersin."
 					]
 				}
 			]
@@ -529,8 +529,8 @@
 				{
 					"type": "list",
 					"items": [
-						"Baltalı kargı yada asa ile Saldırı eylemini kullandığında, bonus eylem kullanarak silahın diğer ucuyla bir yakın dövüş saldırısı daha yapabilirsin. Bu saldırı asıl saldırı ile aynı yetenek bonusunu kullanır. Bu saldırı için silahın hasar zarı d4'tür ve hasar ezme hasarı verir.",
-						"Baltalı kargı, kargı, yada asa kullanırken erişimine giren diğer varlıklar senden fırsat saldırısı tetikler."
+						"Baltalı kargı ya da asa ile Saldırı eylemini kullandığında, bonus eylem kullanarak silahın diğer ucuyla bir yakın dövüş saldırısı daha yapabilirsin. Bu saldırı asıl saldırı ile aynı yetenek bonusunu kullanır. Bu saldırı için silahın hasar zarı d4'tür ve hasar ezme hasarı verir.",
+						"Baltalı kargı, kargı, ya da asa kullanırken erişimine giren diğer varlıklar senden fırsat saldırısı tetikler."
 					]
 				}
 			]
@@ -583,8 +583,8 @@
 			],
 			"entries": [
 				"Ritüel olarak kullanabileceğin birkaç büyü öğrendin. Bu büyüler kullanırken elinde olması gereken bir ritüel kitabında yazılı olur.",
-				"Bu hüneri seçtiğinde, seçeceğin iki 1. seviye büyü içeren bir ritüel kitabı elde edersin. Şu sınıflardan birini seç: ozan, rahip, druid, sorcerer, warlock, yada büyücü. Büyülerini o sınıfın büyü listesinden seçmen ve büyülerin ritüel etiketine sahip olması gerekir. Seçtiğin sınıf aynı zamanda bu büyüler için büyü yapma yeteneğini de belirler: ozan, sorcerer, yada warlock için Karizma; rahip yada druid için Akıl; yada büyücü için Zeka.",
-				"Bir büyülü tomar yada büyücü kitabı gibi yazılı şekilde bir büyüye rastlarsan, onu ritüel kitabına eklemen mümkündür. Büyü, seçtiğin sınıfın listesinde olmalı, büyünün seviyesi senin seviyenin yarısından (üste yuvarlanır) fazla olmamalı, ve ritüel etiketine sahip olmalıdır. Bu ritüel kitabına büyü kopyalama süreci büyü seviyesi başına 2 saat alır ve seviye başı 50 gp'ye mal olur. Masraf, büyüyü öğrenirken harcadığın materyal bileşenler ve yazmak için kullandığın özel mürekkepleri temsil eder."
+				"Bu hüneri seçtiğinde, seçeceğin iki 1. seviye büyü içeren bir ritüel kitabı elde edersin. Şu sınıflardan birini seç: ozan, rahip, druid, sorcerer, warlock, ya da büyücü. Büyülerini o sınıfın büyü listesinden seçmen ve büyülerin ritüel etiketine sahip olması gerekir. Seçtiğin sınıf aynı zamanda bu büyüler için büyü yapma yeteneğini de belirler: ozan, sorcerer, ya da warlock için Karizma; rahip ya da druid için Akıl; ya da büyücü için Zeka.",
+				"Bir büyülü tomar ya da büyücü kitabı gibi yazılı şekilde bir büyüye rastlarsan, onu ritüel kitabına eklemen mümkündür. Büyü, seçtiğin sınıfın listesinde olmalı, büyünün seviyesi senin seviyenin yarısından (üste yuvarlanır) fazla olmamalı, ve ritüel etiketine sahip olmalıdır. Bu ritüel kitabına büyü kopyalama süreci büyü seviyesi başına 2 saat alır ve seviye başı 50 gp'ye mal olur. Masraf, büyüyü öğrenirken harcadığın materyal bileşenler ve yazmak için kullandığın özel mürekkepleri temsil eder."
 			]
 		},
 		{
@@ -637,7 +637,7 @@
 					"type": "list",
 					"items": [
 						"Eğer sıranda Saldırı eylemini kullanırsan, bonus eylemini kullanarak kalkanınla 5 feet yakınındaki bir varlığı itmeyi deneyebilirsin.",
-						"Eğer bilinçsiz değilsen, sadece seni hedef alan bir etki yada büyüye karşı atacağın Çeviklik kurtulma zarına kalkanın AC bonusunu ekleyebilirsin.",
+						"Eğer bilinçsiz değilsen, sadece seni hedef alan bir etki ya da büyüye karşı atacağın Çeviklik kurtulma zarına kalkanın AC bonusunu ekleyebilirsin.",
 						"Eğer yarı hasar almak için Çeviklik kurtulma zarı atmanı gerektiren bir etkiye maruz kalırsan, reaksiyonunu kullanıp kalkanı etki ile senin arana yerleştirerek kurtulma zarında başarılı olursan hiç hasar almazsın, başarısız olursan da yarı hasar alırsın."
 					]
 				}
@@ -648,7 +648,7 @@
 			"source": "PHB",
 			"page": 170,
 			"entries": [
-				"İstediğin kombinasyonda seçeceğin 3 beceri yada alette uzmanlık kazanırsın."
+				"İstediğin kombinasyonda seçeceğin 3 beceri ya da alette uzmanlık kazanırsın."
 			]
 		},
 		{
@@ -692,7 +692,7 @@
 					"items": [
 						"Saldırı zarı atmanı gerektiren bir büyü kullandığında büyünün menzili ikiye katlanır.",
 						"Menzilli büyü saldırıların yarı ve üç çeyrek siperi yok sayar.",
-						"Saldırı zarı gerektiren bir cantrip öğrenirsin. Cantripi ozan, rahip, druid, sorcerer, warlock, yada büyücü listesinden seç. Bu büyü için büyü yapma yeteneğin seçtiğin listeye bağlıdır: ozan, sorcerer, yada warlock için Karizma; rahip yada druid için Akıl; yada büyücü için Zeka."
+						"Saldırı zarı gerektiren bir cantrip öğrenirsin. Cantripi ozan, rahip, druid, sorcerer, warlock, ya da büyücü listesinden seç. Bu büyü için büyü yapma yeteneğin seçtiğin listeye bağlıdır: ozan, sorcerer, ya da warlock için Karizma; rahip ya da druid için Akıl; ya da büyücü için Zeka."
 					]
 				}
 			]
@@ -727,7 +727,7 @@
 					"items": [
 						"Doğaçlama silahlarla uzmanlığın var.",
 						"Silahsız saldırıların hasar için d4 kullanır.",
-						"Sıranda bir varlığa silahsız saldırı yada doğaçlama silah ile vurunca, bonus eylem kullanıp hedefi yakalamayı deneyebilirsin."
+						"Sıranda bir varlığa silahsız saldırı ya da doğaçlama silah ile vurunca, bonus eylem kullanıp hedefi yakalamayı deneyebilirsin."
 					]
 				}
 			],
@@ -766,7 +766,7 @@
 					"type": "list",
 					"items": [
 						"Hasar aldığında bir büyüdeki konsantrasyonunu korumak için atacağın Dayanıklılık kurtulma zarlarında avantajın olur.",
-						"Büyülerin bedensel bileşenlerini tek yada her iki elinde silah yada kalkan olsa da gerçekleştirebilirsin.",
+						"Büyülerin bedensel bileşenlerini tek ya da her iki elinde silah ya da kalkan olsa da gerçekleştirebilirsin.",
 						"Düşman bir varlığın hareketi senden fırsat saldırısı tetiklediğinde reaksiyonunu kullanıp varlığa fırsat saldırısı yapmaktansa bir büyü kullanabilirsin. Büyünün kullanma süresi 1 eylem olmalı ve sadece o varlığı hedef almalı."
 					]
 				}
@@ -781,7 +781,7 @@
 				{
 					"type": "list",
 					"items": [
-						"Seçeceğin dört basit yada askeri silah ile uzmanlık kazanırsın."
+						"Seçeceğin dört basit ya da askeri silah ile uzmanlık kazanırsın."
 					]
 				}
 			],
@@ -812,7 +812,7 @@
 			"page": 73,
 			"entries": [
 				"Halkının sıradışı bir şansı vardır ve sen bunu mistik olarak dostlarına aktarmayı öğrendin. Nasıl yaptığından sende emin değilsin, sen sadece dilersin ve bu gerçekleşir. Kesinlikle kaderin bir lütfu!",
-				"30 feet yakınındaki görebildiğin bir dostun, bir saldırı, beceri yada kurtulma zarında d20'de 1 atarsa reaksiyonunu kullanıp dostuna o zarı yeniden attırabilirsin. Dostun yeni sonucu kullanır.",
+				"30 feet yakınındaki görebildiğin bir dostun, bir saldırı, beceri ya da kurtulma zarında d20'de 1 atarsa reaksiyonunu kullanıp dostuna o zarı yeniden attırabilirsin. Dostun yeni sonucu kullanır.",
 				"Bu özelliği kullandığında, bir sonraki sıranın sonuna kadar Şanslı ırk özelliğini kullanamazsın."
 
 			]
@@ -835,7 +835,7 @@
 				{
 					"type": "list",
 					"items": [
-						"Yıkıcı enerji üflemek yerine Nefes Silahı kullanımını harcayıp kükrersin, 30 feet yakınındaki seçtiğin her varlık Akıl kurtulma zarı (DC = 8 + uzmanlık bonusu + Karizma bonusu) atar. Bir hedef eğer seni göremiyor yada duyamıyorsa otomatik olarak kurtulma zarında başarılı olur. Başarısız olursa hedef senden bir dakikalığına korkar. Eğer korkan hedef hasar alırsa kurtulma zarını tekrarlayabilir, başarılı bir zarda etki sonlanır."
+						"Yıkıcı enerji üflemek yerine Nefes Silahı kullanımını harcayıp kükrersin, 30 feet yakınındaki seçtiğin her varlık Akıl kurtulma zarı (DC = 8 + uzmanlık bonusu + Karizma bonusu) atar. Bir hedef eğer seni göremiyor ya da duyamıyorsa otomatik olarak kurtulma zarında başarılı olur. Başarısız olursa hedef senden bir dakikalığına korkar. Eğer korkan hedef hasar alırsa kurtulma zarını tekrarlayabilir, başarılı bir zarda etki sonlanır."
 					]
 				}
 			],
@@ -871,7 +871,7 @@
 					"type": "list",
 					"items": [
 						"Pulların sertleşir. Zırh giymiyorken AC'ni 13 + Çeviklik bonusu olarak hesaplayabilirsin. Kalkan kullanıp hala bu özellikten faydalanabilirsin.",
-						"Parmak uçlarından çıkarabildiğin pençelerin olur. Tırnakları çıkarma yada geri çekme eylem gerektirmez. Pençelerin doğal silahlarındır ve onlarla silahsız saldırı yapabilirsin. Eğer onlarla vurursan normal ezme hasarı yerine {@dice 1d4} + Kuvvet bonusun kadar kesme hasarı verirsin."
+						"Parmak uçlarından çıkarabildiğin pençelerin olur. Tırnakları çıkarma ya da geri çekme eylem gerektirmez. Pençelerin doğal silahlarındır ve onlarla silahsız saldırı yapabilirsin. Eğer onlarla vurursan normal ezme hasarı yerine {@dice 1d4} + Kuvvet bonusun kadar kesme hasarı verirsin."
 					]
 				}
 			],
@@ -953,7 +953,7 @@
 				{
 					"type": "list",
 					"items": [
-						"Ne zaman Çeviklik, Zeka, Akıl yada Karizma kullanan bir saldırı zarında avantajın olursa zarlardan birini tek sefer yeniden atabilirsin."
+						"Ne zaman Çeviklik, Zeka, Akıl ya da Karizma kullanan bir saldırı zarında avantajın olursa zarlardan birini tek sefer yeniden atabilirsin."
 					]
 				}
 			],
@@ -989,7 +989,7 @@
 				{
 					"type": "list",
 					"items": [
-						"Hasar aldıktan hemen sonra reaksiyonunu kullanarak bir sonraki sıranın sonuna yada sen saldırana, hasar verene veya birini kurtulma zarı atmaya zorlayana dek görünmez olursun. Bu özelliği kullandığında bir daha kısa yada uzun dinlenme bitirene kadar kullanamazsın."
+						"Hasar aldıktan hemen sonra reaksiyonunu kullanarak bir sonraki sıranın sonuna ya da sen saldırana, hasar verene veya birini kurtulma zarı atmaya zorlayana dek görünmez olursun. Bu özelliği kullandığında bir daha kısa ya da uzun dinlenme bitirene kadar kullanamazsın."
 					]
 				}
 			],
@@ -1025,7 +1025,7 @@
 					"type": "list",
 					"items": [
 						"Sylvan dilini okuyabilir, yazabilir ve konuşabilirsin.",
-						"{@spell Misty step} büyüsünü öğrenirsin ve bir kez büyü yuvası harcamadan kullanabilirsin. Bu şekilde yeniden kullanabilmek için kısa yada uzun dinlenme bitirmen gerekir. Bu büyü için büyü yapma yeteneğin Zekadır."
+						"{@spell Misty step} büyüsünü öğrenirsin ve bir kez büyü yuvası harcamadan kullanabilirsin. Bu şekilde yeniden kullanabilmek için kısa ya da uzun dinlenme bitirmen gerekir. Bu büyü için büyü yapma yeteneğin Zekadır."
 					]
 				}
 			],
@@ -1060,7 +1060,7 @@
 					"type": "list",
 					"items": [
 						"Kullandığın bir büyü için ateş hasar zarı attığında gelen 1'leri yeniden atabilirsin ama yeni sonucu kullanmak zorundasın, yeniden 1 olsa bile.",
-						"Ne zaman ateş hasarı veren bir büyü kullansan, bir sonraki sıranın sonuna kadar çevreni alevler ile kaplayabilirsin. Alevler sana yada ekipmanına hasar vermez ve 30 feet parlak ışık, sonrasında 30 feet de loş ışık saçarlar. Alevler mevcutken 5 feet yakınında olup sana yakın dövüş saldırısı ile vuran tüm varlıklar 1d4 ateş hasarı alır."
+						"Ne zaman ateş hasarı veren bir büyü kullansan, bir sonraki sıranın sonuna kadar çevreni alevler ile kaplayabilirsin. Alevler sana ya da ekipmanına hasar vermez ve 30 feet parlak ışık, sonrasında 30 feet de loş ışık saçarlar. Alevler mevcutken 5 feet yakınında olup sana yakın dövüş saldırısı ile vuran tüm varlıklar 1d4 ateş hasarı alır."
 					]
 				}
 			],
@@ -1121,7 +1121,7 @@
 				{
 					"type": "list",
 					"items": [
-						"Basit yada askeri silah kullanan bir saldırı ile vurduğunda, silahın hasar zarlarından birini fazladan bir kere atıp hasara ekleyebilirsin. Bu özelliği yeniden kullanabilmek için kısa yada uzun dinlenme bitirmen gerekir.",
+						"Basit ya da askeri silah kullanan bir saldırı ile vurduğunda, silahın hasar zarlarından birini fazladan bir kere atıp hasara ekleyebilirsin. Bu özelliği yeniden kullanabilmek için kısa ya da uzun dinlenme bitirmen gerekir.",
 						"Amansız Dayanıklılık özelliğini kullandıktan hemen sonra reaksiyonunu kullanarak bir silah saldırısı yapabilirsin."
 					]
 				}
@@ -1186,7 +1186,7 @@
 				{
 					"type": "list",
 					"items": [
-						"Görebildiğin bir varlık sana bir saldırı zarı ile vurduğunda reaksiyonunu kullanıp o zarı tekrar attırabilirsin. Bu özelliği bir kere kullandığında bir daha yeni bir öncelik zarı atana kadar veya kısa yada uzun dinlenme bitirene kadar kullanamazsın."
+						"Görebildiğin bir varlık sana bir saldırı zarı ile vurduğunda reaksiyonunu kullanıp o zarı tekrar attırabilirsin. Bu özelliği bir kere kullandığında bir daha yeni bir öncelik zarı atana kadar veya kısa ya da uzun dinlenme bitirene kadar kullanamazsın."
 					]
 				}
 			],
@@ -1225,8 +1225,8 @@
 					"type": "list",
 					"items": [
 						"Yürüme hızın 5 feet artar.",
-						"{@skill Akrobasi} yada {@skill Atletizm} becerilerinden birinde uzmanlık kazanırsın (senin seçimin).",
-						"Yakalanma durumundan kurtulmak için atacağın Kuvvet ({@skill Atletizm}) yada Çeviklik ({@skill Akrobasi}) zarlarında avantajın olur."
+						"{@skill Akrobasi} ya da {@skill Atletizm} becerilerinden birinde uzmanlık kazanırsın (senin seçimin).",
+						"Yakalanma durumundan kurtulmak için atacağın Kuvvet ({@skill Atletizm}) ya da Çeviklik ({@skill Akrobasi}) zarlarında avantajın olur."
 					]
 				}
 			],
