@@ -2242,7 +2242,7 @@
 			},
 			"entries": [
 				"Acıları dindirmek için doğadan bir ruh çağırırsın. Fiziksel bedeni olmayan bu ruh, menzilinde görebildiğin 5 fitlik küp bir alanda belirir. Ruh saydam bir hayvan ya da fey olarak (senin seçimin) görünür.",
-				"Büyü bitene kadar ne zaman sen ya da görebildiğin bir varlık ruhun alanına sıranızda ilk kez girerseniz ya da sıraya orada başlarsanız, ruhun o varlığa {@dice 1d6} HP yenilemesini sağlayabilirsin (eylem gerektirmez). Bu ruh yapıları ya da yaşayan ölüleri iyileştiremez.",
+				"Büyü bitene kadar ne zaman sen ya da görebildiğin bir varlık ruhun alanına sıranızda ilk kez girerseniz ya da sıraya orada başlarsanız, ruhun o varlığa {@dice 1d6} HP yenilemesini sağlayabilirsin (eylem gerektirmez). Bu ruh yapıları ya da yaşayan ölüleri iyileştiremez. Ruh, 1 + büyü yapma yetenek bonusun kadar (en az 2) iyileştirebilir ve sonrasında kaybolur.",
 				"Sıranda bonus eylem olarak bu ruhu görebildiğin bir alana 30 fite kadar hareket ettirebilirsin."
 			],
 			"entriesHigherLevel": [
