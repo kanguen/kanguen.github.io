@@ -1,0 +1,1261 @@
+{
+  "class": [
+    {
+      "name": "Sorcerer",
+      "source": "PHB",
+      "hd": {
+        "number": 1,
+        "faces": 6
+      },
+      "proficiency": [
+        "day",
+        "kar"
+      ],
+      "classTableGroups": [
+        {
+          "colLabels": [
+            "Sorcery Puanları"
+          ],
+          "rows": [
+            [
+              0
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ],
+            [
+              4
+            ],
+            [
+              5
+            ],
+            [
+              6
+            ],
+            [
+              7
+            ],
+            [
+              8
+            ],
+            [
+              9
+            ],
+            [
+              10
+            ],
+            [
+              11
+            ],
+            [
+              12
+            ],
+            [
+              13
+            ],
+            [
+              14
+            ],
+            [
+              15
+            ],
+            [
+              16
+            ],
+            [
+              17
+            ],
+            [
+              18
+            ],
+            [
+              19
+            ],
+            [
+              20
+            ]
+          ]
+        },
+        {
+          "colLabels": [
+            "{@filter Bilinen Cantripler|spells|level=0|class=Sorcerer}",
+            "Bilinen Büyüler"
+          ],
+          "rows": [
+            [
+              4,
+              2
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              5
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              5,
+              9
+            ],
+            [
+              5,
+              10
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              6,
+              12
+            ],
+            [
+              6,
+              12
+            ],
+            [
+              6,
+              13
+            ],
+            [
+              6,
+              13
+            ],
+            [
+              6,
+              14
+            ],
+            [
+              6,
+              14
+            ],
+            [
+              6,
+              15
+            ],
+            [
+              6,
+              15
+            ],
+            [
+              6,
+              15
+            ],
+            [
+              6,
+              15
+            ]
+          ]
+        },
+        {
+          "title": "Büyü Seviyesi Başına Büyü Yuvaları",
+          "colLabels": [
+            "{@filter 1.|spells|level=1|class=Sorcerer}",
+            "{@filter 2.|spells|level=2|class=Sorcerer}",
+            "{@filter 3.|spells|level=3|class=Sorcerer}",
+            "{@filter 4.|spells|level=4|class=Sorcerer}",
+            "{@filter 5.|spells|level=5|class=Sorcerer}",
+            "{@filter 6.|spells|level=6|class=Sorcerer}",
+            "{@filter 7.|spells|level=7|class=Sorcerer}",
+            "{@filter 8.|spells|level=8|class=Sorcerer}",
+            "{@filter 9.|spells|level=9|class=Sorcerer}"
+          ],
+          "rows": [
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              1,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              1,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              3,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              1
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2,
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "startingProficiencies": {
+        "weapons": [
+          "hançerler",
+          "dartlar",
+          "sapanlar",
+          "asalar",
+          "hafif arbaletler"
+        ],
+        "skills": {
+          "choose": 2,
+          "from": [
+            "Arcana",
+            "Aldatma",
+            "Sezgi",
+            "Gözdağı",
+            "İkna",
+            "Din"
+          ]
+        }
+      },
+      "startingEquipment": {
+        "additionalFromBackground": true,
+        "default": [
+          "(a) bir hafif arbalet ve 20 kısa ok veya (b) herhangi bir basit silah",
+          "(a) bir bileşen kesesi veya (b) bir arcane odak",
+          "(a) bir zindancı paketi veya (b) bir kaşif paketi",
+          "İki hançer"
+        ],
+        "goldAlternative": "3d4 × 10"
+      },
+      "classFeatures": [
+        [
+          {
+            "name": "Büyü Yapma",
+            "entries": "Geçmişinde ya da bir atanın hayatında yaşanmış bir olay sendeinanılmaz bir iz bıraktı ve seni arcane büyü ile doldurdu. Aslı neolursa olsun bu büyü kaynağı büyülerini yapmanısağlıyor.\nCantripler\n1. seviyede sorcerer büyü listesinden 4 tanecantrip seçebilirsin. 4. ve 10. seviyelerde ek sorcerer cantripleriöğrenirsin.\nBüyü Yuvaları\nSorcerer tablosu 1. seviye ve üzeribüyülerini kullanmak için kaç adetbüyü yuvan olduğunu gösterir. Busorcerer büyülerini kullanmak içinbüyünün seviyesi ya da üzeri bir yuvaharcamalısın. Tüm harcanmış büyüyuvalarını uzun dinlenme bitirdiğindeyenilersin.Örneğin 1. seviye büyüsü {@spell burning hands (yanan eller)}biliyorsanve 1. ve 2. seviye büyü yuvan mevcutsa, {@spell burning hands(yananeller)} büyüsünü istediğin yuva ile kullanabilirsin.\n1. Seviyeve Üzeri Bilinen Büyüler\nSorcerer listesinden seçeceğin 2 tane 1.seviye büyü biliyorsun.12, 14, 16, 18, 19 ve 20. seviyeler dışında herseviyede ek bir büyüöğrenirsin. Bu büyülerin her biri sahip olduğun büyüyuvalarına uygunolmalıdır. Örneğin, bu sınıfta 3. seviyeye ulaştığındabir yeni 1. ya da2. seviye büyü öğrenebilirsin.Ek olarak, bu sınıfta birseviye atladığında, bildiğin bir sorcererbüyüsünü yine sorcerer büyülistesinden yenisi ile değiştirebilirsin.Yeni büyüde sahip olduğun büyüyuvalarına uygun olmalıdır.\nBüyü Yapma Yeteneği\nSorcerer büyüleriniçin büyü yapma yeteneğin Karizmadır. Çünkü büyügücün iradeni dünyayayansıtabilme yeteneğine bağlıdır. Ne zaman birbüyü, büyü yapmayeteneğinden bahsederse Karizmayı kullanırsın. Ekolarak, sorcererbüyülerinin kurtulma zarı DC'sini belirlerken veonlarla saldırı yaparkenKarizma bonusunukullanırsın.\nabilityDc:kar\nabilityAttackMod:kar\nBüyü Yapma Odağı\nSorcerer büyülerin için gereken büyü yapma odağı olarak bir arcane odak kullanabilirsin."
+          },
+          {
+            "name": "Sorcerer Aslı",
+            "entries": "Mevcut listeden bir sorcerer aslı seç, bu senin içinden gelen büyü gücünün kaynağını belirler.Seçimin sana seçtiğin an 1. seviyede ve sonrasında 6, 14 ve 18. seviyelerde yeni özellikler ekler.",
+            "gainSubclassFeature": true
+          }
+        ],
+        [
+          {
+            "name": "Büyü Kaynağı",
+            "entries": "2. seviyede içindeki derin bir büyü kaynağına ulaşırsın. Bu kaynaksorcery puanları ile temsil edilir ve çeşitli büyülü etkiler yaratmanısağlar.\nSorcery Puanları\n2 sorcery puanın vardır ve her seviyeatladığında, 20. seviyede en fazla20 olacak şekilde bir puan eklenir.Tabloda seviyen için gösterilendenfazla sorcery puanına asla sahipolamazsın. Harcanan tüm sorcerypuanlarını uzun dinlenme bitirdiğindeyenilersin.\nEsnek Büyü Yapma\nSorcery puanlarını fazladan büyü yuvalarıelde etmek için kullanabilir,ya da büyü yuvalarını fazladan sorcerypuanları için feda edebilirsin.Üst seviyelere ulaştıkça sorcerypuanlarını farklı şekillerde kullanmayıöğrenirsin.\nBüyü YuvasıYaratma\nHarcanmamış sorcery puanlarını, sıranda bonus eylem olarak birbüyüyuvasına çevirebilirsin. Yarattığın büyü yuvası uzun dinlenmesonundakaybolur. Büyü Yuvası Yaratma tablosu seviyesine göreyuvalarınmasrafını gösterir. 5. seviye üzeri büyü yuvasıyaratamazsın.\nBir Büyü Yuvasını Sorcery Puanlarına Çevirme\nSıranda bonus eylem olarak, bir büyü yuvasını harcayıp yuvanın seviyesi kadar sorcery puanına çevirebilirsin."
+          }
+        ],
+        [
+          {
+            "name": "Metabüyü",
+            "entries": "3. seviyede ihtiyaçlarına göre büyülerini bükmeyi öğrenirsin. Metabüyüseçeneklerinden ikisini seçersin. 10 ve 17. seviyelerde birer tane dahaseçebilirsin.\nAksi belirtilmediği sürece bir büyü üzerinde tek birMetabüyü seçeneğini kullanabilirsin.\nDikkatli Büyü:Başka varlıklarakurtulma zarı attıran bir büyü kullandığında, bazıvarlıkları büyünün tümetkisinden koruyabilirsin. Bunu yapabilmek 1sorcery puanı harcayıp içinKarizma bonusuna (en az 1) kadar varlığıseçersin. Seçilen varlıkotomatik olarak büyüye karşı atacağı kurtulmazarında başarılıolur.\nUzak Büyü:5 fit ya da üzeri menzili olan bir büyü kullandığında, 1sorcery puanı harcayarak büyünün menzilini ikiyekatlayabilirsin.\nGüçlenmiş Büyü:Bir büyü için hasar zarı attığında, 1sorcery puanı harcayarak Karizmabonusuna (en az 1) kadar zarı yenidenatabilirsin. Yeni zarlarıkullanırsın.Güçlenmiş Büyü seçeneğini başka birMetabüyü kullanmış olsan bile kullanabilirsin.\nUzatılmış Büyü:1 dakikaya da üzeri süresi olan bir büyü kullandığında, 1 sorcerypuanıharcayarak en fazla 24 saat olacak şekilde süresiniikiyekatlayabilirsin.\nYükseltilmiş Büyü:Bir varlığı etksiine direnmekiçin kurtulma zarı atmaya zorlayan birbüyü kullandığında, 3 sorcerypuanı harcayarak büyünün hedefi olan birvarlığa ilk atacağı kurtulmazarında dezavantaj verebilirsin.\nHızlanmış Büyü:Kullanma süresi 1 eylemolan bir büyü kullandığında, 2 sorcery puanıharcayarak sadece bukullanımlık olmak üzere kullanma süresini 1 bonuseylemeçevirebilirsin.\nSinsi Büyü:Bir büyü kullandığında, 1 sorcery puanıharcayarak büyüyü sözlü ya da bedensel bileşenler olmadankullanabilirsin.\nİkiz Büyü:Menzili kendin olmayan ve kullanılan seviyede birden fazla varlığı hedefalamayan bir büyü kullandığında, büyünün seviyesi kadar sorcery puanıharcayarak aynı menzilde ikinci bir varlığı da etkileyebilirsin(cantripse 1 sorcery puanı)."
+          }
+        ],
+        [
+          {
+            "name": "Yetenek Skoru Gelişimi",
+            "entries": "4. seviyeye eriştiğinde bir yetenek skorunu 2 ya da 2 ayrı yetenekskorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu20'nin üzerine çıkaramazsın.Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
+          }
+        ],
+        [],
+        [
+          {
+            "name": "Sorcerer Aslı Özelliği",
+            "entries": "6. seviyede Sorcerer Aslı seçiminin sunduğu bir özellik kazanırsın.",
+            "gainSubclassFeature": true
+          }
+        ],
+        [],
+        [
+          {
+            "name": "Yetenek Skoru Gelişimi",
+            "entries": "8. seviyeye eriştiğinde bir yetenek skorunu 2 ya da 2 ayrı yetenekskorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu20'nin üzerine çıkaramazsın.Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
+          }
+        ],
+        [],
+        [
+          {
+            "name": "Metabüyü",
+            "entries": "10. seviyede ek bir Metabüyü seçeneği öğrenirsin."
+          }
+        ],
+        [],
+        [
+          {
+            "name": "Yetenek Skoru Gelişimi",
+            "entries": "12. seviyeye eriştiğinde bir yetenek skorunu 2 ya da 2 ayrı yetenekskorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu20'nin üzerine çıkaramazsın.Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
+          }
+        ],
+        [],
+        [
+          {
+            "name": "Sorcerer Aslı Özelliği",
+            "entries": "14. seviyede Sorcerer Aslı seçiminin sunduğu bir özellik kazanırsın.",
+            "gainSubclassFeature": true
+          }
+        ],
+        [],
+        [
+          {
+            "name": "Yetenek Skoru Gelişimi",
+            "entries": "16. seviyeye eriştiğinde bir yetenek skorunu 2 ya da 2 ayrı yetenekskorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu20'nin üzerine çıkaramazsın.Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
+          }
+        ],
+        [
+          {
+            "name": "Metamagic",
+            "entries": "17. seviyede ek bir Metabüyü seçeneği öğrenirsin."
+          }
+        ],
+        [
+          {
+            "name": "Sorcerer Aslı Özelliği",
+            "entries": "18. seviyede Sorcerer Aslı seçiminin sunduğu bir özellik kazanırsın.",
+            "gainSubclassFeature": true
+          }
+        ],
+        [
+          {
+            "name": "Yetenek Skoru Gelişimi",
+            "entries": "19. seviyeye eriştiğinde bir yetenek skorunu 2 ya da 2 ayrı yetenekskorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu20'nin üzerine çıkaramazsın.Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
+          }
+        ],
+        [
+          {
+            "name": "Sorcerer Yenilemesi",
+            "entries": "20. seviyede kısa dinlenme bitirdiğinde 4 harcanmış sorcery puanını yenilersin."
+          }
+        ]
+      ],
+      "subclassTitle": "Sorcerer Aslı",
+      "subclasses": [
+        {
+          "name": "Draconic Soy",
+          "subclassFeatures": [
+            [
+              {
+                "name": "Draconic Soy",
+                "entries": [
+                  "İçindeki büyü gücün senin ya da atalarından birinin kanına işlenmiş draconic büyüden gelir. Genellikle bu tip asıllı sorcerer'ların soyunda kadim zamanlarda bir ejderha ile anlaşma yapmış güçlü bir sorcerer ya da doğrudan ejderhadan doğan bir kişi olur. Bu soyların bazıları dünyada iyi bilinir ama çoğu gizli ya da kaybolmuştur. Yapılan bir anlaşma ya da istisnai bir durum sonucu her sorcerer bir soyun ilki olabilir.",
+                  {
+                    "type": "entries",
+                    "name": "Ejderha Ata",
+                    "entries": [
+                      "1. seviyede bir ejderha tipini atan olarak seçersin. Ejderha ile ilişkili hasar tipi daha sonra kazanacağın özellikler tarafından kullanılır.",
+                      {
+                        "type": "table",
+                        "caption": "Draconic Soy",
+                        "colLabels": [
+                          "Ejderha",
+                          "Hasar Tipi"
+                        ],
+                        "colStyles": [
+                          "col-xs-6 text-align-center",
+                          "col-xs-6 text-align-center"
+                        ],
+                        "rows": [
+                          [
+                            "Siyah",
+                            "{@filter Asit|spells|damage type=acid}"
+                          ],
+                          [
+                            "Mavi",
+                            "{@filter Yıldırım|spells|damage type=lightning}"
+                          ],
+                          [
+                            "Pirinç",
+                            "{@filter Ateş|spells|damage type=fire}"
+                          ],
+                          [
+                            "Bronz",
+                            "{@filter Yıldırım|spells|damage type=lightning}"
+                          ],
+                          [
+                            "Bakır",
+                            "{@filter Asit|spells|damage type=acid}"
+                          ],
+                          [
+                            "Altın",
+                            "{@filter Ateş|spells|damage type=fire}"
+                          ],
+                          [
+                            "Yeşil",
+                            "{@filter Zehir|spells|damage type=poison}"
+                          ],
+                          [
+                            "Kırmızı",
+                            "{@filter Ateş|spells|damage type=fire}"
+                          ],
+                          [
+                            "Gümüş",
+                            "{@filter Soğuk|spells|damage type=cold}"
+                          ],
+                          [
+                            "Beyaz",
+                            "{@filter Soğuk|spells|damage type=cold}"
+                          ]
+                        ]
+                      },
+                      "Draconic dilini konuşabilir, okuyabilir ve yazabilirsin. Ek olarak, ejderhalar ile iletişime geçerken attığın Karizma zarlarında eğer Uzmanlık bonusun uygulanıyorsa bu ikiye katlanır."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Draconic Direnç",
+                    "entries": [
+                      "Bedeninden büyü akarken ejderha atalarının fiziksel özelliklerinin ortaya çıkmasını sağlar. 1. seviyede HP maksimumun 1 artar ve bu sınıfta her seviye alışında 1 eklenir.",
+                      "Ek olarak bedeninin bazı kısımları ejderimsi pullarla kaplıdır. Zırh giymediğin zamanlarda AC 13 + Çeviklik bonusun olur."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Elemental Yakınlık",
+                    "entries": [
+                      "6. seviyeden itibaren, draconic soyunla ilişkili hasar tipinde hasar veren bir büyü kullandığında, Karizma bonusunu bir hasar zarına eklersin.",
+                      "Ek olarak, 1 sorcery puanı harcayarak bu hasar tipine bir saatliğine direnç kazanabilirsin."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Ejderha Kanatları",
+                    "entries": [
+                      "14. seviyede, sırtından bir çift ejderha kanadı çıkarma yeteneğini kazanırsın ve normal hızın kadar uçma hızın olur. Bu kanatları sıranda bonus eylem olarak çıkarabilirsin. Sen onları sıranda bonus eylem olarak savana kadar kalırlar.",
+                      "Eğer zırhın bu kanatlar için özel yapılmadıysa zırh giydiğin sürece kanatlarını çıkaramazsın. Ve kanatların için özel yapılmamış kıyafetler kanatlarını çıkardığında parçalanabilirler."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Draconic Varoluş",
+                    "entries": [
+                      "18. seviyeden itibaren, ejderha atanın korkunç varlığını yönlendirerek ve çevrendekileri korkutabilir ya da hayran bırakabilirsin. Eylem olarak 5 sorcery puanı harcayıp 60 fit çevrene hayranlık ya da korku (senin seçimin) aurası yayabilirsin. Bu alan içindeki tüm düşman varlıklar Akıl kurtulma zarı atar ve eğer başarısız olurlarsa 1 dakika boyunca ya da konsantrasyonunu kaybedene kadar (bir büyüye konsantre olur gibi) seçimine göre, ya cezbedilirler ya da korkarlar. Kurtulma zarında başarılı olan bir varlık aurana 24 saat boyunca bağışıklık kazanır."
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          "source": "PHB",
+          "shortName": "Draconic "
+        },
+        {
+          "name": "Vahşi Büyü",
+          "subclassFeatures": [
+            [
+              {
+                "name": "Vahşi Büyü",
+                "entries": [
+                  "İçindeki büyü yaratılıştaki düzenin altında yatan kaosun vahşi güçlerinden gelir. Saf büyü gücüne maruz kalmış olabilirsin, belki de Uzak Diyar, Elemental Boyutlar ya da Limbo gibi boyutlara açılan bir portaldan geçerken olmuştur. Belki de güçlü bir fey tarafından kutsandın ya da bir iblis tarafından işaretlendin. ya da senin büyün ortada belirgin bir sebep olmaksızın doğuştan gelir. Nasıl olduysa oldu ama bu kaotik büyü içinde ve çıkmayı bekliyor.",
+                  {
+                    "type": "entries",
+                    "name": "Vahşi Büyü Taşması",
+                    "entries": [
+                      "Sen bu aslı 1. seviyede seçmenden itibaren, büyü yapman kontrolsüz büyü taşmalarına sebep olabilir. 1. seviye ve üzeri bir büyü kullanmandan hemen sonra DM sana bir d20 attırır. Eğer 1 atarsan Vahşi Büyü Taşması tablosu üzerinde zar atar ve rastgele bir etki yaratırsın. Vahşi Büyü Taşması her sırada sadece bir kere olabilir.",
+                      "Eğer bir Vahşi Büyü etkisi büyüyse, Metabüyü ile bükülemeyecek kadar vahşidir. Eğer normalde konsantrasyon gerektiriyorsa, bu durumda gerektirmez ve büyü tüm süresi boyunca kalır.",
+                      {
+                        "type": "table",
+                        "caption": "Vahşi Büyü Taşması",
+                        "colLabels": [
+                          "d100",
+                          "Etki"
+                        ],
+                        "colStyles": [
+                          "text-align-center"
+                        ],
+                        "rows": [
+                          [
+                            "01-02",
+                            "Bir dakika boyunca her sıranın başında bu tabloda zar at ve bu sonucu yeniden gelirse yok say."
+                          ],
+                          [
+                            "03-04",
+                            "Önündeki bir dakika boyunca eğer görüş alanındaysa görünmez varlıkları görebilirsin."
+                          ],
+                          [
+                            "05-06",
+                            "DM tarafından seçilen ve kontrol edilen bir modron 5 fit yakınında boş bir alanda ortaya çıkar ve 1 dakika sonra kaybolur."
+                          ],
+                          [
+                            "07-08",
+                            "Bir {@spell fireball (alevtopu)} büyüsünü kendi üzerinde merkezlenmiş bir şekilde 3. seviye olarak kullanırsın."
+                          ],
+                          [
+                            "09-10",
+                            "{@spell Magic missile (Büyülü Misil)} büyüsünü 5. seviyede kullanırsın."
+                          ],
+                          [
+                            "11-12",
+                            "Bir d10 at. Boyun zar sonucu kadar inç değişir. Eğer sonuç tek ise kısalırsın, çift ise uzarsın."
+                          ],
+                          [
+                            "13-14",
+                            "{@spell Confusion (Şaşkınlık)} büyüsünü kendi üzerinde merkezlenmiş bir şekilde kullanırsın."
+                          ],
+                          [
+                            "15-16",
+                            "Önündeki bir dakika boyunca her sıranın başında 5 HP yenilersin."
+                          ],
+                          [
+                            "17-18",
+                            "Kuş tüyünden uzunca bir sakalın olur ve sen hapşırıncaya kadar kalır, hapşırdığında tüm tüyler çevreye saçılır."
+                          ],
+                          [
+                            "19-20",
+                            "{@spell Grease (Yağla)} büyüsünü kendi üzerinde merkezlenmiş bir şekilde kullanırsın."
+                          ],
+                          [
+                            "21-22",
+                            "Önündeki bir dakika boyunca kurtulma zarı gerektiren kullandığın ilk büyüde varlıkların kurtulma zarında dezavantajı olur."
+                          ],
+                          [
+                            "23-24",
+                            "Tenin parlak bir mavi renk olur. Bir {@spell remove curse (lanet kaldır)} büyüsü bu etkiyi kaldırabilir."
+                          ],
+                          [
+                            "25-26",
+                            "Önündeki bir dakika boyunca alnında bir göz belirir."
+                          ],
+                          [
+                            "27-28",
+                            "Önündeki bir dakika boyunca, 1 eylem kullanım süresi olan tüm büyülerin kullanım süresi 1 bonus eyleme dönüşür."
+                          ],
+                          [
+                            "29-30",
+                            "Görebildiğin 60 fit yakınındaki seçeceğin boş bir alana ışınlanırsın."
+                          ],
+                          [
+                            "31-32",
+                            "Bir sonraki sıranın sonuna kadar Astral Boyuta gidersin, ve sonra aynı yere ya da orası doluysa en yakın boş alana dönersin."
+                          ],
+                          [
+                            "33-34",
+                            "Önündeki bir dakika içerisinde kullanacağın ilk hasar veren büyünün hasarını maksimum ver."
+                          ],
+                          [
+                            "35-36",
+                            "Bir d10 at. Yaşın bu zarın sonucu kadar yıl değişir. Eğer tekse gençleşirsin (en az 1 yaşına), çiftse yaşlanırsın."
+                          ],
+                          [
+                            "37-38",
+                            "60 fit çevrendeki boş alanlarda DM tarafından kontrol edilen 1d6 flumph ortaya çıkar ve senden korkarlar. 1 dakika sonra kaybolurlar."
+                          ],
+                          [
+                            "39-40",
+                            "2d10 HP yenilersin."
+                          ],
+                          [
+                            "41-42",
+                            "Bir sonraki sıranın başına kadar bir saksıda bitkiye dönüşürsün. Bitkiyken etkisiz halde olursun ve tüm hasarlara zayıflığın olur. Eğer 0 HP'ye düşersen saksı kırılır ve eski şekline dönersin."
+                          ],
+                          [
+                            "43-44",
+                            "Önündeki bir dakika boyunca her sıranda bonus eylem olarak 20 fit'e kadar ışınlanabilirsin."
+                          ],
+                          [
+                            "45-46",
+                            "{@spell Levitate (Havaya Yükselme)} büyüsünü kendi üzerinde kullanırsın."
+                          ],
+                          [
+                            "47-48",
+                            "DM tarafından kontrol edilen bir unicorn 5 fit yakınında boş bir alanda belirir ve 1 dakika sonra kaybolur."
+                          ],
+                          [
+                            "49-50",
+                            "Önündeki bir dakika boyunca konuşamazsın. Her denemende ağzından pembe baloncuklar çıkar."
+                          ],
+                          [
+                            "51-52",
+                            "Önündeki bir dakika boyunca spektral bir kalkan çevrende döner ve sana +2 AC bonusu ve {@spell magic missile (büyülü misil)} büyüsüne bağışıklık verir."
+                          ],
+                          [
+                            "53-54",
+                            "Önündeki 5d6 gün boyunca alkolden sarhoş olamazsın."
+                          ],
+                          [
+                            "55-56",
+                            "Tüm saçın dökülür ama 24 saat sonra yeniden çıkar."
+                          ],
+                          [
+                            "57-58",
+                            "Önündeki bir dakika boyunca başkası tarafından giyilmeyen ya da taşınmayan tüm yanıcı nesneler sen dokunduğunda alev alır."
+                          ],
+                          [
+                            "59-60",
+                            "En düşük seviye harcanmış büyü yuvanı yenilersin."
+                          ],
+                          [
+                            "61-62",
+                            "Önündeki bir dakika boyunca konuşurken bağırmalısın."
+                          ],
+                          [
+                            "63-64",
+                            "{@spell Fog cloud (sis bulutu)} büyüsünü kendi üzerinde merkezlenmiş bir şekilde kullanırsın."
+                          ],
+                          [
+                            "65-66",
+                            "30 fit yakınında seçeceğin 3 taneye kadar varlık 4d10 yıldırım hasarı alır."
+                          ],
+                          [
+                            "67-68",
+                            "Bir sonraki sıranın sonuna kadar en yakınındaki varlıktan korkarsın."
+                          ],
+                          [
+                            "69-70",
+                            "30 fit yakınındaki tüm varlıklar önündeki bir dakika boyunca görünmez olur. Varlığın görünmezliği eğer saldırırsa ya da büyü kullanırsa sona erer."
+                          ],
+                          [
+                            "71-72",
+                            "Önündeki bir dakika boyunca tüm hasar tiplerine direnç kazanırsın."
+                          ],
+                          [
+                            "73-74",
+                            "60 fit yakınındaki rastgele bir varlık 1d4 saatliğine zehirlenir."
+                          ],
+                          [
+                            "75-76",
+                            "Önündeki bir dakika boyunca 30 fit çapında parlak ışık saçarsın. Sırasını senin 5 fit yakınında bitiren tüm varlıklar bir sonraki sırasının sonuna kadar kör olur."
+                          ],
+                          [
+                            "77-78",
+                            "{@spell Polymorph (Polimorf)} büyüsünü kendi üzerinde kullanırsın. Eğer kurtulma zarında başarısız olursan büyünün süresi boyunca bir koyuna dönüşürsün."
+                          ],
+                          [
+                            "79-80",
+                            "Önündeki bir dakika boyunca illüzyon kelebekler ve çiçek yaprakları 10 fit çevrende uçuşur."
+                          ],
+                          [
+                            "81-82",
+                            "Anında fazladan bir eylem kullanabilirsin."
+                          ],
+                          [
+                            "83-84",
+                            "30 fit yakınındaki tüm varlıklar 1d10 nekrotik hasar alır. Hasar toplamı kadar HP yenilersin."
+                          ],
+                          [
+                            "85-86",
+                            "{@spell Mirror image (ayna görüntü)} büyüsünü kullanırsın."
+                          ],
+                          [
+                            "87-88",
+                            "60 fit yakınındaki rastgele bir varlığın üzerinde {@spell fly (uç)} büyüsünü kullanırsın."
+                          ],
+                          [
+                            "89-90",
+                            "Önündeki bir dakika boyunca görünmez olursun. Bu süre boyunca diğer varlıklar seni duyamaz. Eğer saldırı yaparsan ya da büyü kullanırsan görünmezlik sona erer."
+                          ],
+                          [
+                            "91-92",
+                            "Eğer önündeki bir dakika içinde ölürsen, {@spell reincarnate (reenkarnasyon)} büyüsü kullanılmış gibi anında hayata geri dönersin."
+                          ],
+                          [
+                            "93-94",
+                            "Önündeki bir dakika boyunca boyutun bir boyut kategorisi artar."
+                          ],
+                          [
+                            "95-96",
+                            "Önündeki bir dakika boyunca sen ve senin 30 fit yakınındaki tüm varlıklar delme hasarına zayıflık kazanır."
+                          ],
+                          [
+                            "97-98",
+                            "Önündeki bir dakika boyunca hafif ve ruhani bir müzik etrafını sarar."
+                          ],
+                          [
+                            "99-100",
+                            "Harcanan tüm sorcery puanlarını yenilersin."
+                          ]
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Kaos Dalgaları",
+                    "entries": [
+                      "1. seviyeden itibaren şans ve kaos güçlerini kontrol edip bir saldırı, beceri ya da kurtulma zarında kendine avantaj verebilirsin. Yaptığında bu özelliği yeniden kullanabilmek için uzun dinlenme bitirmen gerekir.",
+                      "Bu özelliği geri kazanmadan önce 1. seviye ve üzeri bir sorcerer büyüsü kullandığında DM sana Vahşi Büyü Taşması tablosunda zar attırabilir. Sonrasında bu özelliği yeniden kullanabilirsin."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Şansı Bük",
+                    "entries": [
+                      "6. seviyeden itibaren vahşi büyünü kullanarak kaderi bükebilirsin. Görebildiğin başka bir varlık saldırı, beceri ya da kurtulma zarı attığında reaksiyonunu kullanıp 2 sorcery puanı harcayarak 1d4 zar atıp bunu sonuca ekleyebilir ya da çıkartabilirsin. Bunu varlık zarı attıktan sonra yapabilirsin ama sonuç açıklanmadan önce yapmalısın."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Kontrollü Kaos",
+                    "entries": [
+                      "14. seviyede vahşi büyün üzerinde bir nevi kontrol elde edersin. Ne zaman Vahşi Büyü Taşması tablosunda zar atarsan, iki zar atıp istediğini kullanabilirsin."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Büyü Bombardımanı",
+                    "entries": [
+                      "18. seviyeden itibaren büyülerinin zararlı enerjisi artar. Bir büyü için hasar zarı attığında, zar üzerinde maksimum sayıyı atarsan zarlardan birini seç ve onu yeniden atarak sonuca ekle. Bu özelliği her sıranda sadece bir kere kullanabilirsin."
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          "source": "PHB",
+          "shortName": "Vahşi "
+        },
+        {
+          "name": "Kutsal Ruh",
+          "subclassFeatures": [
+            [
+              {
+                "name": "Kutsal Ruh",
+                "entries": [
+                  "Bazen bir sorcerer'ı ateşleyen büyünün kıvılcımı ruhunun derinliklerinde ışıldayan bir kutsal kaynaktan gelir. Bu tip kutsanmış bir ruha sahip olmak, kutsal bir varlığa uzaktan ama güçlü bir ailesel bağın olduğuna ve gücünün oradan geldiğine işarettir. Belki de atan bir melekti, bir faniye dönüştürülüp tanrısının adına savaşmaya gönderilmişti.",
+                  "Belki doğumun kadim bir kehanete uygundu, seni tanrıların hizmetkarı ya da kutsal büyü için aracı olarak işaretledi.",
+                  "Bir Kutsal Ruh, doğal çekiciliği ile bazı dini hiyerarşilerde tehdit olarak görülür. Kutsal güce hükmeden bir yabancı olarak, bir Kutsal Ruh tanrılara doğrudan bağ öne sürüp varolan düzeni baltalayabilir.",
+                  "Bazı kültürlerde, sadece Kutsal Ruha sahip olanlar dini gücü yönetebilir. Bu topraklarda, dini pozisyonlar bir kaç soy tarafından yönetilir ve nesillerce aktarılır.",
+                  {
+                    "type": "entries",
+                    "name": "Kutsal Büyü",
+                    "entries": [
+                      "Tanrılara olan bağın rahip sınıfından büyüleri öğrenebilmeni sağlar. Büyü Yapma özelliğin sana bir sorcerer cantripi ya da 1. seviye ve üstü büyü öğrenme veya sahip olduğunu değiştirme seçeneği sunduğunda, yeni büyüyü sorcerer ya da rahip büyü listesinden seçebilirsin. Bunun dışında büyü seçimi için tüm sınırlamalara uymalısın, ve seçimin senin için sorcerer büyüsü sayılır.",
+                      "Ayrıca, kutsal gücün kaynağı için bir yönelim seç: iyi, kötü, düzen, kaos, veya tarafsızlık. Bu yönelime bağlı olarak aşağıda gösterildiği gibi fazladan büyüler öğrenirsin. Senin için sorcerer büyüsüdür, ama bildiğin sorcerer büyüsü sayısına dahil olmaz. Eğer sonrasında bu büyüyü değiştirirsen, rahip büyü listesinden bir büyü seçmelisin.",
+                      {
+                        "type": "table",
+                        "colLabels": [
+                          "Yönelim",
+                          "Büyü"
+                        ],
+                        "colStyles": [
+                          "col-xs-5",
+                          "col-xs-7"
+                        ],
+                        "rows": [
+                          [
+                            "İyi",
+                            "{@spell cure wounds (Yaraları İyileştir)}"
+                          ],
+                          [
+                            "Kötü",
+                            "{@spell inflict wounds (yara aç)}"
+                          ],
+                          [
+                            "Düzen",
+                            "{@spell bless (kutsama)}"
+                          ],
+                          [
+                            "Kaos",
+                            "{@spell bane (felaket)}"
+                          ],
+                          [
+                            "Tarafsızlık",
+                            "{@spell protection from evil and good (İyi ve Kötüden Korunma)}"
+                          ]
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Tanrıların Kayırdığı",
+                    "entries": [
+                      "1. seviyeden itibaren, kaderini kutsal güç korur. Eğer bir kurtulma zarında başarısız olursan ya da saldırıyı ıskalarsan, 2d4 atıp onu toplama ekleyebilirsin, sonucu değiştirme ihtimalin olur. Bu özelliği kullandığında, kısa ya da uzun dinlenme bitirene kadar bir daha kullanamazsın."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Güçlenmiş Şifacılık",
+                    "entries": [
+                      "6. seviyeden itibaren, kanındaki kutsal enerji şifa büyülerini güçlendirebilir. Ne zaman sen ya da 5 fit yakınındaki bir dostun bir büyünün ne kadar HP yenileyeceğini belirlemek için zar atarsa, 1 sorcery puanı harcayıp o zarlardan istediğin kadarını bir kerelik yeniden atabilirsin, {@condition etkisiz hal}de olmaman gerekir. Bu özelliği her sıranda sadece bir kere kullanabilirsin."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Dünyadışı Kanatlar",
+                    "entries": [
+                      "14. seviyeden itibaren, bonus eylem kullanıp sırtından bir çift spektral kanat çıkarabilirsin. Kanatlar mevcutken, 30 fit uçma hızın olur. Kanatlar sen {@condition etkisiz hal}e düşene, ölene, veya bonus eylem olarak onları savana kadar kalır.",
+                      "Kutsal Büyün için seçtiğin yönelim bu spektral kanatların görünüşünü belirler: iyi ve düzen için kartal kanatları, kötü ve kaos için yarasa kanatları, ve tarafsızlık için yusufçuk kanatları olur."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Olağanüstü Yenilenme",
+                    "entries": [
+                      "18. seviyede, ölümcül yaralanmaları atlatma yeteneğini kazanırsın. Toplam HP'nin yarısından az HP'ye sahip olduğunda bonus eylem olarak, HP toplamının yarısı kadar HP yenileyebilirsin.",
+                      "Bu özelliği kullandığında, uzun dinlenme bitirene kadar bir daha kullanamazsın."
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          "source": "XGE",
+          "shortName": "Kutsal Ruh"
+        },
+        {
+          "name": "Gölge Büyüsü",
+          "subclassFeatures": [
+            [
+              {
+                "name": "Gölge Büyüsü",
+                "entries": [
+                  "İçindeki büyü Shadowfell'den geldiği için sen gölgeden bir varlıksındır. Soyunu oradan bir varlığa dayandırabilir, ya da belki de onun enerjisine maruz kalıp onunla dönüşmüşsündür.",
+                  "Gölge büyüsünün gücü fiziksel varlığını garip bir şekilde örtüler. Seni hayatta tutan yaşam kıvılcımı bastırılmıştır, sanki ruhunu dolduran karanlık enerjiye karşı direnmekte zorlanıyormuş gibi. İstersen, Gölge Sorcerer Tuhaflığı tablosundan birini seçebilir ya da o tabloda zar atıp karakterine bir tuhaflık ekleyebilirsin.",
+                  {
+                    "type": "table",
+                    "caption": "Gölge Sorcerer Tuhaflığı",
+                    "colLabels": [
+                      "d6",
+                      "Büyü"
+                    ],
+                    "colStyles": [
+                      "col-xs-2 text-align-center",
+                      "col-xs-10"
+                    ],
+                    "rows": [
+                      [
+                        "1",
+                        "Dokununca daima buz gibi soğuksundur."
+                      ],
+                      [
+                        "2",
+                        "Uykudayken, nefes almıyormuşsun gibi görünür (ama hayatta kalmak için hala nefes almalısın)."
+                      ],
+                      [
+                        "3",
+                        "Çok kötü yaralı olsan bile pek kanaman olmaz."
+                      ],
+                      [
+                        "4",
+                        "Kalbin dakikada sadece bir kere atar. Bu olay bazen seni şaşırtır."
+                      ],
+                      [
+                        "5",
+                        "Canlı varlıklar ve cesetlere farklı davranılması gerektiğini hatırlamakta güçlük çekersin."
+                      ],
+                      [
+                        "6",
+                        "Göz kırptın. Bir kere. Geçen hafta."
+                      ]
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Karanlığın Gözleri",
+                    "entries": [
+                      "1. seviyeden itibaren, 120 fit menzilli gece görüşün olur.",
+                      "Bu sınıfta 3. seviyeye ulaştığında, {@spell darkness (karanlık)} büyüsünü öğrenirsin, bu bildiğin sorcerer büyüsü sayısına dahil olmaz. Ayrıca, onu 2 sorcery puanı ya da büyü yuvası harcayarak kullanabilirsin. Eğer sorcery puanları ile kullanırsan, bu büyü ile yaratılan karanlıkta görebilirsin."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Mezarın Kuvveti",
+                    "entries": [
+                      "1. seviyeden itibaren, ölüm ve yaşam arasında alacakaranlıktaki varoluşun seni altetmeyi zorlaştırır. Bir hasar seni 0 HP'ye düşürürse, Karizma kurtulma zarı atarsın (DC 5 + alınan hasar). Başarılı olursan, onun yerine 1 HP'ye düşersin. Eğer 0 HP'ye radyant ya da kritik saldırıdan gelen hasar ile düştüysen bu özelliği kullanamazsın.",
+                      "Kurtulma zarı başarılı olduğunda, bu özelliği uzun dinlenme bitirene kadar bir daha kullanamazsın."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Kötü Alametin Tazısı",
+                    "entries": [
+                      "6. seviyede, düşmanlarını taciz etsin diye uluyan bir karanlığın varlığını çağırma yeteneğini kazanırsın. Bonus eylem olarak, 3 sorcery puanı harcayıp 120 fit yakınında görebildiğin bir varlığı hedef almak üzere büyü ile bir kötü alamet tazısı çağırabilirsin. Tazı bir dire wolf istatistiklerini kullanır (Monster Manual'da mevcut), ama şu değişiklikler vardır:",
+                      {
+                        "type": "list",
+                        "items": [
+                          "Tazı boyutu Büyük değil Ortadır, ve hayvan değil yaratık olarak geçer.",
+                          "Sorcerer seviyenin yarısı kadar geçici HP ile belirir.",
+                          "Diğer varlık ve nesnelerden sanki onlar zorlu araziymişçesine geçebilir. Eğer tazı sırasını bir nesnenin içinde bitirirse 5 güç hasarı alır.",
+                          "Sırasının başında, tazı otomatik olarak hedefinin yerini bilir. Eğer hedef saklanmışsa, artık tazı için gizli değildir."
+                        ]
+                      },
+                      "Tazı hedefin 30 fit yakınında seçeceğin boş bir alanda belirir. Tazı için öncelik zarı atarsın. Sırasında, sadece hedefine en direkt yoldan ilerler, ve eylemini sadece hedefine saldırmak için kullanır. Tazı fırsat saldırıları yapabilir, ama sadece hedefine karşı. Ayrıca, tazı hedefin 5 fit yakınındayken, hedef senin kullandığın büyülere karşı kurtulma zarlarında dezavantajlı olur. Tazı eğer 0 HP'ye düşerse, hedefi 0 HP'ye düşerse, veya 5 dakika sonunda ortadan kaybolur."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Gölge Yürüyüşü",
+                    "entries": [
+                      "14. seviyede, bir gölgeden diğerine gitme yeteneğini kazanırsın. Loş ışık ya da karanlıktayken, bonus eylem olarak, 120 fite kadar loş ışık ya da karanlıkta olan görebildiğin boş bir yere büyülü bir şekilde ışınlanabilirsin."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Umbral Şekil",
+                    "entries": [
+                      "18. seviyeden itibaren, bonus eylem olarak 6 sorcery puanı harcayıp büyü ile kendini gölgeli bir şekle dönüştürebilirsin. Bu formda, güç ve radyant hasar dışında tüm hasara direncin olur, ve diğer varlık ve nesnelerden sanki onlar zorlu araziymişçesine geçebilirsin. Eğer sıranı bir nesne içinde bitirirsen 5 güç hasarı alırsın.",
+                      "Bu formda 1 dakika kalırsın. Eğer {@condition etkisiz hal}e düşersen, ölürsen, veya bonus eylem olarak savarsan erken sonlanır."
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          "source": "XGE",
+          "shortName": "Gölge"
+        },
+        {
+          "name": "Fırtına Büyüsü",
+          "subclassFeatures": [
+            [
+              {
+                "name": "Fırtına Büyüsü",
+                "entries": [
+                  "İçindeki büyü elemental havanın gücünden gelir. Bu güce sahip olanların birçoğu büyülerini Büyük Yağmurun sebep olduğu ölüme yakın deneyime dayandırabilir, ama belki sen öyle güçlü bir fırtınada doğdun ki halk hala onun hikayelerini anlatır, veya senin soyun djinn gibi güçlü hava varlıklarını içeriyordur. Durum ne olursa olsun, fırtınanın büyüsü senin varlığına işlemiştir.",
+                  "Fırtına sorcererları bir gemi mürettebatının paha biçilemez üyeleridir. Büyüleri yakın çevrelerindeki rüzgar ve havaya hükmetmelerini sağlar. Yetenekleri sahuagin, korsanlar ve sudaki diğer tehlikelerin saldırılarını püskürtmek için de çok yararlıdır.",
+                  {
+                    "type": "entries",
+                    "name": "Rüzgarla Konuşan",
+                    "entries": [
+                      "Hükmettiğin arcane büyü elemental hava ile doludur. Primordial dilini okur, yazar ve konuşabilirsin. Bu dili bilmek onun lehçelerini konuşanları anlamanı ve onların da seni anlamasını sağlar: Bu lehçeler Aquan, Auran, Ignan, ve Terran'dır."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Fırtınalı Büyü",
+                    "entries": [
+                      "1. seviyeden itibaren, 1. seviye bir büyüyü yapmadan hemen önce ya da sonra bonus eylem kullanıp elemental hava esintilerinin seni bir anlık çevrelemesini sağlayabilirsin. Bunu yapman fırsat saldırısı tetiklemeden 10 fite kadar uçmanı sağlar."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Fırtınanın Kalbi",
+                    "entries": [
+                      "6. seviyede, yıldırım ve ses hasarına direnç kazanırsın. Ayrıca, 1. seviye ve üzeri yıldırım ya da ses hasarı veren bir büyüyü kullanmaya başladığında, çevrene fırtınalı büyü patlar. Bu patlama 10 fit çevrende görebildiğin ve seçeceğin varlıklara sorcerer seviyenin yarısı kadar yıldırım ya da ses (her aktive ettiğinde seçersin) hasarı verir."
+                    ]
+                  }
+                ]
+              },
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Fırtına Rehberi",
+                    "entries": [
+                      "6. seviyede, çevrendeki havayı zarifçe kontrol etme yetisini kazanırsın.",
+                      "Eğer yağmur yağıyorsa, eylemini kullanıp merkezi sen olan 20 fit yarıçaplı bir kürenin içine yağış düşmesini engelleyebilirsin. Bu etkiyi bonus eylem olarak bitirebilirsin.",
+                      "Eğer rüzgarlıysa, merkezi sen olan 100 fit yarıçaplı bir kürenin içindeki rüzgarın eseceği yönü her sıranda bonus eylem kullanarak seçebilirsin. Bir sonraki sıranın sonuna kadar rüzgar o yöne doğru eser. Bu özellik rüzgarın hızını değiştirmez."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Fırtınanın Hiddeti",
+                    "entries": [
+                      "14. seviyeden itibaren, bir yakın dövüş saldırısı ile vurulduğunda, reaksiyonunu kullanıp saldırgana yıldırım hasarı verebilirsin. Hasar sorcerer seviyene eşittir. Saldırgan büyü kurtulma DC'ne karşı Kuvvet kurtulma zarı da atar. Başarısız olursa, saldırgan düz bir hizada senden 20 fit ileri itilir."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Rüzgar Ruhu",
+                    "entries": [
+                      "18. seviyede, yıldırım ve ses hasarına bağışıklık kazanırsın.",
+                      "Ayrıca 60 fit büyülü bir uçuş hızı kazanırsın. Eylem olarak, 1 saatliğine uçma hızını 30 fite düşürüp 30 fit çevrendeki 3 + Karizma bonusun kadar varlığı seçebilirsin. Seçilen varlıklar 1 saatliğine 30 fit büyülü uçma hızına sahip olurlar. Uçma hızını bu şekilde bir kere düşürdüğünde, kısa ya da uzun dinlenme bitirene kadar bir daha düşüremezsin."
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          "source": "XGE",
+          "shortName": "Fırtına"
+        }
+      ]
+    }
+  ]
+}

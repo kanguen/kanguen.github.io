@@ -1,0 +1,1284 @@
+{
+  "class": [
+    {
+      "name": "Büyücü",
+      "source": "PHB",
+      "hd": {
+        "number": 1,
+        "faces": 6
+      },
+      "proficiency": [
+        "zek",
+        "akı"
+      ],
+      "classTableGroups": [
+        {
+          "colLabels": [
+            "{@filter Bilinen Cantripler|spells|level=0|class=Wizard}"
+          ],
+          "rows": [
+            [
+              3
+            ],
+            [
+              3
+            ],
+            [
+              3
+            ],
+            [
+              4
+            ],
+            [
+              4
+            ],
+            [
+              4
+            ],
+            [
+              4
+            ],
+            [
+              4
+            ],
+            [
+              4
+            ],
+            [
+              5
+            ],
+            [
+              5
+            ],
+            [
+              5
+            ],
+            [
+              5
+            ],
+            [
+              5
+            ],
+            [
+              5
+            ],
+            [
+              5
+            ],
+            [
+              5
+            ],
+            [
+              5
+            ],
+            [
+              5
+            ],
+            [
+              5
+            ]
+          ]
+        },
+        {
+          "title": "Büyü Seviyesi Başına Büyü Yuvaları",
+          "colLabels": [
+            "{@filter 1.|spells|level=1|class=Wizard}",
+            "{@filter 2.|spells|level=2|class=Wizard}",
+            "{@filter 3.|spells|level=3|class=Wizard}",
+            "{@filter 4.|spells|level=4|class=Wizard}",
+            "{@filter 5.|spells|level=5|class=Wizard}",
+            "{@filter 6.|spells|level=6|class=Wizard}",
+            "{@filter 7.|spells|level=7|class=Wizard}",
+            "{@filter 8.|spells|level=8|class=Wizard}",
+            "{@filter 9.|spells|level=9|class=Wizard}"
+          ],
+          "rows": [
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              1,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              1,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              3,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              1
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2,
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "startingProficiencies": {
+        "weapons": [
+          "hançerler",
+          "dartlar",
+          "sapanlar",
+          "asalar",
+          "hafif arbaletler"
+        ],
+        "skills": {
+          "choose": 2,
+          "from": [
+            "Arcana",
+            "Tarih",
+            "Sezgi",
+            "İnceleme",
+            "Tıp",
+            "Din"
+          ]
+        }
+      },
+      "startingEquipment": {
+        "additionalFromBackground": true,
+        "default": [
+          "(a) bir asa ya da (b) bir hançer",
+          "(a) bir bileşen kesesi ya da (b) bir arcane odak",
+          "(a) bir bilge paketi ya da (b) bir kaşif paketi",
+          "Bir büyü kitabı"
+        ],
+        "goldAlternative": "4d4 × 10"
+      },
+      "classFeatures": [
+        [
+          {
+            "name": "Arcane Yenilenme",
+            "entries": "Büyü kitabını okuyarak büyü enerjinin bir kısmını yenilemeyi öğrendin.Günde bir kez kısa dinlenme bitirdiğinde yenilemek için harcanmış büyüyuvaları seçebilirsin. Büyü yuvalarının toplam seviyesi büyücü seviyeninyarısı (üste yuvarlanır) ya da daha az olmalıdır ve yuvaların hiçbiri6. seviye ya da üzeri olamaz.Örneğin, eğer sen 4. seviye bir büyücü isen 2 seviye değerinde büyü yuvası yenileyebilirsin.Bunu iki adet 1. seviye yuva ya da bir adet 2. seviye yuva olarak yenileyebilirsin."
+          },
+          {
+            "name": "Büyü Yapma",
+            "entries": "Bir arcane büyü öğrencisi olarak senin gerçek gücünün ilkgöstergesi olacak büyülerini tuttuğun bir büyü kitabınvardır.\nCantripler\n1. seviyede büyücü büyü listesinden seçeceğin 3tane cantrip bilirsin.Büyücü tablosunun Bilinen Cantripler sütunundagörüleceği üzere üstseviyelerde ek büyücü cantripleri öğrenirsin.\nBüyüKitabı\n1. seviyede büyücü büyü listesinden seçeceğin altı adet 1.seviye büyüiçeren bir büyü kitabın vardır. Zihninde bulunan cantriplerindışındabüyü kitabın bildiğin bütün büyücü büyülerini sakladığınyerdir.\nBüyüleri Hazırlama ve Kullanma\nBüyücü tablosu 1. seviye veüzeri büyüleri kullanmak için kaç tane büyüyuvan olduğunu gösterir. Bubüyülerden birini kullanmak için büyününseviyesi ya da üzeri bir büyüyuvası harcaman gerekir. Tüm harcanmışbüyü yuvalarını uzun dinlenmesonrası yenilersin.Mevcut olan büyücü büyülerinin arasından kullanmakiçin bir listeoluşturursun. Bunu yapmak için, büyü kitabından Zekabonusun + büyücüseviyen kadar (en az 1) büyü seç. Büyüler sahip olduğunbüyü yuvalarınauygun olmalı.Örneğin, eğer sen bir 3. seviye büyücü isendört adet 1. seviye büyüyuvan ve iki adet 2. seviye büyü yuvan olur. 16Zeka skoru ile,hazırlanmış büyüler listen 1. ve 2. seviyeden toplam altıtane büyükitabından seçilmiş büyü içerebilir. Eğer 1. seviye büyüsü{@spell magicmissile (büyülü misil)} hazırlarsan bunu 1. ya da 2. seviyebüyü yuvasıile kullanabilirsin. Büyüyü kullanmak onu hazırlanmışbüyüler listendençıkarmaz.Hazırlanmış büyüler listeni uzun dinlenmesonrası değiştirebilirsin.Yeni bir büyücü büyüleri listesi hazırlamak,büyü kitabını araştırıpkullanman gereken el hareketlerini ve söylemengereken sözleriezberlemeye vakit ayırmanı gerektirir: listendeki herbüyü için seviyebaşı en az 1 dakika harcarsın.\nBüyü YapmaYeteneği\nBüyülerini araştırma ve ezber ile öğrendiğin için büyücü büyüyapmayeteneğin Zekadır. Ne zaman bir büyü, büyü yapma yeteneğindenbahsederseZeka kullanırsın. Ek olarak, büyücü büyülerin için kurtulmazarıDC'sini belirlerken ve bunlarla saldırı yaparken de Zekabonusunukullanırsın.\nabilityDc:zek\nabilityAttackMod:zek\nRitüel BüyüYapma\nBir büyü ritüel etiketine sahipse ve senin büyü kitabındaysa bunuritüelolarak kullanabilirsin. Büyüyü hazırlamış olman gerekmez.\nBüyüYapma Odağı\nBüyücü büyülerin için bir arcane odak kullanabilirsin.\n1.Seviye ve Üzeri Büyüleri Öğrenme\nHer büyücü seviyesi atladığında büyükitabına seçeceğin iki adet büyücübüyüsü ekleyebilirsin. Büyülerin hepsiBüyücü tablosunda gösterilensahip olduğun büyü yuvalarına uygunolmalıdır. Maceralarında büyükitabına ekleyebileceğin diğer büyüler debulabilirsin (\"Büyü Kitabın\"kısmına bak).\nBüyü Kitabın\nSeviyeatladıkça büyü kitabına eklediğin büyüler, senin bireyselarcanearaştırmalarını ve çoklu evrenin yapısı hakkında buluşlarınıyansıtır.Maceralarında başka büyüler bulabilirsin. Kötü bir büyücününsandığındaya da antik bir kütüphanenin içindeki tozlu bir yazıttaolabilir.Büyü kitabı cantripleri içermez.\nKitaba Büyü Kopyalama\n1.seviye ve üzeri bir büyücü büyüsü bulduğunda, eğer hazırlayabileceğinbirbüyü seviyesinde ise ve onu çözüp kopyalayacak vaktin varsakitabınaekleyebilirsin.Bir büyüyü kitabına kopyalama büyünün basit birformunuyeniden yaratmave sonrasında o büyüyü yazan büyücüye özgüformülleriçözmeyi içerir.Büyüye gereken sesler ve hareketleri anlayanakadar pratikyapmalısın vesonrasında onu büyü kitabına kendiformüllerinleyazmalısın.Büyünün her seviyesi için bu süreç 2 saat ve 50gp alır. Bumasraf deneyyaparken kullandığın materyal bileşenleri veyazmak içingereken nadirmürekkepleri temsil eder. Bu zamanı ve parayıharcadıktansonra büyüyüdiğer büyülerin gibi hazırlayıp kullanabilirsin.Bir büyütomarı üzerindeki büyücü büyüsü aynı kitapta bulduğun büyülergibikopyalanabilir. Tomar üzerindeki büyüyü kopyalamak için öncelikleDC 10 +büyü seviyesi bir Zeka (Arcana) zarını geçmelisin. Eğer zarbaşarılıolursa büyü kopyalanır. Zar başarılı olsun ya da olmasın tomaryokolur.\nKitabı Yenileme\nKendi büyü kitabından bir büyüyü başka birkitaba kopyalayabilirsin,mesela bir yedek yaratmak istersen yapacağıngibi. Bu aynı yeni birbüyüyü kopyalamak gibidir ama daha basit ve hızlıolur, nasıl olsa kendiformüllerini anlayabiliyor ve büyüyü kullanmayıbiliyorsun. Kopyalananbüyünün her seviyesi için sadece 1 saat ve 10 gpharcaman gerekir.Eğer büyü kitabını kaybedersen, aynı prosedürühazırlamış olduğunbüyüleri yeni bir kitaba yazarken kullanabilirsin.Kitabın devamınıdoldurma normalde olduğu gibi yeni büyüleri bulmanıgerektirir. Busebepten dolayı çoğu büyücü kitaplarının yedeğini güvenlibir yerdesaklarlar.\nKitabın Görünüşü\nBüyü kitabın kendi deseni ve notlarıyla özgün bir büyü derlemesidir.Ustandan aldığın hediye olan basit bir deri kitap da olabilir, antik birkütüphanede bulduğun yaldızlı bir yazıt da, hatta belki de öncekikitabını kaybettikten sonra toparladığın bir parşömen yığınıdır."
+          }
+        ],
+        [
+          {
+            "name": "Arcane Gelenek",
+            "entries": "2. seviyeye ulaştığında büyü uğraşına şekil verecek olan bir arcanegeleneği mevcut listeden seçersin. Seçeneğin sana 2, 6, 10 ve 14.seviyelerde özellikler kazandırır.",
+            "gainSubclassFeature": true
+          }
+        ],
+        [],
+        [
+          {
+            "name": "Yetenek Skoru Gelişimi",
+            "entries": "4. seviyeye eriştiğinde bir yetenek skorunu 2 ya da 2 ayrı yetenekskorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu20'nin üzerine çıkaramazsın.Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
+          }
+        ],
+        [],
+        [
+          {
+            "name": "Arcane Gelenek Özelliği",
+            "entries": "6. seviyede Arcane Geleneğinin sunduğu bir özellik kazanırsın.",
+            "gainSubclassFeature": true
+          }
+        ],
+        [],
+        [
+          {
+            "name": "Yetenek Skoru Gelişimi",
+            "entries": "8. seviyeye eriştiğinde bir yetenek skorunu 2 ya da 2 ayrı yetenekskorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu20'nin üzerine çıkaramazsın.Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
+          }
+        ],
+        [],
+        [
+          {
+            "name": "Arcane Gelenek Özelliği",
+            "entries": "10. seviyede Arcane Geleneğinin sunduğu bir özellik kazanırsın.",
+            "gainSubclassFeature": true
+          }
+        ],
+        [],
+        [
+          {
+            "name": "Yetenek Skoru Gelişimi",
+            "entries": "12. seviyeye eriştiğinde bir yetenek skorunu 2 ya da 2 ayrı yetenekskorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu20'nin üzerine çıkaramazsın.Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
+          }
+        ],
+        [],
+        [
+          {
+            "name": "Arcane Gelenek Özelliği",
+            "entries": "14. seviyede Arcane Geleneğinin sunduğu bir özellik kazanırsın.",
+            "gainSubclassFeature": true
+          }
+        ],
+        [],
+        [
+          {
+            "name": "Yetenek Skoru Gelişimi",
+            "entries": "16. seviyeye eriştiğinde bir yetenek skorunu 2 ya da 2 ayrı yetenekskorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu20'nin üzerine çıkaramazsın.Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
+          }
+        ],
+        [],
+        [
+          {
+            "name": "Büyü Uzmanlığı",
+            "entries": "18. seviyede bazı büyüler üzerinde öylesine uzmanlaşmışsındır ki onlarıistediğin zaman kullanabilirsin. Büyü kitabından birer tane 1. ve 2.seviye büyücü büyüsü seç. Bu büyüleri eğer hazırlamışsan en düşükseviyelerinde büyü yuvası harcamadan istediğin zaman kullanabilirsin. Bubüyüleri üst seviyelerde kullanmak istersen normalde olduğu gibi büyüyuvası harcamalısın.8 saatini araştırmada geçirerek bu büyüleri aynı seviye büyüler ile değiştirebilirsin."
+          }
+        ],
+        [
+          {
+            "name": "Yetenek Skoru Gelişimi",
+            "entries": "19. seviyeye eriştiğinde bir yetenek skorunu 2 ya da 2 ayrı yetenekskorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu20'nin üzerine çıkaramazsın.Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
+          }
+        ],
+        [
+          {
+            "name": "İmza Büyüler",
+            "entries": "20. seviyeye ulaştığında iki güçlü büyü üzerinde uzmanlık kazanırsın veonları azıcık eforla kullanabilirsin. Kitabından iki tane 3. seviyebüyüyü senin imza büyülerin olarak seç. Bu büyüler daima kullanımahazırdır ve günlük hazırlanabilecek büyü sayısını etkilemez. Aynızamanda bunları birer kere 3. seviyede büyü yuvası harcamadankullanabilirsin. Bunu yaptığında kısa ya da uzun dinlenme bitirene kadarbir daha kullanamazsın.Eğer bu büyüleri üst seviyelerde kullanmak istersen normalde olduğu gibi büyü yuvası harcaman gerekir."
+          }
+        ]
+      ],
+      "subclassTitle": "Arcane Gelenek",
+      "subclasses": [
+        {
+          "name": "Abjuration Okulu",
+          "subclassFeatures": [
+            [
+              {
+                "name": "Abjuration Okulu",
+                "entries": [
+                  "Abjuration okulu bloklayan, koruyan ya da kovan büyüler üzerinde yoğunlaşır. Bu okulun aleyhinde konuşanlar bu geleneğin pozitif ifadedense, inkar ve etkisizleştirme üzerine yoğunlaştığını söyler. Fakat sen kötüleri kovma, zayıfı koruma ve zararlı etkileri defetmenin felsefi bir boşluktan fazlası olduğunu anlarsın. Gururlu ve saygı duyulan bir sanattır.",
+                  "Abjurer olarak bilinen bu okulun üyeleri öfkeli ruhları kovmada, önemli yerlerin büyülü izlenmeden korunmasında ve diğer boyutlara açılan portalların kapatılmasında ilk ulaşılan kişiler olurlar.",
+                  {
+                    "type": "entries",
+                    "name": "Abjuration Bilgini",
+                    "entries": [
+                      "2. seviyede bu okulu seçtiğinde, bir abjuration büyüsünü kitabına kopyalama süren ve masrafın yarılanır."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Arcane Kalkan",
+                    "entries": [
+                      "2. seviyeden itibaren etrafında korunma için büyüyü dokuyabilirsin. 1. seviye ve üzeri bir abjuration büyüsü kullandığında aynı anda büyünün gücünü kullanıp üzerinde koruyucu büyülü bir kalkan oluşturabilirsin. Bu kalkan sen uzun dinlenme bitirene kadar sürer. Kalkan büyücü seviyen + Zeka bonusun kadar HP'ye sahiptir. Ne zaman hasar alsan senin yerine hasarı kalkan alır. Eğer bu hasar kalkanı 0 HP'ye düşürürse hasarın devamını sen alırsın.",
+                      "Kalkan 0 HP'ye sahipken hasar ememez ama büyüsü hala aktiftir. Ne zaman 1. seviye ve üzeri bir abjuration büyüsü kullanırsan, kalkan büyü seviyesinin iki katı HP yeniler.",
+                      "Bu kalkanı bir kere yarattığında bir daha uzun dinlenme bitirene kadar yaratamazsın."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Yansıtılmış Kalkan",
+                    "entries": [
+                      "6. seviyeden itibaren 30 fit yakınındaki görebildiğin bir varlık hasar aldığında reaksiyonunu kullanıp Arcane Kalkanının bu hasarı emmesini sağlayabilirsin. Eğer bu hasar kalkanını 0 HP'ye düşürürse koruduğun varlık hasarın geri kalanını alır."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Gelişmiş Abjuration",
+                    "entries": [
+                      "10. seviyeden itibaren kullandığın abjuration büyüsü eğer bir yetenek zarı atmanı gerektiriyorsa ({@spell counterspell (karşıbüyü)} ve {@spell dispel magic (büyü defet)} gibi), buna uzmanlık bonusunu eklersin."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Büyü Direnci",
+                    "entries": [
+                      "14. seviyeden itibaren büyülere karşı attığın kurtulma zarlarında avantajın olur.",
+                      "Bunun yanında büyülerden gelecek hasara karşı direncin olur."
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          "source": "PHB",
+          "shortName": "Abjuration"
+        },
+        {
+          "name": "Conjuration Okulu",
+          "subclassFeatures": [
+            [
+              {
+                "name": "Conjuration Okulu",
+                "entries": [
+                  "Bir conjurer olarak hiçlikten nesne ve varlık yarattığın büyülerle ilgilenirsin. Başka yerlerden senin için savaşacak varlıklar ya da öldürücü gaz bulutları yaratabilirsin. Uzmanlığın ilerledikçe ulaşım büyüleri öğrenip kendini uzun mesafelere hatta başka boyutlara ışınlamayı öğrenirsin.",
+                  {
+                    "type": "entries",
+                    "name": "Conjuration Bilgini",
+                    "entries": [
+                      "2. seviyede bu okulu seçtiğinde bir conjuration büyüsünü kitabına kopyalama zamanı ve masrafı yarılanır."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Küçük Conjuration",
+                    "entries": [
+                      "2. seviyeden itibaren eylemini kullanıp elinde ya da 10 fit yakınında görebildiğin boş bir alanda küçük bir cansız nesne yaratabilirsin. Bu nesne bir yanı 3 fit'ten fazla olamaz ve 10 pounddan ağır olamaz. Ayrıca formu daha önce gördüğün bir büyüsüz nesne olmalıdır. Nesne görünür bir şekilde büyülüdür ve 5 fit'e kadar loş ışık yayar.",
+                      "Nesne bir hasar alırsa ya da verirse, sen bu özelliği yeniden kullanırsan ya da 1 saat sonunda kaybolur."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Yararlı Aktarım",
+                    "entries": [
+                      "6. seviyeden itibaren eylemini kullanarak 30 fit mesafede görebildiğin boş bir alana ışınlanabilirsin. Alternatif olarak aynı mesafede Küçük ya da Orta bir varlığın bulunduğu yeri seçebilirsin. Eğer o varlık istekliyse ikinizde ışınlanıp yer değiştirirsiniz.",
+                      "Bu özelliği kullandığında uzun dinlenme bitirene ya da 1. seviye ve üzeri bir conjuration büyüsü kullanana kadar bir daha kullanamazsın."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Odaklı Conjuration",
+                    "entries": [
+                      "10. seviyeden itibaren bir conjuration büyüsüne konsantre olurken konsantrasyonun hasar alma sonucu bozulamaz."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Dayanıklı Varlıklar",
+                    "entries": [
+                      "14. seviyeden itibaren bir conjuration büyüsü ile yarattığın tüm varlıkların 30 geçici HP'si olur."
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          "source": "PHB",
+          "shortName": "Conjuration"
+        },
+        {
+          "name": "Divination Okulu",
+          "subclassFeatures": [
+            [
+              {
+                "name": "Divination Okulu",
+                "entries": [
+                  "Bir diviner'ın tavsiyesi hem kraliyet hemde avamlar tarafından beklenir çünkü herkes geçmişi, geleceği ve günümüzü daha iyi anlamak ister. Bir diviner olarak uzay, zaman ve bilincin perdelerini aralayıp daha net görmeye çalışırsın. Ayırt etme, uzaktan görüş, olağanüstü bilgi ve kehanet büyüleri üzerinde uzmanlaşmaya çalışırsın.",
+                  {
+                    "type": "entries",
+                    "name": "Divination Bilgini",
+                    "entries": [
+                      "2. seviyede bu okulu seçtiğinde bir divination büyüsünü kitabına kopyalama zamanı ve masrafı yarılanır."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Kehanet",
+                    "entries": [
+                      "2. seviyeden itibaren gelecekten görüşler farkındalığını etkilemeye başlar. Bir uzun dinlenme bitirdiğinde iki tane d20 at ve sonuçları not et. Sen ya da görebildiğin bir varlığın attığı herhangi bir saldırı, yetenek ya da kurtulma zarını bunlardan biri ile değiştirebilirsin. Bunu zar atılmadan önce belirtmen gerekir ve sıranda sadece bir kez bu özelliği kullanabilirsin.",
+                      "Her kehanet zarı sadece bir kere kullanılabilir. Uzun dinlenme bitirdiğinde kullanılmamış kehanet zarlarını kaybedersin."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Divination Uzmanı",
+                    "entries": [
+                      "6. seviyeden itibaren bir divination büyüsü kullanmak o kadar kolay gelir ki büyü yapma enerjinin sadece bir kısmını harcar. 2. seviye ve üzeri bir divination büyüsü kullandığında 1 harcanmış büyü yuvası yenilersin. Yenilediğin büyü yuvası kullandığın büyünün seviyesinden düşük olmalıdır ve 5. seviyenin üzerinde olamaz."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Üçüncü Göz",
+                    "entries": [
+                      "10. seviyeden itibaren eylemini kullanarak algılama gücünü artırabilirsin. Bunu yaptığında şu özelliklerden birini seç, bu özellik sen etkisiz hale gelene kadar ya da, kısa veya uzun dinlenme bitirene kadar sürer. Bu özelliği kısa ya da uzun dinlenme bitirene kadar bir daha kullanamazsın.",
+                      {
+                        "type": "entries",
+                        "entries": [
+                          {
+                            "type": "entries",
+                            "name": "Gece Görüşü",
+                            "entries": [
+                              "60 fit'e kadar gece görüşün olur."
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "entries",
+                        "entries": [
+                          {
+                            "type": "entries",
+                            "name": "Ethereal Görüş",
+                            "entries": [
+                              "60 fit yakınındaki Ethereal Boyutun içini görebilirsin."
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "entries",
+                        "entries": [
+                          {
+                            "type": "entries",
+                            "name": "Üstün Anlama",
+                            "entries": [
+                              "Tüm dilleri okuyabilirsin."
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "entries",
+                        "entries": [
+                          {
+                            "type": "entries",
+                            "name": "Görünmezliği Gör",
+                            "entries": [
+                              "Görüşünde ve 10 fit yakınında olan görünmez varlık ve nesneleri görebilirsin."
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Üstün Kehanet",
+                    "entries": [
+                      "14. seviyeden itibaren düşlerindeki görüşler daha belirgin olur ve gelecek hakkında daha isabetli bilgiler alırsın. Kehanet özelliğin için iki yerine üç d20 atarsın."
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          "source": "PHB",
+          "shortName": "Divination"
+        },
+        {
+          "name": "Enchantment Okulu",
+          "subclassFeatures": [
+            [
+              {
+                "name": "Enchantment Okulu",
+                "entries": [
+                  "Enchantment Okulunun bir üyesi olarak diğer insanları ve canavarları büyülü bir şekilde hayran bırakma ve cezbetme yeteneklerini geliştirdin. Bazı enchanterlar şiddet uygulayanlara silahını bıraktıran ve zalime merhamet gösterten arabuluculardır. Diğerleri ise varlıkları büyülü bir şekilde istekleri dışında kendilerine hizmet etmeye zorlayan tiranlardır. Çoğu enchanter bu ikisinin arasındadır.",
+                  {
+                    "type": "entries",
+                    "name": "Enchantment Bilgini",
+                    "entries": [
+                      "2. seviyede bu okulu seçtiğinde enchantment büyülerini kitabına kopyalama süren ve masrafın yarılanır."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Hipnotik Bakış",
+                    "entries": [
+                      "2. seviyeden itibaren senin yumuşak sözlerin ve büyülü bakışların diğer varlıkları cezbedebilir. Eylem olarak 5 fit yakınında görebildiğin bir varlık seç. Eğer hedef seni görebiliyor ya da duyabiliyorsa senin büyücü kurtulma zarı DC'ne karşı bir Akıl kurtulma zarı atar. Eğer başarısız olursa bir sonraki sıranın sonuna kadar senin tarafından cezbedebilir. Cezbedilen varlığın hızı 0'a düşer ve varlık görünür bir şekilde sersemler ve etkisiz hale gelir.",
+                      "Sonraki sıralarında eylemini kullanarak bu etkiyi devam ettirebilir ve süresini bir sonraki sıranın sonuna kadar uzatabilirsin. Fakat bu etki eğer sen varlıktan 5 fitten fazla uzaklaşırsan, varlık seni hem duyamaz hemde göremezse ya da varlık hasar alırsa sona erer.",
+                      "Bu etki bittiğinde ya da varlık ilk kurtulma zarında başarılı olursa, bu özelliği aynı varlık üzerinde bir uzun dinlenme bitirene kadar bir daha kullanamazsın."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "İçgüdüsel Cazibe",
+                    "entries": [
+                      "6. seviyeden itibaren 30 fit yakınında görebildiğin bir varlık sana karşı saldırı yaparsa reaksiyonunu kullanıp bu saldırıyı yönlendirebilirsin. Bu özellik saldırının menzilinde başka bir varlık varsa kullanılabilir. Saldırgan büyücü kurtulma zarı DC'ne karşı Akıl kurtulma zarı atar. Başarısız olursa saldırgan sen ya da kendisi dışında ona en yakın olan varlığı hedef almalıdır. Eğer birden çok varlık aynı yakınlıktaysa saldırgan hedefini seçer. Başarılı olursa bu özelliği aynı saldırgan üzerinde bir uzun dinlenme bitirene kadar bir daha kullanamazsın.",
+                      "Bu özelliği saldırının vurup vurmadığını öğrenmeden önce kullanmalısın. Cezbedilemeyen varlıklar bu etkiye karşı bağışıklığa sahiptir."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Ayrık Enchantment",
+                    "entries": [
+                      "10. seviyeden itibaren sadece bir varlığı hedef alan 1. seviye ve üzeri bir enchantment büyüsü kullandığında ikinci bir varlığı da hedef alabilirsin."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Anıları Değiştir",
+                    "entries": [
+                      "14. seviyede bir varlığın üzerindeki büyülü etkinden haberdar olmamasını sağlamayı öğrenirsin. Bir ya da daha çok varlığı hedef alan bir enchantment büyüsü kullandığında varlığın algısını değiştirerek cezbedildiğinden haberdar olmamasını sağlarsın.",
+                      "Ek olarak büyü bitmeden bir kereliğine eylemini kullanıp seçilen varlığın cezbedildiği süreçteki bir bölümü hatırlamamasını sağlamaya çalışabilirsin. Varlık senin büyücü kurtulma zarı DC'ne karşı Zeka kurtulma zarında başarılı olur ya da 1 + Karizma bonusun (en az 1 saat) kadar saatlik anılarını kaybeder. Varlığın daha az bir süreyi unutmasını sağlayabilirsin ve unuttuğu süre enchantment büyüsünün süresini geçemez."
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          "source": "PHB",
+          "shortName": "Enchantment"
+        },
+        {
+          "name": "Evocation Okulu",
+          "subclassFeatures": [
+            [
+              {
+                "name": "Evocation Okulu",
+                "entries": [
+                  "Büyü araştırmanı acı bir soğuk, yakan alevler, eriten asit ya da düşen yıldırımlar gibi elemental güçleri yaratma üzerinde yoğunlaştırırsın. Bazı evokerlar askeri güçlerde iş bulur, düşman ordularını uzaktan bombardımana tutarlar. Diğerleri bu güçlerini zayıfları korumakta kullanır ya da kendi çıkarlarını düşünüp haydut olurlar, bazıları ise macera peşinde koşar.",
+                  {
+                    "type": "entries",
+                    "name": "Evocation Bilgini",
+                    "entries": [
+                      "2. seviyede bu okulu seçtiğinde evocation büyülerini kitabına kopyalama süren ve masrafın yarılanır."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Büyüleri Şekillendir",
+                    "entries": [
+                      "2. seviyeden itibaren evocation büyülerinin alanı içerisinde güvenli alanlar yaratabilirsin. Görebildiğin diğer varlıkları etkileyen bir evocation büyüsü kullandığında 1 + büyünün seviyesi kadar varlığı seçersin. Seçilen varlıklar otomatik olarak büyüye karşı kurtulma zarında başarılı olur ve normalde eğer başarılı bir zarda yarı hasar alıyorlarsa hiç hasar almazlar."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Güçlü Cantrip",
+                    "entries": [
+                      "6. seviyeden itibaren hasar veren cantriplerin etkinin çoğunluğundan kurtulan varlıklara bile hasar verir. Bir varlık cantripine karşı kurtulma zarında başarılı olursa cantripin hasarının yarısını alır ama cantripten gelen ek bir etki olmaz."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Güçlenmiş Evocation",
+                    "entries": [
+                      "10. seviyeden itibaren kullandığın bir büyücü evocation büyüsünün hasarına Zeka bonusunu ekleyebilirsin."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Aşırı Yönlendir",
+                    "entries": [
+                      "14. seviyeden itibaren basit büyülerinin güçlerini artırabilirsin. 1 ile 5. seviye arası hasar veren bir büyücü büyüsü kullandığında o büyü ile maksimum hasar verebilirsin.",
+                      "Bunu ilk kullanışında herhangi bir yan etki görülmez. Eğer bu özelliği uzun dinlenme bitirmeden bir daha kullanırsan, kullanımın hemen ardında büyünün her seviyesi için 2d12 nekrotik hasar alırsın. Uzun dinlenme bitirmeden bu özelliği her kullanışında bu büyü seviyesi başı nekrotik hasar 1d12 artar. Bu hasar direnci ve bağışıklığını yok sayar."
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          "source": "PHB",
+          "shortName": "Evocation"
+        },
+        {
+          "name": "Illusion Okulu",
+          "subclassFeatures": [
+            [
+              {
+                "name": "Illusion Okulu",
+                "entries": [
+                  "Büyü araştırmanı duyuları sarsan, aklı karıştıran ve en bilge halkı bile şaşırtan büyüler üzerinde yoğunlaştırırsın. Büyülerin incelik ister, ama keskin zihnin tarafından yaratılan illüzyonlar imkansızı gerçek gibi gösterir. Bazı illusionistler, gnome büyücüleri de dahil, büyülerini eğlence için kullanan iyi huylu şakacılardır. Diğerleri daha sinsi aldatma ustalarıdır, varlıkları kendi çıkarları için kandırıp korkuturlar.",
+                  {
+                    "type": "entries",
+                    "name": "Illusion Bilgini",
+                    "entries": [
+                      "2. seviyede bu okulu seçtiğinde bir illusion büyüsünü kitabına ekleme süren ve masrafın yarılanır."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Gelişmiş Ufak İllüzyon",
+                    "entries": [
+                      "2. seviyeden itibaren {@spell minor illusion (Ufak İllüzyon)} cantripini öğrenirsin. Eğer bu cantripi zaten biliyorsan başka bir büyücü cantripi seçebilirsin. Bu cantrip bilinen cantripler sayısını etkilemez.",
+                      "{@spell Minor illusion (Ufak İllüzyon)} cantripini kullandığında hem ses hemde görüntü yaratabilirsin."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Şekillenebilen İllüzyonlar",
+                    "entries": [
+                      "6. seviyeden itibaren 1 dakika ve üzeri süren bir illusion büyüsü kullandığında, eğer illüzyonu görebiliyorsan eylemini kullanarak büyünün normal parametreleri içerisinde bu illüzyonun yapısını değiştirebilirsin."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Hayali Adım",
+                    "entries": [
+                      "10. seviyeden itibaren tehlikeye karşı içgüdüsel reaksiyon olarak bir illüzyon kopyanı oluşturabilirsin. Bir varlık sana saldırdığında reaksiyonunu kullanıp illüzyon kopyanı saldırgan ile arana koyabilirsin. Saldırı otomatik olarak seni ıskalar ve illüzyon kaybolur.",
+                      "Bu özelliği kullandığında kısa ya da uzun dinlenme bitirene kadar bir daha kullanamazsın."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Hayali Gerçeklik",
+                    "entries": [
+                      "14. seviyeye kadar illüzyonlarına gölge büyüsünü dokuyarak onlara yarıgerçeklik vermeyi öğrendin. 1. seviye ve üzeri bir illusion büyüsü kullandığında, illüzyonun parçası olan bir cansız ve büyüsüz nesneyi gerçek yapabilirsin. Bunu büyü aktifken sıranda bonus eylem olarak yapabilirsin. Nesne bir dakika boyunca gerçek kalır. Örneğin bir yarık üzerinde köprü illüzyonu oluşturup onu dostların ile birlikte geçene kadar gerçek yapabilirsin.",
+                      "Nesne hasar veremez ya da başka şekillerde kimseye doğrudan zarar veremez."
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          "source": "PHB",
+          "shortName": "Illusion"
+        },
+        {
+          "name": "Transmutation Okulu",
+          "subclassFeatures": [
+            [
+              {
+                "name": "Transmutation Okulu",
+                "entries": [
+                  "Madde ve enerjiyi değiştiren büyülerin araştırmacısısın. Senin için dünya sabit bir şey değil, son derece değişken, ve sen bu değişime aracı olmaktan zevk alıyorsun. Yaratılışın güçlerine hükmediyor, hem fiziksel hemde zihinsel nitelikleri değiştirmeyi öğreniyorsun. Senin büyün gerçekliğin ocağında bir demirci olabilmen için gerekli aletleri sunuyor.",
+                  "Bazı transmuterlar mucitler ya da şakacılardır, zevk için insanları kurbağaya çevirir ya da biraz kar için bakırı gümüşe çevirirler. Diğerleri büyü araştırmalarını büyük ciddiyetle sürdürürler, dünyalar yaratıp yoketmek için tanrıların gücünü ararlar.",
+                  {
+                    "type": "entries",
+                    "name": "Transmutation Bilgini",
+                    "entries": [
+                      "2. seviyede bu okulu seçtiğinde bir transmutation büyüsünü kitabına kopyalama süren ve masrafın yarılanır."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Ufak Simya",
+                    "entries": [
+                      "2. seviyeden itibaren geçici bir şekilde büyüsüz bir nesnenin fiziksel özelliğini bir maddeden diğerine değiştirebilirsin. Tamamen odun, taş (değerli taş olamaz), demir, bakır ya da gümüşten oluşan bir maddeyi, bir diğerine çeviren özel bir simya prosedürü uygularsın. Prosedürü uyguladığın her 10 dakika için 1 kübik fit materyali dönüştürebilirsin. 1 saat sonunda ya da konsantrasyonunu kaybettiğinde (bir büyüye konsantre olur gibi) materyal asıl maddesine döner."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Simyacının Taşı",
+                    "entries": [
+                      "6. seviyeden itibaren 8 saat harcayıp senin transmutation büyünü depolayan bir simyacı taşı yaratabilirsin. taştan kendin faydalanabilirsin ya da başka bir varlığa verebilirsin. Bir varlık seçeceğin özellikten taş üzerinde olduğu sürece faydalanabilir. Taşı yarattığında özelliğini şu seçenekler arasından seçersin:",
+                      {
+                        "type": "list",
+                        "items": [
+                          "60 fite kadar gece görüşü.",
+                          "Ağır yük taşımıyorken 10 fit hız artışı.",
+                          "Dayanıklılık kurtulma zarlarında uzmanlık.",
+                          "Asit, soğuk, ateş, yıldırım ya da ses hasarına direnç (bu özelliği her kullanışında seçersin)."
+                        ]
+                      },
+                      "Her 1. seviye ya da üzeri transmutation büyüsü kullandığında eğer taş üzerindeyse taşının etkisini değiştirebilirsin.",
+                      "Eğer yeni bir simyacı taşı yaratırsan öncekinin etkisi kaybolur."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Şekil Değiştiren",
+                    "entries": [
+                      "10. seviyede eğer büyü kitabında yoksa {@spell polymorph (polimorf)} büyüsünü eklersin. {@spell Polymorph (polimorf)} büyüsünü yuva harcamadan kullanabilirsin. Bunu yaptığında sadece kendini hedef alabilirsin ve {@filter zorluk seviyesi (CR) 1 ya da altı|bestiary|cr=0;1/8;1/4;1/2;1|type=beast|miscellaneous=!swarm} olan bir hayvana dönüşebilirsin.",
+                      "{@spell Polymorph (polimorf)} büyüsünü bu şekilde kullandığında kısa ya da uzun dinlenme bitirene kadar bir daha bu şekilde kullanamazsın. Hala gerekli büyü yuvasını harcayarak kullanılabilir."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Usta Transmuter",
+                    "entries": [
+                      "14. seviyeden itibaren eylemini kullanarak simyacı taşında sakladığın transmutation büyü enerjisini bir anda tüketebilirsin. Bunu yaptığında şu etkilerden birini seçersin. Simyacı taşın yok olur ve sen uzun dinlenme bitirene kadar bir daha yapılamaz.",
+                      {
+                        "type": "entries",
+                        "entries": [
+                          {
+                            "type": "entries",
+                            "name": "Büyük Dönüşüm",
+                            "entries": [
+                              "5 fitlik bir küpten daha büyük olmayan bir büyüsüz nesneyi, aynı boyutlarda ve eşit ya da daha düşük değerde bir büyüsüz nesneye dönüştürebilirsin. Dönüştürmek için nesne ile en az 10 dakika zaman geçirmen gerekir."
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "entries",
+                        "entries": [
+                          {
+                            "type": "entries",
+                            "name": "Kusursuz İlaç",
+                            "entries": [
+                              "Simyacı taşı ile dokunduğun varlığın üzerindeki tüm lanet, hastalık ve zehir etkilerini sonlandırırsın. Varlık aynı zamanda tüm HP'sini yeniler."
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "entries",
+                        "entries": [
+                          {
+                            "type": "entries",
+                            "name": "Hayat Ver",
+                            "entries": [
+                              "Simyacı taşı ile dokunduğun bir varlığa büyü yuvası harcamadan ve büyüyü kitabında bulundurma gereği olmadan {@spell raise dead (Ölü Dirilt)} büyüsünü kullanırsın."
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "entries",
+                        "entries": [
+                          {
+                            "type": "entries",
+                            "name": "Gençlik Ver",
+                            "entries": [
+                              "İstekli olan bir varlığa simyacı taşın ile dokunursun ve en az 13 yaşına dönebilecek şekilde varlık 3d10 yıl gençleşir. Bu etki varlığın ömrünü uzatmaz."
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          "source": "PHB",
+          "shortName": "Transmutation"
+        },
+        {
+          "name": "Necromancy Okulu",
+          "subclassFeatures": [
+            [
+              {
+                "name": "Necromancy Okulu",
+                "entries": [
+                  "Necromancy Okulu kozmik güçler olan hayat, ölüm ve ölüm sonrasını keşfeder. Bu gelenek ile araştırmalarını yoğunlaştırırken tüm yaşayan şeyleri hayatta tutan enerjiyi kontrol etmeyi öğrenirsin. İlerledikçe büyün ile bir varlığın bedenini yokederken yaşam gücünü çekip onu kontrol edebileceğin bir büyülü güce çevirebilirsin.",
+                  "Ölümle yakın ilişkisinden dolayı çoğu insan necromancerları korkunç hatta kötü olarak görür. Tüm necromancerlar kötü değildir, ama kulladıkları güçler birçok toplumda tabu olarak görülür.",
+                  {
+                    "type": "entries",
+                    "name": "Necromancy Bilgini",
+                    "entries": [
+                      "2. seviyede bu okulu seçtiğinde bir necromancy büyüsünü kitabına kopyalama süren ve masrafın yarılanır."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Zalim Hasat",
+                    "entries": [
+                      "2. seviyede büyülerinle öldürdüğün varlıklardan yaşam enerjisi çalmayı öğrenirsin. Her sıranda bir kereliğine, 1. seviye ve üzeri bir büyünle bir ya da daha fazla varlık öldürdüğünde, büyünün seviyesinin iki katı kadar HP yenilersin. Eğer büyü necromancy okuluna aitse üç katı HP yenilenir. Bu özellikten yapı ya da yaşayan ölü öldürürsen faydalanamazsın."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Yaşayan Ölü Hizmetkarlar",
+                    "entries": [
+                      "6. seviyede eğer büyü kitabında yoksa {@spell animate dead (Ölüye Can Ver)} büyüsünü eklersin. {@spell Animate dead (Ölüye can ver)} büyüsünü kullandığında fazladan bir ceset ya da kemik yığını hedef alıp ek bir zombi ya da iskelet yaratabilirsin.",
+                      "Ne zaman necromancy büyüsü kullanıp yaşayan ölü yaratırsan fazladan özellikleri olur:",
+                      {
+                        "type": "list",
+                        "items": [
+                          "Varlığın HP maksimumu senin büyücü seviyen kadar artar.",
+                          "Varlık silah hasar zarlarına senin uzmanlık bonusunu ekler."
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Ölüm Sonrasına Alışkın",
+                    "entries": [
+                      "10. seviyeden itibaren nekrotik hasara direncin olur ve HP maksimumun düşürülemez. Yaşayan ölülerle ve onlara can veren güçlerle o kadar zaman geçirdin ki bunun en kötü etkilerine alıştın."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Yaşayan Ölüleri Yönet",
+                    "entries": [
+                      "14. seviyeden itibaren başka büyücüler tarafından yaratılmış yaşayan ölüleri bile kendi kontrolün altına alabilirsin. Eylem olarak 60 fit yakınındaki görebildiğin bir yaşayan ölüyü seç. Varlık senin büyücü kurtulma zarı DC'ne karşı Karizma kurtulma zarı atar. Eğer başarılı olursa bu özelliği bir daha onun üzerinde kullanamazsın. Eğer başarısız olursa sana dost olur ve bu özelliği yeniden kullanana kadar senin komutlarına itaat eder.",
+                      "Zeki yaşayan ölüler bu şekilde daha zor kontrol edilir. Eğer hedefin Zeka skoru 8 ve üzeri ise kurtulma zarında avantajı olur. Eğer başarısız olursa ve 12 ve üzeri Zeka skoruna sahipse kurtulana kadar her saatin sonunda kurtulma zarını tekrarlayabilir."
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          "source": "PHB",
+          "shortName": "Necromancy"
+        },
+        {
+          "name": "Savaş Büyüsü",
+          "subclassFeatures": [
+            [
+              {
+                "name": "Savaş Büyüsü",
+                "entries": [
+                  "Çeşitli arcane kolejler büyücüleri savaşa hazırlamada uzmanlaşır. Savaş Büyüsü geleneği evocation ve abjuration okullarından birinde uzmanlaşmaktansa, bunların ilkelerini birleştirir. Bir büyücünün büyülerini güçlendirecek teknikler öğretirken, aynı zamanda büyücülere savunmalarını artıracak metodlar sağlar.",
+                  "Bu geleneğin takipçileri savaş büyücüleri olarak bilinirler. Onlar büyülerini hem silah hem de zırh olarak görüp, bir çelik parçasından üstün olduğuna inanırlar. Savaş büyücüleri savaşta tez davranırlar, ve büyülerini kullanıp durumun taktiksel kontrolünü sağlarlar. Büyüleri sert vururken, savunma becerileri rakiplerinin karşı saldırı çabalarını engeller. Savaş büyücüleri diğer büyü kullanıcılarının enerjilerini onlara karşı kullanmada da uzmandırlar.",
+                  "Büyük savaşlarda, bir savaş büyücüsü genellikle evokerlar, abjurerlar, ve diğer büyücü tipleri ile ortak çalışır. Özellikle evokerlar, dikkatlerini saldırı ve savunma arasında böldükleri için bazen savaş büyücüleri ile alay ederler. Bir savaş büyücüsünün tipik cevabı: \"Eğer kullanamadan öleceksem görkemli bir {@spell fireball (alevtopu)} atabilmenin anlamı nedir?\"",
+                  {
+                    "type": "entries",
+                    "name": "Arcane Saptırma",
+                    "entries": [
+                      "2. seviyede, büyünü örüp kendini hasara karşı korumayı öğrendin. Bir saldırı sana vurursa ya da bir kurtulma zarında başarısız olursan, reaksiyonunu kullanıp o saldırıya karşı AC'ne +2 bonus ya da kurtulma zarına +4 bonus ekleyebilirsin.",
+                      "Bu özelliği kullandığında, bir sonraki sıranın sonuna kadar cantrip dışında büyü kullanamazsın."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Taktik Zeka",
+                    "entries": [
+                      "2. seviyeden itibaren, taktik durumları değerlendirmeni sağlayan keskin yeteneklerin, savaşta çabuk davranmanı sağlar. Öncelik zarlarına Zeka bonusunu ekleyebilirsin."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Güç Taşımı",
+                    "entries": [
+                      "6. seviyeden itibaren, sonrasında hasar veren büyülerini güçlendirmek için içinde güç depolayabilirsin. Depolanmış halinde, bu enerjiye güç taşımı denir.",
+                      "Zeka bonusun kadar (en az 1) güç taşımı depolayabilirsin. Her uzun dinlenme bitirdiğinde, güç taşımı sayın 1'e döner. Ne zaman bir büyüyü dispel magic (büyü defet) ya da counterspell (karşıbüyü) ile başarılı bir şekilde sonlandırırsan, bozduğun büyüden gücünü çalarak bir güç taşımı kazanırsın. Eğer bir kısa dinlenmeyi hiç güç taşımın olmadan bitirirsen, bir güç taşımı kazanırsın.",
+                      "Her sıranda bir kereliğine, bir varlık ya da nesneye bir büyücü büyüsü ile hasar verdiğinde, bir güç taşımı harcayıp hedefe fazladan güç hasarı verebilirsin. Bu fazladan hasar büyücü seviyenin yarısıdır."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Dayanıklı Büyü",
+                    "entries": [
+                      "10. seviyeden itibaren, yönlendirdiğin büyü hasara karşı korunmaya yardımcı olur. Bir büyüye konsantre olurken, AC ve tüm kurtulma zarlarına +2 bonusun olur."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Saptıran Örtü",
+                    "entries": [
+                      "14. seviyede, Arcane Saptırman ölümcül büyü ile işlenir. Arcane Saptırma özelliğini kullandığında, büyülü enerjinin senden sıçramasını sağlarsın. 60 fit yakınında görebildiğin, seçeceğin 3 taneye kadar varlık büyücü seviyenin yarısı kadar güç hasarı alır."
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          "source": "XGE",
+          "shortName": "Savaş Büyüsü"
+        },
+        {
+          "name": "Bladesinger",
+          "subclassFeatures": [
+            [
+              {
+                "name": "Bladesinger",
+                "entries": [
+                  "Bladesingerlar cesurca topraklarını ve halkını koruyan elflerdir. Arcane büyü temelli bir kılıç dövüş okulunda uzmanlaşan elf büyücülerdir. Savaşta, bir bladesinger bir seri karmaşık ama zarif manevralar ile hasarı savar, ve büyülerini yıkıcı saldırılar ve kurnaz bir savunma için yönlendirir.",
+                  {
+                    "type": "entries",
+                    "name": "Kısıtlama: Sadece Elfler",
+                    "entries": [
+                      "Sadece elfler ve yarı elfler bladesinger arcane geleneğini seçebilir. Faerûn dünyasında, elfler bladesinging sırlarını sıkıca saklarlar.",
+                      "DM'in hikayeye uyması için bu kısıtlamayı kaldırabilir. Bu kısıtlama Unutulmuş Diyarlarda bladesingerların hikayesini yansıtır, ama bu DM'in dünyasına ya da onun Diyarlar yorumuna uymayabilir."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Savaş ve Şarkı Eğitimi (Bladesinging)",
+                    "entries": [
+                      "2. seviyede bu geleneği seçtiğinde, hafif zırhlar ve seçeceğin bir tek elli yakın dövüş silahı ile uzmanlık kazanırsın.",
+                      "Ayrıca zaten uzmanlığın yoksa Performans becerisinde uzmanlık kazanırsın."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Bladesong",
+                    "entries": [
+                      "2. seviyeden itibaren, Bladesong denen gizli bir elf büyüsünü kullanırsın, orta veya ağır zırh giymediğin ve kalkan kullanmadığın sürece bu mümkündür. Sana doğaüstü hız, çeviklik ve odaklanma bahşeder.",
+                      "Bonus eylem kullanıp Bladesong'u başlatırsın, bu 1 dakika sürer. Eğer {@condition etkisiz hal} durumuna düşersen, orta veya ağır zırh ya da kalkan kullanırsan, ya da bir silahla iki elini de kullanıp saldırı yaparsan bu etki erken sonlanır. Bladesong'u istediğin bir zaman sonlandırabilirsin (eylem gerektirmez).",
+                      "Bladesong aktifken, şunlardan faydalanırsın:",
+                      {
+                        "type": "list",
+                        "items": [
+                          "Zeka bonusun kadar (en az 1) AC'ne bonus eklersin.",
+                          "Yürüyüş hızın 10 fit artar.",
+                          "Çeviklik (Akrobasi) zarlarında avantajlı olursun.",
+                          "Bir büyüde konsantrasyonunu korumak için atacağın Dayanıklılık kurtulma zarlarına bonusun olur. Bu bonus Zeka bonusun kadardır (en az +1)."
+                        ]
+                      },
+                      "Bu özelliği iki kere kullanabilirsin. Bir kısa ya da uzun dinlenme bitirdiğinde tüm harcanan kullanımları yenilenir."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Extra Saldırı",
+                    "entries": [
+                      "6. seviyeden itibaren sıranda Saldırı eylemini kullandığında 1 yerine 2 kere saldırabilirsin."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Savunma Şarkısı",
+                    "entries": [
+                      "10. seviyeden itibaren, bladesong'un aktifken büyünü hasar emmek için yönlendirebilirsin. Hasar aldığında, reaksiyonunu kullanarak bir büyü yuvası harcayıp, hasarı büyü yuvasının seviyesinin 5 katı kadar azaltabilirsin."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Zafer Şarkısı",
+                    "entries": [
+                      "14. seviyeden itibaren, Bladesong'un aktifken, yakın dövüş silahı saldırılarının hasarına Zeka bonusunu (en az +1) eklersin."
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          "source": "SCAG",
+          "shortName": "Bladesinger"
+        }
+      ]
+    }
+  ]
+}

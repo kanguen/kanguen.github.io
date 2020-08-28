@@ -1,0 +1,778 @@
+{
+  "class": [
+    {
+      "name": "Rahip",
+      "source": "PHB",
+      "hd": {
+        "number": 1,
+        "faces": 8
+      },
+      "proficiency": [
+        "akı",
+        "kar"
+      ],
+      "classTableGroups": [
+        {
+          "colLabels": [
+            "{@filter Bilinen Cantripler|spells|level=0|class=Cleric}"
+          ],
+          "rows": [
+            [
+              3
+            ],
+            [
+              3
+            ],
+            [
+              3
+            ],
+            [
+              4
+            ],
+            [
+              4
+            ],
+            [
+              4
+            ],
+            [
+              4
+            ],
+            [
+              4
+            ],
+            [
+              4
+            ],
+            [
+              5
+            ],
+            [
+              5
+            ],
+            [
+              5
+            ],
+            [
+              5
+            ],
+            [
+              5
+            ],
+            [
+              5
+            ],
+            [
+              5
+            ],
+            [
+              5
+            ],
+            [
+              5
+            ],
+            [
+              5
+            ],
+            [
+              5
+            ]
+          ]
+        },
+        {
+          "title": "Büyü Seviyesi Başına Büyü Yuvaları",
+          "colLabels": [
+            "{@filter 1.|spells|level=1|class=Cleric}",
+            "{@filter 2.|spells|level=2|class=Cleric}",
+            "{@filter 3.|spells|level=3|class=Cleric}",
+            "{@filter 4.|spells|level=4|class=Cleric}",
+            "{@filter 5.|spells|level=5|class=Cleric}",
+            "{@filter 6.|spells|level=6|class=Cleric}",
+            "{@filter 7.|spells|level=7|class=Cleric}",
+            "{@filter 8.|spells|level=8|class=Cleric}",
+            "{@filter 9.|spells|level=9|class=Cleric}"
+          ],
+          "rows": [
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              1,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              1,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              3,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              1
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2,
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "startingProficiencies": {
+        "armor": [
+          "hafif",
+          "orta",
+          "kalkanlar"
+        ],
+        "weapons": [
+          "basit"
+        ],
+        "skills": {
+          "choose": 2,
+          "from": [
+            "Tarih",
+            "Sezgi",
+            "Tıp",
+            "İkna",
+            "Din"
+          ]
+        }
+      },
+      "startingEquipment": {
+        "additionalFromBackground": true,
+        "default": [
+          "(a) bir gürz ya da (b) bir savaş çekici (eğer uzmansa)",
+          "(a) bir pullu zırh, (b) bir deri zırh, ya da (c) bir örme zırh (eğer uzmansa)",
+          "(a) bir hafif arbalet ve 20 kısa ok ya da (b) herhangi bir basit silah",
+          "(a) bir rahip paketi ya da (b) bir kaşif paketi",
+          "Bir kalkan ve bir kutsal sembol"
+        ],
+        "goldAlternative": "5d4 × 10"
+      },
+      "classFeatures": [
+        [
+          {
+            "name": "Büyü Yapma",
+            "entries": "Kutsal güce aracı olarak rahip büyülerinikullanabilirsin.\nCantripler\n1. seviyede rahip büyü listesindenseçeceğin 3 tane cantripi bilirsin.Rahip tablosunun Cantripler sütunundagörülebileceği gibi rahipseviyeleri atladıkça yeni cantripleröğrenirsin.\nBüyüleri Hazırlama ve Kullanma\nRahip tablosu 1. seviye veüzeri büyülerini kullanmak için kaç tane büyüyuvan olduğunu gösterir. Bubüyülerden birini kullanmak için, büyününseviyesi ya da üzeri bir büyüyuvası harcaman gerekir. Uzun dinlenmesonrası tüm büyü yuvalarınyenilenir.Rahip büyü listesinde mevcut olan büyülerden seçip kendine birlistehazırlarsın. Bunu yaparken rahip seviyen + Akıl bonusun kadarbüyühazırlarsın (en az 1). Büyüler sahip olduğun büyü yuvalarınauygunseviyede olmalı.Örneğin 3. seviye bir rahip olarak 4 adet 1. seviyebüyü yuvan ve 2 adet2. seviye büyü yuvan olur. 16 Akıl ile hazırladığınbüyü listesi 6 adet1 ve 2. seviye karışık büyü içerir. Eğer 1. seviyebüyüsü {@spell curewounds (Yaraları İyileştir)} hazırlarsan, bunu 1. yada 2. seviye büyüyuvanı kullanarak kullanabilirsin. Büyüyü kullanman onuhazırladığınlisteden kaldırmaz.Hazırladığın büyü listesini uzundinlenme bitirdiğindedeğiştirebilirsin. Yeni rahip büyü listesihazırlama zamanı dua vemeditasyon ile geçer, her büyü seviyesi için enaz 1 dakika olacakşekilde.\nBüyü Yapma Yeteneği\nRahip büyülerin içinkullanacağın büyü yapma yeteneği Akıldır.Büyülerinin gücü tanrınabağlılığından gelir. Ne zaman bir rahip büyüsübüyü yapma yeteneğindenbahsederse Akıl yeteneğini kullanırsın. Ekolarak, büyülerinle saldırıyaparken ve kurtulma zarı DC'sinibelirlerken de Akıl bonusunkullanılır.\nabilityDc:akı abilityAttackMod:akı"
+          },
+          {
+            "name": "Kutsal Alan",
+            "entries": "Mevcut alanlar listesinden tanrına uygun olan bir alan seç. Her alankendi detaylarını verir ve onunla ilgili tanrı örnekleri sunar. 1.seviyede yaptığın seçimin sana alan büyüleri ve diğer özellikler verir.Sana aynı zamanda 2. seviyede Kutsal Yönlendirme için farklı kullanımlarve 6,8 ve 17. seviyelerde ek özellikler verir.\nAlan Büyüleri\nHeralanın açıklamasında belirtildiği üzere, belirli seviyelerdeverdiğirahip büyüleri vardır. Bir alan büyüsünü aldığında o sendedaimahazırlanmış bir şekilde kalır ve günlük hazırlayabileceğin büyüsayısınıetkilemez.Eğer bir alan büyün rahip büyü listesinde yer almıyorsa o senin için yine de rahip büyüsü sayılır.",
+            "gainSubclassFeature": true
+          }
+        ],
+        [
+          {
+            "name": "Kutsal Yönlendirme (1/dinlenme)",
+            "entries": "2. seviyede tanrının gücünü doğrudan yönlendirme yeteneğini kazanırsınve bu enerjiyi çeşitli büyülü etkiler için kullanırsın. 2 tip etki ilebaşlarsın: Yaşayan Ölüleri Kov ve alanının sana verdiği bir etki. Bazıalanlar ileriki seviyelerde fazladan etkiler verebilir.KutsalYönlendirmeyi kullandığında hangi etkiyi yaratmak istediğinisenseçersin. Kutsal Yönlendirmeyi yeniden kullanabilmek için kısa yadauzun dinlenme bitirmen gerekir.Bazı Kutsal Yönlendirme etkilerikurtulma zarı gerektirir. Bu sınıftanbu tip bir etkiyi kullandığında DC,rahip büyü kurtulma zarı DC'sineeşittir.6. seviyeden itibaren KutsalYönlendirmeyi dinlenmeler arası 2 kerekullanmaya başlarsın ve bu 18.seviyede 3 kereye çıkar. Kısa ya da uzundinlenme bitirdiğinde harcanmışkullanımları geri kazanırsın.\n\nYaşayan Ölüleri Kov\nEylem olarakkutsal sembolünü öne çıkarır ve yaşayan ölüleri kınayan birdua okursun.30 fit yakınında seni gören veya duyan tüm yaşayan ölülerAkıl kurtulmazarı atar. Eğer varlık kurtulma zarında başarısız olursa 1dakikalığınaya da hasar alana dek kovulmuş olur.Kovulmuş bir varlık sırasını senden olabildiğince uzaklaşmak içinkullanır ve isteyerek senin 30 fit yakınına gelemez. Reaksiyon dakullanamaz. Eylemi için sadece Depar kullanabilir ya da onun hareketetmesini engelleyen bir etkiden kurtulmaya çalışır. Eğer kaçabilecekyeri yoksa Kaçınma eylemini kullanır."
+          },
+          {
+            "name": "Kutsal Alan Özelliği",
+            "entries": "2. seviyede Kutsal Alanından bir özellik eklenir.",
+            "gainSubclassFeature": true
+          }
+        ],
+        [],
+        [
+          {
+            "name": "Yetenek Skoru Gelişimi",
+            "entries": "4. seviyeye eriştiğinde bir yetenek skorunu 2 ya da 2 ayrı yetenekskorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu20'nin üzerine çıkaramazsın.\nEğer DM'in izin veriyorsa, yetenek skoruyerine bir hüner seçebilirsin."
+          }
+        ],
+        [
+          {
+            "name": "Yaşayan Ölüleri Yok Et (CR 1/2)",
+            "entries": "5. seviyeden itibaren CR 1/2 veya altında kalan bir yaşayan ölü, senYaşayan Ölüleri Kov özelliğini kullandığında Akıl kurtulma zarındabaşarısız olursa anında yok olur."
+          }
+        ],
+        [
+          {
+            "name": "Kutsal Yönlendirme (2/dinlenme)",
+            "entries": "6. seviyeden itibaren Kutsal Yönlendirme özelliğini dinlenmeler arasında 2 kere kullanabilirsin."
+          },
+          {
+            "name": "Kutsal Alan Özelliği",
+            "entries": "6. seviyede Kutsal Alanından bir özellik kazanırsın.",
+            "gainSubclassFeature": true
+          }
+        ],
+        [],
+        [
+          {
+            "name": "Yetenek Skoru Gelişimi",
+            "entries": "8. seviyeye eriştiğinde bir yetenek skorunu 2 ya da 2 ayrı yetenekskorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu20'nin üzerine çıkaramazsın.\nEğer DM'in izin veriyorsa, yetenek skoruyerine bir hüner seçebilirsin."
+          },
+          {
+            "name": "Yaşayan Ölüleri Yok Et (CR 1)",
+            "entries": "8. seviyeden itibaren CR 1 veya altında kalan bir yaşayan ölü, senYaşayan Ölüleri Kov özelliğini kullandığında Akıl kurtulma zarındabaşarısız olursa anında yok olur."
+          },
+          {
+            "name": "Kutsal Alan Özelliği",
+            "entries": "8. seviyede Kutsal Alanından bir özellik kazanırsın.",
+            "gainSubclassFeature": true
+          }
+        ],
+        [],
+        [
+          {
+            "name": "Kutsal Müdahale",
+            "entries": "10. seviyeden itibaren gerçekten ihtiyacın olduğunda tanrından müdahale etmesi için yardım isteyebilirsin.Tanrının yardımı için yalvarmak senin eylemini kullanmanı gerektirir.İstediğin yardımı tanımla ve yüzdelik zar at. Eğer rahip seviyene eşitya da daha düşük attıysan tanrın müdahale eder. Bu müdahalenin yapısınıDM belirler; herhangi bir rahip büyüsünün etkisi buna uygun olabilir.Eğer tanrın müdahale ederse bu özelliği 7 gün kullanamazsın. Etmezseuzun dinlenme sonrası yeniden kullanılabilir.20. seviyede müdahale için yalvarışın otomatik olarak başarılı olur, zar gerektirmez."
+          }
+        ],
+        [
+          {
+            "name": "Yaşayan Ölüleri Yok Et (CR 2)",
+            "entries": "11. seviyeden itibaren CR 2 veya altında kalan bir yaşayan ölü, senYaşayan Ölüleri Kov özelliğini kullandığında Akıl kurtulma zarındabaşarısız olursa anında yok olur."
+          }
+        ],
+        [
+          {
+            "name": "Yetenek Skoru Gelişimi",
+            "entries": "12. seviyeye eriştiğinde bir yetenek skorunu 2 ya da 2 ayrı yetenekskorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu20'nin üzerine çıkaramazsın.\nEğer DM'in izin veriyorsa, yetenek skoruyerine bir hüner seçebilirsin."
+          }
+        ],
+        [],
+        [
+          {
+            "name": "Yaşayan Ölüleri Yok Et (CR 3)",
+            "entries": "14. seviyeden itibaren CR 3 veya altında kalan bir yaşayan ölü, senYaşayan Ölüleri Kov özelliğini kullandığında Akıl kurtulma zarındabaşarısız olursa anında yok olur."
+          }
+        ],
+        [],
+        [
+          {
+            "name": "Yetenek Skoru Gelişimi",
+            "entries": "16. seviyeye eriştiğinde bir yetenek skorunu 2 ya da 2 ayrı yetenekskorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu20'nin üzerine çıkaramazsın.\nEğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
+          }
+        ],
+        [
+          {
+            "name": "Yaşayan Ölüleri Yok Et (CR 4)",
+            "entries": "17. seviyeden itibaren CR 4 veya altında kalan bir yaşayan ölü, senYaşayan Ölüleri Kov özelliğini kullandığında Akıl kurtulma zarındabaşarısız olursa anında yok olur."
+          },
+          {
+            "name": "Kutsal Alan Özelliği",
+            "entries": "17. seviyede Kutsal Alanından bir özellik kazanırsın.",
+            "gainSubclassFeature": true
+          }
+        ],
+        [
+          {
+            "name": "Kutsal Yönlendirme (3/dinlenme)",
+            "entries": "18. seviyeden itibaren Kutsal Yönlendirme özelliğini dinlenmeler arasında 3 kere kullanabilirsin."
+          }
+        ],
+        [
+          {
+            "name": "Yetenek Skoru Gelişimi",
+            "entries": "19. seviyeye eriştiğinde bir yetenek skorunu 2 ya da 2 ayrı yetenekskorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu20'nin üzerine çıkaramazsın.\nEğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
+          }
+        ],
+        [
+          {
+            "name": "Kutsal Müdahale Gelişimi",
+            "entries": "20. seviyede müdahale için yalvarışın otomatik olarak başarılı olur, zar gerektirmez."
+          }
+        ]
+      ],
+      "subclassTitle": "Kutsal Alan",
+      "subclasses": [
+        {
+          "name": "Arcana Alanı",
+          "subclassFeatures": [
+            {
+              "name": "Arcana Alanı",
+              "explanation": "Büyü çoklu evreni kaplayan ve yaratılışı da yıkımı da destekleyen bir enerjidir. Arcana tanrıları büyünün potansiyeli ve sırları ile yakından ilgilenirler ve bilirler. Bazı tanrılar için bu büyü bilgisi, gerçekliğin yapısını anlama ile gelen büyük bir sorumluluktur. Diğer tanrılar büyüyü saf güç olarak görürler, istedikleri gibi kullanabilecekleri bir araç.Bu alanın tanrıları genellikle bilgi ile alakalıdırlar. Öğrenme ve arcane güç genellikle birlikte görülür. Unutulmuş Diyarlarda bu alanın tanrıları Azuth ve Mystra'yı içerir, elf panteonundan Corellon Larethian'da bu gruba dahildir. Diğer evrenlerde bu alan şu tanrıları içerir: Hecate, Math Mathonwy, ve Isis; Kyrnn'in üçlü ay tanrıları Solinari, Lunitari, ve Nuitari; ve Boccob, Vecna, ve Greyhawk'dan WeeJas.Belirtilmiş rahip seviyelerinde, listelenmiş büyüler senin hazırlanmış büyülerine dahil olur. Günlük hazırlama limitine dahil olmazlar. \n Arcana Alan Büyüleri \n Seviye 1:{@spell detect magic (büyüyü hisset)}, {@spell magic missile (büyülü misil)} \n Seviye 3:{@spell magic weapon (büyülü silah)}, {@spell Nystul's magic aura (Nystul'un büyülü aurası)} \n Seviye 5:{@spell dispel magic (büyü defet)}, {@spell magic circle (Büyülü Çember)} Seviye 7:{@spell arcane eye (arcane göz)}, {@spell Leomund's secret chest (Leomund'un gizli sandığı)} \n Seviye 9:{@spell planar binding (boyutsal bağlama)}, {@spell teleportation circle (Işınlanma Çemberi)} \n Arcane Üyesi \n 1. seviyede bu alanı seçtiğinde Arcana becerisinde uzmanlık kazanırsın ve büyücü büyü listesinden 2 cantrip öğrenirsin. Senin için bunlar rahip cantripleri sayılır.\n\n "
+            },
+            {
+              "name": "Channel Divinity: Arcane Kovma",
+              "explanation": "2. seviyeden itibaren Kutsal Yönlendirmeni kullanarak dünyadışı varlıkları kovabilirsin.Eylem olarak kutsal sembolünü öne çıkarırsın ve 30 fit yakınında olan ve seni görebilen ya da duyabilen seçeceğin bir kutsal, elemental, fey ya da zebani Akıl kurtulma zarı atar. Eğer varlık kurtulma zarında başarısız olursa 1 dakikalığına ya da hasar alana dek kovulur.Kovulmuş bir varlık sırasını senden olabildiğince uzaklaşmak için kullanır ve isteyerek 30 fit yakınına gelemez. Reaksiyon da kullanamz. Eylem olarak Depar kullanır veya hareket etmesini engelleyen bir etkiden kurtulmaya çalışır. Eğer kaçabileceği bir yer yoksa Kaçınma eylemini kullanır.5. seviyeden sonra kendi boyutunda olmayan ve CR seviyesi aşağıda gösterilen seviyenin altında olan bir varlık bu özelliğe karşı kurtulma zarında başarısız olunca 1 dakikalığına sürgün edilir ({@spell banishment (kovma)} büyüsü gibi, konsantrasyon gerekmez). \nArcane Sürgün\n Seviye 5:1/2 ya da altı CR seviyesi varlığı sürgün eder \nSeviye 8:1 ya da altı seviyesi varlığı sürgün eder\n Seviye 11:2 ya da altı CR seviyesi varlığı sürgün eder \n Seviye 14:3 ya da altı CR seviyesi varlığı sürgün eder\n Seviye 17:4 ya da altı CR seviyesi varlığı sürgün eder\n"
+            },
+            {
+              "name": "Büyü Bozan",
+              "explanation": "6. seviyeden itibaren bir dostuna 1. seviye ve üzeri bir büyü ile HP yenilediğinde, varlık üzerindeki seçeceğin bir büyüyü de bitirebilirsin. Bitireceğin büyünün seviyesi, iyileştirmek için kullandığın büyü yuvasına eşit ya da altında olmalı.\n"
+            },
+            {
+              "name": "Güçlü Büyü Yapma",
+              "explanation": "8. seviyeden itibaren bir rahip cantripi ile vereceğin hasara Akıl bonusunu ekleyebilirsin.\n"
+            },
+            {
+              "name": "Arcane Ustalık",
+              "explanation": "17. seviyede Büyücü büyü listesinden her biri 6,7,8 ve 9. seviyelerden olmak üzere 4 büyü seçersin. Bunları alan büyüsü listene eklersin. Alan büyülerin gibi bunlar daima hazır olur ve senin için rahip büyüsü sayılır.\n"
+            }
+          ],
+          "source": "SCAG",
+          "shortName": "Arcana"
+        },
+        {
+          "name": "Ölüm Alanı",
+          "subclassFeatures": [
+            {
+              "name": "Ölüm Alanı",
+              "explanation": "Ölüm alanı ölüme yol açan güçler ve yaşayan ölüleri yaratan negatif enerji ile ilgilenir. Chemosh, Myrkul, ve WeeJas gibi tanrılar ölüm büyücüleri, ölüm şövalyeleri, lichler, mumya lordları, ve vampirlerin efendileri olurlar. Ölüm alanı tanrıları cinayet (Anubis, Bhaal, and Pyremius), acı (Iuz or Loviatar), hastalık ya da zehir (Incabulos, Talona, or Morgion), ve yeraltını (Hades and Hel) simgelerler.Belirtilen rahip seviyelerinde listelenen büyüleri hazırlanan büyülerine ekle. Bunlar hazırlayabileceğin büyü limitini etkilemez.\\Ölüm Alan Büyüleri\nSeviye 1:{@spell false life (sahte yaşam)}, {@spell ray of sickness (Hastalık Işını)}\nSeviye 3:{@spell blindness/deafness (körlük/sağırlık)}, {@spell ray of enfeeblement (Zayıflatma Işını)} \n Seviye 5:{@spell animate dead (Ölüye Can Ver)}, {@spell vampiric touch (vampir dokunuşu)} \n Seviye 7:{@spell blight (kurutma)}, {@spell death ward (Ölüm Kalkanı)} \n seviye 9:{@spell antilife shell (hayat karşıtı kabuk)}, {@spell cloudkill (Ölüm Bulutu)} \n    Bonus Uzmanlık \nRahip bu alanı 1. seviyede seçtiğinde askeri silahlarla uzmanlık kazanır. \n Ruh Biçen \n 1. seviyede rahip istediği büyü listesinden bir necromancy cantripi öğrenir. Rahip normalde sadece 1 varlığı hedef alan bir necromancy cantripi kullandığında, birbirine 5 ft uzaklıkta 2 varlığı hedef alabilir.\n"
+            },
+            {
+              "name": "Kutsal Yönlendirme: Ölüm Dokunuşu",
+              "explanation": "2. seviyeden itibaren rahip Kutsal Yönlendirmeyi kullanarak dokunuşuyla bir varlığın yaşam gücünü yok edebilir.Rahip bir varlığa yakın dövüş saldırısı ile vurduğunda Kutsal Yönlendirmeyi kullanarak ekstra nekrotik hasar verebilir. Bu hasar 5 + rahip seviyesinin iki katıdır.\n"
+            },
+            {
+              "name": "Kaçışı Olmayan Yıkım",
+              "explanation": "\n6. seviyeden itibaren rahibin negatif enerji yönlendirmesi güçlenir. Rahibin Kutsal Yönlendirme özelliği ve büyüleri ile verdiği nekrotik hasar, hedefin nekrotik direncini yok sayar.\n"
+            },
+            {
+              "name": "Kutsal Darbe",
+              "explanation": "8. seviyede rahip silah darbelerini nekrotik enerji ile güçlendirmeyi öğrenir. Rahip sırasında bir kere olmak üzere bir varlığa silah ile vurduğunda fazladan 1d8 nekrotik hasar verebilir. Rahip 14. seviyeye ulaştığında bu hasar 2d8'e çıkar.\n"
+            },
+            {
+              "name": "Gelişmiş Ruh Biçen",
+              "explanation": "17. seviyeden itibaren rahip 1 ile 5. seviye arası tek varlığı hedef alan bir Necromancy büyüsü kullandığında, birbirine 5 fit uzaklıkta iki varlığı hedef alabilir. Eğer büyü materyal bileşen harcıyorsa rahip her hedef için ayrıca harcar.\n"
+            }
+          ],
+          "source": "DMG",
+          "shortName": "Ölüm"
+        },
+        {
+          "name": "Bilgi Alanı",
+          "subclassFeatures": [
+            {
+              "name": "Bilgi Alanı",
+              "explanation": "Oghma, Boccob, Gilean, Aureon, ve Thoth gibi bilgi tanrıları öğrenme ve anlamayı her şeyin üzerinde tutarlar. Bazıları bilginin toplanıp kütüphane ve üniversitelerde paylaşılmasını ya da buluş ve zanaat gibi uygulanan bilgilerin yayılmasını öğütler. Bazı tanrılarsa bilgileri toplar ve sırlarını kendilerine saklarlar. Bazıları müritlerine çoklu evrenin sırlarını keşfederlerse inanılmaz güçlere sahip olacakları sözünü verir. Bu tanrıların müritleri nadir bilgileri kovalar, eski yazıtları toplar, dünyanın gizli yerlerine gider ve öğrenebilecekleri her şeyi öğrenirler.Belirtilen rahip seviyelerinde bu büyüleri hazırlanmış büyü listene eklersin. \n bilgi Alanı Büyüleri \n Seviye 1:{@spell command (emret)}, {@spell identify (tanımla)} \n Seviye 3:{@spell augury (falcılık)}, {@spell suggestion (tavsiye)} \n Seviye 5:{@spell nondetection (saptanmama)}, {@spell speak with dead (Ölüyle Konuş)} \n Seviye 7:{@spell arcane eye (arcane göz)}, {@spell confusion (Şaşkınlık)} \n Seviye 9:{@spell legend lore (efsane bilgisi)}, {@spell scrying (uzaktan görüş)} \n Bilginin Kutsaması \n 1. seviyede seçeceğin 2 dili öğrenirsin. Aynı zamanda Arcana, Tarih, Doğa veya Din becerilerinden ikisinde uzmanlık kazanırsın.Bu beceriler ile attığın beceri zarlarında uzmanlık bonusunun iki katını eklersin.\n"
+            },
+            {
+              "name": "Kutsal Yönlendirme: Çağların Bilgisi",
+              "explanation": "2. seviyede Kutsal Yönlendirmeni kullanarak kutsal bilgi havuzuna ulaşabilirsin. Eylem olarak bir alet ya da beceri seç. 10 dakikalığına seçilen beceri ya da alet ile uzmanlığın olur.\n"
+            },
+            {
+              "name": "Kutsal Yönlendirme: Düşünceleri Oku",
+              "explanation": "6. seviyede Kutsal Yönlendirmeni kullanarak bir varlığın düşüncelerini okuyabilirsin. Sonrasında varlığın zihnine erişimini kullanarak onu yönetebilirsin.Eylem olarak 60 fit yakınında görebildiğin bir varlığı seç. Bu varlık Akıl kurtulma zarı atmalı. Eğer varlık kurtulma zarında başarılı olursa bu özelliği onun üzerinde uzun dinlenme bitirene kadar yeniden kullanamazsın.Eğer varlık kurtulma zarında başarısız olursa 60 fit yakınında olduğu sürece onun yüzeysel düşüncelerini (zihninde en güncel olan, duygularını ve o anda ne düşündüğünü yansıtan) okuyabilirsin. Bu etki 1 dakika sürer.Bu süre içinde eylemini kullanarak bu etkiyi bitirip {@spell suggestion (tavsiye)} büyüsünü, büyü yuvası harcamadan o varlık üzerinde kullanabilirsin. Hedef otomatik olarak büyüye karşı kurtulma zarında başarısız olur.\n"
+            },
+            {
+              "name": "Güçlü Büyü Yapma",
+              "explanation": "8. seviyeden itibaren rahip cantripleri ile verdiğin hasara Akıl bonusunu ekleyebilirsin.\n"
+            },
+            {
+              "name": "Geçmişten Görüler",
+              "explanation": "17. seviyeden itibaren o anki çevren ya da tuttuğun bir nesne ile alakalı geçmişten görüleri gözünde canlandırırsın. En az 1 dakika meditasyon ve duada geçirirsin ve sonrasında yakın olayları rüya gibi bulanık parçacıklar halinde görürsün. Bu şekilde Akıl bonusun kadar dakika meditasyon yapabilirsin ve tüm bu süre boyunca bir büyüde olduğu gibi konsantre olmalısın.Bu özelliği kullandıktan sonra kısa ya da uzun dinlenme bitirene kadar yeniden kullanamazsın. \n Nesne Okuma \n Meditasyonda bir nesne tutarak o nesnenin önceki sahibi hakkında görüler alırsın. 1 dakika meditasyondan sonra, eski sahibi nesneyi nasıl bulmuş ve kaybetmiş öğrenirsin. Aynı zamanda o nesne ve sahibi ile alakalı en yakın tarihteki önemli bir olayı da görürsün. \n Alan Okuma \n Meditasyondayken yakın zamanda yakın çevrende (bir oda, sokak, tünel benzeri 50 fit küplük bir alan) olan olaylar hakkında görüler alırsın. Tarih olarak Akıl skorun kadar gün geri gidebilirsin. Her meditasyonda geçirdiğin dakika için en yakın tarihten başlayarak bir önemli olay öğrenirsin. Önemli olaylar genellikle savaşlar ve ihanetler, evlilikler ve cinayetler, doğumlar ve cenazeler gibi güçlü duyguları içerir. Bunun yanında, senin durumuna uygun olan çok daha sıradan olaylar da önemli sayılabilir.\n"
+            }
+          ],
+          "source": "PHB",
+          "shortName": "Bilgi"
+        },
+        {
+          "name": "Yaşam Alanı",
+          "subclassFeatures": [
+            {
+              "name": "Yaşam Alanı",
+              "explanation": "Yaşam alanı tüm yaşamı destekleyen temel ve canlı pozitif enerji üzerinde yoğunlaşır. Yaşam tanrıları hasta ve yaralıları iyileştirerek, ihtiyaçta olanlara yardım ederek ve yaşayan ölüler ve ölümün güçlerini yok ederek sağlık ve canlılığı desteklerler. Neredeyse tüm kötü olmayan tanrılar bu alanda nüfuz sahibi olabilir, özellikle (Chauntea, Arawai, ve Demeter) gibi tarım tanrıları, (Lathander, Pelor, ve Re-Horakhty) gibi güneş tanrıları, (Ilmater, Mishakal, Apollo, ve Diancecht) gibi şifa ve direnç tanrıları, ve (Hestia, Hathor, and Boldrei) gibi ev ve toplum tanrıları bu alanda etkilidir.Belirtilen rahip seviyelerinde bu büyüleri hazırlanmış büyüler listene eklersin. \nYaşam Alanı Büyüleri \n Seviye 1:{@spell bless (kutsama)}, {@spell cure wounds (Yaraları İyileştir)} \n Seviye 3:{@spell lesser restoration (küçük yenileme)}, {@spell spiritual weapon (ruhsal silah)} \n Seviye 5:{@spell beacon of hope (umut feneri)}, {@spell revivify (canlandır)} \n Seviye 7:{@spell death ward (Ölüm Kalkanı)}, {@spell guardian of faith (İnanç Muhafızı)} \n Seviye 9:{@spell mass cure wounds (Toplu Yara İyileştirme)}, {@spell raise dead (Ölü Dirilt)} \n Bonus Uzmanlık \n 1. seviyede bu alanı seçtiğinde ağır zırhlarla uzmanlık kazanırsın. \n Yaşam Müridi \n 1. seviyeden itibaren iyileştirme büyülerin daha etkili olur. 1. seviye ve üzeri bir büyü kullanıp bir varlığa HP yenilediğinde, varlık 2 + büyünün seviyesi kadar fazladan HP alır.\n"
+            },
+            {
+              "name": "\nKutsal Yönlendirme: Yaşamı Koru",
+              "explanation": "\n2. seviyeden itibaren Kutsal Yönlendirmeni kullanıp ciddi yaralıları iyileştirebilirsin.Eylem olarak kutsal sembolünü öne çıkarıp rahip seviyenin beş katı kadar HP yenileyebilecek bir iyileştirme enerjisi ortaya çıkarırsın. 30 fit yakınında istediğin kadar varlığı seç ve o HP'leri aralarında istediğin gibi dağıt. Bu özellik bir varlığı maximum HP'sinin yarısından fazlasını yenileyemez. Bu özelliği bir yapı ya da yaşayan ölü üzerinde kullanamazsın.\n"
+            },
+            {
+              "name": "Kutsanmış Şifacı",
+              "explanation": "6. seviyeden itibaren diğerleri üzerinde kullandığın iyileştirme büyüleri seni de iyileştirir. 1. seviye ve üzeri, senden başka bir varlığa HP yenileyen bir büyü kullandığında sende 2 + büyünün seviyesi kadar HP yenilersin.\n"
+            },
+            {
+              "name": "Kutsal Darbe",
+              "explanation": "8. seviyede silah darbelerini kutsal enerji ile güçlendirmeyi öğrenirsin. Sıranda bir kere silah saldırısıyla bir varlığa vurduğunda fazladan 1d8 radyant hasar verebilirsin. 14. seviyeye eriştiğinde bu fazladan hasar 2d8'e çıkar.\n"
+            },
+            {
+              "name": "Üstün İyileştirme",
+              "explanation": "17. seviyeden itibaren bir büyü ile HP yenilemek için normalde bir ya da daha fazla zar atacağın durumlarda zar atmak yerine her zarın max sonucunu kullanırsın. Örneğin bir varlığa 2d6 HP yenilemek yerine 12 HP yenilersin.\n"
+            }
+          ],
+          "source": "PHB",
+          "shortName": "Yaşam"
+        },
+        {
+          "name": "Işık Alanı",
+          "subclassFeatures": [
+            {
+              "name": "Işık Alanı",
+              "explanation": "Helm, Lathander, Pholtus, Branchala, Belenus, Apollo, ve Re-Horakhty gibi ışık tanrıları, yeniden doğuş ve yenilenme, gerçek, uyanıklık ve güzelliği destekler ve genellikle güneş sembolünü kullanırlar. Bu tanrıların bazıları güneşin kendisi ya da güneşi gökyüzünde taşıyan biniciler olarak tasvir edilirler. Diğerleri ise bakışları her gölgeyi delen ve tüm yalanların ardını gören yorulmak bilmeyen bekçilerdir. Bazıları sanat ve güzelliğin tanrıları olup sanatı ruhun gelişimi için bir araç olarak öğretirler. Işık tanrılarının rahipleri aydınlanmış ruhlardır. Tanrılarının verdiği güç ve ışık ile karanlık ve yalanlardan kurtulma ile görevlendirilmişlerdir.Belirlenen rahip seviyelerinde bu büyüleri hazırlanmış büyü listene ekle. \n Işık Alanı Büyüleri \n Seviye 1: {@spell burning hands (yanan eller)}, {@spell faerie fire (peri ateşi)} \n Seviye 3:{@spell flaming sphere (alevli küre)}, {@spell scorching ray (Kavurucu Işın)} \n Seviye 5:{@spell daylight (Günışığı)}, {@spell fireball (Alevtopu)} \n Seviye 7:{@spell guardian of faith (İnanç Muhafızı)}, {@spell wall of fire (ateş duvarı)} \n Seviye 9:{@spell flame strike (alev darbesi)}, {@spell scrying (uzaktan görüş)} \n Bonus Cantrip \n 1. seviyede bu alanı seçtiğinde eğer zaten bilmiyorsan ışık cantripini öğrenirsin. \n Koruyucu Işık \n 1. seviyede saldıran bir düşman ve kendi arana kutsal bir ışık yerleştirirsin. 30 fit yakınında ve görebildiğin bir varlık tarafından saldırıya uğradığında reaksiyonunu kullanıp saldırganın gözünün önünde bir ışık parlatarak o saldırıya dezavantaj verebilirsin. Körlük durumuna bağışıklığı olan bir saldırgan bu özellik tarafından etkilenmez.Bu özelliği Akıl bonusun kadar (en az 1) kullanabilirsin. Uzun dinlenme bitirdiğinde tüm harcanmış kullanımlar yenilenir.\n"
+            },
+            {
+              "name": "Kutsal Yönlendirme: Şafağın Görkemi",
+              "explanation": "2. seviyeden itibaren Kutsal Yönlendirmen ile güneş ışığını kullanıp karanlığı def eder ve düşmanlarına radyant hasar verirsin.Eylem olarak kutsal sembolünü öne çıkarırsın ve 30 fit yakınındaki tüm büyülü karanlıklar yok olur. Ek olarak 30 fit yakınındaki tüm düşman varlıklar Dayanıklılık kurtulma zarı atar. Bir varlık eğer başarısız olursa 2d10 + rahip seviyen kadar radyant hasar alır, başarılı olursa bu hasar yarılanır. Sana karşı tam siperi olan bir varlık bundan etkilenmez.\n"
+            },
+            {
+              "name": "Gelişmiş Işık",
+              "explanation": "6. seviyeden itibaren Koruyucu Işık Özelliğini 30 fit yakınında görebildiğin bir varlık senden başka birine de saldırı yaptığında kullanabilirsin.\n"
+            },
+            {
+              "name": "Güçlü Büyü Yapma",
+              "explanation": "8. seviyeden itibaren cleric cantripleri ile verdiğin hasara Akıl bonusunu eklersin.\n"
+            },
+            {
+              "name": "Işık Tacı",
+              "explanation": "17. seviyeden itibaren eylemini kullanarak bir güneş ışığı aurası etkinleştirirsin. Bu aura 1 dakika sonunda ya da sen başka bir eylem kullanarak söndürdüğünde biter. 60 fit çapında parlak ışık ve onun ötesinde 30 fit loş ışık yaymaya başlarsın. Parlak ışıkta olan düşmanların radyant ya da ateş hasarı veren büyülere karşı attıkları kurtulma zarlarında dezavantajlı olurlar.\n"
+            }
+          ],
+          "source": "PHB",
+          "shortName": "Işık"
+        },
+        {
+          "name": "Doğa Alanı",
+          "subclassFeatures": [
+            {
+              "name": "Doğa Alanı",
+              "explanation": "Doğanın tanrıları doğanın kendisi kadar çeşitlidirler. (Silvanus, Obad-Hai, Chislev, Balinor, ve Pan) gibi derin ormanlardan Eldath gibi belirli pınarlar ve koruluklarla bağdaştırılmış dostçul tanrılara kadar uzanır.Druidler doğaya tüm gücüyle tapıp bu tanrılardan birine gizemli ritüeller ve kendi dilleri dışında unutulmuş dualar ile hizmet ederler. Bu tanrıların çoğu rahiplere de sahiptir, bir doğa tanrısının gayelerini yerine getirmede daha aktif rol oynayan savaşçılar. Bu rahipler varlıklarıyla ormanları kirleten yaratıkları avlayabilir, inançlıların hasadını kutsayabilir, ya da tanrılarını kızdıranların ekinini kurutabilirler.Belirtilen rahip seviyelerinde bu büyüleri hazırlanmış büyü listene ekle. \n Doğa Alanı Büyüleri \n Seviye 1:{@spell animal friendship (hayvan dostluğu)}, {@spell speak with animals (hayvanlarla konuş)} \n Seviye 3:{@spell barkskin (kabukderi)}, {@spell spike growth (diken büyümesi)} \n Seviye 5:{@spell plant growth (bitki büyümesi)}, {@spell wind wall (rüzgar duvarı)} \n Seviye 7:{@spell dominate beast (hayvana hükmet)}, {@spell grasping vine (kavrayan sarmaşık)} \n Seviye 9:{@spell insect plague (böcek sürüsü)}, {@spell tree stride (ağaç geçişi)} \n Doğanın Hizmetkarı \n 1. seviyede seçeceğin bir druid cantripini öğrenirsin. Aynı zamanda Hayvan İdaresi, Doğa ya da Hayatta Kalma becerilerinden birinde de uzmanlık kazanırsın. \n Bonus Uzmanlık \n 1. seviyede ağır zırhlarla uzmanlık kazanırsın.\n"
+            },
+            {
+              "name": "Kutsal Yönlendirme: Hayvan ve Bitkileri Cezbet",
+              "explanation": "2. seviyeden itibaren Kutsal Yönlendirmeni hayvan ve bitkileri cezbetmek için kullanabilirsin.Eylem olarak kutsal sembolünü öne çıkarıp tanrının adını anarsın. 30 fit yakınında seni görebilen tüm hayvan ve bitkiler Akıl kurtulma zarı atar. Eğer varlık kurtulma zarında başarısız olursa senin tarafından 1 dakikalığına ya da hasar alıncaya dek cezbedilmiş olur. Cezbedilmişken sana ve belirlediğin varlıklara dosttur.\n"
+            },
+            {
+              "name": "Elementleri İndirge",
+              "explanation": "6. seviyeden itibaren sen veya 30 fit yakınındaki bir varlık asit, soğuk, ateş, yıldırım ya da ses hasarı alırsa, reaksiyonunu kullanarak bu hasara karşı direnç verebilirsin.\n"
+            },
+            {
+              "name": "Kutsal Darbe",
+              "explanation": "8. seviyede silah saldırılarını kutsal enerji ile güçlendirmeyi öğrenirsin. Sıranda bir kereliğine silah saldırısıyla bir varlığa vurduğunda, o saldırının fazladan 1d8 soğuk, ateş ya da yıldırım hasarı vermesini sağlarsın. 14. seviyeye eriştiğinde bu fazladan hasar 2d8'e çıkar.\n"
+            },
+            {
+              "name": "Doğanın Üstadı",
+              "explanation": "17. seviyede hayvan ve bitki varlıklarını yönetme yetisine sahip olursun. Varlıklar senin Hayvan ve Bitkileri Cezbet özelliğin ile cezbedilmiş haldeyken, sıranda bonus eylem kullanıp her birinin ne yapması gerektiği bildiren sesli komutlar verebilirsin.    \n"
+            }
+          ],
+          "source": "PHB",
+          "shortName": "Doğa"
+        },
+        {
+          "name": "Fırtına Alanı",
+          "subclassFeatures": [
+            {
+              "name": "Fırtına Alanı",
+              "explanation": "Talos, Umberlee, Kord, Zeboim, Zeus, ve Thor gibi fırtına alanına hükmeden tanrılar göğe, denize ve fırtınalara hükmederler. Şimşek ve yıldırım tanrıları, deprem tanrıları, bazı ateş tanrıları ve belirli güç, cesaret ve şiddet tanrıları bu alanda hükmederler. Bazı panteonlarda bu alanda hükmeden tanrılar yıldırımları ile seri adalet getirmeleri ile bilinirler. Denizci toplumların panteonlarında bunlar okyanus tanrıları ve denizcilerin efendileridir. Fırtına tanrıları rahiplerini halkta korku uyandırmak ve ya onları doğru yolda tutmak ya da daha fazla kurban vermelerini sağlamak için gönderirler.Belirtilen rahip seviyelerinde bu büyüleri hazırlanmış büyü listene ekle. \n Fırtına Alanı Büyüleri \n Seviye 1:{@spell fog cloud (sis bulutu)}, {@spell thunderwave (gürleyen dalga)} \n Seviye 3:{@spell gust of wind (kuvvetli rüzgar)}, {@spell shatter (paramparça et)} \n Seviye 5:{@spell call lightning (Yıldırım Çağır)}, {@spell sleet storm (dolu fırtınası)} \n Seviye 7:{@spell control water (suyu yönet)}, {@spell ice storm (buz fırtınası)} \n Seviye 9:{@spell destructive wave (yıkıcı dalga)}, {@spell insect plague (böcek sürüsü)} \n Bonus Uzmanlıklar \n 1. seviyede askeri silahlar ve ağır zırhlarla uzmanlık kazanırsın. \n Fırtınanın Hiddeti \n 1. seviyede saldırganlara gök gürültüsüyle karşılık verirsin. 5 fit yakınında görebildiğin bir varlık sana bir saldırıyla vurduğunda, reaksiyonunu kullanarak varlığı Çeviklik kurtulma zarı atmaya zorlayabilirsin. Varlık başarısız olursa 2d8 yıldırım ya da ses hasarı alır, başarılı olursa bu hasar yarılanır.Bu özelliği Akıl bonusun kadar (en az 1) kullanabilirsin. Tüm harcanan kullanımlar uzun dinlenme bitirdiğinde yenilenir.\n"
+            },
+            {
+              "name": "Kutsal Yönlendirme: Yıkıcı Öfke",
+              "explanation": "2. seviyeden itibaren Kutsal Yönlendirmen fırtınanın gücünü kontrolsüz bir şiddetle kullanmanı sağlar.Yıldırım ya da ses hasar zarı attığında, Kutsal Yönlendirmeni kullanıp max hasarı verebilirsin.\n"
+            },
+            {
+              "name": "Yıldırım Darbe",
+              "explanation": "6. seviyede Büyük ya da daha küçük bir varlığa yıldırım hasarı verdiğinde, onu aynı zamanda senden uzağa 10 fit itebilirsin.\n"
+            },
+            {
+              "name": "Kutsal Darbe",
+              "explanation": "8. seviyede silah darbelerini kutsal enerji ile güçlendirmeyi öğrenirsin. Sıranda bir kereliğine bir varlığa silah saldırısı ile vurduğunda, saldırının fazladan 1d8 ses hasarı vermesini sağlayabilirsin. 14. seviyeye eriştiğinde bu fazladan hasar 2d8'e çıkar.\n"
+            },
+            {
+              "name": "Fırtınadoğan",
+              "explanation": "17. seviyede yeraltında ya da kapalı bir yerde olmadığın sürece yürüme hızına eşit uçma hızın olur.\n"
+            }
+          ],
+          "source": "PHB",
+          "shortName": "Fırtına"
+        },
+        {
+          "name": "Hile Alanı",
+          "subclassFeatures": [
+            {
+              "name": "Hile Alanı",
+              "explanation": "Tymora, Beshaba, Olidammara, Garl Glittergold, ve Loki gibi hile alanı tanrıları, ölümlüler ve tanrıların kabul ettiği düzende sorun yaratan kışkırtıcılar ve haylazlardır. Hırsızlar, kumarbazlar, düzenbazlar, isyancılar ve kurtarıcıların efendileridir. Onların rahipleri dünyada bir bozucu güçtür; kibiri deler, tiranlarla alay eder, zenginden çalar, esiri serbest bırakır ve kutsal geleneklerle eğlenirler. Doğrudan yüzleşme yerine hile, aldatma, hırsızlık ve şakaları tercih ederler.belirli rahip seviyelerinde bu büyüleri hazırlanmış büyü listene ekle.\n Hile Alan Büyüleri \n Seviye 1:{@spell charm person (kişi cezbet)}, {@spell disguise self (kılık değiştir)} \n Seviye 3:{@spell mirror image (ayna görüntü)}, {@spell pass without trace (İz bırakmadan geç)}\n Seviye 5:{@spell blink (yansön)}, {@spell dispel magic (büyü defet)} \n Seviye 7:{@spell dimension door (boyut kapısı)}, {@spell polymorph (polimorf)} \n Seviye 9:{@spell dominate person (kişiye hükmet)}, {@spell modify memory (hafıza değiştir)} \n Hilebazın Kutsaması \n 1. seviyede bu alanı seçmenden itibaren, eylem olarak senin dışında bir gönüllü varlığa dokunup ona Çeviklik (Gizlenme) zarlarında avantaj verebilirsin. Bu kutsama 1 saat ya da bu özelliği yeniden kullanana dek sürer.\n"
+            },
+            {
+              "name": "Kutsal Yönlendirme: İkiyüzlülüğü Çağır",
+              "explanation": "2. seviyeden itibaren Kutsal Yönlendirmeni kendinin bir illüzyon kopyasını yaratmak için kullanabilirsin.Eylem olarak kendinin kusursuz bir illüzyonunu yaratırsın, bu 1 dakika ya da sen konsantrasyonunu (bir büyüye konsantre olur gibi) kaybedene dek sürer. İllüzyon 30 fit yakınında görebildiğin boş bir karede ortaya çıkar. Sıranda bonus eylem olarak illüzyonu 30 fit'e kadar görebildiğin bir kareye ilerletebilirsin, ama daima 120 fit yakınında kalmalı.Süresi boyunca illüzyonun karesindeymişçesine büyü yapabilirsin ama kendi duyularını kullanmalısın. Ek olarak, hem sen hem de illüzyonun, illüzyonu görebilen bir varlığın 5 fit yakınındayken o varlığa karşı yaptığın saldırılarda avantajın olur. Bunun sebebi illüzyonun varlık için dikkat dağıtıcı olmasıdır.\n"
+            },
+            {
+              "name": "Kutsal Yönlendirme: Gölge Pelerini",
+              "explanation": "6. seviyeden itibaren Kutsal Yönlendirmeni ortadan kaybolmak için kullanabilirsin.Eylem olarak bir sonraki sıranın sonuna kadar görünmez olursun. Saldırır ya da büyü yaparsan görünür olursun.\n"
+            },
+            {
+              "name": "Kutsal Darbe",
+              "explanation": "8. seviyede silah darbelerini tanrından bir hediye olan zehir ile güçlendirebilirsin. Sıranda bir kereliğine bir varlığa silah saldırısıyla vurduğunda, saldırının fazladan 1d8 zehir hasarı vermesini sağlayabilirsin. 14. seviyeye eriştiğinde bu fazladan hasar 2d8'e çıkar.\n"
+            },
+            {
+              "name": "Gelişmiş İkiyüzlülük",
+              "explanation": "17. seviyede İkiyüzlülüğü Çağır özelliğini kullandığında bir yerine 4'e kadar kopyanı yaratabilirsin. Sıranda bonus eylem olarak istediğin kadarını 30 fit'e kadar hareket ettirebilirsin, ama daima 120 fit yakınında kalmalılar.\n\n"
+            }
+          ],
+          "source": "PHB",
+          "shortName": "Hile"
+        },
+        {
+          "name": "Savaş Alanı",
+          "subclassFeatures": [
+            {
+              "name": "Savaş Alanı",
+              "explanation": "Savaş kendini birçok yolla gösterir. Sıradan insanları kahraman yapabilir. Çevresinde cesaret ve zalimlik birbiri etrafında dönerken çaresiz ve korkunç olabilir. Her durumda savaş tanrıları bunları izler ve savaşçıları başarıları için ödüllendirir. Bu tanrıların rahipleri savaşta öne çıkarlar, diğerlerine savaşmaları için ilham verip şiddeti ibadet olarak sunarlar. (Torm, Heironeous, ve Kiri-Jolith) gibi cesaret ve onur, (Erythnul, Gruumsh, ve Ares) gibi yıkım ve yağma, (Bane, Hextor, ve Maglubiyet) gibi fetih ve üstünlük tanrıları bu alanda hükmeder.(Tempus, Nike, ve Nuada) gibi diğer savaş tanrıları daha tarafsız kalırlar, savaşı her yönüyle sevip savaşçıları her durumda desteklerler.Belirtilen rahip seviyelerinde bu büyüleri hazırlanmış büyü listene ekle.\n Savaş Alanı Büyüleri\n Seviye 1:{@spell divine favor (kutsal lütuf)}, {@spell shield of faith (İnanç kalkanı)} \n Seviye 3:{@spell magic weapon (büyülü silah)}, {@spell spiritual weapon (ruhsal silah)} \n Seviye 5:{@spell crusader's mantle (Mücadelecinin Örtüsü)}, {@spell spirit guardians (ruhsal muhafızlar)} \n Seviye 7:{@spell freedom of movement (Hareket Özgürlüğü)}, {@spell stoneskin (taşderi)} \n Seviye 9:{@spell flame strike (alev darbesi)}, {@spell hold monster (yaratık zapt et)}\n Bonus Uzmanlıklar\n 1. seviyede askeri silahlar ve ağır zırhlarla uzmanlık kazanırsın.\n Savaş Rahibi\n 1. seviyeden itibaren sen savaşırken tanrın sana ilham kıvılcımları gönderir. Saldırı eylemini kullandığında bonus eylem olarak bir silahlı saldırı yapabilirsin. Bu özelliği Akıl bonusun kadar (en az 1) kullanabilirsin. Tüm harcanmış kullanımlar uzun dinlenme sonrası yenilenir.\n"
+            },
+            {
+              "name": "Kutsal Yönlendirme: Güdümlü Darbe",
+              "explanation": "2. seviyeden itibaren Kutsal Yönlendirmeni doğaüstü isabetle saldırmak için kullanabilirsin. Bir saldırı zarı attığında Kutsal Yönlendirmeni kullanıp zara +10 ekleyebilirsin. Bu seçimi zar sonucunu gördükten sonra ama DM saldırının vurup vurmadığını söylemeden yapabilirsin.\n"
+            },
+            {
+              "name": "Kutsal Yönlendirme: Savaş Tanrısının Kutsaması",
+              "explanation": "6. seviyede 30 fit yakınındaki bir varlık saldırı zarı attığında, reaksiyonun ile Kutsal Yönlendirme kullanarak bu zara +10 ekleyebilirsin. Bu seçimi zar sonucunu gördükten sonra ama DM saldırının vurup vurmadığını söylemeden yapabilirsin.\n"
+            },
+            {
+              "name": "Kutsal Darbe",
+              "explanation": "8. seviyede silah darbelerini kutsal enerji ile güçlendirmeyi öğrenirsin. Sıranda bir kereliğine bir varlığa silah saldırısıyla vurduğunda, fazladan 1d8 silahının verdiği hasar tipinden ekleyebilirsin. 14. seviyeye eriştiğinde bu fazladan hasar 2d8'e çıkar.\n"
+            },
+            {
+              "name": "Savaş Avatarı",
+              "explanation": "17. seviyede büyüsüz silahlardan gelen ezici, delici ve kesici hasara direncin olur.\n"
+            }
+          ],
+          "source": "PHB",
+          "shortName": "Savaş"
+        },
+        {
+          "name": "Ocak Alanı",
+          "subclassFeatures": [
+            {
+              "name": "Ocak Alanı",
+              "explanation": "Ocak alanı tanrıları metal işleyen zanaatkarların efendileridir. Köyde nal ve saban döven mütevazi demirciden, elmas uçlu mithral okları şeytan efendilerini deviren elf üstada kadar yayılan hizmetkarları vardır. Ocağın tanrıları yeterince sabır ve sıkı çalışmayla, en zor işlenen metalin bile bir cevher yığınından göz kamaştıran bir esere dönüşebileceğini öğütler. Bu tanrıların rahipleri karanlık güçlerine düşmüş objeleri ararlar, orklar tarafından ele geçirilmiş madenleri temizlerler ve güçlü büyülü eşyalar yapmak için gereken nadir ve mükemmel materyalleri keşfederler. Bu tanrıların hizmetkarları zanaatları ile gurur duyarlar ve kendilerini koruyacak ağır zırh ve güçlü silahları dövmeye gönüllüdürler. Bu alanın tanrılarına örnekler şunlardır; Gond, Reorx, Onatar, Moradin, Hephaestus, ve Goibhniu.Belirtilen rahip seviyelerinde bu büyüleri hazırlanmış büyü listene ekle. \n Seviye 1:{@spell identify (tanımla)}, {@spell searing smite (Dağlayan Çarpma)}\n Seviye 3:{@spell heat metal (Metal Isıt)}, {@spell magic weapon (büyülü silah)} \n Seviye 5:{@spell elemental weapon (elemental silah)}, {@spell protection from energy (enerjiden korunma)} \n Seviye 7:{@spell fabricate (Üret)}, {@spell wall of fire (ateş duvarı)} \n Seviye 9:{@spell animate objects (nesneleri canlandır)}, {@spell creation (yaratılış)}\n Bonus Uzmanlık \n 1. seviyede bu alanı seçince ağır zırhlarla ve demirci aletleriyle uzmanlık kazanırsın.\n Ocağın Kutsaması\n 1. seviyede silah ve zırhlara büyü aşılamayı öğrenirsin. Uzun dinlenme sonunda bir büyüsüz zırha, basit ya da askeri bir silaha dokunursun. Sen ölene ya da bir sonraki uzun dinlenmenin sonuna kadar bu nesne bir büyülü eşya olur ve eğer zırhsa AC'ye +1 bonus, eğer silahsa saldırı ve hasar zarlarına +1 bonus ekler.Once you use this feature, you can't use it again until you finish a long rest.\n"
+            },
+            {
+              "name": "Kutsal Yönlendirme: Zanaatkarın Kutsaması",
+              "explanation": "2. seviyeden itibaren Kutsal Yönlendirmeni basit eşyalar yaratmak için kullanabilirsin.Bir saat süren bir ritüel ile büyüsüz ve içinde metal olan eşyalar yaratabilirsin. Örnek olarak; basit ya da askeri bir silah, bir zırh seti, 10 adet ok, bir alet seti ya da başka metal nesneler. Bu yaratış bir saatin sonunda gerçekleşir ve 5 fit yakınında boş bir yüzeyde şekil bulur.Yarattığın şey 100 gp değerinin üzerinde olamaz. Bu ritüelin parçası olarak yarattığın eşyanın değerine eşit değerde metal koymalısın, metalik para da buna dahildir. Bu metal ritüel sonunda geri getirilemeyecek bir şekilde yeni formuna dönüşür ve eşyanın metal olmayan parçalarını bile büyülü bir şekilde dönüşerek oluşturur. Bu ritüel metal içeren büyüsüz bir eşyanın kopyasını oluşturmak için kullanılabilir, ritüel boyunca asıl eşya seninle olduğu sürece bu mümkün olacaktır. Bunun en güzel örneği bir anahtardır.\n"
+            },
+            {
+              "name": "Ocağın Ruhu",
+              "explanation": "6. seviyeden itibaren ocaktaki ustalığın sana özel yetenekler kazandırır: \n 1-Ateş hasarına direnç kazanırsın. \n 2-Ağır zırh giyerken AC'ne +1 bonus alırsın.\n"
+            },
+            {
+              "name": "Kutsal Darbe",
+              "explanation": "8. seviyede silah darbelerini ocağın alevli gücü ile güçlendirmeyi öğrenirsin. Sıranda bir kereliğine bir varlığa silah saldırısıyla vurduğunda, saldırının fazladan 1d8 ateş hasarı vermesini sağlayabilirsin. 14. seviyeye eriştiğinde bu fazladan hasar 2d8'e çıkar.\n"
+            },
+            {
+              "name": "Ocak ve Ateş Azizi",
+              "explanation": "17. seviyede ateş ve metalle olan kutsal bağın daha da güçlenir: \n 1-Ateş hasarına bağışıklık kazanırsın. \n 2-Ağır zırh giyerken büyüsüz saldırılardan gelen ezici, delici ve kesici hasara direncin olur.\n"
+            }
+          ],
+          "source": "XGE",
+          "shortName": "Ocak"
+        },
+        {
+          "name": "Mezar Alanı",
+          "subclassFeatures": [
+            {
+              "name": "Mezar Alanı",
+              "explanation": "Mezarın tanrıları yaşam ve ölüm arasındaki çizgiyi gözetirler. Bu tanrılar için ölüm ve ahiret çoklu evrenin vazgeçilmez parçalarındandır. Ölümün huzurunu bozmak sapkınlıktır. Kelemvor, Wee Jas, Hades, Anubis, ve Osiris bu alanın tanrıları arasındadır. Bu tanrıların müritleri kaybolmuş ruhları huzura kavuşturmak, ölenlerin acısını dindirmek ve yaşayan ölüleri yok etmek ile ilgilenirler. Onların büyüsü aynı zamanda ölümü bir süreliğine geciktirmeyi de sağlar, özellikle bu dünyada daha yapacak işleri olan kişiler için. Bu sadece ölümü geciktirmedir, onu reddetme değil. Ölüm daima ölümlüyü bulacaktır. \n  Alan Büyüleri \n Seviye 1:{@spell bane (felaket)}, {@spell false life (sahte yaşam)} \n Seviye 3:{@spell gentle repose (huzurlu uyku)}, {@spell ray of enfeeblement (Zayıflatma Işını)} \n Seviye 5:{@spell revivify (canlandır)}, {@spell vampiric touch (vampir dokunuşu)} \n Seviye 7:{@spell blight (kurutma)}, {@spell death ward (Ölüm Kalkanı)} \n Seviye 9:{@spell antilife shell (hayat karşıtı kabuk)}, {@spell raise dead (Ölü Dirilt)} \n Fanilik Çemberi \n 1. seviyede yaşam ve ölüm arasındaki çizgiyi kontrol etmeyi öğrenirsin. 0 HP'ye düşmüş bir varlığa HP yenileyecek bir büyü kullandığında, atacağın zarların maksimum değerlerini kullanabilirsin.Ek olarak, {@spell spare the dying (Öleni Esirge)} cantripini öğrenirsin ve bu bildiğin rahip cantripleri sayısını etkilemez. Senin için bunun 30 fit menzili vardır ve bonus eylem olarak kullanabilirsin. \nMezarın Gözleri \n 1. seviyede, varlığı doğal yaşam döngüsüne hakaret olan yaşayan ölülerin varlığını hissetme yeteneğini kazanırsın. Eylem olarak farkındalığını büyülü bir şekilde artırıp yaşayan ölüleri tespit edersin. Sonraki sıranın sonuna kadar 60 fit yakınında tam siper arkasında olmayan ve divination büyülerine karşı koruması olmayan yaşayan ölülerin yerini bilirsin. Bu his sana varlığın gücü ya da kimliği hakkında bilgi vermez.Bu özelliği Akıl bonusun kadar (en az 1) kullanabilirsin. Tüm harcanmış kullanımlar uzun dinlenme sonrası yenilenir.\n"
+            },
+            {
+              "name": "Kutsal Yönlendirme: Mezara Giden Yol",
+              "explanation": "2. seviyeden itibaren Kutsal Yönlendirmeni kullanarak başka bir varlığın yaşam gücünü tükenmesi için işaretleyebilirsin.Eylem olarak 30 fit yakınında görebildiğin bir varlığı seçip sonraki sıranın sonuna kadar lanetlersin. Senin veya bir dostunun yaptığı ilk saldırının tüm hasarına zayıflığı olur ve sonra lanet biter.\n"
+            },
+            {
+              "name": "Ölüm Kapısının Bekçisi",
+              "explanation": "6. seviyede ölümün ilerlemesini durdurma yeteneğin olur. Sen ya da 30 fit yakınında görebildiğin başka bir varlık kritik bir saldırıya maruz kaldığında reaksiyonunu kullanarak bunu normal bir saldırıya çevirebilirsin. Kritik saldırı ile gelen bütün yan etkiler iptal olur.Bu özelliği Akıl bonusun kadar (en az 1) kullanabilirsin. Tüm harcanmış kullanımlar uzun dinlenme sonrası yenilenir.\n"
+            },
+            {
+              "name": "Güçlü Büyü Yapma",
+              "explanation": "8. seviyeden itibaren rahip cantripleri ile verdiğin hasara Akıl bonusunu ekleyebilirsin.\n"
+            },
+            {
+              "name": "Ruh Muhafızı",
+              "explanation": "17. seviyeden itibaren, ayrılan bir ruhtan aldığın enerji ile yaşayanları iyileştirebilirsin. 60 fit yakınında görebildiğin bir düşman öldüğünde, sen ya da 60 fit yakınında seçeceğin bir varlık düşmanın HD'si (Hit Dice) kadar HP yenilersin. Bu özelliği bilinçsizken kullanamazsın. Bunu kullandıktan sonra bir sonraki sıranın başına kadar bir daha kullanamazsın.\n\n"
+            }
+          ],
+          "source": "XGE",
+          "shortName": "Mezar"
+        }
+      ]
+    }
+  ]
+}

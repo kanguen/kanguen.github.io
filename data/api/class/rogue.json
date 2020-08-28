@@ -1,0 +1,1238 @@
+{
+  "class": [
+    {
+      "name": "Düzenbaz",
+      "source": "PHB",
+      "hd": {
+        "number": 1,
+        "faces": 8
+      },
+      "proficiency": [
+        "çev",
+        "zek"
+      ],
+      "classTableGroups": [
+        {
+          "colLabels": [
+            "Sinsi Saldırı"
+          ],
+          "rows": [
+            [
+              {
+                "type": "dice",
+                "toRoll": [
+                  {
+                    "number": 1,
+                    "faces": 6
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "dice",
+                "toRoll": [
+                  {
+                    "number": 1,
+                    "faces": 6
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "dice",
+                "toRoll": [
+                  {
+                    "number": 2,
+                    "faces": 6
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "dice",
+                "toRoll": [
+                  {
+                    "number": 2,
+                    "faces": 6
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "dice",
+                "toRoll": [
+                  {
+                    "number": 3,
+                    "faces": 6
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "dice",
+                "toRoll": [
+                  {
+                    "number": 3,
+                    "faces": 6
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "dice",
+                "toRoll": [
+                  {
+                    "number": 4,
+                    "faces": 6
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "dice",
+                "toRoll": [
+                  {
+                    "number": 4,
+                    "faces": 6
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "dice",
+                "toRoll": [
+                  {
+                    "number": 5,
+                    "faces": 6
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "dice",
+                "toRoll": [
+                  {
+                    "number": 5,
+                    "faces": 6
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "dice",
+                "toRoll": [
+                  {
+                    "number": 6,
+                    "faces": 6
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "dice",
+                "toRoll": [
+                  {
+                    "number": 6,
+                    "faces": 6
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "dice",
+                "toRoll": [
+                  {
+                    "number": 7,
+                    "faces": 6
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "dice",
+                "toRoll": [
+                  {
+                    "number": 7,
+                    "faces": 6
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "dice",
+                "toRoll": [
+                  {
+                    "number": 8,
+                    "faces": 6
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "dice",
+                "toRoll": [
+                  {
+                    "number": 8,
+                    "faces": 6
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "dice",
+                "toRoll": [
+                  {
+                    "number": 9,
+                    "faces": 6
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "dice",
+                "toRoll": [
+                  {
+                    "number": 9,
+                    "faces": 6
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "dice",
+                "toRoll": [
+                  {
+                    "number": 10,
+                    "faces": 6
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "type": "dice",
+                "toRoll": [
+                  {
+                    "number": 10,
+                    "faces": 6
+                  }
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "subclasses": [
+            {
+              "name": "Arcane Hilekar",
+              "source": "PHB"
+            }
+          ],
+          "colLabels": [
+            "{@filter Bilinen Cantripler|spells|level=0|subclass=Arcane Trickster}",
+            "Bilinen Büyüler"
+          ],
+          "rows": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              4,
+              8
+            ],
+            [
+              4,
+              8
+            ],
+            [
+              4,
+              9
+            ],
+            [
+              4,
+              10
+            ],
+            [
+              4,
+              10
+            ],
+            [
+              4,
+              11
+            ],
+            [
+              4,
+              11
+            ],
+            [
+              4,
+              11
+            ],
+            [
+              4,
+              12
+            ],
+            [
+              4,
+              13
+            ]
+          ]
+        },
+        {
+          "title": "Büyü Seviyesi Başına Büyü Yuvaları",
+          "subclasses": [
+            {
+              "name": "Arcane Hilekar",
+              "source": "PHB"
+            }
+          ],
+          "colLabels": [
+            "{@filter 1.|spells|level=1|subclass=Arcane Trickster}",
+            "{@filter 2.|spells|level=2|subclass=Arcane Trickster}",
+            "{@filter 3.|spells|level=3|subclass=Arcane Trickster}",
+            "{@filter 4.|spells|level=4|subclass=Arcane Trickster}"
+          ],
+          "rows": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              2,
+              0,
+              0
+            ],
+            [
+              4,
+              2,
+              0,
+              0
+            ],
+            [
+              4,
+              2,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              2,
+              0
+            ],
+            [
+              4,
+              3,
+              2,
+              0
+            ],
+            [
+              4,
+              3,
+              2,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              1
+            ],
+            [
+              4,
+              3,
+              3,
+              1
+            ]
+          ]
+        }
+      ],
+      "startingProficiencies": {
+        "armor": [
+          "hafif"
+        ],
+        "weapons": [
+          "basit",
+          "el arbaletleri",
+          "uzun kılıçlar",
+          "meçler",
+          "kısa kılıçlar"
+        ],
+        "tools": [
+          "hırsızlık aletleri"
+        ],
+        "skills": {
+          "choose": 4,
+          "from": [
+            "Akrobasi",
+            "Atletizm",
+            "Aldatma",
+            "Sezgi",
+            "Gözdağı",
+            "İnceleme",
+            "Algı",
+            "Performans",
+            "İkna",
+            "El Çabukluğu",
+            "Gizlenme"
+          ]
+        }
+      },
+      "startingEquipment": {
+        "additionalFromBackground": true,
+        "default": [
+          "(a) bir meç ya da (b) bir kısa kılıç",
+          "(a) bir kısa yay ve 20 okluk sadak ya da (b) bir kısa kılıç",
+          "(a) bir hırsız paketi, (b) bir zindancı paketi, ya da (c) bir kaşif paketi",
+          "Deri zırh, iki hançer, ve hırsızlık aletleri"
+        ],
+        "goldAlternative": "4d4 × 10"
+      },
+      "classFeatures": [
+        [
+          {
+            "name": "Ekspertiz",
+            "entries": "1. seviyede ya iki beceri uzmanlığını ya da bir beceri uzmanlığı vehırsızlık aletlerini seç. Bu seçilenlerle atacağın zarlarda uzmanlıkbonusun ikiye katlanır.6. seviyede yine iki beceri uzmanlığını ya da bir beceri uzmanlığı ve hırsızlık aletlerini bu özellik için seçebilirsin."
+          },
+          {
+            "name": "Sinsi Saldırı",
+            "entries": "1. seviyeden itibaren düşmanın boşluklarını yakalayıp sinsice saldırmayıbilirsin. Her sıranda bir kere, eğer saldırıda avantajın varsa birvarlığa vurduğunda fazladan 1d6 hasar verebilirsin. Saldırı bir becerisilahı ya da menzilli bir silah ile yapılmalı.Eğer hedefin 5 fit yakınında başka bir düşman varsa (genellikle senindostun) ve o düşman bilinçsiz değilse, senin de saldırıda dezavantajınyoksa Sinsi Saldırı için saldırıda avantaj gerekmez.Bu sınıfta seviye atladıkça fazladan hasar miktarı Düzenbaz tablosunun Sinsi Saldırı sütununda görülebileceği üzere artar."
+          },
+          {
+            "name": "Hırsız Argosu",
+            "entries": "Eğitimin sırasında şive, jargon ve kod karışımı olan ve çok sıradan görünen konuşmalara gizli mesajlar saklayabildiğin hırsız argosunu öğrendin. Sadece başka hırsız argosunu bilen bir varlık bu gizli mesajları anlayabilir. Bir fikri açıkça konuşmaya oranla bu argoyla bilgi aktarımı 4 kat daha uzun sürer.Ek olarak, bir alanın tehlikeli ya da bir hırsız loncasına ait olup olmadığı, yakında ganimet olup olmadığı, bir alandaki insanların hırsızlık için kolay hedef oldukları ya da kaçan hırsızlara sığınak verecekleri gibi kısa mesajlar aktaran gizli sembolleri bilirsin"
+          }
+        ],
+        [
+          {
+            "name": "Kurnaz Eylem",
+            "entries": "2. seviyeden itibaren çabuk düşünmen ve çevikliğin hızlı hareket edipfaaliyete geçmeni sağlar. Savaşta her sıranda bir bonus eylemkullanabilirsin. Bu bonus eylem sadece Depar, Ayrılma ve Saklanmaeylemleri için kullanılabilir."
+          }
+        ],
+        [
+          {
+            "name": "Düzenbazlık Modeli",
+            "entries": "3. seviyede mevcut listeden bir model seçip düzenbazlık yeteneklerini buyönde geliştirmeye çalışırsın. Model seçimin sana 3, 9, 13 ve 17.seviyelerde yeni özellikler katar.",
+            "gainSubclassFeature": true
+          }
+        ],
+        [
+          {
+            "name": "Yetenek Skoru Gelişimi",
+            "entries": "4. seviyeye eriştiğinde bir yetenek skorunu 2 ya da 2 ayrı yetenekskorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu20'nin üzerine çıkaramazsın.\nEğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
+          }
+        ],
+        [
+          {
+            "name": "Olağanüstü Kaçınma",
+            "entries": "5. seviyeden itibaren görebildiğin bir saldırgan, bir saldırı ile sanavurursa reaksiyonunu kullanıp saldırının hasarını yarıya indirebilirsin."
+          }
+        ],
+        [
+          {
+            "name": "Ekspertiz",
+            "entries": "6. seviyede iki tane daha beceri uzmanlığını ya da bir beceri uzmanlığıve hırsızlık aletlerini Ekspertiz özelliği için seçebilirsin."
+          }
+        ],
+        [
+          {
+            "name": "Sıyrılma",
+            "entries": "7. seviyede içgüdüsel çevikliğin bazı alan etkilerinden kurtulmanısağlar. Buna örnek olarak bir mavi ejderhanın yıldırım nefesi ya da{@spell fireball (alevtopu)} büyüsü verilebilir. Sana yarı hasar almakiçin Çeviklik kurtulma zarı atmanı gerektirecek bir etkiye maruzkaldığında; eğer başarılı olursan hiç hasar almazsın ve başarısızolduğunda sadece yarı hasarı alırsın."
+          }
+        ],
+        [
+          {
+            "name": "Yetenek Skoru Gelişimi",
+            "entries": "8. seviyeye eriştiğinde bir yetenek skorunu 2 ya da 2 ayrı yetenekskorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu20'nin üzerine çıkaramazsın.\nEğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
+          }
+        ],
+        [
+          {
+            "name": "Düzenbazlık Modeli Özelliği",
+            "entries": "9. seviyede Düzenbazlık Modelinin sunduğu bir özellik kazanırsın.",
+            "gainSubclassFeature": true
+          }
+        ],
+        [
+          {
+            "name": "Yetenek Skoru Gelişimi",
+            "entries": "10. seviyeye eriştiğinde bir yetenek skorunu 2 ya da 2 ayrı yetenekskorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu20'nin üzerine çıkaramazsın.\nEğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
+          }
+        ],
+        [
+          {
+            "name": "Güvenilir Beceri",
+            "entries": "11. seviyeye kadar seçilen becerilerini neredeyse kusursuz bir halegetirdin. Uzmanlık bonusunu ekleyebildiğin bir yetenek zarı attığındad20'lik zarda 9 ve altı sonuçları 10 kabul edersin."
+          }
+        ],
+        [
+          {
+            "name": "Yetenek Skoru Gelişimi",
+            "entries": "12. seviyeye eriştiğinde bir yetenek skorunu 2 ya da 2 ayrı yetenekskorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu20'nin üzerine çıkaramazsın.\nEğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
+          }
+        ],
+        [
+          {
+            "name": "Düzenbazlık Modeli Özelliği",
+            "entries": "13. seviyede Düzenbazlık Modelinin sunduğu bir özellik kazanırsın.",
+            "gainSubclassFeature": true
+          }
+        ],
+        [
+          {
+            "name": "Körduyu",
+            "entries": "14. seviyeden itibaren eğer duyabiliyorsan 10 fit yakınındaki gizli ya da görünmez varlıkların yerini bilirsin."
+          }
+        ],
+        [
+          {
+            "name": "Kaygan Zihin",
+            "entries": "15. seviyeye gelene kadar çok daha güçlü bir zihin elde ettin. Akıl kurtulma zarlarında uzmanlık kazanırsın."
+          }
+        ],
+        [
+          {
+            "name": "Yetenek Skoru Gelişimi",
+            "entries": "16. seviyeye eriştiğinde bir yetenek skorunu 2 ya da 2 ayrı yetenekskorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu20'nin üzerine çıkaramazsın.\nEğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
+          }
+        ],
+        [
+          {
+            "name": "Düzenbazlık Modeli Özelliği",
+            "entries": "17. seviyede Düzenbazlık Modelinin sunduğu bir özellik kazanırsın.",
+            "gainSubclassFeature": true
+          }
+        ],
+        [
+          {
+            "name": "Kaçamak",
+            "entries": "18. seviyeden itibaren o kadar iyi sıyrılırsın ki saldırganlar sanakarşı nadir olarak üstünlük sağlar. Bilinçsiz olmadığın sürece hiçbirsaldırı sana karşı avantajlı olmaz."
+          }
+        ],
+        [
+          {
+            "name": "Yetenek Skoru Gelişimi",
+            "entries": "19. seviyeye eriştiğinde bir yetenek skorunu 2 ya da 2 ayrı yetenekskorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu20'nin üzerine çıkaramazsın.\nEğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
+          }
+        ],
+        [
+          {
+            "name": "Şanslı Vuruş",
+            "entries": "20. seviyede gerektiğinde başarılı olmak için olağanüstü biryatkınlığın olur. Eğer saldırın menzilindeki bir hedefi ıskalarsa bunuvuruşa çevirebilirsin. Alternatif olarak, eğer bir beceri zarındabaşarısız olursan d20'lik zarı 20 olarak kabul edebilirsin.\nBu özelliği kullandığında yeniden kullanabilmek için kısa ya da uzun dinlenme bitirmen gerekir."
+          }
+        ]
+      ],
+      "subclassTitle": "Düzenbazlık Modeli",
+      "subclasses": [
+        {
+          "name": "Arcane Hilekar",
+          "subclassFeatures": [
+            [
+              {
+                "name": "Arcane Hilekar",
+                "entries": [
+                  "Bazı düzenbazlar gizlenme ve çeviklik yeteneklerini cezbetme ve illüzyon büyüleri ile desteklerler. Bu düzenbazlar arasında yankesiciler ve hırsızlar dışında şakacılar, haylazlar ve büyük miktarda maceracılar da vardır.",
+                  {
+                    "type": "entries",
+                    "name": "Büyücü Eli Çabukluğu",
+                    "entries": [
+                      "3. seviyeden itibaren {@spell mage hand (büyücü eli)} büyüsünü kullandığında spektral eli görünmez yapabilir ve bu ek işleri gerçekleştirebilirsin:",
+                      {
+                        "type": "list",
+                        "items": [
+                          "Elin tuttuğu bir nesneyi başka bir varlığın tuttuğu ya da taşıdığı bir kaba yerleştirebilirsin.",
+                          "Başka bir varlığın tuttuğu ya da taşıdığı kaptan bir nesnee alabilirsin.",
+                          "Hırsızlık aletlerini kullanıp kilit açma ya da tuzak kaldırmayı uzaktan yapabilirsin."
+                        ]
+                      },
+                      "Bunlardan birini eğer senin Çeviklik (El Çabukluğu) zarın diğer varlıkların Akıl (Algı) zarından yüksek olursa farkedilmeden yapabilirsin.",
+                      "Ek olarak, eli Kurnaz Eylem özelliği ile bonus eylem olarak kontrol edebilirsin."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Büyü Yapma",
+                    "entries": [
+                      "3. seviyeye eriştiğinde büyü yapma yeteneğini kazanırsın.",
+                      {
+                        "type": "entries",
+                        "entries": [
+                          {
+                            "type": "entries",
+                            "name": "Cantripler",
+                            "entries": [
+                              "Üç cantrip öğrenirsin: {@spell mage hand (büyücü eli)} ve büyücü büyü listesinden iki tane daha. 10. seviyede bir büyücü cantripi daha seçebilirsin."
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "entries",
+                        "entries": [
+                          {
+                            "type": "entries",
+                            "name": "Büyü Yuvaları",
+                            "entries": [
+                              "Arcane Hilekar Büyü Yapma tablosu 1. seviye ve üzeri büyüleri yapmak için kaç tane büyü yuvan olduğunu gösterir. Bu büyülerden birini kullanmak için büyünün seviyesi ya da üzeri bir yuva harcaman gerekir. Tüm harcanan büyü yuvalarını uzun dinlenme sonrası yenilersin.",
+                              "Örneğin, 1. seviye büyüsü {@spell charm person (kişi cezbet)} biliyorsan ve 1. ve 2. seviye büyü yuvaların varsa bu büyüyü istediğin yuvayı harcayarak kullanabilirsin."
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "entries",
+                        "entries": [
+                          {
+                            "type": "entries",
+                            "name": "1. Seviye ve Üzeri Bilinen Büyüler",
+                            "entries": [
+                              "Seçeceğin üç tane 1. seviye büyücü büyüsü bilirsin ve bunların ikisi büyücü büyü listesinde illüzyon ve enchantment okullarından olmalıdır.",
+                              "Arcane Hilekar Büyü Yapma tablosu ne zaman yeni 1. seviye ve üzeri büyücü büyüleri öğreneceğini gösterir. Bu büyülerin her biri enchantment ya da illüzyon okullarından olmalı ve sahip olduğun büyü yuvalarına uygun olmalıdır. Örneğin, bu sınıfta 7. seviyeye ulaştığında yeni bir 1. ya da 2. seviye büyü öğrenebilirsin.",
+                              "8, 14 ve 20. seviyede öğrendiğin büyüleri istediğin okuldan seçebilirsin.",
+                              "Bu sınıfta seviye atladığında bildiğin bir büyücü büyüsünü yenisi ile değiştirebilirsin. Eğer 8, 14 ya da 20. seviyede öğrendiğin büyüleri değiştirmiyorsan, değiştirdiğin büyü enchantment ya da illüzyon okullarından olmalı. Yeni büyülerde sahip olduğun büyü yuvalarına uygun olmalı. "
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "entries",
+                        "entries": [
+                          {
+                            "type": "entries",
+                            "name": "Büyü Yapma Yeteneği",
+                            "entries": [
+                              "Büyülerini araştırma ve ezber yoluyla öğrendiğin için büyü yapma yeteneğin Zekadır. Ne zaman bir büyü, büyü yapma yeteneğinden bahsederse Zeka kullanırsın. Ek olarak, büyücü büyülerinin kurtulma zarı DC'sini belirlerken ve bunlarla saldırı yaparken Zeka bonusunu kullanırsın.",
+                              {
+                                "type": "abilityDc",
+                                "name": "Büyü",
+                                "attributes": [
+                                  "zek"
+                                ]
+                              },
+                              {
+                                "type": "abilityAttackMod",
+                                "name": "Büyü",
+                                "attributes": [
+                                  "zek"
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Büyülü Pusu",
+                    "entries": [
+                      "9. seviyeden itibaren eğer bir varlığa büyü kullandığında ondan gizlenmiş durumdaysan aynı sıra içinde varlık büyüye karşı attığı kurtulma zarında dezavantajlı olur."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Çok Yönlü Hilekar",
+                    "entries": [
+                      "13. seviyede hedeflerin dikkatini {@spell mage hand (büyücü eli)} ile dağıtmayı öğrenirsin. Sıranda bonus eylem olarak büyünün yarattığı spektral elin 5 fit yakınındaki bir varlığı seçersin. Bunu yapman o varlığa karşı sıranın sonuna kadar yapacağın saldırılarda avantaj verir."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Büyü Hırsızı",
+                    "entries": [
+                      "17. seviyede başka bir büyü kullanıcısından bir büyüyü kullanma bilgisini çalmayı öğrenirsin.",
+                      "Bir varlık seni hedefleyen ya da seni etki alanının içinde bulunduran bir büyü kullandığında, hemen ardından reaksiyonunu kullanıp varlığı kendi büyü yapma yeteneği bonusu ile bir kurtulma zarı atmaya zorlarsın. DC senin büyü kurtulma zarı DC'sine eşittir. Başarısız olursa büyünün senin üzerindeki etkisini yok sayarsın ve eğer senin kullanabileceğin bir seviyede ise (büyücü büyüsü olmak zorunda değil) ve en az 1. seviye ise bu büyünün kullanım bilgisini çalarsın. Sonraki 8 saat boyunca bu büyüyü bilirsin ve kendi büyü yuvalarını harcayarak kullanabilirsin. Varlık bu büyüyü 8 saat geçene kadar kullanamaz.",
+                      "Bu özelliği kullandığında bir daha kullanabilmek için uzun dinlenme bitirmen gerekir."
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          "source": "PHB",
+          "shortName": "Arcane Hilekar"
+        },
+        {
+          "name": "Suikastçı",
+          "subclassFeatures": [
+            [
+              {
+                "name": "Suikastçı",
+                "entries": [
+                  "Eğitimini ölüm sanatı üzerinde yoğunlaştırırsın. Bu modele bağlı olanların yelpazi geniştir; kiralık katiller, ajanlar, ödül avcıları ve bazen tanrılarının düşmanlarını yoketmek için özel yetiştirilmiş rahipler. Gizlenme, zehir ve kılık değiştirme yeteneklerin düşmanlarını yoketmede ölümcül etkilidir.",
+                  "Modelin sana 3, 9, 13 ve 17. seviyelerde özellikler kazandırır.",
+                  {
+                    "type": "entries",
+                    "name": "Suikast",
+                    "entries": [
+                      "3. seviyeden itibaren en ölümcül anın düşmanlarını gafil avladığın andır. Dövüşte hala sırasını kullanmamış bir varlığa karşı saldırıların avantajlı olur. Ek olarak, sürprize uğramış bir varlığa karşı saldırın kritik olur."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Bonus Uzmanlıklar",
+                    "entries": [
+                      "3. seviyede bu modeli seçtiğinde kılık değiştirme ve zehir kitleri ile uzmanlık kazanırsın."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Sızma Ekspertizi",
+                    "entries": [
+                      "9. seviyeden itibaren kendin için hatasız sahte kimlikler yaratabilirsin. 7 gün ve 25gp harcayarak bir kimlik için gereken tarih, meslek ve bağlantıları oluşturmalısın. Başkasına ait bir kimlik oluşturamazsın. Örneğin, diğer zengin tüccarların arasına karışabilmek için uzak bir şehirden bir tüccar gibi görünmeni sağlayacak resmi görünümlü belgeler, tavsiye mektupları ve uygun kıyafetleri elde edebilirsin.",
+                      "Sonrasında, eğer yeni kimliği kılık değiştirmek için benimsersen diğer varlıklar bariz bir sebep ortaya çıkmadığı sürece senin o kişi olduğuna inanır."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Taklitçi",
+                    "entries": [
+                      "13. seviyede başka bir kişinin konuşmasını, yazısını ve davranışlarını çok yakın bir şekilde taklit edebilirsin. Kişinin bu üç bileşenini, yani el yazısını, konuşmasını ve davranışlarını en az 3 saat araştırman gerekir.",
+                      "Sıradan izleyici için senin taklidin ayırt edilemez. Eğer dikkatli bir varlık bir şeyin farklı olduğunu hissederse, tespit edilmemek için atacağın Karizma (Aldatma) zarlarında avantajın olur."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Ölüm Darbesi",
+                    "entries": [
+                      "17. seviyeden itibaren anında ölümün üstadı olursun. Sürprize uğramış bir varlığa saldırıp vurduğunda, varlık Dayanıklılık kurtulma zarı (DC 8 + Çeviklik bonusun + uzmanlık bonusun) atar. Başarısız olursa varlığa karşı saldırının hasarını ikiye katlarsın."
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          "source": "PHB",
+          "shortName": "Suikastçi"
+        },
+        {
+          "name": "Hırsız",
+          "subclassFeatures": [
+            [
+              {
+                "name": "Hırsız",
+                "entries": [
+                  "Hırsızlık sanatlarında becerilerini geliştirirsin. Hırsızlar, haydutlar, yankesiciler ve diğer suçlular genellikle bu modeli benimserler ama kendilerini profesyonel hazine avcısı, kaşif, ya da araştımacı olarak gören düzenbazlarda bu modeli benimseyebilir. Çeviklik ve gizlenmeni geliştirmene ek olarak antik harabeleri araştırma, alışılmadık dilleri okuma ve normalde kullanamayacağın büyülü eşyaları kullanma gibi becerileri de öğrenirsin.",
+                  {
+                    "type": "entries",
+                    "name": "Çabuk Eller",
+                    "entries": [
+                      "3. seviyeden itibaren Kurnaz Eylemin sağladığı bonus eylem ile Çeviklik (El Çabukluğu) zarı atabilir, hırsızlık aletlerini kullanıp kilit açabilir ya da tuzak etkisiz hale getirebilir, ya da Nesne Kullan eylemini kullanabilirsin."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "İkinci Kat İşi",
+                    "entries": [
+                      "3. seviyede bu modeli seçtiğinde normalden daha hızlı tırmanma becerisini kazanırsın, tırmanmak artık sana fazladan harekete mal olmaz.",
+                      "Ek olarak, koşarak atlama yaptığında gittiğin mesafe Çeviklik bonusun kadar fit artar."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Üstün Gizlenme",
+                    "entries": [
+                      "9. seviyeden itibaren, eğer aynı sıra içinde hareketinin yarısından fazlasını gitmezsen Çeviklik (Gizlenme) zarlarında avantajın olur."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Büyülü Alet Kullan",
+                    "entries": [
+                      "13. seviyeye kadar büyünün işleyişi hakkında topladığın bilgi sayesinde senin kullanımına uygun olmayan büyülü eşyaları bile kullanabilirsin. Büyülü eşyalar üzerindeki tüm sınıf, ırk ve seviye gereksinimlerini yok sayarsın."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Hırsız Refleksleri",
+                    "entries": [
+                      "17. seviyeye eriştiğinde pusu kurmada ve tehlikeden hızlıca kaçmada uzman oldun. Tüm dövüşlerin ilk turunda iki sıra kullanabilirsin. İlk sıranı normal öncelikte ikinci sıranı da öncelik eksi 10'da kullanırsın. Sürprize uğradığında bu özelliği kullanamazsın."
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          "source": "PHB",
+          "shortName": "Hırsız"
+        },
+        {
+          "name": "Araştırmacı",
+          "subclassFeatures": [
+            [
+              {
+                "name": "Araştırmacı",
+                "entries": [
+                  "Araştırmacı modelinde, sırları ortaya çıkarma ve gizemleri çözmede uzmanlaşırsın. Detaycı gözlerine güvendiğin gibi, diğer varlıkların asıl niyetlerini anlamak için geliştirdiğin onların sözlerini ve davranışlarını okuma yeteneğinde yardımcıdır. Sıradan halkın arasında saklanan ve onları avlayan varlıkları altetmede uzmansın. Bilgideki uzmanlığın ve keskin çıkarımların sayesinde gizlenen kötülükleri açığa çıkarıp işlerini bitirmeye çok uygunsun.",
+                  {
+                    "type": "entries",
+                    "name": "Yalana Alışık Kulak",
+                    "entries": [
+                      "3. seviyede bu modeli seçtiğinde, yalanları seçebilmek için bir yetenek geliştirirsin. Bir varlığın yalan söyleyip söylemediğini anlamak için ne zaman Akıl (Sezgi) zarı atsan, d20'de 7 veya altında gelen zarları 8 sayabilirsin."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Detaycı Göz",
+                    "entries": [
+                      "3. seviyeden itibaren, bonus eylem kullanarak gizli bir varlık ya da nesneyi tespit etmek için Akıl (Algı) zarı atabilirsin, ya da Zeka (İnceleme) zarı atıp ipuçlarını çözebilirsin."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Sezgili Dövüş",
+                    "entries": [
+                      "3. seviyede, bir rakibin taktiklerini çözüp onlara karşılık geliştirme yeteneğini kazanırsın. Bonus eylem olarak, etkisiz halde olmayan görebildiğin bir varlığa karşı Akıl (Sezgi) zarı atarsın, hedef Karizma (Aldatma) zarı atar. Başarılı olursan, saldırıda avantajın olmasa bile hedefe karşı Sinsi Saldırını yapabilirsin, ama saldırı dezavantajlı olmamalı.",
+                      "Bu fayda ya 1 dakikalığına ya da sen bu özelliği başarılı bir şekilde başka bir hedefe karşı kullanana kadar sürer."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Sabit Göz",
+                    "entries": [
+                      "9. seviyeden itibaren, eğer hızının yarısından fazla hareket etmezsen aynı sırada atacağın Akıl (Algı) ve Zeka (İnceleme) zarlarında avantajın olur."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Hatasız Göz",
+                    "entries": [
+                      "13. seviyeden itibaren, duyularını kandırmak neredeyse imkansızlaşır. Eylem olarak, illüzyonların varlığını, asıl formlarında olmayan şekildeğiştirenleri, ve duyuları şaşırtmak için tasarlanmış diğer büyüleri eğer bunlar 30 fit yakınındaysa ve sen {@condition körlük} ya da {@condition sağırlık} durumunda değilsen farkedersin. Bir etkinin seni şaşırtmaya çalıştığını hissedersin ama neyin gizli olduğunu ya da onun asıl halini öğrenmezsin.",
+                      "Bu özelliği Akıl bonusun kadar (en az 1) kullanabilirsin, ve uzun dinlenme bitirdiğinde tüm harcanan kullanımlar yenilenir."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Zayıflığı Gören Göz",
+                    "entries": [
+                      "17. seviyede, bir varlığın taktik ve hareketlerini dikkatlice inceleyerek zayıflıklarını ortaya çıkarmayı öğrenirsin. Senin Sezgili Dövüş özelliğin bir varlık üzerinde aktifken, o varlığa karşı Sinsi Saldırı hasarın 3d6 artar."
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          "source": "XGE",
+          "shortName": "Araştırmacı"
+        },
+        {
+          "name": "Deha",
+          "subclassFeatures": [
+            [
+              {
+                "name": "Deha",
+                "entries": [
+                  "Senin odağın kişiler ve onların sahip oldukları etki ve sırlardır. Çoğu ajan, saray mensubu, ve komplocu bu modeli takip eder ve entrika dolu yaşamlar sürerler. Senin için sözler, bıçaklar ve zehir kadar silahındır, sırlar ve kayırma ise en sevdiğin hazinelerin.",
+                  {
+                    "type": "entries",
+                    "name": "Entrika Üstadı",
+                    "entries": [
+                      "3. seviyede bu modeli seçtiğinde, kılık değiştirme kiti, sahtecilik kiti, ve seçeceğin bir oyun seti ile uzmanlık kazanırsın. Seçeceğin iki dili de öğrenirsin.",
+                      "Ayrıca, en az 1 dakika konuşmasını dinlediğin bir varlığın konuşma şeklini ve aksanını hatasızca taklit edebilirsin, bu dili bildiğin sürece belirli bir diyarın dilini ana dilin gibi konuşup yerli taklidi yapabilirsin."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Taktik Üstadı",
+                    "entries": [
+                      "3. seviyeden itibaren, Yardım eylemini bonus eylem olarak kullanabilirsin. Ayrıca, Yardım eylemini bir dostunun bir varlığa yaptığı saldırı için kullandığında, eğer o saldırının hedefi seni görebiliyor ya da duyabiliyorsa 5 fit yerine 30 fit yakınında olabilir."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Sezgili Manipülatör",
+                    "entries": [
+                      "9. seviyeden itibaren, eğer savaş dışında bir varlığı en az 1 dakika gözlersen ya da iletişime geçersen, onun yeteneklerini hakkında seninkilere oranla bilgi alabilirsin. DM o varlığın şunlardan seçeceğin iki nitelikte sana eşit, üstün veya astın olduğunu söyler:",
+                      {
+                        "type": "list",
+                        "items": [
+                          "Zeka skoru",
+                          "Akıl skoru",
+                          "Karizma skoru",
+                          "Sınıf Seviyesi (eğer varsa)"
+                        ]
+                      },
+                      "DM'e bağlı olarak, varlığın tarihinden bir şey ya da varsa kişilik özelliklerinden birini öğrenebilirsin."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Yanlış Yönlendirme",
+                    "entries": [
+                      "13. seviyeden itibaren, bazen başka bir varlığın sana gelecek bir saldırının hedefi olmasını sağlayabilirsin. 5 fit yakınında bir varlık sana o saldırıya karşı siper sağlıyorken bir saldırı tarafından hedef alınırsan, reaksiyonunu kullanıp saldırının seni değil o varlığı hedef almasını sağlayabilirsin."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Aldatma Ruhu",
+                    "entries": [
+                      "17. seviyeden itibaren, düşüncelerin telepati ya da farklı yöntemlerle sen izin vermedikçe okunamaz. Zihin okuyucunun Akıl (Sezgi) zarına karşılık Karizma (Aldatma) zarı atarak başarılı olursan sahte düşünceler sunabilirsin.",
+                      "Ayrıca, ne söylersen söyle, senin yalan söyleyip söylemediğini tespit eden büyüler eğer istersen doğruyu söylediğini algılar, ve büyü ile doğruyu söylemeye zorlanamazsın."
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          "source": "XGE",
+          "shortName": "Deha"
+        },
+        {
+          "name": "İzci",
+          "subclassFeatures": [
+            [
+              {
+                "name": "İzci",
+                "entries": [
+                  "Şehrin sokaklarından uzakta gizlenme ve hayatta kalmada beceriklisindir, bu da keşiflerde yoldaşlarından önce gidip izcilik yapmana olanak sağlar. Bu modeli seçen düzenbazlar yabanda barbarlar ve kolcuların arasında evlerinde hissederler, ve birçok İzci savaş birliklerinin gözleri ve kulakları olarak hizmet eder. Pusucu, ajan, ödül avcısı, bunlar İzcilerin dünyayı gezerken üstleneceği sadece birkaç roldür.",
+                  {
+                    "type": "entries",
+                    "name": "Vur Kaç",
+                    "entries": [
+                      "3. seviyeden itibaren, savaşta sabitlenmen zordur. Bir düşman sırasını senin 5 fit yakınında bitirdiğinde reaksiyonunu kullanıp hızının yarısına kadar ilerleyebilirsin. Bu hareket fırsat saldırısı tetiklemez."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Hayatta Kalan",
+                    "entries": [
+                      "3. seviyede bu modeli seçtiğinde, zaten yoksa Doğa ve Hayatta Kalma becerilerinde uzmanlık kazanırsın. Bu uzmanlıkları kullanan beceri zarı attığında uzmanlık bonusunun iki katını eklersin."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Üstün Hareketlilik",
+                    "entries": [
+                      "9. seviyede, yürüme hızın 10 fit artar. Eğer tırmanma veya yüzme hızın varsa bu artış onlara da etki eder."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Pusu Üstadı",
+                    "entries": [
+                      "13. seviyeden itibaren, pusu kurmada ve dövüşte ilk davranmada ustalaşırsın.",
+                      "Öncelik zarlarında avantajın olur. Ayrıca, savaşın ilk roundunda ilk vurduğun varlık, sen ve diğerleri için kolay hedef olur; bir sonraki sıranın başına kadar o varlığa yapılan saldırılar avantajlıdır."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Ani Darbe",
+                    "entries": [
+                      "17. seviyeden itibaren, ölümcül hızla saldırabilirsin. Eğer sıranda Saldırı eylemini kullanırsan, bonus eylem olarak fazladan bir saldırı yapabilirsin. Bu saldırı, o sıranda kullanmış olsan bile Sinsi Saldırından faydalanabilir, ama Sinsi Saldırıyı aynı hedefe karşı bir sıranda birden çok kez kullanamazsın."
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          "source": "XGE",
+          "shortName": "İzci"
+        },
+        {
+          "name": "Düellocu",
+          "subclassFeatures": [
+            [
+              {
+                "name": "Düellocu",
+                "entries": [
+                  "Kılıç sanatı eğitimine yoğunlaşırsın, hıza, zerafete ve cazibeye eşit değer verirsin. Bazıları ağır zırh içinde iri yarı savaşçılar olsalar da, senin dövüş şeklin neredeyse bir performans gibi görünür. Düellocular ve korsanlar bu modele dahildirler.",
+                  "Bir düellocu teke tek dövüşte uzmanlaşır, ve güvenli bir şekilde rakipten uzaklaşabilirken iki silahla dövüşebilir.",
+                  {
+                    "type": "entries",
+                    "name": "Süslü Ayak Çalışması",
+                    "entries": [
+                      "3. seviyede bu modeli seçtiğinde, bir darbe vurup karşılık gelmeden uzaklaşmayı öğrenirsin. Sıranda, eğer bir varlığa yakın dövüş saldırısı yaparsan, o varlık sıranın sonuna kadar sana fırsat saldırısı yapamaz."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Uçarı Cesaret",
+                    "entries": [
+                      "3. seviyeden itibaren, özgüvenin seni savaşa iter. Öncelik zarlarında kendine Karizma bonusun kadar bonus verebilirsin.",
+                      "Ayrıca Sinsi Saldırını ek bir şekilde kullanabilirsin; eğer bir varlığın 5 fit yakınındaysan, başka varlık senin 5 fit yakınında değilse, ve saldırıda dezavantajın yoksa Sinsi Saldırıyı kullanmak için saldırıda avantaj gerekmez. Sinsi Saldırı için diğer tüm kurallar hala geçerlidir."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Gösteriş",
+                    "entries": [
+                      "9. seviyede, caziben sıradışı bir şekilde cezbedici olur. Eylem olarak, varlığın Akıl (Sezgi) zarına karşılık Karizma (İkna) zarı atabilirsin. Varlık seni duyabilmeli ve ikinizin ortak bir dili olmalı.",
+                      "Eğer zarda başarılı olursan ve varlık sana düşmansa, senin dışındaki varlıklara saldırılarında dezavantajlı olur ve senin dışındaki varlıklara fırsat saldırısı yapamaz. Bu etki 1 dakikalığına, yoldaşlarından biri hedefe saldırana ya da bir büyü ile etkileyene, veya sen ve hedef 60 fit uzaklaşana kadar sürer.",
+                      "Eğer zarda başarılı olursan ve varlık sana düşman değilse, 1 dakikalığına senin tarafından {@condition cezbedilme} durumundadır. Cezbedilmişken, seni dostane bir tanıdık olarak görür. Eğer sen ya da yoldaşların ona hasar verecek bir şey yaparsanız bu etki hemen sonlanır."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Zarif Manevra",
+                    "entries": [
+                      "13. seviyeden itibaren, sıranda bonus eylem kullanıp aynı sıra içinde yapacağın bir Çeviklik (Akrobasi) ya da Kuvvet (Atletizm) zarına avantaj verebilirsin."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Üstat Düellocu",
+                    "entries": [
+                      "17. seviyeden itibaren, kılıçla uzmanlığın savaşta bir başarısızlığı başarıya çevirmeni sağlar. Eğer bir saldırı zarıyla ıskalarsan, onu yeniden avantajlı bir şekilde atabilirsin. Bunu yaptığında, bu özelliği kısa ya da uzun dinlenme bitirene kadar bir daha kullanamazsın."
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          "source": "XGE",
+          "shortName": "Düellocu"
+        }
+      ]
+    }
+  ]
+}

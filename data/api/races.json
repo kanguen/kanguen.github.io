@@ -1,0 +1,1233 @@
+{
+    "race": [
+        {
+            "name": "Aarakocra",
+            "source": "EEPC",
+            "page": 5,
+            "size": "M",
+            "speed": {
+                "walk": 25,
+                "fly": 50
+            },
+            "ability": {
+                "çev": 2,
+                "akı": 1
+            },
+            "entries": [
+                {
+                    "name": "Yaş",
+                    "type": "entries",
+                    "entries": [
+                        "Aarakocralar 3 yaşında yetişkinliğe ulaşırlar. İnsanlara oranla Aarakocralar çok yaşamaz, ömürleri nadiren 30 yılı geçer."
+                    ]
+                },
+                {
+                    "name": "Yönelim",
+                    "type": "entries",
+                    "entries": [
+                        "Aarakocraların çoğu iyidir, düzen ve kaos arasında nadiren taraf seçerler. Kabile liderleri ve savaşçılar düzenli olabilir, kaşifler ve maceracılarda düzensizliğe yönelebilir."
+                    ]
+                },
+                {
+                    "name": "Uçuş",
+                    "entries": [
+                        "50 feet uçma hızın vardır. Bu hızı kullanabilmek için orta ya da ağır zırh giyemezsin."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Pençeler",
+                    "entries": [
+                        "Silahsız saldırılarınla uzmansındır ve vurunca 1d4 kesme hasarı verir."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Diller",
+                    "entries": [
+                        "Aarakocra, Auran ve Ortak dillerini okuyabilir, yazabilir ve konuşabilirsin."
+                    ],
+                    "type": "entries"
+                }
+            ]
+        },
+        {
+            "name": "Genasi",
+            "source": "EEPC",
+            "page": 9,
+            "size": "M",
+            "speed": {
+                "walk": 30
+            },
+            "ability": {
+                "day": 2
+            },
+            "entries": [
+                {
+                    "name": "Yaş",
+                    "type": "entries",
+                    "entries": [
+                        "Genasi insanlarla aynı hızda olgunlaşırlar ve ergenlik sonrası yetişkin sayılırlar. İnsanlara oranla biraz daha uzun yaşayıp 120 yaşını görebilirler."
+                    ]
+                },
+                {
+                    "name": "Yönelim",
+                    "type": "entries",
+                    "entries": [
+                        "Bağımsız ve kendine güvenen genasiler nötr yönelimdedirler."
+                    ]
+                },
+                {
+                    "name": "Diller",
+                    "entries": [
+                        "Primordial ve Ortak dillerini okuyabilir, yazabilir ve konuşabilirsin. Primordial sert ünsüzler ve kaba hecelerle dolu diyaframdan konuşulan bir dildir."
+                    ],
+                    "type": "entries"
+                }
+            ],
+            "subraces": [
+                {
+                    "name": "Hava",
+                    "ability": {
+                        "çev": 1
+                    },
+                    "entries": [
+                        {
+                            "name": "Sonsuz Nefes",
+                            "entries": [
+                                "Bilinçsiz olmadığın sürece nefesini sonsuz tutabilirsin."
+                            ],
+                            "type": "entries"
+                        },
+                        {
+                            "name": "Rüzgara Katıl",
+                            "entries": [
+                                "{@spell Levitate (Havaya Yükselme)} büyüsünü bu özellikle materyal bileşenlere ihtiyaç duymadan bir kez kullanabilirsin. Bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. Bu büyü için büyü yapma yeteneğin Dayanıklılıktır."
+                            ],
+                            "type": "entries"
+                        }
+                    ]
+                },
+                {
+                    "name": "Toprak",
+                    "ability": {
+                        "kuv": 1
+                    },
+                    "entries": [
+                        {
+                            "name": "Toprak Yürüyüşü",
+                            "entries": [
+                                "Toprak ya da taştan oluşan zorlu yüzeylerden fazladan hareket harcamadan geçebilirsin."
+                            ],
+                            "type": "entries"
+                        },
+                        {
+                            "name": "Taşla Birleş",
+                            "entries": [
+                                "{@spell Pass without trace (İz bırakmadan geç)} büyüsünü bu özellikle materyal bileşenlere ihtiyaç duymadan bir kez kullanabilirsin. Bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. Bu büyü için büyü yapma yeteneğin Dayanıklılıktır."
+                            ],
+                            "type": "entries"
+                        }
+                    ]
+                },
+                {
+                    "name": "Ateş",
+                    "ability": {
+                        "zek": 1
+                    },
+                    "darkvision": 60,
+                    "entries": [
+                        {
+                            "name": "Gece Görüşü",
+                            "entries": [
+                                "60 feet yakınında loş ışıkta parlak ışıkmış gibi, karanlıkta loş ışıkmış gibi görürsün. Elemental Ateş Boyutuna olan bağından dolayı gece görüşün farklıdır: karanlıkta gördüğün her şey kırmızı tonlarında olur."
+                            ],
+                            "type": "entries"
+                        },
+                        {
+                            "name": "Ateş Direnci",
+                            "entries": [
+                                "Ateş hasarına direncin vardır."
+                            ],
+                            "type": "entries"
+                        },
+                        {
+                            "name": "Aleve Ulaş",
+                            "entries": [
+                                "{@spell Produce Flame (Alev Üret)} cantripini bilirsin. 3. seviyeye ulaştığında {@spell Burning Hands (Yanan Eller)} büyüsünü bir kez 1. seviye büyü olarak kullanabilirsin. Büyüyü bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. Bu büyüler için büyü yapma yeteneğin Dayanıklılıktır."
+                            ],
+                            "type": "entries"
+                        }
+                    ]
+                },
+                {
+                    "name": "Su",
+                    "speed": {
+                        "walk": 30,
+                        "swim": 30
+                    },
+                    "ability": {
+                        "akı": 1
+                    },
+                    "entries": [
+                        {
+                            "name": "Asit Direnci",
+                            "entries": [
+                                "Asit hasarına direncin vardır."
+                            ],
+                            "type": "entries"
+                        },
+                        {
+                            "name": "Amfibi",
+                            "entries": [
+                                "Hava ve su soluyabilirsin."
+                            ],
+                            "type": "entries"
+                        },
+                        {
+                            "name": "Yüzme",
+                            "entries": [
+                                "30 feet yüzme hızın vardır."
+                            ],
+                            "type": "entries"
+                        },
+                        {
+                            "name": "Dalganın Çağrısı",
+                            "entries": [
+                                "{@spell Shape Water (Su Şekillendir)|xge} cantripini bilirsin. 3. seviyeye ulaştığında {@spell Create or Destroy Water (Su Yarat ya da Yoket)} büyüsünü bir kez 2. seviye büyü olarak kullanabilirsin. Büyüyü bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. Bu büyü için büyü yapma yeteneğin Dayanıklılıktır."
+                            ],
+                            "type": "entries"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Elf",
+            "source": "PHB",
+            "page": 21,
+            "size": "M",
+            "speed": {
+                "walk": 30
+            },
+            "ability": {
+                "çev": 2
+            },
+            "darkvision": 60,
+            "entries": [
+                {
+                    "name": "Yaş",
+                    "type": "entries",
+                    "entries": [
+                        "Elfler olgunluğa insanlarla aynı sürede ulaşsa da elflerin yetişkinlik anlayışı fiziksel büyümedense dünyevi deneyimler ile ölçülür. Bir elf genel olarak yetişkinliği ve bir yetişkin ismini 100 yaşı civarında alır ve 750 yaşına kadar yaşayabilir."
+                    ]
+                },
+                {
+                    "name": "Yönelim",
+                    "type": "entries",
+                    "entries": [
+                        "Elfler özgürlüğü, çeşitliliği ve kendilerini ifade etmeyi severler. Bu sebepten daha düzensiz yönelimleri vardır. Sadece kendi özgürlükleri değil diğerlerinin özgürlüklerine de değer verip korurlar ve çoğunlukla iyi varlıklardır."
+                    ]
+                },
+                {
+                    "name": "Gece Görüşü",
+                    "entries": [
+                        "Alacakaranlık ormanlara ve gece gökyüzüne alışkın elfler karanlıkta ve loş ışıkta daha iyi görebilirler. Loş ışıkta 60 feete kadar parlak ışıkmış gibi görebilirler, ve karanlıkta sanki loş ışıkmış gibi. Karanlıkta renk ayırt edemezler, sadece grinin tonları olur."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Keskin Duyular",
+                    "entries": [
+                        "Algılama becerisinde uzmanlığın vardır."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Fey Soyu",
+                    "entries": [
+                        "Cezbedilmeye karşı kurtulma zarlarında avantajın vardır ve büyü seni uyutamaz."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Trans",
+                    "entries": [
+                        "Elflerin uykuya ihtiyacı yoktur. Onun yerine günde 4 saat yarıbilinçli bir şekilde derin bir meditasyona girerler. (Bu tip meditasyonlar için yaygın kullanılan sözcük transtır.) Meditasyondayken bir nevi rüya görebilirsin, bunlar yıllarca yaptığın pratikle ulaştığın zihinsel egzersizlerdir. Bu şekilde dinlendikten sonra, bir insanın 8 saatlik uykudan aldığı faydayı sağlarsın."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Diller",
+                    "entries": [
+                        "Elfçe ve Ortak Dili okuyabilir, yazabilir ve konuşabilirsin. Elfçe zor dilbilgisi ve incelik isteyen tonlamaları ile akcıı bir dildir. Elf edebiyatı zengin ve çeşitlidir, şarkıları ve şiirleri diğer ırklar arasında da ünlüdür. Birçok ozan Elf türkülerini repertuarına ekleyebilmek için dili öğrenir."
+                    ],
+                    "type": "entries"
+                }
+            ],
+            "subraces": [
+                {
+                    "name": "Drow",
+                    "ability": {
+                        "kar": 1
+                    },
+                    "darkvision": 120,
+                    "entries": [
+                        {
+                            "name": "Üstün Gece Görüşü",
+                            "entries": [
+                                "Yeraltının derinliklerine alışmış gözlerin karanlık ve loş ışıkta üstün görüş sağlar. Loş ışıkta 120 feete kadar sanki parlak ışıkmış gibi, karanlıkta ise loş ışıkmış gibi görürsün. Karanlıkta renk ayırt edemezsin, sadece grinin tonları olur."
+                            ],
+                            "type": "entries"
+                        },
+                        {
+                            "name": "Günışığı Hassasiyeti",
+                            "entries": [
+                                "Sen, hedefin ya da algılamak istediğin şey doğrudan günışığında olduğu sürece görüş gerektiren saldırı ve Akıl(Algılama) zarlarında dezavantajın olur."
+                            ],
+                            "type": "entries"
+                        },
+                        {
+                            "name": "Drow Büyüsü",
+                            "entries": [
+                                "{@spell Dancing Lights (Dans Eden Işıklar)} cantripini bilirsin. 3. seviyeye ulaştığında {@spell Faerie Fire (Peri Ateşi)} büyüsünü günde bir kere kullanabilirsin, büyüyü bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. 5. seviyeye ulaştığında {@spell Darkness (Karanlık)} büyüsünü de günde bir kere kullanabilirsin, büyüyü bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. Bu büyüler için büyü yapma yeteneğin Karizmadır."
+                            ],
+                            "type": "entries"
+                        },
+                        {
+                            "name": "Drow Silah Eğitimi",
+                            "entries": [
+                                "Meçler, kısa kılıçlar ve el arbaletleri ile uzmanlığın vardır."
+                            ],
+                            "type": "entries"
+                        }
+                    ]
+                },
+                {
+                    "name": "Eladrin",
+                    "source": "DMG",
+                    "page": 286,
+                    "ability": {
+                        "zek": 1
+                    },
+                    "entries": [
+                        {
+                            "name": "Elf Silah Eğitimi",
+                            "entries": [
+                                "Uzun kılıç, kısa kılıç, kısa yay ve uzun yay ile uzmanlıkların vardır."
+                            ],
+                            "type": "entries"
+                        },
+                        {
+                            "name": "Fey Adımı",
+                            "entries": [
+                                "Bu özelliği kullanarak {@spell misty step (sisli adım)} büyüsünü bir kere kullanabilirsin. Kısa ya da uzun dinlenme bitirdikten sonra bu özellik yeniden kullanılabilir."
+                            ],
+                            "type": "entries"
+                        }
+                    ]
+                },
+                {
+                    "name": "Ulu",
+                    "speed": {
+                        "walk": 30
+                    },
+                    "ability": {
+                        "zek": 1
+                    },
+                    "entries": [
+                        {
+                            "name": "Elf Silah Eğitimi",
+                            "entries": [
+                                "Uzun kılıç, kısa kılıç, kısa yay ve uzun yay ile uzmanlıkların vardır."
+                            ],
+                            "type": "entries"
+                        },
+                        {
+                            "name": "Cantrip",
+                            "entries": [
+                                "Büyücü büyü listesinden seçeceğin bir cantrip bilirsin. Bunun için büyü yapma yeteneğin Zekadır."
+                            ],
+                            "type": "entries"
+                        },
+                        {
+                            "name": "Fazladan Dil",
+                            "entries": [
+                                "Seçeceğin fazladan bir dil okuyabilir, yazabilir e konuşabilirsin."
+                            ],
+                            "type": "entries"
+                        }
+                    ]
+                },
+                {
+                    "name": "Orman",
+                    "speed": {
+                        "walk": 35
+                    },
+                    "ability": {
+                        "akı": 1
+                    },
+                    "entries": [
+                        {
+                            "name": "Elf Silah Eğitimi",
+                            "entries": [
+                                "Uzun kılıç, kısa kılıç, kısa yay ve uzun yay ile uzmanlıkların vardır."
+                            ],
+                            "type": "entries"
+                        },
+                        {
+                            "name": "Seri Adımlar",
+                            "entries": [
+                                "Temel yürüyüş hızın 35 feete yükselir."
+                            ],
+                            "type": "entries"
+                        },
+                        {
+                            "name": "Doğanın Örtüsü",
+                            "entries": [
+                                "Çalılıklar, sağanak yağmur, kar yağışı gibi doğal olaylar ile hafifçe örtülmüşken bile saklanmayı deneyebilirsin."
+                            ],
+                            "type": "entries"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Gnome",
+            "source": "PHB",
+            "page": 35,
+            "size": "S",
+            "speed": {
+                "walk": 25
+            },
+            "darkvision": 60,
+            "ability": {
+                "zek": 2
+            },
+            "entries": [
+                {
+                    "name": "Yaş",
+                    "type": "entries",
+                    "entries": [
+                        "Gnomelar insanlarla aynı hızda olgunlaşır ama çoğunun 40 yaşı civarı yetişkin hayatına geçmesi beklenir. 350 ile 500 yıl arası yaşayabilirler."
+                    ]
+                },
+                {
+                    "name": "Yönelim",
+                    "type": "entries",
+                    "entries": [
+                        "Gnomelar genellikle iyidirler. Düzene doğru yönelenler bilge, mühendis, akademisyen, araştırmacı ya da mucit olabilirler. Kaosa doğru yönelenler de ozan, hilekar, seyyah ya da kuyumcu olabilirler. Gnomelar iyi kalplidirler, aralarındaki hilekarlar bile şiddettense şakaları tercih ederler."
+                    ]
+                },
+                {
+                    "name": "Gece Görüşü",
+                    "entries": [
+                        "Yeraltında yaşamaya alışkın gnomelar karanlıkta ve loş ışıkta daha iyi görebilirler. Loş ışıkta 60 feete kadar parlak ışıkmış gibi görebilirler, ve karanlıkta sanki loş ışıkmış gibi. Karanlıkta renk ayırt edemezler, sadece grinin tonları olur."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Gnome Kurnazlığı",
+                    "entries": [
+                        "Büyüye karşı attığın tüm Zeka, Akıl ve Karizma kurtulma zarlarında avantajın olur."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Diller",
+                    "entries": [
+                        "Gnomish ve Ortak Dili okuyabilir, yazabilir ve konuşabilirsin. Gnomish dili, Cücece dilinin harflerini kullanır ve bu dilde yazılmış teknik anlaşmalar ve doğal dünya ile ilgili bilgi katalogları ile ünlüdür."
+                    ],
+                    "type": "entries"
+                }
+            ],
+            "subraces": [
+                {
+                    "name": "Derin/Svirfneblin",
+                    "source": "EEPC",
+                    "darkvision": 120,
+                    "page": 5,
+                    "ability": {
+                        "çev": 1
+                    },
+                    "entries": [
+                        {
+                            "name": "Yaş",
+                            "type": "entries",
+                            "entries": [
+                                "Derin gnomelar ırklarına göre daha kısa yaşar. İnsanlarla aynı hızda olgunlaşırlar ve 25 yaşında bir yetişkin olarak görülürler. 200 ile 250 yıl arası yaşarlar ama Yeraltının acımasız yapısı onlara nadir bu fırsatı verir."
+                            ]
+                        },
+                        {
+                            "name": "Yönelim",
+                            "type": "entries",
+                            "entries": [
+                                "Svirfneblin hayatta kalmanın diğer varlıklar ile karışıklıklara girmemek ve düşman sahibi olmamaktan geçtiğine inanır ve genelde nötr kalırlar. Diğerlerinin kötülüğünü istemezler ama diğerleri için riskte almazlar."
+                            ]
+                        },
+                        {
+                            "name": "Üstün Gece Görüşü",
+                            "entries": [
+                                "Yeraltında hayata alışkın gözleri karanlıkta ve loş ışıkta üstün görüş sağlar. Loş ışıkta 120 feete kadar parlak ışıkmış gibi, karanlıkta loş ışıkmış gibi görürsün. Karanlıkta renk ayırt edemezsin, sadece grinin tonları olur."
+                            ],
+                            "type": "entries"
+                        },
+                        {
+                            "name": "Taş Kamuflajı",
+                            "entries": [
+                                "Kayalık arazide atacağın Çeviklik (Gizlenme) zarlarında avantajın olur."
+                            ],
+                            "type": "entries"
+                        },
+                        {
+                            "name": "Diller",
+                            "entries": [
+                                "Gnomish, Ortak ve Altortak dillerini okuyabilir, yazabilir ve konuşabilirsin. Svirfneblin lehçesi yüzey Gnomish'e göre daha gırtlaktan konuşulan bir dildir ve çoğu svirfneblin çok az Ortak dil konuşabilir. Ama dış dünya ile iletişimde olan bir svirfneblin (bir maceracı olarak seni de içerir) diğer diyarlarda ona yetecek kadar Ortak dil öğrenir."
+                            ],
+                            "type": "entries"
+                        }
+                    ]
+                },
+                {
+                    "name": "Orman",
+                    "ability": {
+                        "çev": 1
+                    },
+                    "entries": [
+                        {
+                            "name": "Doğal İllüzyonist",
+                            "entries": [
+                                "{@spell Minor Illusion (Ufak İllüzyon)} cantripini bilirsin. Bunun için büyü yapma yeteneğin Zekadır."
+                            ],
+                            "type": "entries"
+                        },
+                        {
+                            "name": "Küçük Hayvanlarla Konuş",
+                            "entries": [
+                                "Küçük ya da daha küçük hayvanlar ile ses ve vücut dili yardımıyla basit kavramları konuşabilirsin. Orman gnomeları hayvanları severler ve genellikle sincap, gelincik, köstebek, tavşan, ağaçkakan gibi hayvanları evcil hayvanları olarak beslerler."
+                            ],
+                            "type": "entries"
+                        }
+                    ]
+                },
+                {
+                    "name": "Kaya",
+                    "ability": {
+                        "day": 1
+                    },
+                    "entries": [
+                        {
+                            "name": "Zanaatkarın Bilgisi",
+                            "entries": [
+                                "Ne zaman büyülü eşyalar, simya nesneleri ya da teknolojik icatlara dair bir Zeka (Tarih) zarı atarsan, normalde eklediğin uzmanlık bonusun yerine uzmanlık bonusunun iki katını eklersin."
+                            ],
+                            "type": "entries"
+                        },
+                        {
+                            "name": "Mucit",
+                            "entries": [
+                                "Mucitin aletleri ile uzmanlığın olur. Bu aletleri kullanarak 1 saat ve 10 gp değerinde materyal harcayıp Ufak bir kurmalı cihaz (AC 5, 1 HP) yapabilirsin. Cihaz 1 saat harcayıp tamir etmediğin sürece 24 saat sonra bozulur, ya da eylemini kullanıp sökebilirsin. Bu şekilde harcadığın materyal yeniden kullanılabilir. Aynı anda bu tip 3 aktif cihazın olabilir.",
+                                "Bir cihaz yarattığında bu seçeneklerden birini seç:",
+                                "Kurmalı Oyuncak",
+                                "Bu kurmalı hayvan, yaratık ya da insan şekilde bir oyuncaktır. Yere koyulduğunda, oyuncak senin her sıranda yüzeyde rastgele bir yöne 5 feet ilerler. Temsil ettiği varlığa uygun sesler çıkarır.",
+                                "Çakmak",
+                                "Bu cihaz mum, meşale ya da kamp ateşi tutuşturmak için ufak bir alev yaratır. Cihazı eylem olarak kullanabilirsin.",
+                                "Müzik Kutusu",
+                                "Açıldığında bu müzik kutusu tek bir notayı orta bir seste çalar. Kutu kapatıldığında ya da şarkının sonuna geldiğinde müzik sonlanır."
+                            ],
+                            "type": "entries"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Goliath",
+            "source": "EEPC",
+            "page": 10,
+            "size": "M",
+            "speed": {
+                "walk": 30
+            },
+            "ability": {
+                "kuv": 2,
+                "day": 1
+            },
+            "entries": [
+                {
+                    "name": "Yaş",
+                    "type": "entries",
+                    "entries": [
+                        "Goliathların ömürleri insanlar ile aynıdır. Ergenlik sonu yetişkinliğe girerler ve yüzyıldan az yaşarlar."
+                    ]
+                },
+                {
+                    "name": "Yönelim",
+                    "type": "entries",
+                    "entries": [
+                        "Goliath toplumu, belirgin görevleri ve rolleri ile güçlü bir düzene sahiptir. Goliath adalet anlayışı, kendine yetme ve bireysel sorumluluklar ile dengelenip toplumu nötrlüğe iter."
+                    ]
+                },
+                {
+                    "name": "Doğal Atlet",
+                    "entries": [
+                        "Atletizm becerisinde uzmanlığın vardır."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Taşın Dayanıklılığı",
+                    "entries": [
+                        "Zaman zaman odaklanarak yaralanmaları engelleyebilirsin. Hasar aldığında reaksiyonunu kullanıp d12 atabilirsin. Sonuca Dayanıklılık bonusunu da ekleyip toplamı aldığın hasardan düşürürsün. Bu özelliği kullandıktan sonra yeniden kullanabilmek için kısa ya da uzun dinlenme bitirmen gerekir."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Güçlü Yapı",
+                    "entries": [
+                        "İtme, çekme, kaldırma ve taşıma kapasiten hesaplanırken bir boy büyük sayılırsın."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Dağda Doğan",
+                    "entries": [
+                        "20.000 feete kadar olan yüksekliklere alışkınsın. Doğal olarak soğuk iklimlere de adaptesin."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Diller",
+                    "entries": [
+                        "Dev ve Ortak dillerini okuyabilir, yazabilir ve konuşabilirsin."
+                    ],
+                    "type": "entries"
+                }
+            ]
+        },
+        {
+            "name": "Yarı-Elf",
+            "source": "PHB",
+            "page": 38,
+            "size": "M",
+            "speed": {
+                "walk": 30
+            },
+            "darkvision": 60,
+            "ability": {
+                "kar": 2,
+                "choose": [
+                    {
+                        "from": [
+                            "kuv",
+                            "çev",
+                            "day",
+                            "zek",
+                            "akı"
+                        ],
+                        "count": 2
+                    }
+                ]
+            },
+            "entries": [
+                {
+                    "name": "Yaş",
+                    "type": "entries",
+                    "entries": [
+                        "Yarı-elfler insanlarla aynı hızda olgunlaşırlar ve 20 yaş civarında yetişkin sayılırlar. İnsanlardan çok daha uzun yaşarlar, sıkça 180 yaşını geçtikleri görülmüştür."
+                    ]
+                },
+                {
+                    "name": "Yönelim",
+                    "type": "entries",
+                    "entries": [
+                        "Yarı-elfler elf atalarının düzensizliğe eğilimini paylaşırlar. Hem kişisel özgürlüğe hem de yaratıcı ifadeye değer verirler ve ne liderlere sevgileri olur nede takipçi toplama arzuları. Kurallara gülerler, diğerlerinin taleplerine burun kıvırırlar ve bazen güvenilmez olabilirler."
+                    ]
+                },
+                {
+                    "name": "Yetenek Skoru Artışı",
+                    "entries": [
+                        "Seçeceğin iki yetenek skorun 1 artar."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Gece Görüşü",
+                    "entries": [
+                        "Elf kanın sayesinde karanlık ve loş ortamlarda üstün görüşün olur. 60 feet yakınında loş ışığı parlak ışık gibi, karanlıkta ise loş ışık gibi görürsün. Karanlıkta renk ayırt edemezsin, sadece grinin tonları olur."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Fey Soyu",
+                    "entries": [
+                        "Cezbedilmeye karşı attığın kurtulma zarlarında avantajın vardır be büyü seni uyutamaz."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Beceri Çokluğu",
+                    "entries": [
+                        "Seçeceğin iki beceride uzmanlık kazanırsın."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Diller",
+                    "entries": [
+                        "Elfçe, Ortak ve seçeceğin bir dilde okuyabilir, yazabilir ve konuşabilirsin."
+                    ],
+                    "type": "entries"
+                }
+            ]
+        },
+        {
+            "name": "Yarı-Orc",
+            "source": "PHB",
+            "page": 40,
+            "size": "M",
+            "speed": {
+                "walk": 30
+            },
+            "darkvision": 60,
+            "ability": {
+                "kuv": 2,
+                "day": 1
+            },
+            "entries": [
+                {
+                    "name": "Yaş",
+                    "type": "entries",
+                    "entries": [
+                        "Yarı-orclar insanlardan biraz daha hızlı olgunlaşır, yetişkinliğe 14 yaş civarı girerler. Belirgin bir şekilde hızlı yaşlanırlar ve nadiren 75 yaş üstünü görürler."
+                    ]
+                },
+                {
+                    "name": "Yönelim",
+                    "type": "entries",
+                    "entries": [
+                        "Yarı-orclara orc atalarından kaosa yönelim ve iyiliğe yatkın olmama kalmıştır. Orclar arasında yetişmiş ve istekli bir şekilde orada yaşayan yarı-orclar çoğunlukla kötüdür."
+                    ]
+                },
+                {
+                    "name": "Gece Görüşü",
+                    "entries": [
+                        "Orc kanın sayesinde karanlık ve loş ortamlarda üstün görüşe sahipsin. 60 feet yakınında loş ışığı parlak ışık gibi, karanlıkta da loş ışık gibi görürsün. Karanlıkta renk ayırt edemezsin, sadece grinin tonları olur."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Korkutucu",
+                    "entries": [
+                        "Korkutma becerisinde uzmanlığın vardır."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Amansız Dayanıklılık",
+                    "entries": [
+                        "0 HP'ye düşürülür ve doğrudan öldürülmezsen, bunun yerine 1 HP'ye düşmeyi seçebilirsin. Bu özelliği uzun dinlenme bitirene kadar bir daha kullanamazsın."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Acımasız Saldırılar",
+                    "entries": [
+                        "Bir yakın dövüş silahı ile yaptığın saldırıda kritik vurursan, silahın hasar zarlarından birini yeniden atıp hasara ekleyebilirsin."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Diller",
+                    "entries": [
+                        "Orc ve Ortak dillerini okuyabilir, yazabilir ve konuşabilirsin. Orc dili sert ünsüzleri olan gırtlaktan konuşulan bir dildir. Kendi harfleri yoktur ama Cüce dilinin harfleri ile yazılır."
+                    ],
+                    "type": "entries"
+                }
+            ]
+        },
+        {
+            "name": "Cüce",
+            "source": "PHB",
+            "page": 18,
+            "size": "M",
+            "speed": {
+                "walk": 25
+            },
+            "darkvision": 60,
+            "ability": {
+                "day": 2
+            },
+            "entries": [
+                {
+                    "name": "Yaş",
+                    "type": "entries",
+                    "entries": [
+                        "Cüceler insanlarla aynı hızda olgunlaşırlar ama 50 yaşına gelene kadar hala genç sayılırlar. Ortalama olarak 350 yıl yaşarlar."
+                    ]
+                },
+                {
+                    "name": "Yönelim",
+                    "type": "entries",
+                    "entries": [
+                        "Çoğu cüce düzenlidir ve sıkı düzeni olan bir toplumun faydalı olduğuna inanır. İyiliğe de yatkındırlar, güçlü bir adalet algısı ve herkesin düzenli bir toplumdan faydalanma hakkı olduğu inancı onları bu yöne iter."
+                    ]
+                },
+                {
+                    "name": "Hız",
+                    "entries": [
+                        "Ağır zırh giymek hızını düşürmez."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Gece Görüşü",
+                    "entries": [
+                        "Yer altında yaşamaya alışkın olduğun için karanlık ve loş ortamlarda üstün görüşün vardır. 60 feet yakınında loş ışığı parlak ışık gibi, karanlıkta da loş ışık gibi görürsün. Karanlıkta renk ayırt edemezsin, sadece grinin tonları olur."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Cüce Bünyesi",
+                    "entries": [
+                        "Zehre karşı kurtulma zarlarında avantajın olur ve zehir hasarına karşı direncin vardır."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Cüce Savaş Eğitimi",
+                    "entries": [
+                        "Savaş baltası, el baltası, hafif çekiç ve savaş çekici ile uzmanlıkların vardır."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Alet Uzmanlığı",
+                    "entries": [
+                        "Demirci aletleri, taşçı aletleri ya da mayacı malzemeleri seçeneklerinden birinde uzmanlık kazanırsın."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Taş Kurnazlığı",
+                    "entries": [
+                        "Bir taş işinin aslı ile ilgili atacağın Zeka (Tarih) zarlarında uzman sayılırsın ve normal uzmanlık bonusun yerine iki katını eklersin."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Diller",
+                    "entries": [
+                        "Cücece ve Ortak dili okuyabilir, yazabilir ve konuşabilirsin. Cücece sert ünsüzler ve diyaframdan seslerle doludur ve bu özellikler bir cücenin konuşacağı diğer dillere de yansıyabilir."
+                    ],
+                    "type": "entries"
+                }
+            ],
+            "subraces": [
+                {
+                    "name": "Tepe",
+                    "ability": {
+                        "akı": 1
+                    },
+                    "entries": [
+                        {
+                            "name": "Cüce Sertliği",
+                            "entries": [
+                                "HP maksimumun 1 artar ve her seviye alışında 1 yükselir."
+                            ],
+                            "type": "entries"
+                        }
+                    ]
+                },
+                {
+                    "name": "Dağ",
+                    "ability": {
+                        "kuv": 2
+                    },
+                    "entries": [
+                        {
+                            "name": "Cüce Zırh Eğitimi",
+                            "entries": [
+                                "Hafif ve orta zırhlarla uzmanlığın olur."
+                            ],
+                            "type": "entries"
+                        }
+                    ]
+                },
+                {
+                    "name": "Duergar",
+                    "source": "SCAG",
+                    "darkvision": 120,
+                    "ability": {
+                        "kuv": 1
+                    },
+                    "entries": [
+                        {
+                            "name": "Üstün Gece Görüşü",
+                            "entries": [
+                                "Yer altında yaşamaya alışkın olduğun için karanlık ve loş ortamlarda üstün görüşün vardır. 120 feet yakınında loş ışığı parlak ışık gibi, karanlıkta da loş ışık gibi görürsün. Karanlıkta renk ayırt edemezsin, sadece grinin tonları olur."
+                            ],
+                            "type": "entries"
+                        },
+                        {
+                            "name": "Duergar Bünyesi",
+                            "entries": [
+                                "Zehre karşı atacağın kurtulma zarlarında avantajın ve zehir hasarına karşı direncin olur. İllüzyonlar, cezbedilme ve felç olmaya karşı atacağın kurtulma zarlarında da avantajın vardır."
+                            ],
+                            "type": "entries"
+                        },
+                        {
+                            "name": "Diller",
+                            "entries": [
+                                "Cücece, Ortak ve Altortak dillerini okuyabilir, yazabilir ve konuşabilirsin."
+                            ],
+                            "type": "entries"
+                        },
+                        {
+                            "name": "Duergar Büyüsü",
+                            "entries": [
+                                "3. seviyeye ulaştığında {@spell Enlarge/Reduce (Büyüt/Küçült)} büyüsünü kendi üzerinde sadece büyüme özelliği ile bir kere kullanabilirsin. 5. seviyeye ulaştığında {@spell Invisibility (Görünmezlik)} büyüsünü kendi üzerinde bir kere kullanabilirsin. Bu büyüler için materyal bileşenlere ihtiyaç duymazsın ve doğrudan günışığında kullanamazsın. Günışığı büyüler zaten kullanılmışsa bir etki göstermez. Bu özellik ile büyüleri yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. Bu büyüler için büyü yapma yeteneğin Zekadır."
+                            ],
+                            "type": "entries"
+                        },
+                        {
+                            "name": "Günışığı Hassasiyeti",
+                            "entries": [
+                                "Sen, hedefin ya da algılamak istediğin şey doğrudan günışığında olduğu sürece görüş gerektiren saldırı ve Akıl(Algılama) zarlarında dezavantajın olur."
+                            ],
+                            "type": "entries"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Buçukluk",
+            "source": "PHB",
+            "page": 26,
+            "size": "S",
+            "speed": {
+                "walk": 25
+            },
+            "ability": {
+                "çev": 2
+            },
+            "entries": [
+                {
+                    "name": "Yaş",
+                    "type": "entries",
+                    "entries": [
+                        "Bir buçukluk 20 yaş civarı yetişkinliğe girer ve genelde ikinci yüzyılının ortalarına kadar yaşar."
+                    ]
+                },
+                {
+                    "name": "Yönelim",
+                    "type": "entries",
+                    "entries": [
+                        "Çoğu buçukluk düzenli iyidir. Kural olarak iyi kalpli ve naziktirler, diğerlerini acı içinde görmekten nefret ederler ve baskıya karşı hiç toleransları yoktur. Aynı zamanda çok düzenli ve gelenekseldirler, toplumlarının desteğine ve eski yollarının huzuruna güvenirler."
+                    ]
+                },
+                {
+                    "name": "Şanslı",
+                    "entries": [
+                        "Bir saldırı, yetenek ya da kurtulma zarında 1 atarsan zarı yeniden atıp ikinci sonucu kullanabilirsin."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Cesur",
+                    "entries": [
+                        "Korkmaya karşı atacağın kurtulma zarlarında avantajın olur."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Buçukluk Çevikliği",
+                    "entries": [
+                        "Senden bir boyut büyük olan bir varlığın alanından geçebilirsin."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Diller",
+                    "entries": [
+                        "Buçukluk ve Ortak dili okuyabilir, yazabilir ve konuşabilirsin. Buçukluk dili bir sır değildir ama buçukluklar onu diğerleri ile paylaşmayı sevmez. Nadir yazarlar, bu yüzden zengin bir edebiyatları yoktur. Buna rağmen sözlü gelenekleri çok güçlüdür. Neredeyse tüm buçukluklar seyahat boyunca karşılaştıkları ya da birlikte yaşadıkları kişiler ile konuşabilmek için Ortak dili öğrenirler."
+                    ],
+                    "type": "entries"
+                }
+            ],
+            "subraces": [
+                {
+                    "name": "Tez Ayak",
+                    "ability": {
+                        "kar": 1
+                    },
+                    "entries": [
+                        {
+                            "name": "Doğal Gizlenme",
+                            "entries": [
+                                "Senden sadece bir boyut büyük bir varlığın örtüsünde bile gizlenmeyi deneyebilirsin."
+                            ],
+                            "type": "entries"
+                        }
+                    ]
+                },
+                {
+                    "name": "Tıknaz",
+                    "ability": {
+                        "day": 1
+                    },
+                    "entries": [
+                        {
+                            "name": "Tıknaz Bünye",
+                            "entries": [
+                                "Zehre karşı atacağın kurtulma zarlarında avantajın ve zehir hasarına direncin olur."
+                            ],
+                            "type": "entries"
+                        }
+                    ]
+                },
+                {
+                    "name": "Ruh Bilgini",
+                    "source": "SCAG",
+                    "page": 110,
+                    "ability": {
+                        "akı": 1
+                    },
+                    "entries": [
+                        {
+                            "name": "Sessiz Konuşma",
+                            "entries": [
+                                "30 feet yakınındaki bir varlık ile telepatik olarak konuşabilirsin. Sadece varlıkla bir dil paylaşıyorsan seni anlayabilir. Bu şekilde tek seferde sadece bir varlık ile konuşabilirsin."
+                            ],
+                            "type": "entries"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Tiefling",
+            "source": "PHB",
+            "page": 42,
+            "size": "M",
+            "speed": {
+                "walk": 30
+            },
+            "darkvision": 60,
+            "entries": [
+                {
+                    "name": "Yaş",
+                    "type": "entries",
+                    "entries": [
+                        "Tieflingler insanlarla aynı hızda olgunlaşır ama birkaç yıl fazla yaşarlar."
+                    ]
+                },
+                {
+                    "name": "Yönelim",
+                    "type": "entries",
+                    "entries": [
+                        "Tieflinglerin doğuştan kötülüğe yatkınlığı olmayabilir ama birçoğu orada yerini bulur. Kötü ya da değil, bağımsız yapıları yüzünden çoğu tiefling düzensizliğe yönelir."
+                    ]
+                },
+                {
+                    "name": "Gece Görüşü",
+                    "entries": [
+                        "Infernal kanları sayesinde tieflingler karanlık ve loş ortamlarda üstün görüşe sahiptir. 60 feet yakınında loş ışığı parlak ışık gibi, karanlıkta da loş ışık gibi görürsün. Karanlıkta renk ayırt edemezsin, sadece grinin tonları olur."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Cehennem Direnci",
+                    "entries": [
+                        "Ateş hasarına direncin vardır."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Diller",
+                    "entries": [
+                        "Infernal ve Ortak dillerini okuyabilir, yazabilir ve konuşabilirsin."
+                    ],
+                    "type": "entries"
+                }
+            ],
+            "subraces": [
+                {
+                    "ability": {
+                        "kar": 2,
+                        "zek": 1
+                    },
+                    "entries": [
+                        {
+                            "name": "Infernal Miras",
+                            "entries": [
+                                "{@spell Thaumaturgy (Mucize)} cantripini bilirsin. 3. seviyeye ulaştığında {@spell Hellish Rebuke (Cehennem Azarı)} büyüsünü bir kez 2. seviye büyü olarak kullanabilirsin. Büyüyü bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. 5. seviyeye ulaştığında {@spell Darkness (Karanlık)} büyüsünü de bir kez kullanabilirsin. Bu büyüyü de bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. Bu büyüler için büyü yapma yeteneğin Karizmadır."
+                            ],
+                            "type": "entries"
+                        }
+                    ]
+                },
+                {
+                    "name": "Alternatif",
+                    "source": "SCAG",
+                    "page": 118,
+                    "ability": {
+                        "zek": 1,
+                        "choose": [
+                            {
+                                "from": [
+                                    "çev",
+                                    "kar"
+                                ],
+                                "count": 1,
+                                "amount": 2
+                            }
+                        ]
+                    },
+                    "entries": [
+                        {
+                            "name": "Görünüş",
+                            "entries": [
+                                "Senin tieflingin diğerleri gibi görünmeyebilir. PHB'de tasvir edilen özelliklere sahip olmaktansa şu özelliklerden 1d4+1 tanesini seç: küçük boynuzlar; keskin dişler; çatallı dil; kedi benzeri gözler; her elde altı parmak; keçi gibi bacaklar; ayrık toynaklar; çatallı kuyruk; pullu deri; kırmızı ya da koyu mavi ten; gölgen ya da yansıman olmaz; kükürt kokusu yayarsın."
+                            ],
+                            "type": "entries"
+                        },
+                        {
+                            "type": "inset",
+                            "name": "Alternatif Özellik (1 tane seç)",
+                            "entries": [
+                                    "Infernal Miras (PHB)",
+                                    "{@spell Thaumaturgy (Mucize)} cantripini bilirsin. 3. seviyeye ulaştığında {@spell Hellish Rebuke (Cehennem Azarı)} büyüsünü bir kez 2. seviye büyü olarak kullanabilirsin. Büyüyü bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. 5. seviyeye ulaştığında {@spell Darkness (Karanlık)} büyüsünü de bir kez kullanabilirsin. Bu büyüyü de bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. Bu büyüler için büyü yapma yeteneğin Karizmadır.",
+                                    "Şeytan Dili",
+                                    "{@spell Vicious Mockery (Acımasız Alay)} cantripini bilirsin. 3. seviyeye ulaştığında {@spell Charm Person (Kişi Cezbet)} büyüsünü bir kez 2. seviye büyü olarak kullanabilirsin. Büyüyü bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. 5. seviyeye ulaştığında {@spell Enthrall (Dikkat Çek)} büyüsünü de bir kez kullanabilirsin. Bu büyüyü de bu şekilde yeniden kullanabilmek için uzun dinlenme bitirmen gerekir. Bu büyüler için büyü yapma yeteneğin Karizmadır. Bu özellik Infernal Miras özelliğinin yerine geçer.",
+                                    "Cehennem Ateşi",
+                                    "3. seviyeye ulaştığında {@spell Burning Hands (Yanan Eller)} büyüsünü bir kez 2. seviye büyü olarak kullanabilirsin. Bu özellik Infernal Miras özelliğinin {@spell Hellish Rebuke (Cehennem Azarı)} büyüsünü değiştirir.",
+                                    "Winged",
+                                    "Kürek kemiklerinden yarasa kanadına benzer kanatlar çıkar. Ağır zırh giymediğin sürece 30 feet uçma hızın olur."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Aasimar",
+            "source": "VGM",
+            "page": 104,
+            "size": "M",
+            "speed": {
+                "walk": 30
+            },
+            "darkvision": 60,
+            "ability": {
+                "kar": 2
+            },
+            "entries": [
+                {
+                    "name": "Yaş",
+                    "type": "entries",
+                    "entries": [
+                        "Aasimarlar insanlarla aynı hızda olgunlaşır ama 160 yıla kadar yaşayabilirler."
+                    ]
+                },
+                {
+                    "name": "Yönelim",
+                    "type": "entries",
+                    "entries": [
+                        "Kutsal güç ile bağlanmış olan aasimarların çoğu iyi olur. Toplumdan atılmış aasimarlar genellikle nötr hatta bazen kötü bile olabilirler."
+                    ]
+                },
+                {
+                    "name": "Gece Görüşü",
+                    "entries": [
+                        "Işıldayan bir ruhla kutsandığın için görüşün karanlığı deler geçer. 60 feet yakınında loş ışığı parlak ışık gibi, karanlıkta da loş ışık gibi görürsün. Karanlıkta renk ayırt edemezsin, sadece grinin tonları olur."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Kutsal Direnç",
+                    "entries": [
+                        "Nekrotik ve radyant hasara karşı direncin vardır."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Şifalı Eller",
+                    "entries": [
+                        "Eylem olarak, bir varlığa dokunup onun senin seviyene eşit miktarda HP yenilemesini sağlayabilirsin. Bu özelliği kullandıktan sonra uzun dinlenme bitirene kadar bir daha kullanamazsın."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Işık Taşıyıcı",
+                    "entries": [
+                        "{@spell Light (Işık)} cantripini bilirsin. Bunun için büyü yapma yeteneğin Karizmadır."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Diller",
+                    "entries": [
+                        "Ortak dil ve Celestial (kutsal) dili okur, yazar ve konuşabilirsin."
+                    ],
+                    "type": "entries"
+                }
+            ],
+            "subraces": [
+                {
+                    "name": "Günahkar",
+                    "ability": {
+                        "kuv": 1
+                    },
+                    "entries": [
+                        {
+                            "name": "Nekrotik Örtü",
+                            "entries": [
+                                "3. seviyeden itibaren, eylemini kullanıp kendi içindeki kutsal enerjiyi serbest bırakır, gözlerini karanlık havuzlara çevirip sırtından uçuş yeteneği olmayan iki iskelet, hayaletimsi kanat çıkarabilirsin. Dönüştüğün anda 10 fit yakınında seni görebilen diğer varlıklar Karizma kurtulma zarı atar (DC 8 + uzmanlık bonusun + Karizma bonusun) ya da bir sonraki sıranın sonuna kadar senden {@condition korkma} durumunda olurlar.",
+                                "Bu dönüşümün 1 dakika ya da sen onu bonus eylem olarak bitirene kadar sürer. Bu süreçte her sıranda bir kereliğine, tek hedefe ona bir büyü ya da saldırı ile hasar verdiğinde fazladan nekrotik hasar verebilirsin. Bu fazladan nekrotik hasar seviyene eşittir.",
+                                "Bu özelliği kullandıktan sonra uzun dinlenme bitirene kadar bir daha kullanamazsın."
+                            ],
+                            "type": "entries"
+                        }
+                    ]
+                },
+                {
+                    "name": "Koruyucu",
+                    "ability": {
+                        "akı": 1
+                    },
+                    "entries": [
+                        {
+                            "name": "Parlak Ruh",
+                            "entries": [
+                                "3. seviyeden itibaren, eylemini kullanıp kendi içindeki kutsal enerjiyi serbest bırakırsın, gözlerin parıldar ve sırtından iki ışıldayan cisimsiz kanat çıkar.",
+                                "Bu dönüşümün 1 dakika ya da sen onu bonus eylem olarak bitirene kadar sürer. Bu süreçte 30 fit uçma hızın olur ve her sıranda bir kereliğine, tek hedefe ona bir büyü ya da saldırı ile hasar verdiğinde fazladan radyant hasar verebilirsin. Bu fazladan radyant hasar seviyene eşittir.",
+                                "Bu özelliği kullandıktan sonra uzun dinlenme bitirene kadar bir daha kullanamazsın."
+                            ],
+                            "type": "entries"
+                        }
+                    ]
+                },
+                {
+                    "name": "Felaket",
+                    "ability": {
+                        "day": 1
+                    },
+                    "entries": [
+                        {
+                            "name": "Parlak Tükeniş",
+                            "entries": [
+                                "3. seviyeden itibaren, eylemini kullanıp kendi içindeki kutsal enerjiyi serbest bırakırsın, kavurucu bir ışık senden saçılmaya başlar, gözlerinden ve ağzından boşalır ve seni yakmaya çalışır.",
+                                "Bu dönüşümün 1 dakika ya da sen onu bonus eylem olarak bitirene kadar sürer. Bu süreçte 10 fit çevrene parlak ışık, ötesinde 10 fit daha loş ışık saçarsın, ve her sıranın sonunda sen ve 10 fit çevrendeki her varlık senin seviyenin yarısı kadar (üste yuvarlanır) radyant hasar alır. Ek olarak, her sıranda bir kereliğine, tek hedefe ona bir büyü ya da saldırı ile hasar verdiğinde fazladan radyant hasar verebilirsin. Bu fazladan radyant hasar seviyene eşittir.",
+                                "Bu özelliği kullandıktan sonra uzun dinlenme bitirene kadar bir daha kullanamazsın."
+                            ],
+                            "type": "entries"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,969 @@
+{
+  "class": [
+    {
+      "name": "Warlock",
+      "source": "PHB",
+      "hd": {
+        "number": 1,
+        "faces": 8
+      },
+      "proficiency": [
+        "akı",
+        "kar"
+      ],
+      "classTableGroups": [
+        {
+          "colLabels": [
+            "{@filter Bilinen Cantripler|spells|level=0|class=Warlock}",
+            "Bilinen Büyüler",
+            "Büyü Yuvaları",
+            "Yuva Seviyesi",
+            "Bilinen Yakarışlar"
+          ],
+          "rows": [
+            [
+              2,
+              2,
+              1,
+              "{@filter 1.|spells|level=1|class=Warlock}",
+              0
+            ],
+            [
+              2,
+              3,
+              2,
+              "{@filter 1.|spells|level=1|class=Warlock}",
+              2
+            ],
+            [
+              2,
+              4,
+              2,
+              "{@filter 2.|spells|level=2|class=Warlock}",
+              2
+            ],
+            [
+              3,
+              5,
+              2,
+              "{@filter 2.|spells|level=2|class=Warlock}",
+              2
+            ],
+            [
+              3,
+              6,
+              2,
+              "{@filter 3.|spells|level=3|class=Warlock}",
+              3
+            ],
+            [
+              3,
+              7,
+              2,
+              "{@filter 3.|spells|level=3|class=Warlock}",
+              3
+            ],
+            [
+              3,
+              8,
+              2,
+              "{@filter 4.|spells|level=4|class=Warlock}",
+              4
+            ],
+            [
+              3,
+              9,
+              2,
+              "{@filter 4.|spells|level=4|class=Warlock}",
+              4
+            ],
+            [
+              3,
+              10,
+              2,
+              "{@filter 5.|spells|level=5|class=Warlock}",
+              5
+            ],
+            [
+              4,
+              10,
+              2,
+              "{@filter 5.|spells|level=5|class=Warlock}",
+              5
+            ],
+            [
+              4,
+              11,
+              3,
+              "{@filter 5.|spells|level=5|class=Warlock}",
+              5
+            ],
+            [
+              4,
+              11,
+              3,
+              "{@filter 5.|spells|level=5|class=Warlock}",
+              6
+            ],
+            [
+              4,
+              12,
+              3,
+              "{@filter 5.|spells|level=5|class=Warlock}",
+              6
+            ],
+            [
+              4,
+              12,
+              3,
+              "{@filter 5.|spells|level=5|class=Warlock}",
+              6
+            ],
+            [
+              4,
+              13,
+              3,
+              "{@filter 5.|spells|level=5|class=Warlock}",
+              7
+            ],
+            [
+              4,
+              13,
+              3,
+              "{@filter 5.|spells|level=5|class=Warlock}",
+              7
+            ],
+            [
+              4,
+              14,
+              4,
+              "{@filter 5.|spells|level=5|class=Warlock}",
+              7
+            ],
+            [
+              4,
+              14,
+              4,
+              "{@filter 5.|spells|level=5|class=Warlock}",
+              8
+            ],
+            [
+              4,
+              15,
+              4,
+              "{@filter 5.|spells|level=5|class=Warlock}",
+              8
+            ],
+            [
+              4,
+              15,
+              4,
+              "{@filter 5.|spells|level=5|class=Warlock}",
+              8
+            ]
+          ]
+        }
+      ],
+      "startingProficiencies": {
+        "armor": [
+          "hafif"
+        ],
+        "weapons": [
+          "basit"
+        ],
+        "skills": {
+          "choose": 2,
+          "from": [
+            "Arcana",
+            "Aldatma",
+            "Tarih",
+            "Gözdağı",
+            "İnceleme",
+            "Doğa",
+            "Din"
+          ]
+        }
+      },
+      "startingEquipment": {
+        "additionalFromBackground": true,
+        "default": [
+          "(a) hafif arbalet ve 20 kısa ok veya (b) herhangi bir basit silah",
+          "(a) bir bileşen kesesi ya da (b) bir arcane odağı",
+          "(a) bir bilge paketi ya da (b) bir zindancı paketi",
+          "Deri zırh, herhangi bir basit silah, ve 2 hançer"
+        ],
+        "goldAlternative": "4d4 × 10"
+      },
+      "classFeatures": [
+        [
+          {
+            "name": "Ahit Büyüsü",
+            "entries": "Efendin tarafından sana bahşedilmiş arcane araştırmalar ve güçsenin büyü yapmanı sağlar.\nCantripler\nWarlock büyü listesindenseçeceğin 2 cantrip biliyorsun. Warlocktablosunun Bilinen Cantriplersütununda görülebileceği üzere üstseviyelerde ek cantripleröğrenirsin.\nBüyü Yuvaları\nWarlock tablosu kaç tane büyü yuvan olduğunugösterir. Tablo buyuvaların kaçıncı seviye olduğunu da gösterir, tümyuvaların aynıseviyedir. 1. seviye ve üzeri bir warlock büyüsü kullanmakiçin bir büyüyuvası harcaman gerekir. Harcanan büyü yuvaların kısa veyauzundinlenme sonrası yenilenir.Örneğin, sen 5. seviyeyken 2 adet 3.seviye büyü yuvan olur. 1. seviyebüyüsü {@spell thunderwave (gürleyendalga)} kullanmak için buyuvalardan biri harcanır ve büyü 3. seviyedekullanılır.\n1. Seviye ve Üzeri Bilinen Büyüler\n1. seviyede, warlockbüyü listesinden seçeceğin 2 adet 1. seviye büyü bilirsin.Warlocktablosunun Bilinen Büyüler sütunu ileride ne zaman warlockbüyülistesinden yeni büyüler seçebileceğini gösterir. Seçeceğinbüyününseviyesi tabloda Yuva Seviyesi sütununda senin seviyen içingörülensayıdan yüksek olamaz. Örneğin 6. seviyeye ulaştığında, yeni birwarlockbüyüsü öğrenirsin ve bu 1,2 ya da 3. seviyeden olabilir.Ekolarak, bu sınıfta bir seviye atladığında bildiğin bir warlockbüyüsünüyeni bir warlock büyüsü ile değiştirebilirsin. Büyü seçimkurallarıburada da geçerlidir.\nBüyü Yapma Yeteneği\nWarlock büyüleri içinkullanacağın yetenek skoru Karizmadır ve ne zamanbir büyü, büyü yapmayeteneğinden bahsederse Karizma bonusunukullanırsın. Aynı zamanda,warlock büyülerinin kurtulma zarı zorlukseviyesini (DC) belirlerken,saldırı ve hasar zarlarında Karizmabonusunkullanılır.\nabilityDC:kar\nabilityAttackMod:kar\n\nBüyü YapmaOdağı\nWarlock büyülerini kullanabilmek için arcane odak kullanabilirsin."
+          },
+          {
+            "name": "Dünyadışı Efendi",
+            "entries": "1. seviyede mevcut efendiler listesinden seçeceğin bir dünyadışı varlıkile anlaşma yaparsın. Bu seçimin sana 1, 6, 10 ve 14. seviyelerdeözellikler kazandırır.",
+            "gainSubclassFeature": true
+          }
+        ],
+        [
+          {
+            "name": "Eldritch Yakarışları",
+            "entries": "Doğaüstü bilgileri araştırmalarında eldritch yakarışlarını keşfettin.Bunlar sana büyülü yetenekler veren yasaklı bilgilerinparçacıklarıdır.2. seviyede seçeceğin 2 eldritch yakarışı öğrenirsin.Yakarışseçeneklerin sınıf tanımının altında detaylı bir şekildeverilmiştir.Belirli warlock seviyelerine ulaştığında ek yakarışlarseçersin.Ek olarak, bu sınıfta bir seviye atladığında bildiğin biryakBir yakarıştaki seviye gereksinimi warlock seviyesini kasteder,karakter seviyesini değil.arışı oseviyede seçebileceğin başka biryakarış ile değiştirebilirsin.\n\n-----eklenecek-----"
+          }
+        ],
+        [
+          {
+            "name": "Ahit Lütfu",
+            "entries": "3. seviyede dünyadışı efendin sana sadakatin için bir ödül bahşeder. Buseçeneklerden birini kazanırsın.\nZincirin Ahdi\n{@spell Find familiar(Hizmetkar Bul)} büyüsünü öğrenirsin ve onu ritüelolarakkullanabilirsin. Bu büyü bildiğin büyüler sayısını etkilemez.Bu büyüyükullandığında hizmetkarın için normal formların yanında şuözelformlardan birini de seçebilirsin: {@creature imp},{@creaturepseudodragon}, {@creature quasit}, ya da {@creature sprite}.Ekolarak, Saldırı eylemini kullandığında bir saldırındanvazgeçiphizmetkarının reaksiyonunu kullanarak bir saldırıyapmasınısağlayabilirsin.\nKılıcın Ahdi\nEylemini kullanarak boş elindeahit silahını yaratabilirsin. Heryaratışında bu silahın formunuseçebilirsin. Kullandığın sürece bu silahile uzmanlığın vardır. Büyüsüzhasara karşı direnç ve bağışıklığıgeçmek adına bu silah büyülüsayılır.Ahit silahın eğer senden 5 fit uzakta 1 dakika ya da fazlageçirirsekaybolur. Bu özelliği yeniden kullandığında, öldüğünde ya dasilahısavdığında (eylem gerektirmez) da silah kaybolur.Büyülü bir silahıözel bir ritüel gerçekleştirerek kendi ahit silahınadönüştürebilirsin.Bu ritüeli 1 saat süresince yaparsın ve kısa dinlenmesırasındayapılabilir. İstediğinde silahı savıp farklı bir boyuttatutabilirsin veahit silahını yarattığında yeniden belirir. Artefakt yada bilinçli birsilahı bu şekilde etkileyemezsin. Eğer ölürsen, 1saatlik ritüeli farklıbir silahla yaparsan ya da bağı bozmak için 1saatlik bir ritüeliyaparsan ahit silahın olmayı bırakır. Bağbozulduğunda hala farklı birboyuttaysa silah ayağının dibinde belirir.\nYazıtın Ahdi\nEfendin sana Gölgeler Kitabı adında bir büyü kitabı verir. Bu özelliğikazandığında herhangi bir sınıfın büyü listesinden 3 adet cantrip seç.Bu cantripler aynı büyü listesinden olmak zorunda değil. Büyü kitabıüzerinde olduğu sürece bu cantripleri istediğin zaman kullanabilirsin.Bildiğin cantripler sayısını etkilemez. Bu şekilde kullandığın tümcantripler senin için warlock cantripi sayılır. Eğer gölgeler Kitabınıkaybedersen 1 saatlik bir seremoni ile efendinden yenisini alabilirsin.Bu seremoni kısa ya da uzun dinlenme sırasında yapılabilir ve bir öncekikitabı yok eder. Öldüğünde kitap küle dönüşür."
+          }
+        ],
+        [
+          {
+            "name": "Yetenek Skoru Gelişimi",
+            "entries": "4. seviyeye eriştiğinde bir yetenek skorunu 2 ya da 2 ayrı yetenekskorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu20'nin üzerine çıkaramazsın.Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
+          }
+        ],
+        [],
+        [
+          {
+            "name": "Dünyadışı Efendi Özelliği",
+            "entries": "6. seviyede Dünyadışı Efendinin sunduğu bir özelliği kazanırsın.",
+            "gainSubclassFeature": true
+          }
+        ],
+        [],
+        [
+          {
+            "name": "Yetenek Skoru Gelişimi",
+            "entries": "8. seviyeye eriştiğinde bir yetenek skorunu 2 ya da 2 ayrı yetenekskorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu20'nin üzerine çıkaramazsın.Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
+          }
+        ],
+        [],
+        [
+          {
+            "name": "Dünyadışı Efendi Özelliği",
+            "entries": "10. seviyede Dünyadışı Efendinin sunduğu bir özelliği kazanırsın.",
+            "gainSubclassFeature": true
+          }
+        ],
+        [
+          {
+            "name": "Mistik Sır (6. seviye)",
+            "entries": "11. seviyede efendin sana bir büyülü sır bahşeder. Warlock büyülistesinden bir {@filter 6. seviye büyü|spells|level=6|class=Warlock}seç, bu senin mistik sırrın olur.Sır büyünü bir kere büyü yuvası harcamadan kullanabilirsin. Yeniden kullanabilmek için uzun dinlenme bitirmen gerekir.Üst seviyelerde bu şekilde kullanılabilecek yeni warlock büyüleriseçersin; 13. warlock seviyesinde bir 7. seviye büyü, 15. warlockseviyesinde bir 8. seviye büyü, ve 17. warlock seviyesinde bir 9. seviyebüyü. Mistik sırlarının kullanımını geri kazanmak için uzun dinlenmebitirmen gerekir."
+          }
+        ],
+        [
+          {
+            "name": "Yetenek Skoru Gelişimi",
+            "entries": "4. seviyeye eriştiğinde bir yetenek skorunu 2 ya da 2 ayrı yetenekskorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu20'nin üzerine çıkaramazsın.Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
+          }
+        ],
+        [
+          {
+            "name": "Mistik Sır (7. seviye)",
+            "entries": "13. seviyede efendin sana bir büyülü sır bahşeder. Warlock büyülistesinden bir {@filter 7. seviye büyü|spells|level=7|class=Warlock}seç, bu senin mistik sırrın olur.Sır büyünü bir kere büyü yuvası harcamadan kullanabilirsin. Yeniden kullanabilmek için uzun dinlenme bitirmen gerekir."
+          }
+        ],
+        [
+          {
+            "name": "Dünyadışı Efendi Özelliği",
+            "entries": "14. seviyede Dünyadışı Efendinin sunduğu bir özelliği kazanırsın.",
+            "gainSubclassFeature": true
+          }
+        ],
+        [
+          {
+            "name": "Mistik Sır (8. seviye)",
+            "entries": "15. seviyede efendin sana bir büyülü sır bahşeder. Warlock büyülistesinden bir {@filter 8. seviye büyü|spells|level=8|class=Warlock}seç, bu senin mistik sırrın olur.Sır büyünü bir kere büyü yuvası harcamadan kullanabilirsin. Yeniden kullanabilmek için uzun dinlenme bitirmen gerekir."
+          }
+        ],
+        [
+          {
+            "name": "Yetenek Skoru Gelişimi",
+            "entries": "16. seviyeye eriştiğinde bir yetenek skorunu 2 ya da 2 ayrı yetenekskorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu20'nin üzerine çıkaramazsın.Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
+          }
+        ],
+        [
+          {
+            "name": "Mistik Sır (9. seviye)",
+            "entries": "17. seviyede efendin sana bir büyülü sır bahşeder. Warlock büyülistesinden bir {@filter 9. seviye büyü|spells|level=9|class=Warlock}seç, bu senin mistik sırrın olur.Sır büyünü bir kere büyü yuvası harcamadan kullanabilirsin. Yeniden kullanabilmek için uzun dinlenme bitirmen gerekir."
+          }
+        ],
+        [],
+        [
+          {
+            "name": "Yetenek Skoru Gelişimi",
+            "entries": "19. seviyeye eriştiğinde bir yetenek skorunu 2 ya da 2 ayrı yetenekskorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu20'nin üzerine çıkaramazsın.Eğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
+          }
+        ],
+        [
+          {
+            "name": "Eldritch Üstadı",
+            "entries": "20. seviyede efendine yalvararak içindeki mistik güç rezervine ulaşıpbüyü yuvalarını yenileyebilirsin. 1 dakika efendine yardım içinyalvararak Ahit Büyüsü özelliği ile kazandığın tüm büyü yuvalarınıyenilersin. Bu özelliği yeniden kullanabilmek için uzun dinlenmebitirmen gerekir."
+          }
+        ]
+      ],
+      "subclassTitle": "Dünyadışı Efendi",
+      "subclasses": [
+        {
+          "name": "Baş Fey",
+          "subclassFeatures": [
+            [
+              {
+                "name": "Baş Fey",
+                "entries": [
+                  "Efendin bir fey lord ya da leydisidir, ölümlü ırklar doğmadan öncesinin sırlarını tutan bir efsanevi varlık. Bu varlığın amacı genellikle esrarengiz, bazen garip, ve bazen de çağlar öncesinden kalma garezleri çözmek için daha fazla güç isteğidir. Bu varlıkların arasında; Buz Prensi, Hava ve Karanlığın Kraliçesi, Gün Sarayının hükümdarı, Yaz Sarayından Titania ve onun eşi Yeşil Lord Oberon, Ahmaklar Prensi Hyrsam, ve kadim cadılar sayılabilir.",
+                  {
+                    "type": "entries",
+                    "name": "Genişletilmiş Büyü Listesi",
+                    "entries": [
+                      "Baş Fey sana warlock büyülerini seçerken daha geniş bir yelpazeden seçmeni sağlar. Şu büyüler senin için warlock büyü listesine eklenir.",
+                      {
+                        "type": "table",
+                        "caption": "Baş Fey Genişletilmiş Büyüleri",
+                        "colLabels": [
+                          "Büyü Seviyesi",
+                          "Büyüler"
+                        ],
+                        "colStyles": [
+                          "col-xs-3 text-align-center",
+                          "col-xs-9"
+                        ],
+                        "rows": [
+                          [
+                            "1.",
+                            "{@spell faerie fire (peri ateşi)}, {@spell sleep (uyku)}"
+                          ],
+                          [
+                            "2.",
+                            "{@spell calm emotions (duyguları yatıştır)}, {@spell phantasmal force (hayali güç)}"
+                          ],
+                          [
+                            "3.",
+                            "{@spell blink (yansön)}, {@spell plant growth (bitki büyümesi)}"
+                          ],
+                          [
+                            "4.",
+                            "{@spell dominate beast (hayvana hükmet)}, {@spell greater invisibility (Üstün görünmezlik)}"
+                          ],
+                          [
+                            "5.",
+                            "{@spell dominate person (kişiye hükmet)}, {@spell seeming (görünüş)}"
+                          ]
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Fey Varlığı",
+                    "entries": [
+                      "1. seviyeden itibaren efendin sana aldatıcı ve korkutucu fey varlığını yansıtma yeteneğini bahşeder. Eylem olarak, senden başlayan 10 fit'lik bir kübün içindeki tüm varlıkların senin warlock büyü DC'ne karşı Akıl kurtulma zarı atmasını sağlayabilirsin. Başarısız olan varlıklar bir sonraki sıranın sonuna kadar seçimine göre ya cezbedilirler ya da korkarlar.",
+                      "Bu özelliği kullandığında kısa ya da uzun dinlenme bitirene kadar bir daha kullanamazsın."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Puslu Kaçış",
+                    "entries": [
+                      "6. seviyeden itibaren bir hasara karşılık olarak sis bulutunda yok olabilirsin. Hasar aldığında reaksiyonunu kullanarak görünmez olup 60 fit yakınında görebildiğin boş bir yere ışınlanabilirsin. Bir sonraki sıranın başına kadar ya da saldırı veya büyü kullanana kadar görünmez kalırsın.",
+                      "Bu özelliği kullandığında kısa ya da uzun dinlenme bitirene kadar bir daha kullanamazsın."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Aldatan Savunma",
+                    "entries": [
+                      "10. seviyede efendin sana düşmanlarının zihni etkileyen büyülerini onlara karşı çevirmeyi öğretir. Cezbetme durumuna bağışıklık kazanırsın ve başka bir varlık seni cezbetmeye çalıştığında reaksiyonunu kullanıp cezbetmeyi ona karşı kullanabilirsin. Varlık senin warlock büyü DC'ne karşı Akıl kurtulma zarı atar ve başarısız olursa 1 dakikalığına ya da hasar alana kadar senin tarafından cezbedilmiş olur."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Karanlık Hezeyan",
+                    "entries": [
+                      "14. seviyeden itibaren bir varlığı hayali bir diyara gönderebilirsin. Eylem olarak 60 fit yakınında görebildiğin bir varlığı seç. Warlock büyü DC'ne karşı Akıl kurtulma zarı atmalı. Başarısız olursa 1 dakika boyunca ya da senin konsantrasyonun (bir büyüye konsantre olur gibi) bozulana kadar seçimine göre senden korkar ya da cezbedilir. Eğer varlık hasar alırsa bu etki erken biter.",
+                      "Bu illüzyon bitene kadar varlık bir puslu diyarda kaybolduğunu düşünür, bunun görüntüsünü sen seçersin. Varlık sadece kendisini, seni ve illüzyonu görüp duyabilir.",
+                      "Bu özelliği yeniden kullanabilmek için kısa ya da uzun dinlenme bitirmen gerekir."
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          "source": "PHB",
+          "shortName": "Baş Fey"
+        },
+        {
+          "name": "Zebani",
+          "subclassFeatures": [
+            [
+              {
+                "name": "Zebani",
+                "entries": [
+                  "Sen buna karşı ol ya da olma amacı kötülük olan, varoluşun alt boyutlarından bir zebani ile antlaştın. Bu tip varlıklar nihayetinde sende dahil olmak üzere her şeyin yozlaşması ve yok olmasını arzu ederler. Bir ahit bağı kuracak kadar güçlü zebaniler arasında Demogorgon, Orcus, Fraz'Urb-luu, ve Baphomet gibi iblis lordları; Asmodeus, Dispater, Mephistopheles, ve Belial gibi baş şeytanlar; özellikle güçlü pit fiend'ler ve balor'lar; ultroloth'lar ve yugoloth'ların diğer lordları sayılabilir.",
+                  {
+                    "type": "entries",
+                    "name": "Genişletilmiş Büyü Listesi",
+                    "entries": [
+                      "Zebani sana warlock büyülerini daha geniş bir yelpazeden seçmeni sağlar. Şu büyüler senin için warlock büyü listesine eklenir.",
+                      {
+                        "type": "table",
+                        "caption": "Zebani Genişletilmiş Büyüleri",
+                        "colLabels": [
+                          "Büyü Seviyesi",
+                          "Büyüler"
+                        ],
+                        "colStyles": [
+                          "col-xs-3 text-align-center",
+                          "col-xs-9"
+                        ],
+                        "rows": [
+                          [
+                            "1.",
+                            "{@spell burning hands (yanan eller)}, {@spell command (emret)}"
+                          ],
+                          [
+                            "2.",
+                            "{@spell blindness/deafness (körlük/sağırlık)}, {@spell scorching ray (Kavurucu Işın)}"
+                          ],
+                          [
+                            "3.",
+                            "{@spell fireball (alevtopu)}, {@spell stinking cloud (kokuşmuş bulut)}"
+                          ],
+                          [
+                            "4.",
+                            "{@spell fire shield (alev kalkanı)}, {@spell wall of fire (ateş duvarı)}"
+                          ],
+                          [
+                            "5.",
+                            "{@spell flame strike (alev darbesi)}, {@spell hallow (kutsa)}"
+                          ]
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Karanlık Olanın Kutsaması",
+                    "entries": [
+                      "1. seviyeden itibaren bir düşman varlığı 0 HP'ye düşürdüğünde Karizma bonusun + warlock seviyen kadar (en az 1) geçici HP kazanırsın."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Karanlık Olanın Kendi Şansı",
+                    "entries": [
+                      "6. seviyeden itibaren efendine kaderi senin çıkarına değiştirmesi için seslenebilirsin. Bir yetenek ya da kurtulma zarı attığında bu özelliği kullanıp zara d10 ekleyebilirsin. Asıl zarı gördükten sonra kullanabilirsin ama sonuç açıklanmadan karar vermelisin.",
+                      "Bu özelliği kullandığında kısa ya da uzun dinlenme bitirene kadar bir daha kullanamazsın."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Zebani Direnci",
+                    "entries": [
+                      "10. seviyeden itibaren kısa ya da uzun dinlenme bitirdiğinde bir hasar tipi seçebilirsin. Bu özellik ile farklı bir tane seçene kadar o hasar tipine direncin olur. Büyülü ya da gümüş silahlardan gelen hasar bu direnci yok sayar."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Cehenneme Yolla",
+                    "entries": [
+                      "14. seviyeden itibaren bir varlığa vurduğunda bu özelliği kullanıp onu anında alt boyutlara yollayabilirsin. Varlık kaybolur ve kabus gibi bir diyardan geçer.",
+                      "Bir sonraki sıranın sonunda hedef en son bulunduğu yere, ya da orası doluysa en yakın boş alana döner. Eğer hedef bir zebani değilse yaşadığı kabus gibi deneyimden sonra 10d10 psişik hasar alır.",
+                      "Bu özelliği kullandığında uzun dinlenme bitirene kadar bir daha kullanamazsın."
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          "source": "PHB",
+          "shortName": "Zebani"
+        },
+        {
+          "name": "Kadim Olan",
+          "subclassFeatures": [
+            [
+              {
+                "name": "Kadim Olan",
+                "entries": [
+                  "Efendin tüm gerçekliğin yapısına yabancı olan bir gizemli varlık. Uzak Diyardan, gerçekliğin ötesindeki yerden gelmiş olabilir ya da sadece efsanelerden bilinen eski tanrılardan biri olabilir. Amaçları ölümlüler için anlaşılmazdır ve onun bilgisi öyle çok ve eskidir ki en büyük kütüphaneler bile onun tuttuğu sırların yanında bir hiç kalır. Kadim Olan senin varlığından haberdar olmayabilir ya da seni umursamayabilir ama öğrendiğin sırlar ondan büyü çekebilmeni sağlar. Bu tip varlıkların arasında Ghaunadar, Pusudaki Cadı; Tharizdun, Zincirli Tanrı; Dendar, Gece Sürüngeni; Zargon, Geri Dönen; Ulu Cthulhu; ve diğer hayal edilemeyecek varlıklar sayılabilir.",
+                  {
+                    "type": "entries",
+                    "name": "Genişletilmiş Büyü Listesi",
+                    "entries": [
+                      "Kadim olan sana warlock büyülerini daha geniş bir yelpazeden seçmeni sağlar. Şu büyüler senin için warlock büyü listesine eklenir.",
+                      {
+                        "type": "table",
+                        "caption": "Kadim Olan Genişletilmiş Büyüleri",
+                        "colLabels": [
+                          "Büyü Seviyesi",
+                          "Büyüler"
+                        ],
+                        "colStyles": [
+                          "col-xs-3 text-align-center",
+                          "col-xs-9"
+                        ],
+                        "rows": [
+                          [
+                            "1.",
+                            "{@spell dissonant whispers (ahenksiz fısıltılar)}, {@spell Tasha's hideous laughter (Tasha'nın korkunç kahkahası)}"
+                          ],
+                          [
+                            "2.",
+                            "{@spell detect thoughts (zihin okuma)}, {@spell phantasmal force (hayali güç)}"
+                          ],
+                          [
+                            "3.",
+                            "{@spell clairvoyance (duru görü)}, {@spell sending (gönderme)}"
+                          ],
+                          [
+                            "4.",
+                            "{@spell dominate beast (hayvana hükmet)}, {@spell Evard's black tentacles (Evard'ın kara dokunaçları)}"
+                          ],
+                          [
+                            "5.",
+                            "{@spell dominate person (kişiye hükmet)}, {@spell telekinesis (telekinezi)}"
+                          ]
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Uyanmış Zihin",
+                    "entries": [
+                      "1. seviyeden itibaren senin farklı bilgilerin diğer varlıkların zihnine dokunmanı sağlar. 30 fit yakınında gördüğün tüm varlıklarla telepatik iletişime geçebilirsin. Senin telepatik iletişimini anlaması için varlıkla bir dil paylaşmanız gerekmez ama varlık en azından bir dili anlayabilir olmalıdır."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Entropi Kalkanı",
+                    "entries": [
+                      "6. seviyede saldırılara karşı kendini büyülü bir şekilde korumayı öğrenir ve düşmanının başarısız saldırısını kendine fırsat olarak çevirebilirsin. Bir varlık sana karşı saldırı zarı attığında reaksiyonunu kullanıp bu zara dezavantaj verebilirsin. Eğer saldırı seni ıskalarsa, o varlığa karşı bir sonraki sıranın sonuna kadar yapacağın ilk saldırı avantajlı olur.",
+                      "Bu özelliği kullandığında kısa ya da uzun dinlenme bitirene kadar bir daha kullanamazsın."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Düşünce Kalkanı",
+                    "entries": [
+                      "10. seviyeden itibaren sen izin vermediğin sürece düşüncelerin telepati ya da başka yöntemlerle okunamaz. Aynı zamanda psişik hasara direncin olur ve ne zaman bir varlık sana psişik hasar verirse o varlıkta senle aynı hasarı alır."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Köle Yarat",
+                    "entries": [
+                      "14. seviyede efendinin yabancı büyüsüyle bir insansının zihnine girmeyi öğrenirsin. Eylemini kullanarak etkisiz halde olan bir insansıya dokunursun. Bu varlık sen bu özelliği bir daha kullanana, üzerine {@spell remove curse (lanet kaldır)} büyüsü kullanılana, ya da cezbetme durumu üzerinden kaldırılana kadar senin cezbetme etkin altında kalır.",
+                      "Cezbettiğin varlık ile aynı boyutta olduğun sürece telepatik iletişime geçebilirsin."
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          "source": "PHB",
+          "shortName": "Kadim Olan"
+        },
+        {
+          "name": "Ölümsüz",
+          "subclassFeatures": [
+            [
+              {
+                "name": "Ölümsüz",
+                "entries": [
+                  "Ebedi yaşamın sırlarını keşfeden efendinin üzerinde ölümün hiçbir gücü yoktur, ama her güç gibi böylesi bir ödülün de bir bedeli olacaktır. Bir zamanlar ölümlü olan efendin, fanilerin ömürlerinin geçişlerini mevsimleri izler gibi izledi, sanki sonsuz gün ve gecenin yanıp sönmesi gibi. Paylaşılacak çağların sırlarına sahip, ölüm ve yaşamın sırlarına. Bu tip varlıklar, Göz ve Elin Lordu Vecna; dehşet Iuz; lich-kraliçe Vol; Aerenal'ın Ölümsüz Sarayı; githyankilerin lich-kraliçesi Vlaakith; ve ölümsüz büyücü Fistandantalus gibilerini içerir.",
+                  "Diyarlarda, Ölümsüz efendiler Gölge Kralı Larloch, Warlock Kripti'nin efsanevi efendisi, ve Unther'in Tanrı-Kralı Gilgeam'ı içerir.",
+                  {
+                    "type": "entries",
+                    "name": "Genişletilmiş Büyü Listesi",
+                    "entries": [
+                      "Ölümsüz warlock büyülerini daha geniş bir yelpazeden seçmeni sağlar. Aşağıdaki büyüler senin için warlock büyü listesine eklenir.",
+                      {
+                        "type": "table",
+                        "caption": "Ölümsüz Genişletilmiş Büyüleri",
+                        "colLabels": [
+                          "Büyü Seviyesi",
+                          "Büyüler"
+                        ],
+                        "colStyles": [
+                          "col-xs-3 text-align-center",
+                          "col-xs-9"
+                        ],
+                        "rows": [
+                          [
+                            "1.",
+                            "{@spell false life (sahte yaşam)}, {@spell ray of sickness (Hastalık Işını)}"
+                          ],
+                          [
+                            "2.",
+                            "{@spell blindness/deafness (körlük/sağırlık)}, {@spell silence (sessizlik)}"
+                          ],
+                          [
+                            "3.",
+                            "{@spell feign death (Ölüm Taklidi)}, {@spell speak with dead (Ölüyle Konuş)}"
+                          ],
+                          [
+                            "4.",
+                            "{@spell aura of life (yaşam aurası)}, {@spell death ward (Ölüm Kalkanı)}"
+                          ],
+                          [
+                            "5.",
+                            "{@spell contagion (bulaşma)}, {@spell legend lore (efsane bilgisi)}"
+                          ]
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Ölülerin Arasında",
+                    "entries": [
+                      "1. seviyeden itibaren, {@spell spare the dying (Öleni Esirge)} cantripini öğrenirsin, bu senin için warlock cantripi sayılır. Ayrıca hastalığa karşı kurtulma zarlarında avantajın olur.",
+                      "Ek olarak, yaşayan ölüler sana hasar verirken zorlanır. Eğer bir yaşayan ölü, zararlı bir büyü ya da saldırı ile seni doğrudan hedef alırsa, o varlık senin büyü kurtulma DC'ne karşı Akıl kurtulma zarı atar (bir {@spell fireball (alevtopu)} büyüsünün patlaması gibi alan etkisinin içinde kalırsan, yaşayan ölü bu kurtulma zarını atmak zorunda değildir). Başarısız olursa, varlık yeni bir hedef seçer ya da senin dışında birini hedef almaktan vazgeçer, saldırı ya da büyünün boşa gitme ihtimali olabilir. Başarılı olursa, varlık bu etkiye 24 saat bağışıklık kazanır. Bir yaşayan ölü eğer sen onu bir saldırı ya da zararlı büyü ile hedef alırsan da bu etkiye 24 saat boyunca bağışıktır."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Ölüme Karşı Gel",
+                    "entries": [
+                      "6. seviyeden itibaren, ölümü aldattığında ya da başkasının aldatmasına yardım ettiğinde kendine yaşam gücü verebilirsin. Bir ölüm kurtulma zarında başarılı olduğunda ya da başka bir varlığı öleni esirge cantripi ile stabilize ettiğinde, 1d8 + Dayanıklılık bonusun (en az 1 HP) kadar HP yenileyebilirsin.",
+                      "Bu özelliği kullandığında, uzun dinlenme bitirene kadar bir daha kullanamazsın."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Ölümsüz Yapı",
+                    "entries": [
+                      "10 seviyeden itibaren, nefesini sonsuz tutabilirsin, ve yiyecek, içecek veya uyku ihtiyacın kalmaz, ama hala {@condition bitkinlik} seviyesini azaltmak için dinlenmeye ihtiyacın vardır ve hala kısa ve uzun dinlenmeden faydalanabilirsin.",
+                      "Ek olarak, daha yavaş yaşlanırsın. Her geçen 10 yıl için, bedenin 1 yıl yaşlanır, ve büyülü bir şekilde yaşlandırılmaya karşı bağışıklığın olur."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Yokedilemez Yaşam",
+                    "entries": [
+                      "14. seviyeye ulaştığında, Ölümsüzün saf sırlarından birkaçına dahil olursun. Sıranda, bonus eylem kullanıp 1d8 + Warlock seviyen kadar HP yenileyebilirsin. Ek olarak, eğer bu özelliği kullanırken kopan bir vücut parçanı yerine tutarsan, parça yeniden birleşir.",
+                      "Bu özelliği kullandığında, kısa ya da uzun dinlenme bitirene kadar bir daha kullanamazsın."
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          "source": "SCAG",
+          "shortName": "Ölümsüz"
+        },
+        {
+          "name": "Kutsal",
+          "subclassFeatures": [
+            [
+              {
+                "name": "Kutsal",
+                "entries": [
+                  "Efendin Üst Boyutlardan güçlü bir varlıktır. Kendini ebedi mutluluk boyutlarından birinde yaşayan kadim bir empyrean, solar, ki-rin, unicorn, ya da benzer bir varlığa bağladın. Bu varlıkla olan ahdin çokluevrene dokunan kutsal ışığın en yalın halini deneyimleyebilmeni sağlar.",
+                  "Bu tip bir güce bağlı olmak senin davranış ve inançlarında değişime yol açabilir. Kendini yaşayan ölüleri yok etme, zebanileri alt etme, ve masumları koruma gibi hislerle dolu bulabilirsin. Zaman zaman, kalbin efendinin kutsal diyarına olan özlemin ile dolabilir, ve kalan günlerinde cennette gezebilme arzusuyla. Fakat bilirsin ki şu anda görevin fanilerin arasındadır, ve ahdin seni dünyanın karanlık kısımlarına ışık götürmeye bağlar.",
+                  {
+                    "type": "entries",
+                    "name": "Genişletilmiş Büyü Listesi",
+                    "entries": [
+                      "Kutsal warlock büyülerini daha geniş bir yelpazeden seçmeni sağlar. Aşağıdaki büyüler senin için warlock büyü listesine eklenir.",
+                      {
+                        "type": "table",
+                        "caption": "Kutsal Genişletilmiş Büyüleri",
+                        "colLabels": [
+                          "Büyü Seviyesi",
+                          "Büyüler"
+                        ],
+                        "colStyles": [
+                          "col-xs-3 text-align-center",
+                          "col-xs-9"
+                        ],
+                        "rows": [
+                          [
+                            "1.",
+                            "{@spell cure wounds (Yaraları İyileştir)}, {@spell guiding bolt (güdücü ok)}"
+                          ],
+                          [
+                            "2.",
+                            "{@spell flaming sphere (alevli küre)}, {@spell lesser restoration (küçük yenileme)}"
+                          ],
+                          [
+                            "3.",
+                            "{@spell daylight (günışığı)}, {@spell revivify (canlandır)}"
+                          ],
+                          [
+                            "4.",
+                            "{@spell guardian of faith (İnanç Muhafızı)}, {@spell wall of fire (ateş duvarı)}"
+                          ],
+                          [
+                            "5.",
+                            "{@spell flame strike (alev darbesi)}, {@spell greater restoration (Üstün Yenileme)}"
+                          ]
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Bonus Cantripler",
+                    "entries": [
+                      "1. seviyede, {@spell sacred flame (kutsal alev)} ve {@spell light (Işık)} cantriplerini öğrenirsin. Senin için warlock cantripi sayılırlar, ama bildiğin cantrip sayısına dahil olmazlar."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "İyileştiren Işık",
+                    "entries": [
+                      "1. seviyede, yaraları iyileştirmek için kutsal enerjiyi yönlendirme yeteneğini kazanırsın. Bu iyileştirmeyi destekleyen harcadığın bir d6 havuzun olur. Bu havuzdaki zar sayısı 1 + warlock seviyene eşittir.",
+                      "Bonus eylem olarak, 60 fit yakınında görebildiğin bir varlığı havuzdan zar harcayarak iyileştirebilirsin. Bir seferde harcayabileceğin maksimum zar sayısı Karizma bonusuna (en az 1) eşittir. Harcadığın zarları at, onları topla, ve toplam kadar HP yenile.",
+                      "Uzun dinlenme bitirdiğinde havuzun tüm harcanan zarları yeniler."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Parlak Ruh",
+                    "entries": [
+                      "6. seviyeden itibaren, Kutsala olan bağın radyant enerji için bir aracı olmanı sağlar. Radyant hasara direncin olur, ve radyant ya da ateş hasarı veren bir büyü kullandığında, o büyünün hedeflerinden birine karşı attığın bir radyant ya da ateş hasar zarına Karizma bonusunu ekleyebilirsin."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Kutsal Dayanıklılık",
+                    "entries": [
+                      "10. seviyeden itibaren, her kısa ya da uzun dinlenme bitirişinde geçici HP kazanırsın. Bu geçici HP senin warlock seviyen + Karizma bonusun kadardır. Ayrıca, dinlenme sonunda görebildiğin 5 taneye kadar varlık seç. O varlıklar senin warlock seviyenin yarısı + Karizma bonusun kadar geçici HP kazanır."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Dağlayan İntikam",
+                    "entries": [
+                      "14. seviyeden itibaren, yönlendirdiğin radyant enerji ölüme direnmeni sağlar. Sıranın başında ölüm kurtulma zarı atacağın zaman, bunun yerine bir radyant enerji patlamasıyla kendine gelebilirsin. HP maksimumunun yarısını yenilersin, ve eğer istersen ayağa kalkarsın. 30 fit çevrende seçeceğin her varlık 2d8 + Karizma bonusun kadar radyant hasar alır, ve şimdiki sıranın sonuna kadar {@condition körlük} etkisinde olurlar.",
+                      "Bu özelliği kullandığında, uzun dinlenme bitirene kadar bir daha kullanamazsın."
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          "source": "XGE",
+          "shortName": "Kutsal"
+        },
+        {
+          "name": "Hex Kılıcı",
+          "subclassFeatures": [
+            [
+              {
+                "name": "Hex Kılıcı",
+                "entries": [
+                  "Shadowfell, gölgelerden yontulmuş bilinçli silahların geldiği boyuttan bir gizemli varlık ile antlaştın. Efsanevi Blackrazor bu silahların en bilinenidir ve bu silahlar çağlar boyunca çoklu evrene yayılmıştır. Bu silahların ardındaki gölgelerin gücü onunla antlaşan warlocklara güç sunabilir. Çoğu hex kılıcı warlock'u Shadowfell'de yapılmış silahların formlarında silah yaratır. Diğerleri bu tip silahları hiçe sayar ve o boyutun karanlık gücünü büyülerine işler.",
+                  "Bu silahların ilkini Kuzgun Kraliçenin dövdüğü bilindiği için, birçok bilge bu silahlar ve sunulan gücün doğrudan Kuzgun Kraliçe'den geldiğini ve warlockların Materyal Boyutta kendi işlerini görmesi için kullandığı aletler olduğunu öne sürer.",
+                  {
+                    "type": "entries",
+                    "name": "Genişletilmiş Büyü Listesi",
+                    "entries": [
+                      "Hex Kılıcı sana warlock büyülerini daha geniş bir yelpazeden seçmeni sağlar. Şu büyüler senin için warlock büyü listesine eklenir.",
+                      {
+                        "type": "table",
+                        "caption": "Hex Kılıcı Genişletilmiş Büyüleri",
+                        "colLabels": [
+                          "Büyü Seviyesi",
+                          "Büyüler"
+                        ],
+                        "colStyles": [
+                          "col-xs-3 text-align-center",
+                          "col-xs-9"
+                        ],
+                        "rows": [
+                          [
+                            "1.",
+                            "{@spell shield (kalkan)}, {@spell wrathful smite (Hiddetli Çarpma)}"
+                          ],
+                          [
+                            "2.",
+                            "{@spell blur (bulanıklık)}, {@spell branding smite (Damgalayan Çarpma)}"
+                          ],
+                          [
+                            "3.",
+                            "{@spell blink (yansön)}, {@spell elemental weapon (elemental silah)}"
+                          ],
+                          [
+                            "4.",
+                            "{@spell phantasmal killer (hayali katil)}, {@spell staggering smite (Sarsıcı Çarpma)}"
+                          ],
+                          [
+                            "5.",
+                            "{@spell banishing smite (Kovan Çarpma)}, {@spell cone of cold (soğuk konisi)}"
+                          ]
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Hex Kılıcının Laneti",
+                    "entries": [
+                      "1. seviyeden itibaren birinin üzerine nefret dolu bir lanet yerleştirmeyi öğrenirsin. Bonus eylem olarak 30 fit yakınında görebildiğin bir varlık seç. Hedef 1 dakikalığına lanetlenir. Sen etkisiz hale gelirsen, ölürsen ya da hedef ölürse lanet erken biter. Lanet bitene kadar şu etkileri kazanırsın:",
+                      {
+                        "type": "list",
+                        "items": [
+                          "Lanetli hedefe karşı hasar zarlarına bonus eklenir. Bu bonus senin uzmanlık bonusundur.",
+                          "Lanetli hedefe karşı yaptığın tüm saldırı zarlarında 19 ve 20 kritiktir.",
+                          "Eğer lanetli hedef ölürse, warlock seviyen + Karizma bonusun (en az 1) kadar HP yenilersin."
+                        ]
+                      },
+                      "Bu özelliği kısa ya da uzun dinlenme bitirene kadar bir daha kullanamazsın."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Hex Savaşçısı",
+                    "entries": [
+                      "1. seviyede kendini savaş için yeterli duruma getirecek eğitimi alırsın. Orta zırhlar, kalkanlar ve askeri silahlarla uzmanlık kazanırsın.",
+                      "Efendinin etkisi iradeni bir silah üzerinden mistik olarak yönlendirmeni sağlar. Ne zaman uzun dinlenme bitirirsen, iki elli özelliği olmayan ve uzman olduğun bir silaha dokunabilirsin. Bu silah ile saldırdığında, saldırı ve hasar zarları için Kuvvet ya da Çeviklik yerine Karizma bonusunu kullanabilirsin. Bu özellik sen uzun dinlenme bitirene kadar sürer. Eğer sonra Kılıcın Ahdi özelliğini edinirsen, bu özellik silahın tipine bakmaksızın o şekilde yarattığın tüm silahlar için geçerli olur."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Lanetli Specter",
+                    "entries": [
+                      "6. seviyeden itibaren öldürdüğün bir kişinin ruhunu lanetleyip sana hizmet etmesi için geçici olarak bağlayabilirsin. Bir insansıyı öldürdüğünde ruhunun bedeninden bir {@creature specter} olarak çıkmasını sağlayabilirsin. Specter belirdiğinde senin warlock seviyenin yarısı kadar geçici HP kazanır. Specter için öncelik zarı at, kendi sıraları olur. Senin sözlü komutlarını dinler ve saldırı zarlarına senin Karizma bonusun kadar (en az 0) bonus eklenir.",
+                      "Bir sonraki uzun dinlenme sonuna kadar specter hizmetinde kalır ve bu noktadan sonra yok olur.",
+                      "Bu özellikle bir specter yarattıktan sonra bir daha uzun dinlenme bitirene kadar özelliği kullanamazsın."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Hexlerin Zırhı",
+                    "entries": [
+                      "10. seviyede hexin daha da güçlenir. Eğer Hex Kılıcının Laneti ile lanetlenmiş bir hedef sana bir saldırı ile vurursa reaksiyonunu kullanıp d6 atabilirsin. 4 ve üzerinde saldırı asıl zarına bakmaksızın seni ıskalar."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Hexlerin Üstadı",
+                    "entries": [
+                      "14. seviyeden itibaren Hex Kılıcının Lanetini öldürülen bir varlıktan diğerine taşımayı öğrenirsin. Hex Kılıcının Laneti ile lanetlenmiş bir varlık öldüğünde, bu laneti 30 fit yakınında görebildiğin başka bir varlığa aktarabilirsin. Etkisiz halde iken bunu yapamazsın. Laneti bu şekilde aktardığında, önceki varlığın ölümünden HP yenilemezsin."
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          "source": "XGE",
+          "shortName": "Hex Kılıcı"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,635 @@
+{
+  "class": [
+    {
+      "name": "Ozan",
+      "source": "PHB",
+      "hd": {
+        "number": 1,
+        "faces": 8
+      },
+      "proficiency": [
+        "çev",
+        "kar"
+      ],
+      "classTableGroups": [
+        {
+          "colLabels": [
+            "{@filter Bilinen Cantripler|spells|level=0|class=bard}",
+            "Bilinen Büyüler"
+          ],
+          "rows": [
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              3,
+              8
+            ],
+            [
+              3,
+              9
+            ],
+            [
+              3,
+              10
+            ],
+            [
+              3,
+              11
+            ],
+            [
+              3,
+              12
+            ],
+            [
+              4,
+              14
+            ],
+            [
+              4,
+              15
+            ],
+            [
+              4,
+              15
+            ],
+            [
+              4,
+              16
+            ],
+            [
+              4,
+              18
+            ],
+            [
+              4,
+              19
+            ],
+            [
+              4,
+              19
+            ],
+            [
+              4,
+              20
+            ],
+            [
+              4,
+              22
+            ],
+            [
+              4,
+              22
+            ],
+            [
+              4,
+              22
+            ]
+          ]
+        },
+        {
+          "title": "Büyü Seviyesi Başına Büyü Yuvaları",
+          "colLabels": [
+            "{@filter 1.|spells|level=1|class=bard}",
+            "{@filter 2.|spells|level=2|class=bard}",
+            "{@filter 3.|spells|level=3|class=bard}",
+            "{@filter 4.|spells|level=4|class=bard}",
+            "{@filter 5.|spells|level=5|class=bard}",
+            "{@filter 6.|spells|level=6|class=bard}",
+            "{@filter 7.|spells|level=7|class=bard}",
+            "{@filter 8.|spells|level=8|class=bard}",
+            "{@filter 9.|spells|level=9|class=bard}"
+          ],
+          "rows": [
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              1,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              1,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              3,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              1
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2,
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "startingProficiencies": {
+        "armor": [
+          "hafif"
+        ],
+        "weapons": [
+          "basit",
+          "el arbaleti",
+          "uzun kılıçlar",
+          "meçler",
+          "kısa kılıçlar"
+        ],
+        "tools": [
+          "3 müzik enstrümanı"
+        ],
+        "skills": {
+          "choose": 3,
+          "from": [
+            "Atletizm",
+            "Akrobasi",
+            "El Çabukluğu",
+            "Gizlenme",
+            "Arcana",
+            "Tarih",
+            "İnceleme",
+            "Doğa",
+            "Din",
+            "Hayvan İdaresi",
+            "Sezgi",
+            "Tıp",
+            "Algı",
+            "Hayatta Kalma",
+            "Aldatma",
+            "Gözdağı",
+            "Performans",
+            "İkna"
+          ]
+        }
+      },
+      "startingEquipment": {
+        "additionalFromBackground": true,
+        "default": [
+          "(a) bir meç, (b) bir uzun kılıç, ya da (c) herhangi bir basit silah",
+          "(a) bir diplomat paketi ya da (b) bir ozan paketi",
+          "(a) bir ut ya da (b) herhangi bir müzik enstrümanı",
+          "Deri zırh, ve bir hançer"
+        ],
+        "goldAlternative": "5d4 × 10"
+      },
+      "classFeatures": [
+        [
+          {
+            "name": "Ozan İlhamı",
+            "entries": "Diğerlerine coşkulu sözlerin ya da müziğin ile ilham verebilirsin. Bununiçin sıranda senin dışında 60 fit yakınında olan ve seni duyabilen birvarlığı seçip ve bonus eylem olarak ilham verebilirsin. O varlık birOzan İlhamı zarı (d6) alır.\nÖnündeki 10 dakika boyunca o varlık bir kezo zarı atıp bir yetenekzarına, saldırıya ya da kurtulma zarınaekleyebilir. Varlık ilhamıkullanmak için d20'yi atana kadar bekleyebilirama ilhamı GM zarınbaşarılı olup olmadığını söylemeden kullanmalıdır.Ozan İlhamı zarıatıldıktan sonra kaybolur. Bir varlık aynı anda en fazla1 Ozan İlhamınasahip olabilir.\nBu özelliği Karizma bonusun kadarkullanabilirsin (en az 1). İlhamların uzun dinlenme bitirdiğindeyenilenir.\nOzan İlhamı zarın bu sınıfta belirli seviyelere eriştiğindeyükselir.Zar 5. seviyede d8, 10. seviyede d10, 15. seviyede d12 olur."
+          },
+          {
+            "name": "Büyü Yapma",
+            "entries": "Gerçekliğin dokusunu, dileklerin ve müziğinin harmonisiyle söküp yenidenörmeyi öğrendin. Senin büyülerin çok geniş bir repertuarın parçalarıolup birçok duruma uyum sağlayabilir.\n\nCantripler\n\nOzan büyülistesinden seçeceğin 2 cantrip biliyorsun. Üst seviyelere eriştikçeyeni cantripler öğrenirsin, 4. ve 10. seviyelerde birer tane dahaeklenir.\n\nBüyü Yuvaları\n\nOzan tablosu 1. seviye ve üzeri büyülerinikullanmak için kaç tane büyü yuvasına sahip olduğunu gösterir. Bubüyüleri kullanmak için büyünün seviyesi ya da üzeri bir büyü yuvasıharcamalısın. Tüm harcanmış büyü yuvaların uzun dinlenme sonrasıyenilenir.Örneğin, 1. seviye büyüsü {@spell cure wounds (Yaralarıİyileştir)} biliyorsan ve 1. ve 2. seviye büyü yuvaların mevcutsa{@spell cure wounds (Yaraları İyileştir)} büyüsünü herhangi biriniharcayarak kullanabilirsin.\n\nBüyü Yapma Yeteneği\n\nOzan büyüleriniçin kullandığın büyü yapma yeteneğin Karizmadır. Senin büyün anlatım yada müzik performansına kattığın ruhundan gelir. Ne zaman bir büyü, büyüyapma yeteneğinden bahsederse Karizmayı kullanırsın. Ek olarak, ozanbüyülerinle yapacağın saldırılar ve büyülerinin kurtulma zarı DC'sinibelirlemek için de Karizma kullanırsın. \n abilityDc:kar \nabilityAttackMod:kar\n\nRitüel Büyü Yapma\n\nEğer bir büyü ritüeletiketine sahipse onu ritüel olarak kullanabilirsin.\n\nBüyü YapmaOdağı\n\nOzan büyülerini kullanmak için gereken büyü yapma odağı içinbir müzik enstrümanı kullanabilirsin.\n\n"
+          }
+        ],
+        [
+          {
+            "name": "Her İşten Anlar",
+            "entries": "2. seviyeden itibaren eğer bir yetenek zarın uzmanlık bonusunu zateneklemiyorsa, uzmanlık bonusunun yarısını (alta yuvarlanır) o zaraeklersin."
+          },
+          {
+            "name": "Dinlenme Şarkısı (d6)",
+            "entries": "2. seviyeden itibaren kısa dinlenme sırasında anlatım ya da müziğinikullanarak dostlarına enerji verip iyileşmelerini hızlandırırsın. Eğersen ya da performansını duyan bir dost varlık kısa dinlenme sonunda HDharcayarak iyileşirse fazladan 1d6 HP iyileşebilir.\nBu sınıfta belirliseviyelere eriştikçe bu extra HP zarı şu şekildeyükselir; 9. seviyede1d8, 13. seviyede 1d10, 17. seviyede 1d12."
+          }
+        ],
+        [
+          {
+            "name": "Ozan Koleji",
+            "entries": "3. seviyede mevcut listeden seçeceğin ozan kolejinin gelişmiştekniklerini kazanırsın. Seçimin sana 3, 6 ve 14. seviyelerde yeniözellikler ekler.",
+            "gainSubclassFeature": true
+          },
+          {
+            "name": "Ekspertiz",
+            "entries": "3. seviyede iki beceri uzmanlığını seç. Bu seçtiğin uzmanlıklarlaattığın tüm beceri zarlarına uzmanlık bonusunun iki katınıeklersin.\n10. seviyede 2 tane daha uzmanlıkta ekspertiz kazanabilirsin"
+          }
+        ],
+        [
+          {
+            "name": "Yetenek Skoru Gelişimi",
+            "entries": "4. seviyeye eriştiğinde bir yetenek skorunu 2 ya da 2 ayrı yetenekskorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu20'nin üzerine çıkaramazsın.\nEğer DM'in izin veriyorsa, yetenek skoruyerine bir hüner seçebilirsin."
+          }
+        ],
+        [
+          {
+            "name": "Ozan İlhamı (d8)",
+            "entries": "5. seviyede Ozan İlhamı zarın d8'e yükselir."
+          },
+          {
+            "name": "İlham Kaynağı",
+            "entries": "5. seviyeden itibaren tüm harcanmış Ozan İlhamlarını kısa veya uzun dinlenme sonrası yenilersin."
+          }
+        ],
+        [
+          {
+            "name": "Karşı Cazibe",
+            "entries": "6. seviyede müzik notalarını ya da güçlü sözlerini zihin ekilerinibozmak için kullanmayı öğrenirsin. Eylem olarak bir sonraki sıranınsonuna kadar sürecek olan bir performansa başlayabilirsın. Bu süreiçinde sen ve 30 fit yakınındaki dostların korkutulma ve cezbedilmeyekarşı attıkları kurtulma zarlarında avantajlı olurlar. Bir varlık buözellikten faydalanmak için seni duyabilmelidir. Eğer bilinçsizdüşersen, susturulursan ya da sen istersen (eylem gerektirmez)performans erken biter."
+          },
+          {
+            "name": "Ozan Koleji Özelliği",
+            "entries": "6. seviyede Ozan Kolejinin bir özelliğini kazanırsın.",
+            "gainSubclassFeature": true
+          }
+        ],
+        [],
+        [
+          {
+            "name": "Yetenek Skoru Gelişimi",
+            "entries": "8. seviyeye eriştiğinde bir yetenek skorunu 2 ya da 2 ayrı yetenekskorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu20'nin üzerine çıkaramazsın.\nEğer DM'in izin veriyorsa, yetenek skoruyerine bir hüner seçebilirsin."
+          }
+        ],
+        [
+          {
+            "name": "Dinlenme Şarkısı (d8)",
+            "entries": "9. seviyede Dinlenme Şarkısından aldığın extra HP 1d8'e yükselir."
+          }
+        ],
+        [
+          {
+            "name": "Ozan İlhamı (d10)",
+            "entries": "10. seviyede Ozan İlhamı zarın d10'a yükselir."
+          },
+          {
+            "name": "Ekspertiz",
+            "entries": "10. seviyede iki tane daha beceri uzmanlığını seçebilirsin. Buuzmanlıklarla atacağın tüm beceri zarlarında uzmanlık bonusunun ikikatını eklersin."
+          },
+          {
+            "name": "Büyülü Sırlar",
+            "entries": "10. seviyeye kadar çok geniş bir disiplin yelpazesinden büyülü bilgilertopladın. Bu sınıf dahil istediğin sınıftan iki büyü seç. Seçtiğin büyüsahip olduğun büyü yuvalarına uygun olmalı, ya da bir cantripseçebilirsin.\nSeçilen büyüler senin için ozan büyüsü sayılır ve ozantablosunun Bilinen Büyüler sütununda görülen sayıya dahildirler.\n14 ve18. seviyelerde istediğin sınıftan ikişer büyü daha seçersin."
+          }
+        ],
+        [],
+        [
+          {
+            "name": "Yetenek Skoru Gelişimi",
+            "entries": "12. seviyeye eriştiğinde bir yetenek skorunu 2 ya da 2 ayrı yetenekskorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu20'nin üzerine çıkaramazsın.\nEğer DM'in izin veriyorsa, yetenek skoru yerine bir hüner seçebilirsin."
+          }
+        ],
+        [
+          {
+            "name": "Dinlenme Şarkısı (d10)",
+            "entries": "13. seviyede Dinlenme Şarkısından aldığın extra HP 1d10'a yükselir."
+          }
+        ],
+        [
+          {
+            "name": "Büyülü Sırlar",
+            "entries": "14. seviyede bu sınıf dahil istediğin sınıftan iki büyü seç. Seçtiğinbüyü sahip olduğun büyü yuvalarına uygun olmalıdır, ya da cantripseçebilirsin.\nSeçilen büyüler senin için ozan büyüsü sayılır ve ozantablosunun Bilinen Büyüler sütununda görülen sayıya dahildirler."
+          },
+          {
+            "name": "Ozan Koleji Özelliği",
+            "entries": "14. seviyede Ozan Kolejinin bir özelliğini kazanırsın.",
+            "gainSubclassFeature": true
+          }
+        ],
+        [
+          {
+            "name": "Ozan İlhamı (d12)",
+            "entries": "15. seviyede Ozan İlham zarı d12'ye yükselir."
+          }
+        ],
+        [
+          {
+            "name": "Yetenek Skoru Gelişimi",
+            "entries": "16. seviyeye eriştiğinde bir yetenek skorunu 2 ya da 2 ayrı yetenekskorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu20'nin üzerine çıkaramazsın.\nEğer DM'in izin veriyorsa, yetenek skoruyerine bir hüner seçebilirsin."
+          }
+        ],
+        [
+          {
+            "name": "Dinlenme Şarkısı (d12)",
+            "entries": "17. seviyede Dinlenme Şarkısından aldığın extra HP 1d12'ye yükselir."
+          }
+        ],
+        [
+          {
+            "name": "Büyülü Sırlar",
+            "entries": "18. seviyede bu sınıf dahil istediğin sınıftan iki büyü seç. Seçtiğinbüyü sahip olduğun büyü yuvalarına uygun olmalıdır, ya da cantripseçebilirsin.\nSeçilen büyüler senin için ozan büyüsü sayılır ve ozantablosunun Bilinen Büyüler sütununda görülen sayıya dahildirler."
+          }
+        ],
+        [
+          {
+            "name": "Yetenek Skoru Gelişimi",
+            "entries": "19. seviyeye eriştiğinde bir yetenek skorunu 2 ya da 2 ayrı yetenekskorunu birer yükseltebilirsin. Bu özellik ile bir yetenek skorunu20'nin üzerine çıkaramazsın.\nEğer DM'in izin veriyorsa, yetenek skoruyerine bir hüner seçebilirsin."
+          }
+        ],
+        {
+          "0": {
+            "name": "Üstün İlham",
+            "entries": "20. seviyede öncelik zarı attığında hiç Ozan İlhamın yoksa bir tanesi yenilenir."
+          }
+        }
+      ],
+      "subclassTitle": "Ozan Koleji",
+      "subclasses": [
+        {
+          "name": "Bilgi Koleji",
+          "subclassFeatures": [
+            {
+              "name": "Bilgi Koleji",
+              "explanation": "Gerçekliğin dokusunu, dileklerin ve müziğinin harmonisiyle söküp yeniden örmeyi öğrendin. Senin büyülerin çok geniş bir repertuarın parçaları olup birçok duruma uyum sağlayabilir.\nBilgi Kolejindeki ozanlar hemen her şey hakkında bir fikir sahibidir, kaynakları akademik yazıtlardan çiftçi hikayelerine kadar uzanır. Tavernalarda türküler ya da kraliyet huzurunda çalınan karmaşık besteler farketmeksizin bu ozanlar seyircilerini yetenekleriyle büyülerler. Alkış dindiğinde seyirciler kendilerini o ana kadar bağlı oldukları bütün doğruları sorgular bulabilirler, bu rahiplerin inancı ya da bir şövalyenin sadakati olabilir.\nBu ozanların sadakati güzellik ve doğruluğun arayışınadır, bir monarşiüyesine ya da bir tanrının öğretilerine değil. Bu tip bir ozanı danışmanolarak tutan bir soylu, ozanın politik olmaktansa dürüst olmayı tercihedeceğini bilir.\nKolej üyeleri kütüphanelerde ve bazen kolejlerde toplanıp bilgibirikimlerini birbirleri ile paylaşırlar. Bazen festival ve devletişlerinde de buluşup yozlaşma ve yalanları ortaya çıkarıp, otoritefigürleriyle alay ederler.\n\nBonus Uzmanlıklar\n\n3. seviyede Bilgi Kolejine katıldığında seçeceğin 3 beceride uzmanlık kazanırsın.\n\n\nKeskin Sözler\n\n3. seviyede kıvrak zekanı dikkat dağıtma, kafa karıştırma vediğerlerinin özgüvenini kırma için kullanmayı öğrenirsin. 60 fityakınında görebildiğin bir varlık saldırı, hasar ya da beceri zarıatarsa, reaksiyonunu kullanıp bir Ozan İlham zarı harcayarak, ilham zarısonucunu varlığın zarından düşebilirsin. Bu özelliği varlık zarınıattıktan sonra kullanabilirsin ama DM sonucu, yani başarılı ya dabaşarısız olduğunu söylemeden önce olmalı. Varlık seni duyamıyorsa ya dazihin kontrolüne bağışıklığı varsa bu özellikten etkilenmez.\n"
+            },
+            {
+              "name": "Fazladan Büyülü Sırlar",
+              "explanation": "6. seviyede istediğin sınıftan iki büyü öğrenirsin. Seçtiğin büyü sahip olduğun büyü yuvalarına uygun olmalıdır, ya da cantrip seçebilirsin. Seçilen büyüler senin için ozan büyüsü sayılır ama ozan tablosunun Bilinen Büyüler sütununda görülen sayıya dahil değildirler.\n"
+            },
+            {
+              "name": "Emsalsiz Beceri",
+              "explanation": "14. seviyeden itibaren bir yetenek zarı attığında bir Ozan İlhamı harcayıp attığın zarı sonuca ekleyebilirsin. Bunu yetenek zarını attıktan sonra kullanmayı seçebilirsin ama DM sonucun başarılı olup olmadığı söylemeden önce kullanmalısın.\n\n"
+            }
+          ],
+          "source": "PHB",
+          "shortName": "Bilgi"
+        },
+        {
+          "name": "Cesaret Koleji",
+          "subclassFeatures": [
+            {
+              "name": "Cesaret Koleji",
+              "explanation": "Cesaret Koleji ozanları geçmiş kahramanların anılarını canlı tutan ve yeni nesil kahramanlara ilham veren cesur savaşçılardır. Bu ozanlar bira salonlarında ya da büyük kamp ateşleri etrafında toplanır ve geçmiş ve günümüz savaşçılarının hikayelerini anlatır, onlar için şarkılar söylerler. Önemli olayları gözleriyle görmek için seyahat edip o olayların hafızalardan silinmemesi için uğraşırlar. Şarkılarıyla diğerlerinin kadim kahramanların başarılarından ilham almalarını sağlarlar.\nBonus Uzmanlıklar:Cesaret Kolejine katıldığında orta zırhlar, kalkanlar ve askeri silahlarla uzmanlık kazanırsın.\nSavaş İlhamı:3. seviyede savaşta diğerlerine ilham vermeyi öğrenirsin. Senden aldığı bir Ozan İlhamı olan bir varlık o zarı atıp, attığı silah hasar zarına ekleyebilir. Alternatif olarak, varlığa karşı bir saldırı zarı atıldığında reaksiyonunu kullanıp Ozan İlhamı zarını atarak onu o saldırıya karşı AC'sine ekleyebilir.\n"
+            },
+            {
+              "name": "Extra Saldırı",
+              "explanation": "6. seviyeden itibaren sıranda Saldırı eylemini kullandığında 1 yerine 2 kere saldırabilirsin.\n"
+            },
+            {
+              "name": "Savaş Büyüsü",
+              "exlanation": "14. seviyede silah kullanımı ve büyü yapmayı tek ve devamlı bir harmoni haline getirirsin. Eylemini kullanıp bir ozan büyüsü kullandığında, bonus eylem olarak bir silah saldırısı yapabilirsin.\n"
+            }
+          ],
+          "source": "PHB",
+          "shortName": "Cesaret"
+        },
+        {
+          "name": "Cazibe Koleji",
+          "subclassFeatures": [
+            {
+              "name": "Cazibe Koleji",
+              "explanation": "Cazibe Koleji ozanları sanatlarını Feywild'ın canlı dünyasında ya da orada yaşamış birinin ustalığında geliştirirler. Satyrler, eladrinler ve diğer feyler tarafından ders gören bu ozanlar, büyüleriyle diğerlerine haz verip gönüllerini çelerler.Bu kolejin ozanları hayranlık ve korku karışımı ile karşılanırlar. Performansları efsanevidir. Bu ozanlar öyle akıcı konuşurlar ki onların bir hitabı ya da söyledikleri bir şarkı, onları alıkoyanların ozanları salıvermesine ve hiddetli bir ejderhanın yatışmasına sebep olabilir. Hayvanları yatıştırabilen büyü aynı zamanda zihinleri de bükebilir. Bu kolejin kötü ozanları bir toplumu haftalarca sömürebilir, büyülerini kötüye kullanıp ev sahiplerini esir ederler. Bu kolejin kahraman ozanları ise güçlerini talihsizlere umut vermek ve zalimlerin kuyusunu kazmak için kullanırlar.\nİlham Örtüsü:3. seviyede Cazibe Kolejine katıldığında, dostlarını güç ve hızla dolduran bir fey büyüsü ile örülmüş şarkı öğrenirsin.Bonus eylem olarak, Ozan İlhamının bir kullanımını harcayıp kendine harika bir görüntü verebilirsin. Bunu yaptığında, 60 fit yakınında görebildiğin ve seni görebilen Karizma bonusun kadar (en az 1) varlığı seçersin. Her biri 5 geçici HP kazanır. Bir varlık bu geçici HP'yi aldığında, anında reaksiyonunu kullanıp hızı kadar ilerleyebilir, bu hareket fırsat saldırısı tetiklemez.Bu sınıfta belirli seviyelere ulaştığında geçici HP miktarı artar, 5'te 8, 10'da 11, ve 15. seviyede 14 olur.\nBüyüleyici Performans:3. seviyeden itibaren, performanslarını cezbeden fey büyüsü ile doldurabilirsin.Eğer en az 1 dakika performansa devam edersen, şarkıların, şiirlerin veya dansların ile seyircilerinde hayret hissi uyandırmayı deneyebilirsin. Performansın sonunda, 60 fit yakınında bunun tümünü dinleyip izleyen Karizma bonusuna kadar (en az 1) insansı seçersin. Her hedef senin büyü kurtulma DC'ne karşı Akıl kurtulma zarı atar ya da senin tarafından {@condition cezbedilme} etkisinde olur. Bu şekilde cezbedilmişken, hedef seni taparcasına sever, konuştuğu herkese seni över, ve sana karşı olan herkese karşı çıkar, ama zaten senin için savaşmaya gönüllü değilse bu etki altında şiddetten kaçınır. Bu etki bir hedefte bir saat sonunda, hasar alırsa, saldırırsan, veya onun dostlarına saldırışına ya da hasar verişine şahit olursa sonlanır.Eğer bir hedef kurtulma zarında başarılı olursa, onu cezbetmeye çalıştığını farketmez.Bu özelliği kullandığında, kısa ya da uzun dinlenme bitirene kadar bir daha kullanamazsın.\n"
+            },
+            {
+              "name": "Görkem Örtüsü",
+              "explanation": "6. seviyede, diğerlerinin sana hizmet etmek istemesini sağlayacak bir fey büyüsü ile kendini kaplama yeteneğini kazanırsın. Bonus eylem olarak, {@spell command (emret)} büyüsünü büyü yuvası harcamadan kullanırsın, ve 1 dakikalığına ya da konsantrasyonun bitene dek dünyadışı bir güzelliğin görüntüsüne bürünürsün. Bu süreçte, her sıranda bonus eylem olarak {@spell command (emret)} büyüsünü büyü yuvası harcamadan kullanabilirsin.Senin tarafından {@condition cezbedilme} durumunda olan bir varlık, bu özellikle kullandığın {@spell command (emret)} büyüsüne karşı kurtulma zarında otomatik olarak başarısız olur.Bu özelliği kullandığında, uzun dinlenme bitirene kadar bir daha kullanamazsın.\n"
+            },
+            {
+              "name": "Bozulmaz Görkem",
+              "explanation": "\n14. seviyede, görüntün seni kalıcı bir şekilde daha güzel ve vahşi gösterecek dünyadışı nitelikler kazanır.Ayrıca, bonus eylem olarak, 1 dakikalığına ya da {@condition etkisiz hal}e gelene kadar görkemli bir şekle girebilirsin. Süre boyunca, ne zaman bir varlık sırasında ilk defa sana saldırmayı denerse, saldırgan büyü kurtulma DC'ne karşı Karizma kurtulma zarı atar. Başarısız olursa, o sırasında sana saldıramaz, ve saldırısı için yeni bir hedef bulur ya da o saldırı boşa gider. Başarılı olursa, o sırasında sana saldırabilir, ama senin bir sonraki sıranda yapacağın büyülere karşı kurtulma zarlarında dezavantajlı olur.Bu görkemli şekle girdiğinde, bu özelliği kısa ya da uzun dinlenme bitirene kadar bir daha kullanamazsın.\n\n"
+            }
+          ],
+          "source": "XGE",
+          "shortName": "Cazibe"
+        },
+        {
+          "name": "Kılıçlar Koleji",
+          "subclassFeatures": [
+            {
+              "name": "Kılıçlar Koleji",
+              "explanation": "Kılıçlar Kolejinin ozanlarına kılıç üstatları denir, bunlar silah ustalıkları ve hünerleri ile eğlendirirler. Kılıç üstatları, kılıç yutma, bıçak atma ve hokkabazlığı, ve sahte dövüşler gibi gösteriler yaparlar. Silahlarını eğlendirmek için kullansalar da, aynı zamanda iyi eğitimli ve yetenekli savaşçılardır.Silahlarla olan yetenekleri birçok kılıç üstadının çifte hayat sürdürmesine sebep olur. Bir üstat sirk grubunu suikast, soygun ve şantaj gibi suçları saklamak için kullanırken, diğer üstatlar kötülere karşı saldırıp zalim ve güçlülere adaleti götürür. Çoğu eğlence grubu bir kılıç üstadının yeteneklerini performanslara eklediği heyecan dolayısıyla kabul eder, ama nadiren aralarındaki kılıç üstatlarına tamamen güvenirler.Gösteri hayatını bırakan kılıç üstatları gizli aktivitelerini sürdürmede genellikle zorluklarla karşılaşırlar. Çalarken yakalanan ya da sokak adaletine bulaşan bir kılıç üstadı çoğu grup için büyük bir yüktür. Büyüleri ve silah yetenekleri ile, bu üstatlar ya hırsız loncası için infazcı olarak çalışırlar ya da kendi başlarına maceracılığa atılırlar.\nBonus Uzmanlıklar:3. seviyede Kılıçlar Kolejine katıldığında, orta zırhlar ve pala ile uzmanlık kazanırsın.Eğer bir basit ya da askeri yakın dövüş silahı ile uzmanlığın varsa, onu ozan büyülerin için büyü yapma odağı olarak kullanabilirsin.\nDövüş Stili:3. seviyede, uzmanlığın olarak bir dövüş stili seçersin. Şunlardan biri seçersin. Bir Dövüş Stilini, sonradan başka bir özellik imkan sunsa bile birden çok kez seçemezsin.\nDüello:Bir elinde yakın dövüş silahı kullanıp diğer elinde silah kullanmazsan, o silahla hasar zarlarına +2 alırsın.\nİki Silahlı Dövüş:İki silahlı dövüşe girdiğinde, ikinci saldırının hasarına yetenek bonusunu ekleyebilirsin.\nKılıç Geliştirme:3. seviyede, hız ve savaş hüneriyle etkileyici gösteriler yapmayı öğrenirsin.Sıranda Saldırı eylemini kullandığında, sıranın sonuna kadar yürüyüş hızın 10 artar, ve bu eylemin bir parçası olarak yaptığın bir silahlı saldırı bir varlığa vurursa, aşağıdakilerden seçeceğin bir Kılıç Geliştirme kullanabilirsin. Her sıranda sadece bir Kılıç Geliştirme kullanabilirsin.\nSavunma Geliştirmesi:Ozan İlhamının bir kullanımını harcayarak silahının vurduğun hedefe fazladan hasar vermesini sağlayabilirsin. Hasar attığın Ozan İlhamı zarına eşittir. Ayrıca gelen zarı bir sonraki sıranın başına kadar AC'ne de eklersin.\nKesme Geliştirmesi:Ozan İlhamının bir kullanımını harcayarak silahının vurduğun hedefe ve 5 fit yakınında görebildiğin seçeceğin başka bir varlığa fazladan hasar vermesini sağlayabilirsin. Hasar attığın Ozan İlhamı zarına eşittir.\nHareketli Geliştirme:Ozan İlhamının bir kullanımını harcayarak silahının vurduğun hedefe fazladan hasar vermesini sağlayabilirsin. Hasar attığın Ozan İlhamı zarına eşittir. Ayrıca hedefi 5 + zarda gelen sayı kadar fit ileri itebilirsin. Hemen ardından reaksiyonunu kullanıp yürüyüş hızına kadar mesafe ilerleyerek hedefin 5 fit yakınında boş bir alana gidebilirsin.\n"
+            },
+            {
+              "name": "Extra Saldırı",
+              "explanation": "6. seviyeden itibaren sıranda Saldırı eylemini kullandığında 1 yerine 2 kere saldırabilirsin.\n"
+            },
+            {
+              "name": "Üstadın Geliştirmesi",
+              "explanation": "14. seviyeden itibaren, bir Kılıç Geliştirme seçeneğini kullandığında, Ozan İlhamı harcamak yerine d6 atıp onu kullanabilirsin.\n"
+            }
+          ],
+          "source": "XGE",
+          "shortName": "Kılıçlar"
+        },
+        {
+          "name": "Fısıltılar Koleji",
+          "subclassFeatures": [
+            {
+              "name": "Fısıltılar Koleji",
+              "explanation": "\nÇoğu kişi bir ozanı zevkle aralarına kabul eder. Fısıltılar Koleji ozanları da bundan faydalanırlar. Diğer ozanlar gibi görünürler, haberler paylaşır, şarkılar söyler, ve topladıkları dinleyicilere hikayeler anlatırlar. Aslında, Fısıltılar Koleji öğrencilerine koyunlar arasında kurt olmayı öğretir. Bu ozanlar büyü bilgilerini, sırları açığa çıkarmak ve bunu diğerlerine karşı şantaj ve tehdite çevirmek için kullanırlar.Diğer ozanların birçoğu Fısıltılar Koleji ozanlarından nefret eder, onları ozanların itibarından faydalanıp güç ve servet toplayan parazitler olarak görürler. Bu sebepten dolayı, bu kolejin üyeleri nadiren gerçek kimliklerini açıklarlar. Genellikle başka bir koleje ait olduklarını söylerler, ya da kraliyet sarayları ve diğer güç merkezlerine sızabilmek için asıl mesleklerini gizlerler.\nPsişik Kılıçlar:3. seviyede Fısıltılar Kolejine dahil olduğunda, silahlı saldırılarını büyü ile bir varlığın zihine zehirli hale getirmeyi öğrenirsin.Bir varlığa silahlı saldırı ile vurduğunda, bir Ozan İlhamı kullanımı harcayıp hedefe fazladan 2d6 psişik hasar verebilirsin. Bunu her round sadece bir kere kendi sıranda yapabilirsin.Bu sınıfta belirli seviyelere ulaştığında bu psişik hasar artar, 5'te 3d6, 10'da 5d6, ve 15'te 8d6 olur.\nDehşet Sözleri:3. seviyede, masum görünen sözcükleri dehşet saçan haince bir büyü ile işleyebilirsin.Bir insansıyla en az 1 dakika yalnız konuşursan, zihnine paranoya tohumları yerleştirebilirsin. Konuşmanın sonunda, hedef senin büyü kurtulma DC'ne karşı Akıl kurtulma zarı atar ya da senden veya seçeceğin başka bir varlıktan {@condition korkma} durumunda olur. Hedef bu şekilde korkma durumunda 1 saatliğine, saldırılana ya da hasar alana, veya dostlarına saldırıldığına ya da hasar aldıklarına şahit olana kadar kalır.Eğer hedef kurtulma zarında başarılı olursa, senin onu korkutmaya çalıştığını farketmez.Bu özelliği kullandığında, kısa ya da uzun dinlenme bitirene kadar bir daha kullanamazsın.\n"
+            },
+            {
+              "name": "Fısıltı Örtüsü",
+              "explanation": "6. seviyede, bir insansının karakterine bürünebilirsin. Bir insansı 30 fit yakınında ölürse, reaksiyonunu kullanıp büyü ile onun gölgesini ele geçirebilirsin. Bu gölge onu kullanana ya da uzun dinlenme bitirene kadar sende kalır.Bu gölgeyi eylem olarak kullanabilirsin. Bunu yaptığında, ortadan kaybolur ve senin üzerinde büyülü bir kılık oluşturur. Şimdi sen ölü kişi gibi görünürsün, ama sağlıklı ve canlı. Bu kılık 1 saat ya da sen onu bonus eylem olarak bitirene kadar sürer.Bu kılıktayken, insansının yüzeysel tanıdığı biriyle rahatlıkla paylaşacağı tüm bilgilere sahipsindir. Bu bilgiler geçmişi ve özel hayatını içerir ama sırlar buna dahil değildir. Hafızaları emerek o kişiymiş gibi davranabilmek için gereken bilgiyi toplarsın.Başka bir varlık bu kılığın sahte olduğunu senin Karizma (Aldatma) zarına karşılık Akıl (Sezgi) zarı atarak anlayabilir. Sen zarına +5 bonus alırsın.Bu özellik ile bir gölge yakaladığında, kısa ya da uzun dinlenme bitirene kadar başka bir gölge yakalayamazsın.\n"
+            },
+            {
+              "name": "Gölge Bilgisi",
+              "explanation": "\n14. seviyede, kara büyüyü sözlerine örüp bir varlığın en derin korkularına ulaşmayı öğrenirsin.Eylem olarak, büyü ile sadece 30 fit yakınında seçeceğin bir varlığın duyabileceği bir cümle fısıldarsın. Hedef senin büyü kurtulma DC'ne karşı Akıl kurtulma zarı atar. Eğer senle ortak bir dil paylaşmıyorsa ya da seni duyamıyorsa bu zarda otomatik olarak başarılı olur. Başarılı kurtulma zarında, fısıltın anlamsız homurdanma gibi duyulur ve bir etkisi yoktur.Başarısız olursa, hedef sonraki 8 saat boyunca, sen veya dostların ona saldırana, hasar verene ya da kurtulma zarı attırana kadar senin tarafından {@condition cezbedilme} durumunda olur. Fısıltıları en korkunç sırrının tasviri olarak algılar. Bu sırrın bilgisini almazsın, ama hedef onu bildiğine ikna olmuştur.Cezbedilen varlık onun sırrını ortaya çıkarmandan korktuğu için komutlarına uyar. Zaten baştan böyle bir eğilimi yoksa senin için savaşmaz ya da hayatını riske atmaz. Yakın bir dosta verilecek hediyeleri ve lütufları sana bahşeder.Etki bittiğinde, varlık senden neden o kadar korktuğunu anlamaz.Bu özelliği kullandığında, uzun dinlenme bitirene kadar bir daha kullanamazsın.\n"
+            }
+          ],
+          "source": "XGE",
+          "shortName": "Fısıltılar"
+        }
+      ]
+    }
+  ]
+}
